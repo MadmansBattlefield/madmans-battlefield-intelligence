@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/logo-512.png" alt="Madman's Battlefield Intelligence logo" width="320"></p>
+<p align="center"><img src="assets/question-everything-512.png" alt="Madman's Battlefield Intelligence logo" width="320"></p>
 
 # Madman's Battlefield Intelligence
 
