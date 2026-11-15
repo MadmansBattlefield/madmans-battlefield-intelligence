@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-07",
+  "timezone": "MST",
+  "as_of": "2026-11-07 morning (times in MST)",
+  "source": "public market prints plus confirmed headlines (desk compilation)",
+  "majors": {
+    "BTC": {
+      "usd": 75800,
+      "usd_24h_change": 1
+    },
+    "ETH": {
+      "usd": 2244
+    },
+    "SOL": {
+      "usd": 90
+    }
+  },
+  "watchlist": {
+    "ROUTER": {
+      "usd": 0.00052,
+      "usd_24h_change": -39
+    },
+    "SERV": {
+      "usd": 0.0144
+    },
+    "BP": {
+      "usd": 0.93
+    },
+    "PLUME": {
+      "usd": 0.0133
+    }
+  },
+  "pools": {
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.00052,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 45800
+        },
+        {
+          "dex": "raydium",
+          "chain": "solana",
+          "liq_usd": 14200
+        }
+      ]
+    }
+  },
+  "hacks": [
+    {
+      "name": "Gnosis Pay customer-data leak (funds reported safe)",
+      "source": "news desks",
+      "verified": true
+    },
+    {
+      "name": "TENDRIL (small)",
+      "source": "hack trackers",
+      "verified": false,
+      "label": "unverified amount / details"
+    },
+    {
+      "name": "Loopscale (small)",
+      "source": "hack trackers",
+      "verified": false,
+      "label": "unverified amount / details"
+    }
+  ],
+  "news": [
+    {
+      "title": "Bitcoin funds lost about $430M Thursday; crypto funds overall lost over $540M",
+      "source": "CoinDesk / The Block",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "two Tier B outlets"
+    },
+    {
+      "title": "U.S. added 165k jobs in October, well above the roughly 65k expected, making a December rate cut less likely",
+      "source": "CoinDesk",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "official labor data plus Tier B reporting"
+    },
+    {
+      "title": "Binance-related attackers converted stolen tokens into about $124M of BTC",
+      "source": "The Block",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "U.S. Treasury cut off the MEXC exchange over about $16B in alleged illegal money",
+      "source": "The Block / Decrypt",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "two Tier B outlets"
+    },
+    {
+      "title": "Solrouter (ROUTER) dropped about 39% to roughly $0.00052; main pool shrank to about $45,800",
+      "source": "DexScreener",
+      "tier": "A",
+      "verified": true
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Coinbase planned maintenance",
+      "date": "2026-11-14",
+      "verified": true
+    },
+    {
+      "title": "ZRO unlock of about 23.6M tokens",
+      "date": "2026-11-19",
+      "verified": false
+    }
+  ],
+  "market_notes": [
+    "Majors were roughly flat to slightly higher after Friday's selloff: BTC about $75,800, ETH about $2,244, SOL about $90.",
+    "Solrouter (ROUTER) printed a sharp drop: price about $0.00052 (down about 39% from about $0.00085), main pool about $45,800, second pool about $14,200. This was the weakest main-pool reading since the mid-October thinning began.",
+    "No confirmed hack on the tracked names. Separate incidents (Gnosis Pay data leak; smaller TENDRIL and Loopscale reports) did not involve those names."
+  ]
+}

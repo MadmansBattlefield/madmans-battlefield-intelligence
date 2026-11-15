@@ -1,0 +1,481 @@
+{
+  "date": "2026-10-17",
+  "timezone": "MST",
+  "as_of": "2026-10-17 morning snapshot (times in MST)",
+  "source": "public market snapshot (CoinGecko, DexScreener, DefiLlama Hacks, vetted RSS)",
+  "majors": {
+    "BTC": {
+      "usd": 81491,
+      "usd_24h_change": -1.01
+    },
+    "ETH": {
+      "usd": 2424.36,
+      "usd_24h_change": -2.05
+    },
+    "SOL": {
+      "usd": 104.16,
+      "usd_24h_change": -2.03
+    }
+  },
+  "watchlist": {
+    "ZBCN": {
+      "usd": 0.002146,
+      "usd_24h_change": -5.08
+    },
+    "PLUME": {
+      "usd": 0.01866019,
+      "usd_24h_change": -4.98
+    },
+    "AERO": {
+      "usd": 0.86484,
+      "usd_24h_change": -5.16
+    },
+    "ONDO": {
+      "usd": 0.445126,
+      "usd_24h_change": -4.6
+    },
+    "HBAR": {
+      "usd": 0.083148,
+      "usd_24h_change": -3.99
+    },
+    "TAO": {
+      "usd": 272.23,
+      "usd_24h_change": -5.48
+    },
+    "ZRO": {
+      "usd": 1.9,
+      "usd_24h_change": -12.44
+    },
+    "XRP": {
+      "usd": 1.3,
+      "usd_24h_change": -2.74
+    },
+    "LINK": {
+      "usd": 12.01,
+      "usd_24h_change": -4.91
+    },
+    "SEI": {
+      "usd": 0.063157,
+      "usd_24h_change": -6.08
+    },
+    "JASMY": {
+      "usd": 0.00459631,
+      "usd_24h_change": -4.52
+    },
+    "SERV": {
+      "usd": 0.01675934,
+      "usd_24h_change": -6.97
+    },
+    "ROUTER": {
+      "usd": 0.001736,
+      "usd_24h_change": -13.25
+    },
+    "BP": {
+      "usd": 0.9729,
+      "usd_24h_change": -8.13
+    }
+  },
+  "pools": {
+    "SERV": {
+      "token": "SERV",
+      "price_usd": 0.01704,
+      "chg24": -5.96,
+      "liq_total_usd": 1244818.61,
+      "vol24_usd": 81487.52,
+      "venues": [
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 1200825.22,
+          "price_usd": 0.01704
+        },
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 42792.8,
+          "price_usd": 0.01692
+        },
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 1200.59,
+          "price_usd": 0.01704
+        }
+      ]
+    },
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.001736,
+      "chg24": -13.25,
+      "liq_total_usd": 112113.46,
+      "vol24_usd": 7371.95,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 84431.54,
+          "price_usd": 0.001736
+        },
+        {
+          "dex": "raydium",
+          "chain": "solana",
+          "liq_usd": 27608.45,
+          "price_usd": 0.001773
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 50.34,
+          "price_usd": 0.001726
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 23.13,
+          "price_usd": 0.001778
+        }
+      ]
+    },
+    "BP": {
+      "token": "BP",
+      "price_usd": 0.9729,
+      "chg24": -8.13,
+      "liq_total_usd": 6456468.53,
+      "vol24_usd": 1265539.96,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 5928827.91,
+          "price_usd": 0.9729
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 211615.45,
+          "price_usd": 0.9712
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 91548.95,
+          "price_usd": 0.9703
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 69864.79,
+          "price_usd": 0.9757
+        },
+        {
+          "dex": "raydium",
+          "chain": "solana",
+          "liq_usd": 35832.53,
+          "price_usd": 0.9721
+        }
+      ]
+    }
+  },
+  "hacks": [
+    {
+      "name": "Pirate Chain",
+      "classification": "Token & Share Accounting",
+      "technique": "Unbacked Mint",
+      "chains": [
+        "Pirate Chain"
+      ],
+      "target_type": "Chain",
+      "bridge_hack": false,
+      "source": "DefiLlama Hacks",
+      "verified": true,
+      "date": "2026-10-16"
+    }
+  ],
+  "news": [
+    {
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+      "published_utc": "2026-10-16T15:00:00+00:00",
+      "published_mst": "2026-10-16 08:00 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Celestia - Delayed Sends and Receives",
+      "source": "Coinbase Status",
+      "url": "https://status.coinbase.com/incidents/0zkp7jyg3dqf",
+      "published_utc": "2026-10-17T06:48:22+00:00",
+      "published_mst": "2026-10-16 23:48 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Osmosis (OSMO) - Delayed Sends and Receives",
+      "source": "Coinbase Status",
+      "url": "https://status.coinbase.com/incidents/kjp5db2vnt2p",
+      "published_utc": "2026-10-17T06:47:01+00:00",
+      "published_mst": "2026-10-16 23:47 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Delayed Sends and Receives - Kusama (KSM) Network",
+      "source": "Coinbase Status",
+      "url": "https://status.coinbase.com/incidents/mh155vzgn2wc",
+      "published_utc": "2026-10-16T20:26:33+00:00",
+      "published_mst": "2026-10-16 13:26 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Delayed Sends and Receives - Flare Network",
+      "source": "Coinbase Status",
+      "url": "https://status.coinbase.com/incidents/pzclk21qln2c",
+      "published_utc": "2026-10-16T19:02:59+00:00",
+      "published_mst": "2026-10-16 12:02 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
+      "published_utc": "2026-10-17T14:00:00+00:00",
+      "published_mst": "2026-10-17 07:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Banks could slow stablecoin growth by paying savers more, BIS paper finds",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
+      "published_utc": "2026-10-17T12:00:00+00:00",
+      "published_mst": "2026-10-17 05:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery",
+      "published_utc": "2026-10-17T06:39:48+00:00",
+      "published_mst": "2026-10-16 23:39 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+      "published_utc": "2026-10-17T02:30:00+00:00",
+      "published_mst": "2026-10-16 19:30 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Big Tech's AI auditors will only see what they're shown",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/10/16/big-tech-s-ai-auditors-will-only-see-what-they-re-shown",
+      "published_utc": "2026-10-16T14:58:22+00:00",
+      "published_mst": "2026-10-16 07:58 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Strive’s bitcoin buying spree earns 27% price target hike from TD Cowen",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-10-16-strives-bitcoin-buying-spree-earns-27-price-target-hike-td-cowen-418839",
+      "published_utc": "2026-10-16T20:22:57+00:00",
+      "published_mst": "2026-10-16 13:22 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Coinbase to power stablecoin-backed cards for Marqeta customers",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-16-coinbase-to-power-stablecoin-backed-cards-for-marqeta-customers-418833",
+      "published_utc": "2026-10-16T17:21:29+00:00",
+      "published_mst": "2026-10-16 10:21 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Circle details USDC revenue split, says $819 million went to partners and costs in H1 2026",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
+      "published_utc": "2026-10-16T14:58:29+00:00",
+      "published_mst": "2026-10-16 07:58 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "How Ethereum Works",
+      "source": "The Block",
+      "url": "https://www.theblock.co/learn/ethereum/how-ethereum-works-418525",
+      "published_utc": "2026-10-16T13:31:07+00:00",
+      "published_mst": "2026-10-16 06:31 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "TokenMaxxing: How to Get the Most Out of Your AI Models",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381213/tokenmaxxing-how-get-most-out-your-ai-models",
+      "published_utc": "2026-10-17T13:01:04+00:00",
+      "published_mst": "2026-10-17 06:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Tesla Roadster Rocket Is the Cool 'Flying' Car You Can’t Have",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381184/tesla-roadster-rocket-cool-flying-car-you-cant-have",
+      "published_utc": "2026-10-16T20:16:04+00:00",
+      "published_mst": "2026-10-16 13:16 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Hackers Jailbreak iPhone 18 Pro on Stage, and It Survives a Reboot",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381177/hackers-jailbreak-iphone-18-pro-survives-reboot",
+      "published_utc": "2026-10-16T19:36:04+00:00",
+      "published_mst": "2026-10-16 12:36 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Circle Plans Push Into 40 Emerging Markets as Stablecoins Go Mainstream, CEO Says",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381178/circle-40-emerging-markets-stablecoins-go-mainstream",
+      "published_utc": "2026-10-16T18:55:37+00:00",
+      "published_mst": "2026-10-16 11:55 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitcoin Treasury Giant Strategy Faces Index Removal Under Finalized MSCI Rules",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381168/bitcoin-treasury-giant-strategy-faces-index-removal-under-finalized-msci-rules",
+      "published_utc": "2026-10-16T18:16:04+00:00",
+      "published_mst": "2026-10-16 11:16 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "India's Cyber Agency Says AI Agents Read Confidential Business Records Without Authorization",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381165/indias-cyber-agency-ai-agents-read-confidential-business-records",
+      "published_utc": "2026-10-16T17:48:06+00:00",
+      "published_mst": "2026-10-16 10:48 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "CFTC Wants to Drop Gemini’s $5M Settlement. A Judge Just Said No",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381149/cftc-wants-drop-gemini-5m-settlement-judge-said-no",
+      "published_utc": "2026-10-16T16:36:04+00:00",
+      "published_mst": "2026-10-16 09:36 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Bitcoin Bounces, But Where Does It Go Next? Here’s What the Charts Say",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381150/bitcoin-price-rebounds-where-next-charts",
+      "published_utc": "2026-10-16T16:06:05+00:00",
+      "published_mst": "2026-10-16 09:06 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Three Canadian Armed Forces Members Charged in Kidnapping of Crypto Exchange Owner",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381148/three-canadian-armed-forces-members-charged-in-kidnapping-of-crypto-exchange-owner",
+      "published_utc": "2026-10-16T15:43:58+00:00",
+      "published_mst": "2026-10-16 08:43 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Judge rejects CFTC, Gemini bid to vacate $5 million settlement - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPamRGbnhqOWFNVXc1dk9nVTI5ZExzTHcwbHZTdTQxVDNfdXNvQVhseGpMNDlneFB4TXJwU0FWa291YlB2OU1uRS1ITWJ3T3VIOVBtSkVaYzRwSTlUWVRUOWhwWG85UHI0RnBQOV9lLXE1NW5XZ0dtdXBsVk1oU0lJaHZMNFJYRUhtYmNMdHU4NXEyTmpneFdHeWZoQXJqXzBvN1hMUg?oc=5",
+      "published_utc": "2026-10-16T16:10:37+00:00",
+      "published_mst": "2026-10-16 09:10 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Even I’m Getting Nervous",
+      "source": "Altcoin Daily",
+      "url": "https://www.youtube.com/watch?v=PHd6bhMzFJc",
+      "published_utc": "2026-10-16T22:53:49+00:00",
+      "published_mst": "2026-10-16 15:53 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "🏴 Pearl’s AI Twist on Mining",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/pearls-ai-twist-on-bitcoin-mining",
+      "published_utc": "2026-10-16T20:26:09+00:00",
+      "published_mst": "2026-10-16 13:26 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "Pump.fun Adds Leveraged Perps via Hyperliquid",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/news/pump-fun-adds-leveraged-perps-via-hyperliquid",
+      "published_utc": "2026-10-16T19:45:29+00:00",
+      "published_mst": "2026-10-16 12:45 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "Pearl and the Security Budget Bitcoin Can't Solve",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/who-pays-for-proof-of-work-pearl-has-an-answer",
+      "published_utc": "2026-10-16T19:34:55+00:00",
+      "published_mst": "2026-10-16 12:34 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "OpenAI Model Helped Itself to Testnet ETH Without Permission",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/news/openai-model-helped-itself-to-testnet-eth-to-finish-a-coding-task",
+      "published_utc": "2026-10-16T19:13:41+00:00",
+      "published_mst": "2026-10-16 12:13 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "Balaji's Network School Buys Farcaster From Neynar",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/news/balaji-s-network-school-buys-farcaster-from-neynar",
+      "published_utc": "2026-10-16T18:53:36+00:00",
+      "published_mst": "2026-10-16 11:53 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    }
+  ],
+  "calendar": [],
+  "market_notes": [
+    "Majors: BTC $81,491 (down -1.0%), ETH $2,424 (down -2.0%), SOL $104.16 (down -2.0%).",
+    "BTC is -1.0% vs the prior report (2026-10-16, $82,336).",
+    "Solrouter (ROUTER): price $0.0017; main Meteora pool liquidity $84,432; listed venues combined $112,113.",
+    "Hack tracker entries attached to this snapshot: Pirate Chain."
+  ]
+}

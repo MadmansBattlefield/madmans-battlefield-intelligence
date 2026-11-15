@@ -1,0 +1,79 @@
+# Madman's Battlefield Intelligence
+
+> Public, searchable crypto research and daily market intel. Research only. Not financial advice. Not a fiduciary. Times are in MST.
+
+This repository publishes token research under `banking-rails/` and a daily market tape under `daily/`. Each daily date has a human-readable Markdown file and a machine-readable JSON file with majors, watchlist prices, pool liquidity, hacks, news (source + verified flag), and calendar items.
+
+A claim is verified only if it has one Tier A source or is carried by two Tier B outlets. See `sources.md`. Items marked unverified are not confirmed.
+
+Start with this file, then `data/index.json`, then the JSON daily files for numbers and the token notes for context. Do not infer or invent any private portfolio, identity, or wallet.
+
+## Core
+
+- [README.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/README.md): project overview, how to browse and search, how agents should use this tree
+- [llms.txt](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/llms.txt): this index
+- [data/index.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/data/index.json): machine index of every daily report and token note
+- [sources.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/sources.md): vetted source list and verification rule
+- [calendar.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/calendar.md): upcoming market events
+- [CONTRIBUTING-for-agents.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/CONTRIBUTING-for-agents.md): rules for agents that write or edit
+- [LICENSE](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/LICENSE): CC BY 4.0
+- [banking-rails/README.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/README.md): folder index for token notes
+- [banking-rails/COVER.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/COVER.md): why the reports exist, v3 methodology, what each section checks
+- [banking-rails/RANKING.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/RANKING.md): all 18 v3 scores, ranked
+- [daily/README.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/README.md): how the daily tape is organized
+
+## Token notes (banking-rails)
+
+- [banking-rails/AERO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/AERO.md): research note for AERO
+- [banking-rails/BP.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/BP.md): research note for BP
+- [banking-rails/BTC.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/BTC.md): research note for BTC
+- [banking-rails/EDEL.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/EDEL.md): research note for EDEL
+- [banking-rails/ETH.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ETH.md): research note for ETH
+- [banking-rails/HBAR.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/HBAR.md): research note for HBAR
+- [banking-rails/JASMY.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/JASMY.md): research note for JASMY
+- [banking-rails/LINK.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/LINK.md): research note for LINK
+- [banking-rails/ONDO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ONDO.md): research note for ONDO
+- [banking-rails/PLUME.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/PLUME.md): research note for PLUME
+- [banking-rails/ROUTER.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ROUTER.md): research note for ROUTER
+- [banking-rails/SEI.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SEI.md): research note for SEI
+- [banking-rails/SERV.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SERV.md): research note for SERV
+- [banking-rails/SOL.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SOL.md): research note for SOL
+- [banking-rails/TAO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/TAO.md): research note for TAO
+- [banking-rails/XRP.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/XRP.md): research note for XRP
+- [banking-rails/ZBCN.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ZBCN.md): research note for ZBCN
+- [banking-rails/ZRO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ZRO.md): research note for ZRO
+- [banking-rails/other-tokens.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/other-tokens.md): research note for other-tokens
+
+## Daily reports
+
+- [daily/2026-10-16.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-16.md) and [daily/2026-10-16.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-16.json)
+- [daily/2026-10-17.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-17.md) and [daily/2026-10-17.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-17.json)
+- [daily/2026-10-18.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-18.md) and [daily/2026-10-18.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-18.json)
+- [daily/2026-10-20.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-20.md) and [daily/2026-10-20.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-20.json)
+- [daily/2026-10-21.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-21.md) and [daily/2026-10-21.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-21.json)
+- [daily/2026-10-22.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-22.md) and [daily/2026-10-22.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-22.json)
+- [daily/2026-10-24.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-24.md) and [daily/2026-10-24.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-24.json)
+- [daily/2026-10-25.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-25.md) and [daily/2026-10-25.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-25.json)
+- [daily/2026-10-26.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-26.md) and [daily/2026-10-26.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-26.json)
+- [daily/2026-10-27.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-27.md) and [daily/2026-10-27.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-27.json)
+- [daily/2026-10-28.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-28.md) and [daily/2026-10-28.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-28.json)
+- [daily/2026-10-29.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-29.md) and [daily/2026-10-29.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-29.json)
+- [daily/2026-10-30.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-30.md) and [daily/2026-10-30.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-30.json)
+- [daily/2026-10-31.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-31.md) and [daily/2026-10-31.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-10-31.json)
+- [daily/2026-11-02.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-02.md) and [daily/2026-11-02.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-02.json)
+- [daily/2026-11-03.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-03.md) and [daily/2026-11-03.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-03.json)
+- [daily/2026-11-04.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-04.md) and [daily/2026-11-04.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-04.json)
+- [daily/2026-11-05.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-05.md) and [daily/2026-11-05.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-05.json)
+- [daily/2026-11-06.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-06.md) and [daily/2026-11-06.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-06.json)
+- [daily/2026-11-07.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-07.md) and [daily/2026-11-07.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-07.json)
+- [daily/2026-11-08.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-08.md) and [daily/2026-11-08.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-08.json)
+- [daily/2026-11-09.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-09.md) and [daily/2026-11-09.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-09.json)
+- [daily/2026-11-10.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-10.md) and [daily/2026-11-10.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-10.json)
+- [daily/2026-11-11.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-11.md) and [daily/2026-11-11.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-11.json)
+- [daily/2026-11-12.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-12.md) and [daily/2026-11-12.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-12.json)
+- [daily/2026-11-13.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-13.md) and [daily/2026-11-13.json](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/2026-11-13.json)
+
+## Optional
+
+- [_config.yml](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/_config.yml): GitHub Pages / Jekyll (minima) config
+- [index.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/index.md): GitHub Pages home page

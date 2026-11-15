@@ -1,0 +1,646 @@
+{
+  "date": "2026-11-02",
+  "timezone": "MST",
+  "as_of": "2026-11-02 morning snapshot (times in MST)",
+  "source": "public market snapshot (CoinGecko, DexScreener, DefiLlama Hacks, vetted RSS)",
+  "majors": {
+    "BTC": {
+      "usd": 77969,
+      "usd_24h_change": -0.0
+    },
+    "ETH": {
+      "usd": 2292.42,
+      "usd_24h_change": 1.03
+    },
+    "SOL": {
+      "usd": 94.38,
+      "usd_24h_change": -0.75
+    }
+  },
+  "watchlist": {
+    "ZBCN": {
+      "usd": 0.00200297,
+      "usd_24h_change": -4.75
+    },
+    "PLUME": {
+      "usd": 0.01492353,
+      "usd_24h_change": -2.66
+    },
+    "AERO": {
+      "usd": 0.621353,
+      "usd_24h_change": -3.18
+    },
+    "ONDO": {
+      "usd": 0.393387,
+      "usd_24h_change": -3.33
+    },
+    "HBAR": {
+      "usd": 0.070804,
+      "usd_24h_change": -1.22
+    },
+    "TAO": {
+      "usd": 229.7,
+      "usd_24h_change": -2.35
+    },
+    "ZRO": {
+      "usd": 1.77,
+      "usd_24h_change": -7.34
+    },
+    "XRP": {
+      "usd": 1.25,
+      "usd_24h_change": 0.24
+    },
+    "LINK": {
+      "usd": 11.35,
+      "usd_24h_change": -1.73
+    },
+    "SEI": {
+      "usd": 0.04772026,
+      "usd_24h_change": -0.67
+    },
+    "JASMY": {
+      "usd": 0.00371986,
+      "usd_24h_change": -1.86
+    },
+    "SERV": {
+      "usd": 0.01507609,
+      "usd_24h_change": -7.56
+    },
+    "ROUTER": {
+      "usd": 0.0009828,
+      "usd_24h_change": 18.25
+    },
+    "BP": {
+      "usd": 0.921,
+      "usd_24h_change": -0.99
+    }
+  },
+  "pools": {
+    "SERV": {
+      "token": "SERV",
+      "price_usd": 0.01499,
+      "chg24": -6.9,
+      "liq_total_usd": 1140491.05,
+      "vol24_usd": 56066.69,
+      "venues": [
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 1100046.8,
+          "price_usd": 0.01499
+        },
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 39382.08,
+          "price_usd": 0.01499
+        },
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 1062.17,
+          "price_usd": 0.01491
+        }
+      ]
+    },
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.0009828,
+      "chg24": 18.25,
+      "liq_total_usd": 81735.34,
+      "vol24_usd": 6978.15,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 61600.41,
+          "price_usd": 0.0009828
+        },
+        {
+          "dex": "raydium",
+          "chain": "solana",
+          "liq_usd": 20078.5,
+          "price_usd": 0.0009712
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 16.1,
+          "price_usd": 0.0009523
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 40.33,
+          "price_usd": 0.0009735
+        }
+      ]
+    },
+    "BP": {
+      "token": "BP",
+      "price_usd": 0.921,
+      "chg24": -0.99,
+      "liq_total_usd": 6485102.69,
+      "vol24_usd": 779826.19,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 5929530.36,
+          "price_usd": 0.921
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 204216.92,
+          "price_usd": 0.9204
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 99726.42,
+          "price_usd": 0.9245
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 54232.71,
+          "price_usd": 0.9252
+        },
+        {
+          "dex": "raydium",
+          "chain": "solana",
+          "liq_usd": 50289.13,
+          "price_usd": 0.9228
+        }
+      ]
+    }
+  },
+  "hacks": [
+    {
+      "name": "b14g",
+      "classification": "Protocol Logic",
+      "technique": "Unknown",
+      "chains": [
+        "CORE"
+      ],
+      "target_type": "DeFi Protocol",
+      "bridge_hack": false,
+      "description": "On October 31, 2026, an attacker withdrew approximately 97 million CORE from assets staked through b14g and transferred them to attacker-controlled addresses. The protocol paused the affected contracts and coordinated with security partners and exchanges to trace the stolen funds. Approximately 68 million CORE remained on Core, while exchanges froze another 9 million CORE. BTC staked through b14g was unaffected and remained time-locked on Bitcoin",
+      "source": "DefiLlama Hacks",
+      "verified": true,
+      "date": "2026-10-31"
+    },
+    {
+      "name": "Premia V3",
+      "amount_usd": 437000,
+      "classification": "Protocol Logic",
+      "technique": "Withdrawal Logic Flaw",
+      "chains": [
+        "Arbitrum"
+      ],
+      "target_type": "DeFi Protocol",
+      "bridge_hack": false,
+      "source": "DefiLlama Hacks",
+      "verified": true,
+      "date": "2026-11-01"
+    },
+    {
+      "name": "Troves",
+      "amount_usd": 666935,
+      "classification": "Access Control",
+      "technique": "Improper Access Control",
+      "target_type": "DeFi Protocol",
+      "bridge_hack": false,
+      "description": "On October 31, an attacker exploited permissions retained by a legacy rebalancing contract after it had been replaced, resulting in approximately 8.6 BTC in losses from Troves' xWBTC/WBTC vault. Troves revoked the legacy contract's permissions and paused three vaults as a precaution. No impact on other vaults has been identified",
+      "source": "DefiLlama Hacks",
+      "verified": true,
+      "date": "2026-10-31"
+    }
+  ],
+  "news": [
+    {
+      "title": "Degraded Performance - DEX, Borrow and Lend",
+      "source": "Coinbase Status",
+      "url": "https://status.coinbase.com/incidents/gtbbshmr3k4r",
+      "published_utc": "2026-11-02T09:41:52+00:00",
+      "published_mst": "2026-11-02 02:41 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Aerodrome Finance (AERO) and Velodrome Finance (VELO) migration",
+      "source": "Coinbase Status",
+      "url": "https://status.coinbase.com/incidents/1bss81mzl4kf",
+      "published_utc": "2026-11-02T08:00:08+00:00",
+      "published_mst": "2026-11-02 01:00 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "FIX-API Maintenance",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/1bcxp406wt38",
+      "published_utc": "2026-11-02T15:00:00+00:00",
+      "published_mst": "2026-11-02 08:00 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Coinbase downgraded at Morgan Stanely; price target slashed 53% on weak earnings outlook",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/02/morgan-stanley-downgrades-coinbase-slashes-price-target-53-on-weak-earnings-outlook",
+      "published_utc": "2026-11-02T14:29:33+00:00",
+      "published_mst": "2026-11-02 07:29 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Tokenization firm tZERO plans to go public in $350 million SPAC deal",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/01/tokenization-firm-tzero-plans-to-go-public-in-usd350-million-spac-deal",
+      "published_utc": "2026-11-02T14:00:00+00:00",
+      "published_mst": "2026-11-02 07:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "XRP Ledger set to fix flaw that could let stablecoin partners print new tokens",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens",
+      "published_utc": "2026-11-02T12:37:24+00:00",
+      "published_mst": "2026-11-02 05:37 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitcoin's 'volatility curve' has a midterm bump",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/02/bitcoin-s-volatility-curve-has-a-midterm-bump",
+      "published_utc": "2026-11-02T12:30:17+00:00",
+      "published_mst": "2026-11-02 05:30 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "No proof of AI in North Korean hackers move of stolen Binance funds",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/02/no-proof-of-ai-in-north-korean-hackers-move-of-stolen-binance-funds-through-thousands-of-wallets",
+      "published_utc": "2026-11-02T11:57:45+00:00",
+      "published_mst": "2026-11-02 04:57 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Bitcoin eases to $77,900 as Binance customers pull $3.6 billion after withdrawals reopen",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-eases-to-usd77-900-as-binance-customers-pull-usd3-6-billion-after-withdrawals-reopen",
+      "published_utc": "2026-11-02T11:30:00+00:00",
+      "published_mst": "2026-11-02 04:30 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Metals.io issues tokens backed by 25 tonnes of physical copper stored in Germany",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/02/metals-io-issues-tokens-backed-by-25-tonnes-of-physical-copper-stored-in-germany",
+      "published_utc": "2026-11-02T09:33:20+00:00",
+      "published_mst": "2026-11-02 02:33 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
+      "published_utc": "2026-11-02T09:04:49+00:00",
+      "published_mst": "2026-11-02 02:04 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Live updates: Bitcoin posts small rise as Binance records $6 billion outflows after starting withdrawals",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
+      "published_utc": "2026-11-02T08:49:30+00:00",
+      "published_mst": "2026-11-02 01:49 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "China’s Communist Party calls for a crackdown on corruption that uses crypto and blockchain",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/02/china-s-communist-party-calls-for-a-crackdown-on-corruption-that-uses-crypto-and-blockchain",
+      "published_utc": "2026-11-02T08:41:28+00:00",
+      "published_mst": "2026-11-02 01:41 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Why stealing billions from a crypto exchange can be harder to stop than a bank theft",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/02/why-crypto-exchange-hacks-can-be-harder-to-contain-versus-global-banks",
+      "published_utc": "2026-11-02T08:32:01+00:00",
+      "published_mst": "2026-11-02 01:32 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-etfs-lost-usd643-million-in-outflows-friday-and-2026-is-barely-green-now",
+      "published_utc": "2026-11-02T06:46:41+00:00",
+      "published_mst": "2026-11-01 23:46 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Strangers are begging the Binance hacker for bitcoin, one ‘help me bro’ at a time",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/02/strangers-are-begging-the-binance-hacker-for-bitcoin-one-help-me-bro-at-a-time",
+      "published_utc": "2026-11-02T05:18:12+00:00",
+      "published_mst": "2026-11-01 22:18 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack",
+      "published_utc": "2026-11-02T04:42:22+00:00",
+      "published_mst": "2026-11-01 21:42 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/02/btcpay-a-bitcoin-payment-tool-tells-users-to-switch-off-their-servers-after-reports-of-drained-wallets",
+      "published_utc": "2026-11-02T04:41:16+00:00",
+      "published_mst": "2026-11-01 21:41 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "The crypto reader's guide to the 2026 midterm election: State of Crypto",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/01/the-crypto-reader-s-guide-to-the-2026-midterm-election-state-of-crypto",
+      "published_utc": "2026-11-01T19:30:00+00:00",
+      "published_mst": "2026-11-01 12:30 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+      "published_utc": "2026-11-01T17:00:00+00:00",
+      "published_mst": "2026-11-01 10:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "The key races to watch for the 2026 election",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/01/the-key-races-to-watch-for-the-2026-election",
+      "published_utc": "2026-11-01T15:00:00+00:00",
+      "published_mst": "2026-11-01 08:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Crypto card startups are racking up losses just to buy your loyalty with big rewards",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/01/crypto-card-startups-are-racking-up-losses-just-to-buy-your-loyalty-with-big-rewards",
+      "published_utc": "2026-11-01T15:00:00+00:00",
+      "published_mst": "2026-11-01 08:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Crypto PACs made big Republican push in final weeks before November 3 election",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+      "published_utc": "2026-11-01T14:00:00+00:00",
+      "published_mst": "2026-11-01 07:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Sherrod Brown's Ohio edge threatens a rough go for crypto next year",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/news-analysis/2026/11/01/sherrod-brown-s-ohio-edge-threatens-a-rough-go-for-crypto-next-year",
+      "published_utc": "2026-11-01T13:00:00+00:00",
+      "published_mst": "2026-11-01 06:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitmine adds 8,573 ETH as Tom Lee flags muted Binance hack reaction",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-02-bitmine-adds-8573-eth-tom-lee-flags-muted-binance-hack-reaction-432307",
+      "published_utc": "2026-11-02T14:40:53+00:00",
+      "published_mst": "2026-11-02 07:40 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "‘We found room for even more orange’: Michael Saylor’s Strategy scoops up another 811 bitcoin for $65.5 million",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylor-strategy-bitcoin-btc-432275",
+      "published_utc": "2026-11-02T13:09:43+00:00",
+      "published_mst": "2026-11-02 06:09 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Spot bitcoin ETFs see largest daily outflows in four months following record Binance hack",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-11-01-spot-bitcoin-etfs-largest-four-months-following-binance-hack-432270",
+      "published_utc": "2026-11-02T04:11:05+00:00",
+      "published_mst": "2026-11-01 21:11 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "North Korean hackers launder $242 million of Binance loot via Tron as FBI presses THORChain: analyst",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-11-01-north-korean-hackers-launder-242-million-of-binance-loot-via-tron-as-fbi-presses-thorchain-analyst-432257",
+      "published_utc": "2026-11-01T18:25:48+00:00",
+      "published_mst": "2026-11-01 11:25 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Binance sees $3.64 billion in net outflows after reopening withdrawals following record hack",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259",
+      "published_utc": "2026-11-01T16:32:31+00:00",
+      "published_mst": "2026-11-01 09:32 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Morning Minute: Binance Hack Leads to Mass Outflows While FBI Opens Probe",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382332/morning-minute-the-binance-hack-leads-to-mass-outflows-while-fbi-opens-probe",
+      "published_utc": "2026-11-02T13:34:02+00:00",
+      "published_mst": "2026-11-02 06:34 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Strategy Resumes Bitcoin Buys With $66M Purchase",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382333/strategy-resumes-bitcoin-buys-with-66m-purchase",
+      "published_utc": "2026-11-02T13:19:36+00:00",
+      "published_mst": "2026-11-02 06:19 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "BTCPay Tells Merchants to Switch Off Servers Amid Hot Wallet Attack Reports",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382324/btcpay-tells-merchants-to-switch-off-servers-amid-hot-wallet-attack-reports",
+      "published_utc": "2026-11-02T12:24:18+00:00",
+      "published_mst": "2026-11-02 05:24 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "FBI Blames North Korea for $6B Binance Hack as Exchange Reopens Withdrawals",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382316/fbi-blames-north-korea-for-6b-binance-hack-as-exchange-reopens-withdrawals",
+      "published_utc": "2026-11-02T10:36:19+00:00",
+      "published_mst": "2026-11-02 03:36 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack",
+      "published_utc": "2026-11-01T16:01:02+00:00",
+      "published_mst": "2026-11-01 09:01 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "How to Run an AI Model Locally—And Why You Might Want To",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382295/how-to-run-ai-model-locally-why-you-might-want",
+      "published_utc": "2026-11-01T14:01:02+00:00",
+      "published_mst": "2026-11-01 07:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Binance says customers pulled net $4.7 billion after hack as crypto world weighs risk - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdXY4a011WkVOZHRKb3FKU2lMRzNwbGlwOUFPWFdMWVcycnhkeVd2aDZpc0tfclNqYTFsS1lkR1JGT1dqYXJkU1pIeDhITThrWm43QldpMFEwNnItS0k2a1hSckF4TU5rdlkxMnBjUnRfTThHY1AyVDlkaFFrRElKOUppaDU1NXg3a0dEUmY1VWtCNDVKM3pHLUlyOHV1TjZHdElqRUUzR1g5VThQcDYyV3NQSTNkYkFZMEVzM0ZHV2dYRGFsV1NLWWpWeGxyQQ?oc=5",
+      "published_utc": "2026-11-02T01:53:00+00:00",
+      "published_mst": "2026-11-01 18:53 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Dollar dips ahead of US midterms; bitcoin stabilises after crypto heist - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb2NfWVhRd1dsZXVELVl6emxWenVBSzdWTFVpcjlPaUtVNmgwbklnaHctbWF2VjdTTTJxQ3c4NzZZSGpSTG1QaThQQUZHY1RmeENqcTZNend0eDBla0dFNThjejRfM2dTdm1JYW9vd0duUnZFVUNWQUhETi1RVmZxNWxBZ2gzZEdBWTdGNnVqMmxVeUlKVUZPX0ttc3pnLUUxOGpoa1hpdVZNWWZrVkx6c3FoTkluMDRB?oc=5",
+      "published_utc": "2026-11-02T00:57:00+00:00",
+      "published_mst": "2026-11-01 17:57 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Michigan Senate race, Binance and bull semen - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMWdKbjFHMFB0R1h0R0RZbktvaTcwd3JWc00xR3BUMU5rQUxVNEoxUVRFRVJucGZwcU1jdlBHMk1YWHdXZE4yd2VyTTJWaXJRNzEySV91V3VKU1BDWTREajVYYmJSSHNWdWNlbDVCMmZaUHNhR0NNNXZtZ0F2bTMxX1NJXy1rOHlRbUlJ?oc=5",
+      "published_utc": "2026-11-02T11:06:00+00:00",
+      "published_mst": "2026-11-02 04:06 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "PODCAST: Michigan Senate race, Binance and bull semen - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN2V5UzVxeVdOQV94Y3VxdUZwYzB5c2xGV1lIM3FVNlMxaFN6RkQxb1htSVJubXZfSGFkM1BpOW85OEJyZGFXaGEwVnR4TWJmQXQ3Z3BxM29rWHJ3ZjdyMWN3R2txWUxYOGc0UkVfZlNiZmNZSzNyb0N4RWJKbGRTSjJnZHN5MDNtdThoOQ?oc=5",
+      "published_utc": "2026-11-02T12:04:55+00:00",
+      "published_mst": "2026-11-02 05:04 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "A Binance 'confidence hit': The latest from Morning Bid - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SOVk5SV9Md1c4eWZpM1hOQ29ScHlsYlc0UW5LREY5UmhHdFlydHhaZWF6Yk9xeV9yZnhpMkhfZmpzc01PWjRYMTZ3alZtM2JTRGlHcEF6NWhqeVBZNEVsX09sUmJWYTVvOHZZelh5dlNUX2E3aDZibQ?oc=5",
+      "published_utc": "2026-11-02T13:36:20+00:00",
+      "published_mst": "2026-11-02 06:36 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Explainer: Could hackers get inside my fridge? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNXh1NUF4b1lSVjI3SGxvSjhDV254ejhsVW1iUG1TUl9YQ2JlVndzbnozLWdHbFp3Qkk0V1ltY1BQXzZndDFJRFh0QmlpOHl4TnlNa29wbXV4YUF4WDhiZHVteVBVd0FEbEVWVXB5SVhtX2kxQUZuWGowcV9PZWx0NGxkRzhBTlV4elprRjZhVDR3TGd0UktCXw?oc=5",
+      "published_utc": "2026-11-02T01:05:26+00:00",
+      "published_mst": "2026-11-01 18:05 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Crypto Insider Reveals The NEXT Zcash (10x Potential) | Steven Mcclurg Canary Capital",
+      "source": "Altcoin Daily",
+      "url": "https://www.youtube.com/watch?v=Cc4qzBPn4s0",
+      "published_utc": "2026-11-01T18:55:44+00:00",
+      "published_mst": "2026-11-01 11:55 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Notice of select native pairs moving to synthetic pairs",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/qrp07pm4w0bs",
+      "published_utc": "2026-11-10T22:59:00+00:00",
+      "published_mst": "2026-11-10 15:59 MST",
+      "tier": "A",
+      "verified": true,
+      "kind": "scheduled"
+    },
+    {
+      "title": "Dart Vendor Maintenace (Dart Bank: US wires via virtual accounts, and ACH)",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/yf5kr5m88m9g",
+      "published_utc": "2026-11-03T22:00:00+00:00",
+      "published_mst": "2026-11-03 15:00 MST",
+      "tier": "A",
+      "verified": true,
+      "kind": "scheduled"
+    }
+  ],
+  "market_notes": [
+    "Majors: BTC $77,969 (flat -0.0%), ETH $2,292 (up +1.0%), SOL $94.38 (down -0.8%).",
+    "BTC is +0.7% vs the prior report (2026-10-31, $77,452).",
+    "Solrouter (ROUTER): price $0.000983; main Meteora pool liquidity $61,600; main-pool liquidity is under the $75,000 thinning-watch level used in these notes; listed venues combined $81,735.",
+    "Hack tracker entries attached to this snapshot: b14g, Premia V3, Troves."
+  ]
+}

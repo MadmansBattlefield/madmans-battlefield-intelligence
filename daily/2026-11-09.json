@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-09",
+  "timezone": "MST",
+  "as_of": "2026-11-09 morning (times in MST)",
+  "source": "public market prints plus confirmed headlines (desk compilation). Sunday Nov 8 had a snapshot; this is the Monday update.",
+  "majors": {
+    "BTC": {
+      "usd": 74300,
+      "usd_24h_change": -2
+    },
+    "ETH": {
+      "usd": 2116
+    },
+    "SOL": {
+      "usd": 86.9
+    }
+  },
+  "watchlist": {
+    "ROUTER": {
+      "usd": 0.000485,
+      "usd_24h_change": -16
+    },
+    "SERV": {
+      "usd": 0.0129
+    },
+    "PLUME": {
+      "usd": 0.0128
+    }
+  },
+  "pools": {
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.000485,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 42600
+        }
+      ],
+      "liq_total_usd": 55900
+    }
+  },
+  "hacks": [
+    {
+      "name": "Ankr bridge",
+      "amount_usd": 304000,
+      "source": "security reports",
+      "verified": false,
+      "label": "unverified at time of note; later listed on DefiLlama Hacks"
+    },
+    {
+      "name": "ACryptoS",
+      "amount_usd": 665000,
+      "description": "protocol reported shutting down",
+      "verified": false,
+      "label": "unverified at time of note; later listed on DefiLlama Hacks"
+    },
+    {
+      "name": "Keplr wallet thefts",
+      "source": "security reports",
+      "verified": false,
+      "label": "unverified at time of note; later listed on DefiLlama Hacks"
+    }
+  ],
+  "news": [],
+  "calendar": [
+    {
+      "title": "Coinbase planned maintenance",
+      "date": "2026-11-14",
+      "verified": true
+    },
+    {
+      "title": "ZRO unlock of about 23.6M tokens",
+      "date": "2026-11-19",
+      "verified": false
+    }
+  ],
+  "market_notes": [
+    "Majors slipped: BTC about $74,300, ETH about $2,116, SOL about $86.90.",
+    "Solrouter (ROUTER) main pool printed a new low near $42,600; both pools together about $55,900. Price about $0.000485 (down about 16%). No founder-departure or paying-customer announcement.",
+    "Ankr bridge (~$304k), ACryptoS (~$665k, shutdown reported) and Keplr wallet thefts were circulating; they were not yet independently confirmed in the morning note and do not involve the core tracked names. DefiLlama later listed them."
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "date": "2026-10-25",
+  "timezone": "MST",
+  "as_of": "2026-10-25 morning snapshot (times in MST)",
+  "source": "public market snapshot (CoinGecko, DexScreener, DefiLlama Hacks, vetted RSS)",
+  "majors": {
+    "BTC": {
+      "usd": 80267,
+      "usd_24h_change": -0.07
+    },
+    "ETH": {
+      "usd": 2329.45,
+      "usd_24h_change": -0.84
+    },
+    "SOL": {
+      "usd": 100.67,
+      "usd_24h_change": 0.01
+    }
+  },
+  "watchlist": {
+    "ZBCN": {
+      "usd": 0.00219789,
+      "usd_24h_change": 6.57
+    },
+    "PLUME": {
+      "usd": 0.01569387,
+      "usd_24h_change": -0.47
+    },
+    "AERO": {
+      "usd": 0.686238,
+      "usd_24h_change": -1.64
+    },
+    "ONDO": {
+      "usd": 0.400225,
+      "usd_24h_change": -1.11
+    },
+    "HBAR": {
+      "usd": 0.076516,
+      "usd_24h_change": 0.38
+    },
+    "TAO": {
+      "usd": 247.74,
+      "usd_24h_change": -0.02
+    },
+    "ZRO": {
+      "usd": 1.7,
+      "usd_24h_change": 0.93
+    },
+    "XRP": {
+      "usd": 1.29,
+      "usd_24h_change": 1.12
+    },
+    "LINK": {
+      "usd": 11.32,
+      "usd_24h_change": -1.53
+    },
+    "SEI": {
+      "usd": 0.052244,
+      "usd_24h_change": -2.12
+    },
+    "JASMY": {
+      "usd": 0.00434311,
+      "usd_24h_change": -1.35
+    },
+    "SERV": {
+      "usd": 0.01509589,
+      "usd_24h_change": -0.46
+    },
+    "ROUTER": {
+      "usd": 0.001511,
+      "usd_24h_change": -0.45
+    },
+    "BP": {
+      "usd": 0.9925,
+      "usd_24h_change": 1.51
+    }
+  },
+  "pools": {
+    "SERV": {
+      "token": "SERV",
+      "price_usd": 0.01502,
+      "chg24": 0.03,
+      "liq_total_usd": 1148644.83,
+      "vol24_usd": 18419.65,
+      "venues": [
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 1107938.0,
+          "price_usd": 0.01502
+        },
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 39649.4,
+          "price_usd": 0.01501
+        },
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 1057.43,
+          "price_usd": 0.01495
+        }
+      ]
+    },
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.001511,
+      "chg24": -0.45,
+      "liq_total_usd": 102784.95,
+      "vol24_usd": 32914.56,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 77321.09,
+          "price_usd": 0.001511
+        },
+        {
+          "dex": "raydium",
+          "chain": "solana",
+          "liq_usd": 25394.66,
+          "price_usd": 0.001516
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 47.93,
+          "price_usd": 0.001505
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 21.27,
+          "price_usd": 0.001556
+        }
+      ]
+    },
+    "BP": {
+      "token": "BP",
+      "price_usd": 0.9925,
+      "chg24": 1.51,
+      "liq_total_usd": 6986132.85,
+      "vol24_usd": 754253.27,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 6399619.95,
+          "price_usd": 0.9925
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 215557.58,
+          "price_usd": 0.9879
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 103556.42,
+          "price_usd": 0.9888
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 57193.74,
+          "price_usd": 0.9915
+        },
+        {
+          "dex": "pancakeswap",
+          "chain": "solana",
+          "liq_usd": 42950.38,
+          "price_usd": 0.9892
+        }
+      ]
+    }
+  },
+  "hacks": [
+    {
+      "name": "Initia",
+      "amount_usd": 2600000,
+      "classification": "Token & Share Accounting",
+      "technique": "Infinite Mint",
+      "chains": [
+        "Initia"
+      ],
+      "target_type": "Chain",
+      "bridge_hack": false,
+      "source": "DefiLlama Hacks",
+      "verified": true,
+      "date": "2026-10-23"
+    }
+  ],
+  "news": [
+    {
+      "title": "Delayed Withdrawals - Interac e-Transfer",
+      "source": "Coinbase Status",
+      "url": "https://status.coinbase.com/incidents/j4tjnbxsw12l",
+      "published_utc": "2026-10-25T07:23:25+00:00",
+      "published_mst": "2026-10-25 00:23 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Scheduled Bank Maintenance - Singapore (SGD)",
+      "source": "Coinbase Status",
+      "url": "https://status.coinbase.com/incidents/hxl92rz4fg66",
+      "published_utc": "2026-10-24T21:10:07+00:00",
+      "published_mst": "2026-10-24 14:10 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Oct 24, 2026 Scheduled Maintenance - Crypto Sends and Receives",
+      "source": "Coinbase Status",
+      "url": "https://status.coinbase.com/incidents/8xllv0txbt7f",
+      "published_utc": "2026-10-24T15:05:40+00:00",
+      "published_mst": "2026-10-24 08:05 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Australian Dollar (AUD) - Domestic Funding Delays",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/sp42kzckjzsy",
+      "published_utc": "2026-10-24T17:36:02+00:00",
+      "published_mst": "2026-10-24 10:36 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "UK banks face 10,000 complaints in 3 months over crypto restrictions",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/22/uk-banks-face-10-000-complaints-in-3-months-over-crypto-restrictions",
+      "published_utc": "2026-10-25T13:00:00+00:00",
+      "published_mst": "2026-10-25 06:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends",
+      "published_utc": "2026-10-24T16:00:00+00:00",
+      "published_mst": "2026-10-24 09:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Block's new voice AI sounds eerily human, sparking awe and scam fears",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears",
+      "published_utc": "2026-10-24T15:21:06+00:00",
+      "published_mst": "2026-10-24 08:21 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations",
+      "published_utc": "2026-10-24T15:11:24+00:00",
+      "published_mst": "2026-10-24 08:11 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/23/why-mcdonalds-microsoft-and-google-saying-no-to-tokenized-stocks-isn-t-a-dealbreaker",
+      "published_utc": "2026-10-24T15:00:00+00:00",
+      "published_mst": "2026-10-24 08:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra",
+      "published_utc": "2026-10-24T14:38:47+00:00",
+      "published_mst": "2026-10-24 07:38 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
+      "published_utc": "2026-10-24T14:06:24+00:00",
+      "published_mst": "2026-10-24 07:06 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/24/bitcoin-s-wealthy-holders-turning-to-loans-and-yield-as-investment-habits-mature-xapo-ceo",
+      "published_utc": "2026-10-24T14:00:00+00:00",
+      "published_mst": "2026-10-24 07:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Crypto longs lose $404 million in four hours as bitcoin briefly slips below $80,000",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-10-24-crypto-longs-lose-404-million-in-four-hours-as-bitcoin-briefly-slips-below-80000-431608",
+      "published_utc": "2026-10-24T17:44:36+00:00",
+      "published_mst": "2026-10-24 10:44 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Argentine judge clears Milei and 10 others in LIBRA case, finding no ‘criminally relevant deception’",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-24-argentine-judge-clears-milei-and-10-others-in-libra-case-finding-no-criminally-relevant-deception-431606",
+      "published_utc": "2026-10-24T16:24:13+00:00",
+      "published_mst": "2026-10-24 09:24 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitcoin ETFs Snap Two-Week Losing Streak Despite Late-Week Slide",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381777/bitcoin-etfs-snap-two-week-losing-streak-despite-late-week-slide",
+      "published_utc": "2026-10-25T14:01:03+00:00",
+      "published_mst": "2026-10-25 07:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Google Quietly Updates Privacy Policy to Let Gmail and Photos Data Feed Ads",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381775/google-quietly-updates-privacy-policy-gmail-photos-ads",
+      "published_utc": "2026-10-24T17:01:02+00:00",
+      "published_mst": "2026-10-24 10:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Sweden's Government Offices Block ChatGPT and Claude, Keep Microsoft Copilot",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude",
+      "published_utc": "2026-10-24T16:01:03+00:00",
+      "published_mst": "2026-10-24 09:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Game Publishers Have Pushed to Cut Discs Since 2007, Infinity Ward Veteran Says",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381674/game-publishers-have-pushed-to-cut-discs-since-2007-infinity-ward-veteran-says",
+      "published_utc": "2026-10-24T15:01:02+00:00",
+      "published_mst": "2026-10-24 08:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Hong Kong’s Biggest Bank Puts a Stablecoin in 3 Million Wallets",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381760/hong-kong-bank-hsbc-stablecoin-3-million-wallets",
+      "published_utc": "2026-10-24T13:01:02+00:00",
+      "published_mst": "2026-10-24 06:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Netanyahu rebuked for plan to use crypto to bypass economic sanctions - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdEZIYi1YYkZXSDlUeWN0cUgzdzdudTFUNlF5bHE1eVM4Z1NZeUFxVWZrVXp3d0N1dnRRWU5iYzZSc3J5QlJiQ3c4bllDUXFJcFFFdjNGeTFPbGhxc2VRZjYzV1dLSmtKX2JqQlpfd2U4RTFmWUhoRGFtVUVtVWRSc0NBZjc0NjhUdUVLNmM2dDVBYUxLOWRob3BwWkY2bnBKSlhnSGc0aXVfTEZ5RjBsTDJ3?oc=5",
+      "published_utc": "2026-10-25T12:15:33+00:00",
+      "published_mst": "2026-10-25 05:15 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Crypto Investors Are In Serious Trouble (market crash)",
+      "source": "Altcoin Daily",
+      "url": "https://www.youtube.com/watch?v=H5xwP4rA1nM",
+      "published_utc": "2026-10-24T21:49:58+00:00",
+      "published_mst": "2026-10-24 14:49 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Dart Vendor Maintenace (Dart Bank: US wires via virtual accounts, and ACH)",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/yf5kr5m88m9g",
+      "published_utc": "2026-11-03T22:00:00+00:00",
+      "published_mst": "2026-11-03 15:00 MST",
+      "tier": "A",
+      "verified": true,
+      "kind": "scheduled"
+    },
+    {
+      "title": "Hedera Funding Maintenance",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/69r6j3nhvf5b",
+      "published_utc": "2026-10-28T17:00:00+00:00",
+      "published_mst": "2026-10-28 10:00 MST",
+      "tier": "A",
+      "verified": true,
+      "kind": "scheduled"
+    },
+    {
+      "title": "Order Entry System Maintenance",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/5tflx95ktqcz",
+      "published_utc": "2026-10-26T10:00:00+00:00",
+      "published_mst": "2026-10-26 03:00 MST",
+      "tier": "A",
+      "verified": true,
+      "kind": "scheduled"
+    },
+    {
+      "title": "Dual-Currency Investments",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/2lt92mgqw0sb",
+      "published_utc": "2026-10-26T09:00:00+00:00",
+      "published_mst": "2026-10-26 02:00 MST",
+      "tier": "A",
+      "verified": true,
+      "kind": "scheduled"
+    }
+  ],
+  "market_notes": [
+    "Majors: BTC $80,267 (down -0.1%), ETH $2,329 (down -0.8%), SOL $100.67 (up +0.0%).",
+    "BTC is -0.0% vs the prior report (2026-10-24, $80,298).",
+    "Solrouter (ROUTER): price $0.0015; main Meteora pool liquidity $77,321; listed venues combined $102,785.",
+    "Hack tracker entries attached to this snapshot: Initia."
+  ]
+}

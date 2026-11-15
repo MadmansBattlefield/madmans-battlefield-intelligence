@@ -1,0 +1,246 @@
+{
+  "title": "Madman's Battlefield Intelligence",
+  "timezone": "MST",
+  "generated_at": "2026-11-14 12:00 MST",
+  "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
+  "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
+  "paths": {
+    "readme": "README.md",
+    "llms_txt": "llms.txt",
+    "sources": "sources.md",
+    "calendar": "calendar.md",
+    "banking_rails": "banking-rails/",
+    "daily": "daily/",
+    "banking_rails_cover": "banking-rails/COVER.md",
+    "banking_rails_ranking": "banking-rails/RANKING.md"
+  },
+  "daily_reports": [
+    {
+      "date": "2026-10-16",
+      "markdown": "daily/2026-10-16.md",
+      "json": "daily/2026-10-16.json"
+    },
+    {
+      "date": "2026-10-17",
+      "markdown": "daily/2026-10-17.md",
+      "json": "daily/2026-10-17.json"
+    },
+    {
+      "date": "2026-10-18",
+      "markdown": "daily/2026-10-18.md",
+      "json": "daily/2026-10-18.json"
+    },
+    {
+      "date": "2026-10-20",
+      "markdown": "daily/2026-10-20.md",
+      "json": "daily/2026-10-20.json"
+    },
+    {
+      "date": "2026-10-21",
+      "markdown": "daily/2026-10-21.md",
+      "json": "daily/2026-10-21.json"
+    },
+    {
+      "date": "2026-10-22",
+      "markdown": "daily/2026-10-22.md",
+      "json": "daily/2026-10-22.json"
+    },
+    {
+      "date": "2026-10-24",
+      "markdown": "daily/2026-10-24.md",
+      "json": "daily/2026-10-24.json"
+    },
+    {
+      "date": "2026-10-25",
+      "markdown": "daily/2026-10-25.md",
+      "json": "daily/2026-10-25.json"
+    },
+    {
+      "date": "2026-10-26",
+      "markdown": "daily/2026-10-26.md",
+      "json": "daily/2026-10-26.json"
+    },
+    {
+      "date": "2026-10-27",
+      "markdown": "daily/2026-10-27.md",
+      "json": "daily/2026-10-27.json"
+    },
+    {
+      "date": "2026-10-28",
+      "markdown": "daily/2026-10-28.md",
+      "json": "daily/2026-10-28.json"
+    },
+    {
+      "date": "2026-10-29",
+      "markdown": "daily/2026-10-29.md",
+      "json": "daily/2026-10-29.json"
+    },
+    {
+      "date": "2026-10-30",
+      "markdown": "daily/2026-10-30.md",
+      "json": "daily/2026-10-30.json"
+    },
+    {
+      "date": "2026-10-31",
+      "markdown": "daily/2026-10-31.md",
+      "json": "daily/2026-10-31.json"
+    },
+    {
+      "date": "2026-11-02",
+      "markdown": "daily/2026-11-02.md",
+      "json": "daily/2026-11-02.json"
+    },
+    {
+      "date": "2026-11-03",
+      "markdown": "daily/2026-11-03.md",
+      "json": "daily/2026-11-03.json"
+    },
+    {
+      "date": "2026-11-04",
+      "markdown": "daily/2026-11-04.md",
+      "json": "daily/2026-11-04.json"
+    },
+    {
+      "date": "2026-11-05",
+      "markdown": "daily/2026-11-05.md",
+      "json": "daily/2026-11-05.json"
+    },
+    {
+      "date": "2026-11-06",
+      "markdown": "daily/2026-11-06.md",
+      "json": "daily/2026-11-06.json"
+    },
+    {
+      "date": "2026-11-07",
+      "markdown": "daily/2026-11-07.md",
+      "json": "daily/2026-11-07.json"
+    },
+    {
+      "date": "2026-11-08",
+      "markdown": "daily/2026-11-08.md",
+      "json": "daily/2026-11-08.json"
+    },
+    {
+      "date": "2026-11-09",
+      "markdown": "daily/2026-11-09.md",
+      "json": "daily/2026-11-09.json"
+    },
+    {
+      "date": "2026-11-10",
+      "markdown": "daily/2026-11-10.md",
+      "json": "daily/2026-11-10.json"
+    },
+    {
+      "date": "2026-11-11",
+      "markdown": "daily/2026-11-11.md",
+      "json": "daily/2026-11-11.json"
+    },
+    {
+      "date": "2026-11-12",
+      "markdown": "daily/2026-11-12.md",
+      "json": "daily/2026-11-12.json"
+    },
+    {
+      "date": "2026-11-13",
+      "markdown": "daily/2026-11-13.md",
+      "json": "daily/2026-11-13.json"
+    }
+  ],
+  "token_notes": [
+    {
+      "id": "AERO",
+      "path": "banking-rails/AERO.md",
+      "layout": "v3"
+    },
+    {
+      "id": "BP",
+      "path": "banking-rails/BP.md",
+      "layout": "v3"
+    },
+    {
+      "id": "BTC",
+      "path": "banking-rails/BTC.md",
+      "layout": "v3"
+    },
+    {
+      "id": "EDEL",
+      "path": "banking-rails/EDEL.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ETH",
+      "path": "banking-rails/ETH.md",
+      "layout": "v3"
+    },
+    {
+      "id": "HBAR",
+      "path": "banking-rails/HBAR.md",
+      "layout": "v3"
+    },
+    {
+      "id": "JASMY",
+      "path": "banking-rails/JASMY.md",
+      "layout": "v3"
+    },
+    {
+      "id": "LINK",
+      "path": "banking-rails/LINK.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ONDO",
+      "path": "banking-rails/ONDO.md",
+      "layout": "v3"
+    },
+    {
+      "id": "PLUME",
+      "path": "banking-rails/PLUME.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ROUTER",
+      "path": "banking-rails/ROUTER.md",
+      "layout": "v3"
+    },
+    {
+      "id": "SEI",
+      "path": "banking-rails/SEI.md",
+      "layout": "v3"
+    },
+    {
+      "id": "SERV",
+      "path": "banking-rails/SERV.md",
+      "layout": "v3"
+    },
+    {
+      "id": "SOL",
+      "path": "banking-rails/SOL.md",
+      "layout": "v3"
+    },
+    {
+      "id": "TAO",
+      "path": "banking-rails/TAO.md",
+      "layout": "v3"
+    },
+    {
+      "id": "XRP",
+      "path": "banking-rails/XRP.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ZBCN",
+      "path": "banking-rails/ZBCN.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ZRO",
+      "path": "banking-rails/ZRO.md",
+      "layout": "v3"
+    },
+    {
+      "id": "other-tokens",
+      "path": "banking-rails/other-tokens.md",
+      "layout": "v2-stubs"
+    }
+  ]
+}

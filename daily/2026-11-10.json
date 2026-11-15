@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-10",
+  "timezone": "MST",
+  "as_of": "2026-11-10 morning (times in MST)",
+  "source": "public market prints plus confirmed headlines (desk compilation)",
+  "majors": {
+    "BTC": {
+      "usd": 73700
+    },
+    "ETH": {
+      "usd": 2065
+    },
+    "SOL": {
+      "usd": 83.6
+    }
+  },
+  "watchlist": {
+    "ROUTER": {
+      "usd": 0.00047,
+      "usd_24h_change": -6
+    },
+    "SERV": {
+      "usd": 0.0131
+    },
+    "PLUME": {
+      "usd": 0.013
+    }
+  },
+  "pools": {
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.00047,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 41000
+        },
+        {
+          "dex": "raydium",
+          "chain": "solana",
+          "liq_usd": 12700
+        }
+      ]
+    }
+  },
+  "hacks": [
+    {
+      "name": "Ankr bridge",
+      "amount_usd": 305000,
+      "source": "DefiLlama Hacks",
+      "verified": true
+    },
+    {
+      "name": "ACryptoS",
+      "amount_usd": 665000,
+      "source": "DefiLlama Hacks",
+      "verified": true
+    },
+    {
+      "name": "Keplr wallet thefts",
+      "source": "DefiLlama Hacks",
+      "verified": true
+    }
+  ],
+  "news": [
+    {
+      "title": "Industry trading is slow: eToro quarterly profit fell 74% and BitGo revenue fell 51%",
+      "source": "news desks",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Ark sold some shares of its own bitcoin fund",
+      "source": "The Block",
+      "tier": "B",
+      "verified": false
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Coinbase planned maintenance",
+      "date": "2026-11-14",
+      "verified": true
+    },
+    {
+      "title": "ZRO unlock of about 23.6M tokens",
+      "date": "2026-11-19",
+      "verified": false
+    }
+  ],
+  "market_notes": [
+    "Majors drifted lower: BTC about $73,700, ETH about $2,065, SOL about $83.60.",
+    "Solrouter (ROUTER) main pool about $41,000 (another new low); second pool about $12,700. Price about $0.00047.",
+    "DefiLlama confirmed the Ankr, ACryptoS and Keplr incidents. None of those names are on the core research list."
+  ]
+}

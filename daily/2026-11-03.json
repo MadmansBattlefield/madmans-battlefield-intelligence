@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-03",
+  "timezone": "MST",
+  "as_of": "2026-11-03 morning (times in MST)",
+  "source": "public market prints plus confirmed headlines (partial snapshot)",
+  "majors": {
+    "BTC": {
+      "usd": 77233
+    },
+    "ETH": {
+      "usd": 2286
+    },
+    "SOL": {
+      "usd": 93.23
+    }
+  },
+  "watchlist": {
+    "ROUTER": {
+      "usd": 0.0009038
+    },
+    "SERV": {
+      "usd": 0.01633
+    },
+    "BP": {
+      "usd": 0.8631
+    }
+  },
+  "pools": {
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.0009038,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 58780
+        },
+        {
+          "dex": "raydium",
+          "chain": "solana",
+          "liq_usd": 19260
+        }
+      ],
+      "liq_total_usd": 78040
+    }
+  },
+  "hacks": [
+    {
+      "name": "Mercado Bitcoin",
+      "amount_usd": 40000000,
+      "date": "2026-11-02",
+      "source": "DefiLlama Hacks / confirmed news",
+      "verified": true
+    },
+    {
+      "name": "BTCPay Server <=2.4.1",
+      "date": "2026-11-01",
+      "source": "security notices",
+      "verified": true
+    }
+  ],
+  "news": [
+    {
+      "title": "Mercado Bitcoin exploit: about $40M transferred from exchange-associated wallets",
+      "source": "DefiLlama Hacks",
+      "tier": "A",
+      "verified": true
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Coinbase AERO/VELO 1-for-1 swap window (Nov 2–4)",
+      "date": "2026-11-04",
+      "source": "Coinbase Status",
+      "verified": true
+    },
+    {
+      "title": "U.S. midterm election day",
+      "date": "2026-11-03",
+      "verified": true
+    }
+  ],
+  "market_notes": [
+    "Bitcoin printed about $77,233 on this partial snapshot.",
+    "Solrouter (ROUTER) main Meteora pool liquidity was about $58,800, with a second pool near $19,300."
+  ]
+}

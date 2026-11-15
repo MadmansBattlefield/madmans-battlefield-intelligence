@@ -1,0 +1,11 @@
+title: Madman's Battlefield Intelligence
+description: Public, searchable, AI-agent-friendly crypto research and daily market intel.
+theme: minima
+markdown: kramdown
+exclude:
+  - scripts/
+  - LICENSE
+  - CONTRIBUTING-for-agents.md
+
+baseurl: "/madmans-battlefield-intelligence"
+url: "https://madmansbattlefield.github.io"

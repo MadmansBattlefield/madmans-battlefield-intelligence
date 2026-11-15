@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-06",
+  "timezone": "MST",
+  "as_of": "2026-11-06 morning (times in MST)",
+  "source": "public market prints plus confirmed headlines (desk compilation)",
+  "majors": {
+    "BTC": {
+      "usd": 75000,
+      "usd_24h_change": -3
+    },
+    "ETH": {
+      "usd": 2219,
+      "usd_24h_change": -4
+    },
+    "SOL": {
+      "usd": 90.5,
+      "usd_24h_change": -2
+    }
+  },
+  "watchlist": {
+    "ROUTER": {
+      "usd": 0.00085
+    },
+    "SERV": {
+      "usd": 0.0143,
+      "usd_24h_change": -2
+    },
+    "BP": {
+      "usd": 0.99
+    },
+    "PLUME": {
+      "usd": 0.0136
+    }
+  },
+  "pools": {
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.00085,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 56500
+        },
+        {
+          "dex": "raydium",
+          "chain": "solana",
+          "liq_usd": 18200
+        }
+      ]
+    }
+  },
+  "hacks": [],
+  "news": [
+    {
+      "title": "Broad market selloff: a rout in AI and tech stocks pulled bitcoin toward $75k–76k",
+      "source": "CoinDesk",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by The Block"
+    },
+    {
+      "title": "Bitcoin funds lost about $430M–$500M; more than $1B of leveraged long bets were forced closed",
+      "source": "CoinDesk / The Block",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "two Tier B outlets"
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Coinbase planned maintenance",
+      "date": "2026-11-14",
+      "source": "Coinbase Status",
+      "verified": true
+    },
+    {
+      "title": "ZRO unlock of about 23.6M tokens (team and partners)",
+      "date": "2026-11-19",
+      "verified": false,
+      "label": "amount and allocation as commonly reported; confirm on Tokenomist / DefiLlama Unlocks"
+    },
+    {
+      "title": "FOMC meeting",
+      "date": "2026-12-08",
+      "source": "Federal Reserve",
+      "verified": true
+    }
+  ],
+  "market_notes": [
+    "Market-wide move, not name-specific news: BTC about $75,000, ETH about $2,219, SOL about $90.50.",
+    "Solrouter (ROUTER) main pool fell back to about $56,500; second pool about $18,200. Price about $0.00085.",
+    "No confirmed hack, exploit or halt on the tracked names overnight."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-05",
+  "timezone": "MST",
+  "as_of": "2026-11-05 morning (times in MST)",
+  "source": "public market prints plus confirmed headlines (desk compilation)",
+  "majors": {
+    "BTC": {
+      "usd": 79020,
+      "usd_24h_change": 0.5
+    },
+    "ETH": {
+      "usd": 2367,
+      "usd_24h_change": 2.0
+    },
+    "SOL": {
+      "usd": 94.91,
+      "usd_24h_change": 1.7
+    }
+  },
+  "watchlist": {
+    "ROUTER": {
+      "usd": 0.00093,
+      "usd_24h_change": 12
+    },
+    "SERV": {
+      "usd": 0.0155,
+      "usd_24h_change": -4
+    },
+    "BP": {
+      "usd": 1.02,
+      "usd_24h_change": 8
+    },
+    "PLUME": {
+      "usd": 0.0143
+    }
+  },
+  "pools": {
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.00093,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 60600
+        }
+      ],
+      "liq_total_usd": 79400
+    }
+  },
+  "hacks": [],
+  "news": [
+    {
+      "title": "Mercado Bitcoin hack continued hours after the exchange said the attack was contained",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/11/05/mercado-bitcoin-hack-continued-hours-after-exchange-said-attack-was-contain",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "primary reporting; incident already on DefiLlama Hacks"
+    },
+    {
+      "title": "Binance cuts SignalPlus access after a security warning",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/11/05/binance-cuts-signalplus-access-after-security-warning-urges-users-to-check-acco",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitcoin holds near $79k–80k after the election bounce, but buying remains tepid and leverage is light",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/11/05/bitcoin-is-resilient-but-leverage-is-missing-and-demand-still-tepid",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Samsung Wallet launches USDC accounts on Solana for U.S. Galaxy users",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-11-05-samsung-wallet-launches-usdc-accounts-solana-us-galaxy-users-434523",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Coinbase completed the AERO 1-for-1 swap; old AERO should not be sent to Coinbase",
+      "source": "Coinbase",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Coinbase resolved delayed HBAR sends",
+      "source": "Coinbase Status",
+      "tier": "A",
+      "verified": true
+    }
+  ],
+  "calendar": [
+    {
+      "title": "U.S. October jobs report",
+      "date": "2026-11-06",
+      "verified": true
+    }
+  ],
+  "market_notes": [
+    "Majors were slightly higher: BTC about $79,020, ETH about $2,367, SOL about $94.91.",
+    "The Coinbase AERO 1-for-1 swap window ended. Old (pre-migration) AERO should not be sent to Coinbase.",
+    "Solrouter (ROUTER) main-pool liquidity was about $60,600; both pools together about $79,400. Price about $0.00093.",
+    "No confirmed hack, exploit or halt on the tracked names overnight."
+  ]
+}

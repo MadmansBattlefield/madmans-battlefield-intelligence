@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-12",
+  "timezone": "MST",
+  "as_of": "2026-11-12 morning (times in MST)",
+  "source": "public market prints plus confirmed headlines (desk compilation). News-feed pull failed this morning, so fund-flow and regulation headlines are thin.",
+  "majors": {
+    "BTC": {
+      "usd": 72020,
+      "usd_24h_change": -2
+    },
+    "ETH": {
+      "usd": 1998,
+      "usd_24h_change": -2.6
+    },
+    "SOL": {
+      "usd": 81.0,
+      "usd_24h_change": -3.5
+    }
+  },
+  "watchlist": {
+    "ROUTER": {
+      "usd": 0.00045
+    }
+  },
+  "pools": {
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.00045,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 39200
+        }
+      ],
+      "liq_total_usd": 50700
+    }
+  },
+  "hacks": [
+    {
+      "name": "Rujira (built on THORChain)",
+      "amount_usd": 200000,
+      "source": "hack trackers",
+      "verified": true
+    }
+  ],
+  "news": [],
+  "calendar": [
+    {
+      "title": "Coinbase planned maintenance",
+      "date": "2026-11-14",
+      "verified": true
+    },
+    {
+      "title": "ZRO unlock of about 23.6M tokens",
+      "date": "2026-11-19",
+      "verified": false
+    },
+    {
+      "title": "OKX tokenized-securities venue opens",
+      "date": "2026-11-23",
+      "verified": false
+    }
+  ],
+  "market_notes": [
+    "Broad market selloff, not name-specific news: BTC $72,020, ETH $1,998 (under $2,000), SOL $81.00.",
+    "Solrouter (ROUTER) both pools about $50,700; main pool about $39,200. Price about $0.00045.",
+    "New hack report: Rujira, built on THORChain, about $200k. Not a tracked name. Prior Arcus Perps, Initia and Ankr items already logged."
+  ]
+}

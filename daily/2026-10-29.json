@@ -1,0 +1,1060 @@
+{
+  "date": "2026-10-29",
+  "timezone": "MST",
+  "as_of": "2026-10-29 morning snapshot (times in MST)",
+  "source": "public market snapshot (CoinGecko, DexScreener, DefiLlama Hacks, vetted RSS)",
+  "majors": {
+    "BTC": {
+      "usd": 81275,
+      "usd_24h_change": 1.0
+    },
+    "ETH": {
+      "usd": 2344.34,
+      "usd_24h_change": 0.69
+    },
+    "SOL": {
+      "usd": 101.89,
+      "usd_24h_change": 1.17
+    }
+  },
+  "watchlist": {
+    "ZBCN": {
+      "usd": 0.00207278,
+      "usd_24h_change": 0.79
+    },
+    "PLUME": {
+      "usd": 0.01586109,
+      "usd_24h_change": 1.04
+    },
+    "AERO": {
+      "usd": 0.695861,
+      "usd_24h_change": -0.41
+    },
+    "ONDO": {
+      "usd": 0.42356,
+      "usd_24h_change": 2.42
+    },
+    "HBAR": {
+      "usd": 0.074786,
+      "usd_24h_change": -0.52
+    },
+    "TAO": {
+      "usd": 256.77,
+      "usd_24h_change": 2.21
+    },
+    "ZRO": {
+      "usd": 1.75,
+      "usd_24h_change": 3.48
+    },
+    "XRP": {
+      "usd": 1.31,
+      "usd_24h_change": -0.44
+    },
+    "LINK": {
+      "usd": 11.79,
+      "usd_24h_change": 2.43
+    },
+    "SEI": {
+      "usd": 0.052748,
+      "usd_24h_change": 0.85
+    },
+    "JASMY": {
+      "usd": 0.00391107,
+      "usd_24h_change": -6.73
+    },
+    "SERV": {
+      "usd": 0.01573399,
+      "usd_24h_change": 4.85
+    },
+    "ROUTER": {
+      "usd": 0.001082,
+      "usd_24h_change": 2.44
+    },
+    "BP": {
+      "usd": 1.053,
+      "usd_24h_change": 7.19
+    }
+  },
+  "pools": {
+    "SERV": {
+      "token": "SERV",
+      "price_usd": 0.01599,
+      "chg24": 4.08,
+      "liq_total_usd": 1190659.91,
+      "vol24_usd": 70011.64,
+      "venues": [
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 1148246.63,
+          "price_usd": 0.01599
+        },
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 41310.65,
+          "price_usd": 0.01613
+        },
+        {
+          "dex": "uniswap",
+          "chain": "ethereum",
+          "liq_usd": 1102.63,
+          "price_usd": 0.01548
+        }
+      ]
+    },
+    "ROUTER": {
+      "token": "ROUTER",
+      "price_usd": 0.001082,
+      "chg24": 2.44,
+      "liq_total_usd": 87926.19,
+      "vol24_usd": 12180.73,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 66318.66,
+          "price_usd": 0.001082
+        },
+        {
+          "dex": "raydium",
+          "chain": "solana",
+          "liq_usd": 21546.7,
+          "price_usd": 0.001071
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 43.36,
+          "price_usd": 0.001079
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 17.47,
+          "price_usd": 0.001052
+        }
+      ]
+    },
+    "BP": {
+      "token": "BP",
+      "price_usd": 1.053,
+      "chg24": 7.19,
+      "liq_total_usd": 7271279.45,
+      "vol24_usd": 1863441.88,
+      "venues": [
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 6663469.25,
+          "price_usd": 1.053
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 222111.08,
+          "price_usd": 1.053
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 106340.2,
+          "price_usd": 1.045
+        },
+        {
+          "dex": "meteora",
+          "chain": "solana",
+          "liq_usd": 59984.41,
+          "price_usd": 1.033
+        },
+        {
+          "dex": "pancakeswap",
+          "chain": "solana",
+          "liq_usd": 44805.0,
+          "price_usd": 1.049
+        }
+      ]
+    }
+  },
+  "hacks": [
+    {
+      "name": "Fence Finance",
+      "amount_usd": 1010000,
+      "classification": "Token & Share Accounting",
+      "technique": "Incorrect Share Accounting",
+      "chains": [
+        "Avalanche"
+      ],
+      "target_type": "DeFi Protocol",
+      "bridge_hack": false,
+      "source": "DefiLlama Hacks",
+      "verified": true,
+      "date": "2026-10-27"
+    },
+    {
+      "name": "Zilliqa X-Bridge",
+      "classification": "Key Compromise",
+      "technique": "Private Key Compromised",
+      "chains": [
+        "Zilliqa"
+      ],
+      "target_type": "DeFi Protocol",
+      "bridge_hack": true,
+      "source": "DefiLlama Hacks",
+      "verified": true,
+      "date": "2026-10-27"
+    },
+    {
+      "name": "Predict Fun",
+      "amount_usd": 400000,
+      "classification": "Frontend & Infrastructure",
+      "technique": "Frontend Compromise",
+      "chains": [
+        "BSC"
+      ],
+      "target_type": "Prediction Market",
+      "bridge_hack": false,
+      "source": "DefiLlama Hacks",
+      "verified": true,
+      "date": "2026-10-27"
+    },
+    {
+      "name": "zkLink Nova",
+      "amount_usd": 783100,
+      "classification": "Bridge & Cross-Chain",
+      "technique": "Cross-Chain Message Spoofing",
+      "chains": [
+        "Ethereum"
+      ],
+      "target_type": "DeFi Protocol",
+      "bridge_hack": true,
+      "source": "DefiLlama Hacks",
+      "verified": true,
+      "date": "2026-10-28"
+    },
+    {
+      "name": "Hifi Finance",
+      "classification": "Governance",
+      "technique": "Malicious Proposal",
+      "chains": [
+        "Ethereum"
+      ],
+      "target_type": "DeFi Protocol",
+      "bridge_hack": false,
+      "source": "DefiLlama Hacks",
+      "verified": true,
+      "date": "2026-10-28"
+    }
+  ],
+  "news": [
+    {
+      "title": "CFTC to Host Roundtable on 24/7 Trading",
+      "source": "CFTC",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9318-26",
+      "published_utc": "2026-10-28T17:00:53+00:00",
+      "published_mst": "2026-10-28 10:00 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "source": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "published_utc": "2026-10-28T18:00:00+00:00",
+      "published_mst": "2026-10-28 11:00 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Kraken Prime Scheduled Maintenance",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/d1t6pdj0gsz1",
+      "published_utc": "2026-10-29T23:00:00+00:00",
+      "published_mst": "2026-10-29 16:00 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Solana (SOL) Funding Delays",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/b1hx199lcnq8",
+      "published_utc": "2026-10-29T09:11:44+00:00",
+      "published_mst": "2026-10-29 02:11 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Scheduled Maintenance - Kraken Pro Prop Trading and Kraken Funded",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/h38rmkqzvbcq",
+      "published_utc": "2026-10-29T08:21:02+00:00",
+      "published_mst": "2026-10-29 01:21 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Kraken Website and API Maintenance",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/zd2cbz10cjv1",
+      "published_utc": "2026-10-29T08:17:29+00:00",
+      "published_mst": "2026-10-29 01:17 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Derivatives Platform Maintenance",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/q44z1fmzjn1m",
+      "published_utc": "2026-10-29T08:17:08+00:00",
+      "published_mst": "2026-10-29 01:17 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "FIX API connectivity issues",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/228c28mxv816",
+      "published_utc": "2026-10-29T00:53:54+00:00",
+      "published_mst": "2026-10-28 17:53 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "FIX-API maintenance",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/34ln5r340xrs",
+      "published_utc": "2026-10-28T22:32:02+00:00",
+      "published_mst": "2026-10-28 15:32 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Hedera Funding Maintenance",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/69r6j3nhvf5b",
+      "published_utc": "2026-10-28T20:45:16+00:00",
+      "published_mst": "2026-10-28 13:45 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Plasma (XPL) Funding Delays",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/ld19hs76nxnz",
+      "published_utc": "2026-10-28T15:55:33+00:00",
+      "published_mst": "2026-10-28 08:55 MST",
+      "tier": "A",
+      "verified": true
+    },
+    {
+      "title": "Why Switzerland’s first genuine spot bitcoin ETF could soon attract overseas banks and brokers",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/29/switzerland-s-first-bitcoin-etf-gets-rare-exemption-will-open-to-overseas-brokers",
+      "published_utc": "2026-10-29T14:15:46+00:00",
+      "published_mst": "2026-10-29 07:15 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/28/chainlink-adds-weekend-pricing-for-tokenized-assets-with-aave-as-launch-partner",
+      "published_utc": "2026-10-29T14:15:00+00:00",
+      "published_mst": "2026-10-29 07:15 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "New quantum model slashes hardware needed to break bitcoin keys by 17 times",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/29/new-quantum-model-slashes-hardware-needed-to-break-bitcoin-keys-by-17-times",
+      "published_utc": "2026-10-29T13:55:42+00:00",
+      "published_mst": "2026-10-29 06:55 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Walmart, Eli Lilly join growing pushback against OKX–ICE tokenized stock plans",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/29/walmart-eli-lilly-join-growing-pushback-against-okx-ice-tokenized-stock-plans",
+      "published_utc": "2026-10-29T13:39:18+00:00",
+      "published_mst": "2026-10-29 06:39 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "A new framework for tokenized asset tracking",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/10/28/a-new-framework-for-tokenized-asset-tracking",
+      "published_utc": "2026-10-29T12:57:51+00:00",
+      "published_mst": "2026-10-29 05:57 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Tokenized stock venue on Canton could beat OKX–ICE to first trade under SEC framework",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/29/tokenized-stock-venue-on-canton-could-beat-okx-ice-to-first-trade-under-sec-framework",
+      "published_utc": "2026-10-29T12:51:48+00:00",
+      "published_mst": "2026-10-29 05:51 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/29/u-s-sanctions-russian-crypto-middlemen-tied-to-north-korean-it-worker-fraud",
+      "published_utc": "2026-10-29T12:18:20+00:00",
+      "published_mst": "2026-10-29 05:18 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "As $10 billion in bitcoin options near expiry, the tell is in the pricing",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/daybook-us/2026/10/29/as-usd10-billion-in-bitcoin-options-near-expiry-the-tell-is-in-the-pricing",
+      "published_utc": "2026-10-29T12:04:50+00:00",
+      "published_mst": "2026-10-29 05:04 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump",
+      "published_utc": "2026-10-29T11:11:48+00:00",
+      "published_mst": "2026-10-29 04:11 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/29/nyse-owner-takes-steps-to-bring-hyperliquid-perpetual-futures-to-u-s",
+      "published_utc": "2026-10-29T11:11:25+00:00",
+      "published_mst": "2026-10-29 04:11 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Cathie Wood’s ARK buys the dip on Robinhood in its largest purchase in 6 months after 23% slump",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/29/cathie-wood-s-ark-buys-the-dip-on-robinhood-in-its-largest-purchase-in-6-months-after-23-slump",
+      "published_utc": "2026-10-29T10:51:10+00:00",
+      "published_mst": "2026-10-29 03:51 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Solana wallet Solflare pledges to pay missed rewards on staked $160 million after validator goes offline",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/29/solana-wallet-solflare-pledges-to-pay-missed-rewards-on-staked-usd160-million-after-validator-goes-offline",
+      "published_utc": "2026-10-29T10:44:48+00:00",
+      "published_mst": "2026-10-29 03:44 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Live updates: Bitcoin holds near $80,000 as Nasdaq falls more than 1%",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/29/live-updates-bitcoin-clings-to-usd80-000-as-strategy-s-cushion-thins-before-earnings",
+      "published_utc": "2026-10-29T10:41:39+00:00",
+      "published_mst": "2026-10-29 03:41 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Thai Supreme Court rules bitcoin is property after thief challenges conviction",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/29/thai-supreme-court-rules-bitcoin-is-property-after-thief-challenges-conviction",
+      "published_utc": "2026-10-29T10:04:36+00:00",
+      "published_mst": "2026-10-29 03:04 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bermuda taps WalletConnect to advance its onchain economy plan",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/29/bermuda-taps-walletconnect-to-advance-its-onchain-economy-plan",
+      "published_utc": "2026-10-29T10:00:00+00:00",
+      "published_mst": "2026-10-29 03:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Former Swift CEO joins stablecoin firm OpenTrade as chairman",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/10/29/former-swift-ceo-joins-stablecoin-firm-opentrade-as-chairman-after-a-usd17-million-raise",
+      "published_utc": "2026-10-29T09:00:00+00:00",
+      "published_mst": "2026-10-29 02:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "The chart bitcoin traders should be paying attention to",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/29/the-chart-bitcoin-traders-should-be-paying-attention-to",
+      "published_utc": "2026-10-29T07:44:44+00:00",
+      "published_mst": "2026-10-29 00:44 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/29/ai-found-a-way-to-crash-bitcoin-nodes-on-windows-and-macs-it-s-now-public",
+      "published_utc": "2026-10-29T05:54:39+00:00",
+      "published_mst": "2026-10-28 22:54 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/29/ethereum-clients-patch-flaw-that-could-let-attackers-redirect-eth-rewards",
+      "published_utc": "2026-10-29T05:30:34+00:00",
+      "published_mst": "2026-10-28 22:30 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Utah charges predictions platform Kalshi with illegal gambling",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/29/utah-charges-predictions-platform-kalshi-with-illegal-gambling",
+      "published_utc": "2026-10-29T05:02:37+00:00",
+      "published_mst": "2026-10-28 22:02 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Bitcoin briefly dips below $80,000 as tech jitters and hawkish Fed weigh on crypto",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/29/bitcoin-dips-below-usd80-000-as-samsung-led-risk-aversion-in-tech-and-a-hawkish-fed-weigh-on-crypto",
+      "published_utc": "2026-10-29T03:32:43+00:00",
+      "published_mst": "2026-10-28 20:32 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Mystery Wall Street Journal ad sparks new fight over tokenized stocks",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/28/mystery-wall-street-journal-ad-sparks-new-fight-over-tokenized-stocks",
+      "published_utc": "2026-10-29T03:21:24+00:00",
+      "published_mst": "2026-10-28 20:21 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/28/bitcoin-backed-mortgages-are-coming-to-canada-but-borrowers-are-still-unaware-of-the-cost",
+      "published_utc": "2026-10-28T21:13:44+00:00",
+      "published_mst": "2026-10-28 14:13 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading'",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/10/28/cftc-chief-poses-questions-about-policing-ai-but-calls-it-a-road-to-autonomous-trading",
+      "published_utc": "2026-10-28T19:01:53+00:00",
+      "published_mst": "2026-10-28 12:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Crypto isn’t a partisan fight, proven by data",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/opinion/2026/10/28/crypto-isn-t-a-partisan-fight-proven-by-data",
+      "published_utc": "2026-10-28T18:11:31+00:00",
+      "published_mst": "2026-10-28 11:11 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Uniswap Labs opens fee conversion tool TJAR to apps, starting with Robinhood",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-10-29-uniswap-token-jar-tjar-robinhood-432131",
+      "published_utc": "2026-10-29T14:34:17+00:00",
+      "published_mst": "2026-10-29 07:34 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Polygon adds Solana to payment stack linking bank accounts, crypto and payouts",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115",
+      "published_utc": "2026-10-29T13:00:00+00:00",
+      "published_mst": "2026-10-29 06:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Curve Finance launches on Stellar in first native deployment outside EVM ecosystem",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-10-29-curve-finance-stellar-432121",
+      "published_utc": "2026-10-29T11:00:00+00:00",
+      "published_mst": "2026-10-29 04:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Utah files criminal charges against Kalshi, executives over alleged illegal gambling",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-29-utah-criminal-charges-kalshi-432104",
+      "published_utc": "2026-10-29T06:40:32+00:00",
+      "published_mst": "2026-10-28 23:40 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Robinhood earnings miss, crypto weakness fail to shake Wall Street’s bullish outlook",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-28-robinhood-earnings-miss-crypto-weakness-wall-street-bullish-outlook-432011",
+      "published_utc": "2026-10-28T17:06:24+00:00",
+      "published_mst": "2026-10-28 10:06 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bitwise raises bitcoin price target to $1.6 million by 2036, projects 34% annualized returns",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-10-28-bitwise-raises-bitcoin-price-target-to-1-6-million-by-2036-projects-34-annualized-returns-432010",
+      "published_utc": "2026-10-28T16:07:08+00:00",
+      "published_mst": "2026-10-28 09:07 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Coinbase adds Ripple’s RLUSD stablecoin across retail, exchange and Prime platforms",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-28-coinbase-adds-ripple-rlusd-stablecoin-432009",
+      "published_utc": "2026-10-28T15:56:36+00:00",
+      "published_mst": "2026-10-28 08:56 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Avail launches ShieldTX privacy tool targeting copy-trading bots on Hyperliquid",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-10-28-avail-launches-shieldtx-privacy-tool-targeting-copy-trading-bots-on-hyperliquid-431977",
+      "published_utc": "2026-10-28T15:00:02+00:00",
+      "published_mst": "2026-10-28 08:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Crypto braces for potential shift in congressional oversight after midterms",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-28-crypto-braces-for-potential-shift-in-congressional-oversight-after-midterms-431949",
+      "published_utc": "2026-10-28T14:43:01+00:00",
+      "published_mst": "2026-10-28 07:43 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Ripple expects $900 million annualized product revenue run rate as institutional business expands",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-28-ripple-900-million-revenue-run-rate-rlusd-431920",
+      "published_utc": "2026-10-28T13:00:00+00:00",
+      "published_mst": "2026-10-28 06:00 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Strategy’s MSCI risk: What to watch before November 11",
+      "source": "DL News",
+      "url": "https://www.dlnews.com/articles/markets/strategy-msci-index-exclusion-risk/",
+      "published_utc": "2026-10-28T22:30:00+00:00",
+      "published_mst": "2026-10-28 15:30 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Aviva’s £50m tokenized fund: What changes for investors",
+      "source": "DL News",
+      "url": "https://www.dlnews.com/articles/markets/aviva-tokenized-liquidity-fund-explained/",
+      "published_utc": "2026-10-28T20:48:13+00:00",
+      "published_mst": "2026-10-28 13:48 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Polygon Extends Its Stablecoin Payments Infrastructure to Solana",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381850/polygon-stablecoin-payments-open-money-stack-solana",
+      "published_utc": "2026-10-29T13:01:02+00:00",
+      "published_mst": "2026-10-29 06:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Justin Sun's HTX Agrees to Leave UK in Settlement With Financial Watchdog",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382138/justin-suns-htx-agrees-to-leave-uk-in-settlement-with-financial-watchdog",
+      "published_utc": "2026-10-29T12:58:28+00:00",
+      "published_mst": "2026-10-29 05:58 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Morning Minute: Hedge Funds Left the BTC ETF Trade and Sovereign Wealth Stepped In",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382135/morning-minute-hedge-funds-left-the-btc-etf-trade-and-sovereign-wealth-stepped-in",
+      "published_utc": "2026-10-29T12:30:38+00:00",
+      "published_mst": "2026-10-29 05:30 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Treasury Sanctions 11 Over North Korean IT Worker Scheme That Moved Millions in Crypto",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382132/treasury-sanctions-11-over-north-korean-it-worker-scheme-that-moved-millions-in-crypto",
+      "published_utc": "2026-10-29T11:32:51+00:00",
+      "published_mst": "2026-10-29 04:32 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Utah Files Felony Charges Against Kalshi, Co-Founders Over Sports Bets",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382124/utah-files-felony-charges-against-kalshi-co-founders-over-sports-bets",
+      "published_utc": "2026-10-29T11:06:40+00:00",
+      "published_mst": "2026-10-29 04:06 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Bitcoin Treasury Datavault AI Says It Can’t Access Its BTC, Stock Tanks",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382116/bitcoin-treasury-datavault-ai-stock-crashes-cant-access-btc",
+      "published_utc": "2026-10-28T21:46:02+00:00",
+      "published_mst": "2026-10-28 14:46 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Chip Maker SK Hynix Posts Record Quarter as AI Memory Demand Overwhelms Supply",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382114/sk-hynix-record-quarter-ai-memory-demand",
+      "published_utc": "2026-10-28T21:16:03+00:00",
+      "published_mst": "2026-10-28 14:16 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "AI Security Startup Upwind Raises $400M at $3.8B Valuation",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382101/ai-security-startup-upwind-raises-400m",
+      "published_utc": "2026-10-28T20:16:03+00:00",
+      "published_mst": "2026-10-28 13:16 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "More Americans Have Tried Crypto, But Few Are Sticking With It: Survey",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382100/more-americans-tried-crypto-few-staying-survey",
+      "published_utc": "2026-10-28T19:46:03+00:00",
+      "published_mst": "2026-10-28 12:46 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "OpenAI Plans to Buy Google's AI Chips as It Looks Beyond Nvidia: Report",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382090/openai-plans-buy-google-ai-chips-looks-beyond-nvidia",
+      "published_utc": "2026-10-28T19:16:02+00:00",
+      "published_mst": "2026-10-28 12:16 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Fed Stands Pat, Bitcoin Holds Steady—But a December Rate Hike Is in Play",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382092/fed-hold-interest-rate-steady-bitcoin-december-rate-hike",
+      "published_utc": "2026-10-28T18:25:18+00:00",
+      "published_mst": "2026-10-28 11:25 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "AI Can Quietly Influence Experts’ Decisions, Anthropic Study Finds",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382065/ai-can-quietly-influence-experts-decisions",
+      "published_utc": "2026-10-28T17:36:02+00:00",
+      "published_mst": "2026-10-28 10:36 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Strategy Shareholders Approve Daily Dividends on Preferred Stock, With 99.3% in Favor",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382066/strategy-shareholders-approve-daily-dividends-on-preferred-stock-with-99-3-in-favor",
+      "published_utc": "2026-10-28T17:03:32+00:00",
+      "published_mst": "2026-10-28 10:03 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Aptos Advisor Leaves Post, Moves Meme-Fueled Campaign to Meta Stock",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382061/aptos-advisor-leaves-post-moves-meme-fueled-campaign-to-meta-stock",
+      "published_utc": "2026-10-28T16:22:58+00:00",
+      "published_mst": "2026-10-28 09:22 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Wall Street’s Fast Money Fled Bitcoin ETFs, Sovereign Funds Stepped In",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382059/wall-street-fast-money-fled-bitcoin-etfs-sovereign-funds",
+      "published_utc": "2026-10-28T16:15:02+00:00",
+      "published_mst": "2026-10-28 09:15 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Fed Rate Decision: What Markets and Bitcoin Traders Can Expect",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382044/fed-rate-decision-what-markets-bitcoin-traders-expect",
+      "published_utc": "2026-10-28T15:15:34+00:00",
+      "published_mst": "2026-10-28 08:15 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "JPMorgan, Coca-Cola Among 7 More Companies Objecting to OKX-ICE Tokenized Stocks",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382043/jpmorgan-coca-cola-7-more-companies-objecting-okx-ice-tokenized-stocks",
+      "published_utc": "2026-10-28T15:05:03+00:00",
+      "published_mst": "2026-10-28 08:05 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "House Oversight Chair Comer Probes Delaware Plan for AI-Run Companies",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382035/house-oversight-chair-comer-probes-delaware-plan-for-ai-run-companies",
+      "published_utc": "2026-10-28T13:38:08+00:00",
+      "published_mst": "2026-10-28 06:38 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Goldman, BlackRock Alumni Raise $4 Million to Put Farm and Apartment Loans Onchain",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/382007/goldman-blackrock-alumni-raise-4-million-loans-onchain",
+      "published_utc": "2026-10-28T13:01:02+00:00",
+      "published_mst": "2026-10-28 06:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "EXCLUSIVE: LME plans metal tokens push tied to Hong Kong's 5-year plan, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVVZlWTY1ZE1YVmgwU05DR3MwRW5wM0ZpVk12ckpEZGl4UThvUUtfdTNVTDZyVkhpVFQxV3Rwd0V4azZpX1Y0N0tBd0FQQWpSTmZwUmdmNmxxZzhHQmFaOG95b2cwTFYzTjg0c2tnSVdxZFRTUi1ISV9SYW9VVEIwZ0tYcEtxUzNKbjl5YkpWQTdxcl92V2NkbmZjR3I1Q2lIOXRlUkZrb2UtLWpWX3hlNzg1dFNCdw?oc=5",
+      "published_utc": "2026-10-28T23:01:00+00:00",
+      "published_mst": "2026-10-28 16:01 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Crypto exchange HTX barred from promoting services in UK - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeUR1NHJHVEcxWGZxMHVWMDViNFY3Ql9WcmJOSFlLQjBPTXVrWDRYNVItTTg0SWtaZTM1azRBSm82SVBIY1ZtZUVqWlFHZTNBOWZLbnFvX1o3Z3d3UnYyTE5fOXo4RHlXSXJELVREUWF6QUhYZ0VEQ1dFZC1IUjFxQS1JTllCMEF5ajk3N3RkWWctbnAxeExRNUV0M0ZueVlOS19rZWhVckFSbVV2RURnbHNZMA?oc=5",
+      "published_utc": "2026-10-29T12:16:27+00:00",
+      "published_mst": "2026-10-29 05:16 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Crypto Weekly: Cash floods US midterms, Milei cleared in meme coin scandal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NU2dyLUU2U3F0cGxOSVZPd0d1MWYzUHliV3pIRDgwT0xlb0lLV2hIUWdwczJKYXJ1Rk45YTRRNjdESldsVmktTEltLXBrOG1GWWZEaUtfLWhLcHhZVHhyUmpWNlJKbkU?oc=5",
+      "published_utc": "2026-10-28T20:48:05+00:00",
+      "published_mst": "2026-10-28 13:48 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Bank of England to consult on tokenised collateral - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSlp6UEJocWJKUGp4TmdBWkFOM3MwWWNMcmdVUjJxR1NDNlRvV0JqNnVLaE9yWE4xSjNfRGFuWV9jSE5ld2ZaMUE5T0ltRWlGa19QVzRTaVQ0c3RKeFRERGNXckxocDYxOFlsQW82SzJrVGFVQk1wM19RRFM1eG56QU9GcEFPX1ZSS3phNnpORQ?oc=5",
+      "published_utc": "2026-10-29T10:19:44+00:00",
+      "published_mst": "2026-10-29 03:19 MST",
+      "tier": "B",
+      "verified": false
+    },
+    {
+      "title": "Market Talk: Why is the Fed waiting to hike? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NQVRmbWxiZW1YVnZWbjR4aGZkRkZtMExEaDJORldMSm5HU1RPSS1ONW9HcGY1aGZ4Y0d1QVZJQW1yZzRPb2REd1R2TlhKcXZuX0JHZ2p5djdUSkpYTl9BTkV0Z2VVajg?oc=5",
+      "published_utc": "2026-10-28T19:23:04+00:00",
+      "published_mst": "2026-10-28 12:23 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Wall Street ends higher as Fed holds key rate steady - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVSDVqSklkRUZCcEZkRVJHbFV6LUJtVE5zSlBfY1o1dlBrb1lKaWpzN19LcXlqdkJSQThQdFE0Nkt4TkVDcEFkM0dIckpuVUc2blVmb2pVQWc0MlhPM2hfYzBWWUQ0Z28?oc=5",
+      "published_utc": "2026-10-29T04:48:34+00:00",
+      "published_mst": "2026-10-28 21:48 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Why a Fed rate hike is likely coming in December - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQdWVzNFBXWkZpZV9HNVBHdVNhc1E5UDZvbkNwV09KVHdseWRzQ3pTcjZTX2VnLUhoRXRjRkxfZThRaW5kVkhEMHlIZGVXWTFJZTZocTVyYi1meFJ6bzNKOXk2b3k2aEk?oc=5",
+      "published_utc": "2026-10-29T04:48:34+00:00",
+      "published_mst": "2026-10-28 21:48 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Fed holds rates in wait-and-see mode days before the midterms - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JcHpRQ2p3NnhzSmR6anpKU2Ffamh1S1NjZ2ZKcENLMFdfa1VXS0NoYTNmSzRvQzdxUTFpTUNfVTNBN0RFMy1qcTVhU1F2eXFXV2duYmpDaWZ6Qk1kS0N2WVg4WFJPeUU?oc=5",
+      "published_utc": "2026-10-28T19:23:04+00:00",
+      "published_mst": "2026-10-28 12:23 MST",
+      "tier": "B",
+      "verified": true,
+      "verified_by": "corroborated by a second Tier B outlet"
+    },
+    {
+      "title": "Uh Oh, Robinhood CEO just said this about ethereum",
+      "source": "Altcoin Daily",
+      "url": "https://www.youtube.com/watch?v=8vTreRje-UA",
+      "published_utc": "2026-10-28T23:11:45+00:00",
+      "published_mst": "2026-10-28 16:11 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "Pump.fun and Fomo Sign On for Elysium's Day One",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/news/pump-fun-fomo-sign-on-elysium-day-one",
+      "published_utc": "2026-10-29T14:13:13+00:00",
+      "published_mst": "2026-10-29 07:13 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "NYSE Owner Backs trade.xyz to Bring Hyperliquid Perps to the US",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/news/nyse-owner-druckenmiller-back-trade-xyz-hyperliquid-perps-us",
+      "published_utc": "2026-10-29T13:25:49+00:00",
+      "published_mst": "2026-10-29 06:25 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "🏴 ORE's Bid for Hard Money",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/ores-bid-for-hard-money",
+      "published_utc": "2026-10-28T19:27:04+00:00",
+      "published_mst": "2026-10-28 12:27 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "Robinhood's New Chain Lifts Crypto Revenue Despite Q3 Profit Miss",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/news/robinhoods-new-chain-lifts-crypto-revenue-despite-q3-profit-miss",
+      "published_utc": "2026-10-28T18:54:08+00:00",
+      "published_mst": "2026-10-28 11:54 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "Succinct and the ZK Podcast Release Inaugural ZK Industry Report",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/news/succinct-and-the-zk-podcast-release-inaugural-zk-industry-report",
+      "published_utc": "2026-10-28T18:45:56+00:00",
+      "published_mst": "2026-10-28 11:45 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "Strategy Shareholders Greenlight Daily Dividends for Its Preferreds",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/news/strategy-shareholders-greenlight-daily-dividends-for-its-preferreds",
+      "published_utc": "2026-10-28T18:38:50+00:00",
+      "published_mst": "2026-10-28 11:38 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    },
+    {
+      "title": "Can ORE Make Hard Money Without Proof of Work?",
+      "source": "Bankless",
+      "url": "https://www.bankless.com/read/can-ore-make-hard-money-without-proof-of-work",
+      "published_utc": "2026-10-28T18:16:58+00:00",
+      "published_mst": "2026-10-28 11:16 MST",
+      "tier": "C",
+      "verified": false,
+      "label": "opinion / hype, not verified"
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Aerodrome Finance (AERO) and Velodrome Finance (VELO) migration",
+      "source": "Coinbase Status",
+      "url": "https://status.coinbase.com/incidents/1bss81mzl4kf",
+      "published_utc": "2026-11-02T08:00:00+00:00",
+      "published_mst": "2026-11-02 01:00 MST",
+      "tier": "A",
+      "verified": true,
+      "kind": "scheduled"
+    },
+    {
+      "title": "Notice of select native pairs moving to synthetic pairs",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/qrp07pm4w0bs",
+      "published_utc": "2026-11-10T22:59:00+00:00",
+      "published_mst": "2026-11-10 15:59 MST",
+      "tier": "A",
+      "verified": true,
+      "kind": "scheduled"
+    },
+    {
+      "title": "Dart Vendor Maintenace (Dart Bank: US wires via virtual accounts, and ACH)",
+      "source": "Kraken Status",
+      "url": "https://status.kraken.com/incidents/yf5kr5m88m9g",
+      "published_utc": "2026-11-03T22:00:00+00:00",
+      "published_mst": "2026-11-03 15:00 MST",
+      "tier": "A",
+      "verified": true,
+      "kind": "scheduled"
+    }
+  ],
+  "market_notes": [
+    "Majors: BTC $81,275 (up +1.0%), ETH $2,344 (up +0.7%), SOL $101.89 (up +1.2%).",
+    "BTC is +1.1% vs the prior report (2026-10-28, $80,370).",
+    "Solrouter (ROUTER): price $0.0011; main Meteora pool liquidity $66,319; main-pool liquidity is under the $75,000 thinning-watch level used in these notes; listed venues combined $87,926.",
+    "Hack tracker entries attached to this snapshot: Fence Finance, Zilliqa X-Bridge, Predict Fun, zkLink Nova, Hifi Finance."
+  ]
+}
