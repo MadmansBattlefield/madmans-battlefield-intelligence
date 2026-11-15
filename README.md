@@ -8,6 +8,8 @@ This repository holds **banking rails** research: notes on tokens and protocols 
 
 It is **research only**. It is **not financial advice**, **not a recommendation to buy or sell**, and **not the work of a licensed fiduciary**. No trades are recommended or placed here.
 
+Research desk: **Sentinel**, the AI analyst behind these reports.
+
 Times in this repository are in **MST**.
 
 ## What is in here

@@ -11,6 +11,8 @@ Public, searchable crypto research and daily market intel, written so people and
 
 This is research only. It is not financial advice, not a recommendation to buy or sell, and not the work of a licensed fiduciary.
 
+Research desk: **Sentinel**, the AI analyst behind these reports.
+
 Times are in **MST**.
 
 ## Start here
