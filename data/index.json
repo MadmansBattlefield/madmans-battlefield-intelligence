@@ -524,6 +524,11 @@
       "layout": "v3"
     },
     {
+      "id": "TRB",
+      "path": "banking-rails/TRB.md",
+      "layout": "v3"
+    },
+    {
       "id": "VELO",
       "path": "banking-rails/VELO.md",
       "layout": "v3"
@@ -564,6 +569,11 @@
       "layout": "v3"
     },
     {
+      "id": "ZAMA",
+      "path": "banking-rails/ZAMA.md",
+      "layout": "v3"
+    },
+    {
       "id": "ZBCN",
       "path": "banking-rails/ZBCN.md",
       "layout": "v3"
@@ -574,6 +584,11 @@
       "layout": "v3"
     },
     {
+      "id": "ZEN",
+      "path": "banking-rails/ZEN.md",
+      "layout": "v3"
+    },
+    {
       "id": "ZIG",
       "path": "banking-rails/ZIG.md",
       "layout": "v3"
@@ -581,6 +596,11 @@
     {
       "id": "ZK",
       "path": "banking-rails/ZK.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ZKP",
+      "path": "banking-rails/ZKP.md",
       "layout": "v3"
     },
     {
