@@ -35,6 +35,8 @@ layout_version: 3
 
 **Summary:** No foundation, no premine, no insider unlocks and the deepest market in crypto, but users pay only ~$78M a year in fees, about 1% of what miners earn, so the network still runs on new-coin subsidy.
 
+**🚨 Top warning:** Users pay only **~$78M a year** in fees, about **1% of miner income** (0.96% over the last 144 blocks), so network security still depends on the block subsidy that halves every four years ([DefiLlama fees](https://defillama.com/chain/bitcoin) · [mempool.space reward stats](https://mempool.space/api/v1/mining/reward-stats/144)). Hashrate is also on track for a second straight difficulty drop ([mempool.space](https://mempool.space/difficulty-adjustment)).
+
 **Sections passed: 10 of 11**
 
 | Section | Score | Result |
@@ -78,10 +80,10 @@ layout_version: 3
 |---|---:|---|
 | 24h fees paid by users | $254,571 | [Tier A] DefiLlama `bitcoin` fees, 14 Nov 2026 |
 | 30-day fees | $6,302,817 | [Tier A] DefiLlama |
-| 12-month fees | $78,495,445 | [Tier A] DefiLlama |
+| 12-month fees | $78,495,445 | [Tier A] [DefiLlama](https://defillama.com/chain/bitcoin) |
 | All-time fees | $4,460,913,569 | [Tier A] DefiLlama |
 | "Revenue" (burn / treasury) | **$0** — no burn, no treasury; 100% of fees go to miners | [Tier A] DefiLlama · protocol design |
-| Last 144 blocks (≈1 day): miner reward | 454.37 BTC total = 450.00 subsidy + **4.37 BTC fees (0.96%)** | [Tier A] mempool.space reward-stats |
+| Last 144 blocks (≈1 day): miner reward | 454.37 BTC total = 450.00 subsidy + **4.37 BTC fees (0.96%)** | [Tier A] [mempool.space reward-stats](https://mempool.space/api/v1/mining/reward-stats/144) |
 | Block subsidy | 3.125 BTC since the April 2024 halving | [Tier A] protocol |
 
 **What it means:** People pay real money to use Bitcoin, but it is small next to a $1.3T asset (~0.006% a year), and none of it reaches holders. Miners rely on new coins for ~99% of their income; that subsidy halves again in 2028. BTC's value case is scarcity, not cash flow, so it scores low on this section by design.
@@ -92,10 +94,10 @@ layout_version: 3
 |---|---|---|
 | Foundation | **None.** No company or foundation controls the protocol or holds a treasury. Creator "Satoshi Nakamoto" is pseudonymous and inactive since 2011 | [Tier A] protocol history · white paper |
 | Reference client | Bitcoin Core, GitHub `bitcoin/bitcoin` — last push 13 Nov 2026; ~1,122 commits in the last 13 weeks; 90,677 stars | [Tier A] GitHub API |
-| Releases | v32.1, v31.2, v30.4 all published 28 Oct 2026 (maintained branches patched together) | [Tier A] GitHub releases |
+| Releases | v32.1, v31.2, v30.4 all published 28 Oct 2026 (maintained branches patched together) | [Tier A] [GitHub releases](https://github.com/bitcoin/bitcoin/releases) |
 | Change process | BIPs + rough consensus; node operators choose software. No on-chain vote, no admin key | [Tier A] BIP process |
 | Developer funding | Grants from independent non-profits and companies (e.g. Brink, OpenSats, Chaincode, Spiral) | [Unverified] not checked per funder this pass |
-| Mining concentration (last ~1 month, 4,378 blocks) | Foundry USA 25.5% · AntPool 20.1% · F2Pool 16.6% · ViaBTC 9.2% · SpiderPool 5.9% · MARA 5.1% → **top 2 = 45.6%, top 3 = 62.2%** | [Tier A] mempool.space pools |
+| Mining concentration (last ~1 month, 4,378 blocks) | Foundry USA 25.5% · AntPool 20.1% · F2Pool 16.6% · ViaBTC 9.2% · SpiderPool 5.9% · MARA 5.1% → **top 2 = 45.6%, top 3 = 62.2%** | [Tier A] [mempool.space pools](https://mempool.space/graphs/mining/pools) |
 
 **What it means:** No one is "in charge", which removes foundation risk. The concentration that matters is mining pools: three pools found ~62% of recent blocks.
 
@@ -104,7 +106,7 @@ layout_version: 3
 | Holder | BTC | % of supply | Notes | Source |
 |---|---:|---:|---|---|
 | Team / foundation allocation | **0** | 0% | No premine, no ICO, no vesting | [Tier A] protocol |
-| Strategy Inc. (largest public company holder) | 850,364 (as of 8 Nov 2026) | 4.23% | Bought 1,036 BTC 2–8 Nov 2026 | [Tier A] Strategy 8-K (SEC), as reported by 2 outlets |
+| Strategy Inc. (largest public company holder) | 850,364 (as of 8 Nov 2026) | 4.23% | Bought 1,036 BTC 2–8 Nov 2026 | [Tier A] [Strategy 8-K (SEC, filed 9 Nov 2026)](https://www.sec.gov/Archives/edgar/data/1050446/000119312526452693/mstr-20261109.htm) |
 | Early "Satoshi-era" coins | est. ~1.1M | ~5.5% | Never moved; attribution is statistical | [Unverified] |
 | Spot ETF custodians | Not read this pass | — | Would need issuer holdings pages | Not found |
 
@@ -117,7 +119,7 @@ layout_version: 3
 | Check | Finding | Source |
 |---|---|---|
 | Team / foundation selling | Not applicable — no team or foundation wallet exists | [Tier A] |
-| Largest corporate holder | Strategy was a **net buyer** in the week of 2–8 Nov 2026 (+1,036 BTC) | [Tier A] 8-K |
+| Largest corporate holder | Strategy was a **net buyer** in the week of 2–8 Nov 2026 (+1,036 BTC) | [Tier A] [8-K](https://www.sec.gov/Archives/edgar/data/1050446/000119312526452693/mstr-20261109.htm) |
 | Satoshi-era coins | No movement found in this pass | [Unverified] not traced address-by-address |
 | Government holders | Not traced this pass | Not found |
 
@@ -155,7 +157,7 @@ layout_version: 3
 | Item | Finding | Source |
 |---|---|---|
 | Protocol hack | None. No admin keys to steal | [Tier A] |
-| Hashrate trend | Difficulty fell 9.1% at the last retarget and is on track for another **−6.6%** | [Tier A] mempool.space |
+| Hashrate trend | Difficulty fell 9.1% at the last retarget and is on track for another **−6.6%** | [Tier A] [mempool.space](https://mempool.space/difficulty-adjustment) |
 | Pool concentration | Top 3 pools = 62.2% of recent blocks | [Tier A] |
 | Wrapped BTC | WBTC and others are separate tokens with custodian / contract risk | [Tier A] |
 
@@ -179,18 +181,30 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None |
-| Hashrate falling two retargets in a row | 🟡 Watch (−9.1% done, −6.6% projected) |
-| Fees under 2% of miner revenue | 🔴 Tripped (0.96%, last 144 blocks) |
+| Hashrate falling two retargets in a row | 🟡 Watch (−9.1% done, −6.6% projected; [mempool.space](https://mempool.space/difficulty-adjustment)) |
+| Fees under 2% of miner revenue | 🔴 Tripped (0.96%, last 144 blocks; [reward stats](https://mempool.space/api/v1/mining/reward-stats/144) · [DefiLlama](https://defillama.com/chain/bitcoin)) |
 
 ## 📚 Sources
 
-- [Tier A] mempool.space API (tip height, hashrate, difficulty, reward-stats, pools), 14 Nov 2026 ~12:15 PM MST
-- [Tier A] DefiLlama fees `bitcoin`, 14 Nov 2026
-- [Tier A] CoinGecko `bitcoin` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
-- [Tier A] GitHub `bitcoin/bitcoin` (pushes, releases, participation)
-- [Tier A] Strategy Inc. 8-K (week to 8 Nov 2026) as reported by Bitcoin Magazine and Decrypt
+- [Tier A] [mempool.space API](https://mempool.space/docs/api/rest) (tip height, hashrate, difficulty, [reward-stats](https://mempool.space/api/v1/mining/reward-stats/144), [pools](https://mempool.space/graphs/mining/pools)), 14 Nov 2026 ~12:15 PM MST
+- [Tier A] [DefiLlama fees `bitcoin`](https://defillama.com/chain/bitcoin), 14 Nov 2026
+- [Tier A] [CoinGecko `bitcoin`](https://www.coingecko.com/en/coins/bitcoin) price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
+- [Tier A] [GitHub `bitcoin/bitcoin`](https://github.com/bitcoin/bitcoin) (pushes, [releases](https://github.com/bitcoin/bitcoin/releases), participation)
+- [Tier A] [Strategy Inc. 8-K (week to 8 Nov 2026), SEC EDGAR](https://www.sec.gov/Archives/edgar/data/1050446/000119312526452693/mstr-20261109.htm); also reported by Bitcoin Magazine and Decrypt
 - [Tier B] CoinDesk, The Block (liquidations, Core bug fixes)
 - [Unverified] Satoshi-era coin estimate; developer funder list; Core bug-fix news item
+
+## 🔗 Evidence trail
+
+*Every link below opens the primary record (chain data, SEC filing or release page) for the claim. Click through to check any number yourself.*
+
+| Claim | Evidence link(s) | Tier | Date read |
+|---|---|---|---|
+| Fees are ~1% of miner income (4.37 of 454.37 BTC, last 144 blocks); 12-month fees $78.5M | [mempool.space reward stats](https://mempool.space/api/v1/mining/reward-stats/144) · [DefiLlama](https://defillama.com/chain/bitcoin) | A | 14 Nov 2026 ~12:15 PM MST |
+| Difficulty fell 9.1%; next retarget projected −6.6% | [mempool.space difficulty](https://mempool.space/difficulty-adjustment) | A | 14 Nov 2026 |
+| Mining concentration: top 2 pools 45.6%, top 3 62.2% | [mempool.space pools](https://mempool.space/graphs/mining/pools) | A | 14 Nov 2026 |
+| Strategy holds 850,364 BTC; bought 1,036 BTC 2–8 Nov 2026 | [SEC 8-K, 9 Nov 2026](https://www.sec.gov/Archives/edgar/data/1050446/000119312526452693/mstr-20261109.htm) | A | 15 Nov 2026 |
+| Core v32.1 / v31.2 / v30.4 released 28 Oct 2026 | [GitHub releases](https://github.com/bitcoin/bitcoin/releases) | A | 14 Nov 2026 |
 
 ---
 

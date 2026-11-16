@@ -21,10 +21,11 @@ gates_failed: []
 red_lines:
   hidden_mint: none_found
   foundation_outflow_on_pump_day: none_found_in_window
+  foundation_to_exchange_undisclosed: "1M ZRO, 28 Apr 2026, LayerZero 1 → Binance deposit (not a pump day)"
   fee_switch_on: "no (4 votes, all Off)"
 price_usd: 1.52
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
-last_updated: 2026-11-14
+last_updated: 2026-11-15
 layout_version: 3
 ---
 
@@ -33,6 +34,8 @@ layout_version: 3
 ### ZRO · Overall grade **5.3 / 10 · ❌ FAIL**
 
 **Summary:** LayerZero is heavily used, deep-liquidity cross-chain infrastructure, but token holders get only a small buyback funded by Stargate (about $300k a month). The protocol fee switch has been voted down four times. About 49% of supply is still vesting, and the Foundation's "re-locked" 183M is a promise held in plain multisigs, not a lock in code.
+
+**🚨 Top warning:** On 28 Apr 2026 the Foundation-labelled wallet "LayerZero 1" [`0x1f90…3909`](https://etherscan.io/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909) sent **999,999 ZRO (~$1.5M) to Binance deposit address** [`0xCeF2…5bfe`](https://etherscan.io/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe), forwarded to Binance 14 nine minutes later. No public note of it was found (not a pump day). Check: [send tx](https://etherscan.io/tx/0x054d08ebe2c2f6c9bab7e21cac0b7f491ffb97642caddff96507d976acfe333e) · [forward to Binance 14](https://etherscan.io/tx/0x38c187e58eb80d31513594120fcbbc55f32bfe02a14860b9e3c3699db1b78925) · [Arkham “Binance Deposit”](https://intel.arkm.com/explorer/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe). Bigger structural risk: the Foundation's "re-locked" 183M sits in plain multisigs such as [`0x8F64…449C`](https://etherscan.io/address/0x8F6449530606A9EFddaC42e05612427dDeBA449C).
 
 **Sections passed: 5 of 11**
 
@@ -61,9 +64,9 @@ layout_version: 3
 
 | 📊 Market (CoinGecko + DexScreener, 14 Nov 2026 ~12:12 PM MST) | 🔗 On-chain (Ethereum RPC + Blockscout, 14 Nov 2026) |
 |---|---|
-| **Price** $1.52 | **Token** `0x6985…71cd` · LayerZeroToken (OFT) · Solidity 0.8.22 · verified |
+| **Price** $1.52 | **Token** [`0x6985…71cd`](https://etherscan.io/address/0x6985884C4392D348587B19cb9eAAf157F13271cd) · LayerZeroToken (OFT) · Solidity 0.8.22 · verified |
 | **24h / 7d / 30d** 🔴 −5.5% / −6.4% / −27.0% | **Ethereum totalSupply** 951,083,167 (the rest of 1B is bridged to other chains) |
-| **Market cap** $607.0M · **FDV** $1.518B | **owner()** `0xf2c6…8ef8` "OneSig", **5 of 8** signers (deployed 13 Apr 2026) |
+| **Market cap** $607.0M · **FDV** $1.518B | **owner()** [`0xf2c6…8ef8`](https://etherscan.io/address/0xf2c6ebc0aad6e8024a2bd2623f97fea5d0ca8ef8) "OneSig", **5 of 8** signers (deployed 13 Apr 2026) |
 | **24h volume** $80.2M | **Mint after constructor** none · **pause / blacklist / tax** none |
 | **ATH** $7.47 (6 Dec 2024) · now −79.7% | **Largest holder** Future Initiatives multisig, 106.06M (11.15%) |
 | **Circulating (CoinGecko)** 399.98M of 1B | **Holders** 26,261 (Blockscout) |
@@ -90,8 +93,8 @@ layout_version: 3
 | Item | Finding | Source |
 |---|---|---|
 | Entities | LayerZero Foundation (token, governance, buybacks) and LayerZero Labs (developer) | [Tier A] layerzero.foundation |
-| Token owner / admin | `owner()` = `0xf2c6ebc0aad6e8024a2bd2623f97fea5d0ca8ef8`, a **"OneSig"** contract (v0.0.1). **5-of-8** threshold. Deployed 13 Apr 2026 (tx `0x17147c4b6da8…`). Signers `0x0cb72c1f…`, `0x771dcacb…`, `0x5bc6aa6a…`, `0x73e9c017…`, `0xe67db04d…`, `0xdfe40272…`, `0x2be094f1…`, `0xd144dad1…` | [Tier A] eth_call `threshold()`, `getSigners()` |
-| Earlier owner | 3-of-5 Safe `0xcDa8e3ADd00c95E5035617F970096118Ca2F4C92` (v2 note). The transfer date was **not pinned** (log range not available on free RPC) | [Tier A] Safe still 3 of 5 |
+| Token owner / admin | `owner()` = [`0xf2c6ebc0aad6e8024a2bd2623f97fea5d0ca8ef8`](https://etherscan.io/address/0xf2c6ebc0aad6e8024a2bd2623f97fea5d0ca8ef8), a **"OneSig"** contract (v0.0.1). **5-of-8** threshold. Deployed 13 Apr 2026 ([tx `0x17147c4b6da8…`](https://etherscan.io/tx/0x17147c4b6da8886dc65aa8abdaca10a2537bdb8298b7b7754f64e13589de8e95)). Signers `0x0cb72c1f…`, `0x771dcacb…`, `0x5bc6aa6a…`, `0x73e9c017…`, `0xe67db04d…`, `0xdfe40272…`, `0x2be094f1…`, `0xd144dad1…` | [Tier A] eth_call `threshold()`, `getSigners()` |
+| Earlier owner | 3-of-5 Safe [`0xcDa8e3ADd00c95E5035617F970096118Ca2F4C92`](https://etherscan.io/address/0xcDa8e3ADd00c95E5035617F970096118Ca2F4C92) (v2 note). The transfer date was **not pinned** (log range not available on free RPC) | [Tier A] Safe still 3 of 5 |
 | Treasury Safes | `0x8F64…449C` and `0x744D…DA24`, both **3 of 5** | [Tier A] `getThreshold()` |
 | CEO Bryan Pellegrino; funding (2023 Series B at a reported $3B) | Public materials and press only | [Unverified] |
 
@@ -101,13 +104,14 @@ layout_version: 3
 
 | Wallet | Label | 14 Nov 2026 | % of ETH supply | Locked? |
 |---|---|---:|---:|---|
-| `0x8F6449530606A9EFddaC42e05612427dDeBA449C` | "LayerZero: Future Initiatives Multisig" (Safe 3/5) | 106,064,069 | 11.15% | 🔓 No code lock |
-| `0x744Dbc48D11415ec5cB2f78609DeA5E1E738DA24` | Safe 3/5 (sent 11M to GSR and 6.65M to Wintermute in Jun 2024) | 69,549,762 | 7.31% | 🔓 |
-| `0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909` | "LayerZero 1" | 28,999,991 | 3.05% | 🔓 |
-| `0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431` | Safe (role [Unverified]) | 22,500,000 | 2.37% | 🔓 |
-| `0x6e0e32684df6e3aE415aB1146A305bFd03E42427` | Safe (role [Unverified]) | 22,500,000 | 2.37% | 🔓 |
+| [`0x8F6449530606A9EFddaC42e05612427dDeBA449C`](https://etherscan.io/address/0x8F6449530606A9EFddaC42e05612427dDeBA449C) | "LayerZero: Future Initiatives Multisig" (Safe 3/5) | 106,064,069 | 11.15% | 🔓 No code lock |
+| [`0x744Dbc48D11415ec5cB2f78609DeA5E1E738DA24`](https://etherscan.io/address/0x744Dbc48D11415ec5cB2f78609DeA5E1E738DA24) | Safe 3/5 (sent 11M to GSR and 6.65M to Wintermute in Jun 2024) | 69,549,762 | 7.31% | 🔓 |
+| [`0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909`](https://etherscan.io/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909) | "LayerZero 1" ([Arkham](https://intel.arkm.com/explorer/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909)) | 28,999,991 | 3.05% | 🔓 |
+| [`0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431`](https://etherscan.io/address/0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431) ([Arkham](https://intel.arkm.com/explorer/address/0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431)) | Safe, created 9 May 2024. Funded 4 Jun 2024 by the genesis Safe in the original allocation batch (see below). **Never moved since.** Arkham: no entity, "Dormant Address" | 22,500,000 | 2.37% | 🔓 (role [Unverified]) |
+| [`0x6e0e32684df6e3aE415aB1146A305bFd03E42427`](https://etherscan.io/address/0x6e0e32684df6e3aE415aB1146A305bFd03E42427) ([Arkham](https://intel.arkm.com/explorer/address/0x6e0e32684df6e3aE415aB1146A305bFd03E42427)) | **BitGo custody wallet** (verified contract "WalletSimple", created 20 Jan 2026; Arkham: "WalletSimple (BitGo)"), not a Safe. Received 22,499,999 on 20 Jan 2026 ([tx `0x30ac6cfe…`](https://etherscan.io/tx/0x30ac6cfe765236e03e217c77abfff13e60405798f60200afadb049fbec240219)) from [`0x1d4A12A0…19F5`](https://etherscan.io/address/0x1d4a12a09c293b816bff3625abda3ae07dee19f5), which got its 22.5M in the same 4 Jun 2024 batch. **No outflows** | 22,500,000 | 2.37% | 🔓 (role [Unverified]) |
 | `0xF977…` | Binance 8 (exchange) | ~35M | ~3.7% | n/a |
 
+- **The two 22.5M wallets (traced 15 Nov):** the genesis Safe [`0x3437f6f7…9ed3`](https://etherscan.io/address/0x3437f6f7bd47d75780981d0b5a0ce9a038f19ed3) received the whole 1B mint on 17 Apr 2024. On **4 Jun 2024 16:52 UTC** it paid **218,966,392 ZRO to 23 addresses in one transaction** ([tx `0x9f4c16f296f5…`](https://etherscan.io/tx/0x9f4c16f296f5ea5576496a4c4eaff7cf2411fb23baabd40c85844c45ac6e0b18)), including 22.5M to `0x806f…` and 22.5M to `0x1d4A…`. Identical 22.5M lots in a one-off pre-launch allocation batch look like **partner or investor allocations rather than Foundation treasury**, but nothing official says so [Unverified]. Neither has ever sent ZRO to an exchange ([Tier A] Etherscan v2 `tokentx`; [Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account)).
 - Official split ([Tier A] blog "The ZRO Token", 3 Jun 2026): 1B total. **514M unlocked, 486M still vesting** across the Foundation, strategic partners (now 312M) and contributors (individual terms).
 - The Foundation started with 383M; 250M unlocked at launch. The remaining **183M** (including 50M repurchased in Sep 2025) is "**re-locked until Zero's mainnet launch**". No vesting or lock contract was found. The 183M appears to sit in ordinary Safes, so the lock is **policy only**.
 
@@ -119,12 +123,13 @@ layout_version: 3
 
 | Check | Result | Source |
 |---|---|---|
-| Future Initiatives `0x8F64…` | Last outflows: **13 Nov 2025**, 29,999,999 to "LayerZero 1" (tx `0xa31988c8f04a…`), and 11 Nov 2025, 3,333,333 to Safe `0x7b0aC510…`. Both are before the pump window. Last inflow 15 Apr 2026 (128,980). **No outflow on any pump day** | [Tier A] Blockscout transfers |
+| Future Initiatives [`0x8F64…`](https://etherscan.io/address/0x8F6449530606A9EFddaC42e05612427dDeBA449C) | Last outflows: **13 Nov 2025**, 29,999,999 to "LayerZero 1" ([tx `0xa31988c8f04a…`](https://etherscan.io/tx/0xa31988c8f04a87292ecd5492f203d12eb920288cd9fc17b5baddf42a824436f4)), and 11 Nov 2025, 3,333,333 to Safe [`0x7b0aC510…`](https://etherscan.io/address/0x7b0aC51037f43754275BD87446d35351f58448FE) ([tx `0x4c7f3b0c…`](https://etherscan.io/tx/0x4c7f3b0cd36630747dfdbfd57c922133b05b0ff0238fc0440ea39ebe39fd4a4f)). Both are before the pump window. Last inflow 15 Apr 2026 (128,980; [tx `0x9ff36d49…`](https://etherscan.io/tx/0x9ff36d4983b1e3b424361b87325a97fe38ba1bcbebfc67e7aec940980a6c3b74)). **No outflow on any pump day** | [Tier A] Blockscout transfers |
 | `0x744D…` | No outflow since 25 Jul 2025 | [Tier A] |
-| "LayerZero 1" `0x1f90…` | 28 Apr 2026: 999,999 to `0xCeF2E387…` (5-day −6.2%, **not a pump**) | [Tier A] |
+| The two 22.5M wallets `0x806f…` and `0x6e0e…` (new) | `0x806f…`: one transfer ever (the 4 Jun 2024 funding). `0x6e0e…`: only the 20 Jan 2026 inflow (5-day +6.5%, not a pump), a move from a plain wallet into BitGo custody. **No exchange sends** | [Tier A] Etherscan v2 · Arkham |
+| "LayerZero 1" [`0x1f90…`](https://etherscan.io/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909) | 28 Apr 2026: 10 ZRO test at 06:18 UTC ([tx `0xdfc7be91…`](https://etherscan.io/tx/0xdfc7be910a233c26cbca4f66a59925307079b1b53bf6f61ee127b9c22b4b6ec5)), then **999,999 at 06:53 UTC to [`0xCeF2E387…`](https://etherscan.io/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe)** ([tx `0x054d08eb…`](https://etherscan.io/tx/0x054d08ebe2c2f6c9bab7e21cac0b7f491ffb97642caddff96507d976acfe333e)), which forwarded **1,000,009 to Binance 14 at 07:02 UTC** ([tx `0x38c187e58eb8…`](https://etherscan.io/tx/0x38c187e58eb80d31513594120fcbbc55f32bfe02a14860b9e3c3699db1b78925)). Arkham labels `0xCeF2…` **"Binance Deposit"** ([Arkham](https://intel.arkm.com/explorer/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe)); Binance 14 is tagged by Etherscan and Arkham (two Tier B), so this was **a ~$1.5M Foundation-labelled deposit to Binance**. 5-day −6.2%, **not a pump**. No public note of it was found | [Tier A] Etherscan v2 · [Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account) |
 | Investor selling (disclosed) | As of 31 May 2026, 134.7M unlocked to investors and 85.9M (63.8%) still held. Public sales average **4.9M per month**. One entity accounts for 37.9% of sales and unlocks 2.05M a month | [Tier A] blog (company disclosure) |
 
-**What it means:** No Foundation wallet sold into a pump in the last year. Investors do sell steadily, and LayerZero discloses it. The two 22.5M Safes and the investor wallets were not traced, so a clean result is not proven.
+**What it means:** No Foundation wallet sold into a pump in the last year. The two 22.5M wallets are now traced: neither has ever sent ZRO to an exchange. Arkham confirms that the 1M from "LayerZero 1" in April went to a Binance deposit, an undisclosed exchange send, though on a falling day. Investors sell steadily, and LayerZero discloses that in aggregate. Wider investor wallets are still untraced, so the score stays 5.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -204,9 +209,10 @@ layout_version: 3
 | Red line | Status | Evidence |
 |---|---|---|
 | Hidden mint function | 🟢 None | Verified source |
-| Foundation outflow on a pump day | 🟢 None found in 360-day window | Blockscout transfers for 0x8F64, 0x744D, 0x1f90 |
+| Foundation outflow on a pump day | 🟢 None found in 360-day window | Blockscout transfers for 0x8F64, 0x744D, 0x1f90; Etherscan v2 for the two 22.5M wallets |
+| Foundation-labelled send to an exchange, undisclosed | 🟡 Once: 1M ZRO to a Binance deposit, 28 Apr 2026 (not a pump day) | [send](https://etherscan.io/tx/0x054d08ebe2c2f6c9bab7e21cac0b7f491ffb97642caddff96507d976acfe333e) · [forward](https://etherscan.io/tx/0x38c187e58eb80d31513594120fcbbc55f32bfe02a14860b9e3c3699db1b78925) · [Arkham label](https://intel.arkm.com/explorer/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe) |
 | Fee switch turned on | 🔴 No | 4 votes, all Off |
-| Foundation 183M moved before Zero mainnet | 🟢 Not observed | 0x8F64 no outflow since Nov 2025 |
+| Foundation 183M moved before Zero mainnet | 🟢 Not observed | [0x8F64](https://etherscan.io/address/0x8F6449530606A9EFddaC42e05612427dDeBA449C) no outflow since Nov 2025 |
 
 ## 📚 Sources
 
@@ -215,7 +221,36 @@ layout_version: 3
 - [Tier A] layerzero.foundation: zro-buybacks page, fee-switch page, blog "The ZRO Token" (3 Jun 2026), pricing update (11 Aug 2026)
 - [Tier A] DefiLlama `layerzero` fees and revenue · DexScreener tokens API
 - [Tier B] CoinGecko markets, tickers and daily closes, 14 Nov 2026
-- [Unverified] Nov unlock amount (Tokenomist); KelpDAO incident; funding rounds; CEO; roles of the 22.5M Safes; Zero mainnet date; owner-transfer date
+- [Tier A] Etherscan v2 API (ZRO `tokentx`, `getsourcecode`, `getcontractcreation`, tx receipt) for `0x806f…`, `0x6e0e…`, `0x1d4A…`, `0xCeF2…` and the 4 Jun 2024 batch tx; read 15 Nov 2026 ~11:20 AM MST
+- [Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): "LayerZero" entity (420.8K addresses, ~$274M, 194.8M ZRO; deposits in Arkham's window $1.63M, all Binance; Enterprise-locked all-time view); `0x806f…` "Gnosis Safe Proxy" (dormant); `0x6e0e…` "WalletSimple (BitGo)"; `0xCeF2…` "Binance Deposit"; Binance 14 "Binance: Hot Wallet". Relative ages only; dates above come from on-chain reads
+- [Tier A] Explorer pages used (Etherscan): [`LayerZero 1`](https://etherscan.io/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909) · [`0xCeF2…`](https://etherscan.io/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe) · [`0x8F64…`](https://etherscan.io/address/0x8F6449530606A9EFddaC42e05612427dDeBA449C) · [`0x744D…`](https://etherscan.io/address/0x744Dbc48D11415ec5cB2f78609DeA5E1E738DA24) · [`0x806f…`](https://etherscan.io/address/0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431) · [`0x6e0e…`](https://etherscan.io/address/0x6e0e32684df6e3aE415aB1146A305bFd03E42427) · [`0x1d4A…`](https://etherscan.io/address/0x1d4a12a09c293b816bff3625abda3ae07dee19f5) · [`genesis Safe`](https://etherscan.io/address/0x3437f6f7bd47d75780981d0b5a0ce9a038f19ed3) · [`OneSig owner`](https://etherscan.io/address/0xf2c6ebc0aad6e8024a2bd2623f97fea5d0ca8ef8) · [`Binance 14`](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60)
+- [Tier B] Arkham address pages used: [LayerZero 1](https://intel.arkm.com/explorer/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909) · [0xCeF2…](https://intel.arkm.com/explorer/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe) · [0x806f…](https://intel.arkm.com/explorer/address/0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431) · [0x6e0e…](https://intel.arkm.com/explorer/address/0x6e0e32684df6e3aE415aB1146A305bFd03E42427) · [Binance 14](https://intel.arkm.com/explorer/address/0x28C6c06298d514Db089934071355E5743bf21d60)
+- [Unverified] Nov unlock amount (Tokenomist); KelpDAO incident; funding rounds; CEO; owners of the two 22.5M wallets (partner / investor allocation is an inference); Zero mainnet date; owner-transfer date
+
+## 🔗 Evidence trail
+
+*Every link below opens the primary record (block explorer) or the label source (Arkham) for the claim. Click through to check any number yourself.*
+
+| Claim | Evidence link(s) | Tier | Date read |
+|---|---|---|---|
+| **"LayerZero 1" → Binance deposit:** 10 ZRO test, then 999,999 ZRO to `0xCeF2…` on 28 Apr 2026, forwarded 1,000,009 to Binance 14 | [test](https://etherscan.io/tx/0xdfc7be910a233c26cbca4f66a59925307079b1b53bf6f61ee127b9c22b4b6ec5) · [send](https://etherscan.io/tx/0x054d08ebe2c2f6c9bab7e21cac0b7f491ffb97642caddff96507d976acfe333e) · [forward](https://etherscan.io/tx/0x38c187e58eb80d31513594120fcbbc55f32bfe02a14860b9e3c3699db1b78925) · [Arkham “Binance Deposit”](https://intel.arkm.com/explorer/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe) · [Binance 14 tag](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60) | A + 2× B | 15 Nov 2026 ~11:20 AM MST |
+| "LayerZero 1" was funded with 29,999,999 ZRO by the Future Initiatives multisig (13 Nov 2025) | [tx](https://etherscan.io/tx/0xa31988c8f04a87292ecd5492f203d12eb920288cd9fc17b5baddf42a824436f4) · [LayerZero 1](https://etherscan.io/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909) | A | 14 Nov 2026 |
+| Future Initiatives multisig `0x8F64…` holds 106.06M (11.15%); no outflow since Nov 2025 | [Etherscan](https://etherscan.io/address/0x8F6449530606A9EFddaC42e05612427dDeBA449C) · last outflows [13 Nov](https://etherscan.io/tx/0xa31988c8f04a87292ecd5492f203d12eb920288cd9fc17b5baddf42a824436f4) / [11 Nov](https://etherscan.io/tx/0x4c7f3b0cd36630747dfdbfd57c922133b05b0ff0238fc0440ea39ebe39fd4a4f) | A | 14 Nov 2026 |
+| Two 22.5M wallets came from one 4 Jun 2024 allocation batch (218,966,392 ZRO to 23 addresses) | [batch tx](https://etherscan.io/tx/0x9f4c16f296f5ea5576496a4c4eaff7cf2411fb23baabd40c85844c45ac6e0b18) · [0x806f…](https://etherscan.io/address/0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431) · [0x1d4A…](https://etherscan.io/address/0x1d4a12a09c293b816bff3625abda3ae07dee19f5) · [Arkham 0x806f…](https://intel.arkm.com/explorer/address/0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431) | A + B | 15 Nov 2026 |
+| `0x1d4A…` moved its 22.5M into BitGo custody wallet `0x6e0e…` (20 Jan 2026); no outflows since | [tx](https://etherscan.io/tx/0x30ac6cfe765236e03e217c77abfff13e60405798f60200afadb049fbec240219) · [0x6e0e… Etherscan](https://etherscan.io/address/0x6e0e32684df6e3aE415aB1146A305bFd03E42427) · [Arkham “WalletSimple (BitGo)”](https://intel.arkm.com/explorer/address/0x6e0e32684df6e3aE415aB1146A305bFd03E42427) | A + B | 15 Nov 2026 |
+| Token owner is OneSig 5-of-8 `0xf2c6…8ef8`, deployed 13 Apr 2026 | [Etherscan](https://etherscan.io/address/0xf2c6ebc0aad6e8024a2bd2623f97fea5d0ca8ef8) · [deploy tx](https://etherscan.io/tx/0x17147c4b6da8886dc65aa8abdaca10a2537bdb8298b7b7754f64e13589de8e95) | A | 14 Nov 2026 |
+
+---
+
+## 🔎 Open items and how to close them
+
+| # | Open item | Exactly how to close it | Cost / access |
+|---|---|---|---|
+| 1 | **Who owns the two 22.5M wallets** (`0x806f…` Safe, `0x6e0e…` BitGo) | Read `getOwners()` on `0x806f…`; match the 23 recipients of the 4 Jun 2024 batch to LayerZero's partner / investor list; Arkham or Nansen labels for the other 21 recipients | Free / Nansen paid |
+| 2 | **Was the 28 Apr 1M to Binance disclosed, and what was it for?** | LayerZero Foundation buyback / treasury reports for Apr–May 2026; ask the Foundation | Free |
+| 3 | **Exact Nov unlock (~23.6M) and its recipients** | Read the vesting contracts or the Foundation's unlock post; trace recipients after 19–20 Nov | Free |
+| 4 | **Owner-transfer date to the OneSig** | `OwnershipTransferred` log on the token, via Etherscan v2 `getLogs` | Free |
+| 5 | **KelpDAO incident** | Primary post-mortem from KelpDAO or LayerZero | Free |
 
 ---
 

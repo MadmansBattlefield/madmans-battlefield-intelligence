@@ -1,8 +1,8 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 18
-last_updated: 2026-11-14
+scored_reports: 27
+last_updated: 2026-11-15
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
@@ -11,7 +11,7 @@ disclaimer: Research only. Not financial advice. Not a recommendation to buy or 
 # 🏆 Banking Rails Ranking
 
 **Research only. Not financial advice.**
-Updated 14 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md).
+Updated 15 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md).
 
 **How to read it:** each coin gets a score out of 10. **6.0 or more = PASS.**
 If Revenue or Selling scores 3 or less, it's an automatic **FAIL**.
@@ -26,21 +26,43 @@ Ties are broken by how many of the 11 sections passed.
 3. 🟢 **LINK** · 6.9 · ✅ PASS
 4. 🟢 **SOL** · 6.6 · ✅ PASS
 5. 🟢 **AERO** · 6.6 · ✅ PASS
-6. 🔴 **TAO** · 5.5 · ❌ FAIL
-7. 🔴 **HBAR** · 5.3 · ❌ FAIL
-8. 🔴 **ZRO** · 5.3 · ❌ FAIL
-9. 🔴 **BP** · 5.1 · ❌ FAIL
-10. 🔴 **XRP** · 5.1 · ❌ FAIL
-11. 🔴 **ONDO** · 4.9 · ❌ FAIL
-12. 🔴 **ZBCN** · 4.6 · ❌ FAIL
-13. 🔴 **SEI** · 4.0 · ❌ FAIL
-14. 🔴 **PLUME** · 3.5 · ❌ FAIL
-15. 🔴 **JASMY** · 2.8 · ❌ FAIL
-16. 🔴 **SERV** · 2.8 · ❌ FAIL
-17. 🔴 **EDEL** · 2.5 · ❌ FAIL
-18. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+6. 🟢 **CC** · 6.4 · ✅ PASS
+7. 🔴 **XLM** · 5.7 · ❌ FAIL
+8. 🔴 **BNKR** · 5.6 · ❌ FAIL
+9. 🔴 **AVAX** · 5.5 · ❌ FAIL
+10. 🔴 **TAO** · 5.5 · ❌ FAIL
+11. 🔴 **HBAR** · 5.3 · ❌ FAIL
+12. 🔴 **ZRO** · 5.3 · ❌ FAIL
+13. 🔴 **BP** · 5.2 · ❌ FAIL
+14. 🔴 **XRP** · 5.1 · ❌ FAIL
+15. 🔴 **ALGO** · 5.0 · ❌ FAIL
+16. 🔴 **APT** · 5.0 · ❌ FAIL
+17. 🔴 **DASH** · 4.7 · ❌ FAIL
+18. 🔴 **ONDO** · 4.7 · ❌ FAIL
+19. 🔴 **CELO** · 4.7 · ❌ FAIL
+20. 🔴 **MNT** · 4.5 · ❌ FAIL
+21. 🔴 **ZBCN** · 4.3 · ❌ FAIL
+22. 🔴 **SEI** · 4.0 · ❌ FAIL
+23. 🔴 **PLUME** · 3.7 · ❌ FAIL
+24. 🔴 **JASMY** · 2.8 · ❌ FAIL
+25. 🔴 **SERV** · 2.8 · ❌ FAIL
+26. 🔴 **EDEL** · 2.5 · ❌ FAIL
+27. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**5 of 18 pass.**
+**6 of 27 pass.**
+
+---
+
+## 📝 What changed 15 Nov 2026
+
+Arkham-labelled wallet research was added to the scored reports. Nine new v3 reports landed this round: [XLM](XLM.md), [APT](APT.md), [DASH](DASH.md), [CC](CC.md), [BNKR](BNKR.md), [CELO](CELO.md), [MNT](MNT.md), [ALGO](ALGO.md), and [AVAX](AVAX.md).
+
+Score changes from that research:
+
+- [ONDO](ONDO.md) 4.9 → 4.7. About 100.5M ONDO moved from treasury-funded wallets into Coinbase deposit addresses, including on a pump day.
+- [PLUME](PLUME.md) 3.5 → 3.7. The 210M bridge-to-Binance flow was Binance moving its own coins, not issuer selling. Still a FAIL; the Selling gate no longer trips.
+- [ZBCN](ZBCN.md) 4.6 → 4.3. Coins from the published treasury cluster were sold into DEX pools and sent to exchange-scale wallets on pump days. The Selling gate now trips.
+- [BP](BP.md) 5.1 → 5.2. The 10M pump-day move was Backpack shifting coins between its own wallets, not a sale.
 
 ---
 
@@ -72,7 +94,7 @@ Ties are broken by how many of the 11 sections passed.
 
 - **Sections passed:** 8 of 11
 - **Hard gates failed:** none
-- **Verdict:** A real, fee-earning oracle network with clean token code, but its non-circulating treasury sends ~16–19M LINK to Binance every quarter without a formal announcement.
+- **Verdict:** A real, fee-earning oracle network with clean token code, but its non-circulating treasury sends roughly 9–19M LINK to a Binance deposit address a few times a year (58.85M in the last 12 months) without a formal announcement. None of those sends fell on a pump day.
 - 📄 [Full LINK report](LINK.md)
 
 ---
@@ -94,12 +116,56 @@ Ties are broken by how many of the 11 sections passed.
 
 - **Sections passed:** 7 of 11
 - **Hard gates failed:** none
-- **Verdict:** A real exchange that pays its stakers. About $7.3M of the last 30 days' fees went to sAERO holders, and since the merger new supply is about $0.27M a week, well under revenue. The team Safe has not moved a token since launch. Weak spots: revenue is falling, an older team outflow was never traced, and the owner Safe can burn the unclaimed migration budget.
+- **Verdict:** A real exchange that pays its stakers. About $7.3M of the last 30 days' fees went to sAERO holders. A 15 Nov correction: new supply since the merger is about 4.3M AERO (~$1.9M) a week, so minting now roughly matches what stakers are paid, about 10% a year. The team Safe's 2026 outflows are fully traced, with no exchange sales. Weak spots: falling revenue, dilution about equal to payouts, and an owner Safe that can burn the unclaimed migration budget.
 - 📄 [Full AERO report](AERO.md)
 
 ---
 
-## #6 · TAO · Bittensor
+## #6 · CC · Canton Coin (Canton Network)
+
+### 6.4 / 10 · ✅ PASS
+
+- **Sections passed:** 10 of 11
+- **Hard gates failed:** none
+- **Verdict:** Real usage is burning about $44M of CC a month (about $650M over 12 months), DTCC's tokenization service is live on Canton, and the SEC staff called CC a digital commodity. But supply still grew about 14% in a year, there is no supply cap, and a few founding validators earned most of the early rewards.
+- 📄 [Full CC report](CC.md)
+
+---
+
+## #7 · XLM · Stellar
+
+### 5.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 8 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A busy, well-run payments and RWA network with a transparent non-profit foundation, but users pay only ~$492k a year in fees, the SDF still holds ~28.6% of the real 50.0B supply, and it releases roughly 2.7B XLM a year into the market to fund operations.
+- 📄 [Full XLM report](XLM.md)
+
+---
+
+## #8 · BNKR · Bankr (BankrCoin)
+
+### 5.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 5 of 11
+- **Hard gates failed:** none
+- **Verdict:** A real business with clean token code: Bankr has earned about $17M in 12 months from token launches and trading, and since late September it has paid part of that to BNKR stakers. But revenue has fallen about 90% from its peak, the team is pseudonymous with no company filing found, and buy-side depth is thin.
+- 📄 [Full BNKR report](BNKR.md)
+
+---
+
+## #9 · AVAX · Avalanche
+
+### 5.5 / 10 · ❌ FAIL
+
+- **Sections passed:** 7 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A busy, deep, well-built network that the SEC now calls a digital commodity, and every fee is burned. But fees come to only ~$2.65M a year (about 0.08% of market cap), the Foundation does not publish its wallets or holdings, and a Foundation-labelled wallet sent 320,000 AVAX to Coinbase Prime on a +56% pump day with no disclosure.
+- 📄 [Full AVAX report](AVAX.md)
+
+---
+
+## #10 · TAO · Bittensor
 
 ### 5.5 / 10 · ❌ FAIL
 
@@ -110,7 +176,7 @@ Ties are broken by how many of the 11 sections passed.
 
 ---
 
-## #7 · HBAR · Hedera
+## #11 · HBAR · Hedera
 
 ### 5.3 / 10 · ❌ FAIL
 
@@ -121,7 +187,7 @@ Ties are broken by how many of the 11 sections passed.
 
 ---
 
-## #8 · ZRO · LayerZero
+## #12 · ZRO · LayerZero
 
 ### 5.3 / 10 · ❌ FAIL
 
@@ -132,18 +198,18 @@ Ties are broken by how many of the 11 sections passed.
 
 ---
 
-## #9 · BP · Backpack
+## #13 · BP · Backpack
 
-### 5.1 / 10 · ❌ FAIL
+### 5.2 / 10 · ❌ FAIL
 
 - **Sections passed:** 6 of 11
 - **Hard gates failed:** Revenue
-- **Verdict:** A real, EU-licensed exchange whose token has no claim on the exchange's revenue. BP gives fee perks plus a conditional, non-voting equity election if Backpack ever has an exit. The 750M treasury has not moved since before launch, but Backpack still holds the mint and freeze keys and controls about 94% of supply.
+- **Verdict:** A real, EU-licensed exchange whose token has no claim on the exchange's revenue. BP gives fee perks plus a conditional, non-voting equity election if Backpack ever has an exit. The 750M treasury has not moved since before launch, and the 10M "cold-to-hot" move on a pump day is now confirmed as exchange custody, not a sale. Backpack still holds the mint and freeze keys; its own treasury is 75% of supply, and another ~20% sits in its exchange wallets for customers.
 - 📄 [Full BP report](BP.md)
 
 ---
 
-## #10 · XRP · XRP
+## #14 · XRP · XRP
 
 ### 5.1 / 10 · ❌ FAIL
 
@@ -154,29 +220,84 @@ Ties are broken by how many of the 11 sections passed.
 
 ---
 
-## #11 · ONDO · Ondo
+## #15 · ALGO · Algorand
 
-### 4.9 / 10 · ❌ FAIL
+### 5.0 / 10 · ❌ FAIL
+
+- **Sections passed:** 7 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** One of the most transparent foundations in crypto, with published wallets, quarterly reports and an SEC "digital commodity" listing. But the network earns almost nothing (about $6.5k of fees a year on DefiLlama), validators are paid from the Foundation's own stack, and the Foundation has sold steadily (about 103M ALGO left its selling wallets in the past year, some on pump days). Those sales stopped on-chain after 24 Aug 2026.
+- 📄 [Full ALGO report](ALGO.md)
+
+---
+
+## #16 · APT · Aptos
+
+### 5.0 / 10 · ❌ FAIL
+
+- **Sections passed:** 6 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Fast, actively built chain that fixed its token rules in 2026 (2.1B cap vote, staking cut to 2.6%, gas up ~10×). Still, fees burn only ~11% of new issuance, the Foundation publishes no wallets and no proof of its 210M "permanent lock", and the price is down 84% in a year.
+- 📄 [Full APT report](APT.md)
+
+---
+
+## #17 · DASH · Dash
+
+### 4.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 8 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A 12-year-old payments coin with a real on-chain treasury and no team token stash, but users pay only ~$9.7k a year in fees, so everything (miners, masternodes and the ~$3M-a-year developer budget) runs on new-coin issuance while on-chain usage is small (~12k transactions a day).
+- 📄 [Full DASH report](DASH.md)
+
+---
+
+## #18 · ONDO · Ondo
+
+### 4.7 / 10 · ❌ FAIL
 
 - **Sections passed:** 5 of 11
 - **Hard gates failed:** Revenue
-- **Verdict:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock.
+- **Verdict:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. A Safe funded only by that admin Safe sent 100.5M ONDO (≈ $43.7M) into Coinbase deposit addresses in Aug–Oct 2026, including 18.2M on a pump day, with no disclosure.
 - 📄 [Full ONDO report](ONDO.md)
 
 ---
 
-## #12 · ZBCN · Zebec Network
+## #19 · CELO · Celo
 
-### 4.6 / 10 · ❌ FAIL
+### 4.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A busy stablecoin chain (MiniPay reports 20M+ wallets) that earns almost nothing for the token. The chain took about $594k in fees over 12 months, and Safes funded through a governance contractor's allowance paid about 9.3M CELO straight into a Binance deposit address since August, including on two pump days. The token is down 70% in a year.
+- 📄 [Full CELO report](CELO.md)
+
+---
+
+## #20 · MNT · Mantle
+
+### 4.5 / 10 · ❌ FAIL
 
 - **Sections passed:** 3 of 11
-- **Hard gates failed:** none
-- **Verdict:** Real payment products (cards, stablecoin payroll) with self-reported volume, but payments run in USDC, buybacks are tiny and parked on an exchange, the issuer entity is undisclosed, and one plain key can upgrade the core programs.
+- **Hard gates failed:** Revenue
+- **Verdict:** A large, mostly transparent treasury: $1.68B, with 2.9B MNT sitting untouched in one published multisig since Oct 2024. But the network earns about $189k a year in fees, none of it reaches MNT holders, the treasury controls 47% of supply, the token owner can switch on a 2%-a-year mint, and the L2 is Stage 0 with instant upgrades.
+- 📄 [Full MNT report](MNT.md)
+
+---
+
+## #21 · ZBCN · Zebec Network
+
+### 4.3 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Selling
+- **Verdict:** Real payment products (cards, stablecoin payroll) with self-reported volume, but payments run in USDC, buybacks are tiny and parked on an exchange, the issuer entity is undisclosed, and one plain key can upgrade the core programs. On-chain tracing shows ZBCN from the published treasury cluster split through fresh wallets and sold into DEX pools and sent to exchange-scale wallets on the 30 Sep – 4 Oct 2026 pump days, which trips the Selling gate.
 - 📄 [Full ZBCN report](ZBCN.md)
 
 ---
 
-## #13 · SEI · Sei
+## #22 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -187,40 +308,40 @@ Ties are broken by how many of the 11 sections passed.
 
 ---
 
-## #14 · PLUME · Plume
+## #23 · PLUME · Plume
 
-### 3.5 / 10 · ❌ FAIL
+### 3.7 / 10 · ❌ FAIL
 
 - **Sections passed:** 4 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A real RWA chain with a proper EU MiCA white paper and a US-registered transfer agent, but the token earns almost nothing (about $2.3k of chain fees a month). The Ethereum token is an upgradeable proxy with live mint, burn and pause roles, which contradicts the white paper's "no ongoing minting" line. About 212M PLUME unlocks every month, and hundreds of millions moved from the bridge to Binance on pump days.
+- **Hard gates failed:** Revenue
+- **Verdict:** A real RWA chain with a proper EU MiCA white paper and a US-registered transfer agent, but the token earns almost nothing (about $2.3k of chain fees a month). The Ethereum token is an upgradeable proxy with live mint, burn and pause roles, which contradicts the white paper's "no ongoing minting" line. About 212M PLUME unlocks every month, and the issuer still hasn't published the wallets holding its 46.7%. The 210M that moved from the bridge to Binance, including on pump days, has now been traced to Binance moving its own coins between chains, not to issuer sales.
 - 📄 [Full PLUME report](PLUME.md)
 
 ---
 
-## #15 · JASMY · JasmyCoin
+## #24 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
 - **Sections passed:** 1 of 11
 - **Hard gates failed:** Revenue, Selling
-- **Verdict:** A plain, fully minted 50B ERC-20 with no admin keys, but no revenue, no verifiable product usage and no disclosed issuer. The deployer wallet has fed about 2B JASMY into a Gate.io deposit address over the years, and JASMY is no longer listed on Upbit.
+- **Verdict:** A plain, fully minted 50B ERC-20 with no admin keys, but no revenue, no verifiable product usage and no disclosed issuer. The deployer wallet has fed 1.845B JASMY into a Gate.io deposit address over the years (Arkham files that address under Jasmy), including on a pump day, and JASMY is no longer listed on Upbit.
 - 📄 [Full JASMY report](JASMY.md)
 
 ---
 
-## #16 · SERV · OpenServ
+## #25 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
 - **Sections passed:** 0 of 11
 - **Hard gates failed:** Revenue, Selling
-- **Verdict:** No revenue can be seen on-chain, and there have been no burns since 10 Oct. Meanwhile a treasury wallet named in the docs has sold about 12.2M SERV into Uniswap since January, including on pump days. On 21 and 31 Oct the main treasury Safe pulled 212M SERV out of vesting, then on 11 Nov sent 10M to MEXC through a fresh wallet.
+- **Verdict:** No revenue can be seen on-chain, and there have been no burns since 10 Oct. Meanwhile a treasury wallet named in the docs has sold about 12.2M SERV into Uniswap since January, including on pump days. On 21 and 31 Oct the main treasury Safe pulled 212M SERV out of vesting, then on 11 Nov sent 10M straight into an address Arkham labels a MEXC deposit address.
 - 📄 [Full SERV report](SERV.md)
 
 ---
 
-## #17 · EDEL · Edel Finance
+## #26 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -231,7 +352,7 @@ Ties are broken by how many of the 11 sections passed.
 
 ---
 
-## #18 · ROUTER · Solrouter
+## #27 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 

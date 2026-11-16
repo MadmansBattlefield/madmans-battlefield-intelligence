@@ -20,7 +20,7 @@ Times are in **MST**.
 - [README](README.md) — how to browse, search, and use this tree with an AI agent
 - [banking-rails/](banking-rails/) — token and protocol research notes
 - [Cover sheet](banking-rails/COVER.md) — why the reports exist and how they are scored
-- [Ranking](banking-rails/RANKING.md) — all 18 v3 scores, ranked
+- [Ranking](banking-rails/RANKING.md) — all 27 v3 scores, ranked
 - [daily/](daily/) — daily market reports (Markdown + JSON)
 - [calendar.md](calendar.md) — upcoming events
 - [sources.md](sources.md) — vetted sources and the verification rule

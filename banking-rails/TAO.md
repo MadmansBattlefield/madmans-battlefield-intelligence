@@ -35,6 +35,8 @@ layout_version: 3
 
 **Summary:** A fair-launch, bitcoin-style supply with no team or VC allocation and an active AI-subnet economy, but the network has no meaningful fee revenue (rewards are paid from new issuance), and core-developer foundations can still halt the chain.
 
+**⚠️ Top warning:** TAO has **no fee revenue to holders** (rewards are new issuance, ~3,600 TAO/day), the foundations can **halt the chain** (done in July 2024), and foundation/early-miner wallets are **unpublished**, so selling into the 53 pump days can't be tested. Check it: [emissions docs](https://www.bittensor.com/docs/concepts/emissions) · [July 2024 halt](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d) · [Arkham: no foundation entity](https://intel.arkm.com/explorer/entity/bittensor).
+
 **Sections passed: 6 of 11**
 
 | Section | Score | Result |
@@ -64,7 +66,7 @@ layout_version: 3
 
 | 📊 Market (CoinGecko, 14 Nov 2026 12:12 PM MST) | 🔗 On-chain (Subtensor RPC, block 9,506,723) |
 |---|---|
-| **Price** $193.44 | **Total issuance** 11,727,180.43 TAO of 21M cap (55.8%) |
+| **Price** $193.44 | **Total issuance** 11,727,180.43 TAO of 21M cap (55.8%; cross-check on [Taostats](https://taostats.io)) |
 | **24h / 7d / 30d** 🔴 −11.3% / −13.2% / −29.8% | **Total staked** 7,464,253 TAO (63.6% of issuance) |
 | **Market cap** $2.27B · **FDV (issued)** same | **Subnets** 129 networks registered (incl. root) |
 | **24h volume** $142.3M | **Emission** 0.5 TAO/block ≈ 3,600 TAO/day (after Dec 2025 halving) |
@@ -89,9 +91,9 @@ layout_version: 3
 | Item | Finding | Source |
 |---|---|---|
 | Opentensor Foundation (OTF) | Ecosystem, events, developer programs; supplies the **Triumvirate** that holds chain-upgrade authority | [Tier B] Blockworks token-transparency filing |
-| Rao Foundation | Now maintains core code: `opentensor/subtensor` redirects to **`RaoFoundation/subtensor`** (pushed 13 Nov 2026, release v490 on 10 Nov 2026); reportedly runs Proof-of-Authority nodes | [Tier A] GitHub · role [Tier B] Blockworks |
+| Rao Foundation | Now maintains core code: `opentensor/subtensor` redirects to **[`RaoFoundation/subtensor`](https://github.com/RaoFoundation/subtensor)** (pushed 13 Nov 2026, release v490 on 10 Nov 2026); reportedly runs Proof-of-Authority nodes | [Tier A] GitHub · role [Tier B] Blockworks |
 | Founders | Jacob Steeves and Ala Shaabana (commonly cited) | [Unverified] |
-| Central control | OTF put the chain into "safe mode" (halted transactions) during the July 2024 incident | [Tier A] OTF community update, 3 Jul 2024 |
+| Central control | OTF put the chain into "safe mode" (halted transactions) during the July 2024 incident | [Tier A] [OTF community update, 3 Jul 2024](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d) |
 
 **What it means:** Development is active, but a small group can still upgrade and halt the chain. That is more central control than BTC or ETH.
 
@@ -99,7 +101,7 @@ layout_version: 3
 
 | Bucket | TAO | Source |
 |---|---:|---|
-| Team / VC / ICO allocation | **0** — fair launch, no premine | [Tier A] Bittensor blog "TAO token economy explained" |
+| Team / VC / ICO allocation | **0** — fair launch, no premine | [Tier A] [Bittensor blog "TAO token economy explained"](https://blog.bittensor.com/tao-token-economy-explained-17a3a90cd44e) |
 | OTF / Rao Foundation balances | **Not found** — addresses not published | Not found |
 | Grayscale Bittensor Trust | Holds TAO (fair value below book cost in mid-2026 filings) | [Tier A] SEC EDGAR (10 Oct 2026 pass) |
 
@@ -166,18 +168,32 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None in this series (2024 incident is history) |
-| Central halt authority | 🟡 Present |
-| Foundation wallets unpublished | 🟡 Tripped |
+| Central halt authority | 🟡 Present ([July 2024 safe-mode halt](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d)) |
+| Foundation wallets unpublished | 🟡 Tripped ([Arkham: no OTF/Rao entity](https://intel.arkm.com/explorer/entity/bittensor)) |
 
 ## 📚 Sources
 
 - [Tier A] Subtensor RPC (`entrypoint-finney.opentensor.ai`): `SubtensorModule.TotalIssuance`, `TotalStake`, `TotalNetworks`, chain head; 14 Nov 2026 ~12:35 PM MST
 - [Tier A] [Bittensor docs — emissions](https://www.bittensor.com/docs/concepts/emissions) · [TAO token economy](https://blog.bittensor.com/tao-token-economy-explained-17a3a90cd44e) · [OTF update 3 Jul 2024](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d)
-- [Tier A] GitHub `RaoFoundation/subtensor`
-- [Tier A] CoinGecko `bittensor` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
+- [Tier A] GitHub [`RaoFoundation/subtensor`](https://github.com/RaoFoundation/subtensor) · [Taostats](https://taostats.io) explorer for issuance/stake cross-checks
+- [Tier A] [CoinGecko `bittensor`](https://www.coingecko.com/en/coins/bittensor) price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
 - [Tier A] SEC EDGAR, Grayscale Bittensor Trust (from 10 Oct 2026 pass)
 - [Tier B] Blockworks token-transparency filing · The Block
+- [Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): **no Opentensor Foundation or Rao Foundation entity**. Search returns only a "Bittensor" entity ([Arkham entity “Bittensor”](https://intel.arkm.com/explorer/entity/bittensor); 2 EVM contract-deployer addresses, $23,447), and Arkham does not cover Subtensor accounts. Foundation balances and exchange deposits stay unverified. No score change
 - [Unverified] Founder names; subnet customer revenue; foundation balances
+
+## 🔗 Evidence trail
+
+*Strongest findings first. Subtensor is not covered by Arkham; links open official docs, GitHub and the Taostats explorer. Subtensor RPC reads have no shareable URL.*
+
+| Claim | Evidence link(s) | Tier | Date read |
+|---|---|---|---|
+| Rewards paid from new issuance; fees are recycled, no fee flow to holders | [Bittensor docs — emissions](https://www.bittensor.com/docs/concepts/emissions) | A | 14 Nov 2026 |
+| OTF halted transactions ("safe mode") in July 2024 | [OTF community update](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d) | A | 14 Nov 2026 |
+| Fair launch, 0 team/VC allocation | [TAO token economy](https://blog.bittensor.com/tao-token-economy-explained-17a3a90cd44e) | A | 14 Nov 2026 |
+| Foundation wallets unpublished; Arkham has no OTF/Rao entity and no Subtensor coverage | [Arkham “Bittensor” entity](https://intel.arkm.com/explorer/entity/bittensor) | B | 15 Nov 2026 ~11:05 AM MST |
+| Total issuance 11.73M of 21M; 63.6% staked | Subtensor RPC (no public link) · [Taostats](https://taostats.io) | A | 14 Nov 2026 |
+| Core code maintained by Rao Foundation (release v490, 10 Nov 2026) | [GitHub](https://github.com/RaoFoundation/subtensor) | A | 14 Nov 2026 |
 
 ---
 

@@ -35,6 +35,8 @@ layout_version: 3
 
 **Summary:** An actively built, fast chain with almost no paid usage: about $1,600 of fees in 30 days. The Sei Foundation's 9% was unlocked at launch and its wallets aren't published, and team and investor unlocks are still running.
 
+**⚠️ Top warning:** About **$61.5k of fees in 12 months** on a $264M token, and the Sei Foundation's **900M SEI (9%) was unlocked at launch with no published wallets**, so its selling (incl. the 11-day 20–30 Sep 2026 pump) can't be checked. Check it: [DefiLlama fees](https://defillama.com/chain/sei) · [tokenomics blog](https://blog.sei.io/seis-future-proofed-tokenomics-setting-the-scene-sei-is-an-open-source-permissionless-layer-1-blockchain-specifically-designed-in-response-to-the-fundamental-use-case-of-blockchains-the/) · [Arkham: no foundation entity](https://intel.arkm.com/explorer/entity/sei).
+
 **Sections passed: 3 of 11**
 
 | Section | Score | Result |
@@ -64,9 +66,9 @@ layout_version: 3
 
 | 📊 Market (CoinGecko, 14 Nov 2026 12:12 PM MST) | 🔗 On-chain (Sei REST, block 243,333,375) |
 |---|---|
-| **Price** $0.03923 | **Supply on-chain** 9,246,702,265 SEI (10B planned) |
+| **Price** $0.03923 | **Supply on-chain** 9,246,702,265 SEI (10B planned; [bank supply](https://rest.sei-apis.com/cosmos/bank/v1beta1/supply)) |
 | **24h / 7d / 30d** 🔴 −9.7% / −14.1% / −36.7% | **Circulating (CoinGecko)** 6.73B (67.3% of 10B) |
-| **Market cap** $264.4M · **FDV** $392.7M | **Bonded stake** 4,079,608,491 SEI (44.1% of on-chain supply) |
+| **Market cap** $264.4M · **FDV** $392.7M | **Bonded stake** [4,079,608,491 SEI](https://rest.sei-apis.com/cosmos/staking/v1beta1/pool) (44.1% of on-chain supply) |
 | **24h volume** $31.09M | **Validators** 40 bonded · Nakamoto coefficient **9** |
 | **ATH** $1.14 (15 Mar 2024) · now **−96.6%** | **Mint** 453,297 SEI/day to stakers (165M in Aug 2026–Aug 2027) |
 
@@ -76,11 +78,11 @@ layout_version: 3
 
 | Metric | Value | Source |
 |---|---:|---|
-| 24h fees | $22 | [Tier A] DefiLlama `sei`, 14 Nov 2026 |
+| 24h fees | $22 | [Tier A] [DefiLlama `sei`](https://defillama.com/chain/sei), 14 Nov 2026 |
 | 30-day fees | $1,640 | [Tier A] DefiLlama |
 | 12-month fees | $61,511 | [Tier A] DefiLlama |
 | All-time fees / revenue | $302,432 / $117,228 | [Tier A] DefiLlama |
-| Community pool | 0.51 SEI | [Tier A] `distribution/community_pool` |
+| Community pool | 0.51 SEI | [Tier A] [`distribution/community_pool`](https://rest.sei-apis.com/cosmos/distribution/v1beta1/community_pool) |
 
 **What it means:** Effectively no fee income: ~$61k in a year on a $264M market cap. (DefiLlama may undercount some activity, but nothing primary shows a materially higher number.)
 
@@ -88,7 +90,7 @@ layout_version: 3
 
 | Item | Finding | Source |
 |---|---|---|
-| Sei Foundation | Holds the 9% foundation allocation; funds ecosystem | [Tier A] Sei tokenomics blog |
+| Sei Foundation | Holds the 9% foundation allocation; funds ecosystem | [Tier A] [Sei tokenomics blog](https://blog.sei.io/seis-future-proofed-tokenomics-setting-the-scene-sei-is-an-open-source-permissionless-layer-1-blockchain-specifically-designed-in-response-to-the-fundamental-use-case-of-blockchains-the/) |
 | Sei Labs | Core developer; co-founder Jeff Feng publicly leads Giga push | [Tier B] TokenPost + Signalyze |
 | Code | `sei-protocol/sei-chain` pushed 14 Nov 2026; v6.7.4 and v6.8.0-rc3 on 10 Nov 2026 | [Tier A] GitHub |
 | Governance | On-chain SIPs (e.g. SIP-3 EVM-only, SIP-6 Autobahn approved Nov 2026) | [Tier A] blog.sei.io |
@@ -111,7 +113,7 @@ Source: [Tier A] Sei tokenomics blog · [Tier B] Blockworks disclosures + Tokeno
 | Live check | Value | Source |
 |---|---:|---|
 | Supply minted so far | 9.247B | [Tier A] chain |
-| Still to mint (staking-reward schedule, to Aug 2033) | ~753M (123.3M left this year + 630M later years) | [Tier A] `seichain/mint` params |
+| Still to mint (staking-reward schedule, to Aug 2033) | ~753M (123.3M left this year + 630M later years) | [Tier A] [`seichain/mint` params](https://rest.sei-apis.com/seichain/mint/v1beta1/params) |
 | Not circulating (10B − CoinGecko 6.73B) | ~3.27B (32.7%) | Calculated |
 | Foundation / team wallet balances | **Not found** — addresses not published | Not found |
 
@@ -167,17 +169,30 @@ Source: [Tier A] Sei tokenomics blog · [Tier B] Blockworks disclosures + Tokeno
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None |
-| Foundation wallets unpublished | 🟡 Tripped |
-| Fees under $100k per year | 🔴 Tripped ($61.5k) |
+| Foundation wallets unpublished | 🟡 Tripped ([Arkham: no foundation entity](https://intel.arkm.com/explorer/entity/sei)) |
+| Fees under $100k per year | 🔴 Tripped ($61.5k; [DefiLlama](https://defillama.com/chain/sei)) |
 
 ## 📚 Sources
 
-- [Tier A] Sei REST (`rest.sei-apis.com`): bank supply, staking pool, community pool, validators, `seichain/mint` minter and params; 14 Nov 2026 ~12:27 PM MST
-- [Tier A] DefiLlama fees `sei`, 14 Nov 2026
-- [Tier A] CoinGecko `sei-network` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
-- [Tier A] GitHub `sei-protocol/sei-chain` · [Sei tokenomics blog](https://blog.sei.io/seis-future-proofed-tokenomics-setting-the-scene-sei-is-an-open-source-permissionless-layer-1-blockchain-specifically-designed-in-response-to-the-fundamental-use-case-of-blockchains-the/) · [SIP-6 post](https://blog.sei.io/introducing-sip-6-upgrade-sei-to-autobahn-consensus/)
+- [Tier A] Sei REST (`rest.sei-apis.com`): [bank supply](https://rest.sei-apis.com/cosmos/bank/v1beta1/supply), [staking pool](https://rest.sei-apis.com/cosmos/staking/v1beta1/pool), [community pool](https://rest.sei-apis.com/cosmos/distribution/v1beta1/community_pool), validators, [`seichain/mint` params](https://rest.sei-apis.com/seichain/mint/v1beta1/params); 14 Nov 2026 ~12:27 PM MST
+- [Tier A] [DefiLlama fees `sei`](https://defillama.com/chain/sei), 14 Nov 2026
+- [Tier A] [CoinGecko `sei-network`](https://www.coingecko.com/en/coins/sei-network) price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
+- [Tier A] GitHub [`sei-protocol/sei-chain`](https://github.com/sei-protocol/sei-chain) · [Sei tokenomics blog](https://blog.sei.io/seis-future-proofed-tokenomics-setting-the-scene-sei-is-an-open-source-permissionless-layer-1-blockchain-specifically-designed-in-response-to-the-fundamental-use-case-of-blockchains-the/) · [SIP-6 post](https://blog.sei.io/introducing-sip-6-upgrade-sei-to-autobahn-consensus/)
 - [Tier B] Blockworks disclosures · Tokenomics.com · TokenPost
+- [Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): **no Sei Foundation or Sei Labs entity**. The only "Sei" entity ([Arkham entity “Sei”](https://intel.arkm.com/explorer/entity/sei)) is 2 contract-deployer addresses holding $673, not the foundation or team treasury. The unpublished foundation/team wallets (49% allocation) and any exchange deposits around the 20–30 Sep 2026 pumps stay unlabelled. No score change
 - [Unverified] Foundation directors; ETF filings; team/investor vesting end date
+
+## 🔗 Evidence trail
+
+*Strongest findings first. Each link opens the live chain read (Sei REST), the official source or the Arkham page checked.*
+
+| Claim | Evidence link(s) | Tier | Date read |
+|---|---|---|---|
+| Fees $61,511 in 12 months; $1,640 in 30 days | [DefiLlama](https://defillama.com/chain/sei) | A | 14 Nov 2026 |
+| Foundation 9% (900M) fully unlocked at launch; team 20% + investors 20% vest monthly | [Sei tokenomics blog](https://blog.sei.io/seis-future-proofed-tokenomics-setting-the-scene-sei-is-an-open-source-permissionless-layer-1-blockchain-specifically-designed-in-response-to-the-fundamental-use-case-of-blockchains-the/) | A | 14 Nov 2026 |
+| Foundation/team wallets not published; Arkham has no Sei Foundation or Sei Labs entity | [Arkham “Sei” entity (2 deployer addresses, $673)](https://intel.arkm.com/explorer/entity/sei) | B | 15 Nov 2026 ~11:05 AM MST |
+| On-chain supply 9.247B SEI; ~753M still to mint to Aug 2033 | [bank supply](https://rest.sei-apis.com/cosmos/bank/v1beta1/supply) · [mint params](https://rest.sei-apis.com/seichain/mint/v1beta1/params) | A | 14 Nov 2026 |
+| Community pool 0.51 SEI | [community pool](https://rest.sei-apis.com/cosmos/distribution/v1beta1/community_pool) | A | 14 Nov 2026 |
 
 ---
 

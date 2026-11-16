@@ -24,7 +24,7 @@ red_lines:
   undisclosed_foundation_to_exchange_flow: not_found
 price_usd: 1831.06
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
-last_updated: 2026-11-14
+last_updated: 2026-11-15
 layout_version: 3
 ---
 
@@ -33,6 +33,8 @@ layout_version: 3
 ### ETH · Overall grade **7.2 / 10 · ✅ PASS**
 
 **Summary:** The busiest smart-contract chain, with a foundation that sells ETH under a published policy and has not sold on a pump day, but fees have shrunk to ~$175M a year and the burn no longer offsets new issuance.
+
+**🚨 Top warning:** Fees have shrunk to **~$175M a year** and the burn **no longer offsets new issuance**, so ETH supply is growing again ([DefiLlama fees](https://defillama.com/chain/ethereum) · [ultrasound.money](https://ultrasound.money/)). The foundation itself is not the risk: it sells via CoW/OTC under a published policy, never on a pump day, and [Arkham's EF entity](https://intel.arkm.com/explorer/entity/ethereum-foundation) shows only ~$25K sent to exchanges all-time.
 
 **Sections passed: 10 of 11**
 
@@ -67,7 +69,7 @@ layout_version: 3
 | **24h / 7d / 30d** 🔴 −6.0% / −18.1% / −25.1% | **Supply** 122,218,624 ETH |
 | **Market cap** $223.90B | **Blocks** 26,415,203 · **txs** 3.86B lifetime, ~2.10M today |
 | **24h volume** $13.79B | **Gas** slow 0.31 / avg 1.05 / fast 2.12 gwei |
-| **ATH** $4,946.05 (24 Aug 2025) · now −63% | **EF Safe** `0x9fC3…213e` 20,176.05 ETH · **EF wallet** `0xde0B…7BAe` 4,774.55 ETH |
+| **ATH** $4,946.05 (24 Aug 2025) · now −63% | **EF Safe** [`0x9fC3…213e`](https://etherscan.io/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) 20,176.05 ETH · **EF wallet** [`0xde0B…7BAe`](https://etherscan.io/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) 4,774.55 ETH |
 
 ---
 
@@ -101,16 +103,16 @@ layout_version: 3
 
 | Wallet / bucket | ETH | % of supply | Source |
 |---|---:|---:|---|
-| EF Safe `0x9fC3dc011b461664c835F2527fffb1169b3C213e` | 20,176.05 (+ DeFi positions) | 0.017% | [Tier A] Blockscout, 14 Nov 2026 |
-| EF wallet `0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe` | 4,774.55 | 0.004% | [Tier A] Blockscout |
-| Safe `0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3` (receives 1,000 ETH lots + DAI from EF) | 2,222.21 | — | [Tier A] chain · EF control [Unverified] |
-| EF total (Arkham estimate) | ~92,500 liquid + ~53,000 staked | ~0.12% | [Unverified] one Tier B outlet (Cointelegraph citing Arkham) |
+| EF Safe [`0x9fC3dc011b461664c835F2527fffb1169b3C213e`](https://etherscan.io/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) ([Arkham](https://intel.arkm.com/explorer/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e)) | 20,176.05 (+ DeFi positions) | 0.017% | [Tier A] Blockscout, 14 Nov 2026 |
+| EF wallet [`0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe`](https://etherscan.io/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) ([Arkham](https://intel.arkm.com/explorer/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe)) | 4,774.55 | 0.004% | [Tier A] Blockscout |
+| Safe [`0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3`](https://etherscan.io/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3) ([Arkham](https://intel.arkm.com/explorer/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3)) (receives 1,000 ETH lots + DAI from EF) | 2,222.21 | — | [Tier A] chain · EF control [Unverified] |
+| EF total ([Arkham "Ethereum Foundation" entity](https://intel.arkm.com/explorer/entity/ethereum-foundation), 14 addresses) | **93.7K ETH** (~$169.2M), plus 22.96M USDC and 5.42M DAI: **$202.8M in all** | ~0.077% | [Tier B] Arkham, read 15 Nov 2026 ~10:40 AM MST (signed-in account). One source, so [Unverified]. Staked vs liquid split not shown in this read. Replaces the older Cointelegraph-citing-Arkham figure (~92,500 liquid + ~53,000 staked) |
 | EF unstaked 17,035 ETH (late Apr 2026) | — | — | [Unverified] one Tier B outlet |
 
 - The `0x9fC3…` Safe sold exactly 5,000 WETH via CoW Protocol on 8–10 Apr 2026, matching EF's announced "5,000 ETH in early April" sale — that ties the Safe to EF.
 - No team vesting or ICO unlocks remain (genesis sale was 2014).
 
-**What it means:** The foundation holds roughly a tenth of a percent of supply. Even a full sell-off would be small next to daily volume.
+**What it means:** The foundation holds under a tenth of a percent of supply on Arkham's count (plus ~$28M in stablecoins). Even a full sell-off would be small next to daily volume.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 7/10 · ✅ PASS
 
@@ -119,15 +121,16 @@ layout_version: 3
 | Date (UTC) | EF sale | Route | 5-day move | Pump? | Source |
 |---|---|---|---:|---|---|
 | Mar 2026 (exact day not traced) | 5,000 ETH OTC to BitMine at ~$2,043 | OTC | — (price level matches non-pump days) | ❌ likely no | [Tier B] Cointelegraph |
-| 8 Apr 2026 13:49–21:49 | 9 × 416.667 WETH = 3,750 | EF Safe → CoW `0x9008…ab41` (e.g. tx `0x7d6d0141…45ea`) | +8.9% | ❌ No | [Tier A] Blockscout |
-| 10 Apr 2026 18:12–22:42 | 4 × 312.5 WETH = 1,250 | EF Safe → CoW (e.g. tx `0x81896da1…18f1`) | +6.1% | ❌ No | [Tier A] |
+| 8 Apr 2026 13:49–21:49 | 9 × 416.667 WETH = 3,750 | EF Safe → CoW [`0x9008…ab41`](https://etherscan.io/address/0x9008d19f58aabd9ed0d60971565aa8510560ab41) (e.g. [tx `0x7d6d0141…45ea`](https://etherscan.io/tx/0x7d6d01419eb1fb0de7de5163431ba447da9f770bc31061253c362eaa10b245ea)) | +8.9% | ❌ No | [Tier A] Blockscout |
+| 10 Apr 2026 18:12–22:42 | 4 × 312.5 WETH = 1,250 | EF Safe → CoW (e.g. [tx `0x81896da1…18f1`](https://etherscan.io/tx/0x81896da1100aefffb6f2710f9d62a2813e4034d268a26036a9e93f6590e318f1)) | +6.1% | ❌ No | [Tier A] |
 | 24 Apr 2026 | 10,000 ETH OTC to BitMine at $2,387 | OTC, announced by EF | −0.9% | ❌ No | [Tier B] Decrypt + Cointelegraph |
 | 1 May 2026 | 10,000 ETH OTC to BitMine at $2,292 | OTC, announced by EF on X | −2.7% | ❌ No | [Tier B] Cointelegraph quoting EF's X post |
 | 26 Oct 2026 | 2,785 ETH | CoW → USDS | −4.9% | ❌ No | [Tier B] Crypto Briefing + Crypto-Economy |
 | 10–13 Nov 2026 | ~4,000 ETH in 1,000-ETH lots | CoW → USDS | −12.0% / −8.3% | ❌ No | [Tier B] Crypto Briefing + Crypto-Economy |
 
-- 18 Mar 2026 (a pump day, +12.0%): the EF Safe moved 3,400 WETH to a Morpho adapter — a lending deposit, **not a sale** ([Tier A] txs `0xbe73b6cf…`, `0x0fa49432…`, `0x3295400a…`).
+- 18 Mar 2026 (a pump day, +12.0%): the EF Safe moved 3,400 WETH to a Morpho adapter — a lending deposit, **not a sale** ([Tier A] [tx `0xbe73b6cf…`](https://etherscan.io/tx/0xbe73b6cf000acb6957aa9f5b4dc851fe86a3049fdbc729c075290919da25157a), [tx `0x0fa49432…`](https://etherscan.io/tx/0x0fa4943251ddc0b941adc49229b759c7d79ec37a192d1666d82280cfe7aa42a1), [tx `0x3295400a…`](https://etherscan.io/tx/0x3295400ac862bd071ead728859fac746bc4bba945c853b2b5760512195663769)).
 - 2026 sales total about 20,000+ ETH (~$45M) per reports [Tier B].
+- [Arkham's EF entity](https://intel.arkm.com/explorer/entity/ethereum-foundation) (14 addresses) shows only ~$25K sent to exchanges **all-time** (Binance $14.5K, Fidelity Custody $10.3K, Kraken $300) and no large exchange outflows ([Tier B] Arkham, 15 Nov 2026, one source). That fits the CoW / OTC sale routes above.
 
 **What it means:** EF sells steadily under a published rule and announces OTC deals. None of the sales found fell on a pump day. It loses points because some Oct–Nov sales came from a wallet EF has not formally listed.
 
@@ -175,17 +178,47 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None |
-| EF sale on a pump day | 🟢 Not found |
-| Undisclosed EF → exchange flow | 🟢 Not found (sales go via CoW / OTC and are reported) |
+| EF sale on a pump day | 🟢 Not found (Apr 2026 CoW sales: [8 Apr](https://etherscan.io/tx/0x7d6d01419eb1fb0de7de5163431ba447da9f770bc31061253c362eaa10b245ea), [10 Apr](https://etherscan.io/tx/0x81896da1100aefffb6f2710f9d62a2813e4034d268a26036a9e93f6590e318f1); 18 Mar move was a Morpho deposit, [tx](https://etherscan.io/tx/0xbe73b6cf000acb6957aa9f5b4dc851fe86a3049fdbc729c075290919da25157a)) |
+| Undisclosed EF → exchange flow | 🟢 Not found (sales go via CoW / OTC and are reported; [Arkham's EF entity](https://intel.arkm.com/explorer/entity/ethereum-foundation) shows ~$25K to exchanges all-time) |
 
 ## 📚 Sources
 
 - [Tier A] Blockscout API (EF wallets, internal and token transfers, 15 Nov 2025 – 14 Nov 2026)
-- [Tier A] DefiLlama fees `ethereum`, 14 Nov 2026
+- [Tier A] Explorer pages used (Etherscan): [`EF Safe`](https://etherscan.io/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) · [`EF wallet`](https://etherscan.io/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) · [`Safe 0xbC9a…`](https://etherscan.io/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3) · [`CoW settlement`](https://etherscan.io/address/0x9008d19f58aabd9ed0d60971565aa8510560ab41) · [`WETH`](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2)
+- [Tier B] Arkham address pages used: [EF Safe](https://intel.arkm.com/explorer/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) · [EF wallet](https://intel.arkm.com/explorer/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) · [Safe 0xbC9a…](https://intel.arkm.com/explorer/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3)
+- [Tier A] [DefiLlama fees `ethereum`](https://defillama.com/chain/ethereum), 14 Nov 2026
 - [Tier A] CoinGecko `ethereum` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
 - [Tier A] [EF Treasury Policy](https://blog.ethereum.org/2025/06/04/ef-treasury-policy) · GitHub `ethereum/*`
 - [Tier B] [Cointelegraph, 2 May 2026](https://cointelegraph.com/news/ethereum-foundation-sells-another-10000-eth-to-bitmine-in-third-otc-deal) · Decrypt · Crypto Briefing · Crypto-Economy
-- [Unverified] Arkham EF totals; 17,035 ETH unstake; EF leadership names; ETF outflow figure
+- [Tier B] [Arkham Intelligence "Ethereum Foundation" entity page](https://intel.arkm.com/explorer/entity/ethereum-foundation) (14 addresses: balances, exchange flows), read 15 Nov 2026 ~10:40 AM MST (signed-in account)
+- [Unverified] Arkham EF total (one source); EF staked vs liquid split; 17,035 ETH unstake; EF leadership names; ETF outflow figure
+
+## 🔗 Evidence trail
+
+*Every link below opens the primary record (block explorer) or the label source (Arkham) for the claim. Click through to check any number yourself.*
+
+| Claim | Evidence link(s) | Tier | Date read |
+|---|---|---|---|
+| Fees ~$175M/yr; burn no longer offsets issuance | [DefiLlama](https://defillama.com/chain/ethereum) · [ultrasound.money](https://ultrasound.money/) | A | 14 Nov 2026 |
+| EF Safe holds 20,176.05 ETH; EF wallet 4,774.55 ETH | [EF Safe](https://etherscan.io/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) · [EF wallet](https://etherscan.io/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) | A | 14 Nov 2026 |
+| EF entity total 93.7K ETH + 22.96M USDC + 5.42M DAI ($202.8M); ~$25K to exchanges all-time | [Arkham EF entity](https://intel.arkm.com/explorer/entity/ethereum-foundation) | B (one source) | 15 Nov 2026 ~10:40 AM MST |
+| EF Safe sold 5,000 WETH via CoW on 8–10 Apr 2026, matching EF's announced sale; not pump days | [8 Apr tx](https://etherscan.io/tx/0x7d6d01419eb1fb0de7de5163431ba447da9f770bc31061253c362eaa10b245ea) · [10 Apr tx](https://etherscan.io/tx/0x81896da1100aefffb6f2710f9d62a2813e4034d268a26036a9e93f6590e318f1) · [CoW settlement](https://etherscan.io/address/0x9008d19f58aabd9ed0d60971565aa8510560ab41) | A | 15 Nov 2026 |
+| 18 Mar 2026 (pump day) 3,400 WETH move was a Morpho deposit, not a sale | [tx 1](https://etherscan.io/tx/0xbe73b6cf000acb6957aa9f5b4dc851fe86a3049fdbc729c075290919da25157a) · [tx 2](https://etherscan.io/tx/0x0fa4943251ddc0b941adc49229b759c7d79ec37a192d1666d82280cfe7aa42a1) · [tx 3](https://etherscan.io/tx/0x3295400ac862bd071ead728859fac746bc4bba945c853b2b5760512195663769) | A | 15 Nov 2026 |
+| Safe `0xbC9a…` receives 1,000-ETH lots from EF (EF control unverified) | [Etherscan](https://etherscan.io/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3) · [Arkham](https://intel.arkm.com/explorer/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3) | A · [Unverified] control | 14 Nov 2026 |
+| Published treasury policy (15% opex, 2.5-yr buffer) | [EF Treasury Policy](https://blog.ethereum.org/2025/06/04/ef-treasury-policy) | A | 14 Nov 2026 |
+
+---
+
+## 🔎 Open items and how to close them
+
+| # | Open item | Exactly how to close it | Cost / access |
+|---|---|---|---|
+| 1 | **EF total holdings.** *Narrowed 15 Nov:* Arkham's EF entity now reads 93.7K ETH + 22.96M USDC + 5.42M DAI ($202.8M, 14 addresses), replacing the older press figure. Still one source, and the staked split is unknown | Sum the 14 Arkham-listed addresses on Blockscout (Tier A) and look up any validator deposits from them on beaconcha.in; or an EF treasury report | Free |
+| 2 | **Is Safe `0xbC9a9Ac7…EfbC3` EF's?** | Check whether it is one of the 14 addresses in Arkham's EF entity; check its owners against the EF Safe `0x9fC3…213e` owners | Free (Arkham login) |
+| 3 | **Which wallet made the Oct–Nov 2026 CoW → USDS sales** | Blockscout CoW settlement logs for 26 Oct and 10–13 Nov 2026; match the seller to Arkham's EF address list | Free |
+| 4 | **Exact day of the March 2026 OTC sale to BitMine** | EF's X post or blog, or BitMine's filing for the purchase | Free |
+| 5 | **EF leadership names** | ethereum.foundation team / board page | Free |
+| 6 | **US ETH ETF net flows for Nov 2026** | SoSoValue or the issuers' daily holdings files | Free |
 
 ---
 

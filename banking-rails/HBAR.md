@@ -34,6 +34,8 @@ layout_version: 3
 
 **Summary:** Well-governed and unusually transparent about its treasury, with 25 named council node operators, but the network takes in only ~$268k a year in fees, none of which is burned, and the council still controls ~5.7B HBAR with a large ecosystem release forecast for Q4 2026.
 
+**⚠️ Top warning:** The Council still controls **~5.67B HBAR (11.35%) unreleased**, forecasts a **~3.83B ecosystem release in Q4 2026**, and discloses releases only by quarter and category, not by wallet, so pump-day selling can't be tested. Fees (~$268k/yr) are not burned. Check it: [mirror-node supply](https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply) · [Council treasury report](https://hederacouncil.org/treasury) · [`treasury 0.0.2 on HashScan`](https://hashscan.io/mainnet/account/0.0.2) · [DefiLlama fees](https://defillama.com/chain/hedera).
+
 **Sections passed: 7 of 11**
 
 | Section | Score | Result |
@@ -63,10 +65,10 @@ layout_version: 3
 
 | 📊 Market (CoinGecko, 14 Nov 2026 12:12 PM MST) | 🔗 On-chain (Hedera public mirror node, 14 Nov 2026) |
 |---|---|
-| **Price** $0.058034 | **Total supply** 50,000,000,000 HBAR (fixed) |
+| **Price** $0.058034 | **Total supply** 50,000,000,000 HBAR (fixed; [mirror supply](https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply)) |
 | **24h / 7d / 30d** 🔴 −8.3% / −13.7% / −30.7% | **Released (mirror)** 44,327,140,680 (88.65%) → **unreleased 5,672,859,320 (11.35%)** |
 | **Market cap** $2.57B · **FDV** $2.90B | **Staked** 13.46B HBAR (26.9% of supply) |
-| **24h volume** $70.73M | **Staking reward account 0.0.800** 125,190,011 HBAR · paying ~445,110 HBAR/day |
+| **24h volume** $70.73M | **Staking reward account** [`0.0.800`](https://hashscan.io/mainnet/account/0.0.800) 125,190,011 HBAR · paying ~445,110 HBAR/day |
 | **ATH** $0.5692 (15 Sep 2021) · now −90% | **Consensus nodes** 25 (council members) |
 
 ---
@@ -75,12 +77,12 @@ layout_version: 3
 
 | Metric | Value | Source |
 |---|---:|---|
-| 24h fees | $409 | [Tier A] DefiLlama `hedera`, 14 Nov 2026 |
+| 24h fees | $409 | [Tier A] [DefiLlama `hedera`](https://defillama.com/chain/hedera), 14 Nov 2026 |
 | 30-day fees | $14,562 | [Tier A] DefiLlama |
 | 12-month fees | $267,982 | [Tier A] DefiLlama |
 | All-time fees | $1,234,396 | [Tier A] DefiLlama |
 | Revenue to holders (burn / buyback) | **$0** — no burn | [Tier A] DefiLlama |
-| Where fees go | Node accounts and fee account 0.0.98 (3,356,566 HBAR now), feeding node (0.0.801) and staking (0.0.800) reward accounts | [Tier A] mirror node · Hedera docs |
+| Where fees go | Node accounts and fee account [`0.0.98`](https://hashscan.io/mainnet/account/0.0.98) (3,356,566 HBAR now), feeding node ([`0.0.801`](https://hashscan.io/mainnet/account/0.0.801)) and staking ([`0.0.800`](https://hashscan.io/mainnet/account/0.0.800)) reward accounts | [Tier A] mirror node · Hedera docs |
 
 **What it means:** Fees are priced in tiny fixed USD amounts, so even heavy use earns very little: about $268k in a year on a $2.6B asset. Staking rewards are paid mostly from treasury-funded accounts, not from fees.
 
@@ -89,7 +91,7 @@ layout_version: 3
 | Item | Finding | Source |
 |---|---|---|
 | Hedera Council (Hedera Hashgraph LLC) | Governs the network and treasury; changing total supply needs **unanimous** consent (LLCA § 8.4) | [Tier A] [hederacouncil.org/treasury](https://hederacouncil.org/treasury) |
-| Node operators (25, live mirror read) | LG, Swirlds, Nomura, Google, Zain, Magalu, DLA Piper, Tata Communications, IBM, Deutsche Telekom, Dentons, Australian Payments Plus, EDF, Shinhan Bank, Chainlink Labs, LSE, IIT Madras, Ubisoft, Aberdeen, Mondelēz, BitGo, Arrow Electronics, Nairobi Securities Exchange, Blockchain for Energy, Repsol | [Tier A] mirror node `network/nodes` |
+| Node operators (25, live mirror read) | LG, Swirlds, Nomura, Google, Zain, Magalu, DLA Piper, Tata Communications, IBM, Deutsche Telekom, Dentons, Australian Payments Plus, EDF, Shinhan Bank, Chainlink Labs, LSE, IIT Madras, Ubisoft, Aberdeen, Mondelēz, BitGo, Arrow Electronics, Nairobi Securities Exchange, Blockchain for Energy, Repsol | [Tier A] mirror node [`network/nodes`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/nodes) |
 | Treasury decisions | Council's Treasury Management and Token Economics Committee; HBAR may not leave the treasury without majority council (or delegated board) approval | [Tier A] Council report · HBAR economics paper |
 | Code | Open-sourced as Hiero (Linux Foundation) — `hiero-ledger/hiero-consensus-node` pushed 14 Nov 2026, v0.78.1 on 22 Oct 2026 | [Tier A] GitHub |
 
@@ -109,10 +111,10 @@ layout_version: 3
 
 | Live check | Value | Source |
 |---|---:|---|
-| Unreleased per mirror node | 5,672,859,320 (11.35%) | [Tier A] mirror `network/supply` |
-| Unreleased per Council table | 2,129,217,000 (4.26%) — released 47,870,783k incl. Q4 2026 column marked **"Actl/Fcst"** | [Tier A] Council report |
+| Unreleased per mirror node | 5,672,859,320 (11.35%) | [Tier A] mirror [`network/supply`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply) |
+| Unreleased per Council table | 2,129,217,000 (4.26%) — released 47,870,783k incl. Q4 2026 column marked **"Actl/Fcst"** | [Tier A] [Council report](https://hederacouncil.org/treasury) |
 | Gap | ~3.54B HBAR — close to the 3.828B Q4 ecosystem release the Council **forecasts**; it does not show as released on-chain yet | Calculated |
-| Account 0.0.2 (main treasury) | 16,630,126 HBAR | [Tier A] mirror |
+| Account [`0.0.2`](https://hashscan.io/mainnet/account/0.0.2) (main treasury) | 16,630,126 HBAR | [Tier A] [mirror](https://mainnet-public.mirrornode.hedera.com/api/v1/balances?account.id=0.0.2) |
 | Hedera Foundation grant | 3.5B HBAR received Feb 2025 | [Unverified] one secondary source |
 
 **What it means:** The Council publishes its whole allocation and updates it quarterly, which few projects do. About 5.7B HBAR (11%) is still under council control on-chain today.
@@ -174,17 +176,32 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None |
-| Council table vs mirror-node released supply | 🟡 Open (~3.54B gap, likely forecast vs actual) |
-| Staking reward account under 1 year of runway | 🟡 Watch (~9 months at current payout) |
+| Council table vs mirror-node released supply | 🟡 Open (~3.54B gap, likely forecast vs actual): [mirror](https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply) vs [Council table](https://hederacouncil.org/treasury) |
+| Staking reward account under 1 year of runway | 🟡 Watch (~9 months at current payout): [`0.0.800`](https://hashscan.io/mainnet/account/0.0.800) |
 
 ## 📚 Sources
 
-- [Tier A] Hedera public mirror node (`mainnet-public.mirrornode.hedera.com`): `network/supply`, `network/nodes`, `network/stake`, balances of 0.0.2 / 0.0.98 / 0.0.800 / 0.0.801; 14 Nov 2026 ~12:30 PM MST
+- [Tier A] Hedera public mirror node (`mainnet-public.mirrornode.hedera.com`): [`network/supply`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply), [`network/nodes`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/nodes), [`network/stake`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/stake), balances of [`0.0.2`](https://hashscan.io/mainnet/account/0.0.2) / [`0.0.98`](https://hashscan.io/mainnet/account/0.0.98) / [`0.0.800`](https://hashscan.io/mainnet/account/0.0.800) / [`0.0.801`](https://hashscan.io/mainnet/account/0.0.801) (HashScan); 14 Nov 2026 ~12:30 PM MST
 - [Tier A] [Hedera Council treasury report](https://hederacouncil.org/treasury), data as of 6 Nov 2026
-- [Tier A] DefiLlama fees `hedera`, 14 Nov 2026
-- [Tier A] CoinGecko `hedera-hashgraph` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
-- [Tier A] GitHub `hiero-ledger/hiero-consensus-node` · SEC EDGAR (Canary HBAR ETF, from 10 Oct 2026 pass) · Coinbase Status
+- [Tier A] [DefiLlama fees `hedera`](https://defillama.com/chain/hedera), 14 Nov 2026
+- [Tier A] [CoinGecko `hedera-hashgraph`](https://www.coingecko.com/en/coins/hedera-hashgraph) price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
+- [Tier A] GitHub [`hiero-ledger/hiero-consensus-node`](https://github.com/hiero-ledger/hiero-consensus-node) · SEC EDGAR (Canary HBAR ETF, from 10 Oct 2026 pass) · Coinbase Status
+- [Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): **Hedera is not supported** (account [`0.0.2` on Arkham](https://intel.arkm.com/explorer/address/0.0.2) returns "Something went wrong / Couldn't load portfolio"), and there is **no Hedera Council or Hedera Foundation entity** ([`/explorer/entity/hedera`](https://intel.arkm.com/explorer/entity/hedera) = not found) (search returned only individual social accounts). The Q3 2026 release recipients and pump-day selling stay untested. No score change
 - [Unverified] Hedera Foundation 3.5B grant date
+
+## 🔗 Evidence trail
+
+*Strongest findings first. Hedera is not supported by Arkham, so evidence is the public mirror node (each link opens the live read), HashScan and the Council's own report.*
+
+| Claim | Evidence link(s) | Tier | Date read |
+|---|---|---|---|
+| Unreleased supply 5,672,859,320 HBAR (11.35%) per mirror node | [`network/supply`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply) | A | 14 Nov 2026 ~12:30 PM MST |
+| Council table shows only 2.13B unreleased incl. Q4 2026 "Actl/Fcst" column; ~3.54B gap ≈ the 3.828B Q4 ecosystem forecast | [Council treasury report](https://hederacouncil.org/treasury) · [mirror supply](https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply) | A | 14 Nov 2026 |
+| Q3 2026 released +357.9M HBAR in a quarter with the 21–29 Sep pump cluster; recipients not disclosed by wallet | [Council treasury report](https://hederacouncil.org/treasury) | A | 14 Nov 2026 |
+| Fees ~$268k in 12 months, no burn | [DefiLlama](https://defillama.com/chain/hedera) | A | 14 Nov 2026 |
+| Staking reward account holds 125.2M HBAR, paying ~445k/day (~9 months runway) | [`0.0.800 on HashScan`](https://hashscan.io/mainnet/account/0.0.800) · [mirror stake](https://mainnet-public.mirrornode.hedera.com/api/v1/network/stake) | A | 14 Nov 2026 |
+| 25 named council node operators | [`network/nodes`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/nodes) | A | 14 Nov 2026 |
+| Arkham: Hedera unsupported; no Council/Foundation entity | [0.0.2 on Arkham](https://intel.arkm.com/explorer/address/0.0.2) · [entity search](https://intel.arkm.com/explorer/entity/hedera) | B | 15 Nov 2026 ~11:05 AM MST |
 
 ---
 

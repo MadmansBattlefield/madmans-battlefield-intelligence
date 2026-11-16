@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-14 12:00 MST",
+  "generated_at": "2026-11-15 12:00 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -153,6 +153,26 @@
       "layout": "v3"
     },
     {
+      "id": "ALGO",
+      "path": "banking-rails/ALGO.md",
+      "layout": "v3"
+    },
+    {
+      "id": "APT",
+      "path": "banking-rails/APT.md",
+      "layout": "v3"
+    },
+    {
+      "id": "AVAX",
+      "path": "banking-rails/AVAX.md",
+      "layout": "v3"
+    },
+    {
+      "id": "BNKR",
+      "path": "banking-rails/BNKR.md",
+      "layout": "v3"
+    },
+    {
       "id": "BP",
       "path": "banking-rails/BP.md",
       "layout": "v3"
@@ -160,6 +180,21 @@
     {
       "id": "BTC",
       "path": "banking-rails/BTC.md",
+      "layout": "v3"
+    },
+    {
+      "id": "CC",
+      "path": "banking-rails/CC.md",
+      "layout": "v3"
+    },
+    {
+      "id": "CELO",
+      "path": "banking-rails/CELO.md",
+      "layout": "v3"
+    },
+    {
+      "id": "DASH",
+      "path": "banking-rails/DASH.md",
       "layout": "v3"
     },
     {
@@ -185,6 +220,11 @@
     {
       "id": "LINK",
       "path": "banking-rails/LINK.md",
+      "layout": "v3"
+    },
+    {
+      "id": "MNT",
+      "path": "banking-rails/MNT.md",
       "layout": "v3"
     },
     {
@@ -220,6 +260,11 @@
     {
       "id": "TAO",
       "path": "banking-rails/TAO.md",
+      "layout": "v3"
+    },
+    {
+      "id": "XLM",
+      "path": "banking-rails/XLM.md",
       "layout": "v3"
     },
     {

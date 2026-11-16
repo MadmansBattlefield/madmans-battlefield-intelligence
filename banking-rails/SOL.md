@@ -25,7 +25,7 @@ red_lines:
 price_usd: 72.24
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_slot: 469444012
-last_updated: 2026-11-14
+last_updated: 2026-11-15
 layout_version: 3
 ---
 
@@ -34,6 +34,8 @@ layout_version: 3
 ### SOL · Overall grade **6.6 / 10 · ✅ PASS**
 
 **Summary:** The highest fee earner per dollar of market cap of the big layer-1s (~$230M a year), with active client teams and no outage in this series, but the Solana Foundation stopped publishing token reports years ago, so its holdings and sales can't be checked.
+
+**🚨 Top warning:** The Solana Foundation has not published its wallets or a token report since about Aug 2020, and Arkham has **no "Solana Foundation" entity** (only a generic "Solana" one), so Foundation holdings and any sales **cannot be checked** on-chain. No wallet-level evidence link exists for this; the gap itself is the finding.
 
 **Sections passed: 9 of 11**
 
@@ -104,6 +106,7 @@ layout_version: 3
 |---|---:|---:|---|
 | Network-marked non-circulating accounts (foundation / locked) | 45,980,962 | 7.21% | [Tier A] RPC `getSupply` |
 | Solana Foundation stake accounts (599 accounts, 30 Oct 2026) | ~27.38M | ~4.3% | [Unverified] one Tier B rich-list write-up |
+| Arkham "Solana" entity (generic, not labelled "Solana Foundation") | 27.466M SOL | ~4.3% | [Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account). Close to the 27.38M figure, but Arkham does not say these are Foundation wallets, so it does **not** count as a second source for the Foundation stake [Unverified] |
 | Original allocation (team 12.79%, foundation 10.46%, seed/private sales) | — | — | [Unverified] not re-read from a primary doc this pass |
 | Last Foundation transparency report | August 2020 | — | [Unverified] solana.com transparency page per search, not opened |
 
@@ -167,16 +170,41 @@ layout_version: 3
 |---|---|
 | Hack / exploit | 🟢 None |
 | Network halt | 🟢 None in this series |
-| Foundation wallets unpublished | 🟡 Tripped — holdings and sales can't be audited |
+| Foundation wallets unpublished | 🟡 Tripped — holdings and sales can't be audited (no Foundation address list exists to link; Arkham has no Foundation entity) |
 
 ## 📚 Sources
 
 - [Tier A] Solana mainnet RPC: `getSupply`, `getInflationRate`, `getEpochInfo`, `getVersion`, `getVoteAccounts`, `getRecentPerformanceSamples`; 14 Nov 2026 ~12:25 PM MST
 - [Tier A] DefiLlama fees `solana`, 14 Nov 2026
 - [Tier A] CoinGecko `solana` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
-- [Tier A] GitHub `anza-xyz/agave`, `firedancer-io/firedancer`
+- [Tier A] GitHub [`anza-xyz/agave`](https://github.com/anza-xyz/agave) ([releases](https://github.com/anza-xyz/agave/releases)), [`firedancer-io/firedancer`](https://github.com/firedancer-io/firedancer) ([releases](https://github.com/firedancer-io/firedancer/releases))
+- [Tier A] [DefiLlama Solana fees](https://defillama.com/chain/solana) · [CoinGecko `solana`](https://www.coingecko.com/en/coins/solana)
 - [Tier B] [CoinDesk (Alameda unstakes, 13 Apr 2026)](https://www.coindesk.com/markets/2026/04/13/alameda-moves-usd16-million-in-solana-s-sol-token-for-possible-creditor-distribution) · CoinAlertNews · Basecamp Markets
+- [Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): only a generic "Solana" entity (27.466M SOL); no "Solana Foundation" entity or address list. First page only; all-time exchange totals Enterprise-locked
 - [Unverified] Foundation stake ~27.38M; board change; original allocation; transparency-report date; Breakpoint dates; Samsung Wallet item
+
+## 🔗 Evidence trail
+
+*Every link below opens the primary record (block explorer) or the label source (Arkham) for the claim. Click through to check any number yourself.*
+
+| Claim | Evidence link(s) | Tier | Date read |
+|---|---|---|---|
+| Non-circulating SOL 45,980,962 (7.21%) per the network's own supply call | Solana RPC `getSupply` (JSON-RPC call; no static page) | A | 14 Nov 2026 |
+| No "Solana Foundation" entity on Arkham; only a generic "Solana" entity (27.466M SOL) | Arkham entity search, signed-in (no Foundation address to link) | B | 15 Nov 2026 ~11:00 AM MST |
+| Alameda / FTX estate unstakes routed to creditor-distribution addresses | [CoinDesk, 13 Apr 2026](https://www.coindesk.com/markets/2026/04/13/alameda-moves-usd16-million-in-solana-s-sol-token-for-possible-creditor-distribution) | B | 14 Nov 2026 |
+| Unlabeled whale unstaked 1.93M SOL to Coinbase Institutional (Oct 2026) | One Tier B outlet; wallet address not captured, so no explorer link [Unverified] | B (one source) | 14 Nov 2026 |
+| Two client teams ship weekly (Agave, Firedancer) | [Agave releases](https://github.com/anza-xyz/agave/releases) · [Firedancer releases](https://github.com/firedancer-io/firedancer/releases) | A | 14 Nov 2026 |
+
+---
+
+## 🔎 Open items and how to close them
+
+| # | Open item | Exactly how to close it | Cost / access |
+|---|---|---|---|
+| 1 | **Which wallets the Solana Foundation controls** | Ask the Foundation for a current transparency report with addresses; get the stake-authority list behind the 599 stake accounts and check it against Arkham's "Solana" entity | Free |
+| 2 | **Foundation stake ~27.38M** | Read the 599 stake accounts with `getProgramAccounts` filtered by the Foundation's stake authority | Free (RPC) |
+| 3 | **Original allocation** | Re-read the token distribution from a primary Solana / Foundation doc | Free |
+| 4 | **Foundation board / leadership change** | Swiss commercial register (Zug) entry for the Solana Foundation | Free |
 
 ---
 

@@ -26,7 +26,7 @@ red_lines:
 price_usd: 0.953837
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_ledger: 108330736
-last_updated: 2026-11-14
+last_updated: 2026-11-15
 layout_version: 3
 ---
 
@@ -35,6 +35,8 @@ layout_version: 3
 ### XRP · Overall grade **5.1 / 10 · ❌ FAIL**
 
 **Summary:** A fast, cheap, long-running ledger, but the network collects only ~$282k a year in fees, Ripple still controls about a third of supply, and ~300M XRP a month leaves escrow into a Ripple chain of wallets whose final buyers are not disclosed.
+
+**🚨 Top warning:** About **300M XRP a month** leaves Ripple's escrow into operational wallet [`rBg2…o91m`](https://xrpscan.com/account/rBg2FuZT91C52Nny68houguJ4vt5x1o91m), which sent **3.868B XRP to one wallet** [`rJqiMb…nE`](https://xrpscan.com/account/rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE) in the last year, **2 of 23 sends on pump days** ([5 Jan 300M](https://xrpscan.com/tx/F2948835DAFF627ED8BFEC468BF705EC0D373806C2B6A0BC3BC96D02514804F8) · [6 Jul 150M](https://xrpscan.com/tx/F00C7180F72FB6A10D34F43E2D82363955DD0B4F08B7C73D7D3DA92A3900D80B)). The final buyers are not disclosed, and Arkham does not cover the XRP Ledger, so these wallets have no second label.
 
 **Sections passed: 6 of 11**
 
@@ -103,10 +105,10 @@ layout_version: 3
 
 | Ripple account | Escrow objects | XRP in escrow | Unlock dates | Spendable balance |
 |---|---:|---:|---|---:|
-| `rB3WNZc45gxzW31zxfXdkx8HusAhoqscPn` | 12 | 4,000,000,000 | 1 Dec 2026 → 1 Jul 2027 | 500,000,235 |
-| `r9UUEXn3cx2seufBkDa8F86usfjWM6HiYp` | 12 | 4,000,000,000 | 1 Dec 2026 → 1 Jul 2027 | 500,000,220 |
-| `rU9qmGM4Y6WWDhiNzkwVKBwwatcoE7YL1T` | 5 | 1,600,000,000 | Apr → Jul 2029 | — |
-| `rNASJdZjY9dToHnNURi3HAUku3duPwbtD1` | 5 | 1,500,000,000 | Apr → Jun 2029 | — |
+| [`rB3WNZc45gxzW31zxfXdkx8HusAhoqscPn`](https://xrpscan.com/account/rB3WNZc45gxzW31zxfXdkx8HusAhoqscPn) | 12 | 4,000,000,000 | 1 Dec 2026 → 1 Jul 2027 | 500,000,235 |
+| [`r9UUEXn3cx2seufBkDa8F86usfjWM6HiYp`](https://xrpscan.com/account/r9UUEXn3cx2seufBkDa8F86usfjWM6HiYp) | 12 | 4,000,000,000 | 1 Dec 2026 → 1 Jul 2027 | 500,000,220 |
+| [`rU9qmGM4Y6WWDhiNzkwVKBwwatcoE7YL1T`](https://xrpscan.com/account/rU9qmGM4Y6WWDhiNzkwVKBwwatcoE7YL1T) | 5 | 1,600,000,000 | Apr → Jul 2029 | — |
+| [`rNASJdZjY9dToHnNURi3HAUku3duPwbtD1`](https://xrpscan.com/account/rNASJdZjY9dToHnNURi3HAUku3duPwbtD1) | 5 | 1,500,000,000 | Apr → Jun 2029 | — |
 | **Read this pass** | **34** | **11,100,000,000** | | |
 
 | Bucket | XRP | % of supply | Source |
@@ -122,20 +124,21 @@ layout_version: 3
 
 **Pump test:** CoinGecko daily closes, 15 Nov 2025 – 14 Nov 2026: **20 of 361 days** were pump days. Last 26 Sep 2026 (+11.2%).
 
-**Monthly escrow cycle (Tier A, on-chain):** on the 1st, 1B XRP is released (e.g. 1 Nov 2026 EscrowFinish txs `3CB037A5…`, `33F693E7…`); the same day 700M is re-escrowed to 2029 (e.g. `979F6504…` 500M → `rNASJd…`; `D0F16959…` 200M → `rU9qmG…`), and **300M** goes to operational wallet `rBg2FuZT91C52Nny68houguJ4vt5x1o91m` (tx `72755A8C…`).
+**Monthly escrow cycle (Tier A, on-chain):** on the 1st, 1B XRP is released (e.g. 1 Nov 2026 EscrowFinish [tx `3CB037A5…`](https://xrpscan.com/tx/3CB037A5F9BC193427592EDB87C49C1ABE499F80F5C049090141B4EDE539F948), [tx `33F693E7…`](https://xrpscan.com/tx/33F693E7C92AD6D7A127F55441C0B38A153E8F37092B7CE0235652FF326DE564)); the same day 700M is re-escrowed to 2029 (e.g. [tx `979F6504…`](https://xrpscan.com/tx/979F650441DDEC1516613AA054AF79B297EB59F92A42A384BB8B0CBCB9EB5B4C) 500M → [`rNASJd…`](https://xrpscan.com/account/rNASJdZjY9dToHnNURi3HAUku3duPwbtD1), re-locked by EscrowCreate [tx `71BB0841…`](https://xrpscan.com/tx/71BB08412E8A4746F1AA3E0737CDDADAB21DF7EF5B2F0CFB2FE95A09114A2E5F); [tx `D0F16959…`](https://xrpscan.com/tx/D0F16959C38F01F7C337596AC982F17319CFFA01EA1053F33EAA9C5DB3B54379) 200M → [`rU9qmG…`](https://xrpscan.com/account/rU9qmGM4Y6WWDhiNzkwVKBwwatcoE7YL1T)), and **300M** goes to operational wallet [`rBg2FuZT91C52Nny68houguJ4vt5x1o91m`](https://xrpscan.com/account/rBg2FuZT91C52Nny68houguJ4vt5x1o91m) ([tx `72755A8C…`](https://xrpscan.com/tx/72755A8CE0ECF4B947559906FC47C7AEC45880F29D9CFED83B73800C40296D1F)).
 
 **Where that 300M/month went (rBg2… full scan, 15 Nov 2025 – 14 Nov 2026):**
 
 | Item | Value |
 |---|---:|
 | Received | 3.600B XRP (12 monthly 300M lots) |
-| Sent out | **3.868B XRP in 23 payments — all to one wallet, `rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE`** |
-| Sent on pump days | **2 of 23: 5 Jan 2026 300M (5-day +11.8%, tx `F2948835…`) · 6 Jul 2026 150M (+11.4%, tx `F00C7180…`)** |
-| Latest sends | 2 Nov 2026 100M (`60622733…`) · 13 Nov 2026 200M (`DFF5DA6F…`) — not pump days |
+| Sent out | **3.868B XRP in 23 payments — all to one wallet, [`rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE`](https://xrpscan.com/account/rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE)** |
+| Sent on pump days | **2 of 23: 5 Jan 2026 300M (5-day +11.8%, [tx `F2948835…`](https://xrpscan.com/tx/F2948835DAFF627ED8BFEC468BF705EC0D373806C2B6A0BC3BC96D02514804F8)) · 6 Jul 2026 150M (+11.4%, [tx `F00C7180…`](https://xrpscan.com/tx/F00C7180F72FB6A10D34F43E2D82363955DD0B4F08B7C73D7D3DA92A3900D80B))** |
+| Latest sends | 2 Nov 2026 100M ([tx `60622733…`](https://xrpscan.com/tx/606227335E41D09DBC26768D74C3997DA8A0FAD08F19C5454F26A1EA13F1146F)) · 13 Nov 2026 200M ([tx `DFF5DA6F…`](https://xrpscan.com/tx/DFF5DA6F8CB8DF21063A8ABC2F1A7C529C09F67AA5CE2C67B208002F6E5D6849)) — not pump days |
 | Balance now | 100,745,082 |
 
-- `rJqiMb…` then paid out **1.014B XRP in 109 payments since 15 Aug 2026**, mostly to `raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf` (546M), `rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3` (320.8M) and `rnU65s4J4ffJF5VtTEuHtEdWMKc1m9AR5J` (99.9M). Balance now 251.8M. **Who those are (exchanges, OTC desks, customers) is not labeled** — [Unverified].
+- `rJqiMb…` then paid out **1.014B XRP in 109 payments since 15 Aug 2026**, mostly to [`raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf`](https://xrpscan.com/account/raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf) (546M), [`rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3`](https://xrpscan.com/account/rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3) (320.8M) and [`rnU65s4J4ffJF5VtTEuHtEdWMKc1m9AR5J`](https://xrpscan.com/account/rnU65s4J4ffJF5VtTEuHtEdWMKc1m9AR5J) (99.9M). Balance now 251.8M. **Who those are (exchanges, OTC desks, customers) is not labeled** — [Unverified].
 - Ripple's quarterly XRP sales figures: not found in a primary source this pass.
+- **Arkham can't help here:** it does not cover the XRP Ledger. Its "Ripple" entity is Ethereum-only (mainly RLUSD; $136.66M of deposits in its window, ~80% Coinbase and ~19% OKX), so `rBg2…`, `rJqiMb…` and their downstream wallets **cannot be labelled or confirmed** from Arkham ([Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account)).
 
 **What it means:** The release-and-distribute cycle is regular and mostly off-pump, but two large transfers landed on pump days and Ripple does not publish who the end buyers are. That is undisclosed insider distribution, so it fails — though not at the gate level.
 
@@ -182,7 +185,7 @@ layout_version: 3
 |---|---|
 | Hack / exploit | 🟢 None |
 | Ledger halt | 🟢 None in series |
-| Ripple ops flow on a pump day | 🔴 Tripped 2 of 23 times (5 Jan, 6 Jul 2026) |
+| Ripple ops flow on a pump day | 🔴 Tripped 2 of 23 times ([5 Jan](https://xrpscan.com/tx/F2948835DAFF627ED8BFEC468BF705EC0D373806C2B6A0BC3BC96D02514804F8), [6 Jul 2026](https://xrpscan.com/tx/F00C7180F72FB6A10D34F43E2D82363955DD0B4F08B7C73D7D3DA92A3900D80B)) |
 | Ripple end-buyer disclosure | 🟡 Open |
 
 ## 📚 Sources
@@ -192,7 +195,35 @@ layout_version: 3
 - [Tier A] CoinGecko `ripple` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
 - [Tier A] GitHub `XRPLF/rippled`
 - [Tier B] [xrp-insights escrow tracker](https://xrp-insights.com/xrp-radar/escrow) · Coinpaper · CryptoTicker
+- [Tier A] XRPScan account pages used: [`rB3WNZ…`](https://xrpscan.com/account/rB3WNZc45gxzW31zxfXdkx8HusAhoqscPn) · [`r9UUEX…`](https://xrpscan.com/account/r9UUEXn3cx2seufBkDa8F86usfjWM6HiYp) · [`rU9qmG…`](https://xrpscan.com/account/rU9qmGM4Y6WWDhiNzkwVKBwwatcoE7YL1T) · [`rNASJd…`](https://xrpscan.com/account/rNASJdZjY9dToHnNURi3HAUku3duPwbtD1) · [`rBg2…`](https://xrpscan.com/account/rBg2FuZT91C52Nny68houguJ4vt5x1o91m) · [`rJqiMb…`](https://xrpscan.com/account/rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE) · [`raRVLN…`](https://xrpscan.com/account/raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf) · [`rP4X2h…`](https://xrpscan.com/account/rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3) · [`rnU65s…`](https://xrpscan.com/account/rnU65s4J4ffJF5VtTEuHtEdWMKc1m9AR5J) (full tx hashes re-read from `xrplcluster.com` `account_tx`, 15 Nov 2026 ~12:00 PM MST)
+- [Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): XRPL not supported; "Ripple" entity covers Ethereum (RLUSD) only. All-time exchange totals Enterprise-locked
 - [Unverified] Ripple total / operational holdings; founders' holdings; MiCA authorization; ETP flows; Evernorth holdings; identities behind `rJqiMb…` downstream wallets
+
+## 🔗 Evidence trail
+
+*Every link below opens the primary record (block explorer) or the label source (Arkham) for the claim. Click through to check any number yourself.*
+
+| Claim | Evidence link(s) | Tier | Date read |
+|---|---|---|---|
+| Monthly cycle: 1B XRP released from escrow on 1 Nov 2026 | [EscrowFinish 1](https://xrpscan.com/tx/3CB037A5F9BC193427592EDB87C49C1ABE499F80F5C049090141B4EDE539F948) · [EscrowFinish 2](https://xrpscan.com/tx/33F693E7C92AD6D7A127F55441C0B38A153E8F37092B7CE0235652FF326DE564) · [rB3WNZ…](https://xrpscan.com/account/rB3WNZc45gxzW31zxfXdkx8HusAhoqscPn) · [r9UUEX…](https://xrpscan.com/account/r9UUEXn3cx2seufBkDa8F86usfjWM6HiYp) | A | 15 Nov 2026 |
+| 700M re-escrowed to 2029 the same day | [500M → rNASJd…](https://xrpscan.com/tx/979F650441DDEC1516613AA054AF79B297EB59F92A42A384BB8B0CBCB9EB5B4C) · [EscrowCreate 500M](https://xrpscan.com/tx/71BB08412E8A4746F1AA3E0737CDDADAB21DF7EF5B2F0CFB2FE95A09114A2E5F) · [200M → rU9qmG…](https://xrpscan.com/tx/D0F16959C38F01F7C337596AC982F17319CFFA01EA1053F33EAA9C5DB3B54379) | A | 15 Nov 2026 |
+| **300M to operational wallet `rBg2…`** (1 Nov 2026) | [tx](https://xrpscan.com/tx/72755A8CE0ECF4B947559906FC47C7AEC45880F29D9CFED83B73800C40296D1F) · [rBg2… account](https://xrpscan.com/account/rBg2FuZT91C52Nny68houguJ4vt5x1o91m) | A | 15 Nov 2026 |
+| **`rBg2…` sent 3.868B XRP in 23 payments, all to `rJqiMb…`**; 2 on pump days | [5 Jan 2026 300M (pump)](https://xrpscan.com/tx/F2948835DAFF627ED8BFEC468BF705EC0D373806C2B6A0BC3BC96D02514804F8) · [6 Jul 2026 150M (pump)](https://xrpscan.com/tx/F00C7180F72FB6A10D34F43E2D82363955DD0B4F08B7C73D7D3DA92A3900D80B) · [rJqiMb… account](https://xrpscan.com/account/rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE) | A | 15 Nov 2026 |
+| Latest sends `rBg2…` → `rJqiMb…` | [2 Nov 100M](https://xrpscan.com/tx/606227335E41D09DBC26768D74C3997DA8A0FAD08F19C5454F26A1EA13F1146F) · [13 Nov 200M](https://xrpscan.com/tx/DFF5DA6F8CB8DF21063A8ABC2F1A7C529C09F67AA5CE2C67B208002F6E5D6849) | A | 15 Nov 2026 |
+| `rJqiMb…` paid out 1.014B XRP since 15 Aug 2026, mostly to three unlabeled accounts | [raRVLN…](https://xrpscan.com/account/raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf) · [rP4X2h…](https://xrpscan.com/account/rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3) · [rnU65s…](https://xrpscan.com/account/rnU65s4J4ffJF5VtTEuHtEdWMKc1m9AR5J) | A (owners [Unverified]) | 14 Nov 2026 |
+| Arkham can't label XRPL wallets (no XRPL support) | Arkham entity read only; no address links possible | B | 15 Nov 2026 |
+
+---
+
+## 🔎 Open items and how to close them
+
+| # | Open item | Exactly how to close it | Cost / access |
+|---|---|---|---|
+| 1 | **Who `rJqiMb…`'s downstream wallets are** (`raRVLN…`, `rP4X2h…`, `rnU65s…`) | XRPL-native label sources (XRPScan / Bithomp account names, exchange destination tags); check whether payments carry exchange destination tags | Free |
+| 2 | **Confirm `rBg2…` and `rJqiMb…` are Ripple's** | Ripple's own disclosures or an XRPL explorer's verified account names (Arkham does not cover XRPL) | Free |
+| 3 | **Ripple's quarterly XRP sales** | Ripple quarterly XRP Markets Reports, or filings if any | Free |
+| 4 | **Ripple total / operational holdings** | Sum `account_info` for all escrow owners and known operational wallets | Free |
+| 5 | **MiCA authorization; ETP flows** | ESMA register; ETP issuer holdings pages | Free |
 
 ---
 

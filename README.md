@@ -16,9 +16,9 @@ Times in this repository are in **MST**.
 
 | Path | What it is |
 |---|---|
-| [banking-rails/](banking-rails/) | Token research: 18 v3 scored reports, ranked, plus short stubs |
+| [banking-rails/](banking-rails/) | Token research: 27 v3 scored reports, ranked, plus short stubs |
 | [banking-rails/COVER.md](banking-rails/COVER.md) | Why the reports exist, the v3 scoring method, and what each section checks |
-| [banking-rails/RANKING.md](banking-rails/RANKING.md) | Ranked v3 scores, then a clearly labeled list of notes not yet rescored |
+| [banking-rails/RANKING.md](banking-rails/RANKING.md) | Ranked v3 scores for all 27 reports |
 | [daily/](daily/) | One report per day, as `YYYY-MM-DD.md` (readable) and `YYYY-MM-DD.json` (machine-readable) |
 | [calendar.md](calendar.md) | Upcoming market events |
 | [sources.md](sources.md) | Vetted source list and the verification rule |

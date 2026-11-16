@@ -24,7 +24,7 @@ red_lines:
   undisclosed_treasury_to_exchange_flow: recurring_quarterly
 price_usd: 9.19
 price_source: "CoinGecko, 14 Nov 2026 9:08 AM MST"
-last_updated: 2026-11-14
+last_updated: 2026-11-15
 layout_version: 3
 ---
 
@@ -32,7 +32,9 @@ layout_version: 3
 
 ### LINK · Overall grade **6.9 / 10 · ✅ PASS**
 
-**Summary:** A real, fee-earning oracle network with clean token code, but its non-circulating treasury sends ~16–19M LINK to Binance every quarter without a formal announcement.
+**Summary:** A real, fee-earning oracle network with clean token code, but its non-circulating treasury sends roughly 9–19M LINK to Binance a few times a year (58.85M in the last 12 months) without a formal announcement. None of those sends fell on a pump day.
+
+**🚨 Top warning:** Chainlink's non-circulating treasury Safes keep feeding one **Binance deposit address** [`0x9b1c…cde9`](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9): **58.85M LINK in the last 12 months** (253.8M since Aug 2022), with no formal announcement. Latest batch 9 Oct 2026, incl. 3.4M from Safe #17 ([in](https://etherscan.io/tx/0x2f03bf93b7c50c740a6a9ebdcb2182ae112ea3c14474559e189afa8aaed40836) → [Binance 14](https://etherscan.io/tx/0x595cc8d1b1156210b6ecdf9fe34adc45857091fa6894b3d2c876bd3aee4bdb8e)). Not pump-timed. Check: [deposit address on Etherscan](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [Arkham “Binance Deposit”](https://intel.arkm.com/explorer/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [Safe #17 on Arkham (“Chainlink: Non-Circulating Supply”)](https://intel.arkm.com/explorer/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3).
 
 **Sections passed: 8 of 11**
 
@@ -57,15 +59,15 @@ layout_version: 3
 
 # 🪪 LINK · Chainlink · 6.9 / 10 · ✅ PASS
 
-> **One line:** A real, fee-earning oracle network with clean token code, but its non-circulating treasury sends ~16–19M LINK to Binance every quarter without a formal announcement.
+> **One line:** A real, fee-earning oracle network with clean token code, but its non-circulating treasury sends roughly 9–19M LINK to Binance a few times a year (58.85M in the last 12 months) without a formal announcement. None of those sends fell on a pump day.
 
 | 📊 Market (CoinGecko, 14 Nov 2026 9:08 AM MST) | 🔗 On-chain (Ethereum, 10 Oct / 3 Nov 2026) |
 |---|---|
-| **Price** $9.19 | **Token** `0x5149…86CA` "LinkToken" ERC-677, Solidity 0.4.16 |
+| **Price** $9.19 | **Token** [`0x5149…86CA`](https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA) "LinkToken" ERC-677, Solidity 0.4.16 |
 | **24h / 7d / 30d** 🔴 −7.4% / −15.1% / −24.9% | **Supply** 1,000,000,000 fixed · no owner, mint, pause, blacklist, upgrade |
 | **Market cap** $7.05B · **FDV** $9.19B | **Circulating (CoinGecko)** 766.85M → ~233.15M non-circulating |
 | **24h volume** $246.3M | **Holders** ~1,007,408 (Blockscout, 10 Oct) |
-| **ATH** $52.70 (9 May 2021) · now −83% | **Community staking pool** `0xBc10…B5e` 40,875,544 (4.09%) |
+| **ATH** $52.70 (9 May 2021) · now −83% | **Community staking pool** [`0xBc10…DB5e`](https://etherscan.io/address/0xBc10f2E862ED4502144c7d632a3459F49DFCDB5e) 40,875,544 (4.09%) |
 
 ---
 
@@ -89,17 +91,18 @@ layout_version: 3
 | Sergey Nazarov | Co-founder; CEO of Chainlink Labs. Verified commits | [Tier A] GitHub `smartcontractkit` |
 | Steve Ellis | Co-founder; CTO (commonly stated). Commits verified by name | [Tier A] commits · title [Unverified] |
 | Chainlink Foundation | Entity, directors and jurisdiction **not checked** this pass | [Unverified] |
-| Non-circulating Safes | Known on-chain ("Noncirculating Supply" Safe multisigs, e.g. #17 `0xa42d0a18…9a3`), **no official address list** | [Tier A] chain · labels Etherscan |
+| Non-circulating Safes | Known on-chain ("Noncirculating Supply" Safe multisigs, e.g. #17 [`0xa42d0a18…9a3`](https://etherscan.io/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3) · [Arkham](https://intel.arkm.com/explorer/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3)), **no official address list**. Arkham files `0xa42d…` as **"Chainlink: Non-Circulating Supply"** inside its "Chainlink" entity (5.5K addresses, ~$3.19B, 286.6M LINK). Etherscan + Arkham = two Tier B labels, so these Safes are **verified Chainlink treasury** | [Tier A] chain · labels Etherscan · [Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account) |
 
-**What it means:** The builders are known and active. Who legally controls the treasury Safes is still an open question.
+**What it means:** The builders are known and active. The treasury Safes are now confirmed as Chainlink's by two label sources, but which legal entity (Labs or Foundation) controls them is still an open question.
 
 ## 🪙 Foundation / team holdings — How many coins do they hold? · 4/10 · ❌ FAIL
 
 | Bucket | LINK | % of supply | Notes |
 |---|---:|---:|---|
 | Non-circulating (1B − CoinGecko circulating) | ~233,150,030 | ~23.3% | Held in Safe multisigs; not vested on-chain |
+| Arkham "Chainlink" entity (all labelled addresses) | 286.6M LINK (~$2.64B), plus ~$285M in syrupUSDC/USDT and other tokens | ~28.7% | One Tier B source; likely includes contracts beyond the treasury Safes (e.g. Reserve, staking-related), so it is not a clean treasury figure [Unverified] |
 | Community staking pool | 40,875,544 | 4.09% | User stake, not treasury |
-| Quarterly release | ~19M per quarter | ~1.9% | Discretionary |
+| Release to Binance | 58.85M in the last 12 months (9.2M–18.4M per batch) | ~5.9% a year | Discretionary |
 
 **What it means:** About a quarter of supply is in treasury Safes that can move at any time; there is no on-chain lock.
 
@@ -107,20 +110,24 @@ layout_version: 3
 
 | Window (UTC) | Route | Amount to Binance 14 | LINK 5-day change before send | Pump? |
 |---|---|---:|---:|---|
-| 9–10 Oct 2026 | Noncirculating Safes → `0x9b1c1752…cde9` (forwards in minutes) → Binance 14 `0x28c6c062…1d60` | 15,875,000 (+1,874,999 to Safe `0xd50f074e`) | −10.0% | ❌ No |
-| 19 Jun 2026 (partial window) | same route | ≥10,000,000 | +0.3% | ❌ No |
-| 3 Apr 2026 (partial window) | same route | ≥4,600,000 | +2.4% | ❌ No |
+| 9 Oct 2026 19:43–21:13 | Noncirculating Safes → [`0x9b1c1752…cde9`](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) ([Arkham](https://intel.arkm.com/explorer/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9); forwards in minutes) → Binance 14 [`0x28c6c062…1d60`](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60). Txs: [3.4M in](https://etherscan.io/tx/0x2f03bf93b7c50c740a6a9ebdcb2182ae112ea3c14474559e189afa8aaed40836) · [3.4M → Binance](https://etherscan.io/tx/0x595cc8d1b1156210b6ecdf9fe34adc45857091fa6894b3d2c876bd3aee4bdb8e) · [4.5M → Binance](https://etherscan.io/tx/0x1d0f1263c828d4ff2a147c05ef27b96f6527a2a7f032e8cf1e02a4e82e459c4e) · [2.73M → Binance](https://etherscan.io/tx/0x3a38babee890d50904ad004c9b8dbe2002aa73b6bc791006f6358f276207a812) | **16,875,000** (+1,874,999 to Safe `0xd50f074e`) | −10.0% | ❌ No |
+| 19 Jun 2026 19:17–21:13 | same route (5 Safes). Txs: [8.375M → Binance](https://etherscan.io/tx/0xef13c7c8b91afbed0995167813e98646cc99995eb3506215dd1420850550399e) · [4.0M → Binance](https://etherscan.io/tx/0x5fd73e5a2ef1303670ed15f91ca9bdc774470892f1eced9059901c938f9c04d5) | **18,375,000** (+2,624,999 to `0xd50f…`) | +0.3% | ❌ No |
+| 3 Apr 2026 19:35–22:52 | same route (3 Safes). Txs: [9.775M → Binance](https://etherscan.io/tx/0x4dc3376c4d43e39db54ec36e2d34e18e522b0783e1231173b62f5302151fd89d) · [2.5M → Binance](https://etherscan.io/tx/0xd2b4c2c4a9e2208fda54e57fef07de1c59cf92b12d389439a0088951dd9e31e3) | **14,375,000** (+4,624,999 to `0xd50f…`) | +2.4% | ❌ No |
+| 19 Dec 2025 20:11–20:30 | same route (2 Safes). Txs: [5.225M → Binance](https://etherscan.io/tx/0xd3916e84214f649df558feaeaf5a919eb974f0083e8d5645fd93b5a2c3729771) · [4.0M → Binance](https://etherscan.io/tx/0x3bd07fec96f7092c3c0b27a88e57e12c5f8fe0f39d7e2be933955adee8bb9972) | **9,225,000** (+2,024,999 to `0xd50f…`) | −13.1% | ❌ No |
 
-- Example tx: `0x2f03bf93b7c50c740a6a9ebdcb2182ae112ea3c14474559e189afa8aaed40836`.
-- Pump test: 25 of 360 days in the last year had a ≥10% 5-day rise; **none** of the three sends fell in one.
-- Reports said 16.875M in Oct; on-chain trace shows 15.875M to Binance + 1.875M to a Safe (17.75M total). Whether Binance sold it cannot be seen on-chain.
+- Example tx: [tx `0x2f03bf93b7c50c740a6a9ebdcb2182ae112ea3c14474559e189afa8aaed40836`](https://etherscan.io/tx/0x2f03bf93b7c50c740a6a9ebdcb2182ae112ea3c14474559e189afa8aaed40836) (3,399,999 from Safe #17 on 9 Oct, forwarded as [tx `0x595cc8d1b115…`](https://etherscan.io/tx/0x595cc8d1b1156210b6ecdf9fe34adc45857091fa6894b3d2c876bd3aee4bdb8e) seven minutes later).
+- **Full history, now read in full (15 Nov):** `0x9b1c…` has forwarded **253.8M LINK to Binance 14 in 62 transfers since 26 Aug 2022** (first: [tx `0x540c7288…`](https://etherscan.io/tx/0x540c72883f4cb0e14042c450e6e9297108893655493f4e10120625311aa40a2c); full list on [Etherscan](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9)), usually within minutes of arriving (at most a few hours), and has never sent LINK anywhere else. The last 12 months are the four rows above: **58.85M**.
+- **Labels, now verified:** Arkham labels `0x9b1c…` "Binance Deposit" and `0x28c6…` "Binance: Hot Wallet"; Etherscan tags `0x28c6…` "Binance 14". Two independent Tier B labels plus the [Tier A] forwarding pattern confirm a **Binance deposit address** credited to one Binance account ([Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account)).
+- **[`0xd50f074e…`](https://etherscan.io/address/0xd50f074ec5c7997ce1daacb513ec194c480878af) (the Safe that gets a slice of each batch; [Arkham](https://intel.arkm.com/explorer/address/0xd50f074ec5c7997ce1daacb513ec194c480878af)):** Arkham shows no entity. On-chain it receives only from the non-circulating Safes and pays 499,999 or 607,499 LINK every few weeks to Safe [`0x7a28b8cf…`](https://etherscan.io/address/0x7a28b8cfeb73b45626f521de928d0dd2d25c14a3) (since Nov 2022). No exchange sends. That looks like an operating budget; purpose [Unverified].
+- Pump test: 25 of 360 days in the last year had a ≥10% 5-day rise; **none** of the four batches fell in one (also none on the following day).
+- **Correction (15 Nov):** the October batch was **16,875,000** to Binance (plus 1,874,999 to `0xd50f…`, 18.75M in all), not 15.875M as this page said before. The press figure of 16.875M was right. The June and April rows were partial before; full totals are above. Whether Binance sold the LINK cannot be seen on-chain.
 
-**What it means:** Not pump-timed, and the cadence is regular. But it is still undisclosed treasury-to-exchange flow, so it does not pass.
+**What it means:** Not pump-timed, and the cadence is regular (four batches in 12 months, all on calm or falling days). Arkham now confirms the treasury and the Binance deposit. But it is still undisclosed treasury-to-exchange flow, about 59M LINK a year, so it does not pass (score unchanged at 5).
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
 - Fixed 1B, ERC-677, not upgradeable, no tax. Matches white paper v2.0 (15 Apr 2021).
-- No burn claimed. Unlock pressure ~19M/quarter (~2.5% of circulating per quarter).
+- No burn claimed. Unlock pressure: 58.85M to Binance in the last 12 months (~7.7% of circulating a year), in batches of 9–19M.
 
 ## 💧 Liquidity & market · 10/10 · ✅ PASS
 
@@ -148,7 +155,7 @@ layout_version: 3
 
 | Date | Event |
 |---|---|
-| ~Jan 2027 | Next quarterly treasury release window (based on Apr/Jun/Oct pattern) |
+| ~Dec 2026 – Jan 2027 | Next treasury release window (last four: 19 Dec 2025, 3 Apr, 19 Jun, 9 Oct 2026) |
 | Ongoing | Reserve buys from service revenue |
 
 ## 🚩 Red lines status
@@ -157,17 +164,49 @@ layout_version: 3
 |---|---|
 | Hack / exploit | 🟢 None |
 | Treasury → exchange during a pump | 🟢 Not found (sends were off-pump) |
-| Undisclosed treasury → exchange flow | 🟡 Recurring every quarter |
+| Undisclosed treasury → exchange flow | 🟡 Recurring: 4 batches, 58.85M LINK in 12 months (Binance deposit confirmed by Arkham + Etherscan): [deposit address](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [Arkham label](https://intel.arkm.com/explorer/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [9 Oct example](https://etherscan.io/tx/0x595cc8d1b1156210b6ecdf9fe34adc45857091fa6894b3d2c876bd3aee4bdb8e) |
 
 ## 📚 Sources
 
 - [Tier A] Ethereum RPC and Blockscout; `eth_getLogs` Transfer trace, Oct 2026
+- [Tier A] Etherscan v2 API `tokentx` (LINK) for `0x9b1c…`, `0xa42d…` and `0xd50f…`, full history, read 15 Nov 2026 ~11:20 AM MST
+- [Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): "Chainlink" entity; `0xa42d…` "Chainlink: Non-Circulating Supply"; `0x9b1c…` "Binance Deposit"; `0x28c6…` "Binance: Hot Wallet"; `0xd50f…` (no entity). Arkham shows relative ages only; dates above come from on-chain reads where amounts match. All-time exchange totals are Enterprise-locked
+- [Tier B] Etherscan name tags "Binance 14" ([`0x28c6…`](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60)) and "Noncirculating Supply Safe" ([`0xa42d…`](https://etherscan.io/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3))
+- [Tier A] Explorer pages used (Etherscan): [`0x9b1c…`](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [`0xa42d…`](https://etherscan.io/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3) · [`0xd50f…`](https://etherscan.io/address/0xd50f074ec5c7997ce1daacb513ec194c480878af) · [`0x7a28…`](https://etherscan.io/address/0x7a28b8cfeb73b45626f521de928d0dd2d25c14a3) · [`Binance 14`](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60) · token [`0x5149…`](https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA)
+- [Tier B] Arkham address pages used: [0xa42d…](https://intel.arkm.com/explorer/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3) · [0x9b1c…](https://intel.arkm.com/explorer/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [0x28c6…](https://intel.arkm.com/explorer/address/0x28C6c06298d514Db089934071355E5743bf21d60) · [0xd50f…](https://intel.arkm.com/explorer/address/0xd50f074ec5c7997ce1daacb513ec194c480878af)
 - [Tier A] [docs.chain.link](https://docs.chain.link) · [white paper v2](https://research.chain.link/whitepaper-v2.pdf)
 - [Tier A] DefiLlama fees/revenue, pulled 13 Nov 2026 4:22 AM MST
 - [Tier A] CoinGecko `chainlink` price and 365-day daily closes, 14 Nov 2026
 - [Tier A] GitHub `smartcontractkit`
 - [Tier B] [PR Newswire, CCIP GA](https://www.prnewswire.com/news-releases/chainlink-announces-general-availability-for-ccip-302126061.html)
-- [Unverified] Reserve balance >6M LINK; Foundation entity and signers; Steve Ellis title
+- [Unverified] Reserve balance >6M LINK; Foundation entity and signers; Steve Ellis title; purpose of `0xd50f…` → `0x7a28b8cf…` payments; Arkham's 286.6M entity total
+
+## 🔗 Evidence trail
+
+*Every link below opens the primary record (block explorer) or the label source (Arkham) for the claim. Click through to check any number yourself.*
+
+| Claim | Evidence link(s) | Tier | Date read |
+|---|---|---|---|
+| **Treasury → Binance deposit pattern:** non-circulating Safes → `0x9b1c…cde9` → Binance 14; 58.85M LINK in 12 months, 253.8M since Aug 2022 | [Etherscan (full history)](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [Arkham “Binance Deposit”](https://intel.arkm.com/explorer/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [Binance 14 tag](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60) · [Arkham “Binance: Hot Wallet”](https://intel.arkm.com/explorer/address/0x28C6c06298d514Db089934071355E5743bf21d60) | A pattern + 2× B | 15 Nov 2026 ~11:20 AM MST |
+| 9 Oct 2026 batch: 16.875M to Binance (incl. 3,399,999 from Safe #17) | [3.4M in](https://etherscan.io/tx/0x2f03bf93b7c50c740a6a9ebdcb2182ae112ea3c14474559e189afa8aaed40836) · [3.4M → Binance](https://etherscan.io/tx/0x595cc8d1b1156210b6ecdf9fe34adc45857091fa6894b3d2c876bd3aee4bdb8e) · [4.5M → Binance](https://etherscan.io/tx/0x1d0f1263c828d4ff2a147c05ef27b96f6527a2a7f032e8cf1e02a4e82e459c4e) · [2.73M → Binance](https://etherscan.io/tx/0x3a38babee890d50904ad004c9b8dbe2002aa73b6bc791006f6358f276207a812) | A | 15 Nov 2026 |
+| 19 Jun 2026 batch: 18.375M to Binance | [8.375M → Binance](https://etherscan.io/tx/0xef13c7c8b91afbed0995167813e98646cc99995eb3506215dd1420850550399e) · [4.0M → Binance](https://etherscan.io/tx/0x5fd73e5a2ef1303670ed15f91ca9bdc774470892f1eced9059901c938f9c04d5) | A | 15 Nov 2026 |
+| 3 Apr 2026 batch: 14.375M to Binance | [9.775M → Binance](https://etherscan.io/tx/0x4dc3376c4d43e39db54ec36e2d34e18e522b0783e1231173b62f5302151fd89d) · [2.5M → Binance](https://etherscan.io/tx/0xd2b4c2c4a9e2208fda54e57fef07de1c59cf92b12d389439a0088951dd9e31e3) | A | 15 Nov 2026 |
+| 19 Dec 2025 batch: 9.225M to Binance | [5.225M → Binance](https://etherscan.io/tx/0xd3916e84214f649df558feaeaf5a919eb974f0083e8d5645fd93b5a2c3729771) · [4.0M → Binance](https://etherscan.io/tx/0x3bd07fec96f7092c3c0b27a88e57e12c5f8fe0f39d7e2be933955adee8bb9972) | A | 15 Nov 2026 |
+| Safe #17 `0xa42d…` is Chainlink treasury ("Chainlink: Non-Circulating Supply" + Etherscan tag) | [Etherscan](https://etherscan.io/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3) · [Arkham](https://intel.arkm.com/explorer/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3) | 2× B | 15 Nov 2026 |
+| `0xd50f…` gets a slice of each batch and pays `0x7a28…` (no exchange sends) | [0xd50f… Etherscan](https://etherscan.io/address/0xd50f074ec5c7997ce1daacb513ec194c480878af) · [Arkham](https://intel.arkm.com/explorer/address/0xd50f074ec5c7997ce1daacb513ec194c480878af) · [0x7a28… Etherscan](https://etherscan.io/address/0x7a28b8cfeb73b45626f521de928d0dd2d25c14a3) | A | 15 Nov 2026 |
+| Community staking pool 40,875,544 LINK | [Etherscan](https://etherscan.io/address/0xBc10f2E862ED4502144c7d632a3459F49DFCDB5e) | A | 10 Oct 2026 |
+
+---
+
+## 🔎 Open items and how to close them
+
+| # | Open item | Exactly how to close it | Cost / access |
+|---|---|---|---|
+| 1 | **Did Chainlink disclose the 58.85M sent to Binance?** | Search Chainlink blog / X / transparency posts for the Dec 2025, Apr, Jun and Oct 2026 batches; ask Chainlink Labs what the Binance account is used for (node-operator rewards, OTC, sales) | Free |
+| 2 | **Full list of non-circulating Safes and their balances** | Enumerate Etherscan "Noncirculating Supply Safe" tags and Arkham's "Chainlink: Non-Circulating Supply" addresses; sum `balanceOf` | Free (Arkham login) |
+| 3 | **What `0xd50f…` → `0x7a28b8cf…` pays for** | Trace `0x7a28b8cf…` onward flows; ask Chainlink | Free |
+| 4 | **Reserve balance (>6M LINK claimed)** | Read the Chainlink Reserve contract `balanceOf` | Free |
+| 5 | **Regulatory status** | Look for licences / filings for Chainlink Labs and the Foundation | Free |
 
 ---
 
