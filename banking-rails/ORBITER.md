@@ -34,10 +34,10 @@ pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0x34dce6febeedacd6fa9be09b45e825a62f84cd1d"
-    label: "OBT genesis wallet (received the full 10B mint)"
+    label: "OBT genesis wallet (received the full 10B mint); Arkham label is a generic Gnosis Safe"
     confidence: high
     independent_corroboration: true
-    basis: "on-chain mint of 9.99999B OBT from the zero address (direct, independent of Arkham); the official tokenomics post says most allocations were unreleased at launch; Arkham gives only a generic Gnosis Safe label"
+    basis: "control rests on the on-chain receipt of the full 10B mint from the zero address (high confidence, independent of Arkham; the Arkham label is generic); the official tokenomics post says most allocations were unreleased at launch; Arkham gives only a generic Gnosis Safe label"
   - address: "0x40b8080938ac85e7f2ff2c0503c19d696c8bef9a"
     label: "Bithumb: Hot Wallet (4.145B OBT)"
     confidence: medium
@@ -125,7 +125,7 @@ layout_version: 3
 
 - Genesis wallet [`0x34dc…cd1d`](https://etherscan.io/address/0x34dce6febeedacd6fa9be09b45e825a62f84cd1d) received the **full 10B mint** and still holds **3.7B (37%)**. **Attribution confidence:** high (on-chain mint record, plus the [official tokenomics](https://orbiter-finance.medium.com/obtokenomics-and-airdrop-eligibility-guide-3549dd00807a), which show community, ecosystem and team allocations unreleased at launch).
 - On Arbitrum, [0x40b8…ef9a](https://intel.arkm.com/explorer/address/0x40b8080938ac85e7f2ff2c0503c19d696c8bef9a) holds **4.145B**. Arkham labels it **Bithumb: Hot Wallet**, and its page-1 flows are with Bithumb deposit addresses, so this is exchange custody of customer coins, not a team or insider holding. It is excluded from the insider count. [Tier B] Arkham, read 16 Nov 2026 (signed-in account).
-- Arkham gives the genesis wallet only a generic Gnosis Safe label (low confidence on its own). Its project link rests on the on-chain record that it received the full 10B mint, which is direct and independent of Arkham. The score therefore stays 3, based on the genesis wallet's 37% alone; the Bithumb balance never counted toward it.
+- Arkham gives the genesis wallet only a generic Gnosis Safe label (low confidence on its own). Its project link rests on the on-chain record that it received the full 10B mint ([genesis wallet](https://etherscan.io/address/0x34dce6febeedacd6fa9be09b45e825a62f84cd1d)), which is direct and independent of Arkham: **high confidence**. The score therefore stays 3, based on the genesis wallet's 37% alone; the Bithumb balance never counted toward it.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 

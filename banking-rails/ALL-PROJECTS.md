@@ -26,10 +26,10 @@ Live counts across all **148** published v3 reports. Rebuilt on every push. Full
 |---|---:|---:|
 | ✅ Pass overall | **8** | 5% |
 | 🔴 Fail on revenue (Revenue 3 or below) | **123** | 83% |
-| 🔴 Fail on insider selling (Selling 3 or below) | **30** | 20% |
-| 🔴 Fail both | **27** | 18% |
-| 🟨 Insider selling not proven | **80** | 54% |
-| 🤐 Pump-day sale with no disclosure | **25** | 17% |
+| 🔴 Fail on insider selling (Selling 3 or below) | **31** | 21% |
+| 🔴 Fail both | **28** | 19% |
+| 🟨 Insider selling not proven | **79** | 53% |
+| 🤐 Pump-day sale with no disclosure | **26** | 18% |
 
 - [✅ Done (v3 reports)](#done)
 - [🟢 Close](#close)
@@ -159,23 +159,23 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 104 | [QANX](QANX.md) | QANplatform | 3.6 | ❌ FAIL | Revenue gate |
 | 105 | [PROPC](PROPC.md) | Propchain | 3.6 | ❌ FAIL | Revenue gate |
 | 106 | [NUVA](NUVA.md) | NUVA Finance | 3.5 | ❌ FAIL | Revenue gate |
-| 107 | [RBNT](RBNT.md) | Redbelly Network | 3.5 | ❌ FAIL | Revenue gate |
-| 108 | [WIREX](WIREX.md) | Wirex | 3.5 | ❌ FAIL | Revenue gate |
-| 109 | [TX](TX.md) | TX (Coreum + Sologenic) | 3.5 | ❌ FAIL | Revenue gate |
-| 110 | [ZKC](ZKC.md) | Boundless | 3.4 | ❌ FAIL | Revenue gate |
-| 111 | [SKEY](SKEY.md) | Skey Network | 3.4 | ❌ FAIL | Revenue gate |
-| 112 | [ZKP](ZKP.md) | zkPass | 3.4 | ❌ FAIL | Revenue and Selling gates |
-| 113 | [OM](OM.md) | MANTRA | 3.4 | ❌ FAIL | Revenue gate |
-| 114 | [PUNDIX](PUNDIX.md) | Pundi X | 3.4 | ❌ FAIL | Revenue gate |
-| 115 | [SHPING](SHPING.md) | Shping | 3.3 | ❌ FAIL | Revenue and Selling gates |
-| 116 | [POLYX](POLYX.md) | Polymesh | 3.3 | ❌ FAIL | Revenue and Selling gates |
-| 117 | [S](S.md) | Sonic | 3.3 | ❌ FAIL | Revenue and Selling gates |
-| 118 | [ZIG](ZIG.md) | ZIGChain (Zignaly) | 3.3 | ❌ FAIL | Revenue and Selling gates |
-| 119 | [STBL](STBL.md) | STBL | 3.3 | ❌ FAIL | Revenue gate |
-| 120 | [SHARE](SHARE.md) | ShareX | 3.3 | ❌ FAIL | Revenue gate |
-| 121 | [AEON](AEON.md) | AEON | 3.3 | ❌ FAIL | Revenue gate |
-| 122 | [YELLOW](YELLOW.md) | Yellow Network | 3.2 | ❌ FAIL | Revenue gate |
-| 123 | [LUMIA](LUMIA.md) | Lumia | 3.2 | ❌ FAIL | Revenue gate |
+| 107 | [WIREX](WIREX.md) | Wirex | 3.5 | ❌ FAIL | Revenue gate |
+| 108 | [TX](TX.md) | TX (Coreum + Sologenic) | 3.5 | ❌ FAIL | Revenue gate |
+| 109 | [ZKC](ZKC.md) | Boundless | 3.4 | ❌ FAIL | Revenue gate |
+| 110 | [SKEY](SKEY.md) | Skey Network | 3.4 | ❌ FAIL | Revenue gate |
+| 111 | [ZKP](ZKP.md) | zkPass | 3.4 | ❌ FAIL | Revenue and Selling gates |
+| 112 | [OM](OM.md) | MANTRA | 3.4 | ❌ FAIL | Revenue gate |
+| 113 | [PUNDIX](PUNDIX.md) | Pundi X | 3.4 | ❌ FAIL | Revenue gate |
+| 114 | [SHPING](SHPING.md) | Shping | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 115 | [POLYX](POLYX.md) | Polymesh | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 116 | [S](S.md) | Sonic | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 117 | [ZIG](ZIG.md) | ZIGChain (Zignaly) | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 118 | [STBL](STBL.md) | STBL | 3.3 | ❌ FAIL | Revenue gate |
+| 119 | [SHARE](SHARE.md) | ShareX | 3.3 | ❌ FAIL | Revenue gate |
+| 120 | [AEON](AEON.md) | AEON | 3.3 | ❌ FAIL | Revenue gate |
+| 121 | [YELLOW](YELLOW.md) | Yellow Network | 3.2 | ❌ FAIL | Revenue gate |
+| 122 | [LUMIA](LUMIA.md) | Lumia | 3.2 | ❌ FAIL | Revenue gate |
+| 123 | [RBNT](RBNT.md) | Redbelly Network | 3.1 | ❌ FAIL | Revenue and Selling gates |
 | 124 | [KAVA](KAVA.md) | Kava | 3.1 | ❌ FAIL | Revenue gate |
 | 125 | [ACH](ACH.md) | Alchemy Pay | 3.1 | ❌ FAIL | Revenue and Selling gates |
 | 126 | [XEP](XEP.md) | Electra Protocol | 3.1 | ❌ FAIL | Revenue gate |

@@ -1,7 +1,7 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 13:54 MST",
+  "generated_at": "2026-11-16 13:58 MST",
   "universe": 148,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
@@ -148,8 +148,8 @@
     ]
   },
   "fail_selling_gate": {
-    "count": 30,
-    "share": 0.2027,
+    "count": 31,
+    "share": 0.2095,
     "tickers": [
       "ACH",
       "API3",
@@ -163,6 +163,7 @@
       "PHA",
       "POLYX",
       "QNT",
+      "RBNT",
       "REQ",
       "RLC",
       "ROUTER",
@@ -184,8 +185,8 @@
     ]
   },
   "fail_both_gates": {
-    "count": 27,
-    "share": 0.1824,
+    "count": 28,
+    "share": 0.1892,
     "tickers": [
       "ACH",
       "COTI",
@@ -197,6 +198,7 @@
       "PACT",
       "PHA",
       "POLYX",
+      "RBNT",
       "REQ",
       "RLC",
       "ROUTER",
@@ -217,8 +219,8 @@
     ]
   },
   "proven_pump_day_sale": {
-    "count": 48,
-    "share": 0.3243,
+    "count": 49,
+    "share": 0.3311,
     "tickers": [
       "ACH",
       "AERO",
@@ -247,6 +249,7 @@
       "PHA",
       "POLYX",
       "QNT",
+      "RBNT",
       "REQ",
       "RLC",
       "ROUTER",
@@ -287,8 +290,8 @@
     ]
   },
   "selling_not_proven": {
-    "count": 80,
-    "share": 0.5405,
+    "count": 79,
+    "share": 0.5338,
     "tickers": [
       "ADA",
       "AEON",
@@ -334,7 +337,6 @@
       "PUNDIX",
       "QANX",
       "QUAI",
-      "RBNT",
       "REALIZ",
       "RED",
       "REUSD",
@@ -373,8 +375,8 @@
     ]
   },
   "selling_score_equals_4": {
-    "count": 67,
-    "share": 0.4527,
+    "count": 66,
+    "share": 0.4459,
     "tickers": [
       "AEON",
       "APT",
@@ -411,7 +413,6 @@
       "PUNDIX",
       "QANX",
       "QUAI",
-      "RBNT",
       "REALIZ",
       "RED",
       "REUSD",
@@ -446,8 +447,8 @@
     ]
   },
   "undisclosed_pump_day_sale_silence": {
-    "count": 25,
-    "share": 0.1689,
+    "count": 26,
+    "share": 0.1757,
     "tickers": [
       "ACH",
       "CARDS",
@@ -459,6 +460,7 @@
       "PHA",
       "POLYX",
       "QNT",
+      "RBNT",
       "REQ",
       "RLC",
       "ROUTER",

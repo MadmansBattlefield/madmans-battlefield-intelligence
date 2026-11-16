@@ -76,10 +76,10 @@
       },
       {
         "address": "0xe34cc5d6a66328cde7caf0155f8dffebd953c201",
-        "label": "Not read on Arkham [Unverified]",
+        "label": "Gnosis Safe (SafeProxy), largest Ethereum holder; owner [Unverified]",
         "confidence": "low",
         "independent_corroboration": false,
-        "basis": "Arkham"
+        "basis": "Blockscout holder list: SafeProxy holding 694,565.1 EURe (read 16 Nov 2026); address verified against Blockscout; not yet read on Arkham"
       }
     ]
   },
@@ -92,9 +92,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/EURE.md",
-    "sha256": "4d8c1c73dcfe698c84aafcf6c3edae5c78412cdf633e023905610ddc7ed70647",
-    "bytes": 13812,
-    "extracted_at": "2026-11-16 13:54 MST",
+    "sha256": "f606c086ac6d6fce2b921d29a59dac99614917e1cc73ff2acab0a81de7b94789",
+    "bytes": 14342,
+    "extracted_at": "2026-11-16 13:58 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -254,7 +254,7 @@
     {
       "address": "0xe34cc5d6a66328cde7caf0155f8dffebd953c201",
       "url": null,
-      "label": "Not read on Arkham [Unverified]",
+      "label": "Gnosis Safe (SafeProxy), largest Ethereum holder; owner [Unverified]",
       "source": "front_matter",
       "confidence": "low",
       "independent_corroboration": false,

@@ -48,10 +48,10 @@ attributions:
     independent_corroboration: true
     basis: "Arkham + RPC validator()"
   - address: "0xe34cc5d6a66328cde7caf0155f8dffebd953c201"
-    label: "Not read on Arkham [Unverified]"
+    label: "Gnosis Safe (SafeProxy), largest Ethereum holder; owner [Unverified]"
     confidence: low
     independent_corroboration: false
-    basis: "Arkham"
+    basis: "Blockscout holder list: SafeProxy holding 694,565.1 EURe (read 16 Nov 2026); address verified against Blockscout; not yet read on Arkham"
 price_usd: 1.1
 price_source: "CoinGecko, 16 Nov 2026 9:56 AM MST"
 last_updated: 2026-11-16
@@ -120,7 +120,7 @@ layout_version: 3
 
 - There is no insider allocation: every token is minted against deposited euros.
 - The largest Ethereum holders are smart wallets (Safes), led by [0xE34c…C201](https://etherscan.io/address/0xE34cC5d6A66328CdE7cAf0155f8DfFEBd953C201) with 694,565 EURe, plus the Polygon bridge tunnel [0x0cC2…7F2c](https://etherscan.io/address/0x0cC2CaeD31490B546c741BD93dbba8Ab387f7F2c) (191,298) [Tier A, Blockscout]. The Gnosis holder list was not reachable (explorer bot-blocked).
-- **Arkham (16 Nov 2026):** the Ethereum EURe token [0x39b8…279d](https://intel.arkm.com/explorer/address/0x39b8b6385416f4ca36a20319f70d28621895279d) is labelled **Monerium EURe**, and the transfer validator [0x03b1…641b](https://intel.arkm.com/explorer/address/0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b) is a verified BlacklistValidatorUpgradeable proxy. The issuance-owner Safe [0x5591…4d9f](https://intel.arkm.com/explorer/address/0x5591a6495d726c7efafb9a9dad32695d137b4d9f) carries only a generic Gnosis Safe label and holds no EURe, so it controls minting but is not a holder. Arkham was not read for the largest holder [0xE34c…C201](https://intel.arkm.com/explorer/address/0xe34cc5d6a66328cde7caf0155f8dffebd953c201) (the lookup used a mistyped address), so its owner is [Unverified]; the 694,565 balance is from Blockscout. Nothing here changes the score. [Tier B] Arkham, read 16 Nov 2026 (signed-in account).
+- **Arkham (16 Nov 2026):** the Ethereum EURe token [0x39b8…279d](https://intel.arkm.com/explorer/address/0x39b8b6385416f4ca36a20319f70d28621895279d) is labelled **Monerium EURe**, and the transfer validator [0x03b1…641b](https://intel.arkm.com/explorer/address/0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b) is a verified BlacklistValidatorUpgradeable proxy. The issuance-owner Safe [0x5591…4d9f](https://intel.arkm.com/explorer/address/0x5591a6495d726c7efafb9a9dad32695d137b4d9f) carries only a generic Gnosis Safe label and holds no EURe, so it controls minting but is not a holder. Arkham was not read for the largest holder [0xE34c…C201](https://intel.arkm.com/explorer/address/0xe34cc5d6a66328cde7caf0155f8dffebd953c201) (the 16 Nov 2026 lookup used a mistyped address; the correct address, checked on [Blockscout](https://eth.blockscout.com/address/0xE34cC5d6A66328CdE7cAf0155f8DfFEBd953C201), is a SafeProxy holding 694,565.1 EURe), so its owner is [Unverified]; the 694,565 balance is from Blockscout. Nothing here changes the score. [Tier B] Arkham, read 16 Nov 2026 (signed-in account).
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 6/10 · ✅ PASS
 
@@ -179,7 +179,7 @@ layout_version: 3
 | [0x39b8…279d](https://intel.arkm.com/explorer/address/0x39b8b6385416f4ca36a20319f70d28621895279d) | Monerium: Monerium EURe (token) | Arkham + Etherscan | high | yes | None |
 | [0x5591…4d9f](https://intel.arkm.com/explorer/address/0x5591a6495d726c7efafb9a9dad32695d137b4d9f) | Gnosis Safe Proxy (generic); token owner() on-chain | Arkham + RPC owner() | medium | yes (on-chain owner()) | None |
 | [0x03b1…641b](https://intel.arkm.com/explorer/address/0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b) | BlacklistValidatorUpgradeable (verified proxy) | Arkham + RPC validator() | high | yes | None |
-| [0xE34c…C201](https://intel.arkm.com/explorer/address/0xe34cc5d6a66328cde7caf0155f8dffebd953c201) | Not read on Arkham [Unverified] | Arkham | low | no | None |
+| [0xE34c…C201](https://intel.arkm.com/explorer/address/0xe34cc5d6a66328cde7caf0155f8dffebd953c201) | Gnosis Safe (SafeProxy) holding 694,565.1 EURe; owner [Unverified] | Blockscout (address verified 16 Nov 2026); not yet read on Arkham | low | no | None |
 
 ## 📚 Sources
 
@@ -205,7 +205,7 @@ layout_version: 3
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | **Who owns the largest Ethereum holder `0xE34c…C201`** | Look it up on Arkham (the 16 Nov 2026 lookup used a mistyped address), or ask Monerium | Free |
+| 1 | **Who owns the largest Ethereum holder `0xE34c…C201`** | Address verified on [Blockscout](https://eth.blockscout.com/address/0xE34cC5d6A66328CdE7cAf0155f8DfFEBd953C201) (a SafeProxy); look it up on Arkham or ask Monerium who controls it | Free |
 | 2 | **Reserve composition** | Monerium audited accounts; ask for an attestation | Free |
 | 3 | **Gnosis holder concentration** | Gnosisscan holder page (manual) | Free |
 

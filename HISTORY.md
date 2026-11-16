@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 13:54 MST
+generated_at: 2026-11-16 13:58 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -83,13 +83,13 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [MOCA](banking-rails/MOCA.md) | 1 | 3.7 | 3.7 | 1 | 6 | 3 |
 | [NEXA](banking-rails/NEXA.md) | 1 | 3.8 | 3.8 | 1 | 4 | 7 |
 | [NIGHT](banking-rails/NIGHT.md) | 1 | 3.8 | 3.8 | 1 | 4 | 1 |
-| NUVA | 0 | — | — | — | — | — |
+| [NUVA](banking-rails/NUVA.md) | 1 | 3.5 | 3.5 | 1 | 4 | 4 |
 | [OM](banking-rails/OM.md) | 1 | 3.4 | 3.4 | 2 | 4 | 4 |
 | [ONDO](banking-rails/ONDO.md) | 2 | 4.9 | 4.7 | 3 | 5 → 4 | 3 |
 | [ORAI](banking-rails/ORAI.md) | 1 | 3.0 | 3.0 | 1 | 4 | 4 |
 | [ORBITER](banking-rails/ORBITER.md) | 1 | 3.8 | 3.8 | 3 | 4 | 3 |
 | [PACT](banking-rails/PACT.md) | 1 | 3.1 | 3.1 | 3 | 1 | 2 |
-| PALMUSD | 0 | — | — | — | — | — |
+| [PALMUSD](banking-rails/PALMUSD.md) | 1 | 2.6 | 2.6 | 1 | 5 | 2 |
 | [PHA](banking-rails/PHA.md) | 1 | 3.9 | 3.9 | 2 | 1 | 4 |
 | [PLUME](banking-rails/PLUME.md) | 2 | 3.5 | 3.7 | 1 | 3 → 4 | 2 |
 | [POLYX](banking-rails/POLYX.md) | 1 | 3.3 | 3.3 | 1 | 2 | 3 |
@@ -100,12 +100,12 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [QNT](banking-rails/QNT.md) | 1 | 4.6 | 4.6 | 4 | 3 | 3 |
 | [QUAI](banking-rails/QUAI.md) | 1 | 4.9 | 4.9 | 5 | 4 | 6 |
 | [RBNT](banking-rails/RBNT.md) | 1 | 3.5 | 3.5 | 2 | 4 | 2 |
-| REALIZ | 0 | — | — | — | — | — |
+| [REALIZ](banking-rails/REALIZ.md) | 1 | 2.1 | 2.1 | 1 | 4 | 1 |
 | [RED](banking-rails/RED.md) | 1 | 4.3 | 4.3 | 2 | 4 | 4 |
 | [REQ](banking-rails/REQ.md) | 1 | 4.2 | 4.2 | 2 | 3 | 3 |
 | [REUSD](banking-rails/REUSD.md) | 1 | 5.5 | 5.5 | 7 | 4 | 6 |
 | [RIO](banking-rails/RIO.md) | 1 | 2.7 | 2.7 | 2 | 4 | 3 |
-| RISE | 0 | — | — | — | — | — |
+| [RISE](banking-rails/RISE.md) | 1 | 3.8 | 3.8 | 2 | 4 | 3 |
 | [RLC](banking-rails/RLC.md) | 1 | 4.3 | 4.3 | 2 | 3 | 5 |
 | [RLS](banking-rails/RLS.md) | 1 | 4.5 | 4.5 | 4 | 5 | 3 |
 | [ROSE](banking-rails/ROSE.md) | 1 | 3.8 | 3.8 | 1 | 5 | 4 |
@@ -118,7 +118,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [SHARE](banking-rails/SHARE.md) | 1 | 3.3 | 3.3 | 2 | 4 | 3 |
 | [SHPING](banking-rails/SHPING.md) | 1 | 3.3 | 3.3 | 1 | 2 | 2 |
 | [SHX](banking-rails/SHX.md) | 1 | 3.6 | 3.6 | 2 | 4 | 3 |
-| SIBERIUM | 0 | — | — | — | — | — |
+| [SIBERIUM](banking-rails/SIBERIUM.md) | 1 | 1.9 | 1.9 | 1 | 4 | 4 |
 | [SKEY](banking-rails/SKEY.md) | 1 | 3.4 | 3.4 | 2 | 4 | 3 |
 | [SKY](banking-rails/SKY.md) | 1 | 6.8 | 6.8 | 8 | 6 | 6 |
 | [SOL](banking-rails/SOL.md) | 1 | 6.6 | 6.6 | 6 | 5 | 5 |
@@ -248,6 +248,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **MOCA** — 3.7 FAIL in `7524e33` (2026-11-16 09:33 MST).
 - **NEXA** — 3.8 FAIL in `3539092` (2026-11-16 12:36 MST).
 - **NIGHT** — 3.8 FAIL in `16d387f` (2026-11-16 08:50 MST).
+- **NUVA** — 3.5 FAIL in `f161485` (2026-11-16 13:54 MST).
 - **OM** — 3.4 FAIL in `8606bea` (2026-11-16 09:12 MST).
 ### ONDO
 
@@ -259,6 +260,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **ORAI** — 3.0 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
 - **ORBITER** — 3.8 FAIL in `e6e1480` (2026-11-16 13:52 MST).
 - **PACT** — 3.1 FAIL in `78f06b6` (2026-11-16 06:22 MST).
+- **PALMUSD** — 2.6 FAIL in `f161485` (2026-11-16 13:54 MST).
 - **PHA** — 3.9 FAIL in `16d387f` (2026-11-16 08:50 MST).
 ### PLUME
 
@@ -275,10 +277,12 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **QNT** — 4.6 FAIL in `c1ac11a` (2026-11-16 04:55 MST).
 - **QUAI** — 4.9 FAIL in `78f06b6` (2026-11-16 06:22 MST).
 - **RBNT** — 3.5 FAIL in `3539092` (2026-11-16 12:36 MST).
+- **REALIZ** — 2.1 FAIL in `f161485` (2026-11-16 13:54 MST).
 - **RED** — 4.3 FAIL in `fc426d1` (2026-11-16 09:35 MST).
 - **REQ** — 4.2 FAIL in `16d387f` (2026-11-16 08:50 MST).
 - **REUSD** — 5.5 FAIL in `652061c` (2026-11-16 09:24 MST).
 - **RIO** — 2.7 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
+- **RISE** — 3.8 FAIL in `f161485` (2026-11-16 13:54 MST).
 - **RLC** — 4.3 FAIL in `8606bea` (2026-11-16 09:12 MST).
 - **RLS** — 4.5 FAIL in `5420ac2` (2026-11-16 12:27 MST).
 - **ROSE** — 3.8 FAIL in `395f117` (2026-11-16 06:46 MST).
@@ -291,6 +295,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **SHARE** — 3.3 FAIL in `25340a1` (2026-11-16 09:50 MST).
 - **SHPING** — 3.3 FAIL in `e6e1480` (2026-11-16 13:52 MST).
 - **SHX** — 3.6 FAIL in `25340a1` (2026-11-16 09:50 MST).
+- **SIBERIUM** — 1.9 FAIL in `f161485` (2026-11-16 13:54 MST).
 - **SKEY** — 3.4 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
 - **SKY** — 6.8 PASS in `78f06b6` (2026-11-16 06:22 MST).
 - **SOL** — 6.6 PASS in `6fa4721` (2026-11-15 18:37 MST).

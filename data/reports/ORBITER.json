@@ -54,10 +54,10 @@
     "attributions": [
       {
         "address": "0x34dce6febeedacd6fa9be09b45e825a62f84cd1d",
-        "label": "OBT genesis wallet (received the full 10B mint)",
+        "label": "OBT genesis wallet (received the full 10B mint); Arkham label is a generic Gnosis Safe",
         "confidence": "high",
         "independent_corroboration": true,
-        "basis": "on-chain mint of 9.99999B OBT from the zero address (direct, independent of Arkham); the official tokenomics post says most allocations were unreleased at launch; Arkham gives only a generic Gnosis Safe label"
+        "basis": "control rests on the on-chain receipt of the full 10B mint from the zero address (high confidence, independent of Arkham; the Arkham label is generic); the official tokenomics post says most allocations were unreleased at launch; Arkham gives only a generic Gnosis Safe label"
       },
       {
         "address": "0x40b8080938ac85e7f2ff2c0503c19d696c8bef9a",
@@ -105,9 +105,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ORBITER.md",
-    "sha256": "04040d2e9d2b7a173a0b3506e3d9c425b72a060b6d762db54ce09a132a2ad682",
-    "bytes": 14001,
-    "extracted_at": "2026-11-16 13:54 MST",
+    "sha256": "49652d32d4ca6b3804fdd8c66ac17e43a137ba0bef43a28791633025c6e9343c",
+    "bytes": 14220,
+    "extracted_at": "2026-11-16 13:58 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -223,7 +223,7 @@
     {
       "address": "0x34dce6febeedacd6fa9be09b45e825a62f84cd1d",
       "url": null,
-      "label": "OBT genesis wallet (received the full 10B mint)",
+      "label": "OBT genesis wallet (received the full 10B mint); Arkham label is a generic Gn...",
       "source": "front_matter",
       "confidence": "high",
       "independent_corroboration": true,

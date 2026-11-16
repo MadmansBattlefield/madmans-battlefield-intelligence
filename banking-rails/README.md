@@ -139,23 +139,23 @@ Every token in this folder has a full v3 scored report:
 | 104 | [QANX.md](QANX.md) | QANplatform | **3.6 / 10 · ❌ FAIL** |
 | 105 | [PROPC.md](PROPC.md) | Propchain | **3.6 / 10 · ❌ FAIL** |
 | 106 | [NUVA.md](NUVA.md) | NUVA Finance | **3.5 / 10 · ❌ FAIL** |
-| 107 | [RBNT.md](RBNT.md) | Redbelly Network | **3.5 / 10 · ❌ FAIL** |
-| 108 | [WIREX.md](WIREX.md) | Wirex | **3.5 / 10 · ❌ FAIL** |
-| 109 | [TX.md](TX.md) | TX (Coreum + Sologenic) | **3.5 / 10 · ❌ FAIL** |
-| 110 | [ZKC.md](ZKC.md) | Boundless | **3.4 / 10 · ❌ FAIL** |
-| 111 | [SKEY.md](SKEY.md) | Skey Network | **3.4 / 10 · ❌ FAIL** |
-| 112 | [ZKP.md](ZKP.md) | zkPass | **3.4 / 10 · ❌ FAIL** |
-| 113 | [OM.md](OM.md) | MANTRA | **3.4 / 10 · ❌ FAIL** |
-| 114 | [PUNDIX.md](PUNDIX.md) | Pundi X | **3.4 / 10 · ❌ FAIL** |
-| 115 | [SHPING.md](SHPING.md) | Shping | **3.3 / 10 · ❌ FAIL** |
-| 116 | [POLYX.md](POLYX.md) | Polymesh | **3.3 / 10 · ❌ FAIL** |
-| 117 | [S.md](S.md) | Sonic | **3.3 / 10 · ❌ FAIL** |
-| 118 | [ZIG.md](ZIG.md) | ZIGChain (Zignaly) | **3.3 / 10 · ❌ FAIL** |
-| 119 | [STBL.md](STBL.md) | STBL | **3.3 / 10 · ❌ FAIL** |
-| 120 | [SHARE.md](SHARE.md) | ShareX | **3.3 / 10 · ❌ FAIL** |
-| 121 | [AEON.md](AEON.md) | AEON | **3.3 / 10 · ❌ FAIL** |
-| 122 | [YELLOW.md](YELLOW.md) | Yellow Network | **3.2 / 10 · ❌ FAIL** |
-| 123 | [LUMIA.md](LUMIA.md) | Lumia | **3.2 / 10 · ❌ FAIL** |
+| 107 | [WIREX.md](WIREX.md) | Wirex | **3.5 / 10 · ❌ FAIL** |
+| 108 | [TX.md](TX.md) | TX (Coreum + Sologenic) | **3.5 / 10 · ❌ FAIL** |
+| 109 | [ZKC.md](ZKC.md) | Boundless | **3.4 / 10 · ❌ FAIL** |
+| 110 | [SKEY.md](SKEY.md) | Skey Network | **3.4 / 10 · ❌ FAIL** |
+| 111 | [ZKP.md](ZKP.md) | zkPass | **3.4 / 10 · ❌ FAIL** |
+| 112 | [OM.md](OM.md) | MANTRA | **3.4 / 10 · ❌ FAIL** |
+| 113 | [PUNDIX.md](PUNDIX.md) | Pundi X | **3.4 / 10 · ❌ FAIL** |
+| 114 | [SHPING.md](SHPING.md) | Shping | **3.3 / 10 · ❌ FAIL** |
+| 115 | [POLYX.md](POLYX.md) | Polymesh | **3.3 / 10 · ❌ FAIL** |
+| 116 | [S.md](S.md) | Sonic | **3.3 / 10 · ❌ FAIL** |
+| 117 | [ZIG.md](ZIG.md) | ZIGChain (Zignaly) | **3.3 / 10 · ❌ FAIL** |
+| 118 | [STBL.md](STBL.md) | STBL | **3.3 / 10 · ❌ FAIL** |
+| 119 | [SHARE.md](SHARE.md) | ShareX | **3.3 / 10 · ❌ FAIL** |
+| 120 | [AEON.md](AEON.md) | AEON | **3.3 / 10 · ❌ FAIL** |
+| 121 | [YELLOW.md](YELLOW.md) | Yellow Network | **3.2 / 10 · ❌ FAIL** |
+| 122 | [LUMIA.md](LUMIA.md) | Lumia | **3.2 / 10 · ❌ FAIL** |
+| 123 | [RBNT.md](RBNT.md) | Redbelly Network | **3.1 / 10 · ❌ FAIL** |
 | 124 | [KAVA.md](KAVA.md) | Kava | **3.1 / 10 · ❌ FAIL** |
 | 125 | [ACH.md](ACH.md) | Alchemy Pay | **3.1 / 10 · ❌ FAIL** |
 | 126 | [XEP.md](XEP.md) | Electra Protocol | **3.1 / 10 · ❌ FAIL** |

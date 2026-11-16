@@ -127,23 +127,23 @@ Ties are broken by how many of the 11 sections passed.
 104. 🔴 **QANX** · 3.6 · ❌ FAIL
 105. 🔴 **PROPC** · 3.6 · ❌ FAIL
 106. 🔴 **NUVA** · 3.5 · ❌ FAIL
-107. 🔴 **RBNT** · 3.5 · ❌ FAIL
-108. 🔴 **WIREX** · 3.5 · ❌ FAIL
-109. 🔴 **TX** · 3.5 · ❌ FAIL
-110. 🔴 **ZKC** · 3.4 · ❌ FAIL
-111. 🔴 **SKEY** · 3.4 · ❌ FAIL
-112. 🔴 **ZKP** · 3.4 · ❌ FAIL
-113. 🔴 **OM** · 3.4 · ❌ FAIL
-114. 🔴 **PUNDIX** · 3.4 · ❌ FAIL
-115. 🔴 **SHPING** · 3.3 · ❌ FAIL
-116. 🔴 **POLYX** · 3.3 · ❌ FAIL
-117. 🔴 **S** · 3.3 · ❌ FAIL
-118. 🔴 **ZIG** · 3.3 · ❌ FAIL
-119. 🔴 **STBL** · 3.3 · ❌ FAIL
-120. 🔴 **SHARE** · 3.3 · ❌ FAIL
-121. 🔴 **AEON** · 3.3 · ❌ FAIL
-122. 🔴 **YELLOW** · 3.2 · ❌ FAIL
-123. 🔴 **LUMIA** · 3.2 · ❌ FAIL
+107. 🔴 **WIREX** · 3.5 · ❌ FAIL
+108. 🔴 **TX** · 3.5 · ❌ FAIL
+109. 🔴 **ZKC** · 3.4 · ❌ FAIL
+110. 🔴 **SKEY** · 3.4 · ❌ FAIL
+111. 🔴 **ZKP** · 3.4 · ❌ FAIL
+112. 🔴 **OM** · 3.4 · ❌ FAIL
+113. 🔴 **PUNDIX** · 3.4 · ❌ FAIL
+114. 🔴 **SHPING** · 3.3 · ❌ FAIL
+115. 🔴 **POLYX** · 3.3 · ❌ FAIL
+116. 🔴 **S** · 3.3 · ❌ FAIL
+117. 🔴 **ZIG** · 3.3 · ❌ FAIL
+118. 🔴 **STBL** · 3.3 · ❌ FAIL
+119. 🔴 **SHARE** · 3.3 · ❌ FAIL
+120. 🔴 **AEON** · 3.3 · ❌ FAIL
+121. 🔴 **YELLOW** · 3.2 · ❌ FAIL
+122. 🔴 **LUMIA** · 3.2 · ❌ FAIL
+123. 🔴 **RBNT** · 3.1 · ❌ FAIL
 124. 🔴 **KAVA** · 3.1 · ❌ FAIL
 125. 🔴 **ACH** · 3.1 · ❌ FAIL
 126. 🔴 **XEP** · 3.1 · ❌ FAIL
@@ -175,6 +175,10 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Re-score under the 16 Nov 2026 rules: [RBNT](RBNT.md) Selling 4 → 1 (overall 3.5 → 3.1, now #123). The project's genesis wallet sent 30M RBNT straight to a wallet that put 25.5M on Gate 59 minutes later on a +40.7% pump day. That direct on-chain link counts as a one-hop team sale, the same rule as SHPING. No disclosure was found, so the −2 penalty applies (3 → 1) and the Selling gate now fails too. ORBITER's attribution table now states that the genesis wallet's control rests on the on-chain mint; EURE's largest-holder address is corrected.
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Five more v3 reports (twenty-fifth batch of the day), from the Big-gaps list, under the 16 Nov 2026 rules: [RISE](RISE.md) enters at #84 with 3.8, [NUVA](NUVA.md) at #106 with 3.5, [PALMUSD](PALMUSD.md) at #140 with 2.6, [REALIZ](REALIZ.md) at #147 with 2.1 and [SIBERIUM](SIBERIUM.md) at #148 with 1.9. All fail on the Revenue gate. None has had an Arkham pass yet, so attributions that rest only on an unlabelled address are marked low confidence; that moves PALMUSD's Holdings from 1 to 2 (overall 2.5 → 2.6).
 
@@ -1532,18 +1536,7 @@ Score changes from that research:
 
 ---
 
-## #107 · RBNT · Redbelly Network
-
-### 3.5 / 10 · ❌ FAIL
-
-- **Sections passed:** 2 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** A compliance L1 where the genesis wallet funded a pump-day Gate deposit through an unlabelled intermediate; ownership of that wallet is unproven.
-- 📄 [Full RBNT report](RBNT.md)
-
----
-
-## #108 · WIREX · Wirex
+## #107 · WIREX · Wirex
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1554,7 +1547,7 @@ Score changes from that research:
 
 ---
 
-## #109 · TX · TX (Coreum + Sologenic)
+## #108 · TX · TX (Coreum + Sologenic)
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1565,7 +1558,7 @@ Score changes from that research:
 
 ---
 
-## #110 · ZKC · Boundless
+## #109 · ZKC · Boundless
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1576,7 +1569,7 @@ Score changes from that research:
 
 ---
 
-## #111 · SKEY · Skey Network
+## #110 · SKEY · Skey Network
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1587,7 +1580,7 @@ Score changes from that research:
 
 ---
 
-## #112 · ZKP · zkPass
+## #111 · ZKP · zkPass
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1598,7 +1591,7 @@ Score changes from that research:
 
 ---
 
-## #113 · OM · MANTRA
+## #112 · OM · MANTRA
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1609,7 +1602,7 @@ Score changes from that research:
 
 ---
 
-## #114 · PUNDIX · Pundi X
+## #113 · PUNDIX · Pundi X
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1620,7 +1613,7 @@ Score changes from that research:
 
 ---
 
-## #115 · SHPING · Shping
+## #114 · SHPING · Shping
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1631,7 +1624,7 @@ Score changes from that research:
 
 ---
 
-## #116 · POLYX · Polymesh
+## #115 · POLYX · Polymesh
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1642,7 +1635,7 @@ Score changes from that research:
 
 ---
 
-## #117 · S · Sonic
+## #116 · S · Sonic
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1653,7 +1646,7 @@ Score changes from that research:
 
 ---
 
-## #118 · ZIG · ZIGChain (Zignaly)
+## #117 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1664,7 +1657,7 @@ Score changes from that research:
 
 ---
 
-## #119 · STBL · STBL
+## #118 · STBL · STBL
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1675,7 +1668,7 @@ Score changes from that research:
 
 ---
 
-## #120 · SHARE · ShareX
+## #119 · SHARE · ShareX
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1686,7 +1679,7 @@ Score changes from that research:
 
 ---
 
-## #121 · AEON · AEON
+## #120 · AEON · AEON
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1697,7 +1690,7 @@ Score changes from that research:
 
 ---
 
-## #122 · YELLOW · Yellow Network
+## #121 · YELLOW · Yellow Network
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -1708,7 +1701,7 @@ Score changes from that research:
 
 ---
 
-## #123 · LUMIA · Lumia
+## #122 · LUMIA · Lumia
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -1716,6 +1709,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** An RWA L2 rebranded from Orion; ecosystem LUMIA runs through generic-tagged relays toward a likely Binance wallet, but team control of the relays is not proven.
 - 📄 [Full LUMIA report](LUMIA.md)
+
+---
+
+## #123 · RBNT · Redbelly Network
+
+### 3.1 / 10 · ❌ FAIL
+
+- **Sections passed:** 2 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A compliance L1 whose genesis wallet sent 30M RBNT one hop to a wallet that deposited 25.5M on Gate within the hour on a +40.7% pump day, with no disclosure found.
+- 📄 [Full RBNT report](RBNT.md)
 
 ---
 
