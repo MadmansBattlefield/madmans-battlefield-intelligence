@@ -96,11 +96,11 @@ layout_version: 3
 | `0x5437…BB3A3` | 2.25M | 2.3% | Unlabelled; also STBL's largest holder (28.2%) |
 
 - About 77% of supply sits in one vesting proxy, which matches the docs' project-run pools, but its controller isn't labelled. The two Safes look like pool wallets [Unverified]. The same unlabelled `0x5437…BB3A3` appears in both SHARE and STBL, which points to a shared custodian, launch platform or market maker [Unverified].
-- Holdings stays **3**.
+- A second Arkham pass (16 Nov 2026) found no project treasury wallet. The token contract shows only small transfers, and the Binance Wallet proxy `0x73d8` (a Binance-run contract) holds no SHARE. **The treasury is still unseen.** Holdings stays **3**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
-- BNB Chain transfers could not be read: Etherscan's free API doesn't cover BNB Chain, and BscScan pages return a bot check. Arkham's first page for the token shows only small transfers and nothing from 7–12 Oct 2026. **Not proven → 4.** The +267.7% move on 12 Oct 2026 is still the key window to check.
+- BNB Chain transfers could not be read: Etherscan's free API doesn't cover BNB Chain, and BscScan pages return a bot check. Arkham's first page for the token shows only small transfers and nothing from 7–12 Oct 2026. **Not proven → 4** (unchanged after the second Arkham pass). The +267.7% move on 12 Oct 2026 is still the key window to check.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 

@@ -539,6 +539,11 @@
       "layout": "v3"
     },
     {
+      "id": "SHX",
+      "path": "banking-rails/SHX.md",
+      "layout": "v3"
+    },
+    {
       "id": "SKY",
       "path": "banking-rails/SKY.md",
       "layout": "v3"

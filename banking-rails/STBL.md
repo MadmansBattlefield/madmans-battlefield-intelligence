@@ -95,13 +95,15 @@ layout_version: 3
 | stblgovernanc.eth | 52.72M | 7.5% | Project-named ENS |
 | PancakeSwap V3 pool | 40.65M | 5.8% | DEX pool |
 
-- The next holders are a Binance wallet proxy (4.4%) and Kraken, MEXC and KuCoin hot wallets.
+- The next holders are exchange wallets. Arkham labels them [Kraken: Hot Wallet](https://intel.arkm.com/explorer/address/0x7654d09b4ead2eb6119a974c74071942cc56866c) (14.5M), [MEXC: Hot Wallet](https://intel.arkm.com/explorer/address/0x4982085c9e2f89f2ecb8131eca71afad896e89cb) (11.1M), [KuCoin: Hot Wallet](https://intel.arkm.com/explorer/address/0x53f78a071d04224b8e254e243fffc6d9f2f3fa23) (9.3M) and [Kraken: Cold Wallet](https://intel.arkm.com/explorer/address/0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83). [0x73d8](https://intel.arkm.com/explorer/address/0x73d8bd54f7cf5fab43fe4ef40a62d390644946db) is a **Binance Wallet** proxy contract run by Binance, not a project wallet.
+- Three multi-signer Safes hold smaller amounts: [0x7c4c](https://intel.arkm.com/explorer/address/0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3) (1.97M STBL), [0x60b9](https://intel.arkm.com/explorer/address/0x60b97709d633dd4e0f0f44f6102fd50341c0afa6) (386K) and [0x57fd](https://intel.arkm.com/explorer/address/0x57fd714755dbe55798501e1b4b2bcc355c06bf6a) (311K). They swap many small tokens on PancakeSwap, and Arkham's summary shows Binance deposits of $225.7M, $530K and $560K. They look like trading or market-making Safes; they are **not proven to be team wallets**.
+- [STBL_MFS (0xafa3)](https://intel.arkm.com/explorer/address/0xafa3b16f6587e5f1938a28ab5ab1560c3c9f3536) (74.4M) is a verified contract that moves 20–100K STBL back and forth with many wallets and has no exchange counterparties. Its role (staking, distribution or treasury) is [Unverified].
 - STBL_MFS and stblgovernanc.eth look like project wallets (18.1% together), though neither is tagged as treasury. The largest holder, `0x5437…BB3A3`, is unlabelled; the same address is also a top-5 holder of SHARE (see the SHARE report), so it is likely a custodian, launch platform or market maker rather than STBL's own treasury [Unverified].
-- Concentration is high and the owner of the largest wallet is unknown. Holdings stays **3**.
+- Concentration is high and the owner of the largest wallet is unknown. The second Arkham pass shows that much of the rest is exchange inventory, not insiders, but it finds no labelled treasury, so it doesn't change the score: Holdings stays **3**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
-- BNB Chain transfers could not be read: Etherscan's free API doesn't cover BNB Chain, and BscScan pages return a bot check. Arkham's first page for the token shows only small exchange-wallet deposits and nothing from the pump window. I found no pump-day evidence either way. **Not proven → 4.**
+- BNB Chain transfers could not be read: Etherscan's free API doesn't cover BNB Chain, and BscScan pages return a bot check. Arkham's first page for the token shows only small exchange-wallet deposits and nothing from the pump window. The second Arkham pass found no project wallet depositing to an exchange (the Safes' Binance deposits aren't tied to the team or dated to pump days). I found no pump-day evidence either way. **Not proven → 4** (unchanged).
 - The project says that any "meaningful token activity" will be communicated, and that unlocks don't mean sales [Tier A, self-reported].
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
@@ -147,7 +149,7 @@ layout_version: 3
 - [Tier A] BNB Chain public RPC `totalSupply` = 700,000,000 (16 Nov 2026)
 - [Tier A] CoinGecko `stbl` (market, venues, 365-day daily prices for pump days)
 - [Tier B] [Tokenomics.com STBL unlocks](https://app.tokenomics.com/tokenomics/stbl/unlocks), [Bitrue unlock note](https://www.bitrue.com/blog/stbl-token-unlock)
-- [Tier B] Arkham, read 16 Nov 2026 (signed-in account): token label STBL_Token; top holders from the [Arkham token page](https://intel.arkm.com/explorer/token/stbl) (Gate: Cold Wallet, STBL_MFS, stblgovernanc.eth, PancakeSwap V3 pool; 0x5437 unlabelled)
+- [Tier B] Arkham, read 16 Nov 2026 (signed-in account): token label STBL_Token; top holders from the [Arkham token page](https://intel.arkm.com/explorer/token/stbl) (Gate: Cold Wallet, STBL_MFS, stblgovernanc.eth, PancakeSwap V3 pool; 0x5437 unlabelled); second pass: Kraken hot and cold, MEXC hot and KuCoin hot wallets, Binance Wallet proxy 0x73d8, three trading-style Safes
 
 ## 🔗 Evidence trail
 
