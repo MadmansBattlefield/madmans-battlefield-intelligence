@@ -244,6 +244,11 @@
       "layout": "v3"
     },
     {
+      "id": "CFX",
+      "path": "banking-rails/CFX.md",
+      "layout": "v3"
+    },
+    {
       "id": "COTI",
       "path": "banking-rails/COTI.md",
       "layout": "v3"
@@ -454,6 +459,11 @@
       "layout": "v3"
     },
     {
+      "id": "REUSD",
+      "path": "banking-rails/REUSD.md",
+      "layout": "v3"
+    },
+    {
       "id": "RLC",
       "path": "banking-rails/RLC.md",
       "layout": "v3"
@@ -466,6 +476,11 @@
     {
       "id": "ROUTER",
       "path": "banking-rails/ROUTER.md",
+      "layout": "v3"
+    },
+    {
+      "id": "RVN",
+      "path": "banking-rails/RVN.md",
       "layout": "v3"
     },
     {
