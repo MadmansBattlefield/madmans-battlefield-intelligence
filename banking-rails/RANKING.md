@@ -1,8 +1,8 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 27
-last_updated: 2026-11-15
+scored_reports: 28
+last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
@@ -11,7 +11,7 @@ disclaimer: Research only. Not financial advice. Not a recommendation to buy or 
 # 🏆 Banking Rails Ranking
 
 **Research only. Not financial advice.**
-Updated 15 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md).
+Updated 16 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md).
 
 **How to read it:** each coin gets a score out of 10. **6.0 or more = PASS.**
 If Revenue or Selling scores 3 or less, it's an automatic **FAIL**.
@@ -40,16 +40,23 @@ Ties are broken by how many of the 11 sections passed.
 17. 🔴 **DASH** · 4.7 · ❌ FAIL
 18. 🔴 **ONDO** · 4.7 · ❌ FAIL
 19. 🔴 **CELO** · 4.7 · ❌ FAIL
-20. 🔴 **MNT** · 4.5 · ❌ FAIL
-21. 🔴 **ZBCN** · 4.3 · ❌ FAIL
-22. 🔴 **SEI** · 4.0 · ❌ FAIL
-23. 🔴 **PLUME** · 3.7 · ❌ FAIL
-24. 🔴 **JASMY** · 2.8 · ❌ FAIL
-25. 🔴 **SERV** · 2.8 · ❌ FAIL
-26. 🔴 **EDEL** · 2.5 · ❌ FAIL
-27. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+20. 🔴 **QNT** · 4.6 · ❌ FAIL
+21. 🔴 **MNT** · 4.5 · ❌ FAIL
+22. 🔴 **ZBCN** · 4.3 · ❌ FAIL
+23. 🔴 **SEI** · 4.0 · ❌ FAIL
+24. 🔴 **PLUME** · 3.7 · ❌ FAIL
+25. 🔴 **JASMY** · 2.8 · ❌ FAIL
+26. 🔴 **SERV** · 2.8 · ❌ FAIL
+27. 🔴 **EDEL** · 2.5 · ❌ FAIL
+28. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**6 of 27 pass.**
+**6 of 28 pass.**
+
+---
+
+## 📝 What changed 16 Nov 2026
+
+New v3 report: [QNT](QNT.md) enters at #20 with 4.6 / 10 (❌ FAIL, Selling gate). The labelled Quant team wallet sold into 2021 pump days, and a live crowdsale mint path was confirmed by simulation.
 
 ---
 
@@ -275,7 +282,18 @@ Score changes from that research:
 
 ---
 
-## #20 · MNT · Mantle
+## #20 · QNT · Quant
+
+### 4.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 5 of 11
+- **Hard gates failed:** Selling
+- **Verdict:** Quant Network Ltd is a real, audited, profitable UK software company (£11.5M revenue) with The Clearing House and seven UK banks as customers, but the token is optional to that business (fees can be paid in USD). Etherscan's "Quant: Team Wallet 1" sent 350,000 QNT into exchange deposit addresses on five 2021 pump days, and the 2018 crowdsale still lets one plain key mint new QNT, which contradicts the "fixed supply" claim.
+- 📄 [Full QNT report](QNT.md)
+
+---
+
+## #21 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -286,7 +304,7 @@ Score changes from that research:
 
 ---
 
-## #21 · ZBCN · Zebec Network
+## #22 · ZBCN · Zebec Network
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -297,7 +315,7 @@ Score changes from that research:
 
 ---
 
-## #22 · SEI · Sei
+## #23 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -308,7 +326,7 @@ Score changes from that research:
 
 ---
 
-## #23 · PLUME · Plume
+## #24 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -319,7 +337,7 @@ Score changes from that research:
 
 ---
 
-## #24 · JASMY · JasmyCoin
+## #25 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -330,7 +348,7 @@ Score changes from that research:
 
 ---
 
-## #25 · SERV · OpenServ
+## #26 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -341,7 +359,7 @@ Score changes from that research:
 
 ---
 
-## #26 · EDEL · Edel Finance
+## #27 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -352,7 +370,7 @@ Score changes from that research:
 
 ---
 
-## #27 · ROUTER · Solrouter
+## #28 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 

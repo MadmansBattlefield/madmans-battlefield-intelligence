@@ -9,7 +9,7 @@ Research notes on tokens and protocols around digital settlement, payroll, token
 
 Not financial advice. Research only. Times are in **MST**.
 
-**Start here:** [Cover sheet](COVER.md) (why this exists, methodology, what we look at) · [Ranking](RANKING.md) (all 27 v3 scores, ranked)
+**Start here:** [Cover sheet](COVER.md) (why this exists, methodology, what we look at) · [Ranking](RANKING.md) (all 28 v3 scores, ranked)
 
 ## 📐 Report layout (v3)
 
@@ -51,14 +51,15 @@ Every token in this folder has a full v3 scored report:
 | 17 | [DASH.md](DASH.md) | Dash | **4.7 / 10 · ❌ FAIL** |
 | 18 | [ONDO.md](ONDO.md) | Ondo | **4.7 / 10 · ❌ FAIL** |
 | 19 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
-| 20 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
-| 21 | [ZBCN.md](ZBCN.md) | Zebec Network | **4.3 / 10 · ❌ FAIL** |
-| 22 | [SEI.md](SEI.md) | Sei | **4.0 / 10 · ❌ FAIL** |
-| 23 | [PLUME.md](PLUME.md) | Plume | **3.7 / 10 · ❌ FAIL** |
-| 24 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
-| 25 | [SERV.md](SERV.md) | OpenServ | **2.8 / 10 · ❌ FAIL** |
-| 26 | [EDEL.md](EDEL.md) | Edel Finance | **2.5 / 10 · ❌ FAIL** |
-| 27 | [ROUTER.md](ROUTER.md) | Solrouter | **2.2 / 10 · ❌ FAIL** |
+| 20 | [QNT.md](QNT.md) | Quant | **4.6 / 10 · ❌ FAIL** |
+| 21 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
+| 22 | [ZBCN.md](ZBCN.md) | Zebec Network | **4.3 / 10 · ❌ FAIL** |
+| 23 | [SEI.md](SEI.md) | Sei | **4.0 / 10 · ❌ FAIL** |
+| 24 | [PLUME.md](PLUME.md) | Plume | **3.7 / 10 · ❌ FAIL** |
+| 25 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
+| 26 | [SERV.md](SERV.md) | OpenServ | **2.8 / 10 · ❌ FAIL** |
+| 27 | [EDEL.md](EDEL.md) | Edel Finance | **2.5 / 10 · ❌ FAIL** |
+| 28 | [ROUTER.md](ROUTER.md) | Solrouter | **2.2 / 10 · ❌ FAIL** |
 | — | [other-tokens.md](other-tokens.md) | Shorter notes on other researched names | unscored |
 
-Notes are condensed from on-chain reads, official docs, regulator filings, and the [daily](../daily/) market series. Status and scores were last set on 15 Nov 2026.
+Notes are condensed from on-chain reads, official docs, regulator filings, and the [daily](../daily/) market series. Status and scores were last set on 16 Nov 2026.

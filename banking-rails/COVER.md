@@ -1,8 +1,8 @@
 ---
 title: Banking rails cover sheet
 layout_version: 3
-scored_reports: 27
-last_updated: 2026-11-15
+scored_reports: 28
+last_updated: 2026-11-16
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell. Not the work of a licensed fiduciary.
 ---
@@ -122,7 +122,7 @@ Reports also carry **🚩 red lines** that are token-specific (for example a liq
 
 ## 📋 What is scored so far
 
-All 27 tokens in this folder have a full v3 report: [BTC](BTC.md), [ETH](ETH.md), [LINK](LINK.md), [SOL](SOL.md), [AERO](AERO.md), [CC](CC.md), [XLM](XLM.md), [BNKR](BNKR.md), [AVAX](AVAX.md), [TAO](TAO.md), [HBAR](HBAR.md), [ZRO](ZRO.md), [BP](BP.md), [XRP](XRP.md), [ALGO](ALGO.md), [APT](APT.md), [DASH](DASH.md), [ONDO](ONDO.md), [CELO](CELO.md), [MNT](MNT.md), [ZBCN](ZBCN.md), [SEI](SEI.md), [PLUME](PLUME.md), [JASMY](JASMY.md), [SERV](SERV.md), [EDEL](EDEL.md), [ROUTER](ROUTER.md). The ranked list is in [RANKING.md](RANKING.md). Shorter unscored stubs on other names are in [other-tokens.md](other-tokens.md).
+All 28 tokens in this folder have a full v3 report: [BTC](BTC.md), [ETH](ETH.md), [LINK](LINK.md), [SOL](SOL.md), [AERO](AERO.md), [CC](CC.md), [XLM](XLM.md), [BNKR](BNKR.md), [AVAX](AVAX.md), [TAO](TAO.md), [HBAR](HBAR.md), [ZRO](ZRO.md), [BP](BP.md), [XRP](XRP.md), [ALGO](ALGO.md), [APT](APT.md), [DASH](DASH.md), [ONDO](ONDO.md), [CELO](CELO.md), [QNT](QNT.md), [MNT](MNT.md), [ZBCN](ZBCN.md), [SEI](SEI.md), [PLUME](PLUME.md), [JASMY](JASMY.md), [SERV](SERV.md), [EDEL](EDEL.md), [ROUTER](ROUTER.md). The ranked list is in [RANKING.md](RANKING.md). Shorter unscored stubs on other names are in [other-tokens.md](other-tokens.md).
 
 ---
 

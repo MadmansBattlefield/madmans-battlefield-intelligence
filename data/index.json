@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-15 12:00 MST",
+  "generated_at": "2026-11-16 12:00 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -235,6 +235,11 @@
     {
       "id": "PLUME",
       "path": "banking-rails/PLUME.md",
+      "layout": "v3"
+    },
+    {
+      "id": "QNT",
+      "path": "banking-rails/QNT.md",
       "layout": "v3"
     },
     {

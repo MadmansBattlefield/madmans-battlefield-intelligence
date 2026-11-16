@@ -19,7 +19,7 @@ Start with this file, then `data/index.json`, then the JSON daily files for numb
 - [LICENSE](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/LICENSE): CC BY 4.0
 - [banking-rails/README.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/README.md): folder index for token notes
 - [banking-rails/COVER.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/COVER.md): why the reports exist, v3 methodology, what each section checks
-- [banking-rails/RANKING.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/RANKING.md): all 27 v3 scores, ranked
+- [banking-rails/RANKING.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/RANKING.md): all 28 v3 scores, ranked
 - [daily/README.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/README.md): how the daily tape is organized
 
 ## Token notes (banking-rails)
@@ -42,6 +42,7 @@ Start with this file, then `data/index.json`, then the JSON daily files for numb
 - [banking-rails/MNT.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/MNT.md): research note for MNT
 - [banking-rails/ONDO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ONDO.md): research note for ONDO
 - [banking-rails/PLUME.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/PLUME.md): research note for PLUME
+- [banking-rails/QNT.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/QNT.md): research note for QNT
 - [banking-rails/ROUTER.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ROUTER.md): research note for ROUTER
 - [banking-rails/SEI.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SEI.md): research note for SEI
 - [banking-rails/SERV.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SERV.md): research note for SERV
