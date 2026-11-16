@@ -3,13 +3,13 @@ ticker: TLOS
 name: Telos
 chain: telos
 contract: "native (Telos, an Antelope/EOSIO chain with Telos EVM); ERC20 0x193f4a4a6ea24102f49b931deeeb931f6e32405d"
-overall_score: 2.7
+overall_score: 3.1
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 3
   insider_holdings: 4
-  selling_behavior: 1
+  selling_behavior: 4
   tokenomics_supply: 4
   liquidity_market: 3
   product_development: 4
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 5
   regulatory: 4
   catalysts: 3
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found in the review window"
   mint_path_live: "yes: token contract max supply 1B vs 467.6M issued; issuance is controlled by the eosio system account"
@@ -27,8 +27,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "No revenue reaches holders."
 pump_day_price_source: "Gate TLOS_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used the daily closes cited in the body"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions: []
 price_usd: 0.01266
@@ -39,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### TLOS · Overall grade **2.7 / 10 · ❌ FAIL**
+### TLOS · Overall grade **3.1 / 10 · ❌ FAIL**
 
 **Summary:** Telos is an EOSIO/Antelope chain with a Telos EVM layer. It earns almost nothing (**$3.5k of fees in a year**, $2.0M of DeFi TVL) and the price is **−99.1% from its 2022 high**. The Telos Foundation pays its costs from a "Liquidity & Expenses" account, `telosliquidi`, which payroll memos tie to the Foundation. That account regularly sends TLOS to exchange deposit accounts, including **two deposits on pump days in the last year**: 500k TLOS to Bitget on 13 Jan 2026 (+14.4%) and 200k to Bitrue on 7 May 2026, the day of the year's biggest spike (+70.7%). Revenue and Selling both trip the hard gates.
 
@@ -52,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 1/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 3/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 1/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 3/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 4/10 | ❌ FAIL |
@@ -66,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 TLOS · Telos · 2.7 / 10 · ❌ FAIL
+# 🪪 TLOS · Telos · 3.1 / 10 · ❌ FAIL
 
 > **One line:** A tiny-fee chain whose Foundation expense account feeds exchange deposits, including on pump days.
 
@@ -111,7 +111,7 @@ layout_version: 3
 
 - About **49.4M TLOS (10.6% of supply)** sits in Foundation or governance accounts, read from the [top-holder list](https://mainnet.telos.net/v2/state/get_top_holders?contract=eosio.token&symbol=TLOS&limit=15). Holdings on the EVM side (214M in `eosio.evm`) were not attributed.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 | Date (UTC day / MST time) | Flow | TLOS | Evidence |
 |---|---|---:|---|
@@ -124,7 +124,7 @@ layout_version: 3
 - Some coins came back (264k from Bitrue in Aug 2026, 500k from MEXC on 14 Nov 2026), consistent with an operating account that sells to pay costs and sometimes withdraws. No sale was announced.
 - **Score 3:** a Foundation-funded account deposited to exchanges on two pump days in the window, without disclosure. The amounts are small.
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **3 → 1**. On Gate prices 7 May 2026 is a pump day; 13 Jan 2026 is not. Pump days from Gate TLOS_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used the daily closes cited in the body.
+- **One-hop amendment (16 Nov 2026):** Telos published a plausible reason: the receiving account `telosliquidi` is the Foundation's on-chain "Ops and Expenses" account ([memo tx](https://explorer.telos.net/transaction/95b535bc836005960ba43fcdff034610395e81c54d028149f91ee024d39a5e03)), so its exchange deposits fit paying operating expenses. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 

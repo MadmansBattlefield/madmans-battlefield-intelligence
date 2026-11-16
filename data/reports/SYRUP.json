@@ -46,7 +46,7 @@
     "revenue_reaches_holders": "no",
     "revenue_mechanism": "MIP-021 buybacks are a governance rule carried out by the Syrup Strategic Fund through Binance, not an automatic on-chain mechanism, and bought SYRUP is held in the treasury. No fee share or fee-funded staking yield is documented. The binary test is therefore **no**, and Revenue cannot pass: **7 → 5**. A 5 still describes a real lending business, but holders have no live claim on its revenue.",
     "pump_day_price_source": "Gate SYRUP/USDT UTC daily closes",
-    "pump_day_disclosure_quality": "buried_disclosure",
+    "pump_day_disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
     "attributions": [
@@ -91,9 +91,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SYRUP.md",
-    "sha256": "90acc0d0add2aea8c610ff3191cfd4e9315445291f0b99100e441a2b63eae302",
-    "bytes": 45260,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "197e345ae5aaba2e67120388a8585b64e4dbeef6cdc4497c6c351e4bc91cb81e",
+    "bytes": 45251,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -635,7 +635,7 @@
     "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
-    "disclosure_quality": "buried_disclosure",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes, treasury-labelled wallets (Etherscan 'Maple: Treasury 2', 'Maple: Treasury 1', 'Maple: DAO') funded wallets that put SYRUP into exchange deposit addresses on pump days: 7.0M into a Maple-used Binance deposit on 29 Oct, 10 Nov and 22 Dec 2025; 6.25M into a Binance deposit on the 6 May 2025 pump day; ~1.1M into Gate on 21 Nov 2024. Sales not provable on-chain; a market-maker loan program (~2% of supply) is disclosed"

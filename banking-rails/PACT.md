@@ -141,6 +141,8 @@ layout_version: 3
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **1 → 0**. Pump days from the report's own daily-close series.
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (c) holds: no published reason was found for reserve tokens reaching an exchange within hours of release. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 
 - **Mint:** `oft_fa::mint(signer, to, amount)` is a public entry function guarded by the admin (Foundation multisig). The asset's max supply is 2^128, so effectively **no cap**. Used once: [25B on 23 Dec 2025](https://explorer.aptoslabs.com/txn/3969123121?network=mainnet), +25% to supply, after the 6-voter Snapshot above.

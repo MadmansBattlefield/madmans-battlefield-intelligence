@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:40 MST",
+  "generated_at": "2026-11-16 14:41 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -773,6 +773,30 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "4dd43075d37d224b475abe6c8b01175e23013408",
+          "committed_at_mst": "2026-11-16 14:40 MST",
+          "subject": "One-hop amendment (16 Nov 2026): METHODOLOGY rule; re-score CFG FXS INV ONDO SOLV",
+          "overall_score": 4.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 6,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 7,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -1386,6 +1410,28 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "4dd43075d37d224b475abe6c8b01175e23013408",
+          "committed_at_mst": "2026-11-16 14:40 MST",
+          "subject": "One-hop amendment (16 Nov 2026): METHODOLOGY rule; re-score CFG FXS INV ONDO SOLV",
+          "overall_score": 4.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -1740,9 +1786,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "4dd43075d37d224b475abe6c8b01175e23013408",
+          "committed_at_mst": "2026-11-16 14:40 MST",
+          "subject": "One-hop amendment (16 Nov 2026): METHODOLOGY rule; re-score CFG FXS INV ONDO SOLV",
           "overall_score": 4.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2377,6 +2423,30 @@
           "gates_failed": [
             "revenue",
             "selling_behavior"
+          ],
+          "last_updated": "2026-11-15"
+        },
+        {
+          "commit": "4dd43075d37d224b475abe6c8b01175e23013408",
+          "committed_at_mst": "2026-11-16 14:40 MST",
+          "subject": "One-hop amendment (16 Nov 2026): METHODOLOGY rule; re-score CFG FXS INV ONDO SOLV",
+          "overall_score": 4.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 2,
+            "liquidity_market": 9,
+            "product_development": 7,
+            "adoption_customers": 7,
+            "security_audits": 6,
+            "regulatory": 7,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
           ],
           "last_updated": "2026-11-15"
         }
@@ -3783,6 +3853,28 @@
           "gates_failed": [
             "selling_behavior"
           ],
+          "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "4dd43075d37d224b475abe6c8b01175e23013408",
+          "committed_at_mst": "2026-11-16 14:40 MST",
+          "subject": "One-hop amendment (16 Nov 2026): METHODOLOGY rule; re-score CFG FXS INV ONDO SOLV",
+          "overall_score": 4.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 6,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [],
           "last_updated": "2026-11-16"
         }
       ]

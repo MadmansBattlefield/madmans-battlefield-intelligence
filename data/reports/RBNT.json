@@ -4,13 +4,13 @@
   "name": "Redbelly Network",
   "chain": "redbelly",
   "contract": "native RBNT on Redbelly (chain 151); bridged ERC-20 on Ethereum",
-  "overall_score": 3.1,
+  "overall_score": 3.5,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 2,
     "foundation_team": 5,
     "insider_holdings": 2,
-    "selling_behavior": 1,
+    "selling_behavior": 4,
     "tokenomics_supply": 3,
     "liquidity_market": 3,
     "product_development": 5,
@@ -21,8 +21,7 @@
   },
   "sections_passed": 2,
   "gates_failed": [
-    "revenue",
-    "selling_behavior"
+    "revenue"
   ],
   "hard_gates": {
     "revenue": {
@@ -31,9 +30,9 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 1,
+      "score": 4,
       "threshold": 3,
-      "tripped": true
+      "tripped": false
     }
   },
   "red_lines": {
@@ -49,8 +48,8 @@
     "revenue_reaches_holders": "no",
     "revenue_mechanism": "No fee, burn or buyback reaches RBNT holders.",
     "pump_day_price_source": "MEXC RBNT-USDT UTC daily closes",
-    "pump_day_disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
     "attributions": [
       {
@@ -78,9 +77,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/RBNT.md",
-    "sha256": "70d91b11ed50a79d4910efbadb998f7aa7f6132464ed0d379b7b4bda68053430",
-    "bytes": 13039,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "c22a445fa90e906825cb1495550cbe5a58b702ac2bde901e92f9dddf290c4c07",
+    "bytes": 12858,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -123,10 +122,10 @@
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
     "rescored_under_effective_rules": true,
-    "proven_pump_day_sale": "yes",
-    "selling_not_proven": false,
-    "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes (one hop, on-chain): the genesis distribution wallet sent 29,999,900 RBNT to an intermediate wallet on 15 May 2026 (+40.7% day), which deposited 25,499,000 RBNT (~$121k) to a Gate deposit address an hour later"
     ]
@@ -184,7 +183,7 @@
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
     "flag_notes": [
-      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
     ],
     "dual_review": {
       "status": "not_run",

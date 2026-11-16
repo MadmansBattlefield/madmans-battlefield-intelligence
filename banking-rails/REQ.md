@@ -119,6 +119,8 @@ layout_version: 3
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **3 → 1**. Pump days from the daily closes cited in the body (2021 pump days).
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (c) holds: the Team Wallet paid Bitfinex directly on a pump day, and no published payroll, grant, market-making or custody reason covers it. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
 - Fixed supply of 1B with no mint function in use. The burn is deflationary but negligible. About 80% is circulating; the overhang is the 18.5% Team Wallet.

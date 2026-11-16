@@ -139,6 +139,8 @@ Pump days come from Binance ZKUSDT closes. Exchange tags are Etherscan's Ethereu
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure of these sales was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. 4–6 Nov 2025 are pump days on Gate prices (+34% to +161%). Pump days from Gate ZK_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (40 of 360 days); the body's earlier count used the daily closes cited in the body.
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (c) holds: no Foundation post or governance item explaining the Binance pipeline was found; the receiver's identity is [Unverified]. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
 - 15.50B minted of a 21B cap. The docs state "token supply can be increased through a protocol governance upgrade" ([ZK token docs](https://docs.zknation.io/zk-token/zk-token)).

@@ -3,13 +3,13 @@ ticker: RBNT
 name: Redbelly Network
 chain: redbelly
 contract: "native RBNT on Redbelly (chain 151); bridged ERC-20 on Ethereum"
-overall_score: 3.1
+overall_score: 3.5
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 5
   insider_holdings: 2
-  selling_behavior: 1
+  selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 3
   product_development: 5
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 6
   regulatory: 6
   catalysts: 3
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found"
   mint_path_live: "no new mint; 3.02B of 10B circulating, ~48M a month unlocking to ecosystem"
@@ -27,8 +27,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "No fee, burn or buyback reaches RBNT holders."
 pump_day_price_source: "MEXC RBNT-USDT UTC daily closes"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0x415cad8fc89f75a63c5b830e06460eecde083c9f"
@@ -49,7 +49,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### RBNT · Overall grade **3.1 / 10 · ❌ FAIL**
+### RBNT · Overall grade **3.5 / 10 · ❌ FAIL**
 
 **Summary:** Redbelly is an Australian layer 1 built for compliant asset tokenisation. It came out of a joint venture with CSIRO and the University of Sydney. Only 3.0B of its 10B RBNT circulates, and two multisig Safes hold about 4.3B. No fee capture for holders is published. On a +40.7% day in May 2026, the wallet that distributed the genesis supply sent 30M RBNT to an intermediate wallet, which put 25.5M on Gate within the hour, with no disclosure found. RBNT is down 99.6% from its December 2024 peak. The revenue and selling gates both fail.
 
@@ -62,7 +62,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 2/10 | ❌ FAIL |
-| 📉 Selling behavior | 1/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 3/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 5/10 | ❌ FAIL |
@@ -76,7 +76,7 @@ layout_version: 3
 ---
 
 
-# 🪪 RBNT · Redbelly Network · 3.1 / 10 · ❌ FAIL
+# 🪪 RBNT · Redbelly Network · 3.5 / 10 · ❌ FAIL
 
 > **One line:** A compliance-focused L1 with 70% of supply still held back and a treasury-funded pump-day exchange deposit.
 
@@ -105,13 +105,12 @@ layout_version: 3
 
 - The genesis distribution wallet sent the 10B supply to Safes in Nov 2024. Two Safes still hold ~4.3B. Large Safe-to-Safe moves on 9 Dec 2025 and 10 Sep 2026 (500M) aren't explained publicly.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 - I traced the genesis distribution wallet and the top ten holders two hops out on Redbelly, for transfers of 5M RBNT or more. In the window, two Gate deposits: **25.5M on 15 May 2026 (+40.7% pump day)**, funded an hour earlier by the genesis distribution wallet ([tx](https://redbelly.routescan.io/tx/0x6c9b0f1830ff6416f2702b7742acf59955efb58ced3e4e0b4e841a7649386000)), and 5.02M on 21 May from a top-holder line (not a pump day). **Updated 16 Nov 2026: proven one-hop sale.** The genesis wallet [0x415c…3c9f](https://redbelly.routescan.io/address/0x415cad8fc89f75a63c5b830e06460eecde083c9f) sent 29,999,900 RBNT straight to `0x970c…` at 04:42 UTC ([tx](https://redbelly.routescan.io/tx/0xaff6bb70659885d20399ac3fdf5963933470a6db7932149d158d482fef2ba9c6)), and `0x970c…` deposited 25,499,000 RBNT to Gate 59 minutes later on a +40.7% pump day. The same rule is applied as for SHPING: a direct on-chain transfer from the project's genesis wallet to a wallet that deposits to an exchange on a pump day within about an hour counts as a team sale funded by that wallet. The funding link is on-chain and does not rest on an Arkham label, so the low-confidence label on `0x970c…` itself doesn't matter. Ordinary Selling score: **3**.
 - **Arkham (16 Nov 2026)** has no Redbelly network coverage. The same address on Ethereum, [0x970c…2fdc](https://intel.arkm.com/explorer/address/0x970ce12dd52c1c721118ec1d344fcb6eb1e12fdc), carries no entity label; its only tags are generic (first funded via the Across bridge, contract deployer), and its Ethereum activity is Gate withdrawals and bridge or DEX trades. That fits a trading desk or market maker as well as a company wallet, so the label is low confidence and, under the 16 Nov 2026 rule, cannot move Selling on its own. Who controls it doesn't change the one-hop finding above. [Tier B] Arkham, read 16 Nov 2026 (signed-in account).
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** No Redbelly blog, Telegram announcement, monthly review or DAO post found discloses this transfer or a sale program covering it. A Telegram post announced a monthly node-operator reward funded by emissions, backdated to 15 Apr 2026 ([announcement](https://tg.me/redbellyannouncements/393)), but nothing ties the 30M to it [Unverified].
-- **Penalty applied:** 3 − 2 = **1** (floored at 0, capped at 3), which trips the Selling hard gate. **Alternative:** if Redbelly shows this transfer was a disclosed program payment, disclosure becomes `formal_announcement`, the penalty is lifted and Selling is 3. That is still a hard-gate fail. Pump days from MEXC RBNT-USDT UTC daily closes.
+- **One-hop amendment (16 Nov 2026):** Redbelly published a plausible reason: a Telegram [announcement](https://tg.me/redbellyannouncements/393) set a monthly node-operator reward funded from emissions, so genesis-wallet transfers that reach an exchange may be reward payouts that recipients sold, not a project sale. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 

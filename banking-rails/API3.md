@@ -3,13 +3,13 @@ ticker: API3
 name: Api3
 chain: ethereum
 contract: "0x0b38210ea11411557c13457D4dA7dC6ea731B88a"
-overall_score: 4.5
+overall_score: 4.9
 overall_verdict: FAIL
 section_scores:
   revenue: 4
   foundation_team: 6
   insider_holdings: 6
-  selling_behavior: 1
+  selling_behavior: 4
   tokenomics_supply: 7
   liquidity_market: 4
   product_development: 5
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 6
   regulatory: 5
   catalysts: 5
-gates_failed: [selling_behavior]
+gates_failed: []
 red_lines:
   hack_exploit: none found
   treasury_to_exchange_during_pump: "yes (Etherscan 'API3: Treasury' / Arkham 'API3: V1 Treasury' 0xe7aF… sent 250,000 API3 into a Binance deposit on the 28 Jan 2024 pump day (+28.8%) and 240,000 on 23 Apr 2024 (+11.1%); no matching proposal found)"
@@ -28,8 +28,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "Buybacks (about $115k in total) are DAO decisions, not automatic on-chain, and no fee share or fee-funded staking yield is documented. Holders have no live claim on revenue; the score describes the business, not holder accrual."
 pump_day_price_source: "Gate API3_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (23 of 360 days); the body's earlier count used CoinGecko daily closes"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0xe7af7c5982e073ac6525a34821fe1b3e8e432099"
@@ -45,7 +45,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### API3 · Overall grade **4.5 / 10 · ❌ FAIL**
+### API3 · Overall grade **4.9 / 10 · ❌ FAIL**
 
 **Summary:** Api3 has cleaned up a lot: supply is now hard-capped at exactly 200,000,000 (owner is the dead address, no minters, checked on-chain), the treasury publishes every wallet, and the team is lean and pivoting to Morpho vault curation. But the DAO's own wallets have twice sent API3 to a Binance deposit address on pump days, and in Feb 2026 a DAO multisig funded a wallet that put 610k API3 on Binance the same pump day. Revenue is real but tiny (about $45k a year of curator revenue on DefiLlama, $115k of buybacks to date). The Selling gate fails.
 
@@ -58,7 +58,7 @@ layout_version: 3
 | 💰 Revenue | 4/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 6/10 | ✅ PASS |
-| 📉 Selling behavior | 1/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 7/10 | ✅ PASS |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 5/10 | ❌ FAIL |
@@ -72,7 +72,7 @@ layout_version: 3
 ---
 
 
-# 🪪 API3 · Api3 · 4.5 / 10 · ❌ FAIL
+# 🪪 API3 · Api3 · 4.9 / 10 · ❌ FAIL
 
 > **One line:** A shrunken oracle project turned Morpho vault curator, with a now-fixed 200M supply and an unusually open treasury page, but its DAO wallets keep sending API3 to Binance deposit addresses, three times on pump days, and its revenue is small.
 
@@ -128,7 +128,7 @@ layout_version: 3
 
 **What it means:** Every DAO wallet is published and checks out on-chain, and the treasury's own API3 delegates its Snapshot votes to the dead address. About 13% of supply is under the five-signer multisigs, with no lock on the 17.5M in the Treasury Safe. Arkham shows the two large unlabelled top holders are exchanges (Upbit cold storage and Coinbase Prime custody), not hidden insiders. Two other Safes in the DAO's history are not Api3 entities on Arkham: [`0xa742…8d09`](https://etherscan.io/address/0xa742e1d181c59c9c4dd5687172efc119e3868d09) ([Arkham](https://intel.arkm.com/explorer/address/0xa742e1d181c59c9c4dd5687172efc119e3868d09)) relayed 6.07M from the old Primary Agent back to the Vault, and [`0x0c40…2ad4`](https://etherscan.io/address/0x0c4030768601a5b564fcd50ec5957d516b0f2ad4) ([Arkham](https://intel.arkm.com/explorer/address/0x0c4030768601a5b564fcd50ec5957d516b0f2ad4)) received API3 from vesting contracts and sent 636.7k back to the Vault; one of its signers is cheesecakecapital.eth, which points to the fund **Cheesecake Capital** [Tier B, single source]. Score **6**.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 **A. Legacy "API3: Treasury" straight into a Binance deposit (2024)**
 
@@ -157,7 +157,7 @@ layout_version: 3
 
 **What it means:** A DAO treasury wallet sending tokens straight into a Binance deposit on two pump days, and a DAO multisig funding a wallet that hit Binance within the hour on a third, with no disclosure found, fails the rule. The amounts are moderate (~1.1M API3 on pump days) and the project is otherwise transparent, so **3**, not lower. That **trips the Selling gate**. Arkham's labels confirm the 2024 sender was Api3's own treasury and the receiver a Binance deposit, so the score does not change.
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure of these deposits was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure takes 2 points off the ordinary Selling score, floored at 0: **3 → 1**. On Gate prices 28 Jan and 23 Apr 2024 are still pump days (+28.6% and +11.1%). Pump days from Gate API3_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (23 of 360 days); the body's earlier count used CoinGecko daily closes.
+- **One-hop amendment (16 Nov 2026):** API3 discloses market-maker loans from the DAO treasury (see C. above and the [Api3 token docs](https://docs.api3.org/dao/api3-token.html)), a plausible published reason for treasury-funded wallets reaching Binance. The market maker is unnamed, so the link to a specific loan stays [Unverified]. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 
 ## 📊 Tokenomics & supply · 7/10 · ✅ PASS
 

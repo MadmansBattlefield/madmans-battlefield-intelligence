@@ -185,6 +185,8 @@ layout_version: 3
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** The addresses are published but the sales are not. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure takes 2 points off the ordinary Selling score, floored at 0: **1 → 0**. On MEXC prices 4–5 Nov 2026 are not pump days, but the 21–22 Sep 2026 swaps still are. Pump days from MEXC SERVUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (87 of 360 days); the body's earlier count used CoinGecko daily closes.
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (b) holds: treasury wallets sold into DEX pools on pump days, and the seller sends its dollars to the address the treasury wallets pay. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
 | Item | Value | Source |

@@ -150,6 +150,8 @@ layout_version: 3
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from Gate SPA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 360 days); the body's earlier count used CoinGecko daily closes.
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (c) holds: no published reason covers the team-signer Safe's exchange deposits, and its payroll-like receivers sell through a DEX (0x Settler). Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
 - 5B max, 4.955B total, **1.913B circulating** (CoinGecko). About 3B is outside circulation, mostly in the team Safes and the veSPA/xSPA contracts (`0x2e20…` 241M, `0x0966…` 54.6M) [Tier A balances].

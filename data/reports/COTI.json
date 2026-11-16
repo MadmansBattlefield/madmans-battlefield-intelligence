@@ -4,13 +4,13 @@
   "name": "COTI",
   "chain": "coti",
   "contract": "0xddb3422497e61e13543bea06989c0789117555c5",
-  "overall_score": 2.1,
+  "overall_score": 2.7,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 1,
     "foundation_team": 3,
     "insider_holdings": 2,
-    "selling_behavior": 0,
+    "selling_behavior": 4,
     "tokenomics_supply": 2,
     "liquidity_market": 4,
     "product_development": 3,
@@ -21,8 +21,7 @@
   },
   "sections_passed": 0,
   "gates_failed": [
-    "revenue",
-    "selling_behavior"
+    "revenue"
   ],
   "hard_gates": {
     "revenue": {
@@ -31,9 +30,9 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 0,
+      "score": 4,
       "threshold": 3,
-      "tripped": true
+      "tripped": false
     }
   },
   "red_lines": {
@@ -49,8 +48,8 @@
     "revenue_reaches_holders": "no",
     "revenue_mechanism": "Fees are close to zero and holders have no claim on them.",
     "pump_day_price_source": "Gate COTI/USDT daily closes",
-    "pump_day_disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
     "attributions": [
       {
@@ -72,9 +71,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/COTI.md",
-    "sha256": "d2507a174e04e1c6beb82bf9470be4101f7a2347dda861dcf69db684b97aec0d",
-    "bytes": 24777,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "166f1dbfa9cf6b747ce2248e3f4e13f4e69634df1a01de0e8087da4711795c35",
+    "bytes": 25100,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -359,10 +358,10 @@
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
     "rescored_under_effective_rules": true,
-    "proven_pump_day_sale": "yes",
-    "selling_not_proven": false,
-    "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes (wallets funded within hours by the Sep 2026 consolidation sent 68.0M COTI to Gate and KuCoin deposits on pump days 18-20 Sep 2026, 157.4M in total by 10 Oct)"
     ]
@@ -559,11 +558,11 @@
     }
   ],
   "review": {
-    "selling_holdings_low_confidence_flag": true,
+    "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
     "flag_notes": [
-      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
     ],
     "dual_review": {
       "status": "not_run",

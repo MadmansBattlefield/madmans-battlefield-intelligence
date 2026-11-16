@@ -65,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/POLYX.md",
-    "sha256": "32e03d1d581532d0ab53835e8e739d855192c484460098ce55adcf0c923880e2",
-    "bytes": 29411,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "364fb78404fc4a62f799d4ebda1f508185503090174a0dcf24d9bd6107667b9d",
+    "bytes": 29648,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

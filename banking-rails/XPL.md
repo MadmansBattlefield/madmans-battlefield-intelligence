@@ -3,13 +3,13 @@ ticker: XPL
 name: Plasma
 chain: plasma
 contract: "native (Plasma chain, chain id 9745)"
-overall_score: 3.6
+overall_score: 4.1
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 5
   insider_holdings: 3
-  selling_behavior: 0
+  selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 6
   product_development: 6
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 6
   regulatory: 5
   catalysts: 3
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found"
   mint_path_live: "planned: 5% validator inflation (falling to 3%) once external validators and delegation go live"
@@ -27,8 +27,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "USD₮ transfers are free by design and the small fee income does not reach holders."
 pump_day_price_source: "Gate XPL_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (76 of 360 days); the body's earlier count used the daily closes cited in the body"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions: []
 price_usd: 0.04311
@@ -39,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### XPL · Overall grade **3.6 / 10 · ❌ FAIL**
+### XPL · Overall grade **4.1 / 10 · ❌ FAIL**
 
 **Summary:** Plasma is a stablecoin-focused layer-1 with zero-fee USD₮ transfers. It holds **$405M of TVL**, real usage, and XPL trades $31.5M a day. But the chain earns almost nothing (**$104k of revenue in 12 months**, which is burned base fees), and XPL is −97% from its September 2025 high and −82% in a year. Insiders own 50% of supply. The team/investor one-year cliff opened on **25 Sep 2026** (1.67B XPL), and monthly unlocks follow until 2028. On-chain, an Ecosystem-allocation wallet has been **dumping into centralized exchanges on pump days**. Both hard gates fail.
 
@@ -52,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 0/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 6/10 | ✅ PASS |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -66,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 XPL · Plasma · 3.6 / 10 · ❌ FAIL
+# 🪪 XPL · Plasma · 4.1 / 10 · ❌ FAIL
 
 > **One line:** A stablecoin chain with real TVL and a token with almost no revenue, half of supply with insiders, and an ecosystem wallet that sold $58M into exchanges, much of it on spike days.
 
@@ -110,7 +110,7 @@ layout_version: 3
 
 **What it means:** Insiders hold or recently received most of the supply. Investor-wallet tokens moved before the cliff to unlabeled wallets, and those wallets' lock status is unknown. **3.**
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 Exchange identification: Plasmascan labels the hot wallets (Binance, Bybit Wallet 129, Bybit Hot Wallet 1, Gate, Bitget 6 via Etherscan). Each deposit below swept to one of them.
 
@@ -124,7 +124,7 @@ Exchange identification: Plasmascan labels the hot wallets (Binance, Bybit Walle
 
 **What it means:** A treasury-funded wallet sold ~$58M into exchanges, most of it on pump days. **1.**
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** Treasury "operations" are mentioned, but the sales themselves were not disclosed. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **1 → 0**. Pump days from Gate XPL_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (76 of 360 days); the body's earlier count used the daily closes cited in the body.
+- **One-hop amendment (16 Nov 2026):** Plasma's [tokenomics docs](https://www.plasma.to/docs/get-started/xpl/tokenomics) allow ecosystem XPL for "liquidity needs" and "exchange integrations", a plausible published reason for treasury-funded exchange deposits. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 

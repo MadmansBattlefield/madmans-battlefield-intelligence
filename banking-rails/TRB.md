@@ -132,6 +132,8 @@ Path: Tellor MultiSig → payout wallet [0x1b8e…9190](https://etherscan.io/add
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** The dev share is hard-coded, but its sale on pump days is not disclosed. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **1 → 0**. Pump days from Gate TRB_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (29 of 360 days); the body's earlier count used the daily closes cited in the body.
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (a) holds: the pass-through wallets are funded only by the team payout wallet, so the deposits are attributed to the team with medium confidence. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
 - No max supply. About 8,000 TRB is minted each month (team plus rewards), roughly 3.3% a year, hard-coded.

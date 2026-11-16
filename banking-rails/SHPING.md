@@ -3,13 +3,13 @@ ticker: SHPING
 name: Shping
 chain: ethereum
 contract: "0x7c84e62859d0715eb77d1b1c4154ecd6abb21bec"
-overall_score: 3.3
+overall_score: 3.5
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 6
   insider_holdings: 2
-  selling_behavior: 2
+  selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 2
   product_development: 6
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 6
   regulatory: 6
   catalysts: 4
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found"
   mint_path_live: "no; fixed 10B supply minted at creation in 2018"
@@ -29,7 +29,7 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "none; app and brand revenue stays with the operating company"
 pump_day_price_source: "Gate SHPING_USDT daily closes (UTC); Binance unavailable (451), Gate is next in the hierarchy"
-pump_day_disclosure_quality: buried_disclosure
+pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
@@ -69,7 +69,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### SHPING · Overall grade **3.3 / 10 · ❌ FAIL**
+### SHPING · Overall grade **3.5 / 10 · ❌ FAIL**
 
 **Summary:** Shping is an Australian shopping-rewards app. Users earn SHPING coins for uploading receipts and writing reviews and can cash out to Australian dollars or crypto. The company sells the app to brands, but none of that revenue reaches token holders. The deployer wallet still holds 59% of supply and has fed a company operating wallet 4.01B SHPING. That wallet sent 609M SHPING (~$520k) to exchange deposit addresses in the last 12 months, including 152M on 8 pump days. Both hard gates fail.
 
@@ -82,7 +82,7 @@ layout_version: 3
 | 💰 Revenue | 1/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 2/10 | ❌ FAIL |
-| 📉 Selling behavior | 2/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 2/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -96,7 +96,7 @@ layout_version: 3
 ---
 
 
-# 🪪 SHPING · Shping · 3.3 / 10 · ❌ FAIL
+# 🪪 SHPING · Shping · 3.5 / 10 · ❌ FAIL
 
 > **One line:** A real rewards app whose company wallet sells SHPING into the market, pump days included; holders get none of the revenue.
 
@@ -127,7 +127,7 @@ layout_version: 3
 - **Attribution confidence:** high (Etherscan name tag plus on-chain proof: it created the contract). The next three holders are not counted as company-controlled. Arkham labels the 1.31B holder [0xbb10…7472](https://intel.arkm.com/explorer/address/0xbb107e9b60d0655a6635b79a39647514d6d57472) **Coinbase Prime Custody**, fed by another Prime custody wallet. The 734M holder [0x3243…6132](https://intel.arkm.com/explorer/address/0x3243ce0cd2c1ab53d24ccb58caf0c82ac9846132) was funded from [Coinbase: Hot Wallet](https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43), the "busy intermediary", and carries no more specific label. The 338M holder is unlabelled. Exchange custody or exchange funding does not show company control, and the report has no other proof, so none of them moves this score. [Tier B] Arkham, read 16 Nov 2026 (signed-in account).
 - The company said early on that a large incentive reserve would fund user rewards ([token-sale one-pager](https://tokensale.shping.com/assets/shping_coin_one_pager_en.pdf)). Score 2 for 59% held by one company-controlled wallet.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 2/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 - **Trail:** deployer [`0x52a6…5a03`](https://etherscan.io/address/0x52a6de898366662724725e206d8fe350fe535a03) → operating wallet [`0xb224…c915`](https://etherscan.io/address/0xb2242f32aa8751d1a754e5ccd8eee904cd21c915) (4.01B in 31 transfers, 2018 to 14 Nov 2026) → exchange deposit addresses.
 - **Last 12 months (16 Nov 2025 – 16 Nov 2026):** 446M to Gate deposit [`0x1a54…4cca`](https://etherscan.io/address/0x1a545fffadf2f4c3cb34a222756632dd31814cca) (30 transfers), 120M to two Poloniex deposits and 42M to MEXC-forwarding deposits, for **609M SHPING ≈ $520k** at each day's close.
@@ -147,6 +147,8 @@ layout_version: 3
 - **Attribution confidence:** sender high (deployer-funded, with on-chain proof); Gate and MEXC deposit labels medium (Etherscan tag or forwarding pattern only). A deposit isn't a recorded sale, but repeated deposits to one Gate account over four years point to a seller.
 - **Alternative:** the company may be converting coins to pay members who cash out to Australian dollars. That is still company selling into the market.
 - **Disclosure quality:** buried. A Sep 2024 [company post](https://shping.com/australias-first-rewards-program-to-offer-cryptocurrency-cash-outs/) says members can convert coins to AUD, which implies company conversions, but no sale schedule, amounts or wallet are published. Because it is buried rather than silent, the extra −2 penalty doesn't apply. Repeated pump-day deposits from a company wallet score **2 → hard-gate FAIL.**
+
+- **One-hop amendment (16 Nov 2026):** Shping published a plausible reason: its [company post](https://shping.com/australias-first-rewards-program-to-offer-cryptocurrency-cash-outs/) says rewards members can convert coins to AUD, so operating-wallet deposits to exchanges fit funding those cash-outs. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 

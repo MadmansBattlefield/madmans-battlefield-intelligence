@@ -113,6 +113,8 @@ layout_version: 3
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. The Safe's signers are still unconfirmed (open item 1), but the funding from the team wallet is on-chain. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **3 → 1**. 9 and 10 Oct 2026 are pump days on Gate prices. Pump days from Gate RLC_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); the body's earlier count used CoinGecko daily closes.
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (c) holds: no published payroll, grant, market-making or custody reason covers the team-funded Safe's exchange deposits. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 8/10 · ✅ PASS
 
 - Fixed 87M supply, fully circulating, with no mint function and no pending unlocks.

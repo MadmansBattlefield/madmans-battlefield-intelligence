@@ -3,13 +3,13 @@ ticker: S
 name: Sonic
 chain: sonic
 contract: "native (Sonic chain, chain id 146); wrapped wS 0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38"
-overall_score: 3.0
+overall_score: 3.5
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 5
   insider_holdings: 4
-  selling_behavior: 0
+  selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 4
   product_development: 6
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 6
   regulatory: 5
   catalysts: 3
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: "none on Sonic found; Fantom-era incidents (Multichain bridge collapse, Jul 2023) predate S"
   mint_path_live: "yes: no hard cap; governance has approved repeated new issuance (airdrop 190.5M, ongoing funding 47.6M a year for 6 years, 472.4M institutional issuance on 4 Sep 2025, plus a possible $50M ETF issuance)"
@@ -27,8 +27,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "About $6k a month of revenue; no burn, buyback or fee share of size."
 pump_day_price_source: "Gate S_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (50 of 360 days); the body's earlier count used CoinGecko daily closes"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0xbea8fecf6535592eebfc68f227a434f8373792f0"
@@ -44,7 +44,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### S · Overall grade **3.0 / 10 · ❌ FAIL**
+### S · Overall grade **3.5 / 10 · ❌ FAIL**
 
 **Summary:** Sonic (formerly Fantom) is a fast EVM layer-1. Usage has collapsed: **TVL is $12.6M** and the chain earned **$75.7k of revenue in 12 months**. S is −97% from its January 2025 high and −75% in a year. There is no supply cap, and governance keeps approving new issuance (supply is up from 3.175B to 3.885B). Wallets tied to the Foundation and Sonic's issuance have moved **hundreds of millions of S into Binance**, some of it on pump days. Both hard gates fail.
 
@@ -57,7 +57,7 @@ layout_version: 3
 | 💰 Revenue | 1/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 0/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -71,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 S · Sonic · 3.0 / 10 · ❌ FAIL
+# 🪪 S · Sonic · 3.5 / 10 · ❌ FAIL
 
 > **One line:** A rebranded Fantom with fast tech but almost no usage left, an open-ended issuance policy, and Foundation-linked wallets feeding Binance.
 
@@ -116,7 +116,7 @@ layout_version: 3
 
 **What it means:** Most of the Foundation-side S has already been paid out. Where large amounts went (e.g. [949.5M S to a Binance deposit on 14 Jan 2025](https://sonicscan.org/tx/0xdd80b56ca773973555463c0938f7e20c13d9d47d91e4ddb2d73ac57ad0d65c4b), most likely Binance's FTM→S user migration [Unverified]) is only partly explained. **4.**
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 `0xfefa…2ecc` behaves like a Binance deposit address: an EOA that never keeps a balance and sweeps everything to [Binance 94](https://sonicscan.org/address/0xa4e471dbfe8c95d4c44f520b19cee436c01c3267) (Sonicscan label) within hours.
 
@@ -133,7 +133,7 @@ layout_version: 3
 
 **What it means:** Issuance and Foundation wallets keep feeding one exchange account, one deposit landed on a pump day, and none of it is disclosed. **2 → hard-gate FAIL.**
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** None of it was disclosed as sales. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. 21 Aug 2026 is a pump day on Gate prices. Pump days from Gate S_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (50 of 360 days); the body's earlier count used CoinGecko daily closes.
+- **One-hop amendment (16 Nov 2026):** Sonic publishes governance-approved issuance and funding uses for Foundation tokens ([S token docs](https://docs.soniclabs.com/sonic/s-token), [Sonic in 2026 and beyond](https://www.soniclabs.com/blog/sonic-in-2026-and-beyond/)), and whether Binance sold or holds the tokens in custody is [Unverified]. That is a plausible published reason. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 

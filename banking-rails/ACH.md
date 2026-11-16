@@ -3,13 +3,13 @@ ticker: ACH
 name: Alchemy Pay
 chain: ethereum
 contract: "0xed04915c23f00a313a544955524eb7dbd823143d"
-overall_score: 3.1
+overall_score: 3.6
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 5
   insider_holdings: 3
-  selling_behavior: 0
+  selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 4
   product_development: 5
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 4
   regulatory: 6
   catalysts: 3
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes, MinterRole with no cap; minter 0x483a0ad7be1381ca431216ca827ad38a96f0496f (3-of-6 Safe)"
@@ -27,8 +27,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "ACH is gas and governance only; company payment revenue does not reach holders, and no fee burn, automatic buyback or fee share is live (the buyback is a proposal)."
 pump_day_price_source: "Gate ACH/USDT UTC daily closes"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0xeae81df204b5beb70f6032ab173faff24c6d6990"
@@ -79,7 +79,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### ACH · Overall grade **3.1 / 10 · ❌ FAIL**
+### ACH · Overall grade **3.6 / 10 · ❌ FAIL**
 
 **Summary:** Alchemy Pay is a real fiat on/off-ramp company (20 US money-transmitter licenses as of Nov 2026). It launched Alchemy Chain (May 2026), where ACH is the gas token. Payment revenue goes to the company, not the token, and DefiLlama tracks no fees. On **9 Apr 2026** a [3-of-6 Safe](https://etherscan.io/address/0x483a0ad7be1381ca431216ca827ad38a96f0496f) minted **5,346,246,088 ACH** in one transaction ([0x4b62b9d7…](https://etherscan.io/tx/0x4b62b9d7128e20b4663464c3e2e09149f1f77cfd3694a5354cea7f91afadf466)), the whole 2026–2037 "supply framework", into five 10-year vesting contracts. All five are **revocable by a single EOA** ([0x907a…bc92](https://etherscan.io/address/0x907acf93336f034df8198c39c6707507b516bc92)). Released ACH from them was relayed through three hops to a Cobo-custody wallet. That wallet sent it in round 5M lots to a **Binance deposit address on pump days**. Revenue and Selling both trip the hard gate.
 
@@ -92,7 +92,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 0/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 5/10 | ❌ FAIL |
@@ -106,7 +106,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ACH · Alchemy Pay · 3.1 / 10 · ❌ FAIL
+# 🪪 ACH · Alchemy Pay · 3.6 / 10 · ❌ FAIL
 
 > **One line:** A licensed payments company, but its token is a dilution pipe that feeds Binance on pump days.
 
@@ -148,7 +148,7 @@ layout_version: 3
 - Every vesting contract's `owner()` is the same EOA, [0x907a…bc92](https://etherscan.io/address/0x907acf93336f034df8198c39c6707507b516bc92), and `revocable()` is true. One key can claw back the unvested part of 5.35B ACH [Tier A, RPC].
 - Separately, the original 10B schedule has ~30% still to unlock through Apr 2029 [Tier B, tokenomics.com].
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 *Gate ACH/USDT daily closes (UTC): 35 pump days in the last 365.*
 
@@ -168,7 +168,7 @@ layout_version: 3
 
 **What it means:** newly minted supply is delivered to Binance on pump days. Ordinary score **2**; with the undisclosed pump-day penalty below, **0 (hard gate)**.
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** Alchemy Pay published the supply framework, but no notice of these exchange deposits was found (no disclosure found). **Undisclosed pump-day penalty: applied** (Selling 2 → 0); the overall moves 3.4 → 3.1. Pump days from Gate ACH/USDT UTC daily closes.
+- **One-hop amendment (16 Nov 2026):** Alchemy Pay publishes its supply framework and vesting releases ([tokenomics.com unlocks](https://app.tokenomics.com/tokenomics/alchemy-pay/unlocks), [governance vote page](https://vote.alchemypay.org/)), and the flow runs vesting contract → beneficiary → a Cobo-custody wallet. That is a plausible published reason (vesting payouts and custody). Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 

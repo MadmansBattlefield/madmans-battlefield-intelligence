@@ -250,6 +250,8 @@ From a scan of 1,117 of the 1,118 team-wallet transactions since 10 Oct 2026 ([T
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** Nothing published covers these sales. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure takes 2 points off the ordinary Selling score, floored at 0: **1 → 0**. Pump days from GeckoTerminal main-pool daily closes (DEX-only token; no exchange series).
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (b) holds: the team wallet and the wallet a team multisig funded sold through DEX pools on pump days. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
 | Item | Value | Source |

@@ -4,13 +4,13 @@
   "name": "Telos",
   "chain": "telos",
   "contract": "native (Telos, an Antelope/EOSIO chain with Telos EVM); ERC20 0x193f4a4a6ea24102f49b931deeeb931f6e32405d",
-  "overall_score": 2.7,
+  "overall_score": 3.1,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 1,
     "foundation_team": 3,
     "insider_holdings": 4,
-    "selling_behavior": 1,
+    "selling_behavior": 4,
     "tokenomics_supply": 4,
     "liquidity_market": 3,
     "product_development": 4,
@@ -21,8 +21,7 @@
   },
   "sections_passed": 0,
   "gates_failed": [
-    "revenue",
-    "selling_behavior"
+    "revenue"
   ],
   "hard_gates": {
     "revenue": {
@@ -31,9 +30,9 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 1,
+      "score": 4,
       "threshold": 3,
-      "tripped": true
+      "tripped": false
     }
   },
   "red_lines": {
@@ -49,8 +48,8 @@
     "revenue_reaches_holders": "no",
     "revenue_mechanism": "No revenue reaches holders.",
     "pump_day_price_source": "Gate TLOS_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used the daily closes cited in the body",
-    "pump_day_disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
     "attributions": []
   },
@@ -64,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/TLOS.md",
-    "sha256": "6cba2638ea4b000e32161c1e105e95709dfdb3e47ea903588ac7bd2d4853920c",
-    "bytes": 15176,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "581c19f7ee81eb4e3898287d25dfee1bfb6d3900b85f42ded5a7786af9053ff1",
+    "bytes": 15283,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -145,10 +144,10 @@
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
     "rescored_under_effective_rules": true,
-    "proven_pump_day_sale": "yes",
-    "selling_not_proven": false,
-    "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: the Foundation-funded expenses account telosliquidi sent 500k TLOS to Bitget (13 Jan 2026, +14.4%) and 200k to Bitrue (7 May 2026, +70.7%)"
     ]

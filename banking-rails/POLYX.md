@@ -162,6 +162,8 @@ By year: 2022 7.5M · 2023 49.4M · 2024 40.1M · 2025 31.1M · **2026 59.3M** (
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. The receiving address is proven to be an exchange deposit by its on-chain memo pattern, not by a label. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from Gate POLYX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used the daily closes cited in the body.
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (c) holds: no sale disclosure, unlock schedule or treasury report from the Association was found. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
 - **No max supply.** New POLYX is minted each era for operators and stakers, "capped at a maximum of 140 million POLYX per year" ([docs](https://developers.polymesh.network/polyx/tokenomics/)). POLY on Ethereum can also be upgraded 1:1 through a one-way bridge ([blog](https://polymesh.network/blog/understanding-polyx-tokenomics)).

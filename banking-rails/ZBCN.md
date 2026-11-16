@@ -184,6 +184,8 @@ Where the traced pieces landed (1–3 hops after step 4; only part of the tree w
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** Zebec published the treasury wallets but not these sales. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure takes 2 points off the ordinary Selling score, floored at 0: **3 → 1**. The sales on 30 Sep – 3 Oct 2026 are still pump days on Gate prices (4 Oct is not). Pump days from Gate ZBCN_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (48 of 360 days); the body's earlier count used CoinGecko daily closes.
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (b) holds: treasury-cluster ZBCN was sold into DEX pools on the pump days. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
 | Item | Value | Source |

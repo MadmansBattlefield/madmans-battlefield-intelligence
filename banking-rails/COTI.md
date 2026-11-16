@@ -3,13 +3,13 @@ ticker: COTI
 name: COTI
 chain: coti
 contract: "0xddb3422497e61e13543bea06989c0789117555c5"
-overall_score: 2.1
+overall_score: 2.7
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 3
   insider_holdings: 2
-  selling_behavior: 0
+  selling_behavior: 4
   tokenomics_supply: 2
   liquidity_market: 4
   product_development: 3
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 4
   regulatory: 3
   catalysts: 3
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: "Mar 2023 bridge mis-mint on the ERC20 (huge test mints, burned the same day; COTI says no funds left the bridge)"
   mint_path_live: "yes (ERC20 owner can mint without limit; mintingFinished = false; native V2 chain still inflates)"
@@ -27,8 +27,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "Fees are close to zero and holders have no claim on them."
 pump_day_price_source: "Gate COTI/USDT daily closes"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0x61bf10a1a27b2d99de0a59a06200a62ed579d685"
@@ -44,7 +44,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### COTI · Overall grade **2.1 / 10 · ❌ FAIL**
+### COTI · Overall grade **2.7 / 10 · ❌ FAIL**
 
 **Summary:** COTI is a privacy-focused Layer 2 whose ERC20 is a bridge token: the contract owner mints whenever coins are bridged in. The coin has **no revenue for holders**; chain fees were about $488 over the last year on DefiLlama. In Aug–Sep 2026 the project paused Treasury, COTI Earn and Nodes v2, management stepped down and a new foundation took over direction [Unverified]. In the same weeks about **2.6B ERC20 COTI (≈87% of circulating supply)** was minted or consolidated into a "Genesis" wallet and split into unlabelled EOAs. Wallets funded from that split then **sold into the 17 Sep spike**. The price is down 98.7% from its 2021 high. Revenue and Selling both trip the hard gates.
 
@@ -57,7 +57,7 @@ layout_version: 3
 | 💰 Revenue | 1/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 3/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 2/10 | ❌ FAIL |
-| 📉 Selling behavior | 0/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 2/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 3/10 | ❌ FAIL |
@@ -71,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 COTI · COTI · 2.1 / 10 · ❌ FAIL
+# 🪪 COTI · COTI · 2.7 / 10 · ❌ FAIL
 
 > **One line:** A privacy L2 with no holder revenue, a live mint key, a leadership handover, and new consolidation wallets that sold into the first pump after they were funded.
 
@@ -118,7 +118,7 @@ layout_version: 3
 
 **What it means:** Two unlabelled single-key EOAs hold **2.17B ERC20 COTI, ≈73% of circulating supply**, and the project has not published which wallets are its own. **2**.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 *Pump test uses Gate COTI/USDT daily closes (UTC). 33 of the last 365 days were pump days. Only Ethereum ERC20 flows were tested.*
 
@@ -137,7 +137,7 @@ layout_version: 3
 
 **What it means:** Wallets funded by the Foundation's consolidation sold on three straight pump days. **2, which trips the Selling gate.**
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** COTI's Telegram notice mentioned "two new main addresses" without publishing them or these sales. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from Gate COTI/USDT daily closes.
+- **One-hop amendment (16 Nov 2026):** COTI's [Blockworks Token Transparency filing](https://blockworks.com/token-transparency/filing/coti) acknowledges market-maker and custodian balances, and a [Telegram consolidation notice](https://t.me/cotichannel/3245) covers the Foundation's wallet consolidation. `0x07d2` also withdraws from Binance, KuCoin and Gate, which fits market-maker inventory. That is a plausible published reason. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 

@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SPA.md",
-    "sha256": "12708089564124decfd96d5487cbeaab96251f4a2a87855269d8647d64deb29d",
-    "bytes": 28181,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "449a5d144b1113b868500af36e6b68e5f6ce8a5861f44c1340791f8bcc1e4b89",
+    "bytes": 28464,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

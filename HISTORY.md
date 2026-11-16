@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:40 MST
+generated_at: 2026-11-16 14:41 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -37,7 +37,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [CC](banking-rails/CC.md) | 1 | 6.4 | 6.4 | 6 | 6 | 6 |
 | [CELO](banking-rails/CELO.md) | 1 | 4.7 | 4.7 | 3 | 5 | 4 |
 | [CELR](banking-rails/CELR.md) | 1 | 4.0 | 4.0 | 2 | 5 | 4 |
-| [CFG](banking-rails/CFG.md) | 2 | 4.5 | 4.0 | 3 | 5 → 1 | 3 |
+| [CFG](banking-rails/CFG.md) | 3 | 4.5 | 4.4 | 3 | 5 → 4 | 3 |
 | [CFX](banking-rails/CFX.md) | 1 | 3.9 | 3.9 | 1 | 5 | 4 |
 | [COTI](banking-rails/COTI.md) | 2 | 2.4 | 2.1 | 1 | 2 → 0 | 2 |
 | [CPOOL](banking-rails/CPOOL.md) | 2 | 3.6 | 3.3 | 2 | 2 → 0 | 4 |
@@ -55,7 +55,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [EURE](banking-rails/EURE.md) | 1 | 5.0 | 5.0 | 3 | 6 | 6 |
 | [EWT](banking-rails/EWT.md) | 1 | 4.0 | 4.0 | 2 | 5 | 4 |
 | [EXA](banking-rails/EXA.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
-| [FXS](banking-rails/FXS.md) | 2 | 4.6 | 4.2 | 4 | 4 → 1 | 4 |
+| [FXS](banking-rails/FXS.md) | 3 | 4.6 | 4.6 | 4 | 4 | 4 |
 | [GRND](banking-rails/GRND.md) | 1 | 4.2 | 4.2 | 3 | 5 | 5 |
 | [H](banking-rails/H.md) | 1 | 2.4 | 2.4 | 1 | 4 | 2 |
 | [HASH](banking-rails/HASH.md) | 1 | 3.8 | 3.8 | 3 | 4 | 2 |
@@ -85,7 +85,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [NIGHT](banking-rails/NIGHT.md) | 1 | 3.8 | 3.8 | 1 | 4 | 1 |
 | [NUVA](banking-rails/NUVA.md) | 1 | 3.5 | 3.5 | 1 | 4 | 4 |
 | [OM](banking-rails/OM.md) | 1 | 3.4 | 3.4 | 2 | 4 | 4 |
-| [ONDO](banking-rails/ONDO.md) | 3 | 4.9 | 4.3 | 3 | 5 → 1 | 3 |
+| [ONDO](banking-rails/ONDO.md) | 4 | 4.9 | 4.7 | 3 | 5 → 4 | 3 |
 | [ORAI](banking-rails/ORAI.md) | 1 | 3.0 | 3.0 | 1 | 4 | 4 |
 | [ORBITER](banking-rails/ORBITER.md) | 1 | 3.8 | 3.8 | 3 | 4 | 3 |
 | [PACT](banking-rails/PACT.md) | 2 | 3.1 | 2.9 | 3 | 1 → 0 | 2 |
@@ -122,7 +122,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [SKEY](banking-rails/SKEY.md) | 1 | 3.4 | 3.4 | 2 | 4 | 3 |
 | [SKY](banking-rails/SKY.md) | 1 | 6.8 | 6.8 | 8 | 6 | 6 |
 | [SOL](banking-rails/SOL.md) | 1 | 6.6 | 6.6 | 6 | 5 | 5 |
-| [SOLV](banking-rails/SOLV.md) | 2 | 4.7 | 4.2 | 4 | 5 → 1 | 4 |
+| [SOLV](banking-rails/SOLV.md) | 3 | 4.7 | 4.6 | 4 | 5 → 4 | 4 |
 | [SPA](banking-rails/SPA.md) | 2 | 2.5 | 2.2 | 1 | 2 → 0 | 2 |
 | [STBL](banking-rails/STBL.md) | 1 | 3.3 | 3.3 | 2 | 4 | 3 |
 | [SUI](banking-rails/SUI.md) | 1 | 3.7 | 3.7 | 1 | 2 | 2 |
@@ -214,6 +214,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 |---|---|---:|---|---:|---:|---:|---|
 | `0a6d1a7` | 2026-11-16 07:39 MST | 4.5 | FAIL | 3 | 5 | 3 | revenue |
 | `52a7999` | 2026-11-16 14:21 MST | 4.0 | FAIL | 3 | 1 | 3 | revenue, selling_behavior |
+| `4dd4307` | 2026-11-16 14:40 MST | 4.4 | FAIL | 3 | 4 | 3 | revenue |
 
 - **CFX** — 3.9 FAIL in `52a7999` (2026-11-16 14:21 MST).
 ### COTI
@@ -250,6 +251,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 |---|---|---:|---|---:|---:|---:|---|
 | `16d387f` | 2026-11-16 08:50 MST | 4.6 | FAIL | 4 | 4 | 4 | — |
 | `a1cdce3` | 2026-11-16 14:23 MST | 4.2 | FAIL | 4 | 1 | 4 | selling_behavior |
+| `4dd4307` | 2026-11-16 14:40 MST | 4.6 | FAIL | 4 | 4 | 4 | — |
 
 - **GRND** — 4.2 FAIL in `aa945b1` (2026-11-16 12:24 MST).
 - **H** — 2.4 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
@@ -272,7 +274,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
 |---|---|---:|---|---:|---:|---:|---|
 | `a664692` | 2026-11-16 06:58 MST | 4.8 | FAIL | 6 | 4 | 6 | — |
-| `a1cdce3` | 2026-11-16 14:23 MST | 4.4 | FAIL | 6 | 1 | 6 | selling_behavior |
+| `4dd4307` | 2026-11-16 14:40 MST | 4.4 | FAIL | 6 | 1 | 6 | selling_behavior |
 
 - **IOST** — 3.1 FAIL in `aa945b1` (2026-11-16 12:24 MST).
 - **IOTX** — 3.7 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
@@ -299,6 +301,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `c5e10a5` | 2026-11-15 06:07 MST | 4.9 | FAIL | 3 | 5 | 3 | revenue |
 | `6fa4721` | 2026-11-15 18:37 MST | 4.7 | FAIL | 3 | 4 | 3 | revenue |
 | `03adc39` | 2026-11-16 14:24 MST | 4.3 | FAIL | 3 | 1 | 3 | revenue, selling_behavior |
+| `4dd4307` | 2026-11-16 14:40 MST | 4.7 | FAIL | 3 | 4 | 3 | revenue |
 
 - **ORAI** — 3.0 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
 - **ORBITER** — 3.8 FAIL in `73d9a3c` (2026-11-16 13:58 MST).
@@ -408,6 +411,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 |---|---|---:|---|---:|---:|---:|---|
 | `0a6d1a7` | 2026-11-16 07:39 MST | 4.7 | FAIL | 4 | 5 | 4 | — |
 | `9373285` | 2026-11-16 14:26 MST | 4.2 | FAIL | 4 | 1 | 4 | selling_behavior |
+| `4dd4307` | 2026-11-16 14:40 MST | 4.6 | FAIL | 4 | 4 | 4 | — |
 
 ### SPA
 

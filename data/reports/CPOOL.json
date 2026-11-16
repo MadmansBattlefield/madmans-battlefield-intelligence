@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CPOOL.md",
-    "sha256": "8eb135170329d0bb9b962e7e3413dae1efbb11f0924af2e80240ce792d5b341b",
-    "bytes": 30447,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "26e0b3d81d4384bda1857fbc4bcece13ac0829cdfc79411856bc079710c7ec75",
+    "bytes": 30751,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

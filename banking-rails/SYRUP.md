@@ -27,7 +27,7 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "MIP-021 buybacks are a governance rule carried out by the Syrup Strategic Fund through Binance, not an automatic on-chain mechanism, and bought SYRUP is held in the treasury. No fee share or fee-funded staking yield is documented. The binary test is therefore **no**, and Revenue cannot pass: **7 → 5**. A 5 still describes a real lending business, but holders have no live claim on its revenue."
 pump_day_price_source: "Gate SYRUP/USDT UTC daily closes"
-pump_day_disclosure_quality: buried_disclosure
+pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
@@ -166,7 +166,7 @@ layout_version: 3
 
 **What it means:** The rule: a treasury wallet selling, or funding a wallet that deposits to an exchange, on a pump day, without disclosure, fails Selling. Maple-labelled wallets did that on five pump days. It discloses a market-making program and names the wallets, which is better than most, and the deposits are a small share of supply (~1.2%). But nothing published ties these specific pump-day deposits to that program, and the 2026 OTC sends cut against the "held, not sold" line. **4**: a clear fail, but not the ≤3 hard gate, since the amounts are modest and a disclosed MM framework exists. **Unchanged after the Arkham pass, and this is the closest call in the report.** Arkham's Maple label on `0x640e…` weakens the market-maker reading for the 6 May 2025 row. But the 4 already counted all five pump days as Maple-funded deposits, so the premise does not change. A 3 would trip the hard gate and turn the PASS into a FAIL. That would need proof of sales, a larger share of supply, or a deposit outside the disclosed MM window; none was found.
 
-- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** Maple's token-transparency filing discloses a market-making loan program and names the treasury wallets, but nothing published ties these specific pump-day deposits to it, so the disclosure is partial. The silence penalty does not apply; Selling stays **4** (proven pump-day deposits, partially disclosed). Pump days from Gate SYRUP/USDT UTC daily closes.
+- **One-hop amendment (16 Nov 2026):** Maple publishes a market-making loan program in its [Blockworks Token Transparency filing](https://blockworks.com/token-transparency/filing/maple-finance/dc60bd1d-3554-4c92-9caf-82e8fc10d4c5), a plausible reason for the shared Binance deposit flow. Under the amended rule the sale is **not proven**, so disclosure quality is recorded as not applicable. The score stays **4**.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 

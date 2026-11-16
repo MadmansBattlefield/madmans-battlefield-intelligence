@@ -151,6 +151,8 @@ Pump test uses KuCoin CPOOL-USDT daily closes (from 28 Oct 2021). Exchange label
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure of these exchange sends was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from KuCoin CPOOL-USDT daily closes.
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (c) holds: Clearpool has published no reason for reserve coins reaching exchanges; the Hex Trust custody link comes from an Arkham label, not a Clearpool statement. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
 - CPOOL: 1B fixed, all vesting schedules from 28 Oct 2021 now complete (Reserve ran 60 months, to Oct 2026).

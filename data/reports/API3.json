@@ -4,13 +4,13 @@
   "name": "Api3",
   "chain": "ethereum",
   "contract": "0x0b38210ea11411557c13457D4dA7dC6ea731B88a",
-  "overall_score": 4.5,
+  "overall_score": 4.9,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 4,
     "foundation_team": 6,
     "insider_holdings": 6,
-    "selling_behavior": 1,
+    "selling_behavior": 4,
     "tokenomics_supply": 7,
     "liquidity_market": 4,
     "product_development": 5,
@@ -20,9 +20,7 @@
     "catalysts": 5
   },
   "sections_passed": 4,
-  "gates_failed": [
-    "selling_behavior"
-  ],
+  "gates_failed": [],
   "hard_gates": {
     "revenue": {
       "score": 4,
@@ -30,9 +28,9 @@
       "tripped": false
     },
     "selling_behavior": {
-      "score": 1,
+      "score": 4,
       "threshold": 3,
-      "tripped": true
+      "tripped": false
     }
   },
   "red_lines": {
@@ -49,8 +47,8 @@
     "revenue_reaches_holders": "no",
     "revenue_mechanism": "Buybacks (about $115k in total) are DAO decisions, not automatic on-chain, and no fee share or fee-funded staking yield is documented. Holders have no live claim on revenue; the score describes the business, not holder accrual.",
     "pump_day_price_source": "Gate API3_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (23 of 360 days); the body's earlier count used CoinGecko daily closes",
-    "pump_day_disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
     "attributions": [
       {
@@ -73,9 +71,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/API3.md",
-    "sha256": "4564344e376c5b0e4d894fab4b7fc51a915c971d7bcd3886539edb5774d430ab",
-    "bytes": 32843,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "3a863b1ec9846f43cee57b82722925c439ca64bd371efdc0f5112f2c17e1820a",
+    "bytes": 32940,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -377,10 +375,10 @@
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
     "rescored_under_effective_rules": true,
-    "proven_pump_day_sale": "yes",
-    "selling_not_proven": false,
-    "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: yes (Etherscan 'API3: Treasury' / Arkham 'API3: V1 Treasury' 0xe7aF… sent 250,000 API3 into a Binance deposit on the 28 Jan 2024 pump day (+28.8%) and 240,000 on 23 Apr 2024 (+11.1%); no matching proposal found)",
       "treasury_funded_wallet_to_exchange_during_pump: yes (DAO Vault multisig 0x8e03… sent 610,000 API3 to 0x9e65… on the 10 Feb 2026 pump day (+13.7%); 609,900 reached a Binance deposit within 71 minutes; 1.83M in total by May 2026; recipient unlabelled on Arkham too)"
@@ -547,12 +545,12 @@
     }
   ],
   "review": {
-    "selling_holdings_low_confidence_flag": true,
-    "selling_holdings_single_source_arkham_flag": true,
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
     "flag_notes": [
-      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration.",
-      "An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change."
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone.",
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
     ],
     "dual_review": {
       "status": "not_run",

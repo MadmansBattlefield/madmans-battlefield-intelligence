@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/PHA.md",
-    "sha256": "554c4ec976e6525f5d07ae7df6ad6ba27915a394bc06ae4cffac27694f1d5695",
-    "bytes": 16514,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "df54b91949ad7657c9fcb3f78c80548e0251c0a43a8ac8899420197e8a0d79e5",
+    "bytes": 16737,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

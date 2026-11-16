@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/RLC.md",
-    "sha256": "c653d45da4abc5a0e595a514b9a483cb1df08a43060ccedc4115927d20051e9c",
-    "bytes": 13984,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "55ed18325848d08b3e053d9298af253db0189f7fac124c404cb20a448b1bea79",
+    "bytes": 14244,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

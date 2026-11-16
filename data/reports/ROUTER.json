@@ -66,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ROUTER.md",
-    "sha256": "6c29e72fbc1a7a689285830f6aa7f7b3015c73a57c57a4a57ec9e1ed35460a3f",
-    "bytes": 49409,
-    "extracted_at": "2026-11-16 14:40 MST",
+    "sha256": "a2c3d77549686ec123d003e7a65c2ee8b741d07c34d2c7716449a1875ef54d37",
+    "bytes": 49650,
+    "extracted_at": "2026-11-16 14:41 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

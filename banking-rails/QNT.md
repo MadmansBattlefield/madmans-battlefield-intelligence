@@ -177,6 +177,8 @@ layout_version: 3
 
 - **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **3 → 1**. Pump days from the daily closes cited in the body (2021 pump days).
 
+- **One-hop amendment (16 Nov 2026):** Still a **proven sale** under the amended rule. (c) holds: the labelled team wallet route runs through an OTC desk to exchanges, and Quant has published no OTC, market-making or payout program covering it. Silence stands, so the penalty above is unchanged.
+
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 
 - **Four different supply numbers:**

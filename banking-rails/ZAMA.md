@@ -3,13 +3,13 @@ ticker: ZAMA
 name: Zama
 chain: ethereum
 contract: "0xa12cc123ba206d4031d1c7f6223d1c2ec249f4f3"
-overall_score: 3.5
+overall_score: 4.1
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 6
   insider_holdings: 2
-  selling_behavior: 0
+  selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 4
   product_development: 7
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 6
   regulatory: 6
   catalysts: 5
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes by design: 5% yearly emission to operators and stakers (supply 11.39B vs 11B initial)"
@@ -27,8 +27,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"
 revenue_mechanism: "Fees for proof verification, decryption and bridging are paid in ZAMA and 100% burned by protocol rule, but no fee total is recorded; Revenue stays 2."
 pump_day_price_source: "the daily closes cited in the body"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions: []
 price_usd: 0.05429
@@ -39,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### ZAMA · Overall grade **3.5 / 10 · ❌ FAIL**
+### ZAMA · Overall grade **4.1 / 10 · ❌ FAIL**
 
 **Summary:** Zama builds fully homomorphic encryption (FHE) for confidential smart contracts. The protocol is live, with staking, 18 operators and about $85M of TVL. The token launched on 2 Feb 2026. Fees are burned, but Zama deliberately keeps them near zero, so the revenue gate fails. The selling gate also fails: a Zama-labelled wallet deposited to Binance on a pump day. The custody setup is the biggest problem: **a single plain address (an EOA, not a vesting contract) holds 67.3% of all ZAMA**.
 
@@ -52,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 2/10 | ❌ FAIL |
-| 📉 Selling behavior | 0/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -66,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ZAMA · Zama · 3.5 / 10 · ❌ FAIL
+# 🪪 ZAMA · Zama · 4.1 / 10 · ❌ FAIL
 
 > **One line:** Real FHE technology, but two-thirds of the token sits behind a single key and fees are switched off.
 
@@ -102,7 +102,7 @@ layout_version: 3
 
 - Published allocation: Team 20%, VCs 20%, Treasury 20%, Angels 10%, Growth 10%. The still-locked pools (about 7.8B by that table) match the EOA's balance, but nothing on-chain enforces the locks.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 | Date | From | To | ZAMA | ≈ USD | Pump? | Tx |
 |---|---|---|---:|---:|---|---|
@@ -113,7 +113,7 @@ layout_version: 3
 - **Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) on "Zama 1":** it sent 27.5M ZAMA to a **Wintermute deposit** on 31 Jul 2026 ([tx](https://etherscan.io/tx/0xc82e1fa5cf998270c2b9ee25c44815efb3894ff87e914d0735a790a9edfb58b5); −10.3% on Gate, not a pump day), market-maker flow rather than a sale. It also sent 25M ZAMA on 9 Nov 2026 ([tx](https://etherscan.io/tx/0x57bcbecb954cd156b1221a0fabfeaf0f18cc43951a826733262fa4bf68b4b8d2)) to a Safe that Arkham labels as belonging to a named Zama co-founder: an internal team transfer.
 - These could be liquidity or market-making transfers (2% of supply was allocated to liquidity), but no disclosure was found. Exchange deposits from a team-labelled wallet on a pump day score 2 (unchanged after the Upbit correction: the 15M Binance deposit on 14 Apr still stands). Transfers at the 2 Feb 2026 launch (auction claims and exchange campaign funding) are treated as documented distribution. All linked transactions returned status 1 (success).
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found; these could be liquidity transfers, but none was announced. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from the daily closes cited in the body.
+- **One-hop amendment (16 Nov 2026):** Zama published a plausible reason: the [Zama token launch post](https://www.zama.org/post/zama-token-launch) allocates 2% of supply to liquidity, which fits the 'Zama 1' wallet's Binance deposit. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 

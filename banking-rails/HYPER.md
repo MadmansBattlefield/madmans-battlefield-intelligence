@@ -3,13 +3,13 @@ ticker: HYPER
 name: Hyperlane
 chain: ethereum
 contract: "0x93a2db22b7c736b341c32ff666307f4a9ed910f5 (ERC-20 on Ethereum, Hyperlane warp route; also BNB Chain, Base, Arbitrum, Optimism)"
-overall_score: 3.4
+overall_score: 3.9
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 4
   insider_holdings: 3
-  selling_behavior: 0
+  selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 4
   product_development: 7
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 5
   regulatory: 6
   catalysts: 4
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: "no protocol-level exploit found; an app-configured warp route (Autheo THEO, TrustedRelayerIsm) lost ~$1.76M on 12 Oct 2026; a public 'critical' vault-insolvency report (issue #9068) has been open since 18 Jul 2026"
   treasury_to_exchange_during_pump: "yes, via foundation-funded wallets (8 wallets funded with 9.5M HYPER by the foundation-allocation Safe 0x87fc… on 21-22 Apr 2025 sent 9.5M to Binance/Bybit deposits on 10-12 Jul 2025, +351% to +472%)"
@@ -27,8 +27,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "Fees are small and none reaches holders; stakers are paid in new HYPER."
 pump_day_price_source: "KuCoin HYPER-USDT daily closes"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions: []
 price_usd: 0.03968
@@ -39,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### HYPER · Overall grade **3.4 / 10 · ❌ FAIL**
+### HYPER · Overall grade **3.9 / 10 · ❌ FAIL**
 
 **Summary:** Hyperlane is real, busy software: an open interoperability network on 150+ chains with a monorepo that ships every day. The token is a different story. HYPER is down 94% from its July 2025 high, earns its holders nothing (about $362k a year of protocol fees, $0 to holders), and still has about 60% of supply to unlock, with insider unlocks every month. On-chain, the two genesis wallets match the published allocation almost exactly: one got 358.74M (Core Team 25% + Early Backers 10.87% = 358.7M), the other 443.93M (the foundation and community buckets). Wallets funded by the foundation-side Safe sold into the July 2025 spike. Both gates fail: Revenue and Selling.
 
@@ -52,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 4/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 0/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -66,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 HYPER · Hyperlane · 3.4 / 10 · ❌ FAIL
+# 🪪 HYPER · Hyperlane · 3.9 / 10 · ❌ FAIL
 
 > **One line:** Excellent open-source plumbing with a token that pays holders nothing, unlocks every month, and whose foundation-funded wallets cashed out $5M into the one big spike.
 
@@ -124,7 +124,7 @@ layout_version: 3
 
 **What it means:** Insiders still hold more than the whole free float, mostly in plain EOAs rather than published vesting contracts. The new BNB Chain finding (168.4M in one unlabelled EOA) nearly doubles the visible insider tree. Score **3** (was 4).
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 Pump test uses KuCoin HYPER-USDT daily closes (from 22 Apr 2025); CoinGecko closes agree for the last 365 days. Exchange labels are Etherscan name tags [Tier B]; transfers are Tier A.
 
@@ -146,7 +146,7 @@ Pump test uses KuCoin HYPER-USDT daily closes (from 22 Apr 2025); CoinGecko clos
 
 **What it means:** Foundation-funded wallets sold 9.5M HYPER (≈ $5.2M) into the biggest pump in the token's history, with no disclosure, and foundation- and team-paid wallets are still selling on pump days in 2026. Score **2**, which **trips the Selling gate**.
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure of these sales was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from KuCoin HYPER-USDT daily closes.
+- **One-hop amendment (16 Nov 2026):** The Hyperlane Foundation's ["Introducing HYPER"](https://medium.com/@hyperlane_fdn/introducing-hyper-f3846883f1f5) post states an "initial token liquidity" purpose, and the funded wallets also withdraw from Binance and Bybit (a market-maker pattern). That is a plausible published reason. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
