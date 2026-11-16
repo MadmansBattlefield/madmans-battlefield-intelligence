@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 108
+scored_reports: 112
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -56,85 +56,93 @@ Ties are broken by how many of the 11 sections passed.
 33. 🔴 **API3** · 4.7 · ❌ FAIL
 34. 🔴 **SOLV** · 4.7 · ❌ FAIL
 35. 🔴 **BTT** · 4.7 · ❌ FAIL
-36. 🔴 **CARDS** · 4.7 · ❌ FAIL
-37. 🔴 **QNT** · 4.6 · ❌ FAIL
-38. 🔴 **FXS** · 4.6 · ❌ FAIL
-39. 🔴 **MNT** · 4.5 · ❌ FAIL
-40. 🔴 **CFG** · 4.5 · ❌ FAIL
-41. 🔴 **HUMA** · 4.4 · ❌ FAIL
-42. 🔴 **RVN** · 4.4 · ❌ FAIL
-43. 🔴 **ICP** · 4.3 · ❌ FAIL
-44. 🔴 **RLC** · 4.3 · ❌ FAIL
-45. 🔴 **RED** · 4.3 · ❌ FAIL
-46. 🔴 **ZBCN** · 4.3 · ❌ FAIL
-47. 🔴 **TRAC** · 4.2 · ❌ FAIL
-48. 🔴 **REQ** · 4.2 · ❌ FAIL
-49. 🔴 **AMP** · 4.2 · ❌ FAIL
-50. 🔴 **ETC** · 4.1 · ❌ FAIL
-51. 🔴 **SEI** · 4.0 · ❌ FAIL
-52. 🔴 **TFUEL** · 4.0 · ❌ FAIL
-53. 🔴 **DUSK** · 4.0 · ❌ FAIL
-54. 🔴 **BAND** · 4.0 · ❌ FAIL
-55. 🔴 **EWT** · 4.0 · ❌ FAIL
-56. 🔴 **HTX** · 4.0 · ❌ FAIL
-57. 🔴 **KAIA** · 3.9 · ❌ FAIL
-58. 🔴 **PHA** · 3.9 · ❌ FAIL
-59. 🔴 **CFX** · 3.9 · ❌ FAIL
-60. 🔴 **INJ** · 3.9 · ❌ FAIL
-61. 🔴 **MBG** · 3.9 · ❌ FAIL
-62. 🔴 **ZK** · 3.8 · ❌ FAIL
-63. 🔴 **TRB** · 3.8 · ❌ FAIL
-64. 🔴 **ZAMA** · 3.8 · ❌ FAIL
-65. 🔴 **ROSE** · 3.8 · ❌ FAIL
-66. 🔴 **XDC** · 3.8 · ❌ FAIL
-67. 🔴 **NIGHT** · 3.8 · ❌ FAIL
-68. 🔴 **W** · 3.8 · ❌ FAIL
-69. 🔴 **ASTR** · 3.8 · ❌ FAIL
-70. 🔴 **HASH** · 3.8 · ❌ FAIL
-71. 🔴 **AXL** · 3.8 · ❌ FAIL
-72. 🔴 **PLUME** · 3.7 · ❌ FAIL
-73. 🔴 **XPL** · 3.7 · ❌ FAIL
-74. 🔴 **SUI** · 3.7 · ❌ FAIL
-75. 🔴 **CRO** · 3.7 · ❌ FAIL
-76. 🔴 **MOCA** · 3.7 · ❌ FAIL
-77. 🔴 **IOTX** · 3.7 · ❌ FAIL
-78. 🔴 **ZEN** · 3.7 · ❌ FAIL
-79. 🔴 **KAIO** · 3.6 · ❌ FAIL
-80. 🔴 **CPOOL** · 3.6 · ❌ FAIL
-81. 🔴 **HYPER** · 3.6 · ❌ FAIL
-82. 🔴 **VELO** · 3.6 · ❌ FAIL
-83. 🔴 **PROPC** · 3.6 · ❌ FAIL
-84. 🔴 **ZKC** · 3.4 · ❌ FAIL
-85. 🔴 **ZKP** · 3.4 · ❌ FAIL
-86. 🔴 **OM** · 3.4 · ❌ FAIL
-87. 🔴 **PUNDIX** · 3.4 · ❌ FAIL
-88. 🔴 **POLYX** · 3.3 · ❌ FAIL
-89. 🔴 **S** · 3.3 · ❌ FAIL
-90. 🔴 **ZIG** · 3.3 · ❌ FAIL
-91. 🔴 **STBL** · 3.3 · ❌ FAIL
-92. 🔴 **SHARE** · 3.3 · ❌ FAIL
-93. 🔴 **YELLOW** · 3.2 · ❌ FAIL
-94. 🔴 **KAVA** · 3.1 · ❌ FAIL
-95. 🔴 **PACT** · 3.1 · ❌ FAIL
-96. 🔴 **EXA** · 3.1 · ❌ FAIL
-97. 🔴 **HONEY** · 3.1 · ❌ FAIL
-98. 🔴 **CSPR** · 3.1 · ❌ FAIL
-99. 🔴 **TLOS** · 3.0 · ❌ FAIL
-100. 🔴 **XDB** · 2.9 · ❌ FAIL
-101. 🔴 **JASMY** · 2.8 · ❌ FAIL
-102. 🔴 **SERV** · 2.8 · ❌ FAIL
-103. 🔴 **MASQ** · 2.7 · ❌ FAIL
-104. 🔴 **EDEL** · 2.5 · ❌ FAIL
-105. 🔴 **SPA** · 2.5 · ❌ FAIL
-106. 🔴 **COTI** · 2.4 · ❌ FAIL
-107. 🔴 **H** · 2.4 · ❌ FAIL
-108. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+36. 🔴 **WAN** · 4.7 · ❌ FAIL
+37. 🔴 **CARDS** · 4.7 · ❌ FAIL
+38. 🔴 **QNT** · 4.6 · ❌ FAIL
+39. 🔴 **FXS** · 4.6 · ❌ FAIL
+40. 🔴 **MNT** · 4.5 · ❌ FAIL
+41. 🔴 **CFG** · 4.5 · ❌ FAIL
+42. 🔴 **HUMA** · 4.4 · ❌ FAIL
+43. 🔴 **RVN** · 4.4 · ❌ FAIL
+44. 🔴 **ICP** · 4.3 · ❌ FAIL
+45. 🔴 **RLC** · 4.3 · ❌ FAIL
+46. 🔴 **RED** · 4.3 · ❌ FAIL
+47. 🔴 **ZBCN** · 4.3 · ❌ FAIL
+48. 🔴 **TRAC** · 4.2 · ❌ FAIL
+49. 🔴 **REQ** · 4.2 · ❌ FAIL
+50. 🔴 **AMP** · 4.2 · ❌ FAIL
+51. 🔴 **ETC** · 4.1 · ❌ FAIL
+52. 🔴 **XVG** · 4.1 · ❌ FAIL
+53. 🔴 **SEI** · 4.0 · ❌ FAIL
+54. 🔴 **TFUEL** · 4.0 · ❌ FAIL
+55. 🔴 **DUSK** · 4.0 · ❌ FAIL
+56. 🔴 **BAND** · 4.0 · ❌ FAIL
+57. 🔴 **EWT** · 4.0 · ❌ FAIL
+58. 🔴 **HTX** · 4.0 · ❌ FAIL
+59. 🔴 **KAIA** · 3.9 · ❌ FAIL
+60. 🔴 **PHA** · 3.9 · ❌ FAIL
+61. 🔴 **CFX** · 3.9 · ❌ FAIL
+62. 🔴 **INJ** · 3.9 · ❌ FAIL
+63. 🔴 **MBG** · 3.9 · ❌ FAIL
+64. 🔴 **ZK** · 3.8 · ❌ FAIL
+65. 🔴 **TRB** · 3.8 · ❌ FAIL
+66. 🔴 **ZAMA** · 3.8 · ❌ FAIL
+67. 🔴 **ROSE** · 3.8 · ❌ FAIL
+68. 🔴 **XDC** · 3.8 · ❌ FAIL
+69. 🔴 **NIGHT** · 3.8 · ❌ FAIL
+70. 🔴 **ZANO** · 3.8 · ❌ FAIL
+71. 🔴 **W** · 3.8 · ❌ FAIL
+72. 🔴 **ASTR** · 3.8 · ❌ FAIL
+73. 🔴 **HASH** · 3.8 · ❌ FAIL
+74. 🔴 **AXL** · 3.8 · ❌ FAIL
+75. 🔴 **PLUME** · 3.7 · ❌ FAIL
+76. 🔴 **XPL** · 3.7 · ❌ FAIL
+77. 🔴 **SUI** · 3.7 · ❌ FAIL
+78. 🔴 **CRO** · 3.7 · ❌ FAIL
+79. 🔴 **MOCA** · 3.7 · ❌ FAIL
+80. 🔴 **IOTX** · 3.7 · ❌ FAIL
+81. 🔴 **ZEN** · 3.7 · ❌ FAIL
+82. 🔴 **KAIO** · 3.6 · ❌ FAIL
+83. 🔴 **CPOOL** · 3.6 · ❌ FAIL
+84. 🔴 **HYPER** · 3.6 · ❌ FAIL
+85. 🔴 **VELO** · 3.6 · ❌ FAIL
+86. 🔴 **PROPC** · 3.6 · ❌ FAIL
+87. 🔴 **ZKC** · 3.4 · ❌ FAIL
+88. 🔴 **ZKP** · 3.4 · ❌ FAIL
+89. 🔴 **OM** · 3.4 · ❌ FAIL
+90. 🔴 **PUNDIX** · 3.4 · ❌ FAIL
+91. 🔴 **POLYX** · 3.3 · ❌ FAIL
+92. 🔴 **S** · 3.3 · ❌ FAIL
+93. 🔴 **ZIG** · 3.3 · ❌ FAIL
+94. 🔴 **STBL** · 3.3 · ❌ FAIL
+95. 🔴 **SHARE** · 3.3 · ❌ FAIL
+96. 🔴 **YELLOW** · 3.2 · ❌ FAIL
+97. 🔴 **KAVA** · 3.1 · ❌ FAIL
+98. 🔴 **PACT** · 3.1 · ❌ FAIL
+99. 🔴 **EXA** · 3.1 · ❌ FAIL
+100. 🔴 **HONEY** · 3.1 · ❌ FAIL
+101. 🔴 **CSPR** · 3.1 · ❌ FAIL
+102. 🔴 **TLOS** · 3.0 · ❌ FAIL
+103. 🔴 **XDB** · 2.9 · ❌ FAIL
+104. 🔴 **JASMY** · 2.8 · ❌ FAIL
+105. 🔴 **SERV** · 2.8 · ❌ FAIL
+106. 🔴 **MASQ** · 2.7 · ❌ FAIL
+107. 🔴 **EDEL** · 2.5 · ❌ FAIL
+108. 🔴 **SPA** · 2.5 · ❌ FAIL
+109. 🔴 **SWCH** · 2.5 · ❌ FAIL
+110. 🔴 **COTI** · 2.4 · ❌ FAIL
+111. 🔴 **H** · 2.4 · ❌ FAIL
+112. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**8 of 108 pass.**
+**8 of 112 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Four more v3 reports (seventeenth batch of the day), all ❌ FAIL: [WAN](WAN.md) enters at #36 with 4.7 / 10 (no gate failed), [XVG](XVG.md) at #52 with 4.1, [ZANO](ZANO.md) at #70 with 3.8 and [SWCH](SWCH.md) at #109 with 2.5. XVG, ZANO and SWCH fail the Revenue gate. SWCH's Selling is "not proven" (4): its mint-line wallets' exchange deposits fell on no pump day, so the Selling gate does not fail. Zano, Wanchain and Verge run on chains Arkham does not cover.
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Four more v3 reports (sixteenth batch of the day), all ❌ FAIL on the Revenue gate: [RED](RED.md) enters at #45 with 4.3 / 10, [PUNDIX](PUNDIX.md) at #87 with 3.4, [STBL](STBL.md) at #91 with 3.3 and [SHARE](SHARE.md) at #92 with 3.3.
 
@@ -675,7 +683,18 @@ Score changes from that research:
 
 ---
 
-## #36 · CARDS · Collector Crypt
+## #36 · WAN · Wanchain
+
+### 4.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** none
+- **Verdict:** Real bridge fees with burn and treasury, but tiny scale, thin liquidity and a 2026 bridge exploit.
+- 📄 [Full WAN report](WAN.md)
+
+---
+
+## #37 · CARDS · Collector Crypt
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -686,7 +705,7 @@ Score changes from that research:
 
 ---
 
-## #37 · QNT · Quant
+## #38 · QNT · Quant
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -697,7 +716,7 @@ Score changes from that research:
 
 ---
 
-## #38 · FXS · Frax (prev. FXS)
+## #39 · FXS · Frax (prev. FXS)
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -708,7 +727,7 @@ Score changes from that research:
 
 ---
 
-## #39 · MNT · Mantle
+## #40 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -719,7 +738,7 @@ Score changes from that research:
 
 ---
 
-## #40 · CFG · Centrifuge
+## #41 · CFG · Centrifuge
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -730,7 +749,7 @@ Score changes from that research:
 
 ---
 
-## #41 · HUMA · Huma Finance
+## #42 · HUMA · Huma Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -741,7 +760,7 @@ Score changes from that research:
 
 ---
 
-## #42 · RVN · Ravencoin
+## #43 · RVN · Ravencoin
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -752,7 +771,7 @@ Score changes from that research:
 
 ---
 
-## #43 · ICP · Internet Computer
+## #44 · ICP · Internet Computer
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -763,7 +782,7 @@ Score changes from that research:
 
 ---
 
-## #44 · RLC · iExec RLC
+## #45 · RLC · iExec RLC
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -774,7 +793,7 @@ Score changes from that research:
 
 ---
 
-## #45 · RED · RedStone
+## #46 · RED · RedStone
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -785,7 +804,7 @@ Score changes from that research:
 
 ---
 
-## #46 · ZBCN · Zebec Network
+## #47 · ZBCN · Zebec Network
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -796,7 +815,7 @@ Score changes from that research:
 
 ---
 
-## #47 · TRAC · OriginTrail
+## #48 · TRAC · OriginTrail
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -807,7 +826,7 @@ Score changes from that research:
 
 ---
 
-## #48 · REQ · Request Network
+## #49 · REQ · Request Network
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -818,7 +837,7 @@ Score changes from that research:
 
 ---
 
-## #49 · AMP · Amp
+## #50 · AMP · Amp
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -829,7 +848,7 @@ Score changes from that research:
 
 ---
 
-## #50 · ETC · Ethereum Classic
+## #51 · ETC · Ethereum Classic
 
 ### 4.1 / 10 · ❌ FAIL
 
@@ -840,7 +859,18 @@ Score changes from that research:
 
 ---
 
-## #51 · SEI · Sei
+## #52 · XVG · Verge
+
+### 4.1 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** No insiders and no inflation, but no revenue and a chain that has been rewritten three times.
+- 📄 [Full XVG report](XVG.md)
+
+---
+
+## #53 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -851,7 +881,7 @@ Score changes from that research:
 
 ---
 
-## #52 · TFUEL · Theta Fuel
+## #54 · TFUEL · Theta Fuel
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -862,7 +892,7 @@ Score changes from that research:
 
 ---
 
-## #53 · DUSK · Dusk
+## #55 · DUSK · Dusk
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -873,7 +903,7 @@ Score changes from that research:
 
 ---
 
-## #54 · BAND · Band Protocol
+## #56 · BAND · Band Protocol
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -884,7 +914,7 @@ Score changes from that research:
 
 ---
 
-## #55 · EWT · Energy Web Token
+## #57 · EWT · Energy Web Token
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -895,7 +925,7 @@ Score changes from that research:
 
 ---
 
-## #56 · HTX · HTX DAO
+## #58 · HTX · HTX DAO
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -906,7 +936,7 @@ Score changes from that research:
 
 ---
 
-## #57 · KAIA · Kaia
+## #59 · KAIA · Kaia
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -917,7 +947,7 @@ Score changes from that research:
 
 ---
 
-## #58 · PHA · Phala Network
+## #60 · PHA · Phala Network
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -928,7 +958,7 @@ Score changes from that research:
 
 ---
 
-## #59 · CFX · Conflux
+## #61 · CFX · Conflux
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -939,7 +969,7 @@ Score changes from that research:
 
 ---
 
-## #60 · INJ · Injective
+## #62 · INJ · Injective
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -950,7 +980,7 @@ Score changes from that research:
 
 ---
 
-## #61 · MBG · MBG By MultiBank Group
+## #63 · MBG · MBG By MultiBank Group
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -961,7 +991,7 @@ Score changes from that research:
 
 ---
 
-## #62 · ZK · ZKsync
+## #64 · ZK · ZKsync
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -972,7 +1002,7 @@ Score changes from that research:
 
 ---
 
-## #63 · TRB · Tellor
+## #65 · TRB · Tellor
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -983,7 +1013,7 @@ Score changes from that research:
 
 ---
 
-## #64 · ZAMA · Zama
+## #66 · ZAMA · Zama
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -994,7 +1024,7 @@ Score changes from that research:
 
 ---
 
-## #65 · ROSE · Oasis Network
+## #67 · ROSE · Oasis Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1005,7 +1035,7 @@ Score changes from that research:
 
 ---
 
-## #66 · XDC · XDC Network
+## #68 · XDC · XDC Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1016,7 +1046,7 @@ Score changes from that research:
 
 ---
 
-## #67 · NIGHT · Midnight
+## #69 · NIGHT · Midnight
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1027,7 +1057,18 @@ Score changes from that research:
 
 ---
 
-## #68 · W · Wormhole
+## #70 · ZANO · Zano
+
+### 3.8 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A working privacy chain whose team rolled back a month of history after an inflation exploit.
+- 📄 [Full ZANO report](ZANO.md)
+
+---
+
+## #71 · W · Wormhole
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1038,7 +1079,7 @@ Score changes from that research:
 
 ---
 
-## #69 · ASTR · Astar
+## #72 · ASTR · Astar
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1049,7 +1090,7 @@ Score changes from that research:
 
 ---
 
-## #70 · HASH · Provenance Blockchain
+## #73 · HASH · Provenance Blockchain
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1060,7 +1101,7 @@ Score changes from that research:
 
 ---
 
-## #71 · AXL · Axelar
+## #74 · AXL · Axelar
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1071,7 +1112,7 @@ Score changes from that research:
 
 ---
 
-## #72 · PLUME · Plume
+## #75 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1082,7 +1123,7 @@ Score changes from that research:
 
 ---
 
-## #73 · XPL · Plasma
+## #76 · XPL · Plasma
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1093,7 +1134,7 @@ Score changes from that research:
 
 ---
 
-## #74 · SUI · Sui
+## #77 · SUI · Sui
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1104,7 +1145,7 @@ Score changes from that research:
 
 ---
 
-## #75 · CRO · Cronos (Crypto.com)
+## #78 · CRO · Cronos (Crypto.com)
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1115,7 +1156,7 @@ Score changes from that research:
 
 ---
 
-## #76 · MOCA · Moca Network
+## #79 · MOCA · Moca Network
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1126,7 +1167,7 @@ Score changes from that research:
 
 ---
 
-## #77 · IOTX · IoTeX
+## #80 · IOTX · IoTeX
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1137,7 +1178,7 @@ Score changes from that research:
 
 ---
 
-## #78 · ZEN · Horizen
+## #81 · ZEN · Horizen
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1148,7 +1189,7 @@ Score changes from that research:
 
 ---
 
-## #79 · KAIO · KAIO (formerly Libre Capital)
+## #82 · KAIO · KAIO (formerly Libre Capital)
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1159,7 +1200,7 @@ Score changes from that research:
 
 ---
 
-## #80 · CPOOL · Clearpool
+## #83 · CPOOL · Clearpool
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1170,7 +1211,7 @@ Score changes from that research:
 
 ---
 
-## #81 · HYPER · Hyperlane
+## #84 · HYPER · Hyperlane
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1181,7 +1222,7 @@ Score changes from that research:
 
 ---
 
-## #82 · VELO · Velo
+## #85 · VELO · Velo
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1192,7 +1233,7 @@ Score changes from that research:
 
 ---
 
-## #83 · PROPC · Propchain
+## #86 · PROPC · Propchain
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1203,7 +1244,7 @@ Score changes from that research:
 
 ---
 
-## #84 · ZKC · Boundless
+## #87 · ZKC · Boundless
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1214,7 +1255,7 @@ Score changes from that research:
 
 ---
 
-## #85 · ZKP · zkPass
+## #88 · ZKP · zkPass
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1225,7 +1266,7 @@ Score changes from that research:
 
 ---
 
-## #86 · OM · MANTRA
+## #89 · OM · MANTRA
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1236,7 +1277,7 @@ Score changes from that research:
 
 ---
 
-## #87 · PUNDIX · Pundi X
+## #90 · PUNDIX · Pundi X
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1247,7 +1288,7 @@ Score changes from that research:
 
 ---
 
-## #88 · POLYX · Polymesh
+## #91 · POLYX · Polymesh
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1258,7 +1299,7 @@ Score changes from that research:
 
 ---
 
-## #89 · S · Sonic
+## #92 · S · Sonic
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1269,7 +1310,7 @@ Score changes from that research:
 
 ---
 
-## #90 · ZIG · ZIGChain (Zignaly)
+## #93 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1280,7 +1321,7 @@ Score changes from that research:
 
 ---
 
-## #91 · STBL · STBL
+## #94 · STBL · STBL
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1291,7 +1332,7 @@ Score changes from that research:
 
 ---
 
-## #92 · SHARE · ShareX
+## #95 · SHARE · ShareX
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1302,7 +1343,7 @@ Score changes from that research:
 
 ---
 
-## #93 · YELLOW · Yellow Network
+## #96 · YELLOW · Yellow Network
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -1313,7 +1354,7 @@ Score changes from that research:
 
 ---
 
-## #94 · KAVA · Kava
+## #97 · KAVA · Kava
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1324,7 +1365,7 @@ Score changes from that research:
 
 ---
 
-## #95 · PACT · PACT
+## #98 · PACT · PACT
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1335,7 +1376,7 @@ Score changes from that research:
 
 ---
 
-## #96 · EXA · Exactly Protocol
+## #99 · EXA · Exactly Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1346,7 +1387,7 @@ Score changes from that research:
 
 ---
 
-## #97 · HONEY · Hivemapper
+## #100 · HONEY · Hivemapper
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1357,7 +1398,7 @@ Score changes from that research:
 
 ---
 
-## #98 · CSPR · Casper Network
+## #101 · CSPR · Casper Network
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1368,7 +1409,7 @@ Score changes from that research:
 
 ---
 
-## #99 · TLOS · Telos
+## #102 · TLOS · Telos
 
 ### 3.0 / 10 · ❌ FAIL
 
@@ -1379,7 +1420,7 @@ Score changes from that research:
 
 ---
 
-## #100 · XDB · XDB CHAIN (formerly DigitalBits)
+## #103 · XDB · XDB CHAIN (formerly DigitalBits)
 
 ### 2.9 / 10 · ❌ FAIL
 
@@ -1390,7 +1431,7 @@ Score changes from that research:
 
 ---
 
-## #101 · JASMY · JasmyCoin
+## #104 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -1401,7 +1442,7 @@ Score changes from that research:
 
 ---
 
-## #102 · SERV · OpenServ
+## #105 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -1412,7 +1453,7 @@ Score changes from that research:
 
 ---
 
-## #103 · MASQ · MASQ
+## #106 · MASQ · MASQ
 
 ### 2.7 / 10 · ❌ FAIL
 
@@ -1423,7 +1464,7 @@ Score changes from that research:
 
 ---
 
-## #104 · EDEL · Edel Finance
+## #107 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -1434,7 +1475,7 @@ Score changes from that research:
 
 ---
 
-## #105 · SPA · Sperax
+## #108 · SPA · Sperax
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -1445,7 +1486,18 @@ Score changes from that research:
 
 ---
 
-## #106 · COTI · COTI
+## #109 · SWCH · SwissCheese
+
+### 2.5 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A $2M tokenised-stock token with no revenue, an unverifiable team and mint-line wallets feeding exchanges.
+- 📄 [Full SWCH report](SWCH.md)
+
+---
+
+## #110 · COTI · COTI
 
 ### 2.4 / 10 · ❌ FAIL
 
@@ -1456,7 +1508,7 @@ Score changes from that research:
 
 ---
 
-## #107 · H · Humanity Protocol
+## #111 · H · Humanity Protocol
 
 ### 2.4 / 10 · ❌ FAIL
 
@@ -1467,7 +1519,7 @@ Score changes from that research:
 
 ---
 
-## #108 · ROUTER · Solrouter
+## #112 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 

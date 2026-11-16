@@ -569,6 +569,11 @@
       "layout": "v3"
     },
     {
+      "id": "SWCH",
+      "path": "banking-rails/SWCH.md",
+      "layout": "v3"
+    },
+    {
       "id": "SYRUP",
       "path": "banking-rails/SYRUP.md",
       "layout": "v3"
@@ -609,6 +614,11 @@
       "layout": "v3"
     },
     {
+      "id": "WAN",
+      "path": "banking-rails/WAN.md",
+      "layout": "v3"
+    },
+    {
       "id": "XDB",
       "path": "banking-rails/XDB.md",
       "layout": "v3"
@@ -639,6 +649,11 @@
       "layout": "v3"
     },
     {
+      "id": "XVG",
+      "path": "banking-rails/XVG.md",
+      "layout": "v3"
+    },
+    {
       "id": "YELLOW",
       "path": "banking-rails/YELLOW.md",
       "layout": "v3"
@@ -646,6 +661,11 @@
     {
       "id": "ZAMA",
       "path": "banking-rails/ZAMA.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ZANO",
+      "path": "banking-rails/ZANO.md",
       "layout": "v3"
     },
     {
