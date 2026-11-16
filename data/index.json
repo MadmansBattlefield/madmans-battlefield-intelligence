@@ -404,6 +404,11 @@
       "layout": "v3"
     },
     {
+      "id": "OM",
+      "path": "banking-rails/OM.md",
+      "layout": "v3"
+    },
+    {
       "id": "ONDO",
       "path": "banking-rails/ONDO.md",
       "layout": "v3"
@@ -446,6 +451,11 @@
     {
       "id": "REQ",
       "path": "banking-rails/REQ.md",
+      "layout": "v3"
+    },
+    {
+      "id": "RLC",
+      "path": "banking-rails/RLC.md",
       "layout": "v3"
     },
     {
@@ -569,6 +579,11 @@
       "layout": "v3"
     },
     {
+      "id": "YELLOW",
+      "path": "banking-rails/YELLOW.md",
+      "layout": "v3"
+    },
+    {
       "id": "ZAMA",
       "path": "banking-rails/ZAMA.md",
       "layout": "v3"
@@ -596,6 +611,11 @@
     {
       "id": "ZK",
       "path": "banking-rails/ZK.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ZKC",
+      "path": "banking-rails/ZKC.md",
       "layout": "v3"
     },
     {
