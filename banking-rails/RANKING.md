@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 38
+scored_reports: 43
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -41,30 +41,42 @@ Ties are broken by how many of the 11 sections passed.
 18. 🔴 **ADA** · 5.1 · ❌ FAIL
 19. 🔴 **ALGO** · 5.0 · ❌ FAIL
 20. 🔴 **APT** · 5.0 · ❌ FAIL
-21. 🔴 **QUAI** · 4.9 · ❌ FAIL
-22. 🔴 **DASH** · 4.7 · ❌ FAIL
-23. 🔴 **ONDO** · 4.7 · ❌ FAIL
-24. 🔴 **CELO** · 4.7 · ❌ FAIL
-25. 🔴 **CARDS** · 4.7 · ❌ FAIL
-26. 🔴 **QNT** · 4.6 · ❌ FAIL
-27. 🔴 **MNT** · 4.5 · ❌ FAIL
-28. 🔴 **ZBCN** · 4.3 · ❌ FAIL
-29. 🔴 **SEI** · 4.0 · ❌ FAIL
-30. 🔴 **ROSE** · 3.8 · ❌ FAIL
-31. 🔴 **PLUME** · 3.7 · ❌ FAIL
-32. 🔴 **ZIG** · 3.3 · ❌ FAIL
-33. 🔴 **PACT** · 3.1 · ❌ FAIL
-34. 🔴 **JASMY** · 2.8 · ❌ FAIL
-35. 🔴 **SERV** · 2.8 · ❌ FAIL
-36. 🔴 **EDEL** · 2.5 · ❌ FAIL
-37. 🔴 **SPA** · 2.5 · ❌ FAIL
-38. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+21. 🔴 **ZEC** · 4.9 · ❌ FAIL
+22. 🔴 **QUAI** · 4.9 · ❌ FAIL
+23. 🔴 **DASH** · 4.7 · ❌ FAIL
+24. 🔴 **ONDO** · 4.7 · ❌ FAIL
+25. 🔴 **CELO** · 4.7 · ❌ FAIL
+26. 🔴 **API3** · 4.7 · ❌ FAIL
+27. 🔴 **CARDS** · 4.7 · ❌ FAIL
+28. 🔴 **QNT** · 4.6 · ❌ FAIL
+29. 🔴 **MNT** · 4.5 · ❌ FAIL
+30. 🔴 **ICP** · 4.3 · ❌ FAIL
+31. 🔴 **ZBCN** · 4.3 · ❌ FAIL
+32. 🔴 **SEI** · 4.0 · ❌ FAIL
+33. 🔴 **INJ** · 3.9 · ❌ FAIL
+34. 🔴 **ROSE** · 3.8 · ❌ FAIL
+35. 🔴 **PLUME** · 3.7 · ❌ FAIL
+36. 🔴 **SUI** · 3.7 · ❌ FAIL
+37. 🔴 **ZIG** · 3.3 · ❌ FAIL
+38. 🔴 **PACT** · 3.1 · ❌ FAIL
+39. 🔴 **JASMY** · 2.8 · ❌ FAIL
+40. 🔴 **SERV** · 2.8 · ❌ FAIL
+41. 🔴 **EDEL** · 2.5 · ❌ FAIL
+42. 🔴 **SPA** · 2.5 · ❌ FAIL
+43. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**7 of 38 pass.**
+**7 of 43 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Five more v3 reports (third batch of the day), all ❌ FAIL: [ZEC](ZEC.md) enters at #21 with 4.9 / 10 (Revenue gate), [API3](API3.md) at #26 with 4.7 (Selling gate), [ICP](ICP.md) at #30 with 4.3 (Revenue gate), [INJ](INJ.md) at #33 with 3.9 (Revenue gate) and [SUI](SUI.md) at #36 with 3.7 (Revenue and Selling gates). API3 and INJ were checked against Arkham labels before ranking; Arkham does not cover Sui, ICP or Zcash addresses. No score changed from the Arkham pass:
+
+- [INJ](INJ.md): the wallet behind the 650K INJ Binance deposits on Dec 2020 pump days, `0x7ee1…`, is GSR Markets, a market maker funded by the mint wallet, not an Injective wallet. That flow is now described as treasury-funded market-maker flow. Arkham also files the funders of the 2022 and 2023–24 pump-day flows under Injective, and labels `0x7e23…` "Injective: Treasury" (the 6M Binance deposit, Aug 2022). Selling stays 4.
+- [API3](API3.md): Arkham labels the sender "API3: V1 Treasury" and the receiver a Binance deposit, which supports the Selling gate. The two large unlabelled top holders are Upbit cold storage and Coinbase Prime custody (exchanges, not insiders). The loan market maker is still unnamed.
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Five more v3 reports (second batch of the day), all ❌ FAIL: [ADA](ADA.md) enters at #18 with 5.1 / 10 (Revenue gate), [CARDS](CARDS.md) at #25 with 4.7, [ROSE](ROSE.md) at #30 with 3.8 (Revenue gate), [ZIG](ZIG.md) at #32 with 3.3 (Revenue and Selling gates) and [SPA](SPA.md) at #37 with 2.5 (Revenue and Selling gates). CARDS, SPA and ZIG were checked against Arkham labels before ranking; Arkham does not cover Cardano (ADA) or Oasis (ROSE). No score changed from the Arkham pass:
 
@@ -319,7 +331,18 @@ Score changes from that research:
 
 ---
 
-## #21 · QUAI · Quai Network
+## #21 · ZEC · Zcash
+
+### 4.9 / 10 · ❌ FAIL
+
+- **Sections passed:** 6 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Bitcoin-style supply with optional privacy and a US ETF, but almost no fee revenue, dev funding that disappears into the shielded pool once spent, and a hard EU deadline in July 2027. Arkham does not cover Zcash.
+- 📄 [Full ZEC report](ZEC.md)
+
+---
+
+## #22 · QUAI · Quai Network
 
 ### 4.9 / 10 · ❌ FAIL
 
@@ -330,7 +353,7 @@ Score changes from that research:
 
 ---
 
-## #22 · DASH · Dash
+## #23 · DASH · Dash
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -341,7 +364,7 @@ Score changes from that research:
 
 ---
 
-## #23 · ONDO · Ondo
+## #24 · ONDO · Ondo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -352,7 +375,7 @@ Score changes from that research:
 
 ---
 
-## #24 · CELO · Celo
+## #25 · CELO · Celo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -363,7 +386,18 @@ Score changes from that research:
 
 ---
 
-## #25 · CARDS · Collector Crypt
+## #26 · API3 · Api3
+
+### 4.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Selling
+- **Verdict:** A fixed 200M supply and an unusually open treasury page, but the legacy treasury (Arkham: "API3: V1 Treasury") sent API3 into a Binance deposit on two 2024 pump days, and a DAO multisig funded a wallet that hit Binance within the hour on a 2026 pump day. Revenue is about $45K a year.
+- 📄 [Full API3 report](API3.md)
+
+---
+
+## #27 · CARDS · Collector Crypt
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -374,7 +408,7 @@ Score changes from that research:
 
 ---
 
-## #26 · QNT · Quant
+## #28 · QNT · Quant
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -385,7 +419,7 @@ Score changes from that research:
 
 ---
 
-## #27 · MNT · Mantle
+## #29 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -396,7 +430,18 @@ Score changes from that research:
 
 ---
 
-## #28 · ZBCN · Zebec Network
+## #30 · ICP · Internet Computer
+
+### 4.3 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Heavily built technology with almost no token revenue (~$1.9M of cycles burned a year against ~19M ICP of new rewards), and a 2021 genesis Treasury (107M ICP, DFINITY per Arkham's 2021 report) that sent millions straight into Coinbase deposit accounts. Arkham's explorer does not cover ICP.
+- 📄 [Full ICP report](ICP.md)
+
+---
+
+## #31 · ZBCN · Zebec Network
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -407,7 +452,7 @@ Score changes from that research:
 
 ---
 
-## #29 · SEI · Sei
+## #32 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -418,7 +463,18 @@ Score changes from that research:
 
 ---
 
-## #30 · ROSE · Oasis Network
+## #33 · INJ · Injective
+
+### 3.9 / 10 · ❌ FAIL
+
+- **Sections passed:** 2 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Real supply is 123.8M, not 100M; fees are ~$3.2M a year; core code went closed-source after a ~$4.9M exploit. The genesis tree (Arkham: "Injective: Mint", "Injective: Treasury") fed Binance deposits for years, including 2020 pump-day flow through market maker GSR Markets.
+- 📄 [Full INJ report](INJ.md)
+
+---
+
+## #34 · ROSE · Oasis Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -429,7 +485,7 @@ Score changes from that research:
 
 ---
 
-## #31 · PLUME · Plume
+## #35 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -440,7 +496,18 @@ Score changes from that research:
 
 ---
 
-## #32 · ZIG · ZIGChain (Zignaly)
+## #36 · SUI · Sui
+
+### 3.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** Strong technology and Wall Street access, but almost no fee revenue, a foundation wallet holding a sixth of supply, and a foundation-funded wallet chain that keeps feeding Binance, often on pump days. Arkham does not cover Sui.
+- 📄 [Full SUI report](SUI.md)
+
+---
+
+## #37 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -451,7 +518,7 @@ Score changes from that research:
 
 ---
 
-## #33 · PACT · PACT
+## #38 · PACT · PACT
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -462,7 +529,7 @@ Score changes from that research:
 
 ---
 
-## #34 · JASMY · JasmyCoin
+## #39 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -473,7 +540,7 @@ Score changes from that research:
 
 ---
 
-## #35 · SERV · OpenServ
+## #40 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -484,7 +551,7 @@ Score changes from that research:
 
 ---
 
-## #36 · EDEL · Edel Finance
+## #41 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -495,7 +562,7 @@ Score changes from that research:
 
 ---
 
-## #37 · SPA · Sperax
+## #42 · SPA · Sperax
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -506,7 +573,7 @@ Score changes from that research:
 
 ---
 
-## #38 · ROUTER · Solrouter
+## #43 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 

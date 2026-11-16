@@ -164,6 +164,11 @@
       "layout": "v3"
     },
     {
+      "id": "API3",
+      "path": "banking-rails/API3.md",
+      "layout": "v3"
+    },
+    {
       "id": "APT",
       "path": "banking-rails/APT.md",
       "layout": "v3"
@@ -226,6 +231,16 @@
     {
       "id": "HBAR",
       "path": "banking-rails/HBAR.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ICP",
+      "path": "banking-rails/ICP.md",
+      "layout": "v3"
+    },
+    {
+      "id": "INJ",
+      "path": "banking-rails/INJ.md",
       "layout": "v3"
     },
     {
@@ -309,6 +324,11 @@
       "layout": "v3"
     },
     {
+      "id": "SUI",
+      "path": "banking-rails/SUI.md",
+      "layout": "v3"
+    },
+    {
       "id": "TAO",
       "path": "banking-rails/TAO.md",
       "layout": "v3"
@@ -326,6 +346,11 @@
     {
       "id": "ZBCN",
       "path": "banking-rails/ZBCN.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ZEC",
+      "path": "banking-rails/ZEC.md",
       "layout": "v3"
     },
     {
