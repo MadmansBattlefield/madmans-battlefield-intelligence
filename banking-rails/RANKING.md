@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 33
+scored_reports: 38
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -38,28 +38,41 @@ Ties are broken by how many of the 11 sections passed.
 15. 🔴 **ZRO** · 5.3 · ❌ FAIL
 16. 🔴 **BP** · 5.2 · ❌ FAIL
 17. 🔴 **XRP** · 5.1 · ❌ FAIL
-18. 🔴 **ALGO** · 5.0 · ❌ FAIL
-19. 🔴 **APT** · 5.0 · ❌ FAIL
-20. 🔴 **QUAI** · 4.9 · ❌ FAIL
-21. 🔴 **DASH** · 4.7 · ❌ FAIL
-22. 🔴 **ONDO** · 4.7 · ❌ FAIL
-23. 🔴 **CELO** · 4.7 · ❌ FAIL
-24. 🔴 **QNT** · 4.6 · ❌ FAIL
-25. 🔴 **MNT** · 4.5 · ❌ FAIL
-26. 🔴 **ZBCN** · 4.3 · ❌ FAIL
-27. 🔴 **SEI** · 4.0 · ❌ FAIL
-28. 🔴 **PLUME** · 3.7 · ❌ FAIL
-29. 🔴 **PACT** · 3.1 · ❌ FAIL
-30. 🔴 **JASMY** · 2.8 · ❌ FAIL
-31. 🔴 **SERV** · 2.8 · ❌ FAIL
-32. 🔴 **EDEL** · 2.5 · ❌ FAIL
-33. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+18. 🔴 **ADA** · 5.1 · ❌ FAIL
+19. 🔴 **ALGO** · 5.0 · ❌ FAIL
+20. 🔴 **APT** · 5.0 · ❌ FAIL
+21. 🔴 **QUAI** · 4.9 · ❌ FAIL
+22. 🔴 **DASH** · 4.7 · ❌ FAIL
+23. 🔴 **ONDO** · 4.7 · ❌ FAIL
+24. 🔴 **CELO** · 4.7 · ❌ FAIL
+25. 🔴 **CARDS** · 4.7 · ❌ FAIL
+26. 🔴 **QNT** · 4.6 · ❌ FAIL
+27. 🔴 **MNT** · 4.5 · ❌ FAIL
+28. 🔴 **ZBCN** · 4.3 · ❌ FAIL
+29. 🔴 **SEI** · 4.0 · ❌ FAIL
+30. 🔴 **ROSE** · 3.8 · ❌ FAIL
+31. 🔴 **PLUME** · 3.7 · ❌ FAIL
+32. 🔴 **ZIG** · 3.3 · ❌ FAIL
+33. 🔴 **PACT** · 3.1 · ❌ FAIL
+34. 🔴 **JASMY** · 2.8 · ❌ FAIL
+35. 🔴 **SERV** · 2.8 · ❌ FAIL
+36. 🔴 **EDEL** · 2.5 · ❌ FAIL
+37. 🔴 **SPA** · 2.5 · ❌ FAIL
+38. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**7 of 33 pass.**
+**7 of 38 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Five more v3 reports (second batch of the day), all ❌ FAIL: [ADA](ADA.md) enters at #18 with 5.1 / 10 (Revenue gate), [CARDS](CARDS.md) at #25 with 4.7, [ROSE](ROSE.md) at #30 with 3.8 (Revenue gate), [ZIG](ZIG.md) at #32 with 3.3 (Revenue and Selling gates) and [SPA](SPA.md) at #37 with 2.5 (Revenue and Selling gates). CARDS, SPA and ZIG were checked against Arkham labels before ranking; Arkham does not cover Cardano (ADA) or Oasis (ROSE). No score changed from the Arkham pass:
+
+- [SPA](SPA.md): the 398.9M holder `0x5c2f…` is Coinbase-held per Arkham and was never counted as team. Arkham strengthens the fails: the Safes' funder is speraxfoundation.eth, and the pump-day multisend's third 10M went to a KuCoin deposit (50M in total).
+- [ZIG](ZIG.md): Bybit deposit confirmed by a second source; Safe signers tie to Zignaly's deployer; an earlier Safe-sourced branch reached HTX and Gate deposits in 2022 (not pump days).
+- [CARDS](CARDS.md): a 60M treasury-paid branch ends at Fireblocks custody that sends to GSR Markets (undisclosed market-maker route, yellow flag).
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Five new v3 reports: [SKY](SKY.md) enters at #4 with 6.8 / 10 (✅ PASS), [ENA](ENA.md) at #9 with 5.6 (❌ FAIL, Revenue gate), [JST](JST.md) at #13 with 5.5 (❌ FAIL), [QUAI](QUAI.md) at #20 with 4.9 (❌ FAIL) and [PACT](PACT.md) at #29 with 3.1 (❌ FAIL, Revenue and Selling gates). SKY, ENA and JST were checked against Arkham labels before ranking; Arkham does not cover Aptos (PACT) or Quai.
 
@@ -273,7 +286,18 @@ Score changes from that research:
 
 ---
 
-## #18 · ALGO · Algorand
+## #18 · ADA · Cardano
+
+### 5.1 / 10 · ❌ FAIL
+
+- **Sections passed:** 6 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A large, liquid, well-engineered proof-of-stake chain that earns almost nothing (≈ $0.92M of chain fees a year on a $5.7B cap). On-chain governance has paid 804M ADA out of the treasury, including 50M to a VC fund that left its receiving wallet within days and 8.1M for listings and market making.
+- 📄 [Full ADA report](ADA.md)
+
+---
+
+## #19 · ALGO · Algorand
 
 ### 5.0 / 10 · ❌ FAIL
 
@@ -284,7 +308,7 @@ Score changes from that research:
 
 ---
 
-## #19 · APT · Aptos
+## #20 · APT · Aptos
 
 ### 5.0 / 10 · ❌ FAIL
 
@@ -295,7 +319,7 @@ Score changes from that research:
 
 ---
 
-## #20 · QUAI · Quai Network
+## #21 · QUAI · Quai Network
 
 ### 4.9 / 10 · ❌ FAIL
 
@@ -306,7 +330,7 @@ Score changes from that research:
 
 ---
 
-## #21 · DASH · Dash
+## #22 · DASH · Dash
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -317,7 +341,7 @@ Score changes from that research:
 
 ---
 
-## #22 · ONDO · Ondo
+## #23 · ONDO · Ondo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -328,7 +352,7 @@ Score changes from that research:
 
 ---
 
-## #23 · CELO · Celo
+## #24 · CELO · Celo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -339,7 +363,18 @@ Score changes from that research:
 
 ---
 
-## #24 · QNT · Quant
+## #25 · CARDS · Collector Crypt
+
+### 4.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 2 of 11
+- **Hard gates failed:** none
+- **Verdict:** A real gacha-pack business (≈ $106M of net revenue in 12 months), but only ~0.4% reaches the token through buy-and-burn. The company multisig holds 54.8% of supply, unlocked; 7M treasury CARDS went to Coinbase on 6 Nov 2026 without notice, and Arkham shows a 60M treasury-paid branch ending at custody that feeds GSR Markets.
+- 📄 [Full CARDS report](CARDS.md)
+
+---
+
+## #26 · QNT · Quant
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -350,7 +385,7 @@ Score changes from that research:
 
 ---
 
-## #25 · MNT · Mantle
+## #27 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -361,7 +396,7 @@ Score changes from that research:
 
 ---
 
-## #26 · ZBCN · Zebec Network
+## #28 · ZBCN · Zebec Network
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -372,7 +407,7 @@ Score changes from that research:
 
 ---
 
-## #27 · SEI · Sei
+## #29 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -383,7 +418,18 @@ Score changes from that research:
 
 ---
 
-## #28 · PLUME · Plume
+## #30 · ROSE · Oasis Network
+
+### 3.8 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Real privacy tech (Sapphire) with almost no paid usage: no tracked fees, $0.39M in DeFi and thin volume, while about 56M ROSE unlocks every quarter until Nov 2030. The Foundation publishes no wallet list, and Arkham does not cover Oasis.
+- 📄 [Full ROSE report](ROSE.md)
+
+---
+
+## #31 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -394,7 +440,18 @@ Score changes from that research:
 
 ---
 
-## #29 · PACT · PACT
+## #32 · ZIG · ZIGChain (Zignaly)
+
+### 3.3 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A small Cosmos/EVM chain (~$4M TVL) with no measured token revenue. A Safe run by Zignaly deployer-linked signers paid 335.67M ZIG (≈ 17% of the then-supply) into a Bybit deposit in Jan 2024, earlier Safe-sourced ZIG reached HTX and Gate deposits, the cap rose from 2.0B to 2.5B, and ~94% of reported volume is one BSC pool.
+- 📄 [Full ZIG report](ZIG.md)
+
+---
+
+## #33 · PACT · PACT
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -405,7 +462,7 @@ Score changes from that research:
 
 ---
 
-## #30 · JASMY · JasmyCoin
+## #34 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -416,7 +473,7 @@ Score changes from that research:
 
 ---
 
-## #31 · SERV · OpenServ
+## #35 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -427,7 +484,7 @@ Score changes from that research:
 
 ---
 
-## #32 · EDEL · Edel Finance
+## #36 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -438,7 +495,18 @@ Score changes from that research:
 
 ---
 
-## #33 · ROUTER · Solrouter
+## #37 · SPA · Sperax
+
+### 2.5 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A $3.75M token with about $12K a year in fees. A third of supply sits in Safes run by speraxfoundation.eth (Arkham), one of which paid 50M SPA into Coinbase, Gate and KuCoin deposits on a +51% pump day in May 2023; the treasury relay kept feeding exchange deposits in 2026, once on a pump day.
+- 📄 [Full SPA report](SPA.md)
+
+---
+
+## #38 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 

@@ -1,7 +1,7 @@
 ---
 title: All projects
 total: 293
-scored_reports: 33
+scored_reports: 38
 passing: 7
 last_updated: 2026-11-16
 timezone: MST
@@ -14,9 +14,9 @@ disclaimer: Research only. Not financial advice. Not a recommendation to buy or 
 **Research only. Not financial advice. Not a recommendation to buy or sell.**
 Updated 16 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md). Market and status figures in the unfinished groups were read 16 Nov 2026 5:24 AM MST from [CoinGecko](https://www.coingecko.com/), [DefiLlama](https://defillama.com/) and [CoinPaprika](https://coinpaprika.com/).
 
-**293 coins** in the research pipeline. **33** have a full v3 report. **7 pass** and **26 fail.** The other **260** are still in progress, grouped by how close each is to a full report.
+**293 coins** in the research pipeline. **38** have a full v3 report. **7 pass** and **31 fail.** The other **255** are still in progress, grouped by how close each is to a full report.
 
-**33** ✅ done · **16** 🟢 close · **183** 🟡 need wallet work · **35** 🔴 big gaps · **26** ⚫ dead or wound down (12 of them [Unverified])
+**38** ✅ done · **11** 🟢 close · **183** 🟡 need wallet work · **35** 🔴 big gaps · **26** ⚫ dead or wound down (12 of them [Unverified])
 
 - [✅ Done (v3 reports)](#done)
 - [🟢 Close](#close)
@@ -36,7 +36,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 <a id="done"></a>
 ## ✅ Done (v3 reports)
 
-**33 reports. 7 pass, 26 fail.** A score of 6.0 or more is a PASS. If Revenue or Selling scores 3 or less, it's an automatic FAIL.
+**38 reports. 7 pass, 31 fail.** A score of 6.0 or more is a PASS. If Revenue or Selling scores 3 or less, it's an automatic FAIL.
 
 | # | Coin | Name | Score | Status | What sinks it |
 |:---:|---|---|---:|:---:|---|
@@ -57,37 +57,37 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 15 | [ZRO](ZRO.md) | LayerZero | 5.3 | ❌ FAIL | Low overall |
 | 16 | [BP](BP.md) | Backpack | 5.2 | ❌ FAIL | Revenue gate |
 | 17 | [XRP](XRP.md) | XRP | 5.1 | ❌ FAIL | Revenue gate |
-| 18 | [ALGO](ALGO.md) | Algorand | 5.0 | ❌ FAIL | Revenue gate |
-| 19 | [APT](APT.md) | Aptos | 5.0 | ❌ FAIL | Revenue gate |
-| 20 | [QUAI](QUAI.md) | Quai Network | 4.9 | ❌ FAIL | Low overall |
-| 21 | [DASH](DASH.md) | Dash | 4.7 | ❌ FAIL | Revenue gate |
-| 22 | [ONDO](ONDO.md) | Ondo | 4.7 | ❌ FAIL | Revenue gate |
-| 23 | [CELO](CELO.md) | Celo | 4.7 | ❌ FAIL | Revenue gate |
-| 24 | [QNT](QNT.md) | Quant | 4.6 | ❌ FAIL | Selling gate |
-| 25 | [MNT](MNT.md) | Mantle | 4.5 | ❌ FAIL | Revenue gate |
-| 26 | [ZBCN](ZBCN.md) | Zebec Network | 4.3 | ❌ FAIL | Selling gate |
-| 27 | [SEI](SEI.md) | Sei | 4.0 | ❌ FAIL | Revenue gate |
-| 28 | [PLUME](PLUME.md) | Plume | 3.7 | ❌ FAIL | Revenue gate |
-| 29 | [PACT](PACT.md) | PACT | 3.1 | ❌ FAIL | Revenue and Selling gates |
-| 30 | [JASMY](JASMY.md) | JasmyCoin | 2.8 | ❌ FAIL | Revenue and Selling gates |
-| 31 | [SERV](SERV.md) | OpenServ | 2.8 | ❌ FAIL | Revenue and Selling gates |
-| 32 | [EDEL](EDEL.md) | Edel Finance | 2.5 | ❌ FAIL | Revenue and Selling gates |
-| 33 | [ROUTER](ROUTER.md) | Solrouter | 2.2 | ❌ FAIL | Revenue and Selling gates |
+| 18 | [ADA](ADA.md) | Cardano | 5.1 | ❌ FAIL | Revenue gate |
+| 19 | [ALGO](ALGO.md) | Algorand | 5.0 | ❌ FAIL | Revenue gate |
+| 20 | [APT](APT.md) | Aptos | 5.0 | ❌ FAIL | Revenue gate |
+| 21 | [QUAI](QUAI.md) | Quai Network | 4.9 | ❌ FAIL | Low overall |
+| 22 | [DASH](DASH.md) | Dash | 4.7 | ❌ FAIL | Revenue gate |
+| 23 | [ONDO](ONDO.md) | Ondo | 4.7 | ❌ FAIL | Revenue gate |
+| 24 | [CELO](CELO.md) | Celo | 4.7 | ❌ FAIL | Revenue gate |
+| 25 | [CARDS](CARDS.md) | Collector Crypt | 4.7 | ❌ FAIL | Low overall |
+| 26 | [QNT](QNT.md) | Quant | 4.6 | ❌ FAIL | Selling gate |
+| 27 | [MNT](MNT.md) | Mantle | 4.5 | ❌ FAIL | Revenue gate |
+| 28 | [ZBCN](ZBCN.md) | Zebec Network | 4.3 | ❌ FAIL | Selling gate |
+| 29 | [SEI](SEI.md) | Sei | 4.0 | ❌ FAIL | Revenue gate |
+| 30 | [ROSE](ROSE.md) | Oasis Network | 3.8 | ❌ FAIL | Revenue gate |
+| 31 | [PLUME](PLUME.md) | Plume | 3.7 | ❌ FAIL | Revenue gate |
+| 32 | [ZIG](ZIG.md) | ZIGChain (Zignaly) | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 33 | [PACT](PACT.md) | PACT | 3.1 | ❌ FAIL | Revenue and Selling gates |
+| 34 | [JASMY](JASMY.md) | JasmyCoin | 2.8 | ❌ FAIL | Revenue and Selling gates |
+| 35 | [SERV](SERV.md) | OpenServ | 2.8 | ❌ FAIL | Revenue and Selling gates |
+| 36 | [EDEL](EDEL.md) | Edel Finance | 2.5 | ❌ FAIL | Revenue and Selling gates |
+| 37 | [SPA](SPA.md) | Sperax | 2.5 | ❌ FAIL | Revenue and Selling gates |
+| 38 | [ROUTER](ROUTER.md) | Solrouter | 2.2 | ❌ FAIL | Revenue and Selling gates |
 
 ---
 
 <a id="close"></a>
 ## 🟢 Close
 
-**16 coins.** Most of the data is already in hand. The first 15 are next in the [Next up](#next) list.
+**11 coins.** Most of the data is already in hand. The first 15 are next in the [Next up](#next) list.
 
 | Ticker | Name | Mcap | 24h vol | 30d fees | 30d rev | Red flag | Links | What's missing | Queue |
 |---|---|---:|---:|---:|---:|---|---|---|---|
-| **CARDS** | Collector Crypt | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=CARDS) | Missing: Liq, Reg · Partial: Team, Sell, Prod, Sec | In progress |
-| **ZIG** | ZIGChain | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=ZIG) | Missing: Liq, Reg · Partial: Rev, Team, Sell, Sec | In progress |
-| **ADA** | Cardano | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=ADA) | Missing: Liq, Reg · Partial: Team, Sell, Sec | In progress |
-| **ROSE** | Oasis Network | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=ROSE) | Missing: Rev, Liq, Reg · Partial: Sell, Sec | In progress |
-| **SPA** | Sperax | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=SPA) | Missing: Liq, Reg · Partial: Team, Sell, Sec | In progress |
 | **DOT** | Polkadot | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=DOT) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | In progress |
 | **POLYX** | Polymesh | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=POLYX) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | In progress |
 | **INV** | Inverse Finance | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=INV) | Missing: Liq, Reg · Partial: Sell, Adopt, Sec | In progress |
@@ -387,7 +387,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 4. **JST** · JUST
 5. **QUAI** · Quai Network
 6. **CARDS** · Collector Crypt
-7. **ZIG** · ZIGChain
+7. **ZIG** · ZIGChain (Zignaly)
 8. **ADA** · Cardano
 9. **ROSE** · Oasis Network
 10. **SPA** · Sperax

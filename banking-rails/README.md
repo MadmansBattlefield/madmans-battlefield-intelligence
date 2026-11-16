@@ -9,7 +9,7 @@ Research notes on tokens and protocols around digital settlement, payroll, token
 
 Not financial advice. Research only. Times are in **MST**.
 
-**Start here:** [Cover sheet](COVER.md) (why this exists, methodology, what we look at) · [Ranking](RANKING.md) (all 33 v3 scores, ranked) · [All projects](ALL-PROJECTS.md) (every name in the pipeline, including those still in progress)
+**Start here:** [Cover sheet](COVER.md) (why this exists, methodology, what we look at) · [Ranking](RANKING.md) (all 38 v3 scores, ranked) · [All projects](ALL-PROJECTS.md) (every name in the pipeline, including those still in progress)
 
 ## 📐 Report layout (v3)
 
@@ -50,22 +50,27 @@ Every token in this folder has a full v3 scored report:
 | 15 | [ZRO.md](ZRO.md) | LayerZero | **5.3 / 10 · ❌ FAIL** |
 | 16 | [BP.md](BP.md) | Backpack | **5.2 / 10 · ❌ FAIL** |
 | 17 | [XRP.md](XRP.md) | XRP | **5.1 / 10 · ❌ FAIL** |
-| 18 | [ALGO.md](ALGO.md) | Algorand | **5.0 / 10 · ❌ FAIL** |
-| 19 | [APT.md](APT.md) | Aptos | **5.0 / 10 · ❌ FAIL** |
-| 20 | [QUAI.md](QUAI.md) | Quai Network | **4.9 / 10 · ❌ FAIL** |
-| 21 | [DASH.md](DASH.md) | Dash | **4.7 / 10 · ❌ FAIL** |
-| 22 | [ONDO.md](ONDO.md) | Ondo | **4.7 / 10 · ❌ FAIL** |
-| 23 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
-| 24 | [QNT.md](QNT.md) | Quant | **4.6 / 10 · ❌ FAIL** |
-| 25 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
-| 26 | [ZBCN.md](ZBCN.md) | Zebec Network | **4.3 / 10 · ❌ FAIL** |
-| 27 | [SEI.md](SEI.md) | Sei | **4.0 / 10 · ❌ FAIL** |
-| 28 | [PLUME.md](PLUME.md) | Plume | **3.7 / 10 · ❌ FAIL** |
-| 29 | [PACT.md](PACT.md) | PACT | **3.1 / 10 · ❌ FAIL** |
-| 30 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
-| 31 | [SERV.md](SERV.md) | OpenServ | **2.8 / 10 · ❌ FAIL** |
-| 32 | [EDEL.md](EDEL.md) | Edel Finance | **2.5 / 10 · ❌ FAIL** |
-| 33 | [ROUTER.md](ROUTER.md) | Solrouter | **2.2 / 10 · ❌ FAIL** |
+| 18 | [ADA.md](ADA.md) | Cardano | **5.1 / 10 · ❌ FAIL** |
+| 19 | [ALGO.md](ALGO.md) | Algorand | **5.0 / 10 · ❌ FAIL** |
+| 20 | [APT.md](APT.md) | Aptos | **5.0 / 10 · ❌ FAIL** |
+| 21 | [QUAI.md](QUAI.md) | Quai Network | **4.9 / 10 · ❌ FAIL** |
+| 22 | [DASH.md](DASH.md) | Dash | **4.7 / 10 · ❌ FAIL** |
+| 23 | [ONDO.md](ONDO.md) | Ondo | **4.7 / 10 · ❌ FAIL** |
+| 24 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
+| 25 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
+| 26 | [QNT.md](QNT.md) | Quant | **4.6 / 10 · ❌ FAIL** |
+| 27 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
+| 28 | [ZBCN.md](ZBCN.md) | Zebec Network | **4.3 / 10 · ❌ FAIL** |
+| 29 | [SEI.md](SEI.md) | Sei | **4.0 / 10 · ❌ FAIL** |
+| 30 | [ROSE.md](ROSE.md) | Oasis Network | **3.8 / 10 · ❌ FAIL** |
+| 31 | [PLUME.md](PLUME.md) | Plume | **3.7 / 10 · ❌ FAIL** |
+| 32 | [ZIG.md](ZIG.md) | ZIGChain (Zignaly) | **3.3 / 10 · ❌ FAIL** |
+| 33 | [PACT.md](PACT.md) | PACT | **3.1 / 10 · ❌ FAIL** |
+| 34 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
+| 35 | [SERV.md](SERV.md) | OpenServ | **2.8 / 10 · ❌ FAIL** |
+| 36 | [EDEL.md](EDEL.md) | Edel Finance | **2.5 / 10 · ❌ FAIL** |
+| 37 | [SPA.md](SPA.md) | Sperax | **2.5 / 10 · ❌ FAIL** |
+| 38 | [ROUTER.md](ROUTER.md) | Solrouter | **2.2 / 10 · ❌ FAIL** |
 | — | [other-tokens.md](other-tokens.md) | Shorter notes on other researched names | unscored |
 
 Notes are condensed from on-chain reads, official docs, regulator filings, and the [daily](../daily/) market series. Status and scores were last set on 16 Nov 2026.

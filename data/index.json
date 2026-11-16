@@ -149,6 +149,11 @@
   ],
   "token_notes": [
     {
+      "id": "ADA",
+      "path": "banking-rails/ADA.md",
+      "layout": "v3"
+    },
+    {
       "id": "AERO",
       "path": "banking-rails/AERO.md",
       "layout": "v3"
@@ -181,6 +186,11 @@
     {
       "id": "BTC",
       "path": "banking-rails/BTC.md",
+      "layout": "v3"
+    },
+    {
+      "id": "CARDS",
+      "path": "banking-rails/CARDS.md",
       "layout": "v3"
     },
     {
@@ -264,6 +274,11 @@
       "layout": "v3"
     },
     {
+      "id": "ROSE",
+      "path": "banking-rails/ROSE.md",
+      "layout": "v3"
+    },
+    {
       "id": "ROUTER",
       "path": "banking-rails/ROUTER.md",
       "layout": "v3"
@@ -289,6 +304,11 @@
       "layout": "v3"
     },
     {
+      "id": "SPA",
+      "path": "banking-rails/SPA.md",
+      "layout": "v3"
+    },
+    {
       "id": "TAO",
       "path": "banking-rails/TAO.md",
       "layout": "v3"
@@ -306,6 +326,11 @@
     {
       "id": "ZBCN",
       "path": "banking-rails/ZBCN.md",
+      "layout": "v3"
+    },
+    {
+      "id": "ZIG",
+      "path": "banking-rails/ZIG.md",
       "layout": "v3"
     },
     {
