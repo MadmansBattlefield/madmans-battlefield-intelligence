@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 53
+scored_reports: 58
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -41,45 +41,56 @@ Ties are broken by how many of the 11 sections passed.
 18. 🔴 **BP** · 5.2 · ❌ FAIL
 19. 🔴 **XRP** · 5.1 · ❌ FAIL
 20. 🔴 **ADA** · 5.1 · ❌ FAIL
-21. 🔴 **ALGO** · 5.0 · ❌ FAIL
-22. 🔴 **APT** · 5.0 · ❌ FAIL
-23. 🔴 **ZEC** · 4.9 · ❌ FAIL
-24. 🔴 **QUAI** · 4.9 · ❌ FAIL
-25. 🔴 **DOT** · 4.9 · ❌ FAIL
-26. 🔴 **INV** · 4.8 · ❌ FAIL
-27. 🔴 **DASH** · 4.7 · ❌ FAIL
-28. 🔴 **ONDO** · 4.7 · ❌ FAIL
-29. 🔴 **CELO** · 4.7 · ❌ FAIL
-30. 🔴 **API3** · 4.7 · ❌ FAIL
-31. 🔴 **SOLV** · 4.7 · ❌ FAIL
-32. 🔴 **CARDS** · 4.7 · ❌ FAIL
-33. 🔴 **QNT** · 4.6 · ❌ FAIL
-34. 🔴 **MNT** · 4.5 · ❌ FAIL
-35. 🔴 **CFG** · 4.5 · ❌ FAIL
-36. 🔴 **HUMA** · 4.4 · ❌ FAIL
-37. 🔴 **ICP** · 4.3 · ❌ FAIL
-38. 🔴 **ZBCN** · 4.3 · ❌ FAIL
-39. 🔴 **TRAC** · 4.2 · ❌ FAIL
-40. 🔴 **SEI** · 4.0 · ❌ FAIL
-41. 🔴 **INJ** · 3.9 · ❌ FAIL
-42. 🔴 **ROSE** · 3.8 · ❌ FAIL
-43. 🔴 **PLUME** · 3.7 · ❌ FAIL
-44. 🔴 **SUI** · 3.7 · ❌ FAIL
-45. 🔴 **POLYX** · 3.3 · ❌ FAIL
-46. 🔴 **ZIG** · 3.3 · ❌ FAIL
-47. 🔴 **PACT** · 3.1 · ❌ FAIL
-48. 🔴 **EXA** · 3.1 · ❌ FAIL
-49. 🔴 **JASMY** · 2.8 · ❌ FAIL
-50. 🔴 **SERV** · 2.8 · ❌ FAIL
-51. 🔴 **EDEL** · 2.5 · ❌ FAIL
-52. 🔴 **SPA** · 2.5 · ❌ FAIL
-53. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+21. 🔴 **BCH** · 5.1 · ❌ FAIL
+22. 🔴 **ALGO** · 5.0 · ❌ FAIL
+23. 🔴 **APT** · 5.0 · ❌ FAIL
+24. 🔴 **ZEC** · 4.9 · ❌ FAIL
+25. 🔴 **QUAI** · 4.9 · ❌ FAIL
+26. 🔴 **DOT** · 4.9 · ❌ FAIL
+27. 🔴 **INV** · 4.8 · ❌ FAIL
+28. 🔴 **DASH** · 4.7 · ❌ FAIL
+29. 🔴 **ONDO** · 4.7 · ❌ FAIL
+30. 🔴 **CELO** · 4.7 · ❌ FAIL
+31. 🔴 **API3** · 4.7 · ❌ FAIL
+32. 🔴 **SOLV** · 4.7 · ❌ FAIL
+33. 🔴 **CARDS** · 4.7 · ❌ FAIL
+34. 🔴 **QNT** · 4.6 · ❌ FAIL
+35. 🔴 **MNT** · 4.5 · ❌ FAIL
+36. 🔴 **CFG** · 4.5 · ❌ FAIL
+37. 🔴 **HUMA** · 4.4 · ❌ FAIL
+38. 🔴 **ICP** · 4.3 · ❌ FAIL
+39. 🔴 **ZBCN** · 4.3 · ❌ FAIL
+40. 🔴 **TRAC** · 4.2 · ❌ FAIL
+41. 🔴 **SEI** · 4.0 · ❌ FAIL
+42. 🔴 **KAIA** · 3.9 · ❌ FAIL
+43. 🔴 **INJ** · 3.9 · ❌ FAIL
+44. 🔴 **ZK** · 3.8 · ❌ FAIL
+45. 🔴 **ROSE** · 3.8 · ❌ FAIL
+46. 🔴 **PLUME** · 3.7 · ❌ FAIL
+47. 🔴 **XPL** · 3.7 · ❌ FAIL
+48. 🔴 **SUI** · 3.7 · ❌ FAIL
+49. 🔴 **POLYX** · 3.3 · ❌ FAIL
+50. 🔴 **S** · 3.3 · ❌ FAIL
+51. 🔴 **ZIG** · 3.3 · ❌ FAIL
+52. 🔴 **PACT** · 3.1 · ❌ FAIL
+53. 🔴 **EXA** · 3.1 · ❌ FAIL
+54. 🔴 **JASMY** · 2.8 · ❌ FAIL
+55. 🔴 **SERV** · 2.8 · ❌ FAIL
+56. 🔴 **EDEL** · 2.5 · ❌ FAIL
+57. 🔴 **SPA** · 2.5 · ❌ FAIL
+58. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**8 of 53 pass.**
+**8 of 58 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Five more v3 reports (sixth batch of the day), all ❌ FAIL: [BCH](BCH.md) enters at #21 with 5.1 / 10 (Revenue gate), [KAIA](KAIA.md) at #42 with 3.9 (Revenue gate), [ZK](ZK.md) at #44 with 3.8 (Revenue and Selling gates), [XPL](XPL.md) at #47 with 3.7 (Revenue and Selling gates) and [S](S.md) at #50 with 3.3 (Revenue and Selling gates). Arkham does not support ZKsync Era, Plasma, Sonic, Kaia or Bitcoin Cash, so those five rest on chain explorers and official sources only. BCH has no insider wallets to check.
+
+- [ZEC](ZEC.md) correction: an earlier note said Arkham does not cover Zcash. It does index Zcash transparent addresses. It labels the dev-fund addresses (Zcash Foundation "Gemini Custody" addresses, the ZIP-271 Disbursement Multisig and the old ECC Development Fund). The "COINBASE" inflows Arkham shows are block-reward (coinbase) outputs, not the Coinbase exchange. Every outflow on the first pages goes to the shielded pool, with no exchange-bound transfer. Score unchanged at 4.9.
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Five more v3 reports (fifth batch of the day). **[SYRUP](SYRUP.md) is a new ✅ PASS**, entering at #8 with 6.3 / 10 (no gate; Selling 4 fails). Four fail: [ARB](ARB.md) at #9 with 5.8 (no gate, just below 6.0), [SOLV](SOLV.md) at #31 with 4.7 (no gate), [CFG](CFG.md) at #35 with 4.5 (Revenue gate) and [HUMA](HUMA.md) at #36 with 4.4 (Revenue gate). All five were checked against Arkham labels before ranking. No score changed, but several facts were corrected:
 
@@ -99,7 +110,7 @@ Five more v3 reports (fourth batch of the day), all ❌ FAIL: [DOT](DOT.md) ente
 
 Earlier on 16 Nov (ranks below are as of that update):
 
-Five more v3 reports (third batch of the day), all ❌ FAIL: [ZEC](ZEC.md) enters at #21 with 4.9 / 10 (Revenue gate), [API3](API3.md) at #26 with 4.7 (Selling gate), [ICP](ICP.md) at #30 with 4.3 (Revenue gate), [INJ](INJ.md) at #33 with 3.9 (Revenue gate) and [SUI](SUI.md) at #36 with 3.7 (Revenue and Selling gates). API3 and INJ were checked against Arkham labels before ranking; Arkham does not cover Sui, ICP or Zcash addresses. No score changed from the Arkham pass:
+Five more v3 reports (third batch of the day), all ❌ FAIL: [ZEC](ZEC.md) enters at #21 with 4.9 / 10 (Revenue gate), [API3](API3.md) at #26 with 4.7 (Selling gate), [ICP](ICP.md) at #30 with 4.3 (Revenue gate), [INJ](INJ.md) at #33 with 3.9 (Revenue gate) and [SUI](SUI.md) at #36 with 3.7 (Revenue and Selling gates). API3 and INJ were checked against Arkham labels before ranking; Arkham does not cover Sui or ICP addresses (Zcash was later found to be covered; see the sixth-batch note). No score changed from the Arkham pass:
 
 - [INJ](INJ.md): the wallet behind the 650K INJ Binance deposits on Dec 2020 pump days, `0x7ee1…`, is GSR Markets, a market maker funded by the mint wallet, not an Injective wallet. That flow is now described as treasury-funded market-maker flow. Arkham also files the funders of the 2022 and 2023–24 pump-day flows under Injective, and labels `0x7e23…` "Injective: Treasury" (the 6M Binance deposit, Aug 2022). Selling stays 4.
 - [API3](API3.md): Arkham labels the sender "API3: V1 Treasury" and the receiver a Binance deposit, which supports the Selling gate. The two large unlabelled top holders are Upbit cold storage and Coinbase Prime custody (exchanges, not insiders). The loan market maker is still unnamed.
@@ -359,7 +370,18 @@ Score changes from that research:
 
 ---
 
-## #21 · ALGO · Algorand
+## #21 · BCH · Bitcoin Cash
+
+### 5.1 / 10 · ❌ FAIL
+
+- **Sections passed:** 5 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Clean supply with no premine, dev fund or insider wallets, but no protocol revenue, little usage and only ~3.5 EH/s of rentable SHA-256 hashrate securing it. Arkham does not cover Bitcoin Cash, and there were no insider addresses to look up.
+- 📄 [Full BCH report](BCH.md)
+
+---
+
+## #22 · ALGO · Algorand
 
 ### 5.0 / 10 · ❌ FAIL
 
@@ -370,7 +392,7 @@ Score changes from that research:
 
 ---
 
-## #22 · APT · Aptos
+## #23 · APT · Aptos
 
 ### 5.0 / 10 · ❌ FAIL
 
@@ -381,18 +403,18 @@ Score changes from that research:
 
 ---
 
-## #23 · ZEC · Zcash
+## #24 · ZEC · Zcash
 
 ### 4.9 / 10 · ❌ FAIL
 
 - **Sections passed:** 6 of 11
 - **Hard gates failed:** Revenue
-- **Verdict:** Bitcoin-style supply with optional privacy and a US ETF, but almost no fee revenue, dev funding that disappears into the shielded pool once spent, and a hard EU deadline in July 2027. Arkham does not cover Zcash.
+- **Verdict:** Bitcoin-style supply with optional privacy and a US ETF, but almost no fee revenue, dev funding that disappears into the shielded pool once spent, and a hard EU deadline in July 2027. Arkham labels its dev-fund addresses; inflows are block rewards and outflows go to the shielded pool.
 - 📄 [Full ZEC report](ZEC.md)
 
 ---
 
-## #24 · QUAI · Quai Network
+## #25 · QUAI · Quai Network
 
 ### 4.9 / 10 · ❌ FAIL
 
@@ -403,7 +425,7 @@ Score changes from that research:
 
 ---
 
-## #25 · DOT · Polkadot
+## #26 · DOT · Polkadot
 
 ### 4.9 / 10 · ❌ FAIL
 
@@ -414,7 +436,7 @@ Score changes from that research:
 
 ---
 
-## #26 · INV · Inverse Finance
+## #27 · INV · Inverse Finance
 
 ### 4.8 / 10 · ❌ FAIL
 
@@ -425,7 +447,7 @@ Score changes from that research:
 
 ---
 
-## #27 · DASH · Dash
+## #28 · DASH · Dash
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -436,7 +458,7 @@ Score changes from that research:
 
 ---
 
-## #28 · ONDO · Ondo
+## #29 · ONDO · Ondo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -447,7 +469,7 @@ Score changes from that research:
 
 ---
 
-## #29 · CELO · Celo
+## #30 · CELO · Celo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -458,7 +480,7 @@ Score changes from that research:
 
 ---
 
-## #30 · API3 · Api3
+## #31 · API3 · Api3
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -469,7 +491,7 @@ Score changes from that research:
 
 ---
 
-## #31 · SOLV · Solv Protocol
+## #32 · SOLV · Solv Protocol
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -480,7 +502,7 @@ Score changes from that research:
 
 ---
 
-## #32 · CARDS · Collector Crypt
+## #33 · CARDS · Collector Crypt
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -491,7 +513,7 @@ Score changes from that research:
 
 ---
 
-## #33 · QNT · Quant
+## #34 · QNT · Quant
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -502,7 +524,7 @@ Score changes from that research:
 
 ---
 
-## #34 · MNT · Mantle
+## #35 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -513,7 +535,7 @@ Score changes from that research:
 
 ---
 
-## #35 · CFG · Centrifuge
+## #36 · CFG · Centrifuge
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -524,7 +546,7 @@ Score changes from that research:
 
 ---
 
-## #36 · HUMA · Huma Finance
+## #37 · HUMA · Huma Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -535,7 +557,7 @@ Score changes from that research:
 
 ---
 
-## #37 · ICP · Internet Computer
+## #38 · ICP · Internet Computer
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -546,7 +568,7 @@ Score changes from that research:
 
 ---
 
-## #38 · ZBCN · Zebec Network
+## #39 · ZBCN · Zebec Network
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -557,7 +579,7 @@ Score changes from that research:
 
 ---
 
-## #39 · TRAC · OriginTrail
+## #40 · TRAC · OriginTrail
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -568,7 +590,7 @@ Score changes from that research:
 
 ---
 
-## #40 · SEI · Sei
+## #41 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -579,7 +601,18 @@ Score changes from that research:
 
 ---
 
-## #41 · INJ · Injective
+## #42 · KAIA · Kaia
+
+### 3.9 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A transparent Foundation running an inflationary chain that barely earns anything; 25% of every block's new KAIA funds the KIF, which the Foundation spends on operations and market liquidity. Arkham does not cover Kaia.
+- 📄 [Full KAIA report](KAIA.md)
+
+---
+
+## #43 · INJ · Injective
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -590,7 +623,18 @@ Score changes from that research:
 
 ---
 
-## #42 · ROSE · Oasis Network
+## #44 · ZK · ZKsync
+
+### 3.8 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A well-built L2 governance system around a token with no revenue and heavy ongoing unlocks; a Foundation treasury paid ~20M ZK a week to a wallet that forwarded 252.2M ZK to a Binance deposit, including on spike days. Arkham does not cover ZKsync Era.
+- 📄 [Full ZK report](ZK.md)
+
+---
+
+## #45 · ROSE · Oasis Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -601,7 +645,7 @@ Score changes from that research:
 
 ---
 
-## #43 · PLUME · Plume
+## #46 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -612,7 +656,18 @@ Score changes from that research:
 
 ---
 
-## #44 · SUI · Sui
+## #47 · XPL · Plasma
+
+### 3.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A stablecoin chain with real TVL but almost no token revenue, half of supply with insiders, and an ecosystem-treasury-funded wallet that sold about $58M into exchanges, much of it on spike days. Arkham does not cover Plasma.
+- 📄 [Full XPL report](XPL.md)
+
+---
+
+## #48 · SUI · Sui
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -623,7 +678,7 @@ Score changes from that research:
 
 ---
 
-## #45 · POLYX · Polymesh
+## #49 · POLYX · Polymesh
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -634,7 +689,18 @@ Score changes from that research:
 
 ---
 
-## #46 · ZIG · ZIGChain (Zignaly)
+## #50 · S · Sonic
+
+### 3.3 / 10 · ❌ FAIL
+
+- **Sections passed:** 2 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A rebranded Fantom with fast tech but little usage left, open-ended issuance, and a wallet matching the Sonic USA issuance that sent 118M S toward Binance. Arkham does not cover Sonic.
+- 📄 [Full S report](S.md)
+
+---
+
+## #51 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -645,7 +711,7 @@ Score changes from that research:
 
 ---
 
-## #47 · PACT · PACT
+## #52 · PACT · PACT
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -656,7 +722,7 @@ Score changes from that research:
 
 ---
 
-## #48 · EXA · Exactly Protocol
+## #53 · EXA · Exactly Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -667,7 +733,7 @@ Score changes from that research:
 
 ---
 
-## #49 · JASMY · JasmyCoin
+## #54 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -678,7 +744,7 @@ Score changes from that research:
 
 ---
 
-## #50 · SERV · OpenServ
+## #55 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -689,7 +755,7 @@ Score changes from that research:
 
 ---
 
-## #51 · EDEL · Edel Finance
+## #56 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -700,7 +766,7 @@ Score changes from that research:
 
 ---
 
-## #52 · SPA · Sperax
+## #57 · SPA · Sperax
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -711,7 +777,7 @@ Score changes from that research:
 
 ---
 
-## #53 · ROUTER · Solrouter
+## #58 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 
