@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 12:24 MST",
+  "generated_at": "2026-11-16 12:26 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -571,6 +571,12 @@
       "json": "data/reports/POLYX.json"
     },
     {
+      "id": "PRO",
+      "path": "banking-rails/PRO.md",
+      "layout": "v3",
+      "json": "data/reports/PRO.json"
+    },
+    {
       "id": "PROPC",
       "path": "banking-rails/PROPC.md",
       "layout": "v3",
@@ -617,6 +623,12 @@
       "path": "banking-rails/RLC.md",
       "layout": "v3",
       "json": "data/reports/RLC.json"
+    },
+    {
+      "id": "RLS",
+      "path": "banking-rails/RLS.md",
+      "layout": "v3",
+      "json": "data/reports/RLS.json"
     },
     {
       "id": "ROSE",
@@ -709,6 +721,12 @@
       "json": "data/reports/SWCH.json"
     },
     {
+      "id": "SWFTC",
+      "path": "banking-rails/SWFTC.md",
+      "layout": "v3",
+      "json": "data/reports/SWFTC.json"
+    },
+    {
       "id": "SYRUP",
       "path": "banking-rails/SYRUP.md",
       "layout": "v3",
@@ -763,6 +781,12 @@
       "json": "data/reports/WAN.json"
     },
     {
+      "id": "WIREX",
+      "path": "banking-rails/WIREX.md",
+      "layout": "v3",
+      "json": "data/reports/WIREX.json"
+    },
+    {
       "id": "XDB",
       "path": "banking-rails/XDB.md",
       "layout": "v3",
@@ -785,6 +809,12 @@
       "path": "banking-rails/XMR.md",
       "layout": "v3",
       "json": "data/reports/XMR.json"
+    },
+    {
+      "id": "XNO",
+      "path": "banking-rails/XNO.md",
+      "layout": "v3",
+      "json": "data/reports/XNO.json"
     },
     {
       "id": "XPL",
@@ -876,5 +906,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 118
+  "scored_reports": 123
 }

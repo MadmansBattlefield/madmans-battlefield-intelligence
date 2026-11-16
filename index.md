@@ -21,7 +21,7 @@ Times are in **MST**.
 - [banking-rails/](banking-rails/) — token and protocol research notes
 - [Cover sheet](banking-rails/COVER.md) — why the reports exist and how they are scored
 - [METHODOLOGY.md](METHODOLOGY.md) — full v3 rulebook, including the 16 Nov 2026 upgrades
-- [Ranking](banking-rails/RANKING.md) — all 118 v3 scores, ranked
+- [Ranking](banking-rails/RANKING.md) — all 123 v3 scores, ranked
 - [All projects](banking-rails/ALL-PROJECTS.md) — every project in the pipeline, grouped by status
 - [HISTORY.md](HISTORY.md) — score history for every published report
 - [BASE-RATES.md](BASE-RATES.md) — pass rate, gate fails, and pump-day base rates

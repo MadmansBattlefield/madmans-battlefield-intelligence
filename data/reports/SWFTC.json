@@ -1,0 +1,421 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SWFTC",
+  "name": "SWFTCOIN (SWFT Blockchain)",
+  "chain": "ethereum",
+  "contract": "0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e (Ethereum); 0xe64e30276c2f826febd3784958d6da7b55dfbad3 (BNB Chain)",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 7,
+    "liquidity_market": 4,
+    "product_development": 4,
+    "adoption_customers": 3,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no: 10B fully issued in 2017",
+    "team_wallet_to_exchange_during_pump": "not proven: an unlabelled wallet two hops from a 2017 genesis recipient (which Arkham labels Aeternity, not SWFT) sent 5M SWFTC (~$28k) to an OKX deposit on 30 Nov 2025 (+14.7%); no team label",
+    "entity_concentration": "unknown: the 2017 plan allotted 50% to founders, team and development; current team balances not published"
+  },
+  "price_usd": 0.00223568,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:45 AM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Swap fees go to the company; no fee share, buyback or verified burn record was found, so revenue does not reach holders.",
+    "pump_day_price_source": "KuCoin SWFTC-USDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x29c8e72a92944f4fc8f871e1217dbd3d00cf4054",
+        "label": "Unlabelled EOA",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x73d46e1262ec7a2d21a58da2c379ed63b191c65c",
+        "label": "OKX Deposit",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x1371e6c4d3797f2182282b9fea41d87bbe767dd5",
+        "label": "OKX Deposit",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0xd9f7404dd006d3f5dc823561711bfc4d54df3d4a",
+        "label": "Aeternity (not SWFT)",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x38570825d2c35db1b5fc603b1215dcfe1607bfb4",
+        "label": "Unlabelled (\"High Transacting\")",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0xadb9ed6e0faf9a08d5a9644e8bdec8d8682e6844",
+        "label": "Coinbase: Cold Wallet",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham; Coinbase funding on-chain"
+      },
+      {
+        "address": "0xe935e29c66e4e01479bb036d1f6dfd9ff5ed2d5a",
+        "label": "Coinbase: Cold Wallet",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham; Coinbase funding on-chain"
+      },
+      {
+        "address": "0x4f41c3a640275b98ca842c639549e900b12ee825",
+        "label": "\"SWFTC Whale\" tag only",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.00223568,
+    "market_cap_text": "$22.4M",
+    "fdv_text": "$22.4M",
+    "volume_24h_text": "$0.34M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SWFTC.md",
+    "sha256": "b1b78acb811f84e720ac933dcf28308dbb0eb9d048fa2967ba1d7e79004bb7c2",
+    "bytes": 14606,
+    "extracted_at": "2026-11-16 12:26 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:45 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "5M SWFTC → OKX on a pump day",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2018 allocation",
+      "url": "whitepaper mirror",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x1371e6c4d3797f2182282b9fea41d87bbe767dd5",
+      "url": "https://intel.arkm.com/explorer/address/0x1371e6c4d3797f2182282b9fea41d87bbe767dd5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x29c8e72a92944f4fc8f871e1217dbd3d00cf4054",
+      "url": "https://intel.arkm.com/explorer/address/0x29c8e72a92944f4fc8f871e1217dbd3d00cf4054",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x38570825d2c35db1b5fc603b1215dcfe1607bfb4",
+      "url": "https://intel.arkm.com/explorer/address/0x38570825d2c35db1b5fc603b1215dcfe1607bfb4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4f41c3a640275b98ca842c639549e900b12ee825",
+      "url": "https://intel.arkm.com/explorer/address/0x4f41c3a640275b98ca842c639549e900b12ee825",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x73d46e1262ec7a2d21a58da2c379ed63b191c65c",
+      "url": "https://intel.arkm.com/explorer/address/0x73d46e1262ec7a2d21a58da2c379ed63b191c65c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9890ed07db289fa528e776d4920fccaeb95a55cb",
+      "url": "https://intel.arkm.com/explorer/address/0x9890eD07DB289fa528e776d4920fCCaEb95a55CB",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xadb9ed6e0faf9a08d5a9644e8bdec8d8682e6844",
+      "url": "https://intel.arkm.com/explorer/address/0xadb9ed6e0faf9a08d5a9644e8bdec8d8682e6844",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd9f7404dd006d3f5dc823561711bfc4d54df3d4a",
+      "url": "https://intel.arkm.com/explorer/address/0xd9f7404dd006d3f5dc823561711bfc4d54df3d4a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe935e29c66e4e01479bb036d1f6dfd9ff5ed2d5a",
+      "url": "https://intel.arkm.com/explorer/address/0xe935e29c66e4e01479bb036d1f6dfd9ff5ed2d5a",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "KuCoin SWFTC-USDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: an unlabelled wallet two hops from a 2017 genesis recipient (which Arkham labels Aeternity, not SWFT) sent 5M SWFTC (~$28k) to an OKX deposit on 30 Nov 2025 (+14.7%); no team label"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - SWFT earns swap fees, and paying them in SWFTC gives a discount ([whitepaper](https://www.allcryptowhitepapers.com/wp-content/uploads/2018/05/Swft.pdf)) [Tier B mirror]. No fee share, buyback or verified burn record was found. **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules): No.** Swap fees go to the c..."
+  },
+  "attributions": [
+    {
+      "address": "0x29c8e72a92944f4fc8f871e1217dbd3d00cf4054",
+      "url": null,
+      "label": "Unlabelled EOA",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x73d46e1262ec7a2d21a58da2c379ed63b191c65c",
+      "url": null,
+      "label": "OKX Deposit",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x1371e6c4d3797f2182282b9fea41d87bbe767dd5",
+      "url": null,
+      "label": "OKX Deposit",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd9f7404dd006d3f5dc823561711bfc4d54df3d4a",
+      "url": null,
+      "label": "Aeternity (not SWFT)",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x38570825d2c35db1b5fc603b1215dcfe1607bfb4",
+      "url": null,
+      "label": "Unlabelled (\"High Transacting\")",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xadb9ed6e0faf9a08d5a9644e8bdec8d8682e6844",
+      "url": null,
+      "label": "Coinbase: Cold Wallet",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe935e29c66e4e01479bb036d1f6dfd9ff5ed2d5a",
+      "url": null,
+      "label": "Coinbase: Cold Wallet",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4f41c3a640275b98ca842c639549e900b12ee825",
+      "url": null,
+      "label": "SWFTC Whale\" tag only",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9890ed07db289fa528e776d4920fccaeb95a55cb",
+      "url": "https://intel.arkm.com/explorer/address/0x9890eD07DB289fa528e776d4920fCCaEb95a55CB",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): the 2017 trail (0xd9f7, 0x3857, 0x29c8), the two OKX deposits and the largest holders (two Coinbase cold wallets and a SWFTC Whale tag); dates from Etherscan",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [SWFT whitepaper (2018 mirror)](https://www.allcryptowhitepapers.com/wp-content/uploads/2018/05/Swft.pdf), [Token Vitals](https://tokenvitals.com/token/swftc)",
+      "urls": [
+        "SWFT whitepaper (2018 mirror",
+        "Token Vitals"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan transfers and holders for `0x0bb2…fc1e`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `swftcoin` (market, venues); pump days from KuCoin SWFTC-USDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "swftblockchain.ai returned a server error on 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:24 MST",
-  "universe": 118,
+  "generated_at": "2026-11-16 12:26 MST",
+  "universe": 123,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
     "count": 8,
-    "share": 0.0678,
+    "share": 0.065,
     "tickers": [
       "AERO",
       "BTC",
@@ -19,8 +19,8 @@
     ]
   },
   "fail_revenue_gate": {
-    "count": 94,
-    "share": 0.7966,
+    "count": 98,
+    "share": 0.7967,
     "tickers": [
       "ACH",
       "ADA",
@@ -76,6 +76,7 @@
       "PHA",
       "PLUME",
       "POLYX",
+      "PRO",
       "PROPC",
       "PUNDIX",
       "RED",
@@ -93,6 +94,7 @@
       "STBL",
       "SUI",
       "SWCH",
+      "SWFTC",
       "TAO",
       "TFUEL",
       "TLOS",
@@ -100,10 +102,12 @@
       "TRB",
       "VELO",
       "W",
+      "WIREX",
       "XDB",
       "XDC",
       "XLM",
       "XMR",
+      "XNO",
       "XPL",
       "XRP",
       "XVG",
@@ -120,7 +124,7 @@
   },
   "fail_selling_gate": {
     "count": 29,
-    "share": 0.2458,
+    "share": 0.2358,
     "tickers": [
       "ACH",
       "API3",
@@ -155,7 +159,7 @@
   },
   "fail_both_gates": {
     "count": 26,
-    "share": 0.2203,
+    "share": 0.2114,
     "tickers": [
       "ACH",
       "COTI",
@@ -187,7 +191,7 @@
   },
   "proven_pump_day_sale": {
     "count": 47,
-    "share": 0.3983,
+    "share": 0.3821,
     "tickers": [
       "ACH",
       "AERO",
@@ -240,7 +244,7 @@
   },
   "pump_day_sale_unclear": {
     "count": 10,
-    "share": 0.0847,
+    "share": 0.0813,
     "tickers": [
       "BCH",
       "BNKR",
@@ -255,8 +259,8 @@
     ]
   },
   "selling_not_proven": {
-    "count": 58,
-    "share": 0.4915,
+    "count": 61,
+    "share": 0.4959,
     "tickers": [
       "ADA",
       "AEON",
@@ -291,6 +295,7 @@
       "OM",
       "ONDO",
       "PLUME",
+      "PRO",
       "PROPC",
       "PUNDIX",
       "QUAI",
@@ -302,6 +307,7 @@
       "SHX",
       "STBL",
       "SWCH",
+      "SWFTC",
       "SYRUP",
       "TAO",
       "TFUEL",
@@ -309,6 +315,7 @@
       "VELO",
       "W",
       "WAN",
+      "WIREX",
       "XDC",
       "XRP",
       "YELLOW",
@@ -319,8 +326,8 @@
     ]
   },
   "selling_score_equals_4": {
-    "count": 45,
-    "share": 0.3814,
+    "count": 48,
+    "share": 0.3902,
     "tickers": [
       "AEON",
       "APT",
@@ -346,6 +353,7 @@
       "OM",
       "ONDO",
       "PLUME",
+      "PRO",
       "PROPC",
       "PUNDIX",
       "QUAI",
@@ -356,11 +364,13 @@
       "SHX",
       "STBL",
       "SWCH",
+      "SWFTC",
       "SYRUP",
       "TFUEL",
       "TRAC",
       "VELO",
       "WAN",
+      "WIREX",
       "XDC",
       "XRP",
       "YELLOW",
@@ -371,7 +381,7 @@
   },
   "undisclosed_pump_day_sale_silence": {
     "count": 25,
-    "share": 0.2119,
+    "share": 0.2033,
     "tickers": [
       "ACH",
       "CARDS",
@@ -401,8 +411,8 @@
     ]
   },
   "revenue_reaches_holders_yes": {
-    "count": 13,
-    "share": 0.1102,
+    "count": 14,
+    "share": 0.1138,
     "tickers": [
       "AERO",
       "AVAX",
@@ -412,6 +422,7 @@
       "ICP",
       "INV",
       "QUAI",
+      "RLS",
       "SKY",
       "SOL",
       "SPA",
@@ -420,8 +431,8 @@
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 21,
-    "share": 0.178,
+    "count": 25,
+    "share": 0.2033,
     "tickers": [
       "ACH",
       "AEON",
@@ -439,16 +450,20 @@
       "MINA",
       "ONDO",
       "POLYX",
+      "PRO",
       "QNT",
       "ROSE",
       "SOLV",
+      "SWFTC",
+      "WIREX",
       "XDB",
+      "XNO",
       "ZEC"
     ]
   },
   "revenue_reaches_holders_unclear": {
     "count": 84,
-    "share": 0.7119,
+    "share": 0.6829,
     "tickers": [
       "ADA",
       "ALGO",

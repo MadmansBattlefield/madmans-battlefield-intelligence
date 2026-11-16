@@ -1,9 +1,9 @@
 {
   "title": "Public addresses examined in published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:24 MST",
+  "generated_at": "2026-11-16 12:26 MST",
   "note": "Every address here was extracted from a public evidence link or explorer URL already published in banking-rails/<TICKER>.md. No private worksheets were used. Labels that would name a private individual are not included.",
-  "count": 1117,
+  "count": 1147,
   "addresses": [
     {
       "ticker": "ACH",
@@ -4507,6 +4507,55 @@
       "kind": "address"
     },
     {
+      "ticker": "PRO",
+      "chain": "ethereum",
+      "address": "0x10987d8361338eae4472f107cf069558c54516ae",
+      "url": "https://intel.arkm.com/explorer/address/0x10987d8361338eae4472f107cf069558c54516ae",
+      "kind": "address"
+    },
+    {
+      "ticker": "PRO",
+      "chain": "ethereum",
+      "address": "0x3c0f464db20d60b8d94f3c2810529015507daadb",
+      "url": "https://intel.arkm.com/explorer/address/0x3c0f464db20d60b8d94f3c2810529015507daadb",
+      "kind": "address"
+    },
+    {
+      "ticker": "PRO",
+      "chain": "ethereum",
+      "address": "0x48a3104ad62c4af304734438da83d427e6ed40b1",
+      "url": "https://intel.arkm.com/explorer/address/0x48a3104ad62c4af304734438da83d427e6ed40b1",
+      "kind": "address"
+    },
+    {
+      "ticker": "PRO",
+      "chain": "ethereum",
+      "address": "0x89f266dba1ef608b4e431c30037f925273da3cb3",
+      "url": "https://intel.arkm.com/explorer/address/0x89f266dba1ef608b4e431c30037f925273da3cb3",
+      "kind": "address"
+    },
+    {
+      "ticker": "PRO",
+      "chain": "ethereum",
+      "address": "0x97085a1db3e9a7d94280522d43a547336fde40ef",
+      "url": "https://intel.arkm.com/explorer/address/0x97085a1db3e9a7d94280522d43a547336fde40ef",
+      "kind": "address"
+    },
+    {
+      "ticker": "PRO",
+      "chain": "ethereum",
+      "address": "0x97dd39e8a8e4546f94410121b88f77d22aaaebc8",
+      "url": "https://intel.arkm.com/explorer/address/0x97dd39e8a8e4546f94410121b88f77d22aaaebc8",
+      "kind": "address"
+    },
+    {
+      "ticker": "PRO",
+      "chain": "ethereum",
+      "address": "0xcd531ae9efcce479654c4926dec5f6209531ca7b",
+      "url": "https://etherscan.io/address/0xcd531ae9efcce479654c4926dec5f6209531ca7b",
+      "kind": "address"
+    },
+    {
       "ticker": "PROPC",
       "chain": "ethereum",
       "address": "0x0487a9387644bb33822cb7410739ddb0615dcf12",
@@ -5071,6 +5120,62 @@
       "chain": "ethereum",
       "address": "0xd65380d773208a6aa49472bf55186b855b393298",
       "url": "https://intel.arkm.com/explorer/address/0xd65380d773208a6aa49472bf55186b855b393298",
+      "kind": "address"
+    },
+    {
+      "ticker": "RLS",
+      "chain": "ethereum",
+      "address": "0x3077e6d294c6a152c34aaf3a5fe415ec628cfb27",
+      "url": "https://intel.arkm.com/explorer/address/0x3077e6d294c6a152c34aaf3a5fe415ec628cfb27",
+      "kind": "address"
+    },
+    {
+      "ticker": "RLS",
+      "chain": "ethereum",
+      "address": "0x3c9d7bb7f8a73d8839f880cac9d2d214d4d6b1e4",
+      "url": "https://intel.arkm.com/explorer/address/0x3c9d7bb7f8a73d8839f880cac9d2d214d4d6b1e4",
+      "kind": "address"
+    },
+    {
+      "ticker": "RLS",
+      "chain": "ethereum",
+      "address": "0x60f0e09e51704ea6e472f877f849269eede76309",
+      "url": "https://intel.arkm.com/explorer/address/0x60f0e09e51704ea6e472f877f849269eede76309",
+      "kind": "address"
+    },
+    {
+      "ticker": "RLS",
+      "chain": "ethereum",
+      "address": "0x6129bc5dc8cc7ed6ae595421a176dc9a76d496b5",
+      "url": "https://intel.arkm.com/explorer/address/0x6129bc5dc8cc7ed6ae595421a176dc9a76d496b5",
+      "kind": "address"
+    },
+    {
+      "ticker": "RLS",
+      "chain": "ethereum",
+      "address": "0x7cb325d864eaa3012b9f6bc7c0fd8ac4074bc72c",
+      "url": "https://intel.arkm.com/explorer/address/0x7cb325d864eaa3012b9f6bc7c0fd8ac4074bc72c",
+      "kind": "address"
+    },
+    {
+      "ticker": "RLS",
+      "chain": "ethereum",
+      "address": "0x98733289d202782d3f748048722bd4402aee5495",
+      "url": "https://intel.arkm.com/explorer/address/0x98733289d202782d3f748048722bd4402aee5495",
+      "kind": "address"
+    },
+    {
+      "ticker": "RLS",
+      "chain": "ethereum",
+      "address": "0xb48d639e81315e7b1956de81c7e05f3f19babecc",
+      "url": "https://intel.arkm.com/explorer/address/0xb48d639e81315e7b1956de81c7e05f3f19babecc",
+      "kind": "address"
+    },
+    {
+      "ticker": "RLS",
+      "chain": "ethereum",
+      "address": "0xe2ff350eeb6ef5b9b9e274c6c2b012013e292f5a",
+      "url": "https://intel.arkm.com/explorer/address/0xe2ff350eeb6ef5b9b9e274c6c2b012013e292f5a",
       "kind": "address"
     },
     {
@@ -6222,6 +6327,69 @@
       "kind": "address"
     },
     {
+      "ticker": "SWFTC",
+      "chain": "ethereum",
+      "address": "0x1371e6c4d3797f2182282b9fea41d87bbe767dd5",
+      "url": "https://intel.arkm.com/explorer/address/0x1371e6c4d3797f2182282b9fea41d87bbe767dd5",
+      "kind": "address"
+    },
+    {
+      "ticker": "SWFTC",
+      "chain": "ethereum",
+      "address": "0x29c8e72a92944f4fc8f871e1217dbd3d00cf4054",
+      "url": "https://intel.arkm.com/explorer/address/0x29c8e72a92944f4fc8f871e1217dbd3d00cf4054",
+      "kind": "address"
+    },
+    {
+      "ticker": "SWFTC",
+      "chain": "ethereum",
+      "address": "0x38570825d2c35db1b5fc603b1215dcfe1607bfb4",
+      "url": "https://intel.arkm.com/explorer/address/0x38570825d2c35db1b5fc603b1215dcfe1607bfb4",
+      "kind": "address"
+    },
+    {
+      "ticker": "SWFTC",
+      "chain": "ethereum",
+      "address": "0x4f41c3a640275b98ca842c639549e900b12ee825",
+      "url": "https://intel.arkm.com/explorer/address/0x4f41c3a640275b98ca842c639549e900b12ee825",
+      "kind": "address"
+    },
+    {
+      "ticker": "SWFTC",
+      "chain": "ethereum",
+      "address": "0x73d46e1262ec7a2d21a58da2c379ed63b191c65c",
+      "url": "https://intel.arkm.com/explorer/address/0x73d46e1262ec7a2d21a58da2c379ed63b191c65c",
+      "kind": "address"
+    },
+    {
+      "ticker": "SWFTC",
+      "chain": "ethereum",
+      "address": "0x9890ed07db289fa528e776d4920fccaeb95a55cb",
+      "url": "https://intel.arkm.com/explorer/address/0x9890eD07DB289fa528e776d4920fCCaEb95a55CB",
+      "kind": "address"
+    },
+    {
+      "ticker": "SWFTC",
+      "chain": "ethereum",
+      "address": "0xadb9ed6e0faf9a08d5a9644e8bdec8d8682e6844",
+      "url": "https://intel.arkm.com/explorer/address/0xadb9ed6e0faf9a08d5a9644e8bdec8d8682e6844",
+      "kind": "address"
+    },
+    {
+      "ticker": "SWFTC",
+      "chain": "ethereum",
+      "address": "0xd9f7404dd006d3f5dc823561711bfc4d54df3d4a",
+      "url": "https://intel.arkm.com/explorer/address/0xd9f7404dd006d3f5dc823561711bfc4d54df3d4a",
+      "kind": "address"
+    },
+    {
+      "ticker": "SWFTC",
+      "chain": "ethereum",
+      "address": "0xe935e29c66e4e01479bb036d1f6dfd9ff5ed2d5a",
+      "url": "https://intel.arkm.com/explorer/address/0xe935e29c66e4e01479bb036d1f6dfd9ff5ed2d5a",
+      "kind": "address"
+    },
+    {
       "ticker": "SYRUP",
       "chain": "ethereum",
       "address": "0x2c9f282067c5962c0a96719400b419add9e7293a",
@@ -6835,6 +7003,48 @@
       "chain": "solana + ethereum (NTT multichain)",
       "address": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
       "url": "https://intel.arkm.com/explorer/address/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+      "kind": "address"
+    },
+    {
+      "ticker": "WIREX",
+      "chain": "ethereum",
+      "address": "0x0b1772dfcad147cd256f7a654866aeed5bc60cc6",
+      "url": "https://intel.arkm.com/explorer/address/0x0b1772dfcad147cd256f7a654866aeed5bc60cc6",
+      "kind": "address"
+    },
+    {
+      "ticker": "WIREX",
+      "chain": "ethereum",
+      "address": "0x20483d8e79dc03c021bd3371843078a5e8f4e8b3",
+      "url": "https://intel.arkm.com/explorer/address/0x20483d8e79dc03c021bd3371843078a5e8f4e8b3",
+      "kind": "address"
+    },
+    {
+      "ticker": "WIREX",
+      "chain": "ethereum",
+      "address": "0x2f13d388b85e0ecd32e7c3d7f36d1053354ef104",
+      "url": "https://intel.arkm.com/explorer/address/0x2f13d388b85e0ecd32e7c3d7f36d1053354ef104",
+      "kind": "address"
+    },
+    {
+      "ticker": "WIREX",
+      "chain": "ethereum",
+      "address": "0x93ab7ca84b7210b0ba30ccc9b555d48adb9518bd",
+      "url": "https://intel.arkm.com/explorer/address/0x93ab7ca84b7210b0ba30ccc9b555d48adb9518bd",
+      "kind": "address"
+    },
+    {
+      "ticker": "WIREX",
+      "chain": "ethereum",
+      "address": "0xc0d93c69a2ef846388e69f7ee7c21668501e7849",
+      "url": "https://intel.arkm.com/explorer/address/0xc0d93c69a2ef846388e69f7ee7c21668501e7849",
+      "kind": "address"
+    },
+    {
+      "ticker": "WIREX",
+      "chain": "ethereum",
+      "address": "0xd5589ca4b2e25d790b8bd0ae44cf3bbc6b3ebef3",
+      "url": "https://intel.arkm.com/explorer/address/0xd5589ca4b2e25d790b8bd0ae44cf3bbc6b3ebef3",
       "kind": "address"
     },
     {

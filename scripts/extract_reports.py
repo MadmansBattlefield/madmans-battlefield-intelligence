@@ -866,7 +866,8 @@ def classify_pump(fm: dict, selling: str, text: str) -> dict:
         pump_source = str(meth["pump_day_price_source"])[:200]
     if meth.get("disclosure_quality"):
         disclosure = meth["disclosure_quality"]
-        if disclosure == "not_applicable" and proven == "unclear":
+        if disclosure == "not_applicable" and proven != "no":
+            # Declared not applicable = no proven pump-day sale (or Selling not proven).
             proven = "no"
     penalty = bool(meth.get("penalty_applied", False))
     if penalty:
