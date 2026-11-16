@@ -22,7 +22,7 @@ red_lines:
   identity_caveat: "three CoinGecko ids named AEON; this report covers aeon-3 = BSC 0x277add739c6e0477616948357af9e79fe1ec9b80 (aeon.xyz)"
   hack_exploit: "none found"
   mint_path_live: "yes, MinterRole with no cap; current minter not identified"
-  team_wallet_to_exchange_during_pump: "not proven: the Safe emptied 45.6M AEON to EOA 0xfd6a on 3 Sep 2026 (not a pump day); 0xfd6a then sent 15M to a Bitget deposit and ~31M to Cobo deposits on 14, 15 and 29 Oct 2026, none pump days; its one pump-day transfer (3M, 21 Sep) went to a contract that still holds it"
+  team_wallet_to_exchange_during_pump: "not proven: the Safe emptied 45.6M AEON to EOA 0xfd6a on 3 Sep 2026 (not a pump day); 0xfd6a then sent 15M to a Bitget deposit and ~31M to Cobo deposits on 14, 15 and 29 Oct 2026, none pump days; its one pump-day transfer (3M, 21 Sep) was a self-bridge through the AEON LayerZero OFT adapter to the same address on Base (1M) and Ethereum (2M), where it is still held"
   treasury_in_single_key_wallets: "no: vesting owner is a 6-of-10 Safe 0xd8a63d36f9474f361d77c31e6d53d5c78c92add4; it can revoke ~76.6% of supply"
 methodology_2026_11_16:
   revenue_reaches_holders: "no"
@@ -112,14 +112,14 @@ layout_version: 3
 
 - The Safe received 45.6M AEON at launch ([tx](https://bscscan.com/tx/0xe027154b86e6b24f499d51233479d2ddf05bba3b00c24ad734a73db93ba0599f), 25 Jul 2026). On **3 Sep 2026** it sent all 45.6M to EOA [0xfd6a…19b8](https://bscscan.com/address/0xfd6a0c523ed829a21281a2a3e627ad242ab619b8) ([tx](https://bscscan.com/tx/0x3bae8d5cd3899c23e84411a1a224bf2f2d4b43a1fe98dcc1a295d7585aadc3d8)). That was not a pump day (Gate close $0.0544, versus $0.0629 on 31 Aug).
 - Arkham shows [0xfd6a…19b8](https://intel.arkm.com/explorer/address/0xfd6a0c523ed829a21281a2a3e627ad242ab619b8) as **unlabelled**, first funded by [0x7D7e…3D27](https://intel.arkm.com/explorer/address/0x7D7e7fD485C27D8547e1C8C906f7A8AA528c3D27) (one of the Safe's signer tags), and also receiving TokenVesting releases. BSC transfer logs (UTC) show where the 45.6M went:
-  - **21 Sep 2026** (a pump day: Gate +14.6%, Bitget +20.6%): 1M + 2M to contract [0xc818…35c9](https://bscscan.com/address/0xc8189537aed663d3a13e6ea1cc3800ae9ae235c9) ([tx](https://bscscan.com/tx/0xfb1f810d7f478f759b6aa4e13173f4a95013848a538f034a2bfca4a73efe3997), [tx](https://bscscan.com/tx/0x4595ff677aa82fcd1970269ec0decd5b886230d978e22555fcb1f2756bf8842b)). That contract still holds ~4.0M AEON and has sent none, so this was not an exchange deposit.
+  - **21 Sep 2026** (a pump day: Gate +14.6%, Bitget +20.6%): 1M + 2M to contract [0xc818…35c9](https://bscscan.com/address/0xc8189537aed663d3a13e6ea1cc3800ae9ae235c9) ([tx](https://bscscan.com/tx/0xfb1f810d7f478f759b6aa4e13173f4a95013848a538f034a2bfca4a73efe3997), [tx](https://bscscan.com/tx/0x4595ff677aa82fcd1970269ec0decd5b886230d978e22555fcb1f2756bf8842b)). BscScan's verified source names it **AEONOFTAdapter**, the LayerZero bridge adapter (it holds ~4.0M AEON locked for bridged supply), so the 3M was bridged, not deposited to an exchange. LayerZero Scan shows both messages delivered to the **same wallet**: 1M on Base and 2M on Ethereum ([mint tx](https://etherscan.io/tx/0x642b715ef0a52941bfae4e39cfc715a26f710740b95076670239836a70e1c58e)). It still holds both (Base `balanceOf` 1,000,000; no Ethereum outflows).
   - **14 Oct 2026** (Gate −35.3%, Bitget −31.9%): 3 × 5M to Bitget Deposit [0x7b71…017e](https://intel.arkm.com/explorer/address/0x7b71a5f9a07a3f38a22538c2e4b753316058e17e) ([tx](https://bscscan.com/tx/0xfe30ed07d8540b43539f8a1154746922bc447f0a64b052f22d7c452e185304e3)); 18.67M to [0x01d6…ede0](https://bscscan.com/address/0x01d64ad9af3d2f1c94cf6b22baa294204fe5ede0) ([tx](https://bscscan.com/tx/0x5c99db65cfde785bc15febc882aaee9f65c2064b980cbc7c970caebd1ebae807)), which forwarded it to [Cobo.com: Custody Hot Wallet 0xb0b1…aa77](https://intel.arkm.com/explorer/address/0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77).
   - **15 Oct 2026** (Gate −31.2%, Bitget −33.9%): 4M + 4M + 3.64M to Cobo Deposit [0xdbfb…8a87](https://intel.arkm.com/explorer/address/0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87) ([tx](https://bscscan.com/tx/0x81cccc1f1a242940a13f4a11429caf34d349a0adec672294dcbc373023e8e454)).
   - **29 Oct 2026** (Gate −13.5%, Bitget −20.8%): 750.7K to the same Cobo deposit ([tx](https://bscscan.com/tx/0x41be7e9c61f2b0a5d798f867b5c23133ad84e9ffcecc282feb1a62651304e4bf)).
   - Lookalike zero-value transfers to addresses imitating the Bitget and Cobo deposits (address poisoning) are ignored.
 - [0x8de0…2b42](https://bscscan.com/address/0x8de06d956f1ba5cd83d00777f515ab95ccd82b42) (Arkham tags "AEON" and "Whale", no entity name, [Arkham](https://intel.arkm.com/explorer/address/0x8de06d956f1ba5cd83d00777f515ab95ccd82b42)) fell from 35M to 25M on **29 Oct 2026**: 5M to Cobo Deposit [0xdbfb…8a87](https://intel.arkm.com/explorer/address/0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87) and 5M to Cobo Deposit [0xefb7…e8a5](https://intel.arkm.com/explorer/address/0xefb7472554da5e154cdacf695f67b2c46f83e8a5) ([tx](https://bscscan.com/tx/0x2f65aecea7e830cb69c02b21883e1f479fb43926319229ac860c58903429e59a)), not a pump day; it received gas from a Cobo custody hot wallet.
 
-**What it means:** a team-linked wallet moved ~46M AEON into Bitget and Cobo deposits during a 30%+ slide, but none on a pump day, and its one pump-day transfer went to a contract that still holds it. Cobo deposits are custody, not proof of a sale. Pump-day selling is not proven. **4**.
+**What it means:** a team-linked wallet moved ~46M AEON into Bitget and Cobo deposits during a 30%+ slide, but none on a pump day, and its one pump-day transfer was a self-bridge to Base and Ethereum that is still held. Cobo deposits are custody, not proof of a sale. Pump-day selling is not proven. **4**.
 
 - **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate AEON_USDT and Bitget AEONUSDT UTC daily closes.
 
@@ -202,7 +202,7 @@ layout_version: 3
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
 | 1 | **Arkham attribution of the AEON wallets** | Done 16 Nov 2026: the Safe's signer tags, the Bitget and Cobo deposits and the "AEON"/"Whale" tag are recorded; 0xfd6a stays unlabelled. Ask AEON to publish its treasury and market-making wallets | Free |
-| 2 | **What contract [0xc818…35c9](https://bscscan.com/address/0xc8189537aed663d3a13e6ea1cc3800ae9ae235c9) is** | Read its verified source on BscScan (browser) | Free |
+| 2 | **Who is behind the Bitget and Cobo deposit accounts** | Ask AEON whether the 14–29 Oct deposits were market-making, custody or sales | Free |
 | 3 | **Who holds MinterRole** | MinterAdded events since deploy block 111,448,773 | API plan |
 | 4 | **Which AEON is intended** | Confirm the `aeon-3` mapping in the scan list | Free |
 

@@ -1,13 +1,39 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:18 MST",
+  "generated_at": "2026-11-16 12:21 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
       "ticker": "ACH",
       "path": "banking-rails/ACH.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "6c7665ca52095df90fcdb19167415cd815ec4ae0",
+          "committed_at_mst": "2026-11-16 12:19 MST",
+          "subject": "Add MINA, IOST, ACH, AEON, GRND v3 reports under the 16 Nov 2026 rules; ACH undisclosed pump-day penalty (selling 2->0, 3.4->3.1); ranking 118",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 0,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 4,
+            "security_audits": 4,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "ADA",
@@ -42,7 +68,32 @@
     {
       "ticker": "AEON",
       "path": "banking-rails/AEON.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "6c7665ca52095df90fcdb19167415cd815ec4ae0",
+          "committed_at_mst": "2026-11-16 12:19 MST",
+          "subject": "Add MINA, IOST, ACH, AEON, GRND v3 reports under the 16 Nov 2026 rules; ACH undisclosed pump-day penalty (selling 2->0, 3.4->3.1); ranking 118",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "AERO",
@@ -1098,7 +1149,32 @@
     {
       "ticker": "GRND",
       "path": "banking-rails/GRND.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "6c7665ca52095df90fcdb19167415cd815ec4ae0",
+          "committed_at_mst": "2026-11-16 12:19 MST",
+          "subject": "Add MINA, IOST, ACH, AEON, GRND v3 reports under the 16 Nov 2026 rules; ACH undisclosed pump-day penalty (selling 2->0, 3.4->3.1); ranking 118",
+          "overall_score": 4.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 5,
+            "insider_holdings": 5,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 2,
+            "product_development": 5,
+            "adoption_customers": 5,
+            "security_audits": 4,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "H",
@@ -1400,7 +1476,32 @@
     {
       "ticker": "IOST",
       "path": "banking-rails/IOST.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "6c7665ca52095df90fcdb19167415cd815ec4ae0",
+          "committed_at_mst": "2026-11-16 12:19 MST",
+          "subject": "Add MINA, IOST, ACH, AEON, GRND v3 reports under the 16 Nov 2026 rules; ACH undisclosed pump-day penalty (selling 2->0, 3.4->3.1); ranking 118",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 2,
+            "liquidity_market": 4,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "IOTX",
@@ -1673,7 +1774,32 @@
     {
       "ticker": "MINA",
       "path": "banking-rails/MINA.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "6c7665ca52095df90fcdb19167415cd815ec4ae0",
+          "committed_at_mst": "2026-11-16 12:19 MST",
+          "subject": "Add MINA, IOST, ACH, AEON, GRND v3 reports under the 16 Nov 2026 rules; ACH undisclosed pump-day penalty (selling 2->0, 3.4->3.1); ranking 118",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 5,
+            "selling_behavior": 5,
+            "tokenomics_supply": 5,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 2,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "MNT",

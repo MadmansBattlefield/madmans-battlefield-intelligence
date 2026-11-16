@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 12:18 MST
+generated_at: 2026-11-16 12:21 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -15,9 +15,9 @@ Machine-readable copy: [data/history.json](data/history.json).
 
 | Ticker | Versions | First overall | Current overall | Revenue (first → current) | Selling (first → current) | Holdings (first → current) |
 |---|---:|---:|---:|---|---|---|
-| ACH | 0 | — | — | — | — | — |
+| [ACH](banking-rails/ACH.md) | 1 | 3.1 | 3.1 | 2 | 0 | 3 |
 | [ADA](banking-rails/ADA.md) | 1 | 5.1 | 5.1 | 2 | 5 | 5 |
-| AEON | 0 | — | — | — | — | — |
+| [AEON](banking-rails/AEON.md) | 1 | 3.3 | 3.3 | 2 | 4 | 3 |
 | [AERO](banking-rails/AERO.md) | 2 | 6.6 | 6.6 | 8 | 5 → 6 | 6 |
 | [ALGO](banking-rails/ALGO.md) | 1 | 5.0 | 5.0 | 1 | 5 | 6 |
 | [AMP](banking-rails/AMP.md) | 1 | 4.2 | 4.2 | 2 | 5 | 4 |
@@ -52,7 +52,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [EWT](banking-rails/EWT.md) | 1 | 4.0 | 4.0 | 2 | 5 | 4 |
 | [EXA](banking-rails/EXA.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
 | [FXS](banking-rails/FXS.md) | 1 | 4.6 | 4.6 | 4 | 4 | 4 |
-| GRND | 0 | — | — | — | — | — |
+| [GRND](banking-rails/GRND.md) | 1 | 4.2 | 4.2 | 3 | 5 | 5 |
 | [H](banking-rails/H.md) | 1 | 2.4 | 2.4 | 1 | 4 | 2 |
 | [HASH](banking-rails/HASH.md) | 1 | 3.8 | 3.8 | 3 | 4 | 2 |
 | [HBAR](banking-rails/HBAR.md) | 1 | 5.3 | 5.3 | 2 | 5 | 6 |
@@ -63,7 +63,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [ICP](banking-rails/ICP.md) | 1 | 4.3 | 4.3 | 2 | 4 | 3 |
 | [INJ](banking-rails/INJ.md) | 1 | 3.9 | 3.9 | 2 | 4 | 4 |
 | [INV](banking-rails/INV.md) | 1 | 4.8 | 4.8 | 6 | 4 | 6 |
-| IOST | 0 | — | — | — | — | — |
+| [IOST](banking-rails/IOST.md) | 1 | 3.1 | 3.1 | 1 | 4 | 3 |
 | [IOTX](banking-rails/IOTX.md) | 1 | 3.7 | 3.7 | 2 | 4 | 4 |
 | [JASMY](banking-rails/JASMY.md) | 1 | 2.8 | 2.8 | 1 | 2 | 3 |
 | [JST](banking-rails/JST.md) | 1 | 5.5 | 5.5 | 5 | 5 | 5 |
@@ -73,7 +73,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [LINK](banking-rails/LINK.md) | 1 | 6.9 | 6.9 | 8 | 5 | 4 |
 | [MASQ](banking-rails/MASQ.md) | 1 | 2.7 | 2.7 | 1 | 4 | 4 |
 | [MBG](banking-rails/MBG.md) | 1 | 3.9 | 3.9 | 3 | 4 | 3 |
-| MINA | 0 | — | — | — | — | — |
+| [MINA](banking-rails/MINA.md) | 1 | 4.0 | 4.0 | 1 | 5 | 5 |
 | [MNT](banking-rails/MNT.md) | 1 | 4.5 | 4.5 | 2 | 6 | 4 |
 | [MOCA](banking-rails/MOCA.md) | 1 | 3.7 | 3.7 | 1 | 6 | 3 |
 | [NIGHT](banking-rails/NIGHT.md) | 1 | 3.8 | 3.8 | 1 | 4 | 1 |
@@ -138,7 +138,9 @@ Machine-readable copy: [data/history.json](data/history.json).
 
 Each row is a commit in which that report's scores (or gates) changed, plus the first commit that introduced the report.
 
+- **ACH** — 3.1 FAIL in `6c7665c` (2026-11-16 12:19 MST).
 - **ADA** — 5.1 FAIL in `395f117` (2026-11-16 06:46 MST).
+- **AEON** — 3.3 FAIL in `6c7665c` (2026-11-16 12:19 MST).
 ### AERO
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -185,6 +187,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **EWT** — 4.0 FAIL in `16d387f` (2026-11-16 08:50 MST).
 - **EXA** — 3.1 FAIL in `a664692` (2026-11-16 06:58 MST).
 - **FXS** — 4.6 FAIL in `16d387f` (2026-11-16 08:50 MST).
+- **GRND** — 4.2 FAIL in `6c7665c` (2026-11-16 12:19 MST).
 - **H** — 2.4 FAIL in `7524e33` (2026-11-16 09:33 MST).
 - **HASH** — 3.8 FAIL in `5c5b66f` (2026-11-16 08:19 MST).
 - **HBAR** — 5.3 FAIL in `6fa4721` (2026-11-15 18:37 MST).
@@ -195,6 +198,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **ICP** — 4.3 FAIL in `132f0fd` (2026-11-16 06:50 MST).
 - **INJ** — 3.9 FAIL in `132f0fd` (2026-11-16 06:50 MST).
 - **INV** — 4.8 FAIL in `a664692` (2026-11-16 06:58 MST).
+- **IOST** — 3.1 FAIL in `6c7665c` (2026-11-16 12:19 MST).
 - **IOTX** — 3.7 FAIL in `16d387f` (2026-11-16 08:50 MST).
 - **JASMY** — 2.8 FAIL in `6fa4721` (2026-11-15 18:37 MST).
 - **JST** — 5.5 FAIL in `78f06b6` (2026-11-16 06:22 MST).
@@ -204,6 +208,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **LINK** — 6.9 PASS in `6fa4721` (2026-11-15 18:37 MST).
 - **MASQ** — 2.7 FAIL in `5c5b66f` (2026-11-16 08:19 MST).
 - **MBG** — 3.9 FAIL in `7524e33` (2026-11-16 09:33 MST).
+- **MINA** — 4.0 FAIL in `6c7665c` (2026-11-16 12:19 MST).
 - **MNT** — 4.5 FAIL in `6fa4721` (2026-11-15 18:37 MST).
 - **MOCA** — 3.7 FAIL in `7524e33` (2026-11-16 09:33 MST).
 - **NIGHT** — 3.8 FAIL in `16d387f` (2026-11-16 08:50 MST).
