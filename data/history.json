@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 13:52 MST",
+  "generated_at": "2026-11-16 13:54 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -2072,6 +2072,11 @@
       ]
     },
     {
+      "ticker": "NUVA",
+      "path": "banking-rails/NUVA.md",
+      "versions": []
+    },
+    {
       "ticker": "OM",
       "path": "banking-rails/OM.md",
       "versions": [
@@ -2188,7 +2193,32 @@
     {
       "ticker": "ORBITER",
       "path": "banking-rails/ORBITER.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "e6e14809014363b9c48738493604b44b67d9a9e3",
+          "committed_at_mst": "2026-11-16 13:52 MST",
+          "subject": "v3: XEP, TX, ORBITER, SHPING, TRUF with Arkham corrections (16 Nov 2026 rules)",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 2,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "PACT",
@@ -2220,6 +2250,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "PALMUSD",
+      "path": "banking-rails/PALMUSD.md",
+      "versions": []
     },
     {
       "ticker": "PHA",
@@ -2547,6 +2582,11 @@
       ]
     },
     {
+      "ticker": "REALIZ",
+      "path": "banking-rails/REALIZ.md",
+      "versions": []
+    },
+    {
       "ticker": "RED",
       "path": "banking-rails/RED.md",
       "versions": [
@@ -2664,6 +2704,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "RISE",
+      "path": "banking-rails/RISE.md",
+      "versions": []
     },
     {
       "ticker": "RLC",
@@ -2970,7 +3015,33 @@
     {
       "ticker": "SHPING",
       "path": "banking-rails/SHPING.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "e6e14809014363b9c48738493604b44b67d9a9e3",
+          "committed_at_mst": "2026-11-16 13:52 MST",
+          "subject": "v3: XEP, TX, ORBITER, SHPING, TRUF with Arkham corrections (16 Nov 2026 rules)",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 6,
+            "insider_holdings": 2,
+            "selling_behavior": 2,
+            "tokenomics_supply": 3,
+            "liquidity_market": 2,
+            "product_development": 6,
+            "adoption_customers": 5,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "SHX",
@@ -3001,6 +3072,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "SIBERIUM",
+      "path": "banking-rails/SIBERIUM.md",
+      "versions": []
     },
     {
       "ticker": "SKEY",
@@ -3511,12 +3587,62 @@
     {
       "ticker": "TRUF",
       "path": "banking-rails/TRUF.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "e6e14809014363b9c48738493604b44b67d9a9e3",
+          "committed_at_mst": "2026-11-16 13:52 MST",
+          "subject": "v3: XEP, TX, ORBITER, SHPING, TRUF with Arkham corrections (16 Nov 2026 rules)",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 2,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "TX",
       "path": "banking-rails/TX.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "e6e14809014363b9c48738493604b44b67d9a9e3",
+          "committed_at_mst": "2026-11-16 13:52 MST",
+          "subject": "v3: XEP, TX, ORBITER, SHPING, TRUF with Arkham corrections (16 Nov 2026 rules)",
+          "overall_score": 3.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 2,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "VELO",
@@ -3701,7 +3827,32 @@
     {
       "ticker": "XEP",
       "path": "banking-rails/XEP.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "e6e14809014363b9c48738493604b44b67d9a9e3",
+          "committed_at_mst": "2026-11-16 13:52 MST",
+          "subject": "v3: XEP, TX, ORBITER, SHPING, TRUF with Arkham corrections (16 Nov 2026 rules)",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 2,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "XLM",

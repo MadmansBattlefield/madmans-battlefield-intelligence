@@ -1,9 +1,9 @@
 {
   "title": "Public addresses examined in published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 13:52 MST",
+  "generated_at": "2026-11-16 13:54 MST",
   "note": "Every address here was extracted from a public evidence link or explorer URL already published in banking-rails/<TICKER>.md. No private worksheets were used. Labels that would name a private individual are not included.",
-  "count": 1274,
+  "count": 1291,
   "addresses": [
     {
       "ticker": "ACH",
@@ -4710,6 +4710,20 @@
       "kind": "address"
     },
     {
+      "ticker": "NUVA",
+      "chain": "ethereum",
+      "address": "0xc360e625f19a7ea47e47810b13e386221d5187d1",
+      "url": "https://etherscan.io/address/0xc360e625f19a7ea47e47810b13e386221d5187d1",
+      "kind": "address"
+    },
+    {
+      "ticker": "NUVA",
+      "chain": "ethereum",
+      "address": "0xdc1c0534109e2db74fe800c84096547541607859",
+      "url": "https://etherscan.io/address/0xdc1c0534109e2db74fe800c84096547541607859",
+      "kind": "address"
+    },
+    {
       "ticker": "OM",
       "chain": "mantra-chain",
       "address": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
@@ -4855,6 +4869,41 @@
       "address": "0x40b8080938ac85e7f2ff2c0503c19d696c8bef9a",
       "url": "https://intel.arkm.com/explorer/address/0x40b8080938ac85e7f2ff2c0503c19d696c8bef9a",
       "kind": "address"
+    },
+    {
+      "ticker": "PALMUSD",
+      "chain": "ethereum",
+      "address": "0x1760bfb0f8461fcf4c6768a82436840d23f40252",
+      "url": "https://etherscan.io/address/0x1760bfb0f8461fcf4c6768a82436840d23f40252",
+      "kind": "address"
+    },
+    {
+      "ticker": "PALMUSD",
+      "chain": "ethereum",
+      "address": "0x4b3974aaabdc251b3086ae4a8163110d766c88c8",
+      "url": "https://etherscan.io/address/0x4b3974aaabdc251b3086ae4a8163110d766c88c8",
+      "kind": "address"
+    },
+    {
+      "ticker": "PALMUSD",
+      "chain": "ethereum",
+      "address": "0x6d3174d8fa8a24d19253e8b479c5ab58d0a2e898",
+      "url": "https://etherscan.io/address/0x6d3174d8fa8a24d19253e8b479c5ab58d0a2e898",
+      "kind": "address"
+    },
+    {
+      "ticker": "PALMUSD",
+      "chain": "ethereum",
+      "address": "0x9f41fb03aaf87c2b02f2d44bc98cd22a40ef3999",
+      "url": "https://etherscan.io/address/0x9f41fb03aaf87c2b02f2d44bc98cd22a40ef3999#code",
+      "kind": "address"
+    },
+    {
+      "ticker": "PALMUSD",
+      "chain": "ethereum",
+      "address": "0xfaf0cee6b20e2aaa4b80748a6af4cd89609a3d78",
+      "url": "https://etherscan.io/token/0xfaf0cee6b20e2aaa4b80748a6af4cd89609a3d78",
+      "kind": "token"
     },
     {
       "ticker": "PHA",
@@ -5729,6 +5778,76 @@
       "chain": "ethereum",
       "address": "0xdd6eeead61df9d320051838a42311ce8b7e98467",
       "url": "https://intel.arkm.com/explorer/address/0xdd6eeead61df9d320051838a42311ce8b7e98467",
+      "kind": "address"
+    },
+    {
+      "ticker": "RISE",
+      "chain": "base",
+      "address": "0x0151988326ded907853c7b75641d6a7897959510",
+      "url": "https://basescan.org/address/0x0151988326ded907853c7b75641d6a7897959510",
+      "kind": "address"
+    },
+    {
+      "ticker": "RISE",
+      "chain": "base",
+      "address": "0x08f326ac9192d92584d33d1b2560c4460291643b",
+      "url": "https://basescan.org/address/0x08f326ac9192d92584d33d1b2560c4460291643b",
+      "kind": "address"
+    },
+    {
+      "ticker": "RISE",
+      "chain": "base",
+      "address": "0x1829a3f35f4ef621f410e2c487499a8e933da885",
+      "url": "https://basescan.org/address/0x1829a3f35f4ef621f410e2c487499a8e933da885",
+      "kind": "address"
+    },
+    {
+      "ticker": "RISE",
+      "chain": "base",
+      "address": "0x5adfc1a01f03c81c027fb2f0f5e4bac04ca9f9f4",
+      "url": "https://basescan.org/address/0x5adfc1a01f03c81c027fb2f0f5e4bac04ca9f9f4",
+      "kind": "address"
+    },
+    {
+      "ticker": "RISE",
+      "chain": "base",
+      "address": "0x6d596a1d2c317f39029ee7ccea3fe1d6460811eb",
+      "url": "https://basescan.org/address/0x6d596a1d2c317f39029ee7ccea3fe1d6460811eb",
+      "kind": "address"
+    },
+    {
+      "ticker": "RISE",
+      "chain": "base",
+      "address": "0x7adc57d2ffd3521d4a68d83a8e40d32971472f87",
+      "url": "https://basescan.org/address/0x7adc57d2ffd3521d4a68d83a8e40d32971472f87",
+      "kind": "address"
+    },
+    {
+      "ticker": "RISE",
+      "chain": "base",
+      "address": "0x9525df984b7062c7c0fb103bc745467396241e7b",
+      "url": "https://basescan.org/address/0x9525df984b7062c7c0fb103bc745467396241e7b",
+      "kind": "address"
+    },
+    {
+      "ticker": "RISE",
+      "chain": "base",
+      "address": "0x978fb0e41ea2b7e6c96427cbab9131df3976e3b8",
+      "url": "https://basescan.org/address/0x978fb0e41ea2b7e6c96427cbab9131df3976e3b8",
+      "kind": "address"
+    },
+    {
+      "ticker": "RISE",
+      "chain": "base",
+      "address": "0xad12b1421d14130633700af043445115d16f5f2d",
+      "url": "https://basescan.org/address/0xad12b1421d14130633700af043445115d16f5f2d",
+      "kind": "address"
+    },
+    {
+      "ticker": "RISE",
+      "chain": "base",
+      "address": "0xc7a60e8b130cce51b7f489fd8b7fcf25141430cc",
+      "url": "https://basescan.org/address/0xc7a60e8b130cce51b7f489fd8b7fcf25141430cc",
       "kind": "address"
     },
     {

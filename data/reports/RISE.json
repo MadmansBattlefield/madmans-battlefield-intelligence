@@ -1,0 +1,357 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "RISE",
+  "name": "T-RIZE (RIZE token; listed here as T-RISE / Rise)",
+  "chain": "base",
+  "contract": "0x9818b6c09f5ecc843060927e8587c427c7c93583",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 6,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 3,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found; the issuer's filing reports no token exploits",
+    "mint_path_live": "no; 5B fixed supply",
+    "team_wallet_to_exchange_during_pump": "not proven: the disclosed Operations2 wallet sent 2.6M RIZE to a MEXC deposit, but not on a pump day; 75M moved to unlabelled wallets that weren't traced",
+    "entity_concentration": "deployer-created vesting contracts hold ~2.38B (48%); two unlabelled project-funded wallets hold 700M more"
+  },
+  "price_usd": 0.00304956,
+  "price_source": "CoinGecko `rize`, 16 Nov 2026 ~1:30 PM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "none; T-RIZE Group keeps its tokenization service revenue, and the filing says holders have no rights over fees, buybacks or treasury",
+    "pump_day_price_source": "MEXC RIZEUSDT daily closes (UTC); Binance unavailable (451), Gate has no RIZE pair (HTTP 400), MEXC is next in the hierarchy",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x9525df984b7062c7c0fb103bc745467396241e7b",
+        "label": "Governance allocation (VestingWallet)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Basescan: created by T-RIZE: Deployer; listed as the Governance wallet in the Blockworks token transparency filing"
+      },
+      {
+        "address": "0x08f326ac9192d92584d33d1b2560c4460291643b",
+        "label": "Operations2 (Fireblocks MPC)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "listed in the Blockworks filing; Basescan shows its transfers"
+      },
+      {
+        "address": "0x0151988326ded907853c7b75641d6a7897959510",
+        "label": "Partnership & Growth (UnallocatedVesting)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "listed in the Blockworks filing; created by T-RIZE: Deployer"
+      },
+      {
+        "address": "0x7adc57d2ffd3521d4a68d83a8e40d32971472f87",
+        "label": "MEXC Dep",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Basescan name tag only"
+      },
+      {
+        "address": "0xc7a60e8b130cce51b7f489fd8b7fcf25141430cc",
+        "label": "unlabelled 500M holder",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "gas funded by the same wallet that funded T-RIZE: Deployer; no label"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.00304956,
+    "market_cap_text": "$6.31M",
+    "fdv_text": "$15.2M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/RISE.md",
+    "sha256": "ce8319c40cda33f302659c37dee89d2d69c9d7ec292832fb3a46e6296e9a05d3",
+    "bytes": 13667,
+    "extracted_at": "2026-11-16 13:54 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko `rize`, 16 Nov 2026 ~1:30 PM MST",
+    "source_read_dates": [
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Governance vesting 1.5B created by T-RIZE: Deployer",
+      "url": "`0x9525…1e7b`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Operations2 → MEXC deposit",
+      "url": "2.5M, 23 Oct 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Operations2 → unlabelled 2 × 25M",
+      "url": "tx 1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Operations2 → unlabelled 2 × 25M",
+      "url": "tx 2",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "base",
+      "address": "0x0151988326ded907853c7b75641d6a7897959510",
+      "url": "https://basescan.org/address/0x0151988326ded907853c7b75641d6a7897959510",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x08f326ac9192d92584d33d1b2560c4460291643b",
+      "url": "https://basescan.org/address/0x08f326ac9192d92584d33d1b2560c4460291643b",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x1829a3f35f4ef621f410e2c487499a8e933da885",
+      "url": "https://basescan.org/address/0x1829a3f35f4ef621f410e2c487499a8e933da885",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x5adfc1a01f03c81c027fb2f0f5e4bac04ca9f9f4",
+      "url": "https://basescan.org/address/0x5adfc1a01f03c81c027fb2f0f5e4bac04ca9f9f4",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x6d596a1d2c317f39029ee7ccea3fe1d6460811eb",
+      "url": "https://basescan.org/address/0x6d596a1d2c317f39029ee7ccea3fe1d6460811eb",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x7adc57d2ffd3521d4a68d83a8e40d32971472f87",
+      "url": "https://basescan.org/address/0x7adc57d2ffd3521d4a68d83a8e40d32971472f87",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x9525df984b7062c7c0fb103bc745467396241e7b",
+      "url": "https://basescan.org/address/0x9525df984b7062c7c0fb103bc745467396241e7b",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x978fb0e41ea2b7e6c96427cbab9131df3976e3b8",
+      "url": "https://basescan.org/address/0x978fb0e41ea2b7e6c96427cbab9131df3976e3b8",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xad12b1421d14130633700af043445115d16f5f2d",
+      "url": "https://basescan.org/address/0xad12b1421d14130633700af043445115d16f5f2d",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xc7a60e8b130cce51b7f489fd8b7fcf25141430cc",
+      "url": "https://basescan.org/address/0xc7a60e8b130cce51b7f489fd8b7fcf25141430cc",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "MEXC RIZEUSDT daily closes (UTC); Binance unavailable (451), Gate has no RIZE pair (HTTP 400), MEXC is next in the hierarchy",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: the disclosed Operations2 wallet sent 2.6M RIZE to a MEXC deposit, but not on a pump day; 75M moved to unlabelled wallets that weren't traced"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "the token has no claim on revenue. **Holder test: no.** **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x9525df984b7062c7c0fb103bc745467396241e7b",
+      "url": null,
+      "label": "Governance allocation (VestingWallet)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x08f326ac9192d92584d33d1b2560c4460291643b",
+      "url": null,
+      "label": "Operations2 (Fireblocks MPC)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0151988326ded907853c7b75641d6a7897959510",
+      "url": null,
+      "label": "Partnership & Growth (UnallocatedVesting)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7adc57d2ffd3521d4a68d83a8e40d32971472f87",
+      "url": null,
+      "label": "MEXC Dep",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc7a60e8b130cce51b7f489fd8b7fcf25141430cc",
+      "url": null,
+      "label": "unlabelled 500M holder",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [Blockworks token transparency filing (issuer-submitted)](https://blockworks.com/token-transparency/filing/rize), [T-RIZE site](https://www.t-rize.io/)",
+      "urls": [
+        "Blockworks token transparency filing (issuer-submitted",
+        "T-RIZE site"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Basescan: holders, contract creators, address tags and transfers (linked above)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `rize` (market, venues); pump days from MEXC RIZEUSDT daily closes (UTC), per the price-source hierarchy (Gate has no pair)",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

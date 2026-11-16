@@ -9,7 +9,7 @@ Research notes on tokens and protocols around digital settlement, payroll, token
 
 Not financial advice. Research only. Times are in **MST**.
 
-**Start here:** [Cover sheet](COVER.md) (why this exists, methodology, what we look at) · [Full methodology](../METHODOLOGY.md) (v3 rulebook and the 16 Nov 2026 upgrades) · [Ranking](RANKING.md) (all 143 v3 scores, ranked) · [All projects](ALL-PROJECTS.md) (every name in the pipeline, including those still in progress) · [History](../HISTORY.md) · [Base rates](../BASE-RATES.md) · [Dead list](../DEAD.md)
+**Start here:** [Cover sheet](COVER.md) (why this exists, methodology, what we look at) · [Full methodology](../METHODOLOGY.md) (v3 rulebook and the 16 Nov 2026 upgrades) · [Ranking](RANKING.md) (all 148 v3 scores, ranked) · [All projects](ALL-PROJECTS.md) (every name in the pipeline, including those still in progress) · [History](../HISTORY.md) · [Base rates](../BASE-RATES.md) · [Dead list](../DEAD.md)
 
 ## 📐 Report layout (v3)
 
@@ -116,66 +116,71 @@ Every token in this folder has a full v3 scored report:
 | 81 | [W.md](W.md) | Wormhole | **3.8 / 10 · ❌ FAIL** |
 | 82 | [ASTR.md](ASTR.md) | Astar | **3.8 / 10 · ❌ FAIL** |
 | 83 | [ORBITER.md](ORBITER.md) | Orbiter Finance (OBT) | **3.8 / 10 · ❌ FAIL** |
-| 84 | [HASH.md](HASH.md) | Provenance Blockchain | **3.8 / 10 · ❌ FAIL** |
-| 85 | [AXL.md](AXL.md) | Axelar | **3.8 / 10 · ❌ FAIL** |
-| 86 | [SWFTC.md](SWFTC.md) | SWFT Blockchain | **3.8 / 10 · ❌ FAIL** |
-| 87 | [ZKJ.md](ZKJ.md) | Polyhedra Network | **3.8 / 10 · ❌ FAIL** |
-| 88 | [PLUME.md](PLUME.md) | Plume | **3.7 / 10 · ❌ FAIL** |
-| 89 | [XPL.md](XPL.md) | Plasma | **3.7 / 10 · ❌ FAIL** |
-| 90 | [SUI.md](SUI.md) | Sui | **3.7 / 10 · ❌ FAIL** |
-| 91 | [CRO.md](CRO.md) | Cronos (Crypto.com) | **3.7 / 10 · ❌ FAIL** |
-| 92 | [MOCA.md](MOCA.md) | Moca Network | **3.7 / 10 · ❌ FAIL** |
-| 93 | [TRADE.md](TRADE.md) | Polytrade | **3.7 / 10 · ❌ FAIL** |
-| 94 | [IOTX.md](IOTX.md) | IoTeX | **3.7 / 10 · ❌ FAIL** |
-| 95 | [TRUF.md](TRUF.md) | TRUF.Network (Truflation) | **3.7 / 10 · ❌ FAIL** |
-| 96 | [ZEN.md](ZEN.md) | Horizen | **3.7 / 10 · ❌ FAIL** |
-| 97 | [KAIO.md](KAIO.md) | KAIO (formerly Libre Capital) | **3.6 / 10 · ❌ FAIL** |
-| 98 | [CPOOL.md](CPOOL.md) | Clearpool | **3.6 / 10 · ❌ FAIL** |
-| 99 | [HYPER.md](HYPER.md) | Hyperlane | **3.6 / 10 · ❌ FAIL** |
-| 100 | [SHX.md](SHX.md) | Stronghold | **3.6 / 10 · ❌ FAIL** |
-| 101 | [SUPRA.md](SUPRA.md) | Supra | **3.6 / 10 · ❌ FAIL** |
-| 102 | [VELO.md](VELO.md) | Velo | **3.6 / 10 · ❌ FAIL** |
-| 103 | [QANX.md](QANX.md) | QANplatform | **3.6 / 10 · ❌ FAIL** |
-| 104 | [PROPC.md](PROPC.md) | Propchain | **3.6 / 10 · ❌ FAIL** |
-| 105 | [RBNT.md](RBNT.md) | Redbelly Network | **3.5 / 10 · ❌ FAIL** |
-| 106 | [WIREX.md](WIREX.md) | Wirex | **3.5 / 10 · ❌ FAIL** |
-| 107 | [TX.md](TX.md) | TX (Coreum + Sologenic) | **3.5 / 10 · ❌ FAIL** |
-| 108 | [ZKC.md](ZKC.md) | Boundless | **3.4 / 10 · ❌ FAIL** |
-| 109 | [SKEY.md](SKEY.md) | Skey Network | **3.4 / 10 · ❌ FAIL** |
-| 110 | [ZKP.md](ZKP.md) | zkPass | **3.4 / 10 · ❌ FAIL** |
-| 111 | [OM.md](OM.md) | MANTRA | **3.4 / 10 · ❌ FAIL** |
-| 112 | [PUNDIX.md](PUNDIX.md) | Pundi X | **3.4 / 10 · ❌ FAIL** |
-| 113 | [SHPING.md](SHPING.md) | Shping | **3.3 / 10 · ❌ FAIL** |
-| 114 | [POLYX.md](POLYX.md) | Polymesh | **3.3 / 10 · ❌ FAIL** |
-| 115 | [S.md](S.md) | Sonic | **3.3 / 10 · ❌ FAIL** |
-| 116 | [ZIG.md](ZIG.md) | ZIGChain (Zignaly) | **3.3 / 10 · ❌ FAIL** |
-| 117 | [STBL.md](STBL.md) | STBL | **3.3 / 10 · ❌ FAIL** |
-| 118 | [SHARE.md](SHARE.md) | ShareX | **3.3 / 10 · ❌ FAIL** |
-| 119 | [AEON.md](AEON.md) | AEON | **3.3 / 10 · ❌ FAIL** |
-| 120 | [YELLOW.md](YELLOW.md) | Yellow Network | **3.2 / 10 · ❌ FAIL** |
-| 121 | [LUMIA.md](LUMIA.md) | Lumia | **3.2 / 10 · ❌ FAIL** |
-| 122 | [KAVA.md](KAVA.md) | Kava | **3.1 / 10 · ❌ FAIL** |
-| 123 | [ACH.md](ACH.md) | Alchemy Pay | **3.1 / 10 · ❌ FAIL** |
-| 124 | [XEP.md](XEP.md) | Electra Protocol | **3.1 / 10 · ❌ FAIL** |
-| 125 | [PACT.md](PACT.md) | PACT | **3.1 / 10 · ❌ FAIL** |
-| 126 | [EXA.md](EXA.md) | Exactly Protocol | **3.1 / 10 · ❌ FAIL** |
-| 127 | [HONEY.md](HONEY.md) | Hivemapper | **3.1 / 10 · ❌ FAIL** |
-| 128 | [CSPR.md](CSPR.md) | Casper Network | **3.1 / 10 · ❌ FAIL** |
-| 129 | [IOST.md](IOST.md) | IOST | **3.1 / 10 · ❌ FAIL** |
-| 130 | [TLOS.md](TLOS.md) | Telos | **3.0 / 10 · ❌ FAIL** |
-| 131 | [ORAI.md](ORAI.md) | Oraichain | **3.0 / 10 · ❌ FAIL** |
-| 132 | [XDB.md](XDB.md) | XDB CHAIN (formerly DigitalBits) | **2.9 / 10 · ❌ FAIL** |
-| 133 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
-| 134 | [SERV.md](SERV.md) | OpenServ | **2.8 / 10 · ❌ FAIL** |
-| 135 | [MASQ.md](MASQ.md) | MASQ | **2.7 / 10 · ❌ FAIL** |
-| 136 | [RIO.md](RIO.md) | Realio Network | **2.7 / 10 · ❌ FAIL** |
-| 137 | [SCRT.md](SCRT.md) | Secret Network | **2.6 / 10 · ❌ FAIL** |
-| 138 | [EDEL.md](EDEL.md) | Edel Finance | **2.5 / 10 · ❌ FAIL** |
-| 139 | [SPA.md](SPA.md) | Sperax | **2.5 / 10 · ❌ FAIL** |
-| 140 | [SWCH.md](SWCH.md) | SwissCheese | **2.5 / 10 · ❌ FAIL** |
-| 141 | [COTI.md](COTI.md) | COTI | **2.4 / 10 · ❌ FAIL** |
-| 142 | [H.md](H.md) | Humanity Protocol | **2.4 / 10 · ❌ FAIL** |
-| 143 | [ROUTER.md](ROUTER.md) | Solrouter | **2.2 / 10 · ❌ FAIL** |
+| 84 | [RISE.md](RISE.md) | T-RIZE (RIZE) | **3.8 / 10 · ❌ FAIL** |
+| 85 | [HASH.md](HASH.md) | Provenance Blockchain | **3.8 / 10 · ❌ FAIL** |
+| 86 | [AXL.md](AXL.md) | Axelar | **3.8 / 10 · ❌ FAIL** |
+| 87 | [SWFTC.md](SWFTC.md) | SWFT Blockchain | **3.8 / 10 · ❌ FAIL** |
+| 88 | [ZKJ.md](ZKJ.md) | Polyhedra Network | **3.8 / 10 · ❌ FAIL** |
+| 89 | [PLUME.md](PLUME.md) | Plume | **3.7 / 10 · ❌ FAIL** |
+| 90 | [XPL.md](XPL.md) | Plasma | **3.7 / 10 · ❌ FAIL** |
+| 91 | [SUI.md](SUI.md) | Sui | **3.7 / 10 · ❌ FAIL** |
+| 92 | [CRO.md](CRO.md) | Cronos (Crypto.com) | **3.7 / 10 · ❌ FAIL** |
+| 93 | [MOCA.md](MOCA.md) | Moca Network | **3.7 / 10 · ❌ FAIL** |
+| 94 | [TRADE.md](TRADE.md) | Polytrade | **3.7 / 10 · ❌ FAIL** |
+| 95 | [IOTX.md](IOTX.md) | IoTeX | **3.7 / 10 · ❌ FAIL** |
+| 96 | [TRUF.md](TRUF.md) | TRUF.Network (Truflation) | **3.7 / 10 · ❌ FAIL** |
+| 97 | [ZEN.md](ZEN.md) | Horizen | **3.7 / 10 · ❌ FAIL** |
+| 98 | [KAIO.md](KAIO.md) | KAIO (formerly Libre Capital) | **3.6 / 10 · ❌ FAIL** |
+| 99 | [CPOOL.md](CPOOL.md) | Clearpool | **3.6 / 10 · ❌ FAIL** |
+| 100 | [HYPER.md](HYPER.md) | Hyperlane | **3.6 / 10 · ❌ FAIL** |
+| 101 | [SHX.md](SHX.md) | Stronghold | **3.6 / 10 · ❌ FAIL** |
+| 102 | [SUPRA.md](SUPRA.md) | Supra | **3.6 / 10 · ❌ FAIL** |
+| 103 | [VELO.md](VELO.md) | Velo | **3.6 / 10 · ❌ FAIL** |
+| 104 | [QANX.md](QANX.md) | QANplatform | **3.6 / 10 · ❌ FAIL** |
+| 105 | [PROPC.md](PROPC.md) | Propchain | **3.6 / 10 · ❌ FAIL** |
+| 106 | [NUVA.md](NUVA.md) | NUVA Finance | **3.5 / 10 · ❌ FAIL** |
+| 107 | [RBNT.md](RBNT.md) | Redbelly Network | **3.5 / 10 · ❌ FAIL** |
+| 108 | [WIREX.md](WIREX.md) | Wirex | **3.5 / 10 · ❌ FAIL** |
+| 109 | [TX.md](TX.md) | TX (Coreum + Sologenic) | **3.5 / 10 · ❌ FAIL** |
+| 110 | [ZKC.md](ZKC.md) | Boundless | **3.4 / 10 · ❌ FAIL** |
+| 111 | [SKEY.md](SKEY.md) | Skey Network | **3.4 / 10 · ❌ FAIL** |
+| 112 | [ZKP.md](ZKP.md) | zkPass | **3.4 / 10 · ❌ FAIL** |
+| 113 | [OM.md](OM.md) | MANTRA | **3.4 / 10 · ❌ FAIL** |
+| 114 | [PUNDIX.md](PUNDIX.md) | Pundi X | **3.4 / 10 · ❌ FAIL** |
+| 115 | [SHPING.md](SHPING.md) | Shping | **3.3 / 10 · ❌ FAIL** |
+| 116 | [POLYX.md](POLYX.md) | Polymesh | **3.3 / 10 · ❌ FAIL** |
+| 117 | [S.md](S.md) | Sonic | **3.3 / 10 · ❌ FAIL** |
+| 118 | [ZIG.md](ZIG.md) | ZIGChain (Zignaly) | **3.3 / 10 · ❌ FAIL** |
+| 119 | [STBL.md](STBL.md) | STBL | **3.3 / 10 · ❌ FAIL** |
+| 120 | [SHARE.md](SHARE.md) | ShareX | **3.3 / 10 · ❌ FAIL** |
+| 121 | [AEON.md](AEON.md) | AEON | **3.3 / 10 · ❌ FAIL** |
+| 122 | [YELLOW.md](YELLOW.md) | Yellow Network | **3.2 / 10 · ❌ FAIL** |
+| 123 | [LUMIA.md](LUMIA.md) | Lumia | **3.2 / 10 · ❌ FAIL** |
+| 124 | [KAVA.md](KAVA.md) | Kava | **3.1 / 10 · ❌ FAIL** |
+| 125 | [ACH.md](ACH.md) | Alchemy Pay | **3.1 / 10 · ❌ FAIL** |
+| 126 | [XEP.md](XEP.md) | Electra Protocol | **3.1 / 10 · ❌ FAIL** |
+| 127 | [PACT.md](PACT.md) | PACT | **3.1 / 10 · ❌ FAIL** |
+| 128 | [EXA.md](EXA.md) | Exactly Protocol | **3.1 / 10 · ❌ FAIL** |
+| 129 | [HONEY.md](HONEY.md) | Hivemapper | **3.1 / 10 · ❌ FAIL** |
+| 130 | [CSPR.md](CSPR.md) | Casper Network | **3.1 / 10 · ❌ FAIL** |
+| 131 | [IOST.md](IOST.md) | IOST | **3.1 / 10 · ❌ FAIL** |
+| 132 | [TLOS.md](TLOS.md) | Telos | **3.0 / 10 · ❌ FAIL** |
+| 133 | [ORAI.md](ORAI.md) | Oraichain | **3.0 / 10 · ❌ FAIL** |
+| 134 | [XDB.md](XDB.md) | XDB CHAIN (formerly DigitalBits) | **2.9 / 10 · ❌ FAIL** |
+| 135 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
+| 136 | [SERV.md](SERV.md) | OpenServ | **2.8 / 10 · ❌ FAIL** |
+| 137 | [MASQ.md](MASQ.md) | MASQ | **2.7 / 10 · ❌ FAIL** |
+| 138 | [RIO.md](RIO.md) | Realio Network | **2.7 / 10 · ❌ FAIL** |
+| 139 | [SCRT.md](SCRT.md) | Secret Network | **2.6 / 10 · ❌ FAIL** |
+| 140 | [PALMUSD.md](PALMUSD.md) | Palm USD (PUSD) | **2.6 / 10 · ❌ FAIL** |
+| 141 | [EDEL.md](EDEL.md) | Edel Finance | **2.5 / 10 · ❌ FAIL** |
+| 142 | [SPA.md](SPA.md) | Sperax | **2.5 / 10 · ❌ FAIL** |
+| 143 | [SWCH.md](SWCH.md) | SwissCheese | **2.5 / 10 · ❌ FAIL** |
+| 144 | [COTI.md](COTI.md) | COTI | **2.4 / 10 · ❌ FAIL** |
+| 145 | [H.md](H.md) | Humanity Protocol | **2.4 / 10 · ❌ FAIL** |
+| 146 | [ROUTER.md](ROUTER.md) | Solrouter | **2.2 / 10 · ❌ FAIL** |
+| 147 | [REALIZ.md](REALIZ.md) | Realiz (TPT30) | **2.1 / 10 · ❌ FAIL** |
+| 148 | [SIBERIUM.md](SIBERIUM.md) | Siberium Network (SIBR) | **1.9 / 10 · ❌ FAIL** |
 | — | [other-tokens.md](other-tokens.md) | Shorter notes on other researched names | unscored |
 
 Notes are condensed from on-chain reads, official docs, regulator filings, and the [daily](../daily/) market series. Status and scores were last set on 16 Nov 2026.

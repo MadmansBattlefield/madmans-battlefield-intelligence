@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 13:52 MST",
+  "generated_at": "2026-11-16 13:54 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -571,6 +571,12 @@
       "json": "data/reports/NIGHT.json"
     },
     {
+      "id": "NUVA",
+      "path": "banking-rails/NUVA.md",
+      "layout": "v3",
+      "json": "data/reports/NUVA.json"
+    },
+    {
       "id": "OM",
       "path": "banking-rails/OM.md",
       "layout": "v3",
@@ -599,6 +605,12 @@
       "path": "banking-rails/PACT.md",
       "layout": "v3",
       "json": "data/reports/PACT.json"
+    },
+    {
+      "id": "PALMUSD",
+      "path": "banking-rails/PALMUSD.md",
+      "layout": "v3",
+      "json": "data/reports/PALMUSD.json"
     },
     {
       "id": "PHA",
@@ -661,6 +673,12 @@
       "json": "data/reports/RBNT.json"
     },
     {
+      "id": "REALIZ",
+      "path": "banking-rails/REALIZ.md",
+      "layout": "v3",
+      "json": "data/reports/REALIZ.json"
+    },
+    {
       "id": "RED",
       "path": "banking-rails/RED.md",
       "layout": "v3",
@@ -683,6 +701,12 @@
       "path": "banking-rails/RIO.md",
       "layout": "v3",
       "json": "data/reports/RIO.json"
+    },
+    {
+      "id": "RISE",
+      "path": "banking-rails/RISE.md",
+      "layout": "v3",
+      "json": "data/reports/RISE.json"
     },
     {
       "id": "RLC",
@@ -755,6 +779,12 @@
       "path": "banking-rails/SHX.md",
       "layout": "v3",
       "json": "data/reports/SHX.json"
+    },
+    {
+      "id": "SIBERIUM",
+      "path": "banking-rails/SIBERIUM.md",
+      "layout": "v3",
+      "json": "data/reports/SIBERIUM.json"
     },
     {
       "id": "SKEY",
@@ -1026,5 +1056,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 143
+  "scored_reports": 148
 }
