@@ -53,31 +53,31 @@ Ties are broken by how many of the 11 sections passed.
 30. 🔴 **DOT** · 4.9 · ❌ FAIL
 31. 🔴 **DASH** · 4.7 · ❌ FAIL
 32. 🔴 **DIA** · 4.7 · ❌ FAIL
-33. 🔴 **CELO** · 4.7 · ❌ FAIL
-34. 🔴 **BTT** · 4.7 · ❌ FAIL
-35. 🔴 **WAN** · 4.7 · ❌ FAIL
-36. 🔴 **CARDS** · 4.7 · ❌ FAIL
-37. 🔴 **API3** · 4.5 · ❌ FAIL
-38. 🔴 **MNT** · 4.5 · ❌ FAIL
-39. 🔴 **RLS** · 4.5 · ❌ FAIL
-40. 🔴 **INV** · 4.4 · ❌ FAIL
-41. 🔴 **HUMA** · 4.4 · ❌ FAIL
-42. 🔴 **RVN** · 4.4 · ❌ FAIL
-43. 🔴 **ONDO** · 4.3 · ❌ FAIL
-44. 🔴 **QNT** · 4.3 · ❌ FAIL
-45. 🔴 **ICP** · 4.3 · ❌ FAIL
-46. 🔴 **RED** · 4.3 · ❌ FAIL
-47. 🔴 **PRO** · 4.3 · ❌ FAIL
-48. 🔴 **TRAC** · 4.2 · ❌ FAIL
-49. 🔴 **SOLV** · 4.2 · ❌ FAIL
-50. 🔴 **FXS** · 4.2 · ❌ FAIL
-51. 🔴 **AMP** · 4.2 · ❌ FAIL
-52. 🔴 **GRND** · 4.2 · ❌ FAIL
-53. 🔴 **ETC** · 4.1 · ❌ FAIL
-54. 🔴 **XVG** · 4.1 · ❌ FAIL
-55. 🔴 **EDEN** · 4.1 · ❌ FAIL
-56. 🔴 **RLC** · 4.0 · ❌ FAIL
-57. 🔴 **CFG** · 4.0 · ❌ FAIL
+33. 🔴 **ONDO** · 4.7 · ❌ FAIL
+34. 🔴 **CELO** · 4.7 · ❌ FAIL
+35. 🔴 **BTT** · 4.7 · ❌ FAIL
+36. 🔴 **WAN** · 4.7 · ❌ FAIL
+37. 🔴 **CARDS** · 4.7 · ❌ FAIL
+38. 🔴 **SOLV** · 4.6 · ❌ FAIL
+39. 🔴 **FXS** · 4.6 · ❌ FAIL
+40. 🔴 **API3** · 4.5 · ❌ FAIL
+41. 🔴 **MNT** · 4.5 · ❌ FAIL
+42. 🔴 **RLS** · 4.5 · ❌ FAIL
+43. 🔴 **INV** · 4.4 · ❌ FAIL
+44. 🔴 **HUMA** · 4.4 · ❌ FAIL
+45. 🔴 **RVN** · 4.4 · ❌ FAIL
+46. 🔴 **CFG** · 4.4 · ❌ FAIL
+47. 🔴 **QNT** · 4.3 · ❌ FAIL
+48. 🔴 **ICP** · 4.3 · ❌ FAIL
+49. 🔴 **RED** · 4.3 · ❌ FAIL
+50. 🔴 **PRO** · 4.3 · ❌ FAIL
+51. 🔴 **TRAC** · 4.2 · ❌ FAIL
+52. 🔴 **AMP** · 4.2 · ❌ FAIL
+53. 🔴 **GRND** · 4.2 · ❌ FAIL
+54. 🔴 **ETC** · 4.1 · ❌ FAIL
+55. 🔴 **XVG** · 4.1 · ❌ FAIL
+56. 🔴 **EDEN** · 4.1 · ❌ FAIL
+57. 🔴 **RLC** · 4.0 · ❌ FAIL
 58. 🔴 **ZBCN** · 4.0 · ❌ FAIL
 59. 🔴 **SEI** · 4.0 · ❌ FAIL
 60. 🔴 **TFUEL** · 4.0 · ❌ FAIL
@@ -175,6 +175,11 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+- **One-hop amendment (16 Nov 2026), batch 1:** a one-hop transfer now counts as a proven sale only with (a) a team-attributed exchange account, (b) evidence of an actual sale, or (c) no plausible published reason. CFG, ONDO and SOLV Selling 1 → 4 (not proven: CP149 listing and market-maker support, FIP-08 unlocks, Solv vesting schedule). FXS Selling 1 → 4 (sale proven by a CoW swap, but FIP-441 budgets make disclosure buried, so no penalty). INV stays 1 (DEX sales, no mandate found). No pass/fail changes.
+
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 JST (missed from batch 4): 1 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). No score changes. Unchanged: [JST](JST.md).
 
@@ -762,7 +767,18 @@ Score changes from that research:
 
 ---
 
-## #33 · CELO · Celo
+## #33 · ONDO · Ondo
+
+### 4.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 5 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. A Safe funded only by that admin Safe sent 100.5M ONDO (≈ $43.7M) into Coinbase deposit addresses in Aug–Oct 2026, including 18.2M on a pump day, with no disclosure.
+- 📄 [Full ONDO report](ONDO.md)
+
+---
+
+## #34 · CELO · Celo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -773,7 +789,7 @@ Score changes from that research:
 
 ---
 
-## #34 · BTT · BitTorrent
+## #35 · BTT · BitTorrent
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -784,7 +800,7 @@ Score changes from that research:
 
 ---
 
-## #35 · WAN · Wanchain
+## #36 · WAN · Wanchain
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -795,7 +811,7 @@ Score changes from that research:
 
 ---
 
-## #36 · CARDS · Collector Crypt
+## #37 · CARDS · Collector Crypt
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -806,7 +822,29 @@ Score changes from that research:
 
 ---
 
-## #37 · API3 · Api3
+## #38 · SOLV · Solv Protocol
+
+### 4.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** none
+- **Verdict:** Real SolvBTC revenue ($12.2M a year) that the token does not share; ~40.8% of max supply sits in six team-run 4-of-5 Safes that vest by policy, plus ~739M in single-key EOAs. Two pump-day deposits from the same fixed 18.67M payout series; Arkham shows the 2 Apr 2026 31.5M pump-day deposit was an investor fund (OKX Blockdream Ventures), and the suspected market maker is a Bithumb hot wallet.
+- 📄 [Full SOLV report](SOLV.md)
+
+---
+
+## #39 · FXS · Frax (prev. FXS)
+
+### 4.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** none
+- **Verdict:** Real DeFi fees that the token barely captures, with 43M new tokens pre-approved for team budgets. Arkham shows the Comptroller's 1M FXS to Odos was a WFRAX conversion, not a budget wallet.
+- 📄 [Full FXS report](FXS.md)
+
+---
+
+## #40 · API3 · Api3
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -817,7 +855,7 @@ Score changes from that research:
 
 ---
 
-## #38 · MNT · Mantle
+## #41 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -828,7 +866,7 @@ Score changes from that research:
 
 ---
 
-## #39 · RLS · Rayls
+## #42 · RLS · Rayls
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -839,7 +877,7 @@ Score changes from that research:
 
 ---
 
-## #40 · INV · Inverse Finance
+## #43 · INV · Inverse Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -850,7 +888,7 @@ Score changes from that research:
 
 ---
 
-## #41 · HUMA · Huma Finance
+## #44 · HUMA · Huma Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -861,7 +899,7 @@ Score changes from that research:
 
 ---
 
-## #42 · RVN · Ravencoin
+## #45 · RVN · Ravencoin
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -872,18 +910,18 @@ Score changes from that research:
 
 ---
 
-## #43 · ONDO · Ondo
+## #46 · CFG · Centrifuge
 
-### 4.3 / 10 · ❌ FAIL
+### 4.4 / 10 · ❌ FAIL
 
-- **Sections passed:** 5 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. A Safe funded only by that admin Safe sent 100.5M ONDO (≈ $43.7M) into Coinbase deposit addresses in Aug–Oct 2026, including 18.2M on a pump day, with no disclosure.
-- 📄 [Full ONDO report](ONDO.md)
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Real RWA product and adoption, but CP172 plans a token-to-equity conversion with no buyback, ~3%/yr perpetual inflation to a treasury EOA, and ~117M CFG in two single-key wallets. Arkham confirms the large 2025 treasury transfers went to OKX and Kraken hot wallets.
+- 📄 [Full CFG report](CFG.md)
 
 ---
 
-## #44 · QNT · Quant
+## #47 · QNT · Quant
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -894,7 +932,7 @@ Score changes from that research:
 
 ---
 
-## #45 · ICP · Internet Computer
+## #48 · ICP · Internet Computer
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -905,7 +943,7 @@ Score changes from that research:
 
 ---
 
-## #46 · RED · RedStone
+## #49 · RED · RedStone
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -916,7 +954,7 @@ Score changes from that research:
 
 ---
 
-## #47 · PRO · Propy
+## #50 · PRO · Propy
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -927,7 +965,7 @@ Score changes from that research:
 
 ---
 
-## #48 · TRAC · OriginTrail
+## #51 · TRAC · OriginTrail
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -938,29 +976,7 @@ Score changes from that research:
 
 ---
 
-## #49 · SOLV · Solv Protocol
-
-### 4.2 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** Selling
-- **Verdict:** Real SolvBTC revenue ($12.2M a year) that the token does not share; ~40.8% of max supply sits in six team-run 4-of-5 Safes that vest by policy, plus ~739M in single-key EOAs. Two pump-day deposits from the same fixed 18.67M payout series; Arkham shows the 2 Apr 2026 31.5M pump-day deposit was an investor fund (OKX Blockdream Ventures), and the suspected market maker is a Bithumb hot wallet.
-- 📄 [Full SOLV report](SOLV.md)
-
----
-
-## #50 · FXS · Frax (prev. FXS)
-
-### 4.2 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** Selling
-- **Verdict:** Real DeFi fees that the token barely captures, with 43M new tokens pre-approved for team budgets. Arkham shows the Comptroller's 1M FXS to Odos was a WFRAX conversion, not a budget wallet.
-- 📄 [Full FXS report](FXS.md)
-
----
-
-## #51 · AMP · Amp
+## #52 · AMP · Amp
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -971,7 +987,7 @@ Score changes from that research:
 
 ---
 
-## #52 · GRND · SuperWalk
+## #53 · GRND · SuperWalk
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -982,7 +998,7 @@ Score changes from that research:
 
 ---
 
-## #53 · ETC · Ethereum Classic
+## #54 · ETC · Ethereum Classic
 
 ### 4.1 / 10 · ❌ FAIL
 
@@ -993,7 +1009,7 @@ Score changes from that research:
 
 ---
 
-## #54 · XVG · Verge
+## #55 · XVG · Verge
 
 ### 4.1 / 10 · ❌ FAIL
 
@@ -1004,7 +1020,7 @@ Score changes from that research:
 
 ---
 
-## #55 · EDEN · OpenEden
+## #56 · EDEN · OpenEden
 
 ### 4.1 / 10 · ❌ FAIL
 
@@ -1015,7 +1031,7 @@ Score changes from that research:
 
 ---
 
-## #56 · RLC · iExec RLC
+## #57 · RLC · iExec RLC
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1023,17 +1039,6 @@ Score changes from that research:
 - **Hard gates failed:** Revenue, Selling
 - **Verdict:** Clean fixed supply, but no revenue, and a Safe funded by the Arkham-labelled iExec Team wallet sent 651k RLC to Binance during the Oct 2026 spike.
 - 📄 [Full RLC report](RLC.md)
-
----
-
-## #57 · CFG · Centrifuge
-
-### 4.0 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** Real RWA product and adoption, but CP172 plans a token-to-equity conversion with no buyback, ~3%/yr perpetual inflation to a treasury EOA, and ~117M CFG in two single-key wallets. Arkham confirms the large 2025 treasury transfers went to OKX and Kraken hot wallets.
-- 📄 [Full CFG report](CFG.md)
 
 ---
 

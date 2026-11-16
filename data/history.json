@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:29 MST",
+  "generated_at": "2026-11-16 14:40 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -1861,9 +1861,9 @@
       "path": "banking-rails/JST.md",
       "versions": [
         {
-          "commit": "78f06b60984377ebaa982af826c7a9121981898f",
-          "committed_at_mst": "2026-11-16 06:22 MST",
-          "subject": "Add SKY, ENA, PACT, JST, QUAI v3 reports with Arkham evidence; ranking 33 notes",
+          "commit": "e75648fb1b7af28c9f76262d4eaa20595c78ccde",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, JST (last pre-16-Nov report); no score change",
           "overall_score": 5.5,
           "overall_verdict": "FAIL",
           "section_scores": {

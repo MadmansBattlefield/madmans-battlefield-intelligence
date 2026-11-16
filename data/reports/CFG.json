@@ -4,13 +4,13 @@
   "name": "Centrifuge",
   "chain": "ethereum",
   "contract": "0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94",
-  "overall_score": 4.0,
+  "overall_score": 4.4,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 3,
     "foundation_team": 6,
     "insider_holdings": 3,
-    "selling_behavior": 1,
+    "selling_behavior": 4,
     "tokenomics_supply": 3,
     "liquidity_market": 4,
     "product_development": 7,
@@ -21,8 +21,7 @@
   },
   "sections_passed": 3,
   "gates_failed": [
-    "revenue",
-    "selling_behavior"
+    "revenue"
   ],
   "hard_gates": {
     "revenue": {
@@ -31,9 +30,9 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 1,
+      "score": 4,
       "threshold": 3,
-      "tripped": true
+      "tripped": false
     }
   },
   "red_lines": {
@@ -50,8 +49,8 @@
     "revenue_reaches_holders": "no",
     "revenue_mechanism": "None of the business income reaches CFG and the team says none will; there is no burn, buyback, fee share or fee-funded staking yield.",
     "pump_day_price_source": "Gate CFG/USDT daily closes",
-    "pump_day_disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
     "attributions": []
   },
@@ -66,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CFG.md",
-    "sha256": "7ff65199dda0969e5d263f0ae357345a45e26d075203ad16b0d34f9499c82015",
-    "bytes": 33975,
-    "extracted_at": "2026-11-16 14:29 MST",
+    "sha256": "2caf3cbb9f8d636cee53312eb1112d2d1e647b0a5659a3e8b3012b93b3867822",
+    "bytes": 34189,
+    "extracted_at": "2026-11-16 14:40 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -416,10 +415,10 @@
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
     "rescored_under_effective_rules": true,
-    "proven_pump_day_sale": "yes",
-    "selling_not_proven": false,
-    "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes, small and partly explained (Centrifuge Treasury EOA 0xb3da sent 835k CFG to a Binance deposit on the 18 Mar 2026 pump day; its pump-day FalconX deposits on 26 Feb and 16 Mar 2026 were returned 1:1 within weeks; the CNF Safe's 23.06M to Gate on the 23 May 2025 pump day falls under CP149's disclosed exchange-migration purpose)"
     ]
@@ -572,12 +571,12 @@
     }
   ],
   "review": {
-    "selling_holdings_low_confidence_flag": true,
-    "selling_holdings_single_source_arkham_flag": true,
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
     "flag_notes": [
-      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration.",
-      "An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change."
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone.",
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
     ],
     "dual_review": {
       "status": "not_run",

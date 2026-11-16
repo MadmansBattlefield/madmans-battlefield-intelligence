@@ -65,31 +65,31 @@ Every token in this folder has a full v3 scored report:
 | 30 | [DOT.md](DOT.md) | Polkadot | **4.9 / 10 · ❌ FAIL** |
 | 31 | [DASH.md](DASH.md) | Dash | **4.7 / 10 · ❌ FAIL** |
 | 32 | [DIA.md](DIA.md) | DIA | **4.7 / 10 · ❌ FAIL** |
-| 33 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
-| 34 | [BTT.md](BTT.md) | BitTorrent | **4.7 / 10 · ❌ FAIL** |
-| 35 | [WAN.md](WAN.md) | Wanchain | **4.7 / 10 · ❌ FAIL** |
-| 36 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
-| 37 | [API3.md](API3.md) | Api3 | **4.5 / 10 · ❌ FAIL** |
-| 38 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
-| 39 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |
-| 40 | [INV.md](INV.md) | Inverse Finance | **4.4 / 10 · ❌ FAIL** |
-| 41 | [HUMA.md](HUMA.md) | Huma Finance | **4.4 / 10 · ❌ FAIL** |
-| 42 | [RVN.md](RVN.md) | Ravencoin | **4.4 / 10 · ❌ FAIL** |
-| 43 | [ONDO.md](ONDO.md) | Ondo | **4.3 / 10 · ❌ FAIL** |
-| 44 | [QNT.md](QNT.md) | Quant | **4.3 / 10 · ❌ FAIL** |
-| 45 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
-| 46 | [RED.md](RED.md) | RedStone | **4.3 / 10 · ❌ FAIL** |
-| 47 | [PRO.md](PRO.md) | Propy | **4.3 / 10 · ❌ FAIL** |
-| 48 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
-| 49 | [SOLV.md](SOLV.md) | Solv Protocol | **4.2 / 10 · ❌ FAIL** |
-| 50 | [FXS.md](FXS.md) | Frax (prev. FXS) | **4.2 / 10 · ❌ FAIL** |
-| 51 | [AMP.md](AMP.md) | Amp | **4.2 / 10 · ❌ FAIL** |
-| 52 | [GRND.md](GRND.md) | SuperWalk | **4.2 / 10 · ❌ FAIL** |
-| 53 | [ETC.md](ETC.md) | Ethereum Classic | **4.1 / 10 · ❌ FAIL** |
-| 54 | [XVG.md](XVG.md) | Verge | **4.1 / 10 · ❌ FAIL** |
-| 55 | [EDEN.md](EDEN.md) | OpenEden | **4.1 / 10 · ❌ FAIL** |
-| 56 | [RLC.md](RLC.md) | iExec RLC | **4.0 / 10 · ❌ FAIL** |
-| 57 | [CFG.md](CFG.md) | Centrifuge | **4.0 / 10 · ❌ FAIL** |
+| 33 | [ONDO.md](ONDO.md) | Ondo | **4.7 / 10 · ❌ FAIL** |
+| 34 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
+| 35 | [BTT.md](BTT.md) | BitTorrent | **4.7 / 10 · ❌ FAIL** |
+| 36 | [WAN.md](WAN.md) | Wanchain | **4.7 / 10 · ❌ FAIL** |
+| 37 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
+| 38 | [SOLV.md](SOLV.md) | Solv Protocol | **4.6 / 10 · ❌ FAIL** |
+| 39 | [FXS.md](FXS.md) | Frax (prev. FXS) | **4.6 / 10 · ❌ FAIL** |
+| 40 | [API3.md](API3.md) | Api3 | **4.5 / 10 · ❌ FAIL** |
+| 41 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
+| 42 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |
+| 43 | [INV.md](INV.md) | Inverse Finance | **4.4 / 10 · ❌ FAIL** |
+| 44 | [HUMA.md](HUMA.md) | Huma Finance | **4.4 / 10 · ❌ FAIL** |
+| 45 | [RVN.md](RVN.md) | Ravencoin | **4.4 / 10 · ❌ FAIL** |
+| 46 | [CFG.md](CFG.md) | Centrifuge | **4.4 / 10 · ❌ FAIL** |
+| 47 | [QNT.md](QNT.md) | Quant | **4.3 / 10 · ❌ FAIL** |
+| 48 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
+| 49 | [RED.md](RED.md) | RedStone | **4.3 / 10 · ❌ FAIL** |
+| 50 | [PRO.md](PRO.md) | Propy | **4.3 / 10 · ❌ FAIL** |
+| 51 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
+| 52 | [AMP.md](AMP.md) | Amp | **4.2 / 10 · ❌ FAIL** |
+| 53 | [GRND.md](GRND.md) | SuperWalk | **4.2 / 10 · ❌ FAIL** |
+| 54 | [ETC.md](ETC.md) | Ethereum Classic | **4.1 / 10 · ❌ FAIL** |
+| 55 | [XVG.md](XVG.md) | Verge | **4.1 / 10 · ❌ FAIL** |
+| 56 | [EDEN.md](EDEN.md) | OpenEden | **4.1 / 10 · ❌ FAIL** |
+| 57 | [RLC.md](RLC.md) | iExec RLC | **4.0 / 10 · ❌ FAIL** |
 | 58 | [ZBCN.md](ZBCN.md) | Zebec Network | **4.0 / 10 · ❌ FAIL** |
 | 59 | [SEI.md](SEI.md) | Sei | **4.0 / 10 · ❌ FAIL** |
 | 60 | [TFUEL.md](TFUEL.md) | Theta Fuel | **4.0 / 10 · ❌ FAIL** |

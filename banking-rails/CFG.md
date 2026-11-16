@@ -3,13 +3,13 @@ ticker: CFG
 name: Centrifuge
 chain: ethereum
 contract: "0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94"
-overall_score: 4.0
+overall_score: 4.4
 overall_verdict: FAIL
 section_scores:
   revenue: 3
   foundation_team: 6
   insider_holdings: 3
-  selling_behavior: 1
+  selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 4
   product_development: 7
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 5
   regulatory: 5
   catalysts: 5
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: none found on the CFG token
   mint_path_live: "yes, by design (immutable InflationMinter mints ~3%/yr to treasury EOA 0xb3da; Root (48h delay) can add minters)"
@@ -28,8 +28,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "None of the business income reaches CFG and the team says none will; there is no burn, buyback, fee share or fee-funded staking yield."
 pump_day_price_source: "Gate CFG/USDT daily closes"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions: []
 price_usd: 0.07006
@@ -40,7 +40,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### CFG · Overall grade **4.0 / 10 · ❌ FAIL**
+### CFG · Overall grade **4.4 / 10 · ❌ FAIL**
 
 **Summary:** Centrifuge is a real tokenization platform: Janus Henderson, Apollo and New York Life funds run on it, and DefiLlama counts $5.2M of protocol revenue in the last year. But **the CFG token gets none of it**, by the team's own words ("no buyback", "CFG does not directly confer economic rights"). Holders voted 98.5% for CP172, which lets KYC'd holders swap CFG 1:1 for shares in a Cayman company, after which Centrifuge says it will **stop funding CFG liquidity**. Supply inflates 3% a year to a single-key treasury wallet, and ~17% of supply sits in two plain EOAs. Revenue trips the hard gate.
 
@@ -53,7 +53,7 @@ layout_version: 3
 | 💰 Revenue | 3/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 1/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -67,7 +67,7 @@ layout_version: 3
 ---
 
 
-# 🪪 CFG · Centrifuge · 4.0 / 10 · ❌ FAIL
+# 🪪 CFG · Centrifuge · 4.4 / 10 · ❌ FAIL
 
 > **One line:** A real RWA tokenization business whose token gets no revenue and is being replaced by company shares. Supply inflates 3% a year into a single-key treasury, and the company plans to stop paying for CFG liquidity after the share conversion.
 
@@ -119,7 +119,7 @@ layout_version: 3
 
 **What it means:** The CP149 Safe passed most of its 115M to `0xD052…`, a plain EOA. So the "locked" incentives are locked by policy only: in code, one key could move them. About 17% of supply sits in two single-key wallets, and the 12% team allocation is not visible on-chain.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 *Pump test uses Gate CFG/USDT daily closes (UTC). 66 of the last 365 days were pump days. CFG listed on Upbit in late Feb 2026 and on Binance in mid-Mar 2026 [Tier B, Alea], which were its two biggest daily gains of the year.*
 
@@ -137,7 +137,7 @@ layout_version: 3
 
 **What it means:** The biggest pump-day moves were loans that came back, or migration support that CP149 disclosed. That leaves the 835k Binance deposit on a listing-week pump day, plus ~20M sitting with FalconX, with no counterparty disclosure (DefiLlama rates market-maker transparency 0/10). A fail, but well short of the dumping seen in QNT or ROUTER. **5**.
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** The 18 Mar 2026 Binance deposit came straight from the treasury, was not returned, and no disclosure was found. Under the one-hop rule a direct treasury → exchange-deposit transfer on a pump day is a proven sale. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **5 → 1** (capped at 3, then −2). This adds the Selling hard gate. Pump days from Gate CFG/USDT daily closes.
+- **One-hop amendment (16 Nov 2026):** Centrifuge published a plausible reason for this movement: [CP149](https://github.com/centrifuge/cps/blob/main/cps/CP149/CP149.md) says the minted tokens support the migration "with exchanges and market makers", and the [CP172 FAQ](https://centrifuge.io/blog/centrifuge-releases-cp172-faqs) lists listing agreements and market-maker loans. The 835k Binance deposit came in the listing week, and the FalconX loans were returned. (a) No: the Binance account is not attributed to the team. (b) No: no swap, proceeds return or statement shows a sale. Under the amended rule the one-hop link is no longer enough on its own, so Selling scores **4 (not proven)** with no silence penalty. This replaces the earlier penalty described above.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 

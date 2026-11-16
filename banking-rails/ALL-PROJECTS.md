@@ -26,10 +26,10 @@ Live counts across all **148** published v3 reports. Rebuilt on every push. Full
 |---|---:|---:|
 | ✅ Pass overall | **7** | 5% |
 | 🔴 Fail on revenue (Revenue 3 or below) | **123** | 83% |
-| 🔴 Fail on insider selling (Selling 3 or below) | **35** | 24% |
-| 🔴 Fail both | **29** | 20% |
-| 🟨 Insider selling not proven | **76** | 51% |
-| 🤐 Pump-day sale with no disclosure | **28** | 19% |
+| 🔴 Fail on insider selling (Selling 3 or below) | **31** | 21% |
+| 🔴 Fail both | **27** | 18% |
+| 🟨 Insider selling not proven | **80** | 54% |
+| 🤐 Pump-day sale with no disclosure | **24** | 16% |
 
 - [✅ Done (v3 reports)](#done)
 - [🟢 Close](#close)
@@ -85,31 +85,31 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 30 | [DOT](DOT.md) | Polkadot | 4.9 | ❌ FAIL | Revenue gate |
 | 31 | [DASH](DASH.md) | Dash | 4.7 | ❌ FAIL | Revenue gate |
 | 32 | [DIA](DIA.md) | DIA | 4.7 | ❌ FAIL | Revenue gate |
-| 33 | [CELO](CELO.md) | Celo | 4.7 | ❌ FAIL | Revenue gate |
-| 34 | [BTT](BTT.md) | BitTorrent | 4.7 | ❌ FAIL | Low overall |
-| 35 | [WAN](WAN.md) | Wanchain | 4.7 | ❌ FAIL | Low overall |
-| 36 | [CARDS](CARDS.md) | Collector Crypt | 4.7 | ❌ FAIL | Low overall |
-| 37 | [API3](API3.md) | Api3 | 4.5 | ❌ FAIL | Selling gate |
-| 38 | [MNT](MNT.md) | Mantle | 4.5 | ❌ FAIL | Revenue gate |
-| 39 | [RLS](RLS.md) | Rayls | 4.5 | ❌ FAIL | Low overall |
-| 40 | [INV](INV.md) | Inverse Finance | 4.4 | ❌ FAIL | Selling gate |
-| 41 | [HUMA](HUMA.md) | Huma Finance | 4.4 | ❌ FAIL | Revenue gate |
-| 42 | [RVN](RVN.md) | Ravencoin | 4.4 | ❌ FAIL | Revenue gate |
-| 43 | [ONDO](ONDO.md) | Ondo | 4.3 | ❌ FAIL | Revenue and Selling gates |
-| 44 | [QNT](QNT.md) | Quant | 4.3 | ❌ FAIL | Selling gate |
-| 45 | [ICP](ICP.md) | Internet Computer | 4.3 | ❌ FAIL | Revenue gate |
-| 46 | [RED](RED.md) | RedStone | 4.3 | ❌ FAIL | Revenue gate |
-| 47 | [PRO](PRO.md) | Propy | 4.3 | ❌ FAIL | Revenue gate |
-| 48 | [TRAC](TRAC.md) | OriginTrail | 4.2 | ❌ FAIL | Revenue gate |
-| 49 | [SOLV](SOLV.md) | Solv Protocol | 4.2 | ❌ FAIL | Selling gate |
-| 50 | [FXS](FXS.md) | Frax (prev. FXS) | 4.2 | ❌ FAIL | Selling gate |
-| 51 | [AMP](AMP.md) | Amp | 4.2 | ❌ FAIL | Revenue gate |
-| 52 | [GRND](GRND.md) | SuperWalk | 4.2 | ❌ FAIL | Revenue gate |
-| 53 | [ETC](ETC.md) | Ethereum Classic | 4.1 | ❌ FAIL | Revenue gate |
-| 54 | [XVG](XVG.md) | Verge | 4.1 | ❌ FAIL | Revenue gate |
-| 55 | [EDEN](EDEN.md) | OpenEden | 4.1 | ❌ FAIL | Revenue gate |
-| 56 | [RLC](RLC.md) | iExec RLC | 4.0 | ❌ FAIL | Revenue and Selling gates |
-| 57 | [CFG](CFG.md) | Centrifuge | 4.0 | ❌ FAIL | Revenue and Selling gates |
+| 33 | [ONDO](ONDO.md) | Ondo | 4.7 | ❌ FAIL | Revenue gate |
+| 34 | [CELO](CELO.md) | Celo | 4.7 | ❌ FAIL | Revenue gate |
+| 35 | [BTT](BTT.md) | BitTorrent | 4.7 | ❌ FAIL | Low overall |
+| 36 | [WAN](WAN.md) | Wanchain | 4.7 | ❌ FAIL | Low overall |
+| 37 | [CARDS](CARDS.md) | Collector Crypt | 4.7 | ❌ FAIL | Low overall |
+| 38 | [SOLV](SOLV.md) | Solv Protocol | 4.6 | ❌ FAIL | Low overall |
+| 39 | [FXS](FXS.md) | Frax (prev. FXS) | 4.6 | ❌ FAIL | Low overall |
+| 40 | [API3](API3.md) | Api3 | 4.5 | ❌ FAIL | Selling gate |
+| 41 | [MNT](MNT.md) | Mantle | 4.5 | ❌ FAIL | Revenue gate |
+| 42 | [RLS](RLS.md) | Rayls | 4.5 | ❌ FAIL | Low overall |
+| 43 | [INV](INV.md) | Inverse Finance | 4.4 | ❌ FAIL | Selling gate |
+| 44 | [HUMA](HUMA.md) | Huma Finance | 4.4 | ❌ FAIL | Revenue gate |
+| 45 | [RVN](RVN.md) | Ravencoin | 4.4 | ❌ FAIL | Revenue gate |
+| 46 | [CFG](CFG.md) | Centrifuge | 4.4 | ❌ FAIL | Revenue gate |
+| 47 | [QNT](QNT.md) | Quant | 4.3 | ❌ FAIL | Selling gate |
+| 48 | [ICP](ICP.md) | Internet Computer | 4.3 | ❌ FAIL | Revenue gate |
+| 49 | [RED](RED.md) | RedStone | 4.3 | ❌ FAIL | Revenue gate |
+| 50 | [PRO](PRO.md) | Propy | 4.3 | ❌ FAIL | Revenue gate |
+| 51 | [TRAC](TRAC.md) | OriginTrail | 4.2 | ❌ FAIL | Revenue gate |
+| 52 | [AMP](AMP.md) | Amp | 4.2 | ❌ FAIL | Revenue gate |
+| 53 | [GRND](GRND.md) | SuperWalk | 4.2 | ❌ FAIL | Revenue gate |
+| 54 | [ETC](ETC.md) | Ethereum Classic | 4.1 | ❌ FAIL | Revenue gate |
+| 55 | [XVG](XVG.md) | Verge | 4.1 | ❌ FAIL | Revenue gate |
+| 56 | [EDEN](EDEN.md) | OpenEden | 4.1 | ❌ FAIL | Revenue gate |
+| 57 | [RLC](RLC.md) | iExec RLC | 4.0 | ❌ FAIL | Revenue and Selling gates |
 | 58 | [ZBCN](ZBCN.md) | Zebec Network | 4.0 | ❌ FAIL | Selling gate |
 | 59 | [SEI](SEI.md) | Sei | 4.0 | ❌ FAIL | Revenue gate |
 | 60 | [TFUEL](TFUEL.md) | Theta Fuel | 4.0 | ❌ FAIL | Revenue gate |

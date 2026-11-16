@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:29 MST
+generated_at: 2026-11-16 14:40 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -277,7 +277,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **IOST** — 3.1 FAIL in `aa945b1` (2026-11-16 12:24 MST).
 - **IOTX** — 3.7 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
 - **JASMY** — 2.8 FAIL in `a8496ab` (2026-11-16 14:06 MST).
-- **JST** — 5.5 FAIL in `78f06b6` (2026-11-16 06:22 MST).
+- **JST** — 5.5 FAIL in `e75648f` (2026-11-16 14:29 MST).
 - **KAIA** — 3.9 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
 - **KAIO** — 3.6 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
 - **KAVA** — 3.1 FAIL in `03adc39` (2026-11-16 14:24 MST).

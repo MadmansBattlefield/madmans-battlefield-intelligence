@@ -129,6 +129,17 @@ When a team, foundation, or treasury-linked wallet sells (or funds a wallet that
 
 After the ordinary Selling score is set, a **proven** pump-day sale whose disclosure quality is `silence` has **2 points** subtracted from Selling, floored at 0, and **cannot be scored above 3**. That trips the Selling hard gate. `pump_day_undisclosed_penalty_applied` is set to `true` only when this penalty is actually applied. Backfilled JSON for older reports leaves that field `false`.
 
+
+### Amendment, 16 Nov 2026: when a one-hop transfer counts as a proven sale
+
+A one-hop transfer (project wallet → exchange deposit, or project wallet → fresh wallet → exchange deposit) can be a legitimate payout, a market-making loan or custody. It counts as a **proven sale** only if at least one of these holds:
+
+- **(a)** the receiving exchange account is attributed to the team or project with medium or high confidence;
+- **(b)** there is on-chain or exchange evidence that the tokens were actually sold, such as a DEX swap, an on-chain return of proceeds, or a filing or statement;
+- **(c)** the project has published no plausible reason for the movement, after a cheap check of its official docs, governance and blog for payroll, grants, contributor payouts, market-making loans, custody or OTC.
+
+If a plausible published reason exists and neither (a) nor (b) holds, the sale is **not proven**: Selling scores **4**, with no silence penalty, and the report cites the reason. The silence penalty applies only to proven sales. This amendment was applied to every report whose proven sale rested on a one-hop link.
+
 ---
 
 ## 4. Revenue is locked to token-holder accrual

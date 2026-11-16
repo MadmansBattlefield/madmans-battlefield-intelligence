@@ -3,13 +3,13 @@ ticker: FXS
 name: Frax (prev. FXS)
 chain: ethereum
 contract: "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0"
-overall_score: 4.2
+overall_score: 4.6
 overall_verdict: FAIL
 section_scores:
   revenue: 4
   foundation_team: 6
   insider_holdings: 4
-  selling_behavior: 1
+  selling_behavior: 4
   tokenomics_supply: 4
   liquidity_market: 3
   product_development: 7
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 6
   regulatory: 5
   catalysts: 5
-gates_failed: [selling_behavior]
+gates_failed: []
 red_lines:
   hack_exploit: none found
   mint_path_live: "yes, by governance: FIP-441 (passed 5 Feb 2026) caps supply at 143M and pre-mints 43M FRAX for team-run budgets, FPIS redemptions and the legacy-FRAX wind-down; on-chain execution of the pre-mint not confirmed"
@@ -27,8 +27,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "DefiLlama tracks $0 to holders; FIP-441 only allows up to 10% of eligible net revenue to veFRAX, and that has not executed. Holders have no live claim on revenue; the score describes the business, not holder accrual."
 pump_day_price_source: "Gate FRAX/USDT daily closes"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: buried_disclosure
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0xb1748c79709f4ba2dd82834b8c82d4a505003f27"
@@ -44,7 +44,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### FXS · Overall grade **4.2 / 10 · ❌ FAIL**
+### FXS · Overall grade **4.6 / 10 · ❌ FAIL**
 
 **Summary:** Frax renamed FXS to **FRAX** in 2025 and made it the gas token of its own Layer 2, Fraxtal. The protocol is real and busy (frxUSD stablecoin, frxETH, Fraxlend, Fraxswap), with **$8.9M of fees and $476k of revenue over the last year** on DefiLlama. But almost none of that reaches the token: DefiLlama tracks **$0 of holder revenue**, and governance only allows "up to 10%" to veFRAX. In Feb 2026, FIP-441 fixed supply at **143M** and pre-minted **43M FRAX** for team-run budgets, which is **+43% over the 99.7M ERC20 supply**. The price is down **99.5% from ATH and 78% in a year**. No hard gate trips, but the average fails.
 
@@ -57,7 +57,7 @@ layout_version: 3
 | 💰 Revenue | 4/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 1/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 3/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -71,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 FXS · Frax (prev. FXS) · 4.2 / 10 · ❌ FAIL
+# 🪪 FXS · Frax (prev. FXS) · 4.6 / 10 · ❌ FAIL
 
 > **One line:** A real DeFi stack with real fees, but the token captures almost none of them, 43M new tokens are pre-approved for team budgets, and the price has fallen 78% in a year.
 
@@ -122,7 +122,7 @@ layout_version: 3
 
 **What it means:** The visible treasury is small and in a multisig. But up to 43M new FRAX (≈2.2× today's free float held by the Comptroller) is earmarked for the team to spend. **4**.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 *Pump test uses Gate FRAX/USDT (formerly FXS) daily closes (UTC). 31 of the last 365 days were pump days. Ethereum flows of the Comptroller were tested.*
 
@@ -137,7 +137,7 @@ layout_version: 3
 
 **What it means:** The treasury sells a steady ~$40–80k of FRAX a month for stablecoins, in line with FIP-441's spending budgets. One small sale (~$14k) landed on a pump day, five days before FIP-441 was posted. **4**: proven but small, so above the gate.
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** The sale came five days before FIP-441 set the spending budgets, and no notice of it was found. The amount is small (~$14k), but the rule has no size threshold. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **4 → 1** (capped at 3, then −2). This adds the Selling hard gate. 21 Jan 2026 is a pump day on Gate prices. Pump days from Gate FRAX/USDT daily closes.
+- **One-hop amendment (16 Nov 2026):** The Comptroller's CoW swap of WFRAX into frxUSD is an on-chain sale, so (b) holds and the sale **stays proven**. A plausible published reason does exist, though: Frax's treasury converts tokens to fund operations, and [FIP-441](https://gov.frax.finance/t/fip-441-frax-1-token-1-mission-1-vision/3826) set those spending budgets five days later. Because a dated governance post covers the program, but late and not this sale specifically, disclosure is re-classed as **buried**. Silence no longer applies, so the penalty is lifted and Selling returns to its ordinary score of **4**.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 

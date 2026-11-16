@@ -3,13 +3,13 @@ ticker: ONDO
 name: Ondo
 chain: ethereum
 contract: "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3"
-overall_score: 4.3
+overall_score: 4.7
 overall_verdict: FAIL
 section_scores:
   revenue: 3
   foundation_team: 4
   insider_holdings: 3
-  selling_behavior: 1
+  selling_behavior: 4
   tokenomics_supply: 2
   liquidity_market: 9
   product_development: 7
@@ -17,7 +17,7 @@ section_scores:
   security_audits: 6
   regulatory: 7
   catalysts: 3
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: none
   mint_role_used: not_used_still_possible
@@ -27,8 +27,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "The token is a governance coupon with no cash flow from Ondo's products."
 pump_day_price_source: "Gate ONDO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (51 of 360 days); the body's earlier count used the daily closes cited in the body"
-pump_day_disclosure_quality: silence
-pump_day_undisclosed_penalty_applied: true
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0xea5785e1727de2ba2cefd102cb2dd91e018675e1"
@@ -44,7 +44,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### ONDO · Overall grade **4.3 / 10 · ❌ FAIL**
+### ONDO · Overall grade **4.7 / 10 · ❌ FAIL**
 
 **Summary:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. New: a Safe funded only by that admin Safe sent 100.5M ONDO into Coinbase deposit addresses in Aug–Oct 2026, one batch on a pump day, with no disclosure.
 
@@ -57,7 +57,7 @@ layout_version: 3
 | 💰 Revenue | 3/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 4/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 1/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 2/10 | ❌ FAIL |
 | 💧 Liquidity & market | 9/10 | ✅ PASS |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -71,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ONDO · Ondo · 4.3 / 10 · ❌ FAIL
+# 🪪 ONDO · Ondo · 4.7 / 10 · ❌ FAIL
 
 > **One line:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. New: a Safe funded only by that admin Safe sent 100.5M ONDO into Coinbase deposit addresses in Aug–Oct 2026, one batch on a pump day, with no disclosure.
 
@@ -127,7 +127,7 @@ layout_version: 3
 
 **What it means:** Over half the supply can be moved by four signatures today, despite the "January 2027 unlock" story.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 | Test | Result | Source |
 |---|---|---|
@@ -157,7 +157,7 @@ layout_version: 3
 
 **What it means:** Tokens released from Ondo's admin Safe reached Coinbase directly: 100.5M ONDO (~$44M) in seven weeks, including 18.2M on a +32% pump day. Nothing was disclosed. One of five exchange sends on a pump day is in line with chance, and the coins may have gone to payees, not to Ondo, so this is not proof that Ondo dumped. Still, undisclosed releases from the issuer's Safe reached an exchange on a pump day, so the score drops from 5 to 4 (fail, but not the hard gate).
 
-- **Disclosure quality (16 Nov 2026 rules): silence.** Nothing was disclosed. Under the one-hop rule a direct transfer from a project-funded Safe into an exchange deposit on a pump day is a proven sale, even though the account owner behind the deposit address is not named. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **4 → 1** (capped at 3, then −2). This adds the Selling hard gate. 21 Sep 2026 is a pump day on Gate prices. Pump days from Gate ONDO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (51 of 360 days); the body's earlier count used the daily closes cited in the body.
+- **One-hop amendment (16 Nov 2026):** Ondo published a plausible reason: [FIP-08](https://forum.fluxfinance.com/t/fip-08-release-of-the-ondo-token-lock-up/563) sets anniversary unlocks for investors, contributors and partners each January, and `0xEA57…` paid many parties at once, which fits that schedule. Arkham labels one receiver Coinbase Prime Custody (custody, not a sale). (a) No: no deposit account is attributed to the team. (b) No: no sale is shown. Under the amended rule the one-hop link is no longer enough on its own, so Selling scores **4 (not proven)** with no silence penalty. This replaces the earlier penalty described above.
 
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 

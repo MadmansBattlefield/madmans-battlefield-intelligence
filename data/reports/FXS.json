@@ -4,13 +4,13 @@
   "name": "Frax (prev. FXS)",
   "chain": "ethereum",
   "contract": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
-  "overall_score": 4.2,
+  "overall_score": 4.6,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 4,
     "foundation_team": 6,
     "insider_holdings": 4,
-    "selling_behavior": 1,
+    "selling_behavior": 4,
     "tokenomics_supply": 4,
     "liquidity_market": 3,
     "product_development": 7,
@@ -20,9 +20,7 @@
     "catalysts": 5
   },
   "sections_passed": 3,
-  "gates_failed": [
-    "selling_behavior"
-  ],
+  "gates_failed": [],
   "hard_gates": {
     "revenue": {
       "score": 4,
@@ -30,9 +28,9 @@
       "tripped": false
     },
     "selling_behavior": {
-      "score": 1,
+      "score": 4,
       "threshold": 3,
-      "tripped": true
+      "tripped": false
     }
   },
   "red_lines": {
@@ -48,8 +46,8 @@
     "revenue_reaches_holders": "no",
     "revenue_mechanism": "DefiLlama tracks $0 to holders; FIP-441 only allows up to 10% of eligible net revenue to veFRAX, and that has not executed. Holders have no live claim on revenue; the score describes the business, not holder accrual.",
     "pump_day_price_source": "Gate FRAX/USDT daily closes",
-    "pump_day_disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "pump_day_disclosure_quality": "buried_disclosure",
+    "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
     "attributions": [
       {
@@ -71,9 +69,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/FXS.md",
-    "sha256": "3999b9b2db52284c212c4e67249d8a9fe45bc9ddaecaa076abe2a260578f0d0b",
-    "bytes": 22304,
-    "extracted_at": "2026-11-16 14:29 MST",
+    "sha256": "f46ee29198aca1f3f93863be56b373eb1d69685ef0cf7c856e262e622e32df09",
+    "bytes": 22384,
+    "extracted_at": "2026-11-16 14:40 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -231,10 +229,10 @@
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
     "rescored_under_effective_rules": true,
-    "proven_pump_day_sale": "yes",
-    "selling_not_proven": false,
-    "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "buried_disclosure",
+    "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: small: the Comptroller Safe swapped 13,794 WFRAX to frxUSD via CoW Protocol on 21 Jan 2026 (+46% over 5 days); its 469k WFRAX of 2026 sales are otherwise steady monthly spends"
     ]
@@ -394,11 +392,11 @@
     }
   ],
   "review": {
-    "selling_holdings_low_confidence_flag": true,
+    "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
     "flag_notes": [
-      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
     ],
     "dual_review": {
       "status": "not_run",
