@@ -49,3 +49,9 @@ Keep the sections: what it is, chain and contracts, key risks, recent events, so
 5. Extract **only** git-tracked published reports. Untracked drafts must not be added to `data/reports/`.
 6. Selling and Holdings on a new or updated report should go through the dual-review process in the methodology. If the two scores differ by 2 or more points, publish a note from the [RECONCILIATION.md](RECONCILIATION.md) template.
 7. Run the maintainer's private privacy scrub and keep it green. Do not add local machine paths, private worksheets, personal names, or portfolio data.
+
+## Rebuild order on every push
+
+1. `python3 scripts/build_data_layer.py` (report JSON, history, base rates)
+2. `python3 scripts/validate_reports.py`
+3. `python3 scripts/build_all_projects.py` (All Projects page, including the live scoreboard)

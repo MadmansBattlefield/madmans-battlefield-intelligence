@@ -856,6 +856,35 @@ def format_checked_at(meta: dict) -> str:
     return meta.get("scan_checked_at") or "16 Nov 2026 5:24 AM MST"
 
 
+
+def scoreboard_lines() -> list[str]:
+    """Live scoreboard from data/base-rates.json (built by scripts/build_data_layer.py)."""
+    rates_path = Path(__file__).resolve().parent.parent / "data" / "base-rates.json"
+    if not rates_path.exists():
+        return []
+    import json as _json
+    d = _json.loads(rates_path.read_text(encoding="utf-8"))
+    n = d.get("universe") or 0
+    rows = [
+        ("✅ Pass overall", "pass_rate"),
+        ("🔴 Fail on revenue (Revenue 3 or below)", "fail_revenue_gate"),
+        ("🔴 Fail on insider selling (Selling 3 or below)", "fail_selling_gate"),
+        ("🔴 Fail both", "fail_both_gates"),
+        ("🟨 Insider selling not proven", "selling_not_proven"),
+        ("🤐 Pump-day sale with no disclosure", "undisclosed_pump_day_sale_silence"),
+    ]
+    out = ["## 📊 Scoreboard", "",
+           f"Live counts across all **{n}** published v3 reports. Rebuilt on every push. Full detail in [BASE-RATES.md](../BASE-RATES.md).", "",
+           "| Measure | Count | Share |", "|---|---:|---:|"]
+    for label, key in rows:
+        v = d.get(key) or {}
+        c = v.get("count", 0)
+        sh = v.get("share", (c / n) if n else 0)
+        out.append(f"| {label} | **{c}** | {sh*100:.0f}% |")
+    out.append("")
+    return out
+
+
 def render_page(meta: dict, projects: list[dict]) -> str:
     in_progress = list(meta.get("rebuild_order_in_progress") or IN_PROGRESS)
     next_after = list(meta.get("next_up_after") or NEXT_UP_AFTER)
@@ -921,6 +950,7 @@ def render_page(meta: dict, projects: list[dict]) -> str:
         f"({len(unverified)} of them [Unverified])"
     )
     lines.append("")
+    lines.extend(scoreboard_lines())
     lines.append("- [✅ Done (v3 reports)](#done)")
     lines.append("- [🟢 Close](#close)")
     lines.append("- [🟡 Need wallet work](#wallet)")

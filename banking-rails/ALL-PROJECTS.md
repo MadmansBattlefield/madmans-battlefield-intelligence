@@ -18,6 +18,19 @@ Updated 16 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md). Mar
 
 **113** ✅ done · **0** 🟢 close · **116** 🟡 need wallet work · **35** 🔴 big gaps · **29** ⚫ dead or wound down (12 of them [Unverified])
 
+## 📊 Scoreboard
+
+Live counts across all **113** published v3 reports. Rebuilt on every push. Full detail in [BASE-RATES.md](../BASE-RATES.md).
+
+| Measure | Count | Share |
+|---|---:|---:|
+| ✅ Pass overall | **8** | 7% |
+| 🔴 Fail on revenue (Revenue 3 or below) | **89** | 79% |
+| 🔴 Fail on insider selling (Selling 3 or below) | **28** | 25% |
+| 🔴 Fail both | **25** | 22% |
+| 🟨 Insider selling not proven | **56** | 50% |
+| 🤐 Pump-day sale with no disclosure | **24** | 21% |
+
 - [✅ Done (v3 reports)](#done)
 - [🟢 Close](#close)
 - [🟡 Need wallet work](#wallet)

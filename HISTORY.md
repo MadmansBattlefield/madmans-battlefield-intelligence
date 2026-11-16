@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 11:05 MST
+generated_at: 2026-11-16 11:54 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
