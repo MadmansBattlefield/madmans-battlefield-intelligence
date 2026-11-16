@@ -1,6 +1,6 @@
 ---
 title: Banking rails
-last_updated: 2026-11-15
+last_updated: 2026-11-16
 ---
 
 # 🏦 Banking rails
@@ -9,7 +9,7 @@ Research notes on tokens and protocols around digital settlement, payroll, token
 
 Not financial advice. Research only. Times are in **MST**.
 
-**Start here:** [Cover sheet](COVER.md) (why this exists, methodology, what we look at) · [Ranking](RANKING.md) (all 28 v3 scores, ranked)
+**Start here:** [Cover sheet](COVER.md) (why this exists, methodology, what we look at) · [Ranking](RANKING.md) (all 28 v3 scores, ranked) · [All projects](ALL-PROJECTS.md) (every name in the pipeline, including those still in progress)
 
 ## 📐 Report layout (v3)
 
@@ -32,6 +32,7 @@ Every token in this folder has a full v3 scored report:
 |:---:|---|---|---|
 | — | [COVER.md](COVER.md) | Cover sheet and methodology | — |
 | — | [RANKING.md](RANKING.md) | Ranked list | — |
+| — | [ALL-PROJECTS.md](ALL-PROJECTS.md) | All 293 projects in the pipeline | — |
 | 1 | [BTC.md](BTC.md) | Bitcoin | **7.3 / 10 · ✅ PASS** |
 | 2 | [ETH.md](ETH.md) | Ethereum | **7.2 / 10 · ✅ PASS** |
 | 3 | [LINK.md](LINK.md) | Chainlink | **6.9 / 10 · ✅ PASS** |

@@ -12,7 +12,8 @@
     "banking_rails": "banking-rails/",
     "daily": "daily/",
     "banking_rails_cover": "banking-rails/COVER.md",
-    "banking_rails_ranking": "banking-rails/RANKING.md"
+    "banking_rails_ranking": "banking-rails/RANKING.md",
+    "banking_rails_all_projects": "banking-rails/ALL-PROJECTS.md"
   },
   "daily_reports": [
     {
