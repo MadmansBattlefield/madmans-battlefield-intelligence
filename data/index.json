@@ -174,6 +174,11 @@
       "layout": "v3"
     },
     {
+      "id": "ARB",
+      "path": "banking-rails/ARB.md",
+      "layout": "v3"
+    },
+    {
       "id": "AVAX",
       "path": "banking-rails/AVAX.md",
       "layout": "v3"
@@ -209,6 +214,11 @@
       "layout": "v3"
     },
     {
+      "id": "CFG",
+      "path": "banking-rails/CFG.md",
+      "layout": "v3"
+    },
+    {
       "id": "DASH",
       "path": "banking-rails/DASH.md",
       "layout": "v3"
@@ -241,6 +251,11 @@
     {
       "id": "HBAR",
       "path": "banking-rails/HBAR.md",
+      "layout": "v3"
+    },
+    {
+      "id": "HUMA",
+      "path": "banking-rails/HUMA.md",
       "layout": "v3"
     },
     {
@@ -339,6 +354,11 @@
       "layout": "v3"
     },
     {
+      "id": "SOLV",
+      "path": "banking-rails/SOLV.md",
+      "layout": "v3"
+    },
+    {
       "id": "SPA",
       "path": "banking-rails/SPA.md",
       "layout": "v3"
@@ -346,6 +366,11 @@
     {
       "id": "SUI",
       "path": "banking-rails/SUI.md",
+      "layout": "v3"
+    },
+    {
+      "id": "SYRUP",
+      "path": "banking-rails/SYRUP.md",
       "layout": "v3"
     },
     {

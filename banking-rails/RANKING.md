@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 48
+scored_reports: 53
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -28,53 +28,68 @@ Ties are broken by how many of the 11 sections passed.
 5. 🟢 **SOL** · 6.6 · ✅ PASS
 6. 🟢 **AERO** · 6.6 · ✅ PASS
 7. 🟢 **CC** · 6.4 · ✅ PASS
-8. 🔴 **XLM** · 5.7 · ❌ FAIL
-9. 🔴 **ENA** · 5.6 · ❌ FAIL
-10. 🔴 **BNKR** · 5.6 · ❌ FAIL
-11. 🔴 **AVAX** · 5.5 · ❌ FAIL
-12. 🔴 **TAO** · 5.5 · ❌ FAIL
-13. 🔴 **JST** · 5.5 · ❌ FAIL
-14. 🔴 **HBAR** · 5.3 · ❌ FAIL
-15. 🔴 **ZRO** · 5.3 · ❌ FAIL
-16. 🔴 **BP** · 5.2 · ❌ FAIL
-17. 🔴 **XRP** · 5.1 · ❌ FAIL
-18. 🔴 **ADA** · 5.1 · ❌ FAIL
-19. 🔴 **ALGO** · 5.0 · ❌ FAIL
-20. 🔴 **APT** · 5.0 · ❌ FAIL
-21. 🔴 **ZEC** · 4.9 · ❌ FAIL
-22. 🔴 **QUAI** · 4.9 · ❌ FAIL
-23. 🔴 **DOT** · 4.9 · ❌ FAIL
-24. 🔴 **INV** · 4.8 · ❌ FAIL
-25. 🔴 **DASH** · 4.7 · ❌ FAIL
-26. 🔴 **ONDO** · 4.7 · ❌ FAIL
-27. 🔴 **CELO** · 4.7 · ❌ FAIL
-28. 🔴 **API3** · 4.7 · ❌ FAIL
-29. 🔴 **CARDS** · 4.7 · ❌ FAIL
-30. 🔴 **QNT** · 4.6 · ❌ FAIL
-31. 🔴 **MNT** · 4.5 · ❌ FAIL
-32. 🔴 **ICP** · 4.3 · ❌ FAIL
-33. 🔴 **ZBCN** · 4.3 · ❌ FAIL
-34. 🔴 **TRAC** · 4.2 · ❌ FAIL
-35. 🔴 **SEI** · 4.0 · ❌ FAIL
-36. 🔴 **INJ** · 3.9 · ❌ FAIL
-37. 🔴 **ROSE** · 3.8 · ❌ FAIL
-38. 🔴 **PLUME** · 3.7 · ❌ FAIL
-39. 🔴 **SUI** · 3.7 · ❌ FAIL
-40. 🔴 **POLYX** · 3.3 · ❌ FAIL
-41. 🔴 **ZIG** · 3.3 · ❌ FAIL
-42. 🔴 **PACT** · 3.1 · ❌ FAIL
-43. 🔴 **EXA** · 3.1 · ❌ FAIL
-44. 🔴 **JASMY** · 2.8 · ❌ FAIL
-45. 🔴 **SERV** · 2.8 · ❌ FAIL
-46. 🔴 **EDEL** · 2.5 · ❌ FAIL
-47. 🔴 **SPA** · 2.5 · ❌ FAIL
-48. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+8. 🟢 **SYRUP** · 6.3 · ✅ PASS
+9. 🔴 **ARB** · 5.8 · ❌ FAIL
+10. 🔴 **XLM** · 5.7 · ❌ FAIL
+11. 🔴 **ENA** · 5.6 · ❌ FAIL
+12. 🔴 **BNKR** · 5.6 · ❌ FAIL
+13. 🔴 **AVAX** · 5.5 · ❌ FAIL
+14. 🔴 **TAO** · 5.5 · ❌ FAIL
+15. 🔴 **JST** · 5.5 · ❌ FAIL
+16. 🔴 **HBAR** · 5.3 · ❌ FAIL
+17. 🔴 **ZRO** · 5.3 · ❌ FAIL
+18. 🔴 **BP** · 5.2 · ❌ FAIL
+19. 🔴 **XRP** · 5.1 · ❌ FAIL
+20. 🔴 **ADA** · 5.1 · ❌ FAIL
+21. 🔴 **ALGO** · 5.0 · ❌ FAIL
+22. 🔴 **APT** · 5.0 · ❌ FAIL
+23. 🔴 **ZEC** · 4.9 · ❌ FAIL
+24. 🔴 **QUAI** · 4.9 · ❌ FAIL
+25. 🔴 **DOT** · 4.9 · ❌ FAIL
+26. 🔴 **INV** · 4.8 · ❌ FAIL
+27. 🔴 **DASH** · 4.7 · ❌ FAIL
+28. 🔴 **ONDO** · 4.7 · ❌ FAIL
+29. 🔴 **CELO** · 4.7 · ❌ FAIL
+30. 🔴 **API3** · 4.7 · ❌ FAIL
+31. 🔴 **SOLV** · 4.7 · ❌ FAIL
+32. 🔴 **CARDS** · 4.7 · ❌ FAIL
+33. 🔴 **QNT** · 4.6 · ❌ FAIL
+34. 🔴 **MNT** · 4.5 · ❌ FAIL
+35. 🔴 **CFG** · 4.5 · ❌ FAIL
+36. 🔴 **HUMA** · 4.4 · ❌ FAIL
+37. 🔴 **ICP** · 4.3 · ❌ FAIL
+38. 🔴 **ZBCN** · 4.3 · ❌ FAIL
+39. 🔴 **TRAC** · 4.2 · ❌ FAIL
+40. 🔴 **SEI** · 4.0 · ❌ FAIL
+41. 🔴 **INJ** · 3.9 · ❌ FAIL
+42. 🔴 **ROSE** · 3.8 · ❌ FAIL
+43. 🔴 **PLUME** · 3.7 · ❌ FAIL
+44. 🔴 **SUI** · 3.7 · ❌ FAIL
+45. 🔴 **POLYX** · 3.3 · ❌ FAIL
+46. 🔴 **ZIG** · 3.3 · ❌ FAIL
+47. 🔴 **PACT** · 3.1 · ❌ FAIL
+48. 🔴 **EXA** · 3.1 · ❌ FAIL
+49. 🔴 **JASMY** · 2.8 · ❌ FAIL
+50. 🔴 **SERV** · 2.8 · ❌ FAIL
+51. 🔴 **EDEL** · 2.5 · ❌ FAIL
+52. 🔴 **SPA** · 2.5 · ❌ FAIL
+53. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**7 of 48 pass.**
+**8 of 53 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Five more v3 reports (fifth batch of the day). **[SYRUP](SYRUP.md) is a new ✅ PASS**, entering at #8 with 6.3 / 10 (no gate; Selling 4 fails). Four fail: [ARB](ARB.md) at #9 with 5.8 (no gate, just below 6.0), [SOLV](SOLV.md) at #31 with 4.7 (no gate), [CFG](CFG.md) at #35 with 4.5 (Revenue gate) and [HUMA](HUMA.md) at #36 with 4.4 (Revenue gate). All five were checked against Arkham labels before ranking. No score changed, but several facts were corrected:
+
+- [SYRUP](SYRUP.md): Arkham labels the wallet behind the 6 May 2025 pump-day Binance deposit Syrup.fi (Maple Finance). That removes the market-maker excuse for that row, but the Selling 4 already counted it as Maple-funded. The 109M #2 holder is ParaFi Capital (a fund), not Maple. Arithmetic re-checked: 94 / 15 = 6.27, no gate. (Sections passed corrected to 9 of 11.)
+- [ARB](ARB.md): the "single-key EOA" hop `0x905a…` is a Coinbase Prime deposit address, and "Coinbase Prime 3" is Coinbase Prime's hot wallet (OTC tag). Selling stays 5: the venue is confirmed, but sales are not proven.
+- [SOLV](SOLV.md): `0x0995…` is a Bithumb hot wallet, not a market maker; `0x5e75…` is a sixth 4-of-5 vesting Safe, not an EOA (single-key total now ~739M). The 2 Apr 2026 31.5M pump-day deposit was by OKX Blockdream Ventures after a Solv payout, so it is investor flow. A follow-up chain scan found a second 18.67M pump-day deposit (21 Nov 2025) in the same payout series; Selling stays 5.
+- [CFG](CFG.md): the 2025 treasury transfers went to OKX and Kraken hot wallets (Arkham). (Sections passed corrected to 3 of 11.)
+- [HUMA](HUMA.md): Arkham confirms the vault labels but names none of the six recipients, and its transfer rows show the symbol HOLD rather than HUMA. Half of the 16 Apr GSR loan return went into Binance, Bybit and Bitget deposits the next day (not a pump day).
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Five more v3 reports (fourth batch of the day), all ❌ FAIL: [DOT](DOT.md) enters at #23 with 4.9 / 10 (Revenue gate), [INV](INV.md) at #24 with 4.8 (no gate, below 6.0), [TRAC](TRAC.md) at #34 with 4.2 (Revenue gate), [POLYX](POLYX.md) at #40 with 3.3 (Revenue and Selling gates) and [EXA](EXA.md) at #43 with 3.1 (Revenue gate). INV, TRAC and EXA were checked against Arkham labels before ranking; Arkham does not cover Polkadot or Polymesh. No score changed from the Arkham pass:
 
@@ -201,7 +216,29 @@ Score changes from that research:
 
 ---
 
-## #8 · XLM · Stellar
+## #8 · SYRUP · Maple Finance
+
+### 6.3 / 10 · ✅ PASS
+
+- **Sections passed:** 9 of 11
+- **Hard gates failed:** none
+- **Verdict:** A real on-chain credit business ($14.5M of protocol revenue in a year on a ~$119M cap) with a rules-based buyback and published treasury wallets. Selling fails: Maple-run wallets put ~15.1M SYRUP into exchange deposits on five pump days (Arkham labels the 6 May 2025 funder Syrup.fi (Maple Finance)), but the amounts are ~1.2% of supply and an MM loan program is disclosed. The #2 holder (109M) is ParaFi Capital per Arkham.
+- 📄 [Full SYRUP report](SYRUP.md)
+
+---
+
+## #9 · ARB · Arbitrum
+
+### 5.8 / 10 · ❌ FAIL
+
+- **Sections passed:** 8 of 11
+- **Hard gates failed:** none
+- **Verdict:** Clean governance and the largest Ethereum rollup, but ~$7M of yearly revenue on a $911M cap and no fee share. Foundation ARB goes to a Coinbase Prime deposit address (Arkham), including 137.5M on 13 pump days; conversions are disclosed only in general. Selling is the swing factor: a 6 would make it a PASS.
+- 📄 [Full ARB report](ARB.md)
+
+---
+
+## #10 · XLM · Stellar
 
 ### 5.7 / 10 · ❌ FAIL
 
@@ -212,7 +249,7 @@ Score changes from that research:
 
 ---
 
-## #9 · ENA · Ethena
+## #11 · ENA · Ethena
 
 ### 5.6 / 10 · ❌ FAIL
 
@@ -223,7 +260,7 @@ Score changes from that research:
 
 ---
 
-## #10 · BNKR · Bankr (BankrCoin)
+## #12 · BNKR · Bankr (BankrCoin)
 
 ### 5.6 / 10 · ❌ FAIL
 
@@ -234,7 +271,7 @@ Score changes from that research:
 
 ---
 
-## #11 · AVAX · Avalanche
+## #13 · AVAX · Avalanche
 
 ### 5.5 / 10 · ❌ FAIL
 
@@ -245,7 +282,7 @@ Score changes from that research:
 
 ---
 
-## #12 · TAO · Bittensor
+## #14 · TAO · Bittensor
 
 ### 5.5 / 10 · ❌ FAIL
 
@@ -256,7 +293,7 @@ Score changes from that research:
 
 ---
 
-## #13 · JST · JUST
+## #15 · JST · JUST
 
 ### 5.5 / 10 · ❌ FAIL
 
@@ -267,7 +304,7 @@ Score changes from that research:
 
 ---
 
-## #14 · HBAR · Hedera
+## #16 · HBAR · Hedera
 
 ### 5.3 / 10 · ❌ FAIL
 
@@ -278,7 +315,7 @@ Score changes from that research:
 
 ---
 
-## #15 · ZRO · LayerZero
+## #17 · ZRO · LayerZero
 
 ### 5.3 / 10 · ❌ FAIL
 
@@ -289,7 +326,7 @@ Score changes from that research:
 
 ---
 
-## #16 · BP · Backpack
+## #18 · BP · Backpack
 
 ### 5.2 / 10 · ❌ FAIL
 
@@ -300,7 +337,7 @@ Score changes from that research:
 
 ---
 
-## #17 · XRP · XRP
+## #19 · XRP · XRP
 
 ### 5.1 / 10 · ❌ FAIL
 
@@ -311,7 +348,7 @@ Score changes from that research:
 
 ---
 
-## #18 · ADA · Cardano
+## #20 · ADA · Cardano
 
 ### 5.1 / 10 · ❌ FAIL
 
@@ -322,7 +359,7 @@ Score changes from that research:
 
 ---
 
-## #19 · ALGO · Algorand
+## #21 · ALGO · Algorand
 
 ### 5.0 / 10 · ❌ FAIL
 
@@ -333,7 +370,7 @@ Score changes from that research:
 
 ---
 
-## #20 · APT · Aptos
+## #22 · APT · Aptos
 
 ### 5.0 / 10 · ❌ FAIL
 
@@ -344,7 +381,7 @@ Score changes from that research:
 
 ---
 
-## #21 · ZEC · Zcash
+## #23 · ZEC · Zcash
 
 ### 4.9 / 10 · ❌ FAIL
 
@@ -355,7 +392,7 @@ Score changes from that research:
 
 ---
 
-## #22 · QUAI · Quai Network
+## #24 · QUAI · Quai Network
 
 ### 4.9 / 10 · ❌ FAIL
 
@@ -366,7 +403,7 @@ Score changes from that research:
 
 ---
 
-## #23 · DOT · Polkadot
+## #25 · DOT · Polkadot
 
 ### 4.9 / 10 · ❌ FAIL
 
@@ -377,7 +414,7 @@ Score changes from that research:
 
 ---
 
-## #24 · INV · Inverse Finance
+## #26 · INV · Inverse Finance
 
 ### 4.8 / 10 · ❌ FAIL
 
@@ -388,7 +425,7 @@ Score changes from that research:
 
 ---
 
-## #25 · DASH · Dash
+## #27 · DASH · Dash
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -399,7 +436,7 @@ Score changes from that research:
 
 ---
 
-## #26 · ONDO · Ondo
+## #28 · ONDO · Ondo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -410,7 +447,7 @@ Score changes from that research:
 
 ---
 
-## #27 · CELO · Celo
+## #29 · CELO · Celo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -421,7 +458,7 @@ Score changes from that research:
 
 ---
 
-## #28 · API3 · Api3
+## #30 · API3 · Api3
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -432,7 +469,18 @@ Score changes from that research:
 
 ---
 
-## #29 · CARDS · Collector Crypt
+## #31 · SOLV · Solv Protocol
+
+### 4.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** none
+- **Verdict:** Real SolvBTC revenue ($12.2M a year) that the token does not share; ~40.8% of max supply sits in six team-run 4-of-5 Safes that vest by policy, plus ~739M in single-key EOAs. Two pump-day deposits from the same fixed 18.67M payout series; Arkham shows the 2 Apr 2026 31.5M pump-day deposit was an investor fund (OKX Blockdream Ventures), and the suspected market maker is a Bithumb hot wallet.
+- 📄 [Full SOLV report](SOLV.md)
+
+---
+
+## #32 · CARDS · Collector Crypt
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -443,7 +491,7 @@ Score changes from that research:
 
 ---
 
-## #30 · QNT · Quant
+## #33 · QNT · Quant
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -454,7 +502,7 @@ Score changes from that research:
 
 ---
 
-## #31 · MNT · Mantle
+## #34 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -465,7 +513,29 @@ Score changes from that research:
 
 ---
 
-## #32 · ICP · Internet Computer
+## #35 · CFG · Centrifuge
+
+### 4.5 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Real RWA product and adoption, but CP172 plans a token-to-equity conversion with no buyback, ~3%/yr perpetual inflation to a treasury EOA, and ~117M CFG in two single-key wallets. Arkham confirms the large 2025 treasury transfers went to OKX and Kraken hot wallets.
+- 📄 [Full CFG report](CFG.md)
+
+---
+
+## #36 · HUMA · Huma Finance
+
+### 4.4 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A working PayFi credit network whose yield goes to LPs, not HUMA. 671.5M HUMA left labelled vaults for six unnamed wallets on pump days (Arkham confirms the vault labels, names no recipient), and the 20.6% investor allocation sits in a 0-timelock multisig before the 26 Nov unlock.
+- 📄 [Full HUMA report](HUMA.md)
+
+---
+
+## #37 · ICP · Internet Computer
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -476,7 +546,7 @@ Score changes from that research:
 
 ---
 
-## #33 · ZBCN · Zebec Network
+## #38 · ZBCN · Zebec Network
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -487,7 +557,7 @@ Score changes from that research:
 
 ---
 
-## #34 · TRAC · OriginTrail
+## #39 · TRAC · OriginTrail
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -498,7 +568,7 @@ Score changes from that research:
 
 ---
 
-## #35 · SEI · Sei
+## #40 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -509,7 +579,7 @@ Score changes from that research:
 
 ---
 
-## #36 · INJ · Injective
+## #41 · INJ · Injective
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -520,7 +590,7 @@ Score changes from that research:
 
 ---
 
-## #37 · ROSE · Oasis Network
+## #42 · ROSE · Oasis Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -531,7 +601,7 @@ Score changes from that research:
 
 ---
 
-## #38 · PLUME · Plume
+## #43 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -542,7 +612,7 @@ Score changes from that research:
 
 ---
 
-## #39 · SUI · Sui
+## #44 · SUI · Sui
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -553,7 +623,7 @@ Score changes from that research:
 
 ---
 
-## #40 · POLYX · Polymesh
+## #45 · POLYX · Polymesh
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -564,7 +634,7 @@ Score changes from that research:
 
 ---
 
-## #41 · ZIG · ZIGChain (Zignaly)
+## #46 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -575,7 +645,7 @@ Score changes from that research:
 
 ---
 
-## #42 · PACT · PACT
+## #47 · PACT · PACT
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -586,7 +656,7 @@ Score changes from that research:
 
 ---
 
-## #43 · EXA · Exactly Protocol
+## #48 · EXA · Exactly Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -597,7 +667,7 @@ Score changes from that research:
 
 ---
 
-## #44 · JASMY · JasmyCoin
+## #49 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -608,7 +678,7 @@ Score changes from that research:
 
 ---
 
-## #45 · SERV · OpenServ
+## #50 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -619,7 +689,7 @@ Score changes from that research:
 
 ---
 
-## #46 · EDEL · Edel Finance
+## #51 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -630,7 +700,7 @@ Score changes from that research:
 
 ---
 
-## #47 · SPA · Sperax
+## #52 · SPA · Sperax
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -641,7 +711,7 @@ Score changes from that research:
 
 ---
 
-## #48 · ROUTER · Solrouter
+## #53 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 
