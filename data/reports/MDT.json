@@ -37,9 +37,9 @@
   },
   "red_lines": {
     "hack_exploit": "none found in this pass",
-    "team_wallet_to_exchange_during_pump": "not tested: no exchange price series; holders unlabelled",
+    "team_wallet_to_exchange_during_pump": "not tested: no exchange price series; team wallets unpublished",
     "one_hop_sale_status": "none_found",
-    "entity_concentration": "~34% in two unlabelled EOAs (low confidence)"
+    "entity_concentration": "DWF Labs 18.1% (market maker); Coinbase Prime 16.3%"
   },
   "price_usd": 0.00410684,
   "price_source": "CoinGecko `measurable-data-token`, 16 Nov 2026 ~3:00 PM MST",
@@ -54,17 +54,24 @@
     "attributions": [
       {
         "address": "0xa14567cbd5090a6b469390e7d33b10cffa70c5b3",
-        "label": "Unlabelled EOA (18.1%)",
-        "confidence": "low",
+        "label": "DWF Labs, market maker (18.1%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham entity label"
       },
       {
         "address": "0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4",
-        "label": "Unlabelled EOA (16.3%)",
-        "confidence": "low",
+        "label": "Coinbase Prime Custody (16.3%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham entity label"
+      },
+      {
+        "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "label": "Coinbase: Hot Wallet (9.3%)",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham entity label"
       },
       {
         "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
@@ -85,9 +92,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/MDT.md",
-    "sha256": "85284b5e74a43cee3b4b783338d7ae4732e3434a203f36de164f7f33dad0a5d9",
-    "bytes": 10176,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "d6db29d3f40dfd8fc69a51efaeb552a6fc3f4a8529960986359ab19655fb76c2",
+    "bytes": 12393,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -99,6 +106,34 @@
     "arkham_read": null
   },
   "evidence_links": [
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xa145…c5b3",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x4f4d…0ca4",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xa9d1…3e43",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xf977…acec",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
     {
       "claim": "Market data and venues",
       "url": "CoinGecko `measurable-data-token`",
@@ -142,6 +177,12 @@
     },
     {
       "chain": "ethereum",
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
       "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
       "url": "https://etherscan.io/address/0xf977814e90da44bfa03b6295a0616a897441acec",
       "kind": "address"
@@ -161,7 +202,7 @@
     "pump_day_undisclosed_penalty_applied": false,
     "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
-      "team_wallet_to_exchange_during_pump: not tested: no exchange price series; holders unlabelled"
+      "team_wallet_to_exchange_during_pump: not tested: no exchange price series; team wallets unpublished"
     ]
   },
   "revenue_accrual": {
@@ -176,27 +217,40 @@
     {
       "address": "0xa14567cbd5090a6b469390e7d33b10cffa70c5b3",
       "url": null,
-      "label": "Unlabelled EOA (18.1%)",
+      "label": "DWF Labs, market maker (18.1%)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4",
       "url": null,
-      "label": "Unlabelled EOA (16.3%)",
+      "label": "Coinbase Prime Custody (16.3%)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": null,
+      "label": "Coinbase: Hot Wallet (9.3%)",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     },
     {
@@ -211,26 +265,13 @@
       ],
       "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": null,
-      "url": null,
-      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
-      "source": "report",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": true
     }
   ],
   "review": {
     "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
-    "flag_notes": [
-      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
-    ],
+    "flag_notes": [],
     "dual_review": {
       "status": "not_run",
       "threshold_points": 2,

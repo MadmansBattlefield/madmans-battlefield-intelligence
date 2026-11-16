@@ -4,12 +4,12 @@
   "name": "Bluzelle",
   "chain": "ethereum",
   "contract": "0x5732046a883704404f284ce41ffadd5b007fd668",
-  "overall_score": 3.1,
+  "overall_score": 3.2,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 1,
     "foundation_team": 4,
-    "insider_holdings": 4,
+    "insider_holdings": 5,
     "selling_behavior": 4,
     "tokenomics_supply": 5,
     "liquidity_market": 2,
@@ -37,9 +37,9 @@
   },
   "red_lines": {
     "hack_exploit": "none found in this pass",
-    "team_wallet_to_exchange_during_pump": "not tested: holders unlabelled",
+    "team_wallet_to_exchange_during_pump": "not tested: team wallets unpublished",
     "one_hop_sale_status": "none_found",
-    "entity_concentration": "~52% in three unlabelled EOAs (low confidence)"
+    "entity_concentration": "~52% in Coinbase and Revolut custody (exchange, not insider)"
   },
   "price_usd": 0.00670671,
   "price_source": "CoinGecko `bluzelle`, 16 Nov 2026 ~3:00 PM MST",
@@ -54,24 +54,24 @@
     "attributions": [
       {
         "address": "0xf98e5cc1635ee69e451f43bfd913249b0da22028",
-        "label": "Unlabelled EOA (20.96%)",
-        "confidence": "low",
+        "label": "Coinbase custody (21.0%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham entity label"
       },
       {
         "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
-        "label": "Unlabelled EOA (19.91%)",
-        "confidence": "low",
+        "label": "Revolut: Cold Wallet (19.9%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham entity label"
       },
       {
         "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
-        "label": "Unlabelled EOA (11.43%)",
-        "confidence": "low",
+        "label": "Coinbase: Hot Wallet (11.4%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham entity label"
       }
     ]
   },
@@ -85,9 +85,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BLZ.md",
-    "sha256": "93cdc31090fb38dc1c087c997ad95377742bf46f6298704de64a4507b148be43",
-    "bytes": 10018,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "b407ecbc7c8ce3e56c3519e5d81dbac61c670f8e3bef3b3f1768a603633a4c0c",
+    "bytes": 11277,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -99,6 +99,27 @@
     "arkham_read": null
   },
   "evidence_links": [
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xf98e…2028",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x15da…b0d7",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xa9d1…3e43",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
     {
       "claim": "Market data and venues",
       "url": "CoinGecko `bluzelle`",
@@ -161,7 +182,7 @@
     "pump_day_undisclosed_penalty_applied": false,
     "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
-      "team_wallet_to_exchange_during_pump: not tested: holders unlabelled"
+      "team_wallet_to_exchange_during_pump: not tested: team wallets unpublished"
     ]
   },
   "revenue_accrual": {
@@ -176,51 +197,40 @@
     {
       "address": "0xf98e5cc1635ee69e451f43bfd913249b0da22028",
       "url": null,
-      "label": "Unlabelled EOA (20.96%)",
+      "label": "Coinbase custody (21.0%)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
+      "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
       "url": null,
-      "label": "Unlabelled EOA (19.91%)",
+      "label": "Revolut: Cold Wallet (19.9%)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
+      "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
       "url": null,
-      "label": "Unlabelled EOA (11.43%)",
+      "label": "Coinbase: Hot Wallet (11.4%)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": null,
-      "url": null,
-      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
-      "source": "report",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
+      "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     }
   ],
@@ -228,9 +238,7 @@
     "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
-    "flag_notes": [
-      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
-    ],
+    "flag_notes": [],
     "dual_review": {
       "status": "not_run",
       "threshold_points": 2,

@@ -237,7 +237,7 @@ Because `0x6f04…` also took 200M from a Gate hot wallet, not every coin in the
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | ~~Arkham pass on 12 wallets~~ **Done 16 Nov 2026** (the maintainer's `arkham/zig_addresses.csv` list): Bybit / HTX / Gate deposits, Zignaly wallets and deployer-linked signers, Bitvavo cold wallet. Still unnamed: relay `0x38ae…`, hubs `0x6f04…` / `0x3367…`, `0xccb8…` | Re-check with Arkham Enterprise's token filter for full ZIG history | Arkham Enterprise |
+| 1 | ~~Arkham pass on 12 wallets~~ **Done 16 Nov 2026** (the wallet list): Bybit / HTX / Gate deposits, Zignaly wallets and deployer-linked signers, Bitvavo cold wallet. Still unnamed: relay `0x38ae…`, hubs `0x6f04…` / `0x3367…`, `0xccb8…` | Re-check with Arkham Enterprise's token filter for full ZIG history | Arkham Enterprise |
 | 2 | **Was the Jan 2024 Bybit deposit disclosed?** | Search Zignaly / ZIGChain posts from Jan 2024; ask the team what the 335.67M was for | Free |
 | 3 | **Native-chain founder and foundation wallets** | Read ZIGChain vesting accounts via LCD (`/cosmos/auth/v1beta1/accounts`) and test transfers to exchange deposits on pump days | Free |
 | 4 | **Is the BSC PancakeSwap volume real?** | Read the pool's swaps, count unique traders and look for self-trading | Free |

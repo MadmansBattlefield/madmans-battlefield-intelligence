@@ -54,10 +54,10 @@
     "attributions": [
       {
         "address": "0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347",
-        "label": "Unlabelled EOA (98.5% of ERC-20)",
-        "confidence": "low",
+        "label": "Proton Blockchain reserve / bridge (98.5% of ERC-20)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + eth_getCode"
+        "basis": "Arkham entity label"
       }
     ]
   },
@@ -71,9 +71,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/METAL.md",
-    "sha256": "c9190df4e2821a52fcad3107a9ca49a1a2c061dc20ee6d0b509525af18402d64",
-    "bytes": 9003,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "bed1b3d74016e302535c1b6b530fe457f1f13a39ec9a10f722ed0b507664a5cb",
+    "bytes": 9910,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -85,6 +85,13 @@
     "arkham_read": null
   },
   "evidence_links": [
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xda5f…7347",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
     {
       "claim": "Market data and venues",
       "url": "CoinGecko `metal-blockchain`",
@@ -150,25 +157,14 @@
     {
       "address": "0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347",
       "url": null,
-      "label": "Unlabelled EOA (98.5% of ERC-20)",
+      "label": "Proton Blockchain reserve / bridge (98.5% of ERC-20)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": null,
-      "url": null,
-      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
-      "source": "report",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     }
   ],
@@ -176,9 +172,7 @@
     "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
-    "flag_notes": [
-      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
-    ],
+    "flag_notes": [],
     "dual_review": {
       "status": "not_run",
       "threshold_points": 2,

@@ -245,7 +245,7 @@ The loan book is large next to a $7.7M market cap, but those loans pay lenders, 
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | **Arkham pass on the Aptos wallets** (Oct release wallets, `0x795a…`, `0x8158…`, Nov recipients) | **Arkham does not support Aptos** (checked 16 Nov 2026), so the maintainer's `arkham/pact_addresses.csv` list cannot be closed there. Use the Aptos explorer's known-address labels, or ask Gate and the PACT Foundation to confirm the deposit and release wallets | Free |
+| 1 | **Arkham pass on the Aptos wallets** (Oct release wallets, `0x795a…`, `0x8158…`, Nov recipients) | **Arkham does not support Aptos** (checked 16 Nov 2026), so the wallet list cannot be closed there. Use the Aptos explorer's known-address labels, or ask Gate and the PACT Foundation to confirm the deposit and release wallets | Free |
 | 2 | **Was the Oct/Nov release disclosed?** | Ask the Pact Foundation on its forum/Telegram for the purpose of the 1 Oct and 4–12 Nov 2026 multisig transfers | Free |
 | 3 | **Buyback vault** | Ask for the vault address; check for 146.4M+ PACT inflows matching 80% of net fees | Free |
 | 4 | **Who is `0x795a…`?** | Find the Celo/Ethereum sender of the 24 Dec 2025 LayerZero bridge-in on LayerZero Scan | Free |

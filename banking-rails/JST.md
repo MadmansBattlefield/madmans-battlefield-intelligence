@@ -233,7 +233,7 @@ layout_version: 3
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | ~~Arkham pass on JST wallets~~ **Done 16 Nov 2026** (the maintainer's `arkham/jst_addresses.csv` list): TFTW, TDToU and TK86 are HTX hot wallets, TMVMe an HTX deposit, the four 200M counterparties are JUST proposal contracts; the burn wallet and the three biggest holders are unlabelled | Re-check with Arkham Enterprise's token filter for full JST counterparty history | Arkham Enterprise |
+| 1 | ~~Arkham pass on JST wallets~~ **Done 16 Nov 2026** (the wallet list): TFTW, TDToU and TK86 are HTX hot wallets, TMVMe an HTX deposit, the four 200M counterparties are JUST proposal contracts; the burn wallet and the three biggest holders are unlabelled | Re-check with Arkham Enterprise's token filter for full JST counterparty history | Arkham Enterprise |
 | 2 | **Who owns the burn wallet TZJV… and whale TPyjyZ…?** | Ask JustLend DAO to publish its treasury/burn wallets and how round 1's 600M block was bought (OTC or open market) | Free |
 | 3 | **Why the 106.7M gap between the claimed cumulative burn and the black hole?** | Compare each announcement's round totals with the five burn txs above | Free |
 | 4 | **Income check** | Reconcile JustLend's reported net income with DefiLlama revenue, or with reserve-contract balances on-chain | Free |

@@ -31,7 +31,12 @@ pump_day_price_source: "MEXC MNSRYUSDT UTC daily closes"
 pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
-attributions: []
+attributions:
+  - address: "0x0fcfe33b46e5b21e5e96b722d4c85510198f9255"
+    label: "Mansory: MANSORY (MNSRY) LayerZero OFT on BNB Chain"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham contract label"
 last_updated: 2026-11-16
 layout_version: 3
 ---
@@ -99,7 +104,7 @@ layout_version: 3
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
 - No issuer wallet is published on Solana or BSC.
-- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass. No Arkham pass was run.
+- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass, including in the Arkham batch b24 read (16 Nov 2026).
 
 **What it means:** Not proven → **4**.
 
@@ -142,11 +147,11 @@ layout_version: 3
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
 
-*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. No Arkham pass was run for this report, so every attribution that rests on an unlabelled wallet is low confidence. Dual review of Selling and Holdings: not run (single scorer).*
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Entity labels below come from Arkham batch b24 (signed-in read on 16 Nov 2026, page 1 of transfers): an Arkham label alone is medium confidence; an Etherscan name tag that agrees makes it high. Dual review of Selling and Holdings: not run (single scorer).*
 
 | Address | Label | Source | Confidence | Independent corroboration | Effect on score |
 |---|---|---|---|---|---|
-| — | — | — | — | — | — |
+| [`0x0fcf…9255`](https://bscscan.com/address/0x0fcfe33b46e5b21e5e96b722d4c85510198f9255) | Mansory: MANSORY (MNSRY) LayerZero OFT on BNB Chain | [Arkham](https://arkm.com/explorer/address/0x0fcfe33b46e5b21e5e96b722d4c85510198f9255) contract label | medium | no | None: token contract page only; holder question not answered |
 
 ## 📚 Sources
 
@@ -159,6 +164,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
+| Entity labels for the top holders (Arkham batch b24) | [0x0fcf…9255](https://arkm.com/explorer/address/0x0fcfe33b46e5b21e5e96b722d4c85510198f9255) | B | 16 Nov 2026 |
 | Market data and venues | [CoinGecko `mansory-token`](https://www.coingecko.com/en/coins/mansory-token) | A | 16 Nov 2026 |
 
 ---

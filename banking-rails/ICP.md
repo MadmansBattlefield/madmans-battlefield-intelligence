@@ -255,7 +255,7 @@ layout_version: 3
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | **Labels for the unlabelled ICP accounts** (the maintainer's `arkham/icp_addresses.csv` list: Treasury, `52757335…`, hub `62dd3978…`, the Coinbase deposit/hub accounts, top holders) | **Not covered by Arkham's explorer:** Arkham does not support ICP address pages (checked 16 Nov 2026); its 2021 published ICP report above is the only Arkham source. Use the ICP dashboard's known-account names, or ask DFINITY to publish its wallet list | Free |
+| 1 | **Labels for the unlabelled ICP accounts** (the wallet list: Treasury, `52757335…`, hub `62dd3978…`, the Coinbase deposit/hub accounts, top holders) | **Not covered by Arkham's explorer:** Arkham does not support ICP address pages (checked 16 Nov 2026); its 2021 published ICP report above is the only Arkham source. Use the ICP dashboard's known-account names, or ask DFINITY to publish its wallet list | Free |
 | 2 | **Who runs hub `62dd3978…`?** | Ask DFINITY whether it is its grant/payroll distributor; check whether its recipients deposit to exchanges | Free |
 | 3 | **What does DFINITY hold now?** | Ask DFINITY for its neuron IDs and ledger accounts; watch for a treasury report | Free |
 | 4 | **Why the 4.7M Coinbase deposit on 15 Jun 2021?** | Compare with DFINITY's statement that the endowment did not sell; read the Coinbase Custody terms in the Ocampo record | Free |

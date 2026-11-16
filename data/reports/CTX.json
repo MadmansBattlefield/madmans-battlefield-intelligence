@@ -4,12 +4,12 @@
   "name": "Cryptex Finance",
   "chain": "ethereum",
   "contract": "0x321c2fe4446c7c963dc41dd58879af648838f98d",
-  "overall_score": 3.2,
+  "overall_score": 3.3,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 1,
     "foundation_team": 5,
-    "insider_holdings": 4,
+    "insider_holdings": 5,
     "selling_behavior": 4,
     "tokenomics_supply": 6,
     "liquidity_market": 1,
@@ -37,9 +37,9 @@
   },
   "red_lines": {
     "hack_exploit": "none found in this pass",
-    "team_wallet_to_exchange_during_pump": "not tested: no exchange USDT series; holders unlabelled",
+    "team_wallet_to_exchange_during_pump": "not tested: no exchange USDT series; DAO wallets unpublished",
     "one_hop_sale_status": "none_found",
-    "entity_concentration": "~45% in two unlabelled EOAs (low confidence)"
+    "entity_concentration": "~45% in Coinbase Prime custody; client unknown"
   },
   "price_usd": 0.361322,
   "price_source": "CoinGecko `cryptex-finance`, 16 Nov 2026 ~3:00 PM MST",
@@ -54,17 +54,17 @@
     "attributions": [
       {
         "address": "0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa",
-        "label": "Unlabelled EOA (32.79%)",
-        "confidence": "low",
+        "label": "Coinbase Prime Custody (32.8%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham entity label"
       },
       {
         "address": "0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf",
-        "label": "Unlabelled EOA (12.22%)",
-        "confidence": "low",
+        "label": "Coinbase Prime Custody (12.2%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham entity label"
       }
     ]
   },
@@ -78,9 +78,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CTX.md",
-    "sha256": "d0cca00f9e8736fcac141ef857350b654fdb1aa36c87601a45e6d7750d10aa93",
-    "bytes": 9594,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "5a97f7e893bb509c8fcefc359a52abe4ed6c4e177558249cd7618feea64bdfe1",
+    "bytes": 10766,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -92,6 +92,20 @@
     "arkham_read": null
   },
   "evidence_links": [
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x97f7…81aa",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x9c50…b9bf",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
     {
       "claim": "Market data and venues",
       "url": "CoinGecko `cryptex-finance`",
@@ -154,7 +168,7 @@
     "pump_day_undisclosed_penalty_applied": false,
     "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
-      "team_wallet_to_exchange_during_pump: not tested: no exchange USDT series; holders unlabelled"
+      "team_wallet_to_exchange_during_pump: not tested: no exchange USDT series; DAO wallets unpublished"
     ]
   },
   "revenue_accrual": {
@@ -173,38 +187,27 @@
     {
       "address": "0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa",
       "url": null,
-      "label": "Unlabelled EOA (32.79%)",
+      "label": "Coinbase Prime Custody (32.8%)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
+      "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf",
       "url": null,
-      "label": "Unlabelled EOA (12.22%)",
+      "label": "Coinbase Prime Custody (12.2%)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": null,
-      "url": null,
-      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
-      "source": "report",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
+      "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     }
   ],
@@ -212,9 +215,7 @@
     "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
-    "flag_notes": [
-      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
-    ],
+    "flag_notes": [],
     "dual_review": {
       "status": "not_run",
       "threshold_points": 2,

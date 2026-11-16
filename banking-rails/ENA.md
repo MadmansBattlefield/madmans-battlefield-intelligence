@@ -264,7 +264,7 @@ Supply is well below the $7.5B fee-switch trigger, which is the adoption number 
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | ~~Arkham pass on the unlabelled Ethena-funded wallets~~ **Done 16 Nov 2026** (the maintainer's `arkham/ena_addresses.csv` list). Still unnamed: `0xB2af…` (839.3M), `0x3C71…`, `0x6a4B…` (882.8M), `0x7462…` | Re-check with Arkham Enterprise's token filter for full ENA counterparty history | Arkham Enterprise |
+| 1 | ~~Arkham pass on the unlabelled Ethena-funded wallets~~ **Done 16 Nov 2026** (the wallet list). Still unnamed: `0xB2af…` (839.3M), `0x3C71…`, `0x6a4B…` (882.8M), `0x7462…` | Re-check with Arkham Enterprise's token filter for full ENA counterparty history | Arkham Enterprise |
 | 2 | **Which bucket (contributor, investor, foundation, market maker) is each funded wallet?** | Ask Ethena Foundation on the governance forum to publish its vesting and custody addresses | Free |
 | 3 | **Partly answered:** Arkham labels the 680M destination "Ethena: Coinbase Prime Deposit" (Ethena's own account), so it looks like custody. Still open: whether Coinbase Prime later sold any of it | Ask Ethena Foundation to confirm, or track Coinbase Prime hot-wallet flows (`0xceB…`) after each deposit | Free |
 | 4 | **Partly answered:** Arkham labels `0x2146…` an Ethena team-wallet proxy. Still open: which vesting bucket and who the recipients are | Read its payout pattern on Etherscan against the published vesting schedule | Free |

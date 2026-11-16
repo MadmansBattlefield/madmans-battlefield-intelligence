@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 15:37 MST
+generated_at: 2026-11-16 15:44 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -49,7 +49,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [CFG](banking-rails/CFG.md) | 3 | 4.5 | 4.4 | 3 | 5 → 4 | 3 |
 | [CFX](banking-rails/CFX.md) | 1 | 3.9 | 3.9 | 1 | 5 | 4 |
 | [CHEX](banking-rails/CHEX.md) | 1 | 3.5 | 3.5 | 1 | 4 | 4 |
-| COLLAT | 0 | — | — | — | — | — |
+| [COLLAT](banking-rails/COLLAT.md) | 1 | 3.8 | 3.8 | 3 | 4 | 4 |
 | [COTI](banking-rails/COTI.md) | 3 | 2.4 | 2.7 | 1 | 2 → 4 | 2 |
 | [CPH](banking-rails/CPH.md) | 1 | 2.5 | 2.5 | 1 | 4 | 3 |
 | [CPOOL](banking-rails/CPOOL.md) | 2 | 3.6 | 3.3 | 2 | 2 → 0 | 4 |
@@ -111,7 +111,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [LIBEARA](banking-rails/LIBEARA.md) | 1 | 2.7 | 2.7 | 0 | 4 | 4 |
 | [LINGO](banking-rails/LINGO.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
 | [LINK](banking-rails/LINK.md) | 1 | 6.9 | 6.9 | 8 | 5 | 4 |
-| LL | 0 | — | — | — | — | — |
+| [LL](banking-rails/LL.md) | 1 | 3.7 | 3.7 | 2 | 4 | 4 |
 | [LOFTY](banking-rails/LOFTY.md) | 1 | 2.7 | 2.7 | 0 | 4 | 4 |
 | [LUMIA](banking-rails/LUMIA.md) | 1 | 3.2 | 3.2 | 1 | 4 | 3 |
 | [MAPO](banking-rails/MAPO.md) | 1 | 3.3 | 3.3 | 1 | 4 | 4 |
@@ -136,9 +136,9 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [ORBITER](banking-rails/ORBITER.md) | 1 | 3.8 | 3.8 | 3 | 4 | 3 |
 | [PACT](banking-rails/PACT.md) | 2 | 3.1 | 2.9 | 3 | 1 → 0 | 2 |
 | [PALMUSD](banking-rails/PALMUSD.md) | 1 | 2.6 | 2.6 | 1 | 5 | 2 |
-| PANTHER | 0 | — | — | — | — | — |
+| [PANTHER](banking-rails/PANTHER.md) | 1 | 3.4 | 3.4 | 1 | 4 | 4 |
 | [PHA](banking-rails/PHA.md) | 2 | 3.9 | 3.8 | 2 | 1 → 0 | 4 |
-| PLI | 0 | — | — | — | — | — |
+| [PLI](banking-rails/PLI.md) | 1 | 2.8 | 2.8 | 1 | 4 | 3 |
 | [PLUME](banking-rails/PLUME.md) | 2 | 3.5 | 3.7 | 1 | 3 → 4 | 2 |
 | [POLYX](banking-rails/POLYX.md) | 2 | 3.3 | 3.0 | 1 | 2 → 0 | 3 |
 | [PRO](banking-rails/PRO.md) | 1 | 4.3 | 4.3 | 2 | 4 | 4 |
@@ -172,7 +172,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [SOL](banking-rails/SOL.md) | 1 | 6.6 | 6.6 | 6 | 5 | 5 |
 | [SOLV](banking-rails/SOLV.md) | 3 | 4.7 | 4.6 | 4 | 5 → 4 | 4 |
 | [SPA](banking-rails/SPA.md) | 2 | 2.5 | 2.2 | 1 | 2 → 0 | 2 |
-| SPC | 0 | — | — | — | — | — |
+| [SPC](banking-rails/SPC.md) | 1 | 3.2 | 3.2 | 1 | 4 | 3 |
 | [STBL](banking-rails/STBL.md) | 1 | 3.3 | 3.3 | 2 | 4 | 3 |
 | [STOKR](banking-rails/STOKR.md) | 1 | 2.6 | 2.6 | 0 | 4 | 4 |
 | [SUI](banking-rails/SUI.md) | 1 | 3.7 | 3.7 | 1 | 2 | 2 |
@@ -289,6 +289,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 
 - **CFX** — 3.9 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **CHEX** — 3.5 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
+- **COLLAT** — 3.8 FAIL in `314ef4c` (2026-11-16 15:38 MST).
 ### COTI
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -384,6 +385,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **LIBEARA** — 2.7 FAIL in `c8928d7` (2026-11-16 15:02 MST).
 - **LINGO** — 3.1 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 - **LINK** — 6.9 PASS in `2f9f853` (2026-11-16 14:44 MST).
+- **LL** — 3.7 FAIL in `314ef4c` (2026-11-16 15:38 MST).
 - **LOFTY** — 2.7 FAIL in `c8928d7` (2026-11-16 15:02 MST).
 - **LUMIA** — 3.2 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **MAPO** — 3.3 FAIL in `9ccdddb` (2026-11-16 14:48 MST).
@@ -422,6 +424,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `2f9f853` | 2026-11-16 14:44 MST | 2.9 | FAIL | 3 | 0 | 2 | revenue, selling_behavior |
 
 - **PALMUSD** — 2.6 FAIL in `2f9f853` (2026-11-16 14:44 MST).
+- **PANTHER** — 3.4 FAIL in `314ef4c` (2026-11-16 15:38 MST).
 ### PHA
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -429,6 +432,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `16d387f` | 2026-11-16 08:50 MST | 3.9 | FAIL | 2 | 1 | 4 | revenue, selling_behavior |
 | `2f9f853` | 2026-11-16 14:44 MST | 3.8 | FAIL | 2 | 0 | 4 | revenue, selling_behavior |
 
+- **PLI** — 2.8 FAIL in `314ef4c` (2026-11-16 15:38 MST).
 ### PLUME
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -537,6 +541,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `395f117` | 2026-11-16 06:46 MST | 2.5 | FAIL | 1 | 2 | 2 | revenue, selling_behavior |
 | `2f9f853` | 2026-11-16 14:44 MST | 2.2 | FAIL | 1 | 0 | 2 | revenue, selling_behavior |
 
+- **SPC** — 3.2 FAIL in `314ef4c` (2026-11-16 15:38 MST).
 - **STBL** — 3.3 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **STOKR** — 2.6 FAIL in `c8928d7` (2026-11-16 15:02 MST).
 - **SUI** — 3.7 FAIL in `2f9f853` (2026-11-16 14:44 MST).

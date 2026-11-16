@@ -79,9 +79,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SKY.md",
-    "sha256": "3a359bc27c89b7485e8b6d6fcaf6b016231dd0295ae3f4fc1e32811ee7b4ee56",
-    "bytes": 38122,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "fe9f3128c07ffb7874a9839ab08d6cb696410b508b37d3461c28c6d3e087b5e8",
+    "bytes": 38089,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

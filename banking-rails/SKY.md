@@ -268,7 +268,7 @@ layout_version: 3
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | ~~Arkham pass on 12 unlabelled wallets~~ **Done 16 Nov 2026** (the maintainer's `arkham/sky_addresses.csv` list): Wintermute, GSR and Coinbase labels folded in. Still unnamed: `0xeaef…`, `0x7e09…`, `0x3c71…`, `0x767e…` | Re-check with Arkham Enterprise's token filter for full SKY counterparty history | Arkham Enterprise |
+| 1 | ~~Arkham pass on 12 unlabelled wallets~~ **Done 16 Nov 2026** (the wallet list): Wintermute, GSR and Coinbase labels folded in. Still unnamed: `0xeaef…`, `0x7e09…`, `0x3c71…`, `0x767e…` | Re-check with Arkham Enterprise's token filter for full SKY counterparty history | Arkham Enterprise |
 | 2 | **Partly answered:** Arkham says Wintermute got the 320M SKY loan. Still open: Sky's own confirmation and the loan terms | Ask Sky governance / the LB program facilitators; read the [LB budget forum thread](https://forum.sky.money/t/utilization-of-the-sky-ecosystem-liquidity-bootstrapping-budget-a-5-6-1-9/25537) | Free |
 | 3 | **Who owns `0xeaef…`?** (Arkham: generic Safe, no owner) | Match it against Launch Project payment lists in the forum; read its Safe signers on Etherscan | Free |
 | 4 | **stUSDS liquidity and the core-vault borrowing stop** | Read stUSDS contract balances and the Nov 2026 spell after it executes | Free |

@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:37 MST",
+  "generated_at": "2026-11-16 15:44 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -1179,7 +1179,32 @@
     {
       "ticker": "COLLAT",
       "path": "banking-rails/COLLAT.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "314ef4cfd8d5cbf98ee7363d8453134adc5b20e8",
+          "committed_at_mst": "2026-11-16 15:38 MST",
+          "subject": "STEP 5: v3 reports for the 5 live thin-market coins (LL, PANTHER, COLLAT, PLI, SPC); LL volume flagged as likely inflated",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "COTI",
@@ -3225,7 +3250,32 @@
     {
       "ticker": "LL",
       "path": "banking-rails/LL.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "314ef4cfd8d5cbf98ee7363d8453134adc5b20e8",
+          "committed_at_mst": "2026-11-16 15:38 MST",
+          "subject": "STEP 5: v3 reports for the 5 live thin-market coins (LL, PANTHER, COLLAT, PLI, SPC); LL volume flagged as likely inflated",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "LOFTY",
@@ -4049,7 +4099,32 @@
     {
       "ticker": "PANTHER",
       "path": "banking-rails/PANTHER.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "314ef4cfd8d5cbf98ee7363d8453134adc5b20e8",
+          "committed_at_mst": "2026-11-16 15:38 MST",
+          "subject": "STEP 5: v3 reports for the 5 live thin-market coins (LL, PANTHER, COLLAT, PLI, SPC); LL volume flagged as likely inflated",
+          "overall_score": 3.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 4,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "PHA",
@@ -4110,7 +4185,32 @@
     {
       "ticker": "PLI",
       "path": "banking-rails/PLI.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "314ef4cfd8d5cbf98ee7363d8453134adc5b20e8",
+          "committed_at_mst": "2026-11-16 15:38 MST",
+          "subject": "STEP 5: v3 reports for the 5 live thin-market coins (LL, PANTHER, COLLAT, PLI, SPC); LL volume flagged as likely inflated",
+          "overall_score": 2.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 2,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "PLUME",
@@ -5468,7 +5568,32 @@
     {
       "ticker": "SPC",
       "path": "banking-rails/SPC.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "314ef4cfd8d5cbf98ee7363d8453134adc5b20e8",
+          "committed_at_mst": "2026-11-16 15:38 MST",
+          "subject": "STEP 5: v3 reports for the 5 live thin-market coins (LL, PANTHER, COLLAT, PLI, SPC); LL volume flagged as likely inflated",
+          "overall_score": 3.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 2,
+            "product_development": 5,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "STBL",

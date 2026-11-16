@@ -3,12 +3,12 @@ ticker: CTC
 name: Creditcoin (CTC, ERC-20 G-CRE)
 chain: ethereum
 contract: "0xa3ee21c306a700e682abcdfe9baa6a08f3820419"
-overall_score: 3.6
+overall_score: 3.7
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 5
-  insider_holdings: 4
+  insider_holdings: 5
   selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 5
@@ -20,9 +20,9 @@ section_scores:
 gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found in this pass"
-  team_wallet_to_exchange_during_pump: "not tested: issuer wallets unlabelled"
+  team_wallet_to_exchange_during_pump: "not tested: issuer wallets unpublished"
   one_hop_sale_status: none_found
-  entity_concentration: "~86% of the ERC-20 in two unlabelled EOAs (low confidence)"
+  entity_concentration: "~86% of the ERC-20 in Upbit and Bithumb custody (exchange, not insider)"
 price_usd: 0.067413
 price_source: "CoinGecko `creditcoin-2`, 16 Nov 2026 ~3:00 PM MST"
 methodology_effective: 2026-11-16
@@ -34,26 +34,26 @@ pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0xca4d316e78ae09c026fde872b1fa1fece7ee7527"
-    label: "Unlabelled EOA (72.8% of ERC-20)"
-    confidence: low
+    label: "Upbit: Cold Wallet (72.8%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan eth_getCode"
+    basis: "Arkham entity label"
   - address: "0x43fddf6aa37848e87bb176407dafef2b8ca20a8a"
-    label: "Unlabelled EOA (13.1%)"
-    confidence: low
-    independent_corroboration: false
-    basis: "Ethplorer"
+    label: "Bithumb: Hot Wallet (13.1%)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham entity label + Etherscan tag 'Bithumb 434'"
 last_updated: 2026-11-16
 layout_version: 3
 ---
 
 ## 🧾 QUICK REVIEW CARD
 
-### CTC · Overall grade **3.6 / 10 · ❌ FAIL**
+### CTC · Overall grade **3.7 / 10 · ❌ FAIL**
 
-**Summary:** Creditcoin is a layer-1 for recording credit and lending history, developed by Gluwa. The exchange-traded CTC is an Ethereum ERC-20 (G-CRE) that converts to the native coin. No fee or revenue record on DefiLlama and none published by the project was found. On Ethereum one unlabelled wallet holds 72.8% of the ERC-20 supply and a second holds 13.1%. Their owners are not labelled, so they are low confidence and do not move the scores. CTC is down 80% in a year. The Revenue gate fails.
+**Summary:** Creditcoin is a layer-1 for recording credit and lending history, developed by Gluwa. The exchange-traded CTC is an Ethereum ERC-20 (G-CRE) that converts to the native coin. No fee or revenue record on DefiLlama and none published by the project was found. On Ethereum the 72.8% and 13.1% holders of the ERC-20 are the Upbit cold wallet and a Bithumb hot wallet (Arkham, 16 Nov 2026), so the concentration is exchange custody; Gluwa's own wallets are still unpublished. CTC is down 80% in a year. The Revenue gate fails.
 
-**🚨 Top warning:** **Two unlabelled wallets hold ~86% of the ERC-20 supply:** [`0xca4d…7527`](https://etherscan.io/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527) 72.82% (EOA) and [`0x43fd…0a8a`](https://etherscan.io/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a) 13.06% (EOA). They are probably issuer or bridge reserves, but nothing on-chain labels them, so this is low confidence and goes to the Arkham batch.
+**🚨 Top warning:** **About 86% of the ERC-20 CTC (G-CRE) sits on two Korean exchanges, not with insiders:** [`0xca4d…7527`](https://etherscan.io/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527) 72.8% is the Upbit cold wallet ([Arkham](https://arkm.com/explorer/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527)) and [`0x43fd…0a8a`](https://etherscan.io/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a) 13.1% is a Bithumb hot wallet ([Arkham](https://arkm.com/explorer/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a); Etherscan tag "Bithumb 434"). Gluwa's own wallets are still unpublished, so insider selling cannot be tested.
 
 **Sections passed: 0 of 11**
 
@@ -61,7 +61,7 @@ layout_version: 3
 |---|:---:|:---:|
 | 💰 Revenue | 1/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
-| 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
+| 🪙 Foundation / team holdings | 5/10 | ❌ FAIL |
 | 📉 Selling behavior | 4/10 | ❌ FAIL (not proven) |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 5/10 | ❌ FAIL |
@@ -76,9 +76,9 @@ layout_version: 3
 ---
 
 
-# 🪪 CTC · Creditcoin (CTC, ERC-20 G-CRE) · 3.6 / 10 · ❌ FAIL
+# 🪪 CTC · Creditcoin (CTC, ERC-20 G-CRE) · 3.7 / 10 · ❌ FAIL
 
-> **One line:** A credit-history chain whose token earns nothing and whose ERC-20 supply sits in two unlabelled wallets.
+> **One line:** A credit-history chain whose token earns nothing and whose ERC-20 supply sits mostly on Upbit and Bithumb.
 
 | 📊 Market (CoinGecko `creditcoin-2`, 16 Nov 2026 ~3:00 PM MST) | 🔗 Chain |
 |---|---|
@@ -103,14 +103,17 @@ layout_version: 3
 
 - Developed by Gluwa with the Creditcoin Foundation ([site](https://creditcoin.org/)); code at [github.com/gluwa/Creditcoin](https://github.com/gluwa/Creditcoin).
 
-## 🪙 Foundation / team holdings — How many coins do they hold? · 4/10 · ❌ FAIL
+## 🪙 Foundation / team holdings — How many coins do they hold? · 5/10 · ❌ FAIL
 
-- [`0xca4d…7527`](https://etherscan.io/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527) 72.82% (EOA) and [`0x43fd…0a8a`](https://etherscan.io/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a) 13.06% (EOA) are plain EOAs with no label. They could be the issuer's conversion reserve or an exchange. Low confidence, so not used; not proven → **4**.
+- [`0xca4d…7527`](https://etherscan.io/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527) (72.8%) is **Upbit: Cold Wallet**, fed only by Upbit hot wallets ([Arkham](https://arkm.com/explorer/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527), entity label, read 16 Nov 2026). Exchange custody is not insider holding.
+- [`0x43fd…0a8a`](https://etherscan.io/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a) (13.1%) is a **Bithumb hot wallet** that sweeps Bithumb deposit addresses ([Arkham](https://arkm.com/explorer/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a); Etherscan tag "Bithumb 434", [Etherscan](https://etherscan.io/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a)).
+- So the large unexplained concentration flagged earlier was exchange custody. Gluwa's team and treasury wallets are still not mapped; the native-chain holdings were not read.
+- Score: **5**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
-- The two large ERC-20 wallets are unlabelled; outflows were not traced to labelled exchanges.
-- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass. No Arkham pass was run.
+- The two large ERC-20 wallets are Upbit and Bithumb custody (Arkham b24), not insiders; Gluwa's own wallets are unpublished.
+- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass, including in the Arkham batch b24 read (16 Nov 2026).
 
 **What it means:** Not proven → **4**.
 
@@ -149,17 +152,17 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None found |
-| Team wallet → exchange during a pump | ⚪ Not tested: issuer wallets unlabelled |
-| Entity concentration | 🔴 ~86% of the ERC-20 in two unlabelled EOAs |
+| Team wallet → exchange during a pump | ⚪ Not tested: issuer wallets unpublished |
+| Entity concentration | 🟡 ~86% of the ERC-20 in Upbit and Bithumb custody (exchange, not insider) |
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
 
-*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. No Arkham pass was run for this report, so every attribution that rests on an unlabelled wallet is low confidence. Dual review of Selling and Holdings: not run (single scorer).*
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Entity labels below come from Arkham batch b24 (signed-in read on 16 Nov 2026, page 1 of transfers): an Arkham label alone is medium confidence; an Etherscan name tag that agrees makes it high. Dual review of Selling and Holdings: not run (single scorer).*
 
 | Address | Label | Source | Confidence | Independent corroboration | Effect on score |
 |---|---|---|---|---|---|
-| [`0xca4d…7527`](https://etherscan.io/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527) | Unlabelled EOA (72.8% of ERC-20) | Ethplorer + Etherscan eth_getCode | low | no | None: cannot move Holdings or Selling |
-| [`0x43fd…0a8a`](https://etherscan.io/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a) | Unlabelled EOA (13.1%) | Ethplorer | low | no | None |
+| [`0xca4d…7527`](https://etherscan.io/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527) | Upbit: Cold Wallet (72.8%) | [Arkham](https://arkm.com/explorer/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527) entity label | medium | no | Holdings: exchange custody, not insider |
+| [`0x43fd…0a8a`](https://etherscan.io/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a) | Bithumb: Hot Wallet (13.1%) | [Arkham](https://arkm.com/explorer/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a) entity label + Etherscan tag "Bithumb 434" | high | yes | Holdings: exchange custody, not insider |
 
 ## 📚 Sources
 
@@ -173,6 +176,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
+| Entity labels for the top holders (Arkham batch b24) | [0xca4d…7527](https://arkm.com/explorer/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527) · [0x43fd…0a8a](https://arkm.com/explorer/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a) | B | 16 Nov 2026 |
 | Market data and venues | [CoinGecko `creditcoin-2`](https://www.coingecko.com/en/coins/creditcoin-2) | A | 16 Nov 2026 |
 | Token contract and holders | [contract](https://etherscan.io/token/0xa3ee21c306a700e682abcdfe9baa6a08f3820419) · [holders](https://etherscan.io/token/0xa3ee21c306a700e682abcdfe9baa6a08f3820419#balances) | A | 16 Nov 2026 |
 
@@ -182,7 +186,7 @@ layout_version: 3
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | **Who controls the 72.8% and 13.1% wallets** | Arkham entity lookup; compare with Gluwa's published conversion addresses | Arkham |
+| 1 | **Gluwa team and treasury wallets** | Resolved: the 72.8% and 13.1% wallets are Upbit and Bithumb (Arkham b24). Next: ask Gluwa for its own wallets | Free |
 | 2 | **Native-chain team wallets** | Ask the Creditcoin Foundation to publish them | Free |
 
 ---

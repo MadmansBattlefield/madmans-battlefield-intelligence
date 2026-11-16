@@ -20,9 +20,9 @@ section_scores:
 gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found in this pass"
-  team_wallet_to_exchange_during_pump: "not proven: large holders unlabelled"
+  team_wallet_to_exchange_during_pump: "not proven: team-style Safes dormant, no exchange sends seen"
   one_hop_sale_status: none_found
-  entity_concentration: "~90% in three unlabelled addresses (low confidence)"
+  entity_concentration: "Bithumb 67.6% (exchange); ~22.9% in dormant team-style Safes"
 price_usd: 0.00124646
 price_source: "CoinGecko `elysia`, 16 Nov 2026 ~3:00 PM MST"
 methodology_effective: 2026-11-16
@@ -34,20 +34,25 @@ pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0x1b1318c3ec104799de21e4ce2284c3de52a1e452"
-    label: "Unlabelled EOA (67.6%)"
-    confidence: low
-    independent_corroboration: false
-    basis: "Ethplorer + eth_getCode"
+    label: "Bithumb: Hot Wallet (67.6%)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham entity label + Etherscan tag 'Bithumb 448'"
   - address: "0x796bdc018d9a903acca191e6cae6bb300c662674"
-    label: "Gnosis Safe (12.6%)"
-    confidence: low
+    label: "Dormant Safe funded by the EL deployer (12.6%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Etherscan ContractName"
+    basis: "Arkham + deployer transfer"
   - address: "0xed5d35dc902c543b33496f6feae27b7866525b4f"
-    label: "Gnosis Safe (10.3%)"
+    label: "Dormant unnamed Safe (10.3%)"
     confidence: low
     independent_corroboration: false
-    basis: "Etherscan ContractName"
+    basis: "Arkham"
+  - address: "0x8acff18c53825205d185793bf7517b9e9ece76c4"
+    label: "ELFI Token deployer"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham name label"
 last_updated: 2026-11-16
 layout_version: 3
 ---
@@ -56,9 +61,9 @@ layout_version: 3
 
 ### EL · Overall grade **3.0 / 10 · ❌ FAIL**
 
-**Summary:** ELYSIA is a 2021-era real-estate tokenization platform. No fee or revenue record on DefiLlama and none published by the project was found. One unlabelled wallet holds 67.6% of EL and two Safes hold 12.6% and 10.3%, so ~90% sits in three addresses that are not labelled. The token is down 98% from its 2021 high. The Revenue gate fails.
+**Summary:** ELYSIA is a 2021-era real-estate tokenization platform. No fee or revenue record on DefiLlama and none published by the project was found. The 67.6% holder is a Bithumb hot wallet (Arkham and Etherscan); two dormant team-style Safes, one funded by the deployer, hold ~22.9%. The token is down 98% from its 2021 high. The Revenue gate fails.
 
-**🚨 Top warning:** **~90% of supply sits in three unlabelled addresses**: [`0x1b13…e452`](https://etherscan.io/address/0x1b1318c3ec104799de21e4ce2284c3de52a1e452) 67.6% (EOA), Safe [`0x796b…2674`](https://etherscan.io/address/0x796bdc018d9a903acca191e6cae6bb300c662674) 12.59% (Gnosis Safe) and Safe [`0xed5d…5b4f`](https://etherscan.io/address/0xed5d35dc902c543b33496f6feae27b7866525b4f) 10.29% (Gnosis Safe). The contract owner `0x8acf…76c4` is also the deployer. None is labelled, so this is low confidence.
+**🚨 Top warning:** **The 67.6% holder is Bithumb, not the team** ([`0x1b13…e452`](https://etherscan.io/address/0x1b1318c3ec104799de21e4ce2284c3de52a1e452), Arkham and Etherscan tag "Bithumb 448"). The team-side holding is two dormant Safes with ~22.9%: [`0x796b…2674`](https://etherscan.io/address/0x796bdc018d9a903acca191e6cae6bb300c662674) 12.6% was funded by the deployer [`0x8acf…76c4`](https://etherscan.io/address/0x8acff18c53825205d185793bf7517b9e9ece76c4), and [`0xed5d…5b4f`](https://etherscan.io/address/0xed5d35dc902c543b33496f6feae27b7866525b4f) 10.3% is unnamed. Neither has sent EL to an exchange in the page-1 history.
 
 **Sections passed: 0 of 11**
 
@@ -83,7 +88,7 @@ layout_version: 3
 
 # 🪪 EL · ELYSIA · 3.0 / 10 · ❌ FAIL
 
-> **One line:** A real-estate token with no measurable revenue and ~90% of supply in three unlabelled wallets.
+> **One line:** A real-estate token with no measurable revenue and ~23% of supply in dormant team-style Safes.
 
 | 📊 Market (CoinGecko `elysia`, 16 Nov 2026 ~3:00 PM MST) | 🔗 Chain |
 |---|---|
@@ -110,12 +115,15 @@ layout_version: 3
 
 ## 🪙 Foundation / team holdings — How many coins do they hold? · 4/10 · ❌ FAIL
 
-- [`0x1b13…e452`](https://etherscan.io/address/0x1b1318c3ec104799de21e4ce2284c3de52a1e452) 67.6% (EOA), [`0x796b…2674`](https://etherscan.io/address/0x796bdc018d9a903acca191e6cae6bb300c662674) 12.59% (Safe), [`0xed5d…5b4f`](https://etherscan.io/address/0xed5d35dc902c543b33496f6feae27b7866525b4f) 10.29% (Safe). Unlabelled, so low confidence; not proven → **4**.
+- [`0x1b13…e452`](https://etherscan.io/address/0x1b1318c3ec104799de21e4ce2284c3de52a1e452) (67.6%) is **Bithumb: Hot Wallet** ([Arkham](https://arkm.com/explorer/address/0x1b1318c3ec104799de21e4ce2284c3de52a1e452); Etherscan tag "Bithumb 448"). Exchange custody is not insider holding.
+- Safe [`0x796b…2674`](https://etherscan.io/address/0x796bdc018d9a903acca191e6cae6bb300c662674) (12.6%) received 1.847B EL from the deployer [`0x8acf…76c4`](https://etherscan.io/address/0x8acff18c53825205d185793bf7517b9e9ece76c4) (Arkham label "ELFI Token" deployer) about 4 years ago and is now dormant ([Arkham](https://arkm.com/explorer/address/0x796bdc018d9a903acca191e6cae6bb300c662674), [Arkham](https://arkm.com/explorer/address/0x8acff18c53825205d185793bf7517b9e9ece76c4)). Safe [`0xed5d…5b4f`](https://etherscan.io/address/0xed5d35dc902c543b33496f6feae27b7866525b4f) (10.3%) received 700M EL ~4 years ago and is dormant ([Arkham](https://arkm.com/explorer/address/0xed5d35dc902c543b33496f6feae27b7866525b4f)).
+- About 22.9% therefore sits in dormant team-style Safes with no published purpose. Low exchange activity, but a large undisclosed reserve.
+- Score: **4**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
-- The large holders are unlabelled.
-- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass. No Arkham pass was run.
+- The 67.6% holder is Bithumb; the two Safes (22.9%) have been dormant for years and sent no EL to an exchange on Arkham's page 1.
+- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass, including in the Arkham batch b24 read (16 Nov 2026).
 
 **What it means:** Not proven → **4**.
 
@@ -154,18 +162,19 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None found |
-| Team wallet → exchange during a pump | ⚪ Not proven: holders unlabelled |
-| Entity concentration | 🔴 ~90% in three unlabelled addresses |
+| Team wallet → exchange during a pump | ⚪ Not proven: team-style Safes dormant, no exchange sends seen |
+| Entity concentration | 🟡 Bithumb 67.6% (exchange); ~22.9% in dormant team-style Safes |
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
 
-*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. No Arkham pass was run for this report, so every attribution that rests on an unlabelled wallet is low confidence. Dual review of Selling and Holdings: not run (single scorer).*
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Entity labels below come from Arkham batch b24 (signed-in read on 16 Nov 2026, page 1 of transfers): an Arkham label alone is medium confidence; an Etherscan name tag that agrees makes it high. Dual review of Selling and Holdings: not run (single scorer).*
 
 | Address | Label | Source | Confidence | Independent corroboration | Effect on score |
 |---|---|---|---|---|---|
-| [`0x1b13…e452`](https://etherscan.io/address/0x1b1318c3ec104799de21e4ce2284c3de52a1e452) | Unlabelled EOA (67.6%) | Ethplorer + eth_getCode | low | no | None |
-| [`0x796b…2674`](https://etherscan.io/address/0x796bdc018d9a903acca191e6cae6bb300c662674) | Gnosis Safe (12.6%) | Etherscan ContractName | low | no | None |
-| [`0xed5d…5b4f`](https://etherscan.io/address/0xed5d35dc902c543b33496f6feae27b7866525b4f) | Gnosis Safe (10.3%) | Etherscan ContractName | low | no | None |
+| [`0x1b13…e452`](https://etherscan.io/address/0x1b1318c3ec104799de21e4ce2284c3de52a1e452) | Bithumb: Hot Wallet (67.6%) | [Arkham](https://arkm.com/explorer/address/0x1b1318c3ec104799de21e4ce2284c3de52a1e452) entity label + Etherscan tag "Bithumb 448" | high | yes | Holdings: exchange custody, not insider |
+| [`0x796b…2674`](https://etherscan.io/address/0x796bdc018d9a903acca191e6cae6bb300c662674) | Dormant Safe funded by the EL deployer (12.6%) | [Arkham](https://arkm.com/explorer/address/0x796bdc018d9a903acca191e6cae6bb300c662674) + deployer transfer | medium | no | Holdings: team-style reserve |
+| [`0xed5d…5b4f`](https://etherscan.io/address/0xed5d35dc902c543b33496f6feae27b7866525b4f) | Dormant unnamed Safe (10.3%) | [Arkham](https://arkm.com/explorer/address/0xed5d35dc902c543b33496f6feae27b7866525b4f) | low | no | None |
+| [`0x8acf…76c4`](https://etherscan.io/address/0x8acff18c53825205d185793bf7517b9e9ece76c4) | ELFI Token deployer | [Arkham](https://arkm.com/explorer/address/0x8acff18c53825205d185793bf7517b9e9ece76c4) name label | medium | no | None |
 
 ## 📚 Sources
 
@@ -179,6 +188,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
+| Entity labels for the top holders (Arkham batch b24) | [0x1b13…e452](https://arkm.com/explorer/address/0x1b1318c3ec104799de21e4ce2284c3de52a1e452) · [0x796b…2674](https://arkm.com/explorer/address/0x796bdc018d9a903acca191e6cae6bb300c662674) · [0xed5d…5b4f](https://arkm.com/explorer/address/0xed5d35dc902c543b33496f6feae27b7866525b4f) · [0x8acf…76c4](https://arkm.com/explorer/address/0x8acff18c53825205d185793bf7517b9e9ece76c4) | B | 16 Nov 2026 |
 | Market data and venues | [CoinGecko `elysia`](https://www.coingecko.com/en/coins/elysia) | A | 16 Nov 2026 |
 | Token contract and holders | [contract](https://etherscan.io/token/0x2781246fe707bb15cee3e5ea354e2154a2877b16) · [holders](https://etherscan.io/token/0x2781246fe707bb15cee3e5ea354e2154a2877b16#balances) | A | 16 Nov 2026 |
 

@@ -37,7 +37,7 @@
   },
   "red_lines": {
     "hack_exploit": "none found in this pass",
-    "team_wallet_to_exchange_during_pump": "not tested: holders unlabelled",
+    "team_wallet_to_exchange_during_pump": "none found: 13.2% wallet's Kraken deposits were not on pump days and it is not linked to Chintai",
     "one_hop_sale_status": "none_found"
   },
   "price_usd": 0.00903336,
@@ -52,18 +52,18 @@
     "dual_review": "not_run",
     "attributions": [
       {
-        "address": "0x6bf83042c941a74cb5902908e892f0114e549e5a",
-        "label": "Unlabelled EOA (13.22%)",
-        "confidence": "low",
+        "address": "0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b",
+        "label": "Likely Chintai treasury Safe (12.0%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham: transfers to Chintai Nexus"
       },
       {
-        "address": "0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b",
-        "label": "Unlabelled Safe (12.01%)",
+        "address": "0x6bf83042c941a74cb5902908e892f0114e549e5a",
+        "label": "Unlabelled wallet with Kraken deposits (13.2%)",
         "confidence": "low",
         "independent_corroboration": false,
-        "basis": "Etherscan getsourcecode"
+        "basis": "Arkham; Etherscan token transfers"
       },
       {
         "address": "0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83",
@@ -84,9 +84,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CHEX.md",
-    "sha256": "9f8d82d9649437f0a1dd04d66a855c9eda56a10aeba75306b6c6fcf597855dc8",
-    "bytes": 10065,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "54b48b85279e9fa083b8a27e840d7e46a753ef5136fc1d3a6bab81dfdcee9e10",
+    "bytes": 12785,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -98,6 +98,27 @@
     "arkham_read": null
   },
   "evidence_links": [
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xe4ff…a14b",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x6bf8…9e5a",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x7daf…6f83",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
     {
       "claim": "Market data and venues",
       "url": "CoinGecko `chex-token`",
@@ -123,6 +144,12 @@
   "addresses_examined": [
     {
       "chain": "ethereum",
+      "address": "0x12e744de35c287e92bb3544d1fb2e32fa30b54b4",
+      "url": "https://etherscan.io/address/0x12e744de35c287e92bb3544d1fb2e32fa30b54b4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
       "address": "0x6bf83042c941a74cb5902908e892f0114e549e5a",
       "url": "https://etherscan.io/address/0x6bf83042c941a74cb5902908e892f0114e549e5a",
       "kind": "address"
@@ -136,7 +163,7 @@
     {
       "chain": "ethereum",
       "address": "0x9ce84f6a69986a83d92c324df10bc8e64771030f",
-      "url": "https://etherscan.io/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f#balances",
+      "url": "https://etherscan.io/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f?a=0x6bf83042c941a74cb5902908e892f0114e549e5a",
       "kind": "token"
     },
     {
@@ -160,7 +187,7 @@
     "pump_day_undisclosed_penalty_applied": false,
     "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
-      "team_wallet_to_exchange_during_pump: not tested: holders unlabelled"
+      "team_wallet_to_exchange_during_pump: none found: 13.2% wallet's Kraken deposits were not on pump days and it is not linked to Chintai"
     ]
   },
   "revenue_accrual": {
@@ -173,22 +200,22 @@
   },
   "attributions": [
     {
-      "address": "0x6bf83042c941a74cb5902908e892f0114e549e5a",
+      "address": "0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b",
       "url": null,
-      "label": "Unlabelled EOA (13.22%)",
+      "label": "Likely Chintai treasury Safe (12.0%)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     },
     {
-      "address": "0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b",
+      "address": "0x6bf83042c941a74cb5902908e892f0114e549e5a",
       "url": null,
-      "label": "Unlabelled Safe (12.01%)",
+      "label": "Unlabelled wallet with Kraken deposits (13.2%)",
       "source": "front_matter",
       "confidence": "low",
       "independent_corroboration": false,
@@ -209,6 +236,17 @@
         "report-front-matter"
       ],
       "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x12e744de35c287e92bb3544d1fb2e32fa30b54b4",
+      "url": "https://arkm.com/explorer/address/0x12e744de35c287e92bb3544d1fb2e32fa30b54b4",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
       "appears_in_selling_or_holdings": true
     },
     {

@@ -20,9 +20,9 @@ section_scores:
 gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found in this pass"
-  team_wallet_to_exchange_during_pump: "not tested: no exchange price series; holders unlabelled"
+  team_wallet_to_exchange_during_pump: "not tested: no exchange price series; team wallets unpublished"
   one_hop_sale_status: none_found
-  entity_concentration: "~34% in two unlabelled EOAs (low confidence)"
+  entity_concentration: "DWF Labs 18.1% (market maker); Coinbase Prime 16.3%"
 price_usd: 0.00410684
 price_source: "CoinGecko `measurable-data-token`, 16 Nov 2026 ~3:00 PM MST"
 methodology_effective: 2026-11-16
@@ -34,15 +34,20 @@ pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0xa14567cbd5090a6b469390e7d33b10cffa70c5b3"
-    label: "Unlabelled EOA (18.1%)"
-    confidence: low
+    label: "DWF Labs, market maker (18.1%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
+    basis: "Arkham entity label"
   - address: "0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4"
-    label: "Unlabelled EOA (16.3%)"
-    confidence: low
+    label: "Coinbase Prime Custody (16.3%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
+    basis: "Arkham entity label"
+  - address: "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43"
+    label: "Coinbase: Hot Wallet (9.3%)"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham entity label"
   - address: "0xf977814e90da44bfa03b6295a0616a897441acec"
     label: "Binance: Cold Wallet 20"
     confidence: medium
@@ -56,9 +61,9 @@ layout_version: 3
 
 ### MDT · Overall grade **3.1 / 10 · ❌ FAIL**
 
-**Summary:** MDT is the token of a data-exchange project whose products (rewards apps) are self-reported. No fee or revenue record on DefiLlama and none published by the project was found. Two unlabelled wallets hold 34% of supply, and Etherscan labels a 5.3% holder Binance: Cold Wallet 20. Trading is thin (~$90k a day, mostly Coinbase). MDT is down 71% in a year. The Revenue gate fails.
+**Summary:** MDT is the token of a data-exchange project whose products (rewards apps) are self-reported. No fee or revenue record on DefiLlama and none published by the project was found. The top holder is the market maker DWF Labs (18.1%, from a project lockup contract), followed by Coinbase Prime custody (16.3%) and Binance (5.3%). Trading is thin (~$90k a day, mostly Coinbase). MDT is down 71% in a year. The Revenue gate fails.
 
-**🚨 Top warning:** **Two unlabelled wallets hold ~34%:** [`0xa145…c5b3`](https://etherscan.io/address/0xa14567cbd5090a6b469390e7d33b10cffa70c5b3) 18.1% (EOA) and [`0x4f4d…0ca4`](https://etherscan.io/address/0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4) 16.3% (EOA). Low confidence, so they go to the Arkham batch. No exchange price series was available for the pump test.
+**🚨 Top warning:** **The top holder is the market maker DWF Labs** ([`0xa145…c5b3`](https://etherscan.io/address/0xa14567cbd5090a6b469390e7d33b10cffa70c5b3), 18.1%), which received 196M MDT from the project's MDTExchangeLockup contract about 3 years ago. The next largest are Coinbase Prime custody [`0x4f4d…0ca4`](https://etherscan.io/address/0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4) 16.3% and the Coinbase hot wallet (9.3%). No exchange price series was available for the pump test.
 
 **Sections passed: 0 of 11**
 
@@ -83,7 +88,7 @@ layout_version: 3
 
 # 🪪 MDT · Measurable Data Token · 3.1 / 10 · ❌ FAIL
 
-> **One line:** A dormant-looking data token with no revenue, thin trading and large unlabelled holders.
+> **One line:** A dormant-looking data token with no revenue, thin trading and a market maker as top holder.
 
 | 📊 Market (CoinGecko `measurable-data-token`, 16 Nov 2026 ~3:00 PM MST) | 🔗 Chain |
 |---|---|
@@ -110,12 +115,15 @@ layout_version: 3
 
 ## 🪙 Foundation / team holdings — How many coins do they hold? · 4/10 · ❌ FAIL
 
-- [`0xa145…c5b3`](https://etherscan.io/address/0xa14567cbd5090a6b469390e7d33b10cffa70c5b3) 18.1% (EOA) and [`0x4f4d…0ca4`](https://etherscan.io/address/0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4) 16.3% (EOA) are unlabelled. [`0xf977…acec`](https://etherscan.io/address/0xf977814e90da44bfa03b6295a0616a897441acec) 5.31% is Etherscan-labelled Binance: Cold Wallet 20 (exchange custody). Not proven → **4**.
+- [`0xa145…c5b3`](https://etherscan.io/address/0xa14567cbd5090a6b469390e7d33b10cffa70c5b3) (18.1%) is **DWF Labs** ([Arkham](https://arkm.com/explorer/address/0xa14567cbd5090a6b469390e7d33b10cffa70c5b3)), a market maker. It received 196M MDT from the project's MDTExchangeLockup contract ~3 years ago, so this is a team-allocated market-making inventory. Market-maker flows are not team sales unless a sale is shown.
+- [`0x4f4d…0ca4`](https://etherscan.io/address/0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4) (16.3%) is **Coinbase Prime Custody** ([Arkham](https://arkm.com/explorer/address/0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4)); the Coinbase hot wallet [`0xa9d1…3e43`](https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) holds 9.3% ([Arkham](https://arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43)); [`0xf977…acec`](https://etherscan.io/address/0xf977814e90da44bfa03b6295a0616a897441acec) 5.31% is Etherscan-labelled Binance: Cold Wallet 20. Exchange custody is not insider holding.
+- Measurable Data's own team wallets are not mapped.
+- Score: **4**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
-- No Gate, MEXC, KuCoin or Kraken USDT series returned, so no pump days were tested; the large holders are unlabelled.
-- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass. No Arkham pass was run.
+- No Gate, MEXC, KuCoin or Kraken USDT series returned, so no pump days were tested; the top holder is DWF Labs, a market maker (Arkham b24).
+- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass, including in the Arkham batch b24 read (16 Nov 2026).
 
 **What it means:** Not proven → **4**.
 
@@ -154,17 +162,18 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None found |
-| Team wallet → exchange during a pump | ⚪ Not tested: no exchange price series; holders unlabelled |
-| Entity concentration | 🟡 ~34% in two unlabelled EOAs |
+| Team wallet → exchange during a pump | ⚪ Not tested: no exchange price series; team wallets unpublished |
+| Entity concentration | 🟡 DWF Labs 18.1% (market maker); Coinbase Prime 16.3% |
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
 
-*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. No Arkham pass was run for this report, so every attribution that rests on an unlabelled wallet is low confidence. Dual review of Selling and Holdings: not run (single scorer).*
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Entity labels below come from Arkham batch b24 (signed-in read on 16 Nov 2026, page 1 of transfers): an Arkham label alone is medium confidence; an Etherscan name tag that agrees makes it high. Dual review of Selling and Holdings: not run (single scorer).*
 
 | Address | Label | Source | Confidence | Independent corroboration | Effect on score |
 |---|---|---|---|---|---|
-| [`0xa145…c5b3`](https://etherscan.io/address/0xa14567cbd5090a6b469390e7d33b10cffa70c5b3) | Unlabelled EOA (18.1%) | Ethplorer + Etherscan | low | no | None: cannot move Holdings or Selling |
-| [`0x4f4d…0ca4`](https://etherscan.io/address/0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4) | Unlabelled EOA (16.3%) | Ethplorer + Etherscan | low | no | None |
+| [`0xa145…c5b3`](https://etherscan.io/address/0xa14567cbd5090a6b469390e7d33b10cffa70c5b3) | DWF Labs, market maker (18.1%) | [Arkham](https://arkm.com/explorer/address/0xa14567cbd5090a6b469390e7d33b10cffa70c5b3) entity label | medium | no | Holdings: team-allocated market-maker inventory |
+| [`0x4f4d…0ca4`](https://etherscan.io/address/0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4) | Coinbase Prime Custody (16.3%) | [Arkham](https://arkm.com/explorer/address/0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4) entity label | medium | no | Holdings: exchange custody, not insider |
+| [`0xa9d1…3e43`](https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) | Coinbase: Hot Wallet (9.3%) | [Arkham](https://arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) entity label | medium | no | Holdings: exchange custody, not insider |
 | [`0xf977…acec`](https://etherscan.io/address/0xf977814e90da44bfa03b6295a0616a897441acec) | Binance: Cold Wallet 20 | Etherscan public name tag | medium | no | None: exchange custody, not insider |
 
 ## 📚 Sources
@@ -179,6 +188,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
+| Entity labels for the top holders (Arkham batch b24) | [0xa145…c5b3](https://arkm.com/explorer/address/0xa14567cbd5090a6b469390e7d33b10cffa70c5b3) · [0x4f4d…0ca4](https://arkm.com/explorer/address/0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4) · [0xa9d1…3e43](https://arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) · [0xf977…acec](https://arkm.com/explorer/address/0xf977814e90da44bfa03b6295a0616a897441acec) | B | 16 Nov 2026 |
 | Market data and venues | [CoinGecko `measurable-data-token`](https://www.coingecko.com/en/coins/measurable-data-token) | A | 16 Nov 2026 |
 | Token contract and holders | [contract](https://etherscan.io/token/0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26) · [holders](https://etherscan.io/token/0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26#balances) | A | 16 Nov 2026 |
 

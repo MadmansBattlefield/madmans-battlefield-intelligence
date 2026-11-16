@@ -50,7 +50,15 @@
     "pump_day_disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
-    "attributions": []
+    "attributions": [
+      {
+        "address": "0x0fcfe33b46e5b21e5e96b722d4c85510198f9255",
+        "label": "Mansory: MANSORY (MNSRY) LayerZero OFT on BNB Chain",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham contract label"
+      }
+    ]
   },
   "key_numbers": {
     "price_usd": 0.00581842,
@@ -62,9 +70,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/MNSRY.md",
-    "sha256": "f45e51f2acd10d39fd5fb795388393ec6fed25342c7b1e542eca7d944e0df613",
-    "bytes": 7587,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "33739acbe41c168e67c25172a8d0ceb406f4a4317dc6101341f486a757f42bea",
+    "bytes": 8373,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -77,6 +85,13 @@
   },
   "evidence_links": [
     {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x0fcf…9255",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
       "claim": "Market data and venues",
       "url": "CoinGecko `mansory-token`",
       "kind": "other",
@@ -84,7 +99,20 @@
       "date_read": "16 Nov 2026"
     }
   ],
-  "addresses_examined": [],
+  "addresses_examined": [
+    {
+      "chain": "bsc",
+      "address": "0x0fcfe33b46e5b21e5e96b722d4c85510198f9255",
+      "url": "https://bscscan.com/address/0x0fcfe33b46e5b21e5e96b722d4c85510198f9255",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "0x0fcfe33b46e5b21e5e96b722d4c85510198f9255",
+      "url": "https://arkm.com/explorer/address/0x0fcfe33b46e5b21e5e96b722d4c85510198f9255",
+      "kind": "address"
+    }
+  ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
     "price_source": "MEXC MNSRYUSDT UTC daily closes",
@@ -110,7 +138,21 @@
     "inconsistent_with_score": false,
     "notes": "**0 → hard-gate FAIL.**"
   },
-  "attributions": [],
+  "attributions": [
+    {
+      "address": "0x0fcfe33b46e5b21e5e96b722d4c85510198f9255",
+      "url": null,
+      "label": "Mansory: MANSORY (MNSRY) LayerZero OFT on BNB Chain",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": false
+    }
+  ],
   "review": {
     "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,

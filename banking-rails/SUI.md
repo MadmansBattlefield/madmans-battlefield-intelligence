@@ -230,7 +230,7 @@ Route proven on-chain (Tier A); Binance identity of `0x9350…` from two Tier B 
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | **Labels for the unlabelled SUI wallets** (the maintainer's `arkham/sui_addresses.csv` list: `0x341f…`, `0x7f3b…`, `0xbe90…`, `0x7f66…`, `0x457f…`, `0x51f8…`, `0xc6ff…`, `0x3bd2…`) | **Not covered by Arkham:** Arkham does not support Sui (checked 16 Nov 2026 ~6:53 AM MST; the address page fails to load). Use Suiscan / SuiVision labels, or ask the Sui Foundation and Mysten Labs to publish their wallets | Free |
+| 1 | **Labels for the unlabelled SUI wallets** (the wallet list: `0x341f…`, `0x7f3b…`, `0xbe90…`, `0x7f66…`, `0x457f…`, `0x51f8…`, `0xc6ff…`, `0x3bd2…`) | **Not covered by Arkham:** Arkham does not support Sui (checked 16 Nov 2026 ~6:53 AM MST; the address page fails to load). Use Suiscan / SuiVision labels, or ask the Sui Foundation and Mysten Labs to publish their wallets | Free |
 | 2 | **Is the 2023 "partner lock-up" still the explanation in 2026?** | Ask the Sui Foundation which entity controls `0x7f3b…`/`0x7f66…` and why it funded `0x7f66…` on 18 Mar 2026 | Free |
 | 3 | **Who gets the 5.22B post-2030 SUI?** | Read the official token release schedule on sui.io and any foundation reports | Free |
 | 4 | **Beneficiaries of the 13 single-stake wallets (~414M)** | Track `StakedSui` withdrawals from those wallets monthly | Free |

@@ -216,7 +216,7 @@ layout_version: 3
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | **Arkham pass on Quai wallets** (hub `0x004b…`, genesis wallets, burn feeder) | **Arkham does not support Quai** (checked 16 Nov 2026), so the maintainer's `arkham/quai_addresses.csv` list cannot be closed there. Ask MEXC/Gate or Dominant Strategies to identify the wallets, or wait for Quaiscan labels | Free |
+| 1 | **Arkham pass on Quai wallets** (hub `0x004b…`, genesis wallets, burn feeder) | **Arkham does not support Quai** (checked 16 Nov 2026), so the wallet list cannot be closed there. Ask MEXC/Gate or Dominant Strategies to identify the wallets, or wait for Quaiscan labels | Free |
 | 2 | **Is `0x004b…` an exchange (MEXC?) deposit wallet?** | Ask MEXC/Gate support or Quai's team; or deposit a tiny amount to MEXC and see which hot wallet receives it | Free / tiny amount |
 | 3 | **Which genesis bucket owns `0x0051…`, `0x0050…7e89`, `0x007E…`?** | Ask Dominant Strategies to publish genesis allocation addresses | Free |
 | 4 | **Did Polaris activate on schedule?** | Check the current Prime block and supply.qu.ai genesis line | Free |

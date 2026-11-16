@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ADA.md",
-    "sha256": "58d45605520b442991c366c36c5a179a1a06c0d911fc55aa7d5dd3acef8759d5",
-    "bytes": 22308,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "711dfb6950fb98c554bcda2c34862b158eb0de8cb7de3b490ac596bf9921fdaa",
+    "bytes": 22275,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

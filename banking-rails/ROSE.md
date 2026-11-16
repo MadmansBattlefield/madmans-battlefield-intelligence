@@ -212,7 +212,7 @@ layout_version: 3
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | **Wallet labels for 10 Oasis wallets** (the maintainer's `arkham/rose_addresses.csv` list: suspected foundation wallets, pump-day receiver `oasis1qqxc…` and its two big recipients) | **Not covered by Arkham:** Arkham does not support Oasis (checked 16 Nov 2026). Use Oasis Explorer / Oasisscan tags, or ask the Oasis Foundation to publish its wallets | Free |
+| 1 | **Wallet labels for 10 Oasis wallets** (the wallet list: suspected foundation wallets, pump-day receiver `oasis1qqxc…` and its two big recipients) | **Not covered by Arkham:** Arkham does not support Oasis (checked 16 Nov 2026). Use Oasis Explorer / Oasisscan tags, or ask the Oasis Foundation to publish its wallets | Free |
 | 2 | **Which wallets are the Foundation's?** | Ask the Oasis Foundation to publish its endowment, community and strategic wallet addresses; check them against the schedule CSV | Free |
 | 3 | **Exchange deposit addresses** | Oasis exchanges use per-user deposit accounts. Run a 3rd hop from `oasis1qrd3…` and `oasis1qq6p…` to see whether funds sweep into the tagged hot wallets | Free (Nexus) |
 | 4 | **Second source for exchange tags** | Confirm the Binance / Coinbase / Bybit tags with a withdrawal test or the exchanges' published proof-of-reserves addresses (Arkham does not cover Oasis) | Free / small |

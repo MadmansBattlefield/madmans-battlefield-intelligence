@@ -238,7 +238,7 @@ layout_version: 3
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | ~~Arkham pass on 12 wallets~~ **Done 16 Nov 2026** (the maintainer's `arkham/spa_addresses.csv` list): `0xc6e0…` = speraxfoundation.eth; Coinbase / KuCoin / MEXC deposits and Coinbase hot wallets confirmed; `0x5c2f…` Coinbase, `0x15da…` Revolut. Still unnamed: relay `0x9597…` and its receivers | Re-check with Arkham Enterprise's token filter for full SPA history | Arkham Enterprise |
+| 1 | ~~Arkham pass on 12 wallets~~ **Done 16 Nov 2026** (the wallet list): `0xc6e0…` = speraxfoundation.eth; Coinbase / KuCoin / MEXC deposits and Coinbase hot wallets confirmed; `0x5c2f…` Coinbase, `0x15da…` Revolut. Still unnamed: relay `0x9597…` and its receivers | Re-check with Arkham Enterprise's token filter for full SPA history | Arkham Enterprise |
 | 2 | **Was the 2 May 2023 deposit disclosed?** | Search Sperax posts and governance forum for May 2023 (market-maker or listing notices); ask the team | Free |
 | 3 | **Safe balance schedule** | Ask Sperax for the unlock plan for the 1.647B in Safes; read any SPA tokenomics page | Free |
 | 4 | **Ethereum and BSC legs** | Run the same Safe → exchange test on the Ethereum token `0xb4a3…9008` and BSC `0x1a9f…79b1` | Free (Etherscan) |

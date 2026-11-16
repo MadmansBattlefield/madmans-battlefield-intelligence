@@ -37,9 +37,9 @@
   },
   "red_lines": {
     "hack_exploit": "none found in this pass",
-    "team_wallet_to_exchange_during_pump": "not tested: holders unlabelled",
+    "team_wallet_to_exchange_during_pump": "not tested: company wallet identified, no pump-day exchange sends seen",
     "one_hop_sale_status": "none_found",
-    "entity_concentration": "~79% of the ERC-20 in two unlabelled EOAs (low confidence)"
+    "entity_concentration": "Metal company wallet 18.1%; Upbit 61.1% and Bithumb 7.7% are exchange custody"
   },
   "price_usd": 0.220448,
   "price_source": "CoinGecko `metal`, 16 Nov 2026 ~3:00 PM MST",
@@ -53,18 +53,25 @@
     "dual_review": "not_run",
     "attributions": [
       {
-        "address": "0xaefd771ebcd045675006f466818f371721746573",
-        "label": "Unlabelled EOA (61.14% of ERC-20)",
-        "confidence": "low",
-        "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan getsourcecode"
+        "address": "0x1a653e69fd7a4fbbff359026dd3aa1de1d5eee65",
+        "label": "Metal Pay company wallet, ENS mtldao.eth (18.1%)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham entity label + Etherscan ENS"
       },
       {
-        "address": "0x1a653e69fd7a4fbbff359026dd3aa1de1d5eee65",
-        "label": "Unlabelled EOA (18.12% of ERC-20)",
-        "confidence": "low",
+        "address": "0xaefd771ebcd045675006f466818f371721746573",
+        "label": "Upbit (61.1%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan getsourcecode"
+        "basis": "Arkham entity label"
+      },
+      {
+        "address": "0xcc68fa9f3ddefc3f86307389d3efb146651cc03f",
+        "label": "Bithumb: Hot Wallet (7.7%)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham entity label + Etherscan tag 'Bithumb 156'"
       }
     ]
   },
@@ -78,9 +85,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/MTL.md",
-    "sha256": "13f92d020a4667fda1f9401c3af1ef0b2b8cce05bbe78acf908b1b1174a40b8f",
-    "bytes": 9736,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "e890548af126eefc78e0069769b4ee53ead7ce23b85aad0a2e2ca6b431c6ad13",
+    "bytes": 12123,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -92,6 +99,27 @@
     "arkham_read": null
   },
   "evidence_links": [
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x1a65…ee65",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xaefd…6573",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xcc68…c03f",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
     {
       "claim": "Market data and venues",
       "url": "CoinGecko `metal`",
@@ -129,6 +157,12 @@
     },
     {
       "chain": "ethereum",
+      "address": "0xcc68fa9f3ddefc3f86307389d3efb146651cc03f",
+      "url": "https://etherscan.io/address/0xcc68fa9f3ddefc3f86307389d3efb146651cc03f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
       "address": "0xf433089366899d83a9f26a773d59ec7ecf30355e",
       "url": "https://etherscan.io/token/0xf433089366899d83a9f26a773d59ec7ecf30355e#balances",
       "kind": "token"
@@ -148,7 +182,7 @@
     "pump_day_undisclosed_penalty_applied": false,
     "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
-      "team_wallet_to_exchange_during_pump: not tested: holders unlabelled"
+      "team_wallet_to_exchange_during_pump: not tested: company wallet identified, no pump-day exchange sends seen"
     ]
   },
   "revenue_accrual": {
@@ -161,40 +195,44 @@
   },
   "attributions": [
     {
-      "address": "0xaefd771ebcd045675006f466818f371721746573",
-      "url": null,
-      "label": "Unlabelled EOA (61.14% of ERC-20)",
-      "source": "front_matter",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [
-        "report-front-matter"
-      ],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": true
-    },
-    {
       "address": "0x1a653e69fd7a4fbbff359026dd3aa1de1d5eee65",
       "url": null,
-      "label": "Unlabelled EOA (18.12% of ERC-20)",
+      "label": "project or individual-labelled wallet",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xaefd771ebcd045675006f466818f371721746573",
+      "url": null,
+      "label": "Upbit (61.1%)",
+      "source": "front_matter",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
+      "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     },
     {
-      "address": null,
+      "address": "0xcc68fa9f3ddefc3f86307389d3efb146651cc03f",
       "url": null,
-      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
-      "source": "report",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
+      "label": "Bithumb: Hot Wallet (7.7%)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     }
   ],
@@ -202,9 +240,7 @@
     "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
-    "flag_notes": [
-      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
-    ],
+    "flag_notes": [],
     "dual_review": {
       "status": "not_run",
       "threshold_points": 2,

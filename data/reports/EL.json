@@ -37,9 +37,9 @@
   },
   "red_lines": {
     "hack_exploit": "none found in this pass",
-    "team_wallet_to_exchange_during_pump": "not proven: large holders unlabelled",
+    "team_wallet_to_exchange_during_pump": "not proven: team-style Safes dormant, no exchange sends seen",
     "one_hop_sale_status": "none_found",
-    "entity_concentration": "~90% in three unlabelled addresses (low confidence)"
+    "entity_concentration": "Bithumb 67.6% (exchange); ~22.9% in dormant team-style Safes"
   },
   "price_usd": 0.00124646,
   "price_source": "CoinGecko `elysia`, 16 Nov 2026 ~3:00 PM MST",
@@ -54,24 +54,31 @@
     "attributions": [
       {
         "address": "0x1b1318c3ec104799de21e4ce2284c3de52a1e452",
-        "label": "Unlabelled EOA (67.6%)",
-        "confidence": "low",
-        "independent_corroboration": false,
-        "basis": "Ethplorer + eth_getCode"
+        "label": "Bithumb: Hot Wallet (67.6%)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham entity label + Etherscan tag 'Bithumb 448'"
       },
       {
         "address": "0x796bdc018d9a903acca191e6cae6bb300c662674",
-        "label": "Gnosis Safe (12.6%)",
-        "confidence": "low",
+        "label": "Dormant Safe funded by the EL deployer (12.6%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Etherscan ContractName"
+        "basis": "Arkham + deployer transfer"
       },
       {
         "address": "0xed5d35dc902c543b33496f6feae27b7866525b4f",
-        "label": "Gnosis Safe (10.3%)",
+        "label": "Dormant unnamed Safe (10.3%)",
         "confidence": "low",
         "independent_corroboration": false,
-        "basis": "Etherscan ContractName"
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x8acff18c53825205d185793bf7517b9e9ece76c4",
+        "label": "ELFI Token deployer",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham name label"
       }
     ]
   },
@@ -85,9 +92,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/EL.md",
-    "sha256": "09b3dc86a1a31f30753c38dea87bc005be19b84b2f7bedea59d068e144cf502d",
-    "bytes": 10103,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "e97fc854d9536b19f26c853d04b001669a0ee3b2442d3bfd045215c16d06f569",
+    "bytes": 12621,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -99,6 +106,34 @@
     "arkham_read": null
   },
   "evidence_links": [
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x1b13…e452",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x796b…2674",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xed5d…5b4f",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x8acf…76c4",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
     {
       "claim": "Market data and venues",
       "url": "CoinGecko `elysia`",
@@ -142,6 +177,12 @@
     },
     {
       "chain": "ethereum",
+      "address": "0x8acff18c53825205d185793bf7517b9e9ece76c4",
+      "url": "https://etherscan.io/address/0x8acff18c53825205d185793bf7517b9e9ece76c4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
       "address": "0xed5d35dc902c543b33496f6feae27b7866525b4f",
       "url": "https://etherscan.io/address/0xed5d35dc902c543b33496f6feae27b7866525b4f",
       "kind": "address"
@@ -161,7 +202,7 @@
     "pump_day_undisclosed_penalty_applied": false,
     "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
-      "team_wallet_to_exchange_during_pump: not proven: large holders unlabelled"
+      "team_wallet_to_exchange_during_pump: not proven: team-style Safes dormant, no exchange sends seen"
     ]
   },
   "revenue_accrual": {
@@ -176,33 +217,34 @@
     {
       "address": "0x1b1318c3ec104799de21e4ce2284c3de52a1e452",
       "url": null,
-      "label": "Unlabelled EOA (67.6%)",
+      "label": "Bithumb: Hot Wallet (67.6%)",
       "source": "front_matter",
-      "confidence": "low",
-      "independent_corroboration": false,
+      "confidence": "high",
+      "independent_corroboration": true,
       "corroborating_sources": [
-        "report-front-matter"
+        "report-front-matter",
+        "corroborated"
       ],
-      "label_kind": "unlabelled",
+      "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0x796bdc018d9a903acca191e6cae6bb300c662674",
       "url": null,
-      "label": "Gnosis Safe (12.6%)",
+      "label": "Dormant Safe funded by the EL deployer (12.6%)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unknown",
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0xed5d35dc902c543b33496f6feae27b7866525b4f",
       "url": null,
-      "label": "Gnosis Safe (10.3%)",
+      "label": "Dormant unnamed Safe (10.3%)",
       "source": "front_matter",
       "confidence": "low",
       "independent_corroboration": false,
@@ -213,14 +255,16 @@
       "appears_in_selling_or_holdings": true
     },
     {
-      "address": null,
+      "address": "0x8acff18c53825205d185793bf7517b9e9ece76c4",
       "url": null,
-      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
-      "source": "report",
-      "confidence": "low",
+      "label": "ELFI Token deployer",
+      "source": "front_matter",
+      "confidence": "medium",
       "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     }
   ],
@@ -228,9 +272,7 @@
     "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
-    "flag_notes": [
-      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
-    ],
+    "flag_notes": [],
     "dual_review": {
       "status": "not_run",
       "threshold_points": 2,

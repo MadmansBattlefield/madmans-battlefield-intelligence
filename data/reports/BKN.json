@@ -37,9 +37,9 @@
   },
   "red_lines": {
     "hack_exploit": "none found in this pass",
-    "team_wallet_to_exchange_during_pump": "not tested: holders unlabelled",
+    "team_wallet_to_exchange_during_pump": "not tested: team-style Safes unlabelled, no exchange sends seen",
     "one_hop_sale_status": "none_found",
-    "entity_concentration": "~62% of the ERC-20 in three unlabelled wallets (low confidence)"
+    "entity_concentration": "~43% of the ERC-20 in two team-style Safes"
   },
   "price_usd": 0.069522,
   "price_source": "CoinGecko `brickken`, 16 Nov 2026 ~3:00 PM MST",
@@ -54,24 +54,24 @@
     "attributions": [
       {
         "address": "0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd",
-        "label": "Unlabelled Safe (30%)",
+        "label": "Unlabelled Safe, 12 signers (30.0%)",
         "confidence": "low",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham + Etherscan tokenbalance"
       },
       {
         "address": "0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8",
-        "label": "Unlabelled EOA (18.91%)",
-        "confidence": "low",
+        "label": "Staking/claim-style proxy contract (18.9%)",
+        "confidence": "medium",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham"
       },
       {
         "address": "0x0e35e6dac22669be00d73072e4cebaa9550dadd3",
-        "label": "Unlabelled Safe (12.7%)",
+        "label": "Unlabelled Safe, 13 signers (12.7%)",
         "confidence": "low",
         "independent_corroboration": false,
-        "basis": "Ethplorer + Etherscan"
+        "basis": "Arkham"
       },
       {
         "address": "0x9642b23ed1e01df1092b92641051881a322f5d4e",
@@ -92,9 +92,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BKN.md",
-    "sha256": "190a549eafc7150d6bcb265b41a7e33249d4835096c00a72fdec2340e3a84c59",
-    "bytes": 10548,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "d2d0e698b9052bea67d754e90e1e4244ab3c09bac1e32b73f9d07042825edcd3",
+    "bytes": 12380,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -106,6 +106,34 @@
     "arkham_read": null
   },
   "evidence_links": [
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x366e…f0bd",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x8f52…ceb8",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x0e35…add3",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x9642…5d4e",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
     {
       "claim": "Market data and venues",
       "url": "CoinGecko `brickken`",
@@ -174,7 +202,7 @@
     "pump_day_undisclosed_penalty_applied": false,
     "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
-      "team_wallet_to_exchange_during_pump: not tested: holders unlabelled"
+      "team_wallet_to_exchange_during_pump: not tested: team-style Safes unlabelled, no exchange sends seen"
     ]
   },
   "revenue_accrual": {
@@ -189,7 +217,7 @@
     {
       "address": "0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd",
       "url": null,
-      "label": "Unlabelled Safe (30%)",
+      "label": "Unlabelled Safe, 12 signers (30.0%)",
       "source": "front_matter",
       "confidence": "low",
       "independent_corroboration": false,
@@ -202,20 +230,20 @@
     {
       "address": "0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8",
       "url": null,
-      "label": "Unlabelled EOA (18.91%)",
+      "label": "Staking/claim-style proxy contract (18.9%)",
       "source": "front_matter",
-      "confidence": "low",
+      "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
         "report-front-matter"
       ],
-      "label_kind": "unlabelled",
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0x0e35e6dac22669be00d73072e4cebaa9550dadd3",
       "url": null,
-      "label": "Unlabelled Safe (12.7%)",
+      "label": "Unlabelled Safe, 13 signers (12.7%)",
       "source": "front_matter",
       "confidence": "low",
       "independent_corroboration": false,

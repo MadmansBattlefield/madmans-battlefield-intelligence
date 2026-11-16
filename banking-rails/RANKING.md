@@ -126,14 +126,14 @@ Ties are broken by how many of the 11 sections passed.
 103. 🔴 **CTK** · 3.7 · ❌ FAIL
 104. 🔴 **ZEN** · 3.7 · ❌ FAIL
 105. 🔴 **LL** · 3.7 · ❌ FAIL
-106. 🔴 **KAIO** · 3.6 · ❌ FAIL
-107. 🔴 **SHX** · 3.6 · ❌ FAIL
-108. 🔴 **SUPRA** · 3.6 · ❌ FAIL
-109. 🔴 **VELO** · 3.6 · ❌ FAIL
-110. 🔴 **QANX** · 3.6 · ❌ FAIL
-111. 🔴 **ACH** · 3.6 · ❌ FAIL
-112. 🔴 **PROPC** · 3.6 · ❌ FAIL
-113. 🔴 **CTC** · 3.6 · ❌ FAIL
+106. 🔴 **CTC** · 3.7 · ❌ FAIL
+107. 🔴 **KAIO** · 3.6 · ❌ FAIL
+108. 🔴 **SHX** · 3.6 · ❌ FAIL
+109. 🔴 **SUPRA** · 3.6 · ❌ FAIL
+110. 🔴 **VELO** · 3.6 · ❌ FAIL
+111. 🔴 **QANX** · 3.6 · ❌ FAIL
+112. 🔴 **ACH** · 3.6 · ❌ FAIL
+113. 🔴 **PROPC** · 3.6 · ❌ FAIL
 114. 🔴 **ZK** · 3.5 · ❌ FAIL
 115. 🔴 **SHPING** · 3.5 · ❌ FAIL
 116. 🔴 **RBNT** · 3.5 · ❌ FAIL
@@ -154,28 +154,28 @@ Ties are broken by how many of the 11 sections passed.
 131. 🔴 **BKN** · 3.4 · ❌ FAIL
 132. 🔴 **CPOOL** · 3.3 · ❌ FAIL
 133. 🔴 **HAI** · 3.3 · ❌ FAIL
-134. 🔴 **ZIG** · 3.3 · ❌ FAIL
-135. 🔴 **STBL** · 3.3 · ❌ FAIL
-136. 🔴 **SHARE** · 3.3 · ❌ FAIL
-137. 🔴 **AEON** · 3.3 · ❌ FAIL
-138. 🔴 **ARRR** · 3.3 · ❌ FAIL
-139. 🔴 **MAPO** · 3.3 · ❌ FAIL
-140. 🔴 **CTX** · 3.2 · ❌ FAIL
+134. 🔴 **CTX** · 3.3 · ❌ FAIL
+135. 🔴 **ZIG** · 3.3 · ❌ FAIL
+136. 🔴 **STBL** · 3.3 · ❌ FAIL
+137. 🔴 **SHARE** · 3.3 · ❌ FAIL
+138. 🔴 **AEON** · 3.3 · ❌ FAIL
+139. 🔴 **ARRR** · 3.3 · ❌ FAIL
+140. 🔴 **MAPO** · 3.2 · ❌ FAIL
 141. 🔴 **YELLOW** · 3.2 · ❌ FAIL
 142. 🔴 **LUMIA** · 3.2 · ❌ FAIL
 143. 🔴 **DOVU** · 3.2 · ❌ FAIL
 144. 🔴 **IXS** · 3.2 · ❌ FAIL
 145. 🔴 **SPC** · 3.2 · ❌ FAIL
-146. 🔴 **KAVA** · 3.1 · ❌ FAIL
-147. 🔴 **XEP** · 3.1 · ❌ FAIL
-148. 🔴 **EXA** · 3.1 · ❌ FAIL
-149. 🔴 **HONEY** · 3.1 · ❌ FAIL
-150. 🔴 **CSPR** · 3.1 · ❌ FAIL
-151. 🔴 **IOST** · 3.1 · ❌ FAIL
-152. 🔴 **TLOS** · 3.1 · ❌ FAIL
-153. 🔴 **METAL** · 3.1 · ❌ FAIL
-154. 🔴 **MDT** · 3.1 · ❌ FAIL
-155. 🔴 **BLZ** · 3.1 · ❌ FAIL
+146. 🔴 **BLZ** · 3.2 · ❌ FAIL
+147. 🔴 **KAVA** · 3.1 · ❌ FAIL
+148. 🔴 **XEP** · 3.1 · ❌ FAIL
+149. 🔴 **EXA** · 3.1 · ❌ FAIL
+150. 🔴 **HONEY** · 3.1 · ❌ FAIL
+151. 🔴 **CSPR** · 3.1 · ❌ FAIL
+152. 🔴 **IOST** · 3.1 · ❌ FAIL
+153. 🔴 **TLOS** · 3.1 · ❌ FAIL
+154. 🔴 **METAL** · 3.1 · ❌ FAIL
+155. 🔴 **MDT** · 3.1 · ❌ FAIL
 156. 🔴 **EOS** · 3.1 · ❌ FAIL
 157. 🔴 **LINGO** · 3.1 · ❌ FAIL
 158. 🔴 **POLYX** · 3.0 · ❌ FAIL
@@ -211,6 +211,10 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+- **Arkham batch b24 folded in (16 Nov 2026):** entity labels for the top holders of BKN, BLZ, CHEX, CTC, CTX, EL, HAI, KTA, LINGO, MAPO, MDT, METAL, MNSRY and MTL. Several large 'unlabelled insider' wallets are exchanges: CTC (Upbit 72.8%, Bithumb 13.1%), MTL (Upbit 61%, Bithumb 7.7%), BLZ (Coinbase and Revolut), CTX (Coinbase Prime), EL (Bithumb 67.6%), MAPO (Coinone 49.9%) and MDT (Coinbase Prime, after market maker DWF Labs at 18.1%). Holdings moved for CTC, BLZ and CTX (4 → 5) and MAPO (4 → 3, ~42% in Map Labs-linked wallets). METAL's 98.5% ERC-20 holder is a Proton Blockchain reserve, not free float. CHEX's 13.2% wallet made Kraken deposits on 10–14 Oct 2026, none on a pump day, and is not linked to Chintai's treasury Safe, so Selling stays not proven. BKN's 30% Safe still holds 30% on Etherscan. New ranks: CTC #106, BLZ #146, CTX #134, MAPO #140.
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 - **New v3 reports (STEP 5 live coins):** [LL](LL.md) at #105 with 3.7, [PANTHER](PANTHER.md) at #126 with 3.4, [COLLAT](COLLAT.md) at #94 with 3.8, [PLI](PLI.md) at #166 with 2.8, [SPC](SPC.md) at #145 with 3.2. All fail (gates: Revenue). No Arkham pass yet, so attributions that rest only on an unlabelled address are low confidence; Selling uses the amended one-hop rule. LL's reported volume (~1.85× its market cap, almost all on KuCoin) is flagged as likely inflated.
 - **Thin-market pass (STEP 5, 16 Nov 2026):** 60 unscored pipeline names were checked against CoinGecko, CoinPaprika, exchange listings, the latest on-chain transfer and the official site. 60 moved to [DEAD.md](../DEAD.md) as dying, probably dead or wound down, each with a dated one-line reason and a link. LL, COLLAT, PANTHER, PLI and SPC still trade $10k or more a day and stay in the pipeline. TRIZE was a duplicate of [RISE](RISE.md) (T-RIZE) and was removed from the pipeline. The 12 older [Unverified] dead entries were re-checked: OXEN and YETI now have official wind-down notices, WIT is dying (its chain runs but it has no tracked market), and the other 9 stay [Unverified].
@@ -1624,7 +1628,18 @@ Score changes from that research:
 
 ---
 
-## #106 · KAIO · KAIO (formerly Libre Capital)
+## #106 · CTC · Creditcoin (CTC, ERC-20 G-CRE)
+
+### 3.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A credit-history chain with no holder revenue; ~86% of the ERC-20 is Upbit and Bithumb custody.
+- 📄 [Full CTC report](CTC.md)
+
+---
+
+## #107 · KAIO · KAIO (formerly Libre Capital)
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1635,7 +1650,7 @@ Score changes from that research:
 
 ---
 
-## #107 · SHX · Stronghold
+## #108 · SHX · Stronghold
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1646,7 +1661,7 @@ Score changes from that research:
 
 ---
 
-## #108 · SUPRA · Supra
+## #109 · SUPRA · Supra
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1657,7 +1672,7 @@ Score changes from that research:
 
 ---
 
-## #109 · VELO · Velo
+## #110 · VELO · Velo
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1668,7 +1683,7 @@ Score changes from that research:
 
 ---
 
-## #110 · QANX · QANplatform
+## #111 · QANX · QANplatform
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1679,7 +1694,7 @@ Score changes from that research:
 
 ---
 
-## #111 · ACH · Alchemy Pay
+## #112 · ACH · Alchemy Pay
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1690,7 +1705,7 @@ Score changes from that research:
 
 ---
 
-## #112 · PROPC · Propchain
+## #113 · PROPC · Propchain
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1698,17 +1713,6 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** A real-estate data company whose buyback went quiet in Oct 2025 while its Liquidity-bucket EOA kept depositing into MEXC, on two Sep 2026 pump days too. Totals corrected after Arkham labelled the hop wallets as MEXC deposit addresses.
 - 📄 [Full PROPC report](PROPC.md)
-
----
-
-## #113 · CTC · Creditcoin (CTC, ERC-20 G-CRE)
-
-### 3.6 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** A credit-history chain with no holder revenue and ~86% of the ERC-20 in two unlabelled wallets.
-- 📄 [Full CTC report](CTC.md)
 
 ---
 
@@ -1806,7 +1810,7 @@ Score changes from that research:
 
 - **Sections passed:** 0 of 11
 - **Hard gates failed:** Revenue
-- **Verdict:** A payments-app token with no holder revenue and unlabelled large holders.
+- **Verdict:** A payments-app token with no holder revenue; the Metal company wallet holds 18% of the ERC-20.
 - 📄 [Full MTL report](MTL.md)
 
 ---
@@ -1932,7 +1936,18 @@ Score changes from that research:
 
 ---
 
-## #134 · ZIG · ZIGChain (Zignaly)
+## #134 · CTX · Cryptex Finance
+
+### 3.3 / 10 · ❌ FAIL
+
+- **Sections passed:** 1 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A small DeFi governance token with no holder revenue; its largest holders are Coinbase Prime custody.
+- 📄 [Full CTX report](CTX.md)
+
+---
+
+## #135 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1943,7 +1958,7 @@ Score changes from that research:
 
 ---
 
-## #135 · STBL · STBL
+## #136 · STBL · STBL
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1954,7 +1969,7 @@ Score changes from that research:
 
 ---
 
-## #136 · SHARE · ShareX
+## #137 · SHARE · ShareX
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1965,7 +1980,7 @@ Score changes from that research:
 
 ---
 
-## #137 · AEON · AEON
+## #138 · AEON · AEON
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1976,7 +1991,7 @@ Score changes from that research:
 
 ---
 
-## #138 · ARRR · Pirate Chain
+## #139 · ARRR · Pirate Chain
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1987,25 +2002,14 @@ Score changes from that research:
 
 ---
 
-## #139 · MAPO · MAP Protocol
-
-### 3.3 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** A cross-chain chain with no holder revenue and unlabelled ERC-20 reserves.
-- 📄 [Full MAPO report](MAPO.md)
-
----
-
-## #140 · CTX · Cryptex Finance
+## #140 · MAPO · MAP Protocol
 
 ### 3.2 / 10 · ❌ FAIL
 
-- **Sections passed:** 1 of 11
+- **Sections passed:** 0 of 11
 - **Hard gates failed:** Revenue
-- **Verdict:** A small DeFi governance token with no holder revenue and concentrated supply.
-- 📄 [Full CTX report](CTX.md)
+- **Verdict:** A cross-chain chain with no holder revenue and ~42% of the ERC-20 in Map Labs-linked wallets.
+- 📄 [Full MAPO report](MAPO.md)
 
 ---
 
@@ -2064,7 +2068,18 @@ Score changes from that research:
 
 ---
 
-## #146 · KAVA · Kava
+## #146 · BLZ · Bluzelle
+
+### 3.2 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A pivoting infrastructure token with no revenue and thin trading.
+- 📄 [Full BLZ report](BLZ.md)
+
+---
+
+## #147 · KAVA · Kava
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2075,7 +2090,7 @@ Score changes from that research:
 
 ---
 
-## #147 · XEP · Electra Protocol
+## #148 · XEP · Electra Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2086,7 +2101,7 @@ Score changes from that research:
 
 ---
 
-## #148 · EXA · Exactly Protocol
+## #149 · EXA · Exactly Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2097,7 +2112,7 @@ Score changes from that research:
 
 ---
 
-## #149 · HONEY · Hivemapper
+## #150 · HONEY · Hivemapper
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2108,7 +2123,7 @@ Score changes from that research:
 
 ---
 
-## #150 · CSPR · Casper Network
+## #151 · CSPR · Casper Network
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2119,7 +2134,7 @@ Score changes from that research:
 
 ---
 
-## #151 · IOST · IOST
+## #152 · IOST · IOST
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2130,7 +2145,7 @@ Score changes from that research:
 
 ---
 
-## #152 · TLOS · Telos
+## #153 · TLOS · Telos
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2141,7 +2156,7 @@ Score changes from that research:
 
 ---
 
-## #153 · METAL · Metal Blockchain
+## #154 · METAL · Metal Blockchain
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2152,25 +2167,14 @@ Score changes from that research:
 
 ---
 
-## #154 · MDT · Measurable Data Token
+## #155 · MDT · Measurable Data Token
 
 ### 3.1 / 10 · ❌ FAIL
 
 - **Sections passed:** 0 of 11
 - **Hard gates failed:** Revenue
-- **Verdict:** A data token with no revenue, thin trading and large unlabelled holders.
+- **Verdict:** A data token with no revenue and thin trading; its top holder is the market maker DWF Labs.
 - 📄 [Full MDT report](MDT.md)
-
----
-
-## #155 · BLZ · Bluzelle
-
-### 3.1 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** A pivoting infrastructure token with no revenue and thin trading.
-- 📄 [Full BLZ report](BLZ.md)
 
 ---
 
@@ -2224,7 +2228,7 @@ Score changes from that research:
 
 - **Sections passed:** 0 of 11
 - **Hard gates failed:** Revenue
-- **Verdict:** A real-estate token with no measurable revenue and ~90% of supply in three unlabelled addresses.
+- **Verdict:** A real-estate token with no measurable revenue; its 67.6% holder is Bithumb and ~23% sits in dormant team-style Safes.
 - 📄 [Full EL report](EL.md)
 
 ---

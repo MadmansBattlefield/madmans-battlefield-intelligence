@@ -50,7 +50,15 @@
     "pump_day_disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
-    "attributions": []
+    "attributions": [
+      {
+        "address": "0x582a560b9f8eaa5b6c889d7674532bcd61f066ec",
+        "label": "HAI-OFT token contract (BNB Chain)",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham contract label"
+      }
+    ]
   },
   "key_numbers": {
     "price_usd": 0.0013839,
@@ -62,9 +70,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/HAI.md",
-    "sha256": "36e5de990df46d73120aa6691743beab3eb54feabbcbe607c7e57f4c704623da",
-    "bytes": 8119,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "c1713c253e540e1cc515794812221c22fcaa22278a1c31a9a15099face460d24",
+    "bytes": 8871,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -76,6 +84,13 @@
     "arkham_read": null
   },
   "evidence_links": [
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0x582a…66ec",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
     {
       "claim": "Market data and venues",
       "url": "CoinGecko `hackenai`",
@@ -100,10 +115,16 @@
   ],
   "addresses_examined": [
     {
+      "chain": "binance-smart-chain",
+      "address": "0x582a560b9f8eaa5b6c889d7674532bcd61f066ec",
+      "url": "https://arkm.com/explorer/address/0x582a560b9f8eaa5b6c889d7674532bcd61f066ec",
+      "kind": "address"
+    },
+    {
       "chain": "bsc",
       "address": "0x582a560b9f8eaa5b6c889d7674532bcd61f066ec",
-      "url": "https://bscscan.com/token/0x582a560b9f8eaa5b6c889d7674532bcd61f066ec#balances",
-      "kind": "token"
+      "url": "https://bscscan.com/address/0x582a560b9f8eaa5b6c889d7674532bcd61f066ec",
+      "kind": "address"
     }
   ],
   "pump_day_test": {
@@ -131,7 +152,21 @@
     "inconsistent_with_score": false,
     "notes": "**1 → hard-gate FAIL.**"
   },
-  "attributions": [],
+  "attributions": [
+    {
+      "address": "0x582a560b9f8eaa5b6c889d7674532bcd61f066ec",
+      "url": null,
+      "label": "HAI-OFT token contract (BNB Chain)",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": false
+    }
+  ],
   "review": {
     "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,

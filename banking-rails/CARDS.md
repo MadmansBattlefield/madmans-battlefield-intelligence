@@ -251,7 +251,7 @@ Labels: Nansen tags `E1t8…` "Coinbase / CEX" and `H8sM…` "Coinbase: Hot Wall
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | ~~Arkham pass on 14 unlabelled wallets~~ **Done 16 Nov 2026** (the maintainer's `arkham/cards_addresses.csv` list): treasury funding of the relay and escrows confirmed; `7AMz…` and `6rQG…` are Fireblocks custody, and `6rQG…` feeds GSR Markets. Still unnamed: `redFW…`, `CcM9…`, `HWPR…`, `8Qvd…`, `2asR…`, `DFEs…`, `6UJ9…`, `HX4q…`, escrow recipients | Re-check with Arkham Enterprise's token filter for exact dates and full CARDS history | Arkham Enterprise |
+| 1 | ~~Arkham pass on 14 unlabelled wallets~~ **Done 16 Nov 2026** (the wallet list): treasury funding of the relay and escrows confirmed; `7AMz…` and `6rQG…` are Fireblocks custody, and `6rQG…` feeds GSR Markets. Still unnamed: `redFW…`, `CcM9…`, `HWPR…`, `8Qvd…`, `2asR…`, `DFEs…`, `6UJ9…`, `HX4q…`, escrow recipients | Re-check with Arkham Enterprise's token filter for exact dates and full CARDS history | Arkham Enterprise |
 | 1b | **Is GSR Collector Crypt's market maker, and was the 60M disclosed?** | Ask Collector Crypt; look for a market-maker agreement or announcement | Free |
 | 2 | **Why did 7M treasury CARDS go to Coinbase on 6 Nov 2026?** | Ask Collector Crypt; check the tokenomics update due after the 29 Nov unlock for a drop in "Foundation" | Free |
 | 3 | **Did `4ZKi…` sell on pump days?** | Read its token account history and match sale days to the pump list | Free |

@@ -3,12 +3,12 @@ ticker: BLZ
 name: Bluzelle
 chain: ethereum
 contract: "0x5732046a883704404f284ce41ffadd5b007fd668"
-overall_score: 3.1
+overall_score: 3.2
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 4
-  insider_holdings: 4
+  insider_holdings: 5
   selling_behavior: 4
   tokenomics_supply: 5
   liquidity_market: 2
@@ -20,9 +20,9 @@ section_scores:
 gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found in this pass"
-  team_wallet_to_exchange_during_pump: "not tested: holders unlabelled"
+  team_wallet_to_exchange_during_pump: "not tested: team wallets unpublished"
   one_hop_sale_status: none_found
-  entity_concentration: "~52% in three unlabelled EOAs (low confidence)"
+  entity_concentration: "~52% in Coinbase and Revolut custody (exchange, not insider)"
 price_usd: 0.00670671
 price_source: "CoinGecko `bluzelle`, 16 Nov 2026 ~3:00 PM MST"
 methodology_effective: 2026-11-16
@@ -34,31 +34,31 @@ pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0xf98e5cc1635ee69e451f43bfd913249b0da22028"
-    label: "Unlabelled EOA (20.96%)"
-    confidence: low
+    label: "Coinbase custody (21.0%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
+    basis: "Arkham entity label"
   - address: "0x15da7556d5ed888306839bed06f868aeaedcb0d7"
-    label: "Unlabelled EOA (19.91%)"
-    confidence: low
+    label: "Revolut: Cold Wallet (19.9%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
+    basis: "Arkham entity label"
   - address: "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43"
-    label: "Unlabelled EOA (11.43%)"
-    confidence: low
+    label: "Coinbase: Hot Wallet (11.4%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
+    basis: "Arkham entity label"
 last_updated: 2026-11-16
 layout_version: 3
 ---
 
 ## 🧾 QUICK REVIEW CARD
 
-### BLZ · Overall grade **3.1 / 10 · ❌ FAIL**
+### BLZ · Overall grade **3.2 / 10 · ❌ FAIL**
 
-**Summary:** Bluzelle began as a decentralized database and now markets a gaming and DePIN chain. No fee or revenue record on DefiLlama and none published by the project was found. Three unlabelled Ethereum wallets hold ~52% of the ERC-20; two of them are also top holders of MDT, which hints at exchange wallets [Unverified]. Trading is thin (~$51k a day). BLZ is down 64% in a year. The Revenue gate fails.
+**Summary:** Bluzelle began as a decentralized database and now markets a gaming and DePIN chain. No fee or revenue record on DefiLlama and none published by the project was found. The three largest Ethereum holders (~52% of the ERC-20) are Coinbase and Revolut custody (Arkham, 16 Nov 2026), not insiders. Trading is thin (~$51k a day). BLZ is down 64% in a year. The Revenue gate fails.
 
-**🚨 Top warning:** **Three unlabelled wallets hold ~52% of the ERC-20:** [`0xf98e…2028`](https://etherscan.io/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028) 20.96% (EOA), [`0x15da…b0d7`](https://etherscan.io/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7) 19.91% (EOA) and [`0xa9d1…3e43`](https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) 11.43% (EOA). Low confidence; for the Arkham batch.
+**🚨 Top warning:** **About 52% of the ERC-20 is exchange or broker custody, not insiders:** Coinbase [`0xf98e…2028`](https://etherscan.io/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028) 21.0%, the Revolut cold wallet [`0x15da…b0d7`](https://etherscan.io/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7) 19.9% and the Coinbase hot wallet [`0xa9d1…3e43`](https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) 11.4% (Arkham labels, read 16 Nov 2026). Bluzelle's own wallets are still unpublished.
 
 **Sections passed: 0 of 11**
 
@@ -66,7 +66,7 @@ layout_version: 3
 |---|:---:|:---:|
 | 💰 Revenue | 1/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 4/10 | ❌ FAIL |
-| 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
+| 🪙 Foundation / team holdings | 5/10 | ❌ FAIL |
 | 📉 Selling behavior | 4/10 | ❌ FAIL (not proven) |
 | 📊 Tokenomics & supply | 5/10 | ❌ FAIL |
 | 💧 Liquidity & market | 2/10 | ❌ FAIL |
@@ -81,7 +81,7 @@ layout_version: 3
 ---
 
 
-# 🪪 BLZ · Bluzelle · 3.1 / 10 · ❌ FAIL
+# 🪪 BLZ · Bluzelle · 3.2 / 10 · ❌ FAIL
 
 > **One line:** A pivoting infrastructure token with no revenue and thin trading.
 
@@ -108,14 +108,17 @@ layout_version: 3
 
 - Bluzelle ([site](https://bluzelle.com/)); founded 2014 in Singapore.
 
-## 🪙 Foundation / team holdings — How many coins do they hold? · 4/10 · ❌ FAIL
+## 🪙 Foundation / team holdings — How many coins do they hold? · 5/10 · ❌ FAIL
 
-- [`0xf98e…2028`](https://etherscan.io/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028) 20.96% (EOA), [`0x15da…b0d7`](https://etherscan.io/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7) 19.91% (EOA) and [`0xa9d1…3e43`](https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) 11.43% (EOA) are unlabelled; the second and third also rank among MDT's top holders, so they may be exchange wallets [Unverified]. Not proven → **4**.
+- [`0xf98e…2028`](https://etherscan.io/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028) (21.0%) is a **Coinbase** custody wallet fed only by the Coinbase hot wallet ([Arkham](https://arkm.com/explorer/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028)).
+- [`0x15da…b0d7`](https://etherscan.io/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7) (19.9%) is **Revolut: Cold Wallet** ([Arkham](https://arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7)), and [`0xa9d1…3e43`](https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) (11.4%) is **Coinbase: Hot Wallet** ([Arkham](https://arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43)). Exchange custody is not insider holding.
+- Bluzelle team and treasury wallets are not mapped.
+- Score: **5**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
-- The large holders are unlabelled and no team wallet is published.
-- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass. No Arkham pass was run.
+- The large holders are Coinbase and Revolut custody (Arkham b24); no team wallet is published.
+- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass, including in the Arkham batch b24 read (16 Nov 2026).
 
 **What it means:** Not proven → **4**.
 
@@ -154,18 +157,18 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None found |
-| Team wallet → exchange during a pump | ⚪ Not tested: holders unlabelled |
-| Entity concentration | 🟡 ~52% in three unlabelled EOAs |
+| Team wallet → exchange during a pump | ⚪ Not tested: team wallets unpublished |
+| Entity concentration | 🟢 ~52% in Coinbase and Revolut custody (exchange, not insider) |
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
 
-*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. No Arkham pass was run for this report, so every attribution that rests on an unlabelled wallet is low confidence. Dual review of Selling and Holdings: not run (single scorer).*
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Entity labels below come from Arkham batch b24 (signed-in read on 16 Nov 2026, page 1 of transfers): an Arkham label alone is medium confidence; an Etherscan name tag that agrees makes it high. Dual review of Selling and Holdings: not run (single scorer).*
 
 | Address | Label | Source | Confidence | Independent corroboration | Effect on score |
 |---|---|---|---|---|---|
-| [`0xf98e…2028`](https://etherscan.io/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028) | Unlabelled EOA (20.96%) | Ethplorer + Etherscan | low | no | None: cannot move Holdings or Selling |
-| [`0x15da…b0d7`](https://etherscan.io/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7) | Unlabelled EOA (19.91%) | Ethplorer + Etherscan | low | no | None: cannot move Holdings or Selling |
-| [`0xa9d1…3e43`](https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) | Unlabelled EOA (11.43%) | Ethplorer + Etherscan | low | no | None: cannot move Holdings or Selling |
+| [`0xf98e…2028`](https://etherscan.io/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028) | Coinbase custody (21.0%) | [Arkham](https://arkm.com/explorer/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028) entity label | medium | no | Holdings: exchange custody, not insider |
+| [`0x15da…b0d7`](https://etherscan.io/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7) | Revolut: Cold Wallet (19.9%) | [Arkham](https://arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7) entity label | medium | no | Holdings: broker custody, not insider |
+| [`0xa9d1…3e43`](https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) | Coinbase: Hot Wallet (11.4%) | [Arkham](https://arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) entity label | medium | no | Holdings: exchange custody, not insider |
 
 ## 📚 Sources
 
@@ -179,6 +182,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
+| Entity labels for the top holders (Arkham batch b24) | [0xf98e…2028](https://arkm.com/explorer/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028) · [0x15da…b0d7](https://arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7) · [0xa9d1…3e43](https://arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) | B | 16 Nov 2026 |
 | Market data and venues | [CoinGecko `bluzelle`](https://www.coingecko.com/en/coins/bluzelle) | A | 16 Nov 2026 |
 | Token contract and holders | [contract](https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668) · [holders](https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668#balances) | A | 16 Nov 2026 |
 

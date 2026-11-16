@@ -20,9 +20,9 @@ section_scores:
 gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found in this pass"
-  team_wallet_to_exchange_during_pump: "not tested: holders unlabelled"
+  team_wallet_to_exchange_during_pump: "not tested: team-style Safes unlabelled, no exchange sends seen"
   one_hop_sale_status: none_found
-  entity_concentration: "~62% of the ERC-20 in three unlabelled wallets (low confidence)"
+  entity_concentration: "~43% of the ERC-20 in two team-style Safes"
 price_usd: 0.069522
 price_source: "CoinGecko `brickken`, 16 Nov 2026 ~3:00 PM MST"
 methodology_effective: 2026-11-16
@@ -34,20 +34,20 @@ pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd"
-    label: "Unlabelled Safe (30%)"
+    label: "Unlabelled Safe, 12 signers (30.0%)"
     confidence: low
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
+    basis: "Arkham + Etherscan tokenbalance"
   - address: "0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8"
-    label: "Unlabelled EOA (18.91%)"
-    confidence: low
+    label: "Staking/claim-style proxy contract (18.9%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
+    basis: "Arkham"
   - address: "0x0e35e6dac22669be00d73072e4cebaa9550dadd3"
-    label: "Unlabelled Safe (12.7%)"
+    label: "Unlabelled Safe, 13 signers (12.7%)"
     confidence: low
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
+    basis: "Arkham"
   - address: "0x9642b23ed1e01df1092b92641051881a322f5d4e"
     label: "MEXC 16"
     confidence: medium
@@ -61,9 +61,9 @@ layout_version: 3
 
 ### BKN · Overall grade **3.4 / 10 · ❌ FAIL**
 
-**Summary:** Brickken sells a tokenization toolkit for businesses. No fee or revenue record on DefiLlama and none published by the project was found. Its software income is company revenue. Two unlabelled Safes hold 30% and 12.7% of the Ethereum supply and an unlabelled EOA 18.9%; Etherscan labels a 6.7% holder MEXC 16. BKN is down 40% in a year. The Revenue gate fails.
+**Summary:** Brickken sells a tokenization toolkit for businesses. No fee or revenue record on DefiLlama and none published by the project was found. Its software income is company revenue. Two team-style Safes hold 30% and 12.7% of the Ethereum supply, and a staking- or claim-style contract holds 18.9%; Etherscan labels a 6.7% holder MEXC 16. BKN is down 40% in a year. The Revenue gate fails.
 
-**🚨 Top warning:** **~62% of the Ethereum supply sits in three unlabelled wallets:** Safe [`0x366e…f0bd`](https://etherscan.io/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd) 30%, [`0x8f52…ceb8`](https://etherscan.io/address/0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8) 18.91% (EOA) and Safe [`0x0e35…add3`](https://etherscan.io/address/0x0e35e6dac22669be00d73072e4cebaa9550dadd3) 12.7%. Probably company or vesting wallets, but unlabelled, so low confidence.
+**🚨 Top warning:** **About 43% of the Ethereum supply sits in two multisig Safes:** [`0x366e…f0bd`](https://etherscan.io/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd) 30.0% (12 signers) and [`0x0e35…add3`](https://etherscan.io/address/0x0e35e6dac22669be00d73072e4cebaa9550dadd3) 12.7% (13 signers, including a named individual signer). Both look team-controlled but are not labelled to Brickken. Arkham's portfolio view omits BKN for the 30% Safe, but Etherscan's balance read on 16 Nov 2026 confirms it still holds 30.0%.
 
 **Sections passed: 0 of 11**
 
@@ -115,12 +115,16 @@ layout_version: 3
 
 ## 🪙 Foundation / team holdings — How many coins do they hold? · 4/10 · ❌ FAIL
 
-- Safe [`0x366e…f0bd`](https://etherscan.io/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd) 30%, [`0x8f52…ceb8`](https://etherscan.io/address/0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8) 18.91% (EOA) and Safe [`0x0e35…add3`](https://etherscan.io/address/0x0e35e6dac22669be00d73072e4cebaa9550dadd3) 12.7% are unlabelled. [`0x9642…5d4e`](https://etherscan.io/address/0x9642b23ed1e01df1092b92641051881a322f5d4e) 6.7% is Etherscan-labelled MEXC 16. Not proven → **4**.
+- Safe [`0x366e…f0bd`](https://etherscan.io/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd) (30.0%, 12 signers): Arkham lists no BKN in its portfolio ([Arkham](https://arkm.com/explorer/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd)), but Etherscan's `tokenbalance` read on 16 Nov 2026 shows 30.0% of supply ([Etherscan](https://etherscan.io/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd)). No exchange transfers.
+- [`0x8f52…ceb8`](https://etherscan.io/address/0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8) (18.9%) is an EIP-1967 proxy contract that collects many small user deposits of BKN ([Arkham](https://arkm.com/explorer/address/0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8)): a staking, vesting or claim-style contract, not an insider wallet.
+- Safe [`0x0e35…add3`](https://etherscan.io/address/0x0e35e6dac22669be00d73072e4cebaa9550dadd3) (12.7%, 13 signers including a named individual signer) shows no transfers in Arkham's default view ([Arkham](https://arkm.com/explorer/address/0x0e35e6dac22669be00d73072e4cebaa9550dadd3)); team- or vesting-style.
+- [`0x9642…5d4e`](https://etherscan.io/address/0x9642b23ed1e01df1092b92641051881a322f5d4e) 6.7% is Etherscan-labelled MEXC 16. About 43% sits in team-style Safes with no published allocation.
+- Score: **4**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
-- The large holders are unlabelled and no team wallet is published.
-- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass. No Arkham pass was run.
+- The two large Safes are unlabelled and sent no BKN to an exchange in Arkham's view; no team wallet is published.
+- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass, including in the Arkham batch b24 read (16 Nov 2026).
 
 **What it means:** Not proven → **4**.
 
@@ -159,18 +163,18 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None found |
-| Team wallet → exchange during a pump | ⚪ Not tested: holders unlabelled |
-| Entity concentration | 🔴 ~62% in three unlabelled wallets |
+| Team wallet → exchange during a pump | ⚪ Not tested: team-style Safes unlabelled, no exchange sends seen |
+| Entity concentration | 🔴 ~43% in two team-style Safes |
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
 
-*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. No Arkham pass was run for this report, so every attribution that rests on an unlabelled wallet is low confidence. Dual review of Selling and Holdings: not run (single scorer).*
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Entity labels below come from Arkham batch b24 (signed-in read on 16 Nov 2026, page 1 of transfers): an Arkham label alone is medium confidence; an Etherscan name tag that agrees makes it high. Dual review of Selling and Holdings: not run (single scorer).*
 
 | Address | Label | Source | Confidence | Independent corroboration | Effect on score |
 |---|---|---|---|---|---|
-| [`0x366e…f0bd`](https://etherscan.io/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd) | Unlabelled Safe (30%) | Ethplorer + Etherscan | low | no | None: cannot move Holdings or Selling |
-| [`0x8f52…ceb8`](https://etherscan.io/address/0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8) | Unlabelled EOA (18.91%) | Ethplorer + Etherscan | low | no | None: cannot move Holdings or Selling |
-| [`0x0e35…add3`](https://etherscan.io/address/0x0e35e6dac22669be00d73072e4cebaa9550dadd3) | Unlabelled Safe (12.7%) | Ethplorer + Etherscan | low | no | None: cannot move Holdings or Selling |
+| [`0x366e…f0bd`](https://etherscan.io/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd) | Unlabelled Safe, 12 signers (30.0%) | [Arkham](https://arkm.com/explorer/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd) + Etherscan tokenbalance | low | no | None: team-style, unlabelled |
+| [`0x8f52…ceb8`](https://etherscan.io/address/0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8) | Staking/claim-style proxy contract (18.9%) | [Arkham](https://arkm.com/explorer/address/0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8) | medium | no | Holdings: user deposits, not insider |
+| [`0x0e35…add3`](https://etherscan.io/address/0x0e35e6dac22669be00d73072e4cebaa9550dadd3) | Unlabelled Safe, 13 signers (12.7%) | [Arkham](https://arkm.com/explorer/address/0x0e35e6dac22669be00d73072e4cebaa9550dadd3) | low | no | None: team-style, unlabelled |
 | [`0x9642…5d4e`](https://etherscan.io/address/0x9642b23ed1e01df1092b92641051881a322f5d4e) | MEXC 16 | Etherscan public name tag | medium | no | None: exchange custody |
 
 ## 📚 Sources
@@ -185,6 +189,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
+| Entity labels for the top holders (Arkham batch b24) | [0x366e…f0bd](https://arkm.com/explorer/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd) · [0x8f52…ceb8](https://arkm.com/explorer/address/0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8) · [0x0e35…add3](https://arkm.com/explorer/address/0x0e35e6dac22669be00d73072e4cebaa9550dadd3) · [0x9642…5d4e](https://arkm.com/explorer/address/0x9642b23ed1e01df1092b92641051881a322f5d4e) | B | 16 Nov 2026 |
 | Market data and venues | [CoinGecko `brickken`](https://www.coingecko.com/en/coins/brickken) | A | 16 Nov 2026 |
 | Token contract and holders | [contract](https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82) · [holders](https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82#balances) | A | 16 Nov 2026 |
 

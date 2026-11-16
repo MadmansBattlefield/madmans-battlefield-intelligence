@@ -163,14 +163,14 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 103 | [CTK](CTK.md) | Shentu | 3.7 | ❌ FAIL | Revenue gate |
 | 104 | [ZEN](ZEN.md) | Horizen | 3.7 | ❌ FAIL | Revenue gate |
 | 105 | [LL](LL.md) | LightLink | 3.7 | ❌ FAIL | Revenue gate |
-| 106 | [KAIO](KAIO.md) | KAIO (formerly Libre Capital) | 3.6 | ❌ FAIL | Revenue and Selling gates |
-| 107 | [SHX](SHX.md) | Stronghold | 3.6 | ❌ FAIL | Revenue gate |
-| 108 | [SUPRA](SUPRA.md) | Supra | 3.6 | ❌ FAIL | Revenue gate |
-| 109 | [VELO](VELO.md) | Velo | 3.6 | ❌ FAIL | Revenue gate |
-| 110 | [QANX](QANX.md) | QANplatform | 3.6 | ❌ FAIL | Revenue gate |
-| 111 | [ACH](ACH.md) | Alchemy Pay | 3.6 | ❌ FAIL | Revenue gate |
-| 112 | [PROPC](PROPC.md) | Propchain | 3.6 | ❌ FAIL | Revenue gate |
-| 113 | [CTC](CTC.md) | Creditcoin (CTC, ERC-20 G-CRE) | 3.6 | ❌ FAIL | Revenue gate |
+| 106 | [CTC](CTC.md) | Creditcoin (CTC, ERC-20 G-CRE) | 3.7 | ❌ FAIL | Revenue gate |
+| 107 | [KAIO](KAIO.md) | KAIO (formerly Libre Capital) | 3.6 | ❌ FAIL | Revenue and Selling gates |
+| 108 | [SHX](SHX.md) | Stronghold | 3.6 | ❌ FAIL | Revenue gate |
+| 109 | [SUPRA](SUPRA.md) | Supra | 3.6 | ❌ FAIL | Revenue gate |
+| 110 | [VELO](VELO.md) | Velo | 3.6 | ❌ FAIL | Revenue gate |
+| 111 | [QANX](QANX.md) | QANplatform | 3.6 | ❌ FAIL | Revenue gate |
+| 112 | [ACH](ACH.md) | Alchemy Pay | 3.6 | ❌ FAIL | Revenue gate |
+| 113 | [PROPC](PROPC.md) | Propchain | 3.6 | ❌ FAIL | Revenue gate |
 | 114 | [ZK](ZK.md) | ZKsync | 3.5 | ❌ FAIL | Revenue and Selling gates |
 | 115 | [SHPING](SHPING.md) | Shping | 3.5 | ❌ FAIL | Revenue gate |
 | 116 | [RBNT](RBNT.md) | Redbelly Network | 3.5 | ❌ FAIL | Revenue gate |
@@ -191,28 +191,28 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 131 | [BKN](BKN.md) | Brickken | 3.4 | ❌ FAIL | Revenue gate |
 | 132 | [CPOOL](CPOOL.md) | Clearpool | 3.3 | ❌ FAIL | Revenue and Selling gates |
 | 133 | [HAI](HAI.md) | Hacken (HAI) | 3.3 | ❌ FAIL | Revenue gate |
-| 134 | [ZIG](ZIG.md) | ZIGChain (Zignaly) | 3.3 | ❌ FAIL | Revenue and Selling gates |
-| 135 | [STBL](STBL.md) | STBL | 3.3 | ❌ FAIL | Revenue gate |
-| 136 | [SHARE](SHARE.md) | ShareX | 3.3 | ❌ FAIL | Revenue gate |
-| 137 | [AEON](AEON.md) | AEON | 3.3 | ❌ FAIL | Revenue gate |
-| 138 | [ARRR](ARRR.md) | Pirate Chain | 3.3 | ❌ FAIL | Revenue gate |
-| 139 | [MAPO](MAPO.md) | MAP Protocol | 3.3 | ❌ FAIL | Revenue gate |
-| 140 | [CTX](CTX.md) | Cryptex Finance | 3.2 | ❌ FAIL | Revenue gate |
+| 134 | [CTX](CTX.md) | Cryptex Finance | 3.3 | ❌ FAIL | Revenue gate |
+| 135 | [ZIG](ZIG.md) | ZIGChain (Zignaly) | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 136 | [STBL](STBL.md) | STBL | 3.3 | ❌ FAIL | Revenue gate |
+| 137 | [SHARE](SHARE.md) | ShareX | 3.3 | ❌ FAIL | Revenue gate |
+| 138 | [AEON](AEON.md) | AEON | 3.3 | ❌ FAIL | Revenue gate |
+| 139 | [ARRR](ARRR.md) | Pirate Chain | 3.3 | ❌ FAIL | Revenue gate |
+| 140 | [MAPO](MAPO.md) | MAP Protocol | 3.2 | ❌ FAIL | Revenue gate |
 | 141 | [YELLOW](YELLOW.md) | Yellow Network | 3.2 | ❌ FAIL | Revenue gate |
 | 142 | [LUMIA](LUMIA.md) | Lumia | 3.2 | ❌ FAIL | Revenue gate |
 | 143 | [DOVU](DOVU.md) | DOVU | 3.2 | ❌ FAIL | Revenue gate |
 | 144 | [IXS](IXS.md) | IX Swap (IXS) | 3.2 | ❌ FAIL | Revenue gate |
 | 145 | [SPC](SPC.md) | SpaceChain | 3.2 | ❌ FAIL | Revenue gate |
-| 146 | [KAVA](KAVA.md) | Kava | 3.1 | ❌ FAIL | Revenue gate |
-| 147 | [XEP](XEP.md) | Electra Protocol | 3.1 | ❌ FAIL | Revenue gate |
-| 148 | [EXA](EXA.md) | Exactly Protocol | 3.1 | ❌ FAIL | Revenue gate |
-| 149 | [HONEY](HONEY.md) | Hivemapper | 3.1 | ❌ FAIL | Revenue gate |
-| 150 | [CSPR](CSPR.md) | Casper Network | 3.1 | ❌ FAIL | Revenue gate |
-| 151 | [IOST](IOST.md) | IOST | 3.1 | ❌ FAIL | Revenue gate |
-| 152 | [TLOS](TLOS.md) | Telos | 3.1 | ❌ FAIL | Revenue gate |
-| 153 | [METAL](METAL.md) | Metal Blockchain | 3.1 | ❌ FAIL | Revenue gate |
-| 154 | [MDT](MDT.md) | Measurable Data Token | 3.1 | ❌ FAIL | Revenue gate |
-| 155 | [BLZ](BLZ.md) | Bluzelle | 3.1 | ❌ FAIL | Revenue gate |
+| 146 | [BLZ](BLZ.md) | Bluzelle | 3.2 | ❌ FAIL | Revenue gate |
+| 147 | [KAVA](KAVA.md) | Kava | 3.1 | ❌ FAIL | Revenue gate |
+| 148 | [XEP](XEP.md) | Electra Protocol | 3.1 | ❌ FAIL | Revenue gate |
+| 149 | [EXA](EXA.md) | Exactly Protocol | 3.1 | ❌ FAIL | Revenue gate |
+| 150 | [HONEY](HONEY.md) | Hivemapper | 3.1 | ❌ FAIL | Revenue gate |
+| 151 | [CSPR](CSPR.md) | Casper Network | 3.1 | ❌ FAIL | Revenue gate |
+| 152 | [IOST](IOST.md) | IOST | 3.1 | ❌ FAIL | Revenue gate |
+| 153 | [TLOS](TLOS.md) | Telos | 3.1 | ❌ FAIL | Revenue gate |
+| 154 | [METAL](METAL.md) | Metal Blockchain | 3.1 | ❌ FAIL | Revenue gate |
+| 155 | [MDT](MDT.md) | Measurable Data Token | 3.1 | ❌ FAIL | Revenue gate |
 | 156 | [EOS](EOS.md) | EOS (now Vaulta) | 3.1 | ❌ FAIL | Revenue gate |
 | 157 | [LINGO](LINGO.md) | Lingo | 3.1 | ❌ FAIL | Revenue gate |
 | 158 | [POLYX](POLYX.md) | Polymesh | 3.0 | ❌ FAIL | Revenue and Selling gates |

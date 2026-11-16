@@ -20,7 +20,7 @@ section_scores:
 gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found in this pass"
-  team_wallet_to_exchange_during_pump: "not tested: holders unlabelled"
+  team_wallet_to_exchange_during_pump: "none found: 13.2% wallet's Kraken deposits were not on pump days and it is not linked to Chintai"
   one_hop_sale_status: none_found
 price_usd: 0.00903336
 price_source: "CoinGecko `chex-token`, 16 Nov 2026 ~3:00 PM MST"
@@ -32,16 +32,16 @@ pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
-  - address: "0x6bf83042c941a74cb5902908e892f0114e549e5a"
-    label: "Unlabelled EOA (13.22%)"
-    confidence: low
-    independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
   - address: "0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b"
-    label: "Unlabelled Safe (12.01%)"
+    label: "Likely Chintai treasury Safe (12.0%)"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham: transfers to Chintai Nexus"
+  - address: "0x6bf83042c941a74cb5902908e892f0114e549e5a"
+    label: "Unlabelled wallet with Kraken deposits (13.2%)"
     confidence: low
     independent_corroboration: false
-    basis: "Etherscan getsourcecode"
+    basis: "Arkham; Etherscan token transfers"
   - address: "0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83"
     label: "Kraken 245"
     confidence: medium
@@ -55,9 +55,9 @@ layout_version: 3
 
 ### CHEX · Overall grade **3.5 / 10 · ❌ FAIL**
 
-**Summary:** Chintai is a tokenization platform for financial institutions that says it is licensed in Singapore. No fee or revenue record on DefiLlama and none published by the project was found. Platform fees are not shown to reach CHEX. On Ethereum an unlabelled EOA holds 13.2% and an unlabelled Safe 12.0%; Etherscan labels an 8.4% holder Kraken 245. CHEX had 81 pump days in a year (Gate) and is down 73%. The Revenue gate fails.
+**Summary:** Chintai is a tokenization platform for financial institutions that says it is licensed in Singapore. No fee or revenue record on DefiLlama and none published by the project was found. Platform fees are not shown to reach CHEX. On Ethereum a likely Chintai treasury Safe holds 12.0% and an unlabelled wallet 13.2% that made Kraken deposits in Oct 2026, outside pump days; Etherscan labels an 8.4% holder Kraken 245. CHEX had 81 pump days in a year (Gate) and is down 73%. The Revenue gate fails.
 
-**🚨 Top warning:** **Very volatile, with large unlabelled holders:** 81 of 360 days were pump days, and [`0x6bf8…9e5a`](https://etherscan.io/address/0x6bf83042c941a74cb5902908e892f0114e549e5a) 13.22% (EOA) plus a 12.01% Safe [`0xe4ff…a14b`](https://etherscan.io/address/0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b) are unlabelled. Low confidence; for the Arkham batch.
+**🚨 Top warning:** **Very volatile, with a large wallet selling to Kraken:** 81 of 360 days were pump days. The unlabelled 13.2% wallet [`0x6bf8…9e5a`](https://etherscan.io/address/0x6bf83042c941a74cb5902908e892f0114e549e5a) sent ~243k CHEX to a Kraken deposit address on 10, 11, 13 and 14 Oct 2026 (not pump days). It receives repeated fresh mints, but no on-chain link to Chintai's treasury Safe was found, so attribution is low confidence. The 12.0% Safe [`0xe4ff…a14b`](https://etherscan.io/address/0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b) is likely Chintai's treasury.
 
 **Sections passed: 0 of 11**
 
@@ -109,16 +109,22 @@ layout_version: 3
 
 ## 🪙 Foundation / team holdings — How many coins do they hold? · 4/10 · ❌ FAIL
 
-- [`0x6bf8…9e5a`](https://etherscan.io/address/0x6bf83042c941a74cb5902908e892f0114e549e5a) 13.22% (EOA) and the Safe [`0xe4ff…a14b`](https://etherscan.io/address/0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b) 12.01% are unlabelled. [`0x7daf…6f83`](https://etherscan.io/address/0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83) 8.39% is Etherscan-labelled Kraken 245. Not proven → **4**.
+- Safe [`0xe4ff…a14b`](https://etherscan.io/address/0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b) (12.0%) sends CHEX to the Arkham-labelled **Chintai Nexus** entity and to other wallets in 5M tranches ([Arkham](https://arkm.com/explorer/address/0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b)), so it is likely Chintai's treasury [medium confidence].
+- [`0x6bf8…9e5a`](https://etherscan.io/address/0x6bf83042c941a74cb5902908e892f0114e549e5a) (13.2%) has no entity label ([Arkham](https://arkm.com/explorer/address/0x6bf83042c941a74cb5902908e892f0114e549e5a)). It has received ~168M CHEX in repeated mints from the zero address since Feb 2025 ([token transfers](https://etherscan.io/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f?a=0x6bf83042c941a74cb5902908e892f0114e549e5a)), which fits a bridge-in or distribution wallet, but it has no direct transfers with the Chintai Safe. Low confidence.
+- [`0x7daf…6f83`](https://etherscan.io/address/0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83) 8.39% is Etherscan-labelled Kraken 245 (exchange custody).
+- Score: **4**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
-- The large holders are unlabelled and no team wallet is published.
-- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass. No Arkham pass was run.
+- No team wallet is published; the 12.0% Safe is likely Chintai's treasury (Arkham b24).
+- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass.
 
 **What it means:** Not proven → **4**.
 
 - **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate CHEX_USDT UTC daily closes.
+
+- **Pump-day test of the 13.2% wallet (16 Nov 2026):** Gate CHEX_USDT found 81 pump days in 360. The wallet's deposits to the Kraken deposit address [`0x12e7…54b4`](https://etherscan.io/address/0x12e744de35c287e92bb3544d1fb2e32fa30b54b4) ([Arkham label](https://arkm.com/explorer/address/0x12e744de35c287e92bb3544d1fb2e32fa30b54b4)) were 23.5k on 10 Oct, 23.5k on 11 Oct, 98.4k on 13 Oct and 98.2k on 14 Oct 2026 ([transfers](https://etherscan.io/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f?a=0x6bf83042c941a74cb5902908e892f0114e549e5a)). None of 5–20 Oct 2026 was a pump day. On pump days (2 Sep and 23–24 Sep 2026) it sent CHEX only to unlabelled addresses.
+- Because the wallet is not linked on-chain to the Chintai treasury Safe and its Kraken deposits fell outside pump days, this is not a proven team sale. **one_hop_sale_status: none_found.** Selling stays **4**.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -153,16 +159,16 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None found |
-| Team wallet → exchange during a pump | ⚪ Not tested: holders unlabelled |
+| Team wallet → exchange during a pump | ⚪ None found: the 13.2% wallet's Kraken deposits were not on pump days, and it is not linked to Chintai |
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
 
-*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. No Arkham pass was run for this report, so every attribution that rests on an unlabelled wallet is low confidence. Dual review of Selling and Holdings: not run (single scorer).*
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Entity labels below come from Arkham batch b24 (signed-in read on 16 Nov 2026, page 1 of transfers): an Arkham label alone is medium confidence; an Etherscan name tag that agrees makes it high. Dual review of Selling and Holdings: not run (single scorer).*
 
 | Address | Label | Source | Confidence | Independent corroboration | Effect on score |
 |---|---|---|---|---|---|
-| [`0x6bf8…9e5a`](https://etherscan.io/address/0x6bf83042c941a74cb5902908e892f0114e549e5a) | Unlabelled EOA (13.22%) | Ethplorer + Etherscan | low | no | None: cannot move Holdings or Selling |
-| [`0xe4ff…a14b`](https://etherscan.io/address/0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b) | Unlabelled Safe (12.01%) | Etherscan getsourcecode | low | no | None |
+| [`0xe4ff…a14b`](https://etherscan.io/address/0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b) | Likely Chintai treasury Safe (12.0%) | [Arkham](https://arkm.com/explorer/address/0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b): transfers to Chintai Nexus | medium | no | Holdings: likely treasury |
+| [`0x6bf8…9e5a`](https://etherscan.io/address/0x6bf83042c941a74cb5902908e892f0114e549e5a) | Unlabelled wallet with Kraken deposits (13.2%) | [Arkham](https://arkm.com/explorer/address/0x6bf83042c941a74cb5902908e892f0114e549e5a); Etherscan token transfers | low | no | None: not linked to Chintai on-chain |
 | [`0x7daf…6f83`](https://etherscan.io/address/0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83) | Kraken 245 | Etherscan public name tag | medium | no | None: exchange custody |
 
 ## 📚 Sources
@@ -177,6 +183,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
+| Entity labels for the top holders (Arkham batch b24) | [0xe4ff…a14b](https://arkm.com/explorer/address/0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b) · [0x6bf8…9e5a](https://arkm.com/explorer/address/0x6bf83042c941a74cb5902908e892f0114e549e5a) · [0x7daf…6f83](https://arkm.com/explorer/address/0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83) | B | 16 Nov 2026 |
 | Market data and venues | [CoinGecko `chex-token`](https://www.coingecko.com/en/coins/chex-token) | A | 16 Nov 2026 |
 | Token contract and holders | [contract](https://etherscan.io/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f) · [holders](https://etherscan.io/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f#balances) | A | 16 Nov 2026 |
 

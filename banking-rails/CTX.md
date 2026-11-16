@@ -3,12 +3,12 @@ ticker: CTX
 name: Cryptex Finance
 chain: ethereum
 contract: "0x321c2fe4446c7c963dc41dd58879af648838f98d"
-overall_score: 3.2
+overall_score: 3.3
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 5
-  insider_holdings: 4
+  insider_holdings: 5
   selling_behavior: 4
   tokenomics_supply: 6
   liquidity_market: 1
@@ -20,9 +20,9 @@ section_scores:
 gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found in this pass"
-  team_wallet_to_exchange_during_pump: "not tested: no exchange USDT series; holders unlabelled"
+  team_wallet_to_exchange_during_pump: "not tested: no exchange USDT series; DAO wallets unpublished"
   one_hop_sale_status: none_found
-  entity_concentration: "~45% in two unlabelled EOAs (low confidence)"
+  entity_concentration: "~45% in Coinbase Prime custody; client unknown"
 price_usd: 0.361322
 price_source: "CoinGecko `cryptex-finance`, 16 Nov 2026 ~3:00 PM MST"
 methodology_effective: 2026-11-16
@@ -34,26 +34,26 @@ pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa"
-    label: "Unlabelled EOA (32.79%)"
-    confidence: low
+    label: "Coinbase Prime Custody (32.8%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
+    basis: "Arkham entity label"
   - address: "0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf"
-    label: "Unlabelled EOA (12.22%)"
-    confidence: low
+    label: "Coinbase Prime Custody (12.2%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan"
+    basis: "Arkham entity label"
 last_updated: 2026-11-16
 layout_version: 3
 ---
 
 ## 🧾 QUICK REVIEW CARD
 
-### CTX · Overall grade **3.2 / 10 · ❌ FAIL**
+### CTX · Overall grade **3.3 / 10 · ❌ FAIL**
 
-**Summary:** CTX governs Cryptex, issuer of the TCAP crypto-market-cap index token. No fee or revenue record on DefiLlama and none published by the project was found. One unlabelled wallet holds 32.8% of supply and another 12.2%. Trading is thin (~$31k a day, mostly Coinbase). CTX is down 68% in a year. The Revenue gate fails.
+**Summary:** CTX governs Cryptex, issuer of the TCAP crypto-market-cap index token. No fee or revenue record on DefiLlama and none published by the project was found. The 32.8% and 12.2% holders are Coinbase Prime custody (Arkham, 16 Nov 2026); the client behind them is unknown. Trading is thin (~$31k a day, mostly Coinbase). CTX is down 68% in a year. The Revenue gate fails.
 
-**🚨 Top warning:** **One unlabelled wallet holds a third of supply:** [`0x97f7…81aa`](https://etherscan.io/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa) 32.79% (EOA), plus [`0x9c50…b9bf`](https://etherscan.io/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf) 12.22% (EOA). Possibly the DAO treasury, but unlabelled, so low confidence.
+**🚨 Top warning:** **The two largest holders are Coinbase Prime custody, not the DAO treasury:** [`0x97f7…81aa`](https://etherscan.io/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa) 32.8% and [`0x9c50…b9bf`](https://etherscan.io/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf) 12.2% (Arkham labels, read 16 Nov 2026). Prime custody can hold institutional clients' tokens, so the beneficial owner is unknown [Unverified].
 
 **Sections passed: 1 of 11**
 
@@ -61,7 +61,7 @@ layout_version: 3
 |---|:---:|:---:|
 | 💰 Revenue | 1/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
-| 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
+| 🪙 Foundation / team holdings | 5/10 | ❌ FAIL |
 | 📉 Selling behavior | 4/10 | ❌ FAIL (not proven) |
 | 📊 Tokenomics & supply | 6/10 | ✅ PASS |
 | 💧 Liquidity & market | 1/10 | ❌ FAIL |
@@ -76,7 +76,7 @@ layout_version: 3
 ---
 
 
-# 🪪 CTX · Cryptex Finance · 3.2 / 10 · ❌ FAIL
+# 🪪 CTX · Cryptex Finance · 3.3 / 10 · ❌ FAIL
 
 > **One line:** A small DeFi governance token with no holder revenue and concentrated supply.
 
@@ -103,14 +103,17 @@ layout_version: 3
 
 - Cryptex Finance ([site](https://cryptex.finance/)); repos at [github.com/cryptexfinance](https://github.com/cryptexfinance).
 
-## 🪙 Foundation / team holdings — How many coins do they hold? · 4/10 · ❌ FAIL
+## 🪙 Foundation / team holdings — How many coins do they hold? · 5/10 · ❌ FAIL
 
-- [`0x97f7…81aa`](https://etherscan.io/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa) 32.79% (EOA) and [`0x9c50…b9bf`](https://etherscan.io/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf) 12.22% (EOA) are unlabelled; [`0x2de5…9cdd`](https://etherscan.io/address/0x2de5ae18750fbf82821212194d59acc989469cdd) 7.68% is a proxy contract (purpose not read). Not proven → **4**.
+- [`0x97f7…81aa`](https://etherscan.io/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa) (32.8%) is **Coinbase Prime Custody** ([Arkham](https://arkm.com/explorer/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa)), shuffling CTX with the Coinbase hot wallet. [`0x9c50…b9bf`](https://etherscan.io/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf) (12.2%) is also **Coinbase Prime Custody** ([Arkham](https://arkm.com/explorer/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf)).
+- Prime custody holds client assets, so the owner behind these balances is not known [Unverified]. [`0x2de5…9cdd`](https://etherscan.io/address/0x2de5ae18750fbf82821212194d59acc989469cdd) 7.68% is a proxy contract (purpose not read).
+- Cryptex's own treasury wallets are not mapped.
+- Score: **5**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
-- No exchange USDT series for the pump test; the large holders are unlabelled.
-- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass. No Arkham pass was run.
+- No exchange USDT series for the pump test; the large holders are Coinbase Prime custody (Arkham b24).
+- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass, including in the Arkham batch b24 read (16 Nov 2026).
 
 **What it means:** Not proven → **4**.
 
@@ -149,17 +152,17 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None found |
-| Team wallet → exchange during a pump | ⚪ Not tested: no exchange USDT series; holders unlabelled |
-| Entity concentration | 🔴 ~45% in two unlabelled EOAs |
+| Team wallet → exchange during a pump | ⚪ Not tested: no exchange USDT series; DAO wallets unpublished |
+| Entity concentration | 🟡 ~45% in Coinbase Prime custody; client unknown |
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
 
-*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. No Arkham pass was run for this report, so every attribution that rests on an unlabelled wallet is low confidence. Dual review of Selling and Holdings: not run (single scorer).*
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Entity labels below come from Arkham batch b24 (signed-in read on 16 Nov 2026, page 1 of transfers): an Arkham label alone is medium confidence; an Etherscan name tag that agrees makes it high. Dual review of Selling and Holdings: not run (single scorer).*
 
 | Address | Label | Source | Confidence | Independent corroboration | Effect on score |
 |---|---|---|---|---|---|
-| [`0x97f7…81aa`](https://etherscan.io/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa) | Unlabelled EOA (32.79%) | Ethplorer + Etherscan | low | no | None: cannot move Holdings or Selling |
-| [`0x9c50…b9bf`](https://etherscan.io/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf) | Unlabelled EOA (12.22%) | Ethplorer + Etherscan | low | no | None: cannot move Holdings or Selling |
+| [`0x97f7…81aa`](https://etherscan.io/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa) | Coinbase Prime Custody (32.8%) | [Arkham](https://arkm.com/explorer/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa) entity label | medium | no | Holdings: exchange custody; client unknown |
+| [`0x9c50…b9bf`](https://etherscan.io/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf) | Coinbase Prime Custody (12.2%) | [Arkham](https://arkm.com/explorer/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf) entity label | medium | no | Holdings: exchange custody; client unknown |
 
 ## 📚 Sources
 
@@ -173,6 +176,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
+| Entity labels for the top holders (Arkham batch b24) | [0x97f7…81aa](https://arkm.com/explorer/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa) · [0x9c50…b9bf](https://arkm.com/explorer/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf) | B | 16 Nov 2026 |
 | Market data and venues | [CoinGecko `cryptex-finance`](https://www.coingecko.com/en/coins/cryptex-finance) | A | 16 Nov 2026 |
 | Token contract and holders | [contract](https://etherscan.io/token/0x321c2fe4446c7c963dc41dd58879af648838f98d) · [holders](https://etherscan.io/token/0x321c2fe4446c7c963dc41dd58879af648838f98d#balances) | A | 16 Nov 2026 |
 

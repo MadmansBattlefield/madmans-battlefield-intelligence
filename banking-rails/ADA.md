@@ -234,7 +234,7 @@ layout_version: 3
 
 | # | Open item | Exactly how to close it | Cost / access |
 |---|---|---|---|
-| 1 | **Wallet labels for 10 Cardano wallets** (the maintainer's `arkham/ada_addresses.csv` list: the Orion Fund route, PRIME payout wallets and the pump-day receiver `stake1u9n8…`) | **Not covered by Arkham:** Arkham does not support Cardano (checked 16 Nov 2026). Use Cardanoscan / AdaStat pool and exchange tags, or ask Intersect and the fund manager to identify the wallets | Free |
+| 1 | **Wallet labels for 10 Cardano wallets** (the wallet list: the Orion Fund route, PRIME payout wallets and the pump-day receiver `stake1u9n8…`) | **Not covered by Arkham:** Arkham does not support Cardano (checked 16 Nov 2026). Use Cardanoscan / AdaStat pool and exchange tags, or ask Intersect and the fund manager to identify the wallets | Free |
 | 2 | **IOG and EMURGO current holdings** | Ask both for wallet disclosures. Trace the genesis redemption addresses forward (adagenesistransparency.com traced IOG's) | Free |
 | 3 | **What did the Orion Fund buy?** | Read the Orion Fund's reporting under the treasury proposal and match it to on-chain moves | Free |
 | 4 | **Were the listings loan and market-making ADA sold?** | Trace both withdrawals to their receivers and check for exchange deposits and repayment of the 5M loan | Free (Koios) |

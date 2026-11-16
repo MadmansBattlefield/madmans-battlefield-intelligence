@@ -3,12 +3,12 @@ ticker: MAPO
 name: MAP Protocol
 chain: ethereum
 contract: "0x7046933234a82af77f14625e8d0fa9bcc5044a7e"
-overall_score: 3.3
+overall_score: 3.2
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 4
-  insider_holdings: 4
+  insider_holdings: 3
   selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 3
@@ -20,9 +20,9 @@ section_scores:
 gates_failed: [revenue]
 red_lines:
   hack_exploit: "none found in this pass"
-  team_wallet_to_exchange_during_pump: "not tested: holders unlabelled"
+  team_wallet_to_exchange_during_pump: "not tested: Map Labs-linked wallets show no MAPO exchange sends on page 1"
   one_hop_sale_status: none_found
-  entity_concentration: "~92% of the ERC-20 in three unlabelled EOAs (low confidence)"
+  entity_concentration: "~42% of the ERC-20 in Map Labs-linked wallets; 49.9% Coinone"
 price_usd: 0.00076055
 price_source: "CoinGecko `marcopolo`, 16 Nov 2026 ~3:00 PM MST"
 methodology_effective: 2026-11-16
@@ -34,31 +34,31 @@ pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0x687c802162e79ad95309df8eedcb8e814c7f459e"
-    label: "Unlabelled EOA (49.93% of ERC-20)"
-    confidence: low
+    label: "Coinone (49.9%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan getsourcecode"
+    basis: "Arkham entity label"
   - address: "0xbddf646c54576be4573636e7fe328168dd107738"
-    label: "Unlabelled EOA (24.26% of ERC-20)"
-    confidence: low
+    label: "Map Labs-linked (24.3%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan getsourcecode"
+    basis: "Arkham related-entity label"
   - address: "0x4a83b4917a8a4ea4dcb40efb44944a2880447466"
-    label: "Unlabelled EOA (18.07% of ERC-20)"
-    confidence: low
+    label: "Map Labs-linked deployer/LP wallet (18.1%)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + Etherscan getsourcecode"
+    basis: "Arkham + 10 ETH funding from 0xbddf…7738"
 last_updated: 2026-11-16
 layout_version: 3
 ---
 
 ## 🧾 QUICK REVIEW CARD
 
-### MAPO · Overall grade **3.3 / 10 · ❌ FAIL**
+### MAPO · Overall grade **3.2 / 10 · ❌ FAIL**
 
-**Summary:** MAP Protocol is a cross-chain interoperability chain; MAPO is its native coin, with ERC-20 and BEP-20 versions. No fee or revenue record on DefiLlama and none published by the project was found. Only 335 addresses hold the Ethereum version, and three unlabelled wallets hold ~92% of it. Those owners are low confidence and do not move the scores. MAPO is down 79% in a year. The Revenue gate fails.
+**Summary:** MAP Protocol is a cross-chain interoperability chain; MAPO is its native coin, with ERC-20 and BEP-20 versions. No fee or revenue record on DefiLlama and none published by the project was found. Only 335 addresses hold the Ethereum version, and Coinone custody holds 49.9% while two Map Labs-linked wallets hold ~42% (Arkham, 16 Nov 2026). MAPO is down 79% in a year. The Revenue gate fails.
 
-**🚨 Top warning:** **Three unlabelled wallets hold ~92% of the Ethereum MAPO:** [`0x687c…459e`](https://etherscan.io/address/0x687c802162e79ad95309df8eedcb8e814c7f459e) 49.93% (EOA), [`0xbddf…7738`](https://etherscan.io/address/0xbddf646c54576be4573636e7fe328168dd107738) 24.26% (EOA) and [`0x4a83…7466`](https://etherscan.io/address/0x4a83b4917a8a4ea4dcb40efb44944a2880447466) 18.07% (EOA). They may be bridge or exchange reserves; this is low confidence and goes to the Arkham batch.
+**🚨 Top warning:** **About 42% of the Ethereum MAPO is in wallets linked to Map Labs:** [`0xbddf…7738`](https://etherscan.io/address/0xbddf646c54576be4573636e7fe328168dd107738) 24.3% (Arkham ties it to Map Labs) and [`0x4a83…7466`](https://etherscan.io/address/0x4a83b4917a8a4ea4dcb40efb44944a2880447466) 18.1% (funded from [`0xbddf…7738`](https://etherscan.io/address/0xbddf646c54576be4573636e7fe328168dd107738)). The 49.9% holder [`0x687c…459e`](https://etherscan.io/address/0x687c802162e79ad95309df8eedcb8e814c7f459e) is the exchange Coinone. The Map Labs-linked wallet has made Binance deposits, but in USDT, not MAPO.
 
 **Sections passed: 0 of 11**
 
@@ -66,7 +66,7 @@ layout_version: 3
 |---|:---:|:---:|
 | 💰 Revenue | 1/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 4/10 | ❌ FAIL |
-| 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
+| 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
 | 📉 Selling behavior | 4/10 | ❌ FAIL (not proven) |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 3/10 | ❌ FAIL |
@@ -81,9 +81,9 @@ layout_version: 3
 ---
 
 
-# 🪪 MAPO · MAP Protocol · 3.3 / 10 · ❌ FAIL
+# 🪪 MAPO · MAP Protocol · 3.2 / 10 · ❌ FAIL
 
-> **One line:** A cross-chain chain with no holder revenue, a thin ERC-20 and unlabelled reserves.
+> **One line:** A cross-chain chain with no holder revenue, a thin ERC-20 and ~42% of it in Map Labs-linked wallets.
 
 | 📊 Market (CoinGecko `marcopolo`, 16 Nov 2026 ~3:00 PM MST) | 🔗 Chain |
 |---|---|
@@ -108,14 +108,18 @@ layout_version: 3
 
 - MAP Protocol ([site](https://www.mapprotocol.io/)); code at [github.com/mapprotocol](https://github.com/mapprotocol). CoinGecko lists it in the DWF Labs portfolio.
 
-## 🪙 Foundation / team holdings — How many coins do they hold? · 4/10 · ❌ FAIL
+## 🪙 Foundation / team holdings — How many coins do they hold? · 3/10 · ❌ FAIL
 
-- [`0x687c…459e`](https://etherscan.io/address/0x687c802162e79ad95309df8eedcb8e814c7f459e) 49.93% (EOA), [`0xbddf…7738`](https://etherscan.io/address/0xbddf646c54576be4573636e7fe328168dd107738) 24.26% (EOA) and [`0x4a83…7466`](https://etherscan.io/address/0x4a83b4917a8a4ea4dcb40efb44944a2880447466) 18.07% (EOA) are unlabelled. Low confidence, so not used; not proven → **4**.
+- [`0x687c…459e`](https://etherscan.io/address/0x687c802162e79ad95309df8eedcb8e814c7f459e) (49.9%) is **Coinone** ([Arkham](https://arkm.com/explorer/address/0x687c802162e79ad95309df8eedcb8e814c7f459e)). Exchange custody is not insider holding.
+- [`0xbddf…7738`](https://etherscan.io/address/0xbddf646c54576be4573636e7fe328168dd107738) (24.3%) is linked to **Map Labs** by Arkham ([Arkham](https://arkm.com/explorer/address/0xbddf646c54576be4573636e7fe328168dd107738)); it sent ~100k USDT twice to a Binance deposit address and received ~100k USDT from Kraken, but no MAPO went to an exchange on page 1.
+- [`0x4a83…7466`](https://etherscan.io/address/0x4a83b4917a8a4ea4dcb40efb44944a2880447466) (18.1%) is an old deployer or LP-operator wallet funded with 10 ETH from [`0xbddf…7738`](https://etherscan.io/address/0xbddf646c54576be4573636e7fe328168dd107738) ([Arkham](https://arkm.com/explorer/address/0x4a83b4917a8a4ea4dcb40efb44944a2880447466)).
+- So roughly 42% of the ERC-20 sits with Map Labs-linked wallets: a large insider concentration.
+- Score: **3**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
-- The large ERC-20 holders are unlabelled, and native-chain team wallets are unpublished.
-- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass. No Arkham pass was run.
+- The Map Labs-linked wallets sent no MAPO to an exchange on Arkham's page 1 (their Binance deposits were USDT); native-chain team wallets are unpublished.
+- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass, including in the Arkham batch b24 read (16 Nov 2026).
 
 **What it means:** Not proven → **4**.
 
@@ -154,18 +158,18 @@ layout_version: 3
 | Red line | Status |
 |---|---|
 | Hack / exploit | 🟢 None found |
-| Team wallet → exchange during a pump | ⚪ Not tested: holders unlabelled |
-| Entity concentration | 🔴 ~92% of the ERC-20 in three unlabelled EOAs |
+| Team wallet → exchange during a pump | ⚪ Not tested: Map Labs-linked wallets show no MAPO exchange sends on page 1 |
+| Entity concentration | 🔴 ~42% of the ERC-20 in Map Labs-linked wallets; 49.9% Coinone |
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
 
-*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. No Arkham pass was run for this report, so every attribution that rests on an unlabelled wallet is low confidence. Dual review of Selling and Holdings: not run (single scorer).*
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Entity labels below come from Arkham batch b24 (signed-in read on 16 Nov 2026, page 1 of transfers): an Arkham label alone is medium confidence; an Etherscan name tag that agrees makes it high. Dual review of Selling and Holdings: not run (single scorer).*
 
 | Address | Label | Source | Confidence | Independent corroboration | Effect on score |
 |---|---|---|---|---|---|
-| [`0x687c…459e`](https://etherscan.io/address/0x687c802162e79ad95309df8eedcb8e814c7f459e) | Unlabelled EOA (49.93% of ERC-20) | Ethplorer + Etherscan getsourcecode | low | no | None: cannot move Holdings or Selling |
-| [`0xbddf…7738`](https://etherscan.io/address/0xbddf646c54576be4573636e7fe328168dd107738) | Unlabelled EOA (24.26% of ERC-20) | Ethplorer + Etherscan getsourcecode | low | no | None: cannot move Holdings or Selling |
-| [`0x4a83…7466`](https://etherscan.io/address/0x4a83b4917a8a4ea4dcb40efb44944a2880447466) | Unlabelled EOA (18.07% of ERC-20) | Ethplorer + Etherscan getsourcecode | low | no | None: cannot move Holdings or Selling |
+| [`0x687c…459e`](https://etherscan.io/address/0x687c802162e79ad95309df8eedcb8e814c7f459e) | Coinone (49.9%) | [Arkham](https://arkm.com/explorer/address/0x687c802162e79ad95309df8eedcb8e814c7f459e) entity label | medium | no | Holdings: exchange custody, not insider |
+| [`0xbddf…7738`](https://etherscan.io/address/0xbddf646c54576be4573636e7fe328168dd107738) | Map Labs-linked (24.3%) | [Arkham](https://arkm.com/explorer/address/0xbddf646c54576be4573636e7fe328168dd107738) related-entity label | medium | no | Holdings: insider-linked |
+| [`0x4a83…7466`](https://etherscan.io/address/0x4a83b4917a8a4ea4dcb40efb44944a2880447466) | Map Labs-linked deployer/LP wallet (18.1%) | [Arkham](https://arkm.com/explorer/address/0x4a83b4917a8a4ea4dcb40efb44944a2880447466) + 10 ETH funding from 0xbddf…7738 | medium | no | Holdings: insider-linked |
 
 ## 📚 Sources
 
@@ -179,6 +183,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
+| Entity labels for the top holders (Arkham batch b24) | [0x687c…459e](https://arkm.com/explorer/address/0x687c802162e79ad95309df8eedcb8e814c7f459e) · [0xbddf…7738](https://arkm.com/explorer/address/0xbddf646c54576be4573636e7fe328168dd107738) · [0x4a83…7466](https://arkm.com/explorer/address/0x4a83b4917a8a4ea4dcb40efb44944a2880447466) | B | 16 Nov 2026 |
 | Market data and venues | [CoinGecko `marcopolo`](https://www.coingecko.com/en/coins/marcopolo) | A | 16 Nov 2026 |
 | Token contract and holders | [contract](https://etherscan.io/token/0x7046933234a82af77f14625e8d0fa9bcc5044a7e) · [holders](https://etherscan.io/token/0x7046933234a82af77f14625e8d0fa9bcc5044a7e#balances) | A | 16 Nov 2026 |
 

@@ -50,7 +50,15 @@
     "pump_day_disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
-    "attributions": []
+    "attributions": [
+      {
+        "address": "0xfb42da273158b0f642f59f2ba7cc1d5457481677",
+        "label": "Lingo: Lingo (LINGO) token contract",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham contract label"
+      }
+    ]
   },
   "key_numbers": {
     "price_usd": 0.01520842,
@@ -62,9 +70,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/LINGO.md",
-    "sha256": "ed4f848f65618cda1b7712aafee497c9084cc6235c3f15e744045ede5c5b9dc7",
-    "bytes": 8230,
-    "extracted_at": "2026-11-16 15:37 MST",
+    "sha256": "3e02d4878ecd72d56f3bc4c2cd54a536264f496265d19197f17aa8878c6fae6d",
+    "bytes": 8985,
+    "extracted_at": "2026-11-16 15:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -76,6 +84,13 @@
     "arkham_read": null
   },
   "evidence_links": [
+    {
+      "claim": "Entity labels for the top holders (Arkham batch b24)",
+      "url": "0xfb42…1677",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
     {
       "claim": "Market data and venues",
       "url": "CoinGecko `lingo`",
@@ -102,8 +117,8 @@
     {
       "chain": "base",
       "address": "0xfb42da273158b0f642f59f2ba7cc1d5457481677",
-      "url": "https://basescan.org/token/0xfb42da273158b0f642f59f2ba7cc1d5457481677#balances",
-      "kind": "token"
+      "url": "https://basescan.org/address/0xfb42da273158b0f642f59f2ba7cc1d5457481677",
+      "kind": "address"
     }
   ],
   "pump_day_test": {
@@ -131,7 +146,21 @@
     "inconsistent_with_score": false,
     "notes": "**1 → hard-gate FAIL.**"
   },
-  "attributions": [],
+  "attributions": [
+    {
+      "address": "0xfb42da273158b0f642f59f2ba7cc1d5457481677",
+      "url": null,
+      "label": "Lingo: Lingo (LINGO) token contract",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": false
+    }
+  ],
   "review": {
     "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,

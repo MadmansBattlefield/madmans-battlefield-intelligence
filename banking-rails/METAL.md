@@ -34,10 +34,10 @@ pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions:
   - address: "0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347"
-    label: "Unlabelled EOA (98.5% of ERC-20)"
-    confidence: low
+    label: "Proton Blockchain reserve / bridge (98.5% of ERC-20)"
+    confidence: medium
     independent_corroboration: false
-    basis: "Ethplorer + eth_getCode"
+    basis: "Arkham entity label"
 last_updated: 2026-11-16
 layout_version: 3
 ---
@@ -46,7 +46,7 @@ layout_version: 3
 
 ### METAL · Overall grade **3.1 / 10 · ❌ FAIL**
 
-**Summary:** Metal Blockchain is an Avalanche-derived layer-0 from the Metallicus group (Metal Pay). No fee or revenue record on DefiLlama and none published by the project was found. Almost all of its reported $404k daily volume is on Metal X, the group's own exchange (METAL/XMD); MEXC shows about $1k. On Ethereum, one unlabelled wallet holds 98.5% of the ERC-20. The Revenue gate fails.
+**Summary:** Metal Blockchain is an Avalanche-derived layer-0 from the Metallicus group (Metal Pay). No fee or revenue record on DefiLlama and none published by the project was found. Almost all of its reported $404k daily volume is on Metal X, the group's own exchange (METAL/XMD); MEXC shows about $1k. On Ethereum, 98.5% of the ERC-20 is a Proton Blockchain reserve or bridge (Arkham, 16 Nov 2026), so free float there is ~1.5%. The Revenue gate fails.
 
 **🚨 Top warning:** **Volume is almost entirely on the issuer group's own venue.** CoinGecko attributes ~$403k of ~$404k daily volume to Metal X (METAL/XMD), with ~$1k on MEXC. Independent liquidity is close to zero.
 
@@ -100,12 +100,14 @@ layout_version: 3
 
 ## 🪙 Foundation / team holdings — How many coins do they hold? · 4/10 · ❌ FAIL
 
-- The ERC-20 is 98.5% in [`0xda5f…7347`](https://etherscan.io/address/0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347) 98.5% (EOA), probably a bridge reserve. Unlabelled, low confidence; not proven → **4**.
+- The ERC-20's 98.5% holder [`0xda5f…7347`](https://etherscan.io/address/0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347) is labelled **Proton Blockchain** by Arkham ([Arkham](https://arkm.com/explorer/address/0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347)) and also holds 9.67B XPR. It is the affiliated XPR Network chain's reserve or bridge for METAL, linked to Metal Pay (Metallicus), so it is not free float and not a sale overhang on Ethereum.
+- That leaves ~1.5% of the ERC-20 as free float. The team's holdings on the native XPR-chain METAL are not mapped, so Holdings stays not proven.
+- Score: **4**.
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
 - Team wallets are not published.
-- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass. No Arkham pass was run.
+- No exchange-labelled deposit from a disclosed team or treasury wallet on a pump day was found in this pass, including in the Arkham batch b24 read (16 Nov 2026).
 
 **What it means:** Not proven → **4**.
 
@@ -149,11 +151,11 @@ layout_version: 3
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
 
-*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. No Arkham pass was run for this report, so every attribution that rests on an unlabelled wallet is low confidence. Dual review of Selling and Holdings: not run (single scorer).*
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Entity labels below come from Arkham batch b24 (signed-in read on 16 Nov 2026, page 1 of transfers): an Arkham label alone is medium confidence; an Etherscan name tag that agrees makes it high. Dual review of Selling and Holdings: not run (single scorer).*
 
 | Address | Label | Source | Confidence | Independent corroboration | Effect on score |
 |---|---|---|---|---|---|
-| [`0xda5f…7347`](https://etherscan.io/address/0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347) | Unlabelled EOA (98.5% of ERC-20) | Ethplorer + eth_getCode | low | no | None |
+| [`0xda5f…7347`](https://etherscan.io/address/0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347) | Proton Blockchain reserve / bridge (98.5% of ERC-20) | [Arkham](https://arkm.com/explorer/address/0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347) entity label | medium | no | Holdings: affiliated-chain reserve, not free float |
 
 ## 📚 Sources
 
@@ -167,6 +169,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
+| Entity labels for the top holders (Arkham batch b24) | [0xda5f…7347](https://arkm.com/explorer/address/0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347) | B | 16 Nov 2026 |
 | Market data and venues | [CoinGecko `metal-blockchain`](https://www.coingecko.com/en/coins/metal-blockchain) | A | 16 Nov 2026 |
 | Token contract and holders | [contract](https://etherscan.io/token/0x294559fa758c88d639fd085751e463fee7806eab) · [holders](https://etherscan.io/token/0x294559fa758c88d639fd085751e463fee7806eab#balances) | A | 16 Nov 2026 |
 
