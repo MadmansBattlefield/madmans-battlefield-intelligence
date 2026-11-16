@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 12:36 MST",
+  "generated_at": "2026-11-16 13:52 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -589,6 +589,12 @@
       "json": "data/reports/ORAI.json"
     },
     {
+      "id": "ORBITER",
+      "path": "banking-rails/ORBITER.md",
+      "layout": "v3",
+      "json": "data/reports/ORBITER.json"
+    },
+    {
       "id": "PACT",
       "path": "banking-rails/PACT.md",
       "layout": "v3",
@@ -739,6 +745,12 @@
       "json": "data/reports/SHARE.json"
     },
     {
+      "id": "SHPING",
+      "path": "banking-rails/SHPING.md",
+      "layout": "v3",
+      "json": "data/reports/SHPING.json"
+    },
+    {
       "id": "SHX",
       "path": "banking-rails/SHX.md",
       "layout": "v3",
@@ -847,6 +859,18 @@
       "json": "data/reports/TRB.json"
     },
     {
+      "id": "TRUF",
+      "path": "banking-rails/TRUF.md",
+      "layout": "v3",
+      "json": "data/reports/TRUF.json"
+    },
+    {
+      "id": "TX",
+      "path": "banking-rails/TX.md",
+      "layout": "v3",
+      "json": "data/reports/TX.json"
+    },
+    {
       "id": "VELO",
       "path": "banking-rails/VELO.md",
       "layout": "v3",
@@ -881,6 +905,12 @@
       "path": "banking-rails/XDC.md",
       "layout": "v3",
       "json": "data/reports/XDC.json"
+    },
+    {
+      "id": "XEP",
+      "path": "banking-rails/XEP.md",
+      "layout": "v3",
+      "json": "data/reports/XEP.json"
     },
     {
       "id": "XLM",
@@ -996,5 +1026,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 138
+  "scored_reports": 143
 }

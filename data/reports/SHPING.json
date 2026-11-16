@@ -1,0 +1,389 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SHPING",
+  "name": "Shping",
+  "chain": "ethereum",
+  "contract": "0x7c84e62859d0715eb77d1b1c4154ecd6abb21bec",
+  "overall_score": 3.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 6,
+    "insider_holdings": 2,
+    "selling_behavior": 2,
+    "tokenomics_supply": 3,
+    "liquidity_market": 2,
+    "product_development": 6,
+    "adoption_customers": 5,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no; fixed 10B supply minted at creation in 2018",
+    "team_wallet_to_exchange_during_pump": "yes: a deployer-funded company wallet deposited 152M SHPING (~$149k) to Gate and MEXC on 8 pump days since Nov 2025; the cash-out mechanism is only a buried mention, with no sale reporting",
+    "entity_concentration": "the labelled deployer still holds 5.94B (59.4%)"
+  },
+  "price_usd": 0.00041027,
+  "price_source": "CoinGecko, 16 Nov 2026 ~12:30 PM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "none; app and brand revenue stays with the operating company",
+    "pump_day_price_source": "Gate SHPING_USDT daily closes (UTC); Binance unavailable (451), Gate is next in the hierarchy",
+    "pump_day_disclosure_quality": "buried_disclosure",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x52a6de898366662724725e206d8fe350fe535a03",
+        "label": "Shping: Deployer",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Etherscan name tag plus on-chain proof: this address created the token contract"
+      },
+      {
+        "address": "0xb2242f32aa8751d1a754e5ccd8eee904cd21c915",
+        "label": "company operating wallet (inferred)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "4.01B of its 4.19B SHPING inflows came from the labelled deployer in 31 transfers, the latest on 14 Nov 2026"
+      },
+      {
+        "address": "0x1a545fffadf2f4c3cb34a222756632dd31814cca",
+        "label": "Gate Deposit",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Etherscan name tag; Arkham also labels it Gate Deposit and shows it forwarding to the Gate hot wallet; the Gate account owner is not identified"
+      },
+      {
+        "address": "0x2b902bbd97f3e0cb90dd9cc07ccc60d4d16c11ae",
+        "label": "MEXC deposit (forwards to MEXC 16)",
+        "confidence": "medium",
+        "independent_corroboration": true,
+        "basis": "forwards to an Etherscan-labelled MEXC wallet; Arkham labels it MEXC Deposit"
+      },
+      {
+        "address": "0xbb107e9b60d0655a6635b79a39647514d6d57472",
+        "label": "Coinbase Prime Custody (1.31B SHPING)",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham entity label; funded by another Coinbase Prime Custody wallet"
+      },
+      {
+        "address": "0x3243ce0cd2c1ab53d24ccb58caf0c82ac9846132",
+        "label": "Coinbase-associated address (734M SHPING)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham shows it funded from the Coinbase hot wallet; no more specific label"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.00041027,
+    "fdv_text": "$4.10M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SHPING.md",
+    "sha256": "9ee51a7cc8ea67854ece20bc6343c9a6845909b95a3144e16088953e30806398",
+    "bytes": 16416,
+    "extracted_at": "2026-11-16 13:52 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~12:30 PM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Deployer created the contract and holds 59.4%",
+      "url": "contract creation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Deployer created the contract and holds 59.4%",
+      "url": "`0x52a6…5a03`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Deployer funded the operating wallet with 4.01B",
+      "url": "`0xb224…c915`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day deposits (table in Selling)",
+      "url": "`0x1a54…4cca`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day deposits (table in Selling)",
+      "url": "`0x2b90…11ae`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x1a545fffadf2f4c3cb34a222756632dd31814cca",
+      "url": "https://etherscan.io/address/0x1a545fffadf2f4c3cb34a222756632dd31814cca",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2b902bbd97f3e0cb90dd9cc07ccc60d4d16c11ae",
+      "url": "https://intel.arkm.com/explorer/address/0x2b902bbd97f3e0cb90dd9cc07ccc60d4d16c11ae",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3243ce0cd2c1ab53d24ccb58caf0c82ac9846132",
+      "url": "https://intel.arkm.com/explorer/address/0x3243ce0cd2c1ab53d24ccb58caf0c82ac9846132",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x52a6de898366662724725e206d8fe350fe535a03",
+      "url": "https://etherscan.io/address/0x52a6de898366662724725e206d8fe350fe535a03",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb2242f32aa8751d1a754e5ccd8eee904cd21c915",
+      "url": "https://etherscan.io/address/0xb2242f32aa8751d1a754e5ccd8eee904cd21c915",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbb107e9b60d0655a6635b79a39647514d6d57472",
+      "url": "https://intel.arkm.com/explorer/address/0xbb107e9b60d0655a6635b79a39647514d6d57472",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Gate SHPING_USDT daily closes (UTC); Binance unavailable (451), Gate is next in the hierarchy",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "buried_disclosure",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes: a deployer-funded company wallet deposited 152M SHPING (~$149k) to Gate and MEXC on 8 pump days since Nov 2025; the cash-out mechanism is only a buried mention, with no sale reporting"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "burn",
+      "buyback",
+      "staking_yield_from_fees",
+      "fee_share"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "none of it reaches holders. **Holder test: no** (no on-chain mechanism). **1 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x52a6de898366662724725e206d8fe350fe535a03",
+      "url": null,
+      "label": "Shping: Deployer",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb2242f32aa8751d1a754e5ccd8eee904cd21c915",
+      "url": null,
+      "label": "company operating wallet (inferred)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x1a545fffadf2f4c3cb34a222756632dd31814cca",
+      "url": null,
+      "label": "a named individual",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x2b902bbd97f3e0cb90dd9cc07ccc60d4d16c11ae",
+      "url": null,
+      "label": "MEXC deposit (forwards to MEXC 16)",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xbb107e9b60d0655a6635b79a39647514d6d57472",
+      "url": null,
+      "label": "Coinbase Prime Custody (1.31B SHPING)",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x3243ce0cd2c1ab53d24ccb58caf0c82ac9846132",
+      "url": null,
+      "label": "Coinbase-associated address (734M SHPING)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "label": "1.31B holder [0xbb10…7472](https://intel.arkm.com/explorer/address/0xbb107e9b60d",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): entity labels for the deployer, operating wallet, Gate and MEXC deposits, the Coinbase hot wallet and the 1.31B and 734M holders",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan: token holders, contract creation, deployer and operating-wallet transfers (linked above)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Shping cash-out post](https://shping.com/australias-first-rewards-program-to-offer-cryptocurrency-cash-outs/), [token-sale one-pager](https://tokensale.shping.com/assets/shping_coin_one_pager_en.pdf)",
+      "urls": [
+        "Shping cash-out post",
+        "token-sale one-pager"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `shping` (market, venues); pump days from Gate SHPING_USDT daily closes (UTC), per the price-source hierarchy (Binance unavailable; Gate's pair is thin)",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

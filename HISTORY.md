@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 12:36 MST
+generated_at: 2026-11-16 13:52 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -81,11 +81,12 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [MINA](banking-rails/MINA.md) | 1 | 4.0 | 4.0 | 1 | 5 | 5 |
 | [MNT](banking-rails/MNT.md) | 1 | 4.5 | 4.5 | 2 | 6 | 4 |
 | [MOCA](banking-rails/MOCA.md) | 1 | 3.7 | 3.7 | 1 | 6 | 3 |
-| NEXA | 0 | — | — | — | — | — |
+| [NEXA](banking-rails/NEXA.md) | 1 | 3.8 | 3.8 | 1 | 4 | 7 |
 | [NIGHT](banking-rails/NIGHT.md) | 1 | 3.8 | 3.8 | 1 | 4 | 1 |
 | [OM](banking-rails/OM.md) | 1 | 3.4 | 3.4 | 2 | 4 | 4 |
 | [ONDO](banking-rails/ONDO.md) | 2 | 4.9 | 4.7 | 3 | 5 → 4 | 3 |
 | [ORAI](banking-rails/ORAI.md) | 1 | 3.0 | 3.0 | 1 | 4 | 4 |
+| ORBITER | 0 | — | — | — | — | — |
 | [PACT](banking-rails/PACT.md) | 1 | 3.1 | 3.1 | 3 | 1 | 2 |
 | [PHA](banking-rails/PHA.md) | 1 | 3.9 | 3.9 | 2 | 1 | 4 |
 | [PLUME](banking-rails/PLUME.md) | 2 | 3.5 | 3.7 | 1 | 3 → 4 | 2 |
@@ -93,10 +94,10 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [PRO](banking-rails/PRO.md) | 1 | 4.3 | 4.3 | 2 | 4 | 4 |
 | [PROPC](banking-rails/PROPC.md) | 1 | 3.6 | 3.6 | 3 | 4 | 3 |
 | [PUNDIX](banking-rails/PUNDIX.md) | 1 | 3.4 | 3.4 | 2 | 4 | 4 |
-| QANX | 0 | — | — | — | — | — |
+| [QANX](banking-rails/QANX.md) | 1 | 3.6 | 3.6 | 1 | 4 | 4 |
 | [QNT](banking-rails/QNT.md) | 1 | 4.6 | 4.6 | 4 | 3 | 3 |
 | [QUAI](banking-rails/QUAI.md) | 1 | 4.9 | 4.9 | 5 | 4 | 6 |
-| RBNT | 0 | — | — | — | — | — |
+| [RBNT](banking-rails/RBNT.md) | 1 | 3.5 | 3.5 | 2 | 4 | 2 |
 | [RED](banking-rails/RED.md) | 1 | 4.3 | 4.3 | 2 | 4 | 4 |
 | [REQ](banking-rails/REQ.md) | 1 | 4.2 | 4.2 | 2 | 3 | 3 |
 | [REUSD](banking-rails/REUSD.md) | 1 | 5.5 | 5.5 | 7 | 4 | 6 |
@@ -107,10 +108,11 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [ROUTER](banking-rails/ROUTER.md) | 1 | 2.2 | 2.2 | 1 | 1 | 2 |
 | [RVN](banking-rails/RVN.md) | 1 | 4.4 | 4.4 | 1 | 7 | 9 |
 | [S](banking-rails/S.md) | 1 | 3.3 | 3.3 | 1 | 2 | 4 |
-| SCRT | 0 | — | — | — | — | — |
+| [SCRT](banking-rails/SCRT.md) | 1 | 2.6 | 2.6 | 2 | 4 | 2 |
 | [SEI](banking-rails/SEI.md) | 1 | 4.0 | 4.0 | 1 | 4 | 3 |
 | [SERV](banking-rails/SERV.md) | 1 | 2.8 | 2.8 | 2 | 1 | 3 |
 | [SHARE](banking-rails/SHARE.md) | 1 | 3.3 | 3.3 | 2 | 4 | 3 |
+| SHPING | 0 | — | — | — | — | — |
 | [SHX](banking-rails/SHX.md) | 1 | 3.6 | 3.6 | 2 | 4 | 3 |
 | [SKEY](banking-rails/SKEY.md) | 1 | 3.4 | 3.4 | 2 | 4 | 3 |
 | [SKY](banking-rails/SKY.md) | 1 | 6.8 | 6.8 | 8 | 6 | 6 |
@@ -119,7 +121,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [SPA](banking-rails/SPA.md) | 1 | 2.5 | 2.5 | 1 | 2 | 2 |
 | [STBL](banking-rails/STBL.md) | 1 | 3.3 | 3.3 | 2 | 4 | 3 |
 | [SUI](banking-rails/SUI.md) | 1 | 3.7 | 3.7 | 1 | 2 | 2 |
-| SUPRA | 0 | — | — | — | — | — |
+| [SUPRA](banking-rails/SUPRA.md) | 1 | 3.6 | 3.6 | 2 | 4 | 3 |
 | [SWCH](banking-rails/SWCH.md) | 1 | 2.5 | 2.5 | 1 | 4 | 4 |
 | [SWFTC](banking-rails/SWFTC.md) | 1 | 3.8 | 3.8 | 2 | 4 | 4 |
 | [SYRUP](banking-rails/SYRUP.md) | 1 | 6.3 | 6.3 | 7 | 4 | 6 |
@@ -129,12 +131,15 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [TRAC](banking-rails/TRAC.md) | 1 | 4.2 | 4.2 | 2 | 4 | 3 |
 | [TRADE](banking-rails/TRADE.md) | 1 | 3.7 | 3.7 | 2 | 4 | 3 |
 | [TRB](banking-rails/TRB.md) | 1 | 3.8 | 3.8 | 2 | 1 | 6 |
+| TRUF | 0 | — | — | — | — | — |
+| TX | 0 | — | — | — | — | — |
 | [VELO](banking-rails/VELO.md) | 1 | 3.6 | 3.6 | 1 | 4 | 3 |
 | [W](banking-rails/W.md) | 1 | 3.8 | 3.8 | 2 | 3 | 3 |
 | [WAN](banking-rails/WAN.md) | 1 | 4.7 | 4.7 | 5 | 4 | 5 |
 | [WIREX](banking-rails/WIREX.md) | 1 | 3.5 | 3.5 | 2 | 4 | 3 |
 | [XDB](banking-rails/XDB.md) | 1 | 2.9 | 2.9 | 1 | 3 | 5 |
 | [XDC](banking-rails/XDC.md) | 1 | 3.8 | 3.8 | 2 | 4 | 2 |
+| XEP | 0 | — | — | — | — | — |
 | [XLM](banking-rails/XLM.md) | 1 | 5.7 | 5.7 | 2 | 6 | 4 |
 | [XMR](banking-rails/XMR.md) | 1 | 5.2 | 5.2 | 2 | 7 | 9 |
 | [XNO](banking-rails/XNO.md) | 1 | 4.9 | 4.9 | 1 | 6 | 8 |
@@ -236,6 +241,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **MINA** — 4.0 FAIL in `aa945b1` (2026-11-16 12:24 MST).
 - **MNT** — 4.5 FAIL in `6fa4721` (2026-11-15 18:37 MST).
 - **MOCA** — 3.7 FAIL in `7524e33` (2026-11-16 09:33 MST).
+- **NEXA** — 3.8 FAIL in `3539092` (2026-11-16 12:36 MST).
 - **NIGHT** — 3.8 FAIL in `16d387f` (2026-11-16 08:50 MST).
 - **OM** — 3.4 FAIL in `8606bea` (2026-11-16 09:12 MST).
 ### ONDO
@@ -259,8 +265,10 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **PRO** — 4.3 FAIL in `5420ac2` (2026-11-16 12:27 MST).
 - **PROPC** — 3.6 FAIL in `8e903fc` (2026-11-16 08:31 MST).
 - **PUNDIX** — 3.4 FAIL in `fc426d1` (2026-11-16 09:35 MST).
+- **QANX** — 3.6 FAIL in `3539092` (2026-11-16 12:36 MST).
 - **QNT** — 4.6 FAIL in `c1ac11a` (2026-11-16 04:55 MST).
 - **QUAI** — 4.9 FAIL in `78f06b6` (2026-11-16 06:22 MST).
+- **RBNT** — 3.5 FAIL in `3539092` (2026-11-16 12:36 MST).
 - **RED** — 4.3 FAIL in `fc426d1` (2026-11-16 09:35 MST).
 - **REQ** — 4.2 FAIL in `16d387f` (2026-11-16 08:50 MST).
 - **REUSD** — 5.5 FAIL in `652061c` (2026-11-16 09:24 MST).
@@ -271,6 +279,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **ROUTER** — 2.2 FAIL in `6fa4721` (2026-11-15 18:37 MST).
 - **RVN** — 4.4 FAIL in `652061c` (2026-11-16 09:24 MST).
 - **S** — 3.3 FAIL in `a4bf82b` (2026-11-16 07:42 MST).
+- **SCRT** — 2.6 FAIL in `3539092` (2026-11-16 12:36 MST).
 - **SEI** — 4.0 FAIL in `6fa4721` (2026-11-15 18:37 MST).
 - **SERV** — 2.8 FAIL in `6fa4721` (2026-11-15 18:37 MST).
 - **SHARE** — 3.3 FAIL in `25340a1` (2026-11-16 09:50 MST).
@@ -282,6 +291,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **SPA** — 2.5 FAIL in `395f117` (2026-11-16 06:46 MST).
 - **STBL** — 3.3 FAIL in `25340a1` (2026-11-16 09:50 MST).
 - **SUI** — 3.7 FAIL in `132f0fd` (2026-11-16 06:50 MST).
+- **SUPRA** — 3.6 FAIL in `3539092` (2026-11-16 12:36 MST).
 - **SWCH** — 2.5 FAIL in `f7bbe5f` (2026-11-16 09:41 MST).
 - **SWFTC** — 3.8 FAIL in `5420ac2` (2026-11-16 12:27 MST).
 - **SYRUP** — 6.3 PASS in `0a6d1a7` (2026-11-16 07:39 MST).

@@ -1,9 +1,9 @@
 {
   "title": "Public addresses examined in published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:36 MST",
+  "generated_at": "2026-11-16 13:52 MST",
   "note": "Every address here was extracted from a public evidence link or explorer URL already published in banking-rails/<TICKER>.md. No private worksheets were used. Labels that would name a private individual are not included.",
-  "count": 1253,
+  "count": 1274,
   "addresses": [
     {
       "ticker": "ACH",
@@ -4808,6 +4808,55 @@
       "kind": "address"
     },
     {
+      "ticker": "ORBITER",
+      "chain": "arbitrum",
+      "address": "0x40b8080938ac85e7f2ff2c0503c19d696c8bef9a",
+      "url": "https://arbiscan.io/address/0x40b8080938ac85e7f2ff2c0503c19d696c8bef9a",
+      "kind": "address"
+    },
+    {
+      "ticker": "ORBITER",
+      "chain": "ethereum",
+      "address": "0x1443114e33db68a64bdc20bfbe64c9d8ad96847c",
+      "url": "https://etherscan.io/address/0x1443114e33db68a64bdc20bfbe64c9d8ad96847c",
+      "kind": "address"
+    },
+    {
+      "ticker": "ORBITER",
+      "chain": "ethereum",
+      "address": "0x2f313a0bd2f885ddc4a3d990d4effccfc659c202",
+      "url": "https://intel.arkm.com/explorer/address/0x2f313a0bd2f885ddc4a3d990d4effccfc659c202",
+      "kind": "address"
+    },
+    {
+      "ticker": "ORBITER",
+      "chain": "ethereum",
+      "address": "0x34dce6febeedacd6fa9be09b45e825a62f84cd1d",
+      "url": "https://etherscan.io/address/0x34dce6febeedacd6fa9be09b45e825a62f84cd1d",
+      "kind": "address"
+    },
+    {
+      "ticker": "ORBITER",
+      "chain": "ethereum",
+      "address": "0x3ce5e6ae2caf91fbcefb11d1f8269b3ae05727c0",
+      "url": "https://intel.arkm.com/explorer/address/0x3ce5e6ae2caf91fbcefb11d1f8269b3ae05727c0",
+      "kind": "address"
+    },
+    {
+      "ticker": "ORBITER",
+      "chain": "ethereum",
+      "address": "0x4024435a9bc141eed6d8ffdc48b9a43c23f0e087",
+      "url": "https://intel.arkm.com/explorer/address/0x4024435a9bc141eed6d8ffdc48b9a43c23f0e087",
+      "kind": "address"
+    },
+    {
+      "ticker": "ORBITER",
+      "chain": "ethereum",
+      "address": "0x40b8080938ac85e7f2ff2c0503c19d696c8bef9a",
+      "url": "https://intel.arkm.com/explorer/address/0x40b8080938ac85e7f2ff2c0503c19d696c8bef9a",
+      "kind": "address"
+    },
+    {
       "ticker": "PHA",
       "chain": "ethereum",
       "address": "0x0d15d5999a67084c78fa8c2fd60a799d3bfe2608",
@@ -6114,6 +6163,48 @@
       "chain": "ethereum",
       "address": "0xf86b359035208e4529686a1825f2d5bee38c28a8",
       "url": "https://etherscan.io/address/0xf86B359035208e4529686A1825F2D5BeE38c28A8",
+      "kind": "address"
+    },
+    {
+      "ticker": "SHPING",
+      "chain": "ethereum",
+      "address": "0x1a545fffadf2f4c3cb34a222756632dd31814cca",
+      "url": "https://etherscan.io/address/0x1a545fffadf2f4c3cb34a222756632dd31814cca",
+      "kind": "address"
+    },
+    {
+      "ticker": "SHPING",
+      "chain": "ethereum",
+      "address": "0x2b902bbd97f3e0cb90dd9cc07ccc60d4d16c11ae",
+      "url": "https://intel.arkm.com/explorer/address/0x2b902bbd97f3e0cb90dd9cc07ccc60d4d16c11ae",
+      "kind": "address"
+    },
+    {
+      "ticker": "SHPING",
+      "chain": "ethereum",
+      "address": "0x3243ce0cd2c1ab53d24ccb58caf0c82ac9846132",
+      "url": "https://intel.arkm.com/explorer/address/0x3243ce0cd2c1ab53d24ccb58caf0c82ac9846132",
+      "kind": "address"
+    },
+    {
+      "ticker": "SHPING",
+      "chain": "ethereum",
+      "address": "0x52a6de898366662724725e206d8fe350fe535a03",
+      "url": "https://etherscan.io/address/0x52a6de898366662724725e206d8fe350fe535a03",
+      "kind": "address"
+    },
+    {
+      "ticker": "SHPING",
+      "chain": "ethereum",
+      "address": "0xb2242f32aa8751d1a754e5ccd8eee904cd21c915",
+      "url": "https://etherscan.io/address/0xb2242f32aa8751d1a754e5ccd8eee904cd21c915",
+      "kind": "address"
+    },
+    {
+      "ticker": "SHPING",
+      "chain": "ethereum",
+      "address": "0xbb107e9b60d0655a6635b79a39647514d6d57472",
+      "url": "https://intel.arkm.com/explorer/address/0xbb107e9b60d0655a6635b79a39647514d6d57472",
       "kind": "address"
     },
     {
@@ -7475,6 +7566,48 @@
       "kind": "address"
     },
     {
+      "ticker": "TRUF",
+      "chain": "ethereum",
+      "address": "0x17bd634245698a6d8eedff3ddbaeb4d83478b4b1",
+      "url": "https://etherscan.io/address/0x17bd634245698a6d8eedff3ddbaeb4d83478b4b1",
+      "kind": "address"
+    },
+    {
+      "ticker": "TRUF",
+      "chain": "ethereum",
+      "address": "0x7e3ad114031acd0437ccba560f592874e62780b6",
+      "url": "https://etherscan.io/address/0x7e3ad114031acd0437ccba560f592874e62780b6",
+      "kind": "address"
+    },
+    {
+      "ticker": "TRUF",
+      "chain": "ethereum",
+      "address": "0x8d78ea2adda1059bd62666779856efafdd25d740",
+      "url": "https://etherscan.io/address/0x8d78ea2adda1059bd62666779856efafdd25d740",
+      "kind": "address"
+    },
+    {
+      "ticker": "TRUF",
+      "chain": "ethereum",
+      "address": "0x9052f3970ac942ca759e0068d9977cae88209222",
+      "url": "https://etherscan.io/address/0x9052f3970ac942ca759e0068d9977cae88209222",
+      "kind": "address"
+    },
+    {
+      "ticker": "TRUF",
+      "chain": "ethereum",
+      "address": "0xae9946fb686bb2e8c448066a8339d0d204e868a3",
+      "url": "https://etherscan.io/address/0xae9946fb686bb2e8c448066a8339d0d204e868a3",
+      "kind": "address"
+    },
+    {
+      "ticker": "TRUF",
+      "chain": "ethereum",
+      "address": "0xb2e53fbda93b92017e80a86a712a535da9cd167e",
+      "url": "https://etherscan.io/address/0xb2e53fbda93b92017e80a86a712a535da9cd167e",
+      "kind": "address"
+    },
+    {
       "ticker": "W",
       "chain": "ethereum",
       "address": "0x0d59e76e009dd6e83b9b5a751478a3a9c8654593",
@@ -7738,6 +7871,20 @@
       "chain": "ethereum",
       "address": "0xd5589ca4b2e25d790b8bd0ae44cf3bbc6b3ebef3",
       "url": "https://intel.arkm.com/explorer/address/0xd5589ca4b2e25d790b8bd0ae44cf3bbc6b3ebef3",
+      "kind": "address"
+    },
+    {
+      "ticker": "XEP",
+      "chain": "bsc",
+      "address": "0xb897d0a0f68800f8be7d69ffdd1c24b69f57bf3e",
+      "url": "https://bscscan.com/token/0xb897d0a0f68800f8be7d69ffdd1c24b69f57bf3e",
+      "kind": "token"
+    },
+    {
+      "ticker": "XEP",
+      "chain": "electra-protocol",
+      "address": "0xb897d0a0f68800f8be7d69ffdd1c24b69f57bf3e",
+      "url": "https://intel.arkm.com/explorer/address/0xb897d0a0f68800f8be7d69ffdd1c24b69f57bf3e",
       "kind": "address"
     },
     {

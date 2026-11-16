@@ -1,12 +1,12 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:36 MST",
-  "universe": 138,
+  "generated_at": "2026-11-16 13:52 MST",
+  "universe": 143,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
     "count": 8,
-    "share": 0.058,
+    "share": 0.0559,
     "tickers": [
       "AERO",
       "BTC",
@@ -19,8 +19,8 @@
     ]
   },
   "fail_revenue_gate": {
-    "count": 113,
-    "share": 0.8188,
+    "count": 118,
+    "share": 0.8252,
     "tickers": [
       "ACH",
       "ADA",
@@ -79,6 +79,7 @@
       "OM",
       "ONDO",
       "ORAI",
+      "ORBITER",
       "PACT",
       "PHA",
       "PLUME",
@@ -100,6 +101,7 @@
       "SEI",
       "SERV",
       "SHARE",
+      "SHPING",
       "SHX",
       "SKEY",
       "SPA",
@@ -114,11 +116,14 @@
       "TRAC",
       "TRADE",
       "TRB",
+      "TRUF",
+      "TX",
       "VELO",
       "W",
       "WIREX",
       "XDB",
       "XDC",
+      "XEP",
       "XLM",
       "XMR",
       "XNO",
@@ -138,8 +143,8 @@
     ]
   },
   "fail_selling_gate": {
-    "count": 29,
-    "share": 0.2101,
+    "count": 30,
+    "share": 0.2098,
     "tickers": [
       "ACH",
       "API3",
@@ -158,6 +163,7 @@
       "ROUTER",
       "S",
       "SERV",
+      "SHPING",
       "SPA",
       "SUI",
       "TLOS",
@@ -173,8 +179,8 @@
     ]
   },
   "fail_both_gates": {
-    "count": 26,
-    "share": 0.1884,
+    "count": 27,
+    "share": 0.1888,
     "tickers": [
       "ACH",
       "COTI",
@@ -191,6 +197,7 @@
       "ROUTER",
       "S",
       "SERV",
+      "SHPING",
       "SPA",
       "SUI",
       "TLOS",
@@ -205,8 +212,8 @@
     ]
   },
   "proven_pump_day_sale": {
-    "count": 47,
-    "share": 0.3406,
+    "count": 48,
+    "share": 0.3357,
     "tickers": [
       "ACH",
       "AERO",
@@ -240,6 +247,7 @@
       "ROUTER",
       "S",
       "SERV",
+      "SHPING",
       "SKY",
       "SOLV",
       "SPA",
@@ -259,7 +267,7 @@
   },
   "pump_day_sale_unclear": {
     "count": 10,
-    "share": 0.0725,
+    "share": 0.0699,
     "tickers": [
       "BCH",
       "BNKR",
@@ -274,8 +282,8 @@
     ]
   },
   "selling_not_proven": {
-    "count": 72,
-    "share": 0.5217,
+    "count": 76,
+    "share": 0.5315,
     "tickers": [
       "ADA",
       "AEON",
@@ -313,6 +321,7 @@
       "OM",
       "ONDO",
       "ORAI",
+      "ORBITER",
       "PLUME",
       "PRO",
       "PROPC",
@@ -338,11 +347,14 @@
       "TFUEL",
       "TRAC",
       "TRADE",
+      "TRUF",
+      "TX",
       "VELO",
       "W",
       "WAN",
       "WIREX",
       "XDC",
+      "XEP",
       "XRP",
       "YELLOW",
       "ZANO",
@@ -352,8 +364,8 @@
     ]
   },
   "selling_score_equals_4": {
-    "count": 59,
-    "share": 0.4275,
+    "count": 63,
+    "share": 0.4406,
     "tickers": [
       "AEON",
       "APT",
@@ -382,6 +394,7 @@
       "OM",
       "ONDO",
       "ORAI",
+      "ORBITER",
       "PLUME",
       "PRO",
       "PROPC",
@@ -405,10 +418,13 @@
       "TFUEL",
       "TRAC",
       "TRADE",
+      "TRUF",
+      "TX",
       "VELO",
       "WAN",
       "WIREX",
       "XDC",
+      "XEP",
       "XRP",
       "YELLOW",
       "ZANO",
@@ -418,7 +434,7 @@
   },
   "undisclosed_pump_day_sale_silence": {
     "count": 25,
-    "share": 0.1812,
+    "share": 0.1748,
     "tickers": [
       "ACH",
       "CARDS",
@@ -448,8 +464,8 @@
     ]
   },
   "revenue_reaches_holders_yes": {
-    "count": 14,
-    "share": 0.1014,
+    "count": 15,
+    "share": 0.1049,
     "tickers": [
       "AERO",
       "AVAX",
@@ -463,13 +479,14 @@
       "SKY",
       "SOL",
       "SPA",
+      "TX",
       "W",
       "ZRO"
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 40,
-    "share": 0.2899,
+    "count": 43,
+    "share": 0.3007,
     "tickers": [
       "ACH",
       "AEON",
@@ -493,6 +510,7 @@
       "NEXA",
       "ONDO",
       "ORAI",
+      "ORBITER",
       "POLYX",
       "PRO",
       "QANX",
@@ -501,11 +519,13 @@
       "RIO",
       "ROSE",
       "SCRT",
+      "SHPING",
       "SKEY",
       "SOLV",
       "SUPRA",
       "SWFTC",
       "TRADE",
+      "TRUF",
       "WIREX",
       "XDB",
       "XNO",
@@ -514,8 +534,8 @@
     ]
   },
   "revenue_reaches_holders_unclear": {
-    "count": 84,
-    "share": 0.6087,
+    "count": 85,
+    "share": 0.5944,
     "tickers": [
       "ADA",
       "ALGO",
@@ -587,6 +607,7 @@
       "VELO",
       "WAN",
       "XDC",
+      "XEP",
       "XLM",
       "XMR",
       "XPL",
