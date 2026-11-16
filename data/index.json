@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 12:31 MST",
+  "generated_at": "2026-11-16 12:34 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -289,6 +289,12 @@
       "json": "data/reports/CELO.json"
     },
     {
+      "id": "CELR",
+      "path": "banking-rails/CELR.md",
+      "layout": "v3",
+      "json": "data/reports/CELR.json"
+    },
+    {
       "id": "CFG",
       "path": "banking-rails/CFG.md",
       "layout": "v3",
@@ -331,6 +337,12 @@
       "json": "data/reports/DASH.json"
     },
     {
+      "id": "DIA",
+      "path": "banking-rails/DIA.md",
+      "layout": "v3",
+      "json": "data/reports/DIA.json"
+    },
+    {
       "id": "DOT",
       "path": "banking-rails/DOT.md",
       "layout": "v3",
@@ -349,6 +361,12 @@
       "json": "data/reports/EDEL.json"
     },
     {
+      "id": "EDEN",
+      "path": "banking-rails/EDEN.md",
+      "layout": "v3",
+      "json": "data/reports/EDEN.json"
+    },
+    {
       "id": "ENA",
       "path": "banking-rails/ENA.md",
       "layout": "v3",
@@ -365,6 +383,12 @@
       "path": "banking-rails/ETH.md",
       "layout": "v3",
       "json": "data/reports/ETH.json"
+    },
+    {
+      "id": "EURE",
+      "path": "banking-rails/EURE.md",
+      "layout": "v3",
+      "json": "data/reports/EURE.json"
     },
     {
       "id": "EWT",
@@ -497,6 +521,12 @@
       "path": "banking-rails/LINK.md",
       "layout": "v3",
       "json": "data/reports/LINK.json"
+    },
+    {
+      "id": "LUMIA",
+      "path": "banking-rails/LUMIA.md",
+      "layout": "v3",
+      "json": "data/reports/LUMIA.json"
     },
     {
       "id": "MASQ",
@@ -936,5 +966,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 128
+  "scored_reports": 133
 }

@@ -1,9 +1,9 @@
 {
   "title": "Public addresses examined in published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:31 MST",
+  "generated_at": "2026-11-16 12:34 MST",
   "note": "Every address here was extracted from a public evidence link or explorer URL already published in banking-rails/<TICKER>.md. No private worksheets were used. Labels that would name a private individual are not included.",
-  "count": 1171,
+  "count": 1246,
   "addresses": [
     {
       "ticker": "ACH",
@@ -1364,6 +1364,76 @@
       "kind": "address"
     },
     {
+      "ticker": "CELR",
+      "chain": "ethereum",
+      "address": "0x0f69be25aaeeb9478fa4c9666b69bbe8bfefd107",
+      "url": "https://etherscan.io/address/0x0f69be25aaeeb9478fa4c9666b69bbe8bfefd107",
+      "kind": "address"
+    },
+    {
+      "ticker": "CELR",
+      "chain": "ethereum",
+      "address": "0x0fcb193c75cecae31d592b9ca0ae11c96a5bab0c",
+      "url": "https://etherscan.io/address/0x0fcb193c75cecae31d592B9CA0AE11C96a5bAb0C",
+      "kind": "address"
+    },
+    {
+      "ticker": "CELR",
+      "chain": "ethereum",
+      "address": "0x1c875c7c66243bb9de381c01f1dbe82cf0b98e30",
+      "url": "https://etherscan.io/address/0x1c875c7c66243bb9de381c01f1dbe82cf0b98e30",
+      "kind": "address"
+    },
+    {
+      "ticker": "CELR",
+      "chain": "ethereum",
+      "address": "0x758720487c5efd0947a98d81040233e2fb1d1509",
+      "url": "https://etherscan.io/address/0x758720487c5efd0947a98d81040233e2fb1d1509",
+      "kind": "address"
+    },
+    {
+      "ticker": "CELR",
+      "chain": "ethereum",
+      "address": "0x884ad5933693d8575c37247774c9c1148a1c4e9b",
+      "url": "https://etherscan.io/address/0x884aD5933693D8575C37247774C9c1148a1C4E9b",
+      "kind": "address"
+    },
+    {
+      "ticker": "CELR",
+      "chain": "ethereum",
+      "address": "0x8a4b4c2acadeaa7206df96f00052e41d74a015ce",
+      "url": "https://etherscan.io/address/0x8a4b4c2acadeaa7206df96f00052e41d74a015ce",
+      "kind": "address"
+    },
+    {
+      "ticker": "CELR",
+      "chain": "ethereum",
+      "address": "0xa6045362e295db86da338da6b2a9f439add951b2",
+      "url": "https://etherscan.io/address/0xa6045362e295db86da338da6b2a9f439add951b2",
+      "kind": "address"
+    },
+    {
+      "ticker": "CELR",
+      "chain": "ethereum",
+      "address": "0xab782bc7d4a2b306825de5a7730034f8f63ee1bc",
+      "url": "https://etherscan.io/address/0xab782bc7d4a2b306825de5a7730034f8f63ee1bc",
+      "kind": "address"
+    },
+    {
+      "ticker": "CELR",
+      "chain": "ethereum",
+      "address": "0xb22dc759f194f5d00f1981bf47ab5c3572562c96",
+      "url": "https://etherscan.io/address/0xb22dc759f194f5d00f1981bf47ab5c3572562c96",
+      "kind": "address"
+    },
+    {
+      "ticker": "CELR",
+      "chain": "ethereum",
+      "address": "0xf380166f8490f24af32bf47d1aa217fba62b6575",
+      "url": "https://etherscan.io/address/0xf380166f8490f24af32bf47d1aa217fba62b6575",
+      "kind": "address"
+    },
+    {
       "ticker": "CFG",
       "chain": "ethereum",
       "address": "0x0a367f918340d47d36b21c93e9a2b6853cc9d6f0",
@@ -1917,6 +1987,146 @@
       "kind": "address"
     },
     {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x05c5fe0f2ca2a46747ef7004aab502e7a031fa54",
+      "url": "https://etherscan.io/address/0x05c5fe0f2ca2a46747ef7004aab502e7a031fa54",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x0ba3171032059e9e2348b1316c36760bb87cd6ba",
+      "url": "https://etherscan.io/address/0x0ba3171032059e9e2348b1316c36760bb87cd6ba",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x1b2fdbdb1b56a3e09649301a7ac5a9d770aa6ed0",
+      "url": "https://etherscan.io/address/0x1b2fdbdb1b56a3e09649301a7ac5a9d770aa6ed0",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x1eee9b9f024188e54930d2927d7a28e66e7649a7",
+      "url": "https://etherscan.io/address/0x1eee9b9f024188e54930d2927d7a28e66e7649a7",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x21a2233208f6c767567a9cf031c97b47e28e616c",
+      "url": "https://etherscan.io/address/0x21a2233208f6c767567a9cf031c97b47e28e616c",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x39703ae8cafc87540268bd9aab7fca2c5ae4ace2",
+      "url": "https://etherscan.io/address/0x39703ae8cafc87540268bd9aab7fca2c5ae4ace2",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x443b44a55822cc1b8a1f2af99a09ca19cf71ca44",
+      "url": "https://intel.arkm.com/explorer/address/0x443b44a55822cc1b8a1f2af99a09ca19cf71ca44",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x519e6e5ea9bb4a0c779f3d9b06d86a2e561aabb2",
+      "url": "https://etherscan.io/address/0x519e6e5ea9bb4a0c779f3d9b06d86a2e561aabb2",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x55a82e12251d82f76bd31164b81f5a0d82cf38a4",
+      "url": "https://etherscan.io/address/0x55a82e12251d82f76bd31164b81f5a0d82cf38a4",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x5737bf56559dd32d8880cfa236fe613e2162e157",
+      "url": "https://etherscan.io/address/0x5737bf56559dd32d8880cfa236fe613e2162e157",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x68c0a3d0ddce1df6ebd7f41ee0ea85882393179e",
+      "url": "https://etherscan.io/address/0x68c0a3d0ddce1df6ebd7f41ee0ea85882393179e",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x7170a0b768d5b2dd69188e2c7976102ac69cbc85",
+      "url": "https://etherscan.io/address/0x7170a0b768d5b2dd69188e2c7976102ac69cbc85",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x72ac1760daf52986421b1552bdca04707e78950e",
+      "url": "https://etherscan.io/address/0x72ac1760daf52986421b1552bdca04707e78950e",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x785aa9e026bb45a8f2e2a6eeeefff77f4ddf12c1",
+      "url": "https://etherscan.io/address/0x785aa9e026bb45a8f2e2a6eeeefff77f4ddf12c1",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x78c4400ab087ff939c6312ded96608ac0e855a4d",
+      "url": "https://etherscan.io/address/0x78c4400ab087ff939c6312ded96608ac0e855a4d",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x7d409e57515a745d297411e5aea0f31938c7f932",
+      "url": "https://etherscan.io/address/0x7d409e57515a745d297411e5aea0f31938c7f932",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0x9b0c45d46d386cedd98873168c36efd0dcba8d46",
+      "url": "https://etherscan.io/address/0x9b0c45d46d386cedd98873168c36efd0dcba8d46",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0xd949969936b0fd66321da06ac3edb2a36bad7932",
+      "url": "https://etherscan.io/address/0xd949969936b0fd66321da06ac3edb2a36bad7932",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0xed17a03296bb6d68a2bdf1f909659ac79a9751f1",
+      "url": "https://etherscan.io/address/0xed17a03296bb6d68a2bdf1f909659ac79a9751f1",
+      "kind": "address"
+    },
+    {
+      "ticker": "DIA",
+      "chain": "ethereum",
+      "address": "0xfaca2b5ea36de3c693924531cf8812b9778d8c2f",
+      "url": "https://etherscan.io/address/0xfaca2b5ea36de3c693924531cf8812b9778d8c2f",
+      "kind": "address"
+    },
+    {
       "ticker": "DOT",
       "chain": "polkadot",
       "address": "145UYrCgKd6u7h8NsSM5Cde3sx26hkPczLLTbuRa5XAqh3bX",
@@ -2120,6 +2330,160 @@
       "kind": "address"
     },
     {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x05f1d0b2b5adfd2a9fa9c6234dcb8e2e4a4f703c",
+      "url": "https://etherscan.io/address/0x05f1d0b2b5adfd2a9fa9c6234dcb8e2e4a4f703c",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x107a0cdba237d6d8ea317f4f72e795bf912c6ebb",
+      "url": "https://etherscan.io/address/0x107a0cdba237d6d8ea317f4f72e795bf912c6ebb",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x18ac6ceacffce66d998693626500066517ed6527",
+      "url": "https://etherscan.io/address/0x18ac6ceacffce66d998693626500066517ed6527",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x2d7e4bfee1483766c2720c44c98b2662f7d7dc04",
+      "url": "https://etherscan.io/address/0x2d7e4bfee1483766c2720c44c98b2662f7d7dc04",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x39b77c1c6f1a6d786c54135612e65831500e39d3",
+      "url": "https://etherscan.io/address/0x39b77c1c6f1a6d786c54135612e65831500e39d3",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae",
+      "url": "https://etherscan.io/address/0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x6fe70858fda5b642ca2e48903e5402501bb7bb78",
+      "url": "https://etherscan.io/address/0x6fe70858fda5b642ca2e48903e5402501bb7bb78",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x71b83613743e42c800fc7b7648c53f16847c7cdd",
+      "url": "https://etherscan.io/address/0x71b83613743e42c800fc7b7648c53f16847c7cdd",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x7e6c274e9f57b0f052647c37084d372ed665af23",
+      "url": "https://etherscan.io/address/0x7e6c274e9f57b0f052647c37084d372ed665af23",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x80d96ab88aeedc75530e8ec952db284171497985",
+      "url": "https://etherscan.io/address/0x80d96ab88aeedc75530e8ec952db284171497985",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x9adcbe30375753773a2940dc2b34ba5fda7b82a5",
+      "url": "https://etherscan.io/address/0x9adcbe30375753773a2940dc2b34ba5fda7b82a5",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x9ceb1acb844c759bd47d7026e9a9f168260f0328",
+      "url": "https://etherscan.io/address/0x9ceb1acb844c759bd47d7026e9a9f168260f0328",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0x9d7000e738c7dd34015c58c080d2fa79b512bb8b",
+      "url": "https://etherscan.io/address/0x9d7000e738c7dd34015c58c080d2fa79b512bb8b",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0xac76d02b1d1ea4d37a7576504b800e113ff9a3bd",
+      "url": "https://etherscan.io/address/0xac76d02b1d1ea4d37a7576504b800e113ff9a3bd",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0xb09f37281ca7eaeeade2fa344690db2760ed19bc",
+      "url": "https://etherscan.io/address/0xb09f37281ca7eaeeade2fa344690db2760ed19bc",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0xb5e4d21240e9356cafc3a1261d10383f62dfc24e",
+      "url": "https://etherscan.io/address/0xb5e4d21240e9356cafc3a1261d10383f62dfc24e",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0xc6056053f6e3bf71855d61d6a54bbcf6deed9087",
+      "url": "https://etherscan.io/address/0xc6056053f6e3bf71855d61d6a54bbcf6deed9087",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0xc8adf2f51a35b0a9d8f74675b64c954ca2dcbc14",
+      "url": "https://etherscan.io/address/0xc8adf2f51a35b0a9d8f74675b64c954ca2dcbc14",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0xd88b8221f789ab448bcaa8f76e616339a0a9424a",
+      "url": "https://etherscan.io/address/0xd88b8221f789ab448bcaa8f76e616339a0a9424a",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0xedb98a8466cfc4c9c662c6b0136751d61b965693",
+      "url": "https://etherscan.io/address/0xedb98a8466cfc4c9c662c6b0136751d61b965693",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0xf64b05ede203faf6e04a88eb510d046d767263cc",
+      "url": "https://etherscan.io/address/0xf64b05ede203faf6e04a88eb510d046d767263cc",
+      "kind": "address"
+    },
+    {
+      "ticker": "EDEN",
+      "chain": "ethereum",
+      "address": "0xf9900ce9f2072f906f30baf7f280930483ec5949",
+      "url": "https://etherscan.io/address/0xf9900ce9f2072f906f30baf7f280930483ec5949",
+      "kind": "address"
+    },
+    {
       "ticker": "ENA",
       "chain": "ethereum",
       "address": "0x2146aa5807d96e6b2922a149cee870f17347f1d0",
@@ -2306,6 +2670,69 @@
       "chain": "ethereum",
       "address": "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae",
       "url": "https://etherscan.io/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe",
+      "kind": "address"
+    },
+    {
+      "ticker": "EURE",
+      "chain": "ethereum",
+      "address": "0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b",
+      "url": "https://etherscan.io/address/0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b",
+      "kind": "address"
+    },
+    {
+      "ticker": "EURE",
+      "chain": "ethereum",
+      "address": "0x0cc2caed31490b546c741bd93dbba8ab387f7f2c",
+      "url": "https://etherscan.io/address/0x0cC2CaeD31490B546c741BD93dbba8Ab387f7F2c",
+      "kind": "address"
+    },
+    {
+      "ticker": "EURE",
+      "chain": "ethereum",
+      "address": "0x5591a6495d726c7efafb9a9dad32695d137b4d9f",
+      "url": "https://etherscan.io/address/0x5591a6495d726c7efafb9a9dad32695d137b4d9f",
+      "kind": "address"
+    },
+    {
+      "ticker": "EURE",
+      "chain": "ethereum",
+      "address": "0xe34cc5d6a66328cde7caf0155f8dffebd953c201",
+      "url": "https://etherscan.io/address/0xE34cC5d6A66328CdE7cAf0155f8DfFEBd953C201",
+      "kind": "address"
+    },
+    {
+      "ticker": "EURE",
+      "chain": "gnosis",
+      "address": "0x8001ea269cb9715bf7acff89c664ffc134a519ec",
+      "url": "https://gnosisscan.io/address/0x8001ea269cb9715bf7acff89c664ffc134a519ec",
+      "kind": "address"
+    },
+    {
+      "ticker": "EURE",
+      "chain": "gnosis + ethereum + 5 more",
+      "address": "0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b",
+      "url": "https://intel.arkm.com/explorer/address/0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b",
+      "kind": "address"
+    },
+    {
+      "ticker": "EURE",
+      "chain": "gnosis + ethereum + 5 more",
+      "address": "0x39b8b6385416f4ca36a20319f70d28621895279d",
+      "url": "https://intel.arkm.com/explorer/address/0x39b8b6385416f4ca36a20319f70d28621895279d",
+      "kind": "address"
+    },
+    {
+      "ticker": "EURE",
+      "chain": "gnosis + ethereum + 5 more",
+      "address": "0x5591a6495d726c7efafb9a9dad32695d137b4d9f",
+      "url": "https://intel.arkm.com/explorer/address/0x5591a6495d726c7efafb9a9dad32695d137b4d9f",
+      "kind": "address"
+    },
+    {
+      "ticker": "EURE",
+      "chain": "gnosis + ethereum + 5 more",
+      "address": "0xe34cc5d6a66328cde7caf0155f8dffebd953c201",
+      "url": "https://intel.arkm.com/explorer/address/0xe34cc5d6a66328cde7caf0155f8dffebd953c201",
       "kind": "address"
     },
     {
@@ -3832,6 +4259,104 @@
       "chain": "ethereum",
       "address": "0xd50f074ec5c7997ce1daacb513ec194c480878af",
       "url": "https://etherscan.io/address/0xd50f074ec5c7997ce1daacb513ec194c480878af",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum",
+      "address": "0x0ee999247f3e33406131bc6aa896192bd40cd6b7",
+      "url": "https://etherscan.io/address/0x0ee999247f3e33406131bc6aa896192bd40cd6b7",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum",
+      "address": "0x2a3dd3eb832af982ec71669e178424b10dca2ede",
+      "url": "https://etherscan.io/address/0x2a3dd3eb832af982ec71669e178424b10dca2ede",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum",
+      "address": "0x2d7904788464a70f72628f632c75a7dd5fc8e57b",
+      "url": "https://etherscan.io/address/0x2d7904788464a70f72628f632c75a7dd5fc8e57b",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum",
+      "address": "0x74fb2aa81922cfb89f0574278557c25a995f699f",
+      "url": "https://etherscan.io/address/0x74fb2aa81922cfb89f0574278557c25a995f699f",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum",
+      "address": "0x8dad9806893500f4e30f2681503939ba638be1c7",
+      "url": "https://etherscan.io/address/0x8dad9806893500f4e30f2681503939ba638bE1C7",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum",
+      "address": "0xa464bf835acb7dc775785e797740763804b56637",
+      "url": "https://etherscan.io/address/0xa464bf835acb7dc775785e797740763804b56637",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum",
+      "address": "0xb10b260fbf5f33cc5ff81761e090aecdffcb1fd5",
+      "url": "https://etherscan.io/address/0xb10b260fbf5f33cc5ff81761e090aecdffcb1fd5",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum",
+      "address": "0xfbaa4e673d0cd1159bed704fdc0e4379a41c2135",
+      "url": "https://etherscan.io/address/0xfbaa4e673d0cd1159bed704fdc0e4379a41c2135",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum + Lumia L2",
+      "address": "0x0ee999247f3e33406131bc6aa896192bd40cd6b7",
+      "url": "https://intel.arkm.com/explorer/address/0x0ee999247f3e33406131bc6aa896192bd40cd6b7",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum + Lumia L2",
+      "address": "0x2d7904788464a70f72628f632c75a7dd5fc8e57b",
+      "url": "https://intel.arkm.com/explorer/address/0x2d7904788464a70f72628f632c75a7dd5fc8e57b",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum + Lumia L2",
+      "address": "0x74fb2aa81922cfb89f0574278557c25a995f699f",
+      "url": "https://intel.arkm.com/explorer/address/0x74fb2aa81922cfb89f0574278557c25a995f699f",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum + Lumia L2",
+      "address": "0xa464bf835acb7dc775785e797740763804b56637",
+      "url": "https://intel.arkm.com/explorer/address/0xa464bf835acb7dc775785e797740763804b56637",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum + Lumia L2",
+      "address": "0xb10b260fbf5f33cc5ff81761e090aecdffcb1fd5",
+      "url": "https://intel.arkm.com/explorer/address/0xb10b260fbf5f33cc5ff81761e090aecdffcb1fd5",
+      "kind": "address"
+    },
+    {
+      "ticker": "LUMIA",
+      "chain": "ethereum + Lumia L2",
+      "address": "0xfbaa4e673d0cd1159bed704fdc0e4379a41c2135",
+      "url": "https://intel.arkm.com/explorer/address/0xfbaa4e673d0cd1159bed704fdc0e4379a41c2135",
       "kind": "address"
     },
     {

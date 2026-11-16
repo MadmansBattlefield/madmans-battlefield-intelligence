@@ -1,0 +1,396 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "CELR",
+  "name": "Celer Network",
+  "chain": "ethereum",
+  "contract": "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
+  "overall_score": 4.0,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 7,
+    "liquidity_market": 4,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 4,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none in the token; see Security",
+    "mint_path_live": "no (no mint function; fixed 10B)",
+    "pause_power": "yes: token owner 0xb22dc759f194f5d00f1981bf47ab5c3572562c96 (deployer EOA) can pause all transfers",
+    "team_wallet_to_exchange_during_pump": "none found; pump-day flows traced to exchange-cycling wallets",
+    "treasury_in_single_key_wallets": "yes: mining-rewards reserve 0xa6045362e295db86da338da6b2a9f439add951b2 (1.63B CELR, 16.3%) is a plain EOA, labelled Celer Network: Treasury by Arkham"
+  },
+  "price_usd": 0.0019601,
+  "price_source": "CoinGecko, 16 Nov 2026 9:56 AM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "SGN fees go to validators and delegators in undisclosed amounts and no fee series is published, so revenue reaching holders is not shown.",
+    "pump_day_price_source": "Binance CELRUSDT UTC daily closes (Gate cross-check)",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0xa6045362e295db86da338da6b2a9f439add951b2",
+        "label": "Celer Network: Treasury (Team Wallet)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + 2.5B genesis transfer"
+      },
+      {
+        "address": "0xb22dc759f194f5d00f1981bf47ab5c3572562c96",
+        "label": "Celer Network: Deployer",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + RPC owner()"
+      },
+      {
+        "address": "0x8a4b4c2acadeaa7206df96f00052e41d74a015ce",
+        "label": "Celer Network: Staking (verified)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + Etherscan"
+      },
+      {
+        "address": "0x0f69be25aaeeb9478fa4c9666b69bbe8bfefd107",
+        "label": "Coinbase Deposit; Coinbase Hot Wallet",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "label": "Coinbase Deposit; Coinbase Hot Wallet",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x758720487c5efd0947a98d81040233e2fb1d1509",
+        "label": "Bitvavo: Coinbase Prime Custody",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.0019601,
+    "market_cap_text": "$15.5M",
+    "volume_24h_text": "$1.28M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/CELR.md",
+    "sha256": "badaa4f8abdab7a84f09fb70dc5ad00cd79f44490248e890ad6b538320c5603d",
+    "bytes": 16843,
+    "extracted_at": "2026-11-16 12:34 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 9:56 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "2.5B mining allocation to an EOA at genesis",
+      "url": "0xcdfb0389…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Deployer EOA owns the pausable token",
+      "url": "0xb22d…2c96",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day flow to Bitvavo from a cycling wallet",
+      "url": "0xeedd525e…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0f69be25aaeeb9478fa4c9666b69bbe8bfefd107",
+      "url": "https://etherscan.io/address/0x0f69be25aaeeb9478fa4c9666b69bbe8bfefd107",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0fcb193c75cecae31d592b9ca0ae11c96a5bab0c",
+      "url": "https://etherscan.io/address/0x0fcb193c75cecae31d592B9CA0AE11C96a5bAb0C",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1c875c7c66243bb9de381c01f1dbe82cf0b98e30",
+      "url": "https://etherscan.io/address/0x1c875c7c66243bb9de381c01f1dbe82cf0b98e30",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x758720487c5efd0947a98d81040233e2fb1d1509",
+      "url": "https://etherscan.io/address/0x758720487c5efd0947a98d81040233e2fb1d1509",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x884ad5933693d8575c37247774c9c1148a1c4e9b",
+      "url": "https://etherscan.io/address/0x884aD5933693D8575C37247774C9c1148a1C4E9b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8a4b4c2acadeaa7206df96f00052e41d74a015ce",
+      "url": "https://etherscan.io/address/0x8a4b4c2acadeaa7206df96f00052e41d74a015ce",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa6045362e295db86da338da6b2a9f439add951b2",
+      "url": "https://etherscan.io/address/0xa6045362e295db86da338da6b2a9f439add951b2",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xab782bc7d4a2b306825de5a7730034f8f63ee1bc",
+      "url": "https://etherscan.io/address/0xab782bc7d4a2b306825de5a7730034f8f63ee1bc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb22dc759f194f5d00f1981bf47ab5c3572562c96",
+      "url": "https://etherscan.io/address/0xb22dc759f194f5d00f1981bf47ab5c3572562c96",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf380166f8490f24af32bf47d1aa217fba62b6575",
+      "url": "https://etherscan.io/address/0xf380166f8490f24af32bf47d1aa217fba62b6575",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Binance CELRUSDT UTC daily closes (Gate cross-check)",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": false,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found; pump-day flows traced to exchange-cycling wallets"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "revenue can't be measured. **2 (hard gate).**"
+  },
+  "attributions": [
+    {
+      "address": "0xa6045362e295db86da338da6b2a9f439add951b2",
+      "url": null,
+      "label": "Celer Network: Treasury (Team Wallet)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb22dc759f194f5d00f1981bf47ab5c3572562c96",
+      "url": null,
+      "label": "Celer Network: Deployer",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8a4b4c2acadeaa7206df96f00052e41d74a015ce",
+      "url": null,
+      "label": "Celer Network: Staking (verified)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0f69be25aaeeb9478fa4c9666b69bbe8bfefd107",
+      "url": null,
+      "label": "Coinbase Deposit; Coinbase Hot Wallet",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": null,
+      "label": "Coinbase Deposit; Coinbase Hot Wallet",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x758720487c5efd0947a98d81040233e2fb1d1509",
+      "url": null,
+      "label": "Bitvavo: Coinbase Prime Custody",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): the Treasury, deployer, staking contract and the Coinbase and Bitvavo wallets; dates from Etherscan",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 token transfers; Blockscout holders, verified ABI and address metadata; Ethereum RPC `owner()`, `paused()`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan labels (Celer Network: Deployer; Binance; Bitvavo Hot 3)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Celer technology page](https://celer.network/technology/) · [Celer blog](https://blog.celer.network/category/news/) · DefiLlama protocols and fees",
+      "urls": [
+        "Celer technology page",
+        "Celer blog"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [tokenomics.com CELR unlocks](https://app.tokenomics.com/tokenomics/celer-network/unlocks)",
+      "urls": [
+        "tokenomics.com CELR unlocks"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `celer-network` (16 Nov 2026 9:56 AM MST); Binance CELRUSDT daily klines (cross-checked with Gate: 26 pump days on both)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

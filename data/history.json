@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:31 MST",
+  "generated_at": "2026-11-16 12:34 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -668,6 +668,11 @@
       ]
     },
     {
+      "ticker": "CELR",
+      "path": "banking-rails/CELR.md",
+      "versions": []
+    },
+    {
       "ticker": "CFG",
       "path": "banking-rails/CFG.md",
       "versions": [
@@ -880,6 +885,11 @@
       ]
     },
     {
+      "ticker": "DIA",
+      "path": "banking-rails/DIA.md",
+      "versions": []
+    },
+    {
       "ticker": "DOT",
       "path": "banking-rails/DOT.md",
       "versions": [
@@ -971,6 +981,11 @@
       ]
     },
     {
+      "ticker": "EDEN",
+      "path": "banking-rails/EDEN.md",
+      "versions": []
+    },
+    {
       "ticker": "ENA",
       "path": "banking-rails/ENA.md",
       "versions": [
@@ -1057,6 +1072,11 @@
           "last_updated": "2026-11-15"
         }
       ]
+    },
+    {
+      "ticker": "EURE",
+      "path": "banking-rails/EURE.md",
+      "versions": []
     },
     {
       "ticker": "EWT",
@@ -1712,6 +1732,11 @@
       ]
     },
     {
+      "ticker": "LUMIA",
+      "path": "banking-rails/LUMIA.md",
+      "versions": []
+    },
+    {
       "ticker": "MASQ",
       "path": "banking-rails/MASQ.md",
       "versions": [
@@ -1978,7 +2003,32 @@
     {
       "ticker": "ORAI",
       "path": "banking-rails/ORAI.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "3ea77bb5c78ec358fec796c31e14bad7e7a8aca5",
+          "committed_at_mst": "2026-11-16 12:31 MST",
+          "subject": "v3: ORAI, SKEY, ZKJ, TRADE, RIO with Arkham attributions (16 Nov 2026 rules); TRADE Selling 3->4, SKEY Selling 6->4",
+          "overall_score": 3.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 1,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "PACT",
@@ -2368,7 +2418,32 @@
     {
       "ticker": "RIO",
       "path": "banking-rails/RIO.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "3ea77bb5c78ec358fec796c31e14bad7e7a8aca5",
+          "committed_at_mst": "2026-11-16 12:31 MST",
+          "subject": "v3: ORAI, SKEY, ZKJ, TRADE, RIO with Arkham attributions (16 Nov 2026 rules); TRADE Selling 3->4, SKEY Selling 6->4",
+          "overall_score": 2.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 3,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 2,
+            "liquidity_market": 3,
+            "product_development": 2,
+            "adoption_customers": 2,
+            "security_audits": 1,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "RLC",
@@ -2675,7 +2750,32 @@
     {
       "ticker": "SKEY",
       "path": "banking-rails/SKEY.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "3ea77bb5c78ec358fec796c31e14bad7e7a8aca5",
+          "committed_at_mst": "2026-11-16 12:31 MST",
+          "subject": "v3: ORAI, SKEY, ZKJ, TRADE, RIO with Arkham attributions (16 Nov 2026 rules); TRADE Selling 3->4, SKEY Selling 6->4",
+          "overall_score": 3.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 1,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "SKY",
@@ -3065,7 +3165,32 @@
     {
       "ticker": "TRADE",
       "path": "banking-rails/TRADE.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "3ea77bb5c78ec358fec796c31e14bad7e7a8aca5",
+          "committed_at_mst": "2026-11-16 12:31 MST",
+          "subject": "v3: ORAI, SKEY, ZKJ, TRADE, RIO with Arkham attributions (16 Nov 2026 rules); TRADE Selling 3->4, SKEY Selling 6->4",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "TRB",
@@ -3757,7 +3882,32 @@
     {
       "ticker": "ZKJ",
       "path": "banking-rails/ZKJ.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "3ea77bb5c78ec358fec796c31e14bad7e7a8aca5",
+          "committed_at_mst": "2026-11-16 12:31 MST",
+          "subject": "v3: ORAI, SKEY, ZKJ, TRADE, RIO with Arkham attributions (16 Nov 2026 rules); TRADE Selling 3->4, SKEY Selling 6->4",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "ZKP",

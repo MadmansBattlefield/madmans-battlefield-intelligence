@@ -1,12 +1,12 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:31 MST",
-  "universe": 128,
+  "generated_at": "2026-11-16 12:34 MST",
+  "universe": 133,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
     "count": 8,
-    "share": 0.0625,
+    "share": 0.0602,
     "tickers": [
       "AERO",
       "BTC",
@@ -19,8 +19,8 @@
     ]
   },
   "fail_revenue_gate": {
-    "count": 103,
-    "share": 0.8047,
+    "count": 108,
+    "share": 0.812,
     "tickers": [
       "ACH",
       "ADA",
@@ -35,6 +35,7 @@
       "BCH",
       "BP",
       "CELO",
+      "CELR",
       "CFG",
       "CFX",
       "COTI",
@@ -42,11 +43,14 @@
       "CRO",
       "CSPR",
       "DASH",
+      "DIA",
       "DOT",
       "DUSK",
       "EDEL",
+      "EDEN",
       "ENA",
       "ETC",
+      "EURE",
       "EWT",
       "EXA",
       "GRND",
@@ -64,6 +68,7 @@
       "KAIA",
       "KAIO",
       "KAVA",
+      "LUMIA",
       "MASQ",
       "MBG",
       "MINA",
@@ -129,7 +134,7 @@
   },
   "fail_selling_gate": {
     "count": 29,
-    "share": 0.2266,
+    "share": 0.218,
     "tickers": [
       "ACH",
       "API3",
@@ -164,7 +169,7 @@
   },
   "fail_both_gates": {
     "count": 26,
-    "share": 0.2031,
+    "share": 0.1955,
     "tickers": [
       "ACH",
       "COTI",
@@ -196,7 +201,7 @@
   },
   "proven_pump_day_sale": {
     "count": 47,
-    "share": 0.3672,
+    "share": 0.3534,
     "tickers": [
       "ACH",
       "AERO",
@@ -249,7 +254,7 @@
   },
   "pump_day_sale_unclear": {
     "count": 10,
-    "share": 0.0781,
+    "share": 0.0752,
     "tickers": [
       "BCH",
       "BNKR",
@@ -264,8 +269,8 @@
     ]
   },
   "selling_not_proven": {
-    "count": 65,
-    "share": 0.5078,
+    "count": 67,
+    "share": 0.5038,
     "tickers": [
       "ADA",
       "AEON",
@@ -279,6 +284,7 @@
       "CRO",
       "CSPR",
       "DOT",
+      "EDEN",
       "EXA",
       "FXS",
       "H",
@@ -294,6 +300,7 @@
       "IOTX",
       "JASMY",
       "KAIA",
+      "LUMIA",
       "MASQ",
       "MBG",
       "NIGHT",
@@ -335,8 +342,8 @@
     ]
   },
   "selling_score_equals_4": {
-    "count": 52,
-    "share": 0.4062,
+    "count": 54,
+    "share": 0.406,
     "tickers": [
       "AEON",
       "APT",
@@ -346,6 +353,7 @@
       "CRO",
       "CSPR",
       "DOT",
+      "EDEN",
       "EXA",
       "FXS",
       "H",
@@ -356,6 +364,7 @@
       "IOST",
       "IOTX",
       "KAIA",
+      "LUMIA",
       "MASQ",
       "MBG",
       "NIGHT",
@@ -394,7 +403,7 @@
   },
   "undisclosed_pump_day_sale_silence": {
     "count": 25,
-    "share": 0.1953,
+    "share": 0.188,
     "tickers": [
       "ACH",
       "CARDS",
@@ -425,7 +434,7 @@
   },
   "revenue_reaches_holders_yes": {
     "count": 14,
-    "share": 0.1094,
+    "share": 0.1053,
     "tickers": [
       "AERO",
       "AVAX",
@@ -444,22 +453,27 @@
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 30,
-    "share": 0.2344,
+    "count": 35,
+    "share": 0.2632,
     "tickers": [
       "ACH",
       "AEON",
       "ARB",
       "BTC",
       "CARDS",
+      "CELR",
       "CFG",
+      "DIA",
       "DOT",
+      "EDEN",
       "ENA",
+      "EURE",
       "EWT",
       "GRND",
       "HUMA",
       "HYPER",
       "IOST",
+      "LUMIA",
       "MINA",
       "ONDO",
       "ORAI",
@@ -481,7 +495,7 @@
   },
   "revenue_reaches_holders_unclear": {
     "count": 84,
-    "share": 0.6562,
+    "share": 0.6316,
     "tickers": [
       "ADA",
       "ALGO",

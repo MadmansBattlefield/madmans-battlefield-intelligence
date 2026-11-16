@@ -1,0 +1,328 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "EURE",
+  "name": "Monerium EUR e-money (EURe)",
+  "chain": "gnosis + ethereum + 5 more",
+  "contract": "0x420ca0f9b9b604ce0fd9c18ef134c705e5fa3430",
+  "overall_score": 5.0,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 6,
+    "insider_holdings": 6,
+    "selling_behavior": 6,
+    "tokenomics_supply": 7,
+    "liquidity_market": 4,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 7,
+    "catalysts": 3
+  },
+  "sections_passed": 7,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "asset_type": "EUR e-money token (stablecoin), not an investment token",
+    "hack_exploit": "none found",
+    "mint_path_live": "yes, issuer mint against euro deposits; Ethereum max mint allowance 21,000,000; owner 0x5591a6495d726c7efafb9a9dad32695d137b4d9f (3-of-6 Safe)",
+    "team_wallet_to_exchange_during_pump": "not applicable (EUR peg, no CEX market)",
+    "reserve_attestation": "none published"
+  },
+  "price_usd": 1.1,
+  "price_source": "CoinGecko, 16 Nov 2026 9:56 AM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "EURe is e-money with no yield to holders and Monerium's reserve income stays with the issuer, so revenue does not reach holders.",
+    "pump_day_price_source": "not applicable (EUR peg, no CEX market)",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x39b8b6385416f4ca36a20319f70d28621895279d",
+        "label": "Monerium: Monerium EURe (token)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + Etherscan"
+      },
+      {
+        "address": "0x5591a6495d726c7efafb9a9dad32695d137b4d9f",
+        "label": "Gnosis Safe Proxy (generic); token owner() on-chain",
+        "confidence": "medium",
+        "independent_corroboration": true,
+        "basis": "Arkham + RPC owner()"
+      },
+      {
+        "address": "0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b",
+        "label": "BlacklistValidatorUpgradeable (verified proxy)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + RPC validator()"
+      },
+      {
+        "address": "0xe34cc5d6a66328cde7caf0155f8dffebd953c201",
+        "label": "Not read on Arkham [Unverified]",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 1.1,
+    "market_cap_text": "$28.2M",
+    "volume_24h_text": "$1.34M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/EURE.md",
+    "sha256": "4d8c1c73dcfe698c84aafcf6c3edae5c78412cdf633e023905610ddc7ed70647",
+    "bytes": 13812,
+    "extracted_at": "2026-11-16 12:34 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 9:56 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Ethereum issuance owned by a 3-of-6 Safe",
+      "url": "0x5591…4d9f",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Gnosis issuance owned by a 3-of-6 Safe",
+      "url": "0x8001…19ec",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "EMI under MiCA, redeemable at par",
+      "url": "white paper",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b",
+      "url": "https://etherscan.io/address/0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0cc2caed31490b546c741bd93dbba8ab387f7f2c",
+      "url": "https://etherscan.io/address/0x0cC2CaeD31490B546c741BD93dbba8Ab387f7F2c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5591a6495d726c7efafb9a9dad32695d137b4d9f",
+      "url": "https://etherscan.io/address/0x5591a6495d726c7efafb9a9dad32695d137b4d9f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe34cc5d6a66328cde7caf0155f8dffebd953c201",
+      "url": "https://etherscan.io/address/0xE34cC5d6A66328CdE7cAf0155f8DfFEBd953C201",
+      "kind": "address"
+    },
+    {
+      "chain": "gnosis",
+      "address": "0x8001ea269cb9715bf7acff89c664ffc134a519ec",
+      "url": "https://gnosisscan.io/address/0x8001ea269cb9715bf7acff89c664ffc134a519ec",
+      "kind": "address"
+    },
+    {
+      "chain": "gnosis + ethereum + 5 more",
+      "address": "0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b",
+      "url": "https://intel.arkm.com/explorer/address/0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b",
+      "kind": "address"
+    },
+    {
+      "chain": "gnosis + ethereum + 5 more",
+      "address": "0x39b8b6385416f4ca36a20319f70d28621895279d",
+      "url": "https://intel.arkm.com/explorer/address/0x39b8b6385416f4ca36a20319f70d28621895279d",
+      "kind": "address"
+    },
+    {
+      "chain": "gnosis + ethereum + 5 more",
+      "address": "0x5591a6495d726c7efafb9a9dad32695d137b4d9f",
+      "url": "https://intel.arkm.com/explorer/address/0x5591a6495d726c7efafb9a9dad32695d137b4d9f",
+      "kind": "address"
+    },
+    {
+      "chain": "gnosis + ethereum + 5 more",
+      "address": "0xe34cc5d6a66328cde7caf0155f8dffebd953c201",
+      "url": "https://intel.arkm.com/explorer/address/0xe34cc5d6a66328cde7caf0155f8dffebd953c201",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "not applicable (EUR peg, no CEX market)",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": false,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not applicable (EUR peg, no CEX market)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "this framework scores protocol revenue; a regulated e-money token has none to holders. **3 (hard gate).**"
+  },
+  "attributions": [
+    {
+      "address": "0x39b8b6385416f4ca36a20319f70d28621895279d",
+      "url": null,
+      "label": "Monerium: Monerium EURe (token)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5591a6495d726c7efafb9a9dad32695d137b4d9f",
+      "url": null,
+      "label": "Gnosis Safe Proxy (generic); token owner() on-chain",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x03b15b0fd8dc5fd25d52fe3cf5f82135d80c641b",
+      "url": null,
+      "label": "BlacklistValidatorUpgradeable (verified proxy)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe34cc5d6a66328cde7caf0155f8dffebd953c201",
+      "url": null,
+      "label": "Not read on Arkham [Unverified]",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): the EURe token, the issuance Safe, the validator and the largest holder",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Monerium EURe MiCA white paper](https://monerium.com/whitepapers/eure-whitepaper.xhtml) · [Monerium 2023 risk assessment](https://monerium.com/blog/2023/eure-asset-risk-assessment/)",
+      "urls": [
+        "Monerium EURe MiCA white paper",
+        "Monerium 2023 risk assessment"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 `tokensupply` (Ethereum, Polygon, Arbitrum); Gnosis and Linea RPC `totalSupply`; Ethereum and Gnosis RPC reads of `owner()`, `getThreshold()`, `getOwners()`, `getMaxMintAllowance()`, `validator()`; Blockscout Ethereum holders and verified ABI",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [cjsoi EURe profile](https://www.cjsoi.com/stablecoin-list/eure) · [Skrumble EURe explainer](https://skrumble.com/stablecoins/eure/)",
+      "urls": [
+        "cjsoi EURe profile",
+        "Skrumble EURe explainer"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `monerium-eur-money-2` (16 Nov 2026 9:56 AM MST)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}
