@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: 120M minted once on 14 Jul 2023"
   team_wallet_to_exchange_during_pump: "not proven: mint-line wallets sent ~5.1M SWCH to Gate, Bitget and MEXC in Jan-Jun 2026, none on a pump day (MEXC closes)"
   entity_concentration: "not proven: the mint wallet spread all 120M to 11 wallets in 2023-2024; current holders mostly exchanges"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No fee or revenue data."
+pump_day_price_source: "MEXC SWCH/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.01695
 price_source: "CoinGecko, 16 Nov 2026 ~9:35 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - No fee or revenue data. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee or revenue data.
+
 ## 🏛️ Foundation & team — Who is in charge? · 2/10 · ❌ FAIL
 
 - No verifiable leadership. An independent risk rater flags missing team data (Tier B).
@@ -95,6 +105,8 @@ layout_version: 3
 | 5–6 Feb 2026 | 0x4a81 (mint → 0xfab9 → 0x4a81) | Gate, MEXC | 1,275,000 | $0.087 | $112k | No | [0x4d3f…](https://polygonscan.com/tx/0x4d3ff67d497bf866831c6d8f88828e7aef9e0ecedfffb1db6b3887937dd925a9) |
 
 - Method: a 3-hop trace from the mint wallet on Polygon (Etherscan v2 API, Polygonscan labels), counting transfers of 500k+ SWCH. Pump days use MEXC SWCH/USDT daily closes. CoinGecko's series for this coin swings wildly (for example $0.134 → $0.061 → $0.185 in a week of Mar 2026), so I did not use it. All linked transactions returned status 1. The deposits are steady, but none fell on a pump day, and 98M SWCH is unlocated → **not proven, 4.**
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from MEXC SWCH/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -133,8 +145,17 @@ layout_version: 3
 | Live mint path | 🟢 None |
 | Entity concentration | ⚪ Not proven (98M not located) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Mint-line wallets → Gate, Bitget, MEXC | SwissBorg mint line | Polygonscan | high | yes | None: no deposit on a pump day |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Polygonscan / Etherscan v2 (chain 137) transfers, balances, labels; receipts checked 16 Nov 2026
 - [Tier A] CoinGecko `swisscheese` (market, venues); pump days from MEXC SWCHUSDT daily closes
 - [Tier B] [CoinMarketCap](https://coinmarketcap.com/currencies/swisscheese/) (circulating 43.7M), [Token Vitals](https://tokenvitals.com/token/swch) (team, audit, Bitget delisting)

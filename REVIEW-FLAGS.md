@@ -1,6 +1,6 @@
 ---
 title: Review flags
-generated_at: 2026-11-16 14:26 MST
+generated_at: 2026-11-16 14:27 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Scores on this page were not changed.
 ---
@@ -17,7 +17,7 @@ The rules these flags apply are in [METHODOLOGY.md](METHODOLOGY.md). Machine-rea
 
 Rule: only a verified entity label with on-chain proof, or a second independent source, can move a Selling or Holdings score. Prediction labels and unlabelled attributions cannot move those scores by themselves.
 
-**8 report(s) flagged.**
+**7 report(s) flagged.**
 
 | Ticker | Selling | Holdings | Why |
 |---|---:|---:|---|
@@ -26,7 +26,6 @@ Rule: only a verified entity label with on-chain proof, or a second independent 
 | [COTI](banking-rails/COTI.md) | 0 | 2 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [FXS](banking-rails/FXS.md) | 1 | 4 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [HYPER](banking-rails/HYPER.md) | 0 | 3 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
-| [W](banking-rails/W.md) | 3 | 3 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [XPL](banking-rails/XPL.md) | 1 | 3 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [ZBCN](banking-rails/ZBCN.md) | 1 | 4 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 

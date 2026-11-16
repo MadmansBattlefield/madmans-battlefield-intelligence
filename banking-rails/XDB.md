@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: native supply fixed; 80B hard-burned at the outset, quarterly burns since"
   team_wallet_to_exchange_during_pump: "yes (pattern): the disclosed treasury funded a wallet that sent all 95.5M XDB to memo-tagged exchange-pattern deposit addresses, 5 deposits (6.5M) on pump days; exchange label [Unverified]"
   treasury_in_single_key_wallet: "yes: the disclosed treasury (1.57B XDB) is controlled by one master key"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Burns are funded by Branded Coin pledges, not fees, and no business revenue flows to the token."
+pump_day_price_source: "the daily closes cited in the body"
+pump_day_disclosure_quality: buried_disclosure
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.00005306
 price_source: "CoinGecko, 16 Nov 2026 7:33 AM MST"
 last_updated: 2026-11-16
@@ -82,6 +90,8 @@ layout_version: 3
 
 **What it means:** Fees are near zero and no business revenue flows to the token. Burns are funded by "Branded Coin" projects pledging part of their own tokens, which in Jan 2026 had to be sold OTC "in light of lack of liquidity" ([XDB news, Burn Event #7](https://xdbchain.com/news/)). **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Burns are funded by Branded Coin pledges, not fees, and no business revenue flows to the token.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 - The DigitalBits Foundation became the **XDB Foundation** when the chain was rebranded on 4 Oct 2023 ([rebrand release](https://chainwire.org/2023/10/04/digitalbits-blockchain-evolves-into-xdb-chain-a-game-changing-rebranding-initiative/), Tier B). The network relaunched with the passphrase "LiveNet Global XDBChain Network ; November 2023" ([Horizon root](https://horizon.livenet.xdbchain.com/)).
@@ -107,6 +117,8 @@ layout_version: 3
 - `GAO6XKBJ` holds **1.08B XDB** and its recent transactions carry many different deposit memos ("0", "12345", "test" and others) from many senders, which is what a centralized-exchange deposit wallet looks like. `GDXOD6WU` also takes numeric text memos from several senders. **Neither is labelled** on a public explorer, so the exchange attribution is [Unverified].
 - The treasury also sent 61.0M on [14 Mar 2024](https://explorer.xdbchain.com/transaction/265a1351dae1597a60eb840143c188a4162c3711331194b825b54e101168b0a2) to a wallet that split it into hundreds of small payments (distribution-style), and 21.6M on [28 Oct 2026](https://explorer.xdbchain.com/transaction/6d4e4445048e40afda842c392581feabadec53d5ce75853c38888a03ae45c118) to `GACZS4QX…` (still holds 22.8M; it had already sent 5.9M to `GAO6XKBJ` in Oct).
 - **Score 3:** a disclosed treasury key funded a wallet that fed one exchange-pattern deposit stream for seven months, including pump days, with no announcement. The amounts are small, and the exchange label is not confirmed.
+
+- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** XDB's Burn Event #7 notice disclosed an OTC sale "in light of lack of liquidity", but not these deposits, so disclosure is partial and no penalty applies; Selling stays 3. Pump days from the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -148,8 +160,17 @@ layout_version: 3
 | Live mint path | 🟢 None (fixed native supply) |
 | Treasury in a single-key wallet | 🔴 Yes, 1.57B XDB |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Disclosed treasury → `GDMLQS4L` (30 Jan 2026) | XDB treasury | XDB explorer + project disclosure | high | yes | Selling: 95.5M XDB to memo-tagged exchange-pattern deposits, 6.5M on pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] XDB CHAIN Horizon API: root, latest ledger, `/accounts/{id}` for the treasury, burn address and recipients, `/accounts/{id}/payments` and `/transactions/{hash}`; read 16 Nov 2026 ~7:40–7:50 AM MST. Every linked transaction returned `successful: true`
 - [Tier A] [XDB CHAIN network paper](https://xdbchain.com/network-paper/) (supply definitions, treasury and burn addresses); [XDB CHAIN news](https://xdbchain.com/news/) (Burn Event #7, Alchemy Pay)
 - [Tier B] [Rebrand release, 4 Oct 2023](https://chainwire.org/2023/10/04/digitalbits-blockchain-evolves-into-xdb-chain-a-game-changing-rebranding-initiative/)

@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:26 MST",
+  "generated_at": "2026-11-16 14:27 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -2874,9 +2874,9 @@
       "path": "banking-rails/QUAI.md",
       "versions": [
         {
-          "commit": "78f06b60984377ebaa982af826c7a9121981898f",
-          "committed_at_mst": "2026-11-16 06:22 MST",
-          "subject": "Add SKY, ENA, PACT, JST, QUAI v3 reports with Arkham evidence; ranking 33 notes",
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
           "overall_score": 4.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2987,9 +2987,9 @@
       "path": "banking-rails/RED.md",
       "versions": [
         {
-          "commit": "fc426d12e35e0ba35444db8959a8efb21014e501",
-          "committed_at_mst": "2026-11-16 09:35 MST",
-          "subject": "Add RED, PUNDIX, STBL, SHARE v3 reports with Arkham evidence; PUNDIX holder is Upbit (holdings 2->4, selling 3->4); ranking 108",
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
           "overall_score": 4.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3040,6 +3040,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "overall_score": 3.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 1,
+            "tokenomics_supply": 6,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 5,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -3048,9 +3073,9 @@
       "path": "banking-rails/REUSD.md",
       "versions": [
         {
-          "commit": "652061ce5129c63dbd9f49ba82e4dce98eb49a8f",
-          "committed_at_mst": "2026-11-16 09:24 MST",
-          "subject": "Add REUSD, RVN, CFX v3 reports; REUSD Arkham notes, CFX Arkham coverage note; ranking 99",
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
           "overall_score": 5.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3159,6 +3184,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 5,
+            "selling_behavior": 1,
+            "tokenomics_supply": 8,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -3195,9 +3245,9 @@
       "path": "banking-rails/ROSE.md",
       "versions": [
         {
-          "commit": "395f117d3c3c8330a538cfcfafe909c5c7312ea5",
-          "committed_at_mst": "2026-11-16 06:46 MST",
-          "subject": "Add CARDS, ZIG, ADA, ROSE, SPA v3 reports with Arkham evidence; ranking 38 notes",
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3281,9 +3331,9 @@
       "path": "banking-rails/RVN.md",
       "versions": [
         {
-          "commit": "652061ce5129c63dbd9f49ba82e4dce98eb49a8f",
-          "committed_at_mst": "2026-11-16 09:24 MST",
-          "subject": "Add REUSD, RVN, CFX v3 reports; REUSD Arkham notes, CFX Arkham coverage note; ranking 99",
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
           "overall_score": 4.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3321,6 +3371,31 @@
             "foundation_team": 5,
             "insider_holdings": 4,
             "selling_behavior": 2,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 2,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "overall_score": 3.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 0,
             "tokenomics_supply": 3,
             "liquidity_market": 4,
             "product_development": 6,
@@ -3372,9 +3447,9 @@
       "path": "banking-rails/SEI.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3458,9 +3533,9 @@
       "path": "banking-rails/SHARE.md",
       "versions": [
         {
-          "commit": "25340a1c6174c17c0b586788a6e84fdc754c1c0e",
-          "committed_at_mst": "2026-11-16 09:50 MST",
-          "subject": "Add SHX v3 report (Kraken deposit flows traced to Stellar via Axelar); STBL and SHARE second Arkham pass; ranking 113",
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
           "overall_score": 3.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3519,9 +3594,9 @@
       "path": "banking-rails/SHX.md",
       "versions": [
         {
-          "commit": "25340a1c6174c17c0b586788a6e84fdc754c1c0e",
-          "committed_at_mst": "2026-11-16 09:50 MST",
-          "subject": "Add SHX v3 report (Kraken deposit flows traced to Stellar via Axelar); STBL and SHARE second Arkham pass; ranking 113",
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3685,6 +3760,30 @@
           },
           "gates_failed": [],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "overall_score": 4.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 1,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 6,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -3716,6 +3815,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "overall_score": 2.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 2,
+            "selling_behavior": 0,
+            "tokenomics_supply": 3,
+            "liquidity_market": 2,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -3724,9 +3848,9 @@
       "path": "banking-rails/STBL.md",
       "versions": [
         {
-          "commit": "25340a1c6174c17c0b586788a6e84fdc754c1c0e",
-          "committed_at_mst": "2026-11-16 09:50 MST",
-          "subject": "Add SHX v3 report (Kraken deposit flows traced to Stellar via Axelar); STBL and SHARE second Arkham pass; ranking 113",
+          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
+          "committed_at_mst": "2026-11-16 14:26 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
           "overall_score": 3.3,
           "overall_verdict": "FAIL",
           "section_scores": {

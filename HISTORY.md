@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:26 MST
+generated_at: 2026-11-16 14:27 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -102,16 +102,16 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [RBNT](banking-rails/RBNT.md) | 2 | 3.5 | 3.1 | 2 | 4 → 1 | 2 |
 | [REALIZ](banking-rails/REALIZ.md) | 1 | 2.1 | 2.1 | 1 | 4 | 1 |
 | [RED](banking-rails/RED.md) | 1 | 4.3 | 4.3 | 2 | 4 | 4 |
-| [REQ](banking-rails/REQ.md) | 1 | 4.2 | 4.2 | 2 | 3 | 3 |
+| [REQ](banking-rails/REQ.md) | 2 | 4.2 | 3.9 | 2 | 3 → 1 | 3 |
 | [REUSD](banking-rails/REUSD.md) | 1 | 5.5 | 5.5 | 7 | 4 | 6 |
 | [RIO](banking-rails/RIO.md) | 1 | 2.7 | 2.7 | 2 | 4 | 3 |
 | [RISE](banking-rails/RISE.md) | 1 | 3.8 | 3.8 | 2 | 4 | 3 |
-| [RLC](banking-rails/RLC.md) | 1 | 4.3 | 4.3 | 2 | 3 | 5 |
+| [RLC](banking-rails/RLC.md) | 2 | 4.3 | 4.0 | 2 | 3 → 1 | 5 |
 | [RLS](banking-rails/RLS.md) | 1 | 4.5 | 4.5 | 4 | 5 | 3 |
 | [ROSE](banking-rails/ROSE.md) | 1 | 3.8 | 3.8 | 1 | 5 | 4 |
 | [ROUTER](banking-rails/ROUTER.md) | 2 | 2.2 | 2.0 | 1 | 1 → 0 | 2 |
 | [RVN](banking-rails/RVN.md) | 1 | 4.4 | 4.4 | 1 | 7 | 9 |
-| [S](banking-rails/S.md) | 1 | 3.3 | 3.3 | 1 | 2 | 4 |
+| [S](banking-rails/S.md) | 2 | 3.3 | 3.0 | 1 | 2 → 0 | 4 |
 | [SCRT](banking-rails/SCRT.md) | 1 | 2.6 | 2.6 | 2 | 4 | 2 |
 | [SEI](banking-rails/SEI.md) | 1 | 4.0 | 4.0 | 1 | 4 | 3 |
 | [SERV](banking-rails/SERV.md) | 2 | 2.8 | 2.6 | 2 | 1 → 0 | 3 |
@@ -122,8 +122,8 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [SKEY](banking-rails/SKEY.md) | 1 | 3.4 | 3.4 | 2 | 4 | 3 |
 | [SKY](banking-rails/SKY.md) | 1 | 6.8 | 6.8 | 8 | 6 | 6 |
 | [SOL](banking-rails/SOL.md) | 1 | 6.6 | 6.6 | 6 | 5 | 5 |
-| [SOLV](banking-rails/SOLV.md) | 1 | 4.7 | 4.7 | 4 | 5 | 4 |
-| [SPA](banking-rails/SPA.md) | 1 | 2.5 | 2.5 | 1 | 2 | 2 |
+| [SOLV](banking-rails/SOLV.md) | 2 | 4.7 | 4.2 | 4 | 5 → 1 | 4 |
+| [SPA](banking-rails/SPA.md) | 2 | 2.5 | 2.2 | 1 | 2 → 0 | 2 |
 | [STBL](banking-rails/STBL.md) | 1 | 3.3 | 3.3 | 2 | 4 | 3 |
 | [SUI](banking-rails/SUI.md) | 1 | 3.7 | 3.7 | 1 | 2 | 2 |
 | [SUPRA](banking-rails/SUPRA.md) | 1 | 3.6 | 3.6 | 2 | 4 | 3 |
@@ -342,7 +342,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `c1ac11a` | 2026-11-16 04:55 MST | 4.6 | FAIL | 4 | 3 | 3 | selling_behavior |
 | `03adc39` | 2026-11-16 14:24 MST | 4.3 | FAIL | 4 | 1 | 3 | selling_behavior |
 
-- **QUAI** — 4.9 FAIL in `78f06b6` (2026-11-16 06:22 MST).
+- **QUAI** — 4.9 FAIL in `9373285` (2026-11-16 14:26 MST).
 ### RBNT
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -351,14 +351,26 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `73d9a3c` | 2026-11-16 13:58 MST | 3.1 | FAIL | 2 | 1 | 2 | revenue, selling_behavior |
 
 - **REALIZ** — 2.1 FAIL in `f161485` (2026-11-16 13:54 MST).
-- **RED** — 4.3 FAIL in `fc426d1` (2026-11-16 09:35 MST).
-- **REQ** — 4.2 FAIL in `16d387f` (2026-11-16 08:50 MST).
-- **REUSD** — 5.5 FAIL in `652061c` (2026-11-16 09:24 MST).
+- **RED** — 4.3 FAIL in `9373285` (2026-11-16 14:26 MST).
+### REQ
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `16d387f` | 2026-11-16 08:50 MST | 4.2 | FAIL | 2 | 3 | 3 | revenue, selling_behavior |
+| `9373285` | 2026-11-16 14:26 MST | 3.9 | FAIL | 2 | 1 | 3 | revenue, selling_behavior |
+
+- **REUSD** — 5.5 FAIL in `9373285` (2026-11-16 14:26 MST).
 - **RIO** — 2.7 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
 - **RISE** — 3.8 FAIL in `f161485` (2026-11-16 13:54 MST).
-- **RLC** — 4.3 FAIL in `8606bea` (2026-11-16 09:12 MST).
+### RLC
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `8606bea` | 2026-11-16 09:12 MST | 4.3 | FAIL | 2 | 3 | 5 | revenue, selling_behavior |
+| `9373285` | 2026-11-16 14:26 MST | 4.0 | FAIL | 2 | 1 | 5 | revenue, selling_behavior |
+
 - **RLS** — 4.5 FAIL in `5420ac2` (2026-11-16 12:27 MST).
-- **ROSE** — 3.8 FAIL in `395f117` (2026-11-16 06:46 MST).
+- **ROSE** — 3.8 FAIL in `9373285` (2026-11-16 14:26 MST).
 ### ROUTER
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -366,10 +378,16 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `6fa4721` | 2026-11-15 18:37 MST | 2.2 | FAIL | 1 | 1 | 2 | revenue, selling_behavior |
 | `a8496ab` | 2026-11-16 14:06 MST | 2.0 | FAIL | 1 | 0 | 2 | revenue, selling_behavior |
 
-- **RVN** — 4.4 FAIL in `652061c` (2026-11-16 09:24 MST).
-- **S** — 3.3 FAIL in `a4bf82b` (2026-11-16 07:42 MST).
+- **RVN** — 4.4 FAIL in `9373285` (2026-11-16 14:26 MST).
+### S
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `a4bf82b` | 2026-11-16 07:42 MST | 3.3 | FAIL | 1 | 2 | 4 | revenue, selling_behavior |
+| `9373285` | 2026-11-16 14:26 MST | 3.0 | FAIL | 1 | 0 | 4 | revenue, selling_behavior |
+
 - **SCRT** — 2.6 FAIL in `3539092` (2026-11-16 12:36 MST).
-- **SEI** — 4.0 FAIL in `6fa4721` (2026-11-15 18:37 MST).
+- **SEI** — 4.0 FAIL in `9373285` (2026-11-16 14:26 MST).
 ### SERV
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -377,16 +395,28 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `6fa4721` | 2026-11-15 18:37 MST | 2.8 | FAIL | 2 | 1 | 3 | revenue, selling_behavior |
 | `a8496ab` | 2026-11-16 14:06 MST | 2.6 | FAIL | 2 | 0 | 3 | revenue, selling_behavior |
 
-- **SHARE** — 3.3 FAIL in `25340a1` (2026-11-16 09:50 MST).
+- **SHARE** — 3.3 FAIL in `9373285` (2026-11-16 14:26 MST).
 - **SHPING** — 3.3 FAIL in `e6e1480` (2026-11-16 13:52 MST).
-- **SHX** — 3.6 FAIL in `25340a1` (2026-11-16 09:50 MST).
+- **SHX** — 3.6 FAIL in `9373285` (2026-11-16 14:26 MST).
 - **SIBERIUM** — 1.9 FAIL in `f161485` (2026-11-16 13:54 MST).
 - **SKEY** — 3.4 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
 - **SKY** — 6.8 PASS in `6723e4d` (2026-11-16 14:02 MST).
 - **SOL** — 6.6 PASS in `6723e4d` (2026-11-16 14:02 MST).
-- **SOLV** — 4.7 FAIL in `0a6d1a7` (2026-11-16 07:39 MST).
-- **SPA** — 2.5 FAIL in `395f117` (2026-11-16 06:46 MST).
-- **STBL** — 3.3 FAIL in `25340a1` (2026-11-16 09:50 MST).
+### SOLV
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `0a6d1a7` | 2026-11-16 07:39 MST | 4.7 | FAIL | 4 | 5 | 4 | — |
+| `9373285` | 2026-11-16 14:26 MST | 4.2 | FAIL | 4 | 1 | 4 | selling_behavior |
+
+### SPA
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `395f117` | 2026-11-16 06:46 MST | 2.5 | FAIL | 1 | 2 | 2 | revenue, selling_behavior |
+| `9373285` | 2026-11-16 14:26 MST | 2.2 | FAIL | 1 | 0 | 2 | revenue, selling_behavior |
+
+- **STBL** — 3.3 FAIL in `9373285` (2026-11-16 14:26 MST).
 - **SUI** — 3.7 FAIL in `132f0fd` (2026-11-16 06:50 MST).
 - **SUPRA** — 3.6 FAIL in `3539092` (2026-11-16 12:36 MST).
 - **SWCH** — 2.5 FAIL in `f7bbe5f` (2026-11-16 09:41 MST).

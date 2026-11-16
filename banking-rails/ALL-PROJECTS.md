@@ -26,10 +26,10 @@ Live counts across all **148** published v3 reports. Rebuilt on every push. Full
 |---|---:|---:|
 | ✅ Pass overall | **7** | 5% |
 | 🔴 Fail on revenue (Revenue 3 or below) | **123** | 83% |
-| 🔴 Fail on insider selling (Selling 3 or below) | **36** | 24% |
-| 🔴 Fail both | **30** | 20% |
+| 🔴 Fail on insider selling (Selling 3 or below) | **35** | 24% |
+| 🔴 Fail both | **29** | 20% |
 | 🟨 Insider selling not proven | **76** | 51% |
-| 🤐 Pump-day sale with no disclosure | **29** | 20% |
+| 🤐 Pump-day sale with no disclosure | **28** | 19% |
 
 - [✅ Done (v3 reports)](#done)
 - [🟢 Close](#close)
@@ -123,24 +123,24 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 68 | [KAIA](KAIA.md) | Kaia | 3.9 | ❌ FAIL | Revenue gate |
 | 69 | [CFX](CFX.md) | Conflux | 3.9 | ❌ FAIL | Revenue gate |
 | 70 | [INJ](INJ.md) | Injective | 3.9 | ❌ FAIL | Revenue gate |
-| 71 | [MBG](MBG.md) | MBG By MultiBank Group | 3.9 | ❌ FAIL | Revenue gate |
-| 72 | [PHA](PHA.md) | Phala Network | 3.8 | ❌ FAIL | Revenue and Selling gates |
-| 73 | [ZK](ZK.md) | ZKsync | 3.8 | ❌ FAIL | Revenue and Selling gates |
-| 74 | [TRB](TRB.md) | Tellor | 3.8 | ❌ FAIL | Revenue and Selling gates |
+| 71 | [W](W.md) | Wormhole | 3.9 | ❌ FAIL | Revenue gate |
+| 72 | [MBG](MBG.md) | MBG By MultiBank Group | 3.9 | ❌ FAIL | Revenue gate |
+| 73 | [PHA](PHA.md) | Phala Network | 3.8 | ❌ FAIL | Revenue and Selling gates |
+| 74 | [ZK](ZK.md) | ZKsync | 3.8 | ❌ FAIL | Revenue and Selling gates |
 | 75 | [ZAMA](ZAMA.md) | Zama | 3.8 | ❌ FAIL | Revenue and Selling gates |
 | 76 | [ROSE](ROSE.md) | Oasis Network | 3.8 | ❌ FAIL | Revenue gate |
 | 77 | [XDC](XDC.md) | XDC Network | 3.8 | ❌ FAIL | Revenue gate |
 | 78 | [NIGHT](NIGHT.md) | Midnight | 3.8 | ❌ FAIL | Revenue gate |
 | 79 | [ZANO](ZANO.md) | Zano | 3.8 | ❌ FAIL | Revenue gate |
 | 80 | [NEXA](NEXA.md) | Nexa | 3.8 | ❌ FAIL | Revenue gate |
-| 81 | [W](W.md) | Wormhole | 3.8 | ❌ FAIL | Revenue and Selling gates |
-| 82 | [ASTR](ASTR.md) | Astar | 3.8 | ❌ FAIL | Revenue gate |
-| 83 | [ORBITER](ORBITER.md) | Orbiter Finance (OBT) | 3.8 | ❌ FAIL | Revenue gate |
-| 84 | [RISE](RISE.md) | T-RIZE (RIZE) | 3.8 | ❌ FAIL | Revenue gate |
-| 85 | [HASH](HASH.md) | Provenance Blockchain | 3.8 | ❌ FAIL | Revenue gate |
-| 86 | [AXL](AXL.md) | Axelar | 3.8 | ❌ FAIL | Revenue gate |
-| 87 | [SWFTC](SWFTC.md) | SWFT Blockchain | 3.8 | ❌ FAIL | Revenue gate |
-| 88 | [ZKJ](ZKJ.md) | Polyhedra Network | 3.8 | ❌ FAIL | Revenue gate |
+| 81 | [ASTR](ASTR.md) | Astar | 3.8 | ❌ FAIL | Revenue gate |
+| 82 | [ORBITER](ORBITER.md) | Orbiter Finance (OBT) | 3.8 | ❌ FAIL | Revenue gate |
+| 83 | [RISE](RISE.md) | T-RIZE (RIZE) | 3.8 | ❌ FAIL | Revenue gate |
+| 84 | [HASH](HASH.md) | Provenance Blockchain | 3.8 | ❌ FAIL | Revenue gate |
+| 85 | [AXL](AXL.md) | Axelar | 3.8 | ❌ FAIL | Revenue gate |
+| 86 | [SWFTC](SWFTC.md) | SWFT Blockchain | 3.8 | ❌ FAIL | Revenue gate |
+| 87 | [ZKJ](ZKJ.md) | Polyhedra Network | 3.8 | ❌ FAIL | Revenue gate |
+| 88 | [TRB](TRB.md) | Tellor | 3.7 | ❌ FAIL | Revenue and Selling gates |
 | 89 | [PLUME](PLUME.md) | Plume | 3.7 | ❌ FAIL | Revenue gate |
 | 90 | [XPL](XPL.md) | Plasma | 3.7 | ❌ FAIL | Revenue and Selling gates |
 | 91 | [SUI](SUI.md) | Sui | 3.7 | ❌ FAIL | Revenue and Selling gates |
@@ -183,12 +183,12 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 128 | [IOST](IOST.md) | IOST | 3.1 | ❌ FAIL | Revenue gate |
 | 129 | [POLYX](POLYX.md) | Polymesh | 3.0 | ❌ FAIL | Revenue and Selling gates |
 | 130 | [S](S.md) | Sonic | 3.0 | ❌ FAIL | Revenue and Selling gates |
-| 131 | [TLOS](TLOS.md) | Telos | 3.0 | ❌ FAIL | Revenue and Selling gates |
-| 132 | [ORAI](ORAI.md) | Oraichain | 3.0 | ❌ FAIL | Revenue gate |
-| 133 | [XDB](XDB.md) | XDB CHAIN (formerly DigitalBits) | 2.9 | ❌ FAIL | Revenue and Selling gates |
-| 134 | [PACT](PACT.md) | PACT | 2.9 | ❌ FAIL | Revenue and Selling gates |
-| 135 | [JASMY](JASMY.md) | JasmyCoin | 2.8 | ❌ FAIL | Revenue and Selling gates |
-| 136 | [MASQ](MASQ.md) | MASQ | 2.7 | ❌ FAIL | Revenue gate |
+| 131 | [ORAI](ORAI.md) | Oraichain | 3.0 | ❌ FAIL | Revenue gate |
+| 132 | [XDB](XDB.md) | XDB CHAIN (formerly DigitalBits) | 2.9 | ❌ FAIL | Revenue and Selling gates |
+| 133 | [PACT](PACT.md) | PACT | 2.9 | ❌ FAIL | Revenue and Selling gates |
+| 134 | [JASMY](JASMY.md) | JasmyCoin | 2.8 | ❌ FAIL | Revenue and Selling gates |
+| 135 | [MASQ](MASQ.md) | MASQ | 2.7 | ❌ FAIL | Revenue gate |
+| 136 | [TLOS](TLOS.md) | Telos | 2.7 | ❌ FAIL | Revenue and Selling gates |
 | 137 | [RIO](RIO.md) | Realio Network | 2.7 | ❌ FAIL | Revenue gate |
 | 138 | [SERV](SERV.md) | OpenServ | 2.6 | ❌ FAIL | Revenue and Selling gates |
 | 139 | [SCRT](SCRT.md) | Secret Network | 2.6 | ❌ FAIL | Revenue gate |

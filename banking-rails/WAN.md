@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "PoS issuance of ~1.04M WAN a year, offset by bridge-fee burns (~1.1M WAN a year projected)"
   team_wallet_to_exchange_during_pump: "not proven: native Wanchain explorer has no public API and the foundation wallets are not published"
   entity_concentration: "Community Treasury ~5.7M WAN (2.9% of supply); foundation balance not published"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Bridge fees are converted to WAN and 20% is burned under the protocol's fee split (~1.1M WAN a year at current volume). Revenue stays 5."
+pump_day_price_source: "Kucoin WAN-USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (3 of 360 days); the body's earlier count used the daily closes cited in the body"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.04677
 price_source: "CoinGecko, 16 Nov 2026 ~9:40 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - Bridge fees are converted to WAN. At current volume, the 20% burn share is projected at ~1.1M WAN a year ([proposal](https://medium.com/wanchain-foundation/governance-proposal-1-increase-the-wan-burn-rate-4669ffc73488), [update](https://wanchain.substack.com/p/wanchain-governance-goes-live-and)). That implies total fees of roughly 5.5M WAN (~$0.26M) a year [derived]. The income is real and goes to holders through burns and staking, but it is small. **5.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Bridge fees are converted to WAN and 20% is burned under the protocol's fee split (~1.1M WAN a year at current volume). Revenue stays 5.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 - A long-running team that ships continuously. On-chain governance went live on 15 Sep 2026, and its first proposal passed ([update](https://wanchain.substack.com/p/wanchain-governance-goes-live-and)).
@@ -88,6 +98,8 @@ layout_version: 3
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
 - Wanchain's native explorer has no public API, and the foundation wallets aren't published, so the insider pump-day test can't be run. There were only 3 pump days in the year → **not proven, 4.**
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Kucoin WAN-USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (3 of 360 days); the body's earlier count used the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 7/10 · ✅ PASS
 
@@ -126,8 +138,17 @@ layout_version: 3
 | Live mint path | 🟢 PoS issuance roughly offset by burns |
 | Entity concentration | 🟡 Foundation balance unpublished |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation wallets | Not published | — | low | no | Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [Governance proposal #1](https://medium.com/wanchain-foundation/governance-proposal-1-increase-the-wan-burn-rate-4669ffc73488), [Sep 2026 update](https://wanchain.substack.com/p/wanchain-governance-goes-live-and), [Bridge post-mortem](https://medium.com/@wanchain_org/cardano-bnb-chain-bridge-incident-post-mortem-353e465276e7)
 - [Tier B] [BlockSec weekly, 30 Jul 2026](https://blocksec.com/blog/web3-security-allbridge-wanchain-exploits), [Wanchain Academy, Oct 2026](https://wanchainacademy.com/quema-anual-de-wan-supero-el-millon-propuesta-wcp-002-activa-y-token2049/)
 - [Tier A] CoinGecko `wanchain` (market, venues); pump days from KuCoin WAN-USDT daily closes

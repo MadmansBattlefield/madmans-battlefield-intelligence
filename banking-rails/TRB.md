@@ -3,13 +3,13 @@ ticker: TRB
 name: Tellor
 chain: ethereum
 contract: "0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0"
-overall_score: 3.8
+overall_score: 3.7
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 5
   insider_holdings: 6
-  selling_behavior: 1
+  selling_behavior: 0
   tokenomics_supply: 4
   liquidity_market: 4
   product_development: 6
@@ -23,6 +23,19 @@ red_lines:
   mint_path_live: "yes by design: 4,000 TRB/month dev share to the team plus ~4,000 TRB/month to reporters and validators (hard-coded); no max supply"
   team_wallet_to_exchange_during_pump: "yes: two pass-through wallets funded only by the Tellor MultiSig (directly or via its payout wallet 0x1b8e) sent 24,035 TRB (~$2.93M) to the Etherscan-labelled Coinbase 10 address on seven pump days, Jun 2023 to May 2025, including 7,000 TRB at $243 on 29 Dec 2023; the payout Safe 0x1b8e itself sent 11,000 TRB to Arkham-labelled Coinbase deposits on three pump days in Aug–Oct 2026; no disclosure found"
   entity_concentration: "Tellor MultiSig holds 76,302 TRB (2.6%)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Users pay reporters in tips; there is no protocol fee to holders."
+pump_day_price_source: "Gate TRB_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (29 of 360 days); the body's earlier count used the daily closes cited in the body"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions:
+  - address: "0x1b8e06e7133b89ea5a799bf2bf0221ae71959190"
+    label: "Paid by the Tellor MultiSig"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan"
 price_usd: 12.97
 price_source: "CoinGecko, 16 Nov 2026 ~8:40 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +44,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### TRB · Overall grade **3.8 / 10 · ❌ FAIL**
+### TRB · Overall grade **3.7 / 10 · ❌ FAIL**
 
 **Summary:** Tellor is a permissionless oracle. It now runs its own chain (Tellor Layer), bridged to the ERC20 on Ethereum. The team gets a hard-coded **4,000 TRB a month** dev share, minted into the Etherscan-labelled **Tellor MultiSig**, and the same amount again goes to reporters and validators. Usage is minimal, there are no published fees and value secured is near zero, so the revenue gate fails. The selling gate also fails: TRB paid out of the MultiSig reached **Coinbase on seven pump days**, including the Dec 2023 squeeze.
 
@@ -44,7 +57,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 6/10 | ✅ PASS |
-| 📉 Selling behavior | 1/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -58,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 TRB · Tellor · 3.8 / 10 · ❌ FAIL
+# 🪪 TRB · Tellor · 3.7 / 10 · ❌ FAIL
 
 > **One line:** A small-float oracle token that mints for its team every month, with team-funded wallets selling into the pumps.
 
@@ -77,6 +90,8 @@ layout_version: 3
 
 - Users pay reporters in tips; there is no protocol fee to holders. DefiLlama has no fee record. [Unverified] A secondary source puts total value secured at about $0. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Users pay reporters in tips; there is no protocol fee to holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - A US-based core team since 2019 (no ICO). The team is funded by the hard-coded monthly dev share. Leaders are described by role only.
@@ -85,7 +100,7 @@ layout_version: 3
 
 - The [Tellor MultiSig](https://etherscan.io/address/0x39e419ba25196794b595b2a595ea8e527ddc9856) holds 76,302 TRB (2.6%); [Arkham](https://intel.arkm.com/explorer/address/0x39e419ba25196794b595b2a595ea8e527ddc9856) labels it **MultiSig** (no signers shown). It receives the mints and pays team wallets. The largest outflows are 187,100 TRB to [0x1b8e…9190](https://etherscan.io/address/0x1b8e06e7133b89ea5a799bf2bf0221ae71959190) (2022–2026) and 32,882 TRB to [0x3a05…9d75](https://etherscan.io/address/0x3a05689137b23c136744799735867da74e9b9d75) (39 monthly transfers).
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 Path: Tellor MultiSig → payout wallet [0x1b8e…9190](https://etherscan.io/address/0x1b8e06e7133b89ea5a799bf2bf0221ae71959190) → pass-through [0xe372…f24b](https://etherscan.io/address/0xe37211aa9bf358e1edcd707c0ea9e3913d9bf24b) (only funder: 0x1b8e) or [0x3f9c…a52e](https://etherscan.io/address/0x3f9c8aca305a7ab4de20d4e9eedc48285d0fa52e) (only funders: 0x1b8e and the MultiSig) → [Coinbase 10](https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) (Etherscan label; [Arkham](https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43): **Coinbase: Hot Wallet**, an exchange wallet, not a staking contract).
 
@@ -114,6 +129,8 @@ Path: Tellor MultiSig → payout wallet [0x1b8e…9190](https://etherscan.io/add
 
   Pump-day total: **11,000 TRB, about $224k**. Each send followed a MultiSig top-up of the Safe (8,000 TRB on 24 Aug, 10,000 on 1 Oct). The Safe also sent 3,000–4,000 TRB to unlabelled addresses on 26 Jan, 15 Apr, 1 May (+11.0%) and 17 Jul 2026, and ~60–90 TRB a month to Coinbase Deposit `0x8397…`.
 - The dev share is disclosed, but no disclosure was found of these sales being timed into rallies. Every linked transaction returned status 1 (success).
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** The dev share is hard-coded, but its sale on pump days is not disclosed. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **1 → 0**. Pump days from Gate TRB_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (29 of 360 days); the body's earlier count used the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -152,8 +169,17 @@ Path: Tellor MultiSig → payout wallet [0x1b8e…9190](https://etherscan.io/add
 | Live mint path | 🟠 Yes, by design (team plus rewards) |
 | Entity concentration | 🟢 2.6% in the MultiSig |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [Payout wallet `0x1b8e…9190`](https://etherscan.io/address/0x1b8e06e7133b89ea5a799bf2bf0221ae71959190) | Paid by the Tellor MultiSig | Etherscan | high | yes (on-chain) | Selling: fed pass-through wallets that sold on pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan token, MultiSig and transaction pages; receipts checked through the Etherscan API on 16 Nov 2026
 - [Tier A] [Tellor whitepaper 2026](https://tellor.io/wp-content/uploads/2026/08/Tellor-Whitepaper-2026-1.pdf) (4,000 TRB/month dev share)
 - [Tier A] [Tellor operator dashboard](https://operator.tellor.io/) (validators, reporters, bonded value)

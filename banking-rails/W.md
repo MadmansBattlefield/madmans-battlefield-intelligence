@@ -3,13 +3,13 @@ ticker: W
 name: Wormhole
 chain: solana + ethereum (NTT multichain)
 contract: "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91 (ERC-20 W on Ethereum, Base, Arbitrum); Solana SPL 85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ"
-overall_score: 3.8
+overall_score: 3.9
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 5
   insider_holdings: 3
-  selling_behavior: 3
+  selling_behavior: 4
   tokenomics_supply: 3
   liquidity_market: 4
   product_development: 7
@@ -17,13 +17,21 @@ section_scores:
   security_audits: 4
   regulatory: 6
   catalysts: 4
-gates_failed: [revenue, selling_behavior]
+gates_failed: [revenue]
 red_lines:
   hack_exploit: "yes (historic): Feb 2022 Solana bridge exploit, 120,000 wETH (~$320M), losses replaced by a backer"
   treasury_to_exchange_during_pump: "yes: wallets paid out of the Hedgey lockup contract sent 25.3M W (~$2.06M) to Binance and OKX on 10 pump days"
   treasury_funded_wallet_to_exchange_during_pump: "yes: e.g. distributor 0x712e → 0xcef7 → Binance deposit, 5.80M W on 21 Sep 2026 (+29.1%)"
   unenforced_lockups: "partly: Core Contributor tokens now unlock to the Foundation bi-weekly and are held 'in escrow' under off-chain contracts only"
   mint_path_live: "no new supply (10B cap); NTT mints on Ethereum mirror burns/locks on Solana"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No revenue reaches holders; the yield is new tokens."
+pump_day_price_source: "KuCoin W-USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.008656
 price_source: "CoinGecko, 16 Nov 2026 6:51 AM MST"
 last_updated: 2026-11-16
@@ -32,7 +40,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### W · Overall grade **3.8 / 10 · ❌ FAIL**
+### W · Overall grade **3.9 / 10 · ❌ FAIL**
 
 **Summary:** Wormhole is a large, live cross-chain messaging network (Guardians, Portal, NTT, Settlement, Queries; 40+ chains). The W token is in bad shape: −99.5% from its April 2024 high, −84% over a year, $58.9M market cap against $86.6M FDV, and holders receive **$0** of protocol revenue (DefiLlama shows Portal fees of ~$319k a year and $0 revenue). The "W 2.0" plan (Sep 2025) promises a Wormhole Reserve and a 4% target yield, but the yield is paid from existing supply. On Ethereum, two unlabelled wallets bridged 812M W in and built the Hedgey lockups; wallets paid from those lockups have sent **119.8M W (~$6.23M)** to exchanges and a market maker, **25.3M (~$2.06M) of it on pump days**. Both gates fail.
 
@@ -45,7 +53,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 3/10 | ❌ FAIL |
+| 📉 Selling behavior | 4/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -59,7 +67,7 @@ layout_version: 3
 ---
 
 
-# 🪪 W · Wormhole · 3.8 / 10 · ❌ FAIL
+# 🪪 W · Wormhole · 3.9 / 10 · ❌ FAIL
 
 > **One line:** Real cross-chain plumbing with no cash flow to the token, and lockup money that keeps reaching Binance on pump days.
 
@@ -85,6 +93,8 @@ layout_version: 3
 | W 2.0 plan | "onchain and offchain protocol revenues" to flow into a Wormhole Reserve, "coming soon"; staking yield "from a combination of the existing token supply and protocol revenues"; rewards "are emissions, not interest" | [Tier A] [W 2.0 post](https://wormhole.com/blog/wormhole-announces-w-token-2-0-upgrade) (17 Sep 2025) |
 
 **What it means:** Fourteen months after W 2.0 was announced, no revenue reaches holders on DefiLlama. The "yield" is new tokens from supply. Score **2**, which **trips the Revenue gate**.
+
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No revenue reaches holders; the yield is new tokens.
 
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
@@ -112,7 +122,7 @@ layout_version: 3
 
 **What it means:** Over 800M W sits in, or has flowed through, lockups whose owners are not disclosed, and a large share of claims ends on exchanges. Score **3**.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 3/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
 
 Pump test uses KuCoin W-USDT daily closes (from 3 Apr 2024). Exchange labels are Etherscan name tags [Tier B]; transfers are Tier A. Dollar figures use the KuCoin close of each day. BFS from the lockup contract, depth 3, ≥1M W edges (75 wallets).
 
@@ -133,6 +143,9 @@ Pump test uses KuCoin W-USDT daily closes (from 3 Apr 2024). Exchange labels are
 - `0xcef7` deposits are followed within minutes by zero-value transfers from look-alike `0xead7…49e2` addresses (address-poisoning spam), so the real deposit address is `0xead7ff…49e2` [Tier A, chain].
 
 **What it means:** The sellers are lockup beneficiaries, not proven Foundation wallets, and Arkham now names some of them: an infrastructure operator (Inotel) and a market maker (Wintermute). and part of it may be contractual vesting for investors or contributors. But money paid out of the official-looking lockups keeps reaching Binance on pump days, with nothing disclosed. Score **3** (unchanged; the 21 Sep 2026 sale runs through the unlabelled distributor `0x712e`), which **trips the Selling gate**.
+
+- **Re-scored under the 16 Nov 2026 attribution rule: 3 → 4.** The pump-day sellers are lockup beneficiaries (Arkham names an infrastructure operator and a market maker), not proven Foundation or team wallets, and an unproven attribution cannot move Selling. Selling is therefore "not proven", which scores 4, and the Selling hard gate no longer trips. Revenue still trips its gate.
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from KuCoin W-USDT daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -180,8 +193,17 @@ Pump test uses KuCoin W-USDT daily closes (from 3 Apr 2024). Exchange labels are
 | Unenforced lock-ups | 🟡 Contributor lock is contractual only; tokens already sit with the Foundation |
 | Live mint path | 🟢 None beyond the 10B cap |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Hedgey lockup beneficiaries (Inotel, Wintermute, others) | Infrastructure operator and market maker (Arkham); others unknown | Arkham + Etherscan | medium | no | None: not proven Foundation or team wallets |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API: `tokentx` for the lockup contract and ~75 traced wallets (BFS depth 3, ≥1M W), NTT mint records; Etherscan token-holders page; read 16 Nov 2026 MST
 - [Tier B] Etherscan name tags: "Hedgey Finance: Voting Token Lockups", "Hedgey Finance: Batch Planner", "Binance Deposit", "Binance 14", "Binance: Cold Wallet 20", "OKX 154", "Wintermute", "Abyss Finance: Eth2 Depositor 29"
 - [Tier A] [W 2.0 post](https://wormhole.com/blog/wormhole-announces-w-token-2-0-upgrade) · [incident report](https://wormholecrypto.medium.com/wormhole-incident-report-02-02-22-ad9b8f21eec6)

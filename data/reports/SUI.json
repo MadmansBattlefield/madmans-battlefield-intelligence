@@ -45,7 +45,16 @@
   },
   "price_usd": 0.713076,
   "price_source": "CoinGecko, 16 Nov 2026 5:26 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "The chain keeps about $0.6M a year and nothing is paid to holders beyond issuance-funded staking.",
+    "pump_day_price_source": "Gate SUI_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (42 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "buried_disclosure",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.713076,
     "market_cap_text": "$2.951B",
@@ -56,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SUI.md",
-    "sha256": "58765363259f842d3e6b509398d92aeb70ffa96aa53d786aa68ac2c36f911e3a",
-    "bytes": 22701,
-    "extracted_at": "2026-11-16 14:26 MST",
+    "sha256": "de078204d0a4236e4190c0f2d3654679fc6b4ebd529b61b791166c2dd1d248dc",
+    "bytes": 24623,
+    "extracted_at": "2026-11-16 14:27 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -258,15 +267,15 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate SUI_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (42 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
-    "disclosure_quality": "silence",
+    "disclosure_quality": "buried_disclosure",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: no direct foundation-to-exchange send found",
@@ -274,10 +283,10 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "The chain keeps about $0.6M a year against a $2.95B cap, roughly 0.02%. Gas is cheap by design (reference gas price 100 MIST). Score **1**, which **trips the Revenue gate**."
   },
@@ -305,6 +314,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Sui GraphQL (`graphql.mainnet.sui.io`): balances, `StakedSui` objects, SENT transactions with balance changes for `0x341f…`, `0x7f3b…`, `0xbe90…`, `0x457f…`, `0x7f66…`, `0x51f8…`, `0xc6ff…` and 20 funded wallets; `coinMetadata`; epoch 1313; read 16 Nov 2026 MST",

@@ -23,6 +23,14 @@ red_lines:
   network_halt: none_found_in_series
   sdf_exchange_sends_on_pump_days: watch_disclosed
   single_key_sdf_account: tripped
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Fees are taken out of circulation automatically on every transaction, but they are tiny (~$0.5M a year); Revenue stays 2."
+pump_day_price_source: "Gate XLM_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (38 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: formal_announcement
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.140304
 price_source: "CoinGecko, 15 Nov 2026 6:45 AM MST"
 chain_read_ledger: 65492889
@@ -95,6 +103,8 @@ layout_version: 3
 | Fees vs SDF release | ~$492k of fees a year vs ~2.7B XLM (~$375M at spot) of SDF deployment a year (see Selling) | Calculated |
 
 **What it means:** Fees are tiny by design (~$0.0001 a transaction). They are effectively burned, which is good, but at ~$0.5M a year on a ~$5B asset (~0.01%) they do not support the token's value. Stellar's case is utility (account reserves, anti-spam, a bridge asset), not cash flow.
+
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Fees are taken out of circulation automatically on every transaction, but they are tiny (~$0.5M a year); Revenue stays 2.
 
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
@@ -181,6 +191,8 @@ Labels are [Tier B] Stellar Expert directory tags; balances and flows are [Tier 
 **SDF's own spend accounting, Q3 2026** ([Tier A] Q3 report, "Lumens Utilized July – September 2026"): SDF Development 140,229,306 · Assets & Liquidity 50,930,231 · Growth 371,421,081 · Product & Innovation 106,063,328 → **668.6M XLM in one quarter** (~2.7B a year at that pace). Named uses include Kaiko, Nium, Ramp Network, Fireblocks, Securitize, MoneyGram, Paxos Trust, Spiko, Ondo Finance and Taurus. The SDF notes that "related XLM sales can exceed or trail spend".
 
 **What it means:** The SDF sells steadily and says so. Its direct exchange deposits were *less* likely than average to land on a pump day (4.9% vs 10.6%), so the trace shows no sign of timing sales to pumps. It passes because the selling is disclosed and not pump-weighted. It is only a 6 because ~3.1B XLM went to unlabelled accounts whose final buyers are not published.
+
+- **Disclosure quality (16 Nov 2026 rules): formal announcement.** The SDF publishes its sales program and accounts, so no penalty applies; Selling stays 6. Pump days from Gate XLM_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (38 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -269,8 +281,17 @@ Labels are [Tier B] Stellar Expert directory tags; balances and flows are [Tier 
 | SDF exchange sends on pump days | 🟡 Watch (disclosed; 4.9% of exchange sends vs 10.6% base rate) | Selling section |
 | SDF treasury account on a single key | 🔴 **Tripped** | [`GDWXQOTI…`](https://stellar.expert/explorer/public/account/GDWXQOTIIDO2EUK4DIGIBLEHLME2IAJRNU6JDFS5B2ZTND65P7J36WQZ) 554,096,554 XLM, 1 signer, thresholds 0 · [Horizon signers](https://horizon.stellar.org/accounts/GDWXQOTIIDO2EUK4DIGIBLEHLME2IAJRNU6JDFS5B2ZTND65P7J36WQZ) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| SDF accounts | Stellar Development Foundation | SDF published account list + reports | high | yes | Selling: disclosed sales; direct exchange deposits landed on pump days less often than chance |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Horizon ([`horizon.stellar.org`](https://horizon.stellar.org/)): `/ledgers` (ledger 65,492,889, 13:48:07 UTC), `/fee_stats`, `/accounts/{id}` for 12 SDF accounts + the 2019 burn account, `/accounts/{id}/payments` for all 12 SDF accounts (12 months) and 4 second-hop recipients; 15 Nov 2026 ~6:48–7:05 AM MST
 - [Tier A] [SDF mandate page](https://stellar.org/foundation/mandate) (balances updated 11–14 Nov 2026) · [team](https://stellar.org/foundation/team) · [quarterly reports](https://stellar.org/quarterly-reports) — Q3 2026 "Quarter in Review" PDF
 - [Tier A] [Bell, Protocol 30 upgrade guide](https://stellar.org/blog/developers/bell-protocol-30-upgrade-guide) (updated 23 Oct 2026)

@@ -1,7 +1,7 @@
 {
   "title": "Review flags from the Arkham-confidence and holder-accrual upgrades",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:26 MST",
+  "generated_at": "2026-11-16 14:27 MST",
   "note": "Scores were not changed. These are review lists parsed from the published Markdown. A flag means a human (or a later dual review) should look at that section, not that the published score is automatically wrong.",
   "low_confidence_selling_or_holdings": [
     {
@@ -41,14 +41,6 @@
     {
       "ticker": "HYPER",
       "selling_behavior": 0,
-      "insider_holdings": 3,
-      "notes": [
-        "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
-      ]
-    },
-    {
-      "ticker": "W",
-      "selling_behavior": 3,
       "insider_holdings": 3,
       "notes": [
         "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."

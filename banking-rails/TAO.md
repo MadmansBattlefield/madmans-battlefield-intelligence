@@ -22,6 +22,14 @@ red_lines:
   hack_exploit: none_in_series
   central_halt_authority: present
   foundation_wallets_unpublished: tripped
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Holders are paid with new TAO, not fees; subnet income does not flow to TAO by protocol."
+pump_day_price_source: "Gate TAO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (52 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 193.44
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_block: 9506723
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** TAO holders are paid with newly minted TAO, not with fees. Some subnets sell real AI services, but that money does not flow to TAO by protocol. Score 3 = gate fail.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Holders are paid with new TAO, not fees; subnet income does not flow to TAO by protocol.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -118,6 +128,8 @@ layout_version: 3
 | Subnet-owner selling | Subnet owners receive 18% of their subnet's alpha by default and can sell it; not traced |
 
 **What it means:** There's no team unlock to dump, but foundation and early-miner wallets can't be checked. Not proven → fail.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate TAO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (52 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 8/10 · ✅ PASS
 
@@ -171,8 +183,17 @@ layout_version: 3
 | Central halt authority | 🟡 Present ([July 2024 safe-mode halt](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d)) |
 | Foundation wallets unpublished | 🟡 Tripped ([Arkham: no OTF/Rao entity](https://intel.arkm.com/explorer/entity/bittensor)) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation and early-miner wallets | Not published | — | low | no | Selling stays 5 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Subtensor RPC (`entrypoint-finney.opentensor.ai`): `SubtensorModule.TotalIssuance`, `TotalStake`, `TotalNetworks`, chain head; 14 Nov 2026 ~12:35 PM MST
 - [Tier A] [Bittensor docs — emissions](https://www.bittensor.com/docs/concepts/emissions) · [TAO token economy](https://blog.bittensor.com/tao-token-economy-explained-17a3a90cd44e) · [OTF update 3 Jul 2024](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d)
 - [Tier A] GitHub [`RaoFoundation/subtensor`](https://github.com/RaoFoundation/subtensor) · [Taostats](https://taostats.io) explorer for issuance/stake cross-checks
@@ -194,6 +215,12 @@ layout_version: 3
 | Foundation wallets unpublished; Arkham has no OTF/Rao entity and no Subtensor coverage | [Arkham “Bittensor” entity](https://intel.arkm.com/explorer/entity/bittensor) | B | 15 Nov 2026 ~11:05 AM MST |
 | Total issuance 11.73M of 21M; 63.6% staked | Subtensor RPC (no public link) · [Taostats](https://taostats.io) | A | 14 Nov 2026 |
 | Core code maintained by Rao Foundation (release v490, 10 Nov 2026) | [GitHub](https://github.com/RaoFoundation/subtensor) | A | 14 Nov 2026 |
+
+## 🔎 Open items and how to close them
+
+| # | Open item | Exactly how to close it | Cost / access |
+|---|---|---|---|
+| 1 | **Foundation (Opentensor) and early-miner wallets.** Not published, so pump-day selling cannot be tested | Ask the Opentensor Foundation to publish its wallets, then match their exchange sends to the Gate pump-day list | Free |
 
 ---
 

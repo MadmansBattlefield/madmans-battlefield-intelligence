@@ -44,6 +44,14 @@
   "price_usd": 0.140304,
   "price_source": "CoinGecko, 15 Nov 2026 6:45 AM MST",
   "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "Fees are taken out of circulation automatically on every transaction, but they are tiny (~$0.5M a year); Revenue stays 2.",
+    "pump_day_price_source": "Gate XLM_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (38 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "formal_announcement",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [],
     "chain_read_ledger": 65492889
   },
   "key_numbers": {
@@ -56,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/XLM.md",
-    "sha256": "69a6642d1220b27aef3f4f6296ade90d5281f6172901cbdffb6e95260a9d986e",
-    "bytes": 35316,
-    "extracted_at": "2026-11-16 14:26 MST",
+    "sha256": "57f71599115aa9a6efda27ea4fb7ea85407764c86f4e30c68fe336528bf8613d",
+    "bytes": 37113,
+    "extracted_at": "2026-11-16 14:27 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -398,12 +406,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate XLM_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (38 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
     "disclosure_quality": "formal_announcement",
@@ -413,12 +421,12 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "yes",
     "mechanisms": [
       "burn"
     ],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": true,
+    "executed": true,
     "inconsistent_with_score": false,
     "notes": "Fees are tiny by design (~$0.0001 a transaction). They are effectively burned, which is good, but at ~$0.5M a year on a ~$5B asset (~0.01%) they do not support the token's value. Stellar's case is utility (account reserves, anti-spam, a bridge asset), not cash flow."
   },
@@ -469,6 +477,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Horizon ([`horizon.stellar.org`](https://horizon.stellar.org/)): `/ledgers` (ledger 65,492,889, 13:48:07 UTC), `/fee_stats`, `/accounts/{id}` for 12 SDF accounts + the 2019 burn account, `/accounts/{id}/payments` for all 12 SDF accounts (12 months) and 4 second-hop recipients; 15 Nov 2026 ~6:48–7:05 AM MST",

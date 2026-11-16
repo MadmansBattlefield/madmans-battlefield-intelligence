@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes by design: protocol-set annual TFUEL issuance to stakers and edge nodes (supply 5.0B at genesis, 7.53B now)"
   team_wallet_to_exchange_during_pump: "not proven: no TFUEL account is publicly attributed to the developer company"
   entity_concentration: "largest account holds 935.9M (12.4%), unlabelled"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Customer revenue is converted into TFUEL to pay node operators, not holders, and no total is published."
+pump_day_price_source: "Gate TFUEL_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (12 of 360 days); the body's earlier count used the daily closes cited in the body"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.006976
 price_source: "CoinGecko, 16 Nov 2026 ~8:40 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - DefiLlama has no fee or revenue record. The project says EdgeCloud customers pay in fiat or stablecoins and the revenue is converted into TFUEL to pay node operators ([Theta blog](https://blog.thetatoken.org/why-edgecloud-drives-tfuel-and-theta-value/)). It publishes no revenue, job counts or burn totals. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Customer revenue is converted into TFUEL to pay node operators, not holders, and no total is published.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - Theta Labs, a US company, develops the chain. The validator set includes enterprise validators. Leaders are described by role only, and no audited accounts are public.
@@ -95,6 +105,8 @@ layout_version: 3
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
 - No TFUEL account is publicly attributed to Theta Labs, so pump-day flows (11 in the last year) could not be checked. **Not proven → 4.**
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate TFUEL_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (12 of 360 days); the body's earlier count used the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -133,8 +145,17 @@ layout_version: 3
 | Live mint path | 🟠 Yes, by design (annual issuance) |
 | Entity concentration | 🟠 12.4% in one unlabelled account |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Theta Labs TFUEL accounts | Not attributed | — | low | no | Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Theta explorer API: [supply](https://explorer-api.thetatoken.org/api/supply/tfuel) and the top-accounts endpoint, 16 Nov 2026
 - [Tier A] [Theta blog on EdgeCloud and TFUEL](https://blog.thetatoken.org/why-edgecloud-drives-tfuel-and-theta-value/), [TFUEL billing post](https://blog.thetatoken.org/tfuel-billing-support-now-live-on-edgecloud-integrating-edgecloud-with-the-theta-token-economy/)
 - [Tier A] CoinGecko `theta-fuel`; pump days from Binance TFUELUSDT daily closes

@@ -24,6 +24,14 @@ red_lines:
   treasury_funded_wallet_to_exchange_during_pump: "yes (foundation 0x341f… funded 0x7f3b… with 310.6M SUI in 2023; via 0xbe90…/0x7f66… it fed Binance deposit 0x457f…, which put 166.0M SUI into Binance 1 in the last 12 months, 67.6M (≈ $72M) on pump days, e.g. 12.39M on 21 Aug 2026 +25.8%; foundation said in 2023 these were partner tokens under lock-up)"
   mint_path_live: "no (supply fixed at 10,000,000,000; read 16 Nov 2026)"
   undisclosed_allocation: "yes (52.2% of supply 'allocated after 2030', recipients not disclosed)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The chain keeps about $0.6M a year and nothing is paid to holders beyond issuance-funded staking."
+pump_day_price_source: "Gate SUI_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (42 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: buried_disclosure
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.713076
 price_source: "CoinGecko, 16 Nov 2026 5:26 AM MST"
 last_updated: 2026-11-16
@@ -84,6 +92,8 @@ layout_version: 3
 
 **What it means:** The chain keeps about $0.6M a year against a $2.95B cap, roughly 0.02%. Gas is cheap by design (reference gas price 100 MIST). Score **1**, which **trips the Revenue gate**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The chain keeps about $0.6M a year and nothing is paid to holders beyond issuance-funded staking.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -123,6 +133,8 @@ Route proven on-chain (Tier A); Binance identity of `0x9350…` from two Tier B 
 - The foundation's 2023 position: these were "infrastructure partners on a lock-up period", and "Sui Foundation has not sold staking rewards or any other tokens from locked and non-circulating staked SUI" ([Cointelegraph](https://www.tradingview.com/news/cointelegraph:8ed5311c3094b:0-sui-foundation-denies-it-sold-locked-staking-rewards-on-binance/) · [Coincu](https://coincu.com/news/sui-foundation-token-transfers-draw-exchange)). Who controls `0x7f3b…`, `0xbe90…` and `0x7f66…` is [Unverified].
 
 **What it means:** Whoever the end seller is, foundation-funded SUI reached Binance by the tens of millions in the last year, and much of it on pump days. The 18 Mar 2026 direct funding of `0x7f66…` shows the foundation is still funding the route. Score **2**, which **trips the Selling gate**.
+
+- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** The Foundation said in 2023 that these were partner tokens under lock-up, but has not disclosed the sales, so disclosure is partial and no penalty applies; Selling stays 2. 21 Aug 2026 is a pump day on Gate prices. Pump days from Gate SUI_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (42 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -174,8 +186,17 @@ Route proven on-chain (Tier A); Binance identity of `0x9350…` from two Tier B 
 | Live mint path | 🟢 No: fixed 10B supply |
 | Undisclosed allocation | 🔴 52.2% "after 2030" |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation `0x341f…` → `0x7f3b…` / `0x7f66…` → Binance deposit `0x457f…` | Sui Foundation-funded route | Etherscan-style chain trace (Sui RPC) | high | yes (on-chain) | Selling: 67.6M SUI into Binance on pump days in the last 12 months |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Sui GraphQL (`graphql.mainnet.sui.io`): balances, `StakedSui` objects, SENT transactions with balance changes for `0x341f…`, `0x7f3b…`, `0xbe90…`, `0x457f…`, `0x7f66…`, `0x51f8…`, `0xc6ff…` and 20 funded wallets; `coinMetadata`; epoch 1313; read 16 Nov 2026 MST
 - [Tier B] Explorer labels: [Suiscan "Binance 1"](https://suiscan.xyz/mainnet/account/0x935029ca5219502a47ac9b69f556ccf6e2198b5e7815cf50f68846f723739cbd/portfolio) · [tide "Binance Hot Wallet 1"](https://tide.ad/address/0x935029ca5219502a47ac9b69f556ccf6e2198b5e7815cf50f68846f723739cbd)
 - [Tier B] [Coincu: foundation transfers](https://coincu.com/news/sui-foundation-token-transfers-draw-exchange) · [Cointelegraph via TradingView: foundation denial, 27 Jun 2023](https://www.tradingview.com/news/cointelegraph:8ed5311c3094b:0-sui-foundation-denies-it-sold-locked-staking-rewards-on-binance/)

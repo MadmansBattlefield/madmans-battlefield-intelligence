@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: mintingFinished() = true, totalSupply() = 500,000,000"
   team_wallet_to_exchange_during_pump: "yes, small and indirect: a treasury-loop wallet sent 5M TRAC to Wintermute's multisig on a pump day (9 Nov 2021, +16.4%; disclosed market-maker partnership, amount undisclosed); two wallets funded by Trace Labs' main wallet sent 587k TRAC to KuCoin deposit addresses, 550k of it on pump days (Oct 2023 - Feb 2024); attribution of those two wallets [Unverified]"
   treasury_selling: "development treasury (100M+ TRAC) has no published address, balance or spending rule; 1.5M TRAC to Wintermute (Dec 2023) and 103k to a Gate deposit (Apr 2024) from the main Trace Labs wallet"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Publishers pay TRAC that is distributed to stakers on-chain, which counts as staking yield from fees, but no total is published; Revenue stays 2."
+pump_day_price_source: "Coinbase TRAC-USD daily closes"
+pump_day_disclosure_quality: buried_disclosure
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.28928
 price_source: "CoinGecko, 16 Nov 2026 5:11 AM MST"
 last_updated: 2026-11-16
@@ -85,6 +93,8 @@ layout_version: 3
 
 **What it means:** Stakers earn TRAC that publishers pay, but no total is published and nothing accrues to the protocol or to holders who don't stake. Revenue cannot be shown, so it is scored as not proven. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Publishers pay TRAC that is distributed to stakers on-chain, which counts as staking yield from fees, but no total is published; Revenue stays 2.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -137,6 +147,8 @@ Pump days come from Coinbase TRAC-USD daily closes (available from 2 Nov 2021); 
 
 **What it means:** No large direct dump was found, but treasury-funded wallets reached exchanges and a market maker on pump days, and the market-maker amounts were not disclosed. Per the rules (funding a wallet that sells on a pump day without disclosure), this fails. It is not at gate level, because the amounts are small against supply and the main flows are bridges. **4, unchanged after the Arkham pass:** Arkham confirms the Wintermute route and shows the two KuCoin-feeding wallets also reaching Crypto.com, Coinbase and Bitget, but labels none of the 11 wallets as Trace Labs, so it neither strengthens nor weakens the attribution.
 
+- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** The market-maker partnership was announced but the amount was not, so disclosure is partial and no penalty applies; Selling stays 4. Pump days from Coinbase TRAC-USD daily closes.
+
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
 - **Fixed supply, minting off:** `totalSupply()` = 500,000,000 and `mintingFinished()` = true (`eth_call`, 16 Nov 2026). The [verified source](https://etherscan.io/address/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f#code) has no pause, burn or upgrade path.
@@ -185,8 +197,18 @@ Pump days come from Coinbase TRAC-USD daily closes (available from 2 Nov 2021); 
 | Live mint path | 🟢 No: `mintingFinished()` = true |
 | Treasury selling | 🟡 Treasury of 100M+ TRAC with no published address or policy; 1.6M to Wintermute/Gate from the main wallet |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Treasury-loop wallet → Wintermute multisig (9 Nov 2021) | Trace Labs treasury | Etherscan + disclosed MM partnership | high | yes | Selling: disclosed partnership, amount undisclosed |
+| Two wallets funded by Trace Labs' main wallet → KuCoin | Attribution [Unverified] | Etherscan | low | no | None: cannot move Selling |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Ethereum via Etherscan API v2: TRAC `totalSupply`, `mintingFinished()`, `owner()`, `tokenbalance`; contract creation and constructor args; full TRAC `tokentx` for 0x20e2, 0x599c, 0x30be, 0x248f, 0x296e, 0x3868, 0x801e, 0x26a8, 0x5624, 0x0585, 0x9cf1, Snowbridge (1,620 rows), the Gnosis OmniBridge (2,621 rows) and 45 second-hop wallets; `getsourcecode` contract names; receipts for every linked tx (status 1), 16 Nov 2026 ~8:00–9:30 AM MST
 - [Tier A] Base RPC: V10 Hub owner multisig `required()` and `getOwners()`, 16 Nov 2026
 - [Tier A] Etherscan public labels (Wintermute, KuCoin/Gate deposit, Snowbridge, Base Bridge, Origin Trail: Deployer); [Gnosis docs: OmniBridge](https://docs.gnosischain.com/bridges/About%20Token%20Bridges/omnibridge) for `0x88ad…5671`

@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes, by design (uncapped; masternode rewards exceed the EIP-1559 burn)"
   team_wallet_to_exchange_during_pump: "none found (284.7M XDC from the largest reserve wallet reached FalconX in Oct 2022-Feb 2023, all on non-pump days); deeper hops not tested"
   treasury_in_single_key_wallets: "yes (the 12.45B XDC largest address and the other genesis reserve wallets are plain EOAs; the issuer says reserves sit in centralized custody with no published multisig policy)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "The EIP-1559 base-fee burn is automatic on-chain, but it is below masternode rewards and fees are ~$6k a year; Revenue stays 2."
+pump_day_price_source: "Gate XDC/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.02921423
 price_source: "CoinGecko, 16 Nov 2026 7:13 AM MST"
 last_updated: 2026-11-16
@@ -82,6 +90,8 @@ layout_version: 3
 
 **What it means:** A ~$583M chain earning ~$6k a year in fees. **2, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** The EIP-1559 base-fee burn is automatic on-chain, but it is below masternode rewards and fees are ~$6k a year; Revenue stays 2.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -120,6 +130,8 @@ layout_version: 3
 - The distributor [`0xb0ef…8383`](https://xdcscan.com/address/0xb0ef2a0337a519d50780e33d268341ce75ce8383) has made 6,577 transactions and pays out to many unlabelled wallets. Those sends were not traced to exchange deposits. The TTF says it pays masternode subsidies from the Ecosystem fund [Unverified].
 
 **What it means:** Large OTC transfers happened with no disclosure, and the deeper distribution network is untested. Not proven clean, so **4**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate XDC/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -170,8 +182,17 @@ layout_version: 3
 | Treasury in single-key wallets | 🔴 ~18B XDC in unlabelled EOAs ([`0xd778…`](https://xdcscan.com/address/0xd77875df9c9de07a5a701f4431743e3a0e9fe03a)) |
 | Large unexplained reserve moves | 🟡 1B XDC on [29 Oct 2026](https://xdcscan.com/tx/0x08ea42bb075196000c6c9c56c77ad08e4c650f721741ef8d6c3ffc4e8abd0f3f); 284.7M to FalconX in 2022–23 |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Large OTC transfers | XDC Foundation-linked | XDCScan | medium | no | None: no pump-day exchange send |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API (chain id 50) `txlist` / `txlistinternal` for `0xf46e…`, `0xd778…`, `0xA488…`, `0x0C98…`, `0xb942…`, `0x74d4…` and their recipients; XDCScan top-accounts name tags [Tier B]; read 16 Nov 2026 ~10:00–10:30 AM MST
 - [Tier A] [DefiLlama XDC](https://defillama.com/chain/xdc) fees and TVL; CoinGecko `xdce-crowd-sale` (16 Nov 2026 7:13 AM MST); Gate XDC/USDT daily candles
 - [Tier B] [Blockworks Token Transparency filing](https://blockworks.com/token-transparency/filing/xdc-network) · [XDC Watch supply](https://xdcnetwork.org/supply/) · [XDC Watch rich list](https://xdcnetwork.org/rich-list/)

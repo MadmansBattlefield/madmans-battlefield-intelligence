@@ -3,13 +3,13 @@ ticker: TLOS
 name: Telos
 chain: telos
 contract: "native (Telos, an Antelope/EOSIO chain with Telos EVM); ERC20 0x193f4a4a6ea24102f49b931deeeb931f6e32405d"
-overall_score: 3.0
+overall_score: 2.7
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 3
   insider_holdings: 4
-  selling_behavior: 3
+  selling_behavior: 1
   tokenomics_supply: 4
   liquidity_market: 3
   product_development: 4
@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes: token contract max supply 1B vs 467.6M issued; issuance is controlled by the eosio system account"
   team_wallet_to_exchange_during_pump: "yes: the Foundation-funded expenses account telosliquidi sent 500k TLOS to Bitget (13 Jan 2026, +14.4%) and 200k to Bitrue (7 May 2026, +70.7%)"
   treasury_in_single_key_wallet: "the Foundation account tf can be moved by any one of three controlling accounts (threshold 1)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No revenue reaches holders."
+pump_day_price_source: "Gate TLOS_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used the daily closes cited in the body"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.01266
 price_source: "CoinGecko, 16 Nov 2026 7:56 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### TLOS · Overall grade **3.0 / 10 · ❌ FAIL**
+### TLOS · Overall grade **2.7 / 10 · ❌ FAIL**
 
 **Summary:** Telos is an EOSIO/Antelope chain with a Telos EVM layer. It earns almost nothing (**$3.5k of fees in a year**, $2.0M of DeFi TVL) and the price is **−99.1% from its 2022 high**. The Telos Foundation pays its costs from a "Liquidity & Expenses" account, `telosliquidi`, which payroll memos tie to the Foundation. That account regularly sends TLOS to exchange deposit accounts, including **two deposits on pump days in the last year**: 500k TLOS to Bitget on 13 Jan 2026 (+14.4%) and 200k to Bitrue on 7 May 2026, the day of the year's biggest spike (+70.7%). Revenue and Selling both trip the hard gates.
 
@@ -44,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 1/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 3/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 3/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 3/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 4/10 | ❌ FAIL |
@@ -58,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 TLOS · Telos · 3.0 / 10 · ❌ FAIL
+# 🪪 TLOS · Telos · 2.7 / 10 · ❌ FAIL
 
 > **One line:** A tiny-fee chain whose Foundation expense account feeds exchange deposits, including on pump days.
 
@@ -82,6 +90,8 @@ layout_version: 3
 
 **What it means:** **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No revenue reaches holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 - The Telos Foundation (`tf`) runs ecosystem spending. Its `active` permission is held by three accounts with a **threshold of 1**, so any one of them can move funds ([`tf` permissions](https://explorer.telos.net/account/tf)). Payroll is paid from `telosliquidi` with memos such as "L&E Payroll" and "June Salary".
@@ -101,7 +111,7 @@ layout_version: 3
 
 - About **49.4M TLOS (10.6% of supply)** sits in Foundation or governance accounts, read from the [top-holder list](https://mainnet.telos.net/v2/state/get_top_holders?contract=eosio.token&symbol=TLOS&limit=15). Holdings on the EVM side (214M in `eosio.evm`) were not attributed.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 3/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 | Date (UTC day / MST time) | Flow | TLOS | Evidence |
 |---|---|---:|---|
@@ -113,6 +123,8 @@ layout_version: 3
 - Earlier, Aug–Oct 2025, `telosliquidi` made 10 more memo-tagged deposits (50k–200k each, 830k in total) to HTX, KuCoin, MEXC, Gate, ProBit and Bitget accounts, e.g. [200k to HTX on 24 Sep 2025](https://explorer.telos.net/transaction/d11a7214d919d04f4eb8e4d613dda6d55f9d77d1671fd85b187fb84811bcee97).
 - Some coins came back (264k from Bitrue in Aug 2026, 500k from MEXC on 14 Nov 2026), consistent with an operating account that sells to pay costs and sometimes withdraws. No sale was announced.
 - **Score 3:** a Foundation-funded account deposited to exchanges on two pump days in the window, without disclosure. The amounts are small.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **3 → 1**. On Gate prices 7 May 2026 is a pump day; 13 Jan 2026 is not. Pump days from Gate TLOS_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -153,8 +165,17 @@ layout_version: 3
 | Live mint path | 🟡 Up to 1B on the token contract, system-controlled |
 | Foundation account control | 🔴 1-of-3 |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| `telosliquidi` | Telos Foundation-funded expenses account | Telos explorer funding | high | yes (on-chain) | Selling: 500k TLOS to Bitget (13 Jan 2026) and 200k to Bitrue (7 May 2026, +70.7%) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Telos chain API (`get_info`, `get_currency_stats`, `get_currency_balance`, `get_account`) and Hyperion history (`get_actions` for the Foundation, reserve, grant and expense accounts; `get_transaction` for each linked tx, all `executed: true`); `get_top_holders`; read 16 Nov 2026 ~7:58–8:40 AM MST
 - [Tier A] DefiLlama `telos` fees and chain TVL; CoinGecko `telos` (16 Nov 2026 7:56 AM MST) and 365-day closes for pump days
 - Exchange ownership of `bitgetdetlos`, `bitruewallet`, `htxtlosmjuxn`, `kucoin4telos`, `mexcmexctlos`, `gateioiotlos`, `probitandtls` is inferred from the account names and numeric deposit memos [Tier B]

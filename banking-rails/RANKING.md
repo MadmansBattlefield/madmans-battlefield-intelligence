@@ -91,24 +91,24 @@ Ties are broken by how many of the 11 sections passed.
 68. 🔴 **KAIA** · 3.9 · ❌ FAIL
 69. 🔴 **CFX** · 3.9 · ❌ FAIL
 70. 🔴 **INJ** · 3.9 · ❌ FAIL
-71. 🔴 **MBG** · 3.9 · ❌ FAIL
-72. 🔴 **PHA** · 3.8 · ❌ FAIL
-73. 🔴 **ZK** · 3.8 · ❌ FAIL
-74. 🔴 **TRB** · 3.8 · ❌ FAIL
+71. 🔴 **W** · 3.9 · ❌ FAIL
+72. 🔴 **MBG** · 3.9 · ❌ FAIL
+73. 🔴 **PHA** · 3.8 · ❌ FAIL
+74. 🔴 **ZK** · 3.8 · ❌ FAIL
 75. 🔴 **ZAMA** · 3.8 · ❌ FAIL
 76. 🔴 **ROSE** · 3.8 · ❌ FAIL
 77. 🔴 **XDC** · 3.8 · ❌ FAIL
 78. 🔴 **NIGHT** · 3.8 · ❌ FAIL
 79. 🔴 **ZANO** · 3.8 · ❌ FAIL
 80. 🔴 **NEXA** · 3.8 · ❌ FAIL
-81. 🔴 **W** · 3.8 · ❌ FAIL
-82. 🔴 **ASTR** · 3.8 · ❌ FAIL
-83. 🔴 **ORBITER** · 3.8 · ❌ FAIL
-84. 🔴 **RISE** · 3.8 · ❌ FAIL
-85. 🔴 **HASH** · 3.8 · ❌ FAIL
-86. 🔴 **AXL** · 3.8 · ❌ FAIL
-87. 🔴 **SWFTC** · 3.8 · ❌ FAIL
-88. 🔴 **ZKJ** · 3.8 · ❌ FAIL
+81. 🔴 **ASTR** · 3.8 · ❌ FAIL
+82. 🔴 **ORBITER** · 3.8 · ❌ FAIL
+83. 🔴 **RISE** · 3.8 · ❌ FAIL
+84. 🔴 **HASH** · 3.8 · ❌ FAIL
+85. 🔴 **AXL** · 3.8 · ❌ FAIL
+86. 🔴 **SWFTC** · 3.8 · ❌ FAIL
+87. 🔴 **ZKJ** · 3.8 · ❌ FAIL
+88. 🔴 **TRB** · 3.7 · ❌ FAIL
 89. 🔴 **PLUME** · 3.7 · ❌ FAIL
 90. 🔴 **XPL** · 3.7 · ❌ FAIL
 91. 🔴 **SUI** · 3.7 · ❌ FAIL
@@ -151,12 +151,12 @@ Ties are broken by how many of the 11 sections passed.
 128. 🔴 **IOST** · 3.1 · ❌ FAIL
 129. 🔴 **POLYX** · 3.0 · ❌ FAIL
 130. 🔴 **S** · 3.0 · ❌ FAIL
-131. 🔴 **TLOS** · 3.0 · ❌ FAIL
-132. 🔴 **ORAI** · 3.0 · ❌ FAIL
-133. 🔴 **XDB** · 2.9 · ❌ FAIL
-134. 🔴 **PACT** · 2.9 · ❌ FAIL
-135. 🔴 **JASMY** · 2.8 · ❌ FAIL
-136. 🔴 **MASQ** · 2.7 · ❌ FAIL
+131. 🔴 **ORAI** · 3.0 · ❌ FAIL
+132. 🔴 **XDB** · 2.9 · ❌ FAIL
+133. 🔴 **PACT** · 2.9 · ❌ FAIL
+134. 🔴 **JASMY** · 2.8 · ❌ FAIL
+135. 🔴 **MASQ** · 2.7 · ❌ FAIL
+136. 🔴 **TLOS** · 2.7 · ❌ FAIL
 137. 🔴 **RIO** · 2.7 · ❌ FAIL
 138. 🔴 **SERV** · 2.6 · ❌ FAIL
 139. 🔴 **SCRT** · 2.6 · ❌ FAIL
@@ -175,6 +175,10 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Batch 7: 12 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes (TLOS and TRB from the undisclosed pump-day sale penalty; W from the attribution rule, because its pump-day sellers are not proven team wallets): [TLOS](TLOS.md) Selling 3 → 1 (3.0 → 2.7, now #136); [TRB](TRB.md) Selling 1 → 0 (3.8 → 3.7, now #88); [W](W.md) Selling 3 → 4 (3.8 → 3.9, now #71). Unchanged: [SUI](SUI.md), [SWCH](SWCH.md), [TAO](TAO.md), [TFUEL](TFUEL.md), [TRAC](TRAC.md), [WAN](WAN.md), [XDB](XDB.md), [XDC](XDC.md), [XLM](XLM.md).
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Batch 6: 14 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [REQ](REQ.md) Selling 3 → 1 (4.2 → 3.9, now #67); [RLC](RLC.md) Selling 3 → 1 (4.3 → 4.0, now #56); [S](S.md) Selling 2 → 0 (3.3 → 3.0, now #130); [SOLV](SOLV.md) Selling 5 → 1 (4.7 → 4.2, now #49); [SPA](SPA.md) Selling 2 → 0 (2.5 → 2.2, now #144). Unchanged: [QUAI](QUAI.md), [RED](RED.md), [REUSD](REUSD.md), [ROSE](ROSE.md), [RVN](RVN.md), [SEI](SEI.md), [SHARE](SHARE.md), [SHX](SHX.md), [STBL](STBL.md).
 
@@ -1168,7 +1172,18 @@ Score changes from that research:
 
 ---
 
-## #71 · MBG · MBG By MultiBank Group
+## #71 · W · Wormhole
+
+### 3.9 / 10 · ❌ FAIL
+
+- **Sections passed:** 2 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Real cross-chain plumbing with no cash flow to the token, and lockup money that keeps reaching Binance on pump days. Arkham names some sellers as an infrastructure operator and a market maker.
+- 📄 [Full W report](W.md)
+
+---
+
+## #72 · MBG · MBG By MultiBank Group
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -1179,7 +1194,7 @@ Score changes from that research:
 
 ---
 
-## #72 · PHA · Phala Network
+## #73 · PHA · Phala Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1190,7 +1205,7 @@ Score changes from that research:
 
 ---
 
-## #73 · ZK · ZKsync
+## #74 · ZK · ZKsync
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1198,17 +1213,6 @@ Score changes from that research:
 - **Hard gates failed:** Revenue, Selling
 - **Verdict:** A well-built L2 governance system around a token with no revenue and heavy ongoing unlocks; a Foundation treasury paid ~20M ZK a week to a wallet that forwarded 252.2M ZK to a Binance deposit, including on spike days. Arkham does not cover ZKsync Era.
 - 📄 [Full ZK report](ZK.md)
-
----
-
-## #74 · TRB · Tellor
-
-### 3.8 / 10 · ❌ FAIL
-
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A small-float oracle token that mints for its team every month. MultiSig-funded wallets sold into pumps from 2023 to 2025, and the payout Safe sent 11,000 TRB to Coinbase deposits on three more pump days in Aug-Oct 2026.
-- 📄 [Full TRB report](TRB.md)
 
 ---
 
@@ -1278,18 +1282,7 @@ Score changes from that research:
 
 ---
 
-## #81 · W · Wormhole
-
-### 3.8 / 10 · ❌ FAIL
-
-- **Sections passed:** 2 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** Real cross-chain plumbing with no cash flow to the token, and lockup money that keeps reaching Binance on pump days. Arkham names some sellers as an infrastructure operator and a market maker.
-- 📄 [Full W report](W.md)
-
----
-
-## #82 · ASTR · Astar
+## #81 · ASTR · Astar
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1300,7 +1293,7 @@ Score changes from that research:
 
 ---
 
-## #83 · ORBITER · Orbiter Finance (OBT)
+## #82 · ORBITER · Orbiter Finance (OBT)
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1311,7 +1304,7 @@ Score changes from that research:
 
 ---
 
-## #84 · RISE · T-RIZE (RIZE)
+## #83 · RISE · T-RIZE (RIZE)
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1322,7 +1315,7 @@ Score changes from that research:
 
 ---
 
-## #85 · HASH · Provenance Blockchain
+## #84 · HASH · Provenance Blockchain
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1333,7 +1326,7 @@ Score changes from that research:
 
 ---
 
-## #86 · AXL · Axelar
+## #85 · AXL · Axelar
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1344,7 +1337,7 @@ Score changes from that research:
 
 ---
 
-## #87 · SWFTC · SWFT Blockchain
+## #86 · SWFTC · SWFT Blockchain
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1355,7 +1348,7 @@ Score changes from that research:
 
 ---
 
-## #88 · ZKJ · Polyhedra Network
+## #87 · ZKJ · Polyhedra Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1363,6 +1356,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** A zk-interoperability token with labelled team and reserve wallets; the Core Contributors wallet sends 20M ZKJ a month to an OKX venture arm, none on pump days, and ZKJ earns nothing.
 - 📄 [Full ZKJ report](ZKJ.md)
+
+---
+
+## #88 · TRB · Tellor
+
+### 3.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A small-float oracle token that mints for its team every month. MultiSig-funded wallets sold into pumps from 2023 to 2025, and the payout Safe sent 11,000 TRB to Coinbase deposits on three more pump days in Aug-Oct 2026.
+- 📄 [Full TRB report](TRB.md)
 
 ---
 
@@ -1828,18 +1832,7 @@ Score changes from that research:
 
 ---
 
-## #131 · TLOS · Telos
-
-### 3.0 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A tiny-fee chain whose Foundation expense account feeds exchange deposits, including on pump days. Arkham does not cover Telos.
-- 📄 [Full TLOS report](TLOS.md)
-
----
-
-## #132 · ORAI · Oraichain
+## #131 · ORAI · Oraichain
 
 ### 3.0 / 10 · ❌ FAIL
 
@@ -1850,7 +1843,7 @@ Score changes from that research:
 
 ---
 
-## #133 · XDB · XDB CHAIN (formerly DigitalBits)
+## #132 · XDB · XDB CHAIN (formerly DigitalBits)
 
 ### 2.9 / 10 · ❌ FAIL
 
@@ -1861,7 +1854,7 @@ Score changes from that research:
 
 ---
 
-## #134 · PACT · PACT
+## #133 · PACT · PACT
 
 ### 2.9 / 10 · ❌ FAIL
 
@@ -1872,7 +1865,7 @@ Score changes from that research:
 
 ---
 
-## #135 · JASMY · JasmyCoin
+## #134 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -1883,7 +1876,7 @@ Score changes from that research:
 
 ---
 
-## #136 · MASQ · MASQ
+## #135 · MASQ · MASQ
 
 ### 2.7 / 10 · ❌ FAIL
 
@@ -1891,6 +1884,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** A fixed-supply token with no revenue, almost no volume, and a project now run under another project's custody. MASQ's Ethereum wallets are still to be checked on Arkham.
 - 📄 [Full MASQ report](MASQ.md)
+
+---
+
+## #136 · TLOS · Telos
+
+### 2.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A tiny-fee chain whose Foundation expense account feeds exchange deposits, including on pump days. Arkham does not cover Telos.
+- 📄 [Full TLOS report](TLOS.md)
 
 ---
 

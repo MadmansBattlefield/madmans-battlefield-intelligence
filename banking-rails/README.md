@@ -103,24 +103,24 @@ Every token in this folder has a full v3 scored report:
 | 68 | [KAIA.md](KAIA.md) | Kaia | **3.9 / 10 · ❌ FAIL** |
 | 69 | [CFX.md](CFX.md) | Conflux | **3.9 / 10 · ❌ FAIL** |
 | 70 | [INJ.md](INJ.md) | Injective | **3.9 / 10 · ❌ FAIL** |
-| 71 | [MBG.md](MBG.md) | MBG By MultiBank Group | **3.9 / 10 · ❌ FAIL** |
-| 72 | [PHA.md](PHA.md) | Phala Network | **3.8 / 10 · ❌ FAIL** |
-| 73 | [ZK.md](ZK.md) | ZKsync | **3.8 / 10 · ❌ FAIL** |
-| 74 | [TRB.md](TRB.md) | Tellor | **3.8 / 10 · ❌ FAIL** |
+| 71 | [W.md](W.md) | Wormhole | **3.9 / 10 · ❌ FAIL** |
+| 72 | [MBG.md](MBG.md) | MBG By MultiBank Group | **3.9 / 10 · ❌ FAIL** |
+| 73 | [PHA.md](PHA.md) | Phala Network | **3.8 / 10 · ❌ FAIL** |
+| 74 | [ZK.md](ZK.md) | ZKsync | **3.8 / 10 · ❌ FAIL** |
 | 75 | [ZAMA.md](ZAMA.md) | Zama | **3.8 / 10 · ❌ FAIL** |
 | 76 | [ROSE.md](ROSE.md) | Oasis Network | **3.8 / 10 · ❌ FAIL** |
 | 77 | [XDC.md](XDC.md) | XDC Network | **3.8 / 10 · ❌ FAIL** |
 | 78 | [NIGHT.md](NIGHT.md) | Midnight | **3.8 / 10 · ❌ FAIL** |
 | 79 | [ZANO.md](ZANO.md) | Zano | **3.8 / 10 · ❌ FAIL** |
 | 80 | [NEXA.md](NEXA.md) | Nexa | **3.8 / 10 · ❌ FAIL** |
-| 81 | [W.md](W.md) | Wormhole | **3.8 / 10 · ❌ FAIL** |
-| 82 | [ASTR.md](ASTR.md) | Astar | **3.8 / 10 · ❌ FAIL** |
-| 83 | [ORBITER.md](ORBITER.md) | Orbiter Finance (OBT) | **3.8 / 10 · ❌ FAIL** |
-| 84 | [RISE.md](RISE.md) | T-RIZE (RIZE) | **3.8 / 10 · ❌ FAIL** |
-| 85 | [HASH.md](HASH.md) | Provenance Blockchain | **3.8 / 10 · ❌ FAIL** |
-| 86 | [AXL.md](AXL.md) | Axelar | **3.8 / 10 · ❌ FAIL** |
-| 87 | [SWFTC.md](SWFTC.md) | SWFT Blockchain | **3.8 / 10 · ❌ FAIL** |
-| 88 | [ZKJ.md](ZKJ.md) | Polyhedra Network | **3.8 / 10 · ❌ FAIL** |
+| 81 | [ASTR.md](ASTR.md) | Astar | **3.8 / 10 · ❌ FAIL** |
+| 82 | [ORBITER.md](ORBITER.md) | Orbiter Finance (OBT) | **3.8 / 10 · ❌ FAIL** |
+| 83 | [RISE.md](RISE.md) | T-RIZE (RIZE) | **3.8 / 10 · ❌ FAIL** |
+| 84 | [HASH.md](HASH.md) | Provenance Blockchain | **3.8 / 10 · ❌ FAIL** |
+| 85 | [AXL.md](AXL.md) | Axelar | **3.8 / 10 · ❌ FAIL** |
+| 86 | [SWFTC.md](SWFTC.md) | SWFT Blockchain | **3.8 / 10 · ❌ FAIL** |
+| 87 | [ZKJ.md](ZKJ.md) | Polyhedra Network | **3.8 / 10 · ❌ FAIL** |
+| 88 | [TRB.md](TRB.md) | Tellor | **3.7 / 10 · ❌ FAIL** |
 | 89 | [PLUME.md](PLUME.md) | Plume | **3.7 / 10 · ❌ FAIL** |
 | 90 | [XPL.md](XPL.md) | Plasma | **3.7 / 10 · ❌ FAIL** |
 | 91 | [SUI.md](SUI.md) | Sui | **3.7 / 10 · ❌ FAIL** |
@@ -163,12 +163,12 @@ Every token in this folder has a full v3 scored report:
 | 128 | [IOST.md](IOST.md) | IOST | **3.1 / 10 · ❌ FAIL** |
 | 129 | [POLYX.md](POLYX.md) | Polymesh | **3.0 / 10 · ❌ FAIL** |
 | 130 | [S.md](S.md) | Sonic | **3.0 / 10 · ❌ FAIL** |
-| 131 | [TLOS.md](TLOS.md) | Telos | **3.0 / 10 · ❌ FAIL** |
-| 132 | [ORAI.md](ORAI.md) | Oraichain | **3.0 / 10 · ❌ FAIL** |
-| 133 | [XDB.md](XDB.md) | XDB CHAIN (formerly DigitalBits) | **2.9 / 10 · ❌ FAIL** |
-| 134 | [PACT.md](PACT.md) | PACT | **2.9 / 10 · ❌ FAIL** |
-| 135 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
-| 136 | [MASQ.md](MASQ.md) | MASQ | **2.7 / 10 · ❌ FAIL** |
+| 131 | [ORAI.md](ORAI.md) | Oraichain | **3.0 / 10 · ❌ FAIL** |
+| 132 | [XDB.md](XDB.md) | XDB CHAIN (formerly DigitalBits) | **2.9 / 10 · ❌ FAIL** |
+| 133 | [PACT.md](PACT.md) | PACT | **2.9 / 10 · ❌ FAIL** |
+| 134 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
+| 135 | [MASQ.md](MASQ.md) | MASQ | **2.7 / 10 · ❌ FAIL** |
+| 136 | [TLOS.md](TLOS.md) | Telos | **2.7 / 10 · ❌ FAIL** |
 | 137 | [RIO.md](RIO.md) | Realio Network | **2.7 / 10 · ❌ FAIL** |
 | 138 | [SERV.md](SERV.md) | OpenServ | **2.6 / 10 · ❌ FAIL** |
 | 139 | [SCRT.md](SCRT.md) | Secret Network | **2.6 / 10 · ❌ FAIL** |
