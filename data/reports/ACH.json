@@ -45,13 +45,71 @@
   "price_usd": 0.00372897,
   "price_source": "CoinGecko, 16 Nov 2026 9:11 AM MST",
   "front_matter_extras": {
-    "methodology_2026_11_16": {
-      "revenue_reaches_holders": "no",
-      "disclosure_quality": "silence",
-      "pump_day_undisclosed_penalty_applied": true,
-      "pump_day_price_source": "Gate ACH/USDT UTC daily closes",
-      "dual_review": "not_run"
-    }
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "ACH is gas and governance only; company payment revenue does not reach holders, and no fee burn, automatic buyback or fee share is live (the buyback is a proposal).",
+    "pump_day_price_source": "Gate ACH/USDT UTC daily closes",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0xeae81df204b5beb70f6032ab173faff24c6d6990",
+        "label": "TokenVesting (Alchemy mint of 9 Apr 2026)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "On-chain: minted by the ACH minter Safe; Arkham shows recurring releases"
+      },
+      {
+        "address": "0x7d56078fa361b85ee7be627b3b3724e3e99203d2",
+        "label": "TokenVesting (Alchemy mint of 9 Apr 2026)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "On-chain: minted by the ACH minter Safe; Arkham shows recurring releases"
+      },
+      {
+        "address": "0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1",
+        "label": "Cobo.com: Custody Hot Wallet",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + Etherscan label \"Cobo: Custody\""
+      },
+      {
+        "address": "0x526c7a714d27f523689022f237542664161bfbf3",
+        "label": "Binance Deposit",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + Etherscan label"
+      },
+      {
+        "address": "0x872c4832ea55687f7a3c8fe16baf0086a9bacc2c",
+        "label": "Binance Deposit",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + Etherscan label"
+      },
+      {
+        "address": "0x7196ca9fbc9760d156d301a7845d6e3f2597c3fe",
+        "label": "Coinbase: Cold Wallet",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x907acf93336f034df8198c39c6707507b516bc92",
+        "label": "Unlabelled EOA (vesting owner)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x483a0ad7be1381ca431216ca827ad38a96f0496f",
+        "label": "Safe with six signer tags (3-of-6 minter)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + RPC getOwners"
+      }
+    ]
   },
   "key_numbers": {
     "price_usd": 0.00372897,
@@ -61,9 +119,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ACH.md",
-    "sha256": "966cddd30190697290089ec2bb6c14f8c3481996518e0070daad1c944efc795a",
-    "bytes": 21590,
-    "extracted_at": "2026-11-16 12:21 MST",
+    "sha256": "1ea97e643c1b801b68b6cecb98b2c698a69e910006d6ab1ba456dbb604e0a37d",
+    "bytes": 23446,
+    "extracted_at": "2026-11-16 12:24 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -239,11 +297,11 @@
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
     "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": false,
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: vesting releases forwarded via a Cobo custody hot wallet to a Binance deposit on 3 pump days (23 Aug, 6 Sep, 21 Sep 2026); no disclosure found; undisclosed pump-day penalty applied (Selling 2 -> 0)"
     ]
@@ -262,88 +320,118 @@
   },
   "attributions": [
     {
-      "address": "0x7196ca9fbc9760d156d301a7845d6e3f2597c3fe",
-      "url": "https://intel.arkm.com/explorer/address/0x7196cA9fbC9760D156D301a7845D6e3F2597C3FE",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
+      "address": "0xeae81df204b5beb70f6032ab173faff24c6d6990",
+      "url": null,
+      "label": "TokenVesting (Alchemy mint of 9 Apr 2026)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
       "corroborating_sources": [
-        "arkham",
-        "explorer-link"
+        "report-front-matter",
+        "corroborated"
       ],
-      "label_kind": "exchange",
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7d56078fa361b85ee7be627b3b3724e3e99203d2",
+      "url": null,
+      "label": "TokenVesting (Alchemy mint of 9 Apr 2026)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1",
-      "url": "https://intel.arkm.com/explorer/address/0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1",
-      "label": "[0xb800…1ec1](https://intel.arkm.com/explorer/address/0xb8001c3ec9aa1985f6c747e2",
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
+      "url": null,
+      "label": "Cobo.com: Custody Hot Wallet",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
       "corroborating_sources": [
-        "arkham",
-        "explorer-link"
+        "report-front-matter",
+        "corroborated"
       ],
-      "label_kind": "exchange",
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0x526c7a714d27f523689022f237542664161bfbf3",
-      "url": "https://intel.arkm.com/explorer/address/0x526c7a714d27f523689022f237542664161bfbf3",
-      "label": "[0xb800…1ec1](https://intel.arkm.com/explorer/address/0xb8001c3ec9aa1985f6c747e2",
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
+      "url": null,
+      "label": "a named individual",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
       "corroborating_sources": [
-        "arkham"
+        "report-front-matter",
+        "corroborated"
       ],
       "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0x872c4832ea55687f7a3c8fe16baf0086a9bacc2c",
-      "url": "https://intel.arkm.com/explorer/address/0x872c4832ea55687f7a3c8fe16baf0086a9bacc2c",
-      "label": "Cobo: Custody",
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
+      "url": null,
+      "label": "a named individual",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
       "corroborating_sources": [
-        "arkham"
+        "report-front-matter",
+        "corroborated"
       ],
       "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
     },
     {
-      "address": "0xeae81df204b5beb70f6032ab173faff24c6d6990",
-      "url": "https://intel.arkm.com/explorer/address/0xeae81df204b5beb70f6032ab173faff24c6d6990",
-      "label": null,
-      "source": "arkham",
+      "address": "0x7196ca9fbc9760d156d301a7845d6e3f2597c3fe",
+      "url": null,
+      "label": "Coinbase: Cold Wallet",
+      "source": "front_matter",
       "confidence": "medium",
       "independent_corroboration": false,
       "corroborating_sources": [
-        "arkham"
+        "report-front-matter"
       ],
       "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x907acf93336f034df8198c39c6707507b516bc92",
+      "url": null,
+      "label": "Unlabelled EOA (vesting owner)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x483a0ad7be1381ca431216ca827ad38a96f0496f",
+      "url": null,
+      "label": "Safe with six signer tags (3-of-6 minter)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": false
     },
     {
       "address": "0x7469d9a6a86692d9e576cad04233165da338e738",
       "url": "https://intel.arkm.com/explorer/address/0x7469d9a6a86692d9e576cad04233165da338e738",
-      "label": null,
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
-      "corroborating_sources": [
-        "arkham"
-      ],
-      "label_kind": "exchange",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0x7d56078fa361b85ee7be627b3b3724e3e99203d2",
-      "url": "https://intel.arkm.com/explorer/address/0x7d56078fa361b85ee7be627b3b3724e3e99203d2",
       "label": null,
       "source": "arkham",
       "confidence": "medium",
@@ -365,28 +453,6 @@
         "arkham"
       ],
       "label_kind": "exchange",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0x907acf93336f034df8198c39c6707507b516bc92",
-      "url": "https://intel.arkm.com/explorer/address/0x907acf93336f034df8198c39c6707507b516bc92",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0x483a0ad7be1381ca431216ca827ad38a96f0496f",
-      "url": "https://intel.arkm.com/explorer/address/0x483a0ad7be1381ca431216ca827ad38a96f0496f",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
       "appears_in_selling_or_holdings": true
     },
     {

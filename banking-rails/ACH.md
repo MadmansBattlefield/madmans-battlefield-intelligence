@@ -23,12 +23,54 @@ red_lines:
   mint_path_live: "yes, MinterRole with no cap; minter 0x483a0ad7be1381ca431216ca827ad38a96f0496f (3-of-6 Safe)"
   team_wallet_to_exchange_during_pump: "yes: vesting releases forwarded via a Cobo custody hot wallet to a Binance deposit on 3 pump days (23 Aug, 6 Sep, 21 Sep 2026); no disclosure found; undisclosed pump-day penalty applied (Selling 2 -> 0)"
   treasury_in_single_key_wallets: "yes: all 5 new vesting contracts are owned and revocable by EOA 0x907acf93336f034df8198c39c6707507b516bc92"
-methodology_2026_11_16:
-  revenue_reaches_holders: "no"
-  disclosure_quality: silence
-  pump_day_undisclosed_penalty_applied: true
-  pump_day_price_source: "Gate ACH/USDT UTC daily closes"
-  dual_review: not_run
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "ACH is gas and governance only; company payment revenue does not reach holders, and no fee burn, automatic buyback or fee share is live (the buyback is a proposal)."
+pump_day_price_source: "Gate ACH/USDT UTC daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions:
+  - address: "0xeae81df204b5beb70f6032ab173faff24c6d6990"
+    label: "TokenVesting (Alchemy mint of 9 Apr 2026)"
+    confidence: high
+    independent_corroboration: true
+    basis: "On-chain: minted by the ACH minter Safe; Arkham shows recurring releases"
+  - address: "0x7d56078fa361b85ee7be627b3b3724e3e99203d2"
+    label: "TokenVesting (Alchemy mint of 9 Apr 2026)"
+    confidence: high
+    independent_corroboration: true
+    basis: "On-chain: minted by the ACH minter Safe; Arkham shows recurring releases"
+  - address: "0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1"
+    label: "Cobo.com: Custody Hot Wallet"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + Etherscan label \"Cobo: Custody\""
+  - address: "0x526c7a714d27f523689022f237542664161bfbf3"
+    label: "Binance Deposit"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + Etherscan label"
+  - address: "0x872c4832ea55687f7a3c8fe16baf0086a9bacc2c"
+    label: "Binance Deposit"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + Etherscan label"
+  - address: "0x7196ca9fbc9760d156d301a7845d6e3f2597c3fe"
+    label: "Coinbase: Cold Wallet"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham"
+  - address: "0x907acf93336f034df8198c39c6707507b516bc92"
+    label: "Unlabelled EOA (vesting owner)"
+    confidence: low
+    independent_corroboration: false
+    basis: "Arkham"
+  - address: "0x483a0ad7be1381ca431216ca827ad38a96f0496f"
+    label: "Safe with six signer tags (3-of-6 minter)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + RPC getOwners"
 price_usd: 0.00372897
 price_source: "CoinGecko, 16 Nov 2026 9:11 AM MST"
 last_updated: 2026-11-16

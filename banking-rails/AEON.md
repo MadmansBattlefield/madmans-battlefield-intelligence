@@ -24,12 +24,54 @@ red_lines:
   mint_path_live: "yes, MinterRole with no cap; current minter not identified"
   team_wallet_to_exchange_during_pump: "not proven: the Safe emptied 45.6M AEON to EOA 0xfd6a on 3 Sep 2026 (not a pump day); 0xfd6a then sent 15M to a Bitget deposit and ~31M to Cobo deposits on 14, 15 and 29 Oct 2026, none pump days; its one pump-day transfer (3M, 21 Sep) was a self-bridge through the AEON LayerZero OFT adapter to the same address on Base (1M) and Ethereum (2M), where it is still held"
   treasury_in_single_key_wallets: "no: vesting owner is a 6-of-10 Safe 0xd8a63d36f9474f361d77c31e6d53d5c78c92add4; it can revoke ~76.6% of supply"
-methodology_2026_11_16:
-  revenue_reaches_holders: "no"
-  disclosure_quality: not_applicable
-  pump_day_undisclosed_penalty_applied: false
-  pump_day_price_source: "Gate AEON_USDT and Bitget AEONUSDT UTC daily closes"
-  dual_review: not_run
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No protocol fee burn, automatic buyback, staking yield from fees or fee share is live, so revenue does not reach holders."
+pump_day_price_source: "Gate AEON_USDT and Bitget AEONUSDT UTC daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0xd8a63d36f9474f361d77c31e6d53d5c78c92add4"
+    label: "Safe (6-of-10), 10 signer tags; owner of all vesting contracts"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + RPC owner()"
+  - address: "0xfd6a0c523ed829a21281a2a3e627ad242ab619b8"
+    label: "Unlabelled EOA; funded by a Safe signer; received the Safe's 45.6M"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham + BSC logs"
+  - address: "0x7b71a5f9a07a3f38a22538c2e4b753316058e17e"
+    label: "Bitget Deposit"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham"
+  - address: "0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87"
+    label: "Cobo.com deposits / Custody Hot Wallet"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham; on-chain sweep 0x01d6 → 0xb0b1"
+  - address: "0xefb7472554da5e154cdacf695f67b2c46f83e8a5"
+    label: "Cobo.com deposits / Custody Hot Wallet"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham; on-chain sweep 0x01d6 → 0xb0b1"
+  - address: "0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77"
+    label: "Cobo.com deposits / Custody Hot Wallet"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham; on-chain sweep 0x01d6 → 0xb0b1"
+  - address: "0x8de06d956f1ba5cd83d00777f515ab95ccd82b42"
+    label: "Tags \"AEON\", \"Whale\" (no entity name)"
+    confidence: low
+    independent_corroboration: false
+    basis: "Arkham"
+  - address: "0xe91e0e6080b0c19c71b616e628d7b715313d5036"
+    label: "Unlabelled; first funder SWFT Swap"
+    confidence: low
+    independent_corroboration: false
+    basis: "Arkham"
 price_usd: 0.0231
 price_source: "CoinGecko, 16 Nov 2026 9:11 AM MST"
 last_updated: 2026-11-16

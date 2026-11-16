@@ -23,12 +23,24 @@ red_lines:
   mint_path_live: "yes, BSC owner mint up to a 90B cap, separate from the L1 90B cap"
   mint_owner: "0x6ab479c813daa50914fc96c837e2f08a8203ab70 (3-of-4 Safe)"
   team_wallet_to_exchange_during_pump: "not tested (BSC transfer history not reachable with free tools)"
-methodology_2026_11_16:
-  revenue_reaches_holders: "no"
-  disclosure_quality: not_applicable
-  pump_day_undisclosed_penalty_applied: false
-  pump_day_price_source: "Gate IOST_USDT UTC daily closes"
-  dual_review: not_run
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "L2 gas is paid in BNB, and no fee burn, automatic buyback or fee share is live, so revenue does not reach holders."
+pump_day_price_source: "Gate IOST_USDT UTC daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0xaf48b7e315a52518cfbf7d96c455d9dfad94cb48"
+    label: "IOST BEP-20 token"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + BscScan verified source"
+  - address: "0x6ab479c813daa50914fc96c837e2f08a8203ab70"
+    label: "Safe (3-of-4), signer tags shown"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + RPC owner()"
 price_usd: 0.00056557
 price_source: "CoinGecko, 16 Nov 2026 9:11 AM MST"
 last_updated: 2026-11-16

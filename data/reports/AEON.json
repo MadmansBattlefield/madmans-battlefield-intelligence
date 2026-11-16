@@ -45,13 +45,71 @@
   "price_usd": 0.0231,
   "price_source": "CoinGecko, 16 Nov 2026 9:11 AM MST",
   "front_matter_extras": {
-    "methodology_2026_11_16": {
-      "revenue_reaches_holders": "no",
-      "disclosure_quality": "not_applicable",
-      "pump_day_undisclosed_penalty_applied": false,
-      "pump_day_price_source": "Gate AEON_USDT and Bitget AEONUSDT UTC daily closes",
-      "dual_review": "not_run"
-    }
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No protocol fee burn, automatic buyback, staking yield from fees or fee share is live, so revenue does not reach holders.",
+    "pump_day_price_source": "Gate AEON_USDT and Bitget AEONUSDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0xd8a63d36f9474f361d77c31e6d53d5c78c92add4",
+        "label": "Safe (6-of-10), 10 signer tags; owner of all vesting contracts",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + RPC owner()"
+      },
+      {
+        "address": "0xfd6a0c523ed829a21281a2a3e627ad242ab619b8",
+        "label": "Unlabelled EOA; funded by a Safe signer; received the Safe's 45.6M",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham + BSC logs"
+      },
+      {
+        "address": "0x7b71a5f9a07a3f38a22538c2e4b753316058e17e",
+        "label": "Bitget Deposit",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87",
+        "label": "Cobo.com deposits / Custody Hot Wallet",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham; on-chain sweep 0x01d6 → 0xb0b1"
+      },
+      {
+        "address": "0xefb7472554da5e154cdacf695f67b2c46f83e8a5",
+        "label": "Cobo.com deposits / Custody Hot Wallet",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham; on-chain sweep 0x01d6 → 0xb0b1"
+      },
+      {
+        "address": "0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77",
+        "label": "Cobo.com deposits / Custody Hot Wallet",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham; on-chain sweep 0x01d6 → 0xb0b1"
+      },
+      {
+        "address": "0x8de06d956f1ba5cd83d00777f515ab95ccd82b42",
+        "label": "Tags \"AEON\", \"Whale\" (no entity name)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0xe91e0e6080b0c19c71b616e628d7b715313d5036",
+        "label": "Unlabelled; first funder SWFT Swap",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      }
+    ]
   },
   "key_numbers": {
     "price_usd": 0.0231,
@@ -62,9 +120,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/AEON.md",
-    "sha256": "4aa27cf5a05e1aeca166ca5f4f2dde38403691077349846a49f0ffdcc46721a5",
-    "bytes": 18127,
-    "extracted_at": "2026-11-16 12:21 MST",
+    "sha256": "933c5f40fa42ae1b792886309b82f1b41dd342eab155b203294da11a618a4794",
+    "bytes": 19958,
+    "extracted_at": "2026-11-16 12:24 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -185,7 +243,7 @@
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -209,15 +267,109 @@
   },
   "attributions": [
     {
+      "address": "0xd8a63d36f9474f361d77c31e6d53d5c78c92add4",
+      "url": null,
+      "label": "Safe (6-of-10), 10 signer tags; owner of all vesting contracts",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
       "address": "0xfd6a0c523ed829a21281a2a3e627ad242ab619b8",
-      "url": "https://intel.arkm.com/explorer/address/0xfd6a0c523ed829a21281a2a3e627ad242ab619b8",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "low",
+      "url": null,
+      "label": "Unlabelled EOA; funded by a Safe signer; received the Safe's 45.6M",
+      "source": "front_matter",
+      "confidence": "medium",
       "independent_corroboration": false,
-      "corroborating_sources": [],
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
       "label_kind": "unlabelled",
       "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7b71a5f9a07a3f38a22538c2e4b753316058e17e",
+      "url": null,
+      "label": "a named individual",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87",
+      "url": null,
+      "label": "Cobo.com deposits / Custody Hot Wallet",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xefb7472554da5e154cdacf695f67b2c46f83e8a5",
+      "url": null,
+      "label": "Cobo.com deposits / Custody Hot Wallet",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77",
+      "url": null,
+      "label": "Cobo.com deposits / Custody Hot Wallet",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8de06d956f1ba5cd83d00777f515ab95ccd82b42",
+      "url": null,
+      "label": "Tags \"AEON\", \"Whale\" (no entity name)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe91e0e6080b0c19c71b616e628d7b715313d5036",
+      "url": null,
+      "label": "Unlabelled; first funder SWFT Swap",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
     },
     {
       "address": "0x7d7e7fd485c27d8547e1c8c906f7a8aa528c3d27",
@@ -229,98 +381,6 @@
       "corroborating_sources": [],
       "label_kind": "unlabelled",
       "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0x7b71a5f9a07a3f38a22538c2e4b753316058e17e",
-      "url": "https://intel.arkm.com/explorer/address/0x7b71a5f9a07a3f38a22538c2e4b753316058e17e",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
-      "corroborating_sources": [
-        "arkham",
-        "explorer-link"
-      ],
-      "label_kind": "exchange",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77",
-      "url": "https://intel.arkm.com/explorer/address/0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77",
-      "label": "AEON",
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
-      "corroborating_sources": [
-        "arkham",
-        "explorer-link"
-      ],
-      "label_kind": "exchange",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87",
-      "url": "https://intel.arkm.com/explorer/address/0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87",
-      "label": "AEON",
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
-      "corroborating_sources": [
-        "arkham",
-        "explorer-link"
-      ],
-      "label_kind": "exchange",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0x8de06d956f1ba5cd83d00777f515ab95ccd82b42",
-      "url": "https://intel.arkm.com/explorer/address/0x8de06d956f1ba5cd83d00777f515ab95ccd82b42",
-      "label": "AEON",
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
-      "corroborating_sources": [
-        "arkham",
-        "explorer-link"
-      ],
-      "label_kind": "exchange",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0xefb7472554da5e154cdacf695f67b2c46f83e8a5",
-      "url": "https://intel.arkm.com/explorer/address/0xefb7472554da5e154cdacf695f67b2c46f83e8a5",
-      "label": "AEON",
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
-      "corroborating_sources": [
-        "arkham",
-        "explorer-link"
-      ],
-      "label_kind": "exchange",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0xd8a63d36f9474f361d77c31e6d53d5c78c92add4",
-      "url": "https://intel.arkm.com/explorer/address/0xd8a63d36f9474f361d77c31e6d53d5c78c92add4",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0xe91e0e6080b0c19c71b616e628d7b715313d5036",
-      "url": "https://intel.arkm.com/explorer/address/0xe91e0e6080b0c19c71b616e628d7b715313d5036",
-      "label": "AEON",
-      "source": "arkham",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": false
     },
     {
       "address": null,

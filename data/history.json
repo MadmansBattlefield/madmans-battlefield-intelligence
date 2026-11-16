@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:21 MST",
+  "generated_at": "2026-11-16 12:24 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -70,9 +70,9 @@
       "path": "banking-rails/AEON.md",
       "versions": [
         {
-          "commit": "6c7665ca52095df90fcdb19167415cd815ec4ae0",
-          "committed_at_mst": "2026-11-16 12:19 MST",
-          "subject": "Add MINA, IOST, ACH, AEON, GRND v3 reports under the 16 Nov 2026 rules; ACH undisclosed pump-day penalty (selling 2->0, 3.4->3.1); ranking 118",
+          "commit": "426077f0dbe8cc752e87f6a76d34d72b6e79baf5",
+          "committed_at_mst": "2026-11-16 12:21 MST",
+          "subject": "AEON: the 21 Sep pump-day transfer was a self-bridge via the LayerZero OFT adapter to Base and Ethereum, still held; score unchanged",
           "overall_score": 3.3,
           "overall_verdict": "FAIL",
           "section_scores": {

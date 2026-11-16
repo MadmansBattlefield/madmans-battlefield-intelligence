@@ -23,12 +23,14 @@ red_lines:
   mint_path_live: "yes, protocol coinbase (no cap; ~3% a year observed, 7% long-run target)"
   team_wallet_to_exchange_during_pump: "not testable (foundation holds via custodians; no published wallets)"
   treasury_in_single_key_wallets: "unknown (custodied)"
-methodology_2026_11_16:
-  revenue_reaches_holders: "no"
-  disclosure_quality: not_applicable
-  pump_day_undisclosed_penalty_applied: false
-  pump_day_price_source: "Gate MINA_USDT UTC daily closes"
-  dual_review: not_run
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Validators are paid from new issuance; fees are tiny and there is no fee burn, buyback or fee share, so revenue does not reach holders."
+pump_day_price_source: "Gate MINA_USDT UTC daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.04621846
 price_source: "CoinGecko, 16 Nov 2026 9:11 AM MST"
 last_updated: 2026-11-16

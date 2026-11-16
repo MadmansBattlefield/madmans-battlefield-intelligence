@@ -44,13 +44,22 @@
   "price_usd": 0.00652,
   "price_source": "CoinGecko, 16 Nov 2026 9:11 AM MST",
   "front_matter_extras": {
-    "methodology_2026_11_16": {
-      "revenue_reaches_holders": "no",
-      "disclosure_quality": "not_applicable",
-      "pump_day_undisclosed_penalty_applied": false,
-      "pump_day_price_source": "Gate GRND_USDT UTC daily closes",
-      "dual_review": "not_run"
-    }
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "The token only recycles in-app spending; the one-off buyback was a company decision, not an automatic on-chain mechanism, so revenue does not reach holders.",
+    "pump_day_price_source": "Gate GRND_USDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce",
+        "label": "SuperWalk: SuperWalk (GRND) token",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + Arbiscan token"
+      }
+    ]
   },
   "key_numbers": {
     "price_usd": 0.00652,
@@ -61,9 +70,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/GRND.md",
-    "sha256": "bfdc163a7db07a6c29ac37ccc79c582f9ff8199cce171ece640e5a81d8299c89",
-    "bytes": 13655,
-    "extracted_at": "2026-11-16 12:21 MST",
+    "sha256": "8bf5cf2208a981fb1c5b0c86e69f79b4196a970c2c4251b3ab9574251d7bd0f4",
+    "bytes": 14055,
+    "extracted_at": "2026-11-16 12:24 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -112,7 +121,7 @@
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
@@ -134,13 +143,16 @@
   "attributions": [
     {
       "address": "0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce",
-      "url": "https://intel.arkm.com/explorer/address/0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
+      "url": null,
+      "label": "SuperWalk: SuperWalk (GRND) token",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": false
     }
   ],

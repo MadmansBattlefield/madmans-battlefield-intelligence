@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 12:21 MST
+generated_at: 2026-11-16 12:24 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -140,7 +140,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 
 - **ACH** — 3.1 FAIL in `6c7665c` (2026-11-16 12:19 MST).
 - **ADA** — 5.1 FAIL in `395f117` (2026-11-16 06:46 MST).
-- **AEON** — 3.3 FAIL in `6c7665c` (2026-11-16 12:19 MST).
+- **AEON** — 3.3 FAIL in `426077f` (2026-11-16 12:21 MST).
 ### AERO
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |

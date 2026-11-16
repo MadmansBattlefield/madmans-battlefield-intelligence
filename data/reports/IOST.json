@@ -44,13 +44,29 @@
   "price_usd": 0.00056557,
   "price_source": "CoinGecko, 16 Nov 2026 9:11 AM MST",
   "front_matter_extras": {
-    "methodology_2026_11_16": {
-      "revenue_reaches_holders": "no",
-      "disclosure_quality": "not_applicable",
-      "pump_day_undisclosed_penalty_applied": false,
-      "pump_day_price_source": "Gate IOST_USDT UTC daily closes",
-      "dual_review": "not_run"
-    }
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "L2 gas is paid in BNB, and no fee burn, automatic buyback or fee share is live, so revenue does not reach holders.",
+    "pump_day_price_source": "Gate IOST_USDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0xaf48b7e315a52518cfbf7d96c455d9dfad94cb48",
+        "label": "IOST BEP-20 token",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + BscScan verified source"
+      },
+      {
+        "address": "0x6ab479c813daa50914fc96c837e2f08a8203ab70",
+        "label": "Safe (3-of-4), signer tags shown",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + RPC owner()"
+      }
+    ]
   },
   "key_numbers": {
     "price_usd": 0.00056557,
@@ -61,9 +77,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/IOST.md",
-    "sha256": "0fdf4aaa6e9f600086bfa411c31cc98a6328dca9bc7ffa8ca68254e6ae1f8441",
-    "bytes": 11310,
-    "extracted_at": "2026-11-16 12:21 MST",
+    "sha256": "4c5650505ce3f31c191a2d21dfe23d2416736d89e55e9983f61eaed80de9d2ac",
+    "bytes": 11856,
+    "extracted_at": "2026-11-16 12:24 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -130,7 +146,7 @@
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -154,27 +170,31 @@
   "attributions": [
     {
       "address": "0xaf48b7e315a52518cfbf7d96c455d9dfad94cb48",
-      "url": "https://intel.arkm.com/explorer/address/0xaf48b7e315a52518cfbf7d96c455d9dfad94cb48",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
+      "url": null,
+      "label": "IOST BEP-20 token",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": false
     },
     {
       "address": "0x6ab479c813daa50914fc96c837e2f08a8203ab70",
-      "url": "https://intel.arkm.com/explorer/address/0x6ab479c813daa50914fc96c837e2f08a8203ab70",
-      "label": null,
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
+      "url": null,
+      "label": "Safe (3-of-4), signer tags shown",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
       "corroborating_sources": [
-        "arkham"
+        "report-front-matter",
+        "corroborated"
       ],
-      "label_kind": "unknown",
-      "appears_in_selling_or_holdings": true
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": false
     }
   ],
   "review": {

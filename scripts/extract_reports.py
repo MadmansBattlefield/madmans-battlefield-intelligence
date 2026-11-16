@@ -28,6 +28,53 @@ ROOT = Path(__file__).resolve().parents[1]
 REPORTS_DIR = ROOT / "banking-rails"
 OUT_DIR = ROOT / "data" / "reports"
 SCHEMA_VERSION = "report.v1"
+
+# Methodology fields published in front matter (16 Nov 2026 rules). Two layouts
+# are accepted: flat top-level keys, or a nested ``methodology_2026_11_16`` map.
+METHODOLOGY_FM_ALIASES = {
+    "revenue_reaches_holders": ("revenue_reaches_holders", "reaches_holders"),
+    "revenue_mechanism": ("revenue_mechanism", "mechanism"),
+    "pump_day_price_source": ("pump_day_price_source", "price_source_pump"),
+    "disclosure_quality": ("pump_day_disclosure_quality", "disclosure_quality"),
+    "penalty_applied": ("pump_day_undisclosed_penalty_applied",),
+    "dual_review": ("dual_review",),
+    "attributions": ("attributions",),
+    "effective": ("methodology_effective",),
+}
+DISCLOSURE_VALUES = {"formal_announcement", "buried_disclosure", "silence", "not_applicable", "unclear"}
+# Explicit "Reaches holders: no" / "Holder test: yes" lines in the Markdown.
+EXPLICIT_HOLDER_TEST_RE = re.compile(
+    r"\b(?:reaches holders|holder test)\b[^:\n]{0,80}:\s*\**\s*(yes|no|unclear)\b",
+    re.I,
+)
+
+
+def methodology_fm(fm: dict) -> dict:
+    """Collect 16 Nov 2026 methodology fields from front matter (flat or nested)."""
+    nested = fm.get("methodology_2026_11_16")
+    sources = [nested] if isinstance(nested, dict) else []
+    sources.append(fm)
+    out: dict = {}
+    for key, names in METHODOLOGY_FM_ALIASES.items():
+        for src in sources:
+            for name in names:
+                if name in src and src[name] is not None and key not in out:
+                    out[key] = src[name]
+    if isinstance(nested, dict) and "effective" not in out:
+        out["effective"] = "2026-11-16"
+    rh = out.get("revenue_reaches_holders")
+    if isinstance(rh, bool):
+        out["revenue_reaches_holders"] = "yes" if rh else "no"
+    elif rh is not None:
+        rh = str(rh).strip().lower()
+        out["revenue_reaches_holders"] = rh if rh in {"yes", "no", "unclear"} else None
+    dq = out.get("disclosure_quality")
+    if dq is not None:
+        dq = str(dq).strip().lower()
+        out["disclosure_quality"] = dq if dq in DISCLOSURE_VALUES else None
+    if "penalty_applied" in out:
+        out["penalty_applied"] = bool(out["penalty_applied"])
+    return out
 MST = timezone(timedelta(hours=-7))
 
 SKIP_NAMES = {
@@ -563,6 +610,61 @@ def _nearby(text: str, start: int, end: int, window: int = 280) -> str:
     return text[max(0, start - window) : min(len(text), end + window)]
 
 
+def merge_fm_attributions(parsed: list[dict], fm: dict, selling: str, holdings: str) -> list[dict]:
+    """Front-matter attributions (16 Nov 2026 rules) override parsed ones for the same address."""
+    items = methodology_fm(fm).get("attributions")
+    if not isinstance(items, list) or not items:
+        return parsed
+    blob = ((selling or "") + "\n" + (holdings or "")).lower()
+    out: list[dict] = []
+    seen: set[str] = set()
+    for it in items:
+        if not isinstance(it, dict):
+            continue
+        addr = it.get("address")
+        addr = str(addr) if addr is not None else None
+        if addr and addr.startswith("0x") and len(addr) == 42:
+            addr = addr.lower()
+        conf = str(it.get("confidence") or "low").lower()
+        if conf not in {"high", "medium", "low"}:
+            conf = "low"
+        corr = it.get("independent_corroboration")
+        corr = corr if isinstance(corr, bool) else str(corr).strip().lower() in {"yes", "true"}
+        label = it.get("label")
+        lab = str(label or "")
+        if UNLABELLED_RE.search(lab):
+            kind = "unlabelled"
+        elif re.search(r"prediction", lab, re.I):
+            kind = "prediction"
+        elif EXCHANGE_LABEL_RE.search(lab):
+            kind = "exchange"
+        elif conf in {"high", "medium"}:
+            kind = "verified_entity"
+        else:
+            kind = "unknown"
+        srcs = [str(x) for x in (it.get("sources") or [])] or (["report-front-matter"] + (["corroborated"] if corr else []))
+        appears = bool(addr) and (addr.lower() in blob or addr[:10].lower() in blob)
+        out.append({
+            "address": addr,
+            "url": it.get("url"),
+            "label": sanitize_label(lab) if lab else None,
+            "source": str(it.get("source") or "front_matter"),
+            "confidence": conf,
+            "independent_corroboration": bool(corr),
+            "corroborating_sources": srcs,
+            "label_kind": kind,
+            "appears_in_selling_or_holdings": appears,
+        })
+        if addr:
+            seen.add(addr.lower())
+    for rec in parsed:
+        a = (rec.get("address") or "").lower()
+        if a and a in seen:
+            continue
+        out.append(rec)
+    return out
+
+
 def extract_attributions(text: str, selling: str, holdings: str, red_lines: dict) -> list[dict]:
     """Pull Arkham / explorer label attributions and assign confidence."""
     attributions: dict[str, dict] = {}
@@ -759,6 +861,17 @@ def classify_pump(fm: dict, selling: str, text: str) -> dict:
     else:
         disclosure = "unclear"
 
+    meth = methodology_fm(fm)
+    if meth.get("pump_day_price_source"):
+        pump_source = str(meth["pump_day_price_source"])[:200]
+    if meth.get("disclosure_quality"):
+        disclosure = meth["disclosure_quality"]
+        if disclosure == "not_applicable" and proven == "unclear":
+            proven = "no"
+    penalty = bool(meth.get("penalty_applied", False))
+    if penalty:
+        proven = "yes"
+    rescored = bool(meth.get("effective"))
     return {
         "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
         "price_source": pump_source,
@@ -766,11 +879,11 @@ def classify_pump(fm: dict, selling: str, text: str) -> dict:
         "lookback_days": 5,
         "threshold_pct": 10,
         "methodology_effective_from": "2026-11-16",
-        "rescored_under_effective_rules": False,
+        "rescored_under_effective_rules": rescored,
         "proven_pump_day_sale": proven,
         "selling_not_proven": bool(sell_score == 4 or (not_proven and proven != "yes")),
         "disclosure_quality": disclosure,
-        "pump_day_undisclosed_penalty_applied": False,
+        "pump_day_undisclosed_penalty_applied": penalty,
         "flags_noted_in_report": flags[:12],
     }
 
@@ -822,7 +935,7 @@ def classify_revenue(fm: dict, revenue_section: str) -> dict:
         re.I,
     )
     strong_yes = re.compile(
-        r"\b(reaches holders(?: as reduced supply|:? about|:? )"
+        r"\b(reaches holders(?!:?\s*\**\s*(?:no|unclear)\b)(?: as reduced supply|:? about|:? )"
         r"|some cash now reaches holders"
         r"|holders do get (?:value|paid|it)"
         r"|paid to stakers in real time"
@@ -845,6 +958,30 @@ def classify_revenue(fm: dict, revenue_section: str) -> dict:
         r"lands in a treasury that governance spends)\b",
         re.I,
     )
+
+    meth = methodology_fm(fm)
+    declared = meth.get("revenue_reaches_holders")
+    if not declared:
+        em = EXPLICIT_HOLDER_TEST_RE.search(blob)
+        if em:
+            declared = em.group(1).lower()
+    if declared:
+        reaches = declared
+        executed = {"yes": True, "no": False}.get(declared)
+        automatic = True if declared == "yes" else (False if declared == "no" else None)
+        if meth.get("revenue_mechanism") and not notes:
+            notes = str(meth["revenue_mechanism"])[:400]
+        inconsistent = (reaches == "no" and score >= 4 and not re.search(
+            r"(no live claim|holders do not (?:yet )?have a live claim|not yet a live claim)", decision_text, re.I)
+        ) or (score >= 6 and reaches != "yes")
+        return {
+            "reaches_holders": reaches,
+            "mechanisms": mechanisms,
+            "automatic_onchain": automatic,
+            "executed": executed,
+            "inconsistent_with_score": bool(inconsistent),
+            "notes": notes or None,
+        }
 
     no_hit = strong_no.search(decision_text)
     yes_hit = strong_yes.search(decision_text)
@@ -1094,6 +1231,8 @@ def extract_one(path: Path, extracted_at: str | None = None) -> dict:
     }
     # Confirm gates list matches scores; do not silently rewrite published YAML, but record as published.
     extras = {k: v for k, v in fm.items() if k not in FRONT_MATTER_CORE}
+    # YAML dates (for example methodology_effective) are stored as ISO strings.
+    extras = json.loads(json.dumps(extras, default=str))
 
     selling = extract_section(text, SECTION_TITLES["selling_behavior"])
     holdings = extract_section(text, SECTION_TITLES["insider_holdings"])
@@ -1108,6 +1247,7 @@ def extract_one(path: Path, extracted_at: str | None = None) -> dict:
     pump = classify_pump(fm, selling, text)
     revenue = classify_revenue(fm, revenue_sec)
     attributions = extract_attributions(text, selling, holdings, fm.get("red_lines") or {})
+    attributions = merge_fm_attributions(attributions, fm, selling, holdings)
     review = review_flags(pump, revenue, attributions, fm, selling=selling, holdings=holdings)
     extracted_at = extracted_at or now_mst_label()
 

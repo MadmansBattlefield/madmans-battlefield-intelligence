@@ -23,12 +23,19 @@ red_lines:
   mint_path_live: "no further mint seen: 1B minted once at deploy (block 95,356,998)"
   team_wallet_to_exchange_during_pump: "none found: 0 transfers from 9 traced allocation/reserve wallets on the 30 pump days"
   treasury_in_single_key_wallets: "yes: unreleased move-to-earn (115M) and ecosystem (14.6M) GRND sit in EOAs 0x2890e9710fbf673ee930f7515c3d659ca9fb5751 and 0xd692bee951304510a51bd8a67a2eef49b047bd45"
-methodology_2026_11_16:
-  revenue_reaches_holders: "no"
-  disclosure_quality: not_applicable
-  pump_day_undisclosed_penalty_applied: false
-  pump_day_price_source: "Gate GRND_USDT UTC daily closes"
-  dual_review: not_run
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The token only recycles in-app spending; the one-off buyback was a company decision, not an automatic on-chain mechanism, so revenue does not reach holders."
+pump_day_price_source: "Gate GRND_USDT UTC daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce"
+    label: "SuperWalk: SuperWalk (GRND) token"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + Arbiscan token"
 price_usd: 0.00652
 price_source: "CoinGecko, 16 Nov 2026 9:11 AM MST"
 last_updated: 2026-11-16
