@@ -155,7 +155,7 @@ layout_version: 3
 ## 📚 Sources
 
 - Arkham does not cover Conflux (Core Space or eSpace), so no Arkham labels were available for the CFX wallets; attribution rests on ConfluxScan and Conflux's own publications
-- [Tier A] ConfluxScan `/statistics/supply` and `/account/cfx/transfers`; Conflux RPC `cfx_getBalance`, read 16 Nov 2026 ~11:05 AM MST
+- [Tier A] ConfluxScan `/statistics/supply` and `/account/cfx/transfers`; Conflux RPC `cfx_getBalance`, read 16 Nov 2026
 - [Tier A] [Conflux economic model](https://medium.com/conflux-network/conflux-networks-economic-model-pre-mined-token-distribution-and-proportions-f92fe00696ea) · [Ecosystem fund update and founder locks](https://medium.com/conflux-network/ecosystem-funds-update-8bb1cbce80b8) · [Round 20 parameters](https://forum.conflux.fun/t/conflux-network-key-parameters-round-20-voting-results-to-take-effect-soon/23506) · [Oct 2026 report](https://confluxnetwork.medium.com/monthly-progress-report-october-2026-93338db112f3)
 - [Tier B] [MrNasDog CFX supply](https://mrnasdog.com/research/cfx) · [Blockchain.News](https://blockchain.news/news/cfx-block-rewards-halved-conflux-supply-cut-april-2026)
 - [Tier A] CoinGecko `conflux-token` (16 Nov 2026 8:34 AM MST); DefiLlama chains; Gate CFX/USDT daily candles
