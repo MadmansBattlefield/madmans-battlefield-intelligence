@@ -1,0 +1,165 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "DDSC",
+  "name": "DDSC (UAE dirham stablecoin)",
+  "chain": "adi-chain",
+  "contract": "",
+  "overall_score": 3.9,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 0,
+    "foundation_team": 8,
+    "insider_holdings": 5,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 1,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 5,
+    "regulatory": 8,
+    "catalysts": 4
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 0,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found in this pass",
+    "team_wallet_to_exchange_during_pump": "not applicable: pegged stablecoin",
+    "one_hop_sale_status": "none_found"
+  },
+  "price_usd": 0.2723,
+  "price_source": "AED peg (1 AED ≈ US$0.2723), 16 Nov 2026",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Reserve income is kept by the issuer; no yield, burn or fee share goes to holders.",
+    "pump_day_price_source": "not applicable (fiat-pegged stablecoin)",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
+  "key_numbers": {
+    "price_usd": 0.2723
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/DDSC.md",
+    "sha256": "7347e781f50955929efa0b29dfcd496746ff28b315bb974e15b8cf61325fb5e5",
+    "bytes": 7296,
+    "extracted_at": "2026-11-16 15:04 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "AED peg (1 AED ≈ US$0.2723), 16 Nov 2026",
+    "source_read_dates": [
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Central-bank approval",
+      "url": "WAM",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Use cases and network",
+      "url": "ADI Foundation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "not applicable (fiat-pegged stablecoin)",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not applicable: pegged stablecoin"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "**0 → hard-gate FAIL** (by design for a payment stablecoin)."
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [WAM: CBUAE approves DDSC](https://www.wam.ae/en/article/172j8aa-cbuae-approves-launch-uae-dirham-backed-stablecoin)",
+      "urls": [
+        "WAM: CBUAE approves DDSC"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [ADI Foundation: DDSC](https://www.adi.foundation/use-cases/ddsc-uae-dirham-backed-stablecoin)",
+      "urls": [
+        "ADI Foundation: DDSC"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Zawya on the IHC/FAB/ADQ launch](https://www.zawya.com/en/business/digital-assets/abu-dhabis-ihc-fab-sovereign-wealth-fund-adq-to-launch-stablecoin-373413)",
+      "urls": [
+        "Zawya on the IHC/FAB/ADQ launch"
+      ],
+      "date_read": null
+    }
+  ]
+}

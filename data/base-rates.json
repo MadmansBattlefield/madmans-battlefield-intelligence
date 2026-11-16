@@ -1,12 +1,12 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:02 MST",
-  "universe": 188,
+  "generated_at": "2026-11-16 15:04 MST",
+  "universe": 198,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
     "count": 7,
-    "share": 0.0372,
+    "share": 0.0354,
     "tickers": [
       "AERO",
       "BTC",
@@ -18,8 +18,8 @@
     ]
   },
   "fail_revenue_gate": {
-    "count": 163,
-    "share": 0.867,
+    "count": 173,
+    "share": 0.8737,
     "tickers": [
       "ACH",
       "ADA",
@@ -59,6 +59,7 @@
       "CTX",
       "DASH",
       "DCJPY",
+      "DDSC",
       "DIA",
       "DOT",
       "DOVU",
@@ -76,9 +77,11 @@
       "EWT",
       "EXA",
       "FIGR",
+      "GOLDFINGER",
       "GRND",
       "H",
       "HAI",
+      "HANDLE",
       "HASH",
       "HBAR",
       "HECTO",
@@ -111,7 +114,9 @@
       "MNT",
       "MOCA",
       "MORPH",
+      "MPATH",
       "MTL",
+      "MTR",
       "NEXA",
       "NIGHT",
       "NUVA",
@@ -151,6 +156,7 @@
       "STBL",
       "STOKR",
       "SUI",
+      "SUKUKFI",
       "SUPRA",
       "SWCH",
       "SWFTC",
@@ -163,11 +169,14 @@
       "TRUF",
       "TX",
       "VELO",
+      "VVPR",
       "W",
+      "WADZ",
       "WIREX",
       "XDB",
       "XDC",
       "XEP",
+      "XLB",
       "XLM",
       "XMR",
       "XNO",
@@ -183,12 +192,13 @@
       "ZK",
       "ZKC",
       "ZKJ",
+      "ZKME",
       "ZKP"
     ]
   },
   "fail_selling_gate": {
     "count": 21,
-    "share": 0.1117,
+    "share": 0.1061,
     "tickers": [
       "CPOOL",
       "EDEL",
@@ -215,7 +225,7 @@
   },
   "fail_both_gates": {
     "count": 17,
-    "share": 0.0904,
+    "share": 0.0859,
     "tickers": [
       "CPOOL",
       "EDEL",
@@ -238,7 +248,7 @@
   },
   "proven_pump_day_sale": {
     "count": 21,
-    "share": 0.1117,
+    "share": 0.1061,
     "tickers": [
       "ALGO",
       "CELO",
@@ -269,8 +279,8 @@
     "tickers": []
   },
   "selling_not_proven": {
-    "count": 130,
-    "share": 0.6915,
+    "count": 140,
+    "share": 0.7071,
     "tickers": [
       "ACH",
       "ADA",
@@ -304,6 +314,7 @@
       "CTRLALT",
       "CTX",
       "DCJPY",
+      "DDSC",
       "DOT",
       "DOVU",
       "EDEN",
@@ -314,8 +325,10 @@
       "ETN",
       "EXA",
       "FIGR",
+      "GOLDFINGER",
       "H",
       "HAI",
+      "HANDLE",
       "HASH",
       "HBAR",
       "HECTO",
@@ -344,7 +357,9 @@
       "METAL",
       "MNSRY",
       "MORPH",
+      "MPATH",
       "MTL",
+      "MTR",
       "NEXA",
       "NIGHT",
       "NUVA",
@@ -376,6 +391,7 @@
       "SOLV",
       "STBL",
       "STOKR",
+      "SUKUKFI",
       "SUPRA",
       "SWCH",
       "SWFTC",
@@ -388,11 +404,14 @@
       "TRUF",
       "TX",
       "VELO",
+      "VVPR",
       "W",
+      "WADZ",
       "WAN",
       "WIREX",
       "XDC",
       "XEP",
+      "XLB",
       "XPL",
       "XRP",
       "YELLOW",
@@ -401,12 +420,13 @@
       "ZEC",
       "ZEN",
       "ZKC",
+      "ZKME",
       "ZKP"
     ]
   },
   "selling_score_equals_4": {
-    "count": 118,
-    "share": 0.6277,
+    "count": 128,
+    "share": 0.6465,
     "tickers": [
       "ACH",
       "ADEL",
@@ -436,6 +456,7 @@
       "CTRLALT",
       "CTX",
       "DCJPY",
+      "DDSC",
       "DOT",
       "DOVU",
       "EDEN",
@@ -446,8 +467,10 @@
       "ETN",
       "EXA",
       "FIGR",
+      "GOLDFINGER",
       "H",
       "HAI",
+      "HANDLE",
       "HASH",
       "HECTO",
       "HIVE",
@@ -471,7 +494,9 @@
       "METAL",
       "MNSRY",
       "MORPH",
+      "MPATH",
       "MTL",
+      "MTR",
       "NEXA",
       "NIGHT",
       "NUVA",
@@ -502,6 +527,7 @@
       "SOLV",
       "STBL",
       "STOKR",
+      "SUKUKFI",
       "SUPRA",
       "SWCH",
       "SWFTC",
@@ -513,11 +539,14 @@
       "TRUF",
       "TX",
       "VELO",
+      "VVPR",
       "W",
+      "WADZ",
       "WAN",
       "WIREX",
       "XDC",
       "XEP",
+      "XLB",
       "XPL",
       "XRP",
       "YELLOW",
@@ -525,12 +554,13 @@
       "ZANO",
       "ZEN",
       "ZKC",
+      "ZKME",
       "ZKP"
     ]
   },
   "undisclosed_pump_day_sale_silence": {
     "count": 15,
-    "share": 0.0798,
+    "share": 0.0758,
     "tickers": [
       "CPOOL",
       "FXS",
@@ -551,7 +581,7 @@
   },
   "one_hop_sale_proven": {
     "count": 21,
-    "share": 0.1117,
+    "share": 0.1061,
     "tickers": [
       "ALGO",
       "CELO",
@@ -578,7 +608,7 @@
   },
   "one_hop_transfer_not_proven_sale": {
     "count": 20,
-    "share": 0.1064,
+    "share": 0.101,
     "tickers": [
       "ACH",
       "API3",
@@ -604,7 +634,7 @@
   },
   "revenue_reaches_holders_yes": {
     "count": 30,
-    "share": 0.1596,
+    "share": 0.1515,
     "tickers": [
       "AERO",
       "APT",
@@ -639,8 +669,8 @@
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 157,
-    "share": 0.8351,
+    "count": 167,
+    "share": 0.8434,
     "tickers": [
       "ACH",
       "ADA",
@@ -679,6 +709,7 @@
       "CTX",
       "DASH",
       "DCJPY",
+      "DDSC",
       "DIA",
       "DOT",
       "DOVU",
@@ -697,9 +728,11 @@
       "EXA",
       "FIGR",
       "FXS",
+      "GOLDFINGER",
       "GRND",
       "H",
       "HAI",
+      "HANDLE",
       "HBAR",
       "HECTO",
       "HIVE",
@@ -731,7 +764,9 @@
       "MNT",
       "MOCA",
       "MORPH",
+      "MPATH",
       "MTL",
+      "MTR",
       "NEXA",
       "NIGHT",
       "NUVA",
@@ -771,6 +806,7 @@
       "STBL",
       "STOKR",
       "SUI",
+      "SUKUKFI",
       "SUPRA",
       "SWCH",
       "SWFTC",
@@ -782,9 +818,12 @@
       "TRB",
       "TRUF",
       "VELO",
+      "VVPR",
       "W",
+      "WADZ",
       "WIREX",
       "XDB",
+      "XLB",
       "XMR",
       "XNO",
       "XPL",
@@ -797,13 +836,14 @@
       "ZK",
       "ZKC",
       "ZKJ",
+      "ZKME",
       "ZKP",
       "ZRO"
     ]
   },
   "revenue_reaches_holders_unclear": {
     "count": 1,
-    "share": 0.0053,
+    "share": 0.0051,
     "tickers": [
       "XEP"
     ]

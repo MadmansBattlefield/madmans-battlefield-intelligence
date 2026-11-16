@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 15:02 MST",
+  "generated_at": "2026-11-16 15:04 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -439,6 +439,12 @@
       "json": "data/reports/DCJPY.json"
     },
     {
+      "id": "DDSC",
+      "path": "banking-rails/DDSC.md",
+      "layout": "v3",
+      "json": "data/reports/DDSC.json"
+    },
+    {
       "id": "DIA",
       "path": "banking-rails/DIA.md",
       "layout": "v3",
@@ -553,6 +559,12 @@
       "json": "data/reports/FXS.json"
     },
     {
+      "id": "GOLDFINGER",
+      "path": "banking-rails/GOLDFINGER.md",
+      "layout": "v3",
+      "json": "data/reports/GOLDFINGER.json"
+    },
+    {
       "id": "GRND",
       "path": "banking-rails/GRND.md",
       "layout": "v3",
@@ -569,6 +581,12 @@
       "path": "banking-rails/HAI.md",
       "layout": "v3",
       "json": "data/reports/HAI.json"
+    },
+    {
+      "id": "HANDLE",
+      "path": "banking-rails/HANDLE.md",
+      "layout": "v3",
+      "json": "data/reports/HANDLE.json"
     },
     {
       "id": "HASH",
@@ -787,10 +805,22 @@
       "json": "data/reports/MORPH.json"
     },
     {
+      "id": "MPATH",
+      "path": "banking-rails/MPATH.md",
+      "layout": "v3",
+      "json": "data/reports/MPATH.json"
+    },
+    {
       "id": "MTL",
       "path": "banking-rails/MTL.md",
       "layout": "v3",
       "json": "data/reports/MTL.json"
+    },
+    {
+      "id": "MTR",
+      "path": "banking-rails/MTR.md",
+      "layout": "v3",
+      "json": "data/reports/MTR.json"
     },
     {
       "id": "NEXA",
@@ -1069,6 +1099,12 @@
       "json": "data/reports/SUI.json"
     },
     {
+      "id": "SUKUKFI",
+      "path": "banking-rails/SUKUKFI.md",
+      "layout": "v3",
+      "json": "data/reports/SUKUKFI.json"
+    },
+    {
       "id": "SUPRA",
       "path": "banking-rails/SUPRA.md",
       "layout": "v3",
@@ -1147,10 +1183,22 @@
       "json": "data/reports/VELO.json"
     },
     {
+      "id": "VVPR",
+      "path": "banking-rails/VVPR.md",
+      "layout": "v3",
+      "json": "data/reports/VVPR.json"
+    },
+    {
       "id": "W",
       "path": "banking-rails/W.md",
       "layout": "v3",
       "json": "data/reports/W.json"
+    },
+    {
+      "id": "WADZ",
+      "path": "banking-rails/WADZ.md",
+      "layout": "v3",
+      "json": "data/reports/WADZ.json"
     },
     {
       "id": "WAN",
@@ -1181,6 +1229,12 @@
       "path": "banking-rails/XEP.md",
       "layout": "v3",
       "json": "data/reports/XEP.json"
+    },
+    {
+      "id": "XLB",
+      "path": "banking-rails/XLB.md",
+      "layout": "v3",
+      "json": "data/reports/XLB.json"
     },
     {
       "id": "XLM",
@@ -1279,6 +1333,12 @@
       "json": "data/reports/ZKJ.json"
     },
     {
+      "id": "ZKME",
+      "path": "banking-rails/ZKME.md",
+      "layout": "v3",
+      "json": "data/reports/ZKME.json"
+    },
+    {
       "id": "ZKP",
       "path": "banking-rails/ZKP.md",
       "layout": "v3",
@@ -1296,5 +1356,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 188
+  "scored_reports": 198
 }

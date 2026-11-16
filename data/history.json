@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:02 MST",
+  "generated_at": "2026-11-16 15:04 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -262,7 +262,32 @@
     {
       "ticker": "AON",
       "path": "banking-rails/AON.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "c8928d7340215e65959740562bf8cfeb3b7388df",
+          "committed_at_mst": "2026-11-16 15:02 MST",
+          "subject": "STEP 4: v3 reports AON CASHLINK CRYSTAL CTRLALT DCJPY FIGR LIBEARA LOFTY MORPH STOKR (no-token entries)",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 7,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 6,
+            "adoption_customers": 6,
+            "security_audits": 5,
+            "regulatory": 7,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "API3",
@@ -867,7 +892,32 @@
     {
       "ticker": "CASHLINK",
       "path": "banking-rails/CASHLINK.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "c8928d7340215e65959740562bf8cfeb3b7388df",
+          "committed_at_mst": "2026-11-16 15:02 MST",
+          "subject": "STEP 4: v3 reports AON CASHLINK CRYSTAL CTRLALT DCJPY FIGR LIBEARA LOFTY MORPH STOKR (no-token entries)",
+          "overall_score": 2.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 7,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "CC",
@@ -1325,7 +1375,32 @@
     {
       "ticker": "CRYSTAL",
       "path": "banking-rails/CRYSTAL.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "c8928d7340215e65959740562bf8cfeb3b7388df",
+          "committed_at_mst": "2026-11-16 15:02 MST",
+          "subject": "STEP 4: v3 reports AON CASHLINK CRYSTAL CTRLALT DCJPY FIGR LIBEARA LOFTY MORPH STOKR (no-token entries)",
+          "overall_score": 2.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "CSPR",
@@ -1420,7 +1495,32 @@
     {
       "ticker": "CTRLALT",
       "path": "banking-rails/CTRLALT.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "c8928d7340215e65959740562bf8cfeb3b7388df",
+          "committed_at_mst": "2026-11-16 15:02 MST",
+          "subject": "STEP 4: v3 reports AON CASHLINK CRYSTAL CTRLALT DCJPY FIGR LIBEARA LOFTY MORPH STOKR (no-token entries)",
+          "overall_score": 2.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "CTX",
@@ -1485,6 +1585,36 @@
     {
       "ticker": "DCJPY",
       "path": "banking-rails/DCJPY.md",
+      "versions": [
+        {
+          "commit": "c8928d7340215e65959740562bf8cfeb3b7388df",
+          "committed_at_mst": "2026-11-16 15:02 MST",
+          "subject": "STEP 4: v3 reports AON CASHLINK CRYSTAL CTRLALT DCJPY FIGR LIBEARA LOFTY MORPH STOKR (no-token entries)",
+          "overall_score": 2.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 7,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "DDSC",
+      "path": "banking-rails/DDSC.md",
       "versions": []
     },
     {
@@ -1999,7 +2129,32 @@
     {
       "ticker": "FIGR",
       "path": "banking-rails/FIGR.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "c8928d7340215e65959740562bf8cfeb3b7388df",
+          "committed_at_mst": "2026-11-16 15:02 MST",
+          "subject": "STEP 4: v3 reports AON CASHLINK CRYSTAL CTRLALT DCJPY FIGR LIBEARA LOFTY MORPH STOKR (no-token entries)",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 7,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 6,
+            "adoption_customers": 6,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "FXS",
@@ -2100,6 +2255,11 @@
       ]
     },
     {
+      "ticker": "GOLDFINGER",
+      "path": "banking-rails/GOLDFINGER.md",
+      "versions": []
+    },
+    {
       "ticker": "GRND",
       "path": "banking-rails/GRND.md",
       "versions": [
@@ -2188,6 +2348,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "HANDLE",
+      "path": "banking-rails/HANDLE.md",
+      "versions": []
     },
     {
       "ticker": "HASH",
@@ -2892,7 +3057,32 @@
     {
       "ticker": "LIBEARA",
       "path": "banking-rails/LIBEARA.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "c8928d7340215e65959740562bf8cfeb3b7388df",
+          "committed_at_mst": "2026-11-16 15:02 MST",
+          "subject": "STEP 4: v3 reports AON CASHLINK CRYSTAL CTRLALT DCJPY FIGR LIBEARA LOFTY MORPH STOKR (no-token entries)",
+          "overall_score": 2.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "LINGO",
@@ -2955,7 +3145,32 @@
     {
       "ticker": "LOFTY",
       "path": "banking-rails/LOFTY.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "c8928d7340215e65959740562bf8cfeb3b7388df",
+          "committed_at_mst": "2026-11-16 15:02 MST",
+          "subject": "STEP 4: v3 reports AON CASHLINK CRYSTAL CTRLALT DCJPY FIGR LIBEARA LOFTY MORPH STOKR (no-token entries)",
+          "overall_score": 2.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "LUMIA",
@@ -3260,6 +3475,36 @@
     {
       "ticker": "MORPH",
       "path": "banking-rails/MORPH.md",
+      "versions": [
+        {
+          "commit": "c8928d7340215e65959740562bf8cfeb3b7388df",
+          "committed_at_mst": "2026-11-16 15:02 MST",
+          "subject": "STEP 4: v3 reports AON CASHLINK CRYSTAL CTRLALT DCJPY FIGR LIBEARA LOFTY MORPH STOKR (no-token entries)",
+          "overall_score": 2.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "MPATH",
+      "path": "banking-rails/MPATH.md",
       "versions": []
     },
     {
@@ -3291,6 +3536,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "MTR",
+      "path": "banking-rails/MTR.md",
+      "versions": []
     },
     {
       "ticker": "NEXA",
@@ -5103,7 +5353,32 @@
     {
       "ticker": "STOKR",
       "path": "banking-rails/STOKR.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "c8928d7340215e65959740562bf8cfeb3b7388df",
+          "committed_at_mst": "2026-11-16 15:02 MST",
+          "subject": "STEP 4: v3 reports AON CASHLINK CRYSTAL CTRLALT DCJPY FIGR LIBEARA LOFTY MORPH STOKR (no-token entries)",
+          "overall_score": 2.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "SUI",
@@ -5135,6 +5410,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "SUKUKFI",
+      "path": "banking-rails/SUKUKFI.md",
+      "versions": []
     },
     {
       "ticker": "SUPRA",
@@ -5623,6 +5903,11 @@
       ]
     },
     {
+      "ticker": "VVPR",
+      "path": "banking-rails/VVPR.md",
+      "versions": []
+    },
+    {
       "ticker": "W",
       "path": "banking-rails/W.md",
       "versions": [
@@ -5676,6 +5961,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "WADZ",
+      "path": "banking-rails/WADZ.md",
+      "versions": []
     },
     {
       "ticker": "WAN",
@@ -5825,6 +6115,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "XLB",
+      "path": "banking-rails/XLB.md",
+      "versions": []
     },
     {
       "ticker": "XLM",
@@ -6478,6 +6773,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "ZKME",
+      "path": "banking-rails/ZKME.md",
+      "versions": []
     },
     {
       "ticker": "ZKP",
