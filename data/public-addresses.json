@@ -1,9 +1,9 @@
 {
   "title": "Public addresses examined in published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:34 MST",
+  "generated_at": "2026-11-16 12:36 MST",
   "note": "Every address here was extracted from a public evidence link or explorer URL already published in banking-rails/<TICKER>.md. No private worksheets were used. Labels that would name a private individual are not included.",
-  "count": 1246,
+  "count": 1253,
   "addresses": [
     {
       "ticker": "ACH",
@@ -5228,6 +5228,48 @@
       "kind": "address"
     },
     {
+      "ticker": "QANX",
+      "chain": "ethereum",
+      "address": "0x0ea0f3a77e097294a54c9e15758ef760bb600ce4",
+      "url": "https://intel.arkm.com/explorer/address/0x0ea0f3a77e097294a54c9e15758ef760bb600ce4",
+      "kind": "address"
+    },
+    {
+      "ticker": "QANX",
+      "chain": "ethereum",
+      "address": "0x12fa63b263e0e5e2410fb975f024eb3997422092",
+      "url": "https://intel.arkm.com/explorer/address/0x12fa63b263e0e5e2410fb975f024eb3997422092",
+      "kind": "address"
+    },
+    {
+      "ticker": "QANX",
+      "chain": "ethereum",
+      "address": "0x15dc45098e220a61c307303f16bec8d67dc88d36",
+      "url": "https://intel.arkm.com/explorer/address/0x15dc45098e220a61c307303f16bec8d67dc88d36",
+      "kind": "address"
+    },
+    {
+      "ticker": "QANX",
+      "chain": "ethereum",
+      "address": "0x3e9d2bfec755a2787431dd56534226255f33a32a",
+      "url": "https://intel.arkm.com/explorer/address/0x3e9d2bfec755a2787431dd56534226255f33a32a",
+      "kind": "address"
+    },
+    {
+      "ticker": "QANX",
+      "chain": "ethereum",
+      "address": "0xce99e79466b3b3353be8b141e89c30ce3e022930",
+      "url": "https://intel.arkm.com/explorer/address/0xce99e79466b3b3353be8b141e89c30ce3e022930",
+      "kind": "address"
+    },
+    {
+      "ticker": "QANX",
+      "chain": "ethereum",
+      "address": "0xd7f35d78d592609c384f4423da6a512f5e904cd8",
+      "url": "https://intel.arkm.com/explorer/address/0xd7f35d78d592609c384f4423da6a512f5e904cd8",
+      "kind": "address"
+    },
+    {
       "ticker": "QNT",
       "chain": "ethereum",
       "address": "0x09f7cb22c7d521e76c72cb166ff6efc7ec03effd",
@@ -5498,6 +5540,13 @@
       "chain": "ethereum",
       "address": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
       "url": "https://etherscan.io/address/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "kind": "address"
+    },
+    {
+      "ticker": "RBNT",
+      "chain": "redbelly",
+      "address": "0x970ce12dd52c1c721118ec1d344fcb6eb1e12fdc",
+      "url": "https://intel.arkm.com/explorer/address/0x970ce12dd52c1c721118ec1d344fcb6eb1e12fdc",
       "kind": "address"
     },
     {

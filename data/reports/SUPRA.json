@@ -1,0 +1,168 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SUPRA",
+  "name": "Supra",
+  "chain": "supra",
+  "contract": "0x1::supra_coin::SupraCoin (native Supra L1)",
+  "overall_score": 3.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 2,
+    "liquidity_market": 3,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no new mint; 47.1B of 100B circulating, with ~53% of the allocated supply still to unlock until Sep 2031",
+    "team_wallet_to_exchange_during_pump": "not proven: SupraScan sits behind a bot wall and the RPC has no holder index, so insider wallets couldn't be traced",
+    "entity_concentration": "foundation 27.4%, early contributors 20.6%, insiders 16% of allocations"
+  },
+  "price_usd": 0.00013002,
+  "price_source": "CoinGecko, 16 Nov 2026 ~11:40 AM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Revenue is only meant to fund buybacks; no buyback or fee figures are published, so revenue does not reach holders.",
+    "pump_day_price_source": "KuCoin SUPRA-USDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
+  "key_numbers": {
+    "price_usd": 0.00013002,
+    "market_cap_text": "$6.12M",
+    "fdv_text": "$10.75M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SUPRA.md",
+    "sha256": "83426bbc9340e9cb1f3bcb35ee0af63267a42254addf1619ef79770006f1e00e",
+    "bytes": 9523,
+    "extracted_at": "2026-11-16 12:36 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~11:40 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Next insider unlock 1.28B, 27 Nov 2026",
+      "url": "Tokenomics.com",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "KuCoin SUPRA-USDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: SupraScan sits behind a bot wall and the RPC has no holder index, so insider wallets couldn't be traced"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - Network revenue from automation, arbitrage and liquidation capture is meant to fund buybacks ([Supra hub](https://hub.supra.com/defi-revolution), [2025 TGE report](https://supra.com/documents/TGE-Report-2025.pdf)). No buyback or fee figures are published. **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules)..."
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): not used: no Supra addresses were looked up on Arkham for this report",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Supra 2025 TGE report](https://supra.com/documents/TGE-Report-2025.pdf), [Supra hub](https://hub.supra.com/defi-revolution), [Supra forum Q&A](https://forum.supra.com/t/community-q-a-volume-2/232), [Entropy Foundation post](https://forum.supra.com/t/entropy-foundation-supra-ecosystem-fund-general-use-of-funds-and-the-supra-vision/192)",
+      "urls": [
+        "Supra 2025 TGE report",
+        "Supra hub",
+        "Supra forum Q&A",
+        "Entropy Foundation post"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Tokenomics.com unlocks](https://app.tokenomics.com/tokenomics/supra/unlocks)",
+      "urls": [
+        "Tokenomics.com unlocks"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `supra` (market, venues); pump days from KuCoin SUPRA-USDT daily closes",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

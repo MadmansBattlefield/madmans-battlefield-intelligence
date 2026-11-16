@@ -1,0 +1,182 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SCRT",
+  "name": "Secret Network",
+  "chain": "secret",
+  "contract": "native uscrt on Secret Network (secret-4)",
+  "overall_score": 2.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 2,
+    "insider_holdings": 2,
+    "selling_behavior": 4,
+    "tokenomics_supply": 1,
+    "liquidity_market": 3,
+    "product_development": 4,
+    "adoption_customers": 2,
+    "security_audits": 2,
+    "regulatory": 5,
+    "catalysts": 2
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes: the CW20-ICS20 contract on the Axelar route was drained of ~$4.67M through an infinite-mint flaw (10 Jun 2026), unnoticed for seven days",
+    "mint_path_live": "yes: governance minted 1,079M SCRT on 21 Aug 2026 (v1.26 upgrade); inflation is now pinned at 5%",
+    "team_wallet_to_exchange_during_pump": "not proven: Foundation and core-development lines sent ~10.2M SCRT (~$92k) to one busy unlabelled hot wallet between 28 Aug and 6 Nov 2026, none on a Gate pump day",
+    "entity_concentration": "the ten mint buckets hold ~81% of bonded stake (690.9M of 856.3M SCRT)"
+  },
+  "price_usd": 0.00335963,
+  "price_source": "CoinGecko, 16 Nov 2026 ~11:20 AM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Gas fees go to validators and stakers, and staking yield is inflation; there is no fee capture, burn or buyback, so revenue does not reach holders.",
+    "pump_day_price_source": "Gate SCRT-USDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
+  "key_numbers": {
+    "price_usd": 0.00335963,
+    "market_cap_text": "$2.33M",
+    "fdv_text": "$4.91M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SCRT.md",
+    "sha256": "67ed15009bf1d2d3ff10b494706811a12297e4786940c1d0071b9a460aa11f66",
+    "bytes": 12114,
+    "extracted_at": "2026-11-16 12:36 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~11:20 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Gate SCRT-USDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: Foundation and core-development lines sent ~10.2M SCRT (~$92k) to one busy unlabelled hot wallet between 28 Aug and 6 Nov 2026, none on a Gate pump day"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - Gas fees go to validators and stakers. Staking yield is 5% inflation, not revenue. No fee capture, burn or buyback. **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules): No.** Gas fees go to validators and stakers, and staking yield is inflation; there is no fee capture, burn or buyback, so revenue does not..."
+  },
+  "attributions": [
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): not used: no Secret Network addresses were looked up on Arkham for this report",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Proposal 365 on-chain record](https://rest.lavenderfive.com/secretnetwork/cosmos/gov/v1/proposals/365), [v1.26 ECONOMICS.md](https://github.com/Secret3dev/SecretNetwork/blob/secretcommunity-release-1/app/upgrades/v1.26/config/ECONOMICS.md), [v1.26 config.go](https://github.com/Secret3dev/SecretNetwork/blob/secretcommunity-release-1/app/upgrades/v1.26/config/config.go)",
+      "urls": [
+        "Proposal 365 on-chain record",
+        "v1.26 ECONOMICS.md",
+        "v1.26 config.go"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Secret LCD: staking pool, bank supply, bucket balances, delegations and sends (16 Nov 2026)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CryptoSlate on the mint](https://cryptoslate.com/layer-1-network-dilutes-supply-by-75-overnight-to-fund-survival-after-main-developer-quits/), [Blockworks disclosures](https://app.blockworks.com/projects/secret-network/disclosures), [The Block on the exploit](https://www.theblock.co/news/ecosystems/2026-06-20-secret-networks-axelar-bridge-drained-for-4-67-million-in-infinite-mint-exploit-that-went-unnoticed-for-seven-days-405459), [Common Prefix](https://www.commonprefix.com/blog/secret-network-exploit)",
+      "urls": [
+        "CryptoSlate on the mint",
+        "Blockworks disclosures",
+        "The Block on the exploit",
+        "Common Prefix"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `secret` (market, venues); pump days from Gate SCRT-USDT daily closes",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

@@ -20,7 +20,7 @@ Start with this file, then `data/index.json` and `METHODOLOGY.md`, then the JSON
 - [banking-rails/README.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/README.md): folder index for token notes
 - [banking-rails/COVER.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/COVER.md): why the reports exist, v3 methodology, what each section checks
 - [METHODOLOGY.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/METHODOLOGY.md): full v3 rulebook, including the 16 Nov 2026 upgrades
-- [banking-rails/RANKING.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/RANKING.md): all 133 v3 scores, ranked
+- [banking-rails/RANKING.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/RANKING.md): all 138 v3 scores, ranked
 - [banking-rails/ALL-PROJECTS.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ALL-PROJECTS.md): every project in the research pipeline, grouped by status
 - [HISTORY.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/HISTORY.md): score history for every published v3 report
 - [BASE-RATES.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/BASE-RATES.md): pass rate, hard-gate fails, pump-day sales, holder-accrual rates
@@ -104,6 +104,7 @@ Start with this file, then `data/index.json` and `METHODOLOGY.md`, then the JSON
 - [banking-rails/MINA.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/MINA.md): research note for MINA
 - [banking-rails/MNT.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/MNT.md): research note for MNT
 - [banking-rails/MOCA.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/MOCA.md): research note for MOCA
+- [banking-rails/NEXA.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/NEXA.md): research note for NEXA
 - [banking-rails/NIGHT.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/NIGHT.md): research note for NIGHT
 - [banking-rails/OM.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/OM.md): research note for OM
 - [banking-rails/ONDO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ONDO.md): research note for ONDO
@@ -115,8 +116,10 @@ Start with this file, then `data/index.json` and `METHODOLOGY.md`, then the JSON
 - [banking-rails/PRO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/PRO.md): research note for PRO
 - [banking-rails/PROPC.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/PROPC.md): research note for PROPC
 - [banking-rails/PUNDIX.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/PUNDIX.md): research note for PUNDIX
+- [banking-rails/QANX.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/QANX.md): research note for QANX
 - [banking-rails/QNT.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/QNT.md): research note for QNT
 - [banking-rails/QUAI.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/QUAI.md): research note for QUAI
+- [banking-rails/RBNT.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/RBNT.md): research note for RBNT
 - [banking-rails/RED.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/RED.md): research note for RED
 - [banking-rails/REQ.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/REQ.md): research note for REQ
 - [banking-rails/REUSD.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/REUSD.md): research note for REUSD
@@ -127,6 +130,7 @@ Start with this file, then `data/index.json` and `METHODOLOGY.md`, then the JSON
 - [banking-rails/ROUTER.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ROUTER.md): research note for ROUTER
 - [banking-rails/RVN.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/RVN.md): research note for RVN
 - [banking-rails/S.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/S.md): research note for S
+- [banking-rails/SCRT.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SCRT.md): research note for SCRT
 - [banking-rails/SEI.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SEI.md): research note for SEI
 - [banking-rails/SERV.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SERV.md): research note for SERV
 - [banking-rails/SHARE.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SHARE.md): research note for SHARE
@@ -138,6 +142,7 @@ Start with this file, then `data/index.json` and `METHODOLOGY.md`, then the JSON
 - [banking-rails/SPA.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SPA.md): research note for SPA
 - [banking-rails/STBL.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/STBL.md): research note for STBL
 - [banking-rails/SUI.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SUI.md): research note for SUI
+- [banking-rails/SUPRA.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SUPRA.md): research note for SUPRA
 - [banking-rails/SWCH.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SWCH.md): research note for SWCH
 - [banking-rails/SWFTC.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SWFTC.md): research note for SWFTC
 - [banking-rails/SYRUP.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SYRUP.md): research note for SYRUP

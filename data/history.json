@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:34 MST",
+  "generated_at": "2026-11-16 12:36 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -670,7 +670,32 @@
     {
       "ticker": "CELR",
       "path": "banking-rails/CELR.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "91b6ac13a276ba2cda9cb0adc687109cc3eba74a",
+          "committed_at_mst": "2026-11-16 12:34 MST",
+          "subject": "v3: EURE, CELR, LUMIA, EDEN, DIA with Arkham attributions (16 Nov 2026 rules); LUMIA Selling 3->4",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 7,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 4,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "CFG",
@@ -887,7 +912,32 @@
     {
       "ticker": "DIA",
       "path": "banking-rails/DIA.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "91b6ac13a276ba2cda9cb0adc687109cc3eba74a",
+          "committed_at_mst": "2026-11-16 12:34 MST",
+          "subject": "v3: EURE, CELR, LUMIA, EDEN, DIA with Arkham attributions (16 Nov 2026 rules); LUMIA Selling 3->4",
+          "overall_score": 4.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 7,
+            "tokenomics_supply": 7,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 5,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "DOT",
@@ -983,7 +1033,32 @@
     {
       "ticker": "EDEN",
       "path": "banking-rails/EDEN.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "91b6ac13a276ba2cda9cb0adc687109cc3eba74a",
+          "committed_at_mst": "2026-11-16 12:34 MST",
+          "subject": "v3: EURE, CELR, LUMIA, EDEN, DIA with Arkham attributions (16 Nov 2026 rules); LUMIA Selling 3->4",
+          "overall_score": 4.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 6,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "ENA",
@@ -1076,7 +1151,32 @@
     {
       "ticker": "EURE",
       "path": "banking-rails/EURE.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "91b6ac13a276ba2cda9cb0adc687109cc3eba74a",
+          "committed_at_mst": "2026-11-16 12:34 MST",
+          "subject": "v3: EURE, CELR, LUMIA, EDEN, DIA with Arkham attributions (16 Nov 2026 rules); LUMIA Selling 3->4",
+          "overall_score": 5.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 6,
+            "insider_holdings": 6,
+            "selling_behavior": 6,
+            "tokenomics_supply": 7,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 7,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "EWT",
@@ -1734,7 +1834,32 @@
     {
       "ticker": "LUMIA",
       "path": "banking-rails/LUMIA.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "91b6ac13a276ba2cda9cb0adc687109cc3eba74a",
+          "committed_at_mst": "2026-11-16 12:34 MST",
+          "subject": "v3: EURE, CELR, LUMIA, EDEN, DIA with Arkham attributions (16 Nov 2026 rules); LUMIA Selling 3->4",
+          "overall_score": 3.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 3,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "MASQ",
@@ -1885,6 +2010,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "NEXA",
+      "path": "banking-rails/NEXA.md",
+      "versions": []
     },
     {
       "ticker": "NIGHT",
@@ -2269,6 +2399,11 @@
       ]
     },
     {
+      "ticker": "QANX",
+      "path": "banking-rails/QANX.md",
+      "versions": []
+    },
+    {
       "ticker": "QNT",
       "path": "banking-rails/QNT.md",
       "versions": [
@@ -2325,6 +2460,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "RBNT",
+      "path": "banking-rails/RBNT.md",
+      "versions": []
     },
     {
       "ticker": "RED",
@@ -2625,6 +2765,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "SCRT",
+      "path": "banking-rails/SCRT.md",
+      "versions": []
     },
     {
       "ticker": "SEI",
@@ -2952,6 +3097,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "SUPRA",
+      "path": "banking-rails/SUPRA.md",
+      "versions": []
     },
     {
       "ticker": "SWCH",

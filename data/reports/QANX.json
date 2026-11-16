@@ -1,0 +1,362 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "QANX",
+  "name": "QANplatform",
+  "chain": "ethereum",
+  "contract": "0xaaa9214f675316182eaa21c85f0ca99160cc3aaa (Ethereum and BNB Chain)",
+  "overall_score": 3.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 5,
+    "liquidity_market": 3,
+    "product_development": 4,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no: 3.333B minted once in Feb 2023; 1.233B burned Dec 2023",
+    "team_wallet_to_exchange_during_pump": "not proven: no exchange deposits of 1M QANX or more from the top Ethereum holders in the window; team wallets aren't identified, and the BNB Chain side isn't traced",
+    "entity_concentration": "1.1B (52% of the 2.1B live supply) sits in the Etherscan-labelled QANX Bridge Allocation wallet, untouched since Dec 2023"
+  },
+  "price_usd": 0.00786508,
+  "price_source": "CoinGecko, 16 Nov 2026 ~11:35 AM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "There is no mainnet and no fee stream, so revenue does not reach holders.",
+    "pump_day_price_source": "Gate QANX-USDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x3e9d2bfec755a2787431dd56534226255f33a32a",
+        "label": "QANplatform: Bridge Allocation",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + token-contract funding"
+      },
+      {
+        "address": "0xce99e79466b3b3353be8b141e89c30ce3e022930",
+        "label": "Gate Deposit",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + Etherscan forward to Gate hot wallet"
+      },
+      {
+        "address": "0xd7f35d78d592609c384f4423da6a512f5e904cd8",
+        "label": "Unlabelled claimers (generic tags)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x0ea0f3a77e097294a54c9e15758ef760bb600ce4",
+        "label": "Unlabelled claimers (generic tags)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x15dc45098e220a61c307303f16bec8d67dc88d36",
+        "label": "Unlabelled claimers (generic tags)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x12fa63b263e0e5e2410fb975f024eb3997422092",
+        "label": "Unlabelled claimers (generic tags)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.00786508,
+    "market_cap_text": "$13.4M",
+    "fdv_text": "$16.5M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/QANX.md",
+    "sha256": "6524d6140d9cbabb311a8ba85fe8e97e2964d7b0a3abc3df66c748c3aaf4f525",
+    "bytes": 14269,
+    "extracted_at": "2026-11-16 12:36 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~11:35 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "1.1B → QANX Bridge Allocation, 14 Dec 2023",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.133B burned, Dec 2023",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "100.45M burned, Dec 2023",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0ea0f3a77e097294a54c9e15758ef760bb600ce4",
+      "url": "https://intel.arkm.com/explorer/address/0x0ea0f3a77e097294a54c9e15758ef760bb600ce4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x12fa63b263e0e5e2410fb975f024eb3997422092",
+      "url": "https://intel.arkm.com/explorer/address/0x12fa63b263e0e5e2410fb975f024eb3997422092",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x15dc45098e220a61c307303f16bec8d67dc88d36",
+      "url": "https://intel.arkm.com/explorer/address/0x15dc45098e220a61c307303f16bec8d67dc88d36",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3e9d2bfec755a2787431dd56534226255f33a32a",
+      "url": "https://intel.arkm.com/explorer/address/0x3e9d2bfec755a2787431dd56534226255f33a32a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xce99e79466b3b3353be8b141e89c30ce3e022930",
+      "url": "https://intel.arkm.com/explorer/address/0xce99e79466b3b3353be8b141e89c30ce3e022930",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd7f35d78d592609c384f4423da6a512f5e904cd8",
+      "url": "https://intel.arkm.com/explorer/address/0xd7f35d78d592609c384f4423da6a512f5e904cd8",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Gate QANX-USDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: no exchange deposits of 1M QANX or more from the top Ethereum holders in the window; team wallets aren't identified, and the BNB Chain side isn't traced"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 1/10 · ❌ FAIL (hard gate) - No mainnet, so no fees. Nothing accrues to QANX. **1 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules): No.** There is no mainnet and no fee stream, so revenue does not reach holders."
+  },
+  "attributions": [
+    {
+      "address": "0x3e9d2bfec755a2787431dd56534226255f33a32a",
+      "url": null,
+      "label": "QANplatform: Bridge Allocation",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xce99e79466b3b3353be8b141e89c30ce3e022930",
+      "url": null,
+      "label": "a named individual",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd7f35d78d592609c384f4423da6a512f5e904cd8",
+      "url": null,
+      "label": "Unlabelled claimers (generic tags)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0ea0f3a77e097294a54c9e15758ef760bb600ce4",
+      "url": null,
+      "label": "Unlabelled claimers (generic tags)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x15dc45098e220a61c307303f16bec8d67dc88d36",
+      "url": null,
+      "label": "Unlabelled claimers (generic tags)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x12fa63b263e0e5e2410fb975f024eb3997422092",
+      "url": null,
+      "label": "Unlabelled claimers (generic tags)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): the Bridge Allocation, the top unlabelled claimers, the Gate deposit and the BNB Chain token page; dates from Etherscan",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [QANplatform company page](https://learn.qanplatform.com/about-us/company), [QAN September milestones](https://medium.com/qanplatform/september-milestones-xlink-goes-on-chain-and-deterministic-qvm-metering-takes-shape-b70a92f7c686), [CTO open letter, Jul 2026](https://medium.com/qanplatform/open-letter-from-qanplatforms-co-founder-and-cto-reinforcing-mainnet-launch-this-year-2394d1bc510d)",
+      "urls": [
+        "QANplatform company page",
+        "QAN September milestones",
+        "CTO open letter, Jul 2026"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Tokenomics.com QANX](https://app.tokenomics.com/tokenomics/qanplatform), [Crypto Quantum Tracker](https://cryptoquantum.info/chain/qanx)",
+      "urls": [
+        "Tokenomics.com QANX",
+        "Crypto Quantum Tracker"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan holders, labels and transfers for `0xaaa9…3aaa`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `qanplatform` (market, venues); pump days from Gate QANX-USDT daily closes",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}
