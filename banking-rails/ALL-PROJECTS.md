@@ -5,28 +5,31 @@ scored_reports: 28
 passing: 6
 last_updated: 2026-11-16
 timezone: MST
+scan_checked_at: 16 Nov 2026 5:24 AM MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
 
 # 📋 All projects
 
 **Research only. Not financial advice. Not a recommendation to buy or sell.**
-Updated 16 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md).
+Updated 16 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md). Market and status figures in the unfinished groups were read 16 Nov 2026 5:24 AM MST from [CoinGecko](https://www.coingecko.com/), [DefiLlama](https://defillama.com/) and [CoinPaprika](https://coinpaprika.com/).
 
 **293 coins** in the research pipeline. **28** have a full v3 report. **6 pass** and **22 fail.** The other **265** are still in progress, grouped by how close each is to a full report.
 
-**28** ✅ done · **21** 🟢 close · **169** 🟡 need wallet work · **63** 🔴 big gaps · **12** ⚫ dead or wound down
+**28** ✅ done · **21** 🟢 close · **183** 🟡 need wallet work · **35** 🔴 big gaps · **26** ⚫ dead or wound down (12 of them [Unverified])
 
 - [✅ Done (v3 reports)](#done)
 - [🟢 Close](#close)
 - [🟡 Need wallet work](#wallet)
 - [🔴 Big gaps](#gaps)
 - [⚫ Dead or wound down](#dead)
-- [🔄 Rebuild order](#rebuild)
+- [🔄 Next up](#next)
+- [⚠️ Identity notes](#identity)
+- [📚 Sources](#sources)
 
 Finished reports are ranked on the [ranking page](RANKING.md). A few shorter, unscored stubs live in [other-tokens.md](other-tokens.md).
 
-What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod, Adopt, Sec, Reg, Catal. **H** = have, **P** = partial, **M** = missing.
+What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod, Adopt, Sec, Reg, Catal. **H** = have, **P** = partial, **M** = missing. A **$0** fees or revenue figure means DefiLlama reported zero, not a missing value. **—** means the API did not return that field. Red flags such as `dying: mcap <$1M` or `dying: 24h vol <$10k` are quick-kill warnings from the scan, not a final verdict.
 
 ---
 
@@ -71,312 +74,312 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 <a id="close"></a>
 ## 🟢 Close
 
-**21 coins.** Most of the data is already in hand. The first 15 are next in the [rebuild order](#rebuild).
+**21 coins.** Most of the data is already in hand. The first 15 are next in the [Next up](#next) list.
 
-| Ticker | Name | Links | What's missing | Queue |
-|---|---|---|---|---|
-| **SKY** | Sky | [CoinGecko](https://www.coingecko.com/en/search?query=SKY) | Missing: Liq, Reg · Partial: Sell, Sec | In progress |
-| **ENA** | Ethena | [CoinGecko](https://www.coingecko.com/en/search?query=ENA) | Missing: Liq, Reg · Partial: Team, Prod, Adopt, Sec | In progress |
-| **PACT** | PACT | [CoinGecko](https://www.coingecko.com/en/search?query=PACT) | Missing: Liq, Reg · Partial: Rev, Prod | In progress |
-| **JST** | JustLend / JUST | [CoinGecko](https://www.coingecko.com/en/search?query=JST) | Missing: Liq, Reg · Partial: Sell, Adopt, Sec | In progress |
-| **QUAI** | Quai Network | [CoinGecko](https://www.coingecko.com/en/search?query=QUAI) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | In progress |
-| **CARDS** | Collector Crypt | [CoinGecko](https://www.coingecko.com/en/search?query=CARDS) | Missing: Liq, Reg · Partial: Team, Sell, Prod, Sec | In progress |
-| **ZIG** | ZIGChain | [CoinGecko](https://www.coingecko.com/en/search?query=ZIG) | Missing: Liq, Reg · Partial: Rev, Team, Sell, Sec | In progress |
-| **ADA** | Cardano | [CoinGecko](https://www.coingecko.com/en/search?query=ADA) | Missing: Liq, Reg · Partial: Team, Sell, Sec | In progress |
-| **ROSE** | Oasis Network | [CoinGecko](https://www.coingecko.com/en/search?query=ROSE) | Missing: Rev, Liq, Reg · Partial: Sell, Sec | In progress |
-| **SPA** | Sperax | [CoinGecko](https://www.coingecko.com/en/search?query=SPA) | Missing: Liq, Reg · Partial: Team, Sell, Sec | In progress |
-| **DOT** | Polkadot | [CoinGecko](https://www.coingecko.com/en/search?query=DOT) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | In progress |
-| **POLYX** | Polymesh | [CoinGecko](https://www.coingecko.com/en/search?query=POLYX) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | In progress |
-| **INV** | Inverse Finance | [CoinGecko](https://www.coingecko.com/en/search?query=INV) | Missing: Liq, Reg · Partial: Sell, Adopt, Sec | In progress |
-| **TRAC** | OriginTrail | [CoinGecko](https://www.coingecko.com/en/search?query=TRAC) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | In progress |
-| **EXA** | Exactly Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=EXA) | Missing: Liq, Reg · Partial: Sell, Adopt, Sec | In progress |
-| COTI | COTI | [CoinGecko](https://www.coingecko.com/en/search?query=COTI) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Sec | — |
-| XDB | XDB Chain | [CoinGecko](https://www.coingecko.com/en/search?query=XDB) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Sec | — |
-| BAND | Band Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=BAND) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | — |
-| MASQ | MASQ Network | [CoinGecko](https://www.coingecko.com/en/search?query=MASQ) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Prod, Sec | — |
-| DFI | DeFiChain | [CoinGecko](https://www.coingecko.com/en/search?query=DFI) | Missing: Liq, Adopt, Reg · Partial: Rev, Sell, Prod, Sec | — |
-| PROPC | Propchain | [CoinGecko](https://www.coingecko.com/en/search?query=PROPC) | Missing: Liq, Reg · Partial: Rev, Team, Sell, Prod, Sec | — |
+| Ticker | Name | Mcap | 24h vol | 30d fees | 30d rev | Red flag | Links | What's missing | Queue |
+|---|---|---:|---:|---:|---:|---|---|---|---|
+| **SKY** | Sky | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=SKY) | Missing: Liq, Reg · Partial: Sell, Sec | In progress |
+| **ENA** | Ethena | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=ENA) | Missing: Liq, Reg · Partial: Team, Prod, Adopt, Sec | In progress |
+| **PACT** | PACT | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=PACT) | Missing: Liq, Reg · Partial: Rev, Prod | In progress |
+| **JST** | JustLend / JUST | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=JST) | Missing: Liq, Reg · Partial: Sell, Adopt, Sec | In progress |
+| **QUAI** | Quai Network | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=QUAI) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | In progress |
+| **CARDS** | Collector Crypt | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=CARDS) | Missing: Liq, Reg · Partial: Team, Sell, Prod, Sec | In progress |
+| **ZIG** | ZIGChain | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=ZIG) | Missing: Liq, Reg · Partial: Rev, Team, Sell, Sec | In progress |
+| **ADA** | Cardano | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=ADA) | Missing: Liq, Reg · Partial: Team, Sell, Sec | In progress |
+| **ROSE** | Oasis Network | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=ROSE) | Missing: Rev, Liq, Reg · Partial: Sell, Sec | In progress |
+| **SPA** | Sperax | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=SPA) | Missing: Liq, Reg · Partial: Team, Sell, Sec | In progress |
+| **DOT** | Polkadot | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=DOT) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | In progress |
+| **POLYX** | Polymesh | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=POLYX) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | In progress |
+| **INV** | Inverse Finance | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=INV) | Missing: Liq, Reg · Partial: Sell, Adopt, Sec | In progress |
+| **TRAC** | OriginTrail | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=TRAC) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | In progress |
+| **EXA** | Exactly Protocol | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/search?query=EXA) | Missing: Liq, Reg · Partial: Sell, Adopt, Sec | In progress |
+| COTI | COTI | $25.24M | $15.19M | $3.24 | — | — | [CoinGecko](https://www.coingecko.com/en/coins/coti) · [DefiLlama](https://defillama.com/chain/Coti) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Sec | — |
+| BAND | Band Protocol | $27.02M | $938.95k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/band-protocol) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | — |
+| PROPC | Propchain | $2.83M | $55.9k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/propchain) | Missing: Liq, Reg · Partial: Rev, Team, Sell, Prod, Sec | — |
+| XDB | XDB Chain | $891.18k | $17.73k | — | — | dying: mcap <$1M | [CoinGecko](https://www.coingecko.com/en/coins/digitalbits) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Sec | — |
+| DFI | DeFiChain | $1.33M | $153.69 | — | — | dying: 24h vol <$10k | [Site](https://defichain.com/dex) · [CoinGecko](https://www.coingecko.com/en/coins/defichain) · [DefiLlama](https://defillama.com/chain/DefiChain) | Missing: Liq, Adopt, Reg · Partial: Rev, Sell, Prod, Sec | — |
+| MASQ | MASQ Network | $171.75k | $26.48 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/masq) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Prod, Sec | — |
 
 ---
 
 <a id="wallet"></a>
 ## 🟡 Need wallet work
 
-**169 coins.** These still need the team-wallet and pump-day tracing. Listed by earlier research score, highest first.
+**183 coins.** These still need the team-wallet and pump-day tracing. The [Next up](#next) names are listed first, then the rest by 30-day DefiLlama fees or revenue, then 24h volume.
 
-| Ticker | Name | Links | What's missing |
-|---|---|---|---|
-| SYRUP | Maple Finance | [CoinGecko](https://www.coingecko.com/en/search?query=SYRUP) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
-| XDC | XDC Network | [CoinGecko](https://www.coingecko.com/en/search?query=XDC) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
-| INJ | Injective | [CoinGecko](https://www.coingecko.com/en/search?query=INJ) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
-| ZEC | Zcash | [CoinGecko](https://www.coingecko.com/en/search?query=ZEC) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec |
-| RBNT | Redbelly Network | [CoinGecko](https://www.coingecko.com/en/search?query=RBNT) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Token, Sec, Catal |
-| CRO | Cronos / Crypto.com | [CoinGecko](https://www.coingecko.com/en/search?query=CRO) | Missing: Liq · Partial: Team, Hold, Sell, Sec |
-| NIGHT | Midnight | [CoinGecko](https://www.coingecko.com/en/search?query=NIGHT) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Sec |
-| CFG | Centrifuge | [CoinGecko](https://www.coingecko.com/en/search?query=CFG) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
-| KTA | Keeta | [CoinGecko](https://www.coingecko.com/en/search?query=KTA) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
-| AXL | Axelar | [CoinGecko](https://www.coingecko.com/en/search?query=AXL) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
-| SHX | Stronghold | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/search?query=SHX) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Sec |
-| SUI | SUI | [CoinGecko](https://www.coingecko.com/en/search?query=SUI) | Missing: Liq, Reg · Partial: Hold, Sell, Adopt, Sec |
-| ICP | Internet Computer | [CoinGecko](https://www.coingecko.com/en/search?query=ICP) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Sec |
-| EWT | Energy Web | [CoinGecko](https://www.coingecko.com/en/search?query=EWT) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell |
-| ZAMA | Zama | [CoinGecko](https://www.coingecko.com/en/search?query=ZAMA) | Missing: Liq, Adopt, Reg · Partial: Rev, Hold, Sell, Sec |
-| ZK | ZKsync | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/search?query=ZK) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
-| BCH | Bitcoin Cash | [CoinGecko](https://www.coingecko.com/en/search?query=BCH) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| IXS | IXS / InvestaX | [CoinGecko](https://www.coingecko.com/en/search?query=IXS) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Sec |
-| DOVU | DOVU | [CoinGecko](https://www.coingecko.com/en/search?query=DOVU) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Sec |
-| ZANO | Zano | [CoinGecko](https://www.coingecko.com/en/search?query=ZANO) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell |
-| AMP | Amp | [CoinGecko](https://www.coingecko.com/en/search?query=AMP) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Prod, Adopt, Sec |
-| RED | RedStone | [CoinGecko](https://www.coingecko.com/en/search?query=RED) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
-| ACH | Alchemy Pay | [CoinGecko](https://www.coingecko.com/en/search?query=ACH) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Sec, Catal |
-| VELO | Velo | [CoinGecko](https://www.coingecko.com/en/search?query=VELO) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec |
-| KAIO | KAIO | [CoinGecko](https://www.coingecko.com/en/search?query=KAIO) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Sec, Catal |
-| SOLV | Solv Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=SOLV) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| ARB | ARB | [CoinGecko](https://www.coingecko.com/en/search?query=ARB) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| TX | TX | [CoinGecko](https://www.coingecko.com/en/search?query=TX) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Adopt, Sec |
-| MOB | MobileCoin | [CoinGecko](https://www.coingecko.com/en/search?query=MOB) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| XMR | Monero | [CoinGecko](https://www.coingecko.com/en/search?query=XMR) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| CPOOL | Clearpool | [CoinGecko](https://www.coingecko.com/en/search?query=CPOOL) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec |
-| XOR | Sora | [CoinGecko](https://www.coingecko.com/en/search?query=XOR) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| BKN | Brickken | [CoinGecko](https://www.coingecko.com/en/search?query=BKN) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Prod, Sec |
-| DUSK | Dusk | [CoinGecko](https://www.coingecko.com/en/search?query=DUSK) | Missing: Liq, Reg · Partial: Rev, Hold, Sec |
-| RLS | Rayls | [CoinGecko](https://www.coingecko.com/en/search?query=RLS) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| RISE | T-RISE / Rise | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/search?query=RISE) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| ASTR | Astar | [CoinGecko](https://www.coingecko.com/en/search?query=ASTR) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| HUMA | Huma Finance | [CoinGecko](https://www.coingecko.com/en/search?query=HUMA) | Missing: Liq, Reg · Partial: Hold, Sell, Adopt, Sec |
-| S | Sonic | [CoinGecko](https://www.coingecko.com/en/search?query=S) | Missing: Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
-| MINA | Mina Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=MINA) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| RIO | Realio Network | [CoinGecko](https://www.coingecko.com/en/search?query=RIO) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Prod, Sec |
-| HYPER | Hyperlane | [CoinGecko](https://www.coingecko.com/en/search?query=HYPER) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Adopt, Sec |
-| FIGR | Figure | [CoinGecko](https://www.coingecko.com/en/search?query=FIGR) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
-| METAL | Metal Blockchain token | [CoinGecko](https://www.coingecko.com/en/search?query=METAL) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Sec |
-| W | Wormhole | [CoinGecko](https://www.coingecko.com/en/search?query=W) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Adopt, Sec |
-| HOUDINI | Houdini Swap | [CoinGecko](https://www.coingecko.com/en/search?query=HOUDINI) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
-| CCD | Concordium | [CoinGecko](https://www.coingecko.com/en/search?query=CCD) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| MTL | Metallicus / Metal Blockchain | [CoinGecko](https://www.coingecko.com/en/search?query=MTL) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec |
-| XPL | Plasma | [CoinGecko](https://www.coingecko.com/en/search?query=XPL) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Sec |
-| PLI | Plugin | [CoinGecko](https://www.coingecko.com/en/search?query=PLI) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Sec, Catal |
-| APRA | Apraemio | [CoinGecko](https://www.coingecko.com/en/search?query=APRA) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Catal |
-| CFX | Conflux | [CoinGecko](https://www.coingecko.com/en/search?query=CFX) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Sec |
-| KAIA | Kaia | [CoinGecko](https://www.coingecko.com/en/search?query=KAIA) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec, Catal |
-| EDEN | OpenEden | [CoinGecko](https://www.coingecko.com/en/search?query=EDEN) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
-| XNO | Nano | [CoinGecko](https://www.coingecko.com/en/search?query=XNO) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| YELLOW | Yellow Network | [CoinGecko](https://www.coingecko.com/en/search?query=YELLOW) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| MOCA | Moca Network | [CoinGecko](https://www.coingecko.com/en/search?query=MOCA) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Token, Prod, Sec, Catal |
-| WIT | Witnet | [CoinGecko](https://www.coingecko.com/en/search?query=WIT) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| CHEX | Chintai | [CoinGecko](https://www.coingecko.com/en/search?query=CHEX) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Prod, Sec |
-| MNSRY | Mansory Token | [CoinGecko](https://www.coingecko.com/en/search?query=MNSRY) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Prod, Sec |
-| TLOS | Telos | [CoinGecko](https://www.coingecko.com/en/search?query=TLOS) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| AEON | AEON | [CoinGecko](https://www.coingecko.com/en/search?query=AEON) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Adopt, Sec |
-| API3 | API3 | [CoinGecko](https://www.coingecko.com/en/search?query=API3) | Missing: Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| ARRR | Pirate Chain | [CoinGecko](https://www.coingecko.com/en/search?query=ARRR) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt |
-| CTC | Creditcoin | [CoinGecko](https://www.coingecko.com/en/search?query=CTC) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Adopt, Sec |
-| PRO | Propy | [CoinGecko](https://www.coingecko.com/en/search?query=PRO) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Sec, Catal |
-| REUSD | Re Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=REUSD) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Prod, Sec, Catal |
-| STBL | STBL | [CoinGecko](https://www.coingecko.com/en/search?query=STBL) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Sec |
-| MBG | MultiBank Group | [CoinGecko](https://www.coingecko.com/en/search?query=MBG) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Prod, Sec |
-| CELR | Celer Network | [CoinGecko](https://www.coingecko.com/en/search?query=CELR) | Missing: Liq, Adopt, Reg · Partial: Rev, Team, Hold, Sell, Sec |
-| ETC | Ethereum Classic | [CoinGecko](https://www.coingecko.com/en/search?query=ETC) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| DIA | DIA | [CoinGecko](https://www.coingecko.com/en/search?query=DIA) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| DERO | Dero | [CoinGecko](https://www.coingecko.com/en/search?query=DERO) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt |
-| IDOS | idOS | [CoinGecko](https://www.coingecko.com/en/search?query=IDOS) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| LINGO | Lingo | [CoinGecko](https://www.coingecko.com/en/search?query=LINGO) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Prod, Adopt, Sec |
-| OM | MANTRA | [CoinGecko](https://www.coingecko.com/en/search?query=OM) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Catal |
-| SWFTC | SWFTC | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/search?query=SWFTC) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Sec, Catal |
-| WIREX | Wirex | [CoinGecko](https://www.coingecko.com/en/search?query=WIREX) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| GHOST | Ghostware | [CoinGecko](https://www.coingecko.com/en/search?query=GHOST) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Sec |
-| HONEY | Hivemapper | [CoinGecko](https://www.coingecko.com/en/search?query=HONEY) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| LUMIA | Lumia | [CoinGecko](https://www.coingecko.com/en/search?query=LUMIA) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Sec, Catal |
-| GOLDFINGER | GOLDFINGER | [CoinGecko](https://www.coingecko.com/en/search?query=GOLDFINGER) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
-| ERG | Ergo | [CoinGecko](https://www.coingecko.com/en/search?query=ERG) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
-| ZENITH | Zenith | [CoinGecko](https://www.coingecko.com/en/search?query=ZENITH) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| CSPR | CSPR | [CoinGecko](https://www.coingecko.com/en/search?query=CSPR) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Sec, Catal |
-| HECTO | Hecto | [CoinGecko](https://www.coingecko.com/en/search?query=HECTO) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| NEXA | Nexa | [CoinGecko](https://www.coingecko.com/en/search?query=NEXA) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| IOTX | IoTeX | [CoinGecko](https://www.coingecko.com/en/search?query=IOTX) | Missing: Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| BXX | BXX | [CoinGecko](https://www.coingecko.com/en/search?query=BXX) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| QANX | QANplatform | [CoinGecko](https://www.coingecko.com/en/search?query=QANX) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Sec |
-| PHA | Phala Network | [CoinGecko](https://www.coingecko.com/en/search?query=PHA) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| ZKP | zkPass | [CoinGecko](https://www.coingecko.com/en/search?query=ZKP) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| KLV | Klever | [CoinGecko](https://www.coingecko.com/en/search?query=KLV) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
-| MUBI | Multibit | [CoinGecko](https://www.coingecko.com/en/search?query=MUBI) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Sec |
-| SHARE | ShareX | [CoinGecko](https://www.coingecko.com/en/search?query=SHARE) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Prod, Adopt, Sec |
-| FCTR | Factor | [CoinGecko](https://www.coingecko.com/en/search?query=FCTR) | Missing: Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
-| PANTHER | Panther Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=PANTHER) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
-| BTT | BitTorrent | [CoinGecko](https://www.coingecko.com/en/search?query=BTT) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| ELK | Elk Finance | [CoinGecko](https://www.coingecko.com/en/search?query=ELK) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| EOS | EOS | [CoinGecko](https://www.coingecko.com/en/search?query=EOS) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec, Catal |
-| ETN | Electroneum | [CoinGecko](https://www.coingecko.com/en/search?query=ETN) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
-| XVG | Verge | [CoinGecko](https://www.coingecko.com/en/search?query=XVG) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
-| XEP | Electra Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=XEP) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| LL | LightLink | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/search?query=LL) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
-| SCRT | Secret Network | [CoinGecko](https://www.coingecko.com/en/search?query=SCRT) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| DRGN | Dragonchain | [CoinGecko](https://www.coingecko.com/en/search?query=DRGN) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Sec |
-| REQ | Request | [CoinGecko](https://www.coingecko.com/en/search?query=REQ) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| WAN | Wanchain | [CoinGecko](https://www.coingecko.com/en/search?query=WAN) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec, Catal |
-| LEOX | Galileo Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=LEOX) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec |
-| H | Humanity Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=H) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Catal |
-| IOST | IOST | [CoinGecko](https://www.coingecko.com/en/search?query=IOST) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| HTX | HTX / HECO | [CoinGecko](https://www.coingecko.com/en/search?query=HTX) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| ZKME | zkMe | [CoinGecko](https://www.coingecko.com/en/search?query=ZKME) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec, Catal |
-| EL | ELYSIA | [CoinGecko](https://www.coingecko.com/en/search?query=EL) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Adopt, Sec, Catal |
-| NXS | Nexus | [CoinGecko](https://www.coingecko.com/en/search?query=NXS) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| SUTER | Suterusu | [CoinGecko](https://www.coingecko.com/en/search?query=SUTER) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Prod, Adopt, Sec, Catal |
-| KAVA | Kava | [CoinGecko](https://www.coingecko.com/en/search?query=KAVA) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| MAPO | MAP Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=MAPO) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Catal |
-| PUNDIX | Pundi X | [CoinGecko](https://www.coingecko.com/en/search?query=PUNDIX) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
-| ORAI | Oraichain | [CoinGecko](https://www.coingecko.com/en/search?query=ORAI) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Catal |
-| FTHM | Fathom Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=FTHM) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| TRWA | Tharwa | [CoinGecko](https://www.coingecko.com/en/search?query=TRWA) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Adopt, Sec, Catal |
-| XPX | Sirius Chain | [CoinGecko](https://www.coingecko.com/en/search?query=XPX) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| PCX | ChainX | [CoinGecko](https://www.coingecko.com/en/search?query=PCX) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec, Catal |
-| ZEN | Horizen | [CoinGecko](https://www.coingecko.com/en/search?query=ZEN) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| CPH | Cypherium | [CoinGecko](https://www.coingecko.com/en/search?query=CPH) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec, Catal |
-| KDA | Kadena | [CoinGecko](https://www.coingecko.com/en/search?query=KDA) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
-| VERA | Vera | [CoinGecko](https://www.coingecko.com/en/search?query=VERA) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| SPC | SpaceChain | [CoinGecko](https://www.coingecko.com/en/search?query=SPC) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| AMPL | Ampleforth | [CoinGecko](https://www.coingecko.com/en/search?query=AMPL) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| CTX | CTX | [CoinGecko](https://www.coingecko.com/en/search?query=CTX) | Missing: Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
-| HANDLE | Handle Pay | [CoinGecko](https://www.coingecko.com/en/search?query=HANDLE) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
-| NXRA | Nexera, formerly AllianceBlock | [CoinGecko](https://www.coingecko.com/en/search?query=NXRA) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| BLZ | Bluzelle | [CoinGecko](https://www.coingecko.com/en/search?query=BLZ) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| RAVEN | Raven Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=RAVEN) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| WHITEROCK | WhiteRock | [CoinGecko](https://www.coingecko.com/en/search?query=WHITEROCK) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec, Catal |
-| C3 | Charli3 | [CoinGecko](https://www.coingecko.com/en/search?query=C3) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec |
-| HAI | Hacken | [CoinGecko](https://www.coingecko.com/en/search?query=HAI) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
-| ZKC | Boundless | [CoinGecko](https://www.coingecko.com/en/search?query=ZKC) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| JOSS | JuliaOS | [CoinGecko](https://www.coingecko.com/en/search?query=JOSS) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| DEUS | DEUS Finance | [CoinGecko](https://www.coingecko.com/en/search?query=DEUS) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| WADZ | WadzPay | [CoinGecko](https://www.coingecko.com/en/search?query=WADZ) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| CROWN | Crown Token | [CoinGecko](https://www.coingecko.com/en/search?query=CROWN) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| BAX | BABB | [CoinGecko](https://www.coingecko.com/en/search?query=BAX) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| PSTAKE | pSTAKE Finance | [CoinGecko](https://www.coingecko.com/en/search?query=PSTAKE) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Token, Prod, Sec, Catal |
-| QSP | Quantstamp | [CoinGecko](https://www.coingecko.com/en/search?query=QSP) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
-| AON | AON | [CoinGecko](https://www.coingecko.com/en/search?query=AON) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| BPRO | BPRO | [CoinGecko](https://www.coingecko.com/en/search?query=BPRO) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| CANTO | Canto | [CoinGecko](https://www.coingecko.com/en/search?query=CANTO) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| CASHLINK | CASHLINK | [CoinGecko](https://www.coingecko.com/en/search?query=CASHLINK) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
-| CREDIX | Credix Finance | [CoinGecko](https://www.coingecko.com/en/search?query=CREDIX) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Adopt, Sec, Catal |
-| CRYSTAL | DeFi Kingdoms Crystalvale CRYSTAL | [CoinGecko](https://www.coingecko.com/en/search?query=CRYSTAL) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| ELFI | ELYFI | [CoinGecko](https://www.coingecko.com/en/search?query=ELFI) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Adopt, Sec, Catal |
-| KEEP | Keep Network | [CoinGecko](https://www.coingecko.com/en/search?query=KEEP) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Token, Prod, Adopt, Sec, Catal |
-| LBC | LBRY Credits | [CoinGecko](https://www.coingecko.com/en/search?query=LBC) | Missing: Rev, Liq · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Reg, Catal |
-| LIBEARA | LIBEARA | [CoinGecko](https://www.coingecko.com/en/search?query=LIBEARA) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Token, Prod, Sec, Catal |
-| LOFTY | Lofty | [CoinGecko](https://www.coingecko.com/en/search?query=LOFTY) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
-| MPATH | MetaPath | [CoinGecko](https://www.coingecko.com/en/search?query=MPATH) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| MTR | Meter | [CoinGecko](https://www.coingecko.com/en/search?query=MTR) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
-| MXC | MXC Foundation | [CoinGecko](https://www.coingecko.com/en/search?query=MXC) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| NCT | Toucan Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=NCT) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
-| OMNI | Omni Network | [CoinGecko](https://www.coingecko.com/en/search?query=OMNI) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| OXEN | Oxen | [CoinGecko](https://www.coingecko.com/en/search?query=OXEN) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| PBR | PolkaBridge | [CoinGecko](https://www.coingecko.com/en/search?query=PBR) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| SIBERIUM | Siberium | [CoinGecko](https://www.coingecko.com/en/search?query=SIBERIUM) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| SPELL | Abracadabra.money Spell token | [CoinGecko](https://www.coingecko.com/en/search?query=SPELL) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Token, Adopt, Sec, Catal |
-| TRIZE | T-Rize | [CoinGecko](https://www.coingecko.com/en/search?query=TRIZE) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Sec, Catal |
-| TRU | TrueFi | [CoinGecko](https://www.coingecko.com/en/search?query=TRU) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Sec, Catal |
-| VVPR | VivoPower International | [CoinGecko](https://www.coingecko.com/en/search?query=VVPR) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| Ticker | Name | Mcap | 24h vol | 30d fees | 30d rev | Red flag | Links | What's missing |
+|---|---|---:|---:|---:|---:|---|---|---|
+| SYRUP | Maple Finance | $119.16M | $6.14M | $9.62M | $1.47M | — | [Site](https://www.maple.finance) · [CoinGecko](https://www.coingecko.com/en/coins/syrup) · [DefiLlama](https://defillama.com/protocol/maple) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
+| CFG | Centrifuge | $26.78M | $3.35M | $3.16M | $284.65k | — | [Site](https://centrifuge.io) · [CoinGecko](https://www.coingecko.com/en/coins/centrifuge-2) · [DefiLlama](https://defillama.com/protocol/centrifuge-protocol) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
+| HUMA | Huma Finance | $11.38M | $4.28M | $2.83M | $0 | — | [Site](https://app.huma.finance) · [CoinGecko](https://www.coingecko.com/en/coins/huma-finance) · [DefiLlama](https://defillama.com/protocol/huma) | Missing: Liq, Reg · Partial: Hold, Sell, Adopt, Sec |
+| SOLV | Solv Protocol | $26.49M | $3.22M | $2.44M | $1.22M | — | [Site](https://app.solv.finance/solvbtc) · [CoinGecko](https://www.coingecko.com/en/coins/solv-protocol) · [DefiLlama](https://defillama.com/protocol/solvbtc) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| ARB | ARB | $915.21M | $84.69M | $522.43k | $513.79k | — | [CoinGecko](https://www.coingecko.com/en/coins/arbitrum) · [DefiLlama](https://defillama.com/chain/Arbitrum) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| ICP | Internet Computer | $1.24B | $33.81M | $167.66k | $167.66k | — | [Site](https://internetcomputer.org/) · [CoinGecko](https://www.coingecko.com/en/coins/internet-computer) · [DefiLlama](https://defillama.com/chain/ICP) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Sec |
+| API3 | API3 | $31.03M | $3.32M | $164.25k | $8.21k | — | [Site](https://api3.org/) · [CoinGecko](https://www.coingecko.com/en/coins/api3) · [DefiLlama](https://defillama.com/protocol/api3) | Missing: Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| INJ | Injective | $665.4M | $74M | $120.57k | $120.57k | — | [CoinGecko](https://www.coingecko.com/en/coins/injective-protocol) · [DefiLlama](https://defillama.com/chain/Injective) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
+| SUI | SUI | $2.96B | $253.86M | $77.89k | $721.93 | — | [Site](https://sui.io) · [CoinGecko](https://www.coingecko.com/en/coins/sui) · [DefiLlama](https://defillama.com/chain/Sui) | Missing: Liq, Reg · Partial: Hold, Sell, Adopt, Sec |
+| ZEC | Zcash | $14.93B | $556.28M | $65.55k | $0 | — | [CoinGecko](https://www.coingecko.com/en/coins/zcash) · [DefiLlama](https://defillama.com/chain/Zcash) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec |
+| HYPER | Hyperlane | $13.44M | $1.19M | $50.2k | $50.2k | — | [Site](https://www.hyperlane.xyz/) · [CoinGecko](https://www.coingecko.com/en/coins/hyperlane) · [DefiLlama](https://defillama.com/protocol/hyperlane) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Adopt, Sec |
+| KAIO | KAIO | $13.89M | $232.27k | $36.41k | $36.41k | — | [Site](https://www.kaio.xyz/) · [CoinGecko](https://www.coingecko.com/en/coins/kaio) · [DefiLlama](https://defillama.com/protocol/kaio) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Sec, Catal |
+| CPOOL | Clearpool | — | $1.71M | $30.32k | $0 | mcap unreported | [Site](https://vaults.clearpool.finance/) · [CoinGecko](https://www.coingecko.com/en/coins/clearpool) · [DefiLlama](https://defillama.com/protocol/clearpool-tpool) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec |
+| W | Wormhole | $58.64M | $9.91M | $15.39k | $0 | — | [Site](https://portalbridge.com) · [CoinGecko](https://www.coingecko.com/en/coins/wormhole) · [DefiLlama](https://defillama.com/protocol/portal) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Adopt, Sec |
+| CRO | Cronos / Crypto.com | $2.21B | $5.29M | $13.64k | $0 | — | [Site](https://crypto.com/defi/swap) · [CoinGecko](https://www.coingecko.com/en/coins/crypto-com-chain) · [DefiLlama](https://defillama.com/chain/Cronos) | Missing: Liq · Partial: Team, Hold, Sell, Sec |
+| ZK | ZKsync | $86.55M | $6.05M | $10.74k | $10.3k | — | [Site](https://zksync.io/) · [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/coins/zksync) · [DefiLlama](https://defillama.com/chain/ZKsync%20Era) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
+| XPL | Plasma | $205.43M | $31.46M | $5.05k | $5.05k | — | [Site](https://www.plasma.org/) · [CoinGecko](https://www.coingecko.com/en/coins/plasma) · [DefiLlama](https://defillama.com/chain/Plasma) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Sec |
+| S | Sonic | $125.52M | $21.04M | $3.41k | $3.21k | — | [Site](https://www.soniclabs.com) · [CoinGecko](https://www.coingecko.com/en/coins/sonic-3) · [DefiLlama](https://defillama.com/chain/Sonic) | Missing: Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
+| KAIA | Kaia | $187.04M | $3.54M | $2.76k | $2.15k | — | [CoinGecko](https://www.coingecko.com/en/coins/kaia) · [DefiLlama](https://defillama.com/chain/Kaia) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec, Catal |
+| BCH | Bitcoin Cash | $4.11B | $63.6M | $2.34k | $0 | — | [CoinGecko](https://www.coingecko.com/en/coins/bitcoin-cash) · [DefiLlama](https://defillama.com/chain/Bitcoincash) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| HASH | Provenance Blockchain | $391.19M | $2.28k | $493.18k | $0 | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/hash-2) · [DefiLlama](https://defillama.com/chain/Provenance) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Prod, Sec, Catal |
+| AXL | Axelar | $40.82M | $2.97M | $1.78k | $0 | — | [Site](https://axelar.network) · [CoinGecko](https://www.coingecko.com/en/coins/axelar) · [DefiLlama](https://defillama.com/protocol/axelar) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
+| XDC | XDC Network | $580.27M | $10.87M | $494.62 | $0 | — | [Site](https://xinfin.org/) · [CoinGecko](https://www.coingecko.com/en/coins/xdce-crowd-sale) · [DefiLlama](https://defillama.com/chain/XDC) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
+| SPELL | Abracadabra.money Spell token | $10.91M | $1.24M | $337.74 | $337.7 | — | [CoinGecko](https://www.coingecko.com/en/coins/spell-token) · [DefiLlama](https://defillama.com/protocol/abracadabra-spell) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Token, Adopt, Sec, Catal |
+| TLOS | Telos | $5.72M | $306.81k | $267.85 | — | — | [CoinGecko](https://www.coingecko.com/en/coins/telos) · [DefiLlama](https://defillama.com/chain/Telos) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| ETC | Ethereum Classic | $933.04M | $18.55M | $262.38 | — | — | [CoinGecko](https://www.coingecko.com/en/coins/ethereum-classic) · [DefiLlama](https://defillama.com/chain/EthereumClassic) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| IOTX | IoTeX | $22.72M | $795.79k | $199.18 | $0 | — | [Site](https://iotex.io/) · [CoinGecko](https://www.coingecko.com/en/coins/iotex) · [DefiLlama](https://defillama.com/chain/IoTeX) | Missing: Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| FXS | Frax Share | $19.73M | $371.99k | $91.81 | $91.81 | — | [CoinGecko](https://www.coingecko.com/en/coins/frax-share) · [DefiLlama](https://defillama.com/chain/Fraxtal) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| ASTR | Astar | $39.23M | $843.7k | $82.76 | $66.24 | — | [Site](https://astar.network) · [CoinGecko](https://www.coingecko.com/en/coins/astar) · [DefiLlama](https://defillama.com/chain/Astar) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| VELO | Velo | $52.48M | $2.31M | $81.15 | $81.15 | — | [Site](https://velofinance.io) · [CoinGecko](https://www.coingecko.com/en/coins/velo) · [DefiLlama](https://defillama.com/protocol/velo-finance) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec |
+| ELK | Elk Finance | $112.6k | $226.81 | $70.38 | $0 | dying: mcap <$1M; dying: 24h vol <$10k | [Site](https://elk.finance) · [CoinGecko](https://www.coingecko.com/en/coins/elk-finance) · [DefiLlama](https://defillama.com/protocol/elk) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| EWT | Energy Web | $19.88M | $275.75k | $0.10 | $0 | — | [CoinGecko](https://www.coingecko.com/en/coins/energy-web-token) · [DefiLlama](https://defillama.com/chain/EnergyWeb) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell |
+| HONEY | Hivemapper | $8.53M | $73.97k | $0.05 | $0.04 | — | [Site](https://hivemapper.com/) · [CoinGecko](https://www.coingecko.com/en/coins/hivemapper) · [DefiLlama](https://defillama.com/protocol/hivemapper) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| LL | LightLink | $58.02k | $157.61k | $0 | — | dying: mcap <$1M | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/coins/lightlink) · [DefiLlama](https://defillama.com/chain/LightLink) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
+| HOUDINI | Houdini Swap | $29.53k | $0 | $0 | $0 | dying: mcap <$1M; dying: 24h vol <$10k | [Site](https://houdiniswap.com/) · [CoinGecko](https://www.coingecko.com/en/coins/houdini-swap) · [DefiLlama](https://defillama.com/protocol/houdini-swap) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
+| XMR | Monero | $9.46B | $118.29M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/monero) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| HTX | HTX / HECO | $1.31B | $60.45M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/htx-dao) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| NIGHT | Midnight | $721.71M | $32.9M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/midnight-3) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Sec |
+| KAVA | Kava | $36.25M | $17.58M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/kava) · [DefiLlama](https://defillama.com/chain/Kava) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| PHA | Phala Network | $25.81M | $14.21M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/pha) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| BTT | BitTorrent | $300.99M | $12.71M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/bittorrent) · [DefiLlama](https://defillama.com/chain/Bittorrent) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| AMP | Amp | $48.41M | $10.12M | — | — | — | [Site](https://amp.xyz/) · [CoinGecko](https://www.coingecko.com/en/coins/amp-token) · [DefiLlama](https://defillama.com/protocol/flexa) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Prod, Adopt, Sec |
+| REQ | Request | $40.12M | $8.08M | — | — | — | [Site](https://request.network) · [CoinGecko](https://www.coingecko.com/en/coins/request-network) · [DefiLlama](https://defillama.com/protocol/request-network) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| CSPR | CSPR | $30.51M | $7.22M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/casper-network) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Sec, Catal |
+| TFUEL | Theta Fuel | $53.68M | $6.83M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/theta-fuel) · [DefiLlama](https://defillama.com/chain/Theta) | Missing: Rev, Hold, Sell, Liq, Prod, Adopt, Reg · Partial: Token, Sec, Catal |
+| TRB | Tellor | $36.64M | $5.96M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/tellor) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| MBG | MultiBank Group | $36.92M | $5.07M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/mbg-by-multibank-group) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Prod, Sec |
+| ZEN | Horizen | $75.86M | $4.73M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/zencash) · [DefiLlama](https://defillama.com/protocol/Horizen EON) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| ZKP | zkPass | $5.97M | $4.42M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/zkpass) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| DUSK | Dusk | $37.42M | $3.61M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/dusk-network) | Missing: Liq, Reg · Partial: Rev, Hold, Sec |
+| CFX | Conflux | $178.12M | $3.35M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/conflux-token) · [DefiLlama](https://defillama.com/chain/Conflux) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Sec |
+| H | Humanity Protocol | $35.38M | $3M | — | — | — | [Site](https://www.humanity.org/) · [CoinGecko](https://www.coingecko.com/en/coins/humanity) · [DefiLlama](https://defillama.com/protocol/humanity) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Catal |
+| MOCA | Moca Network | $28.58M | $2.93M | — | — | — | [Site](https://www.moca.network) · [CoinGecko](https://www.coingecko.com/en/coins/mocaverse) · [DefiLlama](https://defillama.com/protocol/moca-network) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Token, Prod, Sec, Catal |
+| MINA | Mina Protocol | $59.21M | $2.79M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/mina-protocol) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| ZAMA | Zama | $134.85M | $2.75M | — | — | — | [Site](https://www.zama.org/) · [CoinGecko](https://www.coingecko.com/en/coins/zama) · [DefiLlama](https://defillama.com/protocol/zama) | Missing: Liq, Adopt, Reg · Partial: Rev, Hold, Sell, Sec |
+| RLC | iExec RLC | $29.26M | $2.5M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/iexec-rlc) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| IOST | IOST | $20.54M | $2.45M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/iostoken) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| YELLOW | Yellow Network | $91.22M | $2.37M | — | — | — | [Site](https://www.yellow.org) · [CoinGecko](https://www.coingecko.com/en/coins/yellow) · [DefiLlama](https://defillama.com/protocol/yellow) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| ACH | Alchemy Pay | — | $2.27M | — | — | mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/alchemy-pay) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Sec, Catal |
+| AEON | AEON | $5.81M | $2.02M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/aeon-3) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Adopt, Sec |
+| OM | MANTRA | $15.49M | $1.99M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/mantra) · [DefiLlama](https://defillama.com/chain/MANTRA) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Catal |
+| REUSD | Re Protocol | $365.93M | $1.83M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/re-protocol-reusd) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Prod, Sec, Catal |
+| GRND | SuperWalk | $6.3M | $1.8M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/superwalk) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| ZKC | Boundless | $6.87M | $1.62M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/boundless) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| RED | RedStone | $61.98M | $1.21M | — | — | — | [Site](https://www.redstone.finance/) · [CoinGecko](https://www.coingecko.com/en/coins/redstone-oracles) · [DefiLlama](https://defillama.com/protocol/redstone-finance) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
+| EURE | Monerium EURe | $28.54M | $1.21M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/monerium-eur-money-2) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
+| STBL | STBL | $9.87M | $1.12M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/stbl) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Sec |
+| CELR | Celer Network | $15.46M | $1.09M | — | — | — | [Site](https://cbridge.celer.network/#/transfer) · [CoinGecko](https://www.coingecko.com/en/coins/celer-network) · [DefiLlama](https://defillama.com/protocol/cbridge) | Missing: Liq, Adopt, Reg · Partial: Rev, Team, Hold, Sell, Sec |
+| RVN | Ravencoin | $17.75M | $1.06M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/ravencoin) | Missing: Rev, Team, Hold, Sell, Liq, Prod, Adopt, Reg · Partial: Token, Sec, Catal |
+| SHARE | ShareX | $47.45M | $1.05M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/sharex-2) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Prod, Adopt, Sec |
+| LUMIA | Lumia | $18.21M | $1.05M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/lumia) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Sec, Catal |
+| EDEN | OpenEden | $17.74M | $937.35k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/openeden) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
+| PUNDIX | Pundi X | $19.26M | $936.33k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/pundi-x-2) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
+| DIA | DIA | $14.38M | $896.36k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/dia-data) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| ZANO | Zano | $60.16M | $829.97k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/zano) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell |
+| SHX | Stronghold | $73.41M | $701.44k | — | — | — | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/coins/stronghold-token) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Sec |
+| KTA | Keeta | $27.69M | $588.91k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/keeta) · [DefiLlama](https://defillama.com/chain/Keeta) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
+| CTC | Creditcoin | $38.19M | $517.89k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/creditcoin-2) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Adopt, Sec |
+| WAN | Wanchain | $9.4M | $485.88k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/wanchain) · [DefiLlama](https://defillama.com/chain/Wanchain) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec, Catal |
+| XVG | Verge | $28.33M | $416.46k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/verge) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
+| EL | ELYSIA | $8.46M | $399.4k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/elysia) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Adopt, Sec, Catal |
+| METAL | Metal Blockchain token | $50.92M | $386.37k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/metal-blockchain) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Sec |
+| ETN | Electroneum | $24.3M | $371.7k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/electroneum) · [DefiLlama](https://defillama.com/chain/Electroneum) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
+| CTK | CertiK | $12.37M | $367.95k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/certik) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| SWCH | Swiss Cheese Finance | $2.03M | $363.62k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/swisscheese) | Missing: Rev, Hold, Sell, Liq, Prod, Adopt, Reg · Partial: Team, Token, Sec, Catal |
+| ARRR | Pirate Chain | $21.85M | $362.82k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/pirate-chain) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt |
+| SWFTC | SWFTC | $22.77M | $348.97k | — | — | — | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/coins/swftcoin) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Sec, Catal |
+| RLS | Rayls | $3.33M | $346.57k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/rayls) · [DefiLlama](https://defillama.com/chain/Rayls) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| XNO | Nano | $37.68M | $320.31k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/nano) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| MAPO | MAP Protocol | $4.72M | $310.17k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/marcopolo) · [DefiLlama](https://defillama.com/chain/MAP%20Protocol) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Catal |
+| PRO | Propy | $25.54M | $291.39k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/propy) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Sec, Catal |
+| WIREX | Wirex | $630.58k | $275.19k | — | — | dying: mcap <$1M | [Site](https://nereus.finance/) · [CoinGecko](https://www.coingecko.com/en/coins/wirex) · [DefiLlama](https://defillama.com/protocol/nereus-finance) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
+| MNSRY | Mansory Token | $5.21M | $242.16k | — | — | — | [Site](https://www.mansory.com/) · [CoinGecko](https://www.coingecko.com/en/coins/mansory-token) · [DefiLlama](https://defillama.com/protocol/mansory) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Prod, Sec |
+| MTL | Metallicus / Metal Blockchain | $20.15M | $216.76k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/metal) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec |
+| HIVE | Hive | $21.1M | $199.53k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/hive) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| MDT | Measurable Data Token | $3.8M | $182.87k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/measurable-data-token) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| RIO | Realio Network | $10.96M | $182.41k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/realio-network) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Prod, Sec |
+| BLZ | Bluzelle | $3.3M | $180.23k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/bluzelle) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| CHEX | Chintai | $11.34M | $176.91k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/chex-token) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Prod, Sec |
+| TRADE | Polytrade | $2.02M | $164.49k | — | — | — | [Site](https://www.polytrade.finance/) · [CoinGecko](https://www.coingecko.com/en/coins/polytrade) · [DefiLlama](https://defillama.com/protocol/polytrade) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
+| EOS | EOS | — | $137.85k | — | — | mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/eos) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec, Catal |
+| LINGO | Lingo | $10.67M | $137.7k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/lingo) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Prod, Adopt, Sec |
+| SKEY | SKEY Network | $661.16k | $133.66k | — | — | dying: mcap <$1M | [CoinGecko](https://www.coingecko.com/en/coins/skey-network) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| ORAI | Oraichain | $6.26M | $131.46k | — | — | — | [Site](https://orai.io) · [CoinGecko](https://www.coingecko.com/en/coins/oraichain-token) · [DefiLlama](https://defillama.com/chain/Oraichain) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Catal |
+| ZKJ | Polyhedra Network | $2.63M | $126.94k | — | — | — | [Site](https://www.polyhedra.network/) · [CoinGecko](https://www.coingecko.com/en/coins/polyhedra-network) · [DefiLlama](https://defillama.com/protocol/polyhedra-network) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Token, Prod, Sec, Catal |
+| KLV | Klever | $4.43M | $122.13k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/klever) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
+| RBNT | Redbelly Network | $6.46M | $116.15k | — | — | — | [Site](https://redbelly.network/) · [CoinGecko](https://www.coingecko.com/en/coins/redbelly-network-token) · [DefiLlama](https://defillama.com/chain/Redbelly) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Token, Sec, Catal |
+| ERG | Ergo | $15.93M | $106.83k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/ergo) · [DefiLlama](https://defillama.com/chain/Ergo) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
+| CCD | Concordium | $41.96M | $104.85k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/concordium) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| SUPRA | Supra Oracles | $6.23M | $100.92k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/supra) · [DefiLlama](https://defillama.com/chain/Supra) | Missing: Hold, Sell, Liq, Prod, Adopt, Reg · Partial: Rev, Team, Token, Sec, Catal |
+| SCRT | Secret Network | $2.38M | $91.2k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/secret) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| QANX | QANplatform | $13.3M | $85.98k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/qanplatform) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Sec |
+| EPICCASH | Epic Cash | $16.84M | $78.37k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/epic-cash) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| NEXA | Nexa | $5.38M | $68.44k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/nexacoin) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| BAX | BABB | $87.19k | $64.81k | — | — | dying: mcap <$1M | [CoinGecko](https://www.coingecko.com/en/coins/babb) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| HAI | Hacken | $1.15M | $56.8k | — | — | — | [Site](https://hai.hacken.io) · [CoinGecko](https://www.coingecko.com/en/coins/hackenai) · [DefiLlama](https://defillama.com/protocol/hackenai) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
+| BKN | Brickken | $7.04M | $56.64k | — | — | — | [Site](https://www.brickken.com) · [CoinGecko](https://www.coingecko.com/en/coins/brickken) · [DefiLlama](https://defillama.com/protocol/brickken) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Prod, Sec |
+| XEP | Electra Protocol | $1.66M | $55.35k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/electra-protocol) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| CPH | Cypherium | $1.74M | $54.12k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/cypherium) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec, Catal |
+| COLLAT | Collateralize | $549.55k | $53.84k | — | — | dying: mcap <$1M | [CoinGecko](https://www.coingecko.com/en/coins/collaterize) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| PANTHER | Panther Protocol | $607.45k | $52.94k | — | — | dying: mcap <$1M | [Site](https://www.pantherprotocol.io/) · [CoinGecko](https://www.coingecko.com/en/coins/panther) · [DefiLlama](https://defillama.com/protocol/panther-protocol) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
+| TX | TX | $14.62M | $42.55k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/tx) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Adopt, Sec |
+| ORBITER | Orbiter Finance | $1.38M | $34.23k | — | — | — | [Site](https://orbiter.finance) · [CoinGecko](https://www.coingecko.com/en/coins/orbiter-finance) · [DefiLlama](https://defillama.com/protocol/orbiter-finance) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| SHPING | Shping | — | $33.93k | — | — | mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/shping) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| DOVU | DOVU | $8.22M | $29.32k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/dovu-2) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Sec |
+| TRUF | Truflation | $1.26M | $29.23k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/truflation) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| CTX | CTX | $3.51M | $23.71k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/cryptex-finance) | Missing: Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
+| IXS | IXS / InvestaX | $5.75M | $18.82k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/ixs) · [DefiLlama](https://defillama.com/protocol/ixs) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Prod, Sec |
+| PLI | Plugin | $893.37k | $13.04k | — | — | dying: mcap <$1M | [CoinGecko](https://www.coingecko.com/en/coins/plugin) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Sec, Catal |
+| SPC | SpaceChain | $3.64M | $8.99k | — | — | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/spacechain-erc-20) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| TRU | TrueFi | $920.37k | $7.26k | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/truefi) · [DefiLlama](https://defillama.com/protocol/truefi) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Sec, Catal |
+| RVF | RocketX | $1.16M | $5.98k | — | — | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/rocketx) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| GHOST | Ghostware | $508.85k | $5.31k | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/ghostwareos) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Sec |
+| KDA | Kadena | $1.93M | $2.99k | — | — | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/kadena) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| NXS | Nexus | $2.85M | $2.22k | — | — | dying: 24h vol <$10k; not listed on CoinGecko | [CoinPaprika](https://coinpaprika.com/coin/nxs-nexus/) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| XX | xx network | $634.17k | $2.17k | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/xxcoin) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| DRGN | Dragonchain | $1.72M | $1.67k | — | — | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/dragonchain) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Sec |
+| FTHM | Fathom Protocol | $539.7k | $1.36k | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/fathom-dollar) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
+| TRWA | Tharwa | $1.06M | $1.3k | — | — | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/tharwa) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Adopt, Sec, Catal |
+| AMPL | Ampleforth | $1.85M | $1.1k | — | — | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/ampleforth) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| MOB | MobileCoin | — | $1.03k | — | — | dying: 24h vol <$10k; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/mobilecoin) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| THUSD | Theo Network thUSD | — | $797.96 | — | — | dying: 24h vol <$10k; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/theo-usd) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
+| MAZZE | Mazze | $384.31k | $767.45 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/mazze) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| PI | Plian, formerly Pchain | $161.04k | $648.68 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/pchain) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| KEEP | Keep Network | $17.24M | $612.07 | — | — | dying: 24h vol <$10k | [Site](https://app.threshold.network/) · [CoinGecko](https://www.coingecko.com/en/coins/keep-network) · [DefiLlama](https://defillama.com/protocol/keep-network) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Token, Prod, Adopt, Sec, Catal |
+| IDOS | idOS | $1.7M | $432.67 | — | — | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/idos) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| DEUS | DEUS Finance | $412.72k | $429.73 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [Site](https://deus.finance) · [CoinGecko](https://www.coingecko.com/en/coins/deus-finance-2) · [DefiLlama](https://defillama.com/protocol/deus-finance) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| CROWN | Crown Token | — | $419.32 | — | — | dying: 24h vol <$10k; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/crown-token-77469f91-69f6-44dd-b356-152e2c39c0cc) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| SYLO | Sylo | $31.37k | $333.77 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/sylo) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| XPX | Sirius Chain | $456.45k | $254.26 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/proximax) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| MUBI | Multibit | $135.69k | $64.02 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [Site](https://multibit.exchange/) · [CoinGecko](https://www.coingecko.com/en/coins/multibit) · [DefiLlama](https://defillama.com/protocol/multibit-protocol) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Sec |
+| BXX | BXX | $165.94k | $60.71 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/baanx) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
+| KEY | SelfKey | $1.11M | $55.87 | — | — | dying: 24h vol <$10k; not listed on CoinGecko | [CoinPaprika](https://coinpaprika.com/coin/key-selfkey/) | Missing: Rev, Team, Hold, Sell, Liq, Prod, Reg · Partial: Token, Adopt, Sec, Catal |
+| XOR | Sora | — | $42.39 | — | — | dying: 24h vol <$10k; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/sora-2) · [DefiLlama](https://defillama.com/chain/Sora) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| WHITEROCK | WhiteRock | — | $27.96 | — | — | dying: 24h vol <$10k; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/whiterock) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec, Catal |
+| JOSS | JuliaOS | $28.66k | $13.02 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/juliaos) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
+| TIME | Chrono.tech | $35.24k | $9.28 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [Site](https://chrono.tech/) · [CoinGecko](https://www.coingecko.com/en/coins/chronobank) · [DefiLlama](https://defillama.com/protocol/timewarp) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
+| POLK | Polkamarkets | $76.28k | $9.15 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [Site](https://www.polkamarkets.com) · [CoinGecko](https://www.coingecko.com/en/coins/polkamarkets) · [DefiLlama](https://defillama.com/protocol/polkamarkets) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Token, Prod, Sec, Catal |
+| USDM1 | USDM1 | $1.06M | $8.77 | — | — | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/usdm1) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
+| NXRA | Nexera, formerly AllianceBlock | $404.85k | $4.83 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/allianceblock-nexera) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| LABS | LABS Group | $22.95k | $2.82 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/epicentral-labs) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| GO | GoChain | $3.3M | $2.54 | — | — | dying: 24h vol <$10k; not listed on CoinGecko | [CoinPaprika](https://coinpaprika.com/coin/go-gochain/) · [DefiLlama](https://defillama.com/chain/GoChain) | Missing: Rev, Hold, Sell, Liq, Prod, Reg · Partial: Token, Adopt, Sec, Catal |
+| C3 | Charli3 | $164.66k | $2.46 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/charli3) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec |
+| FCTR | Factor | $58.83k | $1.92 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/factor) | Missing: Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
+| OMNI | Omni Network | $1.93M | $1.84 | — | — | dying: 24h vol <$10k; not listed on CoinGecko | [CoinPaprika](https://coinpaprika.com/coin/omni-omni-network/) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| BONDLY | Bondly | $212.42k | $1.62 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/bondly) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| NCT | Toucan Protocol | $319.71k | $1.48 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/toucan-protocol-nature-carbon-tonne) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
+| LEOX | Galileo Protocol | $161.72k | $1.08 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/leox) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Adopt, Sec |
+| XRPAYNET | XRPayNet | — | $0.16 | — | — | dying: 24h vol <$10k; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/xrpaynet) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| APRA | Apraemio | $1.72M | $0 | — | — | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/apraemio) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Catal |
+| CANTO | Canto | $369.27k | $0 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/canto) · [DefiLlama](https://defillama.com/protocol/canto) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| CRYPTIC | Cryptic | — | $0 | — | — | dying: 24h vol <$10k; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/cryptic) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| ELFI | ELYFI | $196.8k | $0 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/elyfi) · [DefiLlama](https://defillama.com/protocol/elyfi) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Adopt, Sec, Catal |
+| MXC | MXC Foundation | $3.27k | $0 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/moonchain) · [DefiLlama](https://defillama.com/protocol/moonchain-bridge) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| NANOPAY | NanoPay | $23.56k | $0 | — | — | dying: mcap <$1M; dying: 24h vol <$10k; identity [Unverified] (symbol NANO) | [CoinGecko](https://www.coingecko.com/en/coins/nanopay) | Missing: Rev, Team, Hold, Sell, Liq, Prod, Reg · Partial: Token, Adopt, Sec, Catal |
+| PBR | PolkaBridge | — | $0 | — | — | dying: 24h vol <$10k; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/polkabridge) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| PPAY | Plasma Finance / PlasmaPay | $12.05k | $0 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/plasma-finance) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
+| RAVEN | Raven Protocol | $264.73k | $0 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/raven-protocol) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| USDCX | USDCx | $150.02k | $0 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/usdcx) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
+| VERA | Vera | $6.82k | $0 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/vera-ai) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| XTT | X Swap Treasure | $143.35k | $0 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/xswap-treasure) | Missing: Rev, Team, Hold, Sell, Liq, Prod, Reg · Partial: Token, Adopt, Sec, Catal |
+| ZENITH | Zenith | $9.88k | $0 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/zenith-by-virtuals) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
+| HECTO | Hecto | — | — | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/hecto) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
 
 ---
 
 <a id="gaps"></a>
 ## 🔴 Big gaps
 
-**63 coins.** Very little data so far. Listed by earlier research score, highest first.
+**35 coins.** Very little reliable current market data, or the ticker's identity is still unsettled.
 
-| Ticker | Name | Links | What's missing |
-|---|---|---|---|
-| HASH | Provenance Blockchain | [CoinGecko](https://www.coingecko.com/en/search?query=HASH) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Prod, Sec, Catal |
-| EPICCASH | Epic Cash | [CoinGecko](https://www.coingecko.com/en/search?query=EPICCASH) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| RLC | iExec RLC | [CoinGecko](https://www.coingecko.com/en/search?query=RLC) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| SUPRA | Supra Oracles | [CoinGecko](https://www.coingecko.com/en/search?query=SUPRA) | Missing: Hold, Sell, Liq, Prod, Adopt, Reg · Partial: Rev, Team, Token, Sec, Catal |
-| TFUEL | Theta Fuel | [CoinGecko](https://www.coingecko.com/en/search?query=TFUEL) | Missing: Rev, Hold, Sell, Liq, Prod, Adopt, Reg · Partial: Token, Sec, Catal |
-| TRB | Tellor | [CoinGecko](https://www.coingecko.com/en/search?query=TRB) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| TIME | Chrono.tech | [CoinGecko](https://www.coingecko.com/en/search?query=TIME) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
-| TRUF | Truflation | [CoinGecko](https://www.coingecko.com/en/search?query=TRUF) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| HIVE | Hive | [CoinGecko](https://www.coingecko.com/en/search?query=HIVE) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| FXS | Frax Share | [CoinGecko](https://www.coingecko.com/en/search?query=FXS) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| CTK | CertiK | [CoinGecko](https://www.coingecko.com/en/search?query=CTK) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| RVN | Ravencoin | [CoinGecko](https://www.coingecko.com/en/search?query=RVN) | Missing: Rev, Team, Hold, Sell, Liq, Prod, Adopt, Reg · Partial: Token, Sec, Catal |
-| XX | xx network | [CoinGecko](https://www.coingecko.com/en/search?query=XX) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| POLK | Polkamarkets | [CoinGecko](https://www.coingecko.com/en/search?query=POLK) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Token, Prod, Sec, Catal |
-| ZKJ | Polyhedra Network | [CoinGecko](https://www.coingecko.com/en/search?query=ZKJ) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Token, Prod, Sec, Catal |
-| PI | Plian, formerly Pchain | [CoinGecko](https://www.coingecko.com/en/search?query=PI) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| MAZZE | Mazze | [CoinGecko](https://www.coingecko.com/en/search?query=MAZZE) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| GRND | SuperWalk | [CoinGecko](https://www.coingecko.com/en/search?query=GRND) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| RVF | RocketX | [CoinGecko](https://www.coingecko.com/en/search?query=RVF) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| TRADE | Polytrade | [CoinGecko](https://www.coingecko.com/en/search?query=TRADE) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
-| ADEL | Adel | [CoinGecko](https://www.coingecko.com/en/search?query=ADEL) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| SKEY | SKEY Network | [CoinGecko](https://www.coingecko.com/en/search?query=SKEY) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| SHPING | Shping | [CoinGecko](https://www.coingecko.com/en/search?query=SHPING) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| SYLO | Sylo | [CoinGecko](https://www.coingecko.com/en/search?query=SYLO) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| ARES | Ares Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=ARES) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| ORBITER | Orbiter Finance | [CoinGecko](https://www.coingecko.com/en/search?query=ORBITER) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| MDT | Measurable Data Token | [CoinGecko](https://www.coingecko.com/en/search?query=MDT) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| LABS | LABS Group | [CoinGecko](https://www.coingecko.com/en/search?query=LABS) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| SWCH | Swiss Cheese Finance | [CoinGecko](https://www.coingecko.com/en/search?query=SWCH) | Missing: Rev, Hold, Sell, Liq, Prod, Adopt, Reg · Partial: Team, Token, Sec, Catal |
-| SNP | Synapse Network | [CoinGecko](https://www.coingecko.com/en/search?query=SNP) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| XRPAYNET | XRPayNet | [CoinGecko](https://www.coingecko.com/en/search?query=XRPAYNET) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| SAFLE | Safle | [CoinGecko](https://www.coingecko.com/en/search?query=SAFLE) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| COLLAT | Collateralize | [CoinGecko](https://www.coingecko.com/en/search?query=COLLAT) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| CRYPTIC | Cryptic | [CoinGecko](https://www.coingecko.com/en/search?query=CRYPTIC) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
-| CSIX | Carbon Browser | [CoinGecko](https://www.coingecko.com/en/search?query=CSIX) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
-| CBL | Credbull | [CoinGecko](https://www.coingecko.com/en/search?query=CBL) | Missing: Hold, Sell, Liq, Prod, Adopt, Reg · Partial: Rev, Team, Token, Sec, Catal |
-| MOT | Mobius Finance | [CoinGecko](https://www.coingecko.com/en/search?query=MOT) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
-| BONDLY | Bondly | [CoinGecko](https://www.coingecko.com/en/search?query=BONDLY) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| CARDWALLET | Card Wallet | [CoinGecko](https://www.coingecko.com/en/search?query=CARDWALLET) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| CTRLALT | Ctrl Alt | [CoinGecko](https://www.coingecko.com/en/search?query=CTRLALT) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
-| DCJPY | DCJPY | [CoinGecko](https://www.coingecko.com/en/search?query=DCJPY) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
-| DDSC | DDSC | [CoinGecko](https://www.coingecko.com/en/search?query=DDSC) | Missing: Rev, Team, Hold, Sell, Liq · Partial: Token, Prod, Adopt, Sec, Catal |
-| EURE | Monerium EURe | [CoinGecko](https://www.coingecko.com/en/search?query=EURE) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| FRA | Findora | [CoinGecko](https://www.coingecko.com/en/search?query=FRA) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
-| GO | GoChain | [CoinGecko](https://www.coingecko.com/en/search?query=GO) | Missing: Rev, Hold, Sell, Liq, Prod, Reg · Partial: Token, Adopt, Sec, Catal |
-| KEY | SelfKey | [CoinGecko](https://www.coingecko.com/en/search?query=KEY) | Missing: Rev, Team, Hold, Sell, Liq, Prod, Reg · Partial: Token, Adopt, Sec, Catal |
-| MITX | Morpheus Labs | [CoinGecko](https://www.coingecko.com/en/search?query=MITX) | Missing: Rev, Team, Hold, Sell, Liq, Prod, Reg · Partial: Token, Adopt, Sec, Catal |
-| MORPH | Morph | [CoinGecko](https://www.coingecko.com/en/search?query=MORPH) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
-| NANOPAY | NanoPay | [CoinGecko](https://www.coingecko.com/en/search?query=NANOPAY) | Missing: Rev, Team, Hold, Sell, Liq, Prod, Reg · Partial: Token, Adopt, Sec, Catal |
-| NUVA | NUVA Finance | [CoinGecko](https://www.coingecko.com/en/search?query=NUVA) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
-| PALMUSD | Palm USD | [CoinGecko](https://www.coingecko.com/en/search?query=PALMUSD) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| PPAY | Plasma Finance / PlasmaPay | [CoinGecko](https://www.coingecko.com/en/search?query=PPAY) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| REALIZ | REALIZ | [CoinGecko](https://www.coingecko.com/en/search?query=REALIZ) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Adopt, Sec, Catal |
-| STOKR | STOKR | [CoinGecko](https://www.coingecko.com/en/search?query=STOKR) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
-| SUKUKFI | SUKUKFI | [CoinGecko](https://www.coingecko.com/en/search?query=SUKUKFI) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
-| THUSD | Theo Network thUSD | [CoinGecko](https://www.coingecko.com/en/search?query=THUSD) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
-| TITAN | Iron Finance TITAN | [CoinGecko](https://www.coingecko.com/en/search?query=TITAN) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| USDCX | USDCx | [CoinGecko](https://www.coingecko.com/en/search?query=USDCX) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| USDM1 | USDM1 | [CoinGecko](https://www.coingecko.com/en/search?query=USDM1) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| USDN | Neutrino USD | [CoinGecko](https://www.coingecko.com/en/search?query=USDN) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| XLB | StellarPay | [CoinGecko](https://www.coingecko.com/en/search?query=XLB) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
-| XTT | X Swap Treasure | [CoinGecko](https://www.coingecko.com/en/search?query=XTT) | Missing: Rev, Team, Hold, Sell, Liq, Prod, Reg · Partial: Token, Adopt, Sec, Catal |
-| YETI | Yeti Finance | [CoinGecko](https://www.coingecko.com/en/search?query=YETI) | Missing: Rev, Team, Hold, Sell, Liq, Prod, Reg · Partial: Token, Adopt, Sec, Catal |
+| Ticker | Name | Mcap | 24h vol | 30d fees | 30d rev | Red flag | Links | What's missing |
+|---|---|---:|---:|---:|---:|---|---|---|
+| CSIX | Carbon Browser | $28.18k | $911.03 | — | — | dying: mcap <$1M; dying: 24h vol <$10k; not listed on CoinGecko | [CoinPaprika](https://coinpaprika.com/coin/csix-carbon-browser/) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
+| LBC | LBRY Credits | $777.59k | $15.17 | — | — | dying: mcap <$1M; dying: 24h vol <$10k; not listed on CoinGecko | [CoinPaprika](https://coinpaprika.com/coin/lbc-lbry-credits/) | Missing: Rev, Liq · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Reg, Catal |
+| QSP | Quantstamp | $524.59k | $1.26 | — | — | dying: mcap <$1M; dying: 24h vol <$10k; not listed on CoinGecko | [CoinPaprika](https://coinpaprika.com/coin/qsp-quantstamp/) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
+| DERO | Dero | $22.46k | $1.03 | — | — | dying: mcap <$1M; dying: 24h vol <$10k; not listed on CoinGecko | [CoinPaprika](https://coinpaprika.com/coin/dero-dero/) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt |
+| SAFLE | Safle | $0 | $0.33 | — | — | dying: mcap <$1M; dying: 24h vol <$10k; not listed on CoinGecko | [CoinPaprika](https://coinpaprika.com/coin/safle-safle/) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| PSTAKE | pSTAKE Finance | $192.08k | $0.24 | — | — | dying: mcap <$1M; dying: 24h vol <$10k; not listed on CoinGecko | [CoinPaprika](https://coinpaprika.com/coin/pstake-pstake-finance/) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Token, Prod, Sec, Catal |
+| ADEL | Adel | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=ADEL) | Missing: Rev, Team, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
+| AON | AON | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=AON) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| BPRO | BPRO | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=BPRO) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| CARDWALLET | Card Wallet | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=CARDWALLET) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
+| CASHLINK | CASHLINK | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=CASHLINK) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
+| CRYSTAL | DeFi Kingdoms Crystalvale CRYSTAL | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=CRYSTAL) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| CTRLALT | Ctrl Alt | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=CTRLALT) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
+| DCJPY | DCJPY | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=DCJPY) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
+| DDSC | DDSC | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=DDSC) | Missing: Rev, Team, Hold, Sell, Liq · Partial: Token, Prod, Adopt, Sec, Catal |
+| FIGR | Figure | — | — | — | — | not listed on CoinGecko; identity [Unverified] as a coin | [CoinGecko](https://www.coingecko.com/en/search?query=FIGR) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
+| GOLDFINGER | GOLDFINGER | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=GOLDFINGER) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
+| HANDLE | Handle Pay | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=HANDLE) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec, Catal |
+| LIBEARA | LIBEARA | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=LIBEARA) | Missing: Liq, Reg · Partial: Rev, Team, Hold, Sell, Token, Prod, Sec, Catal |
+| LOFTY | Lofty | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=LOFTY) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
+| MORPH | Morph | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=MORPH) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
+| MPATH | MetaPath | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=MPATH) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| MTR | Meter | — | — | — | — | not listed on CoinGecko; MTR inactive; MTRG still listed | [CoinGecko](https://www.coingecko.com/en/search?query=MTR) | Missing: Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
+| NUVA | NUVA Finance | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=NUVA) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
+| PALMUSD | Palm USD | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=PALMUSD) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
+| REALIZ | REALIZ | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=REALIZ) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Adopt, Sec, Catal |
+| RISE | T-RISE / Rise | — | — | — | — | not listed on CoinGecko | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/search?query=RISE) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| SIBERIUM | Siberium | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=SIBERIUM) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| STOKR | STOKR | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=STOKR) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
+| SUKUKFI | SUKUKFI | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=SUKUKFI) | Missing: Team, Hold, Sell, Liq, Reg · Partial: Rev, Token, Prod, Sec, Catal |
+| TRIZE | T-Rize | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=TRIZE) | Missing: Team, Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Sec, Catal |
+| VVPR | VivoPower International | — | — | — | — | not listed on CoinGecko; identity [Unverified] as a coin | [CoinGecko](https://www.coingecko.com/en/search?query=VVPR) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| WADZ | WadzPay | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=WADZ) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
+| XLB | StellarPay | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=XLB) | Missing: Rev, Team, Hold, Sell, Liq, Reg · Partial: Token, Prod, Adopt, Sec, Catal |
+| ZKME | zkMe | — | — | — | — | not listed on CoinGecko | [CoinGecko](https://www.coingecko.com/en/search?query=ZKME) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec, Catal |
 
 ---
 
 <a id="dead"></a>
 ## ⚫ Dead or wound down
 
-**12 coins.** These look shut, wound down, or never launched. I'd drop them from a rebuild unless something comes back to life.
+**26 coins**, **12 of them [Unverified]**. The unverified names were delisted or inactive in this pass, but no official shutdown notice was re-read. The others have an official wind-down or a historical collapse. A leftover ticker does not undo a shutdown.
 
-| Ticker | Name | Links | Reason |
-|---|---|---|---|
-| ANC | Anchor Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=ANC) | Collapsed with UST May 2022 |
-| FITFI | Step App | [CoinGecko](https://www.coingecko.com/en/search?query=FITFI) | Shut Aug 21 2026 |
-| GFI | Goldfinch | [CoinGecko](https://www.coingecko.com/en/search?query=GFI) | Wound down after a community vote, Jun 2026 (search summary) |
-| GIDDY | Giddy | [CoinGecko](https://www.coingecko.com/en/search?query=GIDDY) | giddy.co shutdown notice. |
-| GLUE | Glue | [CoinGecko](https://www.coingecko.com/en/search?query=GLUE) | Chain shut Jun 24 2026 |
-| LSK | Lisk | [CoinGecko](https://www.coingecko.com/en/search?query=LSK) | Lisk Chain shut Nov 2026 |
-| NEON | Neon EVM | [CoinGecko](https://www.coingecko.com/en/search?query=NEON) | Wind-down announced; support ended Oct 1 2026 |
-| PRE | Presearch | [CoinGecko](https://www.coingecko.com/en/search?query=PRE) | Never happened; platform shut July 2026 |
-| REG | RealT | [CoinGecko](https://www.coingecko.com/en/search?query=REG) | Suspended Feb 2026; liquidation Jul 2026 |
-| ROUTE | Router Protocol | [CoinGecko](https://www.coingecko.com/en/search?query=ROUTE) | [Unverified] Reported shutdown Sep 30 2026 (secondary; unverified primary) |
-| TICS | Qubetics | [CoinGecko](https://www.coingecko.com/en/search?query=TICS) | L1 ceased Sep 2026 |
-| TNGBL | Tangible RWA | [CoinGecko](https://www.coingecko.com/en/search?query=TNGBL) | Depegged Oct 2023; now wound down via property auctions |
+| Ticker | Name | Tag | Reason | Mcap | 24h vol | Red flag | Links |
+|---|---|---|---|---:|---:|---|---|
+| ANC | Anchor Protocol | — | Anchor Protocol collapsed with Terra/UST in May 2022. CoinGecko listing is gone and CoinPaprika no longer serves a ticker. | — | — | not listed on CoinGecko; historical collapse | [CoinGecko](https://www.coingecko.com/en/search?query=ANC) |
+| ARES | Ares Protocol | [Unverified] | Ares Protocol has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=ARES) |
+| CBL | Credbull | [Unverified] | Credbull has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=CBL) |
+| CREDIX | Credix Finance | [Unverified] | Credix Finance has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=CREDIX) |
+| FITFI | Step App | — | Step App officially announced on 5 Aug 2026 that all services would shut down by 21 Aug 2026. | $5.5k | $40.31 | dying: mcap <$1M; dying: 24h vol <$10k; not listed on CoinGecko; official shutdown | [CoinPaprika](https://coinpaprika.com/coin/fitfi-stepapp-fitfi/) |
+| FRA | Findora | [Unverified] | Findora has no CoinGecko listing and CoinPaprika’s ticker API returns 404 for ico-findora (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=FRA) · [DefiLlama](https://defillama.com/protocol/Findora) |
+| GFI | Goldfinch | — | Goldfinch token holders passed GIP-87 in June 2026 to wind down Goldfinch Prime and put the protocol into maintenance mode, with no new development. | $2.42M | $16.11k | official shutdown | [Site](https://goldfinch.finance) · [CoinGecko](https://www.coingecko.com/en/coins/goldfinch) · [DefiLlama](https://defillama.com/protocol/goldfinch) |
+| GIDDY | Giddy | — | Official site giddy.co is titled “Giddy Shutdown” and states “Giddy has shut down.” The app and platform are no longer operating. | — | — | not listed on CoinGecko; official shutdown | [CoinGecko](https://www.coingecko.com/en/search?query=GIDDY) |
+| GLUE | Glue | — | Glue officially said 24 Jun 2026 would be the last day the Glue Blockchain and Hub were operable. The team said it may continue consumer apps on another chain. | — | — | official shutdown | [CoinGecko](https://www.coingecko.com/en/coins/glue-2) |
+| LSK | Lisk | — | Lisk officially shut the Lisk Chain on 2 Nov 2026. Lisk continues as a business finance platform and LSK remains a loyalty token on Ethereum. | $40.22M | $2.62M | official shutdown | [Site](https://lisk.com) · [CoinGecko](https://www.coingecko.com/en/coins/lisk) · [DefiLlama](https://defillama.com/protocol/lisk-bridge) |
+| MITX | Morpheus Labs | [Unverified] | Morpheus Labs has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=MITX) |
+| MOT | Mobius Finance | [Unverified] | Mobius Finance has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=MOT) |
+| NEON | Neon EVM | — | Official neonevm.org notice: active development, maintenance and team support ended 1 Oct 2026; users were told to finish migrations by 31 Dec 2026. The NEON token itself is not cancelled. | $385.73k | $317.73k | dying: mcap <$1M; official shutdown | [CoinGecko](https://www.coingecko.com/en/coins/neon) · [DefiLlama](https://defillama.com/protocol/Neon) |
+| OXEN | Oxen | [Unverified] | Oxen has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=OXEN) |
+| PCX | ChainX | [Unverified] | ChainX (PCX) has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/coins/chainx-2) |
+| PRE | Presearch | — | Official Presearch newsletter (24 Jul 2026): the platform would stay live only until 27 Jul 2026, 5pm PST, and users were told to withdraw tokens. | $185.94k | $123.69 | dying: mcap <$1M; dying: 24h vol <$10k; official shutdown | [CoinGecko](https://www.coingecko.com/en/coins/presearch) |
+| REG | RealT | — | RealT stopped most weekly distributions in Feb 2026. On 2 Jul 2026 a co-founder announced a voluntary liquidation and planned sale of the property portfolio. A formal court liquidation filing was not independently confirmed in this scan [Unverified]. DefiLlama still shows large RealT token TVL. | $423.2k | $1.54 | dying: mcap <$1M; dying: 24h vol <$10k; official shutdown | [CoinGecko](https://www.coingecko.com/en/coins/realtoken-ecosystem-governance) |
+| ROUTE | Router Protocol | — | Router Protocol officially announced it would wind down and fully close by 30 Sep 2026, including a treasury burn of 303,333,198 ROUTE and exchange delistings. Only the CoinGecko [OLD] listing remains. | — | $29.99 | dying: 24h vol <$10k; official shutdown; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/route) |
+| SNP | Synapse Network | [Unverified] | Synapse Network (SNP, not the SYN bridge) has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=SNP) |
+| SUTER | Suterusu | [Unverified] | Suterusu has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=SUTER) |
+| TICS | Qubetics | — | Qubetics L1 ceased in mid-Sep 2026 and $TICS migrated 1:1 to Ethereum. Official 6 Oct 2026 blog: the project is not commissioning further L1, chain-abstraction or dVPN development, and it burned the entire team token allocation. | $107.46k | $19.46k | dying: mcap <$1M; official shutdown | [CoinGecko](https://www.coingecko.com/en/coins/qubetics) |
+| TITAN | Iron Finance TITAN | — | Iron Finance TITAN famously collapsed in a June 2021 bank run. The token is still listed on CoinGecko as IRON Titanium, but the protocol is a historical failure, not an operating product. | $43.45k | $1.27 | dying: mcap <$1M; dying: 24h vol <$10k; historical collapse | [CoinGecko](https://www.coingecko.com/en/coins/iron-titanium-token) |
+| TNGBL | Tangible RWA | — | Tangible’s USDR stablecoin depegged in Oct 2023. Official Medium updates describe winding the property portfolio down through auctions and a path to a final USDR redemption. | — | $0 | dying: 24h vol <$10k; official shutdown; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/tangible) |
+| USDN | Neutrino USD | — | Neutrino USD (Waves) depegged and is no longer on CoinGecko under USDN. CoinPaprika’s usdn-neutrino-usd ticker returns 404. (The remaining CoinGecko “Neutrino Index Token” is XTN, a different token.) | — | — | not listed on CoinGecko; historical collapse | [CoinGecko](https://www.coingecko.com/en/search?query=USDN) |
+| WIT | Witnet | [Unverified] | Witnet has no CoinGecko listing and CoinPaprika’s ticker API returns 404 for wit-witnet (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=WIT) |
+| YETI | Yeti Finance | [Unverified] | Yeti Finance is absent from CoinGecko and CoinPaprika’s ticker API returns 404 for yeti-yeti-finance (listed inactive). Avalanche DEX is widely regarded as defunct. Official shutdown notice not re-read this pass [Unverified date]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=YETI) |
 
 ---
 
-<a id="rebuild"></a>
-## 🔄 Rebuild order
+<a id="next"></a>
+## 🔄 Next up
 
-**Next up, in this order** — full v3 reports, now in progress:
+**In progress now**, in this order — full v3 reports:
 
 1. **SKY** · Sky
 2. **ENA** · Ethena
@@ -394,11 +397,81 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 14. **TRAC** · OriginTrail
 15. **EXA** · Exactly Protocol
 
-**Then the rest of Close:** **COTI**, **XDB**, **BAND**, **MASQ**, **DFI**, **PROPC**.
+**Then these**, the healthiest remaining names from the status scan (ranked by the larger of 30-day DefiLlama revenue or fees, then 24h volume):
 
-**Then Need wallet work**, by earlier research score, highest first — the same order as the table above, starting with **SYRUP**, **XDC**, **INJ**, **ZEC**, **RBNT**.
+16. **SYRUP** · Maple Finance · 30d rev $1.47M, fees $9.62M · 24h vol $6.14M · mcap $119.16M
+17. **CFG** · Centrifuge · 30d rev $284.65k, fees $3.16M · 24h vol $3.35M · mcap $26.78M
+18. **HUMA** · Huma Finance · 30d rev $0, fees $2.83M · 24h vol $4.28M · mcap $11.38M
+19. **SOLV** · Solv Protocol · 30d rev $1.22M, fees $2.44M · 24h vol $3.22M · mcap $26.49M
+20. **ARB** · ARB · 30d rev $513.79k, fees $522.43k · 24h vol $84.69M · mcap $915.21M
+21. **ICP** · Internet Computer · 30d rev $167.66k, fees $167.66k · 24h vol $33.81M · mcap $1.24B
+22. **API3** · API3 · 30d rev $8.21k, fees $164.25k · 24h vol $3.32M · mcap $31.03M
+23. **INJ** · Injective · 30d rev $120.57k, fees $120.57k · 24h vol $74M · mcap $665.4M
+24. **SUI** · SUI · 30d rev $721.93, fees $77.89k · 24h vol $253.86M · mcap $2.96B
+25. **ZEC** · Zcash · 30d rev $0, fees $65.55k · 24h vol $556.28M · mcap $14.93B
+26. **HYPER** · Hyperlane · 30d rev $50.2k, fees $50.2k · 24h vol $1.19M · mcap $13.44M
+27. **KAIO** · KAIO · 30d rev $36.41k, fees $36.41k · 24h vol $232.27k · mcap $13.89M
+28. **CPOOL** · Clearpool · 30d rev $0, fees $30.32k · 24h vol $1.71M
+29. **W** · Wormhole · 30d rev $0, fees $15.39k · 24h vol $9.91M · mcap $58.64M
+30. **CRO** · Cronos / Crypto.com · 30d rev $0, fees $13.64k · 24h vol $5.29M · mcap $2.21B
+31. **ZK** · ZKsync · 30d rev $10.3k, fees $10.74k · 24h vol $6.05M · mcap $86.55M
+32. **XPL** · Plasma · 30d rev $5.05k, fees $5.05k · 24h vol $31.46M · mcap $205.43M
+33. **S** · Sonic · 30d rev $3.21k, fees $3.41k · 24h vol $21.04M · mcap $125.52M
+34. **KAIA** · Kaia · 30d rev $2.15k, fees $2.76k · 24h vol $3.54M · mcap $187.04M
+35. **BCH** · Bitcoin Cash · 30d rev $0, fees $2.34k · 24h vol $63.6M · mcap $4.11B
 
-**Then Big gaps**, same sort, after the closer groups are rebuilt.
+**Then the rest of Close:** **COTI**, **BAND**, **PROPC**, **XDB**, **DFI**, **MASQ**.
+
+---
+
+<a id="identity"></a>
+## ⚠️ Identity notes
+
+These tickers were easy to mix up, or the public listing does not clearly match the name in the pipeline. Landmines first: **PI is Plian**, not Pi Network. **NXS is Nexus**, not the CoinGecko token named NEXUS (symbol NEX). Market figures were used only when the match was good enough to keep.
+
+| Ticker | Name | Note |
+|---|---|---|
+| PI | Plian, formerly Pchain | Corrected away from Pi Network to Plian (pchain). |
+| RISE | T-RISE / Rise | T-RISE / Rise (Canton tokenization) has no reliable CoinGecko or CoinPaprika match. DefiLlama “RISE” / Rise Chain is a different project and was not used. |
+| NXS | Nexus | No CoinGecko listing under NXS. Market figures are from CoinPaprika nxs-nexus (Nexus). Not the CoinGecko “NEXUS” (nexus-2, symbol NEX). |
+| MTR | Meter | Meter’s traded token on CoinPaprika is MTRG (Meter Governance). Pipeline ticker is MTR (historically the stable). MTR itself appears inactive. |
+| USDN | Neutrino USD | Neutrino USD is not the CoinGecko Neutrino Index Token (XTN). |
+| SNP | Synapse Network | Not the Synapse (SYN) bridge. Synapse Network (SNP) is delisted from CoinGecko and inactive on CoinPaprika. |
+| YETI | Yeti Finance | Yeti Finance is not the various YETI meme listings still on CoinGecko. |
+| OMNI | Omni Network | Omni Network delisted from CoinGecko; still on CoinPaprika. Not confused with other Omni tokens. |
+| MORPH | Morph | Morph L2 is not Morpheus (MORPH) or Morpho. |
+| KEY | SelfKey | SelfKey is delisted from CoinGecko; not the leftover “KEY” listing. |
+| CTX | CTX | Mapped to Cryptex Finance [Unverified]; pipeline note said CTX might be an ISO-20022 sleeper, not necessarily Cryptex. |
+| VERA | Vera | Only listing is Vera AI; pipeline name is “Vera” [Unverified]. |
+| ZENITH | Zenith | Only listing is Zenith by Virtuals; pipeline name is “Zenith” [Unverified]. |
+| TX | TX | Mapped to a CoinGecko id named only “tx” [Unverified]. |
+| AEON | AEON | Three AEON CoinGecko ids; used aeon-3 [Unverified which is the intended project]. |
+| BXX | BXX | Mapped to Baanx (BXX); pipeline name is only “BXX” [Unverified]. |
+| COLLAT | Collateralize | Pipeline name “Collateralize” vs CoinGecko “Collaterize” (spelling). Likely the same token, [Unverified]. |
+| MXC | MXC Foundation | CoinGecko now lists the project as Moonchain (MCH) after the MXC rebrand. |
+| THUSD | Theo Network thUSD | theo-usd vs a separate thusd listing; which is Theo Network thUSD is [Unverified]. |
+| NANOPAY | NanoPay | CoinGecko id nanopay uses symbol NANO, which collides with Nano (XNO). Identity is [Unverified]. Last CoinGecko update was 10 Nov 2026 and 24h volume was $0. |
+| FIGR | Figure | No reliable crypto token listing. Figure Technologies is a public company (stock ticker FIGR). [Unverified] as a coin. |
+| VVPR | VivoPower International | No crypto listing found. VivoPower International is a listed stock (VVPR), not a coin. |
+| HANDLE | Handle Pay | Not mapped to handle.fi (FOREX). Handle Pay is described as a Canton-linked payments token with no CoinGecko listing. |
+| NIGHT | Midnight | Mapped to midnight-3; a second Midnight id may exist. |
+| METAL | Metal Blockchain token | 3 METAL symbol collisions; picked metal-blockchain (score was weak in an earlier pass, but the name matches the pipeline). |
+| CROWN | Crown Token | Picked crown-token-… among 2 CROWN listings; prior pull had 0 circulating / market cap. |
+| REG | RealT | Mapped to RealToken Ecosystem Governance (REG). Existing dead reason claims RealT liquidation — needs verification against live TVL. |
+
+---
+
+<a id="sources"></a>
+## 📚 Sources
+
+Status scan read **16 Nov 2026 5:24 AM MST**. Numbers are only the values those APIs actually returned.
+
+- [CoinGecko](https://www.coingecko.com/) — market cap and 24h volume (`/coins/list`, `/coins/markets`)
+- [DefiLlama](https://defillama.com/) — 30-day fees, 30-day revenue, and TVL (protocols, fees, revenue, and v2 chains)
+- [CoinPaprika](https://coinpaprika.com/) — fallback market figures when a coin is not on CoinGecko; those rows are linked to CoinPaprika
+- Official project posts and contemporaneous coverage for shutdown claims, as summarized in the [scan data](../data/status-scan.json)
+
+A leftover CoinGecko or CoinPaprika listing does not undo an official wind-down. Machine-readable project data is in [data/projects.json](../data/projects.json).
 
 Last updated 16 Nov 2026 (MST).
 
