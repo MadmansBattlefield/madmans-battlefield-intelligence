@@ -1253,6 +1253,9 @@ def overlay_dead_list(projects: list[dict], published: set[str]) -> list[dict]:
         project = by_ticker.get(ticker)
         if not project:
             continue
+        if project.get("status") == "dead":
+            # The scan row is the source of truth for reason and [Unverified] tag.
+            continue
         project["status"] = "dead"
         if row.get("reason"):
             project["dead_reason"] = clean_dead_reason(row.get("reason"))

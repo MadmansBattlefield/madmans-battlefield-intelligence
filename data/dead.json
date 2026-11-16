@@ -1,7 +1,7 @@
 {
   "title": "Moved to dead",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:20 MST",
+  "generated_at": "2026-11-16 15:22 MST",
   "policy": "A published v3 report that fails is never removed from the ranking in silence. It stays on RANKING.md until a dated entry is added here with a reason. Unscored pipeline names can move here for official shutdowns, unfixed exploits, wind-downs, or a documented dying-market skip. Other scan warnings such as thin volume stay warnings until they are formally moved.",
   "dying_market_skip_rule": "Market cap under $1M and 24h volume under $10k, as of a dated public market read, and only when an explicit entry is added on this list.",
   "step5_classes": "16 Nov 2026 pass over the thin-market pipeline names. Dying: 24h volume under $10k on 16 Nov 2026, with the markets and the latest trade or on-chain transfer date given. Probably dead: no active market on CoinGecko or CoinPaprika and near-zero volume, often with the official site down; tagged [Unverified] until an official notice is read. Wound down: an official shutdown, migration or merger notice is linked. A recent on-chain transfer can be dust or spam and does not by itself show a live project. Names with real volume (24h volume of $10k or more on active markets) stay in the pipeline.",
@@ -37,14 +37,24 @@
       "reason": "Anchor Protocol collapsed with Terra/UST in May 2022. CoinGecko listing is gone and CoinPaprika no longer serves a ticker."
     },
     {
+      "ticker": "APRA",
+      "name": "Apraemio",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $86 (CoinGecko; markets: PancakeSwap (v2)), market cap $1.53M; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/apraemio)"
+    },
+    {
       "ticker": "ARES",
       "name": "Ares Protocol",
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
-      "category": "wound_down_or_collapsed",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "Ares Protocol has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Probably dead (re-checked 16 Nov 2026): no CoinGecko listing; CoinPaprika marks it inactive, last data 22 Oct 2026. No official shutdown notice found [Unverified]. [CoinPaprika](https://coinpaprika.com/coin/ares-ares-protocol/)"
     },
     {
       "ticker": "BAX",
@@ -87,6 +97,16 @@
       "reason": "Probably dead (16 Nov 2026): CoinGecko shows 0 market(s), none active, and $2 24h volume (market cap $164.7k); on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/charli3)"
     },
     {
+      "ticker": "CANTO",
+      "name": "Canto",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $149 (CoinGecko; markets: PancakeSwap V3 (Ethereum)), market cap $414.9k; last on-chain transfer 2026-11-16 (ethereum); official site returned HTTP 402. [CoinGecko](https://www.coingecko.com/en/coins/canto) [Explorer](https://etherscan.io/token/0x56c03b8c4fa80ba37f5a7b60caaaef749bb5b220)"
+    },
+    {
       "ticker": "CARDWALLET",
       "name": "CardWallet (CW)",
       "moved_on": "2026-11-16",
@@ -101,20 +121,20 @@
       "name": "Credbull",
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
-      "category": "wound_down_or_collapsed",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "Credbull has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Probably dead (re-checked 16 Nov 2026): no CoinGecko listing; CoinPaprika marks it inactive, last data 15 Sep 2026. No official shutdown notice found [Unverified]. [CoinPaprika](https://coinpaprika.com/coin/cbl-credbull/)"
     },
     {
       "ticker": "CREDIX",
       "name": "Credix Finance",
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
-      "category": "wound_down_or_collapsed",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "Credix Finance has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Probably dead (re-checked 16 Nov 2026): no CoinGecko listing; CoinPaprika marks it inactive, last data 25 Sep 2026. No official shutdown notice found [Unverified]. [CoinPaprika](https://coinpaprika.com/coin/credix-credix-finance/)"
     },
     {
       "ticker": "CROWN",
@@ -125,6 +145,36 @@
       "unverified": false,
       "had_v3_score": false,
       "reason": "Dying (16 Nov 2026): 24h volume $307 (CoinGecko; markets: Gate), market cap not reported; last on-chain transfer 2026-11-13 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/crown-token-77469f91-69f6-44dd-b356-152e2c39c0cc) [Explorer](https://etherscan.io/token/0xf3bb9f16677f2b86efd1dfca1c141a99783fde58)"
+    },
+    {
+      "ticker": "CRYPTIC",
+      "name": "Cryptic",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 0 market(s), none active, and $0 24h volume (market cap not reported); on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/cryptic)"
+    },
+    {
+      "ticker": "CSIX",
+      "name": "Carbon Browser",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): no CoinGecko listing; CoinPaprika shows $62 24h volume and $28.7k market cap. [CoinPaprika](https://coinpaprika.com/coin/csix-carbon-browser/)"
+    },
+    {
+      "ticker": "DERO",
+      "name": "Dero",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): no CoinGecko listing; CoinPaprika shows $1 24h volume and $22.5k market cap. [CoinPaprika](https://coinpaprika.com/coin/dero-dero/)"
     },
     {
       "ticker": "DEUS",
@@ -155,6 +205,16 @@
       "unverified": false,
       "had_v3_score": false,
       "reason": "Dying (16 Nov 2026): 24h volume $502 (CoinGecko; markets: Uniswap V2 (Ethereum), Uniswap V3 (Ethereum), Uniswap V4 (Ethereum)), market cap $1.79M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/dragonchain) [Explorer](https://etherscan.io/token/0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e)"
+    },
+    {
+      "ticker": "ELFI",
+      "name": "ELYFI",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 0 market(s), none active, and $0 24h volume (market cap $196.8k); official site returned HTTP 404; last on-chain transfer 2026-11-08 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/elyfi) [Explorer](https://etherscan.io/token/0x4da34f8264cb33a5c9f17081b9ef5ff6091116f4)"
     },
     {
       "ticker": "ELK",
@@ -190,10 +250,10 @@
       "name": "Findora",
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
-      "category": "wound_down_or_collapsed",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "Findora has no CoinGecko listing and CoinPaprika’s ticker API returns 404 for ico-findora (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Probably dead (re-checked 16 Nov 2026): no CoinGecko listing and CoinPaprika marks FRA inactive with last data on 24 Jun 2025; CoinMarketCap now lists it as Fractal Network. No official shutdown notice found [Unverified]. [CoinPaprika](https://coinpaprika.com/coin/ico-findora/)"
     },
     {
       "ticker": "FTHM",
@@ -326,6 +386,16 @@
       "reason": "Dying (16 Nov 2026): 24h volume $4 (CoinGecko; markets: Raydium), market cap $23.1k; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/epicentral-labs)"
     },
     {
+      "ticker": "LBC",
+      "name": "LBRY Credits",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Wound down: LBRY Inc. announced its shutdown on 19 Oct 2023 after losing the SEC case over LBC; the chain is left to miners. CoinPaprika shows $6 24h volume on 16 Nov 2026. [SEC release](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25775)"
+    },
+    {
       "ticker": "LEOX",
       "name": "Galileo Protocol",
       "moved_on": "2026-11-16",
@@ -360,10 +430,10 @@
       "name": "Morpheus Labs",
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
-      "category": "wound_down_or_collapsed",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "Morpheus Labs has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Probably dead (re-checked 16 Nov 2026): no CoinGecko listing; CoinPaprika marks it inactive, last data 16 Nov 2026. No official shutdown notice found [Unverified]. [CoinPaprika](https://coinpaprika.com/coin/mitx-morpheus-labs/)"
     },
     {
       "ticker": "MOB",
@@ -380,10 +450,10 @@
       "name": "Mobius Finance",
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
-      "category": "wound_down_or_collapsed",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "Mobius Finance has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Probably dead (re-checked 16 Nov 2026): no CoinGecko listing; CoinPaprika marks it inactive, last data 23 Oct 2026. No official shutdown notice found [Unverified]. [CoinPaprika](https://coinpaprika.com/coin/mot-mobius-finance/)"
     },
     {
       "ticker": "MPATH",
@@ -404,6 +474,26 @@
       "unverified": false,
       "had_v3_score": false,
       "reason": "Dying (16 Nov 2026): 24h volume $4 (CoinGecko; markets: PancakeSwap V3 (BSC)), market cap $183.5k; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/multibit) [Explorer](https://etherscan.io/token/0x38e382f74dfb84608f3c1f10187f6bef5951de93)"
+    },
+    {
+      "ticker": "MXC",
+      "name": "MXC Foundation",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 0 market(s), none active, and $0 24h volume (market cap $3.3k); official site returned HTTP 402; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/moonchain)"
+    },
+    {
+      "ticker": "NANOPAY",
+      "name": "NanoPay",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 1 market(s), none active, and $0 24h volume (market cap $23.6k); official site returned HTTP 000; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/nanopay)"
     },
     {
       "ticker": "NCT",
@@ -461,19 +551,29 @@
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
       "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Wound down: the Oxen network migrated to the Session Network at the Landing hard fork on 21 May 2025, and OXEN converts to SESH through a claims portal. No CoinGecko listing; CoinPaprika marks OXEN inactive. [Oxen notice](https://oxen.io/oxen-landing-hardfork-11-3-0-activation)"
+    },
+    {
+      "ticker": "PBR",
+      "name": "PolkaBridge",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "Oxen has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 0 market(s), none active, and $0 24h volume (market cap not reported); last on-chain transfer 2026-11-12 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/polkabridge) [Explorer](https://etherscan.io/token/0x298d492e8c1d909d3f63bc4a36c66c64acb3d695)"
     },
     {
       "ticker": "PCX",
       "name": "ChainX",
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
-      "category": "wound_down_or_collapsed",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "ChainX (PCX) has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Probably dead (re-checked 16 Nov 2026): no CoinGecko listing; CoinPaprika marks it inactive, last data 26 Jan 2026. No official shutdown notice found [Unverified]. [CoinPaprika](https://coinpaprika.com/coin/pcx-chainx/)"
     },
     {
       "ticker": "PI",
@@ -496,6 +596,16 @@
       "reason": "Dying (16 Nov 2026): 24h volume $9 (CoinGecko; markets: no non-stale market), market cap $76.3k; last on-chain transfer 2026-11-15 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/polkamarkets) [Explorer](https://etherscan.io/token/0xd478161c952357f05f0292b56012cd8457f1cfbf)"
     },
     {
+      "ticker": "PPAY",
+      "name": "Plasma Finance / PlasmaPay",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $0 (CoinGecko; markets: no non-stale market), market cap $12.1k; last on-chain transfer 2026-11-15 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/plasma-finance) [Explorer](https://etherscan.io/token/0x054d64b73d3d8a21af3d764efd76bcaa774f3bb2)"
+    },
+    {
       "ticker": "PRE",
       "name": "Presearch",
       "moved_on": "2026-11-16",
@@ -504,6 +614,36 @@
       "unverified": false,
       "had_v3_score": false,
       "reason": "Official Presearch newsletter (24 Jul 2026): the platform would stay live only until 27 Jul 2026, 5pm PST, and users were told to withdraw tokens."
+    },
+    {
+      "ticker": "PSTAKE",
+      "name": "pSTAKE Finance",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Wound down: pSTAKE deprecated its liquid-staking products with a final deadline of 31 Dec 2025, and its 16 Dec 2025 notice says the original team has fully stepped away. No CoinGecko listing; CoinPaprika marks PSTAKE inactive. [pSTAKE final notice](https://blog.pstake.finance/2025/12/16/final-notice-liquid-staking-deprecation-%e2%80%bc%ef%b8%8f/)"
+    },
+    {
+      "ticker": "QSP",
+      "name": "Quantstamp",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): no CoinGecko listing; CoinPaprika shows $1 24h volume and $525k market cap. [CoinPaprika](https://coinpaprika.com/coin/qsp-quantstamp/)"
+    },
+    {
+      "ticker": "RAVEN",
+      "name": "Raven Protocol",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 1 market(s), none active, and $0 24h volume (market cap $264.7k); official site returned HTTP 500; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/raven-protocol)"
     },
     {
       "ticker": "REG",
@@ -536,14 +676,24 @@
       "reason": "Dying (16 Nov 2026): 24h volume $6.6k (CoinGecko; markets: MEXC, Uniswap V2 (Ethereum)), market cap $1.18M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/rocketx) [Explorer](https://etherscan.io/token/0x2fb652314c3d850e9049057bbe9813f1eee882d3)"
     },
     {
+      "ticker": "SAFLE",
+      "name": "Safle",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Probably dead (16 Nov 2026): no CoinGecko listing; CoinPaprika shows $0.33 24h volume and no market cap. [CoinPaprika](https://coinpaprika.com/coin/safle-safle/)"
+    },
+    {
       "ticker": "SNP",
       "name": "Synapse Network",
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
-      "category": "wound_down_or_collapsed",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "Synapse Network (SNP, not the SYN bridge) has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Probably dead (re-checked 16 Nov 2026): no CoinGecko listing; CoinPaprika marks it inactive, last data 9 Nov 2026. No official shutdown notice found [Unverified]. [CoinPaprika](https://coinpaprika.com/coin/snp-synapse-network/)"
     },
     {
       "ticker": "SPELL",
@@ -560,10 +710,10 @@
       "name": "Suterusu",
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
-      "category": "wound_down_or_collapsed",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "Suterusu has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Probably dead (re-checked 16 Nov 2026): no CoinGecko listing; CoinPaprika marks it inactive, last data 21 Aug 2026. No official shutdown notice found [Unverified]. [CoinPaprika](https://coinpaprika.com/coin/suter-suterusu/)"
     },
     {
       "ticker": "SYLO",
@@ -646,6 +796,16 @@
       "reason": "Dying (16 Nov 2026): 24h volume $1.1k (CoinGecko; markets: Gate), market cap $1.04M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/tharwa) [Explorer](https://etherscan.io/token/0x7b10d50b5885be4c7985a88408265c109bd1eec8)"
     },
     {
+      "ticker": "USDCX",
+      "name": "USDCx",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 0 market(s), none active, and $0 24h volume (market cap $150.0k); on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/usdcx)"
+    },
+    {
       "ticker": "USDM1",
       "name": "USDM1",
       "moved_on": "2026-11-16",
@@ -664,6 +824,16 @@
       "unverified": false,
       "had_v3_score": false,
       "reason": "Neutrino USD (Waves) depegged and is no longer on CoinGecko under USDN. CoinPaprika’s usdn-neutrino-usd ticker returns 404. (The remaining CoinGecko “Neutrino Index Token” is XTN, a different token.)"
+    },
+    {
+      "ticker": "VERA",
+      "name": "Vera",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 1 market(s), none active, and $0 24h volume (market cap $6.8k); official site returned HTTP 404; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/vera-ai)"
     },
     {
       "ticker": "WADZ",
@@ -690,10 +860,10 @@
       "name": "Witnet",
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
-      "category": "wound_down_or_collapsed",
-      "unverified": true,
+      "category": "dying",
+      "unverified": false,
       "had_v3_score": false,
-      "reason": "Witnet has no CoinGecko listing and CoinPaprika’s ticker API returns 404 for wit-witnet (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+      "reason": "Dying (16 Nov 2026): the Witnet chain still runs (Wit/2 since Feb 2025), but WIT has no CoinGecko listing, CoinPaprika marks it inactive (last data 14 Nov 2026), and BitMart delisted WIT in Dec 2025. [BitMart delisting](https://bitmart.zendesk.com/hc/en-us/articles/44268347476379-Announcement-on-the-Delisting-of-WIT)"
     },
     {
       "ticker": "XOR",
@@ -716,6 +886,26 @@
       "reason": "Dying (16 Nov 2026): 24h volume $122 (CoinGecko; markets: PancakeSwap (v2)), market cap $464.2k; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/proximax)"
     },
     {
+      "ticker": "XRPAYNET",
+      "name": "XRPayNet",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $25 (CoinGecko; markets: no non-stale market), market cap not reported; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/xrpaynet)"
+    },
+    {
+      "ticker": "XTT",
+      "name": "X Swap Treasure",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $0 (CoinGecko; markets: no non-stale market), market cap $143.3k; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/xswap-treasure)"
+    },
+    {
       "ticker": "XX",
       "name": "xx network",
       "moved_on": "2026-11-16",
@@ -731,9 +921,19 @@
       "moved_on": "2026-11-16",
       "listed_as_of": "2026-11-16",
       "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Wound down: Yeti Finance announced its wind-down in Dec 2023; troves were repaid and YETI holders could redeem about 90% of the treasury until 10 Feb 2024. [Yeti Finance wind-down](https://yetifinance.medium.com/yeti-finance-wind-down-55913bbf6aed)"
+    },
+    {
+      "ticker": "ZENITH",
+      "name": "Zenith",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
       "unverified": true,
       "had_v3_score": false,
-      "reason": "Yeti Finance is absent from CoinGecko and CoinPaprika’s ticker API returns 404 for yeti-yeti-finance (listed inactive). Avalanche DEX is widely regarded as defunct. Official shutdown notice not re-read this pass [Unverified date]."
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 1 market(s), none active, and $0 24h volume (market cap $9.9k); official site returned HTTP 500; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/zenith-by-virtuals)"
     }
   ],
   "calibration_controls": [

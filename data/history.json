@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:20 MST",
+  "generated_at": "2026-11-16 15:22 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
