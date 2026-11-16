@@ -57,6 +57,36 @@
       "reason": "Dying (16 Nov 2026): 24h volume $64.8k (CoinGecko; markets: no non-stale market), market cap $87.2k; last on-chain transfer 2026-11-16 (ethereum). CoinGecko's $64.8k volume figure comes from a market it flags as stale. [CoinGecko](https://www.coingecko.com/en/coins/babb) [Explorer](https://etherscan.io/token/0xf920e4f3fbef5b3ad0a25017514b769bdc4ac135)"
     },
     {
+      "ticker": "BONDLY",
+      "name": "Bondly",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $2 (CoinGecko; markets: no non-stale market), market cap $215.0k; last on-chain transfer 2026-11-15 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/bondly) [Explorer](https://etherscan.io/token/0x91dfbee3965baaee32784c2d546b7a0c62f268c9)"
+    },
+    {
+      "ticker": "BXX",
+      "name": "BXX",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 1 market(s), none active, and $87 24h volume (market cap $168.7k); official site returned HTTP 404; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/baanx) [Explorer](https://etherscan.io/token/0x6b1a8f210ec6b7b6643cea3583fb0c079f367898)"
+    },
+    {
+      "ticker": "C3",
+      "name": "Charli3",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 0 market(s), none active, and $2 24h volume (market cap $164.7k); on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/charli3)"
+    },
+    {
       "ticker": "CARDWALLET",
       "name": "CardWallet (CW)",
       "moved_on": "2026-11-16",
@@ -136,6 +166,16 @@
       "reason": "Skipped as dying: market cap under $1M and 24h volume under $10k on 16 Nov 2026 (CoinGecko figures from the public status scan). Recorded here so a thin-market skip is not dropped silently from the pipeline."
     },
     {
+      "ticker": "FCTR",
+      "name": "Factor",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $2 (CoinGecko; markets: Camelot V3), market cap $58.9k; last on-chain transfer 2026-11-16 (arbitrum-one); official site returned HTTP 000. [CoinGecko](https://www.coingecko.com/en/coins/factor) [Explorer](https://arbiscan.io/token/0x6dd963c510c2d2f09d5eddb48ede45fed063eb36)"
+    },
+    {
       "ticker": "FITFI",
       "name": "Step App",
       "moved_on": "2026-11-16",
@@ -206,6 +246,16 @@
       "reason": "Glue officially said 24 Jun 2026 would be the last day the Glue Blockchain and Hub were operable. The team said it may continue consumer apps on another chain."
     },
     {
+      "ticker": "GO",
+      "name": "GoChain",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): no CoinGecko listing; CoinPaprika shows $3 24h volume and $3.30M market cap. [CoinPaprika](https://coinpaprika.com/coin/go-gochain/)"
+    },
+    {
       "ticker": "HOUDINI",
       "name": "Houdini Swap",
       "moved_on": "2026-11-16",
@@ -226,6 +276,16 @@
       "reason": "Dying (16 Nov 2026): 24h volume $4.6k (CoinGecko; markets: Gate, Kraken, KuCoin), market cap $1.67M; last on-chain transfer 2026-11-16 (arbitrum-one). [CoinGecko](https://www.coingecko.com/en/coins/idos) [Explorer](https://arbiscan.io/token/0x68731d6f14b827bbcffbebb62b19daa18de1d79c)"
     },
     {
+      "ticker": "JOSS",
+      "name": "JuliaOS",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $13 (CoinGecko; markets: no non-stale market), market cap $28.7k; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/juliaos)"
+    },
+    {
       "ticker": "KDA",
       "name": "Kadena",
       "moved_on": "2026-11-16",
@@ -244,6 +304,36 @@
       "unverified": false,
       "had_v3_score": false,
       "reason": "Merged away: KEEP was replaced by Threshold's T token through a fixed-rate vending machine (1 KEEP ≈ 4.78 T). On 16 Nov 2026 KEEP had $643 24h volume. [Threshold docs](https://docs.threshold.network/t-token/converting-nu-and-keep-to-t) [CoinGecko](https://www.coingecko.com/en/coins/keep-network)"
+    },
+    {
+      "ticker": "KEY",
+      "name": "SelfKey",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): no CoinGecko listing; CoinPaprika shows $56 24h volume and $1.11M market cap. [CoinPaprika](https://coinpaprika.com/coin/key-selfkey/)"
+    },
+    {
+      "ticker": "LABS",
+      "name": "LABS Group",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $4 (CoinGecko; markets: Raydium), market cap $23.1k; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/epicentral-labs)"
+    },
+    {
+      "ticker": "LEOX",
+      "name": "Galileo Protocol",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $1 (CoinGecko; markets: no non-stale market), market cap $161.7k; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/leox) [Explorer](https://etherscan.io/token/0xa444ec96ee01bb219a44b285de47bf33c3447ad5)"
     },
     {
       "ticker": "LSK",
@@ -306,6 +396,26 @@
       "reason": "Wound down: the operator announced in Nov 2021 that MPATH votes and rewards would stop and remaining tokens would be bought back. [Announcement](https://ecency.com/@mpath/mpath-announcement)"
     },
     {
+      "ticker": "MUBI",
+      "name": "Multibit",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $4 (CoinGecko; markets: PancakeSwap V3 (BSC)), market cap $183.5k; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/multibit) [Explorer](https://etherscan.io/token/0x38e382f74dfb84608f3c1f10187f6bef5951de93)"
+    },
+    {
+      "ticker": "NCT",
+      "name": "Toucan Protocol",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $1 (CoinGecko; markets: no non-stale market), market cap $319.7k; last on-chain transfer 2026-11-16 (polygon-pos). [CoinGecko](https://www.coingecko.com/en/coins/toucan-protocol-nature-carbon-tonne) [Explorer](https://polygonscan.com/token/0xd838290e877e0188a4a44700463419ed96c16107)"
+    },
+    {
       "ticker": "NEON",
       "name": "Neon EVM",
       "moved_on": "2026-11-16",
@@ -316,6 +426,16 @@
       "reason": "Official neonevm.org notice: active development, maintenance and team support ended 1 Oct 2026; users were told to finish migrations by 31 Dec 2026. The NEON token itself is not cancelled."
     },
     {
+      "ticker": "NXRA",
+      "name": "Nexera, formerly AllianceBlock",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $5 (CoinGecko; markets: no non-stale market), market cap $411.0k; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/allianceblock-nexera) [Explorer](https://etherscan.io/token/0x644192291cc835a93d6330b24ea5f5fedd0eef9e)"
+    },
+    {
       "ticker": "NXS",
       "name": "Nexus",
       "moved_on": "2026-11-16",
@@ -324,6 +444,16 @@
       "unverified": false,
       "had_v3_score": false,
       "reason": "Dying (16 Nov 2026): no CoinGecko listing; CoinPaprika shows $1.9k 24h volume and $1.58M market cap. [CoinPaprika](https://coinpaprika.com/coin/nxs-nexus/)"
+    },
+    {
+      "ticker": "OMNI",
+      "name": "Omni Network",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Migrated: Omni Network rebranded to Nomina and OMNI converts to NOM at 1:75; Binance delisted OMNI pairs on 29 Sep 2025. Leftover OMNI shows about $7.4k 24h volume on CoinPaprika. The successor NOM trades separately. [Nomina migration post](https://www.nomina.io/blog/migrate-nom)"
     },
     {
       "ticker": "OXEN",
@@ -354,6 +484,16 @@
       "unverified": false,
       "had_v3_score": false,
       "reason": "Dying (16 Nov 2026): 24h volume $515 (CoinGecko; markets: Gate), market cap $161.0k; on-chain date not checked (non-EVM chain or no contract on CoinGecko); official site returned HTTP 000. [CoinGecko](https://www.coingecko.com/en/coins/pchain)"
+    },
+    {
+      "ticker": "POLK",
+      "name": "Polkamarkets",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $9 (CoinGecko; markets: no non-stale market), market cap $76.3k; last on-chain transfer 2026-11-15 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/polkamarkets) [Explorer](https://etherscan.io/token/0xd478161c952357f05f0292b56012cd8457f1cfbf)"
     },
     {
       "ticker": "PRE",
@@ -426,6 +566,16 @@
       "reason": "Suterusu has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
     },
     {
+      "ticker": "SYLO",
+      "name": "Sylo",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $3 (CoinGecko; markets: Uniswap V2 (Ethereum)), market cap $32.0k; last on-chain transfer 2026-11-15 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/sylo) [Explorer](https://etherscan.io/token/0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4)"
+    },
+    {
       "ticker": "THUSD",
       "name": "Theo Network thUSD",
       "moved_on": "2026-11-16",
@@ -444,6 +594,16 @@
       "unverified": false,
       "had_v3_score": false,
       "reason": "Qubetics L1 ceased in mid-Sep 2026 and $TICS migrated 1:1 to Ethereum. Official 6 Oct 2026 blog: the project is not commissioning further L1, chain-abstraction or dVPN development, and it burned the entire team token allocation."
+    },
+    {
+      "ticker": "TIME",
+      "name": "Chrono.tech",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $0 (CoinGecko; markets: no non-stale market), market cap $35.2k; last on-chain transfer 2026-11-15 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/chronobank) [Explorer](https://etherscan.io/token/0x485d17a6f1b8780392d53d64751824253011a260)"
     },
     {
       "ticker": "TITAN",
@@ -486,6 +646,16 @@
       "reason": "Dying (16 Nov 2026): 24h volume $1.1k (CoinGecko; markets: Gate), market cap $1.04M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/tharwa) [Explorer](https://etherscan.io/token/0x7b10d50b5885be4c7985a88408265c109bd1eec8)"
     },
     {
+      "ticker": "USDM1",
+      "name": "USDM1",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $9 (CoinGecko; markets: no non-stale market), market cap $1.06M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/usdm1) [Explorer](https://etherscan.io/token/0x90a1717e0dabe37693f79afe43ae236dc3b65957)"
+    },
+    {
       "ticker": "USDN",
       "name": "Neutrino USD",
       "moved_on": "2026-11-16",
@@ -506,6 +676,16 @@
       "reason": "Probably dead (16 Nov 2026): WTK was retired after a 1:1 swap into WadzCoin (WCO) and the old contract is unsupported; the successor WCO shows about $1.1M market cap and $15k 24h volume on CoinGecko. [MEXC swap notice](https://www.mexc.com/announcements/article/mexc-completes-the-wadzpay-token-wtk-token-swap-and-rebranding-to-wadzcoin-wco-17827791519633)"
     },
     {
+      "ticker": "WHITEROCK",
+      "name": "WhiteRock",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $56 (CoinGecko; markets: Raydium, Uniswap V4 (Ethereum)), market cap not reported; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/whiterock) [Explorer](https://etherscan.io/token/0x9cdf242ef7975d8c68d5c1f5b6905801699b1940)"
+    },
+    {
       "ticker": "WIT",
       "name": "Witnet",
       "moved_on": "2026-11-16",
@@ -514,6 +694,26 @@
       "unverified": true,
       "had_v3_score": false,
       "reason": "Witnet has no CoinGecko listing and CoinPaprika’s ticker API returns 404 for wit-witnet (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "XOR",
+      "name": "Sora",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $17 (CoinGecko; markets: Uniswap V4 (Ethereum)), market cap not reported; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/sora-2) [Explorer](https://etherscan.io/token/0x1d03ebbd6be00b805702dde42313dcf44ac1a6eb)"
+    },
+    {
+      "ticker": "XPX",
+      "name": "Sirius Chain",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "dying",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Dying (16 Nov 2026): 24h volume $122 (CoinGecko; markets: PancakeSwap (v2)), market cap $464.2k; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/proximax)"
     },
     {
       "ticker": "XX",

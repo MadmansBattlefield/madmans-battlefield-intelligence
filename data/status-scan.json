@@ -636,8 +636,8 @@
     {
       "ticker": "BONDLY",
       "name": "Bondly",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $2 (CoinGecko; markets: no non-stale market), market cap $215.0k; last on-chain transfer 2026-11-15 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/bondly) [Explorer](https://etherscan.io/token/0x91dfbee3965baaee32784c2d546b7a0c62f268c9)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -716,11 +716,12 @@
     {
       "ticker": "BXX",
       "name": "BXX",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. identity caveat: Mapped to Baanx (BXX); pipeline name is only “BXX” [Unverified].. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 1 market(s), none active, and $87 24h volume (market cap $168.7k); official site returned HTTP 404; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/baanx) [Explorer](https://etherscan.io/token/0x6b1a8f210ec6b7b6643cea3583fb0c079f367898)",
       "red_flags": [
         "market cap under $1M",
-        "24h volume under $10k"
+        "24h volume under $10k",
+        "delisted and inactive (no official notice re-read) [Unverified]"
       ],
       "identity_note": "Mapped to Baanx (BXX); pipeline name is only “BXX” [Unverified].",
       "mcap_usd": 165936.0,
@@ -744,11 +745,12 @@
     {
       "ticker": "C3",
       "name": "Charli3",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Probably dead (16 Nov 2026): CoinGecko shows 0 market(s), none active, and $2 24h volume (market cap $164.7k); on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/charli3)",
       "red_flags": [
         "market cap under $1M",
-        "24h volume under $10k"
+        "24h volume under $10k",
+        "delisted and inactive (no official notice re-read) [Unverified]"
       ],
       "identity_note": null,
       "mcap_usd": 164662.0,
@@ -2002,8 +2004,8 @@
     {
       "ticker": "FCTR",
       "name": "Factor",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $2 (CoinGecko; markets: Camelot V3), market cap $58.9k; last on-chain transfer 2026-11-16 (arbitrum-one); official site returned HTTP 000. [CoinGecko](https://www.coingecko.com/en/coins/factor) [Explorer](https://arbiscan.io/token/0x6dd963c510c2d2f09d5eddb48ede45fed063eb36)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -2279,8 +2281,8 @@
     {
       "ticker": "GO",
       "name": "GoChain",
-      "status": "wallet-work",
-      "reason": "Absent from CoinGecko; market figures are from CoinPaprika. DefiLlama TVL $6.4k. last findable GitHub commit 9 Nov 2026 3:13 PM MST (gochain-io/gochain). Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): no CoinGecko listing; CoinPaprika shows $3 24h volume and $3.30M market cap. [CoinPaprika](https://coinpaprika.com/coin/go-gochain/)",
       "red_flags": [
         "24h volume under $10k",
         "not listed on CoinGecko"
@@ -2793,8 +2795,8 @@
     {
       "ticker": "JOSS",
       "name": "JuliaOS",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $13 (CoinGecko; markets: no non-stale market), market cap $28.7k; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/juliaos)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -2950,8 +2952,8 @@
     {
       "ticker": "KEY",
       "name": "SelfKey",
-      "status": "wallet-work",
-      "reason": "Absent from CoinGecko; market figures are from CoinPaprika. identity caveat: SelfKey is delisted from CoinGecko; not the leftover “KEY” listing.. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): no CoinGecko listing; CoinPaprika shows $56 24h volume and $1.11M market cap. [CoinPaprika](https://coinpaprika.com/coin/key-selfkey/)",
       "red_flags": [
         "24h volume under $10k",
         "not listed on CoinGecko"
@@ -3028,8 +3030,8 @@
     {
       "ticker": "LABS",
       "name": "LABS Group",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $4 (CoinGecko; markets: Raydium), market cap $23.1k; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/epicentral-labs)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -3085,8 +3087,8 @@
     {
       "ticker": "LEOX",
       "name": "Galileo Protocol",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $1 (CoinGecko; markets: no non-stale market), market cap $161.7k; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/leox) [Explorer](https://etherscan.io/token/0xa444ec96ee01bb219a44b285de47bf33c3447ad5)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -3718,8 +3720,8 @@
     {
       "ticker": "MUBI",
       "name": "Multibit",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. DefiLlama TVL $92.0k. last findable GitHub commit 12 Jan 2024 3:51 AM MST (multibit-repo/MediaResources). Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $4 (CoinGecko; markets: PancakeSwap V3 (BSC)), market cap $183.5k; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/multibit) [Explorer](https://etherscan.io/token/0x38e382f74dfb84608f3c1f10187f6bef5951de93)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -3803,8 +3805,8 @@
     {
       "ticker": "NCT",
       "name": "Toucan Protocol",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $1 (CoinGecko; markets: no non-stale market), market cap $319.7k; last on-chain transfer 2026-11-16 (polygon-pos). [CoinGecko](https://www.coingecko.com/en/coins/toucan-protocol-nature-carbon-tonne) [Explorer](https://polygonscan.com/token/0xd838290e877e0188a4a44700463419ed96c16107)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -3936,8 +3938,8 @@
     {
       "ticker": "NXRA",
       "name": "Nexera, formerly AllianceBlock",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $5 (CoinGecko; markets: no non-stale market), market cap $411.0k; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/allianceblock-nexera) [Explorer](https://etherscan.io/token/0x644192291cc835a93d6330b24ea5f5fedd0eef9e)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -4017,8 +4019,8 @@
     {
       "ticker": "OMNI",
       "name": "Omni Network",
-      "status": "wallet-work",
-      "reason": "Absent from CoinGecko; market figures are from CoinPaprika. last findable GitHub commit 5 Mar 2026 10:44 AM MST (omni-network/omni). identity caveat: Omni Network delisted from CoinGecko; still on CoinPaprika. Not confused with other Omni tokens.. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Migrated: Omni Network rebranded to Nomina and OMNI converts to NOM at 1:75; Binance delisted OMNI pairs on 29 Sep 2025. Leftover OMNI shows about $7.4k 24h volume on CoinPaprika. The successor NOM trades separately. [Nomina migration post](https://www.nomina.io/blog/migrate-nom)",
       "red_flags": [
         "24h volume under $10k",
         "not listed on CoinGecko"
@@ -4312,8 +4314,8 @@
     {
       "ticker": "POLK",
       "name": "Polkamarkets",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. DefiLlama TVL $10.1k. last findable GitHub commit 22 Apr 2026 2:54 AM MST (Polkamarkets/polkamarkets-js). Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $9 (CoinGecko; markets: no non-stale market), market cap $76.3k; last on-chain transfer 2026-11-15 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/polkamarkets) [Explorer](https://etherscan.io/token/0xd478161c952357f05f0292b56012cd8457f1cfbf)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -5471,8 +5473,8 @@
     {
       "ticker": "SYLO",
       "name": "Sylo",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $3 (CoinGecko; markets: Uniswap V2 (Ethereum)), market cap $32.0k; last on-chain transfer 2026-11-15 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/sylo) [Explorer](https://etherscan.io/token/0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -5605,8 +5607,8 @@
     {
       "ticker": "TIME",
       "name": "Chrono.tech",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. shows up on DefiLlama. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $0 (CoinGecko; markets: no non-stale market), market cap $35.2k; last on-chain transfer 2026-11-15 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/chronobank) [Explorer](https://etherscan.io/token/0x485d17a6f1b8780392d53d64751824253011a260)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -5926,8 +5928,8 @@
     {
       "ticker": "USDM1",
       "name": "USDM1",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $9 (CoinGecko; markets: no non-stale market), market cap $1.06M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/usdm1) [Explorer](https://etherscan.io/token/0x90a1717e0dabe37693f79afe43ae236dc3b65957)",
       "red_flags": [
         "24h volume under $10k"
       ],
@@ -6139,8 +6141,8 @@
     {
       "ticker": "WHITEROCK",
       "name": "WhiteRock",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $56 (CoinGecko; markets: Raydium, Uniswap V4 (Ethereum)), market cap not reported; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/whiterock) [Explorer](https://etherscan.io/token/0x9cdf242ef7975d8c68d5c1f5b6905801699b1940)",
       "red_flags": [
         "24h volume under $10k",
         "CoinGecko market cap unreported (returned 0)"
@@ -6401,8 +6403,8 @@
     {
       "ticker": "XOR",
       "name": "Sora",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. DefiLlama TVL $23.0k. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $17 (CoinGecko; markets: Uniswap V4 (Ethereum)), market cap not reported; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/sora-2) [Explorer](https://etherscan.io/token/0x1d03ebbd6be00b805702dde42313dcf44ac1a6eb)",
       "red_flags": [
         "24h volume under $10k",
         "CoinGecko market cap unreported (returned 0)"
@@ -6454,8 +6456,8 @@
     {
       "ticker": "XPX",
       "name": "Sirius Chain",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $122 (CoinGecko; markets: PancakeSwap (v2)), market cap $464.2k; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/proximax)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
