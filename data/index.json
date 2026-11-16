@@ -184,6 +184,16 @@
       "layout": "v3"
     },
     {
+      "id": "AXL",
+      "path": "banking-rails/AXL.md",
+      "layout": "v3"
+    },
+    {
+      "id": "BAND",
+      "path": "banking-rails/BAND.md",
+      "layout": "v3"
+    },
+    {
       "id": "BCH",
       "path": "banking-rails/BCH.md",
       "layout": "v3"
@@ -221,6 +231,11 @@
     {
       "id": "CFG",
       "path": "banking-rails/CFG.md",
+      "layout": "v3"
+    },
+    {
+      "id": "COTI",
+      "path": "banking-rails/COTI.md",
       "layout": "v3"
     },
     {
@@ -339,6 +354,11 @@
       "layout": "v3"
     },
     {
+      "id": "PROPC",
+      "path": "banking-rails/PROPC.md",
+      "layout": "v3"
+    },
+    {
       "id": "QNT",
       "path": "banking-rails/QNT.md",
       "layout": "v3"
@@ -421,6 +441,11 @@
     {
       "id": "XDB",
       "path": "banking-rails/XDB.md",
+      "layout": "v3"
+    },
+    {
+      "id": "XDC",
+      "path": "banking-rails/XDC.md",
       "layout": "v3"
     },
     {

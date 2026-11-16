@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 63
+scored_reports: 68
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -63,33 +63,46 @@ Ties are broken by how many of the 11 sections passed.
 40. 🔴 **TRAC** · 4.2 · ❌ FAIL
 41. 🔴 **ETC** · 4.1 · ❌ FAIL
 42. 🔴 **SEI** · 4.0 · ❌ FAIL
-43. 🔴 **KAIA** · 3.9 · ❌ FAIL
-44. 🔴 **INJ** · 3.9 · ❌ FAIL
-45. 🔴 **ZK** · 3.8 · ❌ FAIL
-46. 🔴 **ROSE** · 3.8 · ❌ FAIL
-47. 🔴 **HASH** · 3.8 · ❌ FAIL
-48. 🔴 **PLUME** · 3.7 · ❌ FAIL
-49. 🔴 **XPL** · 3.7 · ❌ FAIL
-50. 🔴 **SUI** · 3.7 · ❌ FAIL
-51. 🔴 **POLYX** · 3.3 · ❌ FAIL
-52. 🔴 **S** · 3.3 · ❌ FAIL
-53. 🔴 **ZIG** · 3.3 · ❌ FAIL
-54. 🔴 **PACT** · 3.1 · ❌ FAIL
-55. 🔴 **EXA** · 3.1 · ❌ FAIL
-56. 🔴 **TLOS** · 3.0 · ❌ FAIL
-57. 🔴 **XDB** · 2.9 · ❌ FAIL
-58. 🔴 **JASMY** · 2.8 · ❌ FAIL
-59. 🔴 **SERV** · 2.8 · ❌ FAIL
-60. 🔴 **MASQ** · 2.7 · ❌ FAIL
-61. 🔴 **EDEL** · 2.5 · ❌ FAIL
-62. 🔴 **SPA** · 2.5 · ❌ FAIL
-63. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+43. 🔴 **BAND** · 4.0 · ❌ FAIL
+44. 🔴 **KAIA** · 3.9 · ❌ FAIL
+45. 🔴 **INJ** · 3.9 · ❌ FAIL
+46. 🔴 **ZK** · 3.8 · ❌ FAIL
+47. 🔴 **ROSE** · 3.8 · ❌ FAIL
+48. 🔴 **XDC** · 3.8 · ❌ FAIL
+49. 🔴 **HASH** · 3.8 · ❌ FAIL
+50. 🔴 **AXL** · 3.8 · ❌ FAIL
+51. 🔴 **PLUME** · 3.7 · ❌ FAIL
+52. 🔴 **XPL** · 3.7 · ❌ FAIL
+53. 🔴 **SUI** · 3.7 · ❌ FAIL
+54. 🔴 **PROPC** · 3.6 · ❌ FAIL
+55. 🔴 **POLYX** · 3.3 · ❌ FAIL
+56. 🔴 **S** · 3.3 · ❌ FAIL
+57. 🔴 **ZIG** · 3.3 · ❌ FAIL
+58. 🔴 **PACT** · 3.1 · ❌ FAIL
+59. 🔴 **EXA** · 3.1 · ❌ FAIL
+60. 🔴 **TLOS** · 3.0 · ❌ FAIL
+61. 🔴 **XDB** · 2.9 · ❌ FAIL
+62. 🔴 **JASMY** · 2.8 · ❌ FAIL
+63. 🔴 **SERV** · 2.8 · ❌ FAIL
+64. 🔴 **MASQ** · 2.7 · ❌ FAIL
+65. 🔴 **EDEL** · 2.5 · ❌ FAIL
+66. 🔴 **SPA** · 2.5 · ❌ FAIL
+67. 🔴 **COTI** · 2.4 · ❌ FAIL
+68. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**8 of 63 pass.**
+**8 of 68 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Five more v3 reports (eighth batch of the day), all ❌ FAIL on the Revenue gate: [BAND](BAND.md) enters at #43 with 4.0 / 10, [AXL](AXL.md) at #50 with 3.8, [XDC](XDC.md) at #48 with 3.8, [PROPC](PROPC.md) at #54 with 3.6 and [COTI](COTI.md) at #67 with 2.4 (it also fails the Selling gate). Arkham evidence is folded into the BAND, AXL, PROPC and COTI reports. Arkham does not cover XDC Network.
+
+**PROPC correction:** Arkham labels PROPC's three "hop" wallets as MEXC deposit addresses. Deposits into them from unrelated wallets were taken out of the selling totals, which drop from 291k on 8 pump days to **178.6k on 4 pump days** (and from 1.80M to 1.49M over 12 months). The 3 Sep 2026 deposit came from a Gate hot wallet, so it was removed. The Selling score stays at 4 because the Liquidity-bucket EOA still deposited on two Sep 2026 pump days.
+
+**AXL:** Arkham shows the largest wAXL balances: Upbit deposit 119.253M, unlabelled `0x1a9d…` 9.096M and Kraken 8.375M (Paribu showed none). The holder wording is fixed, and the scores are unchanged. **COTI:** `0x07d2…` and several other rows did not render on Arkham, so the market-maker question stays open.
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Five more v3 reports (seventh batch of the day), all ❌ FAIL: [ETC](ETC.md) enters at #41 with 4.1 / 10 (Revenue gate), [HASH](HASH.md) at #47 with 3.8 (Revenue gate), [TLOS](TLOS.md) at #56 with 3.0 (Revenue and Selling gates), [XDB](XDB.md) at #57 with 2.9 (Revenue and Selling gates) and [MASQ](MASQ.md) at #60 with 2.7 (Revenue gate). Arkham does not support XDB CHAIN, Provenance, Telos or Ethereum Classic. MASQ's Ethereum wallets have not been run on Arkham yet; that is listed as an open item.
 
@@ -623,7 +636,18 @@ Score changes from that research:
 
 ---
 
-## #43 · KAIA · Kaia
+## #43 · BAND · Band Protocol
+
+### 4.0 / 10 · ❌ FAIL
+
+- **Sections passed:** 2 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A long-running oracle network with real integrations but no disclosed revenue. Holders are paid in 13% yearly inflation, and a third of supply sits in one legacy Foundation multisig. Arkham shows the multisig's Safe and signers unlabelled.
+- 📄 [Full BAND report](BAND.md)
+
+---
+
+## #44 · KAIA · Kaia
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -634,7 +658,7 @@ Score changes from that research:
 
 ---
 
-## #44 · INJ · Injective
+## #45 · INJ · Injective
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -645,7 +669,7 @@ Score changes from that research:
 
 ---
 
-## #45 · ZK · ZKsync
+## #46 · ZK · ZKsync
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -656,7 +680,7 @@ Score changes from that research:
 
 ---
 
-## #46 · ROSE · Oasis Network
+## #47 · ROSE · Oasis Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -667,7 +691,18 @@ Score changes from that research:
 
 ---
 
-## #47 · HASH · Provenance Blockchain
+## #48 · XDC · XDC Network
+
+### 3.8 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** An enterprise L1 with institutional validators but almost no fee income, and an issuer that controls about half the supply through unlabelled wallets. Arkham does not cover XDC Network.
+- 📄 [Full XDC report](XDC.md)
+
+---
+
+## #49 · HASH · Provenance Blockchain
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -678,7 +713,18 @@ Score changes from that research:
 
 ---
 
-## #48 · PLUME · Plume
+## #50 · AXL · Axelar
+
+### 3.8 / 10 · ❌ FAIL
+
+- **Sections passed:** 1 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Working cross-chain plumbing whose fees are too small to offset its staking issuance, whose original builders moved to Circle, and whose token trades near its all-time low. Arkham puts the largest wAXL balances with Upbit and Kraken.
+- 📄 [Full AXL report](AXL.md)
+
+---
+
+## #51 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -689,7 +735,7 @@ Score changes from that research:
 
 ---
 
-## #49 · XPL · Plasma
+## #52 · XPL · Plasma
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -700,7 +746,7 @@ Score changes from that research:
 
 ---
 
-## #50 · SUI · Sui
+## #53 · SUI · Sui
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -711,7 +757,18 @@ Score changes from that research:
 
 ---
 
-## #51 · POLYX · Polymesh
+## #54 · PROPC · Propchain
+
+### 3.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A real-estate data company whose buyback went quiet in Oct 2025 while its Liquidity-bucket EOA kept depositing into MEXC, on two Sep 2026 pump days too. Totals corrected after Arkham labelled the hop wallets as MEXC deposit addresses.
+- 📄 [Full PROPC report](PROPC.md)
+
+---
+
+## #55 · POLYX · Polymesh
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -722,7 +779,7 @@ Score changes from that research:
 
 ---
 
-## #52 · S · Sonic
+## #56 · S · Sonic
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -733,7 +790,7 @@ Score changes from that research:
 
 ---
 
-## #53 · ZIG · ZIGChain (Zignaly)
+## #57 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -744,7 +801,7 @@ Score changes from that research:
 
 ---
 
-## #54 · PACT · PACT
+## #58 · PACT · PACT
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -755,7 +812,7 @@ Score changes from that research:
 
 ---
 
-## #55 · EXA · Exactly Protocol
+## #59 · EXA · Exactly Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -766,7 +823,7 @@ Score changes from that research:
 
 ---
 
-## #56 · TLOS · Telos
+## #60 · TLOS · Telos
 
 ### 3.0 / 10 · ❌ FAIL
 
@@ -777,7 +834,7 @@ Score changes from that research:
 
 ---
 
-## #57 · XDB · XDB CHAIN (formerly DigitalBits)
+## #61 · XDB · XDB CHAIN (formerly DigitalBits)
 
 ### 2.9 / 10 · ❌ FAIL
 
@@ -788,7 +845,7 @@ Score changes from that research:
 
 ---
 
-## #58 · JASMY · JasmyCoin
+## #62 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -799,7 +856,7 @@ Score changes from that research:
 
 ---
 
-## #59 · SERV · OpenServ
+## #63 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -810,7 +867,7 @@ Score changes from that research:
 
 ---
 
-## #60 · MASQ · MASQ
+## #64 · MASQ · MASQ
 
 ### 2.7 / 10 · ❌ FAIL
 
@@ -821,7 +878,7 @@ Score changes from that research:
 
 ---
 
-## #61 · EDEL · Edel Finance
+## #65 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -832,7 +889,7 @@ Score changes from that research:
 
 ---
 
-## #62 · SPA · Sperax
+## #66 · SPA · Sperax
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -843,7 +900,18 @@ Score changes from that research:
 
 ---
 
-## #63 · ROUTER · Solrouter
+## #67 · COTI · COTI
+
+### 2.4 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A privacy L2 with no holder revenue, a live mint key and a leadership handover, whose new consolidation wallets sold into the first pump after they were funded. Whether `0x07d2…` is a market maker is still open.
+- 📄 [Full COTI report](COTI.md)
+
+---
+
+## #68 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 
