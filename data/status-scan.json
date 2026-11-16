@@ -172,8 +172,8 @@
     {
       "ticker": "AMPL",
       "name": "Ampleforth",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $207 (CoinGecko; markets: PancakeSwap (v2), Uniswap V2 (Ethereum)), market cap $1.96M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/ampleforth) [Explorer](https://etherscan.io/token/0xd46ba6d942050d489dbd938a2c909a5d5039a161)",
       "red_flags": [
         "24h volume under $10k"
       ],
@@ -509,8 +509,8 @@
     {
       "ticker": "BAX",
       "name": "BABB",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $64.8k (CoinGecko; markets: no non-stale market), market cap $87.2k; last on-chain transfer 2026-11-16 (ethereum). CoinGecko's $64.8k volume figure comes from a market it flags as stale. [CoinGecko](https://www.coingecko.com/en/coins/babb) [Explorer](https://etherscan.io/token/0xf920e4f3fbef5b3ad0a25017514b769bdc4ac135)",
       "red_flags": [
         "market cap under $1M"
       ],
@@ -1214,8 +1214,8 @@
     {
       "ticker": "CROWN",
       "name": "Crown Token",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. identity caveat: Picked crown-token-… among 2 CROWN listings; prior pull had 0 circulating / market cap.. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $307 (CoinGecko; markets: Gate), market cap not reported; last on-chain transfer 2026-11-13 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/crown-token-77469f91-69f6-44dd-b356-152e2c39c0cc) [Explorer](https://etherscan.io/token/0xf3bb9f16677f2b86efd1dfca1c141a99783fde58)",
       "red_flags": [
         "24h volume under $10k",
         "CoinGecko market cap unreported (returned 0)"
@@ -1561,8 +1561,8 @@
     {
       "ticker": "DEUS",
       "name": "DEUS Finance",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. shows up on DefiLlama. last findable GitHub commit 29 Jun 2025 8:33 AM MST (deusfinance/marketcap-api). Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $410 (CoinGecko; markets: Aero Volatile (Base), Aerodrome (Base), Aerodrome Slipstream 2), market cap $426.9k; last on-chain transfer 2026-11-14 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/deus-finance-2) [Explorer](https://etherscan.io/token/0xde5ed76e7c05ec5e4572cfc88d1acea165109e44)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -1667,8 +1667,8 @@
     {
       "ticker": "DRGN",
       "name": "Dragonchain",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $502 (CoinGecko; markets: Uniswap V2 (Ethereum), Uniswap V3 (Ethereum), Uniswap V4 (Ethereum)), market cap $1.79M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/dragonchain) [Explorer](https://etherscan.io/token/0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e)",
       "red_flags": [
         "24h volume under $10k"
       ],
@@ -2116,8 +2116,8 @@
     {
       "ticker": "FTHM",
       "name": "Fathom Protocol",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $221 (CoinGecko; markets: Bitrue, Fathom DEX, XSwap Protocol V3), market cap $568.8k; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/fathom-dollar)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -2196,8 +2196,8 @@
     {
       "ticker": "GHOST",
       "name": "Ghostware",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $6.9k (CoinGecko; markets: Meteora, Meteora DAMM V2), market cap $558.0k; on-chain date not checked (non-EVM chain or no contract on CoinGecko); official site returned HTTP 400. [CoinGecko](https://www.coingecko.com/en/coins/ghostwareos)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -2538,8 +2538,8 @@
     {
       "ticker": "HOUDINI",
       "name": "Houdini Swap",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. shows up on DefiLlama. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $0 (CoinGecko; markets: no non-stale market), market cap $29.5k; last on-chain transfer 2026-11-13 (ethereum). The only listed market is flagged stale. [CoinGecko](https://www.coingecko.com/en/coins/houdini-swap) [Explorer](https://etherscan.io/token/0x922d8563631b03c2c4cf817f4d18f6883aba0109)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -2666,8 +2666,8 @@
     {
       "ticker": "IDOS",
       "name": "idOS",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $4.6k (CoinGecko; markets: Gate, Kraken, KuCoin), market cap $1.67M; last on-chain transfer 2026-11-16 (arbitrum-one). [CoinGecko](https://www.coingecko.com/en/coins/idos) [Explorer](https://arbiscan.io/token/0x68731d6f14b827bbcffbebb62b19daa18de1d79c)",
       "red_flags": [
         "24h volume under $10k"
       ],
@@ -2896,8 +2896,8 @@
     {
       "ticker": "KDA",
       "name": "Kadena",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Wound down: the Kadena organization ceased business operations and active maintenance on 21 Oct 2025; the chain runs on independent miners. On 16 Nov 2026 KDA had $3.7k 24h volume, all on Gate. [Kadena notice](https://www.kadena.io/) [CoinGecko](https://www.coingecko.com/en/coins/kadena)",
       "red_flags": [
         "24h volume under $10k"
       ],
@@ -2923,8 +2923,8 @@
     {
       "ticker": "KEEP",
       "name": "Keep Network",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. DefiLlama TVL $680.2k. last findable GitHub commit 6 Aug 2026 5:33 AM MST (keep-network/.github). Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Merged away: KEEP was replaced by Threshold's T token through a fixed-rate vending machine (1 KEEP ≈ 4.78 T). On 16 Nov 2026 KEEP had $643 24h volume. [Threshold docs](https://docs.threshold.network/t-token/converting-nu-and-keep-to-t) [CoinGecko](https://www.coingecko.com/en/coins/keep-network)",
       "red_flags": [
         "24h volume under $10k"
       ],
@@ -3324,8 +3324,8 @@
     {
       "ticker": "MAZZE",
       "name": "Mazze",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $1.0k (CoinGecko; markets: Uniswap V3 (Ethereum)), market cap $398.9k; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/mazze) [Explorer](https://etherscan.io/token/0x4a029f7bcf33acb03547d8fa7be840347973e24e)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -3530,8 +3530,8 @@
     {
       "ticker": "MOB",
       "name": "MobileCoin",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $2.1k (CoinGecko; markets: BigONE, Gate), market cap not reported; on-chain date not checked (non-EVM chain or no contract on CoinGecko). [CoinGecko](https://www.coingecko.com/en/coins/mobilecoin)",
       "red_flags": [
         "24h volume under $10k",
         "CoinGecko market cap unreported (returned 0)"
@@ -3964,8 +3964,8 @@
     {
       "ticker": "NXS",
       "name": "Nexus",
-      "status": "wallet-work",
-      "reason": "Absent from CoinGecko; market figures are from CoinPaprika. last findable GitHub commit 9 Aug 2019 9:42 AM MST (Nexusoft/Nexus). identity caveat: No CoinGecko listing under NXS. Market figures are from CoinPaprika nxs-nexus (Nexus). Not the CoinGecko “NEXUS” (nexus-2, symbol NEX).. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): no CoinGecko listing; CoinPaprika shows $1.9k 24h volume and $1.58M market cap. [CoinPaprika](https://coinpaprika.com/coin/nxs-nexus/)",
       "red_flags": [
         "24h volume under $10k",
         "not listed on CoinGecko"
@@ -4257,8 +4257,8 @@
     {
       "ticker": "PI",
       "name": "Plian, formerly Pchain",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. identity caveat: Corrected away from Pi Network to Plian (pchain). Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $515 (CoinGecko; markets: Gate), market cap $161.0k; on-chain date not checked (non-EVM chain or no contract on CoinGecko); official site returned HTTP 000. [CoinGecko](https://www.coingecko.com/en/coins/pchain)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -4895,8 +4895,8 @@
     {
       "ticker": "RVF",
       "name": "RocketX",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $6.6k (CoinGecko; markets: MEXC, Uniswap V2 (Ethereum)), market cap $1.18M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/rocketx) [Explorer](https://etherscan.io/token/0x2fb652314c3d850e9049057bbe9813f1eee882d3)",
       "red_flags": [
         "24h volume under $10k"
       ],
@@ -5549,8 +5549,8 @@
     {
       "ticker": "THUSD",
       "name": "Theo Network thUSD",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. identity caveat: theo-usd vs a separate thusd listing; which is Theo Network thUSD is [Unverified].. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $881 (CoinGecko; markets: Uniswap V4 (Ethereum)), market cap not reported; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/theo-usd) [Explorer](https://etherscan.io/token/0xa3fe5c7596024e6811e14f029937d5bd8ae485b3)",
       "red_flags": [
         "24h volume under $10k",
         "CoinGecko market cap unreported (returned 0)"
@@ -5793,8 +5793,8 @@
     {
       "ticker": "TRU",
       "name": "TrueFi",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. DefiLlama TVL $21.7k. last findable GitHub commit 3 Mar 2025 9:14 AM MST (trusttoken/stablecoins-bug-bounty). Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $4.1k (CoinGecko; markets: Kraken, Uniswap V2 (Ethereum), Uniswap V4 (Ethereum)), market cap $906.8k; last on-chain transfer 2026-11-16 (ethereum); official site returned HTTP 500. [CoinGecko](https://www.coingecko.com/en/coins/truefi) [Explorer](https://etherscan.io/token/0x4c19596f5aaff459fa38b0f7ed92f11ae6543784)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"
@@ -5846,8 +5846,8 @@
     {
       "ticker": "TRWA",
       "name": "Tharwa",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $1.1k (CoinGecko; markets: Gate), market cap $1.04M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/tharwa) [Explorer](https://etherscan.io/token/0x7b10d50b5885be4c7985a88408265c109bd1eec8)",
       "red_flags": [
         "24h volume under $10k"
       ],
@@ -6563,8 +6563,8 @@
     {
       "ticker": "XX",
       "name": "xx network",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "status": "dead",
+      "reason": "Dying (16 Nov 2026): 24h volume $956 (CoinGecko; markets: MEXC), market cap $1.08M; last on-chain transfer 2026-11-16 (ethereum). [CoinGecko](https://www.coingecko.com/en/coins/xxcoin) [Explorer](https://etherscan.io/token/0x171120219d3223e008558654ec3254a0f206edb2)",
       "red_flags": [
         "market cap under $1M",
         "24h volume under $10k"

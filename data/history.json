@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:09 MST",
+  "generated_at": "2026-11-16 15:20 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -400,9 +400,9 @@
       "path": "banking-rails/ARB.md",
       "versions": [
         {
-          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
-          "committed_at_mst": "2026-11-16 14:44 MST",
-          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
+          "commit": "d9dd3838820647e6e47583031a3cce7083336ef9",
+          "committed_at_mst": "2026-11-16 15:09 MST",
+          "subject": "Decisions A-D: not-a-token list, four dead moves, ARB/PROPC/TRAC disclosure not_applicable, EOS Vaulta note; excluded from ranking and base rates",
           "overall_score": 5.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1888,9 +1888,9 @@
       "path": "banking-rails/EOS.md",
       "versions": [
         {
-          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
-          "committed_at_mst": "2026-11-16 14:53 MST",
-          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "commit": "d9dd3838820647e6e47583031a3cce7083336ef9",
+          "committed_at_mst": "2026-11-16 15:09 MST",
+          "subject": "Decisions A-D: not-a-token list, four dead moves, ARB/PROPC/TRAC disclosure not_applicable, EOS Vaulta note; excluded from ranking and base rates",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4238,9 +4238,9 @@
       "path": "banking-rails/PROPC.md",
       "versions": [
         {
-          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
-          "committed_at_mst": "2026-11-16 14:44 MST",
-          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
+          "commit": "d9dd3838820647e6e47583031a3cce7083336ef9",
+          "committed_at_mst": "2026-11-16 15:09 MST",
+          "subject": "Decisions A-D: not-a-token list, four dead moves, ARB/PROPC/TRAC disclosure not_applicable, EOS Vaulta note; excluded from ranking and base rates",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5851,9 +5851,9 @@
       "path": "banking-rails/TRAC.md",
       "versions": [
         {
-          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
-          "committed_at_mst": "2026-11-16 14:44 MST",
-          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
+          "commit": "d9dd3838820647e6e47583031a3cce7083336ef9",
+          "committed_at_mst": "2026-11-16 15:09 MST",
+          "subject": "Decisions A-D: not-a-token list, four dead moves, ARB/PROPC/TRAC disclosure not_applicable, EOS Vaulta note; excluded from ranking and base rates",
           "overall_score": 4.2,
           "overall_verdict": "FAIL",
           "section_scores": {

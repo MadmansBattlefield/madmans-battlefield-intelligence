@@ -1,6 +1,6 @@
 ---
 title: Base rates
-generated_at: 2026-11-16 15:09 MST
+generated_at: 2026-11-16 15:20 MST
 universe: 179
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.

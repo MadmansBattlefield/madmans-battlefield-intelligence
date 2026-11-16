@@ -679,6 +679,7 @@ def build_dead_list() -> dict:
         "generated_at": now_mst_label(),
         "policy": "A published v3 report that fails is never removed from the ranking in silence. It stays on RANKING.md until a dated entry is added here with a reason. Unscored pipeline names can move here for official shutdowns, unfixed exploits, wind-downs, or a documented dying-market skip. Other scan warnings such as thin volume stay warnings until they are formally moved.",
         "dying_market_skip_rule": "Market cap under $1M and 24h volume under $10k, as of a dated public market read, and only when an explicit entry is added on this list.",
+        "step5_classes": "16 Nov 2026 pass over the thin-market pipeline names. Dying: 24h volume under $10k on 16 Nov 2026, with the markets and the latest trade or on-chain transfer date given. Probably dead: no active market on CoinGecko or CoinPaprika and near-zero volume, often with the official site down; tagged [Unverified] until an official notice is read. Wound down: an official shutdown, migration or merger notice is linked. A recent on-chain transfer can be dust or spam and does not by itself show a live project. Names with real volume (24h volume of $10k or more on active markets) stay in the pipeline.",
         "entries": entries,
         "calibration_controls": CALIBRATION_CONTROLS,
     }
@@ -702,6 +703,8 @@ def render_dead_md(dead: dict) -> str:
         dead["policy"],
         "",
         f"**Dying-market skip rule:** {dead['dying_market_skip_rule']} This is not applied automatically to every thin name on the All Projects scan.",
+        "",
+        f"**Classes used in the 16 Nov 2026 pass:** {dead.get('step5_classes', '')}",
         "",
         "Machine-readable copy: [data/dead.json](data/dead.json). The All Projects catalog still lists every pipeline name, including these, in [banking-rails/ALL-PROJECTS.md](banking-rails/ALL-PROJECTS.md).",
         "",

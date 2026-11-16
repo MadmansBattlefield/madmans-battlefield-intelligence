@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 15:09 MST
+generated_at: 2026-11-16 15:20 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -247,7 +247,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `2f9f853` | 2026-11-16 14:44 MST | 4.9 | FAIL | 4 | 4 | 6 | — |
 
 - **APT** — 5.0 FAIL in `2f9f853` (2026-11-16 14:44 MST).
-- **ARB** — 5.8 FAIL in `2f9f853` (2026-11-16 14:44 MST).
+- **ARB** — 5.8 FAIL in `d9dd383` (2026-11-16 15:09 MST).
 - **ARRR** — 3.3 FAIL in `9ccdddb` (2026-11-16 14:48 MST).
 - **ASTR** — 3.8 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **AVAX** — 5.5 FAIL in `2f9f853` (2026-11-16 14:44 MST).
@@ -318,7 +318,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **EDEN** — 4.1 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **EL** — 3.0 FAIL in `9ccdddb` (2026-11-16 14:48 MST).
 - **ENA** — 5.6 FAIL in `2f9f853` (2026-11-16 14:44 MST).
-- **EOS** — 3.1 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
+- **EOS** — 3.1 FAIL in `d9dd383` (2026-11-16 15:09 MST).
 - **EPICCASH** — 2.9 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 - **ERG** — 3.8 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 - **ETC** — 4.1 FAIL in `2f9f853` (2026-11-16 14:44 MST).
@@ -439,7 +439,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `2f9f853` | 2026-11-16 14:44 MST | 3.0 | FAIL | 1 | 0 | 3 | revenue, selling_behavior |
 
 - **PRO** — 4.3 FAIL in `2f9f853` (2026-11-16 14:44 MST).
-- **PROPC** — 3.6 FAIL in `2f9f853` (2026-11-16 14:44 MST).
+- **PROPC** — 3.6 FAIL in `d9dd383` (2026-11-16 15:09 MST).
 - **PUNDIX** — 3.4 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **QANX** — 3.6 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 ### QNT
@@ -556,7 +556,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `3ed04b6` | 2026-11-16 14:27 MST | 2.7 | FAIL | 1 | 1 | 4 | revenue, selling_behavior |
 | `2f9f853` | 2026-11-16 14:44 MST | 3.1 | FAIL | 1 | 4 | 4 | revenue |
 
-- **TRAC** — 4.2 FAIL in `2f9f853` (2026-11-16 14:44 MST).
+- **TRAC** — 4.2 FAIL in `d9dd383` (2026-11-16 15:09 MST).
 - **TRADE** — 3.7 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 ### TRB
 
