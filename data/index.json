@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 15:22 MST",
+  "generated_at": "2026-11-16 15:38 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -365,6 +365,12 @@
       "path": "banking-rails/CHEX.md",
       "layout": "v3",
       "json": "data/reports/CHEX.json"
+    },
+    {
+      "id": "COLLAT",
+      "path": "banking-rails/COLLAT.md",
+      "layout": "v3",
+      "json": "data/reports/COLLAT.json"
     },
     {
       "id": "COTI",
@@ -733,6 +739,12 @@
       "json": "data/reports/LINK.json"
     },
     {
+      "id": "LL",
+      "path": "banking-rails/LL.md",
+      "layout": "v3",
+      "json": "data/reports/LL.json"
+    },
+    {
       "id": "LOFTY",
       "path": "banking-rails/LOFTY.md",
       "layout": "v3",
@@ -877,10 +889,22 @@
       "json": "data/reports/PALMUSD.json"
     },
     {
+      "id": "PANTHER",
+      "path": "banking-rails/PANTHER.md",
+      "layout": "v3",
+      "json": "data/reports/PANTHER.json"
+    },
+    {
       "id": "PHA",
       "path": "banking-rails/PHA.md",
       "layout": "v3",
       "json": "data/reports/PHA.json"
+    },
+    {
+      "id": "PLI",
+      "path": "banking-rails/PLI.md",
+      "layout": "v3",
+      "json": "data/reports/PLI.json"
     },
     {
       "id": "PLUME",
@@ -1079,6 +1103,12 @@
       "path": "banking-rails/SPA.md",
       "layout": "v3",
       "json": "data/reports/SPA.json"
+    },
+    {
+      "id": "SPC",
+      "path": "banking-rails/SPC.md",
+      "layout": "v3",
+      "json": "data/reports/SPC.json"
     },
     {
       "id": "STBL",
@@ -1356,5 +1386,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 198
+  "scored_reports": 203
 }

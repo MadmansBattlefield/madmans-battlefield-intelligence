@@ -1,0 +1,281 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "LL",
+  "name": "LightLink",
+  "chain": "ethereum",
+  "contract": "0x0921799cb1d702148131024d18fcde022129dc73",
+  "overall_score": 3.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 3,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found in this pass",
+    "team_wallet_to_exchange_during_pump": "none found: top Safes sent no LL to exchanges in the past year",
+    "one_hop_sale_status": "none_found",
+    "wash_volume": "24h volume about 1.85x market cap, almost all on KuCoin"
+  },
+  "price_usd": 0.00071231,
+  "price_source": "CoinGecko `lightlink`, 16 Nov 2026 ~3:00 PM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Enterprise fees buy LL into the Strategic Reserve (a treasury). Burning is only an option for a future DAO; nothing is burned or paid to holders today.",
+    "pump_day_price_source": "Gate LL_USDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x8c6ee4264e84b299e2c66aa5b284043a3d80ca8e",
+        "label": "Unlabelled Safe (32.8%), likely ecosystem or treasury",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Ethplorer top holders + Etherscan contract name"
+      },
+      {
+        "address": "0x63105ee97bfb22dfe23033b3b14a4f8fed121ee9",
+        "label": "PredicateProxy (31.2%), bridge-type contract",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Etherscan contract name"
+      },
+      {
+        "address": "0x58edf78281334335effa23101bbe3371b6a36a51",
+        "label": "KuCoin 20 (4.8%)",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Etherscan name tag"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.00071231,
+    "market_cap_text": "$58.2",
+    "fdv_text": "$712",
+    "volume_24h_text": "$108k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/LL.md",
+    "sha256": "f54cf0b4551728f08ae49710e0050fc9d38a517adee2944aba12addaa29b68bd",
+    "bytes": 12460,
+    "extracted_at": "2026-11-16 15:37 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko `lightlink`, 16 Nov 2026 ~3:00 PM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Market data and venues",
+      "url": "CoinGecko `lightlink`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Token contract and holders",
+      "url": "contract",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Token contract and holders",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0921799cb1d702148131024d18fcde022129dc73",
+      "url": "https://etherscan.io/token/0x0921799cb1d702148131024d18fcde022129dc73#balances",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x172363249a18177623514434865611d8902ab331",
+      "url": "https://etherscan.io/address/0x172363249a18177623514434865611d8902ab331",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x58edf78281334335effa23101bbe3371b6a36a51",
+      "url": "https://etherscan.io/address/0x58edf78281334335effa23101bbe3371b6a36a51",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x63105ee97bfb22dfe23033b3b14a4f8fed121ee9",
+      "url": "https://etherscan.io/address/0x63105ee97bfb22dfe23033b3b14a4f8fed121ee9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8c6ee4264e84b299e2c66aa5b284043a3d80ca8e",
+      "url": "https://etherscan.io/address/0x8c6ee4264e84b299e2c66aa5b284043a3d80ca8e",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Gate LL_USDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found: top Safes sent no LL to exchanges in the past year"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "Some revenue exists but none reaches holders. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x8c6ee4264e84b299e2c66aa5b284043a3d80ca8e",
+      "url": null,
+      "label": "Unlabelled Safe (32.8%), likely ecosystem or treasury",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x63105ee97bfb22dfe23033b3b14a4f8fed121ee9",
+      "url": null,
+      "label": "PredicateProxy (31.2%), bridge-type contract",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x58edf78281334335effa23101bbe3371b6a36a51",
+      "url": null,
+      "label": "KuCoin 20 (4.8%)",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [CoinGecko `lightlink`](https://www.coingecko.com/en/coins/lightlink): price, supply, venues and description, read 16 Nov 2026",
+      "urls": [
+        "CoinGecko `lightlink`"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Gate LL_USDT UTC daily closes via `scripts/pump_day_test.py` (4 pump days of 360); Binance returned HTTP 451, so the hierarchy fell through to this venue",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Token contract and [holders](https://etherscan.io/token/0x0921799cb1d702148131024d18fcde022129dc73#balances) on the chain explorer; top holders from the Ethplorer API; contract or EOA status from Etherscan v2 `eth_getCode`",
+      "urls": [
+        "holders"
+      ],
+      "date_read": null
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "PANTHER",
+  "name": "Panther Protocol",
+  "chain": "ethereum",
+  "contract": "0x909e34d3f6124c324ac83dcca84b74398a6fa173",
+  "overall_score": 3.4,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 6,
+    "adoption_customers": 2,
+    "security_audits": 5,
+    "regulatory": 4,
+    "catalysts": 4
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found in this pass",
+    "team_wallet_to_exchange_during_pump": "none found: DAO Safe flows on pump days went to the Polygon and Base bridges",
+    "one_hop_sale_status": "none_found",
+    "supply_inflation": "38.2M PANTHER minted to a Safe in Aug and Nov 2026"
+  },
+  "price_usd": 0.00133526,
+  "price_source": "CoinGecko `panther`, 16 Nov 2026 ~3:00 PM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No burn, buyback or fee share to holders was found; PANTHER is used for governance and protocol rewards.",
+    "pump_day_price_source": "MEXC PANTHERUSDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x505796f5bc290269d2522cf19135ad7aa60dfd77",
+        "label": "Protocol/DAO Safe (receives mints)",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Etherscan token transfers from the zero address"
+      },
+      {
+        "address": "0x18709e89bd403f470088abdacebe86cc60dda12e",
+        "label": "Huobi: Recovery",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Etherscan name tag"
+      },
+      {
+        "address": "0x9642b23ed1e01df1092b92641051881a322f5d4e",
+        "label": "MEXC 16",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Etherscan name tag"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.00133526,
+    "market_cap_text": "$624",
+    "fdv_text": "$624",
+    "volume_24h_text": "$60k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/PANTHER.md",
+    "sha256": "fe0b775b646d7d38ea9e346e21466279ea67f54c4b2871d6efb119d871d8a47b",
+    "bytes": 11512,
+    "extracted_at": "2026-11-16 15:37 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko `panther`, 16 Nov 2026 ~3:00 PM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Market data and venues",
+      "url": "CoinGecko `panther`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Token contract and holders",
+      "url": "contract",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Token contract and holders",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x18709e89bd403f470088abdacebe86cc60dda12e",
+      "url": "https://etherscan.io/address/0x18709e89bd403f470088abdacebe86cc60dda12e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x505796f5bc290269d2522cf19135ad7aa60dfd77",
+      "url": "https://etherscan.io/address/0x505796f5bc290269d2522cf19135ad7aa60dfd77",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x909e34d3f6124c324ac83dcca84b74398a6fa173",
+      "url": "https://etherscan.io/token/0x909e34d3f6124c324ac83dcca84b74398a6fa173#balances",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9642b23ed1e01df1092b92641051881a322f5d4e",
+      "url": "https://etherscan.io/address/0x9642b23ed1e01df1092b92641051881a322f5d4e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe1b583de9cb37196031b771686734a31ec365768",
+      "url": "https://etherscan.io/address/0xe1b583de9cb37196031b771686734a31ec365768",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "MEXC PANTHERUSDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found: DAO Safe flows on pump days went to the Polygon and Base bridges"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "Nothing reaches holders. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x505796f5bc290269d2522cf19135ad7aa60dfd77",
+      "url": null,
+      "label": "Protocol/DAO Safe (receives mints)",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x18709e89bd403f470088abdacebe86cc60dda12e",
+      "url": null,
+      "label": "Huobi: Recovery",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9642b23ed1e01df1092b92641051881a322f5d4e",
+      "url": null,
+      "label": "MEXC 16",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [CoinGecko `panther`](https://www.coingecko.com/en/coins/panther): price, supply, venues and description, read 16 Nov 2026",
+      "urls": [
+        "CoinGecko `panther`"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] MEXC PANTHERUSDT UTC daily closes via `scripts/pump_day_test.py` (43 pump days of 360); Binance returned HTTP 451, so the hierarchy fell through to this venue",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Token contract and [holders](https://etherscan.io/token/0x909e34d3f6124c324ac83dcca84b74398a6fa173#balances) on the chain explorer; top holders from the Ethplorer API; contract or EOA status from Etherscan v2 `eth_getCode`",
+      "urls": [
+        "holders"
+      ],
+      "date_read": null
+    }
+  ]
+}

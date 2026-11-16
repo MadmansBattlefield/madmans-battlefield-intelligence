@@ -4,12 +4,12 @@
   "timezone": "MST",
   "disclaimer": "Research only. Not financial advice. Not a recommendation to buy or sell.",
   "total": 292,
-  "scored_reports": 179,
+  "scored_reports": 184,
   "passing": 7,
   "counts": {
-    "done": 179,
+    "done": 184,
     "close": 0,
-    "wallet": 5,
+    "wallet": 0,
     "gaps": 0,
     "notatoken": 15,
     "dead": 93
@@ -3387,10 +3387,48 @@
       "checked_at": "16 Nov 2026 5:24 AM MST"
     },
     {
+      "ticker": "COLLAT",
+      "name": "Collaterize",
+      "status": "done",
+      "rank": 94,
+      "score": 3.8,
+      "verdict": "FAIL",
+      "gates": [
+        "Revenue"
+      ],
+      "sink": "Revenue gate",
+      "gaps": "HHHHHHHHHHH",
+      "old_score": 12.5,
+      "dead_reason": null,
+      "notatoken_reason": null,
+      "report": "banking-rails/COLLAT.md",
+      "draft": null,
+      "market_url": "https://www.coingecko.com/en/coins/collaterize",
+      "mcap_usd": 549554.0,
+      "vol24_usd": 53843.0,
+      "fees30d": null,
+      "revenue30d": null,
+      "tvl": null,
+      "red_flags": [
+        "market cap under $1M"
+      ],
+      "identity_note": "Pipeline name “Collateralize” vs CoinGecko “Collaterize” (spelling). Likely the same token, [Unverified].",
+      "coingecko_id": "collaterize",
+      "paprika_id": null,
+      "defillama_slug": null,
+      "mcap_source": "coingecko",
+      "vol_source": "coingecko",
+      "tvl_source": null,
+      "website": null,
+      "scan_reason": "Listed on CoinGecko with live market data. identity caveat: Pipeline name “Collateralize” vs CoinGecko “Collaterize” (spelling). Likely the same token, [Unverified].. Team-wallet and pump-day tracing is still outstanding.",
+      "unverified_dead": false,
+      "checked_at": "16 Nov 2026 5:24 AM MST"
+    },
+    {
       "ticker": "TRB",
       "name": "Tellor",
       "status": "done",
-      "rank": 94,
+      "rank": 95,
       "score": 3.7,
       "verdict": "FAIL",
       "gates": [
@@ -3427,7 +3465,7 @@
       "ticker": "PLUME",
       "name": "Plume",
       "status": "done",
-      "rank": 95,
+      "rank": 96,
       "score": 3.7,
       "verdict": "FAIL",
       "gates": [
@@ -3463,7 +3501,7 @@
       "ticker": "SUI",
       "name": "Sui",
       "status": "done",
-      "rank": 96,
+      "rank": 97,
       "score": 3.7,
       "verdict": "FAIL",
       "gates": [
@@ -3500,7 +3538,7 @@
       "ticker": "CRO",
       "name": "Cronos (Crypto.com)",
       "status": "done",
-      "rank": 97,
+      "rank": 98,
       "score": 3.7,
       "verdict": "FAIL",
       "gates": [
@@ -3536,7 +3574,7 @@
       "ticker": "MOCA",
       "name": "Moca Network",
       "status": "done",
-      "rank": 98,
+      "rank": 99,
       "score": 3.7,
       "verdict": "FAIL",
       "gates": [
@@ -3572,7 +3610,7 @@
       "ticker": "TRADE",
       "name": "Polytrade",
       "status": "done",
-      "rank": 99,
+      "rank": 100,
       "score": 3.7,
       "verdict": "FAIL",
       "gates": [
@@ -3608,7 +3646,7 @@
       "ticker": "IOTX",
       "name": "IoTeX",
       "status": "done",
-      "rank": 100,
+      "rank": 101,
       "score": 3.7,
       "verdict": "FAIL",
       "gates": [
@@ -3644,7 +3682,7 @@
       "ticker": "TRUF",
       "name": "TRUF.Network (Truflation)",
       "status": "done",
-      "rank": 101,
+      "rank": 102,
       "score": 3.7,
       "verdict": "FAIL",
       "gates": [
@@ -3680,7 +3718,7 @@
       "ticker": "CTK",
       "name": "Shentu",
       "status": "done",
-      "rank": 102,
+      "rank": 103,
       "score": 3.7,
       "verdict": "FAIL",
       "gates": [
@@ -3716,7 +3754,7 @@
       "ticker": "ZEN",
       "name": "Horizen",
       "status": "done",
-      "rank": 103,
+      "rank": 104,
       "score": 3.7,
       "verdict": "FAIL",
       "gates": [
@@ -3749,10 +3787,48 @@
       "checked_at": "16 Nov 2026 5:24 AM MST"
     },
     {
+      "ticker": "LL",
+      "name": "LightLink",
+      "status": "done",
+      "rank": 105,
+      "score": 3.7,
+      "verdict": "FAIL",
+      "gates": [
+        "Revenue"
+      ],
+      "sink": "Revenue gate",
+      "gaps": "HHHHHHHHHHH",
+      "old_score": 19.1,
+      "dead_reason": null,
+      "notatoken_reason": null,
+      "report": "banking-rails/LL.md",
+      "draft": null,
+      "market_url": "https://www.coingecko.com/en/coins/lightlink",
+      "mcap_usd": 58015.0,
+      "vol24_usd": 157610.0,
+      "fees30d": 0.0,
+      "revenue30d": null,
+      "tvl": 18339.178037041656,
+      "red_flags": [
+        "market cap under $1M"
+      ],
+      "identity_note": null,
+      "coingecko_id": "lightlink",
+      "paprika_id": null,
+      "defillama_slug": "lightlink",
+      "mcap_source": "coingecko",
+      "vol_source": "coingecko",
+      "tvl_source": "defillama chain/LightLink",
+      "website": null,
+      "scan_reason": "Listed on CoinGecko with live market data. DefiLlama TVL $18.3k. Team-wallet and pump-day tracing is still outstanding.",
+      "unverified_dead": false,
+      "checked_at": "16 Nov 2026 5:24 AM MST"
+    },
+    {
       "ticker": "KAIO",
       "name": "KAIO (formerly Libre Capital)",
       "status": "done",
-      "rank": 104,
+      "rank": 106,
       "score": 3.6,
       "verdict": "FAIL",
       "gates": [
@@ -3789,7 +3865,7 @@
       "ticker": "SHX",
       "name": "Stronghold",
       "status": "done",
-      "rank": 105,
+      "rank": 107,
       "score": 3.6,
       "verdict": "FAIL",
       "gates": [
@@ -3825,7 +3901,7 @@
       "ticker": "SUPRA",
       "name": "Supra",
       "status": "done",
-      "rank": 106,
+      "rank": 108,
       "score": 3.6,
       "verdict": "FAIL",
       "gates": [
@@ -3861,7 +3937,7 @@
       "ticker": "VELO",
       "name": "Velo",
       "status": "done",
-      "rank": 107,
+      "rank": 109,
       "score": 3.6,
       "verdict": "FAIL",
       "gates": [
@@ -3897,7 +3973,7 @@
       "ticker": "QANX",
       "name": "QANplatform",
       "status": "done",
-      "rank": 108,
+      "rank": 110,
       "score": 3.6,
       "verdict": "FAIL",
       "gates": [
@@ -3933,7 +4009,7 @@
       "ticker": "ACH",
       "name": "Alchemy Pay",
       "status": "done",
-      "rank": 109,
+      "rank": 111,
       "score": 3.6,
       "verdict": "FAIL",
       "gates": [
@@ -3971,7 +4047,7 @@
       "ticker": "PROPC",
       "name": "Propchain",
       "status": "done",
-      "rank": 110,
+      "rank": 112,
       "score": 3.6,
       "verdict": "FAIL",
       "gates": [
@@ -4007,7 +4083,7 @@
       "ticker": "CTC",
       "name": "Creditcoin (CTC, ERC-20 G-CRE)",
       "status": "done",
-      "rank": 111,
+      "rank": 113,
       "score": 3.6,
       "verdict": "FAIL",
       "gates": [
@@ -4043,7 +4119,7 @@
       "ticker": "ZK",
       "name": "ZKsync",
       "status": "done",
-      "rank": 112,
+      "rank": 114,
       "score": 3.5,
       "verdict": "FAIL",
       "gates": [
@@ -4080,7 +4156,7 @@
       "ticker": "SHPING",
       "name": "Shping",
       "status": "done",
-      "rank": 113,
+      "rank": 115,
       "score": 3.5,
       "verdict": "FAIL",
       "gates": [
@@ -4118,7 +4194,7 @@
       "ticker": "RBNT",
       "name": "Redbelly Network",
       "status": "done",
-      "rank": 114,
+      "rank": 116,
       "score": 3.5,
       "verdict": "FAIL",
       "gates": [
@@ -4154,7 +4230,7 @@
       "ticker": "S",
       "name": "Sonic",
       "status": "done",
-      "rank": 115,
+      "rank": 117,
       "score": 3.5,
       "verdict": "FAIL",
       "gates": [
@@ -4190,7 +4266,7 @@
       "ticker": "WIREX",
       "name": "Wirex",
       "status": "done",
-      "rank": 116,
+      "rank": 118,
       "score": 3.5,
       "verdict": "FAIL",
       "gates": [
@@ -4228,7 +4304,7 @@
       "ticker": "ZKP",
       "name": "zkPass",
       "status": "done",
-      "rank": 117,
+      "rank": 119,
       "score": 3.5,
       "verdict": "FAIL",
       "gates": [
@@ -4264,7 +4340,7 @@
       "ticker": "TX",
       "name": "TX (Coreum + Sologenic)",
       "status": "done",
-      "rank": 118,
+      "rank": 120,
       "score": 3.5,
       "verdict": "FAIL",
       "gates": [
@@ -4300,7 +4376,7 @@
       "ticker": "KTA",
       "name": "Keeta",
       "status": "done",
-      "rank": 119,
+      "rank": 121,
       "score": 3.5,
       "verdict": "FAIL",
       "gates": [
@@ -4336,7 +4412,7 @@
       "ticker": "MTL",
       "name": "Metal DAO",
       "status": "done",
-      "rank": 120,
+      "rank": 122,
       "score": 3.5,
       "verdict": "FAIL",
       "gates": [
@@ -4372,7 +4448,7 @@
       "ticker": "CHEX",
       "name": "Chintai",
       "status": "done",
-      "rank": 121,
+      "rank": 123,
       "score": 3.5,
       "verdict": "FAIL",
       "gates": [
@@ -4408,7 +4484,7 @@
       "ticker": "ZKC",
       "name": "Boundless",
       "status": "done",
-      "rank": 122,
+      "rank": 124,
       "score": 3.4,
       "verdict": "FAIL",
       "gates": [
@@ -4444,7 +4520,7 @@
       "ticker": "SKEY",
       "name": "Skey Network",
       "status": "done",
-      "rank": 123,
+      "rank": 125,
       "score": 3.4,
       "verdict": "FAIL",
       "gates": [
@@ -4479,10 +4555,48 @@
       "checked_at": "16 Nov 2026 5:24 AM MST"
     },
     {
+      "ticker": "PANTHER",
+      "name": "Panther Protocol",
+      "status": "done",
+      "rank": 126,
+      "score": 3.4,
+      "verdict": "FAIL",
+      "gates": [
+        "Revenue"
+      ],
+      "sink": "Revenue gate",
+      "gaps": "HHHHHHHHHHH",
+      "old_score": 20.0,
+      "dead_reason": null,
+      "notatoken_reason": null,
+      "report": "banking-rails/PANTHER.md",
+      "draft": null,
+      "market_url": "https://www.coingecko.com/en/coins/panther",
+      "mcap_usd": 607454.0,
+      "vol24_usd": 52938.0,
+      "fees30d": null,
+      "revenue30d": null,
+      "tvl": 80.01519199659636,
+      "red_flags": [
+        "market cap under $1M"
+      ],
+      "identity_note": null,
+      "coingecko_id": "panther",
+      "paprika_id": null,
+      "defillama_slug": "panther-protocol",
+      "mcap_source": "coingecko",
+      "vol_source": "coingecko",
+      "tvl_source": "defillama protocol/panther-protocol",
+      "website": "https://www.pantherprotocol.io/",
+      "scan_reason": "Listed on CoinGecko with live market data. DefiLlama TVL $80.02. Team-wallet and pump-day tracing is still outstanding.",
+      "unverified_dead": false,
+      "checked_at": "16 Nov 2026 5:24 AM MST"
+    },
+    {
       "ticker": "OM",
       "name": "MANTRA",
       "status": "done",
-      "rank": 124,
+      "rank": 127,
       "score": 3.4,
       "verdict": "FAIL",
       "gates": [
@@ -4518,7 +4632,7 @@
       "ticker": "PUNDIX",
       "name": "Pundi X",
       "status": "done",
-      "rank": 125,
+      "rank": 128,
       "score": 3.4,
       "verdict": "FAIL",
       "gates": [
@@ -4554,7 +4668,7 @@
       "ticker": "ETN",
       "name": "Electroneum",
       "status": "done",
-      "rank": 126,
+      "rank": 129,
       "score": 3.4,
       "verdict": "FAIL",
       "gates": [
@@ -4590,7 +4704,7 @@
       "ticker": "KLV",
       "name": "Klever",
       "status": "done",
-      "rank": 127,
+      "rank": 130,
       "score": 3.4,
       "verdict": "FAIL",
       "gates": [
@@ -4626,7 +4740,7 @@
       "ticker": "BKN",
       "name": "Brickken",
       "status": "done",
-      "rank": 128,
+      "rank": 131,
       "score": 3.4,
       "verdict": "FAIL",
       "gates": [
@@ -4662,7 +4776,7 @@
       "ticker": "CPOOL",
       "name": "Clearpool",
       "status": "done",
-      "rank": 129,
+      "rank": 132,
       "score": 3.3,
       "verdict": "FAIL",
       "gates": [
@@ -4701,7 +4815,7 @@
       "ticker": "HAI",
       "name": "Hacken (HAI)",
       "status": "done",
-      "rank": 130,
+      "rank": 133,
       "score": 3.3,
       "verdict": "FAIL",
       "gates": [
@@ -4737,7 +4851,7 @@
       "ticker": "ZIG",
       "name": "ZIGChain (Zignaly)",
       "status": "done",
-      "rank": 131,
+      "rank": 134,
       "score": 3.3,
       "verdict": "FAIL",
       "gates": [
@@ -4774,7 +4888,7 @@
       "ticker": "STBL",
       "name": "STBL",
       "status": "done",
-      "rank": 132,
+      "rank": 135,
       "score": 3.3,
       "verdict": "FAIL",
       "gates": [
@@ -4810,7 +4924,7 @@
       "ticker": "SHARE",
       "name": "ShareX",
       "status": "done",
-      "rank": 133,
+      "rank": 136,
       "score": 3.3,
       "verdict": "FAIL",
       "gates": [
@@ -4846,7 +4960,7 @@
       "ticker": "AEON",
       "name": "AEON",
       "status": "done",
-      "rank": 134,
+      "rank": 137,
       "score": 3.3,
       "verdict": "FAIL",
       "gates": [
@@ -4882,7 +4996,7 @@
       "ticker": "ARRR",
       "name": "Pirate Chain",
       "status": "done",
-      "rank": 135,
+      "rank": 138,
       "score": 3.3,
       "verdict": "FAIL",
       "gates": [
@@ -4918,7 +5032,7 @@
       "ticker": "MAPO",
       "name": "MAP Protocol",
       "status": "done",
-      "rank": 136,
+      "rank": 139,
       "score": 3.3,
       "verdict": "FAIL",
       "gates": [
@@ -4954,7 +5068,7 @@
       "ticker": "CTX",
       "name": "Cryptex Finance",
       "status": "done",
-      "rank": 137,
+      "rank": 140,
       "score": 3.2,
       "verdict": "FAIL",
       "gates": [
@@ -4990,7 +5104,7 @@
       "ticker": "YELLOW",
       "name": "Yellow Network",
       "status": "done",
-      "rank": 138,
+      "rank": 141,
       "score": 3.2,
       "verdict": "FAIL",
       "gates": [
@@ -5026,7 +5140,7 @@
       "ticker": "LUMIA",
       "name": "Lumia",
       "status": "done",
-      "rank": 139,
+      "rank": 142,
       "score": 3.2,
       "verdict": "FAIL",
       "gates": [
@@ -5062,7 +5176,7 @@
       "ticker": "DOVU",
       "name": "DOVU",
       "status": "done",
-      "rank": 140,
+      "rank": 143,
       "score": 3.2,
       "verdict": "FAIL",
       "gates": [
@@ -5098,7 +5212,7 @@
       "ticker": "IXS",
       "name": "IX Swap (IXS)",
       "status": "done",
-      "rank": 141,
+      "rank": 144,
       "score": 3.2,
       "verdict": "FAIL",
       "gates": [
@@ -5131,10 +5245,48 @@
       "checked_at": "16 Nov 2026 5:24 AM MST"
     },
     {
+      "ticker": "SPC",
+      "name": "SpaceChain",
+      "status": "done",
+      "rank": 145,
+      "score": 3.2,
+      "verdict": "FAIL",
+      "gates": [
+        "Revenue"
+      ],
+      "sink": "Revenue gate",
+      "gaps": "HHHHHHHHHHH",
+      "old_score": 14.5,
+      "dead_reason": null,
+      "notatoken_reason": null,
+      "report": "banking-rails/SPC.md",
+      "draft": null,
+      "market_url": "https://www.coingecko.com/en/coins/spacechain-erc-20",
+      "mcap_usd": 3643381.0,
+      "vol24_usd": 8990.76,
+      "fees30d": null,
+      "revenue30d": null,
+      "tvl": null,
+      "red_flags": [
+        "24h volume under $10k"
+      ],
+      "identity_note": null,
+      "coingecko_id": "spacechain-erc-20",
+      "paprika_id": null,
+      "defillama_slug": null,
+      "mcap_source": "coingecko",
+      "vol_source": "coingecko",
+      "tvl_source": null,
+      "website": null,
+      "scan_reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "unverified_dead": false,
+      "checked_at": "16 Nov 2026 5:24 AM MST"
+    },
+    {
       "ticker": "KAVA",
       "name": "Kava",
       "status": "done",
-      "rank": 142,
+      "rank": 146,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5170,7 +5322,7 @@
       "ticker": "XEP",
       "name": "Electra Protocol",
       "status": "done",
-      "rank": 143,
+      "rank": 147,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5206,7 +5358,7 @@
       "ticker": "EXA",
       "name": "Exactly Protocol",
       "status": "done",
-      "rank": 144,
+      "rank": 148,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5242,7 +5394,7 @@
       "ticker": "HONEY",
       "name": "Hivemapper",
       "status": "done",
-      "rank": 145,
+      "rank": 149,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5278,7 +5430,7 @@
       "ticker": "CSPR",
       "name": "Casper Network",
       "status": "done",
-      "rank": 146,
+      "rank": 150,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5314,7 +5466,7 @@
       "ticker": "IOST",
       "name": "IOST",
       "status": "done",
-      "rank": 147,
+      "rank": 151,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5350,7 +5502,7 @@
       "ticker": "TLOS",
       "name": "Telos",
       "status": "done",
-      "rank": 148,
+      "rank": 152,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5386,7 +5538,7 @@
       "ticker": "METAL",
       "name": "Metal Blockchain",
       "status": "done",
-      "rank": 149,
+      "rank": 153,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5422,7 +5574,7 @@
       "ticker": "MDT",
       "name": "Measurable Data Token",
       "status": "done",
-      "rank": 150,
+      "rank": 154,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5458,7 +5610,7 @@
       "ticker": "BLZ",
       "name": "Bluzelle",
       "status": "done",
-      "rank": 151,
+      "rank": 155,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5494,7 +5646,7 @@
       "ticker": "EOS",
       "name": "EOS (now Vaulta)",
       "status": "done",
-      "rank": 152,
+      "rank": 156,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5532,7 +5684,7 @@
       "ticker": "LINGO",
       "name": "Lingo",
       "status": "done",
-      "rank": 153,
+      "rank": 157,
       "score": 3.1,
       "verdict": "FAIL",
       "gates": [
@@ -5568,7 +5720,7 @@
       "ticker": "POLYX",
       "name": "Polymesh",
       "status": "done",
-      "rank": 154,
+      "rank": 158,
       "score": 3.0,
       "verdict": "FAIL",
       "gates": [
@@ -5605,7 +5757,7 @@
       "ticker": "ORAI",
       "name": "Oraichain",
       "status": "done",
-      "rank": 155,
+      "rank": 159,
       "score": 3.0,
       "verdict": "FAIL",
       "gates": [
@@ -5641,7 +5793,7 @@
       "ticker": "EL",
       "name": "ELYSIA",
       "status": "done",
-      "rank": 156,
+      "rank": 160,
       "score": 3.0,
       "verdict": "FAIL",
       "gates": [
@@ -5677,7 +5829,7 @@
       "ticker": "XDB",
       "name": "XDB CHAIN (formerly DigitalBits)",
       "status": "done",
-      "rank": 157,
+      "rank": 161,
       "score": 2.9,
       "verdict": "FAIL",
       "gates": [
@@ -5716,7 +5868,7 @@
       "ticker": "PACT",
       "name": "PACT",
       "status": "done",
-      "rank": 158,
+      "rank": 162,
       "score": 2.9,
       "verdict": "FAIL",
       "gates": [
@@ -5753,7 +5905,7 @@
       "ticker": "EPICCASH",
       "name": "Epic Cash",
       "status": "done",
-      "rank": 159,
+      "rank": 163,
       "score": 2.9,
       "verdict": "FAIL",
       "gates": [
@@ -5789,7 +5941,7 @@
       "ticker": "HANDLE",
       "name": "HandlPay (HANDL)",
       "status": "done",
-      "rank": 160,
+      "rank": 164,
       "score": 2.9,
       "verdict": "FAIL",
       "gates": [
@@ -5827,7 +5979,7 @@
       "ticker": "JASMY",
       "name": "JasmyCoin",
       "status": "done",
-      "rank": 161,
+      "rank": 165,
       "score": 2.8,
       "verdict": "FAIL",
       "gates": [
@@ -5861,10 +6013,48 @@
       "checked_at": null
     },
     {
+      "ticker": "PLI",
+      "name": "Plugin",
+      "status": "done",
+      "rank": 166,
+      "score": 2.8,
+      "verdict": "FAIL",
+      "gates": [
+        "Revenue"
+      ],
+      "sink": "Revenue gate",
+      "gaps": "HHHHHHHHHHH",
+      "old_score": 28.1,
+      "dead_reason": null,
+      "notatoken_reason": null,
+      "report": "banking-rails/PLI.md",
+      "draft": null,
+      "market_url": "https://www.coingecko.com/en/coins/plugin",
+      "mcap_usd": 893365.0,
+      "vol24_usd": 13039.2,
+      "fees30d": null,
+      "revenue30d": null,
+      "tvl": null,
+      "red_flags": [
+        "market cap under $1M"
+      ],
+      "identity_note": null,
+      "coingecko_id": "plugin",
+      "paprika_id": null,
+      "defillama_slug": null,
+      "mcap_source": "coingecko",
+      "vol_source": "coingecko",
+      "tvl_source": null,
+      "website": null,
+      "scan_reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
+      "unverified_dead": false,
+      "checked_at": "16 Nov 2026 5:24 AM MST"
+    },
+    {
       "ticker": "MASQ",
       "name": "MASQ",
       "status": "done",
-      "rank": 162,
+      "rank": 167,
       "score": 2.7,
       "verdict": "FAIL",
       "gates": [
@@ -5903,7 +6093,7 @@
       "ticker": "RIO",
       "name": "Realio Network",
       "status": "done",
-      "rank": 163,
+      "rank": 168,
       "score": 2.7,
       "verdict": "FAIL",
       "gates": [
@@ -5939,7 +6129,7 @@
       "ticker": "COTI",
       "name": "COTI",
       "status": "done",
-      "rank": 164,
+      "rank": 169,
       "score": 2.7,
       "verdict": "FAIL",
       "gates": [
@@ -5975,7 +6165,7 @@
       "ticker": "HECTO",
       "name": "Hecto",
       "status": "done",
-      "rank": 165,
+      "rank": 170,
       "score": 2.7,
       "verdict": "FAIL",
       "gates": [
@@ -6011,7 +6201,7 @@
       "ticker": "SERV",
       "name": "OpenServ",
       "status": "done",
-      "rank": 166,
+      "rank": 171,
       "score": 2.6,
       "verdict": "FAIL",
       "gates": [
@@ -6048,7 +6238,7 @@
       "ticker": "SCRT",
       "name": "Secret Network",
       "status": "done",
-      "rank": 167,
+      "rank": 172,
       "score": 2.6,
       "verdict": "FAIL",
       "gates": [
@@ -6084,7 +6274,7 @@
       "ticker": "PALMUSD",
       "name": "Palm USD (PUSD)",
       "status": "done",
-      "rank": 168,
+      "rank": 173,
       "score": 2.6,
       "verdict": "FAIL",
       "gates": [
@@ -6122,7 +6312,7 @@
       "ticker": "GOLDFINGER",
       "name": "GoldFinger (GF)",
       "status": "done",
-      "rank": 169,
+      "rank": 174,
       "score": 2.6,
       "verdict": "FAIL",
       "gates": [
@@ -6160,7 +6350,7 @@
       "ticker": "EDEL",
       "name": "Edel Finance",
       "status": "done",
-      "rank": 170,
+      "rank": 175,
       "score": 2.5,
       "verdict": "FAIL",
       "gates": [
@@ -6197,7 +6387,7 @@
       "ticker": "SWCH",
       "name": "SwissCheese",
       "status": "done",
-      "rank": 171,
+      "rank": 176,
       "score": 2.5,
       "verdict": "FAIL",
       "gates": [
@@ -6233,7 +6423,7 @@
       "ticker": "MNSRY",
       "name": "Mansory Token",
       "status": "done",
-      "rank": 172,
+      "rank": 177,
       "score": 2.5,
       "verdict": "FAIL",
       "gates": [
@@ -6269,7 +6459,7 @@
       "ticker": "CPH",
       "name": "Cypherium",
       "status": "done",
-      "rank": 173,
+      "rank": 178,
       "score": 2.5,
       "verdict": "FAIL",
       "gates": [
@@ -6305,7 +6495,7 @@
       "ticker": "H",
       "name": "Humanity Protocol",
       "status": "done",
-      "rank": 174,
+      "rank": 179,
       "score": 2.4,
       "verdict": "FAIL",
       "gates": [
@@ -6341,7 +6531,7 @@
       "ticker": "SPA",
       "name": "Sperax",
       "status": "done",
-      "rank": 175,
+      "rank": 180,
       "score": 2.2,
       "verdict": "FAIL",
       "gates": [
@@ -6378,7 +6568,7 @@
       "ticker": "REALIZ",
       "name": "Realiz (TPT30)",
       "status": "done",
-      "rank": 176,
+      "rank": 181,
       "score": 2.1,
       "verdict": "FAIL",
       "gates": [
@@ -6416,7 +6606,7 @@
       "ticker": "ROUTER",
       "name": "Solrouter",
       "status": "done",
-      "rank": 177,
+      "rank": 182,
       "score": 2.0,
       "verdict": "FAIL",
       "gates": [
@@ -6453,7 +6643,7 @@
       "ticker": "SIBERIUM",
       "name": "Siberium Network (SIBR)",
       "status": "done",
-      "rank": 178,
+      "rank": 183,
       "score": 1.9,
       "verdict": "FAIL",
       "gates": [
@@ -6491,7 +6681,7 @@
       "ticker": "MTR",
       "name": "Meter (MTR / MTRG)",
       "status": "done",
-      "rank": 179,
+      "rank": 184,
       "score": 1.9,
       "verdict": "FAIL",
       "gates": [
@@ -6523,186 +6713,6 @@
       "tvl_source": null,
       "website": null,
       "scan_reason": "Meter’s traded token on CoinPaprika is MTRG (Meter Governance). Pipeline ticker is MTR (historically the stable). MTR itself appears inactive.",
-      "unverified_dead": false,
-      "checked_at": "16 Nov 2026 5:24 AM MST"
-    },
-    {
-      "ticker": "LL",
-      "name": "LightLink",
-      "status": "wallet",
-      "rank": null,
-      "score": null,
-      "verdict": null,
-      "gates": [],
-      "sink": null,
-      "gaps": "PHPPHMHHPMH",
-      "old_score": 19.1,
-      "dead_reason": null,
-      "notatoken_reason": null,
-      "report": null,
-      "draft": "banking-rails/other-tokens.md",
-      "market_url": "https://www.coingecko.com/en/coins/lightlink",
-      "mcap_usd": 58015.0,
-      "vol24_usd": 157610.0,
-      "fees30d": 0.0,
-      "revenue30d": null,
-      "tvl": 18339.178037041656,
-      "red_flags": [
-        "market cap under $1M"
-      ],
-      "identity_note": null,
-      "coingecko_id": "lightlink",
-      "paprika_id": null,
-      "defillama_slug": "lightlink",
-      "mcap_source": "coingecko",
-      "vol_source": "coingecko",
-      "tvl_source": "defillama chain/LightLink",
-      "website": null,
-      "scan_reason": "Listed on CoinGecko with live market data. DefiLlama TVL $18.3k. Team-wallet and pump-day tracing is still outstanding.",
-      "unverified_dead": false,
-      "checked_at": "16 Nov 2026 5:24 AM MST"
-    },
-    {
-      "ticker": "COLLAT",
-      "name": "Collateralize",
-      "status": "wallet",
-      "rank": null,
-      "score": null,
-      "verdict": null,
-      "gates": [],
-      "sink": null,
-      "gaps": "MPMMPMPMPMP",
-      "old_score": 12.5,
-      "dead_reason": null,
-      "notatoken_reason": null,
-      "report": null,
-      "draft": null,
-      "market_url": "https://www.coingecko.com/en/coins/collaterize",
-      "mcap_usd": 549554.0,
-      "vol24_usd": 53843.0,
-      "fees30d": null,
-      "revenue30d": null,
-      "tvl": null,
-      "red_flags": [
-        "market cap under $1M"
-      ],
-      "identity_note": "Pipeline name “Collateralize” vs CoinGecko “Collaterize” (spelling). Likely the same token, [Unverified].",
-      "coingecko_id": "collaterize",
-      "paprika_id": null,
-      "defillama_slug": null,
-      "mcap_source": "coingecko",
-      "vol_source": "coingecko",
-      "tvl_source": null,
-      "website": null,
-      "scan_reason": "Listed on CoinGecko with live market data. identity caveat: Pipeline name “Collateralize” vs CoinGecko “Collaterize” (spelling). Likely the same token, [Unverified].. Team-wallet and pump-day tracing is still outstanding.",
-      "unverified_dead": false,
-      "checked_at": "16 Nov 2026 5:24 AM MST"
-    },
-    {
-      "ticker": "PANTHER",
-      "name": "Panther Protocol",
-      "status": "wallet",
-      "rank": null,
-      "score": null,
-      "verdict": null,
-      "gates": [],
-      "sink": null,
-      "gaps": "PPMMPMPMPMP",
-      "old_score": 20.0,
-      "dead_reason": null,
-      "notatoken_reason": null,
-      "report": null,
-      "draft": null,
-      "market_url": "https://www.coingecko.com/en/coins/panther",
-      "mcap_usd": 607454.0,
-      "vol24_usd": 52938.0,
-      "fees30d": null,
-      "revenue30d": null,
-      "tvl": 80.01519199659636,
-      "red_flags": [
-        "market cap under $1M"
-      ],
-      "identity_note": null,
-      "coingecko_id": "panther",
-      "paprika_id": null,
-      "defillama_slug": "panther-protocol",
-      "mcap_source": "coingecko",
-      "vol_source": "coingecko",
-      "tvl_source": "defillama protocol/panther-protocol",
-      "website": "https://www.pantherprotocol.io/",
-      "scan_reason": "Listed on CoinGecko with live market data. DefiLlama TVL $80.02. Team-wallet and pump-day tracing is still outstanding.",
-      "unverified_dead": false,
-      "checked_at": "16 Nov 2026 5:24 AM MST"
-    },
-    {
-      "ticker": "PLI",
-      "name": "Plugin",
-      "status": "wallet",
-      "rank": null,
-      "score": null,
-      "verdict": null,
-      "gates": [],
-      "sink": null,
-      "gaps": "MHPPPMPHPMP",
-      "old_score": 28.1,
-      "dead_reason": null,
-      "notatoken_reason": null,
-      "report": null,
-      "draft": null,
-      "market_url": "https://www.coingecko.com/en/coins/plugin",
-      "mcap_usd": 893365.0,
-      "vol24_usd": 13039.2,
-      "fees30d": null,
-      "revenue30d": null,
-      "tvl": null,
-      "red_flags": [
-        "market cap under $1M"
-      ],
-      "identity_note": null,
-      "coingecko_id": "plugin",
-      "paprika_id": null,
-      "defillama_slug": null,
-      "mcap_source": "coingecko",
-      "vol_source": "coingecko",
-      "tvl_source": null,
-      "website": null,
-      "scan_reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
-      "unverified_dead": false,
-      "checked_at": "16 Nov 2026 5:24 AM MST"
-    },
-    {
-      "ticker": "SPC",
-      "name": "SpaceChain",
-      "status": "wallet",
-      "rank": null,
-      "score": null,
-      "verdict": null,
-      "gates": [],
-      "sink": null,
-      "gaps": "MHMMPMPMPMP",
-      "old_score": 14.5,
-      "dead_reason": null,
-      "notatoken_reason": null,
-      "report": null,
-      "draft": null,
-      "market_url": "https://www.coingecko.com/en/coins/spacechain-erc-20",
-      "mcap_usd": 3643381.0,
-      "vol24_usd": 8990.76,
-      "fees30d": null,
-      "revenue30d": null,
-      "tvl": null,
-      "red_flags": [
-        "24h volume under $10k"
-      ],
-      "identity_note": null,
-      "coingecko_id": "spacechain-erc-20",
-      "paprika_id": null,
-      "defillama_slug": null,
-      "mcap_source": "coingecko",
-      "vol_source": "coingecko",
-      "tvl_source": null,
-      "website": null,
-      "scan_reason": "Listed on CoinGecko with live market data. Team-wallet and pump-day tracing is still outstanding.",
       "unverified_dead": false,
       "checked_at": "16 Nov 2026 5:24 AM MST"
     },

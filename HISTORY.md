@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 15:22 MST
+generated_at: 2026-11-16 15:37 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -49,6 +49,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [CFG](banking-rails/CFG.md) | 3 | 4.5 | 4.4 | 3 | 5 → 4 | 3 |
 | [CFX](banking-rails/CFX.md) | 1 | 3.9 | 3.9 | 1 | 5 | 4 |
 | [CHEX](banking-rails/CHEX.md) | 1 | 3.5 | 3.5 | 1 | 4 | 4 |
+| COLLAT | 0 | — | — | — | — | — |
 | [COTI](banking-rails/COTI.md) | 3 | 2.4 | 2.7 | 1 | 2 → 4 | 2 |
 | [CPH](banking-rails/CPH.md) | 1 | 2.5 | 2.5 | 1 | 4 | 3 |
 | [CPOOL](banking-rails/CPOOL.md) | 2 | 3.6 | 3.3 | 2 | 2 → 0 | 4 |
@@ -110,6 +111,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [LIBEARA](banking-rails/LIBEARA.md) | 1 | 2.7 | 2.7 | 0 | 4 | 4 |
 | [LINGO](banking-rails/LINGO.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
 | [LINK](banking-rails/LINK.md) | 1 | 6.9 | 6.9 | 8 | 5 | 4 |
+| LL | 0 | — | — | — | — | — |
 | [LOFTY](banking-rails/LOFTY.md) | 1 | 2.7 | 2.7 | 0 | 4 | 4 |
 | [LUMIA](banking-rails/LUMIA.md) | 1 | 3.2 | 3.2 | 1 | 4 | 3 |
 | [MAPO](banking-rails/MAPO.md) | 1 | 3.3 | 3.3 | 1 | 4 | 4 |
@@ -134,7 +136,9 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [ORBITER](banking-rails/ORBITER.md) | 1 | 3.8 | 3.8 | 3 | 4 | 3 |
 | [PACT](banking-rails/PACT.md) | 2 | 3.1 | 2.9 | 3 | 1 → 0 | 2 |
 | [PALMUSD](banking-rails/PALMUSD.md) | 1 | 2.6 | 2.6 | 1 | 5 | 2 |
+| PANTHER | 0 | — | — | — | — | — |
 | [PHA](banking-rails/PHA.md) | 2 | 3.9 | 3.8 | 2 | 1 → 0 | 4 |
+| PLI | 0 | — | — | — | — | — |
 | [PLUME](banking-rails/PLUME.md) | 2 | 3.5 | 3.7 | 1 | 3 → 4 | 2 |
 | [POLYX](banking-rails/POLYX.md) | 2 | 3.3 | 3.0 | 1 | 2 → 0 | 3 |
 | [PRO](banking-rails/PRO.md) | 1 | 4.3 | 4.3 | 2 | 4 | 4 |
@@ -168,6 +172,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [SOL](banking-rails/SOL.md) | 1 | 6.6 | 6.6 | 6 | 5 | 5 |
 | [SOLV](banking-rails/SOLV.md) | 3 | 4.7 | 4.6 | 4 | 5 → 4 | 4 |
 | [SPA](banking-rails/SPA.md) | 2 | 2.5 | 2.2 | 1 | 2 → 0 | 2 |
+| SPC | 0 | — | — | — | — | — |
 | [STBL](banking-rails/STBL.md) | 1 | 3.3 | 3.3 | 2 | 4 | 3 |
 | [STOKR](banking-rails/STOKR.md) | 1 | 2.6 | 2.6 | 0 | 4 | 4 |
 | [SUI](banking-rails/SUI.md) | 1 | 3.7 | 3.7 | 1 | 2 | 2 |

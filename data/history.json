@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:22 MST",
+  "generated_at": "2026-11-16 15:37 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -1175,6 +1175,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "COLLAT",
+      "path": "banking-rails/COLLAT.md",
+      "versions": []
     },
     {
       "ticker": "COTI",
@@ -3218,6 +3223,11 @@
       ]
     },
     {
+      "ticker": "LL",
+      "path": "banking-rails/LL.md",
+      "versions": []
+    },
+    {
       "ticker": "LOFTY",
       "path": "banking-rails/LOFTY.md",
       "versions": [
@@ -4037,6 +4047,11 @@
       ]
     },
     {
+      "ticker": "PANTHER",
+      "path": "banking-rails/PANTHER.md",
+      "versions": []
+    },
+    {
       "ticker": "PHA",
       "path": "banking-rails/PHA.md",
       "versions": [
@@ -4091,6 +4106,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "PLI",
+      "path": "banking-rails/PLI.md",
+      "versions": []
     },
     {
       "ticker": "PLUME",
@@ -5444,6 +5464,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "SPC",
+      "path": "banking-rails/SPC.md",
+      "versions": []
     },
     {
       "ticker": "STBL",

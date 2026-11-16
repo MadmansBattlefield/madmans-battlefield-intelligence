@@ -1,9 +1,9 @@
 {
   "title": "Public addresses examined in published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:22 MST",
+  "generated_at": "2026-11-16 15:38 MST",
   "note": "Every address here was extracted from a public evidence link or explorer URL already published in banking-rails/<TICKER>.md. No private worksheets were used. Labels that would name a private individual are not included.",
-  "count": 1329,
+  "count": 1339,
   "addresses": [
     {
       "ticker": "ACH",
@@ -4451,6 +4451,41 @@
       "kind": "address"
     },
     {
+      "ticker": "LL",
+      "chain": "ethereum",
+      "address": "0x0921799cb1d702148131024d18fcde022129dc73",
+      "url": "https://etherscan.io/token/0x0921799cb1d702148131024d18fcde022129dc73#balances",
+      "kind": "token"
+    },
+    {
+      "ticker": "LL",
+      "chain": "ethereum",
+      "address": "0x172363249a18177623514434865611d8902ab331",
+      "url": "https://etherscan.io/address/0x172363249a18177623514434865611d8902ab331",
+      "kind": "address"
+    },
+    {
+      "ticker": "LL",
+      "chain": "ethereum",
+      "address": "0x58edf78281334335effa23101bbe3371b6a36a51",
+      "url": "https://etherscan.io/address/0x58edf78281334335effa23101bbe3371b6a36a51",
+      "kind": "address"
+    },
+    {
+      "ticker": "LL",
+      "chain": "ethereum",
+      "address": "0x63105ee97bfb22dfe23033b3b14a4f8fed121ee9",
+      "url": "https://etherscan.io/address/0x63105ee97bfb22dfe23033b3b14a4f8fed121ee9",
+      "kind": "address"
+    },
+    {
+      "ticker": "LL",
+      "chain": "ethereum",
+      "address": "0x8c6ee4264e84b299e2c66aa5b284043a3d80ca8e",
+      "url": "https://etherscan.io/address/0x8c6ee4264e84b299e2c66aa5b284043a3d80ca8e",
+      "kind": "address"
+    },
+    {
       "ticker": "LUMIA",
       "chain": "ethereum",
       "address": "0x0ee999247f3e33406131bc6aa896192bd40cd6b7",
@@ -5177,6 +5212,34 @@
       "address": "0xfaf0cee6b20e2aaa4b80748a6af4cd89609a3d78",
       "url": "https://etherscan.io/token/0xfaf0cee6b20e2aaa4b80748a6af4cd89609a3d78",
       "kind": "token"
+    },
+    {
+      "ticker": "PANTHER",
+      "chain": "ethereum",
+      "address": "0x18709e89bd403f470088abdacebe86cc60dda12e",
+      "url": "https://etherscan.io/address/0x18709e89bd403f470088abdacebe86cc60dda12e",
+      "kind": "address"
+    },
+    {
+      "ticker": "PANTHER",
+      "chain": "ethereum",
+      "address": "0x505796f5bc290269d2522cf19135ad7aa60dfd77",
+      "url": "https://etherscan.io/address/0x505796f5bc290269d2522cf19135ad7aa60dfd77",
+      "kind": "address"
+    },
+    {
+      "ticker": "PANTHER",
+      "chain": "ethereum",
+      "address": "0x909e34d3f6124c324ac83dcca84b74398a6fa173",
+      "url": "https://etherscan.io/token/0x909e34d3f6124c324ac83dcca84b74398a6fa173#balances",
+      "kind": "token"
+    },
+    {
+      "ticker": "PANTHER",
+      "chain": "ethereum",
+      "address": "0xe1b583de9cb37196031b771686734a31ec365768",
+      "url": "https://etherscan.io/address/0xe1b583de9cb37196031b771686734a31ec365768",
+      "kind": "address"
     },
     {
       "ticker": "PHA",
@@ -6784,13 +6847,6 @@
     {
       "ticker": "SKY",
       "chain": "ethereum",
-      "address": "0x58edf78281334335effa23101bbe3371b6a36a51",
-      "url": "https://etherscan.io/address/0x58edf78281334335effa23101bbe3371b6a36a51",
-      "kind": "address"
-    },
-    {
-      "ticker": "SKY",
-      "chain": "ethereum",
       "address": "0x5c4c6c6d0358baf2ade28ffb1723e70139cd534d",
       "url": "https://etherscan.io/address/0x5c4c6c6d0358baf2ade28ffb1723e70139cd534d",
       "kind": "address"
@@ -7319,6 +7375,20 @@
       "address": "0xd7f721a2bfdc29d38400f2fda17e721670b901d9",
       "url": "https://intel.arkm.com/explorer/address/0xd7f721a2bfdc29d38400f2fda17e721670b901d9",
       "kind": "address"
+    },
+    {
+      "ticker": "SPC",
+      "chain": "ethereum",
+      "address": "0x2d358d2ce3a22a91eaf638bb7d60062a096a005d",
+      "url": "https://etherscan.io/address/0x2d358d2ce3a22a91eaf638bb7d60062a096a005d",
+      "kind": "address"
+    },
+    {
+      "ticker": "SPC",
+      "chain": "ethereum",
+      "address": "0x86ed939b500e121c0c5f493f399084db596dad20",
+      "url": "https://etherscan.io/token/0x86ed939b500e121c0c5f493f399084db596dad20#balances",
+      "kind": "token"
     },
     {
       "ticker": "STBL",

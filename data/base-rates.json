@@ -1,12 +1,12 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:22 MST",
-  "universe": 179,
+  "generated_at": "2026-11-16 15:38 MST",
+  "universe": 184,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
     "count": 7,
-    "share": 0.0391,
+    "share": 0.038,
     "tickers": [
       "AERO",
       "BTC",
@@ -18,8 +18,8 @@
     ]
   },
   "fail_revenue_gate": {
-    "count": 154,
-    "share": 0.8603,
+    "count": 159,
+    "share": 0.8641,
     "tickers": [
       "ACH",
       "ADA",
@@ -43,6 +43,7 @@
       "CFG",
       "CFX",
       "CHEX",
+      "COLLAT",
       "COTI",
       "CPH",
       "CPOOL",
@@ -93,6 +94,7 @@
       "KLV",
       "KTA",
       "LINGO",
+      "LL",
       "LUMIA",
       "MAPO",
       "MASQ",
@@ -113,7 +115,9 @@
       "ORBITER",
       "PACT",
       "PALMUSD",
+      "PANTHER",
       "PHA",
+      "PLI",
       "PLUME",
       "POLYX",
       "PRO",
@@ -140,6 +144,7 @@
       "SIBERIUM",
       "SKEY",
       "SPA",
+      "SPC",
       "STBL",
       "SUI",
       "SUPRA",
@@ -179,7 +184,7 @@
   },
   "fail_selling_gate": {
     "count": 21,
-    "share": 0.1173,
+    "share": 0.1141,
     "tickers": [
       "CPOOL",
       "EDEL",
@@ -206,7 +211,7 @@
   },
   "fail_both_gates": {
     "count": 17,
-    "share": 0.095,
+    "share": 0.0924,
     "tickers": [
       "CPOOL",
       "EDEL",
@@ -229,7 +234,7 @@
   },
   "proven_pump_day_sale": {
     "count": 21,
-    "share": 0.1173,
+    "share": 0.1141,
     "tickers": [
       "ALGO",
       "CELO",
@@ -260,8 +265,8 @@
     "tickers": []
   },
   "selling_not_proven": {
-    "count": 121,
-    "share": 0.676,
+    "count": 126,
+    "share": 0.6848,
     "tickers": [
       "ACH",
       "ADA",
@@ -281,6 +286,7 @@
       "CCD",
       "CFG",
       "CHEX",
+      "COLLAT",
       "COTI",
       "CPH",
       "CRO",
@@ -320,6 +326,7 @@
       "KLV",
       "KTA",
       "LINGO",
+      "LL",
       "LUMIA",
       "MAPO",
       "MASQ",
@@ -335,6 +342,8 @@
       "ONDO",
       "ORAI",
       "ORBITER",
+      "PANTHER",
+      "PLI",
       "PLUME",
       "PRO",
       "PROPC",
@@ -357,6 +366,7 @@
       "SIBERIUM",
       "SKEY",
       "SOLV",
+      "SPC",
       "STBL",
       "SUPRA",
       "SWCH",
@@ -387,8 +397,8 @@
     ]
   },
   "selling_score_equals_4": {
-    "count": 109,
-    "share": 0.6089,
+    "count": 114,
+    "share": 0.6196,
     "tickers": [
       "ACH",
       "AEON",
@@ -404,6 +414,7 @@
       "CCD",
       "CFG",
       "CHEX",
+      "COLLAT",
       "COTI",
       "CPH",
       "CRO",
@@ -438,6 +449,7 @@
       "KLV",
       "KTA",
       "LINGO",
+      "LL",
       "LUMIA",
       "MAPO",
       "MASQ",
@@ -453,6 +465,8 @@
       "ONDO",
       "ORAI",
       "ORBITER",
+      "PANTHER",
+      "PLI",
       "PLUME",
       "PRO",
       "PROPC",
@@ -474,6 +488,7 @@
       "SIBERIUM",
       "SKEY",
       "SOLV",
+      "SPC",
       "STBL",
       "SUPRA",
       "SWCH",
@@ -503,7 +518,7 @@
   },
   "undisclosed_pump_day_sale_silence": {
     "count": 15,
-    "share": 0.0838,
+    "share": 0.0815,
     "tickers": [
       "CPOOL",
       "FXS",
@@ -524,7 +539,7 @@
   },
   "one_hop_sale_proven": {
     "count": 21,
-    "share": 0.1173,
+    "share": 0.1141,
     "tickers": [
       "ALGO",
       "CELO",
@@ -551,7 +566,7 @@
   },
   "one_hop_transfer_not_proven_sale": {
     "count": 20,
-    "share": 0.1117,
+    "share": 0.1087,
     "tickers": [
       "ACH",
       "API3",
@@ -577,7 +592,7 @@
   },
   "revenue_reaches_holders_yes": {
     "count": 30,
-    "share": 0.1676,
+    "share": 0.163,
     "tickers": [
       "AERO",
       "APT",
@@ -612,8 +627,8 @@
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 148,
-    "share": 0.8268,
+    "count": 153,
+    "share": 0.8315,
     "tickers": [
       "ACH",
       "ADA",
@@ -637,6 +652,7 @@
       "CFG",
       "CFX",
       "CHEX",
+      "COLLAT",
       "COTI",
       "CPH",
       "CPOOL",
@@ -686,6 +702,7 @@
       "KLV",
       "KTA",
       "LINGO",
+      "LL",
       "LUMIA",
       "MAPO",
       "MASQ",
@@ -706,7 +723,9 @@
       "ORBITER",
       "PACT",
       "PALMUSD",
+      "PANTHER",
       "PHA",
+      "PLI",
       "PLUME",
       "POLYX",
       "PRO",
@@ -733,6 +752,7 @@
       "SIBERIUM",
       "SKEY",
       "SOLV",
+      "SPC",
       "STBL",
       "SUI",
       "SUPRA",
@@ -767,7 +787,7 @@
   },
   "revenue_reaches_holders_unclear": {
     "count": 1,
-    "share": 0.0056,
+    "share": 0.0054,
     "tickers": [
       "XEP"
     ]

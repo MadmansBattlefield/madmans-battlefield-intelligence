@@ -1,7 +1,7 @@
 ---
 title: All projects
 total: 292
-scored_reports: 179
+scored_reports: 184
 passing: 7
 last_updated: 2026-11-16
 timezone: MST
@@ -14,21 +14,21 @@ disclaimer: Research only. Not financial advice. Not a recommendation to buy or 
 **Research only. Not financial advice. Not a recommendation to buy or sell.**
 Updated 16 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md). Market and status figures in the unfinished groups were read 16 Nov 2026 5:24 AM MST from [CoinGecko](https://www.coingecko.com/), [DefiLlama](https://defillama.com/) and [CoinPaprika](https://coinpaprika.com/).
 
-**292 coins** in the research pipeline. **179** have a full v3 report. **7 pass** and **172 fail.** **15** are not tokens and **93** are dead or wound down; both are excluded from the ranking and the scoreboard. The other **5** are still in progress, grouped by how close each is to a full report.
+**292 coins** in the research pipeline. **184** have a full v3 report. **7 pass** and **177 fail.** **15** are not tokens and **93** are dead or wound down; both are excluded from the ranking and the scoreboard. The other **0** are still in progress, grouped by how close each is to a full report.
 
-**179** ✅ done · **0** 🟢 close · **5** 🟡 need wallet work · **0** 🔴 big gaps · **15** 🚫 not a token · **93** ⚫ dead or wound down (21 of them [Unverified])
+**184** ✅ done · **0** 🟢 close · **0** 🟡 need wallet work · **0** 🔴 big gaps · **15** 🚫 not a token · **93** ⚫ dead or wound down (21 of them [Unverified])
 
 ## 📊 Scoreboard
 
-Live counts across all **179** published v3 reports. Rebuilt on every push. Full detail in [BASE-RATES.md](../BASE-RATES.md).
+Live counts across all **184** published v3 reports. Rebuilt on every push. Full detail in [BASE-RATES.md](../BASE-RATES.md).
 
 | Measure | Count | Share |
 |---|---:|---:|
 | ✅ Pass overall | **7** | 4% |
-| 🔴 Fail on revenue (Revenue 3 or below) | **154** | 86% |
-| 🔴 Fail on insider selling (Selling 3 or below) | **21** | 12% |
-| 🔴 Fail both | **17** | 10% |
-| 🟨 Insider selling not proven | **121** | 68% |
+| 🔴 Fail on revenue (Revenue 3 or below) | **159** | 86% |
+| 🔴 Fail on insider selling (Selling 3 or below) | **21** | 11% |
+| 🔴 Fail both | **17** | 9% |
+| 🟨 Insider selling not proven | **126** | 68% |
 | 🤐 Pump-day sale with no disclosure | **15** | 8% |
 | 🚫 Not a token (excluded) | **15** | — |
 | ⚫ Dead, short report kept (excluded) | **4** | — |
@@ -54,7 +54,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 <a id="done"></a>
 ## ✅ Done (v3 reports)
 
-**179 reports. 7 pass, 172 fail.** A score of 6.0 or more is a PASS. If Revenue or Selling scores 3 or less, it's an automatic FAIL.
+**184 reports. 7 pass, 177 fail.** A score of 6.0 or more is a PASS. If Revenue or Selling scores 3 or less, it's an automatic FAIL.
 
 | # | Coin | Name | Score | Status | What sinks it |
 |:---:|---|---|---:|:---:|---|
@@ -151,92 +151,97 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 91 | [SWFTC](SWFTC.md) | SWFT Blockchain | 3.8 | ❌ FAIL | Revenue gate |
 | 92 | [ZKJ](ZKJ.md) | Polyhedra Network | 3.8 | ❌ FAIL | Revenue gate |
 | 93 | [BPRO](BPRO.md) | Money On Chain BPRO | 3.8 | ❌ FAIL | Revenue gate |
-| 94 | [TRB](TRB.md) | Tellor | 3.7 | ❌ FAIL | Revenue and Selling gates |
-| 95 | [PLUME](PLUME.md) | Plume | 3.7 | ❌ FAIL | Revenue gate |
-| 96 | [SUI](SUI.md) | Sui | 3.7 | ❌ FAIL | Revenue and Selling gates |
-| 97 | [CRO](CRO.md) | Cronos (Crypto.com) | 3.7 | ❌ FAIL | Revenue gate |
-| 98 | [MOCA](MOCA.md) | Moca Network | 3.7 | ❌ FAIL | Revenue gate |
-| 99 | [TRADE](TRADE.md) | Polytrade | 3.7 | ❌ FAIL | Revenue gate |
-| 100 | [IOTX](IOTX.md) | IoTeX | 3.7 | ❌ FAIL | Revenue gate |
-| 101 | [TRUF](TRUF.md) | TRUF.Network (Truflation) | 3.7 | ❌ FAIL | Revenue gate |
-| 102 | [CTK](CTK.md) | Shentu | 3.7 | ❌ FAIL | Revenue gate |
-| 103 | [ZEN](ZEN.md) | Horizen | 3.7 | ❌ FAIL | Revenue gate |
-| 104 | [KAIO](KAIO.md) | KAIO (formerly Libre Capital) | 3.6 | ❌ FAIL | Revenue and Selling gates |
-| 105 | [SHX](SHX.md) | Stronghold | 3.6 | ❌ FAIL | Revenue gate |
-| 106 | [SUPRA](SUPRA.md) | Supra | 3.6 | ❌ FAIL | Revenue gate |
-| 107 | [VELO](VELO.md) | Velo | 3.6 | ❌ FAIL | Revenue gate |
-| 108 | [QANX](QANX.md) | QANplatform | 3.6 | ❌ FAIL | Revenue gate |
-| 109 | [ACH](ACH.md) | Alchemy Pay | 3.6 | ❌ FAIL | Revenue gate |
-| 110 | [PROPC](PROPC.md) | Propchain | 3.6 | ❌ FAIL | Revenue gate |
-| 111 | [CTC](CTC.md) | Creditcoin (CTC, ERC-20 G-CRE) | 3.6 | ❌ FAIL | Revenue gate |
-| 112 | [ZK](ZK.md) | ZKsync | 3.5 | ❌ FAIL | Revenue and Selling gates |
-| 113 | [SHPING](SHPING.md) | Shping | 3.5 | ❌ FAIL | Revenue gate |
-| 114 | [RBNT](RBNT.md) | Redbelly Network | 3.5 | ❌ FAIL | Revenue gate |
-| 115 | [S](S.md) | Sonic | 3.5 | ❌ FAIL | Revenue gate |
-| 116 | [WIREX](WIREX.md) | Wirex | 3.5 | ❌ FAIL | Revenue gate |
-| 117 | [ZKP](ZKP.md) | zkPass | 3.5 | ❌ FAIL | Revenue gate |
-| 118 | [TX](TX.md) | TX (Coreum + Sologenic) | 3.5 | ❌ FAIL | Revenue gate |
-| 119 | [KTA](KTA.md) | Keeta | 3.5 | ❌ FAIL | Revenue gate |
-| 120 | [MTL](MTL.md) | Metal DAO | 3.5 | ❌ FAIL | Revenue gate |
-| 121 | [CHEX](CHEX.md) | Chintai | 3.5 | ❌ FAIL | Revenue gate |
-| 122 | [ZKC](ZKC.md) | Boundless | 3.4 | ❌ FAIL | Revenue gate |
-| 123 | [SKEY](SKEY.md) | Skey Network | 3.4 | ❌ FAIL | Revenue gate |
-| 124 | [OM](OM.md) | MANTRA | 3.4 | ❌ FAIL | Revenue gate |
-| 125 | [PUNDIX](PUNDIX.md) | Pundi X | 3.4 | ❌ FAIL | Revenue gate |
-| 126 | [ETN](ETN.md) | Electroneum | 3.4 | ❌ FAIL | Revenue gate |
-| 127 | [KLV](KLV.md) | Klever | 3.4 | ❌ FAIL | Revenue gate |
-| 128 | [BKN](BKN.md) | Brickken | 3.4 | ❌ FAIL | Revenue gate |
-| 129 | [CPOOL](CPOOL.md) | Clearpool | 3.3 | ❌ FAIL | Revenue and Selling gates |
-| 130 | [HAI](HAI.md) | Hacken (HAI) | 3.3 | ❌ FAIL | Revenue gate |
-| 131 | [ZIG](ZIG.md) | ZIGChain (Zignaly) | 3.3 | ❌ FAIL | Revenue and Selling gates |
-| 132 | [STBL](STBL.md) | STBL | 3.3 | ❌ FAIL | Revenue gate |
-| 133 | [SHARE](SHARE.md) | ShareX | 3.3 | ❌ FAIL | Revenue gate |
-| 134 | [AEON](AEON.md) | AEON | 3.3 | ❌ FAIL | Revenue gate |
-| 135 | [ARRR](ARRR.md) | Pirate Chain | 3.3 | ❌ FAIL | Revenue gate |
-| 136 | [MAPO](MAPO.md) | MAP Protocol | 3.3 | ❌ FAIL | Revenue gate |
-| 137 | [CTX](CTX.md) | Cryptex Finance | 3.2 | ❌ FAIL | Revenue gate |
-| 138 | [YELLOW](YELLOW.md) | Yellow Network | 3.2 | ❌ FAIL | Revenue gate |
-| 139 | [LUMIA](LUMIA.md) | Lumia | 3.2 | ❌ FAIL | Revenue gate |
-| 140 | [DOVU](DOVU.md) | DOVU | 3.2 | ❌ FAIL | Revenue gate |
-| 141 | [IXS](IXS.md) | IX Swap (IXS) | 3.2 | ❌ FAIL | Revenue gate |
-| 142 | [KAVA](KAVA.md) | Kava | 3.1 | ❌ FAIL | Revenue gate |
-| 143 | [XEP](XEP.md) | Electra Protocol | 3.1 | ❌ FAIL | Revenue gate |
-| 144 | [EXA](EXA.md) | Exactly Protocol | 3.1 | ❌ FAIL | Revenue gate |
-| 145 | [HONEY](HONEY.md) | Hivemapper | 3.1 | ❌ FAIL | Revenue gate |
-| 146 | [CSPR](CSPR.md) | Casper Network | 3.1 | ❌ FAIL | Revenue gate |
-| 147 | [IOST](IOST.md) | IOST | 3.1 | ❌ FAIL | Revenue gate |
-| 148 | [TLOS](TLOS.md) | Telos | 3.1 | ❌ FAIL | Revenue gate |
-| 149 | [METAL](METAL.md) | Metal Blockchain | 3.1 | ❌ FAIL | Revenue gate |
-| 150 | [MDT](MDT.md) | Measurable Data Token | 3.1 | ❌ FAIL | Revenue gate |
-| 151 | [BLZ](BLZ.md) | Bluzelle | 3.1 | ❌ FAIL | Revenue gate |
-| 152 | [EOS](EOS.md) | EOS (now Vaulta) | 3.1 | ❌ FAIL | Revenue gate |
-| 153 | [LINGO](LINGO.md) | Lingo | 3.1 | ❌ FAIL | Revenue gate |
-| 154 | [POLYX](POLYX.md) | Polymesh | 3.0 | ❌ FAIL | Revenue and Selling gates |
-| 155 | [ORAI](ORAI.md) | Oraichain | 3.0 | ❌ FAIL | Revenue gate |
-| 156 | [EL](EL.md) | ELYSIA | 3.0 | ❌ FAIL | Revenue gate |
-| 157 | [XDB](XDB.md) | XDB CHAIN (formerly DigitalBits) | 2.9 | ❌ FAIL | Revenue and Selling gates |
-| 158 | [PACT](PACT.md) | PACT | 2.9 | ❌ FAIL | Revenue and Selling gates |
-| 159 | [EPICCASH](EPICCASH.md) | Epic Cash | 2.9 | ❌ FAIL | Revenue gate |
-| 160 | [HANDLE](HANDLE.md) | HandlPay (HANDL) | 2.9 | ❌ FAIL | Revenue gate |
-| 161 | [JASMY](JASMY.md) | JasmyCoin | 2.8 | ❌ FAIL | Revenue and Selling gates |
-| 162 | [MASQ](MASQ.md) | MASQ | 2.7 | ❌ FAIL | Revenue gate |
-| 163 | [RIO](RIO.md) | Realio Network | 2.7 | ❌ FAIL | Revenue gate |
-| 164 | [COTI](COTI.md) | COTI | 2.7 | ❌ FAIL | Revenue gate |
-| 165 | [HECTO](HECTO.md) | Hecto | 2.7 | ❌ FAIL | Revenue gate |
-| 166 | [SERV](SERV.md) | OpenServ | 2.6 | ❌ FAIL | Revenue and Selling gates |
-| 167 | [SCRT](SCRT.md) | Secret Network | 2.6 | ❌ FAIL | Revenue gate |
-| 168 | [PALMUSD](PALMUSD.md) | Palm USD (PUSD) | 2.6 | ❌ FAIL | Revenue gate |
-| 169 | [GOLDFINGER](GOLDFINGER.md) | GoldFinger (GF) | 2.6 | ❌ FAIL | Revenue gate |
-| 170 | [EDEL](EDEL.md) | Edel Finance | 2.5 | ❌ FAIL | Revenue and Selling gates |
-| 171 | [SWCH](SWCH.md) | SwissCheese | 2.5 | ❌ FAIL | Revenue gate |
-| 172 | [MNSRY](MNSRY.md) | Mansory Token | 2.5 | ❌ FAIL | Revenue gate |
-| 173 | [CPH](CPH.md) | Cypherium | 2.5 | ❌ FAIL | Revenue gate |
-| 174 | [H](H.md) | Humanity Protocol | 2.4 | ❌ FAIL | Revenue gate |
-| 175 | [SPA](SPA.md) | Sperax | 2.2 | ❌ FAIL | Revenue and Selling gates |
-| 176 | [REALIZ](REALIZ.md) | Realiz (TPT30) | 2.1 | ❌ FAIL | Revenue gate |
-| 177 | [ROUTER](ROUTER.md) | Solrouter | 2.0 | ❌ FAIL | Revenue and Selling gates |
-| 178 | [SIBERIUM](SIBERIUM.md) | Siberium Network (SIBR) | 1.9 | ❌ FAIL | Revenue gate |
-| 179 | [MTR](MTR.md) | Meter (MTR / MTRG) | 1.9 | ❌ FAIL | Revenue gate |
+| 94 | [COLLAT](COLLAT.md) | Collaterize | 3.8 | ❌ FAIL | Revenue gate |
+| 95 | [TRB](TRB.md) | Tellor | 3.7 | ❌ FAIL | Revenue and Selling gates |
+| 96 | [PLUME](PLUME.md) | Plume | 3.7 | ❌ FAIL | Revenue gate |
+| 97 | [SUI](SUI.md) | Sui | 3.7 | ❌ FAIL | Revenue and Selling gates |
+| 98 | [CRO](CRO.md) | Cronos (Crypto.com) | 3.7 | ❌ FAIL | Revenue gate |
+| 99 | [MOCA](MOCA.md) | Moca Network | 3.7 | ❌ FAIL | Revenue gate |
+| 100 | [TRADE](TRADE.md) | Polytrade | 3.7 | ❌ FAIL | Revenue gate |
+| 101 | [IOTX](IOTX.md) | IoTeX | 3.7 | ❌ FAIL | Revenue gate |
+| 102 | [TRUF](TRUF.md) | TRUF.Network (Truflation) | 3.7 | ❌ FAIL | Revenue gate |
+| 103 | [CTK](CTK.md) | Shentu | 3.7 | ❌ FAIL | Revenue gate |
+| 104 | [ZEN](ZEN.md) | Horizen | 3.7 | ❌ FAIL | Revenue gate |
+| 105 | [LL](LL.md) | LightLink | 3.7 | ❌ FAIL | Revenue gate |
+| 106 | [KAIO](KAIO.md) | KAIO (formerly Libre Capital) | 3.6 | ❌ FAIL | Revenue and Selling gates |
+| 107 | [SHX](SHX.md) | Stronghold | 3.6 | ❌ FAIL | Revenue gate |
+| 108 | [SUPRA](SUPRA.md) | Supra | 3.6 | ❌ FAIL | Revenue gate |
+| 109 | [VELO](VELO.md) | Velo | 3.6 | ❌ FAIL | Revenue gate |
+| 110 | [QANX](QANX.md) | QANplatform | 3.6 | ❌ FAIL | Revenue gate |
+| 111 | [ACH](ACH.md) | Alchemy Pay | 3.6 | ❌ FAIL | Revenue gate |
+| 112 | [PROPC](PROPC.md) | Propchain | 3.6 | ❌ FAIL | Revenue gate |
+| 113 | [CTC](CTC.md) | Creditcoin (CTC, ERC-20 G-CRE) | 3.6 | ❌ FAIL | Revenue gate |
+| 114 | [ZK](ZK.md) | ZKsync | 3.5 | ❌ FAIL | Revenue and Selling gates |
+| 115 | [SHPING](SHPING.md) | Shping | 3.5 | ❌ FAIL | Revenue gate |
+| 116 | [RBNT](RBNT.md) | Redbelly Network | 3.5 | ❌ FAIL | Revenue gate |
+| 117 | [S](S.md) | Sonic | 3.5 | ❌ FAIL | Revenue gate |
+| 118 | [WIREX](WIREX.md) | Wirex | 3.5 | ❌ FAIL | Revenue gate |
+| 119 | [ZKP](ZKP.md) | zkPass | 3.5 | ❌ FAIL | Revenue gate |
+| 120 | [TX](TX.md) | TX (Coreum + Sologenic) | 3.5 | ❌ FAIL | Revenue gate |
+| 121 | [KTA](KTA.md) | Keeta | 3.5 | ❌ FAIL | Revenue gate |
+| 122 | [MTL](MTL.md) | Metal DAO | 3.5 | ❌ FAIL | Revenue gate |
+| 123 | [CHEX](CHEX.md) | Chintai | 3.5 | ❌ FAIL | Revenue gate |
+| 124 | [ZKC](ZKC.md) | Boundless | 3.4 | ❌ FAIL | Revenue gate |
+| 125 | [SKEY](SKEY.md) | Skey Network | 3.4 | ❌ FAIL | Revenue gate |
+| 126 | [PANTHER](PANTHER.md) | Panther Protocol | 3.4 | ❌ FAIL | Revenue gate |
+| 127 | [OM](OM.md) | MANTRA | 3.4 | ❌ FAIL | Revenue gate |
+| 128 | [PUNDIX](PUNDIX.md) | Pundi X | 3.4 | ❌ FAIL | Revenue gate |
+| 129 | [ETN](ETN.md) | Electroneum | 3.4 | ❌ FAIL | Revenue gate |
+| 130 | [KLV](KLV.md) | Klever | 3.4 | ❌ FAIL | Revenue gate |
+| 131 | [BKN](BKN.md) | Brickken | 3.4 | ❌ FAIL | Revenue gate |
+| 132 | [CPOOL](CPOOL.md) | Clearpool | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 133 | [HAI](HAI.md) | Hacken (HAI) | 3.3 | ❌ FAIL | Revenue gate |
+| 134 | [ZIG](ZIG.md) | ZIGChain (Zignaly) | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 135 | [STBL](STBL.md) | STBL | 3.3 | ❌ FAIL | Revenue gate |
+| 136 | [SHARE](SHARE.md) | ShareX | 3.3 | ❌ FAIL | Revenue gate |
+| 137 | [AEON](AEON.md) | AEON | 3.3 | ❌ FAIL | Revenue gate |
+| 138 | [ARRR](ARRR.md) | Pirate Chain | 3.3 | ❌ FAIL | Revenue gate |
+| 139 | [MAPO](MAPO.md) | MAP Protocol | 3.3 | ❌ FAIL | Revenue gate |
+| 140 | [CTX](CTX.md) | Cryptex Finance | 3.2 | ❌ FAIL | Revenue gate |
+| 141 | [YELLOW](YELLOW.md) | Yellow Network | 3.2 | ❌ FAIL | Revenue gate |
+| 142 | [LUMIA](LUMIA.md) | Lumia | 3.2 | ❌ FAIL | Revenue gate |
+| 143 | [DOVU](DOVU.md) | DOVU | 3.2 | ❌ FAIL | Revenue gate |
+| 144 | [IXS](IXS.md) | IX Swap (IXS) | 3.2 | ❌ FAIL | Revenue gate |
+| 145 | [SPC](SPC.md) | SpaceChain | 3.2 | ❌ FAIL | Revenue gate |
+| 146 | [KAVA](KAVA.md) | Kava | 3.1 | ❌ FAIL | Revenue gate |
+| 147 | [XEP](XEP.md) | Electra Protocol | 3.1 | ❌ FAIL | Revenue gate |
+| 148 | [EXA](EXA.md) | Exactly Protocol | 3.1 | ❌ FAIL | Revenue gate |
+| 149 | [HONEY](HONEY.md) | Hivemapper | 3.1 | ❌ FAIL | Revenue gate |
+| 150 | [CSPR](CSPR.md) | Casper Network | 3.1 | ❌ FAIL | Revenue gate |
+| 151 | [IOST](IOST.md) | IOST | 3.1 | ❌ FAIL | Revenue gate |
+| 152 | [TLOS](TLOS.md) | Telos | 3.1 | ❌ FAIL | Revenue gate |
+| 153 | [METAL](METAL.md) | Metal Blockchain | 3.1 | ❌ FAIL | Revenue gate |
+| 154 | [MDT](MDT.md) | Measurable Data Token | 3.1 | ❌ FAIL | Revenue gate |
+| 155 | [BLZ](BLZ.md) | Bluzelle | 3.1 | ❌ FAIL | Revenue gate |
+| 156 | [EOS](EOS.md) | EOS (now Vaulta) | 3.1 | ❌ FAIL | Revenue gate |
+| 157 | [LINGO](LINGO.md) | Lingo | 3.1 | ❌ FAIL | Revenue gate |
+| 158 | [POLYX](POLYX.md) | Polymesh | 3.0 | ❌ FAIL | Revenue and Selling gates |
+| 159 | [ORAI](ORAI.md) | Oraichain | 3.0 | ❌ FAIL | Revenue gate |
+| 160 | [EL](EL.md) | ELYSIA | 3.0 | ❌ FAIL | Revenue gate |
+| 161 | [XDB](XDB.md) | XDB CHAIN (formerly DigitalBits) | 2.9 | ❌ FAIL | Revenue and Selling gates |
+| 162 | [PACT](PACT.md) | PACT | 2.9 | ❌ FAIL | Revenue and Selling gates |
+| 163 | [EPICCASH](EPICCASH.md) | Epic Cash | 2.9 | ❌ FAIL | Revenue gate |
+| 164 | [HANDLE](HANDLE.md) | HandlPay (HANDL) | 2.9 | ❌ FAIL | Revenue gate |
+| 165 | [JASMY](JASMY.md) | JasmyCoin | 2.8 | ❌ FAIL | Revenue and Selling gates |
+| 166 | [PLI](PLI.md) | Plugin | 2.8 | ❌ FAIL | Revenue gate |
+| 167 | [MASQ](MASQ.md) | MASQ | 2.7 | ❌ FAIL | Revenue gate |
+| 168 | [RIO](RIO.md) | Realio Network | 2.7 | ❌ FAIL | Revenue gate |
+| 169 | [COTI](COTI.md) | COTI | 2.7 | ❌ FAIL | Revenue gate |
+| 170 | [HECTO](HECTO.md) | Hecto | 2.7 | ❌ FAIL | Revenue gate |
+| 171 | [SERV](SERV.md) | OpenServ | 2.6 | ❌ FAIL | Revenue and Selling gates |
+| 172 | [SCRT](SCRT.md) | Secret Network | 2.6 | ❌ FAIL | Revenue gate |
+| 173 | [PALMUSD](PALMUSD.md) | Palm USD (PUSD) | 2.6 | ❌ FAIL | Revenue gate |
+| 174 | [GOLDFINGER](GOLDFINGER.md) | GoldFinger (GF) | 2.6 | ❌ FAIL | Revenue gate |
+| 175 | [EDEL](EDEL.md) | Edel Finance | 2.5 | ❌ FAIL | Revenue and Selling gates |
+| 176 | [SWCH](SWCH.md) | SwissCheese | 2.5 | ❌ FAIL | Revenue gate |
+| 177 | [MNSRY](MNSRY.md) | Mansory Token | 2.5 | ❌ FAIL | Revenue gate |
+| 178 | [CPH](CPH.md) | Cypherium | 2.5 | ❌ FAIL | Revenue gate |
+| 179 | [H](H.md) | Humanity Protocol | 2.4 | ❌ FAIL | Revenue gate |
+| 180 | [SPA](SPA.md) | Sperax | 2.2 | ❌ FAIL | Revenue and Selling gates |
+| 181 | [REALIZ](REALIZ.md) | Realiz (TPT30) | 2.1 | ❌ FAIL | Revenue gate |
+| 182 | [ROUTER](ROUTER.md) | Solrouter | 2.0 | ❌ FAIL | Revenue and Selling gates |
+| 183 | [SIBERIUM](SIBERIUM.md) | Siberium Network (SIBR) | 1.9 | ❌ FAIL | Revenue gate |
+| 184 | [MTR](MTR.md) | Meter (MTR / MTRG) | 1.9 | ❌ FAIL | Revenue gate |
 
 ---
 
@@ -253,15 +258,10 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 <a id="wallet"></a>
 ## 🟡 Need wallet work
 
-**5 coins.** These still need the team-wallet and pump-day tracing. The [Next up](#next) names are listed first, then the rest by 30-day DefiLlama fees or revenue, then 24h volume.
+**0 coins.** These still need the team-wallet and pump-day tracing. The [Next up](#next) names are listed first, then the rest by 30-day DefiLlama fees or revenue, then 24h volume.
 
 | Ticker | Name | Mcap | 24h vol | 30d fees | 30d rev | Red flag | Links | What's missing |
 |---|---|---:|---:|---:|---:|---|---|---|
-| LL | LightLink | $58.02k | $157.61k | $0 | — | dying: mcap <$1M | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/coins/lightlink) · [DefiLlama](https://defillama.com/chain/LightLink) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
-| COLLAT | Collateralize | $549.55k | $53.84k | — | — | dying: mcap <$1M | [CoinGecko](https://www.coingecko.com/en/coins/collaterize) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Team, Token, Prod, Sec, Catal |
-| PANTHER | Panther Protocol | $607.45k | $52.94k | — | — | dying: mcap <$1M | [Site](https://www.pantherprotocol.io/) · [CoinGecko](https://www.coingecko.com/en/coins/panther) · [DefiLlama](https://defillama.com/protocol/panther-protocol) | Missing: Hold, Sell, Liq, Adopt, Reg · Partial: Rev, Team, Token, Prod, Sec, Catal |
-| PLI | Plugin | $893.37k | $13.04k | — | — | dying: mcap <$1M | [CoinGecko](https://www.coingecko.com/en/coins/plugin) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Token, Prod, Sec, Catal |
-| SPC | SpaceChain | $3.64M | $8.99k | — | — | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/spacechain-erc-20) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
 
 ---
 
@@ -472,7 +472,7 @@ These tickers were easy to mix up, or the public listing does not clearly match 
 | TX | TX (Coreum + Sologenic) | Mapped to a CoinGecko id named only “tx” [Unverified]. |
 | AEON | AEON | Three AEON CoinGecko ids; used aeon-3 [Unverified which is the intended project]. |
 | BXX | BXX | Mapped to Baanx (BXX); pipeline name is only “BXX” [Unverified]. |
-| COLLAT | Collateralize | Pipeline name “Collateralize” vs CoinGecko “Collaterize” (spelling). Likely the same token, [Unverified]. |
+| COLLAT | Collaterize | Pipeline name “Collateralize” vs CoinGecko “Collaterize” (spelling). Likely the same token, [Unverified]. |
 | MXC | MXC Foundation | CoinGecko now lists the project as Moonchain (MCH) after the MXC rebrand. |
 | THUSD | Theo Network thUSD | theo-usd vs a separate thusd listing; which is Theo Network thUSD is [Unverified]. |
 | NANOPAY | NanoPay | CoinGecko id nanopay uses symbol NANO, which collides with Nano (XNO). Identity is [Unverified]. Last CoinGecko update was 10 Nov 2026 and 24h volume was $0. |

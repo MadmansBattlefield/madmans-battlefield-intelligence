@@ -1,0 +1,223 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SPC",
+  "name": "SpaceChain",
+  "chain": "ethereum",
+  "contract": "0x86ed939b500e121c0c5f493f399084db596dad20",
+  "overall_score": 3.2,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 2,
+    "product_development": 5,
+    "adoption_customers": 2,
+    "security_audits": 4,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found in this pass",
+    "team_wallet_to_exchange_during_pump": "not tested: no exchange series; top holders sent nothing to exchanges in the past year",
+    "one_hop_sale_status": "none_found",
+    "entity_concentration": "one unlabelled proxy holds about 64% of supply"
+  },
+  "price_usd": 0.00609034,
+  "price_source": "CoinGecko `spacechain-erc-20`, 16 Nov 2026 ~3:00 PM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Satellite and communications income stays with the company; no burn, buyback or fee share to SPC holders was found.",
+    "pump_day_price_source": "not run (no Gate, MEXC, KuCoin or Kraken USDT series)",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x2d358d2ce3a22a91eaf638bb7d60062a096a005d",
+        "label": "Unlabelled proxy (63.9%)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Ethplorer top holders + Etherscan contract name"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.00609034,
+    "market_cap_text": "$3.68M",
+    "fdv_text": "$3.68M",
+    "volume_24h_text": "$10.1k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SPC.md",
+    "sha256": "8bf1083bbc78ddd4f976f347efac3e8fa1367b35226953822075d4e28acf7047",
+    "bytes": 9820,
+    "extracted_at": "2026-11-16 15:37 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko `spacechain-erc-20`, 16 Nov 2026 ~3:00 PM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Market data and venues",
+      "url": "CoinGecko `spacechain-erc-20`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Token contract and holders",
+      "url": "contract",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Token contract and holders",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x2d358d2ce3a22a91eaf638bb7d60062a096a005d",
+      "url": "https://etherscan.io/address/0x2d358d2ce3a22a91eaf638bb7d60062a096a005d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x86ed939b500e121c0c5f493f399084db596dad20",
+      "url": "https://etherscan.io/token/0x86ed939b500e121c0c5f493f399084db596dad20#balances",
+      "kind": "token"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "not run (no Gate, MEXC, KuCoin or Kraken USDT series)",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not tested: no exchange series; top holders sent nothing to exchanges in the past year"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "Nothing reaches holders. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x2d358d2ce3a22a91eaf638bb7d60062a096a005d",
+      "url": null,
+      "label": "Unlabelled proxy (63.9%)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [CoinGecko `spacechain-erc-20`](https://www.coingecko.com/en/coins/spacechain-erc-20): price, supply, venues and description, read 16 Nov 2026",
+      "urls": [
+        "CoinGecko `spacechain-erc-20`"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] `scripts/pump_day_test.py`: no Gate, MEXC, KuCoin or Kraken USDT series returned on 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Token contract and [holders](https://etherscan.io/token/0x86ed939b500e121c0c5f493f399084db596dad20#balances) on the chain explorer; top holders from the Ethplorer API; contract or EOA status from Etherscan v2 `eth_getCode`",
+      "urls": [
+        "holders"
+      ],
+      "date_read": null
+    }
+  ]
+}
