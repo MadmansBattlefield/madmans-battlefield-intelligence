@@ -4,13 +4,13 @@
   "name": "Inverse Finance",
   "chain": "ethereum",
   "contract": "0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68",
-  "overall_score": 4.8,
+  "overall_score": 4.4,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 6,
     "foundation_team": 6,
     "insider_holdings": 6,
-    "selling_behavior": 4,
+    "selling_behavior": 1,
     "tokenomics_supply": 4,
     "liquidity_market": 2,
     "product_development": 5,
@@ -20,7 +20,9 @@
     "catalysts": 4
   },
   "sections_passed": 4,
-  "gates_failed": [],
+  "gates_failed": [
+    "selling_behavior"
+  ],
   "hard_gates": {
     "revenue": {
       "score": 6,
@@ -28,9 +30,9 @@
       "tripped": false
     },
     "selling_behavior": {
-      "score": 4,
+      "score": 1,
       "threshold": 3,
-      "tripped": false
+      "tripped": true
     }
   },
   "red_lines": {
@@ -41,7 +43,16 @@
   },
   "price_usd": 8.64,
   "price_source": "CoinGecko, 16 Nov 2026 5:10 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "sINV converts DBR streaming rewards into INV through an automatic weekly on-chain auction and adds it to the vault, so some revenue reaches stakers. Close call: the INV buyback itself is funded by DBR issuance and the INV is kept in the treasury; Revenue stays 6.",
+    "pump_day_price_source": "the daily closes cited in the body",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 8.64,
     "market_cap_text": "$6.18M",
@@ -53,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/INV.md",
-    "sha256": "7ea398daec7392320165f61698c5b019874c3c950b7aa2a9acfa435b6fef3a72",
-    "bytes": 27427,
-    "extracted_at": "2026-11-16 14:21 MST",
+    "sha256": "25b164e242ef64a0f5d00601d759f1e1b67338991a74f028ed469e75d8d5089a",
+    "bytes": 29693,
+    "extracted_at": "2026-11-16 14:23 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -318,16 +329,16 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "the daily closes cited in the body",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "no",
-    "selling_not_proven": true,
-    "disclosure_quality": "not_applicable",
-    "pump_day_undisclosed_penalty_applied": false,
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: no CEX deposit found; Policy Committee multisig (Arkham: Inverse Finance Gnosis Safe) DCA-sold 13,606 INV through CoW Protocol in Feb-Aug 2024 (10 clips on pump days) and 10,607 INV through Bond Protocol in 2022-2023; disclosure of the 2024 CoW sales not found"
     ]
@@ -462,10 +473,10 @@
   ],
   "review": {
     "selling_holdings_low_confidence_flag": false,
-    "selling_holdings_single_source_arkham_flag": false,
+    "selling_holdings_single_source_arkham_flag": true,
     "revenue_accrual_inconsistent": false,
     "flag_notes": [
-      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+      "An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change."
     ],
     "dual_review": {
       "status": "not_run",
@@ -485,6 +496,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Ethereum via Etherscan API v2: INV `totalSupply()`, `owner()`, `tradable()`, `seizable()`, `balanceOf` for treasury/TWG/Policy Committee/xINV/sINV; full INV `tokentx` for the treasury (18,331 rows), TWG (2,703), Policy Committee (193), `RepayRewardEscrow`; `getsourcecode` contract names; receipts for every linked tx (status 1), 16 Nov 2026 ~6:30–7:15 AM MST",

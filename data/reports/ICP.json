@@ -44,7 +44,16 @@
   },
   "price_usd": 2.22,
   "price_source": "CoinGecko, 16 Nov 2026 5:26 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "Developers pay for compute by burning ICP into cycles, an automatic on-chain burn from usage, but it is about 1/20 of new issuance; Revenue stays 2.",
+    "pump_day_price_source": "Gate ICP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (41 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 2.22,
     "market_cap_text": "$1.240B",
@@ -55,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ICP.md",
-    "sha256": "9734aa1dc5a5468f877f672d726a4e9ffe42495939880b613573c817aa05fed6",
-    "bytes": 32654,
-    "extracted_at": "2026-11-16 14:21 MST",
+    "sha256": "85492281f0174740c4ed8c062950954836002f6303009d1e8c3a54eb8c8d5ee5",
+    "bytes": 34427,
+    "extracted_at": "2026-11-16 14:23 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -241,12 +250,12 @@
   "addresses_examined": [],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate ICP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (41 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -290,6 +299,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] ICP ledger API (`ledger-api.internetcomputer.org`): genesis mints, full history of the Treasury, `52757335…`, `54562ee0…`, `62dd3978…` and the 85 accounts the Treasury branch funded with ≥ 50k ICP; read 16 Nov 2026 MST",

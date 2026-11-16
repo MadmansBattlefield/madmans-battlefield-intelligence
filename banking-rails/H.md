@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes, uncapped owner mint() and owner burn(account) on the reissued token; owner is a 4-of-9 Safe"
   team_wallet_to_exchange_during_pump: "no large pump-day sale found; 70M H sent to a Bybit deposit on 2 Oct 2026 (not a pump day)"
   treasury_in_single_key_wallets: "yes, six EOAs hold ~7.84B H (78% of supply)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No revenue and nothing reaches holders."
+pump_day_price_source: "Gate H/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.01626398
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
 last_updated: 2026-11-16
@@ -78,6 +86,8 @@ layout_version: 3
 
 **What it means:** no revenue. **1 (hard gate).**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No revenue and nothing reaches holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 2/10 · ❌ FAIL
 
 - Quantstamp's summary for the issuer found that one director's compromised Windows machine held the Ethereum operations key, all three BSC Safe signer keys and ~150 operational wallets ([humanity.org](https://www.humanity.org/hincidentupdate), Tier A; [CoinDesk](https://www.coindesk.com/tech/2026/06/09/humanity-s-usd36-million-exploit-happened-because-a-multisig-wallet-lived-on-one-laptop), Tier B).
@@ -108,6 +118,8 @@ layout_version: 3
 - Stream recipients were not traced.
 
 **What it means:** one direct exchange deposit of 70M; no pump-timed dumps found. **4**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate H/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 1/10 · ❌ FAIL
 
@@ -152,8 +164,17 @@ layout_version: 3
 | Live mint path | 🔴 Uncapped owner mint and burn-from-any-address |
 | Treasury in single-key wallets | 🔴 ~7.84B H in 6 EOAs |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| 70M direct exchange deposit | Humanity Protocol wallet | Etherscan | medium | yes | Selling: not on a pump day; stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Blockscout token / holders / verified source; Etherscan v2 transfers; Ethereum RPC (`owner`, ProxyAdmin owner, Safe `getThreshold`), read 16 Nov 2026 ~11:25 AM MST
 - [Tier A] [Humanity incident summary (Quantstamp)](https://www.humanity.org/hincidentupdate) · [recovery programme](https://claim.humanity.org/)
 - [Tier B] [CoinDesk](https://www.coindesk.com/tech/2026/06/09/humanity-s-usd36-million-exploit-happened-because-a-multisig-wallet-lived-on-one-laptop) · [crypto.news](https://crypto.news/humanity-protocol-sets-new-h-airdrop-after-36m-exploit/) · [AInvest](https://www.ainvest.com/news/humanity-protocol-slides-24-0-037-monthly-unlock-clock-stacks-supply-post-hack-decline-2611/) · [Kriptosignal](https://kriptosignal.net/en/daily-losers-humanity-sheds-a-quarter-pepe-drops-15-and-bitway-pays-for-the-pump/)

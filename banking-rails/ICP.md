@@ -24,6 +24,14 @@ red_lines:
   undisclosed_treasury_to_exchange_flow: "yes, 2021 (Arkham: 8.3M ICP Treasury -> exchanges; on-chain match verified; DFINITY publishes no wallet list)"
   treasury_descendant_pump_day_flow: "yes, to a distribution hub (11 Jun 2025 +22.6%: 1.4M ICP from Treasury-funded ecedd9b3… into hub 62dd3978…; 19 Nov 2024 +14.7%: 400k from 317aa76c…; hub owner [Unverified])"
   uncapped_inflation: "yes (supply ~469M at genesis -> 558.97M; voting rewards ~53k ICP/day vs ~$5k/day burned)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Developers pay for compute by burning ICP into cycles, an automatic on-chain burn from usage, but it is about 1/20 of new issuance; Revenue stays 2."
+pump_day_price_source: "Gate ICP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (41 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 2.22
 price_source: "CoinGecko, 16 Nov 2026 5:26 AM MST"
 last_updated: 2026-11-16
@@ -88,6 +96,8 @@ layout_version: 3
 
 **What it means:** The only token "revenue" is the burn when developers pay for cycles: about $1.9M a year on a $1.24B network. Governance mints roughly 20× that in new ICP each year as voting rewards, before node-provider rewards. So burn does not offset dilution and nothing flows to an unstaked holder. Score **2**, which **trips the Revenue gate**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Developers pay for compute by burning ICP into cycles, an automatic on-chain burn from usage, but it is about 1/20 of new issuance; Revenue stays 2.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -139,6 +149,8 @@ layout_version: 3
 - **Last 12 months (from 16 Nov 2025):** across the 85 accounts that received ≥ 50k ICP straight from the Treasury or `52757335…`, the only large direct move was 989,411 ICP from [`ea48b23b…`](https://dashboard.internetcomputer.org/account/ea48b23b9893a92ab26e63a36a0da680e5abba580bcf30acfc94e1f19764a076) to fresh [`fa831ac5…`](https://dashboard.internetcomputer.org/account/fa831ac580bbca15e7ff0547198093d4cf9b6a80323959f3294749b537ae3c26) on 10 Dec 2025 ([tx](https://dashboard.internetcomputer.org/transaction/7776d6c548cd51d94ce7cf8362c52ddbc3e7046d8076add81d2dafe47e2fc965)), not a pump day; it is still held. No direct Treasury-branch deposit into an exchange account was found on a 2025–26 pump day.
 
 **What it means:** The 2021 record is bad: the biggest genesis account (Arkham: DFINITY) put ~6.6M ICP straight into Coinbase deposit accounts within five weeks of launch, with no wallet disclosure and despite DFINITY saying the endowment did not sell. But neither big deposit day was a measurable pump day, and part of the flow was market-maker liquidity confirmed in court. Recent pump-day moves go into a distribution hub, not an exchange. Score **4**: not the gate, but a fail.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate ICP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (41 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -194,8 +206,17 @@ layout_version: 3
 | Treasury-branch pump-day flow | 🟡 19 Nov 2024 and 11 Jun 2025 into distribution hub `62dd3978…` (owner [Unverified]). [11 Jun 2025](https://dashboard.internetcomputer.org/transaction/c08b7163df41fe68ae541176d3cc5fd3ca1264c03807ffd0e1fac921b8441163) |
 | Uncapped inflation | 🔴 Yes: ~469M → 558.97M; voting rewards ≈ 20× cycle burn |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Genesis "Treasury" `125013e9…` | DFINITY (Arkham) | ICP ledger + Arkham | medium | no | None: its 2021 Coinbase deposits were not on pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] ICP ledger API (`ledger-api.internetcomputer.org`): genesis mints, full history of the Treasury, `52757335…`, `54562ee0…`, `62dd3978…` and the 85 accounts the Treasury branch funded with ≥ 50k ICP; read 16 Nov 2026 MST
 - [Tier A] IC API (`ic-api.internetcomputer.org`): `daily-stats` (15 Nov 2026), `governance-metrics`, neuron 27, cycle burn rate; read 16 Nov 2026 MST
 - [Tier A] [IC dashboard](https://dashboard.internetcomputer.org) account and transaction pages (links throughout)

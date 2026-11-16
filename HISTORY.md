@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:21 MST
+generated_at: 2026-11-16 14:23 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -37,10 +37,10 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [CC](banking-rails/CC.md) | 1 | 6.4 | 6.4 | 6 | 6 | 6 |
 | [CELO](banking-rails/CELO.md) | 1 | 4.7 | 4.7 | 3 | 5 | 4 |
 | [CELR](banking-rails/CELR.md) | 1 | 4.0 | 4.0 | 2 | 5 | 4 |
-| [CFG](banking-rails/CFG.md) | 1 | 4.5 | 4.5 | 3 | 5 | 3 |
+| [CFG](banking-rails/CFG.md) | 2 | 4.5 | 4.0 | 3 | 5 → 1 | 3 |
 | [CFX](banking-rails/CFX.md) | 1 | 3.9 | 3.9 | 1 | 5 | 4 |
-| [COTI](banking-rails/COTI.md) | 1 | 2.4 | 2.4 | 1 | 2 | 2 |
-| [CPOOL](banking-rails/CPOOL.md) | 1 | 3.6 | 3.6 | 2 | 2 | 4 |
+| [COTI](banking-rails/COTI.md) | 2 | 2.4 | 2.1 | 1 | 2 → 0 | 2 |
+| [CPOOL](banking-rails/CPOOL.md) | 2 | 3.6 | 3.3 | 2 | 2 → 0 | 4 |
 | [CRO](banking-rails/CRO.md) | 1 | 3.7 | 3.7 | 2 | 4 | 2 |
 | [CSPR](banking-rails/CSPR.md) | 1 | 3.1 | 3.1 | 1 | 4 | 3 |
 | [DASH](banking-rails/DASH.md) | 1 | 4.7 | 4.7 | 1 | 6 | 6 |
@@ -208,24 +208,42 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **CC** — 6.4 PASS in `6723e4d` (2026-11-16 14:02 MST).
 - **CELO** — 4.7 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
 - **CELR** — 4.0 FAIL in `91b6ac1` (2026-11-16 12:34 MST).
-- **CFG** — 4.5 FAIL in `0a6d1a7` (2026-11-16 07:39 MST).
-- **CFX** — 3.9 FAIL in `733a8b9` (2026-11-16 09:24 MST).
-- **COTI** — 2.4 FAIL in `8e903fc` (2026-11-16 08:31 MST).
-- **CPOOL** — 3.6 FAIL in `c108a79` (2026-11-16 08:40 MST).
-- **CRO** — 3.7 FAIL in `c108a79` (2026-11-16 08:40 MST).
-- **CSPR** — 3.1 FAIL in `714aff3` (2026-11-16 08:59 MST).
-- **DASH** — 4.7 FAIL in `6fa4721` (2026-11-15 18:37 MST).
+### CFG
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `0a6d1a7` | 2026-11-16 07:39 MST | 4.5 | FAIL | 3 | 5 | 3 | revenue |
+| `52a7999` | 2026-11-16 14:21 MST | 4.0 | FAIL | 3 | 1 | 3 | revenue, selling_behavior |
+
+- **CFX** — 3.9 FAIL in `52a7999` (2026-11-16 14:21 MST).
+### COTI
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `8e903fc` | 2026-11-16 08:31 MST | 2.4 | FAIL | 1 | 2 | 2 | revenue, selling_behavior |
+| `52a7999` | 2026-11-16 14:21 MST | 2.1 | FAIL | 1 | 0 | 2 | revenue, selling_behavior |
+
+### CPOOL
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `c108a79` | 2026-11-16 08:40 MST | 3.6 | FAIL | 2 | 2 | 4 | revenue, selling_behavior |
+| `52a7999` | 2026-11-16 14:21 MST | 3.3 | FAIL | 2 | 0 | 4 | revenue, selling_behavior |
+
+- **CRO** — 3.7 FAIL in `52a7999` (2026-11-16 14:21 MST).
+- **CSPR** — 3.1 FAIL in `52a7999` (2026-11-16 14:21 MST).
+- **DASH** — 4.7 FAIL in `52a7999` (2026-11-16 14:21 MST).
 - **DIA** — 4.7 FAIL in `91b6ac1` (2026-11-16 12:34 MST).
-- **DOT** — 4.9 FAIL in `a664692` (2026-11-16 06:58 MST).
-- **DUSK** — 4.0 FAIL in `7524e33` (2026-11-16 09:33 MST).
-- **EDEL** — 2.5 FAIL in `6fa4721` (2026-11-15 18:37 MST).
+- **DOT** — 4.9 FAIL in `52a7999` (2026-11-16 14:21 MST).
+- **DUSK** — 4.0 FAIL in `52a7999` (2026-11-16 14:21 MST).
+- **EDEL** — 2.5 FAIL in `52a7999` (2026-11-16 14:21 MST).
 - **EDEN** — 4.1 FAIL in `91b6ac1` (2026-11-16 12:34 MST).
-- **ENA** — 5.6 FAIL in `78f06b6` (2026-11-16 06:22 MST).
-- **ETC** — 4.1 FAIL in `5c5b66f` (2026-11-16 08:19 MST).
+- **ENA** — 5.6 FAIL in `52a7999` (2026-11-16 14:21 MST).
+- **ETC** — 4.1 FAIL in `52a7999` (2026-11-16 14:21 MST).
 - **ETH** — 7.2 PASS in `6723e4d` (2026-11-16 14:02 MST).
 - **EURE** — 5.0 FAIL in `73d9a3c` (2026-11-16 13:58 MST).
-- **EWT** — 4.0 FAIL in `16d387f` (2026-11-16 08:50 MST).
-- **EXA** — 3.1 FAIL in `a664692` (2026-11-16 06:58 MST).
+- **EWT** — 4.0 FAIL in `52a7999` (2026-11-16 14:21 MST).
+- **EXA** — 3.1 FAIL in `52a7999` (2026-11-16 14:21 MST).
 - **FXS** — 4.6 FAIL in `16d387f` (2026-11-16 08:50 MST).
 - **GRND** — 4.2 FAIL in `aa945b1` (2026-11-16 12:24 MST).
 - **H** — 2.4 FAIL in `7524e33` (2026-11-16 09:33 MST).

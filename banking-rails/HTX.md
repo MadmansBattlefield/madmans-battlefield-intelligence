@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no (fixed 999.99T; quarterly burns to a dead address)"
   team_wallet_to_exchange_during_pump: "none seen on the one pump day (7 Jul 2026), but the reserve is itself labelled an HTX exchange hot wallet and feeds other HTX hot wallets, so sales cannot be seen on-chain"
   treasury_in_single_key_wallets: "yes, 221.6T HTX (22% of max supply) in a 1-of-1 TRON account that Arkham labels an HTX exchange hot wallet (HTX Proof of Reserves)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The quarterly burn is funded from the HTX reserve, not from protocol fees, and is a company decision. Holders have no live claim on revenue; the score describes the business, not holder accrual."
+pump_day_price_source: "Gate HTX/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.00000147
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
 last_updated: 2026-11-16
@@ -84,6 +92,8 @@ layout_version: 3
 
 **What it means:** The burn is real (~4.9% of market cap a year) but funded from reserve. **5**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The quarterly burn is funded from the HTX reserve, not from protocol fees, and is a company decision. Holders have no live claim on revenue; the score describes the business, not holder accrual.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 - An "HTX DAO Governance Committee" runs the burns; its members and voting are not disclosed. The token is economically tied to the HTX exchange, which is affiliated with TRON's founder.
@@ -107,6 +117,8 @@ layout_version: 3
 - **Correction ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)):** `TK86…3h1n` is an HTX exchange hot wallet, not a rewards distributor, and the reserve is one too. The reserve sent it 7.48T on 15 Jul 2026 ([tx](https://tronscan.org/#/transaction/5ab3a8702f53d12a809d4c12784709bc34006f0050060418b21aa2f173ba32d6)), 1.2T on 11 Apr 2026 ([tx](https://tronscan.org/#/transaction/d252727ec47fa34c6393090e9c2f6ec18f1f01393b1447908fbe1aa27325ac3a)) and 1.0–1.85T five times from Sep to Dec 2025 (TronGrid). The 15 Jul tokens went on through `TYRK…` and `TKXe…` to the Q2 burn ([7.475T burn](https://tronscan.org/#/transaction/06b58562732cbff13ce6a3b2a0556f6ffefd158b4cc4313968750923c779810d)), but the other transfers stayed inside exchange wallets, and `TK86` mixes them with user deposits. [`TFTW…Ju`](https://intel.arkm.com/explorer/address/TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu), which executed the 2024–Apr 2026 burns, is also labelled HTX: Hot Wallet. `TUf6…uDCgT` (Q3 executor) is unlabelled.
 
 **What it means:** No reserve outflow on the one pump day, but the holder is the exchange itself. Any sale would happen on HTX's own order book and would not show on-chain, so this is not proven clean. **5** (was 6).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate HTX/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -149,8 +161,17 @@ layout_version: 3
 | Live mint path | 🟢 None |
 | Treasury in single-key wallets | 🔴 221.6T HTX, 1-of-1 |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| HTX reserve wallet | HTX exchange | Tronscan | high | yes | None: no outflow on the one pump day |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] TronGrid `gettransactioninfobyid`, `getaccount`, `balanceOf` and `/v1/accounts/.../transactions/trc20`, read 16 Nov 2026 ~9:45 AM MST
 - [Tier A] [HTX DAO Q3 2026 burn announcement](https://htxdao-1.gitbook.io/announcement-en/announcement-on-usdhtx-burn-by-htx-dao-for-q3-2026)
 - [Tier B] [HTX Square Q1 2026](https://square.htx.com/htx-dao-completes-q1-2026-htx-burn-two-year-supply-shrinks-over-11-as-deflation-accelerates/) · [TokenPost](https://www.tokenpost.com/news/business/33284) · [CNBC](https://www.cnbc.com/2023/11/23/htx-heco-chain-crypto-hack-115-million-stolen-so-far.html) · [CertiK](https://www.certik.com/blog/heco-bridge-exploit)

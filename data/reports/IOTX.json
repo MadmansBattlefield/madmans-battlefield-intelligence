@@ -43,7 +43,24 @@
   },
   "price_usd": 0.00241397,
   "price_source": "CoinGecko, 16 Nov 2026 8:20 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Fees are about $28k a year and nothing reaches holders.",
+    "pump_day_price_source": "Gate IOTX/USDT daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x2444919721b0b1abef3a21adeb504179ee67888f",
+        "label": "Founder-linked (unlabelled)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Transfer history only"
+      }
+    ]
+  },
   "key_numbers": {
     "price_usd": 0.00241397,
     "market_cap_text": "$22.79M",
@@ -54,9 +71,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/IOTX.md",
-    "sha256": "619bde6a46ec6e447059c175c1016fd4c962740ee4acf295c5e9f32fa206245e",
-    "bytes": 20283,
-    "extracted_at": "2026-11-16 14:21 MST",
+    "sha256": "7ce1b155e9320e20cb42fbd9323c50c1512ba072a11f2138f4bd753b5000abeb",
+    "bytes": 21960,
+    "extracted_at": "2026-11-16 14:23 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -238,12 +255,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate IOTX/USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -253,14 +270,27 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "$28k a year of fees against a $22.8M market cap is effectively no business. **2, which trips the Revenue gate.**"
   },
   "attributions": [
+    {
+      "address": "0x2444919721b0b1abef3a21adeb504179ee67888f",
+      "url": null,
+      "label": "Founder-linked (unlabelled)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
     {
       "address": "0x4761571eeec2fee2fb9f8d5c08ef7c7606a9f659",
       "url": "https://intel.arkm.com/explorer/address/0x4761571eeec2fee2fb9f8d5c08ef7c7606a9f659",
@@ -315,17 +345,6 @@
         "explorer-link"
       ],
       "label_kind": "exchange",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0x2444919721b0b1abef3a21adeb504179ee67888f",
-      "url": "https://intel.arkm.com/explorer/address/0x2444919721b0b1abef3a21adeb504179ee67888f",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
       "appears_in_selling_or_holdings": true
     },
     {
@@ -390,6 +409,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan v2 API `tokentx` for the legacy ERC20 wallets, read 16 Nov 2026 ~8:50 AM MST; Blockscout holders and token counters",

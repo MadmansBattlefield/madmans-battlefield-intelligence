@@ -23,6 +23,19 @@ red_lines:
   mint_path_live: "yes, by design (staking rewards mint IOTX; IIP-62 proposes a new 'productive inflation' curve)"
   team_wallet_to_exchange_during_pump: "yes, old: a founder-linked legacy ERC20 wallet sent 10M IOTX to a Coinbase deposit on 18 Jan 2022 (+15.4% over 5 days); no ERC20 sends since 2022; native chain not tested"
   treasury_in_single_key_wallets: "not found (Foundation treasury wallets are not published); the 2026 bridge hack came from a single compromised owner key"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Fees are about $28k a year and nothing reaches holders."
+pump_day_price_source: "Gate IOTX/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0x2444919721b0b1abef3a21adeb504179ee67888f"
+    label: "Founder-linked (unlabelled)"
+    confidence: low
+    independent_corroboration: false
+    basis: "Transfer history only"
 price_usd: 0.00241397
 price_source: "CoinGecko, 16 Nov 2026 8:20 AM MST"
 last_updated: 2026-11-16
@@ -83,6 +96,8 @@ layout_version: 3
 
 **What it means:** $28k a year of fees against a $22.8M market cap is effectively no business. **2, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Fees are about $28k a year and nothing reaches holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -125,6 +140,8 @@ layout_version: 3
 - **Native IoTeX chain wallets were not tested.** The Foundation's native addresses are not published, and Etherscan-style tools do not index the IoTeX L1.
 
 **What it means:** A founder-linked team wallet sent 10M IOTX to a Coinbase deposit on a pump day (18 Jan 2022) and another 10M to Gemini and Jump Crypto later in 2022, with no disclosure found. It is old and small next to supply, and the native chain is still untested, so **4** (was 5): proven but small and dated, above the gate.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate IOTX/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -169,8 +186,17 @@ layout_version: 3
 | Live mint path | 🔴 Inflationary staking rewards |
 | Treasury in single-key wallets | 🟡 Unknown; the bridge hack came from one owner key |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [`0x2444…888f`](https://intel.arkm.com/explorer/address/0x2444919721b0b1abef3a21adeb504179ee67888f) | Founder-linked (unlabelled) | Transfer history only | low | no | None: the 18 Jan 2022 pump-day Coinbase deposit cannot move Selling under the attribution rule; Selling stays 4 as "not proven" |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx` for the legacy ERC20 wallets, read 16 Nov 2026 ~8:50 AM MST; Blockscout holders and token counters
 - [Tier A] DefiLlama `iotex` fees and revenue; DefiLlama chains TVL
 - [Tier A] [IoTeX incident report](https://iotex.io/blog/security-incident-update-iotube-bridge-exploit-and-recovery-roadmap/) · [Update 2](https://iotex.io/blog/iotube-bridge-incident-update-no-2-chain-resumed-recovery-underway/) · [Month review](https://iotex.io/blog/how-iotex-responded-to-the-iotube-bridge-incident-a-full-month-in-review/) · [Six months of IoTeX](https://iotex.io/blog/five-doors-six-months-of-iotex/) · [Tokenomics docs](https://iotex.gitbook.io/new-docs/readme/tokenomics/iotx-emission-deflation-and-re-staking)

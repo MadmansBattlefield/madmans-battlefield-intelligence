@@ -44,7 +44,24 @@
   },
   "price_usd": 6.65,
   "price_source": "CoinGecko, 16 Nov 2026 5:26 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "The weekly burn auction is funded from dApp fees and burns INJ on-chain automatically, but stakers receive about 11× more in new INJ; Revenue stays 2.",
+    "pump_day_price_source": "Gate and KuCoin INJ-USDT daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x7e233eafc76243474369bd080238fd6eb36a73ce",
+        "label": "Injective: Treasury (Arkham), funded by the mint recipient",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Etherscan funding + Arkham"
+      }
+    ]
+  },
   "key_numbers": {
     "price_usd": 6.65,
     "market_cap_text": "$664.8M",
@@ -55,9 +72,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/INJ.md",
-    "sha256": "586f4b8dda4d6a1a027e104ad004923dfae4543bc5a1e81d1d8429daa8314b05",
-    "bytes": 32160,
-    "extracted_at": "2026-11-16 14:21 MST",
+    "sha256": "c76af01dd832270f4e780277c7aea32a0d30b910102dada6b0ba4a424223af7a",
+    "bytes": 34267,
+    "extracted_at": "2026-11-16 14:23 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -345,15 +362,15 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate and KuCoin INJ-USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "yes",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": true,
-    "disclosure_quality": "formal_announcement",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: yes, not on a pump day (Arkham 'Injective: Treasury' 0x7e23… sent 5,999,999 INJ to a Binance deposit on 22 Aug 2022); the 650,000 INJ sent to a Binance deposit on 1-8 Dec 2020 pump days came from 0x7ee1…, which Arkham files under GSR Markets: treasury-funded market-maker flow, not a direct treasury sale",
@@ -361,27 +378,27 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "yes",
     "mechanisms": [
-      "burn"
+      "burn",
+      "buyback"
     ],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": true,
+    "executed": true,
     "inconsistent_with_score": false,
     "notes": "$3.2M a year of fees on a $665M token is 0.5% of market cap. The chain pays stakers about 11 times more in new INJ than it burns. Score **2**, and that **trips the Revenue gate**."
   },
   "attributions": [
     {
       "address": "0x7e233eafc76243474369bd080238fd6eb36a73ce",
-      "url": "https://intel.arkm.com/explorer/address/0x7e233eafc76243474369bd080238fd6eb36a73ce",
-      "label": "Injective: Treasury",
-      "source": "arkham",
+      "url": null,
+      "label": "Injective: Treasury (Arkham), funded by the mint recipient",
+      "source": "front_matter",
       "confidence": "high",
       "independent_corroboration": true,
       "corroborating_sources": [
-        "arkham",
-        "explorer-link",
-        "official"
+        "report-front-matter",
+        "corroborated"
       ],
       "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
@@ -499,6 +516,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan v2 API `tokentx` (INJ ERC-20), `getcontractcreation`; 106-wallet trace from the mint recipient; read 16 Nov 2026 MST",

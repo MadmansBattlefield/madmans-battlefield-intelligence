@@ -3,13 +3,13 @@ ticker: FXS
 name: Frax (prev. FXS)
 chain: ethereum
 contract: "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0"
-overall_score: 4.6
+overall_score: 4.2
 overall_verdict: FAIL
 section_scores:
   revenue: 4
   foundation_team: 6
   insider_holdings: 4
-  selling_behavior: 4
+  selling_behavior: 1
   tokenomics_supply: 4
   liquidity_market: 3
   product_development: 7
@@ -17,12 +17,25 @@ section_scores:
   security_audits: 6
   regulatory: 5
   catalysts: 5
-gates_failed: []
+gates_failed: [selling_behavior]
 red_lines:
   hack_exploit: none found
   mint_path_live: "yes, by governance: FIP-441 (passed 5 Feb 2026) caps supply at 143M and pre-mints 43M FRAX for team-run budgets, FPIS redemptions and the legacy-FRAX wind-down; on-chain execution of the pre-mint not confirmed"
   team_wallet_to_exchange_during_pump: "small: the Comptroller Safe swapped 13,794 WFRAX to frxUSD via CoW Protocol on 21 Jan 2026 (+46% over 5 days); its 469k WFRAX of 2026 sales are otherwise steady monthly spends"
   treasury_in_single_key_wallets: "no (the Comptroller is a 3-of-5 Safe)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "DefiLlama tracks $0 to holders; FIP-441 only allows up to 10% of eligible net revenue to veFRAX, and that has not executed. Holders have no live claim on revenue; the score describes the business, not holder accrual."
+pump_day_price_source: "Gate FRAX/USDT daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions:
+  - address: "0xb1748c79709f4ba2dd82834b8c82d4a505003f27"
+    label: "Frax Finance: Comptroller (treasury multisig)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan + Arkham label + Frax docs"
 price_usd: 0.209061
 price_source: "CoinGecko, 16 Nov 2026 8:20 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +44,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### FXS · Overall grade **4.6 / 10 · ❌ FAIL**
+### FXS · Overall grade **4.2 / 10 · ❌ FAIL**
 
 **Summary:** Frax renamed FXS to **FRAX** in 2025 and made it the gas token of its own Layer 2, Fraxtal. The protocol is real and busy (frxUSD stablecoin, frxETH, Fraxlend, Fraxswap), with **$8.9M of fees and $476k of revenue over the last year** on DefiLlama. But almost none of that reaches the token: DefiLlama tracks **$0 of holder revenue**, and governance only allows "up to 10%" to veFRAX. In Feb 2026, FIP-441 fixed supply at **143M** and pre-minted **43M FRAX** for team-run budgets, which is **+43% over the 99.7M ERC20 supply**. The price is down **99.5% from ATH and 78% in a year**. No hard gate trips, but the average fails.
 
@@ -44,7 +57,7 @@ layout_version: 3
 | 💰 Revenue | 4/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 4/10 | ❌ FAIL |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 3/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -58,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 FXS · Frax (prev. FXS) · 4.6 / 10 · ❌ FAIL
+# 🪪 FXS · Frax (prev. FXS) · 4.2 / 10 · ❌ FAIL
 
 > **One line:** A real DeFi stack with real fees, but the token captures almost none of them, 43M new tokens are pre-approved for team budgets, and the price has fallen 78% in a year.
 
@@ -84,6 +97,8 @@ layout_version: 3
 
 **What it means:** The revenue is real and checkable, unlike most coins in this list. But it is small against the market cap, and FIP-441 explicitly puts frxUSD growth ahead of "near-term value extraction" for holders. **4**: above the gate, below a pass.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** DefiLlama tracks $0 to holders; FIP-441 only allows up to 10% of eligible net revenue to veFRAX, and that has not executed. Holders have no live claim on revenue; the score describes the business, not holder accrual.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -107,7 +122,7 @@ layout_version: 3
 
 **What it means:** The visible treasury is small and in a multisig. But up to 43M new FRAX (≈2.2× today's free float held by the Comptroller) is earmarked for the team to spend. **4**.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 *Pump test uses Gate FRAX/USDT (formerly FXS) daily closes (UTC). 31 of the last 365 days were pump days. Ethereum flows of the Comptroller were tested.*
 
@@ -121,6 +136,8 @@ layout_version: 3
 - The FXS→WFRAX swaps looked like a 4.4M dump at first. The same transactions return WFRAX 1:1 to the Comptroller, so they are a migration, not a sale.
 
 **What it means:** The treasury sells a steady ~$40–80k of FRAX a month for stablecoins, in line with FIP-441's spending budgets. One small sale (~$14k) landed on a pump day, five days before FIP-441 was posted. **4**: proven but small, so above the gate.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** The sale came five days before FIP-441 set the spending budgets, and no notice of it was found. The amount is small (~$14k), but the rule has no size threshold. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **4 → 1** (capped at 3, then −2). This adds the Selling hard gate. 21 Jan 2026 is a pump day on Gate prices. Pump days from Gate FRAX/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -170,8 +187,17 @@ layout_version: 3
 | Live mint path | 🔴 43M pre-mint approved by governance; execution [Unverified] |
 | Treasury in single-key wallets | 🟢 No (3-of-5 Safe) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [Comptroller `0xb174…3f27`](https://etherscan.io/address/0xb1748c79709f4ba2dd82834b8c82d4a505003f27) | Frax Finance: Comptroller (treasury multisig) | Etherscan + Arkham label + Frax docs | high | yes | Selling: 13,794 WFRAX sold for frxUSD via CoW on the 21 Jan 2026 pump day (+46.3%) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx` for the Comptroller (FXS, WFRAX and stablecoins), read 16 Nov 2026 ~8:30–8:45 AM MST; Ethereum RPC `getThreshold()`, `getOwners()`; Fraxtal balance via Etherscan v2 (chain 252)
 - [Tier A] Blockscout FXS holders and counters; WFRAX token page
 - [Tier B] Etherscan name tags ("Fraxtal: Optimism Portal Proxy", "Frax Finance: veFXS Token", "Frax Finance: Comptroller", "CoW Protocol: GPv2Settlement")

@@ -24,6 +24,14 @@ red_lines:
   team_wallet_to_exchange_during_pump: "not found in the vaults traced; but 671.5M HUMA left the 'Huma Investors' and 'Huma Treasury Unlocked' Squads vaults for six fresh wallets on four pump days (30 Sep to 4 Oct 2026); still unsold as of 16 Nov 2026"
   treasury_in_single_key_wallets: "no for the labelled vaults (Squads 3-of-4 and 4-of-5, zero timelock); 671.5M sits in six unlabelled plain wallets that the vaults funded"
   unlock_cliff: "first investor and team unlock on 26 Nov 2026 (investors 20.6% and team/advisors 19.3% of supply, 12 quarterly releases); investor tokens sit in a Huma-controlled Squads multisig, not a vesting contract"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "All yield goes to LPs; the buyback is still a plan."
+pump_day_price_source: "Gate HUMA/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.006616
 price_source: "CoinGecko, 16 Nov 2026 5:26 AM MST"
 last_updated: 2026-11-16
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** The business is real, but all of its yield goes to LPs, and the token's value case rests on staking "Feathers", governance that is not live yet, and a buyback that is still a plan. **2, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** All yield goes to LPs; the buyback is still a plan.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -137,6 +147,8 @@ layout_version: 3
 - **Quarterly sends:** "Protocol Treasury" pays a Huma-vanity wallet [`HumaDeaz…`](https://solscan.io/account/HumaDeazKoZZkTyE9MYcQHKxdQm74Fm6DSFs8nawPNTt) each quarter (e.g. [157.1M on 1 Sep 2026](https://solscan.io/tx/2WfehVnmEmfScNHTDpQjCeXA13rUspDrotcXNSpgk9npn5WqHha2rruzcWyFXsCmHfE2vRDb3qgfa5e8yeYDfDzQ)). The timing matches the Feathers airdrop seasons [Unverified]; Arkham shows Ecosystem-unlocked and Protocol Treasury flows but does not call it the airdrop distributor ([Arkham](https://intel.arkm.com/explorer/address/HumaDeazKoZZkTyE9MYcQHKxdQm74Fm6DSFs8nawPNTt)).
 
 **What it means:** No Huma vault was caught depositing to an exchange on a pump day. The one pump-day flow with an exchange-side party was a **GSR loan coming back**. **Corrected after the Arkham pass:** this is not purely inbound. Huma passed 15M of the returned 30M to `HRsH…` on the same pump day, and on 17 Apr (+6.0%, not a pump day) `HRsH…` sent 11M into Binance, Bybit and Bitget deposit addresses and 4M to an unlabelled wallet. That looks like the loan being re-deployed to new market makers' exchange accounts, but no disclosure says so [Unverified]. It is about 0.1% of supply and the deposits missed the pump day, so it does not move the score. But four pump days in a row saw 671.5M tokens leave the vaults for unnamed wallets, three weeks before the market collapsed and eight weeks before the unlock. "Not proven" counts as a fail. **5, unchanged after the Arkham pass.** Arkham ([Tier B] Arkham, read 16 Nov 2026 ~7:07–7:18 AM MST (signed-in account)) confirms the vault names ("Huma Investors", "Huma Treasury Unlocked", "Ecosystem-unlocked", Huma Finance "Protocol Treasury") but names none of the six recipient wallets: [`3xfvk…`](https://solscan.io/account/3xfvkYgkm6XEchUiTdTJicg7spq8jLj45e5oKqpnUqF3) ([Arkham](https://intel.arkm.com/explorer/address/3xfvkYgkm6XEchUiTdTJicg7spq8jLj45e5oKqpnUqF3), 471.522M), [`E9gmN…`](https://solscan.io/account/E9gmN6epA4X3Cgc5NwfjcGqHSHzEqUVr1qmeHU62guyk) ([Arkham](https://intel.arkm.com/explorer/address/E9gmN6epA4X3Cgc5NwfjcGqHSHzEqUVr1qmeHU62guyk)), [`2ADnq…`](https://solscan.io/account/2ADnqYntRmDcDDKEcLgk2TyXN9GBMjqr42GuPJ7MJzKj) ([Arkham](https://intel.arkm.com/explorer/address/2ADnqYntRmDcDDKEcLgk2TyXN9GBMjqr42GuPJ7MJzKj)), [`GZw6S…`](https://solscan.io/account/GZw6S8U8ZCXAkaQL5oTh57aCDWjrEWXHLp57XGJbURwW) ([Arkham](https://intel.arkm.com/explorer/address/GZw6S8U8ZCXAkaQL5oTh57aCDWjrEWXHLp57XGJbURwW)), [`4s4Tp…`](https://solscan.io/account/4s4TpJZ6CDkHA2FqrcWCDy2f9wkv5LqqJH28G8KgJF2c) ([Arkham](https://intel.arkm.com/explorer/address/4s4TpJZ6CDkHA2FqrcWCDy2f9wkv5LqqJH28G8KgJF2c)), [`6Hr5G…`](https://solscan.io/account/6Hr5GQh57cQwMYkVs1QfSoT1tv74F2P7YeLrpfEHT2Zu) ([Arkham](https://intel.arkm.com/explorer/address/6Hr5GQh57cQwMYkVs1QfSoT1tv74F2P7YeLrpfEHT2Zu)). So who received the 671.5M is still open. **Symbol note:** Arkham's Solana portfolio shows these balances as HUMA, but the matching rows on its transfer pages show the symbol **HOLD**. We read the HOLD rows as the same HUMA mint because the amounts and counterparties match the Solscan HUMA transfers above, but Arkham's own display is inconsistent.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate HUMA/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -194,8 +206,17 @@ layout_version: 3
 | Treasury in single-key wallets | 🟡 Labelled vaults are 3-of-4 / 4-of-5 Squads with 0 timelock; 671.5M sits in six unlabelled wallets of unknown control |
 | Unlock cliff | 🔴 [26 Nov 2026](https://blog.huma.finance/huma-build-to-last): investor lock not enforced by a vesting contract |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| `HRsH…` (received 15M of a returned GSR loan) | Huma-funded wallet | Solana RPC + Arkham | medium | no | None: its exchange sends were on 17 Apr, not a pump day |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Solana RPC (Tatum public gateway): `getTokenSupply`, mint account (`mintAuthority`/`freezeAuthority`), `getTokenLargestAccounts`, `getSignaturesForAddress` and `getTransaction` for the full history of all seven labelled vault token accounts (108 tx) and every recipient over 1M; Squads v4 multisig account data (threshold, timelock, member count); read 16 Nov 2026 ~7:00–8:00 AM MST
 - [Tier A] BSC RPC (publicnode): OFT `totalSupply()`, `decimals()`, `owner()`; Safe `getThreshold()`/`getOwners()`; Etherscan v2 `getsourcecode` (LayerZero OFT), 16 Nov 2026
 - [Tier B] Solscan account labels, 16 Nov 2026: the Squads vault names above, "Binance 2", "Binance 3", "Bithumb Hot Wallet 1", "Bitget Exchange", "OKX: Hot Wallet 5", "OKX Hot Wallet (C68a6)", "Bybit Hot Wallet (AC5RD)", "GSR Markets: Fireblocks Custody", "Meteora (HUMA-USDC) Market", "Magna Core", "Huma Staking", "HUMA LayerZero OFT Program"

@@ -43,7 +43,16 @@
   },
   "price_usd": 0.006448,
   "price_source": "CoinGecko, 16 Nov 2026 7:41 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "Network fees are paid to validators and their delegators automatically, which counts as staking yield from fees, but they are small (~110× fees to market cap) and the tracked revenue stopped in April; Revenue stays 3.",
+    "pump_day_price_source": "the daily closes cited in the body (HASH trades mainly on Figure Markets)",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.006448,
     "market_cap_text": "$388.6M",
@@ -54,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/HASH.md",
-    "sha256": "145d61d20ee9897bf6c35c0e2878de1e84069c6f5f9f935fb31f079f7303d807",
-    "bytes": 14628,
-    "extracted_at": "2026-11-16 14:21 MST",
+    "sha256": "5dd05ca36c8793e8b8495d12c5cf9fe200c488d1d598d0b802f5dc991578db4c",
+    "bytes": 16392,
+    "extracted_at": "2026-11-16 14:23 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -157,12 +166,12 @@
   "addresses_examined": [],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "the daily closes cited in the body (HASH trades mainly on Figure Markets)",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -172,10 +181,10 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "yes",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": true,
+    "executed": true,
     "inconsistent_with_score": false,
     "notes": "Fees are real but small next to a $389M cap (~110× fees), they are paid to validators and delegators, and the revenue line DefiLlama tracks stopped in April. Figure's Jan 2026 release promised \"a revised tokenomics model that introduces network fees\", which has not shown up in revenue yet. **3 → hard-gate FAIL.**"
   },
@@ -203,6 +212,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Provenance LCD `api.provenance.io`: `cosmos/gov/v1/proposals` (106, 110, 115, 118), `cosmos/auth/v1beta1/accounts` (account types and vesting terms); read 16 Nov 2026 ~7:40–7:55 AM MST",

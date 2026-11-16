@@ -4,13 +4,13 @@
   "name": "Frax (prev. FXS)",
   "chain": "ethereum",
   "contract": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
-  "overall_score": 4.6,
+  "overall_score": 4.2,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 4,
     "foundation_team": 6,
     "insider_holdings": 4,
-    "selling_behavior": 4,
+    "selling_behavior": 1,
     "tokenomics_supply": 4,
     "liquidity_market": 3,
     "product_development": 7,
@@ -20,7 +20,9 @@
     "catalysts": 5
   },
   "sections_passed": 3,
-  "gates_failed": [],
+  "gates_failed": [
+    "selling_behavior"
+  ],
   "hard_gates": {
     "revenue": {
       "score": 4,
@@ -28,9 +30,9 @@
       "tripped": false
     },
     "selling_behavior": {
-      "score": 4,
+      "score": 1,
       "threshold": 3,
-      "tripped": false
+      "tripped": true
     }
   },
   "red_lines": {
@@ -41,7 +43,24 @@
   },
   "price_usd": 0.209061,
   "price_source": "CoinGecko, 16 Nov 2026 8:20 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "DefiLlama tracks $0 to holders; FIP-441 only allows up to 10% of eligible net revenue to veFRAX, and that has not executed. Holders have no live claim on revenue; the score describes the business, not holder accrual.",
+    "pump_day_price_source": "Gate FRAX/USDT daily closes",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0xb1748c79709f4ba2dd82834b8c82d4a505003f27",
+        "label": "Frax Finance: Comptroller (treasury multisig)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Etherscan + Arkham label + Frax docs"
+      }
+    ]
+  },
   "key_numbers": {
     "price_usd": 0.209061,
     "market_cap_text": "$19.56M",
@@ -52,9 +71,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/FXS.md",
-    "sha256": "3021e18464929ea60aac79dd834410e21170bc9f73f4a8dd863755f2715ee054",
-    "bytes": 19914,
-    "extracted_at": "2026-11-16 14:21 MST",
+    "sha256": "3999b9b2db52284c212c4e67249d8a9fe45bc9ddaecaa076abe2a260578f0d0b",
+    "bytes": 22304,
+    "extracted_at": "2026-11-16 14:23 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -206,41 +225,41 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate FRAX/USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "no",
-    "selling_not_proven": true,
-    "disclosure_quality": "not_applicable",
-    "pump_day_undisclosed_penalty_applied": false,
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: small: the Comptroller Safe swapped 13,794 WFRAX to frxUSD via CoW Protocol on 21 Jan 2026 (+46% over 5 days); its 469k WFRAX of 2026 sales are otherwise steady monthly spends"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "The revenue is real and checkable, unlike most coins in this list. But it is small against the market cap, and FIP-441 explicitly puts frxUSD growth ahead of \"near-term value extraction\" for holders. **4**: above the gate, below a pass."
   },
   "attributions": [
     {
       "address": "0xb1748c79709f4ba2dd82834b8c82d4a505003f27",
-      "url": "https://intel.arkm.com/explorer/address/0xb1748c79709f4ba2dd82834b8c82d4a505003f27",
-      "label": null,
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
+      "url": null,
+      "label": "Frax Finance: Comptroller (treasury multisig)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
       "corroborating_sources": [
-        "arkham",
-        "explorer-link"
+        "report-front-matter",
+        "corroborated"
       ],
-      "label_kind": "unknown",
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     },
     {
@@ -375,11 +394,11 @@
     }
   ],
   "review": {
-    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_low_confidence_flag": true,
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
     "flag_notes": [
-      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
     ],
     "dual_review": {
       "status": "not_run",
@@ -399,6 +418,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan v2 API `tokentx` for the Comptroller (FXS, WFRAX and stablecoins), read 16 Nov 2026 ~8:30–8:45 AM MST; Ethereum RPC `getThreshold()`, `getOwners()`; Fraxtal balance via Etherscan v2 (chain 252)",

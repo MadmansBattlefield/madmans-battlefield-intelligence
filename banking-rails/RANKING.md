@@ -51,28 +51,28 @@ Ties are broken by how many of the 11 sections passed.
 28. 🔴 **XNO** · 4.9 · ❌ FAIL
 29. 🔴 **QUAI** · 4.9 · ❌ FAIL
 30. 🔴 **DOT** · 4.9 · ❌ FAIL
-31. 🔴 **INV** · 4.8 · ❌ FAIL
-32. 🔴 **DASH** · 4.7 · ❌ FAIL
-33. 🔴 **DIA** · 4.7 · ❌ FAIL
-34. 🔴 **ONDO** · 4.7 · ❌ FAIL
-35. 🔴 **CELO** · 4.7 · ❌ FAIL
-36. 🔴 **SOLV** · 4.7 · ❌ FAIL
-37. 🔴 **BTT** · 4.7 · ❌ FAIL
-38. 🔴 **WAN** · 4.7 · ❌ FAIL
-39. 🔴 **CARDS** · 4.7 · ❌ FAIL
-40. 🔴 **QNT** · 4.6 · ❌ FAIL
-41. 🔴 **FXS** · 4.6 · ❌ FAIL
-42. 🔴 **API3** · 4.5 · ❌ FAIL
-43. 🔴 **MNT** · 4.5 · ❌ FAIL
-44. 🔴 **RLS** · 4.5 · ❌ FAIL
-45. 🔴 **HUMA** · 4.4 · ❌ FAIL
-46. 🔴 **RVN** · 4.4 · ❌ FAIL
-47. 🔴 **ICP** · 4.3 · ❌ FAIL
-48. 🔴 **RLC** · 4.3 · ❌ FAIL
-49. 🔴 **RED** · 4.3 · ❌ FAIL
-50. 🔴 **PRO** · 4.3 · ❌ FAIL
-51. 🔴 **TRAC** · 4.2 · ❌ FAIL
-52. 🔴 **REQ** · 4.2 · ❌ FAIL
+31. 🔴 **DASH** · 4.7 · ❌ FAIL
+32. 🔴 **DIA** · 4.7 · ❌ FAIL
+33. 🔴 **ONDO** · 4.7 · ❌ FAIL
+34. 🔴 **CELO** · 4.7 · ❌ FAIL
+35. 🔴 **SOLV** · 4.7 · ❌ FAIL
+36. 🔴 **BTT** · 4.7 · ❌ FAIL
+37. 🔴 **WAN** · 4.7 · ❌ FAIL
+38. 🔴 **CARDS** · 4.7 · ❌ FAIL
+39. 🔴 **QNT** · 4.6 · ❌ FAIL
+40. 🔴 **API3** · 4.5 · ❌ FAIL
+41. 🔴 **MNT** · 4.5 · ❌ FAIL
+42. 🔴 **RLS** · 4.5 · ❌ FAIL
+43. 🔴 **INV** · 4.4 · ❌ FAIL
+44. 🔴 **HUMA** · 4.4 · ❌ FAIL
+45. 🔴 **RVN** · 4.4 · ❌ FAIL
+46. 🔴 **ICP** · 4.3 · ❌ FAIL
+47. 🔴 **RLC** · 4.3 · ❌ FAIL
+48. 🔴 **RED** · 4.3 · ❌ FAIL
+49. 🔴 **PRO** · 4.3 · ❌ FAIL
+50. 🔴 **TRAC** · 4.2 · ❌ FAIL
+51. 🔴 **REQ** · 4.2 · ❌ FAIL
+52. 🔴 **FXS** · 4.2 · ❌ FAIL
 53. 🔴 **AMP** · 4.2 · ❌ FAIL
 54. 🔴 **GRND** · 4.2 · ❌ FAIL
 55. 🔴 **ETC** · 4.1 · ❌ FAIL
@@ -119,15 +119,15 @@ Ties are broken by how many of the 11 sections passed.
 96. 🔴 **TRUF** · 3.7 · ❌ FAIL
 97. 🔴 **ZEN** · 3.7 · ❌ FAIL
 98. 🔴 **KAIO** · 3.6 · ❌ FAIL
-99. 🔴 **HYPER** · 3.6 · ❌ FAIL
-100. 🔴 **SHX** · 3.6 · ❌ FAIL
-101. 🔴 **SUPRA** · 3.6 · ❌ FAIL
-102. 🔴 **VELO** · 3.6 · ❌ FAIL
-103. 🔴 **QANX** · 3.6 · ❌ FAIL
-104. 🔴 **PROPC** · 3.6 · ❌ FAIL
-105. 🔴 **NUVA** · 3.5 · ❌ FAIL
-106. 🔴 **WIREX** · 3.5 · ❌ FAIL
-107. 🔴 **TX** · 3.5 · ❌ FAIL
+99. 🔴 **SHX** · 3.6 · ❌ FAIL
+100. 🔴 **SUPRA** · 3.6 · ❌ FAIL
+101. 🔴 **VELO** · 3.6 · ❌ FAIL
+102. 🔴 **QANX** · 3.6 · ❌ FAIL
+103. 🔴 **PROPC** · 3.6 · ❌ FAIL
+104. 🔴 **NUVA** · 3.5 · ❌ FAIL
+105. 🔴 **WIREX** · 3.5 · ❌ FAIL
+106. 🔴 **TX** · 3.5 · ❌ FAIL
+107. 🔴 **HYPER** · 3.4 · ❌ FAIL
 108. 🔴 **ZKC** · 3.4 · ❌ FAIL
 109. 🔴 **SKEY** · 3.4 · ❌ FAIL
 110. 🔴 **ZKP** · 3.4 · ❌ FAIL
@@ -175,6 +175,10 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Batch 4: 14 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [FXS](FXS.md) Selling 4 → 1 (4.6 → 4.2, now #52); [HYPER](HYPER.md) Selling 2 → 0 (3.6 → 3.4, now #107); [INV](INV.md) Selling 4 → 1 (4.8 → 4.4, now #43). Unchanged: [H](H.md), [HASH](HASH.md), [HBAR](HBAR.md), [HONEY](HONEY.md), [HTX](HTX.md), [HUMA](HUMA.md), [ICP](ICP.md), [INJ](INJ.md), [IOTX](IOTX.md), [KAIA](KAIA.md), [KAIO](KAIO.md).
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Batch 3: 14 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [CFG](CFG.md) Selling 5 → 1 (4.5 → 4.0, now #58); [COTI](COTI.md) Selling 2 → 0 (2.4 → 2.1, now #145); [CPOOL](CPOOL.md) Selling 2 → 0 (3.6 → 3.3, now #114). Unchanged: [CFX](CFX.md), [CRO](CRO.md), [CSPR](CSPR.md), [DASH](DASH.md), [DOT](DOT.md), [DUSK](DUSK.md), [EDEL](EDEL.md), [ENA](ENA.md), [ETC](ETC.md), [EWT](EWT.md), [EXA](EXA.md).
 
@@ -716,18 +720,7 @@ Score changes from that research:
 
 ---
 
-## #31 · INV · Inverse Finance
-
-### 4.8 / 10 · ❌ FAIL
-
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** none
-- **Verdict:** Real revenue ($3.75M a year on a $6.2M cap) but an illiquid token governance can mint without a cap, two 2022 exploits, and a Policy Committee multisig (Arkham: Inverse Finance) that DCA-sold INV through CoW, including on pump days, with no sale post found.
-- 📄 [Full INV report](INV.md)
-
----
-
-## #32 · DASH · Dash
+## #31 · DASH · Dash
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -738,7 +731,7 @@ Score changes from that research:
 
 ---
 
-## #33 · DIA · DIA
+## #32 · DIA · DIA
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -749,7 +742,7 @@ Score changes from that research:
 
 ---
 
-## #34 · ONDO · Ondo
+## #33 · ONDO · Ondo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -760,7 +753,7 @@ Score changes from that research:
 
 ---
 
-## #35 · CELO · Celo
+## #34 · CELO · Celo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -771,7 +764,7 @@ Score changes from that research:
 
 ---
 
-## #36 · SOLV · Solv Protocol
+## #35 · SOLV · Solv Protocol
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -782,7 +775,7 @@ Score changes from that research:
 
 ---
 
-## #37 · BTT · BitTorrent
+## #36 · BTT · BitTorrent
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -793,7 +786,7 @@ Score changes from that research:
 
 ---
 
-## #38 · WAN · Wanchain
+## #37 · WAN · Wanchain
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -804,7 +797,7 @@ Score changes from that research:
 
 ---
 
-## #39 · CARDS · Collector Crypt
+## #38 · CARDS · Collector Crypt
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -815,7 +808,7 @@ Score changes from that research:
 
 ---
 
-## #40 · QNT · Quant
+## #39 · QNT · Quant
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -826,18 +819,7 @@ Score changes from that research:
 
 ---
 
-## #41 · FXS · Frax (prev. FXS)
-
-### 4.6 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** none
-- **Verdict:** Real DeFi fees that the token barely captures, with 43M new tokens pre-approved for team budgets. Arkham shows the Comptroller's 1M FXS to Odos was a WFRAX conversion, not a budget wallet.
-- 📄 [Full FXS report](FXS.md)
-
----
-
-## #42 · API3 · Api3
+## #40 · API3 · Api3
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -848,7 +830,7 @@ Score changes from that research:
 
 ---
 
-## #43 · MNT · Mantle
+## #41 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -859,7 +841,7 @@ Score changes from that research:
 
 ---
 
-## #44 · RLS · Rayls
+## #42 · RLS · Rayls
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -870,7 +852,18 @@ Score changes from that research:
 
 ---
 
-## #45 · HUMA · Huma Finance
+## #43 · INV · Inverse Finance
+
+### 4.4 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Selling
+- **Verdict:** Real revenue ($3.75M a year on a $6.2M cap) but an illiquid token governance can mint without a cap, two 2022 exploits, and a Policy Committee multisig (Arkham: Inverse Finance) that DCA-sold INV through CoW, including on pump days, with no sale post found.
+- 📄 [Full INV report](INV.md)
+
+---
+
+## #44 · HUMA · Huma Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -881,7 +874,7 @@ Score changes from that research:
 
 ---
 
-## #46 · RVN · Ravencoin
+## #45 · RVN · Ravencoin
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -892,7 +885,7 @@ Score changes from that research:
 
 ---
 
-## #47 · ICP · Internet Computer
+## #46 · ICP · Internet Computer
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -903,7 +896,7 @@ Score changes from that research:
 
 ---
 
-## #48 · RLC · iExec RLC
+## #47 · RLC · iExec RLC
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -914,7 +907,7 @@ Score changes from that research:
 
 ---
 
-## #49 · RED · RedStone
+## #48 · RED · RedStone
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -925,7 +918,7 @@ Score changes from that research:
 
 ---
 
-## #50 · PRO · Propy
+## #49 · PRO · Propy
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -936,7 +929,7 @@ Score changes from that research:
 
 ---
 
-## #51 · TRAC · OriginTrail
+## #50 · TRAC · OriginTrail
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -947,7 +940,7 @@ Score changes from that research:
 
 ---
 
-## #52 · REQ · Request Network
+## #51 · REQ · Request Network
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -955,6 +948,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue, Selling
 - **Verdict:** A working payments protocol with a rounding-error burn and a Team Wallet that sold into a 2021 pump. Arkham shows the 55.9M Kraken flow went through Coinbase Prime Custody, a custody flow from team funds.
 - 📄 [Full REQ report](REQ.md)
+
+---
+
+## #52 · FXS · Frax (prev. FXS)
+
+### 4.2 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Selling
+- **Verdict:** Real DeFi fees that the token barely captures, with 43M new tokens pre-approved for team budgets. Arkham shows the Comptroller's 1M FXS to Odos was a WFRAX conversion, not a budget wallet.
+- 📄 [Full FXS report](FXS.md)
 
 ---
 
@@ -1464,18 +1468,7 @@ Score changes from that research:
 
 ---
 
-## #99 · HYPER · Hyperlane
-
-### 3.6 / 10 · ❌ FAIL
-
-- **Sections passed:** 2 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** Excellent open-source plumbing with a token that pays holders nothing, unlocks every month, and whose foundation-funded wallets cashed out $5M into the one big spike. An unlabelled EOA holds another 168.4M on BNB Chain.
-- 📄 [Full HYPER report](HYPER.md)
-
----
-
-## #100 · SHX · Stronghold
+## #99 · SHX · Stronghold
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1486,7 +1479,7 @@ Score changes from that research:
 
 ---
 
-## #101 · SUPRA · Supra
+## #100 · SUPRA · Supra
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1497,7 +1490,7 @@ Score changes from that research:
 
 ---
 
-## #102 · VELO · Velo
+## #101 · VELO · Velo
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1508,7 +1501,7 @@ Score changes from that research:
 
 ---
 
-## #103 · QANX · QANplatform
+## #102 · QANX · QANplatform
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1519,7 +1512,7 @@ Score changes from that research:
 
 ---
 
-## #104 · PROPC · Propchain
+## #103 · PROPC · Propchain
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1530,7 +1523,7 @@ Score changes from that research:
 
 ---
 
-## #105 · NUVA · NUVA Finance
+## #104 · NUVA · NUVA Finance
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1541,7 +1534,7 @@ Score changes from that research:
 
 ---
 
-## #106 · WIREX · Wirex
+## #105 · WIREX · Wirex
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1552,7 +1545,7 @@ Score changes from that research:
 
 ---
 
-## #107 · TX · TX (Coreum + Sologenic)
+## #106 · TX · TX (Coreum + Sologenic)
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1560,6 +1553,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** A merged Cosmos L1 with tiny fee revenue, inflation-funded yield and a 53% insider emission overhang.
 - 📄 [Full TX report](TX.md)
+
+---
+
+## #107 · HYPER · Hyperlane
+
+### 3.4 / 10 · ❌ FAIL
+
+- **Sections passed:** 2 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** Excellent open-source plumbing with a token that pays holders nothing, unlocks every month, and whose foundation-funded wallets cashed out $5M into the one big spike. An unlabelled EOA holds another 168.4M on BNB Chain.
+- 📄 [Full HYPER report](HYPER.md)
 
 ---
 

@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:21 MST",
+  "generated_at": "2026-11-16 14:23 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -748,6 +748,31 @@
             "revenue"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 6,
+            "insider_holdings": 3,
+            "selling_behavior": 1,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 7,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -756,9 +781,9 @@
       "path": "banking-rails/CFX.md",
       "versions": [
         {
-          "commit": "733a8b9d37d3d555ab02f76525784309a569b5cd",
-          "committed_at_mst": "2026-11-16 09:24 MST",
-          "subject": "CFX: fix source read time",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 3.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -809,6 +834,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "overall_score": 2.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 2,
+            "selling_behavior": 0,
+            "tokenomics_supply": 2,
+            "liquidity_market": 4,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 3,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -840,6 +890,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 0,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -848,9 +923,9 @@
       "path": "banking-rails/CRO.md",
       "versions": [
         {
-          "commit": "c108a79dcd78a45a75906b1a1b823746d80d1190",
-          "committed_at_mst": "2026-11-16 08:40 MST",
-          "subject": "Add HYPER, KAIO, CPOOL, W, CRO v3 reports with Arkham evidence; HYPER holdings 4->3; KAIO/CPOOL/W corrections; ranking 73",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -878,9 +953,9 @@
       "path": "banking-rails/CSPR.md",
       "versions": [
         {
-          "commit": "714aff3b3659263947a1ecc7503d776f5ff729ae",
-          "committed_at_mst": "2026-11-16 08:59 MST",
-          "subject": "Add AMP, HTX (Arkham evidence) and KAVA, CSPR, TFUEL v3 reports; HTX selling 6->5; AMP custody corrections; ranking 88",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -908,9 +983,9 @@
       "path": "banking-rails/DASH.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 4.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -968,9 +1043,9 @@
       "path": "banking-rails/DOT.md",
       "versions": [
         {
-          "commit": "a6646923744fdadf9d8cdad9dad9228f740e9c86",
-          "committed_at_mst": "2026-11-16 06:58 MST",
-          "subject": "Add DOT, POLYX, INV, TRAC, EXA v3 reports with Arkham evidence; ranking 48 notes",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 4.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -998,9 +1073,9 @@
       "path": "banking-rails/DUSK.md",
       "versions": [
         {
-          "commit": "7524e33aed288197d7c855287cebb485bbea4da1",
-          "committed_at_mst": "2026-11-16 09:33 MST",
-          "subject": "Add BTT, MBG, DUSK, H, MOCA v3 reports with Arkham evidence; BTT selling 6->5, MOCA selling 5->6; ranking 104",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1028,9 +1103,9 @@
       "path": "banking-rails/EDEL.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 2.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1089,9 +1164,9 @@
       "path": "banking-rails/ENA.md",
       "versions": [
         {
-          "commit": "78f06b60984377ebaa982af826c7a9121981898f",
-          "committed_at_mst": "2026-11-16 06:22 MST",
-          "subject": "Add SKY, ENA, PACT, JST, QUAI v3 reports with Arkham evidence; ranking 33 notes",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 5.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1119,9 +1194,9 @@
       "path": "banking-rails/ETC.md",
       "versions": [
         {
-          "commit": "5c5b66fd26d3a7576fcd00d46c961bfce86be84d",
-          "committed_at_mst": "2026-11-16 08:19 MST",
-          "subject": "Add XDB, HASH, MASQ, ETC, TLOS v3 reports; move DFI and SPELL to dead; ranking 63 notes",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 4.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1207,9 +1282,9 @@
       "path": "banking-rails/EWT.md",
       "versions": [
         {
-          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
-          "committed_at_mst": "2026-11-16 08:50 MST",
-          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1237,9 +1312,9 @@
       "path": "banking-rails/EXA.md",
       "versions": [
         {
-          "commit": "a6646923744fdadf9d8cdad9dad9228f740e9c86",
-          "committed_at_mst": "2026-11-16 06:58 MST",
-          "subject": "Add DOT, POLYX, INV, TRAC, EXA v3 reports with Arkham evidence; ranking 48 notes",
+          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
+          "committed_at_mst": "2026-11-16 14:21 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {

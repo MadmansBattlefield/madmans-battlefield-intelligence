@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes: 9.6 KAIA minted per block (~300M a year, ~5.2% inflation), with no cap; half goes to Foundation-run KEF/KIF"
   team_wallet_to_exchange_during_pump: "not tested: Kaiascan's API needs a key this pass did not have, so fund-wallet outflows could not be traced"
   treasury_selling: "KIF budget explicitly covers 'token swap' and 'providing market liquidity'; ~295M KAIA disbursed from the KIF executor and ~129M from KEF since Aug 2024; destinations only on Kaia Square"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Revenue is about 0.5% of new issuance; no burn, buyback or fee share of size."
+pump_day_price_source: "Gate KAIA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.02917
 price_source: "CoinGecko, 16 Nov 2026 6:58 AM MST"
 last_updated: 2026-11-16
@@ -84,6 +92,8 @@ layout_version: 3
 
 **What it means:** Revenue is about 0.5% of the value of new issuance. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Revenue is about 0.5% of new issuance; no burn, buyback or fee share of size.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 - The Kaia DLT Foundation runs the chain with a Governance Council of corporate validators (Kakao and LINE affiliates among them). Votes happen on Kaia Square, and every fund move is pre-announced on the [governance forum](https://govforum.kaia.io/t/1540).
@@ -103,6 +113,8 @@ layout_version: 3
 
 - **Not tested on-chain.** Kaiascan's API requires an access key, and Etherscan's free tier does not cover Kaia, so KEF/KIF executor outflows could not be matched against exchange wallets or the 33 pump days. The biggest was **+61.3% on 9 Oct 2026, the Upbit KRW listing**.
 - KIF's stated uses include "token swap" and "providing market liquidity" ([docs](https://docs.kaia.io/learn/token-economics/token-economy/)), so exchange-bound flows are an expected, disclosed use. Their timing is unknown.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate KAIA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -144,8 +156,17 @@ layout_version: 3
 | Live mint path | 🔴 ~5.2% a year, uncapped |
 | Treasury selling | 🟡 KIF is budgeted for market liquidity; ~295M disbursed, not traced |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| KEF/KIF executors | Kaia Foundation funds | Docs only (not traced) | low | no | Selling stays 4 (not tested) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Kaia public RPC (`public-en.node.kaia.io`): fund balances, 16 Nov 2026 ~7:27 AM MST
 - [Tier A] [Kaia docs: token economy](https://docs.kaia.io/learn/token-economics/token-economy/); [Kaia docs: contract addresses](https://docs.kaia.io/references/contract-addresses/)
 - [Tier A] Kaia governance forum: KEF/KIF budget transfer announcements [896](https://govforum.kaia.io/t/896), [1028](https://govforum.kaia.io/t/1028), [1091](https://govforum.kaia.io/t/1091), [1190](https://govforum.kaia.io/t/1190), [1215](https://govforum.kaia.io/t/1215), [1439](https://govforum.kaia.io/t/1439), [1459](https://govforum.kaia.io/t/1459), [1489](https://govforum.kaia.io/t/1489), [1502](https://govforum.kaia.io/t/1502), [1540](https://govforum.kaia.io/t/1540); [GP-21](https://govforum.kaia.io/t/1451)

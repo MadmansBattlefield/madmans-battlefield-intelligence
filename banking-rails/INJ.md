@@ -24,6 +24,19 @@ red_lines:
   treasury_funded_wallet_to_exchange_during_pump: "yes, 2020-2024 (e.g. 200k from unlabelled 0x0e64…, funded by an Arkham-labelled Injective wallet, to a Binance deposit on 11-12 Feb 2022, +55%/+41%; 650k via market maker GSR Markets in Dec 2020; 379k from team-chain wallet inj1derhu… to a memo hot wallet on 2023-24 pump days); nothing traced on 2025-26 pump days"
   closed_source_core: "yes (InjectiveFoundation/injective-core releases: 'Starting from 09-09-2026 source code will no longer be published')"
   mint_path_live: "yes by design (x/mint inflation 4.4%, 5.45M INJ/yr; read 16 Nov 2026)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "The weekly burn auction is funded from dApp fees and burns INJ on-chain automatically, but stakers receive about 11× more in new INJ; Revenue stays 2."
+pump_day_price_source: "Gate and KuCoin INJ-USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0x7e233eafc76243474369bd080238fd6eb36a73ce"
+    label: "Injective: Treasury (Arkham), funded by the mint recipient"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan funding + Arkham"
 price_usd: 6.65
 price_source: "CoinGecko, 16 Nov 2026 5:26 AM MST"
 last_updated: 2026-11-16
@@ -85,6 +98,8 @@ layout_version: 3
 
 **What it means:** $3.2M a year of fees on a $665M token is 0.5% of market cap. The chain pays stakers about 11 times more in new INJ than it burns. Score **2**, and that **trips the Revenue gate**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** The weekly burn auction is funded from dApp fees and burns INJ on-chain automatically, but stakers receive about 11× more in new INJ; Revenue stays 2.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -128,6 +143,8 @@ Pump test uses Gate (Nov 2020–Oct 2021) and KuCoin (Oct 2021 on) INJ-USDT dail
 - **2025–26:** none of the traced wallets sent INJ to an exchange on any of the 64 pump days in the last year. The native-chain trace only reached 10 accounts, so this is "not found", not "cleared".
 
 **What it means:** Arkham changes who did one of these, not the score. The biggest pump-day flow (650k, Dec 2020) was a market maker, GSR Markets, trading coins the mint wallet gave it. That is treasury-funded market-maker flow, not a team sale, but it was never disclosed. At the same time Arkham ties the funders of the 2022 and 2023–24 pump-day flows (`0xf282…`, `0x25f9…`) to the Injective entity, which makes those more clearly the team's own. Add the single 6M deposit from "Injective: Treasury". All of it is 2020–2024, and none of it was found in the last year. **Selling stays 4**, one point above the gate.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate and KuCoin INJ-USDT daily closes.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -181,8 +198,19 @@ Pump test uses Gate (Nov 2020–Oct 2021) and KuCoin (Oct 2021 on) INJ-USDT dail
 | Closed-source core | 🔴 **Yes,** from 9 Sep 2026. [release notes](https://github.com/InjectiveFoundation/injective-core/releases/tag/v1.20.4-safeharbor.5-1794335565) |
 | Live mint path | 🟡 By design: 4.4% inflation. [LCD](https://sentry.lcd.injective.network/cosmos/mint/v1beta1/inflation) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [`0x7e23…73ce`](https://etherscan.io/address/0x7e233eafc76243474369bd080238fd6eb36a73ce) | Injective: Treasury (Arkham), funded by the mint recipient | Etherscan funding + Arkham | high | yes (on-chain) | Selling: 6M to Binance on 22 Aug 2022, not a pump day |
+| `0xf282…`, `0x25f9…` funders | Injective (Arkham only) | Arkham | low | no | None: cannot move Selling |
+| `0x7ee1…` | GSR Markets (Arkham) | Arkham | medium | no | None: market-maker flow, not a team sale |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx` (INJ ERC-20), `getcontractcreation`; 106-wallet trace from the mint recipient; read 16 Nov 2026 MST
 - [Tier A] Ethereum RPC (`eth_call balanceOf`, `eth_getTransactionReceipt` for Peggy `SendToInjective` destinations)
 - [Tier A] Injective LCD (`sentry.lcd.injective.network`): supply, mint, staking pool, auction module, balances, delegations · Injective explorer API `accountTxs`

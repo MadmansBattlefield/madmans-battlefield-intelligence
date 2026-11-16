@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes: the SPL mint authority is a plain System-owned wallet (single key), and supply grew ~6.8M HONEY from 16 Oct to 16 Nov 2026; the 10B cap is policy (MIPs), not code"
   team_wallet_to_exchange_during_pump: "not tested (holder list not retrievable from free Solana RPCs)"
   treasury_in_single_key_wallets: "yes for the mint authority (single key); the freeze authority is an SPL multisig"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The one revenue loop the token had has stopped."
+pump_day_price_source: "Gate HONEY/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.00129722
 price_source: "CoinGecko, 16 Nov 2026 8:20 AM MST"
 last_updated: 2026-11-16
@@ -83,6 +91,8 @@ layout_version: 3
 
 **What it means:** The one revenue loop the token had has stopped. **2, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The one revenue loop the token had has stopped.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -111,6 +121,8 @@ layout_version: 3
 
 - **Not tested.** Without a holder list, insider wallets could not be identified or traced. Not proven clean, so **5**.
 - **Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)):** the [mint authority](https://intel.arkm.com/explorer/address/7VhQVr8M2Dpdwp4QzzQB7EpvANtMMjv7gwpBHCrV3U2A) is unlabelled and holds almost no HONEY (772). Its recent transfers are many 600–3.8k HONEY sends to individual wallets, a weekly reward pattern; Solana RPC shows 1,000+ such transactions on 12 Nov 2026. The [freeze multisig](https://intel.arkm.com/explorer/address/Bg588m44EMWAvvgm2yFtgMztUBPN5FTvVGwnTNrvTBhT) shows no transfers (last activity Sep 2023 per RPC). The [mint](https://intel.arkm.com/explorer/address/4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy) is labelled **Hivemapper: HONEY**, but Arkham does not list its top holders, so insider wallets stay [Unverified].
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate HONEY/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -155,8 +167,17 @@ layout_version: 3
 | Live mint path | 🔴 Yes, through a single-key mint authority |
 | Treasury in single-key wallets | 🔴 Mint authority is single-key |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Mint authority (single key) | Hivemapper issuer | Solana RPC + Arkham | medium | no | None: insiders not identified; Selling 5 as published |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Solana RPC `getTokenSupply` and `getAccountInfo` (mint, mint authority, freeze authority), read 16 Nov 2026 ~9:20 AM MST
 - [Tier A] DefiLlama `hivemapper` fees, revenue and holders revenue (daily chart)
 - [Tier A] [Bee Maps blog, 16 Jul 2026](https://beemaps.com/blog/get-paid-in-usdc-to-map-your-city) · [Hivemapper Foundation HONEY page](https://hivemapperfoundation.com/honey)

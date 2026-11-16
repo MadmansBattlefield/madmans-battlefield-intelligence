@@ -22,6 +22,14 @@ red_lines:
   hack_exploit: none
   council_release_vs_mirror_mismatch: open
   staking_reward_account_runway_under_1y: watch
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Fees are tiny and staking rewards are paid mostly from treasury-funded accounts, not fees."
+pump_day_price_source: "Gate HBAR_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.058034
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 last_updated: 2026-11-14
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** Fees are priced in tiny fixed USD amounts, so even heavy use earns very little: about $268k in a year on a $2.6B asset. Staking rewards are paid mostly from treasury-funded accounts, not from fees.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Fees are tiny and staking rewards are paid mostly from treasury-funded accounts, not fees.
+
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -134,6 +144,8 @@ layout_version: 3
 
 **What it means:** Better disclosure than most, but quarterly totals can't be matched against pump days, and Q3 releases fell in a quarter with a big pump. Not proven clean → fail.
 
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate HBAR_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); the body's earlier count used CoinGecko daily closes.
+
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
 | Item | Value | Source |
@@ -179,8 +191,17 @@ layout_version: 3
 | Council table vs mirror-node released supply | 🟡 Open (~3.54B gap, likely forecast vs actual): [mirror](https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply) vs [Council table](https://hederacouncil.org/treasury) |
 | Staking reward account under 1 year of runway | 🟡 Watch (~9 months at current payout): [`0.0.800`](https://hashscan.io/mainnet/account/0.0.800) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Hedera Council treasury releases | Hedera Council | Quarterly disclosures | high | yes | Selling stays 5: totals cannot be matched to pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Hedera public mirror node (`mainnet-public.mirrornode.hedera.com`): [`network/supply`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply), [`network/nodes`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/nodes), [`network/stake`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/stake), balances of [`0.0.2`](https://hashscan.io/mainnet/account/0.0.2) / [`0.0.98`](https://hashscan.io/mainnet/account/0.0.98) / [`0.0.800`](https://hashscan.io/mainnet/account/0.0.800) / [`0.0.801`](https://hashscan.io/mainnet/account/0.0.801) (HashScan); 14 Nov 2026 ~12:30 PM MST
 - [Tier A] [Hedera Council treasury report](https://hederacouncil.org/treasury), data as of 6 Nov 2026
 - [Tier A] [DefiLlama fees `hedera`](https://defillama.com/chain/hedera), 14 Nov 2026
@@ -202,6 +223,13 @@ layout_version: 3
 | Staking reward account holds 125.2M HBAR, paying ~445k/day (~9 months runway) | [`0.0.800 on HashScan`](https://hashscan.io/mainnet/account/0.0.800) · [mirror stake](https://mainnet-public.mirrornode.hedera.com/api/v1/network/stake) | A | 14 Nov 2026 |
 | 25 named council node operators | [`network/nodes`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/nodes) | A | 14 Nov 2026 |
 | Arkham: Hedera unsupported; no Council/Foundation entity | [0.0.2 on Arkham](https://intel.arkm.com/explorer/address/0.0.2) · [entity search](https://intel.arkm.com/explorer/entity/hedera) | B | 15 Nov 2026 ~11:05 AM MST |
+
+## 🔎 Open items and how to close them
+
+| # | Open item | Exactly how to close it | Cost / access |
+|---|---|---|---|
+| 1 | **Council releases vs pump days.** Quarterly release totals cannot be matched to the 21–29 Sep 2026 pump days | Match Hedera Council treasury account transfers on HashScan to the Gate pump-day list | Free |
+| 2 | **Staking reward account runway** | Read account 0.0.800 balance on HashScan each quarter | Free |
 
 ---
 

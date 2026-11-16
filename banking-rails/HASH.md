@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "governance-controlled: nhash is a marker; supply changes need a passed proposal (prop 106 burned 5B in May 2026)"
   team_wallet_to_exchange_during_pump: "not proven: the largest group-controlled accounts made no sends on pump days found; most trading is on Figure Markets, which is not traceable on-chain from outside"
   account_freeze_power: "yes: the sanction module lets governance freeze any account (used in prop 118)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Network fees are paid to validators and their delegators automatically, which counts as staking yield from fees, but they are small (~110× fees to market cap) and the tracked revenue stopped in April; Revenue stays 3."
+pump_day_price_source: "the daily closes cited in the body (HASH trades mainly on Figure Markets)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.006448
 price_source: "CoinGecko, 16 Nov 2026 7:41 AM MST"
 last_updated: 2026-11-16
@@ -82,6 +90,8 @@ layout_version: 3
 
 **What it means:** Fees are real but small next to a $389M cap (~110× fees), they are paid to validators and delegators, and the revenue line DefiLlama tracks stopped in April. Figure's Jan 2026 release promised "a revised tokenomics model that introduces network fees", which has not shown up in revenue yet. **3 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Network fees are paid to validators and their delegators automatically, which counts as staking yield from fees, but they are small (~110× fees to market cap) and the tracked revenue stopped in April; Revenue stays 3.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - On 14 Jan 2026 holders passed [prop 98](https://explorer.provenance.io/proposal/98), "Figure to Steward the Provenance Foundation". Figure now runs the Foundation day to day; the Foundation's director stays on ([Figure release, 21 Jan 2026](https://investors.figure.com/news-releases/news-release-details/figure-technology-solutions-announces-community-approved-update), [proposal page](https://docs.provenance.io/2df23393565480c28ba0d2e197059e32)).
@@ -104,6 +114,8 @@ layout_version: 3
 
 - The largest group account `pb15yfx…` made its last bank send on 9 Jan 2026; its recent transactions are group proposals and votes. `pb16s9hm…` last sent on 14–22 May 2026, not on a pump day. No large insider send was found on the 36 pump days.
 - Most HASH trading happens inside **Figure Markets**, Figure's own exchange, where order flow is not visible on-chain. Insider selling there **cannot be traced** from outside, so the rule scores this 4 (not proven).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from the daily closes cited in the body (HASH trades mainly on Figure Markets).
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -148,8 +160,17 @@ layout_version: 3
 | Live mint path | 🟡 Governance-controlled marker supply |
 | Account freeze power | 🔴 Yes (sanction module, used Nov 2026) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Group accounts `pb15yfx…` and `pb16s9hm…` | Figure / Provenance group accounts | Provenance chain | medium | no | None: no send on the 36 pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Provenance LCD `api.provenance.io`: `cosmos/gov/v1/proposals` (106, 110, 115, 118), `cosmos/auth/v1beta1/accounts` (account types and vesting terms); read 16 Nov 2026 ~7:40–7:55 AM MST
 - [Tier A] Provenance explorer API: `utility_token/stats` (supply, circulation, bonded, burned), the full `nhash` holder list (11,959 accounts), and account transaction lists; read 16 Nov 2026 ~7:45–7:55 AM MST
 - [Tier A] [Figure release, 21 Jan 2026](https://investors.figure.com/news-releases/news-release-details/figure-technology-solutions-announces-community-approved-update); [prop 98 proposal page](https://docs.provenance.io/2df23393565480c28ba0d2e197059e32)

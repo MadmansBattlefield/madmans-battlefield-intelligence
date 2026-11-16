@@ -63,28 +63,28 @@ Every token in this folder has a full v3 scored report:
 | 28 | [XNO.md](XNO.md) | Nano | **4.9 / 10 · ❌ FAIL** |
 | 29 | [QUAI.md](QUAI.md) | Quai Network | **4.9 / 10 · ❌ FAIL** |
 | 30 | [DOT.md](DOT.md) | Polkadot | **4.9 / 10 · ❌ FAIL** |
-| 31 | [INV.md](INV.md) | Inverse Finance | **4.8 / 10 · ❌ FAIL** |
-| 32 | [DASH.md](DASH.md) | Dash | **4.7 / 10 · ❌ FAIL** |
-| 33 | [DIA.md](DIA.md) | DIA | **4.7 / 10 · ❌ FAIL** |
-| 34 | [ONDO.md](ONDO.md) | Ondo | **4.7 / 10 · ❌ FAIL** |
-| 35 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
-| 36 | [SOLV.md](SOLV.md) | Solv Protocol | **4.7 / 10 · ❌ FAIL** |
-| 37 | [BTT.md](BTT.md) | BitTorrent | **4.7 / 10 · ❌ FAIL** |
-| 38 | [WAN.md](WAN.md) | Wanchain | **4.7 / 10 · ❌ FAIL** |
-| 39 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
-| 40 | [QNT.md](QNT.md) | Quant | **4.6 / 10 · ❌ FAIL** |
-| 41 | [FXS.md](FXS.md) | Frax (prev. FXS) | **4.6 / 10 · ❌ FAIL** |
-| 42 | [API3.md](API3.md) | Api3 | **4.5 / 10 · ❌ FAIL** |
-| 43 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
-| 44 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |
-| 45 | [HUMA.md](HUMA.md) | Huma Finance | **4.4 / 10 · ❌ FAIL** |
-| 46 | [RVN.md](RVN.md) | Ravencoin | **4.4 / 10 · ❌ FAIL** |
-| 47 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
-| 48 | [RLC.md](RLC.md) | iExec RLC | **4.3 / 10 · ❌ FAIL** |
-| 49 | [RED.md](RED.md) | RedStone | **4.3 / 10 · ❌ FAIL** |
-| 50 | [PRO.md](PRO.md) | Propy | **4.3 / 10 · ❌ FAIL** |
-| 51 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
-| 52 | [REQ.md](REQ.md) | Request Network | **4.2 / 10 · ❌ FAIL** |
+| 31 | [DASH.md](DASH.md) | Dash | **4.7 / 10 · ❌ FAIL** |
+| 32 | [DIA.md](DIA.md) | DIA | **4.7 / 10 · ❌ FAIL** |
+| 33 | [ONDO.md](ONDO.md) | Ondo | **4.7 / 10 · ❌ FAIL** |
+| 34 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
+| 35 | [SOLV.md](SOLV.md) | Solv Protocol | **4.7 / 10 · ❌ FAIL** |
+| 36 | [BTT.md](BTT.md) | BitTorrent | **4.7 / 10 · ❌ FAIL** |
+| 37 | [WAN.md](WAN.md) | Wanchain | **4.7 / 10 · ❌ FAIL** |
+| 38 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
+| 39 | [QNT.md](QNT.md) | Quant | **4.6 / 10 · ❌ FAIL** |
+| 40 | [API3.md](API3.md) | Api3 | **4.5 / 10 · ❌ FAIL** |
+| 41 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
+| 42 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |
+| 43 | [INV.md](INV.md) | Inverse Finance | **4.4 / 10 · ❌ FAIL** |
+| 44 | [HUMA.md](HUMA.md) | Huma Finance | **4.4 / 10 · ❌ FAIL** |
+| 45 | [RVN.md](RVN.md) | Ravencoin | **4.4 / 10 · ❌ FAIL** |
+| 46 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
+| 47 | [RLC.md](RLC.md) | iExec RLC | **4.3 / 10 · ❌ FAIL** |
+| 48 | [RED.md](RED.md) | RedStone | **4.3 / 10 · ❌ FAIL** |
+| 49 | [PRO.md](PRO.md) | Propy | **4.3 / 10 · ❌ FAIL** |
+| 50 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
+| 51 | [REQ.md](REQ.md) | Request Network | **4.2 / 10 · ❌ FAIL** |
+| 52 | [FXS.md](FXS.md) | Frax (prev. FXS) | **4.2 / 10 · ❌ FAIL** |
 | 53 | [AMP.md](AMP.md) | Amp | **4.2 / 10 · ❌ FAIL** |
 | 54 | [GRND.md](GRND.md) | SuperWalk | **4.2 / 10 · ❌ FAIL** |
 | 55 | [ETC.md](ETC.md) | Ethereum Classic | **4.1 / 10 · ❌ FAIL** |
@@ -131,15 +131,15 @@ Every token in this folder has a full v3 scored report:
 | 96 | [TRUF.md](TRUF.md) | TRUF.Network (Truflation) | **3.7 / 10 · ❌ FAIL** |
 | 97 | [ZEN.md](ZEN.md) | Horizen | **3.7 / 10 · ❌ FAIL** |
 | 98 | [KAIO.md](KAIO.md) | KAIO (formerly Libre Capital) | **3.6 / 10 · ❌ FAIL** |
-| 99 | [HYPER.md](HYPER.md) | Hyperlane | **3.6 / 10 · ❌ FAIL** |
-| 100 | [SHX.md](SHX.md) | Stronghold | **3.6 / 10 · ❌ FAIL** |
-| 101 | [SUPRA.md](SUPRA.md) | Supra | **3.6 / 10 · ❌ FAIL** |
-| 102 | [VELO.md](VELO.md) | Velo | **3.6 / 10 · ❌ FAIL** |
-| 103 | [QANX.md](QANX.md) | QANplatform | **3.6 / 10 · ❌ FAIL** |
-| 104 | [PROPC.md](PROPC.md) | Propchain | **3.6 / 10 · ❌ FAIL** |
-| 105 | [NUVA.md](NUVA.md) | NUVA Finance | **3.5 / 10 · ❌ FAIL** |
-| 106 | [WIREX.md](WIREX.md) | Wirex | **3.5 / 10 · ❌ FAIL** |
-| 107 | [TX.md](TX.md) | TX (Coreum + Sologenic) | **3.5 / 10 · ❌ FAIL** |
+| 99 | [SHX.md](SHX.md) | Stronghold | **3.6 / 10 · ❌ FAIL** |
+| 100 | [SUPRA.md](SUPRA.md) | Supra | **3.6 / 10 · ❌ FAIL** |
+| 101 | [VELO.md](VELO.md) | Velo | **3.6 / 10 · ❌ FAIL** |
+| 102 | [QANX.md](QANX.md) | QANplatform | **3.6 / 10 · ❌ FAIL** |
+| 103 | [PROPC.md](PROPC.md) | Propchain | **3.6 / 10 · ❌ FAIL** |
+| 104 | [NUVA.md](NUVA.md) | NUVA Finance | **3.5 / 10 · ❌ FAIL** |
+| 105 | [WIREX.md](WIREX.md) | Wirex | **3.5 / 10 · ❌ FAIL** |
+| 106 | [TX.md](TX.md) | TX (Coreum + Sologenic) | **3.5 / 10 · ❌ FAIL** |
+| 107 | [HYPER.md](HYPER.md) | Hyperlane | **3.4 / 10 · ❌ FAIL** |
 | 108 | [ZKC.md](ZKC.md) | Boundless | **3.4 / 10 · ❌ FAIL** |
 | 109 | [SKEY.md](SKEY.md) | Skey Network | **3.4 / 10 · ❌ FAIL** |
 | 110 | [ZKP.md](ZKP.md) | zkPass | **3.4 / 10 · ❌ FAIL** |

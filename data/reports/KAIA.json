@@ -43,7 +43,16 @@
   },
   "price_usd": 0.02917,
   "price_source": "CoinGecko, 16 Nov 2026 6:58 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Revenue is about 0.5% of new issuance; no burn, buyback or fee share of size.",
+    "pump_day_price_source": "Gate KAIA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.02917,
     "market_cap_text": "$188.5M",
@@ -54,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/KAIA.md",
-    "sha256": "12e9ccc379c96cef1b527d7ee6064f9fd46f633761d3e6e6df50eb3214ef586e",
-    "bytes": 12239,
-    "extracted_at": "2026-11-16 14:21 MST",
+    "sha256": "5d588c2ed70afe8a9ce875f8ff864d725d09af28171fdde00eb1f57123afcb0e",
+    "bytes": 13834,
+    "extracted_at": "2026-11-16 14:23 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -122,12 +131,12 @@
   "addresses_examined": [],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate KAIA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -137,10 +146,10 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "Revenue is about 0.5% of the value of new issuance. **1 → hard-gate FAIL.**"
   },
@@ -168,6 +177,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Kaia public RPC (`public-en.node.kaia.io`): fund balances, 16 Nov 2026 ~7:27 AM MST",

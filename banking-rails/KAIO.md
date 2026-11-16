@@ -24,6 +24,14 @@ red_lines:
   treasury_funded_wallet_to_exchange_during_pump: "yes (same flow)"
   unenforced_lockups: "yes: 9.32B of 10B KAIO (93%) sits in five plain EOAs (no vesting contract) that match the published investor, community, foundation, team and pre-sale buckets"
   mint_path_live: "no (fixed 10B minted once to the deployer, 16 Apr 2026)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Fund fees go to the company, not to KAIO holders."
+pump_day_price_source: "KuCoin KAIO-USDT daily closes"
+pump_day_disclosure_quality: buried_disclosure
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.02039
 price_source: "CoinGecko, 16 Nov 2026 6:51 AM MST"
 last_updated: 2026-11-16
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** Fund fees go to the company, not to KAIO holders: ~$440k a year at the current run rate against a $204M FDV. Score **2**, which **trips the Revenue gate**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Fund fees go to the company, not to KAIO holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -130,6 +140,8 @@ Pump test uses KuCoin KAIO-USDT daily closes (from 6 May 2026); CoinGecko closes
 - None of the six allocation wallets has sent a single token.
 
 **What it means:** The insider buckets have not sold. But the project's liquidity wallet fed a fresh wallet that put 10M KAIO onto Gate, Coinbase and Bitget on three pump days (corrected from 7M on two days once Arkham identified the Coinbase deposit). The size is small, and the "liquidity" purpose is disclosed, but the timing and the intermediary wallet were not. Score **3** (unchanged), which **trips the Selling gate**.
+
+- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** The liquidity purpose is disclosed, but the timing and the intermediary wallet were not, so disclosure is partial and no penalty applies; Selling stays 3. Pump days from KuCoin KAIO-USDT daily closes.
 
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 
@@ -178,8 +190,17 @@ Pump test uses KuCoin KAIO-USDT daily closes (from 6 May 2026); CoinGecko closes
 | Unenforced lock-ups | 🔴 **Yes:** 93% of supply in five plain EOAs |
 | Live mint path | 🟢 No: fixed supply |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Liquidity wallet `0xf9fe…` → fresh `0x7875…` | KAIO TGE liquidity wallet | Etherscan funding | high | yes (on-chain) | Selling: 10M KAIO to Gate, Coinbase and Bitget on 1, 2 and 8 Oct 2026 pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API: `tokentx` (KAIO contract and ~15 traced wallets from the deployer), `tokenbalance`, `tokensupply`, `getsourcecode`, `getcontractcreation`; `eth_getCode` (EOA/contract test); read 16 Nov 2026 MST
 - [Tier B] Etherscan name tags: "Jump Trading", "Wintermute 4", "Bitget 6", "Gate Deposit" (0xfb77, 0x74a5, 0x485c), "KuCoin Deposit", "Bitget Deposit"
 - [Tier A] [kaio.xyz](https://www.kaio.xyz/) · [docs.kaio.xyz](https://docs.kaio.xyz/) · [audit reports](https://github.com/KAIO-xyz/audits/tree/main/reports) · [librecapital GitHub](https://github.com/librecapital)

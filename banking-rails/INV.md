@@ -3,13 +3,13 @@ ticker: INV
 name: Inverse Finance
 chain: ethereum
 contract: "0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68"
-overall_score: 4.8
+overall_score: 4.4
 overall_verdict: FAIL
 section_scores:
   revenue: 6
   foundation_team: 6
   insider_holdings: 6
-  selling_behavior: 4
+  selling_behavior: 1
   tokenomics_supply: 4
   liquidity_market: 2
   product_development: 5
@@ -17,12 +17,20 @@ section_scores:
   security_audits: 4
   regulatory: 6
   catalysts: 4
-gates_failed: []
+gates_failed: [selling_behavior]
 red_lines:
   hack_exploit: "yes, 2022: Anchor/Frontier oracle manipulations (2 Apr 2022, $15.6M; 16 Jun 2022, $5.83M DOLA net loss); bad debt carried until 2025"
   mint_path_live: "yes: owner() = Anchor Treasury timelock (governance) and mint() is uncapped; 104,000 INV minted 25 Jul 2025, 8,000 on 8 Dec 2025"
   team_wallet_to_exchange_during_pump: "no CEX deposit found; Policy Committee multisig (Arkham: Inverse Finance Gnosis Safe) DCA-sold 13,606 INV through CoW Protocol in Feb-Aug 2024 (10 clips on pump days) and 10,607 INV through Bond Protocol in 2022-2023; disclosure of the 2024 CoW sales not found"
   treasury_selling: "TWG paid ~321k INV (~$12.7M at the day's price) as vote incentives 2022-2025 (bribe platforms); DAO buybacks since Feb 2026 (mill 345)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "sINV converts DBR streaming rewards into INV through an automatic weekly on-chain auction and adds it to the vault, so some revenue reaches stakers. Close call: the INV buyback itself is funded by DBR issuance and the INV is kept in the treasury; Revenue stays 6."
+pump_day_price_source: "the daily closes cited in the body"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 8.64
 price_source: "CoinGecko, 16 Nov 2026 5:10 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### INV · Overall grade **4.8 / 10 · ❌ FAIL**
+### INV · Overall grade **4.4 / 10 · ❌ FAIL**
 
 **Summary:** Inverse Finance runs FiRM (fixed-rate lending), the DOLA stablecoin ($122.6M) and the DBR token, and it really earns money: DefiLlama counts **$3.75M of revenue in 12 months against a $6.2M market cap**, and the DAO has been buying back INV since February 2026. But very little of that reaches INV holders directly ($113.6k a year via sINV), governance can **mint INV without a cap** (it minted 104,000 INV in July 2025 to repay bad debt), the token trades only ~$27k a day, and the protocol lost $21M+ to two oracle exploits in 2022. On-chain, the treasury and its working-group multisigs did not pay an exchange deposit address, but the **Policy Committee multisig (labelled Inverse Finance by Arkham) DCA-sold 24,213 INV** (through Bond Protocol and CoW Protocol), some of it on pump days, and the **Treasury Working Group spent ~321k INV on vote incentives** that recipients typically sell.
 
@@ -44,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 6/10 | ✅ PASS |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 6/10 | ✅ PASS |
-| 📉 Selling behavior | 4/10 | ❌ FAIL |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 2/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 5/10 | ❌ FAIL |
@@ -58,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 INV · Inverse Finance · 4.8 / 10 · ❌ FAIL
+# 🪪 INV · Inverse Finance · 4.4 / 10 · ❌ FAIL
 
 > **One line:** A real, revenue-earning DeFi lender with a tiny, illiquid governance token that governance can mint at will. It was hit by two 2022 exploits, and its multisigs have sold or given away INV for years, mostly through DEXs and vote-incentive markets rather than exchanges.
 
@@ -85,6 +93,8 @@ layout_version: 3
 
 **What it means:** $3.75M of yearly revenue on a $6.2M market cap is unusually high, and the DAO now uses DBR issuance to buy INV. But only ~3% of revenue reaches holders directly, the buyback is funded by printing DBR (not from cash profit), and expenses are not netted here. **6.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** sINV converts DBR streaming rewards into INV through an automatic weekly on-chain auction and adds it to the vault, so some revenue reaches stakers. Close call: the INV buyback itself is funded by DBR issuance and the INV is kept in the treasury; Revenue stays 6.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -109,7 +119,7 @@ layout_version: 3
 
 **What it means:** The DAO's visible wallets hold very little INV; most supply (67.7%) is staked in FiRM. Individual contributors' private holdings are unknown. **6.**
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 **A. No exchange deposits found.** None of the treasury's, TWG's or Policy Committee's INV went straight to an Etherscan-tagged exchange address. The 23 EOAs that got 300+ INV from these wallets were checked one hop further: none of their main INV destinations is a tagged exchange address. Most staked the INV in FiRM or swapped small amounts on CoW, Velora or Curve. Arkham agrees for the largest recipients ([Tier B] Arkham, read 16 Nov 2026 ~6:52 AM MST (signed-in account)): the 47.6k-INV TWG recipient [`0x759a…f430`](https://etherscan.io/address/0x759a159d78342340ebacffb027c05910c093f430) is an individual-labelled ENS wallet that put its INV into sINV and an INVEscrow ([Arkham](https://intel.arkm.com/explorer/address/0x759a159d78342340ebacffb027c05910c093f430)); a contributor wallet [`0x16ec…51cb`](https://etherscan.io/address/0x16ec2aea80863c1fb4e13440778d0c9967fc51cb) (also an individual-labelled ENS wallet, [Arkham](https://intel.arkm.com/explorer/address/0x16ec2aea80863c1fb4e13440778d0c9967fc51cb)) shows no exchange flow on its first page.
 
@@ -122,6 +132,8 @@ layout_version: 3
 **D. 2025 investor tranche.** The 104,000 INV minted in July 2025 went into an escrow and was released as sINV to six wallets in Jan–Apr 2026. At least two redeemed some sINV and moved the INV on; two still hold all of theirs. They are investors, not team, so this does not count against the team. Arkham ([Tier B] Arkham, read 16 Nov 2026 ~6:52 AM MST (signed-in account)): the two INV destinations that looked like possible exchange or custody addresses, [`0xc1c9…d6c4`](https://etherscan.io/address/0xc1c99e764e80db823838ea63e93f862bffa7d6c4) ([Arkham](https://intel.arkm.com/explorer/address/0xc1c99e764e80db823838ea63e93f862bffa7d6c4)) and [`0x36c8…0232`](https://etherscan.io/address/0x36c80c84e286426c148cd80aaf7bafaeee020232) ([Arkham](https://intel.arkm.com/explorer/address/0x36c80c84e286426c148cd80aaf7bafaeee020232)), are **Inverse Finance INVEscrow staking proxies**, not exchanges; both forward INV into xINV. The 107k-INV source [`0x0591…dfa5`](https://etherscan.io/address/0x0591926d5d3b9cc48ae6efb8db68025ddc3adfa5) is a whale Safe Arkham does not name ([Arkham](https://intel.arkm.com/explorer/address/0x0591926d5d3b9cc48ae6efb8db68025ddc3adfa5)). Another investor wallet [`0xfa4f…6199`](https://etherscan.io/address/0xfa4fc4ec2f81a4897743c5b4f45907c02ce06199) is one Arkham tags as an individual KOL ([Arkham](https://intel.arkm.com/explorer/address/0xfa4fc4ec2f81a4897743c5b4f45907c02ce06199)), with no INV on its first page.
 
 **What it means:** No exchange dumping by the DAO's wallets was found, but a treasury-funded multisig did sell INV on the open market (including on pump days) without a sale post we could find, and INV has been the DAO's currency for incentives. **4, unchanged after the Arkham pass.** Arkham's "Inverse Finance" label adds a second source, but the multisig was already tied to Inverse at Tier A by mill 259, and the 4 already assumed it was the DAO selling. Arkham adds nothing that makes the sales worse. The clips were fixed-size and every ~2 days, which looks mechanical rather than timed to pumps. They went through CoW rather than an exchange, and the DOLA that came back moved between the Safe and the Anchor Treasury, not to a private wallet (first page only). Arkham also shows the suspected exchange destinations were INVEscrow staking proxies. That keeps the score one point above the gate. It would drop to 3 if a governance record showed the 2024 sales were not authorised.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No sale post was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **4 → 1** (capped at 3, then −2). This adds the Selling hard gate. Pump days from the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -171,8 +183,17 @@ layout_version: 3
 | Live mint path | 🔴 Uncapped `mint()` by the treasury timelock; 112k INV minted in 2025 |
 | Treasury selling | 🟡 ~321k INV paid to vote-incentive markets (2022–2025); buybacks since Feb 2026 |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Inverse treasury-funded multisig | Inverse Finance (Tier A funding + Arkham label) | Etherscan + Arkham | high | yes | Selling: sold INV on the open market, including on pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Ethereum via Etherscan API v2: INV `totalSupply()`, `owner()`, `tradable()`, `seizable()`, `balanceOf` for treasury/TWG/Policy Committee/xINV/sINV; full INV `tokentx` for the treasury (18,331 rows), TWG (2,703), Policy Committee (193), `RepayRewardEscrow`; `getsourcecode` contract names; receipts for every linked tx (status 1), 16 Nov 2026 ~6:30–7:15 AM MST
 - [Tier A] DefiLlama: fees, revenue, holders revenue, TVL (`inverse-finance`) and stablecoins (DOLA), 16 Nov 2026
 - [Tier A] Inverse docs: [governance](https://docs.inverse.finance/inverse-finance/inverse-finance/governance/governance-overview) · [INV tokenomics](https://docs.inverse.finance/inverse-finance/inverse-finance/products/tokens/inv/inv-tokenomics) · [sINV](https://docs.inverse.finance/inverse-finance/inverse-finance/products/tokens/inv/sinv) · [smart contracts](https://docs.inverse.finance/inverse-finance/inverse-finance/technical/smart-contracts) · [Frontier/Anchor](https://docs.inverse.finance/inverse-finance/inverse-finance/legacy-products/frontier-anchor); mills [259](https://www.inverse.finance/governance/proposals/mills/259), [305](https://www.inverse.finance/governance/proposals/mills/305), [345](https://www.inverse.finance/governance/proposals/mills/345), [393](https://www.inverse.finance/governance/proposals/mills/393); [forum: TWG](https://forum.inverse.finance/t/treasury-working-group-allowance-refresh/171); [post-mortem](https://medium.com/inverse-finance/inv-price-manipulation-incident-55ea0433f4fc)
@@ -208,6 +229,7 @@ layout_version: 3
 | 2 | **Arkham pass: done 16 Nov 2026** (first transfer page per wallet). No exchange found; still unnamed: the whale Safe `0x0591…dfa5`. Not answered: whether the TWG reached an exchange through intermediaries | Page through the full TWG and Policy Committee histories (393+ transfers); ask Inverse which investor runs `0x0591…` | Free |
 | 3 | **DAO profit after expenses** | Inverse transparency pages / quarterly reports | Free |
 | 4 | **How much INV the DAO holds inside FiRM/xINV** | Read the treasury's xINV/sINV positions | Free |
+| 5 | **Pump-day test on exchange prices.** No Gate, MEXC, KuCoin or Kraken USDT series with a full year was returned on 16 Nov 2026 (Binance blocks this region) | Re-run scripts/pump_day_test.py on the first exchange in the price-source order that lists the token | Free |
 
 ---
 
