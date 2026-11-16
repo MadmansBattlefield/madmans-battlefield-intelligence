@@ -1,6 +1,6 @@
 ---
 title: Review flags
-generated_at: 2026-11-16 14:20 MST
+generated_at: 2026-11-16 14:21 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Scores on this page were not changed.
 ---
@@ -17,12 +17,13 @@ The rules these flags apply are in [METHODOLOGY.md](METHODOLOGY.md). Machine-rea
 
 Rule: only a verified entity label with on-chain proof, or a second independent source, can move a Selling or Holdings score. Prediction labels and unlabelled attributions cannot move those scores by themselves.
 
-**6 report(s) flagged.**
+**7 report(s) flagged.**
 
 | Ticker | Selling | Holdings | Why |
 |---|---:|---:|---|
 | [API3](banking-rails/API3.md) | 1 | 6 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration.<br>An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change. |
-| [COTI](banking-rails/COTI.md) | 2 | 2 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
+| [CFG](banking-rails/CFG.md) | 1 | 3 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration.<br>An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change. |
+| [COTI](banking-rails/COTI.md) | 0 | 2 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [HYPER](banking-rails/HYPER.md) | 2 | 3 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [W](banking-rails/W.md) | 3 | 3 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [XPL](banking-rails/XPL.md) | 1 | 3 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
@@ -32,12 +33,13 @@ Rule: only a verified entity label with on-chain proof, or a second independent 
 
 These are not automatically wrong. Exchange and entity labels from Arkham are Tier B. The new rule asks for on-chain proof of the label, or a second independent source, before that label can move Selling or Holdings. They are listed so a later review can confirm or downgrade them. Scores were left as published.
 
-**3 report(s) flagged.**
+**4 report(s) flagged.**
 
 | Ticker | Selling | Holdings |
 |---|---:|---:|
 | [API3](banking-rails/API3.md) | 1 | 6 |
-| [CPOOL](banking-rails/CPOOL.md) | 2 | 4 |
+| [CFG](banking-rails/CFG.md) | 1 | 3 |
+| [CPOOL](banking-rails/CPOOL.md) | 0 | 4 |
 | [JASMY](banking-rails/JASMY.md) | 2 | 3 |
 
 ## 3. Revenue score looks inconsistent with the holder-accrual test

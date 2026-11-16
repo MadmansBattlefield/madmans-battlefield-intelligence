@@ -3,13 +3,13 @@ ticker: COTI
 name: COTI
 chain: coti
 contract: "0xddb3422497e61e13543bea06989c0789117555c5"
-overall_score: 2.4
+overall_score: 2.1
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 3
   insider_holdings: 2
-  selling_behavior: 2
+  selling_behavior: 0
   tokenomics_supply: 2
   liquidity_market: 4
   product_development: 3
@@ -23,6 +23,19 @@ red_lines:
   mint_path_live: "yes (ERC20 owner can mint without limit; mintingFinished = false; native V2 chain still inflates)"
   team_wallet_to_exchange_during_pump: "yes (wallets funded within hours by the Sep 2026 consolidation sent 68.0M COTI to Gate and KuCoin deposits on pump days 18-20 Sep 2026, 157.4M in total by 10 Oct)"
   treasury_in_single_key_wallets: "yes (the two largest consolidation wallets, 1.29B and 877.6M COTI, are plain EOAs); the ERC20 owner key moved from an EOA to a 3-of-4 Safe on 6 Nov 2026"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Fees are close to zero and holders have no claim on them."
+pump_day_price_source: "Gate COTI/USDT daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions:
+  - address: "0x61bf10a1a27b2d99de0a59a06200a62ed579d685"
+    label: "COTI consolidation wallet (received 600M minted by the owner key)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan mint transactions"
 price_usd: 0.00845036
 price_source: "CoinGecko, 16 Nov 2026 7:13 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +44,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### COTI · Overall grade **2.4 / 10 · ❌ FAIL**
+### COTI · Overall grade **2.1 / 10 · ❌ FAIL**
 
 **Summary:** COTI is a privacy-focused Layer 2 whose ERC20 is a bridge token: the contract owner mints whenever coins are bridged in. The coin has **no revenue for holders**; chain fees were about $488 over the last year on DefiLlama. In Aug–Sep 2026 the project paused Treasury, COTI Earn and Nodes v2, management stepped down and a new foundation took over direction [Unverified]. In the same weeks about **2.6B ERC20 COTI (≈87% of circulating supply)** was minted or consolidated into a "Genesis" wallet and split into unlabelled EOAs. Wallets funded from that split then **sold into the 17 Sep spike**. The price is down 98.7% from its 2021 high. Revenue and Selling both trip the hard gates.
 
@@ -44,7 +57,7 @@ layout_version: 3
 | 💰 Revenue | 1/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 3/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 2/10 | ❌ FAIL |
-| 📉 Selling behavior | 2/10 | ❌ FAIL |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 2/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 3/10 | ❌ FAIL |
@@ -58,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 COTI · COTI · 2.4 / 10 · ❌ FAIL
+# 🪪 COTI · COTI · 2.1 / 10 · ❌ FAIL
 
 > **One line:** A privacy L2 with no holder revenue, a live mint key, a leadership handover, and new consolidation wallets that sold into the first pump after they were funded.
 
@@ -82,6 +95,8 @@ layout_version: 3
 
 **What it means:** Fees are close to zero and holders have no claim on them. **1, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Fees are close to zero and holders have no claim on them.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -103,7 +118,7 @@ layout_version: 3
 
 **What it means:** Two unlabelled single-key EOAs hold **2.17B ERC20 COTI, ≈73% of circulating supply**, and the project has not published which wallets are its own. **2**.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 2/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 *Pump test uses Gate COTI/USDT daily closes (UTC). 33 of the last 365 days were pump days. Only Ethereum ERC20 flows were tested.*
 
@@ -121,6 +136,8 @@ layout_version: 3
 - **Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) confirms the exchange side:** [`0x1720…`](https://intel.arkm.com/explorer/address/0x172075b0f30fe17b1138078844bb3764abe0f3da) is a Gate deposit, [`0x0B51…`](https://intel.arkm.com/explorer/address/0x0b5109873aa17ad3a044c7d5f9ef2ea8d1bc993a) a KuCoin deposit, and [`0x655b…`](https://intel.arkm.com/explorer/address/0x655b7ea956d26eebcc6ec22ee9af9f0f871cd753) and [`0x2Ba9…`](https://intel.arkm.com/explorer/address/0x2ba95ffaaab55160af215bc33d036c8cda34fa09) are Binance deposits. [`0xaac8…`](https://intel.arkm.com/explorer/address/0xaac8ca81a671829d007d7a860a04cf096dc66de8) (85.62 COTI left) shows sends to the KuCoin and Gate deposits. [`0x4d2a…`](https://intel.arkm.com/explorer/address/0x4d2a4b7c76ff71ed4d641135123dabde71f7f10b) shows COTI sent to Binance deposit `0x655b…`. [`0xab5b…`](https://intel.arkm.com/explorer/address/0xab5b62cf058a8fe9a33dc73edb5a38cb53695623) (0.0033 COTI left) fed `0x4d2a…` and two other unlabelled wallets. None of these pages names a market maker.
 
 **What it means:** Wallets funded by the Foundation's consolidation sold on three straight pump days. **2, which trips the Selling gate.**
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** COTI's Telegram notice mentioned "two new main addresses" without publishing them or these sales. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from Gate COTI/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 
@@ -171,8 +188,17 @@ layout_version: 3
 | Treasury in single-key wallets | 🔴 1.29B and 877.6M in EOAs [`0x1a18…`](https://etherscan.io/address/0x1a184244de9d3e726a3aa3d02b585e6ff8e2f9ce) and [`0x0354…`](https://etherscan.io/address/0x03548e0f5ef69d5b9b6976c570a20b08b0486acd) |
 | Leadership change | 🟡 Management stepped down 21 Sep 2026 [Unverified] |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [`0x61bf…d685`](https://etherscan.io/address/0x61bf10a1a27b2d99de0a59a06200a62ed579d685) | COTI consolidation wallet (received 600M minted by the owner key) | Etherscan mint transactions | high | yes (on-chain) | Selling: funded wallets that sent 68.0M COTI to Gate and KuCoin deposits on 18–20 Sep 2026 pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx` for `0x61bf`, `0xcf26`, `0x1a18`, `0x062e`, `0x94c8`, `0x0354`, `0x07d2`, `0xab5b`, `0xaac8`, `0x4d2a`, the deployer and their hops; Mint and OwnershipTransferred logs; Ethereum RPC `totalSupply()`, `balanceOf()`, `owner()`, Safe `getOwners()` / `getThreshold()`; read 16 Nov 2026 ~8:30–9:15 AM MST
 - [Tier B] Etherscan name tags ("Coti: Deployer", "Gate Deposit", "KuCoin Deposit", "Binance Deposit", "Binance 15/16", "KuCoin 20"); Blockscout holder list
 - [Tier A] [DefiLlama COTI chain fees](https://defillama.com/chain/coti); CoinGecko `coti` (16 Nov 2026 7:13 AM MST); Gate COTI/USDT daily candles

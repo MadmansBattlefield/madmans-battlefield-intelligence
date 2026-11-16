@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes, protocol emission (~62.6M DUSK a year, ~10% of supply) to stakers and a 10% development fund"
   team_wallet_to_exchange_during_pump: "not testable on the native chain; largest ERC20 EOAs are Binance / Bitvavo withdrawals, not team"
   treasury_in_single_key_wallets: "unknown (development-fund wallet not published)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No revenue to speak of; staking is paid by emission."
+pump_day_price_source: "Gate DUSK/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.062035
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
 last_updated: 2026-11-16
@@ -83,6 +91,8 @@ layout_version: 3
 
 **What it means:** no revenue to speak of. **1 (hard gate).**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No revenue to speak of; staking is paid by emission.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 - A long-running team (project since 2018) shipping regular public releases: Rusk 1.7.3 (5 Nov 2026), Web Wallet 2.0.0, block explorer 1.7.x ([Dusk developer update, 2–9 Nov 2026](https://docs.dusk.network/updates/developer/2026-11-02-to-2026-11-09/), Tier A).
@@ -112,6 +122,8 @@ layout_version: 3
 - The only pump-day outflow among the top ERC20 EOAs was [1.6M DUSK to Bitvavo on 19 Oct 2026](https://etherscan.io/tx/0x5f82c54ca00e78e7b40fbbf1ac61131d9eba9a07c7165ac1b9b3c516cc5592b1), from [`0xb0A3…4411`](https://etherscan.io/address/0xb0A3A2B60E969AFD26561429Aa4c1444C57E4411). **Correction:** Arkham labels `0xb0A3…4411` itself a **Bitvavo Cold Wallet** (centralized exchange), so this was Bitvavo moving its own inventory, not an insider sale.
 
 **What it means:** no evidence either way. **5**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate DUSK/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -157,8 +169,17 @@ layout_version: 3
 | Live mint path | 🔴 Protocol emission ~10% a year |
 | Treasury in single-key wallets | 🟡 Unknown |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Largest ERC20 EOAs | Exchanges | Etherscan labels | medium | no | None |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Dusk node GraphQL (`nodes.dusk.network`) block sample, read 16 Nov 2026 ~10:45 AM MST; [supply.dusk.network](https://supply.dusk.network)
 - [Tier A] [Dusk tokenomics](https://docs.dusk.network/learn/tokenomics/) · [developer update 2–9 Nov 2026](https://docs.dusk.network/updates/developer/2026-11-02-to-2026-11-09/)
 - [Tier A] Blockscout / Etherscan v2 for the ERC20 holders and transfers

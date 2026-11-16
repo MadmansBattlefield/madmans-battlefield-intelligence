@@ -24,6 +24,14 @@ red_lines:
   treasury_funded_wallet_to_exchange_during_pump: "no (same flows, all on down days)"
   unenforced_lockups: "no for the reserve itself (native PeriodicVestingAccount); yes after vesting: released CRO sits in plain accounts"
   mint_path_live: "yes: 70B burned CRO were re-minted in Mar 2025; validator inflation continues"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Chain fees are a rounding error and the perks belong to the company, not the token."
+pump_day_price_source: "KuCoin CRO-USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.04283
 price_source: "CoinGecko, 16 Nov 2026 6:51 AM MST"
 last_updated: 2026-11-16
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** The chain's fees are a rounding error against a $2.2B market cap, and the perks belong to the company, not the token. Score **2**, which **trips the Revenue gate**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Chain fees are a rounding error and the perks belong to the company, not the token.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -126,6 +136,8 @@ Pump test uses KuCoin CRO-USDT daily closes (from Oct 2020). Transfers are Tier 
 - Ethereum ERC-20 and Cronos EVM flows were not traced this pass. Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) labels the ERC-20 contract [`0xa0b7…`](https://intel.arkm.com/explorer/address/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b) **Crypto.com: Cronos Token (CRO)**. It is the token contract, not a cold wallet, and shows only small stray deposits. Arkham does not support Cronos POS, so the reserve's destination `cro1w2kv…` cannot be checked there. It stays *likely* a Crypto.com exchange hot wallet [Unverified].
 
 **What it means:** No pump-day pattern, so the gate holds. But very large issuer transfers to an exchange wallet with no disclosure keep this a fail. Score **4**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from KuCoin CRO-USDT daily closes.
 
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 
@@ -172,8 +184,17 @@ Pump test uses KuCoin CRO-USDT daily closes (from Oct 2020). Transfers are Tier 
 | Unenforced lock-ups | 🟡 Reserve enforced by the chain; released CRO in plain accounts |
 | Live mint path | 🔴 **Yes:** the 2025 re-mint of 70B burned CRO; inflation continues |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Reserve-vested CRO → memo exchange hot wallet | Crypto.com reserve | Cronos POS REST + memo label | medium | no | Selling: large undisclosed issuer transfers (not on pump days) keep the score at 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Cronos POS REST (`rest.mainnet.crypto.org`): `cosmos/auth/v1beta1/accounts`, `bank/v1beta1/balances`, `staking/v1beta1/delegations`, `tx/v1beta1/txs` for the reserve and seven downstream accounts; read 16 Nov 2026 MST
 - [Tier A] [Proposal discussion #1124](https://github.com/crypto-org-chain/chain-main/discussions/1124) · [Cronos blog](https://blog.cronos.com/p/the-new-golden-age-for-cronos) · [Crypto.com licences](https://crypto.com/en/licenses) · [MiCA notice](https://crypto.com/en/company-news/mica-change-in-license) · [Canary S-1 notice](https://crypto.com/en/company-news/canary-capital-submits-s1-registration-for-cro-spot-etf) · [GitHub](https://github.com/crypto-org-chain/cronos)
 - [Tier A] DefiLlama chain fees; CoinGecko `crypto-com-chain` (16 Nov 2026 6:51 AM MST); KuCoin CRO-USDT daily candles for every pump test

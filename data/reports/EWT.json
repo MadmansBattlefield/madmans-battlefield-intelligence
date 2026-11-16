@@ -43,7 +43,16 @@
   },
   "price_usd": 0.250898,
   "price_source": "CoinGecko, 16 Nov 2026 8:20 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No checkable revenue reaches the token.",
+    "pump_day_price_source": "KuCoin EWT/USDT daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.250898,
     "market_cap_text": "$20.34M",
@@ -54,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/EWT.md",
-    "sha256": "ee5aeb0b253d3532d7d78b1579ee3f7bbdcbd3ab47169948e9b0f547f9d97afa",
-    "bytes": 15500,
-    "extracted_at": "2026-11-16 14:19 MST",
+    "sha256": "710127c824478a191b3e5008053c37d78b7e2d9fbbbaca8d3bfe5f735d451197",
+    "bytes": 16738,
+    "extracted_at": "2026-11-16 14:21 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -183,15 +192,15 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "KuCoin EWT/USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "yes",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": false,
-    "disclosure_quality": "unclear",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found (an unattributed 3-of-5 Safe sent 165k EWT to a KuCoin deposit in Oct 2026 on non-pump days); Foundation wallets not identified"
@@ -320,6 +329,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan v2 API: EWT ERC20 mint logs (Transfer from 0x0) and `tokentx` for the Safe and top EOAs, read 16 Nov 2026 ~9:10 AM MST; Ethereum RPC `getThreshold()`, `getOwners()`",

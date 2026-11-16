@@ -76,21 +76,21 @@ Every token in this folder has a full v3 scored report:
 | 41 | [FXS.md](FXS.md) | Frax (prev. FXS) | **4.6 / 10 · ❌ FAIL** |
 | 42 | [API3.md](API3.md) | Api3 | **4.5 / 10 · ❌ FAIL** |
 | 43 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
-| 44 | [CFG.md](CFG.md) | Centrifuge | **4.5 / 10 · ❌ FAIL** |
-| 45 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |
-| 46 | [HUMA.md](HUMA.md) | Huma Finance | **4.4 / 10 · ❌ FAIL** |
-| 47 | [RVN.md](RVN.md) | Ravencoin | **4.4 / 10 · ❌ FAIL** |
-| 48 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
-| 49 | [RLC.md](RLC.md) | iExec RLC | **4.3 / 10 · ❌ FAIL** |
-| 50 | [RED.md](RED.md) | RedStone | **4.3 / 10 · ❌ FAIL** |
-| 51 | [PRO.md](PRO.md) | Propy | **4.3 / 10 · ❌ FAIL** |
-| 52 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
-| 53 | [REQ.md](REQ.md) | Request Network | **4.2 / 10 · ❌ FAIL** |
-| 54 | [AMP.md](AMP.md) | Amp | **4.2 / 10 · ❌ FAIL** |
-| 55 | [GRND.md](GRND.md) | SuperWalk | **4.2 / 10 · ❌ FAIL** |
-| 56 | [ETC.md](ETC.md) | Ethereum Classic | **4.1 / 10 · ❌ FAIL** |
-| 57 | [XVG.md](XVG.md) | Verge | **4.1 / 10 · ❌ FAIL** |
-| 58 | [EDEN.md](EDEN.md) | OpenEden | **4.1 / 10 · ❌ FAIL** |
+| 44 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |
+| 45 | [HUMA.md](HUMA.md) | Huma Finance | **4.4 / 10 · ❌ FAIL** |
+| 46 | [RVN.md](RVN.md) | Ravencoin | **4.4 / 10 · ❌ FAIL** |
+| 47 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
+| 48 | [RLC.md](RLC.md) | iExec RLC | **4.3 / 10 · ❌ FAIL** |
+| 49 | [RED.md](RED.md) | RedStone | **4.3 / 10 · ❌ FAIL** |
+| 50 | [PRO.md](PRO.md) | Propy | **4.3 / 10 · ❌ FAIL** |
+| 51 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
+| 52 | [REQ.md](REQ.md) | Request Network | **4.2 / 10 · ❌ FAIL** |
+| 53 | [AMP.md](AMP.md) | Amp | **4.2 / 10 · ❌ FAIL** |
+| 54 | [GRND.md](GRND.md) | SuperWalk | **4.2 / 10 · ❌ FAIL** |
+| 55 | [ETC.md](ETC.md) | Ethereum Classic | **4.1 / 10 · ❌ FAIL** |
+| 56 | [XVG.md](XVG.md) | Verge | **4.1 / 10 · ❌ FAIL** |
+| 57 | [EDEN.md](EDEN.md) | OpenEden | **4.1 / 10 · ❌ FAIL** |
+| 58 | [CFG.md](CFG.md) | Centrifuge | **4.0 / 10 · ❌ FAIL** |
 | 59 | [ZBCN.md](ZBCN.md) | Zebec Network | **4.0 / 10 · ❌ FAIL** |
 | 60 | [SEI.md](SEI.md) | Sei | **4.0 / 10 · ❌ FAIL** |
 | 61 | [TFUEL.md](TFUEL.md) | Theta Fuel | **4.0 / 10 · ❌ FAIL** |
@@ -131,22 +131,22 @@ Every token in this folder has a full v3 scored report:
 | 96 | [TRUF.md](TRUF.md) | TRUF.Network (Truflation) | **3.7 / 10 · ❌ FAIL** |
 | 97 | [ZEN.md](ZEN.md) | Horizen | **3.7 / 10 · ❌ FAIL** |
 | 98 | [KAIO.md](KAIO.md) | KAIO (formerly Libre Capital) | **3.6 / 10 · ❌ FAIL** |
-| 99 | [CPOOL.md](CPOOL.md) | Clearpool | **3.6 / 10 · ❌ FAIL** |
-| 100 | [HYPER.md](HYPER.md) | Hyperlane | **3.6 / 10 · ❌ FAIL** |
-| 101 | [SHX.md](SHX.md) | Stronghold | **3.6 / 10 · ❌ FAIL** |
-| 102 | [SUPRA.md](SUPRA.md) | Supra | **3.6 / 10 · ❌ FAIL** |
-| 103 | [VELO.md](VELO.md) | Velo | **3.6 / 10 · ❌ FAIL** |
-| 104 | [QANX.md](QANX.md) | QANplatform | **3.6 / 10 · ❌ FAIL** |
-| 105 | [PROPC.md](PROPC.md) | Propchain | **3.6 / 10 · ❌ FAIL** |
-| 106 | [NUVA.md](NUVA.md) | NUVA Finance | **3.5 / 10 · ❌ FAIL** |
-| 107 | [WIREX.md](WIREX.md) | Wirex | **3.5 / 10 · ❌ FAIL** |
-| 108 | [TX.md](TX.md) | TX (Coreum + Sologenic) | **3.5 / 10 · ❌ FAIL** |
-| 109 | [ZKC.md](ZKC.md) | Boundless | **3.4 / 10 · ❌ FAIL** |
-| 110 | [SKEY.md](SKEY.md) | Skey Network | **3.4 / 10 · ❌ FAIL** |
-| 111 | [ZKP.md](ZKP.md) | zkPass | **3.4 / 10 · ❌ FAIL** |
-| 112 | [OM.md](OM.md) | MANTRA | **3.4 / 10 · ❌ FAIL** |
-| 113 | [PUNDIX.md](PUNDIX.md) | Pundi X | **3.4 / 10 · ❌ FAIL** |
-| 114 | [SHPING.md](SHPING.md) | Shping | **3.3 / 10 · ❌ FAIL** |
+| 99 | [HYPER.md](HYPER.md) | Hyperlane | **3.6 / 10 · ❌ FAIL** |
+| 100 | [SHX.md](SHX.md) | Stronghold | **3.6 / 10 · ❌ FAIL** |
+| 101 | [SUPRA.md](SUPRA.md) | Supra | **3.6 / 10 · ❌ FAIL** |
+| 102 | [VELO.md](VELO.md) | Velo | **3.6 / 10 · ❌ FAIL** |
+| 103 | [QANX.md](QANX.md) | QANplatform | **3.6 / 10 · ❌ FAIL** |
+| 104 | [PROPC.md](PROPC.md) | Propchain | **3.6 / 10 · ❌ FAIL** |
+| 105 | [NUVA.md](NUVA.md) | NUVA Finance | **3.5 / 10 · ❌ FAIL** |
+| 106 | [WIREX.md](WIREX.md) | Wirex | **3.5 / 10 · ❌ FAIL** |
+| 107 | [TX.md](TX.md) | TX (Coreum + Sologenic) | **3.5 / 10 · ❌ FAIL** |
+| 108 | [ZKC.md](ZKC.md) | Boundless | **3.4 / 10 · ❌ FAIL** |
+| 109 | [SKEY.md](SKEY.md) | Skey Network | **3.4 / 10 · ❌ FAIL** |
+| 110 | [ZKP.md](ZKP.md) | zkPass | **3.4 / 10 · ❌ FAIL** |
+| 111 | [OM.md](OM.md) | MANTRA | **3.4 / 10 · ❌ FAIL** |
+| 112 | [PUNDIX.md](PUNDIX.md) | Pundi X | **3.4 / 10 · ❌ FAIL** |
+| 113 | [SHPING.md](SHPING.md) | Shping | **3.3 / 10 · ❌ FAIL** |
+| 114 | [CPOOL.md](CPOOL.md) | Clearpool | **3.3 / 10 · ❌ FAIL** |
 | 115 | [POLYX.md](POLYX.md) | Polymesh | **3.3 / 10 · ❌ FAIL** |
 | 116 | [S.md](S.md) | Sonic | **3.3 / 10 · ❌ FAIL** |
 | 117 | [ZIG.md](ZIG.md) | ZIGChain (Zignaly) | **3.3 / 10 · ❌ FAIL** |
@@ -176,8 +176,8 @@ Every token in this folder has a full v3 scored report:
 | 141 | [EDEL.md](EDEL.md) | Edel Finance | **2.5 / 10 · ❌ FAIL** |
 | 142 | [SPA.md](SPA.md) | Sperax | **2.5 / 10 · ❌ FAIL** |
 | 143 | [SWCH.md](SWCH.md) | SwissCheese | **2.5 / 10 · ❌ FAIL** |
-| 144 | [COTI.md](COTI.md) | COTI | **2.4 / 10 · ❌ FAIL** |
-| 145 | [H.md](H.md) | Humanity Protocol | **2.4 / 10 · ❌ FAIL** |
+| 144 | [H.md](H.md) | Humanity Protocol | **2.4 / 10 · ❌ FAIL** |
+| 145 | [COTI.md](COTI.md) | COTI | **2.1 / 10 · ❌ FAIL** |
 | 146 | [REALIZ.md](REALIZ.md) | Realiz (TPT30) | **2.1 / 10 · ❌ FAIL** |
 | 147 | [ROUTER.md](ROUTER.md) | Solrouter | **2.0 / 10 · ❌ FAIL** |
 | 148 | [SIBERIUM.md](SIBERIUM.md) | Siberium Network (SIBR) | **1.9 / 10 · ❌ FAIL** |

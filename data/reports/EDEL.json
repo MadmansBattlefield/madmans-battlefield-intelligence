@@ -45,7 +45,15 @@
   "price_usd": 0.01082,
   "price_source": "CoinGecko, 14 Nov 2026 9:08 AM MST",
   "front_matter_extras": {
-    "contract_base": "0xFb31f85A8367210B2e4Ed2360D2dA9Dc2D2Ccc95"
+    "contract_base": "0xFb31f85A8367210B2e4Ed2360D2dA9Dc2D2Ccc95",
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "About $4.8k of lifetime revenue and none flows to the token.",
+    "pump_day_price_source": "MEXC EDELUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (87 of 330 days); the body's earlier count used the report's own 5-close window test",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
   },
   "key_numbers": {
     "price_usd": 0.01082,
@@ -57,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/EDEL.md",
-    "sha256": "6fd9a891473778483eddb42ddade3064959c1ecd5f6011ea69e964d7453c328d",
-    "bytes": 32066,
-    "extracted_at": "2026-11-16 14:19 MST",
+    "sha256": "620ed6296365075b57810cf0388e4054967c0d8cd28172df8dcf65d56b3e63de",
+    "bytes": 33746,
+    "extracted_at": "2026-11-16 14:21 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -478,25 +486,25 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "MEXC EDELUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (87 of 330 days); the body's earlier count used the report's own 5-close window test",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "yes",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": false,
-    "disclosure_quality": "unclear",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_cluster_wallet_outflow_to_sales_12_13_Nov_2026: found_not_pump_days"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "The business earned about $4.8k of revenue in its whole life, and none of it flows to the token."
   },
@@ -552,6 +560,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Base RPC reads and receipts (launch, Hedgey, UNCX, LP migration), 12–13 Nov 2026",

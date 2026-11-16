@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes, PoW 0.4 CFX a block plus 3.26% PoS interest (~1.8% a year net, Tier B)"
   team_wallet_to_exchange_during_pump: "no: published founder lock addresses have had no outflows since Mar 2025"
   treasury_in_single_key_wallets: "unknown; launch-era fund contracts reportedly hold ~3.0B CFX [Unverified]"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Revenue is negligible at the token's scale; no burn, buyback or fee share."
+pump_day_price_source: "Gate CFX/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.03432468
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
 last_updated: 2026-11-16
@@ -81,6 +89,8 @@ layout_version: 3
 
 **What it means:** no revenue at the scale of the token. **1 (hard gate).**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Revenue is negligible at the token's scale; no burn, buyback or fee share.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - The Conflux Foundation and core team ship regular releases (v3.1.1 mainnet and testnet in Oct 2026; [monthly report](https://confluxnetwork.medium.com/monthly-progress-report-october-2026-93338db112f3), Tier A).
@@ -108,6 +118,8 @@ layout_version: 3
 - The fund contracts' monthly payouts (~49M CFX a quarter to one staking wallet, Tier B) could not be pump-tested without their addresses.
 
 **What it means:** no evidence of insider pump selling, but the biggest pools are untested. **5**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate CFX/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -152,8 +164,18 @@ layout_version: 3
 | Live mint path | 🟡 ~1.8% a year protocol issuance |
 | Treasury in single-key wallets | 🟡 Unknown; ~3.0B in fund contracts [Unverified] |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Published founder lock addresses | Conflux founders | Project publication + chain | high | yes | None: no outflows since Mar 2025 |
+| Largest pools | Untested | — | low | no | Selling stays 5 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - Arkham does not cover Conflux (Core Space or eSpace), so no Arkham labels were available for the CFX wallets; attribution rests on ConfluxScan and Conflux's own publications
 - [Tier A] ConfluxScan `/statistics/supply` and `/account/cfx/transfers`; Conflux RPC `cfx_getBalance`, read 16 Nov 2026
 - [Tier A] [Conflux economic model](https://medium.com/conflux-network/conflux-networks-economic-model-pre-mined-token-distribution-and-proportions-f92fe00696ea) · [Ecosystem fund update and founder locks](https://medium.com/conflux-network/ecosystem-funds-update-8bb1cbce80b8) · [Round 20 parameters](https://forum.conflux.fun/t/conflux-network-key-parameters-round-20-voting-results-to-take-effect-soon/23506) · [Oct 2026 report](https://confluxnetwork.medium.com/monthly-progress-report-october-2026-93338db112f3)

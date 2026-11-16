@@ -24,6 +24,14 @@ red_lines:
   team_wallet_to_exchange_during_pump: "downgraded after Arkham: the two largest pump-day moves were into custody (35.7M to a Gemini Custody multisig, 19 Jul 2024; 70M to Ethena's own Coinbase Prime deposit, 5 Sep 2025). Remaining pump-day exchange deposits from foundation-funded wallets: 21.8M (unlabelled 0xB2af, 19 Jul 2025), 8M (YZi Labs, Sep 2025), 6.3M (Ethena team vesting proxy, 2026)"
   treasury_coins_to_exchange_via_market_maker: "yes, ~1.6B ENA from foundation-funded wallets reached Coinbase Prime, Binance, Bybit, Gemini, FalconX and Galaxy OTC deposit addresses (2024–2026), mostly on non-pump days; Arkham labels ~715M of it as Ethena's own custody (Coinbase Prime) or Gemini Custody"
   fee_switch: "approved 8 Sep 2026 but inactive until 14-day average USDe supply reaches $7.5B (now ~$4.85B)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Fees pay sUSDe stakers and the reserve fund; the approved fee switch stays off until USDe averages $7.5B."
+pump_day_price_source: "KuCoin ENA-USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.115481
 price_source: "CoinGecko, 16 Nov 2026 5:39 AM MST"
 last_updated: 2026-11-16
@@ -88,6 +96,8 @@ layout_version: 3
 
 **What it means:** A real, fee-producing business, but the fees pay sUSDe stakers and the reserve fund, not ENA. The approved fee switch is conditional on USDe growing by about 55% from here. Until it turns on, ENA is a governance token with a promise attached. Score **3**: real revenue exists, nothing reaches the token. Hard-gate FAIL.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Fees pay sUSDe stakers and the reserve fund; the approved fee switch stays off until USDe averages $7.5B.
+
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -139,6 +149,8 @@ layout_version: 3
 - Only the foundation Safe is provably Ethena's at Tier A. Arkham ([Tier B] Arkham, read 16 Nov 2026 ~6:10 AM MST (signed-in account)) labels `0xcfc4…`, `0xc4e5…`, `0x2146…` and `0x54b8…` as Ethena team/custody wallets, `0x877b…` as investor YZi Labs, and `0xfa84…`/`0xd332…` as StablecoinX. `0xB2af…` and `0x3C71…` have no owner label.
 
 **What it means:** The two big pump-day moves were custody transfers, so the pump-day selling picture is smaller than first shown (≈ 36M, mostly an investor and an unnamed wallet). Ethena's own custody did sell 128.6M to Binance after its hack (not a pump day), and none of these flows is tied to a published unlock or OTC schedule. Score **5** (was 4): still a fail because team-funded wallets keep feeding exchanges without disclosure.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from KuCoin ENA-USDT daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -198,8 +210,18 @@ Supply is well below the $7.5B fee-switch trigger, which is the adoption number 
 | Live mint path | 🟡 Owner (timelock) can mint 10% a year; unused |
 | Token earns nothing | 🔴 Fee switch inactive until USDe ≥ $7.5B |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation Safe `0xd4b3…` → Gemini Custody / Anchorage | Ethena Foundation | Etherscan + Arkham custody labels | high | yes | None: custody transfers, not sales |
+| Unlabelled `0xB2af…` (21.8M on pump days) | Ethena-funded, owner unknown | Etherscan | low | no | None: cannot move Selling on its own |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx`, `tokenbalance` and token supply for ENA and sENA; the two deployment Safes, 17 funded wallets and the second hops named above; read 16 Nov 2026 ~4:30–5:40 AM MST
 - [Tier A] ENA contract source and constructor (creation tx); Blockscout contract names (GnosisSafe, EthenaTimelockController)
 - [Tier A] [Ethena docs: tokenomics](https://docs.ethena.fi/ena/tokenomics) · [audits](https://docs.ethena.fi/resources/audits)

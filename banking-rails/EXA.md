@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "indirect: EXA is an upgradeable contract whose admin is the TimelockController (24h delay, 3-of-6 Safe executor), so supply rules can be changed by upgrade"
   team_wallet_to_exchange_during_pump: "no CEX deposit found (EXA has no CEX market); a team/investor Sablier-stream recipient sold ~200k EXA on DEXs, 8.9k of it on pump days in the last 12 months; Arkham shows a wallet fed by another stream recipient also selling into Velodrome pools"
   treasury_selling: "DAO treasury sent 500,000 EXA to a new wallet on 18 Mar 2025, described as the Uphold deal (EXAIP-21); Arkham does not label it Uphold, so that link stays [Unverified]; that wallet staked it; no treasury DEX selling found"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "$37k a year of protocol revenue and none reaches EXA holders."
+pump_day_price_source: "no exchange-native series with history (CoinGecko-era test in the body)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.06744
 price_source: "CoinGecko, 16 Nov 2026 5:11 AM MST"
 last_updated: 2026-11-16
@@ -83,6 +91,8 @@ layout_version: 3
 
 **What it means:** Almost all interest goes to lenders. $37k a year of protocol revenue does not cover a development team, and none reaches EXA holders. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** $37k a year of protocol revenue and none reaches EXA holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -116,6 +126,8 @@ Source: [Tier A] [EXA tokenomics](https://docs.exact.ly/governance/exactly-token
 - **Treasury:** the original Safe `0x23fd…` paid 362k EXA into a Velodrome `BribeVotingReward` contract (vote incentives, 2023–2025). No direct treasury sale was found. Arkham shows `0x23fd…` as a Gnosis Safe with no entity, now used for general Exactly positions ([Arkham](https://intel.arkm.com/explorer/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019)).
 
 **What it means:** No hidden CEX dumping, but stream recipients sell into a pool that trades ~$700 a day, sometimes on pump days, and the recipients aren't disclosed. Whether `0x8ed6…` is a team member or an investor is [Unverified]. **4, unchanged after the Arkham pass:** Arkham adds a second selling wallet (`0x7665…`, fed by a stream recipient) but labels none of the recipients, and its sales were not dated against pump days.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from no exchange-native series with history (CoinGecko-era test in the body).
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -162,8 +174,17 @@ Source: [Tier A] [EXA tokenomics](https://docs.exact.ly/governance/exactly-token
 | Live mint path | 🟡 Token upgradeable by the Timelock (3-of-6 Safe, 24h) |
 | Treasury selling | 🟢 None found; 500k to the wallet described as the Uphold deal (not labelled Uphold on Arkham, [Arkham](https://intel.arkm.com/explorer/address/0x598e7fc64331f80d1fc573ded1b9f2b660c05344)) ([tx](https://optimistic.etherscan.io/tx/0x250591d7a380baf4c2d6ece549be8b9f5385391ec8f434f550de58e52ba11a30)), 362k to Velodrome vote incentives |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Stream recipient `0x8ed6…` and `0x7665…` | Unlabelled (team or investor unverified) | Etherscan streams | low | no | None: cannot move Selling; stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] OP Mainnet via Blockscout API (explorer.optimism.io): EXA holders; full EXA transfers of the Timelock, owner Safe, initial Safe `0x23fd…`, Sablier Dynamic (942 rows), Sablier Linear, `0x598e…` and top stream recipients; contract names and creators; tx status for every linked tx; `totalSupply()` via OP RPC, 16 Nov 2026 ~6:00–7:00 AM MST
 - [Tier A] Exactly docs: [tokenomics](https://docs.exact.ly/governance/exactly-token-exa/tokenomics) · [access control](https://docs.exact.ly/security/access-control) · [contract addresses](https://docs.exact.ly/guides/smart-contract-addresses)
 - [Tier A] DefiLlama fees/revenue/holders revenue and TVL (`exactly`); CoinGecko `exactly` market data and 365 daily prices (16 Nov 2026 5:11 AM MST)

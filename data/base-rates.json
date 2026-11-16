@@ -1,7 +1,7 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:20 MST",
+  "generated_at": "2026-11-16 14:21 MST",
   "universe": 148,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
@@ -147,11 +147,12 @@
     ]
   },
   "fail_selling_gate": {
-    "count": 31,
-    "share": 0.2095,
+    "count": 32,
+    "share": 0.2162,
     "tickers": [
       "ACH",
       "API3",
+      "CFG",
       "COTI",
       "CPOOL",
       "EDEL",
@@ -184,10 +185,11 @@
     ]
   },
   "fail_both_gates": {
-    "count": 28,
-    "share": 0.1892,
+    "count": 29,
+    "share": 0.1959,
     "tickers": [
       "ACH",
+      "CFG",
       "COTI",
       "CPOOL",
       "EDEL",
@@ -218,21 +220,16 @@
     ]
   },
   "proven_pump_day_sale": {
-    "count": 41,
-    "share": 0.277,
+    "count": 36,
+    "share": 0.2432,
     "tickers": [
       "ACH",
       "ALGO",
       "API3",
       "CELO",
       "CFG",
-      "CFX",
       "COTI",
       "CPOOL",
-      "DASH",
-      "EDEL",
-      "ENA",
-      "EWT",
       "HYPER",
       "INJ",
       "JST",
@@ -265,10 +262,9 @@
     ]
   },
   "pump_day_sale_unclear": {
-    "count": 5,
-    "share": 0.0338,
+    "count": 4,
+    "share": 0.027,
     "tickers": [
-      "ETC",
       "KAVA",
       "RVN",
       "XMR",
@@ -440,7 +436,7 @@
       "API3",
       "CFG",
       "COTI",
-      "ENA",
+      "CPOOL",
       "PACT",
       "PHA",
       "POLYX",
@@ -487,8 +483,8 @@
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 66,
-    "share": 0.4459,
+    "count": 76,
+    "share": 0.5135,
     "tickers": [
       "ACH",
       "ADA",
@@ -507,12 +503,22 @@
       "CELO",
       "CELR",
       "CFG",
+      "CFX",
+      "COTI",
+      "CPOOL",
+      "CRO",
+      "CSPR",
+      "DASH",
       "DIA",
       "DOT",
+      "DUSK",
+      "EDEL",
       "EDEN",
       "ENA",
+      "ETC",
       "EURE",
       "EWT",
+      "EXA",
       "GRND",
       "HUMA",
       "HYPER",
@@ -559,19 +565,9 @@
     ]
   },
   "revenue_reaches_holders_unclear": {
-    "count": 65,
-    "share": 0.4392,
+    "count": 55,
+    "share": 0.3716,
     "tickers": [
-      "CFX",
-      "COTI",
-      "CPOOL",
-      "CRO",
-      "CSPR",
-      "DASH",
-      "DUSK",
-      "EDEL",
-      "ETC",
-      "EXA",
       "FXS",
       "H",
       "HASH",

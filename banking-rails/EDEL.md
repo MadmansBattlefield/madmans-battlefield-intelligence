@@ -23,6 +23,14 @@ red_lines:
   official_liquidity_pulled: tripped
   founder_or_director_exit: none_found
   team_cluster_wallet_outflow_to_sales_12_13_Nov_2026: found_not_pump_days
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "About $4.8k of lifetime revenue and none flows to the token."
+pump_day_price_source: "MEXC EDELUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (87 of 330 days); the body's earlier count used the report's own 5-close window test"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.01082
 price_source: "CoinGecko, 14 Nov 2026 9:08 AM MST"
 last_updated: 2026-11-15
@@ -91,6 +99,8 @@ layout_version: 3
 
 **What it means:** The business earned about $4.8k of revenue in its whole life, and none of it flows to the token.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** About $4.8k of lifetime revenue and none flows to the token.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -144,6 +154,8 @@ Snapshot: Base block 56,602,263 (12 Nov 2026, 12:13 PM MST) and 13 Nov re-reads.
 - **Arkham on `0x0c3e`** ([Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account)): no named entity (Titan Labs is not shown); its ~30-day exchange panel shows deposits to **Kraken $12.0k and MEXC $7.48k** and a **Bitunix withdrawal of $19.8k**, but not which tokens or chains. On Base, `0x0c3e` made no EDEL transfer to an exchange-type address from 9 Nov 2026 11:12 AM MST to 15 Nov (all 21 EDEL transfers read); earlier weeks of the Arkham window were not re-read on-chain (see Open items).
 
 **What it means:** Still no proven sale into a pump, but insider-chosen wallets dumped outside buyers' tax at launch, the official liquidity was pulled without a word, and on 12–13 Nov about 15.3M EDEL left the team-cluster wallet and, together with ~14.6M from contract `0xe99f…` that moved alongside it, was sold on DEXs or sent to exchange-scale wallets within hours, whether by the team or by whoever took its key. Treat as hostile until shown otherwise. Score unchanged at 3/10 (already a gate fail).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from MEXC EDELUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (87 of 330 days); the body's earlier count used the report's own 5-close window test.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -223,8 +235,17 @@ Snapshot: Base block 56,602,263 (12 Nov 2026, 12:13 PM MST) and 13 Nov re-reads.
 | Official liquidity pulled or unlocked | 🔴 **Tripped** (12 Nov 2026: [tx `LP withdraw`](https://basescan.org/tx/0xad6a51cd504d0419ea0df25cc53ad05ca222c0d0a578f7fa9ac49edd9b3f7989) · [tx `re-deposit`](https://basescan.org/tx/0x8858621d35f0c64e01a031b9473151e95bf008de57c971d5ef1dc8a1ece88aae)) |
 | Founder or director exit | 🟢 None found |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Team-cluster wallet (12–13 Nov 2026 outflows) | Team cluster | Base chain trace | medium | no | Selling: the score of 3 rests on proven launch-tax dumping and pulled liquidity, not on a pump-day sale |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Base RPC reads and receipts (launch, Hedgey, UNCX, LP migration), 12–13 Nov 2026
 - [Tier A] [MiCAR white paper](https://assets.edel.finance/docs/2026-01-14-White-paper-Edel-FFG-R2MQ3JKN7.xhtml) · [GLEIF](https://search.gleif.org/#/record/529900E9GA8R99VOHV41)
 - [Tier A] [docs.edel.finance](https://docs.edel.finance) · [terms](https://docs.edel.finance/legal/terms)

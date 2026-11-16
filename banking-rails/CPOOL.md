@@ -3,13 +3,13 @@ ticker: CPOOL
 name: Clearpool (migrating to CLEAR)
 chain: ethereum
 contract: "0x66761fa41377003622aee3c7675fc7b5c1c2fac5 (ERC-20 CPOOL on Ethereum)"
-overall_score: 3.6
+overall_score: 3.3
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 4
   insider_holdings: 4
-  selling_behavior: 2
+  selling_behavior: 0
   tokenomics_supply: 3
   liquidity_market: 3
   product_development: 6
@@ -24,6 +24,14 @@ red_lines:
   treasury_funded_wallet_to_exchange_during_pump: "yes: peel chains 0x9038 → fresh wallet(s) → Bitget 6, amounts passed through unchanged, often within minutes"
   unenforced_lockups: "yes: docs say team and treasury tokens sit in 'multi-sig cold storage', but every bucket Safe was emptied into plain EOAs on 24–31 Jan 2022"
   mint_path_live: "CPOOL no (fixed 1B). CLEAR yes: 428.6M new tokens at migration plus 1–4% a year, no max supply"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The origination fee goes to the treasury; buybacks stopped two years ago."
+pump_day_price_source: "KuCoin CPOOL-USDT daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.02517
 price_source: "CoinGecko, 16 Nov 2026 6:51 AM MST"
 last_updated: 2026-11-16
@@ -32,7 +40,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### CPOOL · Overall grade **3.6 / 10 · ❌ FAIL**
+### CPOOL · Overall grade **3.3 / 10 · ❌ FAIL**
 
 **Summary:** Clearpool runs on-chain institutional credit (Prime, Credit Vaults, Dynamic pools) with about $1B of lifetime origination, a MiCAR white paper and audited contracts. The token is in poor shape: −99% from its 2021 high, $1.3M a day of volume (mostly Upbit KRW), $14M TVL, and holders get $0 of the ~$1.0M a year in fees (buybacks stopped after Q3 2024). Tomorrow (17 Nov 2026) CPOOL migrates 1:1 into CLEAR, which adds 428.6M new tokens (+42.9%) and an open-ended 1–4% a year. On-chain, the **"multi-sig cold storage" treasury is a fiction since January 2022**: every allocation Safe was emptied into plain wallets, and the Reserve allocation has been fed onto exchanges, pump day after pump day, through throw-away wallets. Both gates fail.
 
@@ -45,7 +53,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 4/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 2/10 | ❌ FAIL |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 3/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -59,7 +67,7 @@ layout_version: 3
 ---
 
 
-# 🪪 CPOOL · Clearpool · 3.6 / 10 · ❌ FAIL
+# 🪪 CPOOL · Clearpool · 3.3 / 10 · ❌ FAIL
 
 > **One line:** A real institutional-credit protocol whose "cold-storage" treasury has been quietly walked onto exchanges, now diluting 43% into CLEAR.
 
@@ -86,6 +94,8 @@ layout_version: 3
 | CLEAR plan | 50% of protocol revenue to buyback-and-burn; "details at a later date" | [Tier A] docs, tokenomics |
 
 **What it means:** The origination fee goes to the treasury. Holders got about $0.55M of buybacks in two years, then nothing for two more. Score **2**, which **trips the Revenue gate**.
+
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The origination fee goes to the treasury; buybacks stopped two years ago.
 
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
@@ -116,7 +126,7 @@ layout_version: 3
 
 **What it means:** Insiders' identified wallets are now mostly empty, but that is because they were distributed and sold, not because they are locked. The migration hands the treasury 357M new CLEAR plus 71M for contributors. Score **4**.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 2/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 Pump test uses KuCoin CPOOL-USDT daily closes (from 28 Oct 2021). Exchange labels are Etherscan name tags [Tier B]; transfers are Tier A. Dollar figures use the KuCoin close of each day.
 
@@ -138,6 +148,8 @@ Pump test uses KuCoin CPOOL-USDT daily closes (from 28 Oct 2021). Exchange label
 - **Correction:** Arkham labels [`0x4862`](https://intel.arkm.com/explorer/address/0x48628c595b004c1a03ca616878fef010f752fefc) a **KuCoin deposit address**, not a market-maker account. Its 57.25M of sends to KuCoin hot wallets (2021–2025) are KuCoin's sweeps. Of the deposits into it, **43.0M came from Clearpool wallets**: the deployer `0xdafb` (28.4M), the genesis Safe (8.5M) and `0x6352` (6.1M). So those wallets deposited to KuCoin directly. The earlier "34.2M on 36 pump days" counted every sweep, including other senders' deposits, so it is withdrawn.
 
 **What it means:** Treasury-origin coins hit exchanges on pump days in 2022, 2024, 2025 and 2026, through fresh wallets, with no disclosure. Score **2**, which **trips the Selling gate**.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure of these exchange sends was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from KuCoin CPOOL-USDT daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -185,8 +197,17 @@ Pump test uses KuCoin CPOOL-USDT daily closes (from 28 Oct 2021). Exchange label
 | Unenforced lock-ups | 🔴 **Yes:** all allocation Safes emptied to EOAs in Jan 2022, against the "cold storage" wording |
 | Live mint path | 🟡 CLEAR: 1–4% a year, no max supply |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Reserve Safe `0x55f6…` → EOA `0x9038…` | Clearpool Reserve allocation (17.17%) | Published allocation + Etherscan | high | yes (on-chain) | Selling: 123.3M CPOOL to Bitget, Bybit, Kraken and KuCoin, including pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API: `tokentx` for the genesis Safe and ~200 traced wallets (two BFS passes, depth 3 and 2), `getsourcecode` (all genesis wallets are `GnosisSafeProxy`), `eth_getCode` and `balanceOf` via public RPC; Etherscan token-holders page; read 16 Nov 2026 MST
 - [Tier B] Etherscan name tags: "Bitget 6", "KuCoin 20", "KuCoin Deposit", "ByBit Deposit", "Bybit: Wallet 57", "Gate Deposit", "Uniswap V3: CPOOL-USDC"
 - [Tier A] [docs.clearpool.finance](https://docs.clearpool.finance/clearpool) (tokenomics, CPOOL → CLEAR migration, buybacks, contracts & audits, roadmap) · [Snapshot vote](https://snapshot.org/#/s:clearpoolfinance.eth/proposal/0x392438d143ee5114724940cdc67a44ecf5098c066fc74d56ed860808512d9612) · [GitHub](https://github.com/clearpool-finance)

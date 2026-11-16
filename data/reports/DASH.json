@@ -44,6 +44,14 @@
   "price_usd": 38.22,
   "price_source": "CoinGecko, 15 Nov 2026 6:45 AM MST",
   "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Users pay almost nothing; miners, masternodes and developers are paid by inflation.",
+    "pump_day_price_source": "Gate DASH_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (50 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [],
     "chain_read_height": 2572718
   },
   "key_numbers": {
@@ -55,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/DASH.md",
-    "sha256": "42cb555235c5e02652d723f5ab4f5022b932489dd6e67f9c9907c81ca22ec1ca",
-    "bytes": 27069,
-    "extracted_at": "2026-11-16 14:19 MST",
+    "sha256": "8b3cdb998521ac56a2d0989dee958576d175c117a2c35e50159222def647c656",
+    "bytes": 28727,
+    "extracted_at": "2026-11-16 14:21 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -242,25 +250,25 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate DASH_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (50 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "yes",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": false,
-    "disclosure_quality": "unclear",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "treasury_payout_on_pump_day: tripped_1_of_12_months_calendar_driven"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "Users pay almost nothing (~$27 a day at most). Miners, masternodes and the developers are all paid by inflation, about $12–14M a year at today's price. The token has no cash-flow claim."
   },
@@ -314,6 +322,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Insight API ([`insight.dash.org`](https://insight.dash.org/insight-api/addr/7mUyau75ATy1c6LoZeG3D57jKBkR4iHJkE)): raw JSON for every tx cited ([example](https://insight.dash.org/insight-api/tx/c12921d6dcefdd13784a03bafe4785fe81b79d0a7271ce8f701943cc80a0d7c7)); human-readable views on [Chainz (cryptoID)](https://chainz.cryptoid.info/dash/address.dws?7mUyau75ATy1c6LoZeG3D57jKBkR4iHJkE.htm), linked inline and in the Evidence trail; `status`, `gobject/get/91808ffd…` (DCG proposal), `addr/7mUyau75…`, `txs?address=7mUyau75…` (40 txs); 15 Nov 2026 ~6:55 AM MST",

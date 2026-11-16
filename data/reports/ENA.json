@@ -44,7 +44,16 @@
   },
   "price_usd": 0.115481,
   "price_source": "CoinGecko, 16 Nov 2026 5:39 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Fees pay sUSDe stakers and the reserve fund; the approved fee switch stays off until USDe averages $7.5B.",
+    "pump_day_price_source": "KuCoin ENA-USDT daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.115481,
     "market_cap_text": "$1.560B",
@@ -56,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ENA.md",
-    "sha256": "3267bd2cc84ee2497552f8fd59e7693b31f123d734fa6a19516f9e8ae7d33d3a",
-    "bytes": 34863,
-    "extracted_at": "2026-11-16 14:19 MST",
+    "sha256": "8297336923e13ae9931e81cb93282657f5b3a43005335435549e3798cc3c9a15",
+    "bytes": 36463,
+    "extracted_at": "2026-11-16 14:21 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -487,15 +496,15 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "KuCoin ENA-USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "yes",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": false,
-    "disclosure_quality": "silence",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: downgraded after Arkham: the two largest pump-day moves were into custody (35.7M to a Gemini Custody multisig, 19 Jul 2024; 70M to Ethena's own Coinbase Prime deposit, 5 Sep 2025). Remaining pump-day exchange deposits from foundation-funded wallets: 21.8M (unlabelled 0xB2af, 19 Jul 2025), 8M (YZi Labs, Sep 2025), 6.3M (Ethena team vesting proxy, 2026)",
@@ -742,6 +751,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan v2 API `tokentx`, `tokenbalance` and token supply for ENA and sENA; the two deployment Safes, 17 funded wallets and the second hops named above; read 16 Nov 2026 ~4:30–5:40 AM MST",

@@ -44,7 +44,16 @@
   },
   "price_usd": 0.04283,
   "price_source": "CoinGecko, 16 Nov 2026 6:51 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Chain fees are a rounding error and the perks belong to the company, not the token.",
+    "pump_day_price_source": "KuCoin CRO-USDT daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.04283,
     "market_cap_text": "$2.22B",
@@ -55,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CRO.md",
-    "sha256": "f5e0c2eabbf89014463cb64d7c5b5c707186eebf30a5e54ceca3ace55439afe6",
-    "bytes": 19766,
-    "extracted_at": "2026-11-16 14:19 MST",
+    "sha256": "1c3858fe4464f214d092bf92fcd57416251766cb82205bb689bf42f55a30125d",
+    "bytes": 21215,
+    "extracted_at": "2026-11-16 14:21 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -149,12 +158,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "KuCoin CRO-USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -165,10 +174,10 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "The chain's fees are a rounding error against a $2.2B market cap, and the perks belong to the company, not the token. Score **2**, which **trips the Revenue gate**."
   },
@@ -210,6 +219,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Cronos POS REST (`rest.mainnet.crypto.org`): `cosmos/auth/v1beta1/accounts`, `bank/v1beta1/balances`, `staking/v1beta1/delegations`, `tx/v1beta1/txs` for the reserve and seven downstream accounts; read 16 Nov 2026 MST",

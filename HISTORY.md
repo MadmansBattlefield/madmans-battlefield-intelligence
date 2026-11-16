@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:19 MST
+generated_at: 2026-11-16 14:21 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -21,7 +21,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [AERO](banking-rails/AERO.md) | 2 | 6.6 | 6.6 | 8 | 5 → 6 | 6 |
 | [ALGO](banking-rails/ALGO.md) | 1 | 5.0 | 5.0 | 1 | 5 | 6 |
 | [AMP](banking-rails/AMP.md) | 1 | 4.2 | 4.2 | 2 | 5 | 4 |
-| [API3](banking-rails/API3.md) | 1 | 4.7 | 4.7 | 4 | 3 | 6 |
+| [API3](banking-rails/API3.md) | 2 | 4.7 | 4.5 | 4 | 3 → 1 | 6 |
 | [APT](banking-rails/APT.md) | 1 | 5.0 | 5.0 | 2 | 4 | 4 |
 | [ARB](banking-rails/ARB.md) | 1 | 5.8 | 5.8 | 4 | 5 | 6 |
 | [ASTR](banking-rails/ASTR.md) | 1 | 3.8 | 3.8 | 1 | 5 | 4 |
@@ -169,7 +169,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 Each row is a commit in which that report's scores (or gates) changed, plus the first commit that introduced the report.
 
 - **ACH** — 3.1 FAIL in `aa945b1` (2026-11-16 12:24 MST).
-- **ADA** — 5.1 FAIL in `395f117` (2026-11-16 06:46 MST).
+- **ADA** — 5.1 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
 - **AEON** — 3.3 FAIL in `aa945b1` (2026-11-16 12:24 MST).
 ### AERO
 
@@ -178,17 +178,23 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `c5e10a5` | 2026-11-15 06:07 MST | 6.6 | PASS | 8 | 5 | 6 | — |
 | `6723e4d` | 2026-11-16 14:02 MST | 6.6 | PASS | 8 | 6 | 6 | — |
 
-- **ALGO** — 5.0 FAIL in `6fa4721` (2026-11-15 18:37 MST).
-- **AMP** — 4.2 FAIL in `714aff3` (2026-11-16 08:59 MST).
-- **API3** — 4.7 FAIL in `132f0fd` (2026-11-16 06:50 MST).
-- **APT** — 5.0 FAIL in `6fa4721` (2026-11-15 18:37 MST).
+- **ALGO** — 5.0 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
+- **AMP** — 4.2 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
+### API3
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `132f0fd` | 2026-11-16 06:50 MST | 4.7 | FAIL | 4 | 3 | 6 | selling_behavior |
+| `6c1a9e1` | 2026-11-16 14:20 MST | 4.5 | FAIL | 4 | 1 | 6 | selling_behavior |
+
+- **APT** — 5.0 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
 - **ARB** — 5.8 FAIL in `a8496ab` (2026-11-16 14:06 MST).
-- **ASTR** — 3.8 FAIL in `16d387f` (2026-11-16 08:50 MST).
-- **AVAX** — 5.5 FAIL in `6fa4721` (2026-11-15 18:37 MST).
-- **AXL** — 3.8 FAIL in `8e903fc` (2026-11-16 08:31 MST).
-- **BAND** — 4.0 FAIL in `8e903fc` (2026-11-16 08:31 MST).
-- **BCH** — 5.1 FAIL in `a4bf82b` (2026-11-16 07:42 MST).
-- **BNKR** — 5.6 FAIL in `6fa4721` (2026-11-15 18:37 MST).
+- **ASTR** — 3.8 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
+- **AVAX** — 5.5 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
+- **AXL** — 3.8 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
+- **BAND** — 4.0 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
+- **BCH** — 5.1 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
+- **BNKR** — 5.6 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
 ### BP
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -197,10 +203,10 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `a8496ab` | 2026-11-16 14:06 MST | 5.2 | FAIL | 3 | 7 | 2 | revenue |
 
 - **BTC** — 7.3 PASS in `6723e4d` (2026-11-16 14:02 MST).
-- **BTT** — 4.7 FAIL in `7524e33` (2026-11-16 09:33 MST).
-- **CARDS** — 4.7 FAIL in `395f117` (2026-11-16 06:46 MST).
+- **BTT** — 4.7 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
+- **CARDS** — 4.7 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
 - **CC** — 6.4 PASS in `6723e4d` (2026-11-16 14:02 MST).
-- **CELO** — 4.7 FAIL in `6fa4721` (2026-11-15 18:37 MST).
+- **CELO** — 4.7 FAIL in `6c1a9e1` (2026-11-16 14:20 MST).
 - **CELR** — 4.0 FAIL in `91b6ac1` (2026-11-16 12:34 MST).
 - **CFG** — 4.5 FAIL in `0a6d1a7` (2026-11-16 07:39 MST).
 - **CFX** — 3.9 FAIL in `733a8b9` (2026-11-16 09:24 MST).

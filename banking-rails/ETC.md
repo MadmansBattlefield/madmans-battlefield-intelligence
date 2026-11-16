@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: fixed emission schedule (ECIP-1017, 20% cut every 5M blocks), ~210.7M cap"
   team_wallet_to_exchange_during_pump: "not applicable: no live team or treasury allocation; the 2015 Ethereum genesis presale balances are legacy, not traced here"
   treasury_selling: "not applicable today; the proposed Olympia upgrade (targeted 2027) would route base fees to a treasury contract"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Holders capture nothing; fees go to miners."
+pump_day_price_source: "Gate ETC_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (19 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 5.94
 price_source: "CoinGecko, 16 Nov 2026 7:53 AM MST"
 last_updated: 2026-11-16
@@ -82,6 +90,8 @@ layout_version: 3
 
 **What it means:** Holders capture nothing, and even miners' fee income is negligible. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Holders capture nothing; fees go to miners.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 - No foundation controls the chain. Upgrades go through public ECIPs ([ECIP repository](https://github.com/ethereumclassic/ECIPs)). Development depends on a few volunteer and grant-funded client teams. There is no protocol treasury to pay them, which is exactly what the proposed Olympia upgrade tries to fix.
@@ -94,6 +104,8 @@ layout_version: 3
 
 - With no team or treasury wallets, the insider pump-day test does not apply. The 19 pump days (largest +36.7% on 21 Aug 2026, +30.8% on 23 Aug, +25.5% on 22 Sep) line up with market-wide moves.
 - Ongoing sell pressure is miner issuance: 1.6384 ETC a block (6th era, since block 25,000,000), about 11.5k ETC a day (≈ $68k) at ~12.3-second blocks.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate ETC_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (19 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 8/10 · ✅ PASS
 
@@ -135,8 +147,17 @@ layout_version: 3
 | Live mint path | 🟢 None beyond the fixed schedule |
 | Treasury selling | 🟢 Not applicable today |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| No team or treasury wallets | — | — | high | n/a | None |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [Blockscout ETC stats API](https://etc.blockscout.com/api/v2/stats) (height, transactions today, utilization, block time), 16 Nov 2026 7:55 AM MST
 - [Tier B] 2miners ETC pool API, network hashrate field (172.7 TH/s), 16 Nov 2026 ~7:57 AM MST
 - [Tier A] [ECIP-1111](https://github.com/ethereumclassic/ECIPs/blob/master/_specs/ecip-1111.md); [Olympia overview](https://ethereumclassic.com/news/olympia-upgrade-overview)

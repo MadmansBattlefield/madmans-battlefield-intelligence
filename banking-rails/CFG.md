@@ -3,13 +3,13 @@ ticker: CFG
 name: Centrifuge
 chain: ethereum
 contract: "0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94"
-overall_score: 4.5
+overall_score: 4.0
 overall_verdict: FAIL
 section_scores:
   revenue: 3
   foundation_team: 6
   insider_holdings: 3
-  selling_behavior: 5
+  selling_behavior: 1
   tokenomics_supply: 3
   liquidity_market: 4
   product_development: 7
@@ -17,13 +17,21 @@ section_scores:
   security_audits: 5
   regulatory: 5
   catalysts: 5
-gates_failed: [revenue]
+gates_failed: [revenue, selling_behavior]
 red_lines:
   hack_exploit: none found on the CFG token
   mint_path_live: "yes, by design (immutable InflationMinter mints ~3%/yr to treasury EOA 0xb3da; Root (48h delay) can add minters)"
   team_wallet_to_exchange_during_pump: "yes, small and partly explained (Centrifuge Treasury EOA 0xb3da sent 835k CFG to a Binance deposit on the 18 Mar 2026 pump day; its pump-day FalconX deposits on 26 Feb and 16 Mar 2026 were returned 1:1 within weeks; the CNF Safe's 23.06M to Gate on the 23 May 2025 pump day falls under CP149's disclosed exchange-migration purpose)"
   treasury_in_single_key_wallets: "yes (~117M CFG, ≈ 17% of supply, in two EOAs: 0xD052 106.07M and treasury 0xb3da 11.22M; docs call 10.5% of supply 'locked' incentives but no lock contract was found)"
   token_to_equity_conversion: "CP172 passed 10 Sep 2026; Centrifuge says it will wind down funding for CFG liquidity (listings, market-maker loans) after the conversion window"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "None of the business income reaches CFG and the team says none will; there is no burn, buyback, fee share or fee-funded staking yield."
+pump_day_price_source: "Gate CFG/USDT daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.07006
 price_source: "CoinGecko, 16 Nov 2026 5:27 AM MST"
 last_updated: 2026-11-16
@@ -32,7 +40,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### CFG · Overall grade **4.5 / 10 · ❌ FAIL**
+### CFG · Overall grade **4.0 / 10 · ❌ FAIL**
 
 **Summary:** Centrifuge is a real tokenization platform: Janus Henderson, Apollo and New York Life funds run on it, and DefiLlama counts $5.2M of protocol revenue in the last year. But **the CFG token gets none of it**, by the team's own words ("no buyback", "CFG does not directly confer economic rights"). Holders voted 98.5% for CP172, which lets KYC'd holders swap CFG 1:1 for shares in a Cayman company, after which Centrifuge says it will **stop funding CFG liquidity**. Supply inflates 3% a year to a single-key treasury wallet, and ~17% of supply sits in two plain EOAs. Revenue trips the hard gate.
 
@@ -45,7 +53,7 @@ layout_version: 3
 | 💰 Revenue | 3/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 5/10 | ❌ FAIL |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -59,7 +67,7 @@ layout_version: 3
 ---
 
 
-# 🪪 CFG · Centrifuge · 4.5 / 10 · ❌ FAIL
+# 🪪 CFG · Centrifuge · 4.0 / 10 · ❌ FAIL
 
 > **One line:** A real RWA tokenization business whose token gets no revenue and is being replaced by company shares. Supply inflates 3% a year into a single-key treasury, and the company plans to stop paying for CFG liquidity after the share conversion.
 
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** The business earns money (about 5x market cap on a P/S basis, cheap on paper), but none of it reaches CFG, and the team says none will. The value route it offers is to swap CFG for illiquid shares, with KYC, and accredited status for US holders. **3, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** None of the business income reaches CFG and the team says none will; there is no burn, buyback, fee share or fee-funded staking yield.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -109,7 +119,7 @@ layout_version: 3
 
 **What it means:** The CP149 Safe passed most of its 115M to `0xD052…`, a plain EOA. So the "locked" incentives are locked by policy only: in code, one key could move them. About 17% of supply sits in two single-key wallets, and the 12% team allocation is not visible on-chain.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 5/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 *Pump test uses Gate CFG/USDT daily closes (UTC). 66 of the last 365 days were pump days. CFG listed on Upbit in late Feb 2026 and on Binance in mid-Mar 2026 [Tier B, Alea], which were its two biggest daily gains of the year.*
 
@@ -126,6 +136,8 @@ layout_version: 3
 - **Grove:** the treasury sent Grove's Foundation SubProxy 33.75M in Jun and Aug 2026 ([e.g.](https://etherscan.io/tx/0x3d92ccaece9f37f4400e624c4f5d078515a155748b3eb043c08f3da62f70d41c)). Grove disclosed a "37.8 million CFG" strategic position on [25 Aug 2026](https://grove.finance/blog/grove-announces-strategic-stake-in-centrifuge-ecosystem-deepening-long-term-partnership); the price was not disclosed.
 
 **What it means:** The biggest pump-day moves were loans that came back, or migration support that CP149 disclosed. That leaves the 835k Binance deposit on a listing-week pump day, plus ~20M sitting with FalconX, with no counterparty disclosure (DefiLlama rates market-maker transparency 0/10). A fail, but well short of the dumping seen in QNT or ROUTER. **5**.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** The 18 Mar 2026 Binance deposit came straight from the treasury, was not returned, and no disclosure was found. Under the one-hop rule a direct treasury → exchange-deposit transfer on a pump day is a proven sale. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **5 → 1** (capped at 3, then −2). This adds the Selling hard gate. Pump days from Gate CFG/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -178,8 +190,19 @@ layout_version: 3
 | Treasury in single-key wallets | 🔴 ~117M CFG in [`0xD052…`](https://etherscan.io/address/0xD052A46b8e0C89fAcB393805E1917AfD20f293Cb) and [`0xb3da…`](https://etherscan.io/address/0xb3dacc732509ba6b7f25ad149e56ca44fe901ab9) |
 | Token being replaced | 🔴 [CP172 passed](https://gov.centrifuge.io/t/cp172-exploring-token-to-equity-to-maximize-long-term-cfg-value/7525?page=9); liquidity funding to end after conversion |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Treasury EOA `0xb3da…` | Centrifuge Treasury (receives the InflationMinter mint) | Etherscan + the immutable minter contract | high | yes (on-chain) | Selling: 834,989 CFG straight into Binance deposit [`0x0a36…d6f0`](https://etherscan.io/address/0x0a367f918340d47d36b21c93e9a2b6853cc9d6f0) on the 18 Mar 2026 pump day (+15.5%), not returned |
+| CNF Safe → Gate (23 May 2025) | Centrifuge Network Foundation | CP149 disclosure | high | yes | None: disclosed exchange-migration purpose |
+| Treasury → FalconX (26 Feb, 16 Mar 2026) | Centrifuge Treasury | Etherscan (returned 1:1) | high | yes | None: loans returned |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx` full CFG history for `0xb3da…`, `0xD052…`, `0x30d3…`, `0x1136…`, `0x40D3…`, `0x845f…`, `0x01c7…`, `0x4e34…` and every deposit and hop named; `getLogs` for all 10,822 mint events, burns, Rely/Deny on the token and Rely on Root; `getsourcecode` for the token, InflationMinter and Root; read 16 Nov 2026 ~6:15–6:50 AM MST
 - [Tier A] Ethereum RPC (publicnode): `totalSupply()`, `wards()`, InflationMinter `rate()`/`target()`/`period()`, Root `delay()`, Safe `getOwners()`/`getThreshold()`, balances, 16 Nov 2026
 - [Tier B] Etherscan / Blockscout name tags, 16 Nov 2026: "Centrifuge: Root", "Grove: Foundation" / "Grove Subproxy", "Gate Deposit", "KuCoin 20", "FalconX Deposit", "FalconX 1", "Binance Deposit", "Wintermute 4", "OKX 219", "Kraken 245/246", "Centrifuge: Protocol Guardian"

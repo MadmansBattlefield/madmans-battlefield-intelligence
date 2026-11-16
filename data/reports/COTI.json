@@ -4,13 +4,13 @@
   "name": "COTI",
   "chain": "coti",
   "contract": "0xddb3422497e61e13543bea06989c0789117555c5",
-  "overall_score": 2.4,
+  "overall_score": 2.1,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 1,
     "foundation_team": 3,
     "insider_holdings": 2,
-    "selling_behavior": 2,
+    "selling_behavior": 0,
     "tokenomics_supply": 2,
     "liquidity_market": 4,
     "product_development": 3,
@@ -31,7 +31,7 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 2,
+      "score": 0,
       "threshold": 3,
       "tripped": true
     }
@@ -44,7 +44,24 @@
   },
   "price_usd": 0.00845036,
   "price_source": "CoinGecko, 16 Nov 2026 7:13 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Fees are close to zero and holders have no claim on them.",
+    "pump_day_price_source": "Gate COTI/USDT daily closes",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x61bf10a1a27b2d99de0a59a06200a62ed579d685",
+        "label": "COTI consolidation wallet (received 600M minted by the owner key)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Etherscan mint transactions"
+      }
+    ]
+  },
   "key_numbers": {
     "price_usd": 0.00845036,
     "market_cap_text": "$25.18M",
@@ -55,9 +72,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/COTI.md",
-    "sha256": "84e20a6c3f173690ea14c67c34c64fe5e690e0876ee6001221aa6bc3e9bd3a4d",
-    "bytes": 22843,
-    "extracted_at": "2026-11-16 14:19 MST",
+    "sha256": "d2507a174e04e1c6beb82bf9470be4101f7a2347dda861dcf69db684b97aec0d",
+    "bytes": 24777,
+    "extracted_at": "2026-11-16 14:21 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -336,32 +353,46 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate COTI/USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
     "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": false,
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes (wallets funded within hours by the Sep 2026 consolidation sent 68.0M COTI to Gate and KuCoin deposits on pump days 18-20 Sep 2026, 157.4M in total by 10 Oct)"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [
       "burn",
       "fee_share"
     ],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "Fees are close to zero and holders have no claim on them. **1, which trips the Revenue gate.**"
   },
   "attributions": [
+    {
+      "address": "0x61bf10a1a27b2d99de0a59a06200a62ed579d685",
+      "url": null,
+      "label": "COTI consolidation wallet (received 600M minted by the owner key)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": false
+    },
     {
       "address": "0x1a184244de9d3e726a3aa3d02b585e6ff8e2f9ce",
       "url": "https://intel.arkm.com/explorer/address/0x1a184244de9d3e726a3aa3d02b585e6ff8e2f9ce",
@@ -552,6 +583,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan v2 API `tokentx` for `0x61bf`, `0xcf26`, `0x1a18`, `0x062e`, `0x94c8`, `0x0354`, `0x07d2`, `0xab5b`, `0xaac8`, `0x4d2a`, the deployer and their hops; Mint and OwnershipTransferred logs; Ethereum RPC `totalSupply()`, `balanceOf()`, `owner()`, Safe `getOwners()` / `getThreshold()`; read 16 Nov 2026 ~8:30–9:15 AM MST",

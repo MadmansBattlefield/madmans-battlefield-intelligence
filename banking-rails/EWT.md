@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes: 192,307.69 EWT minted on Ethereum about every 4 weeks since Oct 2025 (~2.5M a year); 14.04M of headroom remains under the 100M cap"
   team_wallet_to_exchange_during_pump: "none found (an unattributed 3-of-5 Safe sent 165k EWT to a KuCoin deposit in Oct 2026 on non-pump days); Foundation wallets not identified"
   treasury_in_single_key_wallets: "unknown (Foundation and EWX treasury wallets not published)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No checkable revenue reaches the token."
+pump_day_price_source: "KuCoin EWT/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.250898
 price_source: "CoinGecko, 16 Nov 2026 8:20 AM MST"
 last_updated: 2026-11-16
@@ -85,6 +93,8 @@ layout_version: 3
 
 **What it means:** No checkable revenue reaches the token. **2, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No checkable revenue reaches the token.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -119,6 +129,8 @@ layout_version: 3
 - The Safe is not attributed to the Foundation, and Arkham's first transfers page does not show its KuCoin sends. The 500k and 404k EOAs are Bitcoin Suisse custody flows (Arkham), not Foundation selling. [`0xf7ff…8c27`](https://intel.arkm.com/explorer/address/0xf7ff52b4acc7db559b6e7427e19ce47a08e98c27) (1.73M EWT on Etherscan) has no market-maker or Foundation label on Arkham. The [Energy Bridge](https://intel.arkm.com/explorer/address/0x5dded30f8cd557257ccdc4a530cb77ac45f0259d) shows **"No transfers match these filters"** on Arkham, so no Arkham view of its flows. EWX-side treasury and Foundation accounts were not tested.
 
 **What it means:** Nothing incriminating found, but the main wallets are unknown. **5**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from KuCoin EWT/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -162,8 +174,17 @@ layout_version: 3
 | Live mint path | 🔴 ~2.5M EWT a year, minted monthly |
 | Treasury in single-key wallets | 🟡 Unknown |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Unattributed 3-of-N Safe | Unknown | Etherscan | low | no | Selling stays 5 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API: EWT ERC20 mint logs (Transfer from 0x0) and `tokentx` for the Safe and top EOAs, read 16 Nov 2026 ~9:10 AM MST; Ethereum RPC `getThreshold()`, `getOwners()`
 - [Tier A] Blockscout (Ethereum and Energy Web Chain explorers): holders, supply, bridge contracts
 - [Tier A] [Energy Web upgrade FAQ](https://docs.energyweb.org/energy-web-x-upgrade-faq) · [Kraken migration notice](https://support.kraken.com/articles/ewt-migration)

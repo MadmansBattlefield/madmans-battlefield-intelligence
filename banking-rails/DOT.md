@@ -24,6 +24,14 @@ red_lines:
   team_wallet_to_exchange_during_pump: "not proven (W3F-linked multisig-proxied account 13FzGL… and two other W3F-linked wallets sent 33.1M DOT (29.4M from 13FzGL…) into deposit-style account 14mr97…, which forwards to an unidentified high-throughput service; 4.0M of it on 14 pump days, 2023-2026; service and owner [Unverified])"
   treasury_selling: "disclosed (OpenGov Refs 457/1104/1501/1729 swap treasury DOT for USDT/USDC through Hydration DCA; Ref 1729 = 2.64M DOT)"
   chain_stalls_2026: "4 partial stalls (parachains 23 Mar, People chain 22 Apr, Asset Hub ~30 min 12 Jun, staking election 30 Jun - 3 Jul); no funds lost"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Fees are tiny and none is paid to holders; staking rewards come from issuance."
+pump_day_price_source: "Gate DOT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (29 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.7286
 price_source: "CoinGecko, 16 Nov 2026 5:10 AM MST"
 last_updated: 2026-11-16
@@ -87,6 +95,8 @@ layout_version: 3
 
 **What it means:** DefiLlama tracks only relay-chain fees, and most activity moved to Asset Hub in late 2025, so the true fee number is somewhat higher than $3,868. But nothing found suggests real usage fees large enough to matter against a $1.25B market cap, and none of it is paid to holders: it sits in a protocol pool that governance spends. Stakers are paid with new DOT. **2, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Fees are tiny and none is paid to holders; staking rewards come from issuance.
+
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -143,6 +153,8 @@ From Feb 2023 to Nov 2026, **33,114,401 DOT arrived in 346 transfers** at [`14mr
 **D. Treasury selling (disclosed).** OpenGov voted to sell treasury DOT for USDT/USDC in small DCA trades on Hydration: Refs 457, 1104, 1501 and **1729 (2,640,000 DOT, Aug 2025)**. These are public votes, so they are not a red line. [Ref 1729](https://polkadot.subsquare.io/referenda/1729) · [Ref 1104](https://polkadot.subsquare.io/referenda/1104) · [Ref 1953 fix](https://polkadot.polkassembly.io/referenda/1953).
 
 **What it means:** No W3F or Parity wallet was caught paying an exchange on a pump day. But W3F-linked wallets, mainly one multisig account, have fed 33M DOT into one service, 4M of it on pump days, and the service is unnamed. W3F has said it doesn't need to sell DOT, yet these flows are not disclosed. **4**: a fail, but not the hard gate, because neither the owner nor the sale is proven.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate DOT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (29 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -203,8 +215,17 @@ From Feb 2023 to Nov 2026, **33,114,401 DOT arrived in 346 transfers** at [`14mr
 | Treasury selling | 🟡 Disclosed DCA sales of treasury DOT (e.g. [Ref 1729](https://polkadot.subsquare.io/referenda/1729), 2.64M DOT) |
 | Chain stalls | 🟡 Four partial stalls in 2026, all fixed; no funds lost |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| W3F-linked multisig-proxied account `13FzGL…` | Web3 Foundation (linked, not confirmed) | Subscan proxy links | low | no | None: the owner and the sale are not proven; Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Polkadot Asset Hub RPC (`polkadot-asset-hub-rpc.polkadot.io`): `Balances.TotalIssuance`, `InactiveIssuance`, `System.Account` for the treasury, DAP and the 15 W3F-linked accounts, 16 Nov 2026 ~5:10–6:00 AM MST
 - [Tier A] Polkadot People-chain RPC: full `Identity.IdentityOf` (3,084 entries) and `SuperOf` (919) scan, 16 Nov 2026
 - [Tier A] Statescan indexer APIs (relay `polkadot-api.statescan.io`, Asset Hub `ahp-api.statescan.io`): full transfer histories for the W3F-linked accounts, `14mr97…`, `12xKCG…`, `145UYr…`, `15G8FG…`, `15SBQ3…`; extrinsic decode of [18692262-332](https://polkadot-api.statescan.io/extrinsics/18692262-332)

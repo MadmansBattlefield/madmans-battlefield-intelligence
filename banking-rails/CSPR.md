@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes: 8% yearly inflation (6% stakers, 2% to the Casper Association) plus a one-time 4.76B CSPR (33%) issuance minted 23 Mar 2026"
   team_wallet_to_exchange_during_pump: "not tested (Association wallets not retrievable without a CSPR.cloud key); the Association disclosed ~250M CSPR for market liquidity plus OTC placements"
   treasury_in_single_key_wallets: "unknown"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Nothing to measure; holders are paid in dilution."
+pump_day_price_source: "Gate CSPR/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.0018761
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
 last_updated: 2026-11-16
@@ -81,6 +89,8 @@ layout_version: 3
 
 **What it means:** Nothing to measure; holders are paid in dilution. **1, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Nothing to measure; holders are paid in dilution.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - The Casper Association (Switzerland) stewards the network. Validators vote on proposals: CVV008 passed with 70.9% participation and 89.3% in favour ([Casper](https://www.casper.network/news/governance-vote-008-passes-securing-validator-economics-and-network-sustainability)).
@@ -104,6 +114,8 @@ layout_version: 3
 - **Not pump-tested:** the Association's wallets could not be pulled (the CSPR.cloud API needs a key).
 
 **What it means:** Known sell pressure with unknown timing, so **4**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate CSPR/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 1/10 · ❌ FAIL
 
@@ -148,8 +160,17 @@ layout_version: 3
 | Live mint path | 🔴 8%/yr plus the one-time 33% |
 | Treasury in single-key wallets | 🟡 Unknown |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Casper Association wallets | Not published | — | low | no | Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [CSPR.live supply API](https://api.cspr.live/supply), read 16 Nov 2026 ~9:20 AM MST
 - [Tier A] [Casper 2.2.0 post](https://www.casper.network/news/casper-2-2-0-goes-live-on-mainnet) · [Vote 008 result](https://www.casper.network/news/governance-vote-008-passes-securing-validator-economics-and-network-sustainability) · [CVV008 forum](https://forum.casper.network/t/cvv008-proposal-securing-validator-economics-and-network-sustainability/1567) · [Reporting portal](https://reporting.casper.network/reports) · [2024 incident update](https://www.casper.network/news/casper-blockchain-security-update-incident-contained-and-recovery-efforts-underway)
 - [Tier B] [Cointelegraph](https://cointelegraph.com/news/casper-network-halts-operations-security-breach)

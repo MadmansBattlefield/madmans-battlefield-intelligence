@@ -23,6 +23,14 @@ red_lines:
   v24_hard_fork_activation: watch_delayed
   treasury_payout_on_pump_day: tripped_1_of_12_months_calendar_driven
   eu_privacy_coin_rule_2027: open
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Users pay almost nothing; miners, masternodes and developers are paid by inflation."
+pump_day_price_source: "Gate DASH_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (50 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 38.22
 price_source: "CoinGecko, 15 Nov 2026 6:45 AM MST"
 chain_read_height: 2572718
@@ -91,6 +99,8 @@ layout_version: 3
 
 **What it means:** Users pay almost nothing (~$27 a day at most). Miners, masternodes and the developers are all paid by inflation, about $12–14M a year at today's price. The token has no cash-flow claim.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Users pay almost nothing; miners, masternodes and developers are paid by inflation.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -144,6 +154,8 @@ Selected outflows (each tx pays 1–4 addresses plus a change-style `7…` multi
 - The superblock itself pays all funded proposals on a fixed ~30.29-day block schedule ([Tier A] docs).
 
 **What it means:** The main insider payee receives coins on a fixed schedule and moves them on a fixed schedule. No pump-timed selling was found. It passes at 6, not higher, because the downstream wallets and any exchange sales are unlabelled.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate DASH_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (50 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -222,8 +234,17 @@ Selected outflows (each tx pays 1–4 addresses plus a change-style `7…` multi
 | Treasury payee outflow on a pump day | 🟡 1 of 12 months (1 Sep 2026), calendar-driven | [tx c12921d6…](https://chainz.cryptoid.info/dash/tx.dws?c12921d6dcefdd13784a03bafe4785fe81b79d0a7271ce8f701943cc80a0d7c7.htm) ([raw](https://insight.dash.org/insight-api/tx/c12921d6dcefdd13784a03bafe4785fe81b79d0a7271ce8f701943cc80a0d7c7)) from [DCG payout address](https://chainz.cryptoid.info/dash/address.dws?7mUyau75ATy1c6LoZeG3D57jKBkR4iHJkE.htm) |
 | EU privacy-coin rule | 🟡 Open | AMLR Art. 79 |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Main treasury payee | Dash Core Group (budget payee) | Superblock schedule | high | yes (protocol) | None: calendar-driven payouts, no pump-timed selling found |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Insight API ([`insight.dash.org`](https://insight.dash.org/insight-api/addr/7mUyau75ATy1c6LoZeG3D57jKBkR4iHJkE)): raw JSON for every tx cited ([example](https://insight.dash.org/insight-api/tx/c12921d6dcefdd13784a03bafe4785fe81b79d0a7271ce8f701943cc80a0d7c7)); human-readable views on [Chainz (cryptoID)](https://chainz.cryptoid.info/dash/address.dws?7mUyau75ATy1c6LoZeG3D57jKBkR4iHJkE.htm), linked inline and in the Evidence trail; `status`, `gobject/get/91808ffd…` (DCG proposal), `addr/7mUyau75…`, `txs?address=7mUyau75…` (40 txs); 15 Nov 2026 ~6:55 AM MST
 - [Tier A] Blockchair `dash/stats` and block aggregate for 19–21 Jan 2014; 15 Nov 2026
 - [Tier A] [Dash docs: Understanding Governance](https://docs.dash.org/en/stable/docs/user/governance/understanding.html)
