@@ -43,6 +43,14 @@
   "price_usd": 0.03923,
   "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
   "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "About $61k of fees in a year; no burn, buyback or fee share of size.",
+    "pump_day_price_source": "Gate SEI_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (32 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [],
     "chain_read_height": 243333375
   },
   "key_numbers": {
@@ -55,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SEI.md",
-    "sha256": "b0916326b87d845f7fc473792dce1bf4f88007e6f434d3a3064231259ee8a0fd",
-    "bytes": 12679,
-    "extracted_at": "2026-11-16 14:24 MST",
+    "sha256": "2fa8887c9123bdb642e295d9337c7949df5c4e00a1e9d4558bf5de75e710d08d",
+    "bytes": 14572,
+    "extracted_at": "2026-11-16 14:26 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -115,12 +123,12 @@
   "addresses_examined": [],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate SEI_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (32 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -128,10 +136,10 @@
     "flags_noted_in_report": []
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "Effectively no fee income: ~$61k in a year on a $264M market cap. (DefiLlama may undercount some activity, but nothing primary shows a materially higher number.)"
   },
@@ -159,6 +167,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Sei REST (`rest.sei-apis.com`): [bank supply](https://rest.sei-apis.com/cosmos/bank/v1beta1/supply), [staking pool](https://rest.sei-apis.com/cosmos/staking/v1beta1/pool), [community pool](https://rest.sei-apis.com/cosmos/distribution/v1beta1/community_pool), validators, [`seichain/mint` params](https://rest.sei-apis.com/seichain/mint/v1beta1/params); 14 Nov 2026 ~12:27 PM MST",

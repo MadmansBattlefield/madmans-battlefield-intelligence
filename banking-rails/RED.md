@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "1B cap; minted in tranches (597M on Ethereum so far), rest on Base/bridged"
   team_wallet_to_exchange_during_pump: "not proven for team: a vesting beneficiary sent 1.67M RED to Binance on a +70.9% day (6 Apr 2026); whether it is team or investor is unknown"
   entity_concentration: "four vesting contracts 164M, a 3-signature Safe 45M, airdrop contracts 56M"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Oracle income goes to the company; DefiLlama lists $61.8 of fees in a year."
+pump_day_price_source: "Gate RED_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.1081
 price_source: "CoinGecko, 16 Nov 2026 ~9:15 AM MST"
 last_updated: 2026-11-16
@@ -78,6 +86,8 @@ layout_version: 3
 
 - DefiLlama lists $61.8 of fees over the last year. Oracle service income goes to the company, not to RED holders, and no figures are published. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Oracle income goes to the company; DefiLlama lists $61.8 of fees in a year.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 - An established oracle company, described by role only. The vesting and treasury contracts are verified on Etherscan.
@@ -102,6 +112,8 @@ layout_version: 3
 - **Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)):** [0x1955](https://intel.arkm.com/explorer/address/0x19555bdfb024076136efbb3b00ed6169fa5c042b) is unlabelled (not team, investor or market maker). It is paid by [TokenVestingManager 0xa77e](https://intel.arkm.com/explorer/address/0xa77e9c5861892b82e9a360f71aed9f81c6d51b2e) and forwards the same amounts to Bybit and Binance deposits. The Safes [0x70da](https://intel.arkm.com/explorer/address/0x70da99aedda98cdd5aac73c136df4fbc3899d69f), [0xba54](https://intel.arkm.com/explorer/address/0xba544abd1b34c4a337e3f3cbe2a390e061031ff7) (dormant) and [0xcc6b](https://intel.arkm.com/explorer/address/0xcc6b3cc29b7047b70c64a243a52f74db618b9087) carry no RedStone label.
 - Vesting contract [0xf39e](https://intel.arkm.com/explorer/address/0xf39e316c74d7f975a94729395c12b06c91892dec) pays **Amber Group**, a market maker: 1.06M RED in five payouts from Apr to Oct 2026, including [147,788 RED on 7 Apr 2026](https://etherscan.io/tx/0xc8e259ba6f7d8871a2fc35e5fd725fe3c0a3cfb95d23088a306ed66ad2147360) (Gate close +95.6%, a pump day) and [181,185 RED on 24 Oct 2026](https://etherscan.io/tx/0xb1c1f837e8c6d64b5e515efad8e7da77b9b2be0561986389d36b3e16f8ae84e7). That is a vesting release to a market maker, not a team sale.
 - One pump-day exchange deposit came from a vesting beneficiary that remains unattributed after the Arkham pass. **Selling stays not proven → 4.** If 0x1955 is shown to be a team wallet, the score becomes 3 and the selling gate fails (overall 4.1).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate RED_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -140,8 +152,17 @@ layout_version: 3
 | Live mint path | 🟠 Tranche mints up to the 1B cap |
 | Entity concentration | 🟠 ~265M in vesting, Safe and airdrop contracts |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Vesting beneficiary → Binance (6 Apr, +70.9% day) | Vesting beneficiary (team or investor unknown) | Etherscan | low | no | None: not proven as a team sale; Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan token, contract source names, Safe threshold and transactions; receipts checked 16 Nov 2026
 - [Tier A] DefiLlama `redstone` fees; CoinGecko `redstone-oracles`; pump days from Binance REDUSDT daily closes
 - [Tier B] Binance Launchpool listing coverage (Feb 2025)

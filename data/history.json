@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:24 MST",
+  "generated_at": "2026-11-16 14:26 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -1950,9 +1950,9 @@
       "path": "banking-rails/KAVA.md",
       "versions": [
         {
-          "commit": "714aff3b3659263947a1ecc7503d776f5ff729ae",
-          "committed_at_mst": "2026-11-16 08:59 MST",
-          "subject": "Add AMP, HTX (Arkham evidence) and KAVA, CSPR, TFUEL v3 reports; HTX selling 6->5; AMP custody corrections; ranking 88",
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2038,9 +2038,9 @@
       "path": "banking-rails/MASQ.md",
       "versions": [
         {
-          "commit": "5c5b66fd26d3a7576fcd00d46c961bfce86be84d",
-          "committed_at_mst": "2026-11-16 08:19 MST",
-          "subject": "Add XDB, HASH, MASQ, ETC, TLOS v3 reports; move DFI and SPELL to dead; ranking 63 notes",
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
           "overall_score": 2.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2068,9 +2068,9 @@
       "path": "banking-rails/MBG.md",
       "versions": [
         {
-          "commit": "7524e33aed288197d7c855287cebb485bbea4da1",
-          "committed_at_mst": "2026-11-16 09:33 MST",
-          "subject": "Add BTT, MBG, DUSK, H, MOCA v3 reports with Arkham evidence; BTT selling 6->5, MOCA selling 5->6; ranking 104",
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
           "overall_score": 3.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2128,9 +2128,9 @@
       "path": "banking-rails/MNT.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
           "overall_score": 4.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2158,9 +2158,9 @@
       "path": "banking-rails/MOCA.md",
       "versions": [
         {
-          "commit": "7524e33aed288197d7c855287cebb485bbea4da1",
-          "committed_at_mst": "2026-11-16 09:33 MST",
-          "subject": "Add BTT, MBG, DUSK, H, MOCA v3 reports with Arkham evidence; BTT selling 6->5, MOCA selling 5->6; ranking 104",
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2218,9 +2218,9 @@
       "path": "banking-rails/NIGHT.md",
       "versions": [
         {
-          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
-          "committed_at_mst": "2026-11-16 08:50 MST",
-          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2278,9 +2278,9 @@
       "path": "banking-rails/OM.md",
       "versions": [
         {
-          "commit": "8606beaf95d6f0ae6cf53c0d69162fb41f8a0194",
-          "committed_at_mst": "2026-11-16 09:12 MST",
-          "subject": "Add RLC, YELLOW, OM, ZKC v3 reports with Arkham evidence; ZKC selling 3->4 (Anchorage custody); RLC iExec Team funding; ranking 96",
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
           "overall_score": 3.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2352,6 +2352,31 @@
           },
           "gates_failed": [
             "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        },
+        {
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "overall_score": 4.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 1,
+            "tokenomics_supply": 2,
+            "liquidity_market": 9,
+            "product_development": 7,
+            "adoption_customers": 7,
+            "security_audits": 6,
+            "regulatory": 7,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
           ],
           "last_updated": "2026-11-15"
         }
@@ -2445,6 +2470,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "overall_score": 2.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 4,
+            "insider_holdings": 2,
+            "selling_behavior": 0,
+            "tokenomics_supply": 2,
+            "liquidity_market": 2,
+            "product_development": 5,
+            "adoption_customers": 5,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -2493,6 +2543,31 @@
             "foundation_team": 5,
             "insider_holdings": 4,
             "selling_behavior": 1,
+            "tokenomics_supply": 6,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 0,
             "tokenomics_supply": 6,
             "liquidity_market": 6,
             "product_development": 6,
@@ -2592,6 +2667,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "overall_score": 3.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 0,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 2,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -2630,9 +2730,9 @@
       "path": "banking-rails/PROPC.md",
       "versions": [
         {
-          "commit": "8e903fc3bd9aae80864943f534224cb1f328e6ae",
-          "committed_at_mst": "2026-11-16 08:31 MST",
-          "subject": "Add PROPC, BAND, COTI, AXL, XDC v3 reports with Arkham evidence; correct PROPC pump-day totals; ranking 68",
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2660,9 +2760,9 @@
       "path": "banking-rails/PUNDIX.md",
       "versions": [
         {
-          "commit": "fc426d12e35e0ba35444db8959a8efb21014e501",
-          "committed_at_mst": "2026-11-16 09:35 MST",
-          "subject": "Add RED, PUNDIX, STBL, SHARE v3 reports with Arkham evidence; PUNDIX holder is Upbit (holdings 2->4, selling 3->4); ranking 108",
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
           "overall_score": 3.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2730,6 +2830,30 @@
             "foundation_team": 6,
             "insider_holdings": 3,
             "selling_behavior": 3,
+            "tokenomics_supply": 2,
+            "liquidity_market": 7,
+            "product_development": 6,
+            "adoption_customers": 8,
+            "security_audits": 3,
+            "regulatory": 5,
+            "catalysts": 6
+          },
+          "gates_failed": [
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
+          "committed_at_mst": "2026-11-16 14:24 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "overall_score": 4.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 3,
+            "selling_behavior": 1,
             "tokenomics_supply": 2,
             "liquidity_market": 7,
             "product_development": 6,

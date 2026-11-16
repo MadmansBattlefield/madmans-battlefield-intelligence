@@ -3,13 +3,13 @@ ticker: S
 name: Sonic
 chain: sonic
 contract: "native (Sonic chain, chain id 146); wrapped wS 0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38"
-overall_score: 3.3
+overall_score: 3.0
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 5
   insider_holdings: 4
-  selling_behavior: 2
+  selling_behavior: 0
   tokenomics_supply: 3
   liquidity_market: 4
   product_development: 6
@@ -23,6 +23,19 @@ red_lines:
   mint_path_live: "yes: no hard cap; governance has approved repeated new issuance (airdrop 190.5M, ongoing funding 47.6M a year for 6 years, 472.4M institutional issuance on 4 Sep 2025, plus a possible $50M ETF issuance)"
   team_wallet_to_exchange_during_pump: "yes: the Fantom Foundation-labelled wallet sent 40.5M S to a Binance deposit on 21 Aug 2026 (+29.8% day); a Sonic issuance-signer wallet sent 76.6M S on 9-10 May 2025 pump days to a market-maker-like wallet"
   treasury_selling: "292.5M S (~$11.7M) from the 150M-S 'Sonic USA'-sized issuance wallet, the Fantom Foundation wallet and the ongoing-funding wallet went to one Binance deposit address (Mar-Aug 2026); not disclosed as sales"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "About $6k a month of revenue; no burn, buyback or fee share of size."
+pump_day_price_source: "Gate S_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (50 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions:
+  - address: "0xbea8fecf6535592eebfc68f227a434f8373792f0"
+    label: "Issuance wallet (received exactly the approved 150M S)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Sonicscan + governance vote"
 price_usd: 0.03218
 price_source: "CoinGecko, 16 Nov 2026 6:58 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +44,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### S · Overall grade **3.3 / 10 · ❌ FAIL**
+### S · Overall grade **3.0 / 10 · ❌ FAIL**
 
 **Summary:** Sonic (formerly Fantom) is a fast EVM layer-1. Usage has collapsed: **TVL is $12.6M** and the chain earned **$75.7k of revenue in 12 months**. S is −97% from its January 2025 high and −75% in a year. There is no supply cap, and governance keeps approving new issuance (supply is up from 3.175B to 3.885B). Wallets tied to the Foundation and Sonic's issuance have moved **hundreds of millions of S into Binance**, some of it on pump days. Both hard gates fail.
 
@@ -44,7 +57,7 @@ layout_version: 3
 | 💰 Revenue | 1/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 2/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -58,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 S · Sonic · 3.3 / 10 · ❌ FAIL
+# 🪪 S · Sonic · 3.0 / 10 · ❌ FAIL
 
 > **One line:** A rebranded Fantom with fast tech but almost no usage left, an open-ended issuance policy, and Foundation-linked wallets feeding Binance.
 
@@ -83,6 +96,8 @@ layout_version: 3
 
 **What it means:** About $6k a month. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** About $6k a month of revenue; no burn, buyback or fee share of size.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - **Sonic Labs** builds the chain. The **Sonic Foundation** (Cayman Islands, legal form not disclosed) manages the treasury, the 200M-S Innovator Fund and the legacy Opera validators ([Blockworks filing](https://blockworks.com/token-transparency/filing/sonic)).
@@ -101,7 +116,7 @@ layout_version: 3
 
 **What it means:** Most of the Foundation-side S has already been paid out. Where large amounts went (e.g. [949.5M S to a Binance deposit on 14 Jan 2025](https://sonicscan.org/tx/0xdd80b56ca773973555463c0938f7e20c13d9d47d91e4ddb2d73ac57ad0d65c4b), most likely Binance's FTM→S user migration [Unverified]) is only partly explained. **4.**
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 2/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 `0xfefa…2ecc` behaves like a Binance deposit address: an EOA that never keeps a balance and sweeps everything to [Binance 94](https://sonicscan.org/address/0xa4e471dbfe8c95d4c44f520b19cee436c01c3267) (Sonicscan label) within hours.
 
@@ -117,6 +132,8 @@ layout_version: 3
 - Whether Binance sold the 292.5M S or holds it in custody is [Unverified]. No disclosure of these transfers was found.
 
 **What it means:** Issuance and Foundation wallets keep feeding one exchange account, one deposit landed on a pump day, and none of it is disclosed. **2 → hard-gate FAIL.**
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** None of it was disclosed as sales. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. 21 Aug 2026 is a pump day on Gate prices. Pump days from Gate S_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (50 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -159,8 +176,18 @@ layout_version: 3
 | Live mint path | 🔴 No cap; repeated governance issuance |
 | Treasury selling | 🔴 292.5M S into Binance (Mar–Aug 2026) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Fantom Foundation-labelled wallet | Fantom / Sonic Foundation | Sonicscan + Arkham label | high | yes | Selling: 40.5M S to a Binance deposit on the 21 Aug 2026 pump day (+29.8%) |
+| [`0xbea8…92f0`](https://sonicscan.org/address/0xbea8fecf6535592eebfc68f227a434f8373792f0) | Issuance wallet (received exactly the approved 150M S) | Sonicscan + governance vote | high | yes | Selling: fed the same Binance deposit |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Sonic chain via Etherscan API v2 (chain 146): native and internal transfers of the wallets above; receipts (status 1) for every linked tx; read 16 Nov 2026 ~7:10–7:25 AM MST
 - [Tier A] Sonicscan public labels (Fantom Foundation, Binance 94, Binance US 8, Gate, Crypto.com 22, BTC Turk, Kraken 75) and Etherscan labels of the same addresses (Binance and Gate deposits)
 - [Tier A] [Sonic docs: S token](https://docs.soniclabs.com/sonic/s-token) (issuance txs, ongoing-funding wallet); [Sonic Labs blog: airdrop economics update](https://www.soniclabs.com/blog/sonics-airdrop-economics-update/); [Sonic Labs blog: Sonic in 2026 and beyond](https://www.soniclabs.com/blog/sonic-in-2026-and-beyond/)

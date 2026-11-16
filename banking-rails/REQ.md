@@ -3,13 +3,13 @@ ticker: REQ
 name: Request Network
 chain: ethereum
 contract: "0x8f8221afbb33998d8584a2b05749ba73c37a938a"
-overall_score: 4.2
+overall_score: 3.9
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 5
   insider_holdings: 3
-  selling_behavior: 3
+  selling_behavior: 1
   tokenomics_supply: 6
   liquidity_market: 6
   product_development: 6
@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: fixed 1B supply, burn only (999,416,741 left)"
   team_wallet_to_exchange_during_pump: "yes: the Etherscan-labelled Team Wallet sent 600,000 REQ to Bitfinex on 30 Mar 2021, a +37.1% pump day; no disclosure found"
   entity_concentration: "Team Wallet holds 184.8M (18.5%); wallets it funded hold another 63.5M (6.3%)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No fee totals are published and no executed holder mechanism of measurable size is shown."
+pump_day_price_source: "the daily closes cited in the body (2021 pump days)"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.04510
 price_source: "CoinGecko, 16 Nov 2026 ~8:40 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### REQ · Overall grade **4.2 / 10 · ❌ FAIL**
+### REQ · Overall grade **3.9 / 10 · ❌ FAIL**
 
 **Summary:** Request Network is an invoicing and payments protocol that has been live on Ethereum since 2017. A separate company built Request Finance on top of it. The product is real, but the token captures almost nothing. The only link between usage and REQ is a buy-and-burn, which has removed **583,259 REQ in total (0.06% of supply, about $26k)**. No protocol fee totals are published, so the revenue gate fails. The selling gate also fails: the Etherscan-labelled **Team Wallet** sent REQ straight to an exchange on a pump day, and wallets it funded have since moved 55.9M REQ to Kraken.
 
@@ -44,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 3/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 6/10 | ✅ PASS |
 | 💧 Liquidity & market | 6/10 | ✅ PASS |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -58,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 REQ · Request Network · 4.2 / 10 · ❌ FAIL
+# 🪪 REQ · Request Network · 3.9 / 10 · ❌ FAIL
 
 > **One line:** A working payments protocol whose token earns a rounding-error burn, with a team wallet that has sold into a pump.
 
@@ -78,6 +86,8 @@ layout_version: 3
 - The protocol charges a payment fee (the pricing page says a flat 0.9%, capped at $500). The fee rate "can change over time" and is not published in the docs, and no fee totals are published. DefiLlama lists no fees or revenue.
 - The only on-chain value going to REQ is the buy-and-burn: 583,259 REQ burned in total (0.06% of supply), worth about $26k at today's price. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee totals are published and no executed holder mechanism of measurable size is shown.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - The protocol is run by a community-owned foundation. REQ holders vote on the protocol and the foundation. Request Finance is a separate company ([REQ token page](https://request.network/req-token/)). The foundation's leaders are not described on the token page, and no audited foundation accounts were found.
@@ -92,7 +102,7 @@ layout_version: 3
 
 - Team-linked wallets hold about **24.8%**, all of it movable.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 3/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 | Date | From | To | REQ | ≈ USD | Pump? | Tx |
 |---|---|---|---:|---:|---|---|
@@ -106,6 +116,8 @@ layout_version: 3
 | 12 Nov 2025 | 0xda5d…ee25 | Kraken 163 | 10,000,000 | $1.27M | No | [0x9db3…33d](https://etherscan.io/tx/0x9db382ada08206585169d1993e39537d831595cadc59848d5199c940ce22633f) |
 
 - The Team Wallet sent tokens straight to an exchange on a pump day, with no disclosure found. Because of that the score is 3, even though the transfer was small and old. The 2025 Kraken transfers (55.9M REQ, about $7.8M) came from a wallet two hops from the Team Wallet. They were not on pump days. **Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) labels `0x60a7` and `0xda5d` Coinbase Prime Custody and `0x26cb…` (Etherscan's Kraken 163) a Kraken Deposit**, so this is a custody flow from team funds into a Kraken account, not a direct sale by the Team Wallet; whether it was sold is not shown. The 55.9M total includes the 1M on 7 Nov 2025; `0x60a7` also sent 100k to the same Kraken deposit on 27 Mar 2025. On 14 Nov 2025 a wallet Arkham labels Kraken Hot Wallet sent 17.5M REQ back to the Team Wallet ([tx](https://etherscan.io/tx/0xed62448dbb0663286f2b89780f7819c28cf189b2052489be80912a15816692c7)), so part of the Kraken flow may be a round trip [Unverified]. Exchange names in the table are Etherscan's tags. All linked transactions show status 1 (success).
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **3 → 1**. Pump days from the daily closes cited in the body (2021 pump days).
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -144,8 +156,17 @@ layout_version: 3
 | Live mint path | 🟢 None |
 | Entity concentration | 🟠 ~24.8% in team-linked wallets |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Request: Team Wallet | Request team | Etherscan name tag | high | yes | Selling: 600,000 REQ to Bitfinex on 30 Mar 2021 (+37.1% pump day) and later sends |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan token, wallet and transaction pages (links above). Transaction receipts were checked through the Etherscan API on 16 Nov 2026
 - [Tier A] [REQ token page](https://request.network/req-token/), [pricing](https://request.network/pricing/), [protocol fee docs](https://docs.request.network/api-features/protocol-fees)
 - [Tier A] CoinGecko `request-network`. Pump days are from Binance REQUSDT daily closes, with REQBTC × BTCUSDT used before the USDT pair was listed

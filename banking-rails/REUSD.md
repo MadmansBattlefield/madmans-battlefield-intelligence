@@ -23,6 +23,19 @@ red_lines:
   mint_path_live: "yes by design: minted against deposits, burned on redemption"
   team_wallet_to_exchange_during_pump: "not proven: NAV token with no pump days; issuer mint/redeem flows not traced"
   entity_concentration: "largest holders are DeFi protocols (Fluid, Morpho); issuer controls mint and redemption"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "reUSD holders receive the reinsurance and collateral yield through NAV accrual (NAV +11% since launch), a contractual return that has executed. Close call: part of the yield is earned off-chain and posted by the issuer; Revenue stays 7."
+pump_day_price_source: "not applicable (NAV token)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0x5086bf358635b81d8c47c66d1c8b9e567db70c72"
+    label: "Re Protocol"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Arkham"
 price_usd: 1.11
 price_source: "CoinGecko, 16 Nov 2026 ~8:52 AM MST"
 last_updated: 2026-11-16
@@ -76,6 +89,8 @@ layout_version: 3
 
 - Yield comes from reinsurance premiums and collateral return: SOFR + 250 bps off-chain, sUSDe + 250 bps on-chain ([About reUSD](https://docs.re.xyz/products/about-reusd)). NAV is up 11% since launch.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** reUSD holders receive the reinsurance and collateral yield through NAV accrual (NAV +11% since launch), a contractual return that has executed. Close call: part of the yield is earned off-chain and posted by the issuer; Revenue stays 7.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - Re Protocol runs the issuer and works with a licensed reinsurer. Leaders are described by role only. The full legal structure was not reviewed [Unverified].
@@ -89,6 +104,8 @@ layout_version: 3
 - Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) labels the token contract [0x5086](https://intel.arkm.com/explorer/address/0x5086bf358635b81d8c47c66d1c8b9e567db70c72) as the Re Protocol Deposit Token and shows no transfers for it, so issuer mint and redemption flows are not visible there either.
 - reUSD is a NAV token. Its price only accrues, so it has no pump days, and the pump-day test can't show either selling or the absence of it. Insider exits would happen through issuer redemptions or pool sales, which I did not trace. Under the repo's rule, selling that can't be traced is **not proven → 4.**
 - **Alternative:** if value-accruing tokens with no pump days are treated as "not applicable" and scored 6, Selling passes. The overall would then be 5.8, still ❌ FAIL, with no gate failed. No existing report in this folder covers a NAV or stable token, so the stricter score is used here.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from not applicable (NAV token).
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -127,8 +144,17 @@ layout_version: 3
 | Live mint path | 🟠 Issuer mint and redemption by design |
 | Entity concentration | 🟠 Exits depend on the issuer and a few DeFi pools |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [Re Protocol Deposit Token `0x5086…`](https://intel.arkm.com/explorer/address/0x5086bf358635b81d8c47c66d1c8b9e567db70c72) | Re Protocol | Arkham | medium | no | None: NAV token with no pump days; Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [Re docs: About reUSD](https://docs.re.xyz/products/about-reusd), [FAQ](https://docs.re.xyz/getting-started-with-re/faq), [Smart contracts](https://docs.re.xyz/products/smart-contracts), [Audits / attestations](https://docs.re.xyz/transparency-and-data-show-me-the-receipts/audits-attestations-custody-structure)
 - [Tier A] Etherscan token supply and holders; CoinGecko `re-protocol-reusd`
 - [Tier B] Arkham, read 16 Nov 2026 (signed-in account): Re Protocol Deposit Token label on the token contract (no transfers shown); Fluid (Instadapp) FluidLiquidityProxy holding 40.7M

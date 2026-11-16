@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes: only 700M of the 10B cap is minted on BNB Chain; the other 9.3B is issued on the project's revised schedule"
   team_wallet_to_exchange_during_pump: "not proven: BNB Chain transfers could not be read (BscScan API is paid; its pages sit behind a bot check)"
   entity_concentration: "project says vested tokens sit in central treasury wallets; about 95% of the 10B cap is not circulating"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Collateral yield goes to minters through YLD, not to STBL holders."
+pump_day_price_source: "the daily closes cited in the body"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.02017
 price_source: "CoinGecko, 16 Nov 2026 ~9:15 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - DefiLlama has no protocol or fee record for STBL. Yield from the collateral goes to minters through YLD, not to STBL holders ([site](https://www.stbl.com/)). **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Collateral yield goes to minters through YLD, not to STBL holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 - Leaders are described by role only. The founders extended their cliff by 15 months and investors by 12 months ([tokenomics](https://www.stbl.com/tokenomics)).
@@ -105,6 +115,8 @@ layout_version: 3
 
 - BNB Chain transfers could not be read: Etherscan's free API doesn't cover BNB Chain, and BscScan pages return a bot check. Arkham's first page for the token shows only small exchange-wallet deposits and nothing from the pump window. The second Arkham pass found no project wallet depositing to an exchange (the Safes' Binance deposits aren't tied to the team or dated to pump days). I found no pump-day evidence either way. **Not proven → 4** (unchanged).
 - The project says that any "meaningful token activity" will be communicated, and that unlocks don't mean sales [Tier A, self-reported].
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -143,8 +155,17 @@ layout_version: 3
 | Live mint path | 🟠 9.3B left to issue on the issuer's schedule |
 | Entity concentration | 🔴 ~95% of the cap held or unissued by the project |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| BNB Chain transfers | Not readable (BscScan wall) | — | low | no | Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [STBL tokenomics](https://www.stbl.com/tokenomics), [STBL site](https://www.stbl.com/)
 - [Tier A] BNB Chain public RPC `totalSupply` = 700,000,000 (16 Nov 2026)
 - [Tier A] CoinGecko `stbl` (market, venues, 365-day daily prices for pump days)

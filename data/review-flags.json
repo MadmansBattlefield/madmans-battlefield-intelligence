@@ -1,7 +1,7 @@
 {
   "title": "Review flags from the Arkham-confidence and holder-accrual upgrades",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:24 MST",
+  "generated_at": "2026-11-16 14:26 MST",
   "note": "Scores were not changed. These are review lists parsed from the published Markdown. A flag means a human (or a later dual review) should look at that section, not that the published score is automatically wrong.",
   "low_confidence_selling_or_holdings": [
     {
@@ -123,25 +123,15 @@
       "notes": [
         "An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change."
       ]
-    }
-  ],
-  "revenue_accrual_inconsistent": [
-    {
-      "ticker": "REUSD",
-      "revenue_score": 7,
-      "reaches_holders": "unclear",
-      "mechanisms": [],
-      "notes": "## 💰 Revenue — Does it make money? · 7/10 · ✅ PASS - Yield comes from reinsurance premiums and collateral return: SOFR + 250 bps off-chain, sUSDe + 250 bps on-chain ([About reUSD](https://docs.re.xyz/products/about-reusd)). NAV is up 11% since launch."
     },
     {
-      "ticker": "SOLV",
-      "revenue_score": 4,
-      "reaches_holders": "no",
-      "mechanisms": [
-        "buyback",
-        "fee_share"
-      ],
-      "notes": "The business is real and cheap on a sales multiple, but the token has no claim on revenue and no live buyback. SOLV's uses are governance, staking and fee discounts. **4**: better than a zero-revenue token, but it does not pass."
+      "ticker": "RLC",
+      "selling_behavior": 1,
+      "insider_holdings": 5,
+      "notes": [
+        "An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change."
+      ]
     }
-  ]
+  ],
+  "revenue_accrual_inconsistent": []
 }

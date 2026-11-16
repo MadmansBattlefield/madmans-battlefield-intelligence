@@ -23,6 +23,19 @@ red_lines:
   mint_path_live: "no new minting (fixed 100B), but 60B company SHX sits in a rolling escrow that releases 1B a month"
   team_wallet_to_exchange_during_pump: "not proven: 875M SHX was bridged from Stellar into four Kraken deposit addresses in Jan-Nov 2026, none on a pump day; one 28.1M Kraken deposit on the 28 Sep 2026 pump day came via an unlabelled wallet fed by a 15.3B-SHX Stellar account whose owner is unpublished [Unverified]"
   entity_concentration: "yes: ~81% of supply is held by Stronghold (60B escrow plus other company balances)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No fee goes to SHx holders; SHx is spent as rewards."
+pump_day_price_source: "Gate SHX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (47 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0xf213ac78ca8ff79f54eab193836053eea163f190"
+    label: "Kraken: Hot Wallet"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + Etherscan"
 price_usd: 0.003893
 price_source: "CoinGecko, 16 Nov 2026 ~9:30 AM MST"
 last_updated: 2026-11-16
@@ -79,6 +92,8 @@ layout_version: 3
 
 - Stronghold earns from payments and merchant financing, but no fee goes to SHx holders through a burn, buyback or share. SHx is spent as rewards. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee goes to SHx holders; SHx is spent as rewards.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - An operating US payments company with a MiCA white paper and a public executive team. How the company is doing financially isn't disclosed.
@@ -111,6 +126,8 @@ layout_version: 3
 - **The pump-day deposit:** the unlabelled Ethereum wallet [`0x28c4…2166`](https://etherscan.io/address/0x28c4c81d30a98d17fe5657fee17afa694a452166) (a plain account, not a contract) gets most of its SHX bridged from the Stellar account [GCMK…JQT5](https://stellar.expert/explorer/public/account/GCMKEWP6BZ2NUSE3YSVN37HLPD5H2P6XTYWJZY5J2WDHS7WR37JKJQT5), which holds **15.3B SHX** (about 15% of supply, 82% of the float) on a single key. That account sent 499M (Oct 2025), 10M (Nov 2025), 50M (21 Oct 2026) and 100M (5 Nov 2026), and another Stellar account sent 180M on 16 Sep 2026. `0x28c4` trades through Uniswap V4 and pays 10–60M lumps into one-off addresses that forward to Kraken. One of those, **[28.1M SHX on 28 Sep 2026](https://etherscan.io/tx/0x15b838a61a6af1fd79e93f7007a77cffa534693763e78d14eac4c97578bec298), landed on a pump day (+44.7%; ~$146k at the $0.00521 close)** and went straight on to the Kraken hot wallet.
 - A Stellar account with 15.3B SHX fits Stronghold's own non-escrow balance (the company holds ~81% of supply, 60B of it in escrow), but it is not published or labelled, and `0x28c4` behaves like a market maker. Under the v3 rule the selling must be tied to a team or treasury wallet, so this stays **not proven → 4**. If Stronghold confirms `GCMK…` is its own, Selling becomes 3, the gate fails, and the overall drops to 3.5.
 - The large Ethereum holder [0x1a9d](https://intel.arkm.com/explorer/address/0x1a9d699aee3a56ca49d0cc3b542ae3a37885a3e1) (279.9M) is unlabelled and was funded from Kraken withdrawals; it looks like a private holder, not Stronghold.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate SHX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (47 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -149,8 +166,17 @@ layout_version: 3
 | Live mint path | 🟡 No minting, but 1B a month escrow release |
 | Entity concentration | 🔴 ~81% company-held |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [`0xf213…f190`](https://intel.arkm.com/explorer/address/0xf213ac78ca8ff79f54eab193836053eea163f190) | Kraken: Hot Wallet | Arkham + Etherscan | high | yes | None: exchange wallet, not insider |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [SHx page and FAQ](https://stronghold.co/shx), [Escrow announcement](https://stronghold.co/learn/stronghold-locks-60-billion-shx-escrow)
 - [Tier A] Stellar Horizon (issuer and sender accounts); Etherscan token holders and transfers for `0x516d…9787`; Axelarscan GMP messages for the bridge mints (source chain and account)
 - [Tier B] Arkham, read 16 Nov 2026 (signed-in account): Kraken Hot Wallet on 0xf213; Kraken Deposit on 0x2a90, 0xe84c, 0x5086, 0x63dc and 0x504c; 0x1a9d and 0x28c4 unlabelled

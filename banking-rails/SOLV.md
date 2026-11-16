@@ -3,13 +3,13 @@ ticker: SOLV
 name: Solv Protocol
 chain: bsc
 contract: "0xabE8E5CabE24Cb36df9540088fD7cE1175b9bc52"
-overall_score: 4.7
+overall_score: 4.2
 overall_verdict: FAIL
 section_scores:
   revenue: 4
   foundation_team: 6
   insider_holdings: 4
-  selling_behavior: 5
+  selling_behavior: 1
   tokenomics_supply: 4
   liquidity_market: 4
   product_development: 7
@@ -17,12 +17,20 @@ section_scores:
   security_audits: 5
   regulatory: 5
   catalysts: 4
-gates_failed: []
+gates_failed: [selling_behavior]
 red_lines:
   hack_exploit: "yes, Mar 2026: the BRO vault (a one-off Solv deployment tied to the token listing) lost 38.05 SolvBTC (~$2.7M) to a double-mint bug; Solv says both affected participants were repaid by 9 Mar 2026"
   mint_path_live: "no in code (both SOLV contracts are fixed-supply OZ ERC20s with no mint function and no owner); but the docs call max supply 'dynamic' and say it may grow by governance for future BRO tranches, which would need a new deployment"
   team_wallet_to_exchange_during_pump: "yes, small (Solv Safe 0xccbc sent 18,666,567 SOLV to a Binance deposit on the 11 Mar 2026 pump day, +18.8%; EOA 0x8353, funded by a Solv vesting Safe, sent the same amount to the same deposit on the 21 Nov 2025 pump day, +14.0%); ~304M more went from Solv-funded wallets to Binance/Bybit deposits on non-pump days, purpose undisclosed. The 2 Apr 2026 31.5M pump-day deposit was by a wallet Arkham labels OKX Blockdream Ventures (investor), not counted"
   treasury_in_single_key_wallets: "partly (~3.85B SOLV, 39.9% of max supply, sits in five 4-of-5 Safes with no vesting contract, plus 91.0M in a sixth Safe 0x5e75 with the same signers; ~739M more sits in EOAs that Solv's Safes funded: 0x1478 428.7M, 0x5030 310M across two chains)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The token has no claim on revenue and no live buyback. Holders have no live claim on revenue; the score describes the business, not holder accrual."
+pump_day_price_source: "Gate SOLV/USDT daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.004495
 price_source: "CoinGecko, 16 Nov 2026 5:26 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### SOLV · Overall grade **4.7 / 10 · ❌ FAIL**
+### SOLV · Overall grade **4.2 / 10 · ❌ FAIL**
 
 **Summary:** Solv runs SolvBTC, a real Bitcoin-yield product with $439M TVL, and DefiLlama counts **$12.2M of protocol revenue in the last year**, about 2x revenue against a $26.5M market cap. But **none of that revenue reaches SOLV holders** (holders revenue $0), and the only "buyback" (vSOLV) paid out of token supply and ended on 17 Mar 2026. About 40% of max supply sits in five Solv-run 4-of-5 Safes that hand out a monthly release by policy, not by a vesting contract. A sixth Safe with the same signers holds 91M more, and another ~739M sits in single-key EOAs those Safes funded. The token is down 97.8% from its listing high, the 17 Nov 2026 unlock (186.6M, 3.2% of circulating supply) lands tomorrow, and a Mar 2026 exploit hit a Solv vault. No hard gate trips, but the average fails.
 
@@ -49,7 +57,7 @@ Nothing on-chain stops the signers from releasing faster. Every transfer is link
 | 💰 Revenue | 4/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 5/10 | ❌ FAIL |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -63,7 +71,7 @@ Nothing on-chain stops the signers from releasing faster. Every transfer is link
 ---
 
 
-# 🪪 SOLV · Solv Protocol · 4.7 / 10 · ❌ FAIL
+# 🪪 SOLV · Solv Protocol · 4.2 / 10 · ❌ FAIL
 
 > **One line:** A real Bitcoin-yield business with $12M a year of revenue that the token does not share. Forty percent of max supply sits in team-run Safes that release it by policy, and the price is 97.8% below its listing high.
 
@@ -89,6 +97,8 @@ Nothing on-chain stops the signers from releasing faster. Every transfer is link
 | Buyback | vSOLV "buyback" ran 17 Sep 2025 – 17 Mar 2026 and was paid from a **2.5% supply allocation**, not from revenue. It has ended, and no revenue buyback is live | [Tier A] [vSOLV docs](https://docs.solv.finance/solv-token/vsolv-campaign) |
 
 **What it means:** The business is real and cheap on a sales multiple, but the token has no claim on revenue and no live buyback. SOLV's uses are governance, staking and fee discounts. **4**: better than a zero-revenue token, but it does not pass.
+
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The token has no claim on revenue and no live buyback. Holders have no live claim on revenue; the score describes the business, not holder accrual.
 
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
@@ -117,7 +127,7 @@ Nothing on-chain stops the signers from releasing faster. Every transfer is link
 
 **What it means:** About 3.85B SOLV (39.9% of max supply, 65% of the circulating count) sits in Safes that work as vesting by policy only: four of five signers can move any amount at any time. A sixth Safe with the same signers (Safe F) holds 91.0M more, so the Safe total is ~3.94B (40.8% of max). About 739M more sits in plain EOAs funded by those Safes. Multisigs beat single keys, and the Safes have released on a steady monthly rhythm so far, so this scores **4**, not lower. Moving Safe F from the EOA list to the Safe list (a 4-of-5 multisig, Tier A) does not change the score.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 5/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 *Pump test uses Gate SOLV/USDT daily closes (UTC). 51 of the last 365 days were pump days. "Solv-funded" means the sender got its SOLV from the Solv Safes above. Exchange deposit labels are Etherscan name tags for the same address (Tier B): Binance 51 = [`0x8894…d4e3`](https://bscscan.com/address/0x8894e0a0c962cb723c1976a4421c95949be2d4e3).*
 
@@ -145,6 +155,8 @@ Nothing on-chain stops the signers from releasing faster. Every transfer is link
 - **Arkham pass ([Tier B] Arkham, read 16 Nov 2026 ~7:19–7:20 AM MST (signed-in account)):** `0x8353…` is an unlabelled EOA that got SOLV from Safe F and sent 18.667M ×4 to Binance deposit `0x7D3…` ([Arkham](https://intel.arkm.com/explorer/address/0x83536027de14d96e9d34382c825263be9b305f40)), which supports the beneficiary-payout reading. `0xef12…` is unlabelled; Arkham confirms its 29M Binance deposit and 10.84M Bybit deposit, funded by Safe E ([Arkham](https://intel.arkm.com/explorer/address/0xef12417df03f2722a2baed3111c7b6a4347d2fd7)). `0x0bd8…` ([Arkham](https://intel.arkm.com/explorer/address/0x0bd8ab88ec2b8d672d6dcafba571bc79430bf4eb)) and `0xe4a8…` ([Arkham](https://intel.arkm.com/explorer/address/0xe4a84981da2122e265ed2adf20467c8f63c3ad6e)) are unlabelled pass-through EOAs; Arkham shows a Safe it labels Solv Protocol among `0x0bd8…`'s funders. `0xe4a8…` sent **31,499,000 SOLV to the same OKX Blockdream Ventures wallet on 14 Nov 2026** ([tx](https://bscscan.com/tx/0x42e2db072248b43053f1ad6055cbfd1199bd72f5d93c1f5475f3804e95b6c095); −1.4%, not a pump day), the same size as the March payout. That looks like a scheduled Solv-to-investor vesting payout [Unverified]. Arkham does not name Solv on Safe `0xccbc…` or Safe F; the Solv attribution in this report rests on the on-chain flow logic (genesis split, shared signers), not on an Arkham label.
 
 **What it means:** Two undisclosed pump-day deposits of Solv-released SOLV (11 Mar 2026 straight from the operating Safe, and 21 Nov 2025 via `0x8353…`, funded by Safe F) fail this section under the rules. Both are the same fixed 18.67M payment into the same Binance deposit, part of a roughly monthly series that lands on pump days about as often as chance would. That looks like a scheduled payout to one beneficiary's exchange account, not Solv timing sales. The 2 Apr 2026 31.5M pump-day deposit, an open question before, turns out to be investor flow: the fund wallet received its allocation from Solv's operator on 28 and 31 Mar and deposited it itself. It was never counted here. **5, unchanged after the Arkham pass.** The second pump-day deposit argues for a 4. The stronger payout evidence and the resolved investor flow argue against it. A 4 would make the overall 4.6, still FAIL, so the verdict does not depend on this call.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. The fixed monthly amount looks like a scheduled payout, but under the one-hop rule a direct project-Safe → exchange-deposit transfer on a pump day is a proven sale. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **5 → 1** (capped at 3, then −2). This adds the Selling hard gate. Pump days from Gate SOLV/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -198,8 +210,17 @@ Nothing on-chain stops the signers from releasing faster. Every transfer is link
 | Treasury in single-key wallets | 🟡 ~739M in EOAs [`0x1478…`](https://bscscan.com/address/0x1478f63a183553b77dbc41458443450271c1565c) and [`0x5030…`](https://bscscan.com/address/0x50301ce376e7e66ffc07ee442dbcff5b34d332c1); the ~3.94B main stash is in six 4-of-5 Safes ([`0x5e75…`](https://bscscan.com/address/0x5e75298a82b758308706cff215c2b99d1af155a6) corrected from EOA to Safe) |
 | Vesting enforced on-chain | 🔴 No; Safes release by policy |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Solv operating Safe and `0x8353…` (funded by Safe F) | Solv Protocol | Etherscan funding + Solv Safes | high | yes (on-chain) | Selling: 18.67M SOLV into one Binance deposit on 11 Mar 2026 and 21 Nov 2025 pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] BSC logs: every SOLV `Transfer` to and from the genesis Safe, the five vesting Safes, `0xccbc…`, `0x0bd8…`, `0xe4a8…`, `0x5030…`, `0xef12…`, `0x5e75…` and their second hops (NodeReal public `eth_getLogs`); block timestamps, `balanceOf`, `totalSupply` and Safe `getOwners()`/`getThreshold()` via BSC RPC; read 16 Nov 2026 ~5:30–7:45 AM MST
 - [Tier A] Etherscan v2 API `tokentx` for Ethereum SOLV (all 398 transfers) and `getsourcecode` for both token contracts, 16 Nov 2026
 - [Tier B] Etherscan name tags for the same addresses ("Binance 51", "Binance Deposit", "Binance 14", "Bybit: Wallet 16", "Binance: Cold Wallet"), 16 Nov 2026; GoPlus BSC token security (holder count, top holders)

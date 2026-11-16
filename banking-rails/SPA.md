@@ -3,13 +3,13 @@ ticker: SPA
 name: Sperax
 chain: arbitrum (main) · ethereum · bsc
 contract: "0x5575552988a3a80504bbaeb1311674fcfd40ad4b (Arbitrum)"
-overall_score: 2.5
+overall_score: 2.2
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 4
   insider_holdings: 2
-  selling_behavior: 2
+  selling_behavior: 0
   tokenomics_supply: 3
   liquidity_market: 2
   product_development: 4
@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "Arbitrum SPA is a bridged token minted by the gateway on deposits; 5B max; not tested for an owner mint this pass [Unverified]"
   team_wallet_to_exchange_during_pump: "YES: team Safe 0xe10b… (3-of-5; its funder and co-signer 0xc6e0 is speraxfoundation.eth per Arkham) sent 30M SPA to a Coinbase deposit, 10M to a Gate deposit and 10M to a KuCoin deposit (Arkham) on 2 May 2023, a +51.4% 5-day pump day; also the treasury relay 0x9597 sent 9M to the same KuCoin deposit on the 26 Aug 2026 pump day (+11.2%)"
   team_held_share: "four team-signer Safes hold 1.647B SPA (≈33% of total supply)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "A fee share reaches holders, but only about $3.7k a year; Revenue stays 1."
+pump_day_price_source: "Gate SPA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.00196042
 price_source: "CoinGecko, 16 Nov 2026 ~5:08 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### SPA · Overall grade **2.5 / 10 · ❌ FAIL**
+### SPA · Overall grade **2.2 / 10 · ❌ FAIL**
 
 **Summary:** Sperax is the governance token of a small Arbitrum DeFi suite: the USDs stablecoin, Demeter and Sperax Farms. It is down **65% in a year** to a **$3.75M market cap**, with **$107K of daily volume**. DefiLlama counts **$12,044 in fees over 12 months**, and only **$3,731** of that reached holders. USDs has **$0.51M locked**. Four Gnosis Safes run by overlapping team signers hold **1.647B SPA (≈33% of supply)**. One of them paid **50M SPA into Coinbase, Gate and KuCoin deposit addresses on a +51% pump day** in May 2023, and the treasury's relay wallet kept feeding MEXC and KuCoin deposits in 2026, including on the 26 Aug 2026 pump day. Arkham confirms the Safes' funder is **speraxfoundation.eth**. Both the Revenue and Selling gates fail.
 
@@ -44,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 1/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 4/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 2/10 | ❌ FAIL |
-| 📉 Selling behavior | 2/10 | ❌ FAIL |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 2/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 4/10 | ❌ FAIL |
@@ -59,7 +67,7 @@ layout_version: 3
 
 ---
 
-# 🪪 SPA · Sperax · 2.5 / 10 · ❌ FAIL
+# 🪪 SPA · Sperax · 2.2 / 10 · ❌ FAIL
 
 > **One line:** A $3.75M token with about $12K a year in fees, a third of its supply in team Safes run by speraxfoundation.eth, and a team Safe that paid 50M SPA into Coinbase, Gate and KuCoin deposits on a +51% pump day.
 
@@ -84,6 +92,8 @@ layout_version: 3
 
 **What it means:** About $3.7K a year reaches holders of a $3.75M token. That is **1**, which **trips the Revenue gate**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** A fee share reaches holders, but only about $3.7k a year; Revenue stays 1.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 - Sperax Labs builds the products. Treasury and ecosystem SPA sits in **four Gnosis Safes, each 3-of-5**. Signers `0xc6e0…8265`, `0x5468…9a83`, `0x0a8d…e88a`, `0xdca6…26c3`, `0xd902…1ef3`, `0xc856…f1d0`, `0xb35b…0a4d`, `0xe66a…b47e` and `0x4f7c…49f1` overlap across them (`getOwners()` / `getThreshold()` read 16 Nov 2026) [Tier A].
@@ -104,7 +114,7 @@ layout_version: 3
 
 *Not counted as team:* `0x5c2f…` (398.9M) is attributed to **Coinbase** by Arkham, funded only by Coinbase Hot Wallet `0xE68` [Arkham](https://intel.arkm.com/explorer/address/0x5c2f85b7c224cb7ca8fab5b739a5d9134b5f9d56), and `0x15da…` is a **Revolut cold wallet** [Arkham](https://intel.arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7) ([Tier B] Arkham, read 16 Nov 2026 ~6:35–6:40 AM MST (signed-in account)). Both are exchange custody.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 2/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 **A. Team Safe → exchange deposits on a pump day (2 May 2023)**
 
@@ -137,6 +147,8 @@ layout_version: 3
 - Values are small (9M ≈ $20K), but the route is treasury → relay → exchange deposit, undisclosed.
 
 **What it means:** A team-signer Safe put 50M SPA into three exchanges on a day the price was up 51% in five days, with no disclosure found. This year the treasury relay kept feeding Gate, MEXC and KuCoin deposits, once on a pump day. That **fails Selling at 2** (unchanged after Arkham; the new evidence strengthens it) and **trips the gate**.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from Gate SPA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -180,8 +192,17 @@ layout_version: 3
 | Team wallet → exchange during a pump | 🔴 **Yes:** 50M SPA to Coinbase, Gate and KuCoin deposits on 2 May 2023 (+51.4%); 9M from the treasury relay to KuCoin on 26 Aug 2026 (+11.2%). [multisend](https://arbiscan.io/tx/0x15c6168eb5f7ea992a24dfde2dd993485d10800e383911e92e3d1625fea250f2) · [Coinbase sweep](https://arbiscan.io/tx/0x27369cb5a0dc51c2157a6f910837da269680073e71e0cb4ddbe918406bd268e1) · [Gate sweep](https://arbiscan.io/tx/0x4dd5b99b2385d63ed5e0b241eb417217e15ec5175c3e29d25258e9ef922bdfde) |
 | Team-held share | 🔴 1.647B (≈33% of supply) in team-signer Safes |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Team-signer Safe | Sperax team | Safe signers on-chain | high | yes (on-chain) | Selling: 50M SPA into three exchanges on a +51% day; treasury relay to Gate, MEXC and KuCoin once on a 2026 pump day |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API, Arbitrum (chain 42161): `tokentx` for the four Safes, `0xd7f7…`, `0x2b00…`, `0x9597…`; `getsourcecode`, `eth_getCode`, `tokensupply`; `eth_call` `getOwners()` / `getThreshold()`, 16 Nov 2026 MST
 - [Tier A] DefiLlama fees / revenue / holders-revenue API and protocol TVL (Sperax USD, Demeter)
 - [Tier A] CoinGecko `sperax` market data and 365-day closes; Gate SPA_USDT daily candles for 2023–2024

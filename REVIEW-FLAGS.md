@@ -1,6 +1,6 @@
 ---
 title: Review flags
-generated_at: 2026-11-16 14:24 MST
+generated_at: 2026-11-16 14:26 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Scores on this page were not changed.
 ---
@@ -34,7 +34,7 @@ Rule: only a verified entity label with on-chain proof, or a second independent 
 
 These are not automatically wrong. Exchange and entity labels from Arkham are Tier B. The new rule asks for on-chain proof of the label, or a second independent source, before that label can move Selling or Holdings. They are listed so a later review can confirm or downgrade them. Scores were left as published.
 
-**6 report(s) flagged.**
+**7 report(s) flagged.**
 
 | Ticker | Selling | Holdings |
 |---|---:|---:|
@@ -44,17 +44,13 @@ These are not automatically wrong. Exchange and entity labels from Arkham are Ti
 | [INV](banking-rails/INV.md) | 1 | 6 |
 | [JASMY](banking-rails/JASMY.md) | 2 | 3 |
 | [ONDO](banking-rails/ONDO.md) | 1 | 3 |
+| [RLC](banking-rails/RLC.md) | 1 | 5 |
 
 ## 3. Revenue score looks inconsistent with the holder-accrual test
 
 The test is binary: an on-chain, automatic burn, buyback, staking yield from fees, or fee share that has already executed. Promises do not count. A report is listed when Revenue is 4 or higher and the test is **no**, when Revenue is a pass (6 or more) and the test is not **yes**, or when the test is **yes** and Revenue still trips the hard gate. Scores were left as published.
 
-**2 report(s) flagged.**
-
-| Ticker | Revenue | Reaches holders | Mechanisms | Notes (from the report) |
-|---|---:|---|---|---|
-| [REUSD](banking-rails/REUSD.md) | 7 | unclear | — | ## 💰 Revenue — Does it make money? · 7/10 · ✅ PASS - Yield comes from reinsurance premiums and collateral return: SOFR + 250 bps off-chain, sUSDe + 250 bps on-chain ([About reUSD](https://docs.re.xyz/products/about-re... |
-| [SOLV](banking-rails/SOLV.md) | 4 | no | buyback, fee_share | The business is real and cheap on a sales multiple, but the token has no claim on revenue and no live buyback. SOLV's uses are governance, staking and fee discounts. **4**: better than a zero-revenue token, but it doe... |
+None parsed.
 
 ---
 

@@ -54,40 +54,40 @@ Ties are broken by how many of the 11 sections passed.
 31. 🔴 **DASH** · 4.7 · ❌ FAIL
 32. 🔴 **DIA** · 4.7 · ❌ FAIL
 33. 🔴 **CELO** · 4.7 · ❌ FAIL
-34. 🔴 **SOLV** · 4.7 · ❌ FAIL
-35. 🔴 **BTT** · 4.7 · ❌ FAIL
-36. 🔴 **WAN** · 4.7 · ❌ FAIL
-37. 🔴 **CARDS** · 4.7 · ❌ FAIL
-38. 🔴 **API3** · 4.5 · ❌ FAIL
-39. 🔴 **MNT** · 4.5 · ❌ FAIL
-40. 🔴 **RLS** · 4.5 · ❌ FAIL
-41. 🔴 **INV** · 4.4 · ❌ FAIL
-42. 🔴 **HUMA** · 4.4 · ❌ FAIL
-43. 🔴 **RVN** · 4.4 · ❌ FAIL
-44. 🔴 **ONDO** · 4.3 · ❌ FAIL
-45. 🔴 **QNT** · 4.3 · ❌ FAIL
-46. 🔴 **ICP** · 4.3 · ❌ FAIL
-47. 🔴 **RLC** · 4.3 · ❌ FAIL
-48. 🔴 **RED** · 4.3 · ❌ FAIL
-49. 🔴 **PRO** · 4.3 · ❌ FAIL
-50. 🔴 **TRAC** · 4.2 · ❌ FAIL
-51. 🔴 **REQ** · 4.2 · ❌ FAIL
-52. 🔴 **FXS** · 4.2 · ❌ FAIL
-53. 🔴 **AMP** · 4.2 · ❌ FAIL
-54. 🔴 **GRND** · 4.2 · ❌ FAIL
-55. 🔴 **ETC** · 4.1 · ❌ FAIL
-56. 🔴 **XVG** · 4.1 · ❌ FAIL
-57. 🔴 **EDEN** · 4.1 · ❌ FAIL
-58. 🔴 **CFG** · 4.0 · ❌ FAIL
-59. 🔴 **ZBCN** · 4.0 · ❌ FAIL
-60. 🔴 **SEI** · 4.0 · ❌ FAIL
-61. 🔴 **TFUEL** · 4.0 · ❌ FAIL
-62. 🔴 **DUSK** · 4.0 · ❌ FAIL
-63. 🔴 **BAND** · 4.0 · ❌ FAIL
-64. 🔴 **MINA** · 4.0 · ❌ FAIL
-65. 🔴 **EWT** · 4.0 · ❌ FAIL
-66. 🔴 **HTX** · 4.0 · ❌ FAIL
-67. 🔴 **CELR** · 4.0 · ❌ FAIL
+34. 🔴 **BTT** · 4.7 · ❌ FAIL
+35. 🔴 **WAN** · 4.7 · ❌ FAIL
+36. 🔴 **CARDS** · 4.7 · ❌ FAIL
+37. 🔴 **API3** · 4.5 · ❌ FAIL
+38. 🔴 **MNT** · 4.5 · ❌ FAIL
+39. 🔴 **RLS** · 4.5 · ❌ FAIL
+40. 🔴 **INV** · 4.4 · ❌ FAIL
+41. 🔴 **HUMA** · 4.4 · ❌ FAIL
+42. 🔴 **RVN** · 4.4 · ❌ FAIL
+43. 🔴 **ONDO** · 4.3 · ❌ FAIL
+44. 🔴 **QNT** · 4.3 · ❌ FAIL
+45. 🔴 **ICP** · 4.3 · ❌ FAIL
+46. 🔴 **RED** · 4.3 · ❌ FAIL
+47. 🔴 **PRO** · 4.3 · ❌ FAIL
+48. 🔴 **TRAC** · 4.2 · ❌ FAIL
+49. 🔴 **SOLV** · 4.2 · ❌ FAIL
+50. 🔴 **FXS** · 4.2 · ❌ FAIL
+51. 🔴 **AMP** · 4.2 · ❌ FAIL
+52. 🔴 **GRND** · 4.2 · ❌ FAIL
+53. 🔴 **ETC** · 4.1 · ❌ FAIL
+54. 🔴 **XVG** · 4.1 · ❌ FAIL
+55. 🔴 **EDEN** · 4.1 · ❌ FAIL
+56. 🔴 **RLC** · 4.0 · ❌ FAIL
+57. 🔴 **CFG** · 4.0 · ❌ FAIL
+58. 🔴 **ZBCN** · 4.0 · ❌ FAIL
+59. 🔴 **SEI** · 4.0 · ❌ FAIL
+60. 🔴 **TFUEL** · 4.0 · ❌ FAIL
+61. 🔴 **DUSK** · 4.0 · ❌ FAIL
+62. 🔴 **BAND** · 4.0 · ❌ FAIL
+63. 🔴 **MINA** · 4.0 · ❌ FAIL
+64. 🔴 **EWT** · 4.0 · ❌ FAIL
+65. 🔴 **HTX** · 4.0 · ❌ FAIL
+66. 🔴 **CELR** · 4.0 · ❌ FAIL
+67. 🔴 **REQ** · 3.9 · ❌ FAIL
 68. 🔴 **KAIA** · 3.9 · ❌ FAIL
 69. 🔴 **CFX** · 3.9 · ❌ FAIL
 70. 🔴 **INJ** · 3.9 · ❌ FAIL
@@ -135,22 +135,22 @@ Ties are broken by how many of the 11 sections passed.
 112. 🔴 **PUNDIX** · 3.4 · ❌ FAIL
 113. 🔴 **SHPING** · 3.3 · ❌ FAIL
 114. 🔴 **CPOOL** · 3.3 · ❌ FAIL
-115. 🔴 **S** · 3.3 · ❌ FAIL
-116. 🔴 **ZIG** · 3.3 · ❌ FAIL
-117. 🔴 **STBL** · 3.3 · ❌ FAIL
-118. 🔴 **SHARE** · 3.3 · ❌ FAIL
-119. 🔴 **AEON** · 3.3 · ❌ FAIL
-120. 🔴 **YELLOW** · 3.2 · ❌ FAIL
-121. 🔴 **LUMIA** · 3.2 · ❌ FAIL
-122. 🔴 **RBNT** · 3.1 · ❌ FAIL
-123. 🔴 **KAVA** · 3.1 · ❌ FAIL
-124. 🔴 **ACH** · 3.1 · ❌ FAIL
-125. 🔴 **XEP** · 3.1 · ❌ FAIL
-126. 🔴 **EXA** · 3.1 · ❌ FAIL
-127. 🔴 **HONEY** · 3.1 · ❌ FAIL
-128. 🔴 **CSPR** · 3.1 · ❌ FAIL
-129. 🔴 **IOST** · 3.1 · ❌ FAIL
-130. 🔴 **POLYX** · 3.0 · ❌ FAIL
+115. 🔴 **ZIG** · 3.3 · ❌ FAIL
+116. 🔴 **STBL** · 3.3 · ❌ FAIL
+117. 🔴 **SHARE** · 3.3 · ❌ FAIL
+118. 🔴 **AEON** · 3.3 · ❌ FAIL
+119. 🔴 **YELLOW** · 3.2 · ❌ FAIL
+120. 🔴 **LUMIA** · 3.2 · ❌ FAIL
+121. 🔴 **RBNT** · 3.1 · ❌ FAIL
+122. 🔴 **KAVA** · 3.1 · ❌ FAIL
+123. 🔴 **ACH** · 3.1 · ❌ FAIL
+124. 🔴 **XEP** · 3.1 · ❌ FAIL
+125. 🔴 **EXA** · 3.1 · ❌ FAIL
+126. 🔴 **HONEY** · 3.1 · ❌ FAIL
+127. 🔴 **CSPR** · 3.1 · ❌ FAIL
+128. 🔴 **IOST** · 3.1 · ❌ FAIL
+129. 🔴 **POLYX** · 3.0 · ❌ FAIL
+130. 🔴 **S** · 3.0 · ❌ FAIL
 131. 🔴 **TLOS** · 3.0 · ❌ FAIL
 132. 🔴 **ORAI** · 3.0 · ❌ FAIL
 133. 🔴 **XDB** · 2.9 · ❌ FAIL
@@ -162,9 +162,9 @@ Ties are broken by how many of the 11 sections passed.
 139. 🔴 **SCRT** · 2.6 · ❌ FAIL
 140. 🔴 **PALMUSD** · 2.6 · ❌ FAIL
 141. 🔴 **EDEL** · 2.5 · ❌ FAIL
-142. 🔴 **SPA** · 2.5 · ❌ FAIL
-143. 🔴 **SWCH** · 2.5 · ❌ FAIL
-144. 🔴 **H** · 2.4 · ❌ FAIL
+142. 🔴 **SWCH** · 2.5 · ❌ FAIL
+143. 🔴 **H** · 2.4 · ❌ FAIL
+144. 🔴 **SPA** · 2.2 · ❌ FAIL
 145. 🔴 **COTI** · 2.1 · ❌ FAIL
 146. 🔴 **REALIZ** · 2.1 · ❌ FAIL
 147. 🔴 **ROUTER** · 2.0 · ❌ FAIL
@@ -175,6 +175,10 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Batch 6: 14 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [REQ](REQ.md) Selling 3 → 1 (4.2 → 3.9, now #67); [RLC](RLC.md) Selling 3 → 1 (4.3 → 4.0, now #56); [S](S.md) Selling 2 → 0 (3.3 → 3.0, now #130); [SOLV](SOLV.md) Selling 5 → 1 (4.7 → 4.2, now #49); [SPA](SPA.md) Selling 2 → 0 (2.5 → 2.2, now #144). Unchanged: [QUAI](QUAI.md), [RED](RED.md), [REUSD](REUSD.md), [ROSE](ROSE.md), [RVN](RVN.md), [SEI](SEI.md), [SHARE](SHARE.md), [SHX](SHX.md), [STBL](STBL.md).
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Batch 5: 14 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [ONDO](ONDO.md) Selling 4 → 1 (4.7 → 4.3, now #44); [PACT](PACT.md) Selling 1 → 0 (3.1 → 2.9, now #134); [PHA](PHA.md) Selling 1 → 0 (3.9 → 3.8, now #72); [POLYX](POLYX.md) Selling 2 → 0 (3.3 → 3.0, now #130); [QNT](QNT.md) Selling 3 → 1 (4.6 → 4.3, now #45). Unchanged: [KAVA](KAVA.md), [MASQ](MASQ.md), [MBG](MBG.md), [MNT](MNT.md), [MOCA](MOCA.md), [NIGHT](NIGHT.md), [OM](OM.md), [PROPC](PROPC.md), [PUNDIX](PUNDIX.md).
 
@@ -757,18 +761,7 @@ Score changes from that research:
 
 ---
 
-## #34 · SOLV · Solv Protocol
-
-### 4.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** none
-- **Verdict:** Real SolvBTC revenue ($12.2M a year) that the token does not share; ~40.8% of max supply sits in six team-run 4-of-5 Safes that vest by policy, plus ~739M in single-key EOAs. Two pump-day deposits from the same fixed 18.67M payout series; Arkham shows the 2 Apr 2026 31.5M pump-day deposit was an investor fund (OKX Blockdream Ventures), and the suspected market maker is a Bithumb hot wallet.
-- 📄 [Full SOLV report](SOLV.md)
-
----
-
-## #35 · BTT · BitTorrent
+## #34 · BTT · BitTorrent
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -779,7 +772,7 @@ Score changes from that research:
 
 ---
 
-## #36 · WAN · Wanchain
+## #35 · WAN · Wanchain
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -790,7 +783,7 @@ Score changes from that research:
 
 ---
 
-## #37 · CARDS · Collector Crypt
+## #36 · CARDS · Collector Crypt
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -801,7 +794,7 @@ Score changes from that research:
 
 ---
 
-## #38 · API3 · Api3
+## #37 · API3 · Api3
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -812,7 +805,7 @@ Score changes from that research:
 
 ---
 
-## #39 · MNT · Mantle
+## #38 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -823,7 +816,7 @@ Score changes from that research:
 
 ---
 
-## #40 · RLS · Rayls
+## #39 · RLS · Rayls
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -834,7 +827,7 @@ Score changes from that research:
 
 ---
 
-## #41 · INV · Inverse Finance
+## #40 · INV · Inverse Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -845,7 +838,7 @@ Score changes from that research:
 
 ---
 
-## #42 · HUMA · Huma Finance
+## #41 · HUMA · Huma Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -856,7 +849,7 @@ Score changes from that research:
 
 ---
 
-## #43 · RVN · Ravencoin
+## #42 · RVN · Ravencoin
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -867,7 +860,7 @@ Score changes from that research:
 
 ---
 
-## #44 · ONDO · Ondo
+## #43 · ONDO · Ondo
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -878,7 +871,7 @@ Score changes from that research:
 
 ---
 
-## #45 · QNT · Quant
+## #44 · QNT · Quant
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -889,7 +882,7 @@ Score changes from that research:
 
 ---
 
-## #46 · ICP · Internet Computer
+## #45 · ICP · Internet Computer
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -900,18 +893,7 @@ Score changes from that research:
 
 ---
 
-## #47 · RLC · iExec RLC
-
-### 4.3 / 10 · ❌ FAIL
-
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** Clean fixed supply, but no revenue, and a Safe funded by the Arkham-labelled iExec Team wallet sent 651k RLC to Binance during the Oct 2026 spike.
-- 📄 [Full RLC report](RLC.md)
-
----
-
-## #48 · RED · RedStone
+## #46 · RED · RedStone
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -922,7 +904,7 @@ Score changes from that research:
 
 ---
 
-## #49 · PRO · Propy
+## #47 · PRO · Propy
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -933,7 +915,7 @@ Score changes from that research:
 
 ---
 
-## #50 · TRAC · OriginTrail
+## #48 · TRAC · OriginTrail
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -944,18 +926,18 @@ Score changes from that research:
 
 ---
 
-## #51 · REQ · Request Network
+## #49 · SOLV · Solv Protocol
 
 ### 4.2 / 10 · ❌ FAIL
 
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A working payments protocol with a rounding-error burn and a Team Wallet that sold into a 2021 pump. Arkham shows the 55.9M Kraken flow went through Coinbase Prime Custody, a custody flow from team funds.
-- 📄 [Full REQ report](REQ.md)
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Selling
+- **Verdict:** Real SolvBTC revenue ($12.2M a year) that the token does not share; ~40.8% of max supply sits in six team-run 4-of-5 Safes that vest by policy, plus ~739M in single-key EOAs. Two pump-day deposits from the same fixed 18.67M payout series; Arkham shows the 2 Apr 2026 31.5M pump-day deposit was an investor fund (OKX Blockdream Ventures), and the suspected market maker is a Bithumb hot wallet.
+- 📄 [Full SOLV report](SOLV.md)
 
 ---
 
-## #52 · FXS · Frax (prev. FXS)
+## #50 · FXS · Frax (prev. FXS)
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -966,7 +948,7 @@ Score changes from that research:
 
 ---
 
-## #53 · AMP · Amp
+## #51 · AMP · Amp
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -977,7 +959,7 @@ Score changes from that research:
 
 ---
 
-## #54 · GRND · SuperWalk
+## #52 · GRND · SuperWalk
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -988,7 +970,7 @@ Score changes from that research:
 
 ---
 
-## #55 · ETC · Ethereum Classic
+## #53 · ETC · Ethereum Classic
 
 ### 4.1 / 10 · ❌ FAIL
 
@@ -999,7 +981,7 @@ Score changes from that research:
 
 ---
 
-## #56 · XVG · Verge
+## #54 · XVG · Verge
 
 ### 4.1 / 10 · ❌ FAIL
 
@@ -1010,7 +992,7 @@ Score changes from that research:
 
 ---
 
-## #57 · EDEN · OpenEden
+## #55 · EDEN · OpenEden
 
 ### 4.1 / 10 · ❌ FAIL
 
@@ -1021,7 +1003,18 @@ Score changes from that research:
 
 ---
 
-## #58 · CFG · Centrifuge
+## #56 · RLC · iExec RLC
+
+### 4.0 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** Clean fixed supply, but no revenue, and a Safe funded by the Arkham-labelled iExec Team wallet sent 651k RLC to Binance during the Oct 2026 spike.
+- 📄 [Full RLC report](RLC.md)
+
+---
+
+## #57 · CFG · Centrifuge
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1032,7 +1025,7 @@ Score changes from that research:
 
 ---
 
-## #59 · ZBCN · Zebec Network
+## #58 · ZBCN · Zebec Network
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1043,7 +1036,7 @@ Score changes from that research:
 
 ---
 
-## #60 · SEI · Sei
+## #59 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1054,7 +1047,7 @@ Score changes from that research:
 
 ---
 
-## #61 · TFUEL · Theta Fuel
+## #60 · TFUEL · Theta Fuel
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1065,7 +1058,7 @@ Score changes from that research:
 
 ---
 
-## #62 · DUSK · Dusk
+## #61 · DUSK · Dusk
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1076,7 +1069,7 @@ Score changes from that research:
 
 ---
 
-## #63 · BAND · Band Protocol
+## #62 · BAND · Band Protocol
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1087,7 +1080,7 @@ Score changes from that research:
 
 ---
 
-## #64 · MINA · Mina Protocol
+## #63 · MINA · Mina Protocol
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1098,7 +1091,7 @@ Score changes from that research:
 
 ---
 
-## #65 · EWT · Energy Web Token
+## #64 · EWT · Energy Web Token
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1109,7 +1102,7 @@ Score changes from that research:
 
 ---
 
-## #66 · HTX · HTX DAO
+## #65 · HTX · HTX DAO
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1120,7 +1113,7 @@ Score changes from that research:
 
 ---
 
-## #67 · CELR · Celer Network
+## #66 · CELR · Celer Network
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -1128,6 +1121,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** cBridge and SGN with unmeasured fees; the deployer key can pause transfers, and the Arkham-labelled Treasury holds 16.3% without exchange sends.
 - 📄 [Full CELR report](CELR.md)
+
+---
+
+## #67 · REQ · Request Network
+
+### 3.9 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A working payments protocol with a rounding-error burn and a Team Wallet that sold into a 2021 pump. Arkham shows the 55.9M Kraken flow went through Coinbase Prime Custody, a custody flow from team funds.
+- 📄 [Full REQ report](REQ.md)
 
 ---
 
@@ -1648,18 +1652,7 @@ Score changes from that research:
 
 ---
 
-## #115 · S · Sonic
-
-### 3.3 / 10 · ❌ FAIL
-
-- **Sections passed:** 2 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A rebranded Fantom with fast tech but little usage left, open-ended issuance, and a wallet matching the Sonic USA issuance that sent 118M S toward Binance. Arkham does not cover Sonic.
-- 📄 [Full S report](S.md)
-
----
-
-## #116 · ZIG · ZIGChain (Zignaly)
+## #115 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1670,7 +1663,7 @@ Score changes from that research:
 
 ---
 
-## #117 · STBL · STBL
+## #116 · STBL · STBL
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1681,7 +1674,7 @@ Score changes from that research:
 
 ---
 
-## #118 · SHARE · ShareX
+## #117 · SHARE · ShareX
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1692,7 +1685,7 @@ Score changes from that research:
 
 ---
 
-## #119 · AEON · AEON
+## #118 · AEON · AEON
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1703,7 +1696,7 @@ Score changes from that research:
 
 ---
 
-## #120 · YELLOW · Yellow Network
+## #119 · YELLOW · Yellow Network
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -1714,7 +1707,7 @@ Score changes from that research:
 
 ---
 
-## #121 · LUMIA · Lumia
+## #120 · LUMIA · Lumia
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -1725,7 +1718,7 @@ Score changes from that research:
 
 ---
 
-## #122 · RBNT · Redbelly Network
+## #121 · RBNT · Redbelly Network
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1736,7 +1729,7 @@ Score changes from that research:
 
 ---
 
-## #123 · KAVA · Kava
+## #122 · KAVA · Kava
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1747,7 +1740,7 @@ Score changes from that research:
 
 ---
 
-## #124 · ACH · Alchemy Pay
+## #123 · ACH · Alchemy Pay
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1758,7 +1751,7 @@ Score changes from that research:
 
 ---
 
-## #125 · XEP · Electra Protocol
+## #124 · XEP · Electra Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1769,7 +1762,7 @@ Score changes from that research:
 
 ---
 
-## #126 · EXA · Exactly Protocol
+## #125 · EXA · Exactly Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1780,7 +1773,7 @@ Score changes from that research:
 
 ---
 
-## #127 · HONEY · Hivemapper
+## #126 · HONEY · Hivemapper
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1791,7 +1784,7 @@ Score changes from that research:
 
 ---
 
-## #128 · CSPR · Casper Network
+## #127 · CSPR · Casper Network
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1802,7 +1795,7 @@ Score changes from that research:
 
 ---
 
-## #129 · IOST · IOST
+## #128 · IOST · IOST
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1813,7 +1806,7 @@ Score changes from that research:
 
 ---
 
-## #130 · POLYX · Polymesh
+## #129 · POLYX · Polymesh
 
 ### 3.0 / 10 · ❌ FAIL
 
@@ -1821,6 +1814,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue, Selling
 - **Verdict:** A well-engineered securities chain that almost nobody pays to use (~$120 of fees a year), ~10% yearly inflation, and foundation-side wallets that fed 187M POLYX into one exchange-style deposit address, 33M of it on pump days. Arkham does not cover Polymesh.
 - 📄 [Full POLYX report](POLYX.md)
+
+---
+
+## #130 · S · Sonic
+
+### 3.0 / 10 · ❌ FAIL
+
+- **Sections passed:** 2 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A rebranded Fantom with fast tech but little usage left, open-ended issuance, and a wallet matching the Sonic USA issuance that sent 118M S toward Binance. Arkham does not cover Sonic.
+- 📄 [Full S report](S.md)
 
 ---
 
@@ -1945,18 +1949,7 @@ Score changes from that research:
 
 ---
 
-## #142 · SPA · Sperax
-
-### 2.5 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A $3.75M token with about $12K a year in fees. A third of supply sits in Safes run by speraxfoundation.eth (Arkham), one of which paid 50M SPA into Coinbase, Gate and KuCoin deposits on a +51% pump day in May 2023; the treasury relay kept feeding exchange deposits in 2026, once on a pump day.
-- 📄 [Full SPA report](SPA.md)
-
----
-
-## #143 · SWCH · SwissCheese
+## #142 · SWCH · SwissCheese
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -1967,7 +1960,7 @@ Score changes from that research:
 
 ---
 
-## #144 · H · Humanity Protocol
+## #143 · H · Humanity Protocol
 
 ### 2.4 / 10 · ❌ FAIL
 
@@ -1975,6 +1968,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** A June 2026 key-theft exploit, a reissued token with unlimited admin mint and burn, and 78% of supply in six single-key wallets.
 - 📄 [Full H report](H.md)
+
+---
+
+## #144 · SPA · Sperax
+
+### 2.2 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A $3.75M token with about $12K a year in fees. A third of supply sits in Safes run by speraxfoundation.eth (Arkham), one of which paid 50M SPA into Coinbase, Gate and KuCoin deposits on a +51% pump day in May 2023; the treasury relay kept feeding exchange deposits in 2026, once on a pump day.
+- 📄 [Full SPA report](SPA.md)
 
 ---
 

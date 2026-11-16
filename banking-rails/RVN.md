@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no beyond the fixed PoW schedule: 1,250 RVN a block since 15 Jan 2026, 21B cap"
   team_wallet_to_exchange_during_pump: "not applicable: fair launch 3 Jan 2018, no premine, ICO or team allocation"
   entity_concentration: "none (no team or treasury wallets)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Asset-creation fees are burned automatically on-chain, but the amount is negligible and transaction fees go to miners; Revenue stays 1."
+pump_day_price_source: "not applicable (no insider wallets)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.001076
 price_source: "CoinGecko, 16 Nov 2026 ~9:15 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - Proof-of-work with no protocol treasury. Asset-creation fees are burned, and transaction fees go to miners. Nothing accrues to holders. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Asset-creation fees are burned automatically on-chain, but the amount is negligible and transaction fees go to miners; Revenue stays 1.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 - Volunteer open-source developers with no company. Development funding is ad hoc.
@@ -88,6 +98,8 @@ layout_version: 3
 ## 📉 Selling behavior — Do insiders sell into pumps? · 7/10 · ✅ PASS
 
 - With no team, foundation or treasury wallets, the insider pump-day test doesn't apply. This follows the BCH, XMR and ETC reports. Ongoing sell pressure is normal miner selling (~1.8M RVN/day).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from not applicable (no insider wallets).
 
 ## 📊 Tokenomics & supply · 8/10 · ✅ PASS
 
@@ -126,8 +138,17 @@ layout_version: 3
 | Live mint path | 🟢 Fixed PoW schedule only |
 | Entity concentration | 🟢 None |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| No team, foundation or treasury wallets | — | — | high | n/a | None |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] CoinGecko `ravencoin` (market, venues); pump days from Binance RVNUSDT daily closes
 - [Tier B] [CoinDesk week-ahead, 8 Jan 2026](https://www.coindesk.com/markets/2026/01/08/u-s-inflation-report-bnb-smart-chain-s-hard-fork-crypto-week-ahead) and [NiceHash countdown](https://www.nicehash.com/countdown/rvn-halving-2026-01-11-12-00) (halving at block 4,200,000, 2,500 → 1,250)
 - [Tier A] [Ravencoin emergency update, 30 Jun 2020](https://blog.ravencoin.email/post/ravencoin-emergency-update), [fix PR #794](https://github.com/RavenProject/Ravencoin/pull/794); [Tier B] [CoinDesk, 3 Jul 2020](https://www.coindesk.com/markets/2020/07/03/bad-ravencoin-code-allows-attackers-to-generate-coins-without-mining), [explorer team write-up](https://medium.com/@cryproscope/the-anatomy-of-ravencoin-exploit-finding-8fa4fe7547a9) (301,804,400 RVN)

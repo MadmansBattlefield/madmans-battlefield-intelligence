@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "ongoing PoW mining emissions (no hard cap), partly offset by SOAP buy-and-burn"
   team_wallet_to_exchange_during_pump: "not proven: genesis-funded wallets and the SOAP burn wallet sent QUAI to an unlabelled high-volume wallet (0x004b…1Db93), including on 16 Jul, 9 Sep and 23 Sep 2026 pump days; whose wallet it is is unknown"
   future_unlocks_cut: "yes, Singularity fork removed 1.667B future genesis unlocks; Polaris (early Nov 2026) forgoes 236.5M more founder unlocks"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "100% of SOAP flow buys and burns QUAI on-chain and the burns match, so value reaches holders; the money is a subsidy from other chains' miners and fell ~86% this year. Revenue stays 5."
+pump_day_price_source: "the report's own Quaiscan daily-close series"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.00632515
 price_source: "CoinGecko, 16 Nov 2026 5:55 AM MST"
 last_updated: 2026-11-16
@@ -83,6 +91,8 @@ layout_version: 3
 
 **What it means:** Holders do get value: 100% of SOAP flow buys and burns QUAI, and on-chain burns match. But the money is a subsidy from other chains' miners, not user fees, and it fell about 86% from January to October. Score **5**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** 100% of SOAP flow buys and burns QUAI on-chain and the burns match, so value reaches holders; the money is a subsidy from other chains' miners and fell ~86% this year. Revenue stays 5.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -116,6 +126,8 @@ layout_version: 3
 - Pump-day amounts are small: ≈ 8M QUAI (≈ $90K at those days' prices).
 
 **What it means:** No labelled team wallet was seen selling, and the team cut its own unlocks. But genesis wallets and the burn feeder route coins to an unlabelled hot-wallet-like address, sometimes on pump days, and nobody can check who it is. "Not proven" counts as a fail: **4**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from the report's own Quaiscan daily-close series.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -165,8 +177,17 @@ layout_version: 3
 | Live mint path | 🟡 PoW emissions, no hard cap |
 | Unlock cuts | 🟢 −1.67B (Singularity) and −236.5M (Polaris) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Unlabelled hot-wallet-like address | Unknown | Quaiscan | low | no | None: cannot move Selling; stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Quaiscan (Blockscout) v2 API: `/stats`, `/addresses` top list, `/addresses/{a}/transactions` for the burn address, `0x0051…`, `0x0050…7e89`, `0x007E…`, `0x0053…`, `0x004b…`; read 16 Nov 2026 ~5:45–6:00 AM MST
 - [Tier A] [supply.qu.ai FAQ](https://supply.qu.ai/dashboard/faq) and [Quai docs: emissions](https://docs.qu.ai/learn/tokenomics/quai-emissions) (issuer)
 - [Tier A] DefiLlama fees API (`quai`), 16 Nov 2026

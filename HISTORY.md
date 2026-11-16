@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:24 MST
+generated_at: 2026-11-16 14:26 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -85,19 +85,19 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [NIGHT](banking-rails/NIGHT.md) | 1 | 3.8 | 3.8 | 1 | 4 | 1 |
 | [NUVA](banking-rails/NUVA.md) | 1 | 3.5 | 3.5 | 1 | 4 | 4 |
 | [OM](banking-rails/OM.md) | 1 | 3.4 | 3.4 | 2 | 4 | 4 |
-| [ONDO](banking-rails/ONDO.md) | 2 | 4.9 | 4.7 | 3 | 5 → 4 | 3 |
+| [ONDO](banking-rails/ONDO.md) | 3 | 4.9 | 4.3 | 3 | 5 → 1 | 3 |
 | [ORAI](banking-rails/ORAI.md) | 1 | 3.0 | 3.0 | 1 | 4 | 4 |
 | [ORBITER](banking-rails/ORBITER.md) | 1 | 3.8 | 3.8 | 3 | 4 | 3 |
-| [PACT](banking-rails/PACT.md) | 1 | 3.1 | 3.1 | 3 | 1 | 2 |
+| [PACT](banking-rails/PACT.md) | 2 | 3.1 | 2.9 | 3 | 1 → 0 | 2 |
 | [PALMUSD](banking-rails/PALMUSD.md) | 1 | 2.6 | 2.6 | 1 | 5 | 2 |
-| [PHA](banking-rails/PHA.md) | 1 | 3.9 | 3.9 | 2 | 1 | 4 |
+| [PHA](banking-rails/PHA.md) | 2 | 3.9 | 3.8 | 2 | 1 → 0 | 4 |
 | [PLUME](banking-rails/PLUME.md) | 2 | 3.5 | 3.7 | 1 | 3 → 4 | 2 |
-| [POLYX](banking-rails/POLYX.md) | 1 | 3.3 | 3.3 | 1 | 2 | 3 |
+| [POLYX](banking-rails/POLYX.md) | 2 | 3.3 | 3.0 | 1 | 2 → 0 | 3 |
 | [PRO](banking-rails/PRO.md) | 1 | 4.3 | 4.3 | 2 | 4 | 4 |
 | [PROPC](banking-rails/PROPC.md) | 1 | 3.6 | 3.6 | 3 | 4 | 3 |
 | [PUNDIX](banking-rails/PUNDIX.md) | 1 | 3.4 | 3.4 | 2 | 4 | 4 |
 | [QANX](banking-rails/QANX.md) | 1 | 3.6 | 3.6 | 1 | 4 | 4 |
-| [QNT](banking-rails/QNT.md) | 1 | 4.6 | 4.6 | 4 | 3 | 3 |
+| [QNT](banking-rails/QNT.md) | 2 | 4.6 | 4.3 | 4 | 3 → 1 | 3 |
 | [QUAI](banking-rails/QUAI.md) | 1 | 4.9 | 4.9 | 5 | 4 | 6 |
 | [RBNT](banking-rails/RBNT.md) | 2 | 3.5 | 3.1 | 2 | 4 → 1 | 2 |
 | [REALIZ](banking-rails/REALIZ.md) | 1 | 2.1 | 2.1 | 1 | 4 | 1 |
@@ -280,30 +280,43 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **JST** — 5.5 FAIL in `78f06b6` (2026-11-16 06:22 MST).
 - **KAIA** — 3.9 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
 - **KAIO** — 3.6 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
-- **KAVA** — 3.1 FAIL in `714aff3` (2026-11-16 08:59 MST).
+- **KAVA** — 3.1 FAIL in `03adc39` (2026-11-16 14:24 MST).
 - **LINK** — 6.9 PASS in `6723e4d` (2026-11-16 14:02 MST).
 - **LUMIA** — 3.2 FAIL in `91b6ac1` (2026-11-16 12:34 MST).
-- **MASQ** — 2.7 FAIL in `5c5b66f` (2026-11-16 08:19 MST).
-- **MBG** — 3.9 FAIL in `7524e33` (2026-11-16 09:33 MST).
+- **MASQ** — 2.7 FAIL in `03adc39` (2026-11-16 14:24 MST).
+- **MBG** — 3.9 FAIL in `03adc39` (2026-11-16 14:24 MST).
 - **MINA** — 4.0 FAIL in `aa945b1` (2026-11-16 12:24 MST).
-- **MNT** — 4.5 FAIL in `6fa4721` (2026-11-15 18:37 MST).
-- **MOCA** — 3.7 FAIL in `7524e33` (2026-11-16 09:33 MST).
+- **MNT** — 4.5 FAIL in `03adc39` (2026-11-16 14:24 MST).
+- **MOCA** — 3.7 FAIL in `03adc39` (2026-11-16 14:24 MST).
 - **NEXA** — 3.8 FAIL in `3539092` (2026-11-16 12:36 MST).
-- **NIGHT** — 3.8 FAIL in `16d387f` (2026-11-16 08:50 MST).
+- **NIGHT** — 3.8 FAIL in `03adc39` (2026-11-16 14:24 MST).
 - **NUVA** — 3.5 FAIL in `f161485` (2026-11-16 13:54 MST).
-- **OM** — 3.4 FAIL in `8606bea` (2026-11-16 09:12 MST).
+- **OM** — 3.4 FAIL in `03adc39` (2026-11-16 14:24 MST).
 ### ONDO
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
 |---|---|---:|---|---:|---:|---:|---|
 | `c5e10a5` | 2026-11-15 06:07 MST | 4.9 | FAIL | 3 | 5 | 3 | revenue |
 | `6fa4721` | 2026-11-15 18:37 MST | 4.7 | FAIL | 3 | 4 | 3 | revenue |
+| `03adc39` | 2026-11-16 14:24 MST | 4.3 | FAIL | 3 | 1 | 3 | revenue, selling_behavior |
 
 - **ORAI** — 3.0 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
 - **ORBITER** — 3.8 FAIL in `73d9a3c` (2026-11-16 13:58 MST).
-- **PACT** — 3.1 FAIL in `78f06b6` (2026-11-16 06:22 MST).
+### PACT
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `78f06b6` | 2026-11-16 06:22 MST | 3.1 | FAIL | 3 | 1 | 2 | revenue, selling_behavior |
+| `03adc39` | 2026-11-16 14:24 MST | 2.9 | FAIL | 3 | 0 | 2 | revenue, selling_behavior |
+
 - **PALMUSD** — 2.6 FAIL in `f161485` (2026-11-16 13:54 MST).
-- **PHA** — 3.9 FAIL in `16d387f` (2026-11-16 08:50 MST).
+### PHA
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `16d387f` | 2026-11-16 08:50 MST | 3.9 | FAIL | 2 | 1 | 4 | revenue, selling_behavior |
+| `03adc39` | 2026-11-16 14:24 MST | 3.8 | FAIL | 2 | 0 | 4 | revenue, selling_behavior |
+
 ### PLUME
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -311,12 +324,24 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `c5e10a5` | 2026-11-15 06:07 MST | 3.5 | FAIL | 1 | 3 | 2 | revenue, selling_behavior |
 | `a8496ab` | 2026-11-16 14:06 MST | 3.7 | FAIL | 1 | 4 | 2 | revenue |
 
-- **POLYX** — 3.3 FAIL in `a664692` (2026-11-16 06:58 MST).
+### POLYX
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `a664692` | 2026-11-16 06:58 MST | 3.3 | FAIL | 1 | 2 | 3 | revenue, selling_behavior |
+| `03adc39` | 2026-11-16 14:24 MST | 3.0 | FAIL | 1 | 0 | 3 | revenue, selling_behavior |
+
 - **PRO** — 4.3 FAIL in `5420ac2` (2026-11-16 12:27 MST).
-- **PROPC** — 3.6 FAIL in `8e903fc` (2026-11-16 08:31 MST).
-- **PUNDIX** — 3.4 FAIL in `fc426d1` (2026-11-16 09:35 MST).
+- **PROPC** — 3.6 FAIL in `03adc39` (2026-11-16 14:24 MST).
+- **PUNDIX** — 3.4 FAIL in `03adc39` (2026-11-16 14:24 MST).
 - **QANX** — 3.6 FAIL in `3539092` (2026-11-16 12:36 MST).
-- **QNT** — 4.6 FAIL in `c1ac11a` (2026-11-16 04:55 MST).
+### QNT
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `c1ac11a` | 2026-11-16 04:55 MST | 4.6 | FAIL | 4 | 3 | 3 | selling_behavior |
+| `03adc39` | 2026-11-16 14:24 MST | 4.3 | FAIL | 4 | 1 | 3 | selling_behavior |
+
 - **QUAI** — 4.9 FAIL in `78f06b6` (2026-11-16 06:22 MST).
 ### RBNT
 

@@ -43,7 +43,16 @@
   },
   "price_usd": 0.1081,
   "price_source": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Oracle income goes to the company; DefiLlama lists $61.8 of fees in a year.",
+    "pump_day_price_source": "Gate RED_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.1081,
     "market_cap_text": "$62.5M",
@@ -54,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/RED.md",
-    "sha256": "c12070dc466110068a738708da03f4e6857e508ebc81e11cccaab1d02590997d",
-    "bytes": 12293,
-    "extracted_at": "2026-11-16 14:24 MST",
+    "sha256": "90c46088d0589ee12cdbf10927112f35a7da296659025a6f7cecc186ed275fd1",
+    "bytes": 13948,
+    "extracted_at": "2026-11-16 14:26 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -155,12 +164,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": "Binance REDUSDT daily closes",
+    "price_source": "Gate RED_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -170,12 +179,12 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
-    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama lists $61.8 of fees over the last year. Oracle service income goes to the company, not to RED holders, and no figures are published. **2 → hard-gate FAIL.**"
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama lists $61.8 of fees over the last year. Oracle service income goes to the company, not to RED holders, and no figures are published. **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules): No.** Oracle income goes to the company; DefiLlama lists $61.8 of fees in a year."
   },
   "attributions": [
     {
@@ -287,6 +296,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan token, contract source names, Safe threshold and transactions; receipts checked 16 Nov 2026",

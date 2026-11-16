@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no; 10B cap fixed, staking rewards paid from a pre-funded common pool (497.6M ROSE left)"
   team_wallet_to_exchange_during_pump: "none found at 2 hops; suspected foundation wallets sent 108M ROSE on pump day 4 Sep 2026 to a non-exchange holder; attribution is community-sourced [Unverified]"
   unlock_overhang: "896M ROSE still scheduled for Foundation, Community and Strategic buckets through Nov 2030 (≈56M per quarter, ≈ $258K at today's price)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No measurable revenue and no holder mechanism; staking rewards come from a pre-funded pool."
+pump_day_price_source: "Gate ROSE_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (44 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.00461242
 price_source: "CoinGecko, 16 Nov 2026 ~5:08 AM MST"
 last_updated: 2026-11-16
@@ -82,6 +90,8 @@ layout_version: 3
 
 **What it means:** There is no measurable revenue and no mechanism that returns value to holders. That is **1**, which **trips the Revenue gate**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No measurable revenue and no holder mechanism; staking rewards come from a pre-funded pool.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 - The **Oasis Foundation** runs the network and its grants. The protocol came out of Oasis Labs (academic founders, public team). The project raised **"over $45 million from backers" between 2018 and 2020** [Tier A docs].
@@ -118,6 +128,8 @@ layout_version: 3
 - Today, 16 Nov 2026 (01:09 UTC), the largest holder `oasis1qpg2…h70p` (1,655.2M) moved [1.0B ROSE](https://explorer.oasis.io/mainnet/consensus/tx/f890a1c34d92dc7f27aa2f2ea78fed40f07d14610636ba0a03edc75b0a8d6f8c) to a new account. It swaps lots of 15–60M with Binance's hot wallet `oasis1qzwf…urdgu` (nonce 174,897), so this looks like exchange custody, not a team move [Tier A pattern + Tier B tag].
 
 **What it means:** No sale into a pump by a foundation wallet was found at 2 hops. But the Foundation's wallets aren't disclosed, and large pump-day moves were found whose purpose is unknown. That is **5**: not a gate fail, not proven clean.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate ROSE_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (44 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -163,8 +175,17 @@ layout_version: 3
 | Unlock overhang vs liquidity | 🟡 896M left, ≈56M (≈ $258K) per quarter, against $1.39M a day of volume |
 | Revenue | 🔴 None tracked |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Suspected foundation wallets (108M on a pump day) | Not confirmed | Chain trace only | low | no | None: cannot move Selling; stays 5 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Oasis Nexus API (`/consensus/accounts`, `/consensus/accounts/{addr}`, `/consensus/events?type=staking.transfer`), 16 Nov 2026 MST
 - [Tier A] [Oasis docs: token metrics and distribution](https://docs.oasis.io/general/oasis-network/token-metrics-and-distribution/), with release-schedule and reward-schedule CSVs
 - [Tier A] DefiLlama fees API and chain TVL; CoinGecko `oasis-network` market data, tickers and 365-day closes

@@ -43,7 +43,16 @@
   },
   "price_usd": 0.02017,
   "price_source": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Collateral yield goes to minters through YLD, not to STBL holders.",
+    "pump_day_price_source": "the daily closes cited in the body",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.02017,
     "market_cap_text": "$10.1M",
@@ -54,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/STBL.md",
-    "sha256": "388a3dea263f0cc86161ebd69b46a07d8b45cccf3167b2c7e2a6682d66c90076",
-    "bytes": 11986,
-    "extracted_at": "2026-11-16 14:24 MST",
+    "sha256": "a3dc66d610de9a31f1553535484a74b76746b9115ae7c0799233b31586db1d35",
+    "bytes": 13299,
+    "extracted_at": "2026-11-16 14:26 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -154,12 +163,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "the daily closes cited in the body",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -169,12 +178,12 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
-    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama has no protocol or fee record for STBL. Yield from the collateral goes to minters through YLD, not to STBL holders ([site](https://www.stbl.com/)). **2 → hard-gate FAIL.**"
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama has no protocol or fee record for STBL. Yield from the collateral goes to minters through YLD, not to STBL holders ([site](https://www.stbl.com/)). **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules): No.** Collateral yield goes to minters through YLD, not to STBL holders."
   },
   "attributions": [
     {
@@ -329,6 +338,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] [STBL tokenomics](https://www.stbl.com/tokenomics), [STBL site](https://www.stbl.com/)",

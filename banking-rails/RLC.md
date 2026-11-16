@@ -3,13 +3,13 @@ ticker: RLC
 name: iExec RLC
 chain: ethereum
 contract: "0x607f4c5bb672230e8672085532f7e901544a7375"
-overall_score: 4.3
+overall_score: 4.0
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 5
   insider_holdings: 5
-  selling_behavior: 3
+  selling_behavior: 1
   tokenomics_supply: 8
   liquidity_market: 4
   product_development: 6
@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: fixed 87M supply, no mint function"
   team_wallet_to_exchange_during_pump: "yes: a 2-signature Safe funded by the Arkham-labelled iExec Team wallet sent 651,000 RLC to a Binance deposit address on 9-10 Oct 2026, during a +183.9% pump; no disclosure found"
   entity_concentration: "two Safes hold 18.25M RLC (21.0%); not on the project's published address list"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Task payments go to providers, not the protocol; no revenue-funded buyback has executed."
+pump_day_price_source: "Gate RLC_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.3376
 price_source: "CoinGecko, 16 Nov 2026 ~9:00 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### RLC · Overall grade **4.3 / 10 · ❌ FAIL**
+### RLC · Overall grade **4.0 / 10 · ❌ FAIL**
 
 **Summary:** iExec has run a confidential-computing (TEE) marketplace since 2017. RLC pays for tasks and is staked as collateral. Supply is fixed at 87M with nothing left to unlock, which is the token's strength. The protocol publishes no fees or revenue, and its buyback "from protocol revenue" is still a plan tied to a new product that was on testnet, so the revenue gate fails. The selling gate also fails: during the unexplained **+184% spike of 9 Oct 2026**, a Safe linked to the project's original distribution wallets deposited RLC to Binance.
 
@@ -44,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 5/10 | ❌ FAIL |
-| 📉 Selling behavior | 3/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 8/10 | ✅ PASS |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -58,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 RLC · iExec RLC · 4.3 / 10 · ❌ FAIL
+# 🪪 RLC · iExec RLC · 4.0 / 10 · ❌ FAIL
 
 > **One line:** Clean fixed supply, but no revenue, and a project-linked Safe selling into an unexplained spike.
 
@@ -77,6 +85,8 @@ layout_version: 3
 
 - Task payments go to app, data and worker providers, not to the protocol ([RLC docs](https://docs.iex.ec/get-started/overview/rlc)). DefiLlama has no fee record. Buybacks funded from revenue are proposed for the new confidential-DeFi product but not live. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Task payments go to providers, not the protocol; no revenue-funded buyback has executed.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - A company-led project since 2017 that describes itself as self-funded, with no VC rounds (docs). Leaders are described by role only. Treasury addresses are not all published.
@@ -90,7 +100,7 @@ layout_version: 3
 
 - Both are 2-signature Safes. 0xc0e3 was first funded in Jun 2025, and 0xa59b in Sep 2025. They are not on the project's important-addresses page, and Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) labels both only as Gnosis Safes. But [0xc0e3](https://intel.arkm.com/explorer/address/0xc0e364408bcb86dad77dfa0db043c536d9b50afb) was **funded by the Arkham-labelled iExec Team wallet** (2.799M, 2M and 2M RLC), and [0xa59b](https://intel.arkm.com/explorer/address/0xa59b56a167138ab567b44bb0f438c4c1f9748d10) shares a funder (`0x24f6…5d48`) with it. 0xc0e3 also received RLC from Keyrock, a market maker, and from a wallet Arkham labels with an individual's name (not given here). Which signers control the Safes is still [Unverified].
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 3/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 | Date | From | To | RLC | Close | ≈ USD | Pump? | Tx |
 |---|---|---|---:|---:|---:|---|---|
@@ -100,6 +110,8 @@ layout_version: 3
 | 10 Oct 2026 | 0xc0e3 | Binance Deposit 0x4035 | 500,000 | $0.9624 | $481k | **Yes, +32.3%** | [0xd919…](https://etherscan.io/tx/0xd9194f6de2860fde0fa01c8cb4212d2277981d133bfa55bdf76aa9137a7fb559) |
 
 - The deposit addresses carry Binance labels on Etherscan and Arkham, and forwarded straight to Binance's hot wallet. The 4 Aug 2026 deposit from 0xa59b was not on a pump day (Gate close −10.8% vs five days earlier; tx status 1 at 13:47 UTC). All linked transactions returned status 1 (success). No RLC came back to either Safe after the Oct 2026 deposits (checked 16 Nov 2026). I found no disclosure of them.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. The Safe's signers are still unconfirmed (open item 1), but the funding from the team wallet is on-chain. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **3 → 1**. 9 and 10 Oct 2026 are pump days on Gate prices. Pump days from Gate RLC_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 8/10 · ✅ PASS
 
@@ -138,8 +150,17 @@ layout_version: 3
 | Live mint path | 🟢 None |
 | Entity concentration | 🟠 21% in two unpublished Safes |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Safe `0xc0e3…` (2 signers) | Funded by the iExec Team wallet (Arkham entity label + on-chain funding) | Etherscan + Arkham | medium | yes (on-chain funding) | Selling: 651,000 RLC to a Binance deposit on 9–10 Oct 2026 during a +183.9% run |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan token, Safe and transaction pages, with Binance deposit labels. Receipts were checked through the Etherscan API on 16 Nov 2026
 - [Tier A] [RLC docs](https://docs.iex.ec/get-started/overview/rlc); buyback program announced Mar 2025 (40% development / 30% treasury / 30% liquidity) [Unverified: single source]
 - [Tier A] CoinGecko `iexec-rlc`; pump days from Binance RLCUSDT daily closes

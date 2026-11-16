@@ -4,13 +4,13 @@
   "name": "Sperax",
   "chain": "arbitrum (main) · ethereum · bsc",
   "contract": "0x5575552988a3a80504bbaeb1311674fcfd40ad4b (Arbitrum)",
-  "overall_score": 2.5,
+  "overall_score": 2.2,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 1,
     "foundation_team": 4,
     "insider_holdings": 2,
-    "selling_behavior": 2,
+    "selling_behavior": 0,
     "tokenomics_supply": 3,
     "liquidity_market": 2,
     "product_development": 4,
@@ -31,7 +31,7 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 2,
+      "score": 0,
       "threshold": 3,
       "tripped": true
     }
@@ -44,7 +44,16 @@
   },
   "price_usd": 0.00196042,
   "price_source": "CoinGecko, 16 Nov 2026 ~5:08 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "A fee share reaches holders, but only about $3.7k a year; Revenue stays 1.",
+    "pump_day_price_source": "Gate SPA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.00196042,
     "market_cap_text": "$3.75M",
@@ -55,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SPA.md",
-    "sha256": "ef061cdfb2b0ef03d8f89c8e22511967d9719e9f084cf5a9ef29ec14d6afcfb6",
-    "bytes": 26388,
-    "extracted_at": "2026-11-16 14:24 MST",
+    "sha256": "12708089564124decfd96d5487cbeaab96251f4a2a87855269d8647d64deb29d",
+    "bytes": 28181,
+    "extracted_at": "2026-11-16 14:26 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -385,16 +394,16 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate SPA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
     "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": false,
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: YES: team Safe 0xe10b… (3-of-5; its funder and co-signer 0xc6e0 is speraxfoundation.eth per Arkham) sent 30M SPA to a Coinbase deposit, 10M to a Gate deposit and 10M to a KuCoin deposit (Arkham) on 2 May 2023, a +51.4% 5-day pump day; also the treasury relay 0x9597 sent 9M to the same KuCoin deposit on the 26 Aug 2026 pump day (+11.2%)"
     ]
@@ -603,6 +612,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan v2 API, Arbitrum (chain 42161): `tokentx` for the four Safes, `0xd7f7…`, `0x2b00…`, `0x9597…`; `getsourcecode`, `eth_getCode`, `tokensupply`; `eth_call` `getOwners()` / `getThreshold()`, 16 Nov 2026 MST",

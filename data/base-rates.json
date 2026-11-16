@@ -1,7 +1,7 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:24 MST",
+  "generated_at": "2026-11-16 14:26 MST",
   "universe": 148,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
@@ -147,8 +147,8 @@
     ]
   },
   "fail_selling_gate": {
-    "count": 35,
-    "share": 0.2365,
+    "count": 36,
+    "share": 0.2432,
     "tickers": [
       "ACH",
       "API3",
@@ -173,6 +173,7 @@
       "S",
       "SERV",
       "SHPING",
+      "SOLV",
       "SPA",
       "SUI",
       "TLOS",
@@ -267,10 +268,9 @@
     ]
   },
   "pump_day_sale_unclear": {
-    "count": 3,
-    "share": 0.0203,
+    "count": 2,
+    "share": 0.0135,
     "tickers": [
-      "RVN",
       "XMR",
       "XVG"
     ]
@@ -462,8 +462,8 @@
     ]
   },
   "revenue_reaches_holders_yes": {
-    "count": 19,
-    "share": 0.1284,
+    "count": 21,
+    "share": 0.1419,
     "tickers": [
       "AERO",
       "APT",
@@ -478,7 +478,9 @@
       "INV",
       "LINK",
       "QUAI",
+      "REUSD",
       "RLS",
+      "RVN",
       "SKY",
       "SOL",
       "SPA",
@@ -487,8 +489,8 @@
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 95,
-    "share": 0.6419,
+    "count": 103,
+    "share": 0.6959,
     "tickers": [
       "ACH",
       "ADA",
@@ -562,16 +564,24 @@
       "QNT",
       "RBNT",
       "REALIZ",
+      "RED",
+      "REQ",
       "RIO",
       "RISE",
+      "RLC",
       "ROSE",
       "ROUTER",
+      "S",
       "SCRT",
+      "SEI",
       "SERV",
+      "SHARE",
       "SHPING",
+      "SHX",
       "SIBERIUM",
       "SKEY",
       "SOLV",
+      "STBL",
       "SUPRA",
       "SWFTC",
       "SYRUP",
@@ -588,20 +598,10 @@
     ]
   },
   "revenue_reaches_holders_unclear": {
-    "count": 34,
-    "share": 0.2297,
+    "count": 24,
+    "share": 0.1622,
     "tickers": [
       "JST",
-      "RED",
-      "REQ",
-      "REUSD",
-      "RLC",
-      "RVN",
-      "S",
-      "SEI",
-      "SHARE",
-      "SHX",
-      "STBL",
       "SUI",
       "SWCH",
       "TAO",

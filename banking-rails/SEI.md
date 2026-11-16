@@ -22,6 +22,14 @@ red_lines:
   hack_exploit: none
   foundation_wallets_unpublished: tripped
   fees_under_100k_per_year: tripped
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "About $61k of fees in a year; no burn, buyback or fee share of size."
+pump_day_price_source: "Gate SEI_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (32 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.03923
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_height: 243333375
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** Effectively no fee income: ~$61k in a year on a $264M market cap. (DefiLlama may undercount some activity, but nothing primary shows a materially higher number.)
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** About $61k of fees in a year; no burn, buyback or fee share of size.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -131,6 +141,8 @@ Source: [Tier A] Sei tokenomics blog · [Tier B] Blockworks disclosures + Tokeno
 
 **What it means:** No direct evidence of insider selling into pumps, but there's no way to check it, and unlocks keep landing. Not proven → fail.
 
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate SEI_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (32 of 360 days); the body's earlier count used CoinGecko daily closes.
+
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
 - 10B planned supply; staking-reward mint continues to 2033 (165M this year, then 135M, 120M, 112.5M ×2, 75M ×2) [Tier A].
@@ -172,8 +184,17 @@ Source: [Tier A] Sei tokenomics blog · [Tier B] Blockworks disclosures + Tokeno
 | Foundation wallets unpublished | 🟡 Tripped ([Arkham: no foundation entity](https://intel.arkm.com/explorer/entity/sei)) |
 | Fees under $100k per year | 🔴 Tripped ($61.5k; [DefiLlama](https://defillama.com/chain/sei)) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Sei Foundation wallets | Not published | — | low | no | Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Sei REST (`rest.sei-apis.com`): [bank supply](https://rest.sei-apis.com/cosmos/bank/v1beta1/supply), [staking pool](https://rest.sei-apis.com/cosmos/staking/v1beta1/pool), [community pool](https://rest.sei-apis.com/cosmos/distribution/v1beta1/community_pool), validators, [`seichain/mint` params](https://rest.sei-apis.com/seichain/mint/v1beta1/params); 14 Nov 2026 ~12:27 PM MST
 - [Tier A] [DefiLlama fees `sei`](https://defillama.com/chain/sei), 14 Nov 2026
 - [Tier A] [CoinGecko `sei-network`](https://www.coingecko.com/en/coins/sei-network) price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
@@ -193,6 +214,12 @@ Source: [Tier A] Sei tokenomics blog · [Tier B] Blockworks disclosures + Tokeno
 | Foundation/team wallets not published; Arkham has no Sei Foundation or Sei Labs entity | [Arkham “Sei” entity (2 deployer addresses, $673)](https://intel.arkm.com/explorer/entity/sei) | B | 15 Nov 2026 ~11:05 AM MST |
 | On-chain supply 9.247B SEI; ~753M still to mint to Aug 2033 | [bank supply](https://rest.sei-apis.com/cosmos/bank/v1beta1/supply) · [mint params](https://rest.sei-apis.com/seichain/mint/v1beta1/params) | A | 14 Nov 2026 |
 | Community pool 0.51 SEI | [community pool](https://rest.sei-apis.com/cosmos/distribution/v1beta1/community_pool) | A | 14 Nov 2026 |
+
+## 🔎 Open items and how to close them
+
+| # | Open item | Exactly how to close it | Cost / access |
+|---|---|---|---|
+| 1 | **Sei Foundation and unlock wallets.** Not published, so pump-day selling cannot be tested | Ask Sei to publish its foundation and unlock wallets, or trace unlock recipients on Seitrace against the Gate pump-day list | Free |
 
 ---
 
