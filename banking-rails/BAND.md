@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes, by design (BandChain mints 7-20%/yr to stakers; 13.0% today); the Ethereum ERC20 is fixed at 100M"
   team_wallet_to_exchange_during_pump: "none found on Ethereum (Band's Locked Swap sent 12M ERC20 BAND to a Binance deposit in 2023-2025 and the Main MultiSig funded 1.64M of exchange deposits in Aug 2025, all on non-pump days); BandChain-native wallets not tested"
   treasury_in_single_key_wallets: "no (the 60.75M BAND Main MultiSig is a 1-of-1 wallet whose only owner is a 2-of-4 Safe)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No revenue figure can be checked; staking yield is paid by inflation, not fees."
+pump_day_price_source: "Gate BAND_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (26 of 360 days); the body's earlier count used Gate BAND/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.144693
 price_source: "CoinGecko, 16 Nov 2026 7:13 AM MST"
 last_updated: 2026-11-16
@@ -83,6 +91,8 @@ layout_version: 3
 
 **What it means:** No revenue figure can be checked, and the yield is paid by diluting non-stakers. **2, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No revenue figure can be checked; staking yield is paid by inflation, not fees.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -120,6 +130,8 @@ layout_version: 3
 - **Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)):** [`0x1cb1…`](https://intel.arkm.com/explorer/address/0x1cb16110453c42c95aa89b1878a6cfb92f8a06f1) is an unlabelled **Gnosis Safe** (a multisig, not an EOA). Its top BAND counterparties are a Binance deposit (1.64M), a Binance hot wallet (372.417K) and a KuCoin hot wallet (15.913K). Arkham names no market maker or controller. [`0xA9D1…`](https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43), which sent `0x1cb1…` 224.5k BAND on 21 Aug 2026, is a **Coinbase hot wallet**.
 
 **What it means:** No pump-day sale was found on Ethereum. But ~13.6M of Foundation-controlled ERC20 went to exchanges with no stated purpose, and BandChain-native wallets (where most supply lives) were not tested. Not proven clean, so **5**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate BAND_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (26 of 360 days); the body's earlier count used Gate BAND/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -167,8 +179,17 @@ layout_version: 3
 | Treasury in single-key wallets | 🟢 No (2-of-4 Safe controls the 60.75M) |
 | Unexplained Foundation flows to exchanges | 🟡 12M Locked Swap → [Binance](https://etherscan.io/address/0x6864b5fc7c8d19bda1a1d1ea0ee131cb7f245ea7); 1.64M Main MultiSig → [`0x1cb1…`](https://etherscan.io/tx/0xa74d26fd11cc8728ce0c65ce228a3e5789d58614a2ce01ffa2d28c9670bda36d) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation-controlled ERC20 sends to exchanges (~13.6M) | Band Foundation | Etherscan (Locked Swap) | high | yes (on-chain) | Selling: none on pump days; keeps the score at 5 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier B] Arkham, read 16 Nov 2026 (signed-in account): [`0x1cb1…`](https://intel.arkm.com/explorer/address/0x1cb16110453c42c95aa89b1878a6cfb92f8a06f1) (unlabelled Safe) · [Safe `0x7a6b…`](https://intel.arkm.com/explorer/address/0x7a6baf1c7d0940e4952186b3025b8e68aa87fa20) and its signers (unlabelled) · [Coinbase hot wallet](https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) · [Coinbase cold wallet](https://intel.arkm.com/explorer/address/0x4e9105a459f37990c62c113972b94049567bae0e) · [`0x7a59…`](https://intel.arkm.com/explorer/address/0x7a59600782cbb3be57340b820366a65505c78e65) (predicted Coinbase)
 - [Tier A] Etherscan v2 API `tokentx` for the Main MultiSig, Locked Swap, `0x1cb1…` and their hops; Ethereum RPC `getOwners()`, `required()`, `getThreshold()`, `eth_getCode`; read 16 Nov 2026 ~8:05–8:20 AM MST
 - [Tier A] BandChain LCD: supply, inflation, mint params, staking pool, governance proposals, 16 Nov 2026

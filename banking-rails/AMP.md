@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no open mint: new AMP only via the one-way Flexacoin (FXC) swap, which caps supply just under 100B"
   team_wallet_to_exchange_during_pump: "not tested (Flexa treasury wallets are not published); the one large exchange send found (200M, 30 Apr 2026) was a Gemini cold-to-hot wallet move, not a sale"
   treasury_in_single_key_wallets: "unknown (Flexa treasury wallets not published)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No revenue can be checked and nothing accrues to holders."
+pump_day_price_source: "Gate AMP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); the body's earlier count used Gate AMP/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.00053114
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
 last_updated: 2026-11-16
@@ -82,6 +90,8 @@ layout_version: 3
 
 **What it means:** No revenue can be checked. **2, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No revenue can be checked and nothing accrues to holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - Flexa (a private US company) built AMP with ConsenSys in 2020. It handed stewardship of the Amp ecosystem to the Acronym Foundation in 2023, and that team built Anvil, the collateral protocol under Capacity v3 [Tier B ×2: [Phemex Academy](https://phemex.com/academy/what-is-amp-flexas-payment-collateral-token), [Tapbit](https://www.tapbit.com/en/learn/article/amp-collateral-anvil-value-capture-20261103)].
@@ -106,6 +116,8 @@ layout_version: 3
 
 - **Correction ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)):** the only large exchange send found was not "unattributed". Arkham labels the sender a Gemini cold wallet and the receiver a Gemini hot wallet, so it was Gemini moving its own custody, not a sale. The 3.9–12.1B holders are Coinbase, Revolut and Gemini custody wallets, so none of them is a team wallet either.
 - Flexa's treasury wallets are not published, so **no team wallets were pump-tested**. Flexa says it has funded itself "almost exclusively through private sales of Amp to accredited investors" [Tier B quote, unverified].
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate AMP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); the body's earlier count used Gate AMP/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 7/10 · ✅ PASS
 
@@ -148,8 +160,18 @@ layout_version: 3
 | Live mint path | 🟢 Only the FXC swap (~279.7M left) |
 | Treasury in single-key wallets | 🟡 Unknown |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Gemini cold → hot wallet moves | Gemini (exchange internal) | Etherscan labels | high | yes | None: exchange housekeeping, not an insider sale |
+| Flexa treasury wallets | Unpublished | — | low | no | Selling not tested; score 5 as published |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx` for the top unlabelled holders, read 16 Nov 2026 ~8:45 AM MST; Blockscout holders, counters and contract names
 - [Tier A] DefiLlama `flexa` protocol; CoinGecko `amp-token` (16 Nov 2026 8:34 AM MST); Gate AMP/USDT daily candles
 - [Tier B] [Phemex Academy](https://phemex.com/academy/what-is-amp-flexas-payment-collateral-token) · [Tapbit](https://www.tapbit.com/en/learn/article/amp-collateral-anvil-value-capture-20261103) · [r/AMPToken quote](https://www.reddit.com/r/AMPToken/comments/1suqdu6/this_quote_needs_to_be_shouted_from_the_top_of_a/)

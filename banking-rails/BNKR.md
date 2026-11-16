@@ -25,6 +25,14 @@ red_lines:
   monthly_revenue_below_250k: tripped
   buyback_safe_sells_bnkr: none_found_partial_scan
   hack_exploit: none_found
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Every Doppler launch trade pays a coded 0.2375% BNKR buyback fee, and BNKR is paid to stakers through BnkrStakingV3 ($190k in 30 days, executed on-chain). Revenue stays 6. Close call: the move from the buyback Safe into the staking stream is a Safe transaction, not a contract call."
+pump_day_price_source: "Gate BNKR_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (66 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.00023038
 price_source: "CoinGecko bankercoin-2, 15 Nov 2026 6:47 AM MST"
 chain_read_block: 57802826
@@ -95,6 +103,8 @@ layout_version: 3
 
 **What it means:** Bankr is a real fee business and some cash now reaches holders: about $190k in the last 30 days went to stakers, roughly 10% a year on today's market cap if it held. But revenue is volatile and falling hard (Feb $4.5M vs Oct $443k), and most revenue stays with the company.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Every Doppler launch trade pays a coded 0.2375% BNKR buyback fee, and BNKR is paid to stakers through BnkrStakingV3 ($190k in 30 days, executed on-chain). Revenue stays 6. Close call: the move from the buyback Safe into the staking stream is a Safe transaction, not a contract call.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -141,6 +151,8 @@ layout_version: 3
 | Exchange flows (Arkham, all time) | **Buyback Safe:** no exchange activity; only Uniswap v3 pool trades. **Treasury Safe:** tiny Coinbase/Binance flows (≈$47K deposited all-time, Coinbase $36K + Binance $11K; 33.75K USDC withdrawn from a Coinbase hot wallet ~1 day before the read). **`0x301f…` (4%):** no exchange activity | [Tier B] Arkham, read 15 Nov 2026 ~10:40 AM MST (one source) |
 
 **What it means:** No sign of insiders dumping into pumps. The known company wallet buys BNKR and sends it to stakers, and Arkham shows no exchange deposits from it or from the 4% holder. Arkham can't show which way each Uniswap trade went on each pump day, so the scan gap remains and this stays a provisional pass (score unchanged).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate BNKR_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (66 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 8/10 · ✅ PASS
 
@@ -220,8 +232,17 @@ layout_version: 3
 | Buyback Safe sells BNKR | 🟢 None found (partial scan) | Only outbound was to staking ([Basescan](https://basescan.org/address/0x042455f9990098e11592be1fbd72e6dc68419b13) · [Arkham: no exchange activity](https://intel.arkm.com/explorer/address/0x042455f9990098e11592be1fbd72e6dc68419b13)) |
 | Hack / exploit | 🟢 None found | |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Bankr buyback Safe | Bankr company wallet | Base logs (funds the staking stream) | high | yes (on-chain) | Holdings and Selling: buys BNKR, no exchange deposits found |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Base RPC (`base-rpc.publicnode.com`, `base.drpc.org`, `mainnet.base.org`): `totalSupply`, `balanceOf`, Safe `getOwners`/`getThreshold`, genesis logs at block 23,205,873, pump-day `eth_getLogs` for the buyback Safe; 15 Nov 2026
 - [Tier A] [Bankr docs llms-full.txt](https://docs.bankr.bot/llms-full.txt) (fees, staking, contracts)
 - [Tier A] DefiLlama `bankr` fees, revenue and holders revenue API, to 14 Nov 2026

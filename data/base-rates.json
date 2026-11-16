@@ -1,7 +1,7 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:06 MST",
+  "generated_at": "2026-11-16 14:20 MST",
   "universe": 148,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
@@ -218,12 +218,11 @@
     ]
   },
   "proven_pump_day_sale": {
-    "count": 42,
-    "share": 0.2838,
+    "count": 41,
+    "share": 0.277,
     "tickers": [
       "ACH",
       "ALGO",
-      "AMP",
       "API3",
       "CELO",
       "CFG",
@@ -266,12 +265,9 @@
     ]
   },
   "pump_day_sale_unclear": {
-    "count": 8,
-    "share": 0.0541,
+    "count": 5,
+    "share": 0.0338,
     "tickers": [
-      "BCH",
-      "BNKR",
-      "CARDS",
       "ETC",
       "KAVA",
       "RVN",
@@ -441,7 +437,7 @@
     "share": 0.1689,
     "tickers": [
       "ACH",
-      "CARDS",
+      "API3",
       "CFG",
       "COTI",
       "ENA",
@@ -468,11 +464,13 @@
     ]
   },
   "revenue_reaches_holders_yes": {
-    "count": 15,
-    "share": 0.1014,
+    "count": 17,
+    "share": 0.1149,
     "tickers": [
       "AERO",
+      "APT",
       "AVAX",
+      "AXL",
       "BNKR",
       "CC",
       "ETH",
@@ -489,15 +487,24 @@
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 57,
-    "share": 0.3851,
+    "count": 66,
+    "share": 0.4459,
     "tickers": [
       "ACH",
+      "ADA",
       "AEON",
+      "ALGO",
+      "AMP",
+      "API3",
       "ARB",
+      "ASTR",
+      "BAND",
+      "BCH",
       "BP",
       "BTC",
+      "BTT",
       "CARDS",
+      "CELO",
       "CELR",
       "CFG",
       "DIA",
@@ -552,20 +559,9 @@
     ]
   },
   "revenue_reaches_holders_unclear": {
-    "count": 76,
-    "share": 0.5135,
+    "count": 65,
+    "share": 0.4392,
     "tickers": [
-      "ADA",
-      "ALGO",
-      "AMP",
-      "API3",
-      "APT",
-      "ASTR",
-      "AXL",
-      "BAND",
-      "BCH",
-      "BTT",
-      "CELO",
       "CFX",
       "COTI",
       "CPOOL",

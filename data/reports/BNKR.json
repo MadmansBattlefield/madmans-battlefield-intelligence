@@ -45,6 +45,14 @@
     "other_contracts": {
       "robinhood_chain": "0x178e54df3d091ee4d0b2534742ef9e3692b76526"
     },
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "Every Doppler launch trade pays a coded 0.2375% BNKR buyback fee, and BNKR is paid to stakers through BnkrStakingV3 ($190k in 30 days, executed on-chain). Revenue stays 6. Close call: the move from the buyback Safe into the staking stream is a Safe transaction, not a contract call.",
+    "pump_day_price_source": "Gate BNKR_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (66 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [],
     "chain_read_block": 57802826
   },
   "key_numbers": {
@@ -55,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BNKR.md",
-    "sha256": "a9063a069df6e2dfdc48f4522959a03909a36b1445999d78bd4211feb9421504",
-    "bytes": 25322,
-    "extracted_at": "2026-11-16 14:06 MST",
+    "sha256": "063328d7a64d23a828d302dc4fd475a60f0ab25d21f5f6ddf9beb09afda69611",
+    "bytes": 27387,
+    "extracted_at": "2026-11-16 14:19 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -235,15 +243,15 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate BNKR_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (66 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "unclear",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": false,
-    "disclosure_quality": "unclear",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": []
   },
@@ -252,6 +260,7 @@
     "mechanisms": [
       "burn",
       "buyback",
+      "staking_yield_from_fees",
       "fee_share"
     ],
     "automatic_onchain": true,
@@ -265,13 +274,12 @@
       "url": "https://intel.arkm.com/explorer/address/0x042455f9990098e11592be1fbd72e6dc68419b13",
       "label": "a named individual",
       "source": "arkham",
-      "confidence": "high",
-      "independent_corroboration": true,
+      "confidence": "medium",
+      "independent_corroboration": false,
       "corroborating_sources": [
-        "arkham",
-        "official"
+        "arkham"
       ],
-      "label_kind": "official",
+      "label_kind": "unknown",
       "appears_in_selling_or_holdings": true
     },
     {
@@ -336,6 +344,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Base RPC (`base-rpc.publicnode.com`, `base.drpc.org`, `mainnet.base.org`): `totalSupply`, `balanceOf`, Safe `getOwners`/`getThreshold`, genesis logs at block 23,205,873, pump-day `eth_getLogs` for the buyback Safe; 15 Nov 2026",

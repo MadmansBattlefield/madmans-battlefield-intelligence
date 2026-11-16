@@ -23,6 +23,14 @@ red_lines:
   foundation_sells_on_pump_days: tripped_disclosed_program
   structured_selling_status: paused_onchain_since_2026-08-24_not_announced
   foundation_share_of_online_stake_over_15pct: tripped
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Staking rewards are paid from the Foundation treasury, not from fees; the planned revenue-funded buyback does not exist on-chain."
+pump_day_price_source: "Gate ALGO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (40 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: formal_announcement
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.080319
 price_source: "CoinGecko algorand, 15 Nov 2026 6:45 AM MST"
 chain_read_round: 66980074
@@ -91,6 +99,8 @@ layout_version: 3
 
 **What it means:** Algorand is cheap to use by design, so the network earns almost nothing. Stakers are paid by the Foundation spending down its treasury, not by users. The new CEO's stated plan is to sell paid services and use that revenue to buy ALGO ([Unverified], one Tier B report). Nothing like that exists on-chain yet.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Staking rewards are paid from the Foundation treasury, not from fees; the planned revenue-funded buyback does not exist on-chain.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -153,6 +163,8 @@ layout_version: 3
 - **Did the program end?** On-chain, nothing has left either selling wallet since **24 Aug 2026**, a week before the new CEO started. **No announcement that structured selling ended was found** in Foundation sources. Status: paused on-chain, end [Unverified].
 
 **What it means:** This is disclosed, rules-based selling, not a hidden dump, so it is not a hard-gate fail. But the Foundation was the steady seller for most of the year, including on some pump days, and Q3's ~41M ALGO of transfers is not yet covered by a report. 5/10.
+
+- **Disclosure quality (16 Nov 2026 rules): formal announcement.** The Foundation publishes a rules-based selling program and reports its sales (Q3 2026 not yet reported), so no penalty applies; Selling stays 5. Pump days from Gate ALGO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (40 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 7/10 · ✅ PASS
 
@@ -249,8 +261,17 @@ layout_version: 3
 | Structured selling still running | 🟡 Paused on-chain since 24 Aug 2026; no announcement | Indexer |
 | Foundation >15% of online stake | 🔴 Tripped (19.6%) | algod ([ledger supply](https://mainnet-api.algonode.cloud/v2/ledger/supply)) · [Foundation account list](https://algorand.co/algorand-foundation/transparency) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Algorand Foundation structured-selling wallets | Algorand Foundation | Foundation transparency reports + chain | high | yes (Foundation reports) | Selling: disclosed program sold on some pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] AlgoNode public algod ([`mainnet-api.algonode.cloud`](https://mainnet-api.algonode.cloud/v2/ledger/supply)) and indexer ([`mainnet-idx.algonode.cloud`](https://mainnet-idx.algonode.cloud/v2/accounts/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E/transactions?limit=100)); human-readable views on [Allo](https://allo.info) (every account and tx cited is linked inline and in the Evidence trail): ledger supply, all published Foundation accounts, selling-wallet and [`45KKMHBB…`](https://allo.info/account/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E) transaction histories, block samples; 15 Nov 2026 ~6:50 AM MST
 - [Tier A] [Algorand Foundation transparency page and account list](https://algorand.co/algorand-foundation/transparency); Q1 2026 and Q2 2026 transparency reports (PDF)
 - [Tier A] [Algorand Community Update, 6 Nov 2026](https://algorand.co/blog/algorand-community-update); CEO announcement (PR Newswire / algorand.co, 9 Sep 2026)

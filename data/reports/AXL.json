@@ -43,7 +43,16 @@
   },
   "price_usd": 0.03252332,
   "price_source": "CoinGecko, 16 Nov 2026 7:13 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "Fees are burned on-chain automatically, but the burn covers only ~4% of issuance; Revenue stays 2.",
+    "pump_day_price_source": "KuCoin AXL/USDT daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.03252332,
     "market_cap_text": "$40.84M",
@@ -54,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/AXL.md",
-    "sha256": "ac27ae346842175091b2499c9c70fe2570006a2383c939196c1ca3dff6524c34",
-    "bytes": 21194,
-    "extracted_at": "2026-11-16 14:06 MST",
+    "sha256": "00869caf1dd2dafcdc448ab87e05513fc362308ebbc298dcb2ff37bbdd99ac4c",
+    "bytes": 22587,
+    "extracted_at": "2026-11-16 14:19 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -214,12 +223,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "KuCoin AXL/USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -229,12 +238,12 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "yes",
     "mechanisms": [
       "burn"
     ],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": true,
+    "executed": true,
     "inconsistent_with_score": false,
     "notes": "The burn is real but covers about 4% of issuance. **2, which trips the Revenue gate.**"
   },
@@ -339,6 +348,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Axelar LCD: supply, mint inflation and params, reward params, staking pool, community pool, distribution params, governance proposals, all 207,874 `denom_owners`, account types; read 16 Nov 2026 ~9:30–9:50 AM MST",

@@ -23,6 +23,14 @@ red_lines:
   foundation_pump_day_exchange_send: open_unresolved
   foundation_wallet_roster_published: no
   nyse_settlement_launch: pending_regulatory_approval
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "C-Chain base fees are burned on-chain automatically, so revenue reaches holders, but the burn is small next to issuance; Revenue stays 3."
+pump_day_price_source: "Gate AVAX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (20 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 7.31
 price_source: "CoinGecko avalanche-2, 15 Nov 2026 6:45 AM MST"
 chain_read_height: 100394651
@@ -92,6 +100,8 @@ layout_version: 3
 | 12-month fees ÷ market cap | ≈ **0.08%** | Calculated |
 
 **What it means:** The burn is real and reaches every holder, but $2.65M a year is small for a $3.3B asset, and validators are paid with new coins, not fees. The NYSE settlement chain (see 🤝) runs on its own dedicated chain, so it is not C-Chain fee revenue today.
+
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** C-Chain base fees are burned on-chain automatically, so revenue reaches holders, but the burn is small next to issuance; Revenue stays 3.
 
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
@@ -186,6 +196,8 @@ All sweeps from the Coinbase Prime deposit address to the Prime hot wallet ([Tie
 | Proof the 320k was sold (a Foundation or AVAT disclosure, or a court or SEC record), or a second Foundation-wallet exchange deposit on a pump day with no operations explanation | A Foundation or AVAT statement mapping the 320k (custody, collateral, OTC settlement), or the coins returning to Foundation wallets |
 
 **What it means:** One undisclosed send to an exchange on a big pump day by a Foundation-labelled wallet. Arkham confirms the coins went into a Coinbase Prime account and shows dollars later coming out of Coinbase to the same wallet. That fits a sale but does not prove one, and Arkham does not confirm the wallet is the Foundation's. The timing is consistent with chance, the Foundation was a net buyer that week, and the August 400k was a Galaxy Digital round trip, not a sale. It is still undisclosed, and the Foundation publishes no wallets, so this stays a fail at 4/10 (score unchanged). It is not a proven dump.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate AVAX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (20 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -285,8 +297,17 @@ All sweeps from the Coinbase Prime deposit address to the Prime hot wallet ([Tie
 | Foundation publishes wallets / holdings | 🔴 No | No roster, no holdings report |
 | NYSE settlement goes live | 🟡 Pending regulatory approval | CoinDesk, Decrypt |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation-labelled wallet → Coinbase Prime on a pump day | Arkham label not confirmed as the Foundation | Arkham only | low | no | None: cannot move Selling; stays 4 (not proven) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Avalanche public API `api.avax.network`: C-Chain `eth_getTransactionByHash`, `eth_getBalance`, `eth_getBlockByNumber` (block ~100,394,651); P-Chain `getCurrentSupply`, `getTotalStake`, `getCurrentValidators` (height 25,873,296); 15 Nov 2026 ~6:50 AM MST
 - [Tier A] Routescan Etherscan-compatible API (chain 43114) txlists for Wallet 1, the Coinbase Prime deposit address `0x712bba03…`, `0x87dda0da…`, `0x46f34c24…`; re-read 15 Nov 2026 ~10:45 AM MST for Wallet 1 (AVAX + USDC transfers), Wallet 3 (AVAX + tokens), `0x87dda0da…`, `0xc9ad9d2a…`, `0xff504ac5…`; USDC `balanceOf` for Wallet 1 via C-Chain RPC
 - [Tier B] Arkham Intelligence, read 15 Nov 2026 ~10:40 AM MST (signed-in account): entity pages and flows for Wallet 1, Wallet 3, `0x712bba03…` (Coinbase Prime Deposit), `0x1D67bd45…` (Coinbase Prime: Hot Wallet), `0x87dda0da…`, `0xff504ac5…` (Galaxy Digital Deposit), `0x46f34c24…` and `0x15abb66b…` (Galaxy Digital: OTC), `0xc9ad9d2a…`. Arkham shows relative ages only; dates above come from on-chain reads where amounts match

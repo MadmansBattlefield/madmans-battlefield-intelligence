@@ -88,13 +88,13 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 33 | [DIA](DIA.md) | DIA | 4.7 | ❌ FAIL | Revenue gate |
 | 34 | [ONDO](ONDO.md) | Ondo | 4.7 | ❌ FAIL | Revenue gate |
 | 35 | [CELO](CELO.md) | Celo | 4.7 | ❌ FAIL | Revenue gate |
-| 36 | [API3](API3.md) | Api3 | 4.7 | ❌ FAIL | Selling gate |
-| 37 | [SOLV](SOLV.md) | Solv Protocol | 4.7 | ❌ FAIL | Low overall |
-| 38 | [BTT](BTT.md) | BitTorrent | 4.7 | ❌ FAIL | Low overall |
-| 39 | [WAN](WAN.md) | Wanchain | 4.7 | ❌ FAIL | Low overall |
-| 40 | [CARDS](CARDS.md) | Collector Crypt | 4.7 | ❌ FAIL | Low overall |
-| 41 | [QNT](QNT.md) | Quant | 4.6 | ❌ FAIL | Selling gate |
-| 42 | [FXS](FXS.md) | Frax (prev. FXS) | 4.6 | ❌ FAIL | Low overall |
+| 36 | [SOLV](SOLV.md) | Solv Protocol | 4.7 | ❌ FAIL | Low overall |
+| 37 | [BTT](BTT.md) | BitTorrent | 4.7 | ❌ FAIL | Low overall |
+| 38 | [WAN](WAN.md) | Wanchain | 4.7 | ❌ FAIL | Low overall |
+| 39 | [CARDS](CARDS.md) | Collector Crypt | 4.7 | ❌ FAIL | Low overall |
+| 40 | [QNT](QNT.md) | Quant | 4.6 | ❌ FAIL | Selling gate |
+| 41 | [FXS](FXS.md) | Frax (prev. FXS) | 4.6 | ❌ FAIL | Low overall |
+| 42 | [API3](API3.md) | Api3 | 4.5 | ❌ FAIL | Selling gate |
 | 43 | [MNT](MNT.md) | Mantle | 4.5 | ❌ FAIL | Revenue gate |
 | 44 | [CFG](CFG.md) | Centrifuge | 4.5 | ❌ FAIL | Revenue gate |
 | 45 | [RLS](RLS.md) | Rayls | 4.5 | ❌ FAIL | Low overall |

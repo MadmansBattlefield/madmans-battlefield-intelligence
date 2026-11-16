@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:06 MST",
+  "generated_at": "2026-11-16 14:19 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -270,9 +270,9 @@
       "path": "banking-rails/ARB.md",
       "versions": [
         {
-          "commit": "0a6d1a7b1ec119685e235fde3c0d6313901321af",
-          "committed_at_mst": "2026-11-16 07:39 MST",
-          "subject": "Add SYRUP, CFG, HUMA, SOLV, ARB v3 reports with Arkham evidence; ranking 53 notes",
+          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
+          "committed_at_mst": "2026-11-16 14:06 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
           "overall_score": 5.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -500,9 +500,9 @@
           "last_updated": "2026-11-14"
         },
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
+          "committed_at_mst": "2026-11-16 14:06 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
           "overall_score": 5.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1658,9 +1658,9 @@
       "path": "banking-rails/JASMY.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
+          "committed_at_mst": "2026-11-16 14:06 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
           "overall_score": 2.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2367,9 +2367,9 @@
           "last_updated": "2026-11-14"
         },
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
+          "committed_at_mst": "2026-11-16 14:06 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2952,6 +2952,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-15"
+        },
+        {
+          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
+          "committed_at_mst": "2026-11-16 14:06 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
+          "overall_score": 2.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 2,
+            "insider_holdings": 2,
+            "selling_behavior": 0,
+            "tokenomics_supply": 4,
+            "liquidity_market": 1,
+            "product_development": 6,
+            "adoption_customers": 1,
+            "security_audits": 5,
+            "regulatory": 2,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-15"
         }
       ]
     },
@@ -3091,6 +3116,31 @@
             "foundation_team": 3,
             "insider_holdings": 3,
             "selling_behavior": 1,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 2,
+            "security_audits": 3,
+            "regulatory": 3,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-15"
+        },
+        {
+          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
+          "committed_at_mst": "2026-11-16 14:06 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
+          "overall_score": 2.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 3,
+            "insider_holdings": 3,
+            "selling_behavior": 0,
             "tokenomics_supply": 4,
             "liquidity_market": 4,
             "product_development": 5,
@@ -3821,9 +3871,9 @@
       "path": "banking-rails/VELO.md",
       "versions": [
         {
-          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
-          "committed_at_mst": "2026-11-16 08:50 MST",
-          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
+          "committed_at_mst": "2026-11-16 14:06 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4347,6 +4397,30 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-15"
+        },
+        {
+          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
+          "committed_at_mst": "2026-11-16 14:06 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 3,
+            "insider_holdings": 4,
+            "selling_behavior": 1,
+            "tokenomics_supply": 6,
+            "liquidity_market": 7,
+            "product_development": 5,
+            "adoption_customers": 6,
+            "security_audits": 3,
+            "regulatory": 3,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-15"
         }
       ]
     },
@@ -4355,9 +4429,9 @@
       "path": "banking-rails/ZEC.md",
       "versions": [
         {
-          "commit": "015584ef44991c8c8f895739075a8a583ffc3b54",
-          "committed_at_mst": "2026-11-16 07:44 MST",
-          "subject": "ZEC: correct post-NU7 subsidy (0.5208 ZEC/block, ZCG 0.0417) and lockbox estimate",
+          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
+          "committed_at_mst": "2026-11-16 14:06 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
           "overall_score": 4.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4568,9 +4642,9 @@
       "path": "banking-rails/ZRO.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
+          "committed_at_mst": "2026-11-16 14:06 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
           "overall_score": 5.3,
           "overall_verdict": "FAIL",
           "section_scores": {

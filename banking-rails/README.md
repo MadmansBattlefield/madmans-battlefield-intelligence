@@ -68,13 +68,13 @@ Every token in this folder has a full v3 scored report:
 | 33 | [DIA.md](DIA.md) | DIA | **4.7 / 10 · ❌ FAIL** |
 | 34 | [ONDO.md](ONDO.md) | Ondo | **4.7 / 10 · ❌ FAIL** |
 | 35 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
-| 36 | [API3.md](API3.md) | Api3 | **4.7 / 10 · ❌ FAIL** |
-| 37 | [SOLV.md](SOLV.md) | Solv Protocol | **4.7 / 10 · ❌ FAIL** |
-| 38 | [BTT.md](BTT.md) | BitTorrent | **4.7 / 10 · ❌ FAIL** |
-| 39 | [WAN.md](WAN.md) | Wanchain | **4.7 / 10 · ❌ FAIL** |
-| 40 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
-| 41 | [QNT.md](QNT.md) | Quant | **4.6 / 10 · ❌ FAIL** |
-| 42 | [FXS.md](FXS.md) | Frax (prev. FXS) | **4.6 / 10 · ❌ FAIL** |
+| 36 | [SOLV.md](SOLV.md) | Solv Protocol | **4.7 / 10 · ❌ FAIL** |
+| 37 | [BTT.md](BTT.md) | BitTorrent | **4.7 / 10 · ❌ FAIL** |
+| 38 | [WAN.md](WAN.md) | Wanchain | **4.7 / 10 · ❌ FAIL** |
+| 39 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
+| 40 | [QNT.md](QNT.md) | Quant | **4.6 / 10 · ❌ FAIL** |
+| 41 | [FXS.md](FXS.md) | Frax (prev. FXS) | **4.6 / 10 · ❌ FAIL** |
+| 42 | [API3.md](API3.md) | Api3 | **4.5 / 10 · ❌ FAIL** |
 | 43 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
 | 44 | [CFG.md](CFG.md) | Centrifuge | **4.5 / 10 · ❌ FAIL** |
 | 45 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |

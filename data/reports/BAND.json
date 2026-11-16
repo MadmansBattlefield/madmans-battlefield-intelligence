@@ -43,7 +43,16 @@
   },
   "price_usd": 0.144693,
   "price_source": "CoinGecko, 16 Nov 2026 7:13 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No revenue figure can be checked; staking yield is paid by inflation, not fees.",
+    "pump_day_price_source": "Gate BAND_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (26 of 360 days); the body's earlier count used Gate BAND/USDT daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.144693,
     "market_cap_text": "$26.87M",
@@ -54,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BAND.md",
-    "sha256": "d324a9ad7d5bb3401f69fb4c36038f08a3e812b515f015e1accc7495970c6677",
-    "bytes": 18794,
-    "extracted_at": "2026-11-16 14:06 MST",
+    "sha256": "23ada43334811f412208f79de0819d71b967cdc5dd507fa75dbe52c053528cab",
+    "bytes": 20469,
+    "extracted_at": "2026-11-16 14:19 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -229,12 +238,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate BAND_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (26 of 360 days); the body's earlier count used Gate BAND/USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -244,10 +253,10 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "No revenue figure can be checked, and the yield is paid by diluting non-stakers. **2, which trips the Revenue gate.**"
   },
@@ -342,6 +351,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "B",
       "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): [`0x1cb1…`](https://intel.arkm.com/explorer/address/0x1cb16110453c42c95aa89b1878a6cfb92f8a06f1) (unlabelled Safe) · [Safe `0x7a6b…`](https://intel.arkm.com/explorer/address/0x7a6baf1c7d0940e4952186b3025b8e68aa87fa20) and its signers (unlabelled) · [Coinbase hot wallet](https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) · [Coinbase cold wallet](https://intel.arkm.com/explorer/address/0x4e9105a459f37990c62c113972b94049567bae0e) · [`0x7a59…`](https://intel.arkm.com/explorer/address/0x7a59600782cbb3be57340b820366a65505c78e65) (predicted Coinbase)",

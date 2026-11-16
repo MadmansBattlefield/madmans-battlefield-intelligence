@@ -41,7 +41,24 @@
   },
   "price_usd": 3.0696e-07,
   "price_source": "CoinGecko, 16 Nov 2026 8:34 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "The quarterly buyback-and-burn is a company decision, its BTT came from exchange hot wallets, and funding from revenue is unproven. Holders have no live claim on revenue; the score describes the business, not holder accrual.",
+    "pump_day_price_source": "Gate BTT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (10 of 360 days); the body's earlier count used Gate BTT/USDT daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "TH7L3aCyBhGBDgBJZqzotUxAuk8nt9wjqZ",
+        "label": "6.2T recipient",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Tronscan"
+      }
+    ]
+  },
   "key_numbers": {
     "price_usd": 3.0696e-07,
     "market_cap_text": "$297.1M",
@@ -52,9 +69,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BTT.md",
-    "sha256": "3fad9dcd2ad9a7e03353ab2cc23983bd0c26c5fab190919bc1d2ecbc9376dda1",
-    "bytes": 19630,
-    "extracted_at": "2026-11-16 14:06 MST",
+    "sha256": "b0c663af546e07002800f61e4839304a76e3f58c618ce69ac410656274a0d0f2",
+    "bytes": 21732,
+    "extracted_at": "2026-11-16 14:19 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -208,12 +225,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate BTT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (10 of 360 days); the body's earlier count used Gate BTT/USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
@@ -223,17 +240,30 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [
       "burn",
       "buyback"
     ],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "The burn is real and the amount checks out. All of the BTT came out of HTX and Poloniex exchange hot wallets, which fits exchange buying, but both venues are affiliated with TRON's founder and no fills are published. Whether it was bought with revenue is unproven. The revenue is not audited, and there is one quarter of history. **5**."
   },
   "attributions": [
+    {
+      "address": "TH7L3aCyBhGBDgBJZqzotUxAuk8nt9wjqZ",
+      "url": null,
+      "label": "6.2T recipient",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
     {
       "address": "TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
       "url": "https://intel.arkm.com/explorer/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
@@ -310,17 +340,6 @@
       "appears_in_selling_or_holdings": true
     },
     {
-      "address": "TH7L3aCyBhGBDgBJZqzotUxAuk8nt9wjqZ",
-      "url": "https://intel.arkm.com/explorer/address/TH7L3aCyBhGBDgBJZqzotUxAuk8nt9wjqZ",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": true
-    },
-    {
       "address": "TVFBd9TBHkk4L6FEfjQ5Fa1XABTfEdzqkp",
       "url": "https://intel.arkm.com/explorer/address/TVFBd9TBHkk4L6FEfjQ5Fa1XABTfEdzqkp",
       "label": "unlabelled",
@@ -366,6 +385,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] TronGrid `gettransactioninfobyid` for the Q3 burn, read 16 Nov 2026 ~9:35 AM MST",

@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no discretionary mint; 6.0B ADA reserve still emits to stakers and the treasury under protocol rules (45B hard cap)"
   team_wallet_to_exchange_during_pump: "none found at hop 1–2; on-chain treasury payouts moved on pump days only between payout contracts and unlabelled vendor wallets; founding-entity wallets are not public"
   treasury_spend: "804.4M ADA withdrawn from the on-chain treasury through 70 enacted governance actions, incl. 50M to a VC fund, 120M to AlphaGrowth and a 5M listings loan"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Staking rewards come mostly from the reserve (new ADA), not from fees; there is no burn, buyback or fee share."
+pump_day_price_source: "Gate ADA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (31 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.151959
 price_source: "CoinGecko, 16 Nov 2026 ~5:08 AM MST"
 last_updated: 2026-11-16
@@ -83,6 +91,8 @@ layout_version: 3
 
 **What it means:** Staking "yield" is mostly new ADA from the reserve, not users paying fees. Under $1M a year in fees against a $5.7B valuation is **2**, which **trips the Revenue gate**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Staking rewards come mostly from the reserve (new ADA), not from fees; there is no burn, buyback or fee share.
+
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
 - Three founding entities: **Input Output (IOG)** does engineering, **EMURGO** does commercial adoption and the **Cardano Foundation** (Switzerland) handles standards and adoption [Tier A [cardano.org/genesis](https://cardano.org/genesis/)].
@@ -131,6 +141,8 @@ layout_version: 3
 - **Founding-entity wallets (IOG, EMURGO, CF) are not public.** They were not tested.
 
 **What it means:** No labelled exchange deposit from a treasury receiver was found at hops 1–2, and the pump-day flows found are contract-to-contract. But the money is disclosed only at proposal level, the trail goes cold in unlabelled wallets, and treasury money paid for listings and market making. The founders' own wallets cannot be tested. That is **5**: not a gate fail, but not proven clean.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate ADA_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (31 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -181,8 +193,18 @@ layout_version: 3
 | Treasury paying for listings / market making | 🟡 Yes, disclosed: 5M listings loan + 3.126M listing and market making |
 | Revenue vs valuation | 🔴 ≈ $0.92M fees a year on a $5.71B cap |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Treasury withdrawal receivers (hops 1–2) | Cardano treasury recipients | Governance actions + chain trace | medium | yes (governance records) | None: no labelled exchange deposit on a pump day |
+| Founder wallets | Unpublished | — | low | no | Selling stays 5 (not proven clean) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Koios API (`/tip`, `/totals`, `/proposal_list`, `/account_info`, `/account_txs`, `/tx_info`, `/account_addresses`), 16 Nov 2026 MST
 - [Tier A] [cardano.org/genesis](https://cardano.org/genesis/) for the genesis allocation
 - [Tier A] DefiLlama fees API and chain TVL (Cardano), 16 Nov 2026

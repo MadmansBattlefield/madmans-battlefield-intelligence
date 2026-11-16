@@ -1,12 +1,12 @@
 {
   "title": "Review flags from the Arkham-confidence and holder-accrual upgrades",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:06 MST",
+  "generated_at": "2026-11-16 14:20 MST",
   "note": "Scores were not changed. These are review lists parsed from the published Markdown. A flag means a human (or a later dual review) should look at that section, not that the published score is automatically wrong.",
   "low_confidence_selling_or_holdings": [
     {
       "ticker": "API3",
-      "selling_behavior": 3,
+      "selling_behavior": 1,
       "insider_holdings": 6,
       "notes": [
         "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration.",
@@ -57,7 +57,7 @@
   "single_source_arkham_selling_or_holdings": [
     {
       "ticker": "API3",
-      "selling_behavior": 3,
+      "selling_behavior": 1,
       "insider_holdings": 6,
       "notes": [
         "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration.",
@@ -84,17 +84,6 @@
     }
   ],
   "revenue_accrual_inconsistent": [
-    {
-      "ticker": "CARDS",
-      "revenue_score": 5,
-      "reaches_holders": "no",
-      "mechanisms": [
-        "burn",
-        "buyback",
-        "fee_share"
-      ],
-      "notes": "The business is real and growing, and it earns more than most tokens on this list. The token gets almost none of it: holders received about **$1 for every $225** the company kept, and nothing obliges the company to keep buying. That is better than a token with no business (QNT scored 4 for an optional, unmeasured sink), so **5**, but well short of a pass."
-    },
     {
       "ticker": "QNT",
       "revenue_score": 4,

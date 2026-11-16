@@ -23,6 +23,14 @@ red_lines:
   funded_wallet_to_exchange_on_pump_day: tripped
   revenue_burn_not_active: open
   hack_exploit: none_found
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Some fees now buy CELO, but it lands in a governance-spent treasury, not burned or paid out."
+pump_day_price_source: "Gate CELO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (27 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: buried_disclosure
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.060813
 price_source: "CoinGecko celo, 15 Nov 2026 6:47 AM MST"
 chain_read_block: 82850691
@@ -97,6 +105,8 @@ layout_version: 3
 
 **What it means:** The chain does about $70k a month in fees. Some of it now buys CELO, but it lands in a treasury that governance spends, not burns, so holders get little.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Some fees now buy CELO, but it lands in a governance-spent treasury, not burned or paid out.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -162,6 +172,8 @@ Live reads, 15 Nov 2026 (block 82,850,691):
 | Celo Foundation multisig `0x0f293B15…` | 1.0M (Oct 2025) and 400k (Nov 2025) to EOA `0x0E17c935…`; 2.0M–5.3M to other Safes in 2026. **No pump-day send found** |
 
 **What it means:** The pattern looks like a steady budget sell-down, not a team timing pumps, and the reason for selling is disclosed. The new labels make the exchange route firmer (a 2-of-4 Safe paying straight into a Binance deposit address), show more of the budget reaching Binance (9.26M CELO), and show that the 97.8M swept since 2023 is not all team money. They add no new pump-day sends: still 575k CELO on 21 and 24 Aug. Under this layout's rule that is a fail, though not a gate-level one. Score unchanged at 5/10.
+
+- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** The budget sell-down is approved in governance, but these sends are not itemised, so disclosure is partial and no penalty applies; Selling stays 5. 21 and 24 Aug 2026 are still pump days on Gate prices. Pump days from Gate CELO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (27 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -246,8 +258,17 @@ Live reads, 15 Nov 2026 (block 82,850,691):
 | Revenue burn active | 🟡 Open | CGP-0234 expired; CGP-0257 still a draft |
 | Hack / exploit | 🟢 None found | |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| 2-of-4 Safe → Binance deposit | Celo budget Safe | Etherscan + Arkham labels | high | yes (on-chain) | Selling: 575k CELO on 21 and 24 Aug 2026 pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Celo RPC `forno.celo.org`: Registry `0x…ce10` lookups, `balanceOf`, `totalSupply`, Safe owners/thresholds, Community Fund allowance; 15 Nov 2026, block ~82.85M
 - [Tier A] Celo Blockscout API v2: CELO token transfers and transactions for the Community Fund, Core Co., Foundation, CICLOPS and onward wallets
 - [Tier A] GitHub `celo-org/governance` (CGPs 0200, 0224, 0231–0237, 0246, 0247, 0250, 0256, 0257; PR #848) and GitHub API for repo activity

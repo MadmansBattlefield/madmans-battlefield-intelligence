@@ -44,6 +44,14 @@
   "price_usd": 0.455249,
   "price_source": "CoinGecko, 15 Nov 2026 6:45 AM MST",
   "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "Gas fees are burned on-chain automatically, so revenue reaches holders, but the burn is far below issuance; Revenue stays 2.",
+    "pump_day_price_source": "Gate APT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [],
     "chain_read_ledger_version": 8063744811
   },
   "key_numbers": {
@@ -56,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/APT.md",
-    "sha256": "6d1da9bed94bcc5916c841a1f14a55415611286d725274e7300e2d31dc7d919d",
-    "bytes": 26348,
-    "extracted_at": "2026-11-16 14:06 MST",
+    "sha256": "bd6c18b4c6f1102dede35aec670835753fd55f87c86f008505615b251bd36ae2",
+    "bytes": 28068,
+    "extracted_at": "2026-11-16 14:19 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -145,12 +153,12 @@
   "addresses_examined": [],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate APT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -158,13 +166,13 @@
     "flags_noted_in_report": []
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "yes",
     "mechanisms": [
       "burn",
       "buyback"
     ],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": true,
+    "executed": true,
     "inconsistent_with_score": false,
     "notes": "The burn design is right, and the gas increase multiplied fee income about 8× from February to April. Still, ~$1.2M a year of fees on a ~$400M token is small, and validators are still paid mostly in new coins. The token does not earn more than it issues."
   },
@@ -192,6 +200,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Aptos fullnode API ([`api.mainnet.aptoslabs.com/v1`](https://api.mainnet.aptoslabs.com/v1)): ledger info, `0x1::coin::supply`, `CoinInfo<AptosCoin>`, `stake::ValidatorSet`, `staking_config::StakingConfig` + `StakingRewardsConfig`, `block::BlockResource`, `gas_schedule::GasScheduleV2`, blocks by height, account [`0xc739…bdfd`](https://explorer.aptoslabs.com/account/0xc739507214d0e1bf9795485299d709e00024e92f7c0d055a4c2c39717882bdfd?network=mainnet); 15 Nov 2026 ~6:52 AM MST. Direct reads: [supply](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::coin::CoinInfo%3C0x1::aptos_coin::AptosCoin%3E) · [rewards config](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::staking_config::StakingRewardsConfig) · [validator set](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::stake::ValidatorSet) · [gas schedule](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::gas_schedule::GasScheduleV2)",

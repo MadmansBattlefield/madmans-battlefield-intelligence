@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes, by design (Tokenomics 3.0: ~3% yearly inflation today, ceiling 5.5%, decaying toward a ~10B maximum)"
   team_wallet_to_exchange_during_pump: "not tested (Foundation wallets are not published; the Foundation says it does not sell ASTR to fund operations)"
   treasury_in_single_key_wallets: "unknown for the Foundation; the 304.5M ASTR on-chain treasury is a governance-controlled pallet account"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Revenue rounds to zero; no material fee-funded burn, buyback or fee share is documented in this report."
+pump_day_price_source: "Gate ASTR_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 360 days); the body's earlier count used Gate ASTR/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.00443889
 price_source: "CoinGecko, 16 Nov 2026 8:20 AM MST"
 last_updated: 2026-11-16
@@ -83,6 +91,8 @@ layout_version: 3
 
 **What it means:** Revenue rounds to zero. **1, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Revenue rounds to zero; no material fee-funded burn, buyback or fee share is documented in this report.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -111,6 +121,8 @@ layout_version: 3
 - No Foundation wallets are published, and the Subscan API needs a key, so **no Foundation transfers were pump-tested**.
 
 **What it means:** Not proven clean, so **5**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate ASTR_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 360 days); the body's earlier count used Gate ASTR/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -155,8 +167,17 @@ layout_version: 3
 | Live mint path | 🔴 ~3% yearly inflation, capped near 10B |
 | Treasury in single-key wallets | 🟡 Foundation unknown; protocol treasury is a governed pallet |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| None found | — | — | low | no | Selling not proven |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Astar Substrate RPC `state_getStorage` for `System.Account` of the treasury pallet (`py/trsry`); Subscan token endpoint (total issuance, locked, bonded), read 16 Nov 2026 ~9:00 AM MST
 - [Tier A] DefiLlama `astar` fees and revenue; DefiLlama chains TVL
 - [Tier A] [Astar Tokenomics 3.0](https://astar.network/blog/tokenomics-3-0-233/) · [Astar forum "State of burndrop"](https://forum.astar.network/t/state-of-burndrop/9514)

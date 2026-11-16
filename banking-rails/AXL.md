@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes, by design (no supply cap; net supply growth ~3.0% a year after fee burns; base Cosmos inflation set to 0)"
   team_wallet_to_exchange_during_pump: "not proven (Foundation and company wallets on the Axelar chain are not labelled; the largest unlabelled native movers trade two-way with high-volume hot wallets, which looks like exchange custody)"
   treasury_in_single_key_wallets: "not found (no published treasury addresses)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Fees are burned on-chain automatically, but the burn covers only ~4% of issuance; Revenue stays 2."
+pump_day_price_source: "KuCoin AXL/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.03252332
 price_source: "CoinGecko, 16 Nov 2026 7:13 AM MST"
 last_updated: 2026-11-16
@@ -83,6 +91,8 @@ layout_version: 3
 
 **What it means:** The burn is real but covers about 4% of issuance. **2, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Fees are burned on-chain automatically, but the burn covers only ~4% of issuance; Revenue stays 2.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -120,6 +130,8 @@ layout_version: 3
 - The one large non-exchange holder, `0x1a9d…` (**9.096M**, ~0.7% of supply), is unlabelled and has no AXL transfers on its first Arkham page. That neither shows nor rules out insider selling. The ERC20 side shows no proven insider flows, but it is not shown clean either.
 
 **What it means:** No insider sale was found, but Foundation and company wallets could not be identified (Arkham does not cover the Axelar chain, and the largest unlabelled Ethereum holder has no owner), so the selling record is not proven. **4** (unchanged after the Arkham check).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from KuCoin AXL/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -169,8 +181,17 @@ layout_version: 3
 | Treasury in single-key wallets | 🟡 Unknown; no treasury addresses published |
 | Core team departure | 🔴 Interop Labs team and IP to Circle ([post](https://www.circle.com/blog/circle-signs-agreement-to-acquire-interop-labs-team-intellectual-property)) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Largest unlabelled Ethereum holder | Unknown owner | Etherscan | low | no | None: Selling stays 4 (not proven) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Axelar LCD: supply, mint inflation and params, reward params, staking pool, community pool, distribution params, governance proposals, all 207,874 `denom_owners`, account types; read 16 Nov 2026 ~9:30–9:50 AM MST
 - [Tier A] Axelarscan API `searchTransactions` and `getAccountAmounts` for the largest unlabelled native accounts; Ethereum and BSC RPC `totalSupply()` of wAXL; Blockscout wAXL holder list; Etherscan name tags [Tier B]
 - [Tier A] [DefiLlama Axelar](https://defillama.com/protocol/axelar) fees and TVL; CoinGecko `axelar` (16 Nov 2026 7:13 AM MST); KuCoin AXL-USDT daily candles

@@ -56,13 +56,13 @@ Ties are broken by how many of the 11 sections passed.
 33. 🔴 **DIA** · 4.7 · ❌ FAIL
 34. 🔴 **ONDO** · 4.7 · ❌ FAIL
 35. 🔴 **CELO** · 4.7 · ❌ FAIL
-36. 🔴 **API3** · 4.7 · ❌ FAIL
-37. 🔴 **SOLV** · 4.7 · ❌ FAIL
-38. 🔴 **BTT** · 4.7 · ❌ FAIL
-39. 🔴 **WAN** · 4.7 · ❌ FAIL
-40. 🔴 **CARDS** · 4.7 · ❌ FAIL
-41. 🔴 **QNT** · 4.6 · ❌ FAIL
-42. 🔴 **FXS** · 4.6 · ❌ FAIL
+36. 🔴 **SOLV** · 4.7 · ❌ FAIL
+37. 🔴 **BTT** · 4.7 · ❌ FAIL
+38. 🔴 **WAN** · 4.7 · ❌ FAIL
+39. 🔴 **CARDS** · 4.7 · ❌ FAIL
+40. 🔴 **QNT** · 4.6 · ❌ FAIL
+41. 🔴 **FXS** · 4.6 · ❌ FAIL
+42. 🔴 **API3** · 4.5 · ❌ FAIL
 43. 🔴 **MNT** · 4.5 · ❌ FAIL
 44. 🔴 **CFG** · 4.5 · ❌ FAIL
 45. 🔴 **RLS** · 4.5 · ❌ FAIL
@@ -175,6 +175,10 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Batch 2: 14 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [API3](API3.md) Selling 3 → 1 (4.7 → 4.5, now #42). Unchanged: [ADA](ADA.md), [ALGO](ALGO.md), [AMP](AMP.md), [APT](APT.md), [ASTR](ASTR.md), [AVAX](AVAX.md), [AXL](AXL.md), [BAND](BAND.md), [BCH](BCH.md), [BNKR](BNKR.md), [BTT](BTT.md), [CARDS](CARDS.md), [CELO](CELO.md).
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Batch 1 (portfolio-sheet names): 10 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [ZBCN](ZBCN.md) Selling 3 → 1 (4.3 → 4.0, now #59); [ROUTER](ROUTER.md) Selling 1 → 0 (2.2 → 2.0, now #147); [SERV](SERV.md) Selling 1 → 0 (2.8 → 2.6, now #138). Unchanged: [PLUME](PLUME.md), [BP](BP.md), [JASMY](JASMY.md), [ZRO](ZRO.md), [ARB](ARB.md), [ZEC](ZEC.md), [VELO](VELO.md).
 
@@ -763,18 +767,7 @@ Score changes from that research:
 
 ---
 
-## #36 · API3 · Api3
-
-### 4.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** Selling
-- **Verdict:** A fixed 200M supply and an unusually open treasury page, but the legacy treasury (Arkham: "API3: V1 Treasury") sent API3 into a Binance deposit on two 2024 pump days, and a DAO multisig funded a wallet that hit Binance within the hour on a 2026 pump day. Revenue is about $45K a year.
-- 📄 [Full API3 report](API3.md)
-
----
-
-## #37 · SOLV · Solv Protocol
+## #36 · SOLV · Solv Protocol
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -785,7 +778,7 @@ Score changes from that research:
 
 ---
 
-## #38 · BTT · BitTorrent
+## #37 · BTT · BitTorrent
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -796,7 +789,7 @@ Score changes from that research:
 
 ---
 
-## #39 · WAN · Wanchain
+## #38 · WAN · Wanchain
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -807,7 +800,7 @@ Score changes from that research:
 
 ---
 
-## #40 · CARDS · Collector Crypt
+## #39 · CARDS · Collector Crypt
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -818,7 +811,7 @@ Score changes from that research:
 
 ---
 
-## #41 · QNT · Quant
+## #40 · QNT · Quant
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -829,7 +822,7 @@ Score changes from that research:
 
 ---
 
-## #42 · FXS · Frax (prev. FXS)
+## #41 · FXS · Frax (prev. FXS)
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -837,6 +830,17 @@ Score changes from that research:
 - **Hard gates failed:** none
 - **Verdict:** Real DeFi fees that the token barely captures, with 43M new tokens pre-approved for team budgets. Arkham shows the Comptroller's 1M FXS to Odos was a WFRAX conversion, not a budget wallet.
 - 📄 [Full FXS report](FXS.md)
+
+---
+
+## #42 · API3 · Api3
+
+### 4.5 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Selling
+- **Verdict:** A fixed 200M supply and an unusually open treasury page, but the legacy treasury (Arkham: "API3: V1 Treasury") sent API3 into a Binance deposit on two 2024 pump days, and a DAO multisig funded a wallet that hit Binance within the hour on a 2026 pump day. Revenue is about $45K a year.
+- 📄 [Full API3 report](API3.md)
 
 ---
 

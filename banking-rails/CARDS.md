@@ -25,6 +25,14 @@ red_lines:
   treasury_to_exchange: "yes, not a pump day (treasury multisig -> fresh relay 4JTA… -> Coinbase deposit -> Coinbase hot wallet, 7,000,000 CARDS, 6 Nov 2026; no disclosure found)"
   treasury_to_market_maker: "yes, undisclosed: 60M CARDS from treasury-funded cards.sol (redFW…) went 8Qvd… -> 2asR… -> Fireblocks custody 6rQG…, which sends 0.4–2M lots to GSR Markets custody (Arkham, Tier B); pump-day timing not tested"
   treasury_pump_day_outflows: "14 Jun 2026 (9.5M via a multisig signer to a reward-claim vault) and 5 Oct 2026 (1.25M to unlabelled DFEstp…, onward owner [Unverified])"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Company-run buybacks are discretionary and tiny relative to its revenue (~$1 to holders per $225 kept); nothing is automatic or obligated. Holders have no live claim on revenue; the score describes the business, not holder accrual."
+pump_day_price_source: "CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.1496
 price_source: "CoinGecko, 16 Nov 2026 5:08 AM MST"
 last_updated: 2026-11-16
@@ -89,6 +97,8 @@ layout_version: 3
 
 **What it means:** The business is real and growing, and it earns more than most tokens on this list. The token gets almost none of it: holders received about **$1 for every $225** the company kept, and nothing obliges the company to keep buying. That is better than a token with no business (QNT scored 4 for an optional, unmeasured sink), so **5**, but well short of a pass.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Company-run buybacks are discretionary and tiny relative to its revenue (~$1 to holders per $225 kept); nothing is automatic or obligated. Holders have no live claim on revenue; the score describes the business, not holder accrual.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -142,6 +152,8 @@ Labels: Nansen tags `E1t8…` "Coinbase / CEX" and `H8sM…` "Coinbase: Hot Wall
 
 **What it means:** No treasury CARDS were traced into a labelled exchange **on a pump day**, so the hard rule is not tripped. But the treasury sent 7M to Coinbase without notice, sold heavily through its LP range at launch, runs a trading bot in its own pool, and (per Arkham) about 57M from a treasury-paid branch went toward GSR Markets' custody. Holders can't tell market-making from selling. That puts it at **4** (unchanged after Arkham): not proven bad on pumps, and not clean.
 
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko daily closes.
+
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
 - **Fixed supply, and code agrees:** `mintAuthority` and `freezeAuthority` are both null [Tier A, RPC `getAccountInfo`, 16 Nov 2026]. Supply 1,972,174,887.42 after ~27.8M burned.
@@ -192,8 +204,17 @@ Labels: Nansen tags `E1t8…` "Coinbase / CEX" and `H8sM…` "Coinbase: Hot Wall
 | Treasury moves on pump days | 🟡 14 Jun 2026 9.5M (to rewards); 5 Oct 2026 1.25M to unlabelled `DFEs…`. [tx](https://solscan.io/tx/3RhbQ2bdrP9LL6FdPDpNRb77KReUyuduZXALYH58fmYiNHsWAWKMaEQK7VmTPdP566UHraNYxbf1aZuEPs8sD1Ez) |
 | Supply concentration | 🔴 54.8% in one unlocked treasury multisig |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Treasury → Coinbase (7M) and GSR-bound branch (~57M) | Collector Crypt treasury; GSR per Arkham | Solana RPC + Arkham | medium | no | Selling: none proven on a pump day; stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Solana RPC (mainnet-beta, publicnode): `getAccountInfo` for the mint, `getTokenSupply`, full signature history and parsed transactions for the treasury token account `DgiH…` (349 tx), `5iVa…` (cards.sol, 188 tx), `HWPR…`, `4JTA…`, `E1t8…`, read 16 Nov 2026 MST
 - [Tier A] [collectorcrypt.com/tokenomics](https://collectorcrypt.com/tokenomics): allocation, unlocks, treasury and buyback addresses, burn list (last updated 3 Nov 2026)
 - [Tier A] SNS resolver: `cards.sol` → `3PnV…`
@@ -236,6 +257,8 @@ Labels: Nansen tags `E1t8…` "Coinbase / CEX" and `H8sM…` "Coinbase: Hot Wall
 | 4 | **Multisig threshold and signers** | Read the Squads multisig account for vault `3PnV…` | Free |
 | 5 | **Pump test for Aug–Nov 2025** | Pull exchange daily closes for 29 Aug – 16 Nov 2025 and re-test treasury moves in that window | Free |
 | 6 | **Legal entity and gacha licensing** | Find the operating company and any gaming or consumer-protection licence | Free |
+| 7 | **Pump-day test on exchange prices.** Gate CARDS_USDT returned only 42 days on 16 Nov 2026, too short for a 365-day test | Re-run scripts/pump_day_test.py on a venue with full history, or once Gate has a year of data | Free |
+| 8 | **Pump-day test on exchange prices.** The test used CoinGecko daily closes and no Gate, MEXC, KuCoin or Kraken USDT series was returned on 16 Nov 2026 (Binance blocks this region) | Re-run scripts/pump_day_test.py on the first exchange in the price-source order that lists the token | Free |
 
 ---
 

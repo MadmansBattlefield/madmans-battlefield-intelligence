@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: fixed 21M cap; block subsidy halves every 210,000 blocks"
   team_wallet_to_exchange_during_pump: "not applicable: no team, foundation, premine or treasury wallets exist"
   treasury_selling: "not applicable: no treasury"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No burn, buyback or fee share; fees go to miners."
+pump_day_price_source: "Gate BCH_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 205.79
 price_source: "CoinGecko, 16 Nov 2026 6:58 AM MST"
 last_updated: 2026-11-16
@@ -82,6 +90,8 @@ layout_version: 3
 
 **What it means:** Like every PoW coin without a burn, holders capture nothing, and even the miners' fee income is tiny. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No burn, buyback or fee share; fees go to miners.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 - There is no foundation or company. Several volunteer node teams (e.g. Bitcoin Cash Node) coordinate a yearly May upgrade through public CHIP proposals. Funding is voluntary crowdfunding. The 2020 plan to divert miner rewards to developers was abandoned (and split off the eCash chain). Accountable leadership and funding are weak.
@@ -94,6 +104,8 @@ layout_version: 3
 
 - With no team, foundation or treasury wallets, the insider pump-day test does not apply. The 30 pump days in the last year (largest +47.5% on 22 Sep 2026, +41.4% on 21 Aug 2026) coincide with market-wide moves seen in other coins on the same dates.
 - Ongoing sell pressure comes from miners (~3.125 BCH a block, ~450 BCH a day ≈ $93k a day). This is normal PoW selling, not insider dumping.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate BCH_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 8/10 · ✅ PASS
 
@@ -135,8 +147,17 @@ layout_version: 3
 | Live mint path | 🟢 None beyond the fixed schedule |
 | Treasury selling | 🟢 Not applicable |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| No team, foundation or treasury wallets | — | — | high | n/a | None: insider test does not apply |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [Blockchair Bitcoin Cash stats](https://blockchair.com/bitcoin-cash) (height, circulation, hashrate, transactions, nodes), 16 Nov 2026 ~7:30 AM MST; [Blockchair Bitcoin](https://blockchair.com/bitcoin) hashrate for comparison
 - [Tier A] [Bitcoin Cash upgrade specifications](https://upgradespecs.bitcoincashnode.org/) (2025 and 2026 upgrades)
 - [Tier B] Arkham, read 16 Nov 2026 ~7:35 AM MST (signed-in account): **Bitcoin Cash is not supported.** The network selector lists only Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain. BCH also has no foundation, team or treasury wallets to look up (no premine, no dev fund). No Arkham labels were available for this report

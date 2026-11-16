@@ -23,6 +23,19 @@ red_lines:
   mint_path_live: "no (fixed 990T supply; quarterly revenue buyback-and-burn since Q3 2026)"
   team_wallet_to_exchange_during_pump: "none on the 10 pump days in the last 365 days; but the team wallet sent 212B BTT straight to a Poloniex deposit on 19 Aug 2026 (two days before a pump) and 943.9B to an HTX hot wallet on the 29 Feb 2024 pump day"
   treasury_in_single_key_wallets: "yes, two unnamed 1-of-1 wallets hold 374.6T BTT (37.8%); team wallet 52.46T, also 1-of-1"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The quarterly buyback-and-burn is a company decision, its BTT came from exchange hot wallets, and funding from revenue is unproven. Holders have no live claim on revenue; the score describes the business, not holder accrual."
+pump_day_price_source: "Gate BTT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (10 of 360 days); the body's earlier count used Gate BTT/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "TH7L3aCyBhGBDgBJZqzotUxAuk8nt9wjqZ"
+    label: "6.2T recipient"
+    confidence: medium
+    independent_corroboration: false
+    basis: "Tronscan"
 price_usd: 0.00000030696
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
 last_updated: 2026-11-16
@@ -89,6 +102,8 @@ layout_version: 3
 
 **What it means:** The burn is real and the amount checks out. All of the BTT came out of HTX and Poloniex exchange hot wallets, which fits exchange buying, but both venues are affiliated with TRON's founder and no fills are published. Whether it was bought with revenue is unproven. The revenue is not audited, and there is one quarter of history. **5**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The quarterly buyback-and-burn is a company decision, its BTT came from exchange hot wallets, and funding from revenue is unproven. Holders have no live claim on revenue; the score describes the business, not holder accrual.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 - BitTorrent Inc. has been owned by TRON since Jul 2018 [Tier A, BitTorrent]. The Oct 2026 white paper describes BTTC governance by validators, but BTT allocation and release were set by the company.
@@ -128,6 +143,8 @@ layout_version: 3
   - The team payout address [TVFB…zqkp](https://intel.arkm.com/explorer/address/TVFBd9TBHkk4L6FEfjQ5Fa1XABTfEdzqkp) is unlabelled. Its BTT payouts (Jan 2025–Jul 2026) went to unlabelled wallets, none on a pump day, and it sends TRX and USDT to Poloniex deposits.
 - **Older history (correction):** the team wallet sent [943.9B to `TDTo…ivA4` on 29 Feb 2024](https://tronscan.org/#/transaction/f7689e443091c6d96fe57d6ceeb943f7f455eac8dbef9390e2f2cac155fc21a3), a pump day (+14.0%). Arkham labels `TDTo` an HTX Hot Wallet, so this was a team-wallet deposit to an exchange on a pump day, not an intra-group move. It falls outside the 365-day window, so it doesn't trip the gate.
 - **Re-score:** no pump-day sale in 365 days, so the gate holds. But the team wallet deposits straight to exchanges, did so on a 2024 pump day, and the 26.5% holder's BTT reaches Binance and Bitget. Not clean → **5** (was 6).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate BTT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (10 of 360 days); the body's earlier count used Gate BTT/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 8/10 · ✅ PASS
 
@@ -172,8 +189,17 @@ layout_version: 3
 | Live mint path | 🟢 None (fixed supply) |
 | Treasury in single-key wallets | 🔴 37.8% in two 1-of-1 wallets; team 5.3% 1-of-1 |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [`TH7L…wjqZ`](https://tronscan.org/#/address/TH7L3aCyBhGBDgBJZqzotUxAuk8nt9wjqZ) | 6.2T recipient | Tronscan | medium | no | None: no BTT sent on a pump day |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] TronGrid `gettransactioninfobyid` for the Q3 burn, read 16 Nov 2026 ~9:35 AM MST
 - [Tier A] [BitTorrent white paper (Oct 2026)](https://www.bittorrent.com/btt/btt-docs/BitTorrent_(BTT)_White_Paper_2026_Oct_EN.pdf) · [Buyback announcement](https://medium.com/@BitTorrent/announcement-on-the-launch-of-btt-buyback-and-burn-8b5a2b6af78d)
 - [Tier B] [KuCoin News](https://www.kucoin.com/news/flash/bittorrent-completes-q3-btt-buyback-and-burn-worth-7-6m) · [TokenPost](https://www.tokenpost.com/news/business/35123) · [MrNasDog supply research](https://mrnasdog.com/research/btt)

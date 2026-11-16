@@ -23,6 +23,14 @@ red_lines:
   foundation_210m_lock_proof: open_not_published
   foundation_wallets_published: open_none
   burn_below_issuance: tripped
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Gas fees are burned on-chain automatically, so revenue reaches holders, but the burn is far below issuance; Revenue stays 2."
+pump_day_price_source: "Gate APT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.455249
 price_source: "CoinGecko, 15 Nov 2026 6:45 AM MST"
 chain_read_ledger_version: 8063744811
@@ -96,6 +104,8 @@ layout_version: 3
 
 **What it means:** The burn design is right, and the gas increase multiplied fee income about 8× from February to April. Still, ~$1.2M a year of fees on a ~$400M token is small, and validators are still paid mostly in new coins. The token does not earn more than it issues.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Gas fees are burned on-chain automatically, so revenue reaches holders, but the burn is far below issuance; Revenue stays 2.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -145,6 +155,8 @@ layout_version: 3
 | Old draft's "NO_PUMP_SEND" verdict | Rested on one near-empty third-party-tagged wallet, so it does not count as a pass | — |
 
 **What it means:** About 136M APT reached insiders and the community fund during a year in which the price fell 84%. Where it went can't be seen. Under this method "not found, wallets unpublished" is a fail. It is not scored at the hard-gate level because no pump-day sale was actually found.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate APT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -229,8 +241,17 @@ layout_version: 3
 | Foundation wallets published | 🟡 Open — none | — |
 | Burn ≥ issuance | 🔴 **Tripped** (burn ≈11% of issuance) | [DefiLlama burn/fees](https://defillama.com/chain/aptos) · [rewards rate](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::staking_config::StakingRewardsConfig) · Revenue section |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation / community-fund wallets | Unpublished | Aptos unlock schedule | low | no | Selling stays 4 (not proven); no pump-day sale found |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Aptos fullnode API ([`api.mainnet.aptoslabs.com/v1`](https://api.mainnet.aptoslabs.com/v1)): ledger info, `0x1::coin::supply`, `CoinInfo<AptosCoin>`, `stake::ValidatorSet`, `staking_config::StakingConfig` + `StakingRewardsConfig`, `block::BlockResource`, `gas_schedule::GasScheduleV2`, blocks by height, account [`0xc739…bdfd`](https://explorer.aptoslabs.com/account/0xc739507214d0e1bf9795485299d709e00024e92f7c0d055a4c2c39717882bdfd?network=mainnet); 15 Nov 2026 ~6:52 AM MST. Direct reads: [supply](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::coin::CoinInfo%3C0x1::aptos_coin::AptosCoin%3E) · [rewards config](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::staking_config::StakingRewardsConfig) · [validator set](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::stake::ValidatorSet) · [gas schedule](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::gas_schedule::GasScheduleV2)
 - [Tier A] [Aptos Foundation tokenomics update](https://aptosnetwork.com/currents/aptos-tokenomics-update) (18 Feb 2026) · [privacy notice](https://aptosnetwork.com/privacy) · [Aptos Labs terms](https://aptoslabs.com/terms)
 - [Tier A] [Aptos governance proposal #183](https://governance.aptosfoundation.org/proposal/183)
