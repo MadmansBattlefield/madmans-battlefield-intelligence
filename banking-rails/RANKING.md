@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 68
+scored_reports: 73
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -69,32 +69,47 @@ Ties are broken by how many of the 11 sections passed.
 46. 🔴 **ZK** · 3.8 · ❌ FAIL
 47. 🔴 **ROSE** · 3.8 · ❌ FAIL
 48. 🔴 **XDC** · 3.8 · ❌ FAIL
-49. 🔴 **HASH** · 3.8 · ❌ FAIL
-50. 🔴 **AXL** · 3.8 · ❌ FAIL
-51. 🔴 **PLUME** · 3.7 · ❌ FAIL
-52. 🔴 **XPL** · 3.7 · ❌ FAIL
-53. 🔴 **SUI** · 3.7 · ❌ FAIL
-54. 🔴 **PROPC** · 3.6 · ❌ FAIL
-55. 🔴 **POLYX** · 3.3 · ❌ FAIL
-56. 🔴 **S** · 3.3 · ❌ FAIL
-57. 🔴 **ZIG** · 3.3 · ❌ FAIL
-58. 🔴 **PACT** · 3.1 · ❌ FAIL
-59. 🔴 **EXA** · 3.1 · ❌ FAIL
-60. 🔴 **TLOS** · 3.0 · ❌ FAIL
-61. 🔴 **XDB** · 2.9 · ❌ FAIL
-62. 🔴 **JASMY** · 2.8 · ❌ FAIL
-63. 🔴 **SERV** · 2.8 · ❌ FAIL
-64. 🔴 **MASQ** · 2.7 · ❌ FAIL
-65. 🔴 **EDEL** · 2.5 · ❌ FAIL
-66. 🔴 **SPA** · 2.5 · ❌ FAIL
-67. 🔴 **COTI** · 2.4 · ❌ FAIL
-68. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+49. 🔴 **W** · 3.8 · ❌ FAIL
+50. 🔴 **HASH** · 3.8 · ❌ FAIL
+51. 🔴 **AXL** · 3.8 · ❌ FAIL
+52. 🔴 **PLUME** · 3.7 · ❌ FAIL
+53. 🔴 **XPL** · 3.7 · ❌ FAIL
+54. 🔴 **SUI** · 3.7 · ❌ FAIL
+55. 🔴 **CRO** · 3.7 · ❌ FAIL
+56. 🔴 **KAIO** · 3.6 · ❌ FAIL
+57. 🔴 **CPOOL** · 3.6 · ❌ FAIL
+58. 🔴 **HYPER** · 3.6 · ❌ FAIL
+59. 🔴 **PROPC** · 3.6 · ❌ FAIL
+60. 🔴 **POLYX** · 3.3 · ❌ FAIL
+61. 🔴 **S** · 3.3 · ❌ FAIL
+62. 🔴 **ZIG** · 3.3 · ❌ FAIL
+63. 🔴 **PACT** · 3.1 · ❌ FAIL
+64. 🔴 **EXA** · 3.1 · ❌ FAIL
+65. 🔴 **TLOS** · 3.0 · ❌ FAIL
+66. 🔴 **XDB** · 2.9 · ❌ FAIL
+67. 🔴 **JASMY** · 2.8 · ❌ FAIL
+68. 🔴 **SERV** · 2.8 · ❌ FAIL
+69. 🔴 **MASQ** · 2.7 · ❌ FAIL
+70. 🔴 **EDEL** · 2.5 · ❌ FAIL
+71. 🔴 **SPA** · 2.5 · ❌ FAIL
+72. 🔴 **COTI** · 2.4 · ❌ FAIL
+73. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**8 of 68 pass.**
+**8 of 73 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Five more v3 reports (ninth batch of the day), all ❌ FAIL: [W](W.md) enters at #49 with 3.8 / 10, [CRO](CRO.md) at #55 with 3.7, [HYPER](HYPER.md) at #58 with 3.6, [KAIO](KAIO.md) at #56 with 3.6 and [CPOOL](CPOOL.md) at #57 with 3.6. All five fail the Revenue gate; all except CRO also fail the Selling gate. Arkham evidence is folded into all five.
+
+**Arkham-driven changes:**
+- **HYPER** Holdings 4 → 3 (overall 3.7 → 3.6): an unlabelled EOA funded by the foundation-side Safe holds 168.4M HYPER on BNB Chain, which nearly doubles the visible insider tree. The team + backers wallet `0xa7ec…` is an EOA, not a Safe.
+- **KAIO:** `0x5fac…` is a Coinbase deposit, so pump-day sales rise from 7M to 10M KAIO (Selling stays 3). `0x437f…` is Jump Crypto itself (market-maker flow). The "liquidity contract" is an EOA.
+- **CPOOL:** the top holder `0x9f2a…` is an Upbit deposit, not an insider. `0x4862…` and several "relays" are exchange deposit addresses. `0x46cc…` is a Hex Trust custody wallet. Scores are unchanged.
+- **W:** some pump-day sellers are an infrastructure operator and a market maker, and `0xb016…` is a VotingVault contract. Scores are unchanged.
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Five more v3 reports (eighth batch of the day), all ❌ FAIL on the Revenue gate: [BAND](BAND.md) enters at #43 with 4.0 / 10, [AXL](AXL.md) at #50 with 3.8, [XDC](XDC.md) at #48 with 3.8, [PROPC](PROPC.md) at #54 with 3.6 and [COTI](COTI.md) at #67 with 2.4 (it also fails the Selling gate). Arkham evidence is folded into the BAND, AXL, PROPC and COTI reports. Arkham does not cover XDC Network.
 
@@ -702,7 +717,18 @@ Score changes from that research:
 
 ---
 
-## #49 · HASH · Provenance Blockchain
+## #49 · W · Wormhole
+
+### 3.8 / 10 · ❌ FAIL
+
+- **Sections passed:** 2 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** Real cross-chain plumbing with no cash flow to the token, and lockup money that keeps reaching Binance on pump days. Arkham names some sellers as an infrastructure operator and a market maker.
+- 📄 [Full W report](W.md)
+
+---
+
+## #50 · HASH · Provenance Blockchain
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -713,7 +739,7 @@ Score changes from that research:
 
 ---
 
-## #50 · AXL · Axelar
+## #51 · AXL · Axelar
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -724,7 +750,7 @@ Score changes from that research:
 
 ---
 
-## #51 · PLUME · Plume
+## #52 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -735,7 +761,7 @@ Score changes from that research:
 
 ---
 
-## #52 · XPL · Plasma
+## #53 · XPL · Plasma
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -746,7 +772,7 @@ Score changes from that research:
 
 ---
 
-## #53 · SUI · Sui
+## #54 · SUI · Sui
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -757,7 +783,51 @@ Score changes from that research:
 
 ---
 
-## #54 · PROPC · Propchain
+## #55 · CRO · Cronos (Crypto.com)
+
+### 3.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A licensed exchange's house token whose 2021 burn was reversed, now vesting a re-minted 70B back to its issuer. Arkham cannot see Cronos POS.
+- 📄 [Full CRO report](CRO.md)
+
+---
+
+## #56 · KAIO · KAIO (formerly Libre Capital)
+
+### 3.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A credible fund-tokenization business wrapped in a 6.8%-float token whose locks live only in wallets, not code. Its liquidity wallet's relay sold 10M on three pump days.
+- 📄 [Full KAIO report](KAIO.md)
+
+---
+
+## #57 · CPOOL · Clearpool
+
+### 3.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A real institutional-credit protocol whose "cold-storage" treasury has been quietly walked onto exchanges, now diluting 43% into CLEAR.
+- 📄 [Full CPOOL report](CPOOL.md)
+
+---
+
+## #58 · HYPER · Hyperlane
+
+### 3.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 2 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** Excellent open-source plumbing with a token that pays holders nothing, unlocks every month, and whose foundation-funded wallets cashed out $5M into the one big spike. An unlabelled EOA holds another 168.4M on BNB Chain.
+- 📄 [Full HYPER report](HYPER.md)
+
+---
+
+## #59 · PROPC · Propchain
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -768,7 +838,7 @@ Score changes from that research:
 
 ---
 
-## #55 · POLYX · Polymesh
+## #60 · POLYX · Polymesh
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -779,7 +849,7 @@ Score changes from that research:
 
 ---
 
-## #56 · S · Sonic
+## #61 · S · Sonic
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -790,7 +860,7 @@ Score changes from that research:
 
 ---
 
-## #57 · ZIG · ZIGChain (Zignaly)
+## #62 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -801,7 +871,7 @@ Score changes from that research:
 
 ---
 
-## #58 · PACT · PACT
+## #63 · PACT · PACT
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -812,7 +882,7 @@ Score changes from that research:
 
 ---
 
-## #59 · EXA · Exactly Protocol
+## #64 · EXA · Exactly Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -823,7 +893,7 @@ Score changes from that research:
 
 ---
 
-## #60 · TLOS · Telos
+## #65 · TLOS · Telos
 
 ### 3.0 / 10 · ❌ FAIL
 
@@ -834,7 +904,7 @@ Score changes from that research:
 
 ---
 
-## #61 · XDB · XDB CHAIN (formerly DigitalBits)
+## #66 · XDB · XDB CHAIN (formerly DigitalBits)
 
 ### 2.9 / 10 · ❌ FAIL
 
@@ -845,7 +915,7 @@ Score changes from that research:
 
 ---
 
-## #62 · JASMY · JasmyCoin
+## #67 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -856,7 +926,7 @@ Score changes from that research:
 
 ---
 
-## #63 · SERV · OpenServ
+## #68 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -867,7 +937,7 @@ Score changes from that research:
 
 ---
 
-## #64 · MASQ · MASQ
+## #69 · MASQ · MASQ
 
 ### 2.7 / 10 · ❌ FAIL
 
@@ -878,7 +948,7 @@ Score changes from that research:
 
 ---
 
-## #65 · EDEL · Edel Finance
+## #70 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -889,7 +959,7 @@ Score changes from that research:
 
 ---
 
-## #66 · SPA · Sperax
+## #71 · SPA · Sperax
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -900,7 +970,7 @@ Score changes from that research:
 
 ---
 
-## #67 · COTI · COTI
+## #72 · COTI · COTI
 
 ### 2.4 / 10 · ❌ FAIL
 
@@ -911,7 +981,7 @@ Score changes from that research:
 
 ---
 
-## #68 · ROUTER · Solrouter
+## #73 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 

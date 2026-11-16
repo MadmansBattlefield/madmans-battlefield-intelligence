@@ -239,6 +239,16 @@
       "layout": "v3"
     },
     {
+      "id": "CPOOL",
+      "path": "banking-rails/CPOOL.md",
+      "layout": "v3"
+    },
+    {
+      "id": "CRO",
+      "path": "banking-rails/CRO.md",
+      "layout": "v3"
+    },
+    {
       "id": "DASH",
       "path": "banking-rails/DASH.md",
       "layout": "v3"
@@ -289,6 +299,11 @@
       "layout": "v3"
     },
     {
+      "id": "HYPER",
+      "path": "banking-rails/HYPER.md",
+      "layout": "v3"
+    },
+    {
       "id": "ICP",
       "path": "banking-rails/ICP.md",
       "layout": "v3"
@@ -316,6 +331,11 @@
     {
       "id": "KAIA",
       "path": "banking-rails/KAIA.md",
+      "layout": "v3"
+    },
+    {
+      "id": "KAIO",
+      "path": "banking-rails/KAIO.md",
       "layout": "v3"
     },
     {
@@ -436,6 +456,11 @@
     {
       "id": "TRAC",
       "path": "banking-rails/TRAC.md",
+      "layout": "v3"
+    },
+    {
+      "id": "W",
+      "path": "banking-rails/W.md",
       "layout": "v3"
     },
     {
