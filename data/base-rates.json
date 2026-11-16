@@ -223,8 +223,8 @@
     ]
   },
   "proven_pump_day_sale": {
-    "count": 36,
-    "share": 0.2432,
+    "count": 35,
+    "share": 0.2365,
     "tickers": [
       "ACH",
       "ALGO",
@@ -236,7 +236,6 @@
       "FXS",
       "HYPER",
       "INV",
-      "JST",
       "KAIO",
       "ONDO",
       "PACT",
@@ -489,8 +488,8 @@
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 119,
-    "share": 0.8041,
+    "count": 120,
+    "share": 0.8108,
     "tickers": [
       "ACH",
       "ADA",
@@ -536,6 +535,7 @@
       "IOST",
       "IOTX",
       "JASMY",
+      "JST",
       "KAIA",
       "KAIO",
       "KAVA",
@@ -614,10 +614,9 @@
     ]
   },
   "revenue_reaches_holders_unclear": {
-    "count": 2,
-    "share": 0.0135,
+    "count": 1,
+    "share": 0.0068,
     "tickers": [
-      "JST",
       "XEP"
     ]
   }

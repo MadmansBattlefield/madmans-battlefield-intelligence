@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:28 MST
+generated_at: 2026-11-16 14:29 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -148,20 +148,20 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [XLM](banking-rails/XLM.md) | 1 | 5.7 | 5.7 | 2 | 6 | 4 |
 | [XMR](banking-rails/XMR.md) | 1 | 5.2 | 5.2 | 2 | 7 | 9 |
 | [XNO](banking-rails/XNO.md) | 1 | 4.9 | 4.9 | 1 | 6 | 8 |
-| [XPL](banking-rails/XPL.md) | 1 | 3.7 | 3.7 | 2 | 1 | 3 |
+| [XPL](banking-rails/XPL.md) | 2 | 3.7 | 3.6 | 2 | 1 → 0 | 3 |
 | [XRP](banking-rails/XRP.md) | 1 | 5.1 | 5.1 | 2 | 4 | 3 |
 | [XVG](banking-rails/XVG.md) | 1 | 4.1 | 4.1 | 1 | 7 | 9 |
 | [YELLOW](banking-rails/YELLOW.md) | 1 | 3.2 | 3.2 | 2 | 4 | 2 |
-| [ZAMA](banking-rails/ZAMA.md) | 1 | 3.8 | 3.8 | 2 | 2 | 2 |
+| [ZAMA](banking-rails/ZAMA.md) | 2 | 3.8 | 3.5 | 2 | 2 → 0 | 2 |
 | [ZANO](banking-rails/ZANO.md) | 1 | 3.8 | 3.8 | 2 | 4 | 4 |
 | [ZBCN](banking-rails/ZBCN.md) | 3 | 4.6 | 4.0 | 4 | 5 → 1 | 4 |
 | [ZEC](banking-rails/ZEC.md) | 1 | 4.9 | 4.9 | 1 | 5 | 7 |
 | [ZEN](banking-rails/ZEN.md) | 1 | 3.7 | 3.7 | 1 | 4 | 5 |
 | [ZIG](banking-rails/ZIG.md) | 1 | 3.3 | 3.3 | 2 | 3 | 3 |
-| [ZK](banking-rails/ZK.md) | 1 | 3.8 | 3.8 | 2 | 2 | 4 |
+| [ZK](banking-rails/ZK.md) | 2 | 3.8 | 3.5 | 2 | 2 → 0 | 4 |
 | [ZKC](banking-rails/ZKC.md) | 1 | 3.4 | 3.4 | 2 | 4 | 3 |
 | [ZKJ](banking-rails/ZKJ.md) | 1 | 3.8 | 3.8 | 2 | 5 | 4 |
-| [ZKP](banking-rails/ZKP.md) | 1 | 3.4 | 3.4 | 2 | 3 | 2 |
+| [ZKP](banking-rails/ZKP.md) | 2 | 3.4 | 3.1 | 2 | 3 → 1 | 2 |
 | [ZRO](banking-rails/ZRO.md) | 1 | 5.3 | 5.3 | 4 | 5 | 3 |
 
 ## Version detail
@@ -462,14 +462,26 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **XDC** — 3.8 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
 - **XEP** — 3.1 FAIL in `e6e1480` (2026-11-16 13:52 MST).
 - **XLM** — 5.7 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
-- **XMR** — 5.2 FAIL in `16d387f` (2026-11-16 08:50 MST).
+- **XMR** — 5.2 FAIL in `f4f3267` (2026-11-16 14:29 MST).
 - **XNO** — 4.9 FAIL in `5420ac2` (2026-11-16 12:27 MST).
-- **XPL** — 3.7 FAIL in `a4bf82b` (2026-11-16 07:42 MST).
-- **XRP** — 5.1 FAIL in `6fa4721` (2026-11-15 18:37 MST).
-- **XVG** — 4.1 FAIL in `f7bbe5f` (2026-11-16 09:41 MST).
-- **YELLOW** — 3.2 FAIL in `8606bea` (2026-11-16 09:12 MST).
-- **ZAMA** — 3.8 FAIL in `74c2106` (2026-11-16 09:03 MST).
-- **ZANO** — 3.8 FAIL in `f7bbe5f` (2026-11-16 09:41 MST).
+### XPL
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `a4bf82b` | 2026-11-16 07:42 MST | 3.7 | FAIL | 2 | 1 | 3 | revenue, selling_behavior |
+| `f4f3267` | 2026-11-16 14:29 MST | 3.6 | FAIL | 2 | 0 | 3 | revenue, selling_behavior |
+
+- **XRP** — 5.1 FAIL in `f4f3267` (2026-11-16 14:29 MST).
+- **XVG** — 4.1 FAIL in `f4f3267` (2026-11-16 14:29 MST).
+- **YELLOW** — 3.2 FAIL in `f4f3267` (2026-11-16 14:29 MST).
+### ZAMA
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `74c2106` | 2026-11-16 09:03 MST | 3.8 | FAIL | 2 | 2 | 2 | revenue, selling_behavior |
+| `f4f3267` | 2026-11-16 14:29 MST | 3.5 | FAIL | 2 | 0 | 2 | revenue, selling_behavior |
+
+- **ZANO** — 3.8 FAIL in `f4f3267` (2026-11-16 14:29 MST).
 ### ZBCN
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -479,12 +491,24 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `a8496ab` | 2026-11-16 14:06 MST | 4.0 | FAIL | 4 | 1 | 4 | selling_behavior |
 
 - **ZEC** — 4.9 FAIL in `a8496ab` (2026-11-16 14:06 MST).
-- **ZEN** — 3.7 FAIL in `74c2106` (2026-11-16 09:03 MST).
-- **ZIG** — 3.3 FAIL in `395f117` (2026-11-16 06:46 MST).
-- **ZK** — 3.8 FAIL in `a4bf82b` (2026-11-16 07:42 MST).
-- **ZKC** — 3.4 FAIL in `8606bea` (2026-11-16 09:12 MST).
+- **ZEN** — 3.7 FAIL in `f4f3267` (2026-11-16 14:29 MST).
+- **ZIG** — 3.3 FAIL in `f4f3267` (2026-11-16 14:29 MST).
+### ZK
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `a4bf82b` | 2026-11-16 07:42 MST | 3.8 | FAIL | 2 | 2 | 4 | revenue, selling_behavior |
+| `f4f3267` | 2026-11-16 14:29 MST | 3.5 | FAIL | 2 | 0 | 4 | revenue, selling_behavior |
+
+- **ZKC** — 3.4 FAIL in `f4f3267` (2026-11-16 14:29 MST).
 - **ZKJ** — 3.8 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
-- **ZKP** — 3.4 FAIL in `74c2106` (2026-11-16 09:03 MST).
+### ZKP
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `74c2106` | 2026-11-16 09:03 MST | 3.4 | FAIL | 2 | 3 | 2 | revenue, selling_behavior |
+| `f4f3267` | 2026-11-16 14:29 MST | 3.1 | FAIL | 2 | 1 | 2 | revenue, selling_behavior |
+
 - **ZRO** — 5.3 FAIL in `a8496ab` (2026-11-16 14:06 MST).
 ---
 

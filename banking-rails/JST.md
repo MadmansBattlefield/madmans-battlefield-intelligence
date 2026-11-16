@@ -25,6 +25,14 @@ red_lines:
   buyback_source: "first round (19 Oct 2025): 600M JST from unlabelled whale TPyjyZ… deposited to HTX nine minutes before withdrawal and burn; owner [Unverified]"
   revenue_claims_mismatch: "self-reported net income far above DefiLlama protocol revenue; claimed cumulative burn exceeds black-hole balance by ~106.7M"
   future_unlocks_cut: "n/a, fully unlocked"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The buyback-and-burn is large and executed, but the buying runs through HTX rather than an automatic on-chain mechanism, and its funding cannot be matched to protocol revenue (DefiLlama shows $0.79M for the year). Holders have no live claim on revenue; the score describes the business, not holder accrual."
+pump_day_price_source: "Gate JST_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (29 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.143425
 price_source: "CoinGecko, 16 Nov 2026 6:00 AM MST"
 last_updated: 2026-11-16
@@ -98,6 +106,8 @@ layout_version: 3
 
 **What it means:** The burns are real and large, about 17.9% of max supply in one year, and Arkham's HTX label on the funding wallet fits buying on HTX. But the money behind them cannot be matched to independent numbers: DefiLlama shows $0.79M of protocol revenue for the whole year, while JUST reports $9.28M of net income for one quarter. The announcement also claims a cumulative 1,881,973,007 JST burned (19.01%), about **106.7M more** than the black hole holds. Part of each burn came from a one-off "historical allocation", and round 1 was one 600M block from a single whale (see Selling). Score **5** (unchanged).
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The buyback-and-burn is large and executed, but the buying runs through HTX rather than an automatic on-chain mechanism, and its funding cannot be matched to protocol revenue (DefiLlama shows $0.79M for the year). Holders have no live claim on revenue; the score describes the business, not holder accrual.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -129,6 +139,8 @@ layout_version: 3
 | `TPyjyZ…`, `TSFUtq…`, `TT2T17…` → other labelled exchanges | 0 | 0 | TronGrid |
 
 **What it means:** No JUST-linked wallet was found sending JST to an exchange, on pump days or otherwise. The large HTX flows are HTX moving its own inventory. What keeps this from passing: the biggest holders are unnamed, and one of them delivered the whole first buyback block through HTX, which could be an OTC sale to the buyback by an insider or simply a large holder selling [Unverified]. Score **5** (was 3; the hard-gate fail is lifted).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate JST_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (29 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 7/10 · ✅ PASS
 
@@ -180,8 +192,18 @@ layout_version: 3
 | Revenue claims that don't match data | 🔴 Self-reported income ≫ DefiLlama revenue; claimed cumulative burn exceeds the black-hole balance by ≈ 106.7M |
 | Buyback sourced from one holder | 🟡 Round 1: 600M from unlabelled [`TPyjyZ…Nan5`](https://tronscan.org/#/address/TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5) via HTX, nine minutes before the burn |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Burn wallet `TZJV…` | JUST burn wallet | Tronscan | high | yes | None: sends only to the black hole and JUST contracts |
+| Funding wallet | HTX (Arkham) | Arkham | medium | no | None: HTX inventory flows, not an insider sale |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Tronscan / TronGrid TRC-20 transfers and the [JST holder list](https://tronscan.org/#/token20/TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9/holders), read 16 Nov 2026
 - [Tier A] [DefiLlama JustLend](https://defillama.com/protocol/justlend) fees, revenue and TVL APIs, read 16 Nov 2026
 - [Tier B] Arkham, read 16 Nov 2026 ~6:10 AM MST (signed-in account): entity labels for [TFTW… (HTX Hot Wallet)](https://intel.arkm.com/explorer/address/TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu), [TDToU… (HTX Hot Wallet)](https://intel.arkm.com/explorer/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4), [TK86Q… (HTX Hot Wallet)](https://intel.arkm.com/explorer/address/TK86Qm97uM848dMk8G7xNbJB7zG1uW3h1n), [TMVMe… (HTX Deposit)](https://intel.arkm.com/explorer/address/TMVMeCpcR5hh1WG36Yih68t3GuChABJz4E), the four JUST proposal contracts, and "no label" for [TZJV…](https://intel.arkm.com/explorer/address/TZJVQuU3CJqBScwoxhRtkxQ7JjsNNrpEag), [TPyjyZ…](https://intel.arkm.com/explorer/address/TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5), [TSFUtq…](https://intel.arkm.com/explorer/address/TSFUtqxZyADSmkgLbpoRwyDinr3BWuT6h9), [TT2T17…](https://intel.arkm.com/explorer/address/TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N). Arkham's token filter is Enterprise-only, so counterparties are from the default first page only.

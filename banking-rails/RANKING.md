@@ -176,6 +176,10 @@ Ties are broken by how many of the 11 sections passed.
 
 ## 📝 What changed 16 Nov 2026
 
+JST (missed from batch 4): 1 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). No score changes. Unchanged: [JST](JST.md).
+
+Earlier on 16 Nov (ranks below are as of that update):
+
 Batch 8 (last of the pre-16-Nov reports): 12 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [XPL](XPL.md) Selling 1 → 0 (3.7 → 3.6, now #95); [ZAMA](ZAMA.md) Selling 2 → 0 (3.8 → 3.5, now #103); [ZK](ZK.md) Selling 2 → 0 (3.8 → 3.5, now #102); [ZKP](ZKP.md) Selling 3 → 1 (3.4 → 3.1, now #121). Unchanged: [XMR](XMR.md), [XRP](XRP.md), [XVG](XVG.md), [YELLOW](YELLOW.md), [ZANO](ZANO.md), [ZEN](ZEN.md), [ZIG](ZIG.md), [ZKC](ZKC.md).
 
 Earlier on 16 Nov (ranks below are as of that update):

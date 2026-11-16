@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:28 MST",
+  "generated_at": "2026-11-16 14:29 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -4605,9 +4605,9 @@
       "path": "banking-rails/XMR.md",
       "versions": [
         {
-          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
-          "committed_at_mst": "2026-11-16 08:50 MST",
-          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
           "overall_score": 5.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4688,6 +4688,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "overall_score": 3.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 0,
+            "tokenomics_supply": 3,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 6,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -4696,9 +4721,9 @@
       "path": "banking-rails/XRP.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
           "overall_score": 5.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4726,9 +4751,9 @@
       "path": "banking-rails/XVG.md",
       "versions": [
         {
-          "commit": "f7bbe5f9d2cc1696a9e3384d0c5441e12f7e8d18",
-          "committed_at_mst": "2026-11-16 09:41 MST",
-          "subject": "Add ZANO, WAN, XVG, SWCH v3 reports; SWCH selling not proven (4); ranking 112",
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
           "overall_score": 4.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4756,9 +4781,9 @@
       "path": "banking-rails/YELLOW.md",
       "versions": [
         {
-          "commit": "8606beaf95d6f0ae6cf53c0d69162fb41f8a0194",
-          "committed_at_mst": "2026-11-16 09:12 MST",
-          "subject": "Add RLC, YELLOW, OM, ZKC v3 reports with Arkham evidence; ZKC selling 3->4 (Anchorage custody); RLC iExec Team funding; ranking 96",
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
           "overall_score": 3.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4809,6 +4834,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "overall_score": 3.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 2,
+            "selling_behavior": 0,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -4817,9 +4867,9 @@
       "path": "banking-rails/ZANO.md",
       "versions": [
         {
-          "commit": "f7bbe5f9d2cc1696a9e3384d0c5441e12f7e8d18",
-          "committed_at_mst": "2026-11-16 09:41 MST",
-          "subject": "Add ZANO, WAN, XVG, SWCH v3 reports; SWCH selling not proven (4); ranking 112",
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4953,9 +5003,9 @@
       "path": "banking-rails/ZEN.md",
       "versions": [
         {
-          "commit": "74c21068ad6d95f03ed72b9a86c0e6a36e782f97",
-          "committed_at_mst": "2026-11-16 09:03 MST",
-          "subject": "Add TRB, ZEN, ZKP, ZAMA v3 reports with Arkham evidence; ZAMA Upbit bridge correction; TRB 2026 pump-day Coinbase deposits; ranking 92",
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4983,9 +5033,9 @@
       "path": "banking-rails/ZIG.md",
       "versions": [
         {
-          "commit": "395f117d3c3c8330a538cfcfafe909c5c7312ea5",
-          "committed_at_mst": "2026-11-16 06:46 MST",
-          "subject": "Add CARDS, ZIG, ADA, ROSE, SPA v3 reports with Arkham evidence; ranking 38 notes",
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
           "overall_score": 3.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5037,6 +5087,31 @@
             "selling_behavior"
           ],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "overall_score": 3.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 0,
+            "tokenomics_supply": 4,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 4,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -5045,9 +5120,9 @@
       "path": "banking-rails/ZKC.md",
       "versions": [
         {
-          "commit": "8606beaf95d6f0ae6cf53c0d69162fb41f8a0194",
-          "committed_at_mst": "2026-11-16 09:12 MST",
-          "subject": "Add RLC, YELLOW, OM, ZKC v3 reports with Arkham evidence; ZKC selling 3->4 (Anchorage custody); RLC iExec Team funding; ranking 96",
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
           "overall_score": 3.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5115,6 +5190,31 @@
             "foundation_team": 5,
             "insider_holdings": 2,
             "selling_behavior": 3,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
+          "committed_at_mst": "2026-11-16 14:29 MST",
+          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 2,
+            "selling_behavior": 1,
             "tokenomics_supply": 3,
             "liquidity_market": 3,
             "product_development": 5,
