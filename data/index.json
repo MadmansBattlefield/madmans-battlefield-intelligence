@@ -214,6 +214,11 @@
       "layout": "v3"
     },
     {
+      "id": "DOT",
+      "path": "banking-rails/DOT.md",
+      "layout": "v3"
+    },
+    {
       "id": "EDEL",
       "path": "banking-rails/EDEL.md",
       "layout": "v3"
@@ -229,6 +234,11 @@
       "layout": "v3"
     },
     {
+      "id": "EXA",
+      "path": "banking-rails/EXA.md",
+      "layout": "v3"
+    },
+    {
       "id": "HBAR",
       "path": "banking-rails/HBAR.md",
       "layout": "v3"
@@ -241,6 +251,11 @@
     {
       "id": "INJ",
       "path": "banking-rails/INJ.md",
+      "layout": "v3"
+    },
+    {
+      "id": "INV",
+      "path": "banking-rails/INV.md",
       "layout": "v3"
     },
     {
@@ -276,6 +291,11 @@
     {
       "id": "PLUME",
       "path": "banking-rails/PLUME.md",
+      "layout": "v3"
+    },
+    {
+      "id": "POLYX",
+      "path": "banking-rails/POLYX.md",
       "layout": "v3"
     },
     {
@@ -331,6 +351,11 @@
     {
       "id": "TAO",
       "path": "banking-rails/TAO.md",
+      "layout": "v3"
+    },
+    {
+      "id": "TRAC",
+      "path": "banking-rails/TRAC.md",
       "layout": "v3"
     },
     {

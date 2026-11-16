@@ -9,7 +9,7 @@ Research notes on tokens and protocols around digital settlement, payroll, token
 
 Not financial advice. Research only. Times are in **MST**.
 
-**Start here:** [Cover sheet](COVER.md) (why this exists, methodology, what we look at) · [Ranking](RANKING.md) (all 43 v3 scores, ranked) · [All projects](ALL-PROJECTS.md) (every name in the pipeline, including those still in progress)
+**Start here:** [Cover sheet](COVER.md) (why this exists, methodology, what we look at) · [Ranking](RANKING.md) (all 48 v3 scores, ranked) · [All projects](ALL-PROJECTS.md) (every name in the pipeline, including those still in progress)
 
 ## 📐 Report layout (v3)
 
@@ -55,27 +55,32 @@ Every token in this folder has a full v3 scored report:
 | 20 | [APT.md](APT.md) | Aptos | **5.0 / 10 · ❌ FAIL** |
 | 21 | [ZEC.md](ZEC.md) | Zcash | **4.9 / 10 · ❌ FAIL** |
 | 22 | [QUAI.md](QUAI.md) | Quai Network | **4.9 / 10 · ❌ FAIL** |
-| 23 | [DASH.md](DASH.md) | Dash | **4.7 / 10 · ❌ FAIL** |
-| 24 | [ONDO.md](ONDO.md) | Ondo | **4.7 / 10 · ❌ FAIL** |
-| 25 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
-| 26 | [API3.md](API3.md) | Api3 | **4.7 / 10 · ❌ FAIL** |
-| 27 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
-| 28 | [QNT.md](QNT.md) | Quant | **4.6 / 10 · ❌ FAIL** |
-| 29 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
-| 30 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
-| 31 | [ZBCN.md](ZBCN.md) | Zebec Network | **4.3 / 10 · ❌ FAIL** |
-| 32 | [SEI.md](SEI.md) | Sei | **4.0 / 10 · ❌ FAIL** |
-| 33 | [INJ.md](INJ.md) | Injective | **3.9 / 10 · ❌ FAIL** |
-| 34 | [ROSE.md](ROSE.md) | Oasis Network | **3.8 / 10 · ❌ FAIL** |
-| 35 | [PLUME.md](PLUME.md) | Plume | **3.7 / 10 · ❌ FAIL** |
-| 36 | [SUI.md](SUI.md) | Sui | **3.7 / 10 · ❌ FAIL** |
-| 37 | [ZIG.md](ZIG.md) | ZIGChain (Zignaly) | **3.3 / 10 · ❌ FAIL** |
-| 38 | [PACT.md](PACT.md) | PACT | **3.1 / 10 · ❌ FAIL** |
-| 39 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
-| 40 | [SERV.md](SERV.md) | OpenServ | **2.8 / 10 · ❌ FAIL** |
-| 41 | [EDEL.md](EDEL.md) | Edel Finance | **2.5 / 10 · ❌ FAIL** |
-| 42 | [SPA.md](SPA.md) | Sperax | **2.5 / 10 · ❌ FAIL** |
-| 43 | [ROUTER.md](ROUTER.md) | Solrouter | **2.2 / 10 · ❌ FAIL** |
+| 23 | [DOT.md](DOT.md) | Polkadot | **4.9 / 10 · ❌ FAIL** |
+| 24 | [INV.md](INV.md) | Inverse Finance | **4.8 / 10 · ❌ FAIL** |
+| 25 | [DASH.md](DASH.md) | Dash | **4.7 / 10 · ❌ FAIL** |
+| 26 | [ONDO.md](ONDO.md) | Ondo | **4.7 / 10 · ❌ FAIL** |
+| 27 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
+| 28 | [API3.md](API3.md) | Api3 | **4.7 / 10 · ❌ FAIL** |
+| 29 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
+| 30 | [QNT.md](QNT.md) | Quant | **4.6 / 10 · ❌ FAIL** |
+| 31 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
+| 32 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
+| 33 | [ZBCN.md](ZBCN.md) | Zebec Network | **4.3 / 10 · ❌ FAIL** |
+| 34 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
+| 35 | [SEI.md](SEI.md) | Sei | **4.0 / 10 · ❌ FAIL** |
+| 36 | [INJ.md](INJ.md) | Injective | **3.9 / 10 · ❌ FAIL** |
+| 37 | [ROSE.md](ROSE.md) | Oasis Network | **3.8 / 10 · ❌ FAIL** |
+| 38 | [PLUME.md](PLUME.md) | Plume | **3.7 / 10 · ❌ FAIL** |
+| 39 | [SUI.md](SUI.md) | Sui | **3.7 / 10 · ❌ FAIL** |
+| 40 | [POLYX.md](POLYX.md) | Polymesh | **3.3 / 10 · ❌ FAIL** |
+| 41 | [ZIG.md](ZIG.md) | ZIGChain (Zignaly) | **3.3 / 10 · ❌ FAIL** |
+| 42 | [PACT.md](PACT.md) | PACT | **3.1 / 10 · ❌ FAIL** |
+| 43 | [EXA.md](EXA.md) | Exactly Protocol | **3.1 / 10 · ❌ FAIL** |
+| 44 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
+| 45 | [SERV.md](SERV.md) | OpenServ | **2.8 / 10 · ❌ FAIL** |
+| 46 | [EDEL.md](EDEL.md) | Edel Finance | **2.5 / 10 · ❌ FAIL** |
+| 47 | [SPA.md](SPA.md) | Sperax | **2.5 / 10 · ❌ FAIL** |
+| 48 | [ROUTER.md](ROUTER.md) | Solrouter | **2.2 / 10 · ❌ FAIL** |
 | — | [other-tokens.md](other-tokens.md) | Shorter notes on other researched names | unscored |
 
 Notes are condensed from on-chain reads, official docs, regulator filings, and the [daily](../daily/) market series. Status and scores were last set on 16 Nov 2026.

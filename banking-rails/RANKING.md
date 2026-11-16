@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 43
+scored_reports: 48
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -43,33 +43,46 @@ Ties are broken by how many of the 11 sections passed.
 20. 🔴 **APT** · 5.0 · ❌ FAIL
 21. 🔴 **ZEC** · 4.9 · ❌ FAIL
 22. 🔴 **QUAI** · 4.9 · ❌ FAIL
-23. 🔴 **DASH** · 4.7 · ❌ FAIL
-24. 🔴 **ONDO** · 4.7 · ❌ FAIL
-25. 🔴 **CELO** · 4.7 · ❌ FAIL
-26. 🔴 **API3** · 4.7 · ❌ FAIL
-27. 🔴 **CARDS** · 4.7 · ❌ FAIL
-28. 🔴 **QNT** · 4.6 · ❌ FAIL
-29. 🔴 **MNT** · 4.5 · ❌ FAIL
-30. 🔴 **ICP** · 4.3 · ❌ FAIL
-31. 🔴 **ZBCN** · 4.3 · ❌ FAIL
-32. 🔴 **SEI** · 4.0 · ❌ FAIL
-33. 🔴 **INJ** · 3.9 · ❌ FAIL
-34. 🔴 **ROSE** · 3.8 · ❌ FAIL
-35. 🔴 **PLUME** · 3.7 · ❌ FAIL
-36. 🔴 **SUI** · 3.7 · ❌ FAIL
-37. 🔴 **ZIG** · 3.3 · ❌ FAIL
-38. 🔴 **PACT** · 3.1 · ❌ FAIL
-39. 🔴 **JASMY** · 2.8 · ❌ FAIL
-40. 🔴 **SERV** · 2.8 · ❌ FAIL
-41. 🔴 **EDEL** · 2.5 · ❌ FAIL
-42. 🔴 **SPA** · 2.5 · ❌ FAIL
-43. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+23. 🔴 **DOT** · 4.9 · ❌ FAIL
+24. 🔴 **INV** · 4.8 · ❌ FAIL
+25. 🔴 **DASH** · 4.7 · ❌ FAIL
+26. 🔴 **ONDO** · 4.7 · ❌ FAIL
+27. 🔴 **CELO** · 4.7 · ❌ FAIL
+28. 🔴 **API3** · 4.7 · ❌ FAIL
+29. 🔴 **CARDS** · 4.7 · ❌ FAIL
+30. 🔴 **QNT** · 4.6 · ❌ FAIL
+31. 🔴 **MNT** · 4.5 · ❌ FAIL
+32. 🔴 **ICP** · 4.3 · ❌ FAIL
+33. 🔴 **ZBCN** · 4.3 · ❌ FAIL
+34. 🔴 **TRAC** · 4.2 · ❌ FAIL
+35. 🔴 **SEI** · 4.0 · ❌ FAIL
+36. 🔴 **INJ** · 3.9 · ❌ FAIL
+37. 🔴 **ROSE** · 3.8 · ❌ FAIL
+38. 🔴 **PLUME** · 3.7 · ❌ FAIL
+39. 🔴 **SUI** · 3.7 · ❌ FAIL
+40. 🔴 **POLYX** · 3.3 · ❌ FAIL
+41. 🔴 **ZIG** · 3.3 · ❌ FAIL
+42. 🔴 **PACT** · 3.1 · ❌ FAIL
+43. 🔴 **EXA** · 3.1 · ❌ FAIL
+44. 🔴 **JASMY** · 2.8 · ❌ FAIL
+45. 🔴 **SERV** · 2.8 · ❌ FAIL
+46. 🔴 **EDEL** · 2.5 · ❌ FAIL
+47. 🔴 **SPA** · 2.5 · ❌ FAIL
+48. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**7 of 43 pass.**
+**7 of 48 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Five more v3 reports (fourth batch of the day), all ❌ FAIL: [DOT](DOT.md) enters at #23 with 4.9 / 10 (Revenue gate), [INV](INV.md) at #24 with 4.8 (no gate, below 6.0), [TRAC](TRAC.md) at #34 with 4.2 (Revenue gate), [POLYX](POLYX.md) at #40 with 3.3 (Revenue and Selling gates) and [EXA](EXA.md) at #43 with 3.1 (Revenue gate). INV, TRAC and EXA were checked against Arkham labels before ranking; Arkham does not cover Polkadot or Polymesh. No score changed from the Arkham pass:
+
+- [INV](INV.md): Arkham labels the Policy Committee Safe "Inverse Finance", a second source for the treasury-funded CoW selling. It was already tied to Inverse by governance (mill 259), so Selling stays 4: fixed-size DCA through CoW, proceeds back to the treasury, and the suspected exchange destinations were INVEscrow staking proxies.
+- [TRAC](TRAC.md): Arkham labels none of the 11 wallets as Trace Labs, so attribution still rests on the on-chain multisig-signer proof. It confirms the Wintermute route and shows the two KuCoin-feeding wallets also reaching Crypto.com, Coinbase and Bitget. Owner of the 60M wallet stays unverified. (Sections passed corrected to 4 of 11.)
+- [EXA](EXA.md): the team/investor streams sit in Sablier V2 Lockup Dynamic (2.67M EXA). The wallet said to be Uphold is not labelled Uphold, so that stays unverified; a wallet fed by a stream recipient sold into Velodrome pools.
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Five more v3 reports (third batch of the day), all ❌ FAIL: [ZEC](ZEC.md) enters at #21 with 4.9 / 10 (Revenue gate), [API3](API3.md) at #26 with 4.7 (Selling gate), [ICP](ICP.md) at #30 with 4.3 (Revenue gate), [INJ](INJ.md) at #33 with 3.9 (Revenue gate) and [SUI](SUI.md) at #36 with 3.7 (Revenue and Selling gates). API3 and INJ were checked against Arkham labels before ranking; Arkham does not cover Sui, ICP or Zcash addresses. No score changed from the Arkham pass:
 
@@ -353,7 +366,29 @@ Score changes from that research:
 
 ---
 
-## #23 · DASH · Dash
+## #23 · DOT · Polkadot
+
+### 4.9 / 10 · ❌ FAIL
+
+- **Sections passed:** 5 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A real, actively built network with a public foundation, a US ETF and a new 2.1B hard cap, but almost no usage revenue (DefiLlama: $3,868 of fees in a year). Web3 Foundation-linked wallets fed 33.1M DOT into an unidentified service, 4.0M of it on pump days. Arkham does not cover Polkadot.
+- 📄 [Full DOT report](DOT.md)
+
+---
+
+## #24 · INV · Inverse Finance
+
+### 4.8 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** none
+- **Verdict:** Real revenue ($3.75M a year on a $6.2M cap) but an illiquid token governance can mint without a cap, two 2022 exploits, and a Policy Committee multisig (Arkham: Inverse Finance) that DCA-sold INV through CoW, including on pump days, with no sale post found.
+- 📄 [Full INV report](INV.md)
+
+---
+
+## #25 · DASH · Dash
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -364,7 +399,7 @@ Score changes from that research:
 
 ---
 
-## #24 · ONDO · Ondo
+## #26 · ONDO · Ondo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -375,7 +410,7 @@ Score changes from that research:
 
 ---
 
-## #25 · CELO · Celo
+## #27 · CELO · Celo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -386,7 +421,7 @@ Score changes from that research:
 
 ---
 
-## #26 · API3 · Api3
+## #28 · API3 · Api3
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -397,7 +432,7 @@ Score changes from that research:
 
 ---
 
-## #27 · CARDS · Collector Crypt
+## #29 · CARDS · Collector Crypt
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -408,7 +443,7 @@ Score changes from that research:
 
 ---
 
-## #28 · QNT · Quant
+## #30 · QNT · Quant
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -419,7 +454,7 @@ Score changes from that research:
 
 ---
 
-## #29 · MNT · Mantle
+## #31 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -430,7 +465,7 @@ Score changes from that research:
 
 ---
 
-## #30 · ICP · Internet Computer
+## #32 · ICP · Internet Computer
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -441,7 +476,7 @@ Score changes from that research:
 
 ---
 
-## #31 · ZBCN · Zebec Network
+## #33 · ZBCN · Zebec Network
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -452,7 +487,18 @@ Score changes from that research:
 
 ---
 
-## #32 · SEI · Sei
+## #34 · TRAC · OriginTrail
+
+### 4.2 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A real knowledge-graph network with a fixed 500M supply but no protocol revenue, and a founder-controlled treasury of 100M+ TRAC that moves through unlabelled wallets and bridges with no published accounting. Arkham labels none of those wallets; it confirms the Wintermute route.
+- 📄 [Full TRAC report](TRAC.md)
+
+---
+
+## #35 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -463,7 +509,7 @@ Score changes from that research:
 
 ---
 
-## #33 · INJ · Injective
+## #36 · INJ · Injective
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -474,7 +520,7 @@ Score changes from that research:
 
 ---
 
-## #34 · ROSE · Oasis Network
+## #37 · ROSE · Oasis Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -485,7 +531,7 @@ Score changes from that research:
 
 ---
 
-## #35 · PLUME · Plume
+## #38 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -496,7 +542,7 @@ Score changes from that research:
 
 ---
 
-## #36 · SUI · Sui
+## #39 · SUI · Sui
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -507,7 +553,18 @@ Score changes from that research:
 
 ---
 
-## #37 · ZIG · ZIGChain (Zignaly)
+## #40 · POLYX · Polymesh
+
+### 3.3 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A well-engineered securities chain that almost nobody pays to use (~$120 of fees a year), ~10% yearly inflation, and foundation-side wallets that fed 187M POLYX into one exchange-style deposit address, 33M of it on pump days. Arkham does not cover Polymesh.
+- 📄 [Full POLYX report](POLYX.md)
+
+---
+
+## #41 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -518,7 +575,7 @@ Score changes from that research:
 
 ---
 
-## #38 · PACT · PACT
+## #42 · PACT · PACT
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -529,7 +586,18 @@ Score changes from that research:
 
 ---
 
-## #39 · JASMY · JasmyCoin
+## #43 · EXA · Exactly Protocol
+
+### 3.1 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A working lending protocol with a near-untradeable token: no holder revenue, ~$700 a day of volume, a 2023 hack, and insider Sablier streams (2.67M EXA left) unlocking into thin DEX pools until 2028; Arkham shows a second stream-fed wallet selling into Velodrome.
+- 📄 [Full EXA report](EXA.md)
+
+---
+
+## #44 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -540,7 +608,7 @@ Score changes from that research:
 
 ---
 
-## #40 · SERV · OpenServ
+## #45 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -551,7 +619,7 @@ Score changes from that research:
 
 ---
 
-## #41 · EDEL · Edel Finance
+## #46 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -562,7 +630,7 @@ Score changes from that research:
 
 ---
 
-## #42 · SPA · Sperax
+## #47 · SPA · Sperax
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -573,7 +641,7 @@ Score changes from that research:
 
 ---
 
-## #43 · ROUTER · Solrouter
+## #48 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 

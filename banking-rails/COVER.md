@@ -1,7 +1,7 @@
 ---
 title: Banking rails cover sheet
 layout_version: 3
-scored_reports: 43
+scored_reports: 48
 last_updated: 2026-11-16
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell. Not the work of a licensed fiduciary.
@@ -122,7 +122,7 @@ Reports also carry **🚩 red lines** that are token-specific (for example a liq
 
 ## 📋 What is scored so far
 
-All 43 tokens in this folder have a full v3 report: [BTC](BTC.md), [ETH](ETH.md), [LINK](LINK.md), [SKY](SKY.md), [SOL](SOL.md), [AERO](AERO.md), [CC](CC.md), [XLM](XLM.md), [ENA](ENA.md), [BNKR](BNKR.md), [AVAX](AVAX.md), [TAO](TAO.md), [JST](JST.md), [HBAR](HBAR.md), [ZRO](ZRO.md), [BP](BP.md), [XRP](XRP.md), [ADA](ADA.md), [ALGO](ALGO.md), [APT](APT.md), [ZEC](ZEC.md), [QUAI](QUAI.md), [DASH](DASH.md), [ONDO](ONDO.md), [CELO](CELO.md), [API3](API3.md), [CARDS](CARDS.md), [QNT](QNT.md), [MNT](MNT.md), [ICP](ICP.md), [ZBCN](ZBCN.md), [SEI](SEI.md), [INJ](INJ.md), [ROSE](ROSE.md), [PLUME](PLUME.md), [SUI](SUI.md), [ZIG](ZIG.md), [PACT](PACT.md), [JASMY](JASMY.md), [SERV](SERV.md), [EDEL](EDEL.md), [SPA](SPA.md), [ROUTER](ROUTER.md).
+All 48 tokens in this folder have a full v3 report: [BTC](BTC.md), [ETH](ETH.md), [LINK](LINK.md), [SKY](SKY.md), [SOL](SOL.md), [AERO](AERO.md), [CC](CC.md), [XLM](XLM.md), [ENA](ENA.md), [BNKR](BNKR.md), [AVAX](AVAX.md), [TAO](TAO.md), [JST](JST.md), [HBAR](HBAR.md), [ZRO](ZRO.md), [BP](BP.md), [XRP](XRP.md), [ADA](ADA.md), [ALGO](ALGO.md), [APT](APT.md), [ZEC](ZEC.md), [QUAI](QUAI.md), [DOT](DOT.md), [INV](INV.md), [DASH](DASH.md), [ONDO](ONDO.md), [CELO](CELO.md), [API3](API3.md), [CARDS](CARDS.md), [QNT](QNT.md), [MNT](MNT.md), [ICP](ICP.md), [ZBCN](ZBCN.md), [TRAC](TRAC.md), [SEI](SEI.md), [INJ](INJ.md), [ROSE](ROSE.md), [PLUME](PLUME.md), [SUI](SUI.md), [POLYX](POLYX.md), [ZIG](ZIG.md), [PACT](PACT.md), [EXA](EXA.md), [JASMY](JASMY.md), [SERV](SERV.md), [EDEL](EDEL.md), [SPA](SPA.md), [ROUTER](ROUTER.md).
 
 ---
 
