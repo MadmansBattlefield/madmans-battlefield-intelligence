@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 198
+scored_reports: 179
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -134,98 +134,80 @@ Ties are broken by how many of the 11 sections passed.
 111. 🔴 **CTC** · 3.6 · ❌ FAIL
 112. 🔴 **ZK** · 3.5 · ❌ FAIL
 113. 🔴 **SHPING** · 3.5 · ❌ FAIL
-114. 🔴 **NUVA** · 3.5 · ❌ FAIL
-115. 🔴 **RBNT** · 3.5 · ❌ FAIL
-116. 🔴 **S** · 3.5 · ❌ FAIL
-117. 🔴 **WIREX** · 3.5 · ❌ FAIL
-118. 🔴 **ZKP** · 3.5 · ❌ FAIL
-119. 🔴 **TX** · 3.5 · ❌ FAIL
-120. 🔴 **KTA** · 3.5 · ❌ FAIL
-121. 🔴 **MTL** · 3.5 · ❌ FAIL
-122. 🔴 **CHEX** · 3.5 · ❌ FAIL
-123. 🔴 **ZKC** · 3.4 · ❌ FAIL
-124. 🔴 **SKEY** · 3.4 · ❌ FAIL
-125. 🔴 **OM** · 3.4 · ❌ FAIL
-126. 🔴 **PUNDIX** · 3.4 · ❌ FAIL
-127. 🔴 **ETN** · 3.4 · ❌ FAIL
-128. 🔴 **KLV** · 3.4 · ❌ FAIL
-129. 🔴 **BKN** · 3.4 · ❌ FAIL
-130. 🔴 **CPOOL** · 3.3 · ❌ FAIL
-131. 🔴 **HAI** · 3.3 · ❌ FAIL
-132. 🔴 **ZIG** · 3.3 · ❌ FAIL
-133. 🔴 **STBL** · 3.3 · ❌ FAIL
-134. 🔴 **SHARE** · 3.3 · ❌ FAIL
-135. 🔴 **AEON** · 3.3 · ❌ FAIL
-136. 🔴 **ARRR** · 3.3 · ❌ FAIL
-137. 🔴 **MAPO** · 3.3 · ❌ FAIL
-138. 🔴 **CTX** · 3.2 · ❌ FAIL
-139. 🔴 **YELLOW** · 3.2 · ❌ FAIL
-140. 🔴 **LUMIA** · 3.2 · ❌ FAIL
-141. 🔴 **DOVU** · 3.2 · ❌ FAIL
-142. 🔴 **IXS** · 3.2 · ❌ FAIL
-143. 🔴 **AON** · 3.1 · ❌ FAIL
-144. 🔴 **FIGR** · 3.1 · ❌ FAIL
-145. 🔴 **KAVA** · 3.1 · ❌ FAIL
-146. 🔴 **XEP** · 3.1 · ❌ FAIL
-147. 🔴 **EXA** · 3.1 · ❌ FAIL
-148. 🔴 **HONEY** · 3.1 · ❌ FAIL
-149. 🔴 **CSPR** · 3.1 · ❌ FAIL
-150. 🔴 **IOST** · 3.1 · ❌ FAIL
-151. 🔴 **TLOS** · 3.1 · ❌ FAIL
-152. 🔴 **METAL** · 3.1 · ❌ FAIL
-153. 🔴 **MDT** · 3.1 · ❌ FAIL
-154. 🔴 **BLZ** · 3.1 · ❌ FAIL
-155. 🔴 **EOS** · 3.1 · ❌ FAIL
-156. 🔴 **LINGO** · 3.1 · ❌ FAIL
-157. 🔴 **POLYX** · 3.0 · ❌ FAIL
-158. 🔴 **ORAI** · 3.0 · ❌ FAIL
-159. 🔴 **EL** · 3.0 · ❌ FAIL
-160. 🔴 **WADZ** · 3.0 · ❌ FAIL
-161. 🔴 **CASHLINK** · 2.9 · ❌ FAIL
-162. 🔴 **XLB** · 2.9 · ❌ FAIL
-163. 🔴 **XDB** · 2.9 · ❌ FAIL
-164. 🔴 **PACT** · 2.9 · ❌ FAIL
-165. 🔴 **EPICCASH** · 2.9 · ❌ FAIL
-166. 🔴 **HANDLE** · 2.9 · ❌ FAIL
-167. 🔴 **DCJPY** · 2.8 · ❌ FAIL
-168. 🔴 **JASMY** · 2.8 · ❌ FAIL
-169. 🔴 **CTRLALT** · 2.7 · ❌ FAIL
-170. 🔴 **LIBEARA** · 2.7 · ❌ FAIL
-171. 🔴 **MASQ** · 2.7 · ❌ FAIL
-172. 🔴 **CRYSTAL** · 2.7 · ❌ FAIL
-173. 🔴 **LOFTY** · 2.7 · ❌ FAIL
-174. 🔴 **MORPH** · 2.7 · ❌ FAIL
-175. 🔴 **VVPR** · 2.7 · ❌ FAIL
-176. 🔴 **RIO** · 2.7 · ❌ FAIL
-177. 🔴 **COTI** · 2.7 · ❌ FAIL
-178. 🔴 **HECTO** · 2.7 · ❌ FAIL
-179. 🔴 **ZKME** · 2.7 · ❌ FAIL
-180. 🔴 **SERV** · 2.6 · ❌ FAIL
-181. 🔴 **SCRT** · 2.6 · ❌ FAIL
-182. 🔴 **PALMUSD** · 2.6 · ❌ FAIL
-183. 🔴 **STOKR** · 2.6 · ❌ FAIL
-184. 🔴 **GOLDFINGER** · 2.6 · ❌ FAIL
-185. 🔴 **EDEL** · 2.5 · ❌ FAIL
-186. 🔴 **SWCH** · 2.5 · ❌ FAIL
-187. 🔴 **MNSRY** · 2.5 · ❌ FAIL
-188. 🔴 **CPH** · 2.5 · ❌ FAIL
-189. 🔴 **SUKUKFI** · 2.5 · ❌ FAIL
-190. 🔴 **H** · 2.4 · ❌ FAIL
-191. 🔴 **SPA** · 2.2 · ❌ FAIL
-192. 🔴 **REALIZ** · 2.1 · ❌ FAIL
-193. 🔴 **ROUTER** · 2.0 · ❌ FAIL
-194. 🔴 **SIBERIUM** · 1.9 · ❌ FAIL
-195. 🔴 **ADEL** · 1.9 · ❌ FAIL
-196. 🔴 **CARDWALLET** · 1.9 · ❌ FAIL
-197. 🔴 **MTR** · 1.9 · ❌ FAIL
-198. 🔴 **MPATH** · 1.8 · ❌ FAIL
+114. 🔴 **RBNT** · 3.5 · ❌ FAIL
+115. 🔴 **S** · 3.5 · ❌ FAIL
+116. 🔴 **WIREX** · 3.5 · ❌ FAIL
+117. 🔴 **ZKP** · 3.5 · ❌ FAIL
+118. 🔴 **TX** · 3.5 · ❌ FAIL
+119. 🔴 **KTA** · 3.5 · ❌ FAIL
+120. 🔴 **MTL** · 3.5 · ❌ FAIL
+121. 🔴 **CHEX** · 3.5 · ❌ FAIL
+122. 🔴 **ZKC** · 3.4 · ❌ FAIL
+123. 🔴 **SKEY** · 3.4 · ❌ FAIL
+124. 🔴 **OM** · 3.4 · ❌ FAIL
+125. 🔴 **PUNDIX** · 3.4 · ❌ FAIL
+126. 🔴 **ETN** · 3.4 · ❌ FAIL
+127. 🔴 **KLV** · 3.4 · ❌ FAIL
+128. 🔴 **BKN** · 3.4 · ❌ FAIL
+129. 🔴 **CPOOL** · 3.3 · ❌ FAIL
+130. 🔴 **HAI** · 3.3 · ❌ FAIL
+131. 🔴 **ZIG** · 3.3 · ❌ FAIL
+132. 🔴 **STBL** · 3.3 · ❌ FAIL
+133. 🔴 **SHARE** · 3.3 · ❌ FAIL
+134. 🔴 **AEON** · 3.3 · ❌ FAIL
+135. 🔴 **ARRR** · 3.3 · ❌ FAIL
+136. 🔴 **MAPO** · 3.3 · ❌ FAIL
+137. 🔴 **CTX** · 3.2 · ❌ FAIL
+138. 🔴 **YELLOW** · 3.2 · ❌ FAIL
+139. 🔴 **LUMIA** · 3.2 · ❌ FAIL
+140. 🔴 **DOVU** · 3.2 · ❌ FAIL
+141. 🔴 **IXS** · 3.2 · ❌ FAIL
+142. 🔴 **KAVA** · 3.1 · ❌ FAIL
+143. 🔴 **XEP** · 3.1 · ❌ FAIL
+144. 🔴 **EXA** · 3.1 · ❌ FAIL
+145. 🔴 **HONEY** · 3.1 · ❌ FAIL
+146. 🔴 **CSPR** · 3.1 · ❌ FAIL
+147. 🔴 **IOST** · 3.1 · ❌ FAIL
+148. 🔴 **TLOS** · 3.1 · ❌ FAIL
+149. 🔴 **METAL** · 3.1 · ❌ FAIL
+150. 🔴 **MDT** · 3.1 · ❌ FAIL
+151. 🔴 **BLZ** · 3.1 · ❌ FAIL
+152. 🔴 **EOS** · 3.1 · ❌ FAIL
+153. 🔴 **LINGO** · 3.1 · ❌ FAIL
+154. 🔴 **POLYX** · 3.0 · ❌ FAIL
+155. 🔴 **ORAI** · 3.0 · ❌ FAIL
+156. 🔴 **EL** · 3.0 · ❌ FAIL
+157. 🔴 **XDB** · 2.9 · ❌ FAIL
+158. 🔴 **PACT** · 2.9 · ❌ FAIL
+159. 🔴 **EPICCASH** · 2.9 · ❌ FAIL
+160. 🔴 **HANDLE** · 2.9 · ❌ FAIL
+161. 🔴 **JASMY** · 2.8 · ❌ FAIL
+162. 🔴 **MASQ** · 2.7 · ❌ FAIL
+163. 🔴 **RIO** · 2.7 · ❌ FAIL
+164. 🔴 **COTI** · 2.7 · ❌ FAIL
+165. 🔴 **HECTO** · 2.7 · ❌ FAIL
+166. 🔴 **SERV** · 2.6 · ❌ FAIL
+167. 🔴 **SCRT** · 2.6 · ❌ FAIL
+168. 🔴 **PALMUSD** · 2.6 · ❌ FAIL
+169. 🔴 **GOLDFINGER** · 2.6 · ❌ FAIL
+170. 🔴 **EDEL** · 2.5 · ❌ FAIL
+171. 🔴 **SWCH** · 2.5 · ❌ FAIL
+172. 🔴 **MNSRY** · 2.5 · ❌ FAIL
+173. 🔴 **CPH** · 2.5 · ❌ FAIL
+174. 🔴 **H** · 2.4 · ❌ FAIL
+175. 🔴 **SPA** · 2.2 · ❌ FAIL
+176. 🔴 **REALIZ** · 2.1 · ❌ FAIL
+177. 🔴 **ROUTER** · 2.0 · ❌ FAIL
+178. 🔴 **SIBERIUM** · 1.9 · ❌ FAIL
+179. 🔴 **MTR** · 1.9 · ❌ FAIL
 
-**7 of 198 pass.**
+**7 of 179 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
 
+- **Excluded from the ranking (16 Nov 2026):** 15 entries that are not tokens (stocks AON, FIGR and VVPR; the ETF XLB; companies CASHLINK, CRYSTAL, CTRLALT, LIBEARA, LOFTY and STOKR; the bank deposit token DCJPY; MORPH, which uses BGB; ZKME, not launched; SUKUKFI and NUVA, vault shares or points only) moved to [NOT-A-TOKEN.md](../NOT-A-TOKEN.md). ADEL, CARDWALLET, MPATH and WADZ moved to [DEAD.md](../DEAD.md). Their short reports stay published but no longer count toward the ranking, scoreboard or base rates. Ranks below were renumbered.
 - **New v3 reports (STEP 4, coins 41–50):** [VVPR](VVPR.md) at #175 with 2.7, [XLB](XLB.md) at #162 with 2.9, [ZKME](ZKME.md) at #179 with 2.7, [SUKUKFI](SUKUKFI.md) at #189 with 2.5, [DDSC](DDSC.md) at #71 with 3.9, [GOLDFINGER](GOLDFINGER.md) at #184 with 2.6, [HANDLE](HANDLE.md) at #166 with 2.9, [MTR](MTR.md) at #197 with 1.9, [WADZ](WADZ.md) at #160 with 3.0, [MPATH](MPATH.md) at #198 with 1.8. All fail (gates: Revenue). No Arkham pass yet, so attributions that rest only on an unlabelled address are low confidence; Selling uses the amended one-hop rule.
 - **New v3 reports (STEP 4, coins 31–40):** [AON](AON.md) at #142 with 3.1, [CASHLINK](CASHLINK.md) at #159 with 2.9, [CRYSTAL](CRYSTAL.md) at #168 with 2.7, [CTRLALT](CTRLALT.md) at #165 with 2.7, [DCJPY](DCJPY.md) at #163 with 2.8, [FIGR](FIGR.md) at #143 with 3.1, [LIBEARA](LIBEARA.md) at #166 with 2.7, [LOFTY](LOFTY.md) at #169 with 2.7, [MORPH](MORPH.md) at #170 with 2.7, [STOKR](STOKR.md) at #177 with 2.6. All fail (gates: Revenue). No Arkham pass yet, so attributions that rest only on an unlabelled address are low confidence; Selling uses the amended one-hop rule.
 - **New v3 reports (STEP 4, coins 21–30):** [HAI](HAI.md) at #130 with 3.3, [BKN](BKN.md) at #128 with 3.4, [CPH](CPH.md) at #171 with 2.5, [DOVU](DOVU.md) at #140 with 3.2, [CTX](CTX.md) at #137 with 3.2, [IXS](IXS.md) at #141 with 3.2, [HECTO](HECTO.md) at #164 with 2.7, [BPRO](BPRO.md) at #92 with 3.8, [ADEL](ADEL.md) at #177 with 1.9, [CARDWALLET](CARDWALLET.md) at #178 with 1.9. All fail (gates: Revenue). No Arkham pass yet, so attributions that rest only on an unlabelled address are low confidence; Selling uses the amended one-hop rule.
@@ -1723,18 +1705,7 @@ Score changes from that research:
 
 ---
 
-## #114 · NUVA · NUVA Finance
-
-### 3.5 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** An RWA vault marketplace with points but no token; nothing accrues to a NUVA holder because none exists.
-- 📄 [Full NUVA report](NUVA.md)
-
----
-
-## #115 · RBNT · Redbelly Network
+## #114 · RBNT · Redbelly Network
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1745,7 +1716,7 @@ Score changes from that research:
 
 ---
 
-## #116 · S · Sonic
+## #115 · S · Sonic
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1756,7 +1727,7 @@ Score changes from that research:
 
 ---
 
-## #117 · WIREX · Wirex
+## #116 · WIREX · Wirex
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1767,7 +1738,7 @@ Score changes from that research:
 
 ---
 
-## #118 · ZKP · zkPass
+## #117 · ZKP · zkPass
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1778,7 +1749,7 @@ Score changes from that research:
 
 ---
 
-## #119 · TX · TX (Coreum + Sologenic)
+## #118 · TX · TX (Coreum + Sologenic)
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1789,7 +1760,7 @@ Score changes from that research:
 
 ---
 
-## #120 · KTA · Keeta
+## #119 · KTA · Keeta
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1800,7 +1771,7 @@ Score changes from that research:
 
 ---
 
-## #121 · MTL · Metal DAO
+## #120 · MTL · Metal DAO
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1811,7 +1782,7 @@ Score changes from that research:
 
 ---
 
-## #122 · CHEX · Chintai
+## #121 · CHEX · Chintai
 
 ### 3.5 / 10 · ❌ FAIL
 
@@ -1822,7 +1793,7 @@ Score changes from that research:
 
 ---
 
-## #123 · ZKC · Boundless
+## #122 · ZKC · Boundless
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1833,7 +1804,7 @@ Score changes from that research:
 
 ---
 
-## #124 · SKEY · Skey Network
+## #123 · SKEY · Skey Network
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1844,7 +1815,7 @@ Score changes from that research:
 
 ---
 
-## #125 · OM · MANTRA
+## #124 · OM · MANTRA
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1855,7 +1826,7 @@ Score changes from that research:
 
 ---
 
-## #126 · PUNDIX · Pundi X
+## #125 · PUNDIX · Pundi X
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1866,7 +1837,7 @@ Score changes from that research:
 
 ---
 
-## #127 · ETN · Electroneum
+## #126 · ETN · Electroneum
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1877,7 +1848,7 @@ Score changes from that research:
 
 ---
 
-## #128 · KLV · Klever
+## #127 · KLV · Klever
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1888,7 +1859,7 @@ Score changes from that research:
 
 ---
 
-## #129 · BKN · Brickken
+## #128 · BKN · Brickken
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1899,7 +1870,7 @@ Score changes from that research:
 
 ---
 
-## #130 · CPOOL · Clearpool
+## #129 · CPOOL · Clearpool
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1910,7 +1881,7 @@ Score changes from that research:
 
 ---
 
-## #131 · HAI · Hacken (HAI)
+## #130 · HAI · Hacken (HAI)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1921,7 +1892,7 @@ Score changes from that research:
 
 ---
 
-## #132 · ZIG · ZIGChain (Zignaly)
+## #131 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1932,7 +1903,7 @@ Score changes from that research:
 
 ---
 
-## #133 · STBL · STBL
+## #132 · STBL · STBL
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1943,7 +1914,7 @@ Score changes from that research:
 
 ---
 
-## #134 · SHARE · ShareX
+## #133 · SHARE · ShareX
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1954,7 +1925,7 @@ Score changes from that research:
 
 ---
 
-## #135 · AEON · AEON
+## #134 · AEON · AEON
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1965,7 +1936,7 @@ Score changes from that research:
 
 ---
 
-## #136 · ARRR · Pirate Chain
+## #135 · ARRR · Pirate Chain
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1976,7 +1947,7 @@ Score changes from that research:
 
 ---
 
-## #137 · MAPO · MAP Protocol
+## #136 · MAPO · MAP Protocol
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1987,7 +1958,7 @@ Score changes from that research:
 
 ---
 
-## #138 · CTX · Cryptex Finance
+## #137 · CTX · Cryptex Finance
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -1998,7 +1969,7 @@ Score changes from that research:
 
 ---
 
-## #139 · YELLOW · Yellow Network
+## #138 · YELLOW · Yellow Network
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -2009,7 +1980,7 @@ Score changes from that research:
 
 ---
 
-## #140 · LUMIA · Lumia
+## #139 · LUMIA · Lumia
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -2020,7 +1991,7 @@ Score changes from that research:
 
 ---
 
-## #141 · DOVU · DOVU
+## #140 · DOVU · DOVU
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -2031,7 +2002,7 @@ Score changes from that research:
 
 ---
 
-## #142 · IXS · IX Swap (IXS)
+## #141 · IXS · IX Swap (IXS)
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -2042,29 +2013,7 @@ Score changes from that research:
 
 ---
 
-## #143 · AON · Aon plc (not a coin)
-
-### 3.1 / 10 · ❌ FAIL
-
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** AON is the stock ticker of Aon plc, a listed insurance broker; there is no investable token to score.
-- 📄 [Full AON report](AON.md)
-
----
-
-## #144 · FIGR · Figure Technology (not a coin)
-
-### 3.1 / 10 · ❌ FAIL
-
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** FIGR is the stock ticker of Figure Technology Solutions, a listed lending and blockchain company; there is no investable token to score.
-- 📄 [Full FIGR report](FIGR.md)
-
----
-
-## #145 · KAVA · Kava
+## #142 · KAVA · Kava
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2075,7 +2024,7 @@ Score changes from that research:
 
 ---
 
-## #146 · XEP · Electra Protocol
+## #143 · XEP · Electra Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2086,7 +2035,7 @@ Score changes from that research:
 
 ---
 
-## #147 · EXA · Exactly Protocol
+## #144 · EXA · Exactly Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2097,7 +2046,7 @@ Score changes from that research:
 
 ---
 
-## #148 · HONEY · Hivemapper
+## #145 · HONEY · Hivemapper
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2108,7 +2057,7 @@ Score changes from that research:
 
 ---
 
-## #149 · CSPR · Casper Network
+## #146 · CSPR · Casper Network
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2119,7 +2068,7 @@ Score changes from that research:
 
 ---
 
-## #150 · IOST · IOST
+## #147 · IOST · IOST
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2130,7 +2079,7 @@ Score changes from that research:
 
 ---
 
-## #151 · TLOS · Telos
+## #148 · TLOS · Telos
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2141,7 +2090,7 @@ Score changes from that research:
 
 ---
 
-## #152 · METAL · Metal Blockchain
+## #149 · METAL · Metal Blockchain
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2152,7 +2101,7 @@ Score changes from that research:
 
 ---
 
-## #153 · MDT · Measurable Data Token
+## #150 · MDT · Measurable Data Token
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2163,7 +2112,7 @@ Score changes from that research:
 
 ---
 
-## #154 · BLZ · Bluzelle
+## #151 · BLZ · Bluzelle
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2174,7 +2123,7 @@ Score changes from that research:
 
 ---
 
-## #155 · EOS · EOS (now Vaulta)
+## #152 · EOS · EOS (now Vaulta)
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2185,7 +2134,7 @@ Score changes from that research:
 
 ---
 
-## #156 · LINGO · Lingo
+## #153 · LINGO · Lingo
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -2196,7 +2145,7 @@ Score changes from that research:
 
 ---
 
-## #157 · POLYX · Polymesh
+## #154 · POLYX · Polymesh
 
 ### 3.0 / 10 · ❌ FAIL
 
@@ -2207,7 +2156,7 @@ Score changes from that research:
 
 ---
 
-## #158 · ORAI · Oraichain
+## #155 · ORAI · Oraichain
 
 ### 3.0 / 10 · ❌ FAIL
 
@@ -2218,7 +2167,7 @@ Score changes from that research:
 
 ---
 
-## #159 · EL · ELYSIA
+## #156 · EL · ELYSIA
 
 ### 3.0 / 10 · ❌ FAIL
 
@@ -2229,40 +2178,7 @@ Score changes from that research:
 
 ---
 
-## #160 · WADZ · WadzPay (WTK → WCO)
-
-### 3.0 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** A payments token migrated to WCO, with no holder revenue.
-- 📄 [Full WADZ report](WADZ.md)
-
----
-
-## #161 · CASHLINK · Cashlink (no token)
-
-### 2.9 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** Cashlink is a German BaFin-regulated platform for issuing tokenized securities under the eWpG; there is no investable token to score.
-- 📄 [Full CASHLINK report](CASHLINK.md)
-
----
-
-## #162 · XLB · XLB (an ETF, not a coin)
-
-### 2.9 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** XLB is the Materials Select Sector SPDR ETF; there is no investable token to score.
-- 📄 [Full XLB report](XLB.md)
-
----
-
-## #163 · XDB · XDB CHAIN (formerly DigitalBits)
+## #157 · XDB · XDB CHAIN (formerly DigitalBits)
 
 ### 2.9 / 10 · ❌ FAIL
 
@@ -2273,7 +2189,7 @@ Score changes from that research:
 
 ---
 
-## #164 · PACT · PACT
+## #158 · PACT · PACT
 
 ### 2.9 / 10 · ❌ FAIL
 
@@ -2284,7 +2200,7 @@ Score changes from that research:
 
 ---
 
-## #165 · EPICCASH · Epic Cash
+## #159 · EPICCASH · Epic Cash
 
 ### 2.9 / 10 · ❌ FAIL
 
@@ -2295,7 +2211,7 @@ Score changes from that research:
 
 ---
 
-## #166 · HANDLE · HandlPay (HANDL)
+## #160 · HANDLE · HandlPay (HANDL)
 
 ### 2.9 / 10 · ❌ FAIL
 
@@ -2306,18 +2222,7 @@ Score changes from that research:
 
 ---
 
-## #167 · DCJPY · DCJPY (bank deposit token, no public coin)
-
-### 2.8 / 10 · ❌ FAIL
-
-- **Sections passed:** 2 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** DCJPY is a yen deposit-token network run by DeCurret DCP with Japanese banks; there is no investable token to score.
-- 📄 [Full DCJPY report](DCJPY.md)
-
----
-
-## #168 · JASMY · JasmyCoin
+## #161 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -2328,29 +2233,7 @@ Score changes from that research:
 
 ---
 
-## #169 · CTRLALT · Ctrl Alt (no token)
-
-### 2.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 2 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** Ctrl Alt is an institutional tokenization platform (real estate, funds, private markets); there is no investable token to score.
-- 📄 [Full CTRLALT report](CTRLALT.md)
-
----
-
-## #170 · LIBEARA · Libeara (no token)
-
-### 2.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 2 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** Libeara is a tokenization platform for funds and bonds, incubated by SC Ventures (Standard Chartered); there is no investable token to score.
-- 📄 [Full LIBEARA report](LIBEARA.md)
-
----
-
-## #171 · MASQ · MASQ
+## #162 · MASQ · MASQ
 
 ### 2.7 / 10 · ❌ FAIL
 
@@ -2361,51 +2244,7 @@ Score changes from that research:
 
 ---
 
-## #172 · CRYSTAL · Crystal Intelligence (no token)
-
-### 2.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 1 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** Crystal Intelligence is a blockchain-analytics and AML company for banks and payment firms; there is no investable token to score.
-- 📄 [Full CRYSTAL report](CRYSTAL.md)
-
----
-
-## #173 · LOFTY · Lofty (no platform token)
-
-### 2.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 1 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** Lofty is a US real-estate tokenization marketplace that sells per-property tokens on Algorand; there is no investable token to score.
-- 📄 [Full LOFTY report](LOFTY.md)
-
----
-
-## #174 · MORPH · Morph L2 (no separate token)
-
-### 2.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 1 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** Morph is a consumer-payments layer-2 that uses Bitget's BGB as its native gas and governance token; there is no investable token to score.
-- 📄 [Full MORPH report](MORPH.md)
-
----
-
-## #175 · VVPR · VivoPower (not a coin)
-
-### 2.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 1 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** VVPR is the Nasdaq ticker of VivoPower International, a listed company that has pursued an XRP-treasury strategy; there is no investable token to score.
-- 📄 [Full VVPR report](VVPR.md)
-
----
-
-## #176 · RIO · Realio Network
+## #163 · RIO · Realio Network
 
 ### 2.7 / 10 · ❌ FAIL
 
@@ -2416,7 +2255,7 @@ Score changes from that research:
 
 ---
 
-## #177 · COTI · COTI
+## #164 · COTI · COTI
 
 ### 2.7 / 10 · ❌ FAIL
 
@@ -2427,7 +2266,7 @@ Score changes from that research:
 
 ---
 
-## #178 · HECTO · Hecto
+## #165 · HECTO · Hecto
 
 ### 2.7 / 10 · ❌ FAIL
 
@@ -2438,18 +2277,7 @@ Score changes from that research:
 
 ---
 
-## #179 · ZKME · zkMe (no token launched)
-
-### 2.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** zkMe sells reusable zero-knowledge KYC credentials; there is no investable token to score.
-- 📄 [Full ZKME report](ZKME.md)
-
----
-
-## #180 · SERV · OpenServ
+## #166 · SERV · OpenServ
 
 ### 2.6 / 10 · ❌ FAIL
 
@@ -2460,7 +2288,7 @@ Score changes from that research:
 
 ---
 
-## #181 · SCRT · Secret Network
+## #167 · SCRT · Secret Network
 
 ### 2.6 / 10 · ❌ FAIL
 
@@ -2471,7 +2299,7 @@ Score changes from that research:
 
 ---
 
-## #182 · PALMUSD · Palm USD (PUSD)
+## #168 · PALMUSD · Palm USD (PUSD)
 
 ### 2.6 / 10 · ❌ FAIL
 
@@ -2482,18 +2310,7 @@ Score changes from that research:
 
 ---
 
-## #183 · STOKR · STOKR (no token)
-
-### 2.6 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** STOKR is a Luxembourg-based platform that issues security tokens for companies (for example a bitcoin-mining note); there is no investable token to score.
-- 📄 [Full STOKR report](STOKR.md)
-
----
-
-## #184 · GOLDFINGER · GoldFinger (GF)
+## #169 · GOLDFINGER · GoldFinger (GF)
 
 ### 2.6 / 10 · ❌ FAIL
 
@@ -2504,7 +2321,7 @@ Score changes from that research:
 
 ---
 
-## #185 · EDEL · Edel Finance
+## #170 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -2515,7 +2332,7 @@ Score changes from that research:
 
 ---
 
-## #186 · SWCH · SwissCheese
+## #171 · SWCH · SwissCheese
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -2526,7 +2343,7 @@ Score changes from that research:
 
 ---
 
-## #187 · MNSRY · Mansory Token
+## #172 · MNSRY · Mansory Token
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -2537,7 +2354,7 @@ Score changes from that research:
 
 ---
 
-## #188 · CPH · Cypherium
+## #173 · CPH · Cypherium
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -2548,18 +2365,7 @@ Score changes from that research:
 
 ---
 
-## #189 · SUKUKFI · SukukFi (no token)
-
-### 2.5 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** SukukFi is a Berachain credit marketplace that finances telecom supplier invoices through vault shares (duPRT); there is no investable token to score.
-- 📄 [Full SUKUKFI report](SUKUKFI.md)
-
----
-
-## #190 · H · Humanity Protocol
+## #174 · H · Humanity Protocol
 
 ### 2.4 / 10 · ❌ FAIL
 
@@ -2570,7 +2376,7 @@ Score changes from that research:
 
 ---
 
-## #191 · SPA · Sperax
+## #175 · SPA · Sperax
 
 ### 2.2 / 10 · ❌ FAIL
 
@@ -2581,7 +2387,7 @@ Score changes from that research:
 
 ---
 
-## #192 · REALIZ · Realiz (TPT30)
+## #176 · REALIZ · Realiz (TPT30)
 
 ### 2.1 / 10 · ❌ FAIL
 
@@ -2592,7 +2398,7 @@ Score changes from that research:
 
 ---
 
-## #193 · ROUTER · Solrouter
+## #177 · ROUTER · Solrouter
 
 ### 2.0 / 10 · ❌ FAIL
 
@@ -2603,7 +2409,7 @@ Score changes from that research:
 
 ---
 
-## #194 · SIBERIUM · Siberium Network (SIBR)
+## #178 · SIBERIUM · Siberium Network (SIBR)
 
 ### 1.9 / 10 · ❌ FAIL
 
@@ -2614,29 +2420,7 @@ Score changes from that research:
 
 ---
 
-## #195 · ADEL · Akropolis Delphi
-
-### 1.9 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** A defunct 2020 DeFi governance token; candidate for the dead list.
-- 📄 [Full ADEL report](ADEL.md)
-
----
-
-## #196 · CARDWALLET · CardWallet (CW)
-
-### 1.9 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** A defunct wallet token; candidate for the dead list.
-- 📄 [Full CARDWALLET report](CARDWALLET.md)
-
----
-
-## #197 · MTR · Meter (MTR / MTRG)
+## #179 · MTR · Meter (MTR / MTRG)
 
 ### 1.9 / 10 · ❌ FAIL
 
@@ -2644,21 +2428,6 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** A chain halted by a 2026 exploit, now in token recovery.
 - 📄 [Full MTR report](MTR.md)
-
----
-
-## #198 · MPATH · MPATH (Hive token, wound down)
-
-### 1.8 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** A Hive reward token wound down in 2021; candidate for the dead list.
-- 📄 [Full MPATH report](MPATH.md)
-
----
-
-Shorter notes on other names, not scored, are in [other-tokens.md](other-tokens.md).
 
 ---
 

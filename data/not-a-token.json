@@ -1,0 +1,143 @@
+{
+  "title": "Not a token",
+  "last_updated": "2026-11-16",
+  "timezone_label": "MST",
+  "policy": "Entries here are stocks, ETFs, companies, bank deposit tokens or projects with no public token of their own. Their short report files stay published for the record, but they are excluded from RANKING.md, from the scoreboard and from every base rate, so the pass and fail statistics cover real tokens only.",
+  "entries": [
+    {
+      "ticker": "AON",
+      "name": "Aon plc (not a coin)",
+      "kind": "stock",
+      "reason": "AON is the stock ticker of Aon plc, a listed insurance broker. Aon ran a stablecoin premium-payment pilot with Coinbase and Paxos in Mar 2026, and third parties sell tokenized AON shares, but Aon issues no crypto token.",
+      "source": "https://aon.mediaroom.com/2026-03-09-Aon-Announces-First-Stablecoin-Insurance-Premium-Payment",
+      "report": "banking-rails/AON.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "CASHLINK",
+      "name": "Cashlink (no token)",
+      "kind": "company",
+      "reason": "Cashlink is a German BaFin-regulated platform for issuing tokenized securities under the eWpG. It issues tokens for clients' bonds, funds and real estate, but has no token of its own.",
+      "source": "https://cashlink.de/en/",
+      "report": "banking-rails/CASHLINK.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "CRYSTAL",
+      "name": "Crystal Intelligence (no token)",
+      "kind": "company",
+      "reason": "Crystal Intelligence is a blockchain-analytics and AML company for banks and payment firms. It sells compliance software and has no token.",
+      "source": "https://crystalintelligence.com/crypto-transaction-monitoring-for-banks/",
+      "report": "banking-rails/CRYSTAL.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "CTRLALT",
+      "name": "Ctrl Alt (no token)",
+      "kind": "company",
+      "reason": "Ctrl Alt is an institutional tokenization platform (real estate, funds, private markets). It says it has tokenised about $1.2B of assets and received FCA authorisation, but it has no token of its own.",
+      "source": "https://ctrl-alt.co/",
+      "report": "banking-rails/CTRLALT.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "DCJPY",
+      "name": "DCJPY (bank deposit token, no public coin)",
+      "kind": "bank deposit token",
+      "reason": "DCJPY is a yen deposit-token network run by DeCurret DCP with Japanese banks. Deposit tokens are bank liabilities on a permissioned network; there is no publicly traded token.",
+      "source": "https://www.dcjpy.com/",
+      "report": "banking-rails/DCJPY.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "FIGR",
+      "name": "Figure Technology (not a coin)",
+      "kind": "stock",
+      "reason": "FIGR is the stock ticker of Figure Technology Solutions, a listed lending and blockchain company. Figure runs the Provenance blockchain, whose HASH token has its own report, but FIGR itself is equity, not a coin.",
+      "source": "https://www.figure.com/",
+      "report": "banking-rails/FIGR.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "LIBEARA",
+      "name": "Libeara (no token)",
+      "kind": "company",
+      "reason": "Libeara is a tokenization platform for funds and bonds, incubated by SC Ventures (Standard Chartered). It tokenizes clients' fund units and has no token of its own.",
+      "source": "https://www.libeara.com/",
+      "report": "banking-rails/LIBEARA.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "LOFTY",
+      "name": "Lofty (no platform token)",
+      "kind": "company",
+      "reason": "Lofty is a US real-estate tokenization marketplace that sells per-property tokens on Algorand. Each property has its own token; there is no Lofty platform token to score.",
+      "source": "https://www.lofty.ai/",
+      "report": "banking-rails/LOFTY.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "MORPH",
+      "name": "Morph L2 (no separate token)",
+      "kind": "uses BGB",
+      "reason": "Morph is a consumer-payments layer-2 that uses Bitget's BGB as its native gas and governance token. Morph says it will not issue a separate MORPH token, so any \"MORPH\" price feed is not Morph's.",
+      "source": "https://blog.morph.network/a-new-era-for-morph-with-bgb-as-the-native-token/",
+      "report": "banking-rails/MORPH.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "NUVA",
+      "name": "NUVA Finance (no NUVA token; vault tokens HOME, nvPRIME, nvYLDS)",
+      "kind": "points and vault tokens only",
+      "reason": "NUVA is an Ethereum marketplace for tokenized real-world-asset vaults, co-created by Animoca Brands and Nuva Labs and launched on 12 May 2026. There is no NUVA token, only NUVA Points, so there is nothing for holders to own and no revenue reaching a token.",
+      "source": "https://etherscan.io/address/0xdc1c0534109e2db74fe800c84096547541607859",
+      "report": "banking-rails/NUVA.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "STOKR",
+      "name": "STOKR (no token)",
+      "kind": "company",
+      "reason": "STOKR is a Luxembourg-based platform that issues security tokens for companies (for example a bitcoin-mining note). It has no token of its own.",
+      "source": "https://stokr.io/",
+      "report": "banking-rails/STOKR.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "SUKUKFI",
+      "name": "SukukFi (no token)",
+      "kind": "vault shares only",
+      "reason": "SukukFi is a Berachain credit marketplace that finances telecom supplier invoices through vault shares (duPRT). It has no governance token; duPRT is a vault share with no live secondary market.",
+      "source": "https://docs.sukuk.fi/overview",
+      "report": "banking-rails/SUKUKFI.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "VVPR",
+      "name": "VivoPower (not a coin)",
+      "kind": "stock",
+      "reason": "VVPR is the Nasdaq ticker of VivoPower International, a listed company that has pursued an XRP-treasury strategy. It holds crypto but issues no token of its own.",
+      "source": "https://www.vivopower.com/",
+      "report": "banking-rails/VVPR.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "XLB",
+      "name": "XLB (an ETF, not a coin)",
+      "kind": "ETF",
+      "reason": "XLB is the Materials Select Sector SPDR ETF. Third parties sell tokenized ETF shares (for example rXLB), but they are claims on the ETF, not a crypto project.",
+      "source": "https://app.rwa.xyz/assets/XLB",
+      "report": "banking-rails/XLB.md",
+      "moved_on": "2026-11-16"
+    },
+    {
+      "ticker": "ZKME",
+      "name": "zkMe (no token launched)",
+      "kind": "not launched",
+      "reason": "zkMe sells reusable zero-knowledge KYC credentials. It has mentioned a future governance token, but none has launched or listed as of 16 Nov 2026.",
+      "source": "https://www.zk.me/company/about/",
+      "report": "banking-rails/ZKME.md",
+      "moved_on": "2026-11-16"
+    }
+  ]
+}

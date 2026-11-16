@@ -50,7 +50,7 @@
     "revenue_reaches_holders": "no",
     "revenue_mechanism": "The team says the token was cut off from the business, and the buyback stopped after 5 Oct 2025.",
     "pump_day_price_source": "Gate PROPC/USDT daily closes",
-    "pump_day_disclosure_quality": "buried_disclosure",
+    "pump_day_disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
     "attributions": []
@@ -66,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/PROPC.md",
-    "sha256": "c86716fe0b68aea1ddba4748c70d4fa0b109d23c07f8cb72ef6ba33f0ac06dd2",
-    "bytes": 26866,
-    "extracted_at": "2026-11-16 15:04 MST",
+    "sha256": "1972219e3aa76cfc938cac0e31cbd1498f816b8097ab0891c7b5fc61bfdaf885",
+    "bytes": 26975,
+    "extracted_at": "2026-11-16 15:09 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -338,7 +338,7 @@
     "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
-    "disclosure_quality": "buried_disclosure",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [

@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:04 MST",
+  "generated_at": "2026-11-16 15:09 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -1615,7 +1615,32 @@
     {
       "ticker": "DDSC",
       "path": "banking-rails/DDSC.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1f4032d448a6b8505c482deb5b87eb88bd83bed0",
+          "committed_at_mst": "2026-11-16 15:04 MST",
+          "subject": "STEP 4: v3 reports VVPR XLB ZKME SUKUKFI DDSC GOLDFINGER HANDLE MTR WADZ MPATH",
+          "overall_score": 3.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 8,
+            "insider_holdings": 5,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 1,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 5,
+            "regulatory": 8,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "DIA",
@@ -2257,7 +2282,32 @@
     {
       "ticker": "GOLDFINGER",
       "path": "banking-rails/GOLDFINGER.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1f4032d448a6b8505c482deb5b87eb88bd83bed0",
+          "committed_at_mst": "2026-11-16 15:04 MST",
+          "subject": "STEP 4: v3 reports VVPR XLB ZKME SUKUKFI DDSC GOLDFINGER HANDLE MTR WADZ MPATH",
+          "overall_score": 2.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 2,
+            "liquidity_market": 2,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 3,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "GRND",
@@ -2352,7 +2402,32 @@
     {
       "ticker": "HANDLE",
       "path": "banking-rails/HANDLE.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1f4032d448a6b8505c482deb5b87eb88bd83bed0",
+          "committed_at_mst": "2026-11-16 15:04 MST",
+          "subject": "STEP 4: v3 reports VVPR XLB ZKME SUKUKFI DDSC GOLDFINGER HANDLE MTR WADZ MPATH",
+          "overall_score": 2.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 1,
+            "product_development": 5,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "HASH",
@@ -3505,7 +3580,32 @@
     {
       "ticker": "MPATH",
       "path": "banking-rails/MPATH.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1f4032d448a6b8505c482deb5b87eb88bd83bed0",
+          "committed_at_mst": "2026-11-16 15:04 MST",
+          "subject": "STEP 4: v3 reports VVPR XLB ZKME SUKUKFI DDSC GOLDFINGER HANDLE MTR WADZ MPATH",
+          "overall_score": 1.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 2,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 1,
+            "liquidity_market": 0,
+            "product_development": 0,
+            "adoption_customers": 0,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 0
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "MTL",
@@ -3540,7 +3640,32 @@
     {
       "ticker": "MTR",
       "path": "banking-rails/MTR.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1f4032d448a6b8505c482deb5b87eb88bd83bed0",
+          "committed_at_mst": "2026-11-16 15:04 MST",
+          "subject": "STEP 4: v3 reports VVPR XLB ZKME SUKUKFI DDSC GOLDFINGER HANDLE MTR WADZ MPATH",
+          "overall_score": 1.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 3,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 2,
+            "liquidity_market": 0,
+            "product_development": 2,
+            "adoption_customers": 1,
+            "security_audits": 0,
+            "regulatory": 4,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "NEXA",
@@ -5414,7 +5539,32 @@
     {
       "ticker": "SUKUKFI",
       "path": "banking-rails/SUKUKFI.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1f4032d448a6b8505c482deb5b87eb88bd83bed0",
+          "committed_at_mst": "2026-11-16 15:04 MST",
+          "subject": "STEP 4: v3 reports VVPR XLB ZKME SUKUKFI DDSC GOLDFINGER HANDLE MTR WADZ MPATH",
+          "overall_score": 2.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "SUPRA",
@@ -5905,7 +6055,32 @@
     {
       "ticker": "VVPR",
       "path": "banking-rails/VVPR.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1f4032d448a6b8505c482deb5b87eb88bd83bed0",
+          "committed_at_mst": "2026-11-16 15:04 MST",
+          "subject": "STEP 4: v3 reports VVPR XLB ZKME SUKUKFI DDSC GOLDFINGER HANDLE MTR WADZ MPATH",
+          "overall_score": 2.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "W",
@@ -5965,7 +6140,32 @@
     {
       "ticker": "WADZ",
       "path": "banking-rails/WADZ.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1f4032d448a6b8505c482deb5b87eb88bd83bed0",
+          "committed_at_mst": "2026-11-16 15:04 MST",
+          "subject": "STEP 4: v3 reports VVPR XLB ZKME SUKUKFI DDSC GOLDFINGER HANDLE MTR WADZ MPATH",
+          "overall_score": 3.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 1,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "WAN",
@@ -6119,7 +6319,32 @@
     {
       "ticker": "XLB",
       "path": "banking-rails/XLB.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1f4032d448a6b8505c482deb5b87eb88bd83bed0",
+          "committed_at_mst": "2026-11-16 15:04 MST",
+          "subject": "STEP 4: v3 reports VVPR XLB ZKME SUKUKFI DDSC GOLDFINGER HANDLE MTR WADZ MPATH",
+          "overall_score": 2.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 7,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 7,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "XLM",
@@ -6777,7 +7002,32 @@
     {
       "ticker": "ZKME",
       "path": "banking-rails/ZKME.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1f4032d448a6b8505c482deb5b87eb88bd83bed0",
+          "committed_at_mst": "2026-11-16 15:04 MST",
+          "subject": "STEP 4: v3 reports VVPR XLB ZKME SUKUKFI DDSC GOLDFINGER HANDLE MTR WADZ MPATH",
+          "overall_score": 2.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 0,
+            "liquidity_market": 0,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "ZKP",

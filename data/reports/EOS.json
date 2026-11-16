@@ -62,9 +62,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/EOS.md",
-    "sha256": "025c90a1a3fa5588100cc9361ebe1e54141cfc136c41812f4ead483b7f63e35d",
-    "bytes": 7853,
-    "extracted_at": "2026-11-16 15:04 MST",
+    "sha256": "4a0b81a9a4c0adfd8a7d5388301a5cd408e6e23f81f111b583c7e4375f9a33d0",
+    "bytes": 8164,
+    "extracted_at": "2026-11-16 15:09 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

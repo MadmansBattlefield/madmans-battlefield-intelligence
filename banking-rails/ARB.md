@@ -29,7 +29,7 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "Sequencer revenue goes to the DAO treasury; there is no burn, buyback, fee share or fee-funded staking yield to holders. Holders have no live claim on revenue; the score describes the business, not holder accrual."
 pump_day_price_source: "Gate ARB/USDT daily closes"
-pump_day_disclosure_quality: buried_disclosure
+pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions: []
@@ -144,7 +144,7 @@ layout_version: 3
 
 **What it means:** This is disclosed, programmatic conversion, not covert dumping. But 137.5M ARB reached an exchange venue on pump days, including the biggest rally of the year, with no trade-level disclosure. **5, unchanged after the Arkham pass.** Arkham confirms the venue (Coinbase Prime, whose hot wallet is tagged OTC as well as custody), which matches the Foundation's disclosed tri-party custody and "ARB conversions". It does not show which deposits were sold. Selling is the swing factor: a 6 would lift the overall to 89.5 / 15 = 5.97, rounded to 6.0, a PASS. That would need trade-level proof that pump-day deposits were held, not sold, and the Foundation only discloses conversions in general. Not proven counts as a fail, so it stays 5.
 
-- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** The Foundation discloses its custody arrangement and "ARB conversions" but not the trades, so this is partial disclosure and no penalty applies; Selling stays 5. Pump days from Gate ARB/USDT daily closes.
+- **Disclosure quality (16 Nov 2026 rules): not applicable** (cleanup 16 Nov 2026: the sale is not proven under the one-hop amendment, so no disclosure grade applies). Context: The Foundation discloses its custody arrangement and "ARB conversions" but not the trades, so this is partial disclosure and no penalty applies; Selling stays 5. Pump days from Gate ARB/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 

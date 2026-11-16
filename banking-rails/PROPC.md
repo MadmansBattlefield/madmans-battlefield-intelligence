@@ -29,7 +29,7 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "The team says the token was cut off from the business, and the buyback stopped after 5 Oct 2025."
 pump_day_price_source: "Gate PROPC/USDT daily closes"
-pump_day_disclosure_quality: buried_disclosure
+pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions: []
@@ -142,7 +142,7 @@ layout_version: 3
 
 **What it means:** The Liquidity bucket is disclosed, so routing it to exchanges is not hidden. But the EOAs doing it are not disclosed, it continues into pumps (two Sep 2026 pump days), and it outran the buybacks by a wide margin. The corrected totals are smaller, but the pattern holds. **4** (unchanged).
 
-- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** The Liquidity bucket is disclosed but the EOAs and their exchange sends are not, so disclosure is partial and no penalty applies; Selling stays 4. Pump days from Gate PROPC/USDT daily closes.
+- **Disclosure quality (16 Nov 2026 rules): not applicable** (cleanup 16 Nov 2026: the sale is not proven under the one-hop amendment, so no disclosure grade applies). Context: The Liquidity bucket is disclosed but the EOAs and their exchange sends are not, so disclosure is partial and no penalty applies; Selling stays 4. Pump days from Gate PROPC/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 

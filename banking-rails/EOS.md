@@ -69,6 +69,8 @@ layout_version: 3
 
 > **One line:** A legacy ticker after the Vaulta rebrand; almost no market remains.
 
+> **Note (16 Nov 2026):** The EOS network is now **Vaulta**, and its live token is **A** ([CoinGecko `vaulta`](https://www.coingecko.com/en/coins/vaulta): about $113M market cap and $6.2M of daily volume on 16 Nov 2026). This report covers only the legacy EOS ticker. No separate report on A has been written.
+
 | 📊 Market (CoinGecko `eos`, 16 Nov 2026 ~3:00 PM MST) | 🔗 Chain |
 |---|---|
 | **Price** $0.068 | **Supply** 2.1B max; CoinGecko circulating 0 |

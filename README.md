@@ -16,10 +16,10 @@ Times in this repository are in **MST**.
 
 | Path | What it is |
 |---|---|
-| [banking-rails/](banking-rails/) | Token research: 198 v3 scored reports, ranked, plus short stubs |
+| [banking-rails/](banking-rails/) | Token research: 179 v3 scored reports, ranked, plus short stubs |
 | [banking-rails/COVER.md](banking-rails/COVER.md) | Why the reports exist, the v3 scoring method, and what each section checks |
-| [banking-rails/RANKING.md](banking-rails/RANKING.md) | Ranked v3 scores for all 198 reports |
-| [banking-rails/ALL-PROJECTS.md](banking-rails/ALL-PROJECTS.md) | Every project in the pipeline: 198 scored reports plus 95 still in progress |
+| [banking-rails/RANKING.md](banking-rails/RANKING.md) | Ranked v3 scores for all 179 reports |
+| [banking-rails/ALL-PROJECTS.md](banking-rails/ALL-PROJECTS.md) | Every project in the pipeline: 179 scored reports, the not-a-token and dead lists, and 95 still in progress |
 | [daily/](daily/) | One report per day, as `YYYY-MM-DD.md` (readable) and `YYYY-MM-DD.json` (machine-readable) |
 | [calendar.md](calendar.md) | Upcoming market events |
 | [sources.md](sources.md) | Vetted source list and the verification rule |
@@ -27,6 +27,7 @@ Times in this repository are in **MST**.
 | [HISTORY.md](HISTORY.md) | Score history for every published report |
 | [BASE-RATES.md](BASE-RATES.md) | Pass rate, gate fails, pump-day sales, and holder-accrual rates |
 | [DEAD.md](DEAD.md) | Dated "moved to dead" list and negative controls |
+| [NOT-A-TOKEN.md](NOT-A-TOKEN.md) | Stocks, ETFs, companies and no-token projects kept out of the ranking and base rates |
 | [REPRODUCE.md](REPRODUCE.md) | How to re-run the pump-day test and which public APIs were used |
 | [REVIEW-FLAGS.md](REVIEW-FLAGS.md) | Published scores flagged for review; scores were not changed |
 | [data/index.json](data/index.json) | Machine index of every daily report and token note |

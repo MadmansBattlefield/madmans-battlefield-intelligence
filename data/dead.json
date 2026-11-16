@@ -1,10 +1,20 @@
 {
   "title": "Moved to dead",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 15:04 MST",
+  "generated_at": "2026-11-16 15:09 MST",
   "policy": "A published v3 report that fails is never removed from the ranking in silence. It stays on RANKING.md until a dated entry is added here with a reason. Unscored pipeline names can move here for official shutdowns, unfixed exploits, wind-downs, or a documented dying-market skip. Other scan warnings such as thin volume stay warnings until they are formally moved.",
   "dying_market_skip_rule": "Market cap under $1M and 24h volume under $10k, as of a dated public market read, and only when an explicit entry is added on this list.",
   "entries": [
+    {
+      "ticker": "ADEL",
+      "name": "Akropolis Delphi",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": false,
+      "had_v3_score": true,
+      "reason": "Probably dead (16 Nov 2026): Akropolis Delphi app inactive; Etherscan flags the website as down, market cap about $5k, 30-day DEX volume in the tens of dollars; CoinGecko id akropolis-delphi returns 'coin not found'. [Etherscan](https://etherscan.io/token/0x94d863173ee77439e4292284ff13fad54b3ba182)"
+    },
     {
       "ticker": "ANC",
       "name": "Anchor Protocol",
@@ -24,6 +34,16 @@
       "unverified": true,
       "had_v3_score": false,
       "reason": "Ares Protocol has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "CARDWALLET",
+      "name": "CardWallet (CW)",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": false,
+      "had_v3_score": true,
+      "reason": "Probably dead (16 Nov 2026): Etherscan flags the website as down and shows zero recent transfers and $0 circulating market cap; CryptoRank marks CW inactive; CoinGecko id cardwallet returns 'coin not found'. [Etherscan](https://etherscan.io/token/0xd55236d48606c295adebf129dad04fc74bfaa708)"
     },
     {
       "ticker": "CBL",
@@ -143,6 +163,16 @@
       "unverified": true,
       "had_v3_score": false,
       "reason": "Mobius Finance has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "MPATH",
+      "name": "MPATH (Hive token, wound down)",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": true,
+      "reason": "Wound down: the operator announced in Nov 2021 that MPATH votes and rewards would stop and remaining tokens would be bought back. [Announcement](https://ecency.com/@mpath/mpath-announcement)"
     },
     {
       "ticker": "NEON",
@@ -273,6 +303,16 @@
       "unverified": false,
       "had_v3_score": false,
       "reason": "Neutrino USD (Waves) depegged and is no longer on CoinGecko under USDN. CoinPaprika’s usdn-neutrino-usd ticker returns 404. (The remaining CoinGecko “Neutrino Index Token” is XTN, a different token.)"
+    },
+    {
+      "ticker": "WADZ",
+      "name": "WadzPay (WTK → WCO)",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "probably_dead",
+      "unverified": false,
+      "had_v3_score": true,
+      "reason": "Probably dead (16 Nov 2026): WTK was retired after a 1:1 swap into WadzCoin (WCO) and the old contract is unsupported; the successor WCO shows about $1.1M market cap and $15k 24h volume on CoinGecko. [MEXC swap notice](https://www.mexc.com/announcements/article/mexc-completes-the-wadzpay-token-wtk-token-swap-and-rebranding-to-wadzcoin-wco-17827791519633)"
     },
     {
       "ticker": "WIT",

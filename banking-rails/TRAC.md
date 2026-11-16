@@ -28,7 +28,7 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"
 revenue_mechanism: "Publishers pay TRAC that is distributed to stakers on-chain, which counts as staking yield from fees, but no total is published; Revenue stays 2."
 pump_day_price_source: "Coinbase TRAC-USD daily closes"
-pump_day_disclosure_quality: buried_disclosure
+pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions: []
@@ -148,7 +148,7 @@ Pump days come from Coinbase TRAC-USD daily closes (available from 2 Nov 2021); 
 
 **What it means:** No large direct dump was found, but treasury-funded wallets reached exchanges and a market maker on pump days, and the market-maker amounts were not disclosed. Per the rules (funding a wallet that sells on a pump day without disclosure), this fails. It is not at gate level, because the amounts are small against supply and the main flows are bridges. **4, unchanged after the Arkham pass:** Arkham confirms the Wintermute route and shows the two KuCoin-feeding wallets also reaching Crypto.com, Coinbase and Bitget, but labels none of the 11 wallets as Trace Labs, so it neither strengthens nor weakens the attribution.
 
-- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** The market-maker partnership was announced but the amount was not, so disclosure is partial and no penalty applies; Selling stays 4. Pump days from Coinbase TRAC-USD daily closes.
+- **Disclosure quality (16 Nov 2026 rules): not applicable** (cleanup 16 Nov 2026: the sale is not proven under the one-hop amendment, so no disclosure grade applies). Context: The market-maker partnership was announced but the amount was not, so disclosure is partial and no penalty applies; Selling stays 4. Pump days from Coinbase TRAC-USD daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 

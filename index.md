@@ -21,11 +21,12 @@ Times are in **MST**.
 - [banking-rails/](banking-rails/) — token and protocol research notes
 - [Cover sheet](banking-rails/COVER.md) — why the reports exist and how they are scored
 - [METHODOLOGY.md](METHODOLOGY.md) — full v3 rulebook, including the 16 Nov 2026 upgrades
-- [Ranking](banking-rails/RANKING.md) — all 198 v3 scores, ranked
+- [Ranking](banking-rails/RANKING.md) — all 179 v3 scores, ranked
 - [All projects](banking-rails/ALL-PROJECTS.md) — every project in the pipeline, grouped by status
 - [HISTORY.md](HISTORY.md) — score history for every published report
 - [BASE-RATES.md](BASE-RATES.md) — pass rate, gate fails, and pump-day base rates
 - [DEAD.md](DEAD.md) — dated "moved to dead" list and negative controls
+- [NOT-A-TOKEN.md](NOT-A-TOKEN.md) — stocks, ETFs, companies and no-token projects kept out of the ranking and base rates
 - [REPRODUCE.md](REPRODUCE.md) — how to re-run the pump-day test
 - [REVIEW-FLAGS.md](REVIEW-FLAGS.md) — published scores flagged for review
 - [daily/](daily/) — daily market reports (Markdown + JSON)

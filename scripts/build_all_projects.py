@@ -49,7 +49,7 @@ SECTIONS = [
     ("Catal", 10),
 ]
 
-STATUS_ORDER = ["done", "close", "wallet", "gaps", "dead"]
+STATUS_ORDER = ["done", "close", "wallet", "gaps", "notatoken", "dead"]
 
 SCAN_STATUS_MAP = {
     "done": "done",
@@ -59,6 +59,8 @@ SCAN_STATUS_MAP = {
     "gaps": "gaps",
     "big-gaps": "gaps",
     "dead": "dead",
+    "not-a-token": "notatoken",
+    "notatoken": "notatoken",
 }
 
 # First 15 of the Close group, in the recommended rebuild order.
@@ -223,6 +225,7 @@ PROJECT_KEYS = [
     "gaps",
     "old_score",
     "dead_reason",
+    "notatoken_reason",
     "report",
     "draft",
     "market_url",
@@ -466,6 +469,10 @@ def links_cell(project: dict, *, from_banking_rails: bool = True) -> str:
     site = clean_website(project.get("website"))
     if site:
         bits.append(f"[Site]({site})")
+    report = project.get("report")
+    if report and project.get("status") in {"dead", "notatoken"}:
+        rel = Path(report).name if from_banking_rails else report
+        bits.append(f"[Short report]({rel})")
     draft = project.get("draft")
     if draft:
         rel = Path(draft).name if from_banking_rails else draft
@@ -623,6 +630,12 @@ def normalize_project(raw: dict) -> dict:
     return project
 
 
+def excluded_report_rel(ticker: str) -> str | None:
+    """A short report kept for the record on an excluded (dead or not-a-token) name."""
+    rel = f"banking-rails/{ticker}.md"
+    return rel if (ROOT / rel).is_file() else None
+
+
 def apply_scan_row(project: dict, row: dict, published: set[str]) -> None:
     project["mcap_usd"] = row.get("mcap_usd")
     project["vol24_usd"] = row.get("vol24_usd")
@@ -648,9 +661,11 @@ def apply_scan_row(project: dict, row: dict, published: set[str]) -> None:
     status = SCAN_STATUS_MAP.get(row.get("status") or "", "gaps")
     project["status"] = status
     project["unverified_dead"] = bool(status == "dead" and is_unverified_dead(row))
-    if status == "dead":
-        project["dead_reason"] = clean_dead_reason(row.get("reason"))
+    if status in {"dead", "notatoken"}:
+        project["dead_reason"] = clean_dead_reason(row.get("reason")) if status == "dead" else None
+        project["notatoken_reason"] = row.get("reason") if status == "notatoken" else None
         project["draft"] = draft_rel(project["ticker"])
+        project["report"] = excluded_report_rel(project["ticker"])
     else:
         project["dead_reason"] = None
         project["draft"] = draft_rel(project["ticker"])
@@ -881,6 +896,13 @@ def scoreboard_lines() -> list[str]:
         c = v.get("count", 0)
         sh = v.get("share", (c / n) if n else 0)
         out.append(f"| {label} | **{c}** | {sh*100:.0f}% |")
+    excl = d.get("excluded") or {}
+    nat = (excl.get("not_a_token") or {}).get("count", 0)
+    dead_ex = (excl.get("dead") or {}).get("count", 0)
+    out.append(f"| 🚫 Not a token (excluded) | **{nat}** | — |")
+    out.append(f"| ⚫ Dead, short report kept (excluded) | **{dead_ex}** | — |")
+    out.append("")
+    out.append("Not-a-token and dead entries keep their short report files but are left out of the ranking and of every count above. See [NOT-A-TOKEN.md](../NOT-A-TOKEN.md) and [DEAD.md](../DEAD.md).")
     out.append("")
     return out
 
@@ -894,6 +916,7 @@ def render_page(meta: dict, projects: list[dict]) -> str:
     wallet = sort_undone(by_status["wallet"], next_after, by_activity=True)
     gaps = sort_undone(by_status["gaps"], by_activity=True)
     dead = sorted(by_status["dead"], key=lambda p: p["ticker"])
+    notatoken = sorted(by_status["notatoken"], key=lambda p: p["ticker"])
     passing = sum(1 for p in done if p.get("verdict") == "PASS")
     failing = len(done) - passing
     total = len(projects)
@@ -941,12 +964,13 @@ def render_page(meta: dict, projects: list[dict]) -> str:
         f"**{total} coins** in the research pipeline. "
         f"**{len(done)}** have a full v3 report. "
         f"**{passing} pass** and **{failing} fail.** "
-        f"The other **{total - len(done)}** are still in progress, grouped by how close each is to a full report."
+        f"**{len(notatoken)}** are not tokens and **{len(dead)}** are dead or wound down; both are excluded from the ranking and the scoreboard. "
+        f"The other **{total - len(done) - len(notatoken) - len(dead)}** are still in progress, grouped by how close each is to a full report."
     )
     lines.append("")
     lines.append(
         f"**{len(done)}** ✅ done · **{len(close)}** 🟢 close · **{len(wallet)}** 🟡 need wallet work · "
-        f"**{len(gaps)}** 🔴 big gaps · **{len(dead)}** ⚫ dead or wound down "
+        f"**{len(gaps)}** 🔴 big gaps · **{len(notatoken)}** 🚫 not a token · **{len(dead)}** ⚫ dead or wound down "
         f"({len(unverified)} of them [Unverified])"
     )
     lines.append("")
@@ -955,6 +979,7 @@ def render_page(meta: dict, projects: list[dict]) -> str:
     lines.append("- [🟢 Close](#close)")
     lines.append("- [🟡 Need wallet work](#wallet)")
     lines.append("- [🔴 Big gaps](#gaps)")
+    lines.append("- [🚫 Not a token](#notatoken)")
     lines.append("- [⚫ Dead or wound down](#dead)")
     lines.append("- [🔄 Next up](#next)")
     lines.append("- [⚠️ Identity notes](#identity)")
@@ -1048,6 +1073,25 @@ def render_page(meta: dict, projects: list[dict]) -> str:
     lines.append(sep)
     for p in gaps:
         lines.append(market_row(p, p["ticker"]))
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+
+    lines.append('<a id="notatoken"></a>')
+    lines.append("## 🚫 Not a token")
+    lines.append("")
+    lines.append(
+        f"**{len(notatoken)} entries** are stocks, ETFs, companies, a bank deposit token or projects with no public token. "
+        "Each keeps its short report file, but none is ranked or counted in the scoreboard or base rates. "
+        "Full list: [NOT-A-TOKEN.md](../NOT-A-TOKEN.md)."
+    )
+    lines.append("")
+    lines.append("| Ticker | Name | Why it is not a token | Links |")
+    lines.append("|---|---|---|---|")
+    for p in notatoken:
+        lines.append(
+            f"| {p['ticker']} | {md_cell(p['name'])} | {md_cell(p.get('notatoken_reason') or '')} | {links_cell(p)} |"
+        )
     lines.append("")
     lines.append("---")
     lines.append("")
@@ -1213,7 +1257,7 @@ def overlay_dead_list(projects: list[dict], published: set[str]) -> list[dict]:
         if row.get("reason"):
             project["dead_reason"] = clean_dead_reason(row.get("reason"))
         project["unverified_dead"] = bool(row.get("unverified"))
-        project["report"] = None
+        project["report"] = excluded_report_rel(ticker)
     return projects
 
 
@@ -1274,7 +1318,7 @@ def main(argv: list[str] | None = None) -> int:
 
     # Never treat an in-progress draft as a published report.
     for p in projects:
-        if p["ticker"] not in published:
+        if p["ticker"] not in published and p["status"] not in {"dead", "notatoken"}:
             if p.get("report"):
                 p["report"] = None
             if p["status"] == "done":
@@ -1295,7 +1339,7 @@ def main(argv: list[str] | None = None) -> int:
     print(
         f"Counts: total={len(projects)} done={counts['done']} (passing={passing}) "
         f"close={counts['close']} wallet={counts['wallet']} gaps={counts['gaps']} "
-        f"dead={counts['dead']} (unverified={unverified})"
+        f"notatoken={counts['notatoken']} dead={counts['dead']} (unverified={unverified})"
     )
     if missing:
         print("Broken relative links:", file=sys.stderr)

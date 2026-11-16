@@ -50,6 +50,8 @@ DEAD_JSON = ROOT / "data" / "dead.json"
 DEAD_MD = ROOT / "DEAD.md"
 INDEX_JSON = ROOT / "data" / "index.json"
 PROJECTS_JSON = ROOT / "data" / "projects.json"
+NOT_A_TOKEN_JSON = ROOT / "data" / "not-a-token.json"
+NOT_A_TOKEN_MD = ROOT / "NOT-A-TOKEN.md"
 
 # Calibration controls already scored at the bottom of the published ranking.
 # These are labels only; no new research and no score changes.
@@ -328,6 +330,16 @@ def pct(count: int, n: int) -> str:
     return f"{count / n * 100:.1f}%"
 
 
+def excluded_line(rates: dict) -> str:
+    ex = rates.get("excluded") or {}
+    nat = ex.get("not_a_token") or {}
+    dd = ex.get("dead") or {}
+    return (
+        f"**Excluded:** {nat.get('count', 0)} not-a-token entries ([NOT-A-TOKEN.md](NOT-A-TOKEN.md)) and "
+        f"{dd.get('count', 0)} dead entries with a short report ([DEAD.md](DEAD.md)). Their files stay published but are not counted here."
+    )
+
+
 def render_base_rates_md(rates: dict) -> str:
     n = rates["universe"]
 
@@ -350,11 +362,13 @@ def render_base_rates_md(rates: dict) -> str:
         "",
         rates["note"],
         "",
+        excluded_line(rates),
+        "",
         "Machine-readable copy: [data/base-rates.json](data/base-rates.json). Score history is in [HISTORY.md](HISTORY.md). The underlying method is in [METHODOLOGY.md](METHODOLOGY.md).",
         "",
         "## Headline rates",
         "",
-        "| Measure | Count | Share of 113 |",
+        f"| Measure | Count | Share of {n} |",
         "|---|---:|---:|",
         row("Overall PASS (6.0 or more, and no hard gate tripped)", "pass_rate"),
         row("Revenue hard gate tripped (Revenue 3 or below)", "fail_revenue_gate"),
@@ -576,6 +590,56 @@ def render_flags_md(flags: dict) -> str:
     return "\n".join(lines)
 
 
+def excluded_not_a_token() -> set[str]:
+    if not NOT_A_TOKEN_JSON.is_file():
+        return set()
+    return {e["ticker"] for e in load_json(NOT_A_TOKEN_JSON).get("entries") or []}
+
+
+def excluded_dead() -> set[str]:
+    if not PROJECTS_JSON.is_file():
+        return set()
+    return {p["ticker"] for p in load_json(PROJECTS_JSON).get("projects") or [] if p.get("status") == "dead"}
+
+
+def render_not_a_token_md(d: dict) -> str:
+    lines = [
+        "---",
+        "title: Not a token",
+        f"last_updated: {d.get('last_updated')}",
+        "timezone: MST",
+        "disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.",
+        "---",
+        "",
+        "# 🚫 Not a token",
+        "",
+        "**Research only. Not financial advice.**",
+        "",
+        d["policy"],
+        "",
+        "Machine-readable copy: [data/not-a-token.json](data/not-a-token.json).",
+        "",
+        "| Ticker | Name | Kind | Why it is not a token | Source | Short report |",
+        "|---|---|---|---|---|---|",
+    ]
+    for e in d["entries"]:
+        reason = e["reason"].replace("|", "/")
+        lines.append(
+            f"| {e['ticker']} | {e['name']} | {e['kind']} | {reason} | [Source]({e['source']}) | [{e['ticker']}]({e['report']}) |"
+        )
+    lines.append("")
+    return "\n".join(lines)
+
+
+def dead_category(reason: str) -> str:
+    low = reason.lower()
+    if low.startswith("dying"):
+        return "dying"
+    if low.startswith("probably dead"):
+        return "probably_dead"
+    return "wound_down_or_collapsed"
+
+
 def build_dead_list() -> dict:
     projects = load_json(PROJECTS_JSON)
     entries = []
@@ -602,9 +666,9 @@ def build_dead_list() -> dict:
                 "name": p.get("name") or ticker,
                 "moved_on": "2026-11-16",
                 "listed_as_of": "2026-11-16",
-                "category": "wound_down_or_collapsed",
+                "category": dead_category(p.get("dead_reason") or ""),
                 "unverified": bool(p.get("unverified_dead")),
-                "had_v3_score": False,
+                "had_v3_score": (ROOT / "banking-rails" / f"{ticker}.md").is_file(),
                 "reason": p.get("dead_reason") or p.get("scan_reason") or "Listed as dead or wound down in the public catalog.",
             }
         )
@@ -649,8 +713,8 @@ def render_dead_md(dead: dict) -> str:
     for rec in dead["entries"]:
         unver = "yes" if rec.get("unverified") else "no"
         reason = (rec.get("reason") or "").replace("\n", " ").replace("|", "/")
-        if len(reason) > 280:
-            reason = reason[:277] + "..."
+        if rec.get("had_v3_score"):
+            reason += f" [Short report](banking-rails/{rec['ticker']}.md)"
         lines.append(
             f"| {rec['ticker']} | {rec['name']} | {rec['moved_on']} | {rec['category']} | {unver} | {reason} |"
         )
@@ -770,7 +834,15 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print("Skipped git history.")
 
-    rates = compute_base_rates(recs)
+    nat = excluded_not_a_token()
+    dead_t = excluded_dead()
+    scored = [r for r in recs if r["ticker"] not in nat and r["ticker"] not in dead_t]
+    rates = compute_base_rates(scored)
+    rates["excluded"] = {
+        "note": "Short report files kept for the record but left out of every rate above.",
+        "not_a_token": {"count": len([r for r in recs if r["ticker"] in nat]), "tickers": sorted(r["ticker"] for r in recs if r["ticker"] in nat)},
+        "dead": {"count": len([r for r in recs if r["ticker"] in dead_t and r["ticker"] not in nat]), "tickers": sorted(r["ticker"] for r in recs if r["ticker"] in dead_t and r["ticker"] not in nat)},
+    }
     write_json(RATES_JSON, rates)
     RATES_MD.write_text(render_base_rates_md(rates), encoding="utf-8")
     print(f"Wrote {RATES_JSON.relative_to(ROOT)} and {RATES_MD.name}")
@@ -788,6 +860,10 @@ def main(argv: list[str] | None = None) -> int:
         f"arkham={len(flags['single_source_arkham_selling_or_holdings'])}, "
         f"revenue={len(flags['revenue_accrual_inconsistent'])})"
     )
+
+    if NOT_A_TOKEN_JSON.is_file():
+        NOT_A_TOKEN_MD.write_text(render_not_a_token_md(load_json(NOT_A_TOKEN_JSON)), encoding="utf-8")
+        print(f"Wrote {NOT_A_TOKEN_MD.name}")
 
     dead = build_dead_list()
     write_json(DEAD_JSON, dead)

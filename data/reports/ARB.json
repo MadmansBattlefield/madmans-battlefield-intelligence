@@ -48,7 +48,7 @@
     "revenue_reaches_holders": "no",
     "revenue_mechanism": "Sequencer revenue goes to the DAO treasury; there is no burn, buyback, fee share or fee-funded staking yield to holders. Holders have no live claim on revenue; the score describes the business, not holder accrual.",
     "pump_day_price_source": "Gate ARB/USDT daily closes",
-    "pump_day_disclosure_quality": "buried_disclosure",
+    "pump_day_disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
     "attributions": []
@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ARB.md",
-    "sha256": "b9824f0936c80518f5ec5ced4273aab589be322121c5ceb64e5e77c23fe09677",
-    "bytes": 30665,
-    "extracted_at": "2026-11-16 15:04 MST",
+    "sha256": "3f446af5901158b8626535f5d35b79493340606254e6551b4f7c9078c57b6c0b",
+    "bytes": 30774,
+    "extracted_at": "2026-11-16 15:09 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -389,7 +389,7 @@
     "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
-    "disclosure_quality": "buried_disclosure",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
