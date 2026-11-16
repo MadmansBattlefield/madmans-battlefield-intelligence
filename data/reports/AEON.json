@@ -1,0 +1,397 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "AEON",
+  "name": "AEON (agentic settlement, aeon.xyz)",
+  "chain": "bsc",
+  "contract": "0x277add739c6e0477616948357af9e79fe1ec9b80",
+  "overall_score": 3.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 4,
+    "adoption_customers": 2,
+    "security_audits": 4,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "identity_caveat": "three CoinGecko ids named AEON; this report covers aeon-3 = BSC 0x277add739c6e0477616948357af9e79fe1ec9b80 (aeon.xyz)",
+    "hack_exploit": "none found",
+    "mint_path_live": "yes, MinterRole with no cap; current minter not identified",
+    "team_wallet_to_exchange_during_pump": "not proven: the Safe emptied 45.6M AEON to EOA 0xfd6a on 3 Sep 2026 (not a pump day); 0xfd6a then sent 15M to a Bitget deposit and ~31M to Cobo deposits on 14, 15 and 29 Oct 2026, none pump days; its one pump-day transfer (3M, 21 Sep) went to a contract that still holds it",
+    "treasury_in_single_key_wallets": "no: vesting owner is a 6-of-10 Safe 0xd8a63d36f9474f361d77c31e6d53d5c78c92add4; it can revoke ~76.6% of supply"
+  },
+  "price_usd": 0.0231,
+  "price_source": "CoinGecko, 16 Nov 2026 9:11 AM MST",
+  "front_matter_extras": {
+    "methodology_2026_11_16": {
+      "revenue_reaches_holders": "no",
+      "disclosure_quality": "not_applicable",
+      "pump_day_undisclosed_penalty_applied": false,
+      "pump_day_price_source": "Gate AEON_USDT and Bitget AEONUSDT UTC daily closes",
+      "dual_review": "not_run"
+    }
+  },
+  "key_numbers": {
+    "price_usd": 0.0231,
+    "market_cap_text": "$5.80M",
+    "volume_24h_text": "$1.95M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/AEON.md",
+    "sha256": "5d403bfc1f22927ec63d9d853756e769bda927ee4d6dd2dee08e49eaa7559080",
+    "bytes": 17667,
+    "extracted_at": "2026-11-16 12:18 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 9:11 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Safe sent all 45.6M AEON to an EOA",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team vesting revocable by the Safe",
+      "url": "0xeac0…80b6",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "x402 signer nearly idle",
+      "url": "0xe91e…5036",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "bsc",
+      "address": "0x01d64ad9af3d2f1c94cf6b22baa294204fe5ede0",
+      "url": "https://bscscan.com/address/0x01d64ad9af3d2f1c94cf6b22baa294204fe5ede0",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x277add739c6e0477616948357af9e79fe1ec9b80",
+      "url": "https://bscscan.com/address/0x277add739c6e0477616948357af9e79fe1ec9b80",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x7b71a5f9a07a3f38a22538c2e4b753316058e17e",
+      "url": "https://intel.arkm.com/explorer/address/0x7b71a5f9a07a3f38a22538c2e4b753316058e17e",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x7d7e7fd485c27d8547e1c8c906f7a8aa528c3d27",
+      "url": "https://intel.arkm.com/explorer/address/0x7D7e7fD485C27D8547e1C8C906f7A8AA528c3D27",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x8de06d956f1ba5cd83d00777f515ab95ccd82b42",
+      "url": "https://bscscan.com/address/0x8de06d956f1ba5cd83d00777f515ab95ccd82b42",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77",
+      "url": "https://intel.arkm.com/explorer/address/0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xc8189537aed663d3a13e6ea1cc3800ae9ae235c9",
+      "url": "https://bscscan.com/address/0xc8189537aed663d3a13e6ea1cc3800ae9ae235c9",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xd8a63d36f9474f361d77c31e6d53d5c78c92add4",
+      "url": "https://bscscan.com/address/0xd8a63d36f9474f361d77c31e6d53d5c78c92add4",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87",
+      "url": "https://intel.arkm.com/explorer/address/0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xe91e0e6080b0c19c71b616e628d7b715313d5036",
+      "url": "https://bscscan.com/address/0xe91e0e6080b0c19c71b616e628d7b715313d5036",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xeac0b41cc7485fca6cfdf2ab145895e43dfb80b6",
+      "url": "https://bscscan.com/address/0xeac0b41cc7485fca6cfdf2ab145895e43dfb80b6",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xefb7472554da5e154cdacf695f67b2c46f83e8a5",
+      "url": "https://intel.arkm.com/explorer/address/0xefb7472554da5e154cdacf695f67b2c46f83e8a5",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xfd6a0c523ed829a21281a2a3e627ad242ab619b8",
+      "url": "https://bscscan.com/address/0xfd6a0c523ed829a21281a2a3e627ad242ab619b8",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Gate AEON_USDT and Bitget AEONUSDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: the Safe emptied 45.6M AEON to EOA 0xfd6a on 3 Sep 2026 (not a pump day); 0xfd6a then sent 15M to a Bitget deposit and ~31M to Cobo deposits on 14, 15 and 29 Oct 2026, none pump days; its one pump-day transfer (3M, 21 Sep) went to a contract that still holds it"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "burn",
+      "buyback",
+      "staking_yield_from_fees",
+      "fee_share"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "no measurable protocol revenue. **2 (hard gate).**"
+  },
+  "attributions": [
+    {
+      "address": "0xfd6a0c523ed829a21281a2a3e627ad242ab619b8",
+      "url": "https://intel.arkm.com/explorer/address/0xfd6a0c523ed829a21281a2a3e627ad242ab619b8",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7d7e7fd485c27d8547e1c8c906f7a8aa528c3d27",
+      "url": "https://intel.arkm.com/explorer/address/0x7D7e7fD485C27D8547e1C8C906f7A8AA528c3D27",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7b71a5f9a07a3f38a22538c2e4b753316058e17e",
+      "url": "https://intel.arkm.com/explorer/address/0x7b71a5f9a07a3f38a22538c2e4b753316058e17e",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77",
+      "url": "https://intel.arkm.com/explorer/address/0xb0b1177e8b32bfb9744c50f1350c6a614cc1aa77",
+      "label": "AEON",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87",
+      "url": "https://intel.arkm.com/explorer/address/0xdbfb07fffcf7e467af671bb48dc2828eb47e8a87",
+      "label": "AEON",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8de06d956f1ba5cd83d00777f515ab95ccd82b42",
+      "url": "https://intel.arkm.com/explorer/address/0x8de06d956f1ba5cd83d00777f515ab95ccd82b42",
+      "label": "AEON",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xefb7472554da5e154cdacf695f67b2c46f83e8a5",
+      "url": "https://intel.arkm.com/explorer/address/0xefb7472554da5e154cdacf695f67b2c46f83e8a5",
+      "label": "AEON",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd8a63d36f9474f361d77c31e6d53d5c78c92add4",
+      "url": "https://intel.arkm.com/explorer/address/0xd8a63d36f9474f361d77c31e6d53d5c78c92add4",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe91e0e6080b0c19c71b616e628d7b715313d5036",
+      "url": "https://intel.arkm.com/explorer/address/0xe91e0e6080b0c19c71b616e628d7b715313d5036",
+      "label": "AEON",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): the vesting Safe, 0xfd6a, 0x8de0, the team TokenVesting contract, the x402 signer, and the Bitget and Cobo deposits; exact dates from BSC transfer logs (public RPC)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] BSC RPC (`balanceOf`, `isMinter`, `getThreshold`, `getOwners`, `nonce`, vesting `owner`/`revocable`/`released`); Base RPC nonce; BSC verified ABI",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Safe Transaction Service (transfers and queued transactions of the Safe)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [tokendossier AEON deep dive](https://tokendossier.com/tokens/AI/AEON) (2 Aug 2026 baseline) · [tokenomics.com](https://app.tokenomics.com/tokenomics/aeon) · [AEON whitepaper](https://web3-revolution.gitbook.io/aeon-whitepaper/tokenomics/usdaeon)",
+      "urls": [
+        "tokendossier AEON deep dive",
+        "tokenomics.com",
+        "AEON whitepaper"
+      ],
+      "date_read": "2 Aug 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `aeon-3` (16 Nov 2026 9:11 AM MST); Gate AEON/USDT daily candles; DefiLlama",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

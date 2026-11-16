@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 11:54 MST
+generated_at: 2026-11-16 12:18 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -15,7 +15,9 @@ Machine-readable copy: [data/history.json](data/history.json).
 
 | Ticker | Versions | First overall | Current overall | Revenue (first → current) | Selling (first → current) | Holdings (first → current) |
 |---|---:|---:|---:|---|---|---|
+| ACH | 0 | — | — | — | — | — |
 | [ADA](banking-rails/ADA.md) | 1 | 5.1 | 5.1 | 2 | 5 | 5 |
+| AEON | 0 | — | — | — | — | — |
 | [AERO](banking-rails/AERO.md) | 2 | 6.6 | 6.6 | 8 | 5 → 6 | 6 |
 | [ALGO](banking-rails/ALGO.md) | 1 | 5.0 | 5.0 | 1 | 5 | 6 |
 | [AMP](banking-rails/AMP.md) | 1 | 4.2 | 4.2 | 2 | 5 | 4 |
@@ -50,6 +52,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [EWT](banking-rails/EWT.md) | 1 | 4.0 | 4.0 | 2 | 5 | 4 |
 | [EXA](banking-rails/EXA.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
 | [FXS](banking-rails/FXS.md) | 1 | 4.6 | 4.6 | 4 | 4 | 4 |
+| GRND | 0 | — | — | — | — | — |
 | [H](banking-rails/H.md) | 1 | 2.4 | 2.4 | 1 | 4 | 2 |
 | [HASH](banking-rails/HASH.md) | 1 | 3.8 | 3.8 | 3 | 4 | 2 |
 | [HBAR](banking-rails/HBAR.md) | 1 | 5.3 | 5.3 | 2 | 5 | 6 |
@@ -60,6 +63,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [ICP](banking-rails/ICP.md) | 1 | 4.3 | 4.3 | 2 | 4 | 3 |
 | [INJ](banking-rails/INJ.md) | 1 | 3.9 | 3.9 | 2 | 4 | 4 |
 | [INV](banking-rails/INV.md) | 1 | 4.8 | 4.8 | 6 | 4 | 6 |
+| IOST | 0 | — | — | — | — | — |
 | [IOTX](banking-rails/IOTX.md) | 1 | 3.7 | 3.7 | 2 | 4 | 4 |
 | [JASMY](banking-rails/JASMY.md) | 1 | 2.8 | 2.8 | 1 | 2 | 3 |
 | [JST](banking-rails/JST.md) | 1 | 5.5 | 5.5 | 5 | 5 | 5 |
@@ -69,6 +73,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [LINK](banking-rails/LINK.md) | 1 | 6.9 | 6.9 | 8 | 5 | 4 |
 | [MASQ](banking-rails/MASQ.md) | 1 | 2.7 | 2.7 | 1 | 4 | 4 |
 | [MBG](banking-rails/MBG.md) | 1 | 3.9 | 3.9 | 3 | 4 | 3 |
+| MINA | 0 | — | — | — | — | — |
 | [MNT](banking-rails/MNT.md) | 1 | 4.5 | 4.5 | 2 | 6 | 4 |
 | [MOCA](banking-rails/MOCA.md) | 1 | 3.7 | 3.7 | 1 | 6 | 3 |
 | [NIGHT](banking-rails/NIGHT.md) | 1 | 3.8 | 3.8 | 1 | 4 | 1 |

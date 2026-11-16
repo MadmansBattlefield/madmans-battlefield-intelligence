@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 11:54 MST",
+  "generated_at": "2026-11-16 12:19 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -163,10 +163,22 @@
   ],
   "token_notes": [
     {
+      "id": "ACH",
+      "path": "banking-rails/ACH.md",
+      "layout": "v3",
+      "json": "data/reports/ACH.json"
+    },
+    {
       "id": "ADA",
       "path": "banking-rails/ADA.md",
       "layout": "v3",
       "json": "data/reports/ADA.json"
+    },
+    {
+      "id": "AEON",
+      "path": "banking-rails/AEON.md",
+      "layout": "v3",
+      "json": "data/reports/AEON.json"
     },
     {
       "id": "AERO",
@@ -373,6 +385,12 @@
       "json": "data/reports/FXS.json"
     },
     {
+      "id": "GRND",
+      "path": "banking-rails/GRND.md",
+      "layout": "v3",
+      "json": "data/reports/GRND.json"
+    },
+    {
       "id": "H",
       "path": "banking-rails/H.md",
       "layout": "v3",
@@ -433,6 +451,12 @@
       "json": "data/reports/INV.json"
     },
     {
+      "id": "IOST",
+      "path": "banking-rails/IOST.md",
+      "layout": "v3",
+      "json": "data/reports/IOST.json"
+    },
+    {
       "id": "IOTX",
       "path": "banking-rails/IOTX.md",
       "layout": "v3",
@@ -485,6 +509,12 @@
       "path": "banking-rails/MBG.md",
       "layout": "v3",
       "json": "data/reports/MBG.json"
+    },
+    {
+      "id": "MINA",
+      "path": "banking-rails/MINA.md",
+      "layout": "v3",
+      "json": "data/reports/MINA.json"
     },
     {
       "id": "MNT",
@@ -846,5 +876,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 113
+  "scored_reports": 118
 }

@@ -1,9 +1,14 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 11:54 MST",
+  "generated_at": "2026-11-16 12:18 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
+    {
+      "ticker": "ACH",
+      "path": "banking-rails/ACH.md",
+      "versions": []
+    },
     {
       "ticker": "ADA",
       "path": "banking-rails/ADA.md",
@@ -33,6 +38,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "AEON",
+      "path": "banking-rails/AEON.md",
+      "versions": []
     },
     {
       "ticker": "AERO",
@@ -1086,6 +1096,11 @@
       ]
     },
     {
+      "ticker": "GRND",
+      "path": "banking-rails/GRND.md",
+      "versions": []
+    },
+    {
       "ticker": "H",
       "path": "banking-rails/H.md",
       "versions": [
@@ -1383,6 +1398,11 @@
       ]
     },
     {
+      "ticker": "IOST",
+      "path": "banking-rails/IOST.md",
+      "versions": []
+    },
+    {
       "ticker": "IOTX",
       "path": "banking-rails/IOTX.md",
       "versions": [
@@ -1649,6 +1669,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "MINA",
+      "path": "banking-rails/MINA.md",
+      "versions": []
     },
     {
       "ticker": "MNT",

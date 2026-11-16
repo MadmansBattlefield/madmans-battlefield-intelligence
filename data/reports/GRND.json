@@ -1,0 +1,208 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "GRND",
+  "name": "SuperWalk",
+  "chain": "kaia",
+  "contract": "0x84f8c3c8d6ee30a559d73ec570d574f671e82647",
+  "overall_score": 4.2,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 5,
+    "insider_holdings": 5,
+    "selling_behavior": 5,
+    "tokenomics_supply": 6,
+    "liquidity_market": 2,
+    "product_development": 5,
+    "adoption_customers": 5,
+    "security_audits": 4,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no further mint seen: 1B minted once at deploy (block 95,356,998)",
+    "team_wallet_to_exchange_during_pump": "none found: 0 transfers from 9 traced allocation/reserve wallets on the 30 pump days",
+    "treasury_in_single_key_wallets": "yes: unreleased move-to-earn (115M) and ecosystem (14.6M) GRND sit in EOAs 0x2890e9710fbf673ee930f7515c3d659ca9fb5751 and 0xd692bee951304510a51bd8a67a2eef49b047bd45"
+  },
+  "price_usd": 0.00652,
+  "price_source": "CoinGecko, 16 Nov 2026 9:11 AM MST",
+  "front_matter_extras": {
+    "methodology_2026_11_16": {
+      "revenue_reaches_holders": "no",
+      "disclosure_quality": "not_applicable",
+      "pump_day_undisclosed_penalty_applied": false,
+      "pump_day_price_source": "Gate GRND_USDT UTC daily closes",
+      "dual_review": "not_run"
+    }
+  },
+  "key_numbers": {
+    "price_usd": 0.00652,
+    "market_cap_text": "$5.35M",
+    "volume_24h_text": "$1.97M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/GRND.md",
+    "sha256": "bfdc163a7db07a6c29ac37ccc79c582f9ff8199cce171ece640e5a81d8299c89",
+    "bytes": 13655,
+    "extracted_at": "2026-11-16 12:18 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 9:11 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "M2E remainder moved to a single EOA",
+      "url": "0xf0b5676a…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Monthly release, not on a pump day",
+      "url": "0xfd04ec85…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2024 allocation sweep",
+      "url": "0xce9ba282…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "kaia",
+      "address": "0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce",
+      "url": "https://intel.arkm.com/explorer/address/0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Gate GRND_USDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": false,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found: 0 transfers from 9 traced allocation/reserve wallets on the 30 pump days"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "buyback"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "the company has ad and B2B revenue, but the token only recycles spending. **3 (hard gate).**"
+  },
+  "attributions": [
+    {
+      "address": "0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce",
+      "url": "https://intel.arkm.com/explorer/address/0x3b58a4c865b568a2f6a957c264f6b50cba35d8ce",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): the Arbitrum GRND contract (labelled SuperWalk); Kaia wallets are outside Arkham coverage",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Kaia public RPC (`eth_getLogs`, historical `balanceOf`, `eth_getCode`, nonces); Etherscan v2 Arbitrum `tokensupply`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [SuperWalk GRND docs](https://docs.superwalk.io/english/tokenomics/usdgrnd-governance-token)",
+      "urls": [
+        "SuperWalk GRND docs"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [AMA summary, Aug 2026](https://superwalknavi.com/ama-media/20260804/) · [NAUT unlocks](https://naut.so/unlocks/superwalk-grnd) · [Asia Business Daily](https://www.asiae.co.kr/en/article/2026032310393420983) · [IT Times](https://www.ittimes.com/news/articleView.html?idxno=1067)",
+      "urls": [
+        "AMA summary, Aug 2026",
+        "NAUT unlocks",
+        "Asia Business Daily",
+        "IT Times"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `superwalk` (16 Nov 2026 9:11 AM MST); Gate GRND/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}
