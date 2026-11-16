@@ -4,13 +4,13 @@
   "name": "PACT Protocol (Pact Foundation)",
   "chain": "aptos",
   "contract": "0xc546cc2dd26d9e9a4516b4514288bedf1085259fcb106b84b6469337f527fb92",
-  "overall_score": 3.1,
+  "overall_score": 2.9,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 3,
     "foundation_team": 4,
     "insider_holdings": 2,
-    "selling_behavior": 1,
+    "selling_behavior": 0,
     "tokenomics_supply": 2,
     "liquidity_market": 2,
     "product_development": 5,
@@ -31,7 +31,7 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 1,
+      "score": 0,
       "threshold": 3,
       "tripped": true
     }
@@ -45,7 +45,16 @@
   },
   "price_usd": 0.00018056,
   "price_source": "CoinGecko, 16 Nov 2026 5:46 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "The buyback rule cannot be audited and bought tokens are locked, not burned or paid out.",
+    "pump_day_price_source": "the report's own daily-close series",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.00018056,
     "market_cap_text": "$7.70M",
@@ -56,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/PACT.md",
-    "sha256": "798dbec433da4c39e646ded50e28453629f36482c9555343f2fbfb57b10dd9b5",
-    "bytes": 26404,
-    "extracted_at": "2026-11-16 14:23 MST",
+    "sha256": "73ac849bcccca5f2c1f389c8129006f66ba921d492fb0d112000337ba1f5c1e5",
+    "bytes": 27984,
+    "extracted_at": "2026-11-16 14:24 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -277,28 +286,28 @@
   "addresses_examined": [],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "the report's own daily-close series",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
     "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": false,
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: Foundation multisig released 3.44B PACT on 1 Oct 2026 (MST); 1.32B of it reached Gate deposit addresses within ~10 hours, on the 2 Oct 2026 (UTC) pump day (+11.1%)"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [
       "burn",
       "buyback"
     ],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "A small lending business with self-reported fees, and a buyback rule nobody can audit. The bought tokens are locked, not burned or paid out. Score **3**. Hard-gate FAIL."
   },
@@ -326,6 +335,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Aptos indexer GraphQL (`fungible_asset_metadata`, `current_fungible_asset_balances`, `fungible_asset_activities`, `user_transactions`) and Aptos REST (OFT module ABI, `OAppStore`, `oft_impl_config::Config`, `MultisigAccount`); read 16 Nov 2026 ~5:10–5:50 AM MST",

@@ -26,6 +26,14 @@ red_lines:
   treasury_offchain_positions_unlisted: open
   mint_cap_enabled: "no (mintCapNumerator = 0)"
   l2_instant_upgrades_stage0: tripped
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Fee income is tiny and no binding mechanism passes treasury or product cash to MNT holders."
+pump_day_price_source: "Gate MNT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (28 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.379084
 price_source: "CoinGecko mantle, 15 Nov 2026 6:45 AM MST"
 chain_read_height: 26420823
@@ -98,6 +106,8 @@ layout_version: 3
 
 **What it means:** The chain's own fee income is tiny. Mantle's real economic weight is its treasury and side products (mETH, UR, MI4), and none of them has a published, binding way to pass cash to MNT holders.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Fee income is tiny and no binding mechanism passes treasury or product cash to MNT holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -159,6 +169,8 @@ layout_version: 3
 - **Blind spot:** treasury balances held at centralized exchanges and Fireblocks off-chain can't be seen. Fireblocks wallet FB-FF received 34.4M in 2026 and still holds it.
 
 **What it means:** On everything published, the treasury does not sell into rallies. Removing the false 21.6M "recipient" lowers real outside budget spending to ~18M MNT, but it adds no new evidence about selling. It still passes only at the 6 floor (score unchanged), because CEX-held positions and the budget Safes' onward flows can't be checked.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate MNT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (28 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -259,8 +271,17 @@ layout_version: 3
 | Mint switch turned on | 🟢 No (`mintCapNumerator` = 0) | RPC read of [token contract](https://etherscan.io/address/0x3c3a81e81dc49a522a592e7622a7e711c06bf354) |
 | Instant L2 upgrades / Stage 0 | 🔴 Tripped | L2BEAT |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Mantle treasury Safes | Mantle treasury (published) | Treasury reports + chain | high | yes | None: no pump-day sale found |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Ethereum mainnet RPC (publicnode) + Blockscout `eth.blockscout.com` (token transfers, balances, verified `L1MantleToken` source), block ~26,420,823; Mantle RPC `rpc.mantle.xyz` and Routescan (chain 5000) normal + internal txlists; 15 Nov 2026 ~6:50–7:10 AM MST
 - [Tier A] [Mantle docs: Treasury](https://docs.mantle.xyz/governance/parameters/treasury) · [Tokenomics](https://docs.mantle.xyz/governance/parameters/tokenomics) · `api.mantle.xyz/api/v1/token-data`
 - [Tier A] [Mantle treasury page](https://group.mantle.xyz/treasury) (15 Nov 2026 13:53 UTC) · [Bybit advisors post](https://group.mantle.xyz/blog/announcements/mantle-welcomes-bybit-luminaries-to-advisory-board) · [migratebit.mantle.xyz](https://migratebit.mantle.xyz/) · MIP-27 forum post

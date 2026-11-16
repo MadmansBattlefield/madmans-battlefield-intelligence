@@ -24,6 +24,14 @@ red_lines:
   team_wallet_to_exchange_during_pump: "yes, small (the EOA paid by the Liquidity Vesting contract deposited 178.6k PROPC into Arkham-labelled MEXC deposit addresses on 4 pump days since Dec 2024, including 144.5k on two Sep 2026 pump days)"
   treasury_in_single_key_wallets: "yes (~10.6M PROPC, 16.6% of supply, sits in four EOAs that the Treasury, Team, Operations and Liquidity vesting contracts paid out to)"
   vesting_mutable: "yes (the deployer has pulled tokens back out of the Team, Treasury and Operations vesting contracts, and the docs record buckets being moved and team vesting being extended)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The team says the token was cut off from the business, and the buyback stopped after 5 Oct 2025."
+pump_day_price_source: "Gate PROPC/USDT daily closes"
+pump_day_disclosure_quality: buried_disclosure
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.065131
 price_source: "CoinGecko, 16 Nov 2026 7:13 AM MST"
 last_updated: 2026-11-16
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** The team says itself that the token was cut off from the business. The fix it built stopped buying after 5 Oct 2025, and no revenue figure for Propchain itself can be checked. **3, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The team says the token was cut off from the business, and the buyback stopped after 5 Oct 2025.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -130,6 +140,8 @@ layout_version: 3
 - **Two-way flow:** MEXC deposit `0x0487…` also received 120k from Gate Hot Wallet [`0x0D07…92fe`](https://etherscan.io/address/0x0d0707963952f2fba59dd06f2b425ace40b492fe) (Arkham label), and `0x6a64…` received 300k from MEXC 16. So whoever owns this MEXC account also moves PROPC between Gate and MEXC, which looks like market-making rather than pure dumping. Arkham names no market maker [Unverified].
 
 **What it means:** The Liquidity bucket is disclosed, so routing it to exchanges is not hidden. But the EOAs doing it are not disclosed, it continues into pumps (two Sep 2026 pump days), and it outran the buybacks by a wide margin. The corrected totals are smaller, but the pattern holds. **4** (unchanged).
+
+- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** The Liquidity bucket is disclosed but the EOAs and their exchange sends are not, so disclosure is partial and no penalty applies; Selling stays 4. Pump days from Gate PROPC/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -178,8 +190,17 @@ layout_version: 3
 | Treasury in single-key wallets | 🔴 ~10.6M PROPC in [`0x96dE…`](https://etherscan.io/address/0x96de9a881ef1334bf735084134f73691d37e81b3), [`0x0E9C…`](https://etherscan.io/address/0x0e9c02de1608104bfa6de41f99604fbd5c30888f), [`0x6a64…`](https://etherscan.io/address/0x6a64f2cef8688205c3990e1c2c8ebb75d1e3f231), [`0x6379…`](https://etherscan.io/address/0x6379942cc525ead26fb6f6998cb16d60220d2e09) |
 | Buyback promise not kept | 🔴 No buyback since [5 Oct 2025](https://etherscan.io/tx/0x73ee3f1b527d31a6e63ca0e45da61385cd4eb00eca873ec7d68179c5342d06fb) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Liquidity Vesting `0x31a9…` → EOA | Propchain Liquidity bucket | Etherscan (contract payout) | high | yes (on-chain) | Selling: exchange deposits on two Sep 2026 pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx` (PROPC) for the deployer, all 13 vesting contracts, the buyback wallet and every hop named; `getsourcecode` and `getcontractcreation` for the token; Ethereum RPC `balanceOf`, `antisnipeDisable()`, `eth_getCode`; read 16 Nov 2026 ~7:20–8:00 AM MST
 - [Tier B] Etherscan name tags ("PropChainGlobal: Deployer", "MEXC 3", "MEXC 16"); Blockscout holder list
 - [Tier B] Arkham, read 16 Nov 2026 (signed-in account): [0xb558](https://intel.arkm.com/explorer/address/0xb558f929b5d84b8015d97d5034879ae474644d30), [0xb501](https://intel.arkm.com/explorer/address/0xb50192c2adadf73db15556820322efe25c1ef17c) and [0x0487](https://intel.arkm.com/explorer/address/0x0487a9387644bb33822cb7410739ddb0615dcf12) are labelled MEXC Deposit; the four EOAs are unlabelled "PROPC Whale" addresses; [0x9af6](https://intel.arkm.com/explorer/address/0x9af697a1de82d74a423732624c41cd9320882e4e) carries a "Contract Deployer" tag with no named controller. No market maker is named on any page

@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no (fixed 8,888,888,888; token has burn but no mint)"
   team_wallet_to_exchange_during_pump: "none found: no exchange outflow from any traced insider wallet in 365 days; the pump-day high-turnover cluster is Upbit exchange inventory"
   treasury_in_single_key_wallets: "yes, five dormant EOAs hold ~3.71B MOCA (42%); several 1-of-2 Safes"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No revenue reaches holders."
+pump_day_price_source: "Gate MOCA/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.00602025
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
 last_updated: 2026-11-16
@@ -78,6 +86,8 @@ layout_version: 3
 
 **What it means:** no revenue. **1 (hard gate).**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No revenue reaches holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 - The Moca Foundation is backed by Animoca Brands; there is a public product line (AIR Kit, MocaPortfolio) [Tier A project site].
@@ -110,6 +120,8 @@ layout_version: 3
 - **Other insider exits (Etherscan, 365 days):** the two receiving 1-of-2 Safes, the three dormant EOAs and `0xbfB2` sent nothing. The 1-of-2 Safe `0xda01` sent [84M MOCA to `0x2029…ff66` on 28 Jul 2026](https://etherscan.io/tx/0x8a275de46bea3526259ddc2c2b20ad449f60f74d4c6f9cea31fd8b267dc1e5d3) (−7.1%, not a pump day), and that wallet still holds it.
 
 **What it means:** the high-turnover cluster is an exchange, and no traced insider wallet sent MOCA to an exchange in 365 days. Releases are Safe-to-Safe. **6** (was 5).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate MOCA/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -153,8 +165,17 @@ layout_version: 3
 | Live mint path | 🟢 None |
 | Treasury in single-key wallets | 🔴 ~3.71B in 5 EOAs; 1-of-2 Safes |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Pump-day high-turnover cluster | Exchange (Upbit) | Etherscan + Arkham | high | yes | None: exchange, not insider |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Blockscout holders / verified source; Etherscan v2 transfers; Ethereum RPC Safe reads, 16 Nov 2026 ~11:45 AM MST
 - [Tier A] DefiLlama `moca-network` (no fees / TVL); [Moca blog](https://moca.network/blog/mocaportfolio-live-2195000-me-allocated-to-moca-stakers/)
 - [Tier B] [DefiLlama unlocks](https://defillama.com/unlocks/moca-network) · [Blockworks unlocks](https://app.blockworks.com/projects/mocaverse/token-unlocks) · [Tokenomist buyback](https://tokenomist.ai/mocaverse/buyback)

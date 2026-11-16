@@ -43,7 +43,16 @@
   },
   "price_usd": 0.002296,
   "price_source": "CoinGecko, 16 Nov 2026 ~8:52 AM MST (per MANTRA; 1 OM = 4 MANTRA)",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No fee record exists and nothing reaches holders.",
+    "pump_day_price_source": "the daily closes cited in the body",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.002296,
     "market_cap_text": "$15.6M",
@@ -54,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/OM.md",
-    "sha256": "9cc9e959959029bb194b857b2abfef655ec8f18962a0b97b2dd87876bd330ec8",
-    "bytes": 8304,
-    "extracted_at": "2026-11-16 14:23 MST",
+    "sha256": "4f222f484b2aeb73227244594e898bae08ccea09347c7753bddf8b64374e8854",
+    "bytes": 9852,
+    "extracted_at": "2026-11-16 14:24 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -93,12 +102,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": "Binance OMUSDT",
+    "price_source": "the daily closes cited in the body",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -108,12 +117,12 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
-    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama has no fee record for MANTRA, and the project publishes none. Chain TVL is $494k. **2 → hard-gate FAIL.**"
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama has no fee record for MANTRA, and the project publishes none. Chain TVL is $494k. **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee record exists and nothing reaches holders."
   },
   "attributions": [
     {
@@ -153,6 +162,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] [MANTRA tokenomics docs](https://docs.mantrachain.io/mantra-tokenomics) (genesis split, 1:4 split, vesting)",

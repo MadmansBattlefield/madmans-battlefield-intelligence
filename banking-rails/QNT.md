@@ -3,13 +3,13 @@ ticker: QNT
 name: Quant
 chain: ethereum
 contract: "0x4a220E6096B25EADb88358cb44068A3248254675"
-overall_score: 4.6
+overall_score: 4.3
 overall_verdict: FAIL
 section_scores:
   revenue: 4
   foundation_team: 6
   insider_holdings: 3
-  selling_behavior: 3
+  selling_behavior: 1
   tokenomics_supply: 2
   liquidity_market: 7
   product_development: 6
@@ -25,6 +25,14 @@ red_lines:
   unattributed_cluster_pump_day_flow: "30 Sep 2026 (0x7513 'QNT Whale' -> Galaxy Digital OTC -> Kraken hot wallet / B2C2 / Binance; cluster descended from Team Wallet 2 via Bitcoin Suisse; owner [Unverified])"
   founder_wallet_pump_day_move: "29 Sep 2026 (Arkham 'Quant Network: Founder' 0x48e9 moved 25,776 QNT to a Quant-labelled wallet; no exchange deposit seen. Quant-funded 0x8266 moved 22,807, of which 1,000 reached Coinbase on 30 Sep)"
   team_funds_to_broker_deposit: "yes (1.18M QNT into Arkham 'Quant Network — Bitcoin Suisse Deposit' 0x86c0, 2022; ~1.22M swept to Bitcoin Suisse in Jun 2023; sale not provable on-chain)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Customers may pay in dollars and nothing forces buying; the token gets no share of the company's revenue. Holders have no live claim on revenue; the score describes the business, not holder accrual."
+pump_day_price_source: "the daily closes cited in the body (2021 pump days)"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 155.5
 price_source: "CoinGecko, 16 Nov 2026 3:50 AM MST"
 last_updated: 2026-11-16
@@ -33,7 +41,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### QNT · Overall grade **4.6 / 10 · ❌ FAIL**
+### QNT · Overall grade **4.3 / 10 · ❌ FAIL**
 
 **Summary:** Quant Network Ltd is a real, audited, profitable UK software company (£11.5M revenue, FY to Sep 2025), and The Clearing House and seven UK banks now run on its tech. But the token is optional to that business (customers can pay in USD). A **Quant team wallet** (labelled by both Etherscan and Arkham) sent 350,000 QNT into exchange deposit addresses on five 2021 pump days, and Arkham files the wallets it funded to sell another 1.07M under Quant Network too. And the 2018 crowdsale contract still lets one plain key mint new QNT, which contradicts the "fixed supply" story.
 
@@ -46,7 +54,7 @@ layout_version: 3
 | 💰 Revenue | 4/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 3/10 | ❌ FAIL |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 2/10 | ❌ FAIL |
 | 💧 Liquidity & market | 7/10 | ✅ PASS |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -60,7 +68,7 @@ layout_version: 3
 ---
 
 
-# 🪪 QNT · Quant · 4.6 / 10 · ❌ FAIL
+# 🪪 QNT · Quant · 4.3 / 10 · ❌ FAIL
 
 > **One line:** Quant Network Ltd is a real, audited, profitable UK software company (£11.5M revenue, FY to Sep 2025), and The Clearing House and seven UK banks now run on its tech. But the token is optional to that business (customers can pay in USD). A **Quant team wallet** (labelled by both Etherscan and Arkham) sent 350,000 QNT into exchange deposit addresses on five 2021 pump days, and Arkham files the wallets it funded to sell another 1.07M under Quant Network too. And the 2018 crowdsale contract still lets one plain key mint new QNT, which contradicts the "fixed supply" story.
 
@@ -88,6 +96,8 @@ layout_version: 3
 | Fusion Rollup gas paid in QNT | Live since 2 Jun 2026; fee volume **not measured** this pass | [Tier A] [Quant news](https://quant.network/news/a-new-category-of-infrastructure-the-fusion-rollup-is-live-on-mainnet/) · volume [Unverified] |
 
 **What it means:** The company makes real, audited money and is profitable. The token gets no share of it. Paying in QNT is optional and nothing forces buying, so ~$2.3B of market cap sits on top of a ~£11.5M-a-year software business that can be paid in dollars. Better than a token with no business behind it (4, not 3). Fusion gas is the one direct token sink, and it is unmeasured.
+
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Customers may pay in dollars and nothing forces buying; the token gets no share of the company's revenue. Holders have no live claim on revenue; the score describes the business, not holder accrual.
 
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
@@ -119,7 +129,7 @@ layout_version: 3
 
 **What it means:** About 4.9M QNT was kept for the team and reserve after the 2018 burn. Arkham now ties about **1.27M QNT (≈ 8.7% of supply)** to Quant: the founder wallet, the Quant-funded 600k wallet, two smaller Quant Network wallets and TW1. Almost all of it sits in two plain wallets of ~600k each, with no lock, and both moved coins on the 29 Sep 2026 pump day (see Selling). About 1.18M of team funds went into Quant's own Bitcoin Suisse deposit in 2022. That points to a broker sale or custody, but neither can be proven on-chain. Quant itself still publishes none of these wallets. The score stays **3**: we now know more about where the coins are, but the concentration is high, nothing is locked, and none of it is disclosed by the issuer. Where the rest sits is **not disclosed**. The #3 holder ([`0x7513…4c57`](https://etherscan.io/address/0x7513ae7e87290094b17b35e26cdb537170634c57), 454,798) descends from Team Wallet 2 through a Bitcoin Suisse account. Attribution: [Unverified].
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 3/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 **A. Team Wallet 1 straight into exchange deposit addresses (Etherscan label "Quant: Team Wallet 1")**
 
@@ -164,6 +174,8 @@ layout_version: 3
 - **Other unlabelled whale:** [`0x9e86…efdd`](https://intel.arkm.com/explorer/address/0x9e86b2299a73208ab7196be3148f77a88825efdd) (235,000; Arkham "QNT Whale", no entity) got its coins in Aug 2022 from `0xded9…`, downstream of the deployer branch. Arkham shows it paying Gate and Binance deposits. On-chain it sent 19,990 to the Gate deposit [`0x5c71…cd5b`](https://etherscan.io/address/0x5c7197e9f132d77647fe3cca2c97a52a4055cd5b) on the **26 Nov 2025 pump day** (+18.6%) ([tx](https://etherscan.io/tx/0x089f46655635a99740285e438f0e78dff30e007bc02a11a8065ecf03172e743a)). Owner [Unverified].
 
 **What it means:** The rule is plain: a team wallet selling on a pump day, or funding a wallet that does, without disclosure, fails Selling. The labelled Quant team wallet did it on five days, and the wallets it funded did it on four more. It is old (2021), and the labelled wallets are now nearly empty, so the risk going forward is lower than the score suggests. But the scale (≈ 12% of supply into exchanges) and the repeated pump timing put it at **3**, which **trips the Selling gate**. **Arkham update:** the 2020–21 sellers are now filed under Quant Network, so the finding is stronger: these were Quant's own wallets, not outside buyers. The score stays at 3 rather than 2. The verified-Quant wallets' 2026 pump-day moves went into fresh wallets, and only 1,000 QNT, from the Quant-funded but unattributed `0x8266…` branch, reached an exchange. The large 2026 pump-day flow came from wallets Arkham does not tie to Quant.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **3 → 1**. Pump days from the daily closes cited in the body (2021 pump days).
 
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 
@@ -240,8 +252,17 @@ layout_version: 3
 | Founder / Quant wallets moving on a pump day | 🟡 29–30 Sep 2026: [founder wallet](https://intel.arkm.com/explorer/address/0x48e9af81fb93d144ad4683fcf219974c8304a170) 25,776 → Quant wallet (no exchange seen); `0x8266…` branch 1,000 → [Coinbase](https://etherscan.io/tx/0x949a6c51b5b8e0f7106399bdca2f2be332c64a6678a69a00b8ec4c0c82073e96) |
 | Team funds into a broker deposit | 🟡 1.18M QNT into ["Quant Network — Bitcoin Suisse Deposit"](https://intel.arkm.com/explorer/address/0x86c046866bad93f9890850f52880044d22ce50f6) (2022); sale not provable on-chain |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Quant: Team Wallet 1 | Quant team | Etherscan name tag + funding | high | yes | Selling: 350,000 QNT into exchange deposits on 2021 pump days, plus funded wallets on four more |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API: `tokentx` full history for Team Wallet 1, Team Wallet 2, the deployer, every relay and deposit address named above; `getsourcecode` for the token and the crowdsale; read 16 Nov 2026 MST
 - [Tier A] Ethereum RPC (publicnode): crowdsale state reads and `eth_simulateV1`, 16 Nov 2026 3:50 AM MST; `eth_getLogs` for all 608 mint events and the 22 Sep – 4 Oct 2026 window (378,915 logs)
 - [Tier B] Etherscan name tags read from each address page, 16 Nov 2026: "Quant: Deprecated Deployer", "Quant: Team Wallet 1", "Quant: Team Wallet 2", "Binance Deposit", "Binance 14", "Binance: Cold Wallet 28", "Coinbase 12", "Coinbase 10", "Bittrex", "KuCoin 3", "Wintermute: Multisig", "B2C2 Group 1", "Bitcoin Suisse 1", "Copper 4/5/45", "Kraken 245/246"

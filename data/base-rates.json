@@ -1,7 +1,7 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:23 MST",
+  "generated_at": "2026-11-16 14:24 MST",
   "universe": 148,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
@@ -147,8 +147,8 @@
     ]
   },
   "fail_selling_gate": {
-    "count": 34,
-    "share": 0.2297,
+    "count": 35,
+    "share": 0.2365,
     "tickers": [
       "ACH",
       "API3",
@@ -161,6 +161,7 @@
       "INV",
       "JASMY",
       "KAIO",
+      "ONDO",
       "PACT",
       "PHA",
       "POLYX",
@@ -187,8 +188,8 @@
     ]
   },
   "fail_both_gates": {
-    "count": 29,
-    "share": 0.1959,
+    "count": 30,
+    "share": 0.2027,
     "tickers": [
       "ACH",
       "CFG",
@@ -198,6 +199,7 @@
       "HYPER",
       "JASMY",
       "KAIO",
+      "ONDO",
       "PACT",
       "PHA",
       "POLYX",
@@ -237,7 +239,7 @@
       "INV",
       "JST",
       "KAIO",
-      "MNT",
+      "ONDO",
       "PACT",
       "PHA",
       "POLYX",
@@ -265,18 +267,17 @@
     ]
   },
   "pump_day_sale_unclear": {
-    "count": 4,
-    "share": 0.027,
+    "count": 3,
+    "share": 0.0203,
     "tickers": [
-      "KAVA",
       "RVN",
       "XMR",
       "XVG"
     ]
   },
   "selling_not_proven": {
-    "count": 77,
-    "share": 0.5203,
+    "count": 76,
+    "share": 0.5135,
     "tickers": [
       "ADA",
       "AEON",
@@ -311,7 +312,6 @@
       "NIGHT",
       "NUVA",
       "OM",
-      "ONDO",
       "ORAI",
       "ORBITER",
       "PLUME",
@@ -358,8 +358,8 @@
     ]
   },
   "selling_score_equals_4": {
-    "count": 64,
-    "share": 0.4324,
+    "count": 63,
+    "share": 0.4257,
     "tickers": [
       "AEON",
       "APT",
@@ -385,7 +385,6 @@
       "NIGHT",
       "NUVA",
       "OM",
-      "ONDO",
       "ORAI",
       "ORBITER",
       "PLUME",
@@ -428,8 +427,8 @@
     ]
   },
   "undisclosed_pump_day_sale_silence": {
-    "count": 28,
-    "share": 0.1892,
+    "count": 29,
+    "share": 0.1959,
     "tickers": [
       "ACH",
       "API3",
@@ -439,6 +438,7 @@
       "FXS",
       "HYPER",
       "INV",
+      "ONDO",
       "PACT",
       "PHA",
       "POLYX",
@@ -487,8 +487,8 @@
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 84,
-    "share": 0.5676,
+    "count": 95,
+    "share": 0.6419,
     "tickers": [
       "ACH",
       "ADA",
@@ -536,17 +536,28 @@
       "JASMY",
       "KAIA",
       "KAIO",
+      "KAVA",
       "LUMIA",
+      "MASQ",
+      "MBG",
       "MINA",
+      "MNT",
+      "MOCA",
       "NEXA",
+      "NIGHT",
       "NUVA",
+      "OM",
       "ONDO",
       "ORAI",
       "ORBITER",
+      "PACT",
       "PALMUSD",
+      "PHA",
       "PLUME",
       "POLYX",
       "PRO",
+      "PROPC",
+      "PUNDIX",
       "QANX",
       "QNT",
       "RBNT",
@@ -577,21 +588,10 @@
     ]
   },
   "revenue_reaches_holders_unclear": {
-    "count": 45,
-    "share": 0.3041,
+    "count": 34,
+    "share": 0.2297,
     "tickers": [
       "JST",
-      "KAVA",
-      "MASQ",
-      "MBG",
-      "MNT",
-      "MOCA",
-      "NIGHT",
-      "OM",
-      "PACT",
-      "PHA",
-      "PROPC",
-      "PUNDIX",
       "RED",
       "REQ",
       "REUSD",

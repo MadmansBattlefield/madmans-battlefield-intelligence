@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: 40M minted once in the constructor; no mint function; 2.45M burned by the deployer"
   team_wallet_to_exchange_during_pump: "not proven in the last 365 days on Ethereum; team-funded wallets made ProBit deposits from 2021 to May 2025; Base and Polygon flows not traced"
   treasury_selling: "historical: team-funded wallets sent ~1.3M MASQ to ProBit deposit addresses (2021–2025)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Nothing shows money flowing to the token."
+pump_day_price_source: "the daily closes cited in the body"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.004996
 price_source: "CoinGecko, 16 Nov 2026 7:33 AM MST"
 last_updated: 2026-11-16
@@ -82,6 +90,8 @@ layout_version: 3
 
 **What it means:** Nothing shows money flowing to the token. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Nothing shows money flowing to the token.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 - On 25 Mar 2026 MASQ and Timpi announced a product-ecosystem merger: MASQ becomes the consumer brand, Timpi the search-index layer, and "Timpi becomes a trusted custodian of MASQ Network" ([MASQ blog](https://www.masqbrowser.com/blog/masq-joins-forces-with-timpi), [release](https://chainwire.org/2026/03/25/timpi-and-masq-network-merge-product-ecosystems-to-launch-the-first-fully-decentralised-stack-that-is-ethical/)). No legal entity, accounts or team-wallet disclosure were found.
@@ -97,6 +107,8 @@ layout_version: 3
 
 - Tracing from the deployer (4 hops, transfers ≥ 50k) found **20 deposits to ProBit addresses** from team-funded wallets between Apr 2021 and May 2025, e.g. [168,759 MASQ on 28 Jul 2022](https://etherscan.io/tx/0x7cd60b42c546f9e26ef854c7e68f1d85d00fe60ad2e56e09952545a6a75e6b34) and [72,139 on 21 May 2025](https://etherscan.io/tx/0x21ff8d3654e62a81dfa05c21d285c62305264ffc46976d3ef5098812b63f1ceb).
 - **None fell in the last 365 days** on Ethereum, and none on the 28 pump days. Most supply and trading has moved to Base, where the public explorer API blocked automated reads (HTTP 403) and the Etherscan free tier does not cover Base; that route was not forced. Selling there is **not proven**, so this scores 4.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -137,8 +149,17 @@ layout_version: 3
 | Live mint path | 🟢 None |
 | Treasury selling | 🟡 Historical team-funded deposits to ProBit, 2021–2025 |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Team-funded wallets → ProBit (2021 – May 2025) | Deployer-funded (4 hops) | Etherscan | medium | no | None: no pump-day deposit proven in the last 365 days; Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx` for the deployer and 90 traced wallets, contract creation, receipt status of every linked tx (all succeeded); Etherscan top-holder page and labels; read 16 Nov 2026 ~7:55–8:20 AM MST
 - [Tier A] [MASQ blog, 10 Apr 2026](https://www.masqbrowser.com/blog/masq-joins-forces-with-timpi); [Tier B] [merger release, 25 Mar 2026](https://chainwire.org/2026/03/25/timpi-and-masq-network-merge-product-ecosystems-to-launch-the-first-fully-decentralised-stack-that-is-ethical/)
 - [Tier A] CoinGecko `masq` (16 Nov 2026 7:33 AM MST) and 365-day closes for pump days
@@ -166,6 +187,7 @@ layout_version: 3
 | 1 | **Base and Polygon flows of team-funded wallets** | Look up the team-funded wallets linked in this report on Basescan/Polygonscan by hand, or with a paid Etherscan plan | Free by hand |
 | 2 | **Arkham pass not yet run: owner of the 1.69M smart wallet, the top Base holder and the team-funded Ethereum wallets** | Look up the Ethereum wallets named in this report on Arkham (supported), then the Base/Polygon ones | Free (Arkham login) |
 | 3 | **Buybacks** | Ask the team for buyback transaction hashes | Free |
+| 4 | **Pump-day test on exchange prices.** No Gate, MEXC, KuCoin or Kraken USDT series with a full year was returned on 16 Nov 2026 (Binance blocks this region) | Re-run scripts/pump_day_test.py on the first exchange in the price-source order that lists the token | Free |
 
 ---
 

@@ -53,19 +53,19 @@ Ties are broken by how many of the 11 sections passed.
 30. 🔴 **DOT** · 4.9 · ❌ FAIL
 31. 🔴 **DASH** · 4.7 · ❌ FAIL
 32. 🔴 **DIA** · 4.7 · ❌ FAIL
-33. 🔴 **ONDO** · 4.7 · ❌ FAIL
-34. 🔴 **CELO** · 4.7 · ❌ FAIL
-35. 🔴 **SOLV** · 4.7 · ❌ FAIL
-36. 🔴 **BTT** · 4.7 · ❌ FAIL
-37. 🔴 **WAN** · 4.7 · ❌ FAIL
-38. 🔴 **CARDS** · 4.7 · ❌ FAIL
-39. 🔴 **QNT** · 4.6 · ❌ FAIL
-40. 🔴 **API3** · 4.5 · ❌ FAIL
-41. 🔴 **MNT** · 4.5 · ❌ FAIL
-42. 🔴 **RLS** · 4.5 · ❌ FAIL
-43. 🔴 **INV** · 4.4 · ❌ FAIL
-44. 🔴 **HUMA** · 4.4 · ❌ FAIL
-45. 🔴 **RVN** · 4.4 · ❌ FAIL
+33. 🔴 **CELO** · 4.7 · ❌ FAIL
+34. 🔴 **SOLV** · 4.7 · ❌ FAIL
+35. 🔴 **BTT** · 4.7 · ❌ FAIL
+36. 🔴 **WAN** · 4.7 · ❌ FAIL
+37. 🔴 **CARDS** · 4.7 · ❌ FAIL
+38. 🔴 **API3** · 4.5 · ❌ FAIL
+39. 🔴 **MNT** · 4.5 · ❌ FAIL
+40. 🔴 **RLS** · 4.5 · ❌ FAIL
+41. 🔴 **INV** · 4.4 · ❌ FAIL
+42. 🔴 **HUMA** · 4.4 · ❌ FAIL
+43. 🔴 **RVN** · 4.4 · ❌ FAIL
+44. 🔴 **ONDO** · 4.3 · ❌ FAIL
+45. 🔴 **QNT** · 4.3 · ❌ FAIL
 46. 🔴 **ICP** · 4.3 · ❌ FAIL
 47. 🔴 **RLC** · 4.3 · ❌ FAIL
 48. 🔴 **RED** · 4.3 · ❌ FAIL
@@ -89,10 +89,10 @@ Ties are broken by how many of the 11 sections passed.
 66. 🔴 **HTX** · 4.0 · ❌ FAIL
 67. 🔴 **CELR** · 4.0 · ❌ FAIL
 68. 🔴 **KAIA** · 3.9 · ❌ FAIL
-69. 🔴 **PHA** · 3.9 · ❌ FAIL
-70. 🔴 **CFX** · 3.9 · ❌ FAIL
-71. 🔴 **INJ** · 3.9 · ❌ FAIL
-72. 🔴 **MBG** · 3.9 · ❌ FAIL
+69. 🔴 **CFX** · 3.9 · ❌ FAIL
+70. 🔴 **INJ** · 3.9 · ❌ FAIL
+71. 🔴 **MBG** · 3.9 · ❌ FAIL
+72. 🔴 **PHA** · 3.8 · ❌ FAIL
 73. 🔴 **ZK** · 3.8 · ❌ FAIL
 74. 🔴 **TRB** · 3.8 · ❌ FAIL
 75. 🔴 **ZAMA** · 3.8 · ❌ FAIL
@@ -135,26 +135,26 @@ Ties are broken by how many of the 11 sections passed.
 112. 🔴 **PUNDIX** · 3.4 · ❌ FAIL
 113. 🔴 **SHPING** · 3.3 · ❌ FAIL
 114. 🔴 **CPOOL** · 3.3 · ❌ FAIL
-115. 🔴 **POLYX** · 3.3 · ❌ FAIL
-116. 🔴 **S** · 3.3 · ❌ FAIL
-117. 🔴 **ZIG** · 3.3 · ❌ FAIL
-118. 🔴 **STBL** · 3.3 · ❌ FAIL
-119. 🔴 **SHARE** · 3.3 · ❌ FAIL
-120. 🔴 **AEON** · 3.3 · ❌ FAIL
-121. 🔴 **YELLOW** · 3.2 · ❌ FAIL
-122. 🔴 **LUMIA** · 3.2 · ❌ FAIL
-123. 🔴 **RBNT** · 3.1 · ❌ FAIL
-124. 🔴 **KAVA** · 3.1 · ❌ FAIL
-125. 🔴 **ACH** · 3.1 · ❌ FAIL
-126. 🔴 **XEP** · 3.1 · ❌ FAIL
-127. 🔴 **PACT** · 3.1 · ❌ FAIL
-128. 🔴 **EXA** · 3.1 · ❌ FAIL
-129. 🔴 **HONEY** · 3.1 · ❌ FAIL
-130. 🔴 **CSPR** · 3.1 · ❌ FAIL
-131. 🔴 **IOST** · 3.1 · ❌ FAIL
-132. 🔴 **TLOS** · 3.0 · ❌ FAIL
-133. 🔴 **ORAI** · 3.0 · ❌ FAIL
-134. 🔴 **XDB** · 2.9 · ❌ FAIL
+115. 🔴 **S** · 3.3 · ❌ FAIL
+116. 🔴 **ZIG** · 3.3 · ❌ FAIL
+117. 🔴 **STBL** · 3.3 · ❌ FAIL
+118. 🔴 **SHARE** · 3.3 · ❌ FAIL
+119. 🔴 **AEON** · 3.3 · ❌ FAIL
+120. 🔴 **YELLOW** · 3.2 · ❌ FAIL
+121. 🔴 **LUMIA** · 3.2 · ❌ FAIL
+122. 🔴 **RBNT** · 3.1 · ❌ FAIL
+123. 🔴 **KAVA** · 3.1 · ❌ FAIL
+124. 🔴 **ACH** · 3.1 · ❌ FAIL
+125. 🔴 **XEP** · 3.1 · ❌ FAIL
+126. 🔴 **EXA** · 3.1 · ❌ FAIL
+127. 🔴 **HONEY** · 3.1 · ❌ FAIL
+128. 🔴 **CSPR** · 3.1 · ❌ FAIL
+129. 🔴 **IOST** · 3.1 · ❌ FAIL
+130. 🔴 **POLYX** · 3.0 · ❌ FAIL
+131. 🔴 **TLOS** · 3.0 · ❌ FAIL
+132. 🔴 **ORAI** · 3.0 · ❌ FAIL
+133. 🔴 **XDB** · 2.9 · ❌ FAIL
+134. 🔴 **PACT** · 2.9 · ❌ FAIL
 135. 🔴 **JASMY** · 2.8 · ❌ FAIL
 136. 🔴 **MASQ** · 2.7 · ❌ FAIL
 137. 🔴 **RIO** · 2.7 · ❌ FAIL
@@ -175,6 +175,10 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Batch 5: 14 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [ONDO](ONDO.md) Selling 4 → 1 (4.7 → 4.3, now #44); [PACT](PACT.md) Selling 1 → 0 (3.1 → 2.9, now #134); [PHA](PHA.md) Selling 1 → 0 (3.9 → 3.8, now #72); [POLYX](POLYX.md) Selling 2 → 0 (3.3 → 3.0, now #130); [QNT](QNT.md) Selling 3 → 1 (4.6 → 4.3, now #45). Unchanged: [KAVA](KAVA.md), [MASQ](MASQ.md), [MBG](MBG.md), [MNT](MNT.md), [MOCA](MOCA.md), [NIGHT](NIGHT.md), [OM](OM.md), [PROPC](PROPC.md), [PUNDIX](PUNDIX.md).
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Batch 4: 14 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [FXS](FXS.md) Selling 4 → 1 (4.6 → 4.2, now #52); [HYPER](HYPER.md) Selling 2 → 0 (3.6 → 3.4, now #107); [INV](INV.md) Selling 4 → 1 (4.8 → 4.4, now #43). Unchanged: [H](H.md), [HASH](HASH.md), [HBAR](HBAR.md), [HONEY](HONEY.md), [HTX](HTX.md), [HUMA](HUMA.md), [ICP](ICP.md), [INJ](INJ.md), [IOTX](IOTX.md), [KAIA](KAIA.md), [KAIO](KAIO.md).
 
@@ -742,18 +746,7 @@ Score changes from that research:
 
 ---
 
-## #33 · ONDO · Ondo
-
-### 4.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 5 of 11
-- **Hard gates failed:** Revenue
-- **Verdict:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. A Safe funded only by that admin Safe sent 100.5M ONDO (≈ $43.7M) into Coinbase deposit addresses in Aug–Oct 2026, including 18.2M on a pump day, with no disclosure.
-- 📄 [Full ONDO report](ONDO.md)
-
----
-
-## #34 · CELO · Celo
+## #33 · CELO · Celo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -764,7 +757,7 @@ Score changes from that research:
 
 ---
 
-## #35 · SOLV · Solv Protocol
+## #34 · SOLV · Solv Protocol
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -775,7 +768,7 @@ Score changes from that research:
 
 ---
 
-## #36 · BTT · BitTorrent
+## #35 · BTT · BitTorrent
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -786,7 +779,7 @@ Score changes from that research:
 
 ---
 
-## #37 · WAN · Wanchain
+## #36 · WAN · Wanchain
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -797,7 +790,7 @@ Score changes from that research:
 
 ---
 
-## #38 · CARDS · Collector Crypt
+## #37 · CARDS · Collector Crypt
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -808,18 +801,7 @@ Score changes from that research:
 
 ---
 
-## #39 · QNT · Quant
-
-### 4.6 / 10 · ❌ FAIL
-
-- **Sections passed:** 5 of 11
-- **Hard gates failed:** Selling
-- **Verdict:** Quant Network Ltd is a real, audited, profitable UK software company (£11.5M revenue) with The Clearing House and seven UK banks as customers, but the token is optional to that business (fees can be paid in USD). Etherscan's "Quant: Team Wallet 1" sent 350,000 QNT into exchange deposit addresses on five 2021 pump days, and the 2018 crowdsale still lets one plain key mint new QNT, which contradicts the "fixed supply" claim.
-- 📄 [Full QNT report](QNT.md)
-
----
-
-## #40 · API3 · Api3
+## #38 · API3 · Api3
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -830,7 +812,7 @@ Score changes from that research:
 
 ---
 
-## #41 · MNT · Mantle
+## #39 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -841,7 +823,7 @@ Score changes from that research:
 
 ---
 
-## #42 · RLS · Rayls
+## #40 · RLS · Rayls
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -852,7 +834,7 @@ Score changes from that research:
 
 ---
 
-## #43 · INV · Inverse Finance
+## #41 · INV · Inverse Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -863,7 +845,7 @@ Score changes from that research:
 
 ---
 
-## #44 · HUMA · Huma Finance
+## #42 · HUMA · Huma Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -874,7 +856,7 @@ Score changes from that research:
 
 ---
 
-## #45 · RVN · Ravencoin
+## #43 · RVN · Ravencoin
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -882,6 +864,28 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** Clean fair launch with no insiders, but no revenue, little use and a thin security budget.
 - 📄 [Full RVN report](RVN.md)
+
+---
+
+## #44 · ONDO · Ondo
+
+### 4.3 / 10 · ❌ FAIL
+
+- **Sections passed:** 5 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. A Safe funded only by that admin Safe sent 100.5M ONDO (≈ $43.7M) into Coinbase deposit addresses in Aug–Oct 2026, including 18.2M on a pump day, with no disclosure.
+- 📄 [Full ONDO report](ONDO.md)
+
+---
+
+## #45 · QNT · Quant
+
+### 4.3 / 10 · ❌ FAIL
+
+- **Sections passed:** 5 of 11
+- **Hard gates failed:** Selling
+- **Verdict:** Quant Network Ltd is a real, audited, profitable UK software company (£11.5M revenue) with The Clearing House and seven UK banks as customers, but the token is optional to that business (fees can be paid in USD). Etherscan's "Quant: Team Wallet 1" sent 350,000 QNT into exchange deposit addresses on five 2021 pump days, and the 2018 crowdsale still lets one plain key mint new QNT, which contradicts the "fixed supply" claim.
+- 📄 [Full QNT report](QNT.md)
 
 ---
 
@@ -1138,18 +1142,7 @@ Score changes from that research:
 
 ---
 
-## #69 · PHA · Phala Network
-
-### 3.9 / 10 · ❌ FAIL
-
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** Escrow-funded Safes fed Gate deposits through a 130% pump. Arkham confirms both Gate deposits, and a pass-through wallet is a signer of the escrow Safe; project control stays unverified.
-- 📄 [Full PHA report](PHA.md)
-
----
-
-## #70 · CFX · Conflux
+## #69 · CFX · Conflux
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -1160,7 +1153,7 @@ Score changes from that research:
 
 ---
 
-## #71 · INJ · Injective
+## #70 · INJ · Injective
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -1171,7 +1164,7 @@ Score changes from that research:
 
 ---
 
-## #72 · MBG · MBG By MultiBank Group
+## #71 · MBG · MBG By MultiBank Group
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -1179,6 +1172,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** A real broker behind the token, but the promised revenue buyback is mostly missing, and insider allocations keep streaming into an unlabelled trading hub.
 - 📄 [Full MBG report](MBG.md)
+
+---
+
+## #72 · PHA · Phala Network
+
+### 3.8 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** Escrow-funded Safes fed Gate deposits through a 130% pump. Arkham confirms both Gate deposits, and a pass-through wallet is a signer of the escrow Safe; project control stays unverified.
+- 📄 [Full PHA report](PHA.md)
 
 ---
 
@@ -1644,18 +1648,7 @@ Score changes from that research:
 
 ---
 
-## #115 · POLYX · Polymesh
-
-### 3.3 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A well-engineered securities chain that almost nobody pays to use (~$120 of fees a year), ~10% yearly inflation, and foundation-side wallets that fed 187M POLYX into one exchange-style deposit address, 33M of it on pump days. Arkham does not cover Polymesh.
-- 📄 [Full POLYX report](POLYX.md)
-
----
-
-## #116 · S · Sonic
+## #115 · S · Sonic
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1666,7 +1659,7 @@ Score changes from that research:
 
 ---
 
-## #117 · ZIG · ZIGChain (Zignaly)
+## #116 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1677,7 +1670,7 @@ Score changes from that research:
 
 ---
 
-## #118 · STBL · STBL
+## #117 · STBL · STBL
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1688,7 +1681,7 @@ Score changes from that research:
 
 ---
 
-## #119 · SHARE · ShareX
+## #118 · SHARE · ShareX
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1699,7 +1692,7 @@ Score changes from that research:
 
 ---
 
-## #120 · AEON · AEON
+## #119 · AEON · AEON
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1710,7 +1703,7 @@ Score changes from that research:
 
 ---
 
-## #121 · YELLOW · Yellow Network
+## #120 · YELLOW · Yellow Network
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -1721,7 +1714,7 @@ Score changes from that research:
 
 ---
 
-## #122 · LUMIA · Lumia
+## #121 · LUMIA · Lumia
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -1732,7 +1725,7 @@ Score changes from that research:
 
 ---
 
-## #123 · RBNT · Redbelly Network
+## #122 · RBNT · Redbelly Network
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1743,7 +1736,7 @@ Score changes from that research:
 
 ---
 
-## #124 · KAVA · Kava
+## #123 · KAVA · Kava
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1754,7 +1747,7 @@ Score changes from that research:
 
 ---
 
-## #125 · ACH · Alchemy Pay
+## #124 · ACH · Alchemy Pay
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1765,7 +1758,7 @@ Score changes from that research:
 
 ---
 
-## #126 · XEP · Electra Protocol
+## #125 · XEP · Electra Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1776,18 +1769,7 @@ Score changes from that research:
 
 ---
 
-## #127 · PACT · PACT
-
-### 3.1 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** The Foundation multisig released 3.44B PACT and 1.32B of it reached Gate deposit addresses within about ten hours, on a pump day. The mint is effectively uncapped (25B minted after a six-voter Snapshot), freeze and blocklist powers are on, and a further 6.25B was released in November.
-- 📄 [Full PACT report](PACT.md)
-
----
-
-## #128 · EXA · Exactly Protocol
+## #126 · EXA · Exactly Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1798,7 +1780,7 @@ Score changes from that research:
 
 ---
 
-## #129 · HONEY · Hivemapper
+## #127 · HONEY · Hivemapper
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1809,7 +1791,7 @@ Score changes from that research:
 
 ---
 
-## #130 · CSPR · Casper Network
+## #128 · CSPR · Casper Network
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1820,7 +1802,7 @@ Score changes from that research:
 
 ---
 
-## #131 · IOST · IOST
+## #129 · IOST · IOST
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1831,7 +1813,18 @@ Score changes from that research:
 
 ---
 
-## #132 · TLOS · Telos
+## #130 · POLYX · Polymesh
+
+### 3.0 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A well-engineered securities chain that almost nobody pays to use (~$120 of fees a year), ~10% yearly inflation, and foundation-side wallets that fed 187M POLYX into one exchange-style deposit address, 33M of it on pump days. Arkham does not cover Polymesh.
+- 📄 [Full POLYX report](POLYX.md)
+
+---
+
+## #131 · TLOS · Telos
 
 ### 3.0 / 10 · ❌ FAIL
 
@@ -1842,7 +1835,7 @@ Score changes from that research:
 
 ---
 
-## #133 · ORAI · Oraichain
+## #132 · ORAI · Oraichain
 
 ### 3.0 / 10 · ❌ FAIL
 
@@ -1853,7 +1846,7 @@ Score changes from that research:
 
 ---
 
-## #134 · XDB · XDB CHAIN (formerly DigitalBits)
+## #133 · XDB · XDB CHAIN (formerly DigitalBits)
 
 ### 2.9 / 10 · ❌ FAIL
 
@@ -1861,6 +1854,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue, Selling
 - **Verdict:** A near-idle Stellar fork with no fee income, ~$14k of daily volume, and a treasury that fed exchange deposits. Arkham does not cover XDB CHAIN.
 - 📄 [Full XDB report](XDB.md)
+
+---
+
+## #134 · PACT · PACT
+
+### 2.9 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** The Foundation multisig released 3.44B PACT and 1.32B of it reached Gate deposit addresses within about ten hours, on a pump day. The mint is effectively uncapped (25B minted after a six-voter Snapshot), freeze and blocklist powers are on, and a further 6.25B was released in November.
+- 📄 [Full PACT report](PACT.md)
 
 ---
 

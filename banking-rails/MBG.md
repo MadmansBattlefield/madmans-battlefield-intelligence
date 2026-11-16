@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no (no mint function; 1B minted once on 13 Jul 2025)"
   team_wallet_to_exchange_during_pump: "small: allocation distributors sent <0.5M MBG on pump days; ~49M MBG flowed through an unlabelled trading hub (OKX and Wintermute deposit counterparties) in 365d"
   treasury_in_single_key_wallets: "yes, 7 EOAs hold ~452M MBG (46%); vesting vault 338.5M has a salvage role"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Burns are company-run and the latest was sourced from allocations, not fees; not automatic from revenue."
+pump_day_price_source: "Gate MBG/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.101719
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
 last_updated: 2026-11-16
@@ -85,6 +93,8 @@ layout_version: 3
 
 **What it means:** ~$16.6M burned in 16 months against a $58.2M year-1 promise, with the latest burn sourced from allocations. **3 (hard gate).**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Burns are company-run and the latest was sourced from allocations, not fees; not automatic from revenue.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - MultiBank Group: founded 2005, headquartered in the UAE, reports 18 regulatory licences and 2M clients [Tier B ×2, company white paper via Gate Learn and MultiBank site].
@@ -113,6 +123,8 @@ layout_version: 3
 - **Steady flow to an exchange-like hub:** [`0xf972…c241`](https://etherscan.io/address/0xf97271e1e37308e197679e3aa017c8595a45c241) received ~15.0M from `0xde32…`, 9.9M from `0x09c8…` and 15.0M from `0xf7cc…`. It then sent 45.5M onward to `0x824b…79b0da`. It has 11,870 transactions and mostly USDC/USDT flows. **Correction:** Arkham leaves both `0xf972` and `0x824b` unlabelled, and both pay stablecoins into **OKX deposit** addresses, and `0xf972` also into a **Wintermute deposit** address. An exchange's own hot wallet wouldn't normally do that, so these are trading wallets, not an exchange [owner Unverified]. `0x824b` sent 40.1M MBG back to `0x5f66…cfc9`, the funder of the 78.8M allocation wallet `0xE4E3`, so part of the flow loops back into allocation wallets.
 
 **What it means:** no large dumps timed to pumps, but a constant flow of allocation tokens into an unlabelled trading hub with OKX and market-maker counterparties. Not proven clean → **4**.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate MBG/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -160,8 +172,18 @@ layout_version: 3
 | Live mint path | 🟢 None |
 | Treasury in single-key wallets | 🔴 ~452M MBG in 7 EOAs; vault admin can salvage |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Distributor `0xd419…f6d6` and allocation wallets | MBG allocations | Etherscan | high | yes | None: ~0.5M on pump days went to an unlabelled hub, not a proven exchange deposit |
+| Trading hub | Unlabelled (OKX and Wintermute counterparties) | Etherscan | low | no | None |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 token transfers and Blockscout holders, smart-contract and address APIs for the MBG contract and top wallets, read 16 Nov 2026 ~10:30 AM MST
 - [Tier A] Ethereum RPC `eth_call` (`owner`, `isTaxable`, `taxBPS`) and `eth_getCode`
 - [Tier B] [MultiBank burn announcement](https://multibankfx.com/en/about/company-news/multibank-group-completed-first-mbg-buyback-and-burn-removing-4-86-m-tokens-after-record-h1-2025-financial-results) · [Gate Learn](https://www.gate.com/learn/articles/mbg-by-multibank-group-ushering-in-a-new-era-of-smart-finance/10566) · [NAUT unlocks](https://naut.so/unlocks/multibankgroup) · [ChainCatcher](https://www.chaincatcher.com/en/article/2304864)

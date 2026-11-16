@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no (on-chain inflation is 0%; supply 1,082,846,850 KAVA)"
   team_wallet_to_exchange_during_pump: "not tested (Kava Labs wallets are not published)"
   treasury_in_single_key_wallets: "no for the on-chain treasury (community pool and kavadist are module accounts); Kava Labs wallets unknown"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The chain's fee-earning apps are being switched off; nothing reaches holders."
+pump_day_price_source: "Gate KAVA/USDT daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.02976698
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
 last_updated: 2026-11-16
@@ -81,6 +89,8 @@ layout_version: 3
 
 **What it means:** The chain's own fee-earning apps are being switched off. **1, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The chain's fee-earning apps are being switched off; nothing reaches holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 - Kava Labs leads development. Governance runs through on-chain proposals: 215 (Phase 1 debt caps, May 2026), 221 (rejected, Aug 2026), 222 (Phase 2 wind-down, passed Oct 2026), plus monthly "Kava Rise" payouts ([gov LCD](https://kava-rest.publicnode.com/cosmos/gov/v1/proposals?pagination.reverse=true)).
@@ -100,6 +110,8 @@ layout_version: 3
 *Gate KAVA/USDT daily closes (UTC): 29 of the last 365 days were pump days.*
 
 - **Not tested.** Kava Labs wallets are not published, and Cosmos accounts need an indexer to trace. The 48.4M KAVA dumped on BNB Chain on 15 Nov 2026 was the **attacker**, not an insider [Tier B ×2].
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate KAVA/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -143,8 +155,17 @@ layout_version: 3
 | Live mint path | 🟢 0% inflation |
 | Treasury in single-key wallets | 🟢 On-chain treasury is module accounts; 🟡 Kava Labs unknown |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Kava Labs wallets | Not published | — | low | no | Selling stays 5 (not tested) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Kava LCD (publicnode): supply, inflation, staking pool, community pool, module balances, governance proposals; read 16 Nov 2026 ~9:00 AM MST
 - [Tier A] [Kava incident report](https://medium.com/@Kava_Chain/hard-lend-security-incident-579888f8dd73); GitHub API for `Kava-Labs/kava`
 - [Tier B] [The Block](https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350) · [Crypto Briefing](https://cryptobriefing.com/kava-hard-lend-wind-down-exploit/) · [TokenPost](https://www.tokenpost.com/news/technology/57418) · [Block Insider](https://blockinsider.com/article/kava-s-3-7m-exploit-kava-says-chain-s-security-is-uncompromised)

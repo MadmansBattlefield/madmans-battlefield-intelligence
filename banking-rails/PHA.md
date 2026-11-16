@@ -3,13 +3,13 @@ ticker: PHA
 name: Phala Network
 chain: ethereum
 contract: "0x6c5ba91642f10282b576d91922ae6448c9d52f4e"
-overall_score: 3.9
+overall_score: 3.8
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 5
   insider_holdings: 4
-  selling_behavior: 1
+  selling_behavior: 0
   tokenomics_supply: 6
   liquidity_market: 6
   product_development: 6
@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: fixed 1B ERC20 supply"
   team_wallet_to_exchange_during_pump: "yes: ~15.9M PHA (~$0.85M) reached Gate deposit addresses on six pump days, 18-25 Sep 2026, from Safes funded by the protocol escrow; no disclosure found"
   entity_concentration: "protocol escrow Safe holds 128.8M (12.9%)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No fee or revenue record; the old treasury share of mining rewards ended."
+pump_day_price_source: "Gate PHA/USDT daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.03045
 price_source: "CoinGecko, 16 Nov 2026 ~8:40 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### PHA · Overall grade **3.9 / 10 · ❌ FAIL**
+### PHA · Overall grade **3.8 / 10 · ❌ FAIL**
 
 **Summary:** Phala shut down its Polkadot parachain in 2025 and moved PHA to an Ethereum ERC20, with vPHA as the staking and governance wrapper. The holdings left on the old chain (332.1M PHA) were bridged into one 3-of-6 Safe. That Safe funded the official PHA Assets Claimer and the vPHA rewards. It also funded a chain of other Safes that sent PHA to Gate during the September 2026 rally. No protocol fees or revenue are published, so both hard gates fail.
 
@@ -44,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 1/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 6/10 | ✅ PASS |
 | 💧 Liquidity & market | 6/10 | ✅ PASS |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -58,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 PHA · Phala Network · 3.9 / 10 · ❌ FAIL
+# 🪪 PHA · Phala Network · 3.8 / 10 · ❌ FAIL
 
 > **One line:** A TEE cloud with no published token revenue, whose escrow-funded Safes fed exchange deposits through a 130% pump.
 
@@ -77,6 +85,8 @@ layout_version: 3
 
 - DefiLlama has no fee or revenue record for Phala. The old model (20% of mining rewards to the treasury) ended when the parachain was shut down. No revenue figures for the TEE cloud business were found, and no mechanism sends cloud revenue to PHA holders. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee or revenue record; the old treasury share of mining rewards ended.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - A long-running core team (since 2018). Governance runs through Snapshot votes with vPHA. Signers on the escrow Safes and their thresholds are visible on-chain, but who the signers are is not disclosed. Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) gives the Safes only generic Gnosis Safe labels, with no Phala, market-maker or exchange label, so **project control stays [Unverified]**. On-chain `getOwners()` shows the three Safes share the same five signers, and the escrow Safe adds a sixth: [`0x1771…c111`](https://intel.arkm.com/explorer/address/0x1771564a5455523ded62dcd787bc4c1443c8c111), the pass-through wallet in the 📉 table.
@@ -91,7 +101,7 @@ layout_version: 3
 
 - Control is [Unverified]: none of these Safes is labelled. The link to the project is inferred from the escrow funding Phala's labelled claimer and the vPHA contract.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 | Date | Pump (vs 5d) | Path | PHA | ≈ USD | Tx |
 |---|---|---|---:|---:|---|
@@ -105,6 +115,8 @@ layout_version: 3
 - Gate Deposit 0x053f…dfd8 is labelled by Etherscan. **Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)):** `0x053f` and `0x809b` are **Gate Deposit** addresses. The 25 Sep destination is now traced: [`0x0d15…2608`](https://intel.arkm.com/explorer/address/0x0d15d5999a67084c78fa8c2fd60a799d3bfe2608) (unlabelled) forwarded 2,449,300 PHA to Gate Deposit `0x809b` 31 minutes later (Etherscan, 15:46 UTC), on the +130% day. The feeders are unlabelled: [`0x1771…c111`](https://intel.arkm.com/explorer/address/0x1771564a5455523ded62dcd787bc4c1443c8c111) is tagged **signer of the escrow Safe 0x4A3**, which `getOwners()` on [the Safe](https://etherscan.io/address/0x4a396b5c9a6fbc1bc0525f24ac0a246766f3ebef#readProxyContract) confirms, and [`0xdce1…835d`](https://intel.arkm.com/explorer/address/0xdce1fc1b7c0c27bab27f571b661aa5350adf835d) is tagged **contract deployer** and signer of another Safe (`0x277e…`); it had first received 33M PHA from Safe 0xf32f on 29 Jun 2026.
 - After the window, the same route kept reaching exchanges on non-pump days (Gate closes): 0xf32f → 0x1771 → **MEXC Deposit** 2.875M on 30 Sep 2026 ([tx](https://etherscan.io/tx/0xce8b2c6784fe09aa6bf7bcbeed559c7f0f760acd610cdffe610bf380013bef2c), −8.9%) and → **KuCoin Deposit** 2.125M on 29 Oct 2026 ([tx](https://etherscan.io/tx/0x20efeda812fafa087e6ebe056662d3020cb2b50a92f293e336a03ba22798b506), −10.4%). Exchange labels are Arkham's. Every linked transaction returned status 1 (success). Prices are Binance PHAUSDT daily closes.
 - This could be a disclosed market-making arrangement, but no disclosure was found. Under the rules, protocol-funded wallets depositing to an exchange on six pump days, without disclosure, score **1**.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **1 → 0**. Pump days from Gate PHA/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -143,8 +155,17 @@ layout_version: 3
 | Live mint path | 🟢 None |
 | Entity concentration | 🟠 12.9% in the escrow Safe |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Safe `0xf32f…` (funded by the protocol escrow) | Phala protocol escrow | Etherscan funding | high | yes (on-chain) | Selling: ~15.9M PHA to Gate deposits on six pump days, 18–25 Sep 2026 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan token, address and transaction pages (links above). Receipts, balances and Safe owner/threshold reads were made through the Etherscan API on 16 Nov 2026
 - [Tier A] CoinGecko `pha`. Pump days are from Binance PHAUSDT daily closes
 - [Tier A] DefiLlama fees endpoint (no Phala record)

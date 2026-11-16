@@ -4,13 +4,13 @@
   "name": "Polymesh",
   "chain": "polymesh",
   "contract": "native (Polymesh mainnet balances; SS58 prefix 12)",
-  "overall_score": 3.3,
+  "overall_score": 3.0,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 1,
     "foundation_team": 4,
     "insider_holdings": 3,
-    "selling_behavior": 2,
+    "selling_behavior": 0,
     "tokenomics_supply": 4,
     "liquidity_market": 4,
     "product_development": 6,
@@ -31,7 +31,7 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 2,
+      "score": 0,
       "threshold": 3,
       "tripped": true
     }
@@ -45,7 +45,16 @@
   },
   "price_usd": 0.02545,
   "price_source": "CoinGecko, 16 Nov 2026 5:10 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "The chain earns almost nothing and fees go to block producers; Polymath's SaaS revenue belongs to a company.",
+    "pump_day_price_source": "Gate POLYX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used the daily closes cited in the body",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.02545,
     "market_cap_text": "$34.1M",
@@ -56,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/POLYX.md",
-    "sha256": "ebe1f0a2b15a296bd19bf26040fb2d2f67fa566e460ab6691c5075e12424d9f1",
-    "bytes": 27199,
-    "extracted_at": "2026-11-16 14:23 MST",
+    "sha256": "32e03d1d581532d0ab53835e8e739d855192c484460098ce55adcf0c923880e2",
+    "bytes": 29411,
+    "extracted_at": "2026-11-16 14:24 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -312,16 +321,16 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate POLYX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used the daily closes cited in the body",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
     "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": false,
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: YES by pattern: Polymesh Association-listed and genesis-identity wallets (plus 2HXnHMiy..., funded by Association wallets) sent 187.3M POLYX in 139 transfers into memo-deposit address 2F8aakk..., 32.9M of it on pump days (34 transfers), 59.3M in the last 12 months; exchange name [Unverified]"
     ]
@@ -375,6 +384,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Polymesh mainnet RPC (`mainnet-rpc.polymesh.network`): `Balances.TotalIssuance` at blocks 21,184,603 and 26,425,941; full `System.Account` scan (7,602 accounts, sum = issuance), 16 Nov 2026 ~5:40 AM MST",

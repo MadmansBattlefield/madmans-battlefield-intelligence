@@ -43,7 +43,24 @@
   },
   "price_usd": 0.07492,
   "price_source": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No fee or revenue data; nothing reaches holders.",
+    "pump_day_price_source": "Gate PUNDIX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (15 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x1dca35ea1aedfbbf6a7be6c5ef6b017433aa3b5a",
+        "label": "Upbit: Hot Wallet",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Etherscan + Arkham"
+      }
+    ]
+  },
   "key_numbers": {
     "price_usd": 0.07492,
     "market_cap_text": "$19.4M",
@@ -54,9 +71,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/PUNDIX.md",
-    "sha256": "22e9ad68bfba943eddf236ab78bd1a7ab769e57061535a29c95152aff8e98f6a",
-    "bytes": 11413,
-    "extracted_at": "2026-11-16 14:23 MST",
+    "sha256": "0a64ac9809dd133b8a0a94f9154df68c7a46a3b4874e37aa6740dcbe395cf679",
+    "bytes": 13197,
+    "extracted_at": "2026-11-16 14:24 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -149,12 +166,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": "Binance PUNDIXUSDT daily closes",
+    "price_source": "Gate PUNDIX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (15 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -164,14 +181,28 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
-    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - No fee or revenue data on DefiLlama or from the project. **2 → hard-gate FAIL.**"
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - No fee or revenue data on DefiLlama or from the project. **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee or revenue data; nothing reaches holders."
   },
   "attributions": [
+    {
+      "address": "0x1dca35ea1aedfbbf6a7be6c5ef6b017433aa3b5a",
+      "url": null,
+      "label": "Upbit: Hot Wallet",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
     {
       "address": "0x2bc8e0130319b206aace6f41e28fd0cb3c2a2960",
       "url": "https://intel.arkm.com/explorer/address/0x2bc8e0130319b206aace6f41e28fd0cb3c2a2960",
@@ -276,6 +307,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan token, wallet and transaction pages, with exchange deposit labels; receipts checked 16 Nov 2026",

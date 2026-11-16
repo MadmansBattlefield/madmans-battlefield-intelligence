@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: 24B minted once on 25 Nov 2025 (one mint, no burns); 6B Reserve released only as block rewards"
   team_wallet_to_exchange_during_pump: "not proven: the Foundation's bucket-to-address mapping site blocked automated reads, so its wallets were not traced"
   entity_concentration: "yes: Midnight Foundation 35% + Midnight TGE Ltd. 15.25% = 50.25% of supply, fully unlocked since 10 Dec 2025"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Fees are paid in non-transferable DUST; NIGHT holders receive no fee income and there is no burn."
+pump_day_price_source: "Gate NIGHT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (54 of 336 days); the body's earlier count used the daily closes cited in the body"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.04543
 price_source: "CoinGecko, 16 Nov 2026 8:16 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - Transaction fees on Midnight are paid in **DUST**, which holding NIGHT generates and which cannot be transferred. NIGHT holders therefore receive no fee income, and there is no burn or treasury capture. No DefiLlama fee or revenue listing exists. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Fees are paid in non-transferable DUST; NIGHT holders receive no fee income and there is no burn.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - The Midnight Foundation runs ecosystem spending and is on the governance committee; Midnight TGE Ltd. handles the token distribution. Both are disclosed entities with written policies, but multisig structures and signers are not disclosed ([whitepaper](https://45047878.fs1.hubspotusercontent-na1.net/hubfs/45047878/Midnight-Tokenomics-And-Incentives-Whitepaper.pdf)).
@@ -95,6 +105,8 @@ layout_version: 3
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
 - The whitepaper says the bucket-to-address mapping is kept at midnight.gd. That site returned HTTP 429/403 to automated reads, and Koios's holder endpoint can only return holders sorted as text, not by size, so the entity wallets could not be identified or traced. No Foundation or TGE Ltd. transfer disclosure was found for the 36 pump days (largest run 30 Sep – 3 Oct 2026, +50% to +80%). **Not proven → 4.**
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate NIGHT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (54 of 336 days); the body's earlier count used the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -137,8 +149,17 @@ layout_version: 3
 | Live mint path | 🟢 None (single mint) |
 | Entity concentration | 🔴 50.25% unlocked in two entities |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation and TGE Ltd. buckets | Not mapped (midgard site blocked) | — | low | no | Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [Midnight tokenomics and incentives whitepaper](https://45047878.fs1.hubspotusercontent-na1.net/hubfs/45047878/Midnight-Tokenomics-And-Incentives-Whitepaper.pdf) (distribution status as at 18 May 2026, holder concentration, custody, federated nodes)
 - [Tier A] Koios `asset_info` for the NIGHT policy (supply, one mint, no burns, creation time), 16 Nov 2026 ~8:22 AM MST
 - [Tier A] CoinGecko `midnight-3` (16 Nov 2026 8:16 AM MST); Binance NIGHTUSDT daily closes for pump days

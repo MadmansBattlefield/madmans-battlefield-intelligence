@@ -4,13 +4,13 @@
   "name": "Phala Network",
   "chain": "ethereum",
   "contract": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-  "overall_score": 3.9,
+  "overall_score": 3.8,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 2,
     "foundation_team": 5,
     "insider_holdings": 4,
-    "selling_behavior": 1,
+    "selling_behavior": 0,
     "tokenomics_supply": 6,
     "liquidity_market": 6,
     "product_development": 6,
@@ -31,7 +31,7 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 1,
+      "score": 0,
       "threshold": 3,
       "tripped": true
     }
@@ -44,7 +44,16 @@
   },
   "price_usd": 0.03045,
   "price_source": "CoinGecko, 16 Nov 2026 ~8:40 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No fee or revenue record; the old treasury share of mining rewards ended.",
+    "pump_day_price_source": "Gate PHA/USDT daily closes",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.03045,
     "market_cap_text": "$26.3M",
@@ -55,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/PHA.md",
-    "sha256": "b86a7959b42fba0e5c42562a4cc62026d71960c1fa2bd3a21fe26da420d6fb7e",
-    "bytes": 15006,
-    "extracted_at": "2026-11-16 14:23 MST",
+    "sha256": "554c4ec976e6525f5d07ae7df6ad6ba27915a394bc06ae4cffac27694f1d5695",
+    "bytes": 16514,
+    "extracted_at": "2026-11-16 14:24 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -165,27 +174,27 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate PHA/USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
     "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": false,
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: ~15.9M PHA (~$0.85M) reached Gate deposit addresses on six pump days, 18-25 Sep 2026, from Safes funded by the protocol escrow; no disclosure found"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
-    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama has no fee or revenue record for Phala. The old model (20% of mining rewards to the treasury) ended when the parachain was shut down. No revenue figures for the TEE cloud business were found, and no mechanism sends cloud revenue to PHA holders. **2 → hard-gate FAIL.**"
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama has no fee or revenue record for Phala. The old model (20% of mining rewards to the treasury) ended when the parachain was shut down. No revenue figures for the TEE cloud business were found, and no mechanism sends cloud revenue to PHA holders. **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules):..."
   },
   "attributions": [
     {
@@ -241,7 +250,7 @@
         "arkham",
         "explorer-link"
       ],
-      "label_kind": "exchange",
+      "label_kind": "unknown",
       "appears_in_selling_or_holdings": true
     },
     {
@@ -303,6 +312,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan token, address and transaction pages (links above). Receipts, balances and Safe owner/threshold reads were made through the Etherscan API on 16 Nov 2026",

@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:23 MST
+generated_at: 2026-11-16 14:24 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -55,7 +55,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [EURE](banking-rails/EURE.md) | 1 | 5.0 | 5.0 | 3 | 6 | 6 |
 | [EWT](banking-rails/EWT.md) | 1 | 4.0 | 4.0 | 2 | 5 | 4 |
 | [EXA](banking-rails/EXA.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
-| [FXS](banking-rails/FXS.md) | 1 | 4.6 | 4.6 | 4 | 4 | 4 |
+| [FXS](banking-rails/FXS.md) | 2 | 4.6 | 4.2 | 4 | 4 → 1 | 4 |
 | [GRND](banking-rails/GRND.md) | 1 | 4.2 | 4.2 | 3 | 5 | 5 |
 | [H](banking-rails/H.md) | 1 | 2.4 | 2.4 | 1 | 4 | 2 |
 | [HASH](banking-rails/HASH.md) | 1 | 3.8 | 3.8 | 3 | 4 | 2 |
@@ -63,10 +63,10 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [HONEY](banking-rails/HONEY.md) | 1 | 3.1 | 3.1 | 2 | 5 | 3 |
 | [HTX](banking-rails/HTX.md) | 1 | 4.0 | 4.0 | 5 | 5 | 2 |
 | [HUMA](banking-rails/HUMA.md) | 1 | 4.4 | 4.4 | 2 | 5 | 3 |
-| [HYPER](banking-rails/HYPER.md) | 1 | 3.6 | 3.6 | 2 | 2 | 3 |
+| [HYPER](banking-rails/HYPER.md) | 2 | 3.6 | 3.4 | 2 | 2 → 0 | 3 |
 | [ICP](banking-rails/ICP.md) | 1 | 4.3 | 4.3 | 2 | 4 | 3 |
 | [INJ](banking-rails/INJ.md) | 1 | 3.9 | 3.9 | 2 | 4 | 4 |
-| [INV](banking-rails/INV.md) | 1 | 4.8 | 4.8 | 6 | 4 | 6 |
+| [INV](banking-rails/INV.md) | 2 | 4.8 | 4.4 | 6 | 4 → 1 | 6 |
 | [IOST](banking-rails/IOST.md) | 1 | 3.1 | 3.1 | 1 | 4 | 3 |
 | [IOTX](banking-rails/IOTX.md) | 1 | 3.7 | 3.7 | 2 | 4 | 4 |
 | [JASMY](banking-rails/JASMY.md) | 1 | 2.8 | 2.8 | 1 | 2 | 3 |
@@ -244,24 +244,42 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **EURE** — 5.0 FAIL in `73d9a3c` (2026-11-16 13:58 MST).
 - **EWT** — 4.0 FAIL in `52a7999` (2026-11-16 14:21 MST).
 - **EXA** — 3.1 FAIL in `52a7999` (2026-11-16 14:21 MST).
-- **FXS** — 4.6 FAIL in `16d387f` (2026-11-16 08:50 MST).
+### FXS
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `16d387f` | 2026-11-16 08:50 MST | 4.6 | FAIL | 4 | 4 | 4 | — |
+| `a1cdce3` | 2026-11-16 14:23 MST | 4.2 | FAIL | 4 | 1 | 4 | selling_behavior |
+
 - **GRND** — 4.2 FAIL in `aa945b1` (2026-11-16 12:24 MST).
-- **H** — 2.4 FAIL in `7524e33` (2026-11-16 09:33 MST).
-- **HASH** — 3.8 FAIL in `5c5b66f` (2026-11-16 08:19 MST).
-- **HBAR** — 5.3 FAIL in `6fa4721` (2026-11-15 18:37 MST).
-- **HONEY** — 3.1 FAIL in `16d387f` (2026-11-16 08:50 MST).
-- **HTX** — 4.0 FAIL in `714aff3` (2026-11-16 08:59 MST).
-- **HUMA** — 4.4 FAIL in `0a6d1a7` (2026-11-16 07:39 MST).
-- **HYPER** — 3.6 FAIL in `c108a79` (2026-11-16 08:40 MST).
-- **ICP** — 4.3 FAIL in `132f0fd` (2026-11-16 06:50 MST).
-- **INJ** — 3.9 FAIL in `132f0fd` (2026-11-16 06:50 MST).
-- **INV** — 4.8 FAIL in `a664692` (2026-11-16 06:58 MST).
+- **H** — 2.4 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
+- **HASH** — 3.8 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
+- **HBAR** — 5.3 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
+- **HONEY** — 3.1 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
+- **HTX** — 4.0 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
+- **HUMA** — 4.4 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
+### HYPER
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `c108a79` | 2026-11-16 08:40 MST | 3.6 | FAIL | 2 | 2 | 3 | revenue, selling_behavior |
+| `a1cdce3` | 2026-11-16 14:23 MST | 3.4 | FAIL | 2 | 0 | 3 | revenue, selling_behavior |
+
+- **ICP** — 4.3 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
+- **INJ** — 3.9 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
+### INV
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `a664692` | 2026-11-16 06:58 MST | 4.8 | FAIL | 6 | 4 | 6 | — |
+| `a1cdce3` | 2026-11-16 14:23 MST | 4.4 | FAIL | 6 | 1 | 6 | selling_behavior |
+
 - **IOST** — 3.1 FAIL in `aa945b1` (2026-11-16 12:24 MST).
-- **IOTX** — 3.7 FAIL in `16d387f` (2026-11-16 08:50 MST).
+- **IOTX** — 3.7 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
 - **JASMY** — 2.8 FAIL in `a8496ab` (2026-11-16 14:06 MST).
 - **JST** — 5.5 FAIL in `78f06b6` (2026-11-16 06:22 MST).
-- **KAIA** — 3.9 FAIL in `a4bf82b` (2026-11-16 07:42 MST).
-- **KAIO** — 3.6 FAIL in `c108a79` (2026-11-16 08:40 MST).
+- **KAIA** — 3.9 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
+- **KAIO** — 3.6 FAIL in `a1cdce3` (2026-11-16 14:23 MST).
 - **KAVA** — 3.1 FAIL in `714aff3` (2026-11-16 08:59 MST).
 - **LINK** — 6.9 PASS in `6723e4d` (2026-11-16 14:02 MST).
 - **LUMIA** — 3.2 FAIL in `91b6ac1` (2026-11-16 12:34 MST).

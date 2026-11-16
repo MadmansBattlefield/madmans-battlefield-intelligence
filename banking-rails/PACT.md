@@ -3,13 +3,13 @@ ticker: PACT
 name: PACT Protocol (Pact Foundation)
 chain: aptos
 contract: "0xc546cc2dd26d9e9a4516b4514288bedf1085259fcb106b84b6469337f527fb92"
-overall_score: 3.1
+overall_score: 2.9
 overall_verdict: FAIL
 section_scores:
   revenue: 3
   foundation_team: 4
   insider_holdings: 2
-  selling_behavior: 1
+  selling_behavior: 0
   tokenomics_supply: 2
   liquidity_market: 2
   product_development: 5
@@ -24,6 +24,14 @@ red_lines:
   team_wallet_to_exchange_during_pump: "yes: Foundation multisig released 3.44B PACT on 1 Oct 2026 (MST); 1.32B of it reached Gate deposit addresses within ~10 hours, on the 2 Oct 2026 (UTC) pump day (+11.1%)"
   undisclosed_reserve_releases: "yes: 3.44B (1 Oct 2026) and 6.25B (4–12 Nov 2026) out of the Foundation multisig; no announcement or vote found"
   freeze_blocklist: "enabled (admin can freeze wallets and blocklist addresses)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The buyback rule cannot be audited and bought tokens are locked, not burned or paid out."
+pump_day_price_source: "the report's own daily-close series"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.00018056
 price_source: "CoinGecko, 16 Nov 2026 5:46 AM MST"
 last_updated: 2026-11-16
@@ -32,7 +40,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### PACT · Overall grade **3.1 / 10 · ❌ FAIL**
+### PACT · Overall grade **2.9 / 10 · ❌ FAIL**
 
 **Summary:** PACT is the governance token of an Aptos-based lending and payroll-credit protocol run by the Pact Foundation and Pact Labs (Tether led a $7M equity round in Pact Labs). The business is real, but the token earns nothing provable: the Foundation says fees fund buybacks, yet no buyback wallet is published. The Foundation's 2-of-3 multisig can mint without a cap (it minted 25B in Dec 2025), can freeze wallets, and has released 9.7B PACT since 1 Oct 2026 with no announcement found. **Part of the first release was on Gate within hours, on a pump day.** Trading is about $29K a day. Fails both hard gates.
 
@@ -45,7 +53,7 @@ layout_version: 3
 | 💰 Revenue | 3/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 4/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 2/10 | ❌ FAIL |
-| 📉 Selling behavior | 1/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 2/10 | ❌ FAIL |
 | 💧 Liquidity & market | 2/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 5/10 | ❌ FAIL |
@@ -59,7 +67,7 @@ layout_version: 3
 ---
 
 
-# 🪪 PACT · PACT Protocol (Pact Foundation) · 3.1 / 10 · ❌ FAIL
+# 🪪 PACT · PACT Protocol (Pact Foundation) · 2.9 / 10 · ❌ FAIL
 
 > **One line:** PACT is the governance token of an Aptos-based lending and payroll-credit protocol run by the Pact Foundation and Pact Labs (Tether led a $7M equity round in Pact Labs). The business is real, but the token earns nothing provable: the Foundation says fees fund buybacks, yet no buyback wallet is published. The Foundation's 2-of-3 multisig can mint without a cap (it minted 25B in Dec 2025), can freeze wallets, and has released 9.7B PACT since 1 Oct 2026 with no announcement found. **Part of the first release was on Gate within hours, on a pump day.** Trading is about $29K a day. Fails both hard gates.
 
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** A small lending business with self-reported fees, and a buyback rule nobody can audit. The bought tokens are locked, not burned or paid out. Score **3**. Hard-gate FAIL.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The buyback rule cannot be audited and bought tokens are locked, not burned or paid out.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -106,7 +116,7 @@ layout_version: 3
 | [`0xa6eb…6045`](https://explorer.aptoslabs.com/account/0xa6ebcf9d3a7aa3e22a8b57c77489149bc969a00de87a8150f9bc105c969a6045?network=mainnet) | 3,125.0M | All from the Foundation multisig on 4 Nov 2026 |
 | **Insider-controlled total (vesting + Foundation + 0x795a)** | **≈ 92.0B (≈ 74%)** | |
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 **Method:** every PACT transfer out of the Foundation multisig and `0x795a…` (Aptos indexer `fungible_asset_activities`), followed up to three hops. Exchange wallets come from the Aptos Labs explorer's [known-address list](https://github.com/aptos-labs/explorer/blob/main/app/data/mainnet/knownAddresses.ts) (Gate 1 = `0x0cf8…012a`, Kraken 1, MEXC 1). Deposit addresses are wallets that forward 80%+ to one of them. Pump days use CoinGecko daily closes (UTC), cross-checked with Kraken.
 
@@ -128,6 +138,8 @@ layout_version: 3
 **B. `0x795a…` (got the bridged 25B), Feb–Jun 2026:** sent [1,562.5M to a Gate deposit](https://explorer.aptoslabs.com/txn/4409437962?network=mainnet) on 25 Feb 2026 and [39.1M to a Kraken deposit](https://explorer.aptoslabs.com/txn/4417425325?network=mainnet) on 26 Feb. Its recipients sent another ~1.9B to Gate, Kraken and MEXC deposits between 25 Feb and 12 Mar 2026 (e.g. [625M, 12 Mar](https://explorer.aptoslabs.com/txn/4543459492?network=mainnet)), during the 98% price fall. It also sent [47.5M](https://explorer.aptoslabs.com/txn/5804643109?network=mainnet) and [45.0M](https://explorer.aptoslabs.com/txn/5888529153?network=mainnet) to a Gate deposit on 18 and 23 Jun 2026. Those were pump days on CoinGecko (+11.0%, +12.2%) but not on Kraken. It has also *withdrawn* [500M from Gate 1](https://explorer.aptoslabs.com/txn/6918227022?network=mainnet) (25 Aug 2026), which looks like an exchange-trading account. Owner [Unverified].
 
 **What it means:** The Foundation's own multisig, which also controls minting, released reserve tokens that were on an exchange within hours on a pump day, with no disclosure found. That is the clearest form of the red line. Score **1**. Hard-gate FAIL.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **1 → 0**. Pump days from the report's own daily-close series.
 
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 
@@ -188,8 +200,17 @@ The loan book is large next to a $7.7M market cap, but those loans pay lenders, 
 | Live mint path | 🔴 Uncapped, admin-only, used for 25B in Dec 2025 |
 | Freeze / blocklist | 🟡 Enabled |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation 2-of-3 multisig (token admin) | PACT Foundation | Aptos indexer (mint authority) | high | yes (on-chain) | Selling: released reserve tokens that reached an exchange within hours on a pump day |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Aptos indexer GraphQL (`fungible_asset_metadata`, `current_fungible_asset_balances`, `fungible_asset_activities`, `user_transactions`) and Aptos REST (OFT module ABI, `OAppStore`, `oft_impl_config::Config`, `MultisigAccount`); read 16 Nov 2026 ~5:10–5:50 AM MST
 - [Tier B] Aptos Labs explorer known-address list ([GitHub](https://github.com/aptos-labs/explorer/blob/main/app/data/mainnet/knownAddresses.ts)) for Gate 1, Kraken 1, MEXC 1
 - [Tier A] CoinGecko `pact-2` price, tickers and 365-day closes; Kraken PACTUSD daily OHLC

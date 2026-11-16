@@ -47,6 +47,14 @@
   "front_matter_extras": {
     "formerly": "BitDAO (BIT), migrated 1 BIT = 1 MNT in 2023",
     "l2_native": 1271273378134555899171451192324585542618241105920,
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Fee income is tiny and no binding mechanism passes treasury or product cash to MNT holders.",
+    "pump_day_price_source": "Gate MNT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (28 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [],
     "chain_read_height": 26420823
   },
   "key_numbers": {
@@ -59,9 +67,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/MNT.md",
-    "sha256": "9284d2aa3de1ef888379fb5ab6f42bcf6773bb5d6f0842150574965666455dee",
-    "bytes": 32777,
-    "extracted_at": "2026-11-16 14:23 MST",
+    "sha256": "25c0b2704d8e0a1ac1fcc2195497182176255dff63afec1b4614e433884f3f99",
+    "bytes": 34412,
+    "extracted_at": "2026-11-16 14:24 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -312,25 +320,25 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate MNT_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (28 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "yes",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": false,
-    "disclosure_quality": "unclear",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "treasury_sells_on_pump_days: none_found_onchain"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "The chain's own fee income is tiny. Mantle's real economic weight is its treasury and side products (mETH, UR, MI4), and none of them has a published, binding way to pass cash to MNT holders."
   },
@@ -375,6 +383,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Ethereum mainnet RPC (publicnode) + Blockscout `eth.blockscout.com` (token transfers, balances, verified `L1MantleToken` source), block ~26,420,823; Mantle RPC `rpc.mantle.xyz` and Routescan (chain 5000) normal + internal txlists; 15 Nov 2026 ~6:50–7:10 AM MST",

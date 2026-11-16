@@ -23,6 +23,19 @@ red_lines:
   mint_path_live: "not proven: single 258.5M mint on 8 Mar 2021, no mints since"
   team_wallet_to_exchange_during_pump: "not proven: the pump-day deposits came from Upbit hot wallets (exchange-to-exchange flow); no identified team wallet moved PUNDIX in the last year"
   entity_concentration: "Upbit (exchange custody) holds 127.3M (49.3%); two unlabelled Safes hold 18.6M (7.2%)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No fee or revenue data; nothing reaches holders."
+pump_day_price_source: "Gate PUNDIX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (15 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0x1dca35ea1aedfbbf6a7be6c5ef6b017433aa3b5a"
+    label: "Upbit: Hot Wallet"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan + Arkham"
 price_usd: 0.07492
 price_source: "CoinGecko, 16 Nov 2026 ~9:15 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +90,8 @@ layout_version: 3
 
 - No fee or revenue data on DefiLlama or from the project. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee or revenue data; nothing reaches holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 - Pundi X Labs, described by role only. The project has pivoted from point-of-sale hardware to AI data on its own chain.
@@ -99,6 +114,8 @@ layout_version: 3
 - **Correction:** Arkham labels both senders **Upbit hot wallets**, fed by Upbit deposit addresses. These are exchange-to-exchange transfers (Upbit to Binance, Gate and Bithumb), not team sales. The selling gate no longer fails.
 - The two unlabelled Safes moved no PUNDIX in the last 365 days (Etherscan). 0x86E0's older outflows (Nov 2023–May 2025) went to one unlabelled wallet and fall outside the window.
 - No team wallet is identified, so the pump-day test can't be run on insiders → **not proven, 4** (was 3).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate PUNDIX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (15 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -137,8 +154,17 @@ layout_version: 3
 | Live mint path | 🟢 None seen since 2021 |
 | Entity concentration | 🟠 49.3% in Upbit custody; 7.2% in two unlabelled Safes |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [0x1dca…3b5a](https://etherscan.io/address/0x1dca35ea1aedfbbf6a7be6c5ef6b017433aa3b5a) | Upbit: Hot Wallet | Etherscan + Arkham | high | yes | None: exchange-to-exchange flow |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan token, wallet and transaction pages, with exchange deposit labels; receipts checked 16 Nov 2026
 - [Tier A] CoinGecko `pundi-x-2`; pump days from Binance PUNDIXUSDT daily closes
 - [Tier B] Arkham, read 16 Nov 2026 (signed-in account): Upbit on 0x2bc8 and 0xe0e0; Upbit: Hot Wallet on 0x1dca and 0xce07; Pundi X: SwapToken on 0x5ae1; no project label on Safes 0x21f7 and 0x86E0

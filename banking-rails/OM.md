@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes: 3% yearly staking inflation up to a 10B MANTRA cap"
   team_wallet_to_exchange_during_pump: "not proven: native-chain treasury wallets not traced"
   entity_concentration: "Association 12.8% plus core contributors 16.9% of genesis (vesting)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No fee record exists and nothing reaches holders."
+pump_day_price_source: "the daily closes cited in the body"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.002296
 price_source: "CoinGecko, 16 Nov 2026 ~8:52 AM MST (per MANTRA; 1 OM = 4 MANTRA)"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - DefiLlama has no fee record for MANTRA, and the project publishes none. Chain TVL is $494k. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee record exists and nothing reaches holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 - The MANTRA Chain Association is the issuer. Leaders are described by role only. In Apr 2025, OM fell about 90% in a few hours; the project blamed forced liquidations on exchanges (Tier B, outside the 1-year window).
@@ -88,6 +98,8 @@ layout_version: 3
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
 - Treasury and contributor wallets are on MANTRA Chain. I ran no native-chain trace, so this is **not proven → 4.** Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) labels the Ethereum contract [0x3593…c95d](https://intel.arkm.com/explorer/address/0x3593d125a4f7849a1b059e64f4517a86dd60c95d) **MANTRA: MANTRA Token (OM)** but shows no Association or contributor wallets, and MANTRA Chain is not an Arkham-supported network. This still needs a MANTRA Chain explorer API.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -126,8 +138,17 @@ layout_version: 3
 | Live mint path | 🟠 3% yearly inflation |
 | Entity concentration | 🟠 ~30% of genesis to the Association and contributors |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| MANTRA treasury on MANTRA Chain | Not traced | — | low | no | Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [MANTRA tokenomics docs](https://docs.mantrachain.io/mantra-tokenomics) (genesis split, 1:4 split, vesting)
 - [Tier A] [DefiLlama MANTRA chain TVL](https://defillama.com/chain/MANTRA)
 - [Tier A] CoinGecko `mantra`; pump days from Binance OMUSDT (÷4) to 2 Mar 2026, then MANTRAUSDT
@@ -151,6 +172,7 @@ layout_version: 3
 |---|---|---|---|
 | 1 | **Association and contributor wallet flows to exchanges** | Arkham does not cover MANTRA Chain. Use a public MANTRA explorer or ask the Association for its addresses | Free |
 | 2 | **Chain fee revenue** | Sum the native fees from a chain indexer | Free |
+| 3 | **Pump-day test on exchange prices.** No Gate, MEXC, KuCoin or Kraken USDT series with a full year was returned on 16 Nov 2026 (Binance blocks this region) | Re-run scripts/pump_day_test.py on the first exchange in the price-source order that lists the token | Free |
 
 ---
 

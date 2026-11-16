@@ -3,13 +3,13 @@ ticker: POLYX
 name: Polymesh
 chain: polymesh
 contract: "native (Polymesh mainnet balances; SS58 prefix 12)"
-overall_score: 3.3
+overall_score: 3.0
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 4
   insider_holdings: 3
-  selling_behavior: 2
+  selling_behavior: 0
   tokenomics_supply: 4
   liquidity_market: 4
   product_development: 6
@@ -24,6 +24,14 @@ red_lines:
   team_wallet_to_exchange_during_pump: "YES by pattern: Polymesh Association-listed and genesis-identity wallets (plus 2HXnHMiy..., funded by Association wallets) sent 187.3M POLYX in 139 transfers into memo-deposit address 2F8aakk..., 32.9M of it on pump days (34 transfers), 59.3M in the last 12 months; exchange name [Unverified]"
   treasury_selling: "not disclosed; Association assets incl. POLYX sold to Polymath (Jun 2025), Polymath acquired by Nasdaq-listed TruGolf (Oct 2026)"
   fee_capture: "fees go to block-producing operators, not holders; 4,780 POLYX of fees in 365 days"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The chain earns almost nothing and fees go to block producers; Polymath's SaaS revenue belongs to a company."
+pump_day_price_source: "Gate POLYX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used the daily closes cited in the body"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.02545
 price_source: "CoinGecko, 16 Nov 2026 5:10 AM MST"
 last_updated: 2026-11-16
@@ -32,7 +40,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### POLYX · Overall grade **3.3 / 10 · ❌ FAIL**
+### POLYX · Overall grade **3.0 / 10 · ❌ FAIL**
 
 **Summary:** Polymesh is a purpose-built chain for regulated securities with identity and compliance built into the base layer, and it keeps shipping (runtime 8.1.3 on 11 Nov 2026 gave every asset an EVM address). But almost nobody uses it: in the last 12 months the whole network paid **4,780 POLYX (~$120) in fees**, created **28 assets** and settled **129 instructions**, and the fees go to node operators, not holders. Supply grew **9.9%** in a year with no cap. The Polymesh Association sold its assets, including its POLYX, to Polymath in June 2025, and Polymath was bought by Nasdaq golf-simulator company TruGolf in October 2026. On-chain, **Association and genesis-identity wallets have sent 187.3M POLYX (14% of supply) into one memo-style exchange deposit address, 32.9M of it on pump days and 59.3M in the last 12 months.**
 
@@ -45,7 +53,7 @@ layout_version: 3
 | 💰 Revenue | 1/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 4/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 2/10 | ❌ FAIL |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -59,7 +67,7 @@ layout_version: 3
 ---
 
 
-# 🪪 POLYX · Polymesh · 3.3 / 10 · ❌ FAIL
+# 🪪 POLYX · Polymesh · 3.0 / 10 · ❌ FAIL
 
 > **One line:** A well-engineered securities chain that almost nobody pays to use (~$120 of fees in a year, all to operators), with ~10% yearly inflation, and whose foundation-side wallets have fed 187M POLYX into one exchange-style deposit address, 33M of it on pump days.
 
@@ -88,6 +96,8 @@ layout_version: 3
 
 **What it means:** The chain earns almost nothing, and what it earns goes to block producers. Polymath's $4.2M of SaaS revenue belongs to a company (now inside TruGolf), not to POLYX holders. **1, which trips the Revenue gate.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The chain earns almost nothing and fees go to block producers; Polymath's SaaS revenue belongs to a company.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -113,7 +123,7 @@ layout_version: 3
 
 **What it means:** About a fifth of supply sits with the foundation side, now controlled by a company, and that side has been steadily moving coins to an exchange-style address (see Selling). One unlabeled wallet holds 38%. **3.**
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 2/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 **Deposit address.** [`2F8aak…6wo4`](https://polymesh.subscan.io/account/2F8aakkWMbuLqFD1Zc2q3Bss88TTbeazX2MEoCfeUMqk6wo4) (identity `0x45fd73…`, created Sep 2022) received deposits from **479 senders with 1,691 different numeric memos** since June 2024 (the memo pattern exchanges use to credit users) and swept them to [`2CoSRa…roua`](https://polymesh.subscan.io/account/2CoSRaWBjmxEWikG1FbzXe63G9DGayCpUnnVPkJu5V14roua) in 13,000+ transfers. It holds only ~80k POLYX. That is an exchange deposit pattern; which exchange is **[Unverified]**.
 
@@ -149,6 +159,8 @@ By year: 2022 7.5M · 2023 49.4M · 2024 40.1M · 2025 31.1M · **2026 59.3M** (
 - No sale disclosure, unlock schedule or treasury report from the Association, Polymath or TruGolf was found.
 
 **What it means:** Wallets the Association itself lists, plus its genesis council identity, have paid an exchange-style deposit address for four years, including big lots on the strongest pump days (+72% and +75%). The exchange is not named, so it stays "by pattern", but the senders are Tier A. **2, which trips the Selling gate.**
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found. The receiving address is proven to be an exchange deposit by its on-chain memo pattern, not by a label. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from Gate POLYX_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (33 of 360 days); the body's earlier count used the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -209,8 +221,18 @@ By year: 2022 7.5M · 2023 49.4M · 2024 40.1M · 2025 31.1M · **2026 59.3M** (
 | Treasury selling | 🔴 Not disclosed; Association POLYX sold to Polymath (2025) |
 | Fee capture | 🔴 Fees go to operators; ~4,780 POLYX in a year |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Association-listed and genesis-identity wallets | Polymesh Association | The Association's own wallet list (Tier A) | high | yes | Selling: 32.9M POLYX on pump days into memo-deposit address `2F8aak…` |
+| `2F8aak…6wo4` | Exchange memo-deposit address (exchange not named) | 479 senders, 1,691 numeric memos (on-chain pattern) | high | yes (on-chain pattern) | Selling: on-chain proof that it is an exchange deposit |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Polymesh mainnet RPC (`mainnet-rpc.polymesh.network`): `Balances.TotalIssuance` at blocks 21,184,603 and 26,425,941; full `System.Account` scan (7,602 accounts, sum = issuance), 16 Nov 2026 ~5:40 AM MST
 - [Tier A] Polymesh middleware indexer (`mainnet-graphql.polymesh.network`): identities `0x01…`–`0x05…`, account→identity links, `polyxTransactions` for all genesis-identity accounts, `2HXnHM…`, `2F8aak…`; fee, asset, instruction and extrinsic counts, 16 Nov 2026
 - [Tier A] Polymesh Association [circulating-supply page source](https://raw.githubusercontent.com/PolymeshAssociation/PolymeshAssociation.github.io/main/circulating-supply/index.html) (address list)

@@ -3,13 +3,13 @@ ticker: ONDO
 name: Ondo
 chain: ethereum
 contract: "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3"
-overall_score: 4.7
+overall_score: 4.3
 overall_verdict: FAIL
 section_scores:
   revenue: 3
   foundation_team: 4
   insider_holdings: 3
-  selling_behavior: 4
+  selling_behavior: 1
   tokenomics_supply: 2
   liquidity_market: 9
   product_development: 7
@@ -17,12 +17,25 @@ section_scores:
   security_audits: 6
   regulatory: 7
   catalysts: 3
-gates_failed: [revenue]
+gates_failed: [revenue, selling_behavior]
 red_lines:
   hack_exploit: none
   mint_role_used: not_used_still_possible
   control_dispute_at_company: active_litigation
   admin_safe_funds_to_exchange: "yes (100.5M ONDO via Safe 0xEA57 into 5 Coinbase deposit addresses, 27 Aug – 13 Oct 2026; 18.2M on the 21 Sep pump day; undisclosed)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The token is a governance coupon with no cash flow from Ondo's products."
+pump_day_price_source: "Gate ONDO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (51 of 360 days); the body's earlier count used the daily closes cited in the body"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions:
+  - address: "0xea5785e1727de2ba2cefd102cb2dd91e018675e1"
+    label: "Safe funded only by Ondo's admin Safe"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan funding (on-chain)"
 price_usd: 0.3115
 price_source: "CoinGecko, 14 Nov 2026 9:08 AM MST"
 last_updated: 2026-11-15
@@ -31,7 +44,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### ONDO · Overall grade **4.7 / 10 · ❌ FAIL**
+### ONDO · Overall grade **4.3 / 10 · ❌ FAIL**
 
 **Summary:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. New: a Safe funded only by that admin Safe sent 100.5M ONDO into Coinbase deposit addresses in Aug–Oct 2026, one batch on a pump day, with no disclosure.
 
@@ -44,7 +57,7 @@ layout_version: 3
 | 💰 Revenue | 3/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 4/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 4/10 | ❌ FAIL |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 2/10 | ❌ FAIL |
 | 💧 Liquidity & market | 9/10 | ✅ PASS |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -58,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ONDO · Ondo · 4.7 / 10 · ❌ FAIL
+# 🪪 ONDO · Ondo · 4.3 / 10 · ❌ FAIL
 
 > **One line:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. New: a Safe funded only by that admin Safe sent 100.5M ONDO into Coinbase deposit addresses in Aug–Oct 2026, one batch on a pump day, with no disclosure.
 
@@ -87,6 +100,8 @@ layout_version: 3
 
 **What it means:** The business clearly makes money. The token is a governance coupon with no cash flow. Real Rails: "TOKEN EARNS NOTHING."
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The token is a governance coupon with no cash flow from Ondo's products.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -112,7 +127,7 @@ layout_version: 3
 
 **What it means:** Over half the supply can be moved by four signatures today, despite the "January 2027 unlock" story.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 | Test | Result | Source |
 |---|---|---|
@@ -141,6 +156,8 @@ layout_version: 3
 - Real Rails treasury badge: **CAUTION**.
 
 **What it means:** Tokens released from Ondo's admin Safe reached Coinbase directly: 100.5M ONDO (~$44M) in seven weeks, including 18.2M on a +32% pump day. Nothing was disclosed. One of five exchange sends on a pump day is in line with chance, and the coins may have gone to payees, not to Ondo, so this is not proof that Ondo dumped. Still, undisclosed releases from the issuer's Safe reached an exchange on a pump day, so the score drops from 5 to 4 (fail, but not the hard gate).
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** Nothing was disclosed. Under the one-hop rule a direct transfer from a project-funded Safe into an exchange deposit on a pump day is a proven sale, even though the account owner behind the deposit address is not named. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **4 → 1** (capped at 3, then −2). This adds the Selling hard gate. 21 Sep 2026 is a pump day on Gate prices. Pump days from Gate ONDO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (51 of 360 days); the body's earlier count used the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 
@@ -202,8 +219,17 @@ layout_version: 3
 | Control dispute at the company | 🟡 Active litigation |
 | Admin-Safe funds → exchange, undisclosed | 🔴 Yes: 100.5M ONDO into Coinbase via [`0xEA57…`](https://etherscan.io/address/0xEA5785e1727DE2Ba2CEfd102Cb2Dd91E018675e1), 27 Aug – 13 Oct 2026; 18.2M on the 21 Sep pump day ([send](https://etherscan.io/tx/0x13df98ebcd46cb359d06022a5ae2631780a5e532e36fef7dd35c8546d3fb13f7) · [sweep](https://etherscan.io/tx/0xcb2612aa97f6b20693de46c4df4220468a0f0c8328bbf13858d69b616741dd9f) · [Arkham label](https://intel.arkm.com/explorer/address/0x8119e9ffc2aca20b8a121792fe21149c1b7d1f46)) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [`0xEA57…75e1`](https://etherscan.io/address/0xEA5785e1727DE2Ba2CEfd102Cb2Dd91E018675e1) | Safe funded only by Ondo's admin Safe | Etherscan funding (on-chain) | high | yes (on-chain) | Selling: 100.5M ONDO into five Coinbase deposit addresses, 18.2M on the 21 Sep 2026 pump day |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Ethereum verified source, RPC and Blockscout holder/log reads, 10 Oct 2026
 - [Tier A] [docs.ondo.foundation/ondo-token](https://docs.ondo.foundation/ondo-token) · [FIP-08](https://forum.fluxfinance.com/t/fip-08-release-of-the-ondo-token-lock-up/563)
 - [Tier A] [Delaware CourtConnect 2026-0978](https://courtconnect.courts.delaware.gov/cc/cconnect/ck_public_qry_doct.cp_dktrpt_docket_report?case_id=2026-0978)

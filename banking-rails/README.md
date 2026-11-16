@@ -65,19 +65,19 @@ Every token in this folder has a full v3 scored report:
 | 30 | [DOT.md](DOT.md) | Polkadot | **4.9 / 10 · ❌ FAIL** |
 | 31 | [DASH.md](DASH.md) | Dash | **4.7 / 10 · ❌ FAIL** |
 | 32 | [DIA.md](DIA.md) | DIA | **4.7 / 10 · ❌ FAIL** |
-| 33 | [ONDO.md](ONDO.md) | Ondo | **4.7 / 10 · ❌ FAIL** |
-| 34 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
-| 35 | [SOLV.md](SOLV.md) | Solv Protocol | **4.7 / 10 · ❌ FAIL** |
-| 36 | [BTT.md](BTT.md) | BitTorrent | **4.7 / 10 · ❌ FAIL** |
-| 37 | [WAN.md](WAN.md) | Wanchain | **4.7 / 10 · ❌ FAIL** |
-| 38 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
-| 39 | [QNT.md](QNT.md) | Quant | **4.6 / 10 · ❌ FAIL** |
-| 40 | [API3.md](API3.md) | Api3 | **4.5 / 10 · ❌ FAIL** |
-| 41 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
-| 42 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |
-| 43 | [INV.md](INV.md) | Inverse Finance | **4.4 / 10 · ❌ FAIL** |
-| 44 | [HUMA.md](HUMA.md) | Huma Finance | **4.4 / 10 · ❌ FAIL** |
-| 45 | [RVN.md](RVN.md) | Ravencoin | **4.4 / 10 · ❌ FAIL** |
+| 33 | [CELO.md](CELO.md) | Celo | **4.7 / 10 · ❌ FAIL** |
+| 34 | [SOLV.md](SOLV.md) | Solv Protocol | **4.7 / 10 · ❌ FAIL** |
+| 35 | [BTT.md](BTT.md) | BitTorrent | **4.7 / 10 · ❌ FAIL** |
+| 36 | [WAN.md](WAN.md) | Wanchain | **4.7 / 10 · ❌ FAIL** |
+| 37 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
+| 38 | [API3.md](API3.md) | Api3 | **4.5 / 10 · ❌ FAIL** |
+| 39 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
+| 40 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |
+| 41 | [INV.md](INV.md) | Inverse Finance | **4.4 / 10 · ❌ FAIL** |
+| 42 | [HUMA.md](HUMA.md) | Huma Finance | **4.4 / 10 · ❌ FAIL** |
+| 43 | [RVN.md](RVN.md) | Ravencoin | **4.4 / 10 · ❌ FAIL** |
+| 44 | [ONDO.md](ONDO.md) | Ondo | **4.3 / 10 · ❌ FAIL** |
+| 45 | [QNT.md](QNT.md) | Quant | **4.3 / 10 · ❌ FAIL** |
 | 46 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
 | 47 | [RLC.md](RLC.md) | iExec RLC | **4.3 / 10 · ❌ FAIL** |
 | 48 | [RED.md](RED.md) | RedStone | **4.3 / 10 · ❌ FAIL** |
@@ -101,10 +101,10 @@ Every token in this folder has a full v3 scored report:
 | 66 | [HTX.md](HTX.md) | HTX DAO | **4.0 / 10 · ❌ FAIL** |
 | 67 | [CELR.md](CELR.md) | Celer Network | **4.0 / 10 · ❌ FAIL** |
 | 68 | [KAIA.md](KAIA.md) | Kaia | **3.9 / 10 · ❌ FAIL** |
-| 69 | [PHA.md](PHA.md) | Phala Network | **3.9 / 10 · ❌ FAIL** |
-| 70 | [CFX.md](CFX.md) | Conflux | **3.9 / 10 · ❌ FAIL** |
-| 71 | [INJ.md](INJ.md) | Injective | **3.9 / 10 · ❌ FAIL** |
-| 72 | [MBG.md](MBG.md) | MBG By MultiBank Group | **3.9 / 10 · ❌ FAIL** |
+| 69 | [CFX.md](CFX.md) | Conflux | **3.9 / 10 · ❌ FAIL** |
+| 70 | [INJ.md](INJ.md) | Injective | **3.9 / 10 · ❌ FAIL** |
+| 71 | [MBG.md](MBG.md) | MBG By MultiBank Group | **3.9 / 10 · ❌ FAIL** |
+| 72 | [PHA.md](PHA.md) | Phala Network | **3.8 / 10 · ❌ FAIL** |
 | 73 | [ZK.md](ZK.md) | ZKsync | **3.8 / 10 · ❌ FAIL** |
 | 74 | [TRB.md](TRB.md) | Tellor | **3.8 / 10 · ❌ FAIL** |
 | 75 | [ZAMA.md](ZAMA.md) | Zama | **3.8 / 10 · ❌ FAIL** |
@@ -147,26 +147,26 @@ Every token in this folder has a full v3 scored report:
 | 112 | [PUNDIX.md](PUNDIX.md) | Pundi X | **3.4 / 10 · ❌ FAIL** |
 | 113 | [SHPING.md](SHPING.md) | Shping | **3.3 / 10 · ❌ FAIL** |
 | 114 | [CPOOL.md](CPOOL.md) | Clearpool | **3.3 / 10 · ❌ FAIL** |
-| 115 | [POLYX.md](POLYX.md) | Polymesh | **3.3 / 10 · ❌ FAIL** |
-| 116 | [S.md](S.md) | Sonic | **3.3 / 10 · ❌ FAIL** |
-| 117 | [ZIG.md](ZIG.md) | ZIGChain (Zignaly) | **3.3 / 10 · ❌ FAIL** |
-| 118 | [STBL.md](STBL.md) | STBL | **3.3 / 10 · ❌ FAIL** |
-| 119 | [SHARE.md](SHARE.md) | ShareX | **3.3 / 10 · ❌ FAIL** |
-| 120 | [AEON.md](AEON.md) | AEON | **3.3 / 10 · ❌ FAIL** |
-| 121 | [YELLOW.md](YELLOW.md) | Yellow Network | **3.2 / 10 · ❌ FAIL** |
-| 122 | [LUMIA.md](LUMIA.md) | Lumia | **3.2 / 10 · ❌ FAIL** |
-| 123 | [RBNT.md](RBNT.md) | Redbelly Network | **3.1 / 10 · ❌ FAIL** |
-| 124 | [KAVA.md](KAVA.md) | Kava | **3.1 / 10 · ❌ FAIL** |
-| 125 | [ACH.md](ACH.md) | Alchemy Pay | **3.1 / 10 · ❌ FAIL** |
-| 126 | [XEP.md](XEP.md) | Electra Protocol | **3.1 / 10 · ❌ FAIL** |
-| 127 | [PACT.md](PACT.md) | PACT | **3.1 / 10 · ❌ FAIL** |
-| 128 | [EXA.md](EXA.md) | Exactly Protocol | **3.1 / 10 · ❌ FAIL** |
-| 129 | [HONEY.md](HONEY.md) | Hivemapper | **3.1 / 10 · ❌ FAIL** |
-| 130 | [CSPR.md](CSPR.md) | Casper Network | **3.1 / 10 · ❌ FAIL** |
-| 131 | [IOST.md](IOST.md) | IOST | **3.1 / 10 · ❌ FAIL** |
-| 132 | [TLOS.md](TLOS.md) | Telos | **3.0 / 10 · ❌ FAIL** |
-| 133 | [ORAI.md](ORAI.md) | Oraichain | **3.0 / 10 · ❌ FAIL** |
-| 134 | [XDB.md](XDB.md) | XDB CHAIN (formerly DigitalBits) | **2.9 / 10 · ❌ FAIL** |
+| 115 | [S.md](S.md) | Sonic | **3.3 / 10 · ❌ FAIL** |
+| 116 | [ZIG.md](ZIG.md) | ZIGChain (Zignaly) | **3.3 / 10 · ❌ FAIL** |
+| 117 | [STBL.md](STBL.md) | STBL | **3.3 / 10 · ❌ FAIL** |
+| 118 | [SHARE.md](SHARE.md) | ShareX | **3.3 / 10 · ❌ FAIL** |
+| 119 | [AEON.md](AEON.md) | AEON | **3.3 / 10 · ❌ FAIL** |
+| 120 | [YELLOW.md](YELLOW.md) | Yellow Network | **3.2 / 10 · ❌ FAIL** |
+| 121 | [LUMIA.md](LUMIA.md) | Lumia | **3.2 / 10 · ❌ FAIL** |
+| 122 | [RBNT.md](RBNT.md) | Redbelly Network | **3.1 / 10 · ❌ FAIL** |
+| 123 | [KAVA.md](KAVA.md) | Kava | **3.1 / 10 · ❌ FAIL** |
+| 124 | [ACH.md](ACH.md) | Alchemy Pay | **3.1 / 10 · ❌ FAIL** |
+| 125 | [XEP.md](XEP.md) | Electra Protocol | **3.1 / 10 · ❌ FAIL** |
+| 126 | [EXA.md](EXA.md) | Exactly Protocol | **3.1 / 10 · ❌ FAIL** |
+| 127 | [HONEY.md](HONEY.md) | Hivemapper | **3.1 / 10 · ❌ FAIL** |
+| 128 | [CSPR.md](CSPR.md) | Casper Network | **3.1 / 10 · ❌ FAIL** |
+| 129 | [IOST.md](IOST.md) | IOST | **3.1 / 10 · ❌ FAIL** |
+| 130 | [POLYX.md](POLYX.md) | Polymesh | **3.0 / 10 · ❌ FAIL** |
+| 131 | [TLOS.md](TLOS.md) | Telos | **3.0 / 10 · ❌ FAIL** |
+| 132 | [ORAI.md](ORAI.md) | Oraichain | **3.0 / 10 · ❌ FAIL** |
+| 133 | [XDB.md](XDB.md) | XDB CHAIN (formerly DigitalBits) | **2.9 / 10 · ❌ FAIL** |
+| 134 | [PACT.md](PACT.md) | PACT | **2.9 / 10 · ❌ FAIL** |
 | 135 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
 | 136 | [MASQ.md](MASQ.md) | MASQ | **2.7 / 10 · ❌ FAIL** |
 | 137 | [RIO.md](RIO.md) | Realio Network | **2.7 / 10 · ❌ FAIL** |
