@@ -1,0 +1,202 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "BCH",
+  "name": "Bitcoin Cash",
+  "chain": "bitcoin-cash",
+  "contract": "native (Bitcoin Cash proof-of-work chain)",
+  "overall_score": 5.1,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 4,
+    "insider_holdings": 9,
+    "selling_behavior": 7,
+    "tokenomics_supply": 8,
+    "liquidity_market": 7,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 5,
+    "regulatory": 7,
+    "catalysts": 4
+  },
+  "sections_passed": 5,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 7,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none in the review window; structural 51%-attack risk (hashrate ~0.3% of Bitcoin's)",
+    "mint_path_live": "no: fixed 21M cap; block subsidy halves every 210,000 blocks",
+    "team_wallet_to_exchange_during_pump": "not applicable: no team, foundation, premine or treasury wallets exist",
+    "treasury_selling": "not applicable: no treasury"
+  },
+  "price_usd": 205.79,
+  "price_source": "CoinGecko, 16 Nov 2026 6:58 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 205.79,
+    "market_cap_text": "$4.14B",
+    "fdv_text": "$4.14B",
+    "volume_24h_text": "$62.7M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/BCH.md",
+    "sha256": "63ab437b02745daec2e7db48cd97937056e7419114f8479d8338809265530c9e",
+    "bytes": 10411,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:58 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~7:35 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:35 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Supply 20.118M of 21M; height 977,635",
+      "url": "Blockchair",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Hashrate ~3.55 EH/s vs Bitcoin ~1,133 EH/s",
+      "url": "BCH",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Hashrate ~3.55 EH/s vs Bitcoin ~1,133 EH/s",
+      "url": "BTC",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $44.4k, revenue $0",
+      "url": "fees",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $44.4k, revenue $0",
+      "url": "revenue",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2025 / 2026 upgrades",
+      "url": "2025",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2025 / 2026 upgrades",
+      "url": "2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "unclear",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not applicable: no team, foundation, premine or treasury wallets exist"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Like every PoW coin without a burn, holders capture nothing, and even the miners' fee income is tiny. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [Blockchair Bitcoin Cash stats](https://blockchair.com/bitcoin-cash) (height, circulation, hashrate, transactions, nodes), 16 Nov 2026 ~7:30 AM MST; [Blockchair Bitcoin](https://blockchair.com/bitcoin) hashrate for comparison",
+      "urls": [
+        "Blockchair Bitcoin Cash stats",
+        "Blockchair Bitcoin"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Bitcoin Cash upgrade specifications](https://upgradespecs.bitcoincashnode.org/) (2025 and 2026 upgrades)",
+      "urls": [
+        "Bitcoin Cash upgrade specifications"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:35 AM MST (signed-in account): **Bitcoin Cash is not supported.** The network selector lists only Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain. BCH also has no foundation, team or treasury wallets to look up (no premine, no dev fund). No Arkham labels were available for this report",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `bitcoin-cash` fees, revenue and TVL; CoinGecko `bitcoin-cash` (16 Nov 2026 6:58 AM MST); Binance BCHUSDT daily closes (2024 onward)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

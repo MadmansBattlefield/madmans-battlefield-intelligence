@@ -1,0 +1,296 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "MBG",
+  "name": "MBG By MultiBank Group",
+  "chain": "ethereum",
+  "contract": "0x45e02bc2875a2914c4f585bbf92a6f28bc07cb70",
+  "overall_score": 3.9,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 3,
+    "product_development": 5,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no (no mint function; 1B minted once on 13 Jul 2025)",
+    "team_wallet_to_exchange_during_pump": "small: allocation distributors sent <0.5M MBG on pump days; ~49M MBG flowed through an unlabelled trading hub (OKX and Wintermute deposit counterparties) in 365d",
+    "treasury_in_single_key_wallets": "yes, 7 EOAs hold ~452M MBG (46%); vesting vault 338.5M has a salvage role"
+  },
+  "price_usd": 0.101719,
+  "price_source": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.101719,
+    "market_cap_text": "$37.1M",
+    "fdv_text": "$99.4M",
+    "volume_24h_text": "$4.45M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/MBG.md",
+    "sha256": "7d59b032ab022039c344961d672d489dd9e12d041e32d0e4e5e0a5e68bb7c32c",
+    "bytes": 16161,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~10:30 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Burn 1: 4.86M MBG",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn 2: 17.63M MBG",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn 2 funded by an allocation wallet",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Vault holds 338.5M; salvage role",
+      "url": "contract",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocations to the hub",
+      "url": "hub",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x11dff0780c79e1e866e8961d7993d1172b8eebb7",
+      "url": "https://etherscan.io/address/0x11dFF0780c79e1E866e8961D7993D1172B8eEbb7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3b5593322b63e96457b1da2dea7f53d7100c6376",
+      "url": "https://etherscan.io/address/0x3b5593322b63e96457b1da2dea7f53d7100c6376",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x45e02bc2875a2914c4f585bbf92a6f28bc07cb70",
+      "url": "https://etherscan.io/address/0x45e02bc2875a2914c4f585bbf92a6f28bc07cb70",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x46d4409dc368060889d35f03c45d29360f85af7f",
+      "url": "https://etherscan.io/address/0x46D4409dc368060889D35f03c45D29360f85aF7F",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8d2e6580c64654d7fa6dec98e728ac1f0e52a70e",
+      "url": "https://etherscan.io/address/0x8D2e6580c64654D7fa6dEc98E728Ac1F0e52A70E",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbffbe2cb8866115440659b3b4a5b6ea484a70827",
+      "url": "https://etherscan.io/address/0xbfFBE2cb8866115440659b3b4A5B6EA484a70827",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcf8d130ceba6c4c0e8d48d1ed2452ab45ae11af5",
+      "url": "https://etherscan.io/address/0xCF8D130CEbA6C4C0e8d48D1ed2452AB45AE11af5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd41975fef5c9861f0a1ac74725234c161764f6d6",
+      "url": "https://etherscan.io/address/0xd41975feF5C9861F0A1aC74725234C161764f6d6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe4e3a86af9b8ce57df8707d330410cb923e3c432",
+      "url": "https://etherscan.io/address/0xE4E3A86AF9B8CE57df8707d330410cb923E3c432",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe8d399554937db18e89b45fc6d032a31b14828cb",
+      "url": "https://etherscan.io/address/0xE8d399554937dB18E89b45fC6D032A31B14828cB",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf97271e1e37308e197679e3aa017c8595a45c241",
+      "url": "https://etherscan.io/address/0xf97271e1e37308e197679e3aa017c8595a45c241",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: small: allocation distributors sent <0.5M MBG on pump days; ~49M MBG flowed through an unlabelled trading hub (OKX and Wintermute deposit counterparties) in 365d"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "~$16.6M burned in 16 months against a $58.2M year-1 promise, with the latest burn sourced from allocations. **3 (hard gate).**"
+  },
+  "attributions": [
+    {
+      "address": "0x11dff0780c79e1e866e8961d7993d1172b8eebb7",
+      "url": "https://intel.arkm.com/explorer/address/0x11dFF0780c79e1E866e8961D7993D1172B8eEbb7",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 token transfers and Blockscout holders, smart-contract and address APIs for the MBG contract and top wallets, read 16 Nov 2026 ~10:30 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC `eth_call` (`owner`, `isTaxable`, `taxBPS`) and `eth_getCode`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [MultiBank burn announcement](https://multibankfx.com/en/about/company-news/multibank-group-completed-first-mbg-buyback-and-burn-removing-4-86-m-tokens-after-record-h1-2025-financial-results) · [Gate Learn](https://www.gate.com/learn/articles/mbg-by-multibank-group-ushering-in-a-new-era-of-smart-finance/10566) · [NAUT unlocks](https://naut.so/unlocks/multibankgroup) · [ChainCatcher](https://www.chaincatcher.com/en/article/2304864)",
+      "urls": [
+        "MultiBank burn announcement",
+        "Gate Learn",
+        "NAUT unlocks",
+        "ChainCatcher"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `mbg-by-multibank-group` (16 Nov 2026 8:34 AM MST); Gate MBG/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): VestingVault label; MBG Whale tags; hub `0xf972` and `0x824b` unlabelled, with OKX Deposit and Wintermute Deposit counterparties",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owner of the hub `0xf972…c241`",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

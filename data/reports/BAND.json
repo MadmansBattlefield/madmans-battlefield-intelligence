@@ -1,0 +1,408 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "BAND",
+  "name": "Band Protocol",
+  "chain": "bandchain",
+  "contract": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+  "overall_score": 4.0,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 3,
+    "liquidity_market": 4,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes, by design (BandChain mints 7-20%/yr to stakers; 13.0% today); the Ethereum ERC20 is fixed at 100M",
+    "team_wallet_to_exchange_during_pump": "none found on Ethereum (Band's Locked Swap sent 12M ERC20 BAND to a Binance deposit in 2023-2025 and the Main MultiSig funded 1.64M of exchange deposits in Aug 2025, all on non-pump days); BandChain-native wallets not tested",
+    "treasury_in_single_key_wallets": "no (the 60.75M BAND Main MultiSig is a 1-of-1 wallet whose only owner is a 2-of-4 Safe)"
+  },
+  "price_usd": 0.144693,
+  "price_source": "CoinGecko, 16 Nov 2026 7:13 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.144693,
+    "market_cap_text": "$26.87M",
+    "fdv_text": "$26.87M",
+    "volume_24h_text": "$915k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/BAND.md",
+    "sha256": "d324a9ad7d5bb3401f69fb4c36038f08a3e812b515f015e1accc7495970c6677",
+    "bytes": 18794,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 7:13 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Native supply 185.73M; inflation 13.0%",
+      "url": "supply",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Native supply 185.73M; inflation 13.0%",
+      "url": "inflation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Native supply 185.73M; inflation 13.0%",
+      "url": "params",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Main MultiSig holds 60.75M; 1-of-1 owned by a 2-of-4 Safe",
+      "url": "MultiSig",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Main MultiSig holds 60.75M; 1-of-1 owned by a 2-of-4 Safe",
+      "url": "Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Main MultiSig → `0x1cb1…` 1.64M, 19 Aug 2025",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Locked Swap → Binance deposit, 2023–2025",
+      "url": "1M, Jul 2023",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Locked Swap → Binance deposit, 2023–2025",
+      "url": "2M, Oct 2024",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Locked Swap → Binance deposit, 2023–2025",
+      "url": "2M, Jun 2025",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Locked Swap → Binance deposit, 2023–2025",
+      "url": "5M, Aug 2025",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Rewards come from new tokens",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Recent governance and upgrades",
+      "url": "proposals",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "bandchain",
+      "address": "0x1cb16110453c42c95aa89b1878a6cfb92f8a06f1",
+      "url": "https://intel.arkm.com/explorer/address/0x1cb16110453c42c95aa89b1878a6cfb92f8a06f1",
+      "kind": "address"
+    },
+    {
+      "chain": "bandchain",
+      "address": "0x4e9105a459f37990c62c113972b94049567bae0e",
+      "url": "https://intel.arkm.com/explorer/address/0x4e9105a459f37990c62c113972b94049567bae0e",
+      "kind": "address"
+    },
+    {
+      "chain": "bandchain",
+      "address": "0x7a59600782cbb3be57340b820366a65505c78e65",
+      "url": "https://intel.arkm.com/explorer/address/0x7a59600782cbb3be57340b820366a65505c78e65",
+      "kind": "address"
+    },
+    {
+      "chain": "bandchain",
+      "address": "0x7a6baf1c7d0940e4952186b3025b8e68aa87fa20",
+      "url": "https://intel.arkm.com/explorer/address/0x7a6baf1c7d0940e4952186b3025b8e68aa87fa20",
+      "kind": "address"
+    },
+    {
+      "chain": "bandchain",
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1cb16110453c42c95aa89b1878a6cfb92f8a06f1",
+      "url": "https://etherscan.io/address/0x1cb16110453c42c95aa89b1878a6cfb92f8a06f1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1cd835843a59cfa2e3ebcdf21f7a7be645e3230f",
+      "url": "https://etherscan.io/address/0x1cd835843a59cfa2e3ebcdf21f7a7be645e3230f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6864b5fc7c8d19bda1a1d1ea0ee131cb7f245ea7",
+      "url": "https://etherscan.io/address/0x6864b5fc7c8d19bda1a1d1ea0ee131cb7f245ea7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7a62a7dcf64e1eb94e374ec187ad14ba6e595062",
+      "url": "https://etherscan.io/address/0x7a62a7dcf64e1eb94e374ec187ad14ba6e595062",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7a6baf1c7d0940e4952186b3025b8e68aa87fa20",
+      "url": "https://etherscan.io/address/0x7a6baf1c7d0940e4952186b3025b8e68aa87fa20",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8cd2283bf278e55ec40ba00438a7c71455d135b8",
+      "url": "https://etherscan.io/address/0x8cd2283bf278e55ec40ba00438a7c71455d135b8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+      "url": "https://etherscan.io/address/0xba11d00c5f74255f56a5e366f4f77f5a186d7f55#code",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found on Ethereum (Band's Locked Swap sent 12M ERC20 BAND to a Binance deposit in 2023-2025 and the Main MultiSig funded 1.64M of exchange deposits in Aug 2025, all on non-pump days); BandChain-native wallets not tested"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "No revenue figure can be checked, and the yield is paid by diluting non-stakers. **2, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "0x7a6baf1c7d0940e4952186b3025b8e68aa87fa20",
+      "url": "https://intel.arkm.com/explorer/address/0x7a6baf1c7d0940e4952186b3025b8e68aa87fa20",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4e9105a459f37990c62c113972b94049567bae0e",
+      "url": "https://intel.arkm.com/explorer/address/0x4e9105a459f37990c62c113972b94049567bae0e",
+      "label": "Band Protocol DAO",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7a59600782cbb3be57340b820366a65505c78e65",
+      "url": "https://intel.arkm.com/explorer/address/0x7a59600782cbb3be57340b820366a65505c78e65",
+      "label": "Band Protocol DAO",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x1cb16110453c42c95aa89b1878a6cfb92f8a06f1",
+      "url": "https://intel.arkm.com/explorer/address/0x1cb16110453c42c95aa89b1878a6cfb92f8a06f1",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): [`0x1cb1…`](https://intel.arkm.com/explorer/address/0x1cb16110453c42c95aa89b1878a6cfb92f8a06f1) (unlabelled Safe) · [Safe `0x7a6b…`](https://intel.arkm.com/explorer/address/0x7a6baf1c7d0940e4952186b3025b8e68aa87fa20) and its signers (unlabelled) · [Coinbase hot wallet](https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43) · [Coinbase cold wallet](https://intel.arkm.com/explorer/address/0x4e9105a459f37990c62c113972b94049567bae0e) · [`0x7a59…`](https://intel.arkm.com/explorer/address/0x7a59600782cbb3be57340b820366a65505c78e65) (predicted Coinbase)",
+      "urls": [
+        "`0x1cb1…`",
+        "Safe `0x7a6b…`",
+        "Coinbase hot wallet",
+        "Coinbase cold wallet",
+        "`0x7a59…`"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` for the Main MultiSig, Locked Swap, `0x1cb1…` and their hops; Ethereum RPC `getOwners()`, `required()`, `getThreshold()`, `eth_getCode`; read 16 Nov 2026 ~8:05–8:20 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] BandChain LCD: supply, inflation, mint params, staking pool, governance proposals, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags (\"Band: Main MultiSig\", \"Band: Locked Swap\", \"Binance Deposit\", \"Gate Deposit\", \"KuCoin Deposit\", \"Binance 14\", \"OKX 192\"); Blockscout holder list",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Band token economics docs](https://docs.bandchain.org/core-concepts/token-economics) · [Band blog](https://blog.bandprotocol.com/)",
+      "urls": [
+        "Band token economics docs",
+        "Band blog"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Tokenomics.com](https://app.tokenomics.com/tokenomics/band-protocol) · [DropsTab](https://dropstab.com/coins/band-protocol/vesting) · [AlphaGrowth treasury](https://alphagrowth.io/dao-treasuries/band-protocol) · [WillItSurvive](https://willitsurvive.net/c/band-protocol/)",
+      "urls": [
+        "Tokenomics.com",
+        "DropsTab",
+        "AlphaGrowth treasury",
+        "WillItSurvive"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `band-protocol` (16 Nov 2026 7:13 AM MST); Gate BAND/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] BandChain-native Foundation wallets and their exchange flows; what the Locked Swap → Binance flows are; protocol fee totals",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

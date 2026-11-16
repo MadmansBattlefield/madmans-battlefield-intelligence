@@ -1,0 +1,713 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ONDO",
+  "name": "Ondo",
+  "chain": "ethereum",
+  "contract": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+  "overall_score": 4.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 4,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 2,
+    "liquidity_market": 9,
+    "product_development": 7,
+    "adoption_customers": 7,
+    "security_audits": 6,
+    "regulatory": 7,
+    "catalysts": 3
+  },
+  "sections_passed": 5,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "mint_role_used": "not_used_still_possible",
+    "control_dispute_at_company": "active_litigation",
+    "admin_safe_funds_to_exchange": "yes (100.5M ONDO via Safe 0xEA57 into 5 Coinbase deposit addresses, 27 Aug – 13 Oct 2026; 18.2M on the 21 Sep pump day; undisclosed)"
+  },
+  "price_usd": 0.3115,
+  "price_source": "CoinGecko, 14 Nov 2026 9:08 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.3115,
+    "market_cap_text": "$1.52B",
+    "fdv_text": "$3.12B",
+    "volume_24h_text": "$95.8M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ONDO.md",
+    "sha256": "5e3ab858deecb66682b732373edfdbee77dd7cc6474c7d5a671572056241f3dc",
+    "bytes": 30227,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 9:08 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:00 AM MST",
+      "15 Nov 2026 ~11:15 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:00 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "**Red line:** 100.5M ONDO (≈ $43.7M) from Ondo's admin Safe, through middle Safe `0xEA57…`, into five Coinbase deposit addresses, 27 Aug – 13 Oct 2026",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A (chain) + 2× B labels",
+      "date_read": "15 Nov 2026 ~11:15 AM MST"
+    },
+    {
+      "claim": "**Red line:** 100.5M ONDO (≈ $43.7M) from Ondo's admin Safe, through middle Safe `0xEA57…`, into five Coinbase deposit addresses, 27 Aug – 13 Oct 2026",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A (chain) + 2× B labels",
+      "date_read": "15 Nov 2026 ~11:15 AM MST"
+    },
+    {
+      "claim": "**Red line:** 100.5M ONDO (≈ $43.7M) from Ondo's admin Safe, through middle Safe `0xEA57…`, into five Coinbase deposit addresses, 27 Aug – 13 Oct 2026",
+      "url": "27 Aug",
+      "kind": "other",
+      "tier": "A (chain) + 2× B labels",
+      "date_read": "15 Nov 2026 ~11:15 AM MST"
+    },
+    {
+      "claim": "**Red line:** 100.5M ONDO (≈ $43.7M) from Ondo's admin Safe, through middle Safe `0xEA57…`, into five Coinbase deposit addresses, 27 Aug – 13 Oct 2026",
+      "url": "9 Sep",
+      "kind": "other",
+      "tier": "A (chain) + 2× B labels",
+      "date_read": "15 Nov 2026 ~11:15 AM MST"
+    },
+    {
+      "claim": "**Red line:** 100.5M ONDO (≈ $43.7M) from Ondo's admin Safe, through middle Safe `0xEA57…`, into five Coinbase deposit addresses, 27 Aug – 13 Oct 2026",
+      "url": "21 Sep",
+      "kind": "other",
+      "tier": "A (chain) + 2× B labels",
+      "date_read": "15 Nov 2026 ~11:15 AM MST"
+    },
+    {
+      "claim": "**Red line:** 100.5M ONDO (≈ $43.7M) from Ondo's admin Safe, through middle Safe `0xEA57…`, into five Coinbase deposit addresses, 27 Aug – 13 Oct 2026",
+      "url": "30 Sep",
+      "kind": "other",
+      "tier": "A (chain) + 2× B labels",
+      "date_read": "15 Nov 2026 ~11:15 AM MST"
+    },
+    {
+      "claim": "**Red line:** 100.5M ONDO (≈ $43.7M) from Ondo's admin Safe, through middle Safe `0xEA57…`, into five Coinbase deposit addresses, 27 Aug – 13 Oct 2026",
+      "url": "13 Oct",
+      "kind": "other",
+      "tier": "A (chain) + 2× B labels",
+      "date_read": "15 Nov 2026 ~11:15 AM MST"
+    },
+    {
+      "claim": "**Pump-day send:** 18,196,018 ONDO on 21 Sep 2026 14:03 UTC (+31.8% 5-day) into Coinbase deposit `0x8119…1f46`, swept 4 min later",
+      "url": "send tx",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Pump-day send:** 18,196,018 ONDO on 21 Sep 2026 14:03 UTC (+31.8% 5-day) into Coinbase deposit `0x8119…1f46`, swept 4 min later",
+      "url": "sweep tx",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Pump-day send:** 18,196,018 ONDO on 21 Sep 2026 14:03 UTC (+31.8% 5-day) into Coinbase deposit `0x8119…1f46`, swept 4 min later",
+      "url": "deposit on Etherscan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Pump-day send:** 18,196,018 ONDO on 21 Sep 2026 14:03 UTC (+31.8% 5-day) into Coinbase deposit `0x8119…1f46`, swept 4 min later",
+      "url": "Arkham “Coinbase Deposit”",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "27 Aug",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "9 Sep",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "21 Sep",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "30 Sep",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "13 Oct",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "Etherscan tag",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "0x9532",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "0x4857",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "0x8119",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "0xfca0",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "The five receivers are Coinbase deposit addresses (all swept to Coinbase 10 within 3–5 min)",
+      "url": "0x2b47",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xEA57…` is funded only by the admin Safe: 725M ONDO in five lots (22 Apr – 23 Sep 2026)",
+      "url": "22 Apr 125M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xEA57…` is funded only by the admin Safe: 725M ONDO in five lots (22 Apr – 23 Sep 2026)",
+      "url": "11 May 150M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xEA57…` is funded only by the admin Safe: 725M ONDO in five lots (22 Apr – 23 Sep 2026)",
+      "url": "22 Jun 150M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xEA57…` is funded only by the admin Safe: 725M ONDO in five lots (22 Apr – 23 Sep 2026)",
+      "url": "21 Aug 150M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xEA57…` is funded only by the admin Safe: 725M ONDO in five lots (22 Apr – 23 Sep 2026)",
+      "url": "23 Sep 150M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Admin Safe `0x677F…A1A1` holds 5,179,207,574 ONDO (51.8%) and has MINTER / ADMIN roles; Arkham: \"Ondo Finance: Gnosis Safe Proxy\"",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Admin Safe `0x677F…A1A1` holds 5,179,207,574 ONDO (51.8%) and has MINTER / ADMIN roles; Arkham: \"Ondo Finance: Gnosis Safe Proxy\"",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Admin Safe `0x677F…A1A1` holds 5,179,207,574 ONDO (51.8%) and has MINTER / ADMIN roles; Arkham: \"Ondo Finance: Gnosis Safe Proxy\"",
+      "url": "contract",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Same test-payer `0xd647…b176` precedes every `0xEA57…` payout (scheduled-payout pattern)",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x5240…` → \"Coinbase Prime Custody\" `0x90b1…` 8.32M ONDO (10 Apr 2026), then on to `0x1d1d…` on a 16 Jul pump day",
+      "url": "10 Apr send",
+      "kind": "other",
+      "tier": "A + one B → label [Unverified]",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x5240…` → \"Coinbase Prime Custody\" `0x90b1…` 8.32M ONDO (10 Apr 2026), then on to `0x1d1d…` on a 16 Jul pump day",
+      "url": "16 Jul onward",
+      "kind": "other",
+      "tier": "A + one B → label [Unverified]",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x5240…` → \"Coinbase Prime Custody\" `0x90b1…` 8.32M ONDO (10 Apr 2026), then on to `0x1d1d…` on a 16 Jul pump day",
+      "url": "Arkham label (one source",
+      "kind": "other",
+      "tier": "A + one B → label [Unverified]",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x5240…` received 1.548B ONDO from the admin Safe (2025 – Jan 2026)",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x5240…` received 1.548B ONDO from the admin Safe (2025 – Jan 2026)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x1d1daeccc6a2eeb5044b5ef25a3837591211bac0",
+      "url": "https://etherscan.io/address/0x1d1daeccc6a2eeb5044b5ef25a3837591211bac0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2b47bca4fa2e744231727ad9b8245f285ab760f9",
+      "url": "https://etherscan.io/address/0x2b47bca4fa2e744231727ad9b8245f285ab760f9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x48576f7bccebf15381a4a11a42b277bbb8b4e7ff",
+      "url": "https://etherscan.io/address/0x48576f7bccebf15381a4a11a42b277bbb8b4e7ff",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x524083970c7a1e62fbaa61d38781f87a4f191fd0",
+      "url": "https://etherscan.io/address/0x524083970c7a1e62fbaa61d38781f87a4f191fd0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x677fd4ed8ae623f2f625deb2d64f2070e46ca1a1",
+      "url": "https://etherscan.io/address/0x677FD4Ed8aE623f2f625DEB2D64F2070E46cA1A1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8119e9ffc2aca20b8a121792fe21149c1b7d1f46",
+      "url": "https://intel.arkm.com/explorer/address/0x8119e9ffc2aca20b8a121792fe21149c1b7d1f46",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x90b1dd36e7379b85a16a898b35d8fe77a9e02486",
+      "url": "https://etherscan.io/address/0x90b1dd36e7379b85a16a898b35d8fe77a9e02486",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9532fc43f31a21b709f61c10413d875703da91d0",
+      "url": "https://etherscan.io/address/0x9532fc43f31a21b709f61c10413d875703da91d0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://etherscan.io/address/0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd2e6e930e25456ffcd4df0124563cc334f3284f4",
+      "url": "https://etherscan.io/address/0xD2e6E930E25456fFcD4Df0124563cC334F3284f4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd64717976a3416e5add4c9740a96b90763b8b176",
+      "url": "https://etherscan.io/address/0xd64717976a3416e5add4c9740a96b90763b8b176",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xea5785e1727de2ba2cefd102cb2dd91e018675e1",
+      "url": "https://etherscan.io/address/0xEA5785e1727DE2Ba2CEfd102Cb2Dd91E018675e1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+      "url": "https://etherscan.io/address/0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xfca06e6de9e8259342cff142e1e3821da8ed6175",
+      "url": "https://etherscan.io/address/0xfca06e6de9e8259342cff142e1e3821da8ed6175",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "admin_safe_funds_to_exchange: yes (100.5M ONDO via Safe 0xEA57 into 5 Coinbase deposit addresses, 27 Aug – 13 Oct 2026; 18.2M on the 21 Sep pump day; undisclosed)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "The business clearly makes money. The token is a governance coupon with no cash flow. Real Rails: \"TOKEN EARNS NOTHING.\""
+  },
+  "attributions": [
+    {
+      "address": "0xea5785e1727de2ba2cefd102cb2dd91e018675e1",
+      "url": "https://intel.arkm.com/explorer/address/0xEA5785e1727DE2Ba2CEfd102Cb2Dd91E018675e1",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8119e9ffc2aca20b8a121792fe21149c1b7d1f46",
+      "url": "https://intel.arkm.com/explorer/address/0x8119e9ffc2aca20b8a121792fe21149c1b7d1f46",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x677fd4ed8ae623f2f625deb2d64f2070e46ca1a1",
+      "url": "https://intel.arkm.com/explorer/address/0x677FD4Ed8aE623f2f625DEB2D64F2070E46cA1A1",
+      "label": "Ondo Finance: Gnosis Safe Proxy",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x524083970c7a1e62fbaa61d38781f87a4f191fd0",
+      "url": "https://intel.arkm.com/explorer/address/0x524083970c7a1e62fbaa61d38781f87a4f191fd0",
+      "label": "Smart Account by Safe",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9532fc43f31a21b709f61c10413d875703da91d0",
+      "url": "https://intel.arkm.com/explorer/address/0x9532fc43f31a21b709f61c10413d875703da91d0",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x48576f7bccebf15381a4a11a42b277bbb8b4e7ff",
+      "url": "https://intel.arkm.com/explorer/address/0x48576f7bccebf15381a4a11a42b277bbb8b4e7ff",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xfca06e6de9e8259342cff142e1e3821da8ed6175",
+      "url": "https://intel.arkm.com/explorer/address/0xfca06e6de9e8259342cff142e1e3821da8ed6175",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x2b47bca4fa2e744231727ad9b8245f285ab760f9",
+      "url": "https://intel.arkm.com/explorer/address/0x2b47bca4fa2e744231727ad9b8245f285ab760f9",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x90b1dd36e7379b85a16a898b35d8fe77a9e02486",
+      "url": "https://intel.arkm.com/explorer/address/0x90b1dd36e7379b85a16a898b35d8fe77a9e02486",
+      "label": "that address",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://intel.arkm.com/explorer/address/0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum verified source, RPC and Blockscout holder/log reads, 10 Oct 2026",
+      "urls": [],
+      "date_read": "10 Oct 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [docs.ondo.foundation/ondo-token](https://docs.ondo.foundation/ondo-token) · [FIP-08](https://forum.fluxfinance.com/t/fip-08-release-of-the-ondo-token-lock-up/563)",
+      "urls": [
+        "docs.ondo.foundation/ondo-token",
+        "FIP-08"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Delaware CourtConnect 2026-0978](https://courtconnect.courts.delaware.gov/cc/cconnect/ck_public_qry_doct.cp_dktrpt_docket_report?case_id=2026-0978)",
+      "urls": [
+        "Delaware CourtConnect 2026-0978"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [SEC EDGAR CIK 1949480](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1949480)",
+      "urls": [
+        "SEC EDGAR CIK 1949480"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees/revenue, 13 Nov 2026 · ondo.finance product figures, 3 Nov 2026",
+      "urls": [],
+      "date_read": "13 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `ondo-finance`, 14 Nov 2026 9:08 AM MST",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` / `tokenbalance` for `0x677F…`, `0xEA57…`, `0x5240…`, the five Coinbase deposit addresses and `0x90b1dd36…`; read 15 Nov 2026 ~11:15 AM MST · CoinGecko `ondo-finance` 365-day daily closes, 15 Nov 2026",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinDesk 23 Sep 2026 · Nansen pack 9 Nov 2026",
+      "urls": [],
+      "date_read": "23 Sep 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): \"Ondo Finance\" entity; labels for `0x677F…` (Ondo Finance Safe), the five \"Coinbase Deposit\" addresses and \"Coinbase Prime Custody\" `0x90b1…`. Arkham shows relative ages only; dates above come from on-chain reads where amounts match. Arkham's all-time exchange totals are Enterprise-locked, and the browser read only the first page of transfers",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan public name tag \"Coinbase 10\" for [`0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43`](https://etherscan.io/address/0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43)",
+      "urls": [
+        "`0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used (Etherscan): admin Safe [`0x677F…`](https://etherscan.io/address/0x677FD4Ed8aE623f2f625DEB2D64F2070E46cA1A1) · [`0xEA57…`](https://etherscan.io/address/0xEA5785e1727DE2Ba2CEfd102Cb2Dd91E018675e1) · [`0x5240…`](https://etherscan.io/address/0x524083970c7a1e62fbaa61d38781f87a4f191fd0) · test-payer [`0xd647…`](https://etherscan.io/address/0xd64717976a3416e5add4c9740a96b90763b8b176) · deposit addresses [`0x9532fc…`](https://etherscan.io/address/0x9532fc43f31a21b709f61c10413d875703da91d0) · [`0x48576f…`](https://etherscan.io/address/0x48576f7bccebf15381a4a11a42b277bbb8b4e7ff) · [`0x8119e9…`](https://etherscan.io/address/0x8119e9ffc2aca20b8a121792fe21149c1b7d1f46) · [`0xfca06e…`](https://etherscan.io/address/0xfca06e6de9e8259342cff142e1e3821da8ed6175) · [`0x2b47bc…`](https://etherscan.io/address/0x2b47bca4fa2e744231727ad9b8245f285ab760f9) · [`0x90b1…`](https://etherscan.io/address/0x90b1dd36e7379b85a16a898b35d8fe77a9e02486) · [`0x1d1d…`](https://etherscan.io/address/0x1d1daeccc6a2eeb5044b5ef25a3837591211bac0)",
+      "urls": [
+        "`0x677F…`",
+        "`0xEA57…`",
+        "`0x5240…`",
+        "`0xd647…`",
+        "`0x9532fc…`",
+        "`0x48576f…`",
+        "`0x8119e9…`",
+        "`0xfca06e…`",
+        "`0x2b47bc…`",
+        "`0x90b1…`",
+        "`0x1d1d…`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address pages used: [0x677F…](https://intel.arkm.com/explorer/address/0x677FD4Ed8aE623f2f625DEB2D64F2070E46cA1A1) · [0xEA57…](https://intel.arkm.com/explorer/address/0xEA5785e1727DE2Ba2CEfd102Cb2Dd91E018675e1) · [0x5240…](https://intel.arkm.com/explorer/address/0x524083970c7a1e62fbaa61d38781f87a4f191fd0) · [0x9532fc…](https://intel.arkm.com/explorer/address/0x9532fc43f31a21b709f61c10413d875703da91d0) · [0x48576f…](https://intel.arkm.com/explorer/address/0x48576f7bccebf15381a4a11a42b277bbb8b4e7ff) · [0x8119e9…](https://intel.arkm.com/explorer/address/0x8119e9ffc2aca20b8a121792fe21149c1b7d1f46) · [0xfca06e…](https://intel.arkm.com/explorer/address/0xfca06e6de9e8259342cff142e1e3821da8ed6175) · [0x2b47bc…](https://intel.arkm.com/explorer/address/0x2b47bca4fa2e744231727ad9b8245f285ab760f9) · [0x90b1…](https://intel.arkm.com/explorer/address/0x90b1dd36e7379b85a16a898b35d8fe77a9e02486) · [Coinbase 10](https://intel.arkm.com/explorer/address/0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43)",
+      "urls": [
+        "0x677F…",
+        "0xEA57…",
+        "0x5240…",
+        "0x9532fc…",
+        "0x48576f…",
+        "0x8119e9…",
+        "0xfca06e…",
+        "0x2b47bc…",
+        "0x90b1…",
+        "Coinbase 10"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Founder death date; Jan 2027 tranche size; company revenue; Foundation filings; owners of the `0xEA57…` / `0x5240…` recipient Safes and of the five Coinbase accounts; \"Coinbase Prime Custody\" label on `0x90b1…` (Arkham only)",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

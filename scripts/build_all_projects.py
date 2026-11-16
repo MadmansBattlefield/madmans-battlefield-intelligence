@@ -33,6 +33,7 @@ PAGE_PATH = ROOT / "banking-rails" / "ALL-PROJECTS.md"
 RANKING_PATH = ROOT / "banking-rails" / "RANKING.md"
 REPORTS_DIR = ROOT / "banking-rails"
 SCAN_PATH = ROOT / "data" / "status-scan.json"
+DEAD_PATH = ROOT / "data" / "dead.json"
 
 SECTIONS = [
     ("Rev", 0),
@@ -931,6 +932,9 @@ def render_page(meta: dict, projects: list[dict]) -> str:
     lines.append("")
     lines.append(
         "Finished reports are ranked on the [ranking page](RANKING.md). "
+        "Scoring rules are also in the [methodology](../METHODOLOGY.md). "
+        "Names formally moved out of the live pipeline are listed in [DEAD.md](../DEAD.md), "
+        "with the date and the reason; a failing scored report is never dropped from the ranking in silence. "
         "A few shorter, unscored stubs live in [other-tokens.md](other-tokens.md)."
     )
     lines.append("")
@@ -1162,6 +1166,27 @@ def resolve_scan_path(cli_path: Path | None) -> Path | None:
     return None
 
 
+def overlay_dead_list(projects: list[dict], published: set[str]) -> list[dict]:
+    """Apply dated moves from data/dead.json. Never silently drop a published report."""
+    if not DEAD_PATH.is_file():
+        return projects
+    data = json.loads(DEAD_PATH.read_text(encoding="utf-8"))
+    by_ticker = {p["ticker"]: p for p in projects}
+    for row in data.get("entries") or []:
+        ticker = row.get("ticker")
+        if not ticker or ticker in published:
+            continue
+        project = by_ticker.get(ticker)
+        if not project:
+            continue
+        project["status"] = "dead"
+        if row.get("reason"):
+            project["dead_reason"] = clean_dead_reason(row.get("reason"))
+        project["unverified_dead"] = bool(row.get("unverified"))
+        project["report"] = None
+    return projects
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -1214,6 +1239,8 @@ def main(argv: list[str] | None = None) -> int:
 
     if ranking:
         projects = overlay_ranking(projects, ranking, published)
+
+    projects = overlay_dead_list(projects, published)
 
     # Never treat an in-progress draft as a published report.
     for p in projects:

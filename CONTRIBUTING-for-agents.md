@@ -6,8 +6,9 @@ This repository is a public research tree. Follow these rules when reading or pr
 
 1. [llms.txt](llms.txt)
 2. [data/index.json](data/index.json)
-3. [sources.md](sources.md) for the verification rule
-4. Daily numbers from `daily/YYYY-MM-DD.json`, not from memory
+3. [METHODOLOGY.md](METHODOLOGY.md) for the scoring rules
+4. [sources.md](sources.md) for the verification rule
+5. Daily numbers from `daily/YYYY-MM-DD.json`, and token scores from `data/reports/<TICKER>.json`, not from memory
 
 ## Verification
 
@@ -38,3 +39,13 @@ Write market intel: "ROUTER main-pool liquidity was $45,800," not language that 
 ## Adding or editing a token note
 
 Keep the sections: what it is, chain and contracts, key risks, recent events, sources. Label unverified items. Do not copy in private dossier headers or portfolio context.
+
+## Adding or updating a v3 scored report
+
+1. Follow [METHODOLOGY.md](METHODOLOGY.md). Do not silently drop a failing report from the ranking; move it only with a dated entry in [DEAD.md](DEAD.md).
+2. Write the Markdown under `banking-rails/<TICKER>.md` with v3 front matter.
+3. From the repository root, run `python3 scripts/build_data_layer.py` and `python3 scripts/validate_reports.py`. That rebuilds `data/reports/<TICKER>.json` from the published Markdown. Do not hand-edit the JSON to change a score.
+4. Run `python3 scripts/build_all_projects.py` so the catalog and ranking overlay stay in sync.
+5. Extract **only** git-tracked published reports. Untracked drafts must not be added to `data/reports/`.
+6. Selling and Holdings on a new or updated report should go through the dual-review process in the methodology. If the two scores differ by 2 or more points, publish a note from the [RECONCILIATION.md](RECONCILIATION.md) template.
+7. Run the maintainer's private privacy scrub and keep it green. Do not add local machine paths, private worksheets, personal names, or portfolio data.

@@ -1,0 +1,367 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ETH",
+  "name": "Ethereum",
+  "chain": "ethereum",
+  "contract": "native (WETH 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is the wrapper)",
+  "overall_score": 7.2,
+  "overall_verdict": "PASS",
+  "section_scores": {
+    "revenue": 5,
+    "foundation_team": 7,
+    "insider_holdings": 8,
+    "selling_behavior": 7,
+    "tokenomics_supply": 6,
+    "liquidity_market": 10,
+    "product_development": 9,
+    "adoption_customers": 9,
+    "security_audits": 8,
+    "regulatory": 7,
+    "catalysts": 6
+  },
+  "sections_passed": 10,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 7,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "foundation_sale_on_pump_day": "not_found",
+    "undisclosed_foundation_to_exchange_flow": "not_found"
+  },
+  "price_usd": 1831.06,
+  "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 1831.06,
+    "market_cap_text": "$223.90B",
+    "volume_24h_text": "$13.79B"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ETH.md",
+    "sha256": "a108ebfd1e1670957f305e7e09bd965d483fe7d79d96da39e9d548a2fb1d9f22",
+    "bytes": 18443,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~10:40 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~10:40 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Fees ~$175M/yr; burn no longer offsets issuance",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Fees ~$175M/yr; burn no longer offsets issuance",
+      "url": "ultrasound.money",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "EF Safe holds 20,176.05 ETH; EF wallet 4,774.55 ETH",
+      "url": "EF Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "EF Safe holds 20,176.05 ETH; EF wallet 4,774.55 ETH",
+      "url": "EF wallet",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "EF entity total 93.7K ETH + 22.96M USDC + 5.42M DAI ($202.8M); ~$25K to exchanges all-time",
+      "url": "Arkham EF entity",
+      "kind": "other",
+      "tier": "B (one source)",
+      "date_read": "15 Nov 2026 ~10:40 AM MST"
+    },
+    {
+      "claim": "EF Safe sold 5,000 WETH via CoW on 8–10 Apr 2026, matching EF's announced sale; not pump days",
+      "url": "8 Apr tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "EF Safe sold 5,000 WETH via CoW on 8–10 Apr 2026, matching EF's announced sale; not pump days",
+      "url": "10 Apr tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "EF Safe sold 5,000 WETH via CoW on 8–10 Apr 2026, matching EF's announced sale; not pump days",
+      "url": "CoW settlement",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "18 Mar 2026 (pump day) 3,400 WETH move was a Morpho deposit, not a sale",
+      "url": "tx 1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "18 Mar 2026 (pump day) 3,400 WETH move was a Morpho deposit, not a sale",
+      "url": "tx 2",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "18 Mar 2026 (pump day) 3,400 WETH move was a Morpho deposit, not a sale",
+      "url": "tx 3",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Safe `0xbC9a…` receives 1,000-ETH lots from EF (EF control unverified)",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A · [Unverified] control",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Safe `0xbC9a…` receives 1,000-ETH lots from EF (EF control unverified)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A · [Unverified] control",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Published treasury policy (15% opex, 2.5-yr buffer)",
+      "url": "EF Treasury Policy",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+      "url": "https://etherscan.io/address/0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9fc3dc011b461664c835f2527fffb1169b3c213e",
+      "url": "https://etherscan.io/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbc9a9ac7dc36b1706732374bf632ef39fb6efbc3",
+      "url": "https://etherscan.io/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "url": "https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae",
+      "url": "https://etherscan.io/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "foundation_sale_on_pump_day: not_found"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "burn",
+      "fee_share"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "Ethereum makes real money and burns part of it for every holder. But $175M of fees a year on a $224B asset is thin (~0.08%), and the burn (~$48M/yr) is far below what is issued to stakers, so supply is growing again."
+  },
+  "attributions": [
+    {
+      "address": "0x9fc3dc011b461664c835f2527fffb1169b3c213e",
+      "url": "https://intel.arkm.com/explorer/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae",
+      "url": "https://intel.arkm.com/explorer/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xbc9a9ac7dc36b1706732374bf632ef39fb6efbc3",
+      "url": "https://intel.arkm.com/explorer/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout API (EF wallets, internal and token transfers, 15 Nov 2025 – 14 Nov 2026)",
+      "urls": [],
+      "date_read": "15 Nov 2025"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used (Etherscan): [`EF Safe`](https://etherscan.io/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) · [`EF wallet`](https://etherscan.io/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) · [`Safe 0xbC9a…`](https://etherscan.io/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3) · [`CoW settlement`](https://etherscan.io/address/0x9008d19f58aabd9ed0d60971565aa8510560ab41) · [`WETH`](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2)",
+      "urls": [
+        "`EF Safe`",
+        "`EF wallet`",
+        "`Safe 0xbC9a…`",
+        "`CoW settlement`",
+        "`WETH`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address pages used: [EF Safe](https://intel.arkm.com/explorer/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) · [EF wallet](https://intel.arkm.com/explorer/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) · [Safe 0xbC9a…](https://intel.arkm.com/explorer/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3)",
+      "urls": [
+        "EF Safe",
+        "EF wallet",
+        "Safe 0xbC9a…"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama fees `ethereum`](https://defillama.com/chain/ethereum), 14 Nov 2026",
+      "urls": [
+        "DefiLlama fees `ethereum`"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `ethereum` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [EF Treasury Policy](https://blog.ethereum.org/2025/06/04/ef-treasury-policy) · GitHub `ethereum/*`",
+      "urls": [
+        "EF Treasury Policy"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Cointelegraph, 2 May 2026](https://cointelegraph.com/news/ethereum-foundation-sells-another-10000-eth-to-bitmine-in-third-otc-deal) · Decrypt · Crypto Briefing · Crypto-Economy",
+      "urls": [
+        "Cointelegraph, 2 May 2026"
+      ],
+      "date_read": "2 May 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Arkham Intelligence \"Ethereum Foundation\" entity page](https://intel.arkm.com/explorer/entity/ethereum-foundation) (14 addresses: balances, exchange flows), read 15 Nov 2026 ~10:40 AM MST (signed-in account)",
+      "urls": [
+        "Arkham Intelligence \"Ethereum Foundation\" entity page"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Arkham EF total (one source); EF staked vs liquid split; 17,035 ETH unstake; EF leadership names; ETF outflow figure",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

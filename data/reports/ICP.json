@@ -1,0 +1,380 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ICP",
+  "name": "Internet Computer",
+  "chain": "internet-computer",
+  "contract": "ICP ledger canister ryjl3-tyaaa-aaaaa-aaaba-cai",
+  "overall_score": 4.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 6,
+    "product_development": 8,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 5
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found (liveness incidents only: subnet x4jtx stall 29 Oct 2026; ckBTC minter attack, no funds lost)",
+    "treasury_to_exchange_during_pump": "not proven (2021 genesis 'Treasury' 125013e9… deposited ~6.6M ICP into Coinbase deposit accounts on listing day 10 May 2021 and 15 Jun 2021; neither day is pump-testable / a pump day)",
+    "undisclosed_treasury_to_exchange_flow": "yes, 2021 (Arkham: 8.3M ICP Treasury -> exchanges; on-chain match verified; DFINITY publishes no wallet list)",
+    "treasury_descendant_pump_day_flow": "yes, to a distribution hub (11 Jun 2025 +22.6%: 1.4M ICP from Treasury-funded ecedd9b3… into hub 62dd3978…; 19 Nov 2024 +14.7%: 400k from 317aa76c…; hub owner [Unverified])",
+    "uncapped_inflation": "yes (supply ~469M at genesis -> 558.97M; voting rewards ~53k ICP/day vs ~$5k/day burned)"
+  },
+  "price_usd": 2.22,
+  "price_source": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 2.22,
+    "market_cap_text": "$1.240B",
+    "fdv_text": "$1.240B",
+    "volume_24h_text": "$33.3M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ICP.md",
+    "sha256": "9734aa1dc5a5468f877f672d726a4e9ffe42495939880b613573c817aa05fed6",
+    "bytes": 32654,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Treasury got the largest genesis mint, 107,024,038 ICP",
+      "url": "mint block 9500",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury got the largest genesis mint, 107,024,038 ICP",
+      "url": "account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Arkham attributes the account to DFINITY and counts 8.3M to exchanges",
+      "url": "Arkham report",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Listing day: ~1.94M to seven Coinbase deposit accounts (times match Arkham)",
+      "url": "12:02 25k",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Listing day: ~1.94M to seven Coinbase deposit accounts (times match Arkham)",
+      "url": "13:06 749,999",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Listing day: ~1.94M to seven Coinbase deposit accounts (times match Arkham)",
+      "url": "16:10 626,515",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "15 Jun 2021: 4.7M into deposit `54562ee0…`, swept in 1 minute",
+      "url": "2M in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "15 Jun 2021: 4.7M into deposit `54562ee0…`, swept in 1 minute",
+      "url": "sweep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "15 Jun 2021: 4.7M into deposit `54562ee0…`, swept in 1 minute",
+      "url": "2.7M in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "15 Jun 2021: 4.7M into deposit `54562ee0…`, swept in 1 minute",
+      "url": "sweep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → `52757335…` 50.27M; split into 2M accounts",
+      "url": "50.27M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → `52757335…` 50.27M; split into 2M accounts",
+      "url": "2M → ecedd9b3",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "24 May 2021 pump day: Treasury → `55f4f3e3…` 2.5M",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "19 Nov 2024 and 11 Jun 2025 pump days: Treasury-funded wallets → hub `62dd3978…`",
+      "url": "317aa76c funded",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "19 Nov 2024 and 11 Jun 2025 pump days: Treasury-funded wallets → hub `62dd3978…`",
+      "url": "19 Nov 2024",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "19 Nov 2024 and 11 Jun 2025 pump days: Treasury-funded wallets → hub `62dd3978…`",
+      "url": "11 Jun 2025",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "19 Nov 2024 and 11 Jun 2025 pump days: Treasury-funded wallets → hub `62dd3978…`",
+      "url": "hub",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10 Dec 2025: 989,411 from Treasury-funded `ea48b23b…` to fresh wallet",
+      "url": "funding 2021",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10 Dec 2025: 989,411 from Treasury-funded `ea48b23b…` to fresh wallet",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "DFINITY lent 702,000 ICP to Wintermute; GSR, Amber and Coinbase Custody agreements",
+      "url": "Ocampo opinion",
+      "kind": "other",
+      "tier": "A (court)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Supply 558.97M, staked 287.06M, burned 3.01M, voting rewards 53,104/day, burn 45.06B cycles/s",
+      "url": "daily-stats",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Supply 558.97M, staked 287.06M, burned 3.01M, voting rewards 53,104/day, burn 45.06B cycles/s",
+      "url": "governance-metrics",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Chain fees $167,664 (30d), $1.93M (1y)",
+      "url": "DefiLlama ICP",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Genesis plan: 52.93% foundation, team and partners",
+      "url": "DFINITY 2018 post",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_to_exchange_during_pump: not proven (2021 genesis 'Treasury' 125013e9… deposited ~6.6M ICP into Coinbase deposit accounts on listing day 10 May 2021 and 15 Jun 2021; neither day is pump-testable / a pump day)",
+      "treasury_descendant_pump_day_flow: yes, to a distribution hub (11 Jun 2025 +22.6%: 1.4M ICP from Treasury-funded ecedd9b3… into hub 62dd3978…; 19 Nov 2024 +14.7%: 400k from 317aa76c…; hub owner [Unverified])"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "The only token \"revenue\" is the burn when developers pay for cycles: about $1.9M a year on a $1.24B network. Governance mints roughly 20× that in new ICP each year as voting rewards, before node-provider rewards. So burn does not offset dilution and nothing flows to an unstaked holder. Score **2**, which **trips the Revenue gate**."
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] ICP ledger API (`ledger-api.internetcomputer.org`): genesis mints, full history of the Treasury, `52757335…`, `54562ee0…`, `62dd3978…` and the 85 accounts the Treasury branch funded with ≥ 50k ICP; read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] IC API (`ic-api.internetcomputer.org`): `daily-stats` (15 Nov 2026), `governance-metrics`, neuron 27, cycle burn rate; read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [IC dashboard](https://dashboard.internetcomputer.org) account and transaction pages (links throughout)",
+      "urls": [
+        "IC dashboard"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama ICP chain fees and revenue, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `internet-computer` price and 365-day closes (16 Nov 2026 5:26 AM MST); Coinbase Exchange ICP-USD daily candles for 2021 and 2024–25 pump tests",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DFINITY presale post (2018)](https://medium.com/dfinity/announcing-the-dfinity-presale-fundraise-and-public-airdrop-cdea19892ef6) · [DFINITY governance post (Jun 2021)](https://medium.com/dfinity/the-community-led-governance-of-the-internet-computer-b863cd2975ba) · [seed access post](https://medium.com/dfinity/how-to-access-seed-and-airdrop-icp-tokens-and-participate-in-the-internet-computer-network-e6cd663a0c3c)",
+      "urls": [
+        "DFINITY presale post (2018",
+        "DFINITY governance post (Jun 2021",
+        "seed access post"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Court records: [N.D. Cal. complaint](https://storage.courtlistener.com/recap/gov.uscourts.cand.383070/gov.uscourts.cand.383070.1.0.pdf) (allegations) · [Valenti docket](https://www.drdocket.com/case/valenti-v-dfinity-usa-research-llc-cand-2021) · [Ocampo opinion](https://gno.law/c/10781904/ocampo-v-stiftung-ca13) · [Leagle copy](https://www.leagle.com/decision/incaco20260130026)",
+      "urls": [
+        "N.D. Cal. complaint",
+        "Valenti docket",
+        "Ocampo opinion",
+        "Leagle copy"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Arkham ICP report, 28 Jun 2021](https://info.arkm.com/researches/reports/icp-report) (Treasury and Coinbase deposit attribution)",
+      "urls": [
+        "Arkham ICP report, 28 Jun 2021"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Blockworks Token Transparency filing (14 Aug 2026)](https://blockworks.com/token-transparency/filing/internet-computer)",
+      "urls": [
+        "Blockworks Token Transparency filing (14 Aug 2026"
+      ],
+      "date_read": "14 Aug 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [ICN proposal 144648](https://internetcomputer.news/governance/nns/proposals/144648) · [PulsAPI status](https://www.pulsapi.com/services/internetcomputer) · [The Swop](https://theswop.app/news/attack-on-ckbtc-infrastructure-on-icp) · [NullRabbit](https://nullrabbit.ai/research/ic-ingress-pool-quota-miskey-purge)",
+      "urls": [
+        "ICN proposal 144648",
+        "PulsAPI status",
+        "The Swop",
+        "NullRabbit"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] that the Treasury account is DFINITY's (one Tier B source plus size match); owner of hub `62dd3978…`; Coinbase ownership of the hub accounts `a6ed987d…`/`660b1680…`; current DFINITY holdings; node-provider mint totals",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

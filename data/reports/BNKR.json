@@ -1,0 +1,424 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "BNKR",
+  "name": "Bankr (BankrCoin)",
+  "chain": "base",
+  "contract": "0x22af33fe49fd1fa80c7149773dde5890d3c76f3b",
+  "overall_score": 5.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 6,
+    "foundation_team": 3,
+    "insider_holdings": 7,
+    "selling_behavior": 6,
+    "tokenomics_supply": 8,
+    "liquidity_market": 5,
+    "product_development": 7,
+    "adoption_customers": 5,
+    "security_audits": 5,
+    "regulatory": 3,
+    "catalysts": 5
+  },
+  "sections_passed": 5,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "monthly_revenue_below_250k": "tripped",
+    "buyback_safe_sells_bnkr": "none_found_partial_scan",
+    "hack_exploit": "none_found"
+  },
+  "price_usd": 0.00023038,
+  "price_source": "CoinGecko bankercoin-2, 15 Nov 2026 6:47 AM MST",
+  "front_matter_extras": {
+    "not_to_be_confused_with": "BANKROLL, BNKRW or other Bankr-launched tokens",
+    "other_contracts": {
+      "robinhood_chain": "0x178e54df3d091ee4d0b2534742ef9e3692b76526"
+    },
+    "chain_read_block": 57802826
+  },
+  "key_numbers": {
+    "price_usd": 0.00023038,
+    "volume_24h_text": "$2.23M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/BNKR.md",
+    "sha256": "a9063a069df6e2dfdc48f4522959a03909a36b1445999d78bd4211feb9421504",
+    "bytes": 25322,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko bankercoin-2, 15 Nov 2026 6:47 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~10:40 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~10:40 AM MST |"
+  },
+  "evidence_links": [
+    {
+      "claim": "No team allocation: all 100B BNKR minted straight into the Uniswap v3 pool",
+      "url": "genesis tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "No team allocation: all 100B BNKR minted straight into the Uniswap v3 pool",
+      "url": "pool",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Buyback Safe (2 of 2) holds 587.07M BNKR; only outbound was 184.82M to staking (20 Sep 2026); Arkham: no exchange activity",
+      "url": "Basescan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~10:50 AM MST"
+    },
+    {
+      "claim": "Buyback Safe (2 of 2) holds 587.07M BNKR; only outbound was 184.82M to staking (20 Sep 2026); Arkham: no exchange activity",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~10:50 AM MST"
+    },
+    {
+      "claim": "Treasury Safe `0x5f8D…` (2 of 2): ~$47K to Coinbase/Binance all-time, 624,421 USDC",
+      "url": "Basescan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Treasury Safe `0x5f8D…` (2 of 2): ~$47K to Coinbase/Binance all-time, 624,421 USDC",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Fee wallet `0xf606…` sent 118.57M BNKR into the buyback Safe (4 Jul 2026)",
+      "url": "Basescan",
+      "kind": "other",
+      "tier": "A (fee-wallet identity [Unverified])",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "4% holder `0x301f…`: no entity, no exchange deposits",
+      "url": "Basescan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "4% holder `0x301f…`: no entity, no exchange deposits",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Staking contract holds 26.83B BNKR (26.83%); burn address 3.46B",
+      "url": "staking",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Staking contract holds 26.83B BNKR (26.83%); burn address 3.46B",
+      "url": "0xdEaD",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "base",
+      "address": "0x000000000000000000000000000000000000dead",
+      "url": "https://basescan.org/address/0x000000000000000000000000000000000000dEaD",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x019fd9abc9caeb476d7afa68bb675518c6be17b7",
+      "url": "https://basescan.org/address/0x019fD9ABC9CaEB476D7AFA68BB675518C6BE17b7",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x042455f9990098e11592be1fbd72e6dc68419b13",
+      "url": "https://basescan.org/address/0x042455f9990098e11592be1fbd72e6dc68419b13",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x1172a9b08573dec93cd53132875046f8e0770caf",
+      "url": "https://basescan.org/address/0x1172a9b08573dec93cd53132875046f8e0770caf",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x22af33fe49fd1fa80c7149773dde5890d3c76f3b",
+      "url": "https://basescan.org/address/0x22af33fe49fd1fa80c7149773dde5890d3c76f3b",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x301f742573c76ee107cb8e263f2d5c009ecbfb28",
+      "url": "https://basescan.org/address/0x301f742573c76ee107cb8e263f2d5c009ecbfb28",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x40ebc1ac8d4fedd2e144b75fe9c0420be82750c6",
+      "url": "https://basescan.org/address/0x40ebc1ac8d4fedd2e144b75fe9c0420be82750c6",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x5f8da8f88ec81e27f2e22fcb9ca5d926c595e508",
+      "url": "https://intel.arkm.com/explorer/address/0x5f8DA8F88eC81e27f2E22fCB9CA5D926c595E508",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x72469d86a92f5a9e975fe371a66015e667ab288f",
+      "url": "https://basescan.org/address/0x72469d86a92f5a9e975fe371a66015e667ab288f",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x88470240ff0663faefa68b1d7621b472ddd9584a",
+      "url": "https://basescan.org/address/0x88470240FF0663Faefa68B1D7621b472DdD9584A",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x9b84fce5dcd9a38d2d01d5d72373f6b6b067c3e1",
+      "url": "https://basescan.org/address/0x9b84fce5dcd9a38d2d01d5d72373f6b6b067c3e1",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xaec085e5a5ce8d96a7bdd3eb3a62445d4f6ce703",
+      "url": "https://basescan.org/address/0xaec085e5a5ce8d96a7bdd3eb3a62445d4f6ce703",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xdd51d97ff41c382c8da1c63190bc2e0f112214c0",
+      "url": "https://basescan.org/address/0xdd51d97ff41c382c8da1c63190bc2e0f112214c0",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xf60633d02690e2a15a54ab919925f3d038df163e",
+      "url": "https://basescan.org/address/0xf60633d02690e2a15a54ab919925f3d038df163e",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "unclear",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": []
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "burn",
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "Bankr is a real fee business and some cash now reaches holders: about $190k in the last 30 days went to stakers, roughly 10% a year on today's market cap if it held. But revenue is volatile and falling hard (Feb $4.5M vs Oct $443k), and most revenue stays with the company."
+  },
+  "attributions": [
+    {
+      "address": "0x042455f9990098e11592be1fbd72e6dc68419b13",
+      "url": "https://intel.arkm.com/explorer/address/0x042455f9990098e11592be1fbd72e6dc68419b13",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5f8da8f88ec81e27f2e22fcb9ca5d926c595e508",
+      "url": "https://intel.arkm.com/explorer/address/0x5f8DA8F88eC81e27f2E22fCB9CA5D926c595E508",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x301f742573c76ee107cb8e263f2d5c009ecbfb28",
+      "url": "https://intel.arkm.com/explorer/address/0x301f742573c76ee107cb8e263f2d5c009ecbfb28",
+      "label": "AERO Whale",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Base RPC (`base-rpc.publicnode.com`, `base.drpc.org`, `mainnet.base.org`): `totalSupply`, `balanceOf`, Safe `getOwners`/`getThreshold`, genesis logs at block 23,205,873, pump-day `eth_getLogs` for the buyback Safe; 15 Nov 2026",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Bankr docs llms-full.txt](https://docs.bankr.bot/llms-full.txt) (fees, staking, contracts)",
+      "urls": [
+        "Bankr docs llms-full.txt"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `bankr` fees, revenue and holders revenue API, to 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DexScreener token-pairs API; Coinbase Exchange public order book, 15 Nov 2026 6:54 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub API `BankrBot`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinGecko `bankercoin-2` market data and 365 daily closes, 15 Nov 2026 6:47 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Base RPC `getOwners`/`getThreshold`/`balanceOf` for the buyback and treasury Safes and `0x301f…`; ENS `0xdeployer.eth` resolution on Ethereum; 15 Nov 2026 ~10:50 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham Intelligence, read 15 Nov 2026 ~10:40 AM MST (signed-in account): `0x301f…` (no entity, \"AERO Whale\"), buyback Safe (\"Gnosis Safe Proxy\", \"BNKR Whale\"), treasury Safe `0x5f8DA8F8…E508` (signer tag @0xdeployer); exchange-flow totals",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used (Basescan): token [`0x22aF…`](https://basescan.org/address/0x22af33fe49fd1fa80c7149773dde5890d3c76f3b) · buyback Safe [`0x0424…`](https://basescan.org/address/0x042455f9990098e11592be1fbd72e6dc68419b13) · treasury Safe [`0x5f8D…`](https://basescan.org/address/0x5f8DA8F88eC81e27f2E22fCB9CA5D926c595E508) · fee wallet [`0xf606…`](https://basescan.org/address/0xf60633d02690e2a15a54ab919925f3d038df163e) · staking [`0x8847…`](https://basescan.org/address/0x88470240FF0663Faefa68B1D7621b472DdD9584A) · [`0x301f…`](https://basescan.org/address/0x301f742573c76ee107cb8e263f2d5c009ecbfb28) · pool [`0xAEC0…`](https://basescan.org/address/0xaec085e5a5ce8d96a7bdd3eb3a62445d4f6ce703) · genesis [tx `0x661d…`](https://basescan.org/tx/0x661d7c8f088bb866b756bf17cf74ca43890c18260318deab861e37e8d7594662)",
+      "urls": [
+        "`0x22aF…`",
+        "`0x0424…`",
+        "`0x5f8D…`",
+        "`0xf606…`",
+        "`0x8847…`",
+        "`0x301f…`",
+        "`0xAEC0…`",
+        "tx `0x661d…`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address pages used: [buyback Safe](https://intel.arkm.com/explorer/address/0x042455f9990098e11592be1fbd72e6dc68419b13) · [treasury Safe](https://intel.arkm.com/explorer/address/0x5f8DA8F88eC81e27f2E22fCB9CA5D926c595E508) · [0x301f…](https://intel.arkm.com/explorer/address/0x301f742573c76ee107cb8e263f2d5c009ecbfb28)",
+      "urls": [
+        "buyback Safe",
+        "treasury Safe",
+        "0x301f…"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Founder identity; company entity; Base Ecosystem Fund investment; fee wallet = `0xf60633d0…`; Bankr ownership of the treasury Safe; ChainWard 3.29B staked figure; Nansen labels",
+      "urls": [],
+      "date_read": null
+    }
+  ],
+  "other_contracts": {
+    "robinhood_chain": "0x178e54df3d091ee4d0b2534742ef9e3692b76526"
+  }
+}

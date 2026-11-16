@@ -1,0 +1,378 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/data/schema/report.v1.json",
+  "title": "Madman's Battlefield Intelligence scored report v1",
+  "description": "Machine-readable companion to a published v3 Markdown report under banking-rails/. Numbers and scores are extracted from the published file; this schema does not invent new research.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "ticker",
+    "name",
+    "chain",
+    "overall_score",
+    "overall_verdict",
+    "section_scores",
+    "sections_passed",
+    "gates_failed",
+    "hard_gates",
+    "red_lines",
+    "last_updated",
+    "layout_version",
+    "source_markdown",
+    "retrieval",
+    "evidence_links",
+    "addresses_examined",
+    "pump_day_test",
+    "revenue_accrual",
+    "attributions",
+    "review"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "report.v1"
+    },
+    "ticker": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "chain": {
+      "type": "string"
+    },
+    "contract": {
+      "type": ["string", "null"]
+    },
+    "other_contracts": {
+      "type": ["object", "array", "string", "null"]
+    },
+    "overall_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "overall_verdict": {
+      "type": "string",
+      "enum": ["PASS", "FAIL"]
+    },
+    "section_scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "revenue",
+        "foundation_team",
+        "insider_holdings",
+        "selling_behavior",
+        "tokenomics_supply",
+        "liquidity_market",
+        "product_development",
+        "adoption_customers",
+        "security_audits",
+        "regulatory",
+        "catalysts"
+      ],
+      "properties": {
+        "revenue": { "$ref": "#/$defs/section_score" },
+        "foundation_team": { "$ref": "#/$defs/section_score" },
+        "insider_holdings": { "$ref": "#/$defs/section_score" },
+        "selling_behavior": { "$ref": "#/$defs/section_score" },
+        "tokenomics_supply": { "$ref": "#/$defs/section_score" },
+        "liquidity_market": { "$ref": "#/$defs/section_score" },
+        "product_development": { "$ref": "#/$defs/section_score" },
+        "adoption_customers": { "$ref": "#/$defs/section_score" },
+        "security_audits": { "$ref": "#/$defs/section_score" },
+        "regulatory": { "$ref": "#/$defs/section_score" },
+        "catalysts": { "$ref": "#/$defs/section_score" }
+      }
+    },
+    "sections_passed": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 11
+    },
+    "gates_failed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["revenue", "selling_behavior"]
+      }
+    },
+    "hard_gates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["revenue", "selling_behavior"],
+      "properties": {
+        "revenue": { "$ref": "#/$defs/gate" },
+        "selling_behavior": { "$ref": "#/$defs/gate" }
+      }
+    },
+    "red_lines": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "price_usd": {
+      "type": ["number", "null"]
+    },
+    "price_source": {
+      "type": ["string", "null"]
+    },
+    "front_matter_extras": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Other published YAML fields (chain height, legacy contract, and similar) copied through unchanged."
+    },
+    "key_numbers": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "last_updated": {
+      "type": "string"
+    },
+    "layout_version": {
+      "type": "integer"
+    },
+    "source_markdown": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256", "bytes"],
+      "properties": {
+        "path": { "type": "string", "pattern": "^banking-rails/[A-Z0-9]+\\.md$" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "bytes": { "type": "integer", "minimum": 1 },
+        "extracted_at": { "type": "string" },
+        "timezone_label": { "type": "string", "const": "MST" }
+      }
+    },
+    "retrieval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_read_dates"],
+      "properties": {
+        "price_source_read": { "type": ["string", "null"] },
+        "source_read_dates": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "arkham_read": { "type": ["string", "null"] }
+      }
+    },
+    "evidence_links": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/evidence_link" }
+    },
+    "addresses_examined": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/examined_address" }
+    },
+    "pump_day_test": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "definition",
+        "timezone",
+        "lookback_days",
+        "threshold_pct",
+        "methodology_effective_from",
+        "rescored_under_effective_rules",
+        "proven_pump_day_sale",
+        "selling_not_proven",
+        "disclosure_quality",
+        "pump_day_undisclosed_penalty_applied",
+        "flags_noted_in_report"
+      ],
+      "properties": {
+        "definition": { "type": "string" },
+        "price_source": { "type": ["string", "null"] },
+        "timezone": { "type": "string", "const": "UTC" },
+        "lookback_days": { "type": "integer", "const": 5 },
+        "threshold_pct": { "type": "number", "const": 10 },
+        "methodology_effective_from": { "type": "string", "const": "2026-11-16" },
+        "rescored_under_effective_rules": { "type": "boolean" },
+        "proven_pump_day_sale": {
+          "type": "string",
+          "enum": ["yes", "no", "unclear"]
+        },
+        "selling_not_proven": { "type": "boolean" },
+        "disclosure_quality": {
+          "type": "string",
+          "enum": [
+            "formal_announcement",
+            "buried_disclosure",
+            "silence",
+            "not_applicable",
+            "unclear"
+          ]
+        },
+        "pump_day_undisclosed_penalty_applied": { "type": "boolean" },
+        "flags_noted_in_report": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "revenue_accrual": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reaches_holders"],
+      "properties": {
+        "reaches_holders": {
+          "type": "string",
+          "enum": ["yes", "no", "unclear"],
+          "description": "Binary holder-accrual test: an on-chain, automatic burn, buyback, staking yield from fees, or fee share that has already executed. Promises do not count."
+        },
+        "mechanisms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["burn", "buyback", "staking_yield_from_fees", "fee_share"]
+          }
+        },
+        "automatic_onchain": { "type": ["boolean", "null"] },
+        "executed": { "type": ["boolean", "null"] },
+        "inconsistent_with_score": { "type": "boolean" },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "attributions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/attribution" }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "selling_holdings_low_confidence_flag",
+        "revenue_accrual_inconsistent",
+        "dual_review"
+      ],
+      "properties": {
+        "selling_holdings_low_confidence_flag": { "type": "boolean" },
+        "selling_holdings_single_source_arkham_flag": { "type": "boolean" },
+        "revenue_accrual_inconsistent": { "type": "boolean" },
+        "flag_notes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "dual_review": { "$ref": "#/$defs/dual_review" }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["tier", "text"],
+        "properties": {
+          "tier": { "type": ["string", "null"] },
+          "text": { "type": "string" },
+          "urls": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "date_read": { "type": ["string", "null"] }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "section_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "threshold", "tripped"],
+      "properties": {
+        "score": { "$ref": "#/$defs/section_score" },
+        "threshold": { "type": "integer", "const": 3 },
+        "tripped": { "type": "boolean" }
+      }
+    },
+    "evidence_link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url"],
+      "properties": {
+        "claim": { "type": ["string", "null"] },
+        "url": { "type": "string" },
+        "kind": {
+          "type": "string",
+          "enum": ["tx", "address", "token", "doc", "other"]
+        },
+        "tier": { "type": ["string", "null"] },
+        "date_read": { "type": ["string", "null"] }
+      }
+    },
+    "examined_address": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["address", "url"],
+      "properties": {
+        "chain": { "type": ["string", "null"] },
+        "address": { "type": "string" },
+        "url": { "type": "string" },
+        "kind": { "type": "string", "enum": ["address", "token"] }
+      }
+    },
+    "attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["confidence", "independent_corroboration"],
+      "properties": {
+        "address": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] },
+        "label": { "type": ["string", "null"] },
+        "source": { "type": "string" },
+        "confidence": { "type": "string", "enum": ["high", "medium", "low"] },
+        "independent_corroboration": { "type": "boolean" },
+        "corroborating_sources": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "label_kind": {
+          "type": "string",
+          "enum": [
+            "verified_entity",
+            "exchange",
+            "official",
+            "explorer",
+            "prediction",
+            "unlabelled",
+            "unknown"
+          ]
+        },
+        "appears_in_selling_or_holdings": { "type": "boolean" }
+      }
+    },
+    "dual_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "selling_behavior", "insider_holdings"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["not_run", "pending", "agreed", "reconciled"]
+        },
+        "threshold_points": { "type": "integer", "const": 2 },
+        "selling_behavior": { "$ref": "#/$defs/dual_review_section" },
+        "insider_holdings": { "$ref": "#/$defs/dual_review_section" }
+      }
+    },
+    "dual_review_section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["scorer_a", "scorer_b", "delta", "reconciliation_note"],
+      "properties": {
+        "scorer_a": { "type": ["integer", "null"] },
+        "scorer_b": { "type": ["integer", "null"] },
+        "delta": { "type": ["number", "null"] },
+        "reconciliation_note": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

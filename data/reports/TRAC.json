@@ -1,0 +1,635 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "TRAC",
+  "name": "OriginTrail",
+  "chain": "ethereum",
+  "contract": "0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
+  "overall_score": 4.2,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 4,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 5
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "no hack found; 2018 sale-contract bug minted ~9,606 excess TRACE (no loss of funds, token re-issued as TRAC)",
+    "mint_path_live": "no: mintingFinished() = true, totalSupply() = 500,000,000",
+    "team_wallet_to_exchange_during_pump": "yes, small and indirect: a treasury-loop wallet sent 5M TRAC to Wintermute's multisig on a pump day (9 Nov 2021, +16.4%; disclosed market-maker partnership, amount undisclosed); two wallets funded by Trace Labs' main wallet sent 587k TRAC to KuCoin deposit addresses, 550k of it on pump days (Oct 2023 - Feb 2024); attribution of those two wallets [Unverified]",
+    "treasury_selling": "development treasury (100M+ TRAC) has no published address, balance or spending rule; 1.5M TRAC to Wintermute (Dec 2023) and 103k to a Gate deposit (Apr 2024) from the main Trace Labs wallet"
+  },
+  "price_usd": 0.28928,
+  "price_source": "CoinGecko, 16 Nov 2026 5:11 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.28928,
+    "market_cap_text": "$129.4M",
+    "fdv_text": "$144.7M",
+    "volume_24h_text": "$1.43M",
+    "total_supply_text": "500,000,000"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/TRAC.md",
+    "sha256": "acde3c46988a34a83ce5372e3fdd41172cfd275752bc162e6f040dbefc904def",
+    "bytes": 31738,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:11 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~6:53 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:53 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Fixed 500M supply, minting finished, team multisig in constructor",
+      "url": "TracToken source",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fixed 500M supply, minting finished, team multisig in constructor",
+      "url": "creation tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x599c…` and `0x30be…` are Trace Labs keys (V10 Hub 2-of-3 signers)",
+      "url": "Hub owner multisig",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team multisig → `0x599c…` 235.8M",
+      "url": "164.4M, 3 May 2020",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team multisig → `0x599c…` 235.8M",
+      "url": "wallet",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury loop 100M out (2020) → 120.5M back (2025)",
+      "url": "out",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury loop 100M out (2020) → 120.5M back (2025)",
+      "url": "85M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury loop 100M out (2020) → 120.5M back (2025)",
+      "url": "60M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury loop 100M out (2020) → 120.5M back (2025)",
+      "url": "61.1M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury loop 100M out (2020) → 120.5M back (2025)",
+      "url": "back",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "120.5M bridged to Polkadot via Snowbridge, 14 Oct 2025",
+      "url": "40M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "120.5M bridged to Polkadot via Snowbridge, 14 Oct 2025",
+      "url": "40M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "120.5M bridged to Polkadot via Snowbridge, 14 Oct 2025",
+      "url": "20M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "120.5M bridged to Polkadot via Snowbridge, 14 Oct 2025",
+      "url": "20.5M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "60M out of Snowbridge to `0x786b…`, 13 Apr 2026",
+      "url": "30M",
+      "kind": "other",
+      "tier": "A chain + B · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "60M out of Snowbridge to `0x786b…`, 13 Apr 2026",
+      "url": "30M",
+      "kind": "other",
+      "tier": "A chain + B · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "60M out of Snowbridge to `0x786b…`, 13 Apr 2026",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A chain + B · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "5M to Wintermute on a pump day; partnership disclosed, amount not",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "5M to Wintermute on a pump day; partnership disclosed, amount not",
+      "url": "announcement",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "5M to Wintermute on a pump day; partnership disclosed, amount not",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury-funded wallets → KuCoin on pump days",
+      "url": "funding",
+      "kind": "other",
+      "tier": "A chain · attribution [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury-funded wallets → KuCoin on pump days",
+      "url": "2 Feb 2024",
+      "kind": "other",
+      "tier": "A chain · attribution [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury-funded wallets → KuCoin on pump days",
+      "url": "23 Feb 2024",
+      "kind": "other",
+      "tier": "A chain · attribution [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury-funded wallets → KuCoin on pump days",
+      "url": "27 Oct 2023",
+      "kind": "other",
+      "tier": "A chain · attribution [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Main wallet → Wintermute 1.5M, → Gate 103k",
+      "url": "Wintermute",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Main wallet → Wintermute 1.5M, → Gate 103k",
+      "url": "Gate",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "100M to `0x0585…`, paid out to 285+ addresses",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A chain · purpose [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "100M to `0x0585…`, paid out to 285+ addresses",
+      "url": "wallet",
+      "kind": "other",
+      "tier": "A chain · purpose [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "No protocol revenue; treasury fee 0%",
+      "url": "Blockworks filing",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "No protocol revenue; treasury fee 0%",
+      "url": "DefiLlama: not listed",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "base",
+      "address": "0x17f5ad6192e24f5c7cd888742532124780a42a38",
+      "url": "https://basescan.org/address/0x17f5ad6192e24f5c7cd888742532124780a42a38",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x30be8edf5ee202660af0814a3f3fc341a11ecd75",
+      "url": "https://basescan.org/address/0x30be8edf5ee202660af0814a3f3fc341a11ecd75",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x4cd6467b797846e63a27c92350d040c428394068",
+      "url": "https://basescan.org/address/0x4cd6467b797846e63a27c92350d040c428394068",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x599c59081d9b673bbddafbc933b669aa84ea3ee1",
+      "url": "https://basescan.org/address/0x599c59081d9b673bbddafbc933b669aa84ea3ee1",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xa81a52b4dda010896cdd386c7fbdc5cdc835ba23",
+      "url": "https://basescan.org/token/0xa81a52b4dda010896cdd386c7fbdc5cdc835ba23",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0585a5e5aa9bf79e1788749d6b7ed08f87148122",
+      "url": "https://intel.arkm.com/explorer/address/0x0585a5e5aa9bf79e1788749d6b7ed08f87148122",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x14307e11cf7a330d58a8a83badffac5dafa3ae77",
+      "url": "https://etherscan.io/address/0x14307e11cf7a330d58a8a83badffac5dafa3ae77",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1a58aa618df8f1ec282748fef6185c1a1cc2faa6",
+      "url": "https://etherscan.io/address/0x1a58aa618df8f1ec282748fef6185c1a1cc2faa6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x20e2ab81e11d4d02fe71b8cf9e8e3c9e2f714d5e",
+      "url": "https://etherscan.io/address/0x20e2ab81e11d4d02fe71b8cf9e8e3c9e2f714d5e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x248fca4d916a78c9c24a9e80c228f7c6bfb8d65d",
+      "url": "https://etherscan.io/address/0x248fca4d916a78c9c24a9e80c228f7c6bfb8d65d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x26a88e89c518f7cb93e25853e4e7c2ccddbb9bb3",
+      "url": "https://etherscan.io/address/0x26a88e89c518f7cb93e25853e4e7c2ccddbb9bb3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x30be8edf5ee202660af0814a3f3fc341a11ecd75",
+      "url": "https://etherscan.io/address/0x30be8edf5ee202660af0814a3f3fc341a11ecd75",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x386814732655e06ceabdb1aa6014bac9cf5ebbd4",
+      "url": "https://etherscan.io/address/0x386814732655e06ceabdb1aa6014bac9cf5ebbd4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5624de5ccde31a5de34eba0eddca961eb7509283",
+      "url": "https://etherscan.io/address/0x5624de5ccde31a5de34eba0eddca961eb7509283",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x599c59081d9b673bbddafbc933b669aa84ea3ee1",
+      "url": "https://etherscan.io/address/0x599c59081d9b673bbddafbc933b669aa84ea3ee1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x66f77bacdeed009d2076413689924ee41d584434",
+      "url": "https://etherscan.io/address/0x66f77bacdeed009d2076413689924ee41d584434",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x786b09025a77d32d3f454fc41ae34e90437fa0c5",
+      "url": "https://etherscan.io/address/0x786b09025a77d32d3f454fc41ae34e90437fa0c5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x801e8f44f01ee5cf0318593715391a465cedc100",
+      "url": "https://etherscan.io/address/0x801e8f44f01ee5cf0318593715391a465cedc100",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
+      "url": "https://etherscan.io/token/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb1914469141ebb6e244e75cee3f35d43bf6b85e5",
+      "url": "https://etherscan.io/address/0xb1914469141ebb6e244e75cee3f35d43bf6b85e5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe80d171dbe7898ef93d0b2be621d2978921c471a",
+      "url": "https://etherscan.io/address/0xe80d171dbe7898ef93d0b2be621d2978921c471a",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes, small and indirect: a treasury-loop wallet sent 5M TRAC to Wintermute's multisig on a pump day (9 Nov 2021, +16.4%; disclosed market-maker partnership, amount undisclosed); two wallets funded by Trace Labs' main wallet sent 587k TRAC to KuCoin deposit addresses, 550k of it on pump days (Oct 2023 - Feb 2024); attribution of those two wallets [Unverified]"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Stakers earn TRAC that publishers pay, but no total is published and nothing accrues to the protocol or to holders who don't stake. Revenue cannot be shown, so it is scored as not proven. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x599c59081d9b673bbddafbc933b669aa84ea3ee1",
+      "url": "https://intel.arkm.com/explorer/address/0x599c59081d9b673bbddafbc933b669aa84ea3ee1",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x786b09025a77d32d3f454fc41ae34e90437fa0c5",
+      "url": "https://intel.arkm.com/explorer/address/0x786b09025a77d32d3f454fc41ae34e90437fa0c5",
+      "label": "Agent (0xd80)",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x20e2ab81e11d4d02fe71b8cf9e8e3c9e2f714d5e",
+      "url": "https://intel.arkm.com/explorer/address/0x20e2ab81e11d4d02fe71b8cf9e8e3c9e2f714d5e",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x30be8edf5ee202660af0814a3f3fc341a11ecd75",
+      "url": "https://intel.arkm.com/explorer/address/0x30be8edf5ee202660af0814a3f3fc341a11ecd75",
+      "label": "TRAC Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x801e8f44f01ee5cf0318593715391a465cedc100",
+      "url": "https://intel.arkm.com/explorer/address/0x801e8f44f01ee5cf0318593715391a465cedc100",
+      "label": "Wintermute: Gnosis Safe Proxy",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0585a5e5aa9bf79e1788749d6b7ed08f87148122",
+      "url": "https://intel.arkm.com/explorer/address/0x0585a5e5aa9bf79e1788749d6b7ed08f87148122",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x66f77bacdeed009d2076413689924ee41d584434",
+      "url": "https://intel.arkm.com/explorer/address/0x66f77bacdeed009d2076413689924ee41d584434",
+      "label": "Wintermute: Gnosis Safe Proxy",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x14307e11cf7a330d58a8a83badffac5dafa3ae77",
+      "url": "https://intel.arkm.com/explorer/address/0x14307e11cf7a330d58a8a83badffac5dafa3ae77",
+      "label": "Agent (0xd80)",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum via Etherscan API v2: TRAC `totalSupply`, `mintingFinished()`, `owner()`, `tokenbalance`; contract creation and constructor args; full TRAC `tokentx` for 0x20e2, 0x599c, 0x30be, 0x248f, 0x296e, 0x3868, 0x801e, 0x26a8, 0x5624, 0x0585, 0x9cf1, Snowbridge (1,620 rows), the Gnosis OmniBridge (2,621 rows) and 45 second-hop wallets; `getsourcecode` contract names; receipts for every linked tx (status 1), 16 Nov 2026 ~8:00–9:30 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Base RPC: V10 Hub owner multisig `required()` and `getOwners()`, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan public labels (Wintermute, KuCoin/Gate deposit, Snowbridge, Base Bridge, Origin Trail: Deployer); [Gnosis docs: OmniBridge](https://docs.gnosischain.com/bridges/About%20Token%20Bridges/omnibridge) for `0x88ad…5671`",
+      "urls": [
+        "Gnosis docs: OmniBridge"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Trace Labs × Wintermute announcement](https://origintrail.io/blog/trace-labs-core-origintrail-development-company-partners-with-wintermute-the-leading-market-making-firm) · [OriginTrail docs](https://docs.origintrail.io/) · [TRAC token page](https://origintrail.io/technology/trac-token)",
+      "urls": [
+        "Trace Labs × Wintermute announcement",
+        "OriginTrail docs",
+        "TRAC token page"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Blockworks Token Transparency filing: OriginTrail](https://blockworks.com/token-transparency/filing/origintrail) (compiled from public records and possibly project input)",
+      "urls": [
+        "Blockworks Token Transparency filing: OriginTrail"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `origintrail` market data and tickers (16 Nov 2026 5:11 AM MST); Coinbase TRAC-USD daily closes (from 2 Nov 2021); DefiLlama (no fee or revenue listing)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owner of `0x786b…a0c5`; owners of `0x66f7…` and `0x1430…`; purpose of the 2021 `0x0585…` payout; treasury balances on NeuroWeb, Base and Gnosis",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:53 AM MST (signed-in account): none of the 11 wallets checked has an entity label (`0x20e2…`, `0x599c…`, `0x30be…`, Base `0x17f5…`, `0x786b…`, `0x801e…`, `0x248f…`, `0x5624…`, `0x0585…`, `0x66f7…`, `0x1430…`), so Arkham does **not** confirm Trace Labs; that rests on the V10 Hub signer proof. Arkham does label the counterparties: \"Wintermute: Gnosis Safe Proxy\" (from [0x801e…](https://intel.arkm.com/explorer/address/0x801e8f44f01ee5cf0318593715391a465cedc100)), Snowbridge \"Agent (0xd80)\" (into [0x786b…](https://intel.arkm.com/explorer/address/0x786b09025a77d32d3f454fc41ae34e90437fa0c5)), KuCoin, Crypto.com, Coinbase and Bitget (from [0x66f7…](https://intel.arkm.com/explorer/address/0x66f77bacdeed009d2076413689924ee41d584434) and [0x1430…](https://intel.arkm.com/explorer/address/0x14307e11cf7a330d58a8a83badffac5dafa3ae77)). Token filter is Enterprise-only; first transfer page only",
+      "urls": [
+        "0x801e…",
+        "0x786b…",
+        "0x66f7…",
+        "0x1430…"
+      ],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

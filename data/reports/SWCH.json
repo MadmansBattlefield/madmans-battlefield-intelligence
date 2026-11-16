@@ -1,0 +1,195 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SWCH",
+  "name": "SwissCheese",
+  "chain": "polygon",
+  "contract": "0x3ce1327867077b551ae9a6987bf10c9fd08edce1",
+  "overall_score": 2.5,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 2,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 2,
+    "product_development": 2,
+    "adoption_customers": 1,
+    "security_audits": 3,
+    "regulatory": 3,
+    "catalysts": 2
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no: 120M minted once on 14 Jul 2023",
+    "team_wallet_to_exchange_during_pump": "not proven: mint-line wallets sent ~5.1M SWCH to Gate, Bitget and MEXC in Jan-Jun 2026, none on a pump day (MEXC closes)",
+    "entity_concentration": "not proven: the mint wallet spread all 120M to 11 wallets in 2023-2024; current holders mostly exchanges"
+  },
+  "price_usd": 0.01695,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:35 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.01695,
+    "market_cap_text": "$2.02M",
+    "volume_24h_text": "$0.26M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SWCH.md",
+    "sha256": "fef6192e72a24b11776ca959231a6bf9c29c3e3d77410e61d5b6d76ddc73de93",
+    "bytes": 10036,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:35 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "120M minted to one wallet",
+      "url": "tx 0x51ab…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6M mint → 0x1931",
+      "url": "tx 0xb086…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x1931 → 0x9735 (2.5M)",
+      "url": "tx 0x5aa4…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "26 Jan 2026 Gate deposit",
+      "url": "tx 0x4501…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "polygon",
+      "address": "0x1931b3278732cafd3d6bf21783a5af7b31eede3c",
+      "url": "https://polygonscan.com/address/0x1931b3278732cafd3d6bf21783a5af7b31eede3c",
+      "kind": "address"
+    },
+    {
+      "chain": "polygon",
+      "address": "0x3ce1327867077b551ae9a6987bf10c9fd08edce1",
+      "url": "https://polygonscan.com/token/0x3ce1327867077b551ae9a6987bf10c9fd08edce1",
+      "kind": "token"
+    },
+    {
+      "chain": "polygon",
+      "address": "0xe8755bcaaddb9e6d857077a04f4366e5587b61b3",
+      "url": "https://polygonscan.com/address/0xe8755bcaaddb9e6d857077a04f4366e5587b61b3",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "MEXC SWCHUSDT daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: mint-line wallets sent ~5.1M SWCH to Gate, Bitget and MEXC in Jan-Jun 2026, none on a pump day (MEXC closes)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 1/10 · ❌ FAIL (hard gate) - No fee or revenue data. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Polygonscan / Etherscan v2 (chain 137) transfers, balances, labels; receipts checked 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `swisscheese` (market, venues); pump days from MEXC SWCHUSDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CoinMarketCap](https://coinmarketcap.com/currencies/swisscheese/) (circulating 43.7M), [Token Vitals](https://tokenvitals.com/token/swch) (team, audit, Bitget delisting)",
+      "urls": [
+        "CoinMarketCap",
+        "Token Vitals"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "Arkham was not run for this report",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

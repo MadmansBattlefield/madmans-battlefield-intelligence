@@ -1,0 +1,896 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ZBCN",
+  "name": "Zebec Network",
+  "chain": "solana",
+  "contract": null,
+  "overall_score": 4.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 4,
+    "foundation_team": 3,
+    "insider_holdings": 4,
+    "selling_behavior": 3,
+    "tokenomics_supply": 6,
+    "liquidity_market": 7,
+    "product_development": 5,
+    "adoption_customers": 6,
+    "security_audits": 3,
+    "regulatory": 3,
+    "catalysts": 4
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none_on_file",
+    "buybacks_sold_rather_than_held": "cannot_be_ruled_out",
+    "treasury_funded_wallets_sell_into_pumps": "tripped_30_Sep_4_Oct_2026",
+    "founder_leadership_change": "founder_dropped_from_team_page_role_unverified"
+  },
+  "price_usd": 0.0017262,
+  "price_source": "CoinGecko, 14 Nov 2026 9:08 AM MST",
+  "front_matter_extras": {
+    "mint": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU"
+  },
+  "key_numbers": {
+    "price_usd": 0.0017262,
+    "volume_24h_text": "$8.43M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ZBCN.md",
+    "sha256": "5ae4c54429a03f2824ce11beabf5d1f75d5658f9a6ce8a931ad685464c7a5603",
+    "bytes": 38417,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 9:08 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026",
+      "15 Nov 2026 ~11:05 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:05 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "🔴 Vault `3J7n5U…` → hub 500M (21 Aug 2026)",
+      "url": "tx `3waNh14q…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Vault `3J7n5U…` → hub 500M (21 Aug 2026)",
+      "url": "`3J7n5Usm…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Vault `3J7n5U…` → hub 500M (21 Aug 2026)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Vault `H8Hr96…` via `FNuqKqgJ…` → hub 318M (4 Oct)",
+      "url": "tx `5qZEqk5F…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Vault `H8Hr96…` via `FNuqKqgJ…` → hub 318M (4 Oct)",
+      "url": "`FNuqKqgJ…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Vault `H8Hr96…` via `FNuqKqgJ…` → hub 318M (4 Oct)",
+      "url": "Arkham H8Hr96…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Zebec streaming account `GXD2FnXi…` → `71LxiE4P…` same minute: 500M (21 Aug), 35M + 318M (4 Oct)",
+      "url": "tx: hub→GXD2 500M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Zebec streaming account `GXD2FnXi…` → `71LxiE4P…` same minute: 500M (21 Aug), 35M + 318M (4 Oct)",
+      "url": "tx `GXD2→71Lx…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Zebec streaming account `GXD2FnXi…` → `71LxiE4P…` same minute: 500M (21 Aug), 35M + 318M (4 Oct)",
+      "url": "tx `35M…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Zebec streaming account `GXD2FnXi…` → `71LxiE4P…` same minute: 500M (21 Aug), 35M + 318M (4 Oct)",
+      "url": "tx `3mxZyVR6…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Zebec streaming account `GXD2FnXi…` → `71LxiE4P…` same minute: 500M (21 Aug), 35M + 318M (4 Oct)",
+      "url": "tx `318M…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Zebec streaming account `GXD2FnXi…` → `71LxiE4P…` same minute: 500M (21 Aug), 35M + 318M (4 Oct)",
+      "url": "tx `3FiT8DD6…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Zebec streaming account `GXD2FnXi…` → `71LxiE4P…` same minute: 500M (21 Aug), 35M + 318M (4 Oct)",
+      "url": "`GXD2FnXi…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 `71LxiE4P…` → `EsDV3m3x…` 333.3M on 30 Sep (5-day +23.2%), split to two fresh wallets in 4 min",
+      "url": "tx `4HbiXD2w…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 `71LxiE4P…` → `EsDV3m3x…` 333.3M on 30 Sep (5-day +23.2%), split to two fresh wallets in 4 min",
+      "url": "tx `166.7M→DoBTtiH3…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 `71LxiE4P…` → `EsDV3m3x…` 333.3M on 30 Sep (5-day +23.2%), split to two fresh wallets in 4 min",
+      "url": "tx `166.6M→23c1Ryrg…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 `71LxiE4P…` → `EsDV3m3x…` 62.5M on 4 Oct (+21.0%), split 2 × 31.2M",
+      "url": "tx `3frtonWR…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 `71LxiE4P…` → `EsDV3m3x…` 62.5M on 4 Oct (+21.0%), split 2 × 31.2M",
+      "url": "tx `5JEak7LE…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 `71LxiE4P…` → `EsDV3m3x…` 62.5M on 4 Oct (+21.0%), split 2 × 31.2M",
+      "url": "tx `4PEr4Uba…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 1 Oct pump-day DEX sales into Orca/Meteora pool vaults",
+      "url": "tx `5LbxkaAi…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 1 Oct pump-day DEX sales into Orca/Meteora pool vaults",
+      "url": "tx `3NGf2C9J…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 1 Oct pump-day DEX sales into Orca/Meteora pool vaults",
+      "url": "tx `3fxRyAcu…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 1 Oct pump-day DEX sales into Orca/Meteora pool vaults",
+      "url": "`FaoZEZ…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 1 Oct pump-day DEX sales into Orca/Meteora pool vaults",
+      "url": "`6Mo8W6…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 1 Oct pump-day DEX sales into Orca/Meteora pool vaults",
+      "url": "`5VXPSS…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 1 Oct pump-day DEX sales into Orca/Meteora pool vaults",
+      "url": "`7U8DUK…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 1 Oct pump-day DEX sales into Orca/Meteora pool vaults",
+      "url": "`AzGcE5EN…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Fresh wallets → exchange-scale `u6PJ8DtQ…` (pump days 30 Sep – 4 Oct)",
+      "url": "`u6PJ8DtQ…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Fresh wallets → exchange-scale `u6PJ8DtQ…` (pump days 30 Sep – 4 Oct)",
+      "url": "tx `3cRDohC9…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Fresh wallets → exchange-scale `u6PJ8DtQ…` (pump days 30 Sep – 4 Oct)",
+      "url": "tx `5CVfz817…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Fresh wallets → exchange-scale `u6PJ8DtQ…` (pump days 30 Sep – 4 Oct)",
+      "url": "tx `2WB6yHMJ…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Fresh wallets → exchange-scale `u6PJ8DtQ…` (pump days 30 Sep – 4 Oct)",
+      "url": "tx `42gcnbmB…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Fresh wallets → exchange-scale `u6PJ8DtQ…` (pump days 30 Sep – 4 Oct)",
+      "url": "tx `3JXfN5Hn…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Fresh wallets → exchange-scale `u6PJ8DtQ…` (pump days 30 Sep – 4 Oct)",
+      "url": "tx `4zWG8QYH…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Fresh wallets → exchange-scale `u6PJ8DtQ…` (pump days 30 Sep – 4 Oct)",
+      "url": "tx `8mjdmevd…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Fresh wallets → exchange-scale `u6PJ8DtQ…` (pump days 30 Sep – 4 Oct)",
+      "url": "tx `WoXMXWm9…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Fresh wallets → exchange-scale `u6PJ8DtQ…` (pump days 30 Sep – 4 Oct)",
+      "url": "tx `ehnC5n5k…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Fresh wallets → `A77HErqt…` 25M+ (30 Sep – 1 Oct)",
+      "url": "`A77HErqt…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Fresh wallets → `A77HErqt…` 25M+ (30 Sep – 1 Oct)",
+      "url": "tx `5YqJBeJs…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Fresh wallets → `A77HErqt…` 25M+ (30 Sep – 1 Oct)",
+      "url": "tx `3n4eyTq6…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Fresh wallets → `A77HErqt…` 25M+ (30 Sep – 1 Oct)",
+      "url": "tx `7jYvmked…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Fresh wallets → `4GQeEya6…`",
+      "url": "`4GQeEya6…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Fresh wallets → `4GQeEya6…`",
+      "url": "tx `2f229bAa…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Fresh wallets → `4GQeEya6…`",
+      "url": "tx `2nxRmp4e…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Other `71LxiE4P…` → `EsDV3m3x…` feeds: 204M (12 Sep), 28.5M (22 Aug), 85.1M (2 Nov), 43.4M (5 Nov)",
+      "url": "tx `33c3mc7y…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Other `71LxiE4P…` → `EsDV3m3x…` feeds: 204M (12 Sep), 28.5M (22 Aug), 85.1M (2 Nov), 43.4M (5 Nov)",
+      "url": "tx `622rE4ES…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Other `71LxiE4P…` → `EsDV3m3x…` feeds: 204M (12 Sep), 28.5M (22 Aug), 85.1M (2 Nov), 43.4M (5 Nov)",
+      "url": "tx `xDLq9FxN…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "Other `71LxiE4P…` → `EsDV3m3x…` feeds: 204M (12 Sep), 28.5M (22 Aug), 85.1M (2 Nov), 43.4M (5 Nov)",
+      "url": "tx `5u91aPk9…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:10–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Arkham \"Gate Deposit\" `ACjqB…` 9.0M ZBCN (7 payments)",
+      "url": "Arkham label",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:05–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Arkham \"Gate Deposit\" `ACjqB…` 9.0M ZBCN (7 payments)",
+      "url": "tx: 2 Aug",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:05–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Arkham \"Gate Deposit\" `ACjqB…` 9.0M ZBCN (7 payments)",
+      "url": "tx: 17 Aug",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:05–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Arkham \"Gate Deposit\" `ACjqB…` 9.0M ZBCN (7 payments)",
+      "url": "tx: 2 Sep",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:05–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Arkham \"Gate Deposit\" `ACjqB…` 9.0M ZBCN (7 payments)",
+      "url": "tx: 17 Sep",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:05–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Arkham \"Gate Deposit\" `ACjqB…` 9.0M ZBCN (7 payments)",
+      "url": "tx: 1 Oct (pump",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:05–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Arkham \"Gate Deposit\" `ACjqB…` 9.0M ZBCN (7 payments)",
+      "url": "tx: 16 Oct",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:05–11:40 AM MST"
+    },
+    {
+      "claim": "🔴 Hub → Arkham \"Gate Deposit\" `ACjqB…` 9.0M ZBCN (7 payments)",
+      "url": "tx: 1 Nov",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~11:05–11:40 AM MST"
+    },
+    {
+      "claim": "Uphold holds 20.36B ZBCN (20.4%) incl. buyback inventory",
+      "url": "`5rhms6jZ…`",
+      "kind": "other",
+      "tier": "A / B label",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Uphold holds 20.36B ZBCN (20.4%) incl. buyback inventory",
+      "url": "Arkham: Uphold Cold Wallet",
+      "kind": "other",
+      "tier": "A / B label",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Buyback wallet 108.26M ZBCN",
+      "url": "`EkXEg6de…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "3 Nov 2026"
+    },
+    {
+      "claim": "Streaming + custody programs upgradeable by one plain key `5aUDpuNN…`",
+      "url": "`5aUDpuNN…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Streaming + custody programs upgradeable by one plain key `5aUDpuNN…`",
+      "url": "`zbcKGd…` program",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Arkham \"Zebec Network\" entity covers only small wallets ($386k)",
+      "url": "Arkham entity",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "solana",
+      "address": "3J7n5Usmei8BqgUHan5xuBiJkAx6M1AQQhGwbKiVdQ17",
+      "url": "https://solscan.io/account/3J7n5Usmei8BqgUHan5xuBiJkAx6M1AQQhGwbKiVdQ17",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS",
+      "url": "https://solscan.io/account/4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M",
+      "url": "https://solscan.io/account/5VXPSSnSxa2bP9HPdHXt9pCXVyfwXwRN8HRE2pyoN88M",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "5ZF2VQck23LeuzLSJSWaNRZcrnZUJ6szAobE8ivVvBgd",
+      "url": "https://solscan.io/account/5ZF2VQck23LeuzLSJSWaNRZcrnZUJ6szAobE8ivVvBgd",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "5aUDpuNNbAvme6hPi4o2vBbzHMrF7h3xB4kfKNMk6V8h",
+      "url": "https://solscan.io/account/5aUDpuNNbAvme6hPi4o2vBbzHMrF7h3xB4kfKNMk6V8h",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "5rhms6jZQaXnQc6wbicnrxDTkKqKi4iwfWW3612r5rHb",
+      "url": "https://solscan.io/account/5rhms6jZQaXnQc6wbicnrxDTkKqKi4iwfWW3612r5rHb",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "66L1YnNYaWxYp1Pi9kjL3ULSeqZc4LFiSwsV88UE1arW",
+      "url": "https://solscan.io/account/66L1YnNYaWxYp1Pi9kjL3ULSeqZc4LFiSwsV88UE1arW",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "6Mo8W6b67brHWokLNeXPdfwH7B1ir3xYCGd4EcBen6eM",
+      "url": "https://solscan.io/account/6Mo8W6b67brHWokLNeXPdfwH7B1ir3xYCGd4EcBen6eM",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "71LxiE4PvxdZxLmtGcoKAJEWKofPqYw5Wdn6PSpXHodV",
+      "url": "https://solscan.io/account/71LxiE4PvxdZxLmtGcoKAJEWKofPqYw5Wdn6PSpXHodV",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "7U8DUKAds4SKeKU9zWNdM6iVXrsLc7fx8VUY5sw2zjWz",
+      "url": "https://solscan.io/account/7U8DUKAds4SKeKU9zWNdM6iVXrsLc7fx8VUY5sw2zjWz",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "93aZawDHMCagDDPy8dbcJdx4Xd4WsYP5KWE6EScocDLN",
+      "url": "https://solscan.io/account/93aZawDHMCagDDPy8dbcJdx4Xd4WsYP5KWE6EScocDLN",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "9Sq2nZ481aiEkoDB9gavcfD6v7pr4LEcPnUdky4TEine",
+      "url": "https://solscan.io/account/9Sq2nZ481aiEkoDB9gavcfD6v7pr4LEcPnUdky4TEine",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR",
+      "url": "https://solscan.io/account/A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "ACjqBWqMhcbDTbnWitdFohrJebHmSA7tmX23Awt7n54e",
+      "url": "https://intel.arkm.com/explorer/address/ACjqBWqMhcbDTbnWitdFohrJebHmSA7tmX23Awt7n54e",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "AdayxhsD2ZpgbmFks1ZJdi55pnoPQWp5ryKWGN6RxmtF",
+      "url": "https://solscan.io/account/AdayxhsD2ZpgbmFks1ZJdi55pnoPQWp5ryKWGN6RxmtF",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "AzGcE5EN6h7NDweVy19fmPDE1DtsQmu5C4xRwZxqyq5K",
+      "url": "https://solscan.io/account/AzGcE5EN6h7NDweVy19fmPDE1DtsQmu5C4xRwZxqyq5K",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "EkXEg6de172aoLvr7w86YzQ2rf5oEFD3iUt8uQsLQuQW",
+      "url": "https://solscan.io/account/EkXEg6de172aoLvr7w86YzQ2rf5oEFD3iUt8uQsLQuQW",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "EsDV3m3xUZ7g8QKa1kFdbZT18nNz8ddGJRcTK84WDQ7k",
+      "url": "https://solscan.io/account/EsDV3m3xUZ7g8QKa1kFdbZT18nNz8ddGJRcTK84WDQ7k",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "FNuqKqgJLzJExhZQo1r8ZjQDQRp7hJX2j4bvE2hjcgtM",
+      "url": "https://solscan.io/account/FNuqKqgJLzJExhZQo1r8ZjQDQRp7hJX2j4bvE2hjcgtM",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "FaoZEZFsRS2jJAzg5PXwNjDdA1hDAjDGAkDf4xRfY79w",
+      "url": "https://solscan.io/account/FaoZEZFsRS2jJAzg5PXwNjDdA1hDAjDGAkDf4xRfY79w",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "GXD2FnXi718y9tPUd6CW1CW6khZ14DGtQc5cBpYkjm5J",
+      "url": "https://solscan.io/account/GXD2FnXi718y9tPUd6CW1CW6khZ14DGtQc5cBpYkjm5J",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "H8Hr964ApEP3ie1rwRTT7wkSrgvUqJQb8oNAKspkDDfR",
+      "url": "https://solscan.io/account/H8Hr964ApEP3ie1rwRTT7wkSrgvUqJQb8oNAKspkDDfR",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "b6ZPysThkApNx2YDiGsPUiYPE7Ub1kTRdCWp7gBkzbr",
+      "url": "https://solscan.io/account/b6ZPysThkApNx2YDiGsPUiYPE7Ub1kTRdCWp7gBkzbr",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+      "url": "https://solscan.io/account/u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "zSTKzGLiN6T6EVzhBiL6sjULXMahDavAS2p4R62afGv",
+      "url": "https://solscan.io/account/zSTKzGLiN6T6EVzhBiL6sjULXMahDavAS2p4R62afGv",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "zVLTdc9GmsZ6zjS6bdSFWh7p3BdiPPyju9y82Cr7Vs3",
+      "url": "https://solscan.io/account/zVLTdc9GmsZ6zjS6bdSFWh7p3BdiPPyju9y82Cr7Vs3",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "zbcKGdAmXfthXY3rEPBzexVByT2cqRqCZb9NwWdGQ2T",
+      "url": "https://solscan.io/account/zbcKGdAmXfthXY3rEPBzexVByT2cqRqCZb9NwWdGQ2T",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_funded_wallets_sell_into_pumps: tripped_30_Sep_4_Oct_2026"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn",
+      "buyback"
+    ],
+    "automatic_onchain": null,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "The company may make money; the token gets a ~$100k-a-quarter buyback that is held, not burned. No audited figures."
+  },
+  "attributions": [
+    {
+      "address": "ACjqBWqMhcbDTbnWitdFohrJebHmSA7tmX23Awt7n54e",
+      "url": "https://intel.arkm.com/explorer/address/ACjqBWqMhcbDTbnWitdFohrJebHmSA7tmX23Awt7n54e",
+      "label": "Gate deposit](https://intel.arkm.com/explorer/address/ACjqBWqMhcbDTbnWitdFohrJeb",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "9Sq2nZ481aiEkoDB9gavcfD6v7pr4LEcPnUdky4TEine",
+      "url": "https://intel.arkm.com/explorer/address/9Sq2nZ481aiEkoDB9gavcfD6v7pr4LEcPnUdky4TEine",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "H8Hr964ApEP3ie1rwRTT7wkSrgvUqJQb8oNAKspkDDfR",
+      "url": "https://intel.arkm.com/explorer/address/H8Hr964ApEP3ie1rwRTT7wkSrgvUqJQb8oNAKspkDDfR",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "3J7n5Usmei8BqgUHan5xuBiJkAx6M1AQQhGwbKiVdQ17",
+      "url": "https://intel.arkm.com/explorer/address/3J7n5Usmei8BqgUHan5xuBiJkAx6M1AQQhGwbKiVdQ17",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "5rhms6jZQaXnQc6wbicnrxDTkKqKi4iwfWW3612r5rHb",
+      "url": "https://intel.arkm.com/explorer/address/5rhms6jZQaXnQc6wbicnrxDTkKqKi4iwfWW3612r5rHb",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": true,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Solana mainnet RPC: full token-account census 10 Oct 2026; balances 3 Nov 2026",
+      "urls": [],
+      "date_read": "10 Oct 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [docs.zebec.io](https://docs.zebec.io) · zebec.io/team · [Q1 2026 report](https://zebec.io/blog/q1-2026-report) · [ZIP-4](https://medium.com/zebec-protocol/zip-4-governance-proposal-redesignation-for-protocol-growth-83f62e3614cb)",
+      "urls": [
+        "docs.zebec.io",
+        "Q1 2026 report",
+        "ZIP-4"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] SEC EDGAR Form D, Shima Zebec SPV LLC (CIK 0001941922)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `zebec-network`, 14 Nov 2026 9:08 AM MST",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Solana mainnet RPC (`api.mainnet-beta.solana.com`), every address and signature viewable on [Solscan](https://solscan.io) and linked inline and in the Evidence trail: ZBCN token accounts and parsed transactions for the hub [`9Sq2…`](https://solscan.io/account/9Sq2nZ481aiEkoDB9gavcfD6v7pr4LEcPnUdky4TEine) (all 95 successful transactions since 1 Aug 2026), [`71LxiE4P…`](https://solscan.io/account/71LxiE4PvxdZxLmtGcoKAJEWKofPqYw5Wdn6PSpXHodV), [`EsDV3m3x…`](https://solscan.io/account/EsDV3m3xUZ7g8QKa1kFdbZT18nNz8ddGJRcTK84WDQ7k), [`GXD2FnXi…`](https://solscan.io/account/GXD2FnXi718y9tPUd6CW1CW6khZ14DGtQc5cBpYkjm5J), [`FNuqKqgJ…`](https://solscan.io/account/FNuqKqgJLzJExhZQo1r8ZjQDQRp7hJX2j4bvE2hjcgtM), [`ACjqB…`](https://solscan.io/account/ACjqBWqMhcbDTbnWitdFohrJebHmSA7tmX23Awt7n54e) and 2–3 hops of fresh wallets; balances of the vaults and Uphold; 15 Nov 2026 ~11:10–11:40 AM MST",
+      "urls": [
+        "Solscan",
+        "`9Sq2…`",
+        "`71LxiE4P…`",
+        "`EsDV3m3x…`",
+        "`GXD2FnXi…`",
+        "`FNuqKqgJ…`",
+        "`ACjqB…`"
+      ],
+      "date_read": "1 Aug 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Nansen pack 9 Nov 2026 (labels are third-party)",
+      "urls": [],
+      "date_read": "9 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account) — [hub](https://intel.arkm.com/explorer/address/9Sq2nZ481aiEkoDB9gavcfD6v7pr4LEcPnUdky4TEine) · [ACjqB… Gate Deposit](https://intel.arkm.com/explorer/address/ACjqBWqMhcbDTbnWitdFohrJebHmSA7tmX23Awt7n54e) · [H8Hr96…](https://intel.arkm.com/explorer/address/H8Hr964ApEP3ie1rwRTT7wkSrgvUqJQb8oNAKspkDDfR) · [3J7n5U…](https://intel.arkm.com/explorer/address/3J7n5Usmei8BqgUHan5xuBiJkAx6M1AQQhGwbKiVdQ17) · [Uphold 5rhms6…](https://intel.arkm.com/explorer/address/5rhms6jZQaXnQc6wbicnrxDTkKqKi4iwfWW3612r5rHb) · [entity Zebec Network](https://intel.arkm.com/explorer/entity/zebec-network): hub [`9Sq2…`](https://solscan.io/account/9Sq2nZ481aiEkoDB9gavcfD6v7pr4LEcPnUdky4TEine) no entity (Phantom profile only); [`ACjqB…`](https://solscan.io/account/ACjqBWqMhcbDTbnWitdFohrJebHmSA7tmX23Awt7n54e) \"Gate Deposit\"; [`H8Hr96…`](https://solscan.io/account/H8Hr964ApEP3ie1rwRTT7wkSrgvUqJQb8oNAKspkDDfR) and [`3J7n5U…`](https://solscan.io/account/3J7n5Usmei8BqgUHan5xuBiJkAx6M1AQQhGwbKiVdQ17) no entity (tag Whale); [`5rhms6…`](https://solscan.io/account/5rhms6jZQaXnQc6wbicnrxDTkKqKi4iwfWW3612r5rHb) Uphold \"Cold Wallet\"; entity \"Zebec Network\" (1.1k addresses, $386k). Limits: relative ages only (dates above are from RPC); ~30-day exchange window, all-time is Enterprise-locked; first page of transfers read",
+      "urls": [
+        "hub",
+        "ACjqB… Gate Deposit",
+        "H8Hr96…",
+        "3J7n5U…",
+        "Uphold 5rhms6…",
+        "entity Zebec Network",
+        "`9Sq2…`",
+        "`ACjqB…`",
+        "`H8Hr96…`",
+        "`3J7n5U…`",
+        "`5rhms6…`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [BusinessWire, Nov 2021](https://www.businesswire.com/news/home/20211110005872/en/) · [The Block, Feb 2022](https://www.theblock.co/news/deals/2022-02-23-zebec-solana-protocol-funding-round-feb-135100) · [crypto.news Q3 buyback](https://crypto.news/zebec-network-zbcn-q3-buyback-payroll-revenue/)",
+      "urls": [
+        "BusinessWire, Nov 2021",
+        "The Block, Feb 2022",
+        "crypto.news Q3 buyback"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Self-reported card/payroll metrics; Thapaliya's current role; exact Mar 2026 unlock date; owners of [`71LxiE4P…`](https://solscan.io/account/71LxiE4PvxdZxLmtGcoKAJEWKofPqYw5Wdn6PSpXHodV), [`EsDV3m3x…`](https://solscan.io/account/EsDV3m3xUZ7g8QKa1kFdbZT18nNz8ddGJRcTK84WDQ7k) and the fresh wallets; Gate ownership of [`u6PJ8DtQ…`](https://solscan.io/account/u6PJ8DtQuPFnfmwHbGFULQ4u4EgjDiyYKjVEsynXq2w) (one label + sweep pattern); owners of [`A77HErqt…`](https://solscan.io/account/A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR) and [`4GQeEya6…`](https://solscan.io/account/4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS)",
+      "urls": [
+        "`71LxiE4P…`",
+        "`EsDV3m3x…`",
+        "`u6PJ8DtQ…`",
+        "`A77HErqt…`",
+        "`4GQeEya6…`"
+      ],
+      "date_read": null
+    }
+  ]
+}

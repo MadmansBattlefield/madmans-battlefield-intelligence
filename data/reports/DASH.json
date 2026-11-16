@@ -1,0 +1,389 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "DASH",
+  "name": "Dash",
+  "chain": "dash",
+  "contract": "native (Dash, X11 proof-of-work + masternodes)",
+  "overall_score": 4.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 6,
+    "insider_holdings": 6,
+    "selling_behavior": 6,
+    "tokenomics_supply": 6,
+    "liquidity_market": 6,
+    "product_development": 7,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 4,
+    "catalysts": 6
+  },
+  "sections_passed": 8,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "v24_hard_fork_activation": "watch_delayed",
+    "treasury_payout_on_pump_day": "tripped_1_of_12_months_calendar_driven",
+    "eu_privacy_coin_rule_2027": "open"
+  },
+  "price_usd": 38.22,
+  "price_source": "CoinGecko, 15 Nov 2026 6:45 AM MST",
+  "front_matter_extras": {
+    "chain_read_height": 2572718
+  },
+  "key_numbers": {
+    "price_usd": 38.22,
+    "market_cap_text": "$492.9M",
+    "volume_24h_text": "$58.2M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/DASH.md",
+    "sha256": "42cb555235c5e02652d723f5ab4f5022b932489dd6e67f9c9907c81ca22ec1ca",
+    "bytes": 27069,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 15 Nov 2026 6:45 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:05 AM MST",
+      "15 Nov 2026",
+      "2026-11-15"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "🟡 Pump-day payout 1 Sep 2026: 4,829.8 → `7c7of2xz…`, 2.2 → `Xg8pTryH…`",
+      "url": "tx c12921d6…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "🟡 Pump-day payout 1 Sep 2026: 4,829.8 → `7c7of2xz…`, 2.2 → `Xg8pTryH…`",
+      "url": "raw",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "🟡 Pump-day payout 1 Sep 2026: 4,829.8 → `7c7of2xz…`, 2.2 → `Xg8pTryH…`",
+      "url": "`7c7of2xz…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "🟡 Pump-day payout 1 Sep 2026 (second tx, same block time): 200 DASH → `XdSQkyna…` 96.5 + `7f8SVFmG…` 103.5",
+      "url": "tx 3e9b42ad…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "🟡 Pump-day payout 1 Sep 2026 (second tx, same block time): 200 DASH → `XdSQkyna…` 96.5 + `7f8SVFmG…` 103.5",
+      "url": "raw",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "DCG payout address: 228,469 DASH in and out lifetime; 63,377 in 12 months",
+      "url": "Chainz",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "DCG payout address: 228,469 DASH in and out lifetime; 63,377 in 12 months",
+      "url": "Insight raw",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "DCG payout address: 228,469 DASH in and out lifetime; 63,377 in 12 months",
+      "url": "12-month tx list",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "1 Oct 2026: 500 → `XvEU6pEW…`, 4,332 → `7pk3RNRA…`",
+      "url": "tx 442325c1…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "1 Oct 2026: 500 → `XvEU6pEW…`, 4,332 → `7pk3RNRA…`",
+      "url": "raw",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "1 Oct 2026: 500 → `XvEU6pEW…`, 4,332 → `7pk3RNRA…`",
+      "url": "`XvEU6pEW…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "1 Oct 2026: 500 → `XvEU6pEW…`, 4,332 → `7pk3RNRA…`",
+      "url": "`7pk3RNRA…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "2 Nov 2026: 163 → `XchbTk8r…`, 4,669 → `7f1kNTrK…`",
+      "url": "tx dc6a7a22…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "2 Nov 2026: 163 → `XchbTk8r…`, 4,669 → `7f1kNTrK…`",
+      "url": "raw",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "2 Nov 2026: 163 → `XchbTk8r…`, 4,669 → `7f1kNTrK…`",
+      "url": "`7f1kNTrK…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "22 Nov 2025: 2,000 → `XvEU6pEW…`, 3,196 → `7pAv6sYX…`",
+      "url": "tx 9384ba58…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "22 Nov 2025: 2,000 → `XvEU6pEW…`, 3,196 → `7pAv6sYX…`",
+      "url": "raw",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "22 Nov 2025: 2,000 → `XvEU6pEW…`, 3,196 → `7pAv6sYX…`",
+      "url": "`7pAv6sYX…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "2 Feb 2026: 271 → `XoHhGzZn…`, 5,070 → `7YHgvcG4…`",
+      "url": "tx 58df107c…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "2 Feb 2026: 271 → `XoHhGzZn…`, 5,070 → `7YHgvcG4…`",
+      "url": "raw",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "2 Feb 2026: 271 → `XoHhGzZn…`, 5,070 → `7YHgvcG4…`",
+      "url": "`7YHgvcG4…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:55 AM MST"
+    },
+    {
+      "claim": "Arkham does not cover Dash (downstream owners open)",
+      "url": "Arkham `7pk3RNRA…`",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "No premine; budget does not change emission",
+      "url": "Dash docs: governance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "dash",
+      "address": "7pk3RNRAwCiteq5Bs8RdS4jCqYwMmVT9qd",
+      "url": "https://intel.arkm.com/explorer/address/7pk3RNRAwCiteq5Bs8RdS4jCqYwMmVT9qd",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_payout_on_pump_day: tripped_1_of_12_months_calendar_driven"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Users pay almost nothing (~$27 a day at most). Miners, masternodes and the developers are all paid by inflation, about $12–14M a year at today's price. The token has no cash-flow claim."
+  },
+  "attributions": [
+    {
+      "address": "7pk3RNRAwCiteq5Bs8RdS4jCqYwMmVT9qd",
+      "url": "https://intel.arkm.com/explorer/address/7pk3RNRAwCiteq5Bs8RdS4jCqYwMmVT9qd",
+      "label": "Something went wrong",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Insight API ([`insight.dash.org`](https://insight.dash.org/insight-api/addr/7mUyau75ATy1c6LoZeG3D57jKBkR4iHJkE)): raw JSON for every tx cited ([example](https://insight.dash.org/insight-api/tx/c12921d6dcefdd13784a03bafe4785fe81b79d0a7271ce8f701943cc80a0d7c7)); human-readable views on [Chainz (cryptoID)](https://chainz.cryptoid.info/dash/address.dws?7mUyau75ATy1c6LoZeG3D57jKBkR4iHJkE.htm), linked inline and in the Evidence trail; `status`, `gobject/get/91808ffd…` (DCG proposal), `addr/7mUyau75…`, `txs?address=7mUyau75…` (40 txs); 15 Nov 2026 ~6:55 AM MST",
+      "urls": [
+        "`insight.dash.org`",
+        "example",
+        "Chainz (cryptoID"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockchair `dash/stats` and block aggregate for 19–21 Jan 2014; 15 Nov 2026",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Dash docs: Understanding Governance](https://docs.dash.org/en/stable/docs/user/governance/understanding.html)",
+      "urls": [
+        "Dash docs: Understanding Governance"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub API `dashpay/dash` (v24.0.0–v24.0.2 release notes, participation), `dashpay/platform`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees/revenue `dash`; CoinGecko `dash` coin data, 365-day closes, tickers; 15 Nov 2026 6:45 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] SEC Release 33-11412 · ESMA interim MiCA register `OTHER.csv`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] DashCentral API (`/api/v1/budget`, `/api/v1/public`): budget, proposals, masternode counts · Chainz (cryptoid) supply",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] EUR-Lex summary of AMLR and Art. 79 text sites",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Arkham](https://intel.arkm.com/explorer/address/7pk3RNRAwCiteq5Bs8RdS4jCqYwMmVT9qd), read 15 Nov 2026 ~11:05 AM MST (signed-in account): **Dash is not supported** ([`7pk3RNRA…`](https://chainz.cryptoid.info/dash/address.dws?7pk3RNRAwCiteq5Bs8RdS4jCqYwMmVT9qd.htm) returns \"Something went wrong\"; [`7f1kNTrK…`](https://chainz.cryptoid.info/dash/address.dws?7f1kNTrKnzcDfp9sXvschTvjpLxjKKFgun.htm) and [`XvEU6pEW…`](https://chainz.cryptoid.info/dash/address.dws?XvEU6pEWA2oC4FVdcxVdXcxHaMjyLZvPdt.htm) not opened for the same reason). Open item #1 stays open",
+      "urls": [
+        "Arkham",
+        "`7pk3RNRA…`",
+        "`7f1kNTrK…`",
+        "`XvEU6pEW…`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] DCG officers and registration; downstream DCG wallets; launch-week coin holders; merchant partners; masternode collateral sizes; AMLR classification of Dash",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

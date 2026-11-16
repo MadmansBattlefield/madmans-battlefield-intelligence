@@ -1,0 +1,561 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "XLM",
+  "name": "Stellar",
+  "chain": "stellar",
+  "contract": "native (Stellar network lumens)",
+  "overall_score": 5.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 7,
+    "insider_holdings": 4,
+    "selling_behavior": 6,
+    "tokenomics_supply": 5,
+    "liquidity_market": 9,
+    "product_development": 8,
+    "adoption_customers": 7,
+    "security_audits": 7,
+    "regulatory": 8,
+    "catalysts": 6
+  },
+  "sections_passed": 8,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "network_halt": "none_found_in_series",
+    "sdf_exchange_sends_on_pump_days": "watch_disclosed",
+    "single_key_sdf_account": "tripped"
+  },
+  "price_usd": 0.140304,
+  "price_source": "CoinGecko, 15 Nov 2026 6:45 AM MST",
+  "front_matter_extras": {
+    "chain_read_ledger": 65492889
+  },
+  "key_numbers": {
+    "price_usd": 0.140304,
+    "market_cap_text": "$4.97B",
+    "fdv_text": "$7.02B",
+    "volume_24h_text": "$314.3M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/XLM.md",
+    "sha256": "69a6642d1220b27aef3f4f6296ade90d5281f6172901cbdffb6e95260a9d986e",
+    "bytes": 35316,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 15 Nov 2026 6:45 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:05 AM MST",
+      "15 Nov 2026",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:05 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "🔴 554.1M XLM SDF hot account on 1 key, thresholds 0",
+      "url": "Stellar.expert",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "🔴 554.1M XLM SDF hot account on 1 key, thresholds 0",
+      "url": "Horizon account (signers, thresholds",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "🔴 554.1M XLM SDF hot account on 1 key, thresholds 0",
+      "url": "set_options history",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "SDF → Bitstamp 159.1M XLM (12 mo)",
+      "url": "`GDBK3AHP…` Stellar.expert",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "SDF → Bitstamp 159.1M XLM (12 mo)",
+      "url": "Horizon payments",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "SDF → Kraken 108.5M XLM",
+      "url": "`GA5XIGA5…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "SDF → Coinbase deposits 80.3M XLM",
+      "url": "`GDQP2KPQ…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "SDF → Coinbase deposits 80.3M XLM",
+      "url": "`GC5PFAXP…`",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "Largest unlabelled SDF recipient 631M, forwards to `GC6S2SVX…`",
+      "url": "`GB4SJVA7…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "Largest unlabelled SDF recipient 631M, forwards to `GC6S2SVX…`",
+      "url": "`GC6S2SVX…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "Largest unlabelled SDF recipient 631M, forwards to `GC6S2SVX…`",
+      "url": "Arkham check (Stellar unsupported",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "514M recipient forwards to 3 accounts",
+      "url": "`GDZAI56J…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "514M recipient forwards to 3 accounts",
+      "url": "`GAKTGHDI…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "514M recipient forwards to 3 accounts",
+      "url": "`GAH3EBQH…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "514M recipient forwards to 3 accounts",
+      "url": "`GDSKF3UL…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "495M recipient forwards 495.8M",
+      "url": "`GDDUETSY…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "495M recipient forwards 495.8M",
+      "url": "`GCA34HBK…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "185M operating wallet (116M back to SDF, 20M to Coinbase)",
+      "url": "`GAEPN735…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "Real supply 50.0B (55.44B in dead burn account)",
+      "url": "Burn account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "Real supply 50.0B (55.44B in dead burn account)",
+      "url": "Horizon ledgers",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "12 SDF mandate accounts and balances",
+      "url": "SDF mandate page",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:05 AM MST"
+    },
+    {
+      "claim": "668.6M XLM spent in Q3 2026",
+      "url": "SDF quarterly reports",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "stellar",
+      "address": "GA5XIGA5C7QTPTWXQHY6MCJRMTRZDOSHR6EFIBNDQTCQHG262N4GGKTM",
+      "url": "https://stellar.expert/explorer/public/account/GA5XIGA5C7QTPTWXQHY6MCJRMTRZDOSHR6EFIBNDQTCQHG262N4GGKTM",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GAEPN735I2YWGIW6J4MXMEXLLPKEOV4ERNBVJTTZ7J3PHOSANHDHO3ZE",
+      "url": "https://stellar.expert/explorer/public/account/GAEPN735I2YWGIW6J4MXMEXLLPKEOV4ERNBVJTTZ7J3PHOSANHDHO3ZE",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GAH3EBQHRYZMNGGAJTQJIC7VTNNUMUHKFJFTB3AWYV3T275Q7ALT437S",
+      "url": "https://stellar.expert/explorer/public/account/GAH3EBQHRYZMNGGAJTQJIC7VTNNUMUHKFJFTB3AWYV3T275Q7ALT437S",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GAKGC35HMNB7A3Q2V5SQU6VJC2JFTZB6I7ZW77SJSMRCOX2ZFBGJOCHH",
+      "url": "https://stellar.expert/explorer/public/account/GAKGC35HMNB7A3Q2V5SQU6VJC2JFTZB6I7ZW77SJSMRCOX2ZFBGJOCHH",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GAKTGHDIAQK6ACNHXQMUN7X7P245KRNAKEBJ6A73T5RWCOYHEN6ZAULX",
+      "url": "https://stellar.expert/explorer/public/account/GAKTGHDIAQK6ACNHXQMUN7X7P245KRNAKEBJ6A73T5RWCOYHEN6ZAULX",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GALAXYVOIDAOPZTDLHILAJQKCVVFMD4IKLXLSZV5YHO7VY74IWZILUTO",
+      "url": "https://stellar.expert/explorer/public/account/GALAXYVOIDAOPZTDLHILAJQKCVVFMD4IKLXLSZV5YHO7VY74IWZILUTO",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GAMGGUQKKJ637ILVDOSCT5X7HYSZDUPGXSUW67B2UKMG2HEN5TPWN3LQ",
+      "url": "https://stellar.expert/explorer/public/account/GAMGGUQKKJ637ILVDOSCT5X7HYSZDUPGXSUW67B2UKMG2HEN5TPWN3LQ",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GANII5Y2LABEBK74NWNKS4NREX2T52YTBGQDRDKVBFRIIF5VE4ORYOVY",
+      "url": "https://stellar.expert/explorer/public/account/GANII5Y2LABEBK74NWNKS4NREX2T52YTBGQDRDKVBFRIIF5VE4ORYOVY",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GAPV2C4BTHXPL2IVYDXJ5PUU7Q3LAXU7OAQDP7KVYHLCNM2JTAJNOQQI",
+      "url": "https://stellar.expert/explorer/public/account/GAPV2C4BTHXPL2IVYDXJ5PUU7Q3LAXU7OAQDP7KVYHLCNM2JTAJNOQQI",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GATL3ETTZ3XDGFXX2ELPIKCZL7S5D2HY3VK4T7LRPD6DW5JOLAEZSZBA",
+      "url": "https://stellar.expert/explorer/public/account/GATL3ETTZ3XDGFXX2ELPIKCZL7S5D2HY3VK4T7LRPD6DW5JOLAEZSZBA",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GB4SJVA7KAFDZJFVTSEV2YWZZA3VEANHHK3WSJRHO2XS2GDYJCGWKDB5",
+      "url": "https://stellar.expert/explorer/public/account/GB4SJVA7KAFDZJFVTSEV2YWZZA3VEANHHK3WSJRHO2XS2GDYJCGWKDB5",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ",
+      "url": "https://stellar.expert/explorer/public/account/GB6NVEN5HSUBKMYCE5ZOWSK5K23TBWRUQLZY3KNMXUZ3AQ2ESC4MY4AQ",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GBEVKAYIPWC5AQT6D4N7FC3XGKRRBMPCAMTO3QZWMHHACLHTMAHAM2TP",
+      "url": "https://stellar.expert/explorer/public/account/GBEVKAYIPWC5AQT6D4N7FC3XGKRRBMPCAMTO3QZWMHHACLHTMAHAM2TP",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GC2VWS32ESUQJ5K2K5KQ7NUTCY4XHGVUHWTU7T5KH664PWWFZDERSSTA",
+      "url": "https://stellar.expert/explorer/public/account/GC2VWS32ESUQJ5K2K5KQ7NUTCY4XHGVUHWTU7T5KH664PWWFZDERSSTA",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GC3ITNZSVVPOWZ5BU7S64XKNI5VPTRSBEXXLS67V4K6LEUETWBMTE7IH",
+      "url": "https://stellar.expert/explorer/public/account/GC3ITNZSVVPOWZ5BU7S64XKNI5VPTRSBEXXLS67V4K6LEUETWBMTE7IH",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GC5PFAXPL3BYIRHLMUFD3E353DINA6A52DXJIXLKQEVO2GA7WFWGWCFS",
+      "url": "https://stellar.expert/explorer/public/account/GC5PFAXPL3BYIRHLMUFD3E353DINA6A52DXJIXLKQEVO2GA7WFWGWCFS",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GC6S2SVXVMPECWS65YXIX72TF5YUYV2MFKLTINSS3XTWAGQWQAJDLIPM",
+      "url": "https://stellar.expert/explorer/public/account/GC6S2SVXVMPECWS65YXIX72TF5YUYV2MFKLTINSS3XTWAGQWQAJDLIPM",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GCA34HBKNLWN3AOXWBRW5Y3HSGHCWF3UDBRJ5YHGU6HWGJZEPO2NSXI3",
+      "url": "https://stellar.expert/explorer/public/account/GCA34HBKNLWN3AOXWBRW5Y3HSGHCWF3UDBRJ5YHGU6HWGJZEPO2NSXI3",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GCPWKVQNLDPD4RNP5CAXME4BEDTKSSYRR4MMEL4KG65NEGCOGNJW7QI2",
+      "url": "https://stellar.expert/explorer/public/account/GCPWKVQNLDPD4RNP5CAXME4BEDTKSSYRR4MMEL4KG65NEGCOGNJW7QI2",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GDBK3AHPQ7AO2U7JYEBFGJ2PBDVVFANHH4NQANDX6Q4GZ266WZ3IOIXN",
+      "url": "https://stellar.expert/explorer/public/account/GDBK3AHPQ7AO2U7JYEBFGJ2PBDVVFANHH4NQANDX6Q4GZ266WZ3IOIXN",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GDDUETSYDSHJMU5J73WHR4SQOAWRUM5SNLHXBQKM36EQ244GHSRS5AHF",
+      "url": "https://stellar.expert/explorer/public/account/GDDUETSYDSHJMU5J73WHR4SQOAWRUM5SNLHXBQKM36EQ244GHSRS5AHF",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GDHMJXMHWBX7YKIY7TZBWLETQR5K6KAXYRBME2FIBRP6GLBGGLXQ6MCH",
+      "url": "https://stellar.expert/explorer/public/account/GDHMJXMHWBX7YKIY7TZBWLETQR5K6KAXYRBME2FIBRP6GLBGGLXQ6MCH",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX",
+      "url": "https://stellar.expert/explorer/public/account/GDKIJJIKXLOM2NRMPNQZUUYK24ZPVFC6426GZAEP3KUK6KEJLACCWNMX",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37",
+      "url": "https://stellar.expert/explorer/public/account/GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GDSKF3ULSQJSIVAZMFQOW6HEDJBWN2NIHFOTXA45JWKRCGM5ADD7AY52",
+      "url": "https://stellar.expert/explorer/public/account/GDSKF3ULSQJSIVAZMFQOW6HEDJBWN2NIHFOTXA45JWKRCGM5ADD7AY52",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4",
+      "url": "https://stellar.expert/explorer/public/account/GDUY7J7A33TQWOSOQGDO776GGLM3UQERL4J3SPT56F6YS4ID7MLDERI4",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GDWXQOTIIDO2EUK4DIGIBLEHLME2IAJRNU6JDFS5B2ZTND65P7J36WQZ",
+      "url": "https://stellar.expert/explorer/public/account/GDWXQOTIIDO2EUK4DIGIBLEHLME2IAJRNU6JDFS5B2ZTND65P7J36WQZ",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GDZAI56JE57EAUA46ZVUZ7VHROBDD7X3WF264XDQLWSFWRVJBNUV6ZHY",
+      "url": "https://stellar.expert/explorer/public/account/GDZAI56JE57EAUA46ZVUZ7VHROBDD7X3WF264XDQLWSFWRVJBNUV6ZHY",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "formal_announcement",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "sdf_exchange_sends_on_pump_days: watch_disclosed"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Fees are tiny by design (~$0.0001 a transaction). They are effectively burned, which is good, but at ~$0.5M a year on a ~$5B asset (~0.01%) they do not support the token's value. Stellar's case is utility (account reserves, anti-spam, a bridge asset), not cash flow."
+  },
+  "attributions": [
+    {
+      "address": "GB4SJVA7KAFDZJFVTSEV2YWZZA3VEANHHK3WSJRHO2XS2GDYJCGWKDB5",
+      "url": "https://intel.arkm.com/explorer/address/GB4SJVA7KAFDZJFVTSEV2YWZZA3VEANHHK3WSJRHO2XS2GDYJCGWKDB5",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Horizon ([`horizon.stellar.org`](https://horizon.stellar.org/)): `/ledgers` (ledger 65,492,889, 13:48:07 UTC), `/fee_stats`, `/accounts/{id}` for 12 SDF accounts + the 2019 burn account, `/accounts/{id}/payments` for all 12 SDF accounts (12 months) and 4 second-hop recipients; 15 Nov 2026 ~6:48–7:05 AM MST",
+      "urls": [
+        "`horizon.stellar.org`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [SDF mandate page](https://stellar.org/foundation/mandate) (balances updated 11–14 Nov 2026) · [team](https://stellar.org/foundation/team) · [quarterly reports](https://stellar.org/quarterly-reports) — Q3 2026 \"Quarter in Review\" PDF",
+      "urls": [
+        "SDF mandate page",
+        "team",
+        "quarterly reports"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Bell, Protocol 30 upgrade guide](https://stellar.org/blog/developers/bell-protocol-30-upgrade-guide) (updated 23 Oct 2026)",
+      "urls": [
+        "Bell, Protocol 30 upgrade guide"
+      ],
+      "date_read": "23 Oct 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees `stellar`, chains TVL, stablecoin chains; 15 Nov 2026",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `stellar` coin data, 365-day daily closes, tickers with depth; 15 Nov 2026 6:45 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub API `stellar/stellar-core` (releases, participation)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] SEC Release 33-11412 and the sec.gov crypto-asset taxonomy page · SEC 497K for STLU · ESMA interim MiCA register `OTHER.csv`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Stellar Expert](https://stellar.expert/explorer/public) directory labels (`sdf` tag, exchange tags); every account cited is linked inline and in the Evidence trail",
+      "urls": [
+        "Stellar Expert"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Stellar.expert account pages](https://stellar.expert/explorer/public/account/GDWXQOTIIDO2EUK4DIGIBLEHLME2IAJRNU6JDFS5B2ZTND65P7J36WQZ) and [Horizon raw account JSON](https://horizon.stellar.org/accounts/GDWXQOTIIDO2EUK4DIGIBLEHLME2IAJRNU6JDFS5B2ZTND65P7J36WQZ) for the single-key account; second-hop addresses resolved from Horizon `/payments`, 15 Nov 2026 MST",
+      "urls": [
+        "Stellar.expert account pages",
+        "Horizon raw account JSON"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): **Stellar is not supported** ([`GB4SJVA7…`](https://stellar.expert/explorer/public/account/GB4SJVA7KAFDZJFVTSEV2YWZZA3VEANHHK3WSJRHO2XS2GDYJCGWKDB5) returns \"Something went wrong / Couldn't load portfolio\"; [`GDZAI56J…`](https://stellar.expert/explorer/public/account/GDZAI56JE57EAUA46ZVUZ7VHROBDD7X3WF264XDQLWSFWRVJBNUV6ZHY) and [`GDDUETSY…`](https://stellar.expert/explorer/public/account/GDDUETSYDSHJMU5J73WHR4SQOAWRUM5SNLHXBQKM36EQ244GHSRS5AHF) not opened for the same reason). Open item #1 stays open",
+      "urls": [
+        "`GB4SJVA7…`",
+        "`GDZAI56J…`",
+        "`GDDUETSY…`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] SDF state registration; owners of [`GB4SJVA7…`](https://stellar.expert/explorer/public/account/GB4SJVA7KAFDZJFVTSEV2YWZZA3VEANHHK3WSJRHO2XS2GDYJCGWKDB5), [`GDZAI56J…`](https://stellar.expert/explorer/public/account/GDZAI56JE57EAUA46ZVUZ7VHROBDD7X3WF264XDQLWSFWRVJBNUV6ZHY), [`GDDUETSY…`](https://stellar.expert/explorer/public/account/GDDUETSYDSHJMU5J73WHR4SQOAWRUM5SNLHXBQKM36EQ244GHSRS5AHF), [`GAEPN735…`](https://stellar.expert/explorer/public/account/GAEPN735I2YWGIW6J4MXMEXLLPKEOV4ERNBVJTTZ7J3PHOSANHDHO3ZE) and their next hops; per-issuer RWA figures; DTCC connection scope; 2019 halt details",
+      "urls": [
+        "`GB4SJVA7…`",
+        "`GDZAI56J…`",
+        "`GDDUETSY…`",
+        "`GAEPN735…`"
+      ],
+      "date_read": null
+    }
+  ]
+}

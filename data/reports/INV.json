@@ -1,0 +1,554 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "INV",
+  "name": "Inverse Finance",
+  "chain": "ethereum",
+  "contract": "0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68",
+  "overall_score": 4.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 6,
+    "foundation_team": 6,
+    "insider_holdings": 6,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 2,
+    "product_development": 5,
+    "adoption_customers": 5,
+    "security_audits": 4,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 4,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes, 2022: Anchor/Frontier oracle manipulations (2 Apr 2022, $15.6M; 16 Jun 2022, $5.83M DOLA net loss); bad debt carried until 2025",
+    "mint_path_live": "yes: owner() = Anchor Treasury timelock (governance) and mint() is uncapped; 104,000 INV minted 25 Jul 2025, 8,000 on 8 Dec 2025",
+    "team_wallet_to_exchange_during_pump": "no CEX deposit found; Policy Committee multisig (Arkham: Inverse Finance Gnosis Safe) DCA-sold 13,606 INV through CoW Protocol in Feb-Aug 2024 (10 clips on pump days) and 10,607 INV through Bond Protocol in 2022-2023; disclosure of the 2024 CoW sales not found",
+    "treasury_selling": "TWG paid ~321k INV (~$12.7M at the day's price) as vote incentives 2022-2025 (bribe platforms); DAO buybacks since Feb 2026 (mill 345)"
+  },
+  "price_usd": 8.64,
+  "price_source": "CoinGecko, 16 Nov 2026 5:10 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 8.64,
+    "market_cap_text": "$6.18M",
+    "fdv_text": "$6.28M",
+    "volume_24h_text": "$26.6k",
+    "total_supply_text": "727,000"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/INV.md",
+    "sha256": "7ea398daec7392320165f61698c5b019874c3c950b7aa2a9acfa435b6fef3a72",
+    "bytes": 27427,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:10 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~6:52 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:52 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Owner can mint without cap; owner = treasury timelock",
+      "url": "INV source",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Owner can mint without cap; owner = treasury timelock",
+      "url": "treasury",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "104,000 INV minted 25 Jul 2025; 8,000 on 8 Dec 2025",
+      "url": "mint 1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "104,000 INV minted 25 Jul 2025; 8,000 on 8 Dec 2025",
+      "url": "mint 2",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "104,000 INV minted 25 Jul 2025; 8,000 on 8 Dec 2025",
+      "url": "mill 305",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "104k INV went to `RepayRewardEscrow`",
+      "url": "escrow tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "104k INV went to `RepayRewardEscrow`",
+      "url": "escrow",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Policy Committee sold 13,606 INV via CoW in 2024, incl. pump days",
+      "url": "27 Feb 2024",
+      "kind": "other",
+      "tier": "A chain · authorisation [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Policy Committee sold 13,606 INV via CoW in 2024, incl. pump days",
+      "url": "1 Mar 2024",
+      "kind": "other",
+      "tier": "A chain · authorisation [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Policy Committee sold 13,606 INV via CoW in 2024, incl. pump days",
+      "url": "16 Mar 2024",
+      "kind": "other",
+      "tier": "A chain · authorisation [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Policy Committee sold 13,606 INV via CoW in 2024, incl. pump days",
+      "url": "multisig",
+      "kind": "other",
+      "tier": "A chain · authorisation [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Policy Committee multisig identity",
+      "url": "mill 259",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Policy Committee multisig identity",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Suspected exchange destinations `0xc1c9…`, `0x36c8…` are INVEscrow staking proxies",
+      "url": "0xc1c9",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:52 AM MST"
+    },
+    {
+      "claim": "Suspected exchange destinations `0xc1c9…`, `0x36c8…` are INVEscrow staking proxies",
+      "url": "0x36c8",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:52 AM MST"
+    },
+    {
+      "claim": "TWG multisig identity; ~321k INV to vote-incentive markets",
+      "url": "forum",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TWG multisig identity; ~321k INV to vote-incentive markets",
+      "url": "TWG",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TWG multisig identity; ~321k INV to vote-incentive markets",
+      "url": "Votium",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $3.75M, holders revenue $113.6k (12 months)",
+      "url": "revenue",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $3.75M, holders revenue $113.6k (12 months)",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Buybacks since Feb 2026",
+      "url": "mill 345",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2022 exploits",
+      "url": "post-mortem",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2022 exploits",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0591926d5d3b9cc48ae6efb8db68025ddc3adfa5",
+      "url": "https://etherscan.io/address/0x0591926d5d3b9cc48ae6efb8db68025ddc3adfa5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x069a2f1256792f9f2390fd3a01017ca550c04b58",
+      "url": "https://etherscan.io/address/0x069a2f1256792f9f2390fd3a01017ca550c04b58#code",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1637e4e9941d55703a7a5e7807d6ada3f7dcd61b",
+      "url": "https://etherscan.io/address/0x1637e4e9941d55703a7a5e7807d6ada3f7dcd61b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x16ec2aea80863c1fb4e13440778d0c9967fc51cb",
+      "url": "https://etherscan.io/address/0x16ec2aea80863c1fb4e13440778d0c9967fc51cb",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x21f9049121f81ad1959938dc2e1c202412ac6766",
+      "url": "https://etherscan.io/address/0x21f9049121f81ad1959938dc2e1c202412ac6766",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x36c80c84e286426c148cd80aaf7bafaeee020232",
+      "url": "https://etherscan.io/address/0x36c80c84e286426c148cd80aaf7bafaeee020232",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68",
+      "url": "https://etherscan.io/address/0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68#code",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4b6c63e6a94ef26e2df60b89372db2d8e211f1b7",
+      "url": "https://etherscan.io/address/0x4b6c63e6a94ef26e2df60b89372db2d8e211f1b7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x63942e31e98f1833a234077f47880a66136a2d1e",
+      "url": "https://etherscan.io/address/0x63942e31e98f1833a234077f47880a66136a2d1e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x759a159d78342340ebacffb027c05910c093f430",
+      "url": "https://etherscan.io/address/0x759a159d78342340ebacffb027c05910c093f430",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x926df14a23be491164dcf93f4c468a50ef659d5b",
+      "url": "https://etherscan.io/address/0x926df14a23be491164dcf93f4c468a50ef659d5b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9d5df30f475cea915b1ed4c0cca59255c897b61b",
+      "url": "https://etherscan.io/address/0x9d5df30f475cea915b1ed4c0cca59255c897b61b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc1c99e764e80db823838ea63e93f862bffa7d6c4",
+      "url": "https://etherscan.io/address/0xc1c99e764e80db823838ea63e93f862bffa7d6c4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xfa4fc4ec2f81a4897743c5b4f45907c02ce06199",
+      "url": "https://etherscan.io/address/0xfa4fc4ec2f81a4897743c5b4f45907c02ce06199",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: no CEX deposit found; Policy Committee multisig (Arkham: Inverse Finance Gnosis Safe) DCA-sold 13,606 INV through CoW Protocol in Feb-Aug 2024 (10 clips on pump days) and 10,607 INV through Bond Protocol in 2022-2023; disclosure of the 2024 CoW sales not found"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "$3.75M of yearly revenue on a $6.2M market cap is unusually high, and the DAO now uses DBR issuance to buy INV. But only ~3% of revenue reaches holders directly, the buyback is funded by printing DBR (not from cash profit), and expenses are not netted here. **6.**"
+  },
+  "attributions": [
+    {
+      "address": "0x9d5df30f475cea915b1ed4c0cca59255c897b61b",
+      "url": "https://intel.arkm.com/explorer/address/0x9d5df30f475cea915b1ed4c0cca59255c897b61b",
+      "label": "Inverse Finance: Deployer",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4b6c63e6a94ef26e2df60b89372db2d8e211f1b7",
+      "url": "https://intel.arkm.com/explorer/address/0x4b6c63e6a94ef26e2df60b89372db2d8e211f1b7",
+      "label": null,
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x759a159d78342340ebacffb027c05910c093f430",
+      "url": "https://intel.arkm.com/explorer/address/0x759a159d78342340ebacffb027c05910c093f430",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x16ec2aea80863c1fb4e13440778d0c9967fc51cb",
+      "url": "https://intel.arkm.com/explorer/address/0x16ec2aea80863c1fb4e13440778d0c9967fc51cb",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc1c99e764e80db823838ea63e93f862bffa7d6c4",
+      "url": "https://intel.arkm.com/explorer/address/0xc1c99e764e80db823838ea63e93f862bffa7d6c4",
+      "label": null,
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x36c80c84e286426c148cd80aaf7bafaeee020232",
+      "url": "https://intel.arkm.com/explorer/address/0x36c80c84e286426c148cd80aaf7bafaeee020232",
+      "label": null,
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0591926d5d3b9cc48ae6efb8db68025ddc3adfa5",
+      "url": "https://intel.arkm.com/explorer/address/0x0591926d5d3b9cc48ae6efb8db68025ddc3adfa5",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xfa4fc4ec2f81a4897743c5b4f45907c02ce06199",
+      "url": "https://intel.arkm.com/explorer/address/0xfa4fc4ec2f81a4897743c5b4f45907c02ce06199",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum via Etherscan API v2: INV `totalSupply()`, `owner()`, `tradable()`, `seizable()`, `balanceOf` for treasury/TWG/Policy Committee/xINV/sINV; full INV `tokentx` for the treasury (18,331 rows), TWG (2,703), Policy Committee (193), `RepayRewardEscrow`; `getsourcecode` contract names; receipts for every linked tx (status 1), 16 Nov 2026 ~6:30–7:15 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama: fees, revenue, holders revenue, TVL (`inverse-finance`) and stablecoins (DOLA), 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Inverse docs: [governance](https://docs.inverse.finance/inverse-finance/inverse-finance/governance/governance-overview) · [INV tokenomics](https://docs.inverse.finance/inverse-finance/inverse-finance/products/tokens/inv/inv-tokenomics) · [sINV](https://docs.inverse.finance/inverse-finance/inverse-finance/products/tokens/inv/sinv) · [smart contracts](https://docs.inverse.finance/inverse-finance/inverse-finance/technical/smart-contracts) · [Frontier/Anchor](https://docs.inverse.finance/inverse-finance/inverse-finance/legacy-products/frontier-anchor); mills [259](https://www.inverse.finance/governance/proposals/mills/259), [305](https://www.inverse.finance/governance/proposals/mills/305), [345](https://www.inverse.finance/governance/proposals/mills/345), [393](https://www.inverse.finance/governance/proposals/mills/393); [forum: TWG](https://forum.inverse.finance/t/treasury-working-group-allowance-refresh/171); [post-mortem](https://medium.com/inverse-finance/inv-price-manipulation-incident-55ea0433f4fc)",
+      "urls": [
+        "governance",
+        "INV tokenomics",
+        "sINV",
+        "smart contracts",
+        "Frontier/Anchor",
+        "259",
+        "305",
+        "345",
+        "393",
+        "forum: TWG",
+        "post-mortem"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CertiK incident write-up](https://www.certik.com/blog/inverse-finance-02-april-2022)",
+      "urls": [
+        "CertiK incident write-up"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:52 AM MST (signed-in account): Policy Committee Safe = Inverse Finance [0x4b6c…](https://intel.arkm.com/explorer/address/0x4b6c63e6a94ef26e2df60b89372db2d8e211f1b7) · TWG Safe signer = Inverse Finance: Deployer [0x9d5d…](https://intel.arkm.com/explorer/address/0x9d5df30f475cea915b1ed4c0cca59255c897b61b) · INVEscrow proxies [0xc1c9…](https://intel.arkm.com/explorer/address/0xc1c99e764e80db823838ea63e93f862bffa7d6c4), [0x36c8…](https://intel.arkm.com/explorer/address/0x36c80c84e286426c148cd80aaf7bafaeee020232) · unnamed whale Safe [0x0591…](https://intel.arkm.com/explorer/address/0x0591926d5d3b9cc48ae6efb8db68025ddc3adfa5) · individual-labelled wallets [0x759a…](https://intel.arkm.com/explorer/address/0x759a159d78342340ebacffb027c05910c093f430), [0x16ec…](https://intel.arkm.com/explorer/address/0x16ec2aea80863c1fb4e13440778d0c9967fc51cb), [0xfa4f…](https://intel.arkm.com/explorer/address/0xfa4fc4ec2f81a4897743c5b4f45907c02ce06199) (names not reproduced here). Token filter is Enterprise-only; first transfer page only",
+      "urls": [
+        "0x4b6c…",
+        "0x9d5d…",
+        "0xc1c9…",
+        "0x36c8…",
+        "0x0591…",
+        "0x759a…",
+        "0x16ec…",
+        "0xfa4f…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `inverse-finance` market data and tickers (16 Nov 2026 5:10 AM MST); Coinbase INV-USD daily closes (from 13 Jan 2022)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] governance authorisation for the 2024 Policy Committee CoW sales; private holdings of contributors; whether the INV markets paid by vote incentives were sold; which investor runs Safe `0x0591…dfa5`",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

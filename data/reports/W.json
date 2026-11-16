@@ -1,0 +1,663 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "W",
+  "name": "Wormhole",
+  "chain": "solana + ethereum (NTT multichain)",
+  "contract": "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91 (ERC-20 W on Ethereum, Base, Arbitrum); Solana SPL 85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 3,
+    "tokenomics_supply": 3,
+    "liquidity_market": 4,
+    "product_development": 7,
+    "adoption_customers": 5,
+    "security_audits": 4,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes (historic): Feb 2022 Solana bridge exploit, 120,000 wETH (~$320M), losses replaced by a backer",
+    "treasury_to_exchange_during_pump": "yes: wallets paid out of the Hedgey lockup contract sent 25.3M W (~$2.06M) to Binance and OKX on 10 pump days",
+    "treasury_funded_wallet_to_exchange_during_pump": "yes: e.g. distributor 0x712e → 0xcef7 → Binance deposit, 5.80M W on 21 Sep 2026 (+29.1%)",
+    "unenforced_lockups": "partly: Core Contributor tokens now unlock to the Foundation bi-weekly and are held 'in escrow' under off-chain contracts only",
+    "mint_path_live": "no new supply (10B cap); NTT mints on Ethereum mirror burns/locks on Solana"
+  },
+  "price_usd": 0.008656,
+  "price_source": "CoinGecko, 16 Nov 2026 6:51 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.008656,
+    "market_cap_text": "$58.87M",
+    "fdv_text": "$86.56M",
+    "volume_24h_text": "$10.26M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/W.md",
+    "sha256": "ca496ec39d771f71bc26b11513fd3d96ac8466b88a478ac00e0725bfebc0d3a1",
+    "bytes": 25648,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:51 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "NTT mints to 0x4672 / 0x0d59",
+      "url": "0x4672 mint",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "NTT mints to 0x4672 / 0x0d59",
+      "url": "0x0d59 mint",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint wallets → Hedgey Batch Planner",
+      "url": "337.5M",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint wallets → Hedgey Batch Planner",
+      "url": "130.65M",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint wallets → Hedgey Batch Planner",
+      "url": "30.69M",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Lockup → 0xb016 → 0x712e → 0xcef7 → Binance (+29.1%)",
+      "url": "lockup→0xb016",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Lockup → 0xb016 → 0x712e → 0xcef7 → Binance (+29.1%)",
+      "url": "0xb016→0x712e",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Lockup → 0xb016 → 0x712e → 0xcef7 → Binance (+29.1%)",
+      "url": "0x712e→0xcef7",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Lockup → 0xb016 → 0x712e → 0xcef7 → Binance (+29.1%)",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Lockup → … → OKX on +21.3% day",
+      "url": "0xb016→0xb660",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Lockup → … → OKX on +21.3% day",
+      "url": "0xb660→0x2331",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Lockup → … → OKX on +21.3% day",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0xb8c6 → Binance on +28.6% day",
+      "url": "fund",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0xb8c6 → Binance on +28.6% day",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Unlock schedule, Reserve, escrow wording",
+      "url": "W 2.0 post",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees ~$319k/yr; revenue $0",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0d59e76e009dd6e83b9b5a751478a3a9c8654593",
+      "url": "https://etherscan.io/address/0x0d59e76e009dd6e83b9b5a751478a3a9c8654593",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2331f0549d687411c94c6c75ebd5a69a15e98186",
+      "url": "https://etherscan.io/address/0x2331f0549d687411c94c6c75ebd5a69a15e98186",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3466eb008edd8d5052446293d1a7d212cb65c646",
+      "url": "https://etherscan.io/address/0x3466eb008edd8d5052446293d1a7d212cb65c646",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4672fd919b11d18e442faf4b205d5df6e0970803",
+      "url": "https://etherscan.io/address/0x4672fd919b11d18e442faf4b205d5df6e0970803",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x55a3d7d63fefa5e480829bb9a0af6a6e19c7d5b0",
+      "url": "https://etherscan.io/address/0x55a3d7d63fefa5e480829bb9a0af6a6e19c7d5b0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5604cdde0626872514b48a336848fc724fd60810",
+      "url": "https://etherscan.io/address/0x5604cdde0626872514b48a336848fc724fd60810",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x712e7991800bc4d88ee6e164361af077ec844462",
+      "url": "https://etherscan.io/address/0x712e7991800bc4d88ee6e164361af077ec844462",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x73cd8626b3cd47b009e68380720cfe6679a3ec3d",
+      "url": "https://etherscan.io/address/0x73cd8626b3cd47b009e68380720cfe6679a3ec3d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xac8c3ebe1929ec8850bc754af1cb298535b2436b",
+      "url": "https://etherscan.io/address/0xac8c3ebe1929ec8850bc754af1cb298535b2436b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb01665c07c58086603eacb1e7c488fb99bad0c28",
+      "url": "https://etherscan.io/address/0xb01665c07c58086603eacb1e7c488fb99bad0c28",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+      "url": "https://etherscan.io/token/0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb660c71b23d0baef6878e014008644e7c8ee9c18",
+      "url": "https://etherscan.io/address/0xb660c71b23d0baef6878e014008644e7c8ee9c18",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb8c6e43f37e04a2411562a13c1c48b3ad5975cf4",
+      "url": "https://etherscan.io/address/0xb8c6e43f37e04a2411562a13c1c48b3ad5975cf4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb926e25e08fb3f06eafccd8a7c1f389238313ea4",
+      "url": "https://etherscan.io/address/0xb926e25e08fb3f06eafccd8a7c1f389238313ea4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcef78991df18b131eed7bbf91c3c7da2e78338e5",
+      "url": "https://etherscan.io/address/0xcef78991df18b131eed7bbf91c3c7da2e78338e5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdd831352762e9de7ad5a264990e1bb9f87a6fc21",
+      "url": "https://etherscan.io/address/0xdd831352762e9de7ad5a264990e1bb9f87a6fc21",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf52f5a27698d547d76bf37c266f90a129addb768",
+      "url": "https://etherscan.io/address/0xf52f5a27698d547d76bf37c266f90a129addb768",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0x0d59e76e009dd6e83b9b5a751478a3a9c8654593",
+      "url": "https://intel.arkm.com/explorer/address/0x0d59e76e009dd6e83b9b5a751478a3a9c8654593",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0x2331f0549d687411c94c6c75ebd5a69a15e98186",
+      "url": "https://intel.arkm.com/explorer/address/0x2331f0549d687411c94c6c75ebd5a69a15e98186",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0x4672fd919b11d18e442faf4b205d5df6e0970803",
+      "url": "https://intel.arkm.com/explorer/address/0x4672fd919b11d18e442faf4b205d5df6e0970803",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0x55a3d7d63fefa5e480829bb9a0af6a6e19c7d5b0",
+      "url": "https://intel.arkm.com/explorer/address/0x55a3d7d63fefa5e480829bb9a0af6a6e19c7d5b0",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0x5604cdde0626872514b48a336848fc724fd60810",
+      "url": "https://intel.arkm.com/explorer/address/0x5604cdde0626872514b48a336848fc724fd60810",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0x57cd900b4d0e8cba660056bffbe7f560410e4bbb",
+      "url": "https://intel.arkm.com/explorer/address/0x57cd900b4d0e8cba660056bffbe7f560410e4bbb",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0x712e7991800bc4d88ee6e164361af077ec844462",
+      "url": "https://intel.arkm.com/explorer/address/0x712e7991800bc4d88ee6e164361af077ec844462",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0x73cd8626b3cd47b009e68380720cfe6679a3ec3d",
+      "url": "https://intel.arkm.com/explorer/address/0x73cd8626b3cd47b009e68380720cfe6679a3ec3d",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0xb01665c07c58086603eacb1e7c488fb99bad0c28",
+      "url": "https://intel.arkm.com/explorer/address/0xb01665c07c58086603eacb1e7c488fb99bad0c28",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0xb8c6e43f37e04a2411562a13c1c48b3ad5975cf4",
+      "url": "https://intel.arkm.com/explorer/address/0xb8c6e43f37e04a2411562a13c1c48b3ad5975cf4",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0xb926e25e08fb3f06eafccd8a7c1f389238313ea4",
+      "url": "https://intel.arkm.com/explorer/address/0xb926e25e08fb3f06eafccd8a7c1f389238313ea4",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0xcef78991df18b131eed7bbf91c3c7da2e78338e5",
+      "url": "https://intel.arkm.com/explorer/address/0xcef78991df18b131eed7bbf91c3c7da2e78338e5",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0xdd831352762e9de7ad5a264990e1bb9f87a6fc21",
+      "url": "https://intel.arkm.com/explorer/address/0xdd831352762e9de7ad5a264990e1bb9f87a6fc21",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "0xf52f5a27698d547d76bf37c266f90a129addb768",
+      "url": "https://intel.arkm.com/explorer/address/0xf52f5a27698d547d76bf37c266f90a129addb768",
+      "kind": "address"
+    },
+    {
+      "chain": "solana + ethereum (NTT multichain)",
+      "address": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+      "url": "https://intel.arkm.com/explorer/address/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_to_exchange_during_pump: yes: wallets paid out of the Hedgey lockup contract sent 25.3M W (~$2.06M) to Binance and OKX on 10 pump days",
+      "treasury_funded_wallet_to_exchange_during_pump: yes: e.g. distributor 0x712e → 0xcef7 → Binance deposit, 5.80M W on 21 Sep 2026 (+29.1%)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "Fourteen months after W 2.0 was announced, no revenue reaches holders on DefiLlama. The \"yield\" is new tokens from supply. Score **2**, which **trips the Revenue gate**."
+  },
+  "attributions": [
+    {
+      "address": "0x73cd8626b3cd47b009e68380720cfe6679a3ec3d",
+      "url": "https://intel.arkm.com/explorer/address/0x73cd8626b3cd47b009e68380720cfe6679a3ec3d",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4672fd919b11d18e442faf4b205d5df6e0970803",
+      "url": "https://intel.arkm.com/explorer/address/0x4672fd919b11d18e442faf4b205d5df6e0970803",
+      "label": "W mint [`85VB…AQmQ`](https://intel.arkm.com/explorer/address/85VBFQZC9TZkfaptBWj",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0d59e76e009dd6e83b9b5a751478a3a9c8654593",
+      "url": "https://intel.arkm.com/explorer/address/0x0d59e76e009dd6e83b9b5a751478a3a9c8654593",
+      "label": "W mint [`85VB…AQmQ`](https://intel.arkm.com/explorer/address/85VBFQZC9TZkfaptBWj",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x55a3d7d63fefa5e480829bb9a0af6a6e19c7d5b0",
+      "url": "https://intel.arkm.com/explorer/address/0x55a3d7d63fefa5e480829bb9a0af6a6e19c7d5b0",
+      "label": "W mint [`85VB…AQmQ`](https://intel.arkm.com/explorer/address/85VBFQZC9TZkfaptBWj",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+      "url": "https://intel.arkm.com/explorer/address/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+      "label": "W mint [`85VB…AQmQ`](https://intel.arkm.com/explorer/address/85VBFQZC9TZkfaptBWj",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xdd831352762e9de7ad5a264990e1bb9f87a6fc21",
+      "url": "https://intel.arkm.com/explorer/address/0xdd831352762e9de7ad5a264990e1bb9f87a6fc21",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb8c6e43f37e04a2411562a13c1c48b3ad5975cf4",
+      "url": "https://intel.arkm.com/explorer/address/0xb8c6e43f37e04a2411562a13c1c48b3ad5975cf4",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x57cd900b4d0e8cba660056bffbe7f560410e4bbb",
+      "url": "https://intel.arkm.com/explorer/address/0x57cd900b4d0e8cba660056bffbe7f560410e4bbb",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf52f5a27698d547d76bf37c266f90a129addb768",
+      "url": "https://intel.arkm.com/explorer/address/0xf52f5a27698d547d76bf37c266f90a129addb768",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5604cdde0626872514b48a336848fc724fd60810",
+      "url": "https://intel.arkm.com/explorer/address/0x5604cdde0626872514b48a336848fc724fd60810",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x2331f0549d687411c94c6c75ebd5a69a15e98186",
+      "url": "https://intel.arkm.com/explorer/address/0x2331f0549d687411c94c6c75ebd5a69a15e98186",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb926e25e08fb3f06eafccd8a7c1f389238313ea4",
+      "url": "https://intel.arkm.com/explorer/address/0xb926e25e08fb3f06eafccd8a7c1f389238313ea4",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x712e7991800bc4d88ee6e164361af077ec844462",
+      "url": "https://intel.arkm.com/explorer/address/0x712e7991800bc4d88ee6e164361af077ec844462",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xcef78991df18b131eed7bbf91c3c7da2e78338e5",
+      "url": "https://intel.arkm.com/explorer/address/0xcef78991df18b131eed7bbf91c3c7da2e78338e5",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb01665c07c58086603eacb1e7c488fb99bad0c28",
+      "url": "https://intel.arkm.com/explorer/address/0xb01665c07c58086603eacb1e7c488fb99bad0c28",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": true,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API: `tokentx` for the lockup contract and ~75 traced wallets (BFS depth 3, ≥1M W), NTT mint records; Etherscan token-holders page; read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags: \"Hedgey Finance: Voting Token Lockups\", \"Hedgey Finance: Batch Planner\", \"Binance Deposit\", \"Binance 14\", \"Binance: Cold Wallet 20\", \"OKX 154\", \"Wintermute\", \"Abyss Finance: Eth2 Depositor 29\"",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [W 2.0 post](https://wormhole.com/blog/wormhole-announces-w-token-2-0-upgrade) · [incident report](https://wormholecrypto.medium.com/wormhole-incident-report-02-02-22-ad9b8f21eec6)",
+      "urls": [
+        "W 2.0 post",
+        "incident report"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama Portal fees/revenue; CoinGecko `wormhole` (16 Nov 2026 6:51 AM MST); KuCoin W-USDT daily candles for every pump test",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Inotel on `0xdd83`/`0xb8c6`; Wintermute Deposit `0x57cd`; OKX Deposit `0x2331`; Binance Deposit `0xb926`; VotingVault contract `0xb016`; Hedgey contracts; Solana W mint (links in Holdings and Selling)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owners of `0x4672`, `0x0d59`, `0x712e`, `0xcef7`; the Hedgey lockup beneficiary list; the top holders of the Solana W mint; which allocation bucket the Hedgey lockups hold; the whole Solana side",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

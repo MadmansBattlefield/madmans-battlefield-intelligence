@@ -1,0 +1,808 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SKY",
+  "name": "Sky (formerly Maker)",
+  "chain": "ethereum",
+  "contract": "0x56072C95FAA701256059aa122697B133aDEd9279",
+  "overall_score": 6.8,
+  "overall_verdict": "PASS",
+  "section_scores": {
+    "revenue": 8,
+    "foundation_team": 7,
+    "insider_holdings": 6,
+    "selling_behavior": 6,
+    "tokenomics_supply": 7,
+    "liquidity_market": 6,
+    "product_development": 8,
+    "adoption_customers": 8,
+    "security_audits": 7,
+    "regulatory": 5,
+    "catalysts": 6
+  },
+  "sections_passed": 10,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 8,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "mint_path_live": "governance only (Pause Proxy is the only SKY ward; no SKY minted since Jul 2025)",
+    "team_wallet_to_exchange_during_pump": "none found (Pause Proxy, Sky Frontier Foundation, Fortification Foundation and Liquidity Bootstrapping multisig: no direct exchange deposits)",
+    "treasury_coins_to_exchange_via_market_maker": "yes, disclosed program (320M SKY Liquidity Bootstrapping loan; 32.3M reached KuCoin 32 on its 2 Oct 2024 listing day, not a pump day; market maker is Wintermute per Arkham, Tier B)",
+    "funded_contributor_wallet_pump_day_sales": "yes, small (Launch Project-funded Safe 0xeaef sold ~9.8M SKY ≈ $0.69M on CoW Swap on pump days, Aug–Oct 2026; owner [Unverified])"
+  },
+  "price_usd": 0.05135,
+  "price_source": "CoinGecko, 16 Nov 2026 5:06 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.05135,
+    "market_cap_text": "$1.203B",
+    "fdv_text": "$1.205B",
+    "volume_24h_text": "$10.2M",
+    "total_supply_text": "23,452,431,915.6"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SKY.md",
+    "sha256": "db94254a58f6228f9b339fcb07a965d7427b63fffcc8da7bdbebc19f5ce13f64",
+    "bytes": 35529,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:06 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~6:10 AM MST",
+      "16 Nov 2026 ~5:10 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:10 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "1.977B SKY granted to the Sky Frontier Foundation and staked the same day",
+      "url": "spell constant",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.977B SKY granted to the Sky Frontier Foundation and staked the same day",
+      "url": "grant tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.977B SKY granted to the Sky Frontier Foundation and staked the same day",
+      "url": "lock tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.977B SKY granted to the Sky Frontier Foundation and staked the same day",
+      "url": "SFF Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "200M SKY to the Fortification Foundation, staked",
+      "url": "vote",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "200M SKY to the Fortification Foundation, staked",
+      "url": "lock tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "200M SKY to the Fortification Foundation, staked",
+      "url": "Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "SFF returned 500M SKY to the Pause Proxy",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "SFF-side wallet bought 642.7M SKY on CoW Swap and passed it to SFF",
+      "url": "first buy",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "SFF-side wallet bought 642.7M SKY on CoW Swap and passed it to SFF",
+      "url": "first hand-off",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "SFF-side wallet bought 642.7M SKY on CoW Swap and passed it to SFF",
+      "url": "wallet",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "320M SKY Liquidity Bootstrapping loan; 32.3M to KuCoin 32 on listing day; repaid Sep 2025",
+      "url": "vote",
+      "kind": "other",
+      "tier": "A chain + B exchange label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "320M SKY Liquidity Bootstrapping loan; 32.3M to KuCoin 32 on listing day; repaid Sep 2025",
+      "url": "PP → LB",
+      "kind": "other",
+      "tier": "A chain + B exchange label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "320M SKY Liquidity Bootstrapping loan; 32.3M to KuCoin 32 on listing day; repaid Sep 2025",
+      "url": "LB → 0xb968",
+      "kind": "other",
+      "tier": "A chain + B exchange label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "320M SKY Liquidity Bootstrapping loan; 32.3M to KuCoin 32 on listing day; repaid Sep 2025",
+      "url": "→ 0x5c4c",
+      "kind": "other",
+      "tier": "A chain + B exchange label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "320M SKY Liquidity Bootstrapping loan; 32.3M to KuCoin 32 on listing day; repaid Sep 2025",
+      "url": "→ KuCoin 32",
+      "kind": "other",
+      "tier": "A chain + B exchange label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "320M SKY Liquidity Bootstrapping loan; 32.3M to KuCoin 32 on listing day; repaid Sep 2025",
+      "url": "→ 0xdbf5",
+      "kind": "other",
+      "tier": "A chain + B exchange label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "320M SKY Liquidity Bootstrapping loan; 32.3M to KuCoin 32 on listing day; repaid Sep 2025",
+      "url": "repayment",
+      "kind": "other",
+      "tier": "A chain + B exchange label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch Project-funded Safe sold on the 20 Aug and 3 Oct 2026 pump days",
+      "url": "funding",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch Project-funded Safe sold on the 20 Aug and 3 Oct 2026 pump days",
+      "url": "unstake 20 Aug",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch Project-funded Safe sold on the 20 Aug and 3 Oct 2026 pump days",
+      "url": "sale 20 Aug",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch Project-funded Safe sold on the 20 Aug and 3 Oct 2026 pump days",
+      "url": "unstake 2 Oct",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch Project-funded Safe sold on the 20 Aug and 3 Oct 2026 pump days",
+      "url": "sale 3 Oct",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch Project-funded Safe sold on the 20 Aug and 3 Oct 2026 pump days",
+      "url": "Launch Project in spell",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "LB loan counterparty is Wintermute (deposit, hot wallets, KuCoin deposit)",
+      "url": "0xb968…",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "LB loan counterparty is Wintermute (deposit, hot wallets, KuCoin deposit)",
+      "url": "0xdbf5…",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "LB loan counterparty is Wintermute (deposit, hot wallets, KuCoin deposit)",
+      "url": "0x5c4c…",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "LB loan counterparty is Wintermute (deposit, hot wallets, KuCoin deposit)",
+      "url": "0xf819…",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "Large holders are Coinbase custody / deposit and GSR, not Sky insiders",
+      "url": "0xb4ca…",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "Large holders are Coinbase custody / deposit and GSR, not Sky insiders",
+      "url": "0x3FB1…",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "Large holders are Coinbase custody / deposit and GSR, not Sky insiders",
+      "url": "0xbaF2…",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "Large holders are Coinbase custody / deposit and GSR, not Sky insiders",
+      "url": "0xe92e…",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "Programmatic burns 2.86M and 7.37M SKY",
+      "url": "13 Sep 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Programmatic burns 2.86M and 7.37M SKY",
+      "url": "12 Oct 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Net revenue $37.19M (Q3) / $129.09M (TTM); buyback split",
+      "url": "Q3 report",
+      "kind": "other",
+      "tier": "A (issuer) + A (DefiLlama)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Net revenue $37.19M (Q3) / $129.09M (TTM); buyback split",
+      "url": "press release",
+      "kind": "other",
+      "tier": "A (issuer) + A (DefiLlama)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Net revenue $37.19M (Q3) / $129.09M (TTM); buyback split",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A (issuer) + A (DefiLlama)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Only the Pause Proxy can mint SKY",
+      "url": "SKY token code",
+      "kind": "other",
+      "tier": "A (RPC `wards`)",
+      "date_read": "16 Nov 2026 ~5:30 AM MST"
+    },
+    {
+      "claim": "Only the Pause Proxy can mint SKY",
+      "url": "Pause Proxy",
+      "kind": "other",
+      "tier": "A (RPC `wards`)",
+      "date_read": "16 Nov 2026 ~5:30 AM MST"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x2621cc0b3f3c079c1db0e80794aa24976f0b9e3c",
+      "url": "https://etherscan.io/address/0x2621CC0B3F3c079c1Db0E80794AA24976F0b9e3c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3c5142f28567e6a0f172fd0baaf1f2847f49d02f",
+      "url": "https://etherscan.io/address/0x3c5142f28567e6a0f172fd0baaf1f2847f49d02f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "url": "https://etherscan.io/address/0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3d25235b7c414cb67bf09561a33fd6ce62c11dcf",
+      "url": "https://etherscan.io/address/0x3d25235b7c414cb67bf09561a33fd6ce62c11dcf",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3fb15d3cfa5327a243a7ae18efccd91de66b74d5",
+      "url": "https://etherscan.io/address/0x3FB15d3CFA5327a243A7aE18EFCcD91dE66B74D5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x483413cccd796deddee88e4d3e202425d5e891c6",
+      "url": "https://etherscan.io/address/0x483413ccCD796Deddee88E4d3e202425d5E891C6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x56072c95faa701256059aa122697b133aded9279",
+      "url": "https://etherscan.io/address/0x56072C95FAA701256059aa122697B133aDEd9279",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x58edf78281334335effa23101bbe3371b6a36a51",
+      "url": "https://etherscan.io/address/0x58edf78281334335effa23101bbe3371b6a36a51",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5c4c6c6d0358baf2ade28ffb1723e70139cd534d",
+      "url": "https://etherscan.io/address/0x5c4c6c6d0358baf2ade28ffb1723e70139cd534d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x675671a8756ddb69f7254afb030865388ef699ee",
+      "url": "https://etherscan.io/address/0x675671a8756ddb69f7254afb030865388ef699ee",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x767e06d0c870fec6c38e101dbe5dbb226c5fd091",
+      "url": "https://intel.arkm.com/explorer/address/0x767e06d0c870fec6c38e101dbe5dbb226c5fd091",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7e09e1c3459b2ade356b250055c99e9e17a4278f",
+      "url": "https://etherscan.io/address/0x7e09e1c3459b2ade356b250055c99e9e17a4278f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x832c0f94ccacaf7bc48849875abd35fe06082d72",
+      "url": "https://etherscan.io/address/0x832c0f94ccacaf7bc48849875abd35fe06082d72",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x929d9a1435662357f54adcf64dcee4d6b867a6f9",
+      "url": "https://etherscan.io/address/0x929d9A1435662357F54AdcF64DcEE4d6b867a6f9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa1ea1ba18e88c381c724a75f23a130420c403f9a",
+      "url": "https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420c403f9a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb4cadc735c00f07e880144db8c3e9c4babc25bb8",
+      "url": "https://etherscan.io/address/0xb4cadC735c00F07E880144db8C3e9c4bABc25bb8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb9681a75e296b7caa4ec4fd92aee809a36a4fc7e",
+      "url": "https://intel.arkm.com/explorer/address/0xb9681a75e296b7caa4ec4fd92aee809a36a4fc7e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbaf24c32652c35f14687ea1ea997e6348f731897",
+      "url": "https://etherscan.io/address/0xbaF24C32652c35f14687eA1EA997e6348f731897",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbe8e3e3618f7474f8cb1d074a26affef007e98fb",
+      "url": "https://etherscan.io/address/0xBE8E3e3618f7474F8cB1d074A26afFef007E98FB",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xca5183fb9997046fbd9ba8113139bf5a5af122a0",
+      "url": "https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xce01c90de7fd1bcfa39e237fe6d8d9f569e8a6a3",
+      "url": "https://etherscan.io/address/0xCe01C90dE7FD1bcFa39e237FE6D8D9F569e8A6a3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd8507ef0a59f37d15b5d7b630fa6eea40ce4afdd",
+      "url": "https://etherscan.io/address/0xD8507ef0A59f37d15B5D7b630FA6EEa40CE4AFdD",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdbf5e9c5206d0db70a90108bf936da60221dc080",
+      "url": "https://etherscan.io/address/0xdbf5e9c5206d0db70a90108bf936da60221dc080",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe92e65049b3c2ca12806e9567b08895118c5a03f",
+      "url": "https://etherscan.io/address/0xe92e65049b3c2ca12806e9567b08895118c5a03f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xeaef8fb615a7d5ab6a356dec0549fd749460e970",
+      "url": "https://etherscan.io/address/0xeaef8fb615a7d5ab6a356dec0549fd749460e970",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa",
+      "url": "https://etherscan.io/address/0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "formal_announcement",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found (Pause Proxy, Sky Frontier Foundation, Fortification Foundation and Liquidity Bootstrapping multisig: no direct exchange deposits)",
+      "treasury_coins_to_exchange_via_market_maker: yes, disclosed program (320M SKY Liquidity Bootstrapping loan; 32.3M reached KuCoin 32 on its 2 Oct 2024 listing day, not a pump day; market maker is Wintermute per Arkham, Tier B)",
+      "funded_contributor_wallet_pump_day_sales: yes, small (Launch Project-funded Safe 0xeaef sold ~9.8M SKY ≈ $0.69M on CoW Swap on pump days, Aug–Oct 2026; owner [Unverified])"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "burn",
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "A real business with hundreds of millions in yearly interest income, and a written rule that sends about half of net revenue to SKY holders through buybacks, USDS staking rewards and burns. The payout today is modest (~$35M a year at the Q3 rate, ≈ 2.9% of market cap), and governance can change the split or set it to zero, which the Foundation itself warns. Not a 9 because reserves get paid fir..."
+  },
+  "attributions": [
+    {
+      "address": "0xb9681a75e296b7caa4ec4fd92aee809a36a4fc7e",
+      "url": "https://intel.arkm.com/explorer/address/0xb9681a75e296b7caa4ec4fd92aee809a36a4fc7e",
+      "label": "Sky: MCD Pause Proxy",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xbaf24c32652c35f14687ea1ea997e6348f731897",
+      "url": "https://intel.arkm.com/explorer/address/0xbaf24c32652c35f14687ea1ea997e6348f731897",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb4cadc735c00f07e880144db8c3e9c4babc25bb8",
+      "url": "https://intel.arkm.com/explorer/address/0xb4cadc735c00f07e880144db8c3e9c4babc25bb8",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x3fb15d3cfa5327a243a7ae18efccd91de66b74d5",
+      "url": "https://intel.arkm.com/explorer/address/0x3fb15d3cfa5327a243a7ae18efccd91de66b74d5",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "url": "https://intel.arkm.com/explorer/address/0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe92e65049b3c2ca12806e9567b08895118c5a03f",
+      "url": "https://intel.arkm.com/explorer/address/0xe92e65049b3c2ca12806e9567b08895118c5a03f",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7e09e1c3459b2ade356b250055c99e9e17a4278f",
+      "url": "https://intel.arkm.com/explorer/address/0x7e09e1c3459b2ade356b250055c99e9e17a4278f",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5c4c6c6d0358baf2ade28ffb1723e70139cd534d",
+      "url": "https://intel.arkm.com/explorer/address/0x5c4c6c6d0358baf2ade28ffb1723e70139cd534d",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xdbf5e9c5206d0db70a90108bf936da60221dc080",
+      "url": "https://intel.arkm.com/explorer/address/0xdbf5e9c5206d0db70a90108bf936da60221dc080",
+      "label": "Sky: MCD Pause Proxy",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa",
+      "url": "https://intel.arkm.com/explorer/address/0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xeaef8fb615a7d5ab6a356dec0549fd749460e970",
+      "url": "https://intel.arkm.com/explorer/address/0xeaef8fb615a7d5ab6a356dec0549fd749460e970",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x767e06d0c870fec6c38e101dbe5dbb226c5fd091",
+      "url": "https://intel.arkm.com/explorer/address/0x767e06d0c870fec6c38e101dbe5dbb226c5fd091",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` full SKY history for the Pause Proxy (19,341 transfers), SFF, Fortification Foundation, Liquidity Bootstrapping and Launch Project multisigs, and every second-hop wallet named above; `getLogs` on the SKY token (mints/burns) and LockstakeEngine (`Open`, `Lock`, `Free`, `Draw`); read 16 Nov 2026 ~5:10–5:45 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC (publicnode): SKY `wards`, `totalSupply`, `balanceOf`, 16 Nov 2026 ~5:30 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Sky governance: [executive vote 21 Aug 2025](https://github.com/sky-ecosystem/executive-votes/blob/master/2025/executive-vote-2025-08-21.md) · [spell 2025-08-21](https://github.com/sky-ecosystem/spells-mainnet/blob/master/archive/2025-08-21-DssSpell/DssSpell.sol) · [executive vote 27 Sep 2024](https://github.com/sky-ecosystem/community/blob/master/governance/votes/Executive%20Vote%20-%20September%2027%2C%202024.md) · [spell 2024-09-05](https://github.com/sky-ecosystem/spells-mainnet/blob/master/archive/2024-09-05-DssSpell/DssSpell.sol)",
+      "urls": [
+        "executive vote 21 Aug 2025",
+        "spell 2025-08-21",
+        "executive vote 27 Sep 2024",
+        "spell 2024-09-05"
+      ],
+      "date_read": "21 Aug 2025"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Sky Ecosystem Q3 2026 report](https://insights.skyeco.com/insights/sky-ecosystem-q3-2026-quarterly-report) and [press release](https://www.prnewswire.com/news-releases/institutional-use-of-sky-protocol-deepens-in-q3-as-net-revenue-rises-11-8-and-galaxy-adds-100m-of-susds-to-its-balance-sheet-302923644.html) (issuer-published)",
+      "urls": [
+        "Sky Ecosystem Q3 2026 report",
+        "press release"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees API (`sky`), 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Blockscout name tags and top-50 holders (exchange hot wallets, \"Sky: MCD Pause Proxy\", \"LockstakeEngine\", \"Chief\"); the private exchange-address list used for earlier reports",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:10 AM MST (signed-in account): Wintermute labels on [0xb968…](https://intel.arkm.com/explorer/address/0xb9681a75e296b7caa4ec4fd92aee809a36a4fc7e), [0xdbf5…](https://intel.arkm.com/explorer/address/0xdbf5e9c5206d0db70a90108bf936da60221dc080), [0x5c4c…](https://intel.arkm.com/explorer/address/0x5c4c6c6d0358baf2ade28ffb1723e70139cd534d), [0xf819…](https://intel.arkm.com/explorer/address/0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa); GSR Markets [0xe92e…](https://intel.arkm.com/explorer/address/0xe92e65049b3c2ca12806e9567b08895118c5a03f); Coinbase Prime Custody / Coinbase Deposit / Coinbase-associated on `0xb4ca…`, `0x3FB1…`, `0xbaF2…`; generic Safes `0xeaef…`, `0x7e09…`; no owner label on `0x3c71…`, `0x767e…`. Arkham's token filter is Enterprise-only, so counterparties come from the default first page.",
+      "urls": [
+        "0xb968…",
+        "0xdbf5…",
+        "0x5c4c…",
+        "0xf819…",
+        "0xe92e…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `sky` price and 365-day closes; KuCoin SKY-USDT daily candles (from 2 Oct 2024); Binance MKRUSDT daily klines (Sep–Oct 2024)",
+      "urls": [],
+      "date_read": "2 Oct 2024"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CoinMarketCap AI summary on stUSDS and core vaults, 14 Nov 2026](https://coinmarketcap.com/top-stories/6af8784519ea3e3530cd9918/)",
+      "urls": [
+        "CoinMarketCap AI summary on stUSDS and core vaults, 14 Nov 2026"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Sky's own confirmation of the market maker; owner of `0xeaef…`; owners of `0xbaF2…`, `0x3c71…`, `0x767e…`; audit PDFs; MiCA status; MKR-era insider sales",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

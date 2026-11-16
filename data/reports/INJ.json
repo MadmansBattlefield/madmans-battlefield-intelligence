@@ -1,0 +1,580 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "INJ",
+  "name": "Injective",
+  "chain": "injective",
+  "contract": "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30 (ERC-20 on Ethereum); native denom inj",
+  "overall_score": 3.9,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 6,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 3,
+    "regulatory": 6,
+    "catalysts": 5
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes (31 Aug 2026 binary-options settlement exploit, ~$4.9M reported; chain stopped ~3h42m for emergency release v1.20.3-safeharbor.1; second block-production stop 9 Nov 2026; no full postmortem published)",
+    "treasury_to_exchange_during_pump": "yes, not on a pump day (Arkham 'Injective: Treasury' 0x7e23… sent 5,999,999 INJ to a Binance deposit on 22 Aug 2022); the 650,000 INJ sent to a Binance deposit on 1-8 Dec 2020 pump days came from 0x7ee1…, which Arkham files under GSR Markets: treasury-funded market-maker flow, not a direct treasury sale",
+    "treasury_funded_wallet_to_exchange_during_pump": "yes, 2020-2024 (e.g. 200k from unlabelled 0x0e64…, funded by an Arkham-labelled Injective wallet, to a Binance deposit on 11-12 Feb 2022, +55%/+41%; 650k via market maker GSR Markets in Dec 2020; 379k from team-chain wallet inj1derhu… to a memo hot wallet on 2023-24 pump days); nothing traced on 2025-26 pump days",
+    "closed_source_core": "yes (InjectiveFoundation/injective-core releases: 'Starting from 09-09-2026 source code will no longer be published')",
+    "mint_path_live": "yes by design (x/mint inflation 4.4%, 5.45M INJ/yr; read 16 Nov 2026)"
+  },
+  "price_usd": 6.65,
+  "price_source": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 6.65,
+    "market_cap_text": "$664.8M",
+    "fdv_text": "$664.8M",
+    "volume_24h_text": "$72.57M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/INJ.md",
+    "sha256": "586f4b8dda4d6a1a027e104ad004923dfae4543bc5a1e81d1d8429daa8314b05",
+    "bytes": 32160,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:50–6:52 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Full 100M ERC-20 mint went to `0x7103…`; 83.28M on to `0x7e23…`",
+      "url": "contract creation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Full 100M ERC-20 mint went to `0x7103…`; 83.28M on to `0x7e23…`",
+      "url": "83.28M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "22 Aug 2022: 5,999,999 INJ from `0x7e23…` to a Binance deposit",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "22 Aug 2022: 5,999,999 INJ from `0x7e23…` to a Binance deposit",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Dec 2020 pump days: 650k from `0x7ee1…` (GSR Markets per Arkham [Arkham](https://intel.arkm.com/explorer/address/0x7ee13ec682ac7727d2c82c25d7c5d712683d2a86); mint-funded, [tx](https://etherscan.io/tx/0xc0a5756ef5953d4c474172a7891825afb53ca9a3dd08f7f1a50d335f48b0bf76)) to Binance deposit",
+      "url": "1 Dec",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Dec 2020 pump days: 650k from `0x7ee1…` (GSR Markets per Arkham [Arkham](https://intel.arkm.com/explorer/address/0x7ee13ec682ac7727d2c82c25d7c5d712683d2a86); mint-funded, [tx](https://etherscan.io/tx/0xc0a5756ef5953d4c474172a7891825afb53ca9a3dd08f7f1a50d335f48b0bf76)) to Binance deposit",
+      "url": "4 Dec",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Dec 2020 pump days: 650k from `0x7ee1…` (GSR Markets per Arkham [Arkham](https://intel.arkm.com/explorer/address/0x7ee13ec682ac7727d2c82c25d7c5d712683d2a86); mint-funded, [tx](https://etherscan.io/tx/0xc0a5756ef5953d4c474172a7891825afb53ca9a3dd08f7f1a50d335f48b0bf76)) to Binance deposit",
+      "url": "8 Dec",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Feb 2022 pump days: 200k from unlabelled `0x0e64…` ([Arkham](https://intel.arkm.com/explorer/address/0x0e649d9a119c525716bf00fe76b6bababf90537e)) to Binance deposit",
+      "url": "11 Feb",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Feb 2022 pump days: 200k from unlabelled `0x0e64…` ([Arkham](https://intel.arkm.com/explorer/address/0x0e649d9a119c525716bf00fe76b6bababf90537e)) to Binance deposit",
+      "url": "12 Feb",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x25f9…` bridged 8.71M to its own native twin `inj1yhuk…`",
+      "url": "1.61M tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x25f9…` bridged 8.71M to its own native twin `inj1yhuk…`",
+      "url": "inj1yhuk",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2023–24 pump days: `inj1derhu…` → memo hot wallet",
+      "url": "12 Dec 2023",
+      "kind": "other",
+      "tier": "A · exchange [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2023–24 pump days: `inj1derhu…` → memo hot wallet",
+      "url": "20 May 2024",
+      "kind": "other",
+      "tier": "A · exchange [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2023–24 pump days: `inj1derhu…` → memo hot wallet",
+      "url": "6 Jun 2024",
+      "kind": "other",
+      "tier": "A · exchange [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Arkham labels: `0x7103…` Injective: Mint, `0x7e23…` Injective: Treasury, `0xf96b…` Injective: Copper Deposit (8M in from Treasury, 8M out to Copper hot wallet)",
+      "url": "0x7103",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:50–6:52 AM MST"
+    },
+    {
+      "claim": "Arkham labels: `0x7103…` Injective: Mint, `0x7e23…` Injective: Treasury, `0xf96b…` Injective: Copper Deposit (8M in from Treasury, 8M out to Copper hot wallet)",
+      "url": "0x7e23",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:50–6:52 AM MST"
+    },
+    {
+      "claim": "Arkham labels: `0x7103…` Injective: Mint, `0x7e23…` Injective: Treasury, `0xf96b…` Injective: Copper Deposit (8M in from Treasury, 8M out to Copper hot wallet)",
+      "url": "0xf96b",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:50–6:52 AM MST"
+    },
+    {
+      "claim": "Native supply 123,765,401 INJ; inflation 4.4%",
+      "url": "supply",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Native supply 123,765,401 INJ; inflation 4.4%",
+      "url": "inflation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Source code closed from 9 Sep 2026",
+      "url": "release notes",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "31 Aug 2026 exploit patch and ~$4.9M loss",
+      "url": "safeharbor.1",
+      "kind": "other",
+      "tier": "A (patch) + 2 × B (loss)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "31 Aug 2026 exploit patch and ~$4.9M loss",
+      "url": "Lookonchain",
+      "kind": "other",
+      "tier": "A (patch) + 2 × B (loss)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "31 Aug 2026 exploit patch and ~$4.9M loss",
+      "url": "Cryptopolitan",
+      "kind": "other",
+      "tier": "A (patch) + 2 × B (loss)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $3.21M / 1y; TVL $15.77M",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "INJC ETF listed 5 Nov 2026",
+      "url": "Nasdaq",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0e649d9a119c525716bf00fe76b6bababf90537e",
+      "url": "https://etherscan.io/address/0x0e649d9a119c525716bf00fe76b6bababf90537e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x29bcaef59d8a9178455ba262a7fe6f3d5a0a5a81",
+      "url": "https://etherscan.io/address/0x29bcaef59d8a9178455ba262a7fe6f3d5a0a5a81",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2b263f27527f826b2816c349198aea974f9ef065",
+      "url": "https://etherscan.io/address/0x2b263f27527f826b2816c349198aea974f9ef065",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7103e07e404d2bc6ce354688e52ac1f4629edfcc",
+      "url": "https://etherscan.io/address/0x7103e07e404d2bc6ce354688e52ac1f4629edfcc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7e233eafc76243474369bd080238fd6eb36a73ce",
+      "url": "https://etherscan.io/address/0x7e233eafc76243474369bd080238fd6eb36a73ce",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7ee13ec682ac7727d2c82c25d7c5d712683d2a86",
+      "url": "https://etherscan.io/address/0x7ee13ec682ac7727d2c82c25d7c5d712683d2a86",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa0df95265400327e704a77af6036a24417e2bf00",
+      "url": "https://etherscan.io/address/0xa0df95265400327e704a77af6036a24417e2bf00",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+      "url": "https://etherscan.io/address/0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf955c57f9ea9dc8781965feae0b6a2ace2bad6f3",
+      "url": "https://etherscan.io/address/0xF955C57f9EA9Dc8781965FEaE0b6A2acE2BAD6f3",
+      "kind": "address"
+    },
+    {
+      "chain": "injective",
+      "address": "0x0e649d9a119c525716bf00fe76b6bababf90537e",
+      "url": "https://intel.arkm.com/explorer/address/0x0e649d9a119c525716bf00fe76b6bababf90537e",
+      "kind": "address"
+    },
+    {
+      "chain": "injective",
+      "address": "0x25f96510d3563b97e0fcbb723b7fe83257aee37d",
+      "url": "https://intel.arkm.com/explorer/address/0x25f96510d3563b97e0fcbb723b7fe83257aee37d",
+      "kind": "address"
+    },
+    {
+      "chain": "injective",
+      "address": "0x7103e07e404d2bc6ce354688e52ac1f4629edfcc",
+      "url": "https://intel.arkm.com/explorer/address/0x7103e07e404d2bc6ce354688e52ac1f4629edfcc",
+      "kind": "address"
+    },
+    {
+      "chain": "injective",
+      "address": "0x7e233eafc76243474369bd080238fd6eb36a73ce",
+      "url": "https://intel.arkm.com/explorer/address/0x7e233eafc76243474369bd080238fd6eb36a73ce",
+      "kind": "address"
+    },
+    {
+      "chain": "injective",
+      "address": "0x7ee13ec682ac7727d2c82c25d7c5d712683d2a86",
+      "url": "https://intel.arkm.com/explorer/address/0x7ee13ec682ac7727d2c82c25d7c5d712683d2a86",
+      "kind": "address"
+    },
+    {
+      "chain": "injective",
+      "address": "0xf282d55d253ae36135c0797b43b51b55735d28bf",
+      "url": "https://intel.arkm.com/explorer/address/0xf282d55d253ae36135c0797b43b51b55735d28bf",
+      "kind": "address"
+    },
+    {
+      "chain": "injective",
+      "address": "0xf96b0274840c6a268aac084c32208e56c67756a8",
+      "url": "https://intel.arkm.com/explorer/address/0xf96b0274840c6a268aac084c32208e56c67756a8",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": true,
+    "disclosure_quality": "formal_announcement",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_to_exchange_during_pump: yes, not on a pump day (Arkham 'Injective: Treasury' 0x7e23… sent 5,999,999 INJ to a Binance deposit on 22 Aug 2022); the 650,000 INJ sent to a Binance deposit on 1-8 Dec 2020 pump days came from 0x7ee1…, which Arkham files under GSR Markets: treasury-funded market-maker flow, not a direct treasury sale",
+      "treasury_funded_wallet_to_exchange_during_pump: yes, 2020-2024 (e.g. 200k from unlabelled 0x0e64…, funded by an Arkham-labelled Injective wallet, to a Binance deposit on 11-12 Feb 2022, +55%/+41%; 650k via market maker GSR Markets in Dec 2020; 379k from team-chain wallet inj1derhu… to a memo hot wallet on 2023-24 pump days); nothing traced on 2025-26 pump days"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "$3.2M a year of fees on a $665M token is 0.5% of market cap. The chain pays stakers about 11 times more in new INJ than it burns. Score **2**, and that **trips the Revenue gate**."
+  },
+  "attributions": [
+    {
+      "address": "0x7e233eafc76243474369bd080238fd6eb36a73ce",
+      "url": "https://intel.arkm.com/explorer/address/0x7e233eafc76243474369bd080238fd6eb36a73ce",
+      "label": "Injective: Treasury",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7103e07e404d2bc6ce354688e52ac1f4629edfcc",
+      "url": "https://intel.arkm.com/explorer/address/0x7103e07e404d2bc6ce354688e52ac1f4629edfcc",
+      "label": "Injective: Treasury",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7ee13ec682ac7727d2c82c25d7c5d712683d2a86",
+      "url": "https://intel.arkm.com/explorer/address/0x7ee13ec682ac7727d2c82c25d7c5d712683d2a86",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf96b0274840c6a268aac084c32208e56c67756a8",
+      "url": "https://intel.arkm.com/explorer/address/0xf96b0274840c6a268aac084c32208e56c67756a8",
+      "label": "Injective: Treasury",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0e649d9a119c525716bf00fe76b6bababf90537e",
+      "url": "https://intel.arkm.com/explorer/address/0x0e649d9a119c525716bf00fe76b6bababf90537e",
+      "label": "Copper 5",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf282d55d253ae36135c0797b43b51b55735d28bf",
+      "url": "https://intel.arkm.com/explorer/address/0xf282d55d253ae36135c0797b43b51b55735d28bf",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x25f96510d3563b97e0fcbb723b7fe83257aee37d",
+      "url": "https://intel.arkm.com/explorer/address/0x25f96510d3563b97e0fcbb723b7fe83257aee37d",
+      "label": "Injective: Treasury",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` (INJ ERC-20), `getcontractcreation`; 106-wallet trace from the mint recipient; read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC (`eth_call balanceOf`, `eth_getTransactionReceipt` for Peggy `SendToInjective` destinations)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Injective LCD (`sentry.lcd.injective.network`): supply, mint, staking pool, auction module, balances, delegations · Injective explorer API `accountTxs`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags: \"Injective Protocol: Deployer\", \"Injective: Peggy Bridge Proxy\", \"Binance Deposit\" (`0xa0df…`, `0x2b26…`, `0x29bc…`, `0x4e90…`, `0xb65f…`), \"KuCoin Deposit\", \"Gate Deposit\", \"Copper 5\", \"HTX 2\", \"Crypto.com 1\", \"Coinbase Prime 1\"",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [GitHub InjectiveFoundation/injective-core releases](https://github.com/InjectiveFoundation/injective-core/releases) · [archived injective-chain-releases](https://github.com/InjectiveLabs/injective-chain-releases)",
+      "urls": [
+        "GitHub InjectiveFoundation/injective-core releases",
+        "archived injective-chain-releases"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Injective blog: Supply Squeeze](https://injective.com/blog/introducing-the-inj-supply-squeeze) · [SEC CTF memo](https://www.sec.gov/about/crypto-task-force/crypto-task-force-meetings/ctf-memo-injective-labs-011326) · [Nasdaq ETP2026-179](https://www.nasdaqtrader.com/TraderNews.aspx?id=ETP2026-179)",
+      "urls": [
+        "Injective blog: Supply Squeeze",
+        "SEC CTF memo",
+        "Nasdaq ETP2026-179"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Cryptopolitan, 9 Nov 2026](https://www.cryptopolitan.com/injective-halts-block-production-again/) · [Lookonchain, 1 Sep 2026](https://www.lookonchain.com/feeds/70895) · [Metaverse Post](https://mpost.io/injective-exploited-for-4-9m-via-market-id-collision-in-binary-options-settlement-logic/)",
+      "urls": [
+        "Cryptopolitan, 9 Nov 2026",
+        "Lookonchain, 1 Sep 2026",
+        "Metaverse Post"
+      ],
+      "date_read": "9 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama chain fees/TVL; CoinGecko `injective-protocol` (16 Nov 2026 5:26 AM MST); Gate and KuCoin INJ-USDT daily candles for every pump test",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:50–6:52 AM MST (signed-in account): \"Injective: Mint\" [Arkham](https://intel.arkm.com/explorer/address/0x7103e07e404d2bc6ce354688e52ac1f4629edfcc) · \"Injective: Treasury\" [Arkham](https://intel.arkm.com/explorer/address/0x7e233eafc76243474369bd080238fd6eb36a73ce) · GSR Markets [0x7ee1…](https://intel.arkm.com/explorer/address/0x7ee13ec682ac7727d2c82c25d7c5d712683d2a86) · \"Injective: Copper Deposit\" [Arkham](https://intel.arkm.com/explorer/address/0xf96b0274840c6a268aac084c32208e56c67756a8) · unlabelled [0x0e64…](https://intel.arkm.com/explorer/address/0x0e649d9a119c525716bf00fe76b6bababf90537e) (2 × 100k to Binance Deposit 0xb65) · entity Injective on `0xf282…` and `0x25f9…`; `0x37d0…` unlabelled; `0x8061…` only an OpenSea name. Token filter is Enterprise-only, so only the default transfer page was read",
+      "urls": [
+        "Arkham",
+        "Arkham",
+        "0x7ee1…",
+        "Arkham",
+        "0x0e64…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] who controls `0x0e64…` and `inj1derhu…`; whether GSR had a disclosed market-making agreement; which exchange runs `inj1u2raj…`; what the 6M Binance deposit was for; original allocation table",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

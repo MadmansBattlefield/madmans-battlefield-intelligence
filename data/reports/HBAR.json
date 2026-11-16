@@ -1,0 +1,289 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "HBAR",
+  "name": "Hedera",
+  "chain": "hedera",
+  "contract": "native (Hedera, token id 0.0.0 / HBAR)",
+  "overall_score": 5.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 7,
+    "insider_holdings": 6,
+    "selling_behavior": 5,
+    "tokenomics_supply": 6,
+    "liquidity_market": 8,
+    "product_development": 7,
+    "adoption_customers": 5,
+    "security_audits": 7,
+    "regulatory": 6,
+    "catalysts": 5
+  },
+  "sections_passed": 7,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "council_release_vs_mirror_mismatch": "open",
+    "staking_reward_account_runway_under_1y": "watch"
+  },
+  "price_usd": 0.058034,
+  "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.058034,
+    "market_cap_text": "$2.57B",
+    "fdv_text": "$2.90B",
+    "volume_24h_text": "$70.73M"
+  },
+  "last_updated": "2026-11-14",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/HBAR.md",
+    "sha256": "c5b659e57ee08dffbb5cb11b6a6d657aea452a2f88a89d4feee9e893800fd850",
+    "bytes": 15520,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:05 AM MST",
+      "2026-11-14"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:05 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Unreleased supply 5,672,859,320 HBAR (11.35%) per mirror node",
+      "url": "`network/supply`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026 ~12:30 PM MST"
+    },
+    {
+      "claim": "Council table shows only 2.13B unreleased incl. Q4 2026 \"Actl/Fcst\" column; ~3.54B gap ≈ the 3.828B Q4 ecosystem forecast",
+      "url": "Council treasury report",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Council table shows only 2.13B unreleased incl. Q4 2026 \"Actl/Fcst\" column; ~3.54B gap ≈ the 3.828B Q4 ecosystem forecast",
+      "url": "mirror supply",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Q3 2026 released +357.9M HBAR in a quarter with the 21–29 Sep pump cluster; recipients not disclosed by wallet",
+      "url": "Council treasury report",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Fees ~$268k in 12 months, no burn",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Staking reward account holds 125.2M HBAR, paying ~445k/day (~9 months runway)",
+      "url": "`0.0.800 on HashScan`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Staking reward account holds 125.2M HBAR, paying ~445k/day (~9 months runway)",
+      "url": "mirror stake",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "25 named council node operators",
+      "url": "`network/nodes`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Arkham: Hedera unsupported; no Council/Foundation entity",
+      "url": "0.0.2 on Arkham",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "Arkham: Hedera unsupported; no Council/Foundation entity",
+      "url": "entity search",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "hedera",
+      "address": "0.0.2",
+      "url": "https://hashscan.io/mainnet/account/0.0.2",
+      "kind": "address"
+    },
+    {
+      "chain": "hedera",
+      "address": "0.0.800",
+      "url": "https://hashscan.io/mainnet/account/0.0.800",
+      "kind": "address"
+    },
+    {
+      "chain": "hedera",
+      "address": "0.0.801",
+      "url": "https://hashscan.io/mainnet/account/0.0.801",
+      "kind": "address"
+    },
+    {
+      "chain": "hedera",
+      "address": "0.0.98",
+      "url": "https://hashscan.io/mainnet/account/0.0.98",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": []
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Fees are priced in tiny fixed USD amounts, so even heavy use earns very little: about $268k in a year on a $2.6B asset. Staking rewards are paid mostly from treasury-funded accounts, not from fees."
+  },
+  "attributions": [
+    {
+      "address": "0",
+      "url": "https://intel.arkm.com/explorer/address/0",
+      "label": "Something went wrong / Couldn't load portfolio",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Hedera public mirror node (`mainnet-public.mirrornode.hedera.com`): [`network/supply`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/supply), [`network/nodes`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/nodes), [`network/stake`](https://mainnet-public.mirrornode.hedera.com/api/v1/network/stake), balances of [`0.0.2`](https://hashscan.io/mainnet/account/0.0.2) / [`0.0.98`](https://hashscan.io/mainnet/account/0.0.98) / [`0.0.800`](https://hashscan.io/mainnet/account/0.0.800) / [`0.0.801`](https://hashscan.io/mainnet/account/0.0.801) (HashScan); 14 Nov 2026 ~12:30 PM MST",
+      "urls": [
+        "`network/supply`",
+        "`network/nodes`",
+        "`network/stake`",
+        "`0.0.2`",
+        "`0.0.98`",
+        "`0.0.800`",
+        "`0.0.801`"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Hedera Council treasury report](https://hederacouncil.org/treasury), data as of 6 Nov 2026",
+      "urls": [
+        "Hedera Council treasury report"
+      ],
+      "date_read": "6 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama fees `hedera`](https://defillama.com/chain/hedera), 14 Nov 2026",
+      "urls": [
+        "DefiLlama fees `hedera`"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [CoinGecko `hedera-hashgraph`](https://www.coingecko.com/en/coins/hedera-hashgraph) price and 365-day daily closes, 14 Nov 2026 12:12 PM MST",
+      "urls": [
+        "CoinGecko `hedera-hashgraph`"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub [`hiero-ledger/hiero-consensus-node`](https://github.com/hiero-ledger/hiero-consensus-node) · SEC EDGAR (Canary HBAR ETF, from 10 Oct 2026 pass) · Coinbase Status",
+      "urls": [
+        "`hiero-ledger/hiero-consensus-node`"
+      ],
+      "date_read": "10 Oct 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): **Hedera is not supported** (account [`0.0.2` on Arkham](https://intel.arkm.com/explorer/address/0.0.2) returns \"Something went wrong / Couldn't load portfolio\"), and there is **no Hedera Council or Hedera Foundation entity** ([`/explorer/entity/hedera`](https://intel.arkm.com/explorer/entity/hedera) = not found) (search returned only individual social accounts). The Q3 2026 release recipients and pump-day selling stay untested. No score change",
+      "urls": [
+        "`0.0.2` on Arkham",
+        "`/explorer/entity/hedera`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Hedera Foundation 3.5B grant date",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

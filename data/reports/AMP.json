@@ -1,0 +1,360 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "AMP",
+  "name": "Amp",
+  "chain": "ethereum",
+  "contract": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+  "overall_score": 4.2,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 7,
+    "liquidity_market": 4,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no open mint: new AMP only via the one-way Flexacoin (FXC) swap, which caps supply just under 100B",
+    "team_wallet_to_exchange_during_pump": "not tested (Flexa treasury wallets are not published); the one large exchange send found (200M, 30 Apr 2026) was a Gemini cold-to-hot wallet move, not a sale",
+    "treasury_in_single_key_wallets": "unknown (Flexa treasury wallets not published)"
+  },
+  "price_usd": 0.00053114,
+  "price_source": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00053114,
+    "market_cap_text": "$47.67M",
+    "fdv_text": "$52.95M",
+    "volume_24h_text": "$10.34M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/AMP.md",
+    "sha256": "1e36f65ee3d9de07faa6ee76bda6664670cdeafad733c959a8bbc90f8754965e",
+    "bytes": 13180,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~8:45 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Vault holds 20.68B AMP",
+      "url": "CollateralVault",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "200M AMP Gemini cold → Gemini hot on a non-pump day",
+      "url": "tx, 30 Apr 2026",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "200M AMP Gemini cold → Gemini hot on a non-pump day",
+      "url": "Arkham label",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "No fee tracking for Flexa",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Collateral fell ~4.5% Sep→Nov 2026",
+      "url": "Tapbit",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0c7bcb6e267d1ab436a7373243fc668e13f44e9e",
+      "url": "https://intel.arkm.com/explorer/address/0x0c7bcb6e267d1ab436a7373243fc668e13f44e9e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "url": "https://intel.arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5d2725fde4d7aa3388da4519ac0449cc031d675f",
+      "url": "https://etherscan.io/address/0x5d2725fde4d7aa3388da4519ac0449cc031d675f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "url": "https://intel.arkm.com/explorer/address/0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x706d7f8b3445d8dfc790c524e3990ef014e7c578",
+      "url": "https://etherscan.io/address/0x706d7f8b3445d8dfc790c524e3990ef014e7c578",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9fcca33a3925f66570bf863d586ff50a508cd3fd",
+      "url": "https://intel.arkm.com/explorer/address/0x9fcca33a3925f66570bf863d586ff50a508cd3fd",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xad8ae4e49e764e95c786d4f9cb0110c2a15126f0",
+      "url": "https://intel.arkm.com/explorer/address/0xad8ae4e49e764e95c786d4f9cb0110c2a15126f0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcd0c5310f150c820c0b0f01e0b7b0d42a940f7c3",
+      "url": "https://intel.arkm.com/explorer/address/0xcd0c5310f150c820c0b0f01e0b7b0d42a940f7c3",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not tested (Flexa treasury wallets are not published); the one large exchange send found (200M, 30 Apr 2026) was a Gemini cold-to-hot wallet move, not a sale"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "No revenue can be checked. **2, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "0x5d2725fde4d7aa3388da4519ac0449cc031d675f",
+      "url": "https://intel.arkm.com/explorer/address/0x5d2725fde4d7aa3388da4519ac0449cc031d675f",
+      "label": "[`0xcD0C…F7C3`](https://intel.arkm.com/explorer/add",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xcd0c5310f150c820c0b0f01e0b7b0d42a940f7c3",
+      "url": "https://intel.arkm.com/explorer/address/0xcd0c5310f150c820c0b0f01e0b7b0d42a940f7c3",
+      "label": "[`0xcD0C…F7C3`](https://intel.arkm.com/explorer/address/0xcd0c5310f150c820c0b0f0",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0c7bcb6e267d1ab436a7373243fc668e13f44e9e",
+      "url": "https://intel.arkm.com/explorer/address/0x0c7bcb6e267d1ab436a7373243fc668e13f44e9e",
+      "label": "[`0xcD0C…F7C3`](https://intel.arkm.com/explorer/address/0xcd0c5310f150c820c0b0f0",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9fcca33a3925f66570bf863d586ff50a508cd3fd",
+      "url": "https://intel.arkm.com/explorer/address/0x9fcca33a3925f66570bf863d586ff50a508cd3fd",
+      "label": "[`0xcD0C…F7C3`](https://intel.arkm.com/explorer/address/0xcd0c5310f150c820c0b0f0",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://intel.arkm.com/explorer/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "url": "https://intel.arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xad8ae4e49e764e95c786d4f9cb0110c2a15126f0",
+      "url": "https://intel.arkm.com/explorer/address/0xad8ae4e49e764e95c786d4f9cb0110c2a15126f0",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "url": "https://intel.arkm.com/explorer/address/0x5f65f7b609678448494de4c87521cdf6cef1e932",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` for the top unlabelled holders, read 16 Nov 2026 ~8:45 AM MST; Blockscout holders, counters and contract names",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `flexa` protocol; CoinGecko `amp-token` (16 Nov 2026 8:34 AM MST); Gate AMP/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Phemex Academy](https://phemex.com/academy/what-is-amp-flexas-payment-collateral-token) · [Tapbit](https://www.tapbit.com/en/learn/article/amp-collateral-anvil-value-capture-20261103) · [r/AMPToken quote](https://www.reddit.com/r/AMPToken/comments/1suqdu6/this_quote_needs_to_be_shouted_from_the_top_of_a/)",
+      "urls": [
+        "Phemex Academy",
+        "Tapbit",
+        "r/AMPToken quote"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags (Gemini 9, Flexa: Staking, BtcTurk 13, eToro 4, Binance cold wallets)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Coinbase Cold Wallet, Coinbase Prime Custody, Coinbase Hot Wallet, Revolut Cold Wallet, Gemini Cold and Hot Wallet, Anvil CollateralVault (links in Holdings)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Flexa treasury wallets and sales; payment volumes; SEC mention",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "OM",
+  "name": "MANTRA (formerly OM)",
+  "chain": "mantra-chain",
+  "contract": "native coin (MANTRA Chain); legacy ERC20 OM 0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+  "overall_score": 3.4,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 3,
+    "product_development": 4,
+    "adoption_customers": 2,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes: 3% yearly staking inflation up to a 10B MANTRA cap",
+    "team_wallet_to_exchange_during_pump": "not proven: native-chain treasury wallets not traced",
+    "entity_concentration": "Association 12.8% plus core contributors 16.9% of genesis (vesting)"
+  },
+  "price_usd": 0.002296,
+  "price_source": "CoinGecko, 16 Nov 2026 ~8:52 AM MST (per MANTRA; 1 OM = 4 MANTRA)",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.002296,
+    "market_cap_text": "$15.6M",
+    "fdv_text": "$19.2M",
+    "volume_24h_text": "$2.08M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/OM.md",
+    "sha256": "9cc9e959959029bb194b857b2abfef655ec8f18962a0b97b2dd87876bd330ec8",
+    "bytes": 8304,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~8:52 AM MST (per MANTRA; 1 OM = 4 MANTRA)",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "1:4 split, genesis allocation, vesting",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TVL $494k",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "mantra-chain",
+      "address": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+      "url": "https://intel.arkm.com/explorer/address/0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Binance OMUSDT",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: native-chain treasury wallets not traced"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama has no fee record for MANTRA, and the project publishes none. Chain TVL is $494k. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+      "url": "https://intel.arkm.com/explorer/address/0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [MANTRA tokenomics docs](https://docs.mantrachain.io/mantra-tokenomics) (genesis split, 1:4 split, vesting)",
+      "urls": [
+        "MANTRA tokenomics docs"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama MANTRA chain TVL](https://defillama.com/chain/MANTRA)",
+      "urls": [
+        "DefiLlama MANTRA chain TVL"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `mantra`; pump days from Binance OMUSDT (÷4) to 2 Mar 2026, then MANTRAUSDT",
+      "urls": [],
+      "date_read": "2 Mar 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Press coverage of the Apr 2025 crash",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): OM token contract labelled MANTRA; no Association wallets found; MANTRA Chain not covered",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

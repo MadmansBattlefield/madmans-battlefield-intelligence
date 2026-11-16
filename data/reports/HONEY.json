@@ -1,0 +1,269 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "HONEY",
+  "name": "Hivemapper",
+  "chain": "solana",
+  "contract": "4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy",
+  "overall_score": 3.1,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 3,
+    "insider_holdings": 3,
+    "selling_behavior": 5,
+    "tokenomics_supply": 3,
+    "liquidity_market": 2,
+    "product_development": 4,
+    "adoption_customers": 2,
+    "security_audits": 4,
+    "regulatory": 5,
+    "catalysts": 2
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes: the SPL mint authority is a plain System-owned wallet (single key), and supply grew ~6.8M HONEY from 16 Oct to 16 Nov 2026; the 10B cap is policy (MIPs), not code",
+    "team_wallet_to_exchange_during_pump": "not tested (holder list not retrievable from free Solana RPCs)",
+    "treasury_in_single_key_wallets": "yes for the mint authority (single key); the freeze authority is an SPL multisig"
+  },
+  "price_usd": 0.00129722,
+  "price_source": "CoinGecko, 16 Nov 2026 8:20 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00129722,
+    "market_cap_text": "$8.52M",
+    "fdv_text": "$8.52M",
+    "volume_24h_text": "$80k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/HONEY.md",
+    "sha256": "e37b0ffbc1e3bc36e69ebd0d3c34d5d11a3a45cc87b16d789fc53a9c19bf077e",
+    "bytes": 12291,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:20 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~9:20 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "USDC replaces HONEY rewards; Foundation agreement terminated",
+      "url": "Bee Maps blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocation 40/20/20/15/5; burn-and-mint rules",
+      "url": "Foundation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn revenue $0 in Oct–Nov 2026",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint authority is a System-owned (single-key) account",
+      "url": "mint",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint authority is a System-owned (single-key) account",
+      "url": "authority",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "solana",
+      "address": "4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy",
+      "url": "https://solscan.io/token/4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy",
+      "kind": "token"
+    },
+    {
+      "chain": "solana",
+      "address": "7VhQVr8M2Dpdwp4QzzQB7EpvANtMMjv7gwpBHCrV3U2A",
+      "url": "https://solscan.io/account/7VhQVr8M2Dpdwp4QzzQB7EpvANtMMjv7gwpBHCrV3U2A",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "Bg588m44EMWAvvgm2yFtgMztUBPN5FTvVGwnTNrvTBhT",
+      "url": "https://solscan.io/account/Bg588m44EMWAvvgm2yFtgMztUBPN5FTvVGwnTNrvTBhT",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not tested (holder list not retrievable from free Solana RPCs)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The one revenue loop the token had has stopped. **2, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "7VhQVr8M2Dpdwp4QzzQB7EpvANtMMjv7gwpBHCrV3U2A",
+      "url": "https://intel.arkm.com/explorer/address/7VhQVr8M2Dpdwp4QzzQB7EpvANtMMjv7gwpBHCrV3U2A",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "Bg588m44EMWAvvgm2yFtgMztUBPN5FTvVGwnTNrvTBhT",
+      "url": "https://intel.arkm.com/explorer/address/Bg588m44EMWAvvgm2yFtgMztUBPN5FTvVGwnTNrvTBhT",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy",
+      "url": "https://intel.arkm.com/explorer/address/4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Solana RPC `getTokenSupply` and `getAccountInfo` (mint, mint authority, freeze authority), read 16 Nov 2026 ~9:20 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `hivemapper` fees, revenue and holders revenue (daily chart)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Bee Maps blog, 16 Jul 2026](https://beemaps.com/blog/get-paid-in-usdc-to-map-your-city) · [Hivemapper Foundation HONEY page](https://hivemapperfoundation.com/honey)",
+      "urls": [
+        "Bee Maps blog, 16 Jul 2026",
+        "Hivemapper Foundation HONEY page"
+      ],
+      "date_read": "16 Jul 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `hivemapper` (16 Nov 2026 8:20 AM MST); Gate HONEY/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): mint label, mint-authority and freeze-multisig activity (links in Selling)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Solana RPC `getSignaturesForAddress` for the mint authority and freeze multisig",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Holder list, insider vesting status, insider sales",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

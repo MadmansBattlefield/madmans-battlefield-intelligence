@@ -1,0 +1,3498 @@
+{
+  "title": "Score history for published v3 reports",
+  "timezone_label": "MST",
+  "generated_at": "2026-11-16 11:05 MST",
+  "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
+  "reports": [
+    {
+      "ticker": "ADA",
+      "path": "banking-rails/ADA.md",
+      "versions": [
+        {
+          "commit": "395f117d3c3c8330a538cfcfafe909c5c7312ea5",
+          "committed_at_mst": "2026-11-16 06:46 MST",
+          "subject": "Add CARDS, ZIG, ADA, ROSE, SPA v3 reports with Arkham evidence; ranking 38 notes",
+          "overall_score": 5.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 7,
+            "insider_holdings": 5,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 8,
+            "product_development": 8,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "AERO",
+      "path": "banking-rails/AERO.md",
+      "versions": [
+        {
+          "commit": "c5e10a57ca949bc4fa594660a5954d0cbba911f3",
+          "committed_at_mst": "2026-11-15 06:07 MST",
+          "subject": "Madman's Battlefield Intelligence: public research tree with logo",
+          "overall_score": 6.6,
+          "overall_verdict": "PASS",
+          "section_scores": {
+            "revenue": 8,
+            "foundation_team": 5,
+            "insider_holdings": 6,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 9,
+            "product_development": 8,
+            "adoption_customers": 7,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-14"
+        },
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 6.6,
+          "overall_verdict": "PASS",
+          "section_scores": {
+            "revenue": 8,
+            "foundation_team": 5,
+            "insider_holdings": 6,
+            "selling_behavior": 6,
+            "tokenomics_supply": 5,
+            "liquidity_market": 9,
+            "product_development": 8,
+            "adoption_customers": 7,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "ALGO",
+      "path": "banking-rails/ALGO.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 5.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 6,
+            "insider_holdings": 6,
+            "selling_behavior": 5,
+            "tokenomics_supply": 7,
+            "liquidity_market": 6,
+            "product_development": 7,
+            "adoption_customers": 4,
+            "security_audits": 7,
+            "regulatory": 8,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "AMP",
+      "path": "banking-rails/AMP.md",
+      "versions": [
+        {
+          "commit": "714aff3b3659263947a1ecc7503d776f5ff729ae",
+          "committed_at_mst": "2026-11-16 08:59 MST",
+          "subject": "Add AMP, HTX (Arkham evidence) and KAVA, CSPR, TFUEL v3 reports; HTX selling 6->5; AMP custody corrections; ranking 88",
+          "overall_score": 4.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 7,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "API3",
+      "path": "banking-rails/API3.md",
+      "versions": [
+        {
+          "commit": "132f0fd3ca95de20938e050e7f6189829040434b",
+          "committed_at_mst": "2026-11-16 06:50 MST",
+          "subject": "Add ICP, API3, INJ, SUI, ZEC v3 reports with Arkham evidence; ranking 43 notes",
+          "overall_score": 4.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 6,
+            "selling_behavior": 3,
+            "tokenomics_supply": 7,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "APT",
+      "path": "banking-rails/APT.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 5.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 7,
+            "product_development": 8,
+            "adoption_customers": 6,
+            "security_audits": 7,
+            "regulatory": 8,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "ARB",
+      "path": "banking-rails/ARB.md",
+      "versions": [
+        {
+          "commit": "0a6d1a7b1ec119685e235fde3c0d6313901321af",
+          "committed_at_mst": "2026-11-16 07:39 MST",
+          "subject": "Add SYRUP, CFG, HUMA, SOLV, ARB v3 reports with Arkham evidence; ranking 53 notes",
+          "overall_score": 5.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 7,
+            "insider_holdings": 6,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 7,
+            "product_development": 8,
+            "adoption_customers": 7,
+            "security_audits": 7,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ASTR",
+      "path": "banking-rails/ASTR.md",
+      "versions": [
+        {
+          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
+          "committed_at_mst": "2026-11-16 08:50 MST",
+          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 2,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "AVAX",
+      "path": "banking-rails/AVAX.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 5.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 9,
+            "product_development": 8,
+            "adoption_customers": 7,
+            "security_audits": 7,
+            "regulatory": 8,
+            "catalysts": 6
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "AXL",
+      "path": "banking-rails/AXL.md",
+      "versions": [
+        {
+          "commit": "8e903fc3bd9aae80864943f534224cb1f328e6ae",
+          "committed_at_mst": "2026-11-16 08:31 MST",
+          "subject": "Add PROPC, BAND, COTI, AXL, XDC v3 reports with Arkham evidence; correct PROPC pump-day totals; ranking 68",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "BAND",
+      "path": "banking-rails/BAND.md",
+      "versions": [
+        {
+          "commit": "8e903fc3bd9aae80864943f534224cb1f328e6ae",
+          "committed_at_mst": "2026-11-16 08:31 MST",
+          "subject": "Add PROPC, BAND, COTI, AXL, XDC v3 reports with Arkham evidence; correct PROPC pump-day totals; ranking 68",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "BCH",
+      "path": "banking-rails/BCH.md",
+      "versions": [
+        {
+          "commit": "a4bf82b11f9a8082fe9ec62864ffb223b10f8a1a",
+          "committed_at_mst": "2026-11-16 07:42 MST",
+          "subject": "Add ZK, XPL, S, KAIA, BCH v3 reports; ZEC Arkham labels; ranking 58 notes",
+          "overall_score": 5.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 9,
+            "selling_behavior": 7,
+            "tokenomics_supply": 8,
+            "liquidity_market": 7,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 7,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "BNKR",
+      "path": "banking-rails/BNKR.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 5.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 6,
+            "foundation_team": 3,
+            "insider_holdings": 7,
+            "selling_behavior": 6,
+            "tokenomics_supply": 8,
+            "liquidity_market": 5,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 5,
+            "regulatory": 3,
+            "catalysts": 5
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "BP",
+      "path": "banking-rails/BP.md",
+      "versions": [
+        {
+          "commit": "c5e10a57ca949bc4fa594660a5954d0cbba911f3",
+          "committed_at_mst": "2026-11-15 06:07 MST",
+          "subject": "Madman's Battlefield Intelligence: public research tree with logo",
+          "overall_score": 5.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 7,
+            "insider_holdings": 2,
+            "selling_behavior": 6,
+            "tokenomics_supply": 3,
+            "liquidity_market": 8,
+            "product_development": 8,
+            "adoption_customers": 6,
+            "security_audits": 5,
+            "regulatory": 7,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-14"
+        },
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 5.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 7,
+            "insider_holdings": 2,
+            "selling_behavior": 7,
+            "tokenomics_supply": 3,
+            "liquidity_market": 8,
+            "product_development": 8,
+            "adoption_customers": 6,
+            "security_audits": 5,
+            "regulatory": 7,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "BTC",
+      "path": "banking-rails/BTC.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 7.3,
+          "overall_verdict": "PASS",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 7,
+            "insider_holdings": 8,
+            "selling_behavior": 8,
+            "tokenomics_supply": 9,
+            "liquidity_market": 10,
+            "product_development": 8,
+            "adoption_customers": 9,
+            "security_audits": 8,
+            "regulatory": 8,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "ticker": "BTT",
+      "path": "banking-rails/BTT.md",
+      "versions": [
+        {
+          "commit": "7524e33aed288197d7c855287cebb485bbea4da1",
+          "committed_at_mst": "2026-11-16 09:33 MST",
+          "subject": "Add BTT, MBG, DUSK, H, MOCA v3 reports with Arkham evidence; BTT selling 6->5, MOCA selling 5->6; ranking 104",
+          "overall_score": 4.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 5,
+            "foundation_team": 4,
+            "insider_holdings": 2,
+            "selling_behavior": 5,
+            "tokenomics_supply": 8,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 5,
+            "security_audits": 6,
+            "regulatory": 3,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "CARDS",
+      "path": "banking-rails/CARDS.md",
+      "versions": [
+        {
+          "commit": "395f117d3c3c8330a538cfcfafe909c5c7312ea5",
+          "committed_at_mst": "2026-11-16 06:46 MST",
+          "subject": "Add CARDS, ZIG, ADA, ROSE, SPA v3 reports with Arkham evidence; ranking 38 notes",
+          "overall_score": 4.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 5,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 5,
+            "product_development": 6,
+            "adoption_customers": 7,
+            "security_audits": 5,
+            "regulatory": 4,
+            "catalysts": 4
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "CC",
+      "path": "banking-rails/CC.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 6.4,
+          "overall_verdict": "PASS",
+          "section_scores": {
+            "revenue": 6,
+            "foundation_team": 7,
+            "insider_holdings": 6,
+            "selling_behavior": 6,
+            "tokenomics_supply": 4,
+            "liquidity_market": 7,
+            "product_development": 8,
+            "adoption_customers": 8,
+            "security_audits": 6,
+            "regulatory": 8,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "CELO",
+      "path": "banking-rails/CELO.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 4.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 5,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 6,
+            "security_audits": 6,
+            "regulatory": 4,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "CFG",
+      "path": "banking-rails/CFG.md",
+      "versions": [
+        {
+          "commit": "0a6d1a7b1ec119685e235fde3c0d6313901321af",
+          "committed_at_mst": "2026-11-16 07:39 MST",
+          "subject": "Add SYRUP, CFG, HUMA, SOLV, ARB v3 reports with Arkham evidence; ranking 53 notes",
+          "overall_score": 4.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 6,
+            "insider_holdings": 3,
+            "selling_behavior": 5,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 7,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "CFX",
+      "path": "banking-rails/CFX.md",
+      "versions": [
+        {
+          "commit": "733a8b9d37d3d555ab02f76525784309a569b5cd",
+          "committed_at_mst": "2026-11-16 09:24 MST",
+          "subject": "CFX: fix source read time",
+          "overall_score": 3.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "COTI",
+      "path": "banking-rails/COTI.md",
+      "versions": [
+        {
+          "commit": "8e903fc3bd9aae80864943f534224cb1f328e6ae",
+          "committed_at_mst": "2026-11-16 08:31 MST",
+          "subject": "Add PROPC, BAND, COTI, AXL, XDC v3 reports with Arkham evidence; correct PROPC pump-day totals; ranking 68",
+          "overall_score": 2.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 2,
+            "selling_behavior": 2,
+            "tokenomics_supply": 2,
+            "liquidity_market": 4,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 3,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "CPOOL",
+      "path": "banking-rails/CPOOL.md",
+      "versions": [
+        {
+          "commit": "c108a79dcd78a45a75906b1a1b823746d80d1190",
+          "committed_at_mst": "2026-11-16 08:40 MST",
+          "subject": "Add HYPER, KAIO, CPOOL, W, CRO v3 reports with Arkham evidence; HYPER holdings 4->3; KAIO/CPOOL/W corrections; ranking 73",
+          "overall_score": 3.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 2,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "CRO",
+      "path": "banking-rails/CRO.md",
+      "versions": [
+        {
+          "commit": "c108a79dcd78a45a75906b1a1b823746d80d1190",
+          "committed_at_mst": "2026-11-16 08:40 MST",
+          "subject": "Add HYPER, KAIO, CPOOL, W, CRO v3 reports with Arkham evidence; HYPER holdings 4->3; KAIO/CPOOL/W corrections; ranking 73",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 2,
+            "selling_behavior": 4,
+            "tokenomics_supply": 2,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "CSPR",
+      "path": "banking-rails/CSPR.md",
+      "versions": [
+        {
+          "commit": "714aff3b3659263947a1ecc7503d776f5ff729ae",
+          "committed_at_mst": "2026-11-16 08:59 MST",
+          "subject": "Add AMP, HTX (Arkham evidence) and KAVA, CSPR, TFUEL v3 reports; HTX selling 6->5; AMP custody corrections; ranking 88",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 1,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "DASH",
+      "path": "banking-rails/DASH.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 4.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 6,
+            "insider_holdings": 6,
+            "selling_behavior": 6,
+            "tokenomics_supply": 6,
+            "liquidity_market": 6,
+            "product_development": 7,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 4,
+            "catalysts": 6
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "DOT",
+      "path": "banking-rails/DOT.md",
+      "versions": [
+        {
+          "commit": "a6646923744fdadf9d8cdad9dad9228f740e9c86",
+          "committed_at_mst": "2026-11-16 06:58 MST",
+          "subject": "Add DOT, POLYX, INV, TRAC, EXA v3 reports with Arkham evidence; ranking 48 notes",
+          "overall_score": 4.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 7,
+            "insider_holdings": 5,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 7,
+            "product_development": 7,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 7,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "DUSK",
+      "path": "banking-rails/DUSK.md",
+      "versions": [
+        {
+          "commit": "7524e33aed288197d7c855287cebb485bbea4da1",
+          "committed_at_mst": "2026-11-16 09:33 MST",
+          "subject": "Add BTT, MBG, DUSK, H, MOCA v3 reports with Arkham evidence; BTT selling 6->5, MOCA selling 5->6; ranking 104",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 6,
+            "insider_holdings": 5,
+            "selling_behavior": 5,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 2,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "EDEL",
+      "path": "banking-rails/EDEL.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 2.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 3,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 3,
+            "adoption_customers": 1,
+            "security_audits": 1,
+            "regulatory": 4,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "ENA",
+      "path": "banking-rails/ENA.md",
+      "versions": [
+        {
+          "commit": "78f06b60984377ebaa982af826c7a9121981898f",
+          "committed_at_mst": "2026-11-16 06:22 MST",
+          "subject": "Add SKY, ENA, PACT, JST, QUAI v3 reports with Arkham evidence; ranking 33 notes",
+          "overall_score": 5.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 7,
+            "insider_holdings": 5,
+            "selling_behavior": 5,
+            "tokenomics_supply": 5,
+            "liquidity_market": 9,
+            "product_development": 8,
+            "adoption_customers": 6,
+            "security_audits": 7,
+            "regulatory": 5,
+            "catalysts": 6
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ETC",
+      "path": "banking-rails/ETC.md",
+      "versions": [
+        {
+          "commit": "5c5b66fd26d3a7576fcd00d46c961bfce86be84d",
+          "committed_at_mst": "2026-11-16 08:19 MST",
+          "subject": "Add XDB, HASH, MASQ, ETC, TLOS v3 reports; move DFI and SPELL to dead; ranking 63 notes",
+          "overall_score": 4.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 7,
+            "selling_behavior": 6,
+            "tokenomics_supply": 8,
+            "liquidity_market": 5,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 3,
+            "regulatory": 7,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ETH",
+      "path": "banking-rails/ETH.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 7.2,
+          "overall_verdict": "PASS",
+          "section_scores": {
+            "revenue": 5,
+            "foundation_team": 7,
+            "insider_holdings": 8,
+            "selling_behavior": 7,
+            "tokenomics_supply": 6,
+            "liquidity_market": 10,
+            "product_development": 9,
+            "adoption_customers": 9,
+            "security_audits": 8,
+            "regulatory": 7,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "EWT",
+      "path": "banking-rails/EWT.md",
+      "versions": [
+        {
+          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
+          "committed_at_mst": "2026-11-16 08:50 MST",
+          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 5,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "EXA",
+      "path": "banking-rails/EXA.md",
+      "versions": [
+        {
+          "commit": "a6646923744fdadf9d8cdad9dad9228f740e9c86",
+          "committed_at_mst": "2026-11-16 06:58 MST",
+          "subject": "Add DOT, POLYX, INV, TRAC, EXA v3 reports with Arkham evidence; ranking 48 notes",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 1,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 3,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "FXS",
+      "path": "banking-rails/FXS.md",
+      "versions": [
+        {
+          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
+          "committed_at_mst": "2026-11-16 08:50 MST",
+          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "overall_score": 4.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "H",
+      "path": "banking-rails/H.md",
+      "versions": [
+        {
+          "commit": "7524e33aed288197d7c855287cebb485bbea4da1",
+          "committed_at_mst": "2026-11-16 09:33 MST",
+          "subject": "Add BTT, MBG, DUSK, H, MOCA v3 reports with Arkham evidence; BTT selling 6->5, MOCA selling 5->6; ranking 104",
+          "overall_score": 2.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 2,
+            "insider_holdings": 2,
+            "selling_behavior": 4,
+            "tokenomics_supply": 1,
+            "liquidity_market": 3,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 1,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "HASH",
+      "path": "banking-rails/HASH.md",
+      "versions": [
+        {
+          "commit": "5c5b66fd26d3a7576fcd00d46c961bfce86be84d",
+          "committed_at_mst": "2026-11-16 08:19 MST",
+          "subject": "Add XDB, HASH, MASQ, ETC, TLOS v3 reports; move DFI and SPELL to dead; ranking 63 notes",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 5,
+            "insider_holdings": 2,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 1,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 4,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "HBAR",
+      "path": "banking-rails/HBAR.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 5.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 7,
+            "insider_holdings": 6,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 8,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 7,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "ticker": "HONEY",
+      "path": "banking-rails/HONEY.md",
+      "versions": [
+        {
+          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
+          "committed_at_mst": "2026-11-16 08:50 MST",
+          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 3,
+            "insider_holdings": 3,
+            "selling_behavior": 5,
+            "tokenomics_supply": 3,
+            "liquidity_market": 2,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "HTX",
+      "path": "banking-rails/HTX.md",
+      "versions": [
+        {
+          "commit": "714aff3b3659263947a1ecc7503d776f5ff729ae",
+          "committed_at_mst": "2026-11-16 08:59 MST",
+          "subject": "Add AMP, HTX (Arkham evidence) and KAVA, CSPR, TFUEL v3 reports; HTX selling 6->5; AMP custody corrections; ranking 88",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 5,
+            "foundation_team": 3,
+            "insider_holdings": 2,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 2,
+            "product_development": 4,
+            "adoption_customers": 4,
+            "security_audits": 3,
+            "regulatory": 4,
+            "catalysts": 5
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "HUMA",
+      "path": "banking-rails/HUMA.md",
+      "versions": [
+        {
+          "commit": "0a6d1a7b1ec119685e235fde3c0d6313901321af",
+          "committed_at_mst": "2026-11-16 07:39 MST",
+          "subject": "Add SYRUP, CFG, HUMA, SOLV, ARB v3 reports with Arkham evidence; ranking 53 notes",
+          "overall_score": 4.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 3,
+            "selling_behavior": 5,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 7,
+            "security_audits": 7,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "HYPER",
+      "path": "banking-rails/HYPER.md",
+      "versions": [
+        {
+          "commit": "c108a79dcd78a45a75906b1a1b823746d80d1190",
+          "committed_at_mst": "2026-11-16 08:40 MST",
+          "subject": "Add HYPER, KAIO, CPOOL, W, CRO v3 reports with Arkham evidence; HYPER holdings 4->3; KAIO/CPOOL/W corrections; ranking 73",
+          "overall_score": 3.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 2,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ICP",
+      "path": "banking-rails/ICP.md",
+      "versions": [
+        {
+          "commit": "132f0fd3ca95de20938e050e7f6189829040434b",
+          "committed_at_mst": "2026-11-16 06:50 MST",
+          "subject": "Add ICP, API3, INJ, SUI, ZEC v3 reports with Arkham evidence; ranking 43 notes",
+          "overall_score": 4.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 6,
+            "product_development": 8,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "INJ",
+      "path": "banking-rails/INJ.md",
+      "versions": [
+        {
+          "commit": "132f0fd3ca95de20938e050e7f6189829040434b",
+          "committed_at_mst": "2026-11-16 06:50 MST",
+          "subject": "Add ICP, API3, INJ, SUI, ZEC v3 reports with Arkham evidence; ranking 43 notes",
+          "overall_score": 3.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 6,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 3,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "INV",
+      "path": "banking-rails/INV.md",
+      "versions": [
+        {
+          "commit": "a6646923744fdadf9d8cdad9dad9228f740e9c86",
+          "committed_at_mst": "2026-11-16 06:58 MST",
+          "subject": "Add DOT, POLYX, INV, TRAC, EXA v3 reports with Arkham evidence; ranking 48 notes",
+          "overall_score": 4.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 6,
+            "foundation_team": 6,
+            "insider_holdings": 6,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 2,
+            "product_development": 5,
+            "adoption_customers": 5,
+            "security_audits": 4,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "IOTX",
+      "path": "banking-rails/IOTX.md",
+      "versions": [
+        {
+          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
+          "committed_at_mst": "2026-11-16 08:50 MST",
+          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 2,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "JASMY",
+      "path": "banking-rails/JASMY.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 2.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 3,
+            "selling_behavior": 2,
+            "tokenomics_supply": 7,
+            "liquidity_market": 5,
+            "product_development": 2,
+            "adoption_customers": 1,
+            "security_audits": 5,
+            "regulatory": 3,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "JST",
+      "path": "banking-rails/JST.md",
+      "versions": [
+        {
+          "commit": "78f06b60984377ebaa982af826c7a9121981898f",
+          "committed_at_mst": "2026-11-16 06:22 MST",
+          "subject": "Add SKY, ENA, PACT, JST, QUAI v3 reports with Arkham evidence; ranking 33 notes",
+          "overall_score": 5.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 5,
+            "foundation_team": 5,
+            "insider_holdings": 5,
+            "selling_behavior": 5,
+            "tokenomics_supply": 7,
+            "liquidity_market": 6,
+            "product_development": 7,
+            "adoption_customers": 7,
+            "security_audits": 5,
+            "regulatory": 4,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "KAIA",
+      "path": "banking-rails/KAIA.md",
+      "versions": [
+        {
+          "commit": "a4bf82b11f9a8082fe9ec62864ffb223b10f8a1a",
+          "committed_at_mst": "2026-11-16 07:42 MST",
+          "subject": "Add ZK, XPL, S, KAIA, BCH v3 reports; ZEC Arkham labels; ranking 58 notes",
+          "overall_score": 3.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 6,
+            "insider_holdings": 5,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "KAIO",
+      "path": "banking-rails/KAIO.md",
+      "versions": [
+        {
+          "commit": "c108a79dcd78a45a75906b1a1b823746d80d1190",
+          "committed_at_mst": "2026-11-16 08:40 MST",
+          "subject": "Add HYPER, KAIO, CPOOL, W, CRO v3 reports with Arkham evidence; HYPER holdings 4->3; KAIO/CPOOL/W corrections; ranking 73",
+          "overall_score": 3.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 3,
+            "tokenomics_supply": 2,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 5,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "KAVA",
+      "path": "banking-rails/KAVA.md",
+      "versions": [
+        {
+          "commit": "714aff3b3659263947a1ecc7503d776f5ff729ae",
+          "committed_at_mst": "2026-11-16 08:59 MST",
+          "subject": "Add AMP, HTX (Arkham evidence) and KAVA, CSPR, TFUEL v3 reports; HTX selling 6->5; AMP custody corrections; ranking 88",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 4,
+            "product_development": 2,
+            "adoption_customers": 2,
+            "security_audits": 1,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "LINK",
+      "path": "banking-rails/LINK.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 6.9,
+          "overall_verdict": "PASS",
+          "section_scores": {
+            "revenue": 8,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 10,
+            "product_development": 9,
+            "adoption_customers": 8,
+            "security_audits": 8,
+            "regulatory": 5,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "MASQ",
+      "path": "banking-rails/MASQ.md",
+      "versions": [
+        {
+          "commit": "5c5b66fd26d3a7576fcd00d46c961bfce86be84d",
+          "committed_at_mst": "2026-11-16 08:19 MST",
+          "subject": "Add XDB, HASH, MASQ, ETC, TLOS v3 reports; move DFI and SPELL to dead; ranking 63 notes",
+          "overall_score": 2.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 0,
+            "product_development": 3,
+            "adoption_customers": 1,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "MBG",
+      "path": "banking-rails/MBG.md",
+      "versions": [
+        {
+          "commit": "7524e33aed288197d7c855287cebb485bbea4da1",
+          "committed_at_mst": "2026-11-16 09:33 MST",
+          "subject": "Add BTT, MBG, DUSK, H, MOCA v3 reports with Arkham evidence; BTT selling 6->5, MOCA selling 5->6; ranking 104",
+          "overall_score": 3.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "MNT",
+      "path": "banking-rails/MNT.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 4.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 6,
+            "tokenomics_supply": 5,
+            "liquidity_market": 6,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "MOCA",
+      "path": "banking-rails/MOCA.md",
+      "versions": [
+        {
+          "commit": "7524e33aed288197d7c855287cebb485bbea4da1",
+          "committed_at_mst": "2026-11-16 09:33 MST",
+          "subject": "Add BTT, MBG, DUSK, H, MOCA v3 reports with Arkham evidence; BTT selling 6->5, MOCA selling 5->6; ranking 104",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 6,
+            "insider_holdings": 3,
+            "selling_behavior": 6,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "NIGHT",
+      "path": "banking-rails/NIGHT.md",
+      "versions": [
+        {
+          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
+          "committed_at_mst": "2026-11-16 08:50 MST",
+          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 1,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 7,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 6
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "OM",
+      "path": "banking-rails/OM.md",
+      "versions": [
+        {
+          "commit": "8606beaf95d6f0ae6cf53c0d69162fb41f8a0194",
+          "committed_at_mst": "2026-11-16 09:12 MST",
+          "subject": "Add RLC, YELLOW, OM, ZKC v3 reports with Arkham evidence; ZKC selling 3->4 (Anchorage custody); RLC iExec Team funding; ranking 96",
+          "overall_score": 3.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ONDO",
+      "path": "banking-rails/ONDO.md",
+      "versions": [
+        {
+          "commit": "c5e10a57ca949bc4fa594660a5954d0cbba911f3",
+          "committed_at_mst": "2026-11-15 06:07 MST",
+          "subject": "Madman's Battlefield Intelligence: public research tree with logo",
+          "overall_score": 4.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 5,
+            "tokenomics_supply": 2,
+            "liquidity_market": 9,
+            "product_development": 7,
+            "adoption_customers": 7,
+            "security_audits": 6,
+            "regulatory": 7,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-14"
+        },
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 4.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 2,
+            "liquidity_market": 9,
+            "product_development": 7,
+            "adoption_customers": 7,
+            "security_audits": 6,
+            "regulatory": 7,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "PACT",
+      "path": "banking-rails/PACT.md",
+      "versions": [
+        {
+          "commit": "78f06b60984377ebaa982af826c7a9121981898f",
+          "committed_at_mst": "2026-11-16 06:22 MST",
+          "subject": "Add SKY, ENA, PACT, JST, QUAI v3 reports with Arkham evidence; ranking 33 notes",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 4,
+            "insider_holdings": 2,
+            "selling_behavior": 1,
+            "tokenomics_supply": 2,
+            "liquidity_market": 2,
+            "product_development": 5,
+            "adoption_customers": 5,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "PHA",
+      "path": "banking-rails/PHA.md",
+      "versions": [
+        {
+          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
+          "committed_at_mst": "2026-11-16 08:50 MST",
+          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "overall_score": 3.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 1,
+            "tokenomics_supply": 6,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "PLUME",
+      "path": "banking-rails/PLUME.md",
+      "versions": [
+        {
+          "commit": "c5e10a57ca949bc4fa594660a5954d0cbba911f3",
+          "committed_at_mst": "2026-11-15 06:07 MST",
+          "subject": "Madman's Battlefield Intelligence: public research tree with logo",
+          "overall_score": 3.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 6,
+            "insider_holdings": 2,
+            "selling_behavior": 3,
+            "tokenomics_supply": 3,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-14"
+        },
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 6,
+            "insider_holdings": 2,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "POLYX",
+      "path": "banking-rails/POLYX.md",
+      "versions": [
+        {
+          "commit": "a6646923744fdadf9d8cdad9dad9228f740e9c86",
+          "committed_at_mst": "2026-11-16 06:58 MST",
+          "subject": "Add DOT, POLYX, INV, TRAC, EXA v3 reports with Arkham evidence; ranking 48 notes",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 2,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 2,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "PROPC",
+      "path": "banking-rails/PROPC.md",
+      "versions": [
+        {
+          "commit": "8e903fc3bd9aae80864943f534224cb1f328e6ae",
+          "committed_at_mst": "2026-11-16 08:31 MST",
+          "subject": "Add PROPC, BAND, COTI, AXL, XDC v3 reports with Arkham evidence; correct PROPC pump-day totals; ranking 68",
+          "overall_score": 3.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 2,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "PUNDIX",
+      "path": "banking-rails/PUNDIX.md",
+      "versions": [
+        {
+          "commit": "fc426d12e35e0ba35444db8959a8efb21014e501",
+          "committed_at_mst": "2026-11-16 09:35 MST",
+          "subject": "Add RED, PUNDIX, STBL, SHARE v3 reports with Arkham evidence; PUNDIX holder is Upbit (holdings 2->4, selling 3->4); ranking 108",
+          "overall_score": 3.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 3,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "QNT",
+      "path": "banking-rails/QNT.md",
+      "versions": [
+        {
+          "commit": "c1ac11af165adafa4267536a9b797139c322788f",
+          "committed_at_mst": "2026-11-16 04:55 MST",
+          "subject": "Add QNT v3 report with Arkham evidence; ranking now 28 notes",
+          "overall_score": 4.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 3,
+            "selling_behavior": 3,
+            "tokenomics_supply": 2,
+            "liquidity_market": 7,
+            "product_development": 6,
+            "adoption_customers": 8,
+            "security_audits": 3,
+            "regulatory": 5,
+            "catalysts": 6
+          },
+          "gates_failed": [
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "QUAI",
+      "path": "banking-rails/QUAI.md",
+      "versions": [
+        {
+          "commit": "78f06b60984377ebaa982af826c7a9121981898f",
+          "committed_at_mst": "2026-11-16 06:22 MST",
+          "subject": "Add SKY, ENA, PACT, JST, QUAI v3 reports with Arkham evidence; ranking 33 notes",
+          "overall_score": 4.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 5,
+            "foundation_team": 6,
+            "insider_holdings": 6,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 2,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "RED",
+      "path": "banking-rails/RED.md",
+      "versions": [
+        {
+          "commit": "fc426d12e35e0ba35444db8959a8efb21014e501",
+          "committed_at_mst": "2026-11-16 09:35 MST",
+          "subject": "Add RED, PUNDIX, STBL, SHARE v3 reports with Arkham evidence; PUNDIX holder is Upbit (holdings 2->4, selling 3->4); ranking 108",
+          "overall_score": 4.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "REQ",
+      "path": "banking-rails/REQ.md",
+      "versions": [
+        {
+          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
+          "committed_at_mst": "2026-11-16 08:50 MST",
+          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "overall_score": 4.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 3,
+            "tokenomics_supply": 6,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 5,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "REUSD",
+      "path": "banking-rails/REUSD.md",
+      "versions": [
+        {
+          "commit": "652061ce5129c63dbd9f49ba82e4dce98eb49a8f",
+          "committed_at_mst": "2026-11-16 09:24 MST",
+          "subject": "Add REUSD, RVN, CFX v3 reports; REUSD Arkham notes, CFX Arkham coverage note; ranking 99",
+          "overall_score": 5.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 7,
+            "foundation_team": 5,
+            "insider_holdings": 6,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 6,
+            "security_audits": 7,
+            "regulatory": 4,
+            "catalysts": 5
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "RLC",
+      "path": "banking-rails/RLC.md",
+      "versions": [
+        {
+          "commit": "8606beaf95d6f0ae6cf53c0d69162fb41f8a0194",
+          "committed_at_mst": "2026-11-16 09:12 MST",
+          "subject": "Add RLC, YELLOW, OM, ZKC v3 reports with Arkham evidence; ZKC selling 3->4 (Anchorage custody); RLC iExec Team funding; ranking 96",
+          "overall_score": 4.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 5,
+            "selling_behavior": 3,
+            "tokenomics_supply": 8,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ROSE",
+      "path": "banking-rails/ROSE.md",
+      "versions": [
+        {
+          "commit": "395f117d3c3c8330a538cfcfafe909c5c7312ea5",
+          "committed_at_mst": "2026-11-16 06:46 MST",
+          "subject": "Add CARDS, ZIG, ADA, ROSE, SPA v3 reports with Arkham evidence; ranking 38 notes",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 5,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 2,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ROUTER",
+      "path": "banking-rails/ROUTER.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 2.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 2,
+            "insider_holdings": 2,
+            "selling_behavior": 1,
+            "tokenomics_supply": 4,
+            "liquidity_market": 1,
+            "product_development": 6,
+            "adoption_customers": 1,
+            "security_audits": 5,
+            "regulatory": 2,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "RVN",
+      "path": "banking-rails/RVN.md",
+      "versions": [
+        {
+          "commit": "652061ce5129c63dbd9f49ba82e4dce98eb49a8f",
+          "committed_at_mst": "2026-11-16 09:24 MST",
+          "subject": "Add REUSD, RVN, CFX v3 reports; REUSD Arkham notes, CFX Arkham coverage note; ranking 99",
+          "overall_score": 4.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 9,
+            "selling_behavior": 7,
+            "tokenomics_supply": 8,
+            "liquidity_market": 4,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 7,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "S",
+      "path": "banking-rails/S.md",
+      "versions": [
+        {
+          "commit": "a4bf82b11f9a8082fe9ec62864ffb223b10f8a1a",
+          "committed_at_mst": "2026-11-16 07:42 MST",
+          "subject": "Add ZK, XPL, S, KAIA, BCH v3 reports; ZEC Arkham labels; ranking 58 notes",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 2,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 2,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "SEI",
+      "path": "banking-rails/SEI.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 6,
+            "product_development": 7,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "ticker": "SERV",
+      "path": "banking-rails/SERV.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 2.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 3,
+            "insider_holdings": 3,
+            "selling_behavior": 1,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 2,
+            "security_audits": 3,
+            "regulatory": 3,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "SHARE",
+      "path": "banking-rails/SHARE.md",
+      "versions": [
+        {
+          "commit": "25340a1c6174c17c0b586788a6e84fdc754c1c0e",
+          "committed_at_mst": "2026-11-16 09:50 MST",
+          "subject": "Add SHX v3 report (Kraken deposit flows traced to Stellar via Axelar); STBL and SHARE second Arkham pass; ranking 113",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "SHX",
+      "path": "banking-rails/SHX.md",
+      "versions": [
+        {
+          "commit": "25340a1c6174c17c0b586788a6e84fdc754c1c0e",
+          "committed_at_mst": "2026-11-16 09:50 MST",
+          "subject": "Add SHX v3 report (Kraken deposit flows traced to Stellar via Axelar); STBL and SHARE second Arkham pass; ranking 113",
+          "overall_score": 3.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "SKY",
+      "path": "banking-rails/SKY.md",
+      "versions": [
+        {
+          "commit": "78f06b60984377ebaa982af826c7a9121981898f",
+          "committed_at_mst": "2026-11-16 06:22 MST",
+          "subject": "Add SKY, ENA, PACT, JST, QUAI v3 reports with Arkham evidence; ranking 33 notes",
+          "overall_score": 6.8,
+          "overall_verdict": "PASS",
+          "section_scores": {
+            "revenue": 8,
+            "foundation_team": 7,
+            "insider_holdings": 6,
+            "selling_behavior": 6,
+            "tokenomics_supply": 7,
+            "liquidity_market": 6,
+            "product_development": 8,
+            "adoption_customers": 8,
+            "security_audits": 7,
+            "regulatory": 5,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "SOL",
+      "path": "banking-rails/SOL.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 6.6,
+          "overall_verdict": "PASS",
+          "section_scores": {
+            "revenue": 6,
+            "foundation_team": 6,
+            "insider_holdings": 5,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 10,
+            "product_development": 8,
+            "adoption_customers": 8,
+            "security_audits": 7,
+            "regulatory": 7,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "SOLV",
+      "path": "banking-rails/SOLV.md",
+      "versions": [
+        {
+          "commit": "0a6d1a7b1ec119685e235fde3c0d6313901321af",
+          "committed_at_mst": "2026-11-16 07:39 MST",
+          "subject": "Add SYRUP, CFG, HUMA, SOLV, ARB v3 reports with Arkham evidence; ranking 53 notes",
+          "overall_score": 4.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 6,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "SPA",
+      "path": "banking-rails/SPA.md",
+      "versions": [
+        {
+          "commit": "395f117d3c3c8330a538cfcfafe909c5c7312ea5",
+          "committed_at_mst": "2026-11-16 06:46 MST",
+          "subject": "Add CARDS, ZIG, ADA, ROSE, SPA v3 reports with Arkham evidence; ranking 38 notes",
+          "overall_score": 2.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 2,
+            "selling_behavior": 2,
+            "tokenomics_supply": 3,
+            "liquidity_market": 2,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "STBL",
+      "path": "banking-rails/STBL.md",
+      "versions": [
+        {
+          "commit": "25340a1c6174c17c0b586788a6e84fdc754c1c0e",
+          "committed_at_mst": "2026-11-16 09:50 MST",
+          "subject": "Add SHX v3 report (Kraken deposit flows traced to Stellar via Axelar); STBL and SHARE second Arkham pass; ranking 113",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "SUI",
+      "path": "banking-rails/SUI.md",
+      "versions": [
+        {
+          "commit": "132f0fd3ca95de20938e050e7f6189829040434b",
+          "committed_at_mst": "2026-11-16 06:50 MST",
+          "subject": "Add ICP, API3, INJ, SUI, ZEC v3 reports with Arkham evidence; ranking 43 notes",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 2,
+            "selling_behavior": 2,
+            "tokenomics_supply": 3,
+            "liquidity_market": 7,
+            "product_development": 7,
+            "adoption_customers": 4,
+            "security_audits": 4,
+            "regulatory": 7,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "SWCH",
+      "path": "banking-rails/SWCH.md",
+      "versions": [
+        {
+          "commit": "f7bbe5f9d2cc1696a9e3384d0c5441e12f7e8d18",
+          "committed_at_mst": "2026-11-16 09:41 MST",
+          "subject": "Add ZANO, WAN, XVG, SWCH v3 reports; SWCH selling not proven (4); ranking 112",
+          "overall_score": 2.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 2,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 2,
+            "product_development": 2,
+            "adoption_customers": 1,
+            "security_audits": 3,
+            "regulatory": 3,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "SYRUP",
+      "path": "banking-rails/SYRUP.md",
+      "versions": [
+        {
+          "commit": "0a6d1a7b1ec119685e235fde3c0d6313901321af",
+          "committed_at_mst": "2026-11-16 07:39 MST",
+          "subject": "Add SYRUP, CFG, HUMA, SOLV, ARB v3 reports with Arkham evidence; ranking 53 notes",
+          "overall_score": 6.3,
+          "overall_verdict": "PASS",
+          "section_scores": {
+            "revenue": 7,
+            "foundation_team": 7,
+            "insider_holdings": 6,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 6,
+            "product_development": 8,
+            "adoption_customers": 8,
+            "security_audits": 7,
+            "regulatory": 5,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "TAO",
+      "path": "banking-rails/TAO.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 5.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 5,
+            "insider_holdings": 6,
+            "selling_behavior": 5,
+            "tokenomics_supply": 8,
+            "liquidity_market": 8,
+            "product_development": 8,
+            "adoption_customers": 6,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 6
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "ticker": "TFUEL",
+      "path": "banking-rails/TFUEL.md",
+      "versions": [
+        {
+          "commit": "714aff3b3659263947a1ecc7503d776f5ff729ae",
+          "committed_at_mst": "2026-11-16 08:59 MST",
+          "subject": "Add AMP, HTX (Arkham evidence) and KAVA, CSPR, TFUEL v3 reports; HTX selling 6->5; AMP custody corrections; ranking 88",
+          "overall_score": 4.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 5,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "TLOS",
+      "path": "banking-rails/TLOS.md",
+      "versions": [
+        {
+          "commit": "5c5b66fd26d3a7576fcd00d46c961bfce86be84d",
+          "committed_at_mst": "2026-11-16 08:19 MST",
+          "subject": "Add XDB, HASH, MASQ, ETC, TLOS v3 reports; move DFI and SPELL to dead; ranking 63 notes",
+          "overall_score": 3.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 4,
+            "selling_behavior": 3,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "TRAC",
+      "path": "banking-rails/TRAC.md",
+      "versions": [
+        {
+          "commit": "a6646923744fdadf9d8cdad9dad9228f740e9c86",
+          "committed_at_mst": "2026-11-16 06:58 MST",
+          "subject": "Add DOT, POLYX, INV, TRAC, EXA v3 reports with Arkham evidence; ranking 48 notes",
+          "overall_score": 4.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "TRB",
+      "path": "banking-rails/TRB.md",
+      "versions": [
+        {
+          "commit": "74c21068ad6d95f03ed72b9a86c0e6a36e782f97",
+          "committed_at_mst": "2026-11-16 09:03 MST",
+          "subject": "Add TRB, ZEN, ZKP, ZAMA v3 reports with Arkham evidence; ZAMA Upbit bridge correction; TRB 2026 pump-day Coinbase deposits; ranking 92",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 6,
+            "selling_behavior": 1,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "VELO",
+      "path": "banking-rails/VELO.md",
+      "versions": [
+        {
+          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
+          "committed_at_mst": "2026-11-16 08:50 MST",
+          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "overall_score": 3.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "W",
+      "path": "banking-rails/W.md",
+      "versions": [
+        {
+          "commit": "c108a79dcd78a45a75906b1a1b823746d80d1190",
+          "committed_at_mst": "2026-11-16 08:40 MST",
+          "subject": "Add HYPER, KAIO, CPOOL, W, CRO v3 reports with Arkham evidence; HYPER holdings 4->3; KAIO/CPOOL/W corrections; ranking 73",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 3,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 4,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "WAN",
+      "path": "banking-rails/WAN.md",
+      "versions": [
+        {
+          "commit": "f7bbe5f9d2cc1696a9e3384d0c5441e12f7e8d18",
+          "committed_at_mst": "2026-11-16 09:41 MST",
+          "subject": "Add ZANO, WAN, XVG, SWCH v3 reports; SWCH selling not proven (4); ranking 112",
+          "overall_score": 4.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 5,
+            "foundation_team": 6,
+            "insider_holdings": 5,
+            "selling_behavior": 4,
+            "tokenomics_supply": 7,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 3,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "XDB",
+      "path": "banking-rails/XDB.md",
+      "versions": [
+        {
+          "commit": "5c5b66fd26d3a7576fcd00d46c961bfce86be84d",
+          "committed_at_mst": "2026-11-16 08:19 MST",
+          "subject": "Add XDB, HASH, MASQ, ETC, TLOS v3 reports; move DFI and SPELL to dead; ranking 63 notes",
+          "overall_score": 2.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 5,
+            "selling_behavior": 3,
+            "tokenomics_supply": 6,
+            "liquidity_market": 1,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "XDC",
+      "path": "banking-rails/XDC.md",
+      "versions": [
+        {
+          "commit": "8e903fc3bd9aae80864943f534224cb1f328e6ae",
+          "committed_at_mst": "2026-11-16 08:31 MST",
+          "subject": "Add PROPC, BAND, COTI, AXL, XDC v3 reports with Arkham evidence; correct PROPC pump-day totals; ranking 68",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 2,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 5,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "XLM",
+      "path": "banking-rails/XLM.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 5.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 7,
+            "insider_holdings": 4,
+            "selling_behavior": 6,
+            "tokenomics_supply": 5,
+            "liquidity_market": 9,
+            "product_development": 8,
+            "adoption_customers": 7,
+            "security_audits": 7,
+            "regulatory": 8,
+            "catalysts": 6
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "XMR",
+      "path": "banking-rails/XMR.md",
+      "versions": [
+        {
+          "commit": "16d387f961afeae6ddce3baf2f0ccc72cbfdb628",
+          "committed_at_mst": "2026-11-16 08:50 MST",
+          "subject": "Add FXS, IOTX, ASTR, EWT, HONEY, REQ, PHA (Arkham evidence) and XMR, NIGHT, VELO v3 reports; IOTX selling 5->4; ASTR arithmetic fix; ranking 83",
+          "overall_score": 5.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 9,
+            "selling_behavior": 7,
+            "tokenomics_supply": 7,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 6,
+            "security_audits": 5,
+            "regulatory": 2,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "XPL",
+      "path": "banking-rails/XPL.md",
+      "versions": [
+        {
+          "commit": "a4bf82b11f9a8082fe9ec62864ffb223b10f8a1a",
+          "committed_at_mst": "2026-11-16 07:42 MST",
+          "subject": "Add ZK, XPL, S, KAIA, BCH v3 reports; ZEC Arkham labels; ranking 58 notes",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 1,
+            "tokenomics_supply": 3,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 6,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "XRP",
+      "path": "banking-rails/XRP.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 5.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 10,
+            "product_development": 7,
+            "adoption_customers": 6,
+            "security_audits": 7,
+            "regulatory": 7,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "XVG",
+      "path": "banking-rails/XVG.md",
+      "versions": [
+        {
+          "commit": "f7bbe5f9d2cc1696a9e3384d0c5441e12f7e8d18",
+          "committed_at_mst": "2026-11-16 09:41 MST",
+          "subject": "Add ZANO, WAN, XVG, SWCH v3 reports; SWCH selling not proven (4); ranking 112",
+          "overall_score": 4.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 9,
+            "selling_behavior": 7,
+            "tokenomics_supply": 8,
+            "liquidity_market": 3,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 2,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "YELLOW",
+      "path": "banking-rails/YELLOW.md",
+      "versions": [
+        {
+          "commit": "8606beaf95d6f0ae6cf53c0d69162fb41f8a0194",
+          "committed_at_mst": "2026-11-16 09:12 MST",
+          "subject": "Add RLC, YELLOW, OM, ZKC v3 reports with Arkham evidence; ZKC selling 3->4 (Anchorage custody); RLC iExec Team funding; ranking 96",
+          "overall_score": 3.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 2,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 2,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ZAMA",
+      "path": "banking-rails/ZAMA.md",
+      "versions": [
+        {
+          "commit": "74c21068ad6d95f03ed72b9a86c0e6a36e782f97",
+          "committed_at_mst": "2026-11-16 09:03 MST",
+          "subject": "Add TRB, ZEN, ZKP, ZAMA v3 reports with Arkham evidence; ZAMA Upbit bridge correction; TRB 2026 pump-day Coinbase deposits; ranking 92",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 2,
+            "selling_behavior": 2,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ZANO",
+      "path": "banking-rails/ZANO.md",
+      "versions": [
+        {
+          "commit": "f7bbe5f9d2cc1696a9e3384d0c5441e12f7e8d18",
+          "committed_at_mst": "2026-11-16 09:41 MST",
+          "subject": "Add ZANO, WAN, XVG, SWCH v3 reports; SWCH selling not proven (4); ranking 112",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 2,
+            "regulatory": 4,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ZBCN",
+      "path": "banking-rails/ZBCN.md",
+      "versions": [
+        {
+          "commit": "c5e10a57ca949bc4fa594660a5954d0cbba911f3",
+          "committed_at_mst": "2026-11-15 06:07 MST",
+          "subject": "Madman's Battlefield Intelligence: public research tree with logo",
+          "overall_score": 4.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 3,
+            "insider_holdings": 4,
+            "selling_behavior": 5,
+            "tokenomics_supply": 6,
+            "liquidity_market": 7,
+            "product_development": 5,
+            "adoption_customers": 6,
+            "security_audits": 3,
+            "regulatory": 3,
+            "catalysts": 4
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-14"
+        },
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 4.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 3,
+            "insider_holdings": 4,
+            "selling_behavior": 3,
+            "tokenomics_supply": 6,
+            "liquidity_market": 7,
+            "product_development": 5,
+            "adoption_customers": 6,
+            "security_audits": 3,
+            "regulatory": 3,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "ticker": "ZEC",
+      "path": "banking-rails/ZEC.md",
+      "versions": [
+        {
+          "commit": "015584ef44991c8c8f895739075a8a583ffc3b54",
+          "committed_at_mst": "2026-11-16 07:44 MST",
+          "subject": "ZEC: correct post-NU7 subsidy (0.5208 ZEC/block, ZCG 0.0417) and lockbox estimate",
+          "overall_score": 4.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 6,
+            "insider_holdings": 7,
+            "selling_behavior": 5,
+            "tokenomics_supply": 7,
+            "liquidity_market": 7,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 7,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ZEN",
+      "path": "banking-rails/ZEN.md",
+      "versions": [
+        {
+          "commit": "74c21068ad6d95f03ed72b9a86c0e6a36e782f97",
+          "committed_at_mst": "2026-11-16 09:03 MST",
+          "subject": "Add TRB, ZEN, ZKP, ZAMA v3 reports with Arkham evidence; ZAMA Upbit bridge correction; TRB 2026 pump-day Coinbase deposits; ranking 92",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 5,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 5,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ZIG",
+      "path": "banking-rails/ZIG.md",
+      "versions": [
+        {
+          "commit": "395f117d3c3c8330a538cfcfafe909c5c7312ea5",
+          "committed_at_mst": "2026-11-16 06:46 MST",
+          "subject": "Add CARDS, ZIG, ADA, ROSE, SPA v3 reports with Arkham evidence; ranking 38 notes",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 3,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 4,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ZK",
+      "path": "banking-rails/ZK.md",
+      "versions": [
+        {
+          "commit": "a4bf82b11f9a8082fe9ec62864ffb223b10f8a1a",
+          "committed_at_mst": "2026-11-16 07:42 MST",
+          "subject": "Add ZK, XPL, S, KAIA, BCH v3 reports; ZEC Arkham labels; ranking 58 notes",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 2,
+            "tokenomics_supply": 4,
+            "liquidity_market": 6,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 4,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ZKC",
+      "path": "banking-rails/ZKC.md",
+      "versions": [
+        {
+          "commit": "8606beaf95d6f0ae6cf53c0d69162fb41f8a0194",
+          "committed_at_mst": "2026-11-16 09:12 MST",
+          "subject": "Add RLC, YELLOW, OM, ZKC v3 reports with Arkham evidence; ZKC selling 3->4 (Anchorage custody); RLC iExec Team funding; ranking 96",
+          "overall_score": 3.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ZKP",
+      "path": "banking-rails/ZKP.md",
+      "versions": [
+        {
+          "commit": "74c21068ad6d95f03ed72b9a86c0e6a36e782f97",
+          "committed_at_mst": "2026-11-16 09:03 MST",
+          "subject": "Add TRB, ZEN, ZKP, ZAMA v3 reports with Arkham evidence; ZAMA Upbit bridge correction; TRB 2026 pump-day Coinbase deposits; ranking 92",
+          "overall_score": 3.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 2,
+            "selling_behavior": 3,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue",
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "ZRO",
+      "path": "banking-rails/ZRO.md",
+      "versions": [
+        {
+          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
+          "committed_at_mst": "2026-11-15 18:37 MST",
+          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "overall_score": 5.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 3,
+            "selling_behavior": 5,
+            "tokenomics_supply": 4,
+            "liquidity_market": 9,
+            "product_development": 8,
+            "adoption_customers": 7,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-15"
+        }
+      ]
+    }
+  ]
+}

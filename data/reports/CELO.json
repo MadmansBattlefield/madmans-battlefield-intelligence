@@ -1,0 +1,508 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "CELO",
+  "name": "Celo",
+  "chain": "celo (Ethereum L2, OP Stack)",
+  "contract": "0x471ece3750da237f93b8e339c536989b8978a438",
+  "overall_score": 4.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 6,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 5,
+    "liquidity_market": 4,
+    "product_development": 7,
+    "adoption_customers": 6,
+    "security_audits": 6,
+    "regulatory": 4,
+    "catalysts": 5
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "funded_wallet_to_exchange_on_pump_day": "tripped",
+    "revenue_burn_not_active": "open",
+    "hack_exploit": "none_found"
+  },
+  "price_usd": 0.060813,
+  "price_source": "CoinGecko celo, 15 Nov 2026 6:47 AM MST",
+  "front_matter_extras": {
+    "not_to_be_confused_with": "stCELO, mCELO or Mento stablecoins (USDm, EURm)",
+    "chain_read_block": 82850691
+  },
+  "key_numbers": {
+    "price_usd": 0.060813,
+    "market_cap_text": "$37.09M",
+    "fdv_text": "$60.81M",
+    "volume_24h_text": "$4.36M",
+    "total_supply_text": "1,000,000,000"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/CELO.md",
+    "sha256": "2ea6d7d04ed45614ffb2accbbd974c1cede04aa75c98910d3025ed12e451c5e1",
+    "bytes": 36860,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko celo, 15 Nov 2026 6:47 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~10:50 AM MST",
+      "15 Nov 2026 ~10:40 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~10:40 AM MST (one label, read from the same address on other EVM chains; Arkham does not support Celo"
+  },
+  "evidence_links": [
+    {
+      "claim": "Community Fund → Safe `0x7023…` (CICLOPS pulled its allowance): 10.87M + 1.90M + 7.91M CELO",
+      "url": "tx 1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Community Fund → Safe `0x7023…` (CICLOPS pulled its allowance): 10.87M + 1.90M + 7.91M CELO",
+      "url": "tx 2",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Community Fund → Safe `0x7023…` (CICLOPS pulled its allowance): 10.87M + 1.90M + 7.91M CELO",
+      "url": "tx 3",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Community Fund → Safe `0x7023…` (CICLOPS pulled its allowance): 10.87M + 1.90M + 7.91M CELO",
+      "url": "Community Fund",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Community Fund → Safe `0x7023…` (CICLOPS pulled its allowance): 10.87M + 1.90M + 7.91M CELO",
+      "url": "CICLOPS multisig",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Pump-day deposits:** 300,000 (21 Aug) + 275,000 (24 Aug 2026) CELO from `0x7023…` into Binance deposit `0x1b20…`, each swept to Binance within ~21–23 min",
+      "url": "21 Aug send",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~10:50 AM MST"
+    },
+    {
+      "claim": "**Pump-day deposits:** 300,000 (21 Aug) + 275,000 (24 Aug 2026) CELO from `0x7023…` into Binance deposit `0x1b20…`, each swept to Binance within ~21–23 min",
+      "url": "21 Aug sweep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~10:50 AM MST"
+    },
+    {
+      "claim": "**Pump-day deposits:** 300,000 (21 Aug) + 275,000 (24 Aug 2026) CELO from `0x7023…` into Binance deposit `0x1b20…`, each swept to Binance within ~21–23 min",
+      "url": "24 Aug send",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~10:50 AM MST"
+    },
+    {
+      "claim": "**Pump-day deposits:** 300,000 (21 Aug) + 275,000 (24 Aug 2026) CELO from `0x7023…` into Binance deposit `0x1b20…`, each swept to Binance within ~21–23 min",
+      "url": "24 Aug sweep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~10:50 AM MST"
+    },
+    {
+      "claim": "**9,258,772 CELO from CICLOPS-funded Safes straight to the Binance deposit** (21 Aug – 6 Nov 2026)",
+      "url": "0x7023… transfers",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**9,258,772 CELO from CICLOPS-funded Safes straight to the Binance deposit** (21 Aug – 6 Nov 2026)",
+      "url": "0x2fb7… transfers",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**9,258,772 CELO from CICLOPS-funded Safes straight to the Binance deposit** (21 Aug – 6 Nov 2026)",
+      "url": "4 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**9,258,772 CELO from CICLOPS-funded Safes straight to the Binance deposit** (21 Aug – 6 Nov 2026)",
+      "url": "4 Nov 1.5M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**9,258,772 CELO from CICLOPS-funded Safes straight to the Binance deposit** (21 Aug – 6 Nov 2026)",
+      "url": "6 Nov",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x1b20…` is a Binance deposit address (36 senders, 100.06M in, swept to Binance)",
+      "url": "Celo Blockscout",
+      "kind": "other",
+      "tier": "A pattern + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x1b20…` is a Binance deposit address (36 senders, 100.06M in, swept to Binance)",
+      "url": "Arkham “Binance Deposit”",
+      "kind": "other",
+      "tier": "A pattern + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xf643…` is Binance (Blockscout \"Tether: Binance\" + Arkham \"Binance\")",
+      "url": "Celo Blockscout",
+      "kind": "other",
+      "tier": "2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xf643…` is Binance (Blockscout \"Tether: Binance\" + Arkham \"Binance\")",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x0E17…` / `0x2d88…` trade heavily with exchanges and Circle on other chains; no Arkham entity",
+      "url": "0x0E17…",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x0E17…` / `0x2d88…` trade heavily with exchanges and Circle on other chains; no Arkham entity",
+      "url": "0x2d88…",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x0E17…` / `0x2d88…` trade heavily with exchanges and Circle on other chains; no Arkham entity",
+      "url": "Arkham 0x0E17…",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x0E17…` / `0x2d88…` trade heavily with exchanges and Circle on other chains; no Arkham entity",
+      "url": "Arkham 0x2d88…",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Community Fund holds 77,858,505 CELO; Core Co. multisig 27,609,499",
+      "url": "Community Fund",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Community Fund holds 77,858,505 CELO; Core Co. multisig 27,609,499",
+      "url": "Core Co. Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "celo (Ethereum L2, OP Stack)",
+      "address": "0x0e17c9352cc02a1c9d6ae517153c91c2df587d19",
+      "url": "https://intel.arkm.com/explorer/address/0x0E17c9352CC02A1C9d6aE517153C91c2df587D19",
+      "kind": "address"
+    },
+    {
+      "chain": "celo (Ethereum L2, OP Stack)",
+      "address": "0x1b20b200a78c6068ce5ea96226d1b53e0a119202",
+      "url": "https://intel.arkm.com/explorer/address/0x1b20B200a78C6068cE5ea96226D1B53E0A119202",
+      "kind": "address"
+    },
+    {
+      "chain": "celo (Ethereum L2, OP Stack)",
+      "address": "0x2d880ccc788aaa6dbdeaad3b585f8c533c6be54c",
+      "url": "https://intel.arkm.com/explorer/address/0x2d880CCC788AAa6DbdEaAd3B585f8C533C6BE54C",
+      "kind": "address"
+    },
+    {
+      "chain": "celo (Ethereum L2, OP Stack)",
+      "address": "0x6247ffee0ca3f0e63fe3e160f4503d565fb11f09",
+      "url": "https://intel.arkm.com/explorer/address/0x6247ffEe0Ca3f0e63fe3e160f4503d565FB11F09",
+      "kind": "address"
+    },
+    {
+      "chain": "celo (Ethereum L2, OP Stack)",
+      "address": "0xf6436829cf96ea0f8bc49d300c536fcc4f84c4ed",
+      "url": "https://intel.arkm.com/explorer/address/0xf6436829Cf96EA0f8BC49d300c536FCC4f84C4ED",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "formal_announcement",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "funded_wallet_to_exchange_on_pump_day: tripped"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn",
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": false,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "The chain does about $70k a month in fees. Some of it now buys CELO, but it lands in a treasury that governance spends, not burns, so holders get little."
+  },
+  "attributions": [
+    {
+      "address": "0x1b20b200a78c6068ce5ea96226d1b53e0a119202",
+      "url": "https://intel.arkm.com/explorer/address/0x1b20B200a78C6068cE5ea96226D1B53E0A119202",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf6436829cf96ea0f8bc49d300c536fcc4f84c4ed",
+      "url": "https://intel.arkm.com/explorer/address/0xf6436829Cf96EA0f8BC49d300c536FCC4f84C4ED",
+      "label": "Tether: Binance",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0e17c9352cc02a1c9d6ae517153c91c2df587d19",
+      "url": "https://intel.arkm.com/explorer/address/0x0E17c9352CC02A1C9d6aE517153C91c2df587D19",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x2d880ccc788aaa6dbdeaad3b585f8c533c6be54c",
+      "url": "https://intel.arkm.com/explorer/address/0x2d880CCC788AAa6DbdEaAd3B585f8C533C6BE54C",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6247ffee0ca3f0e63fe3e160f4503d565fb11f09",
+      "url": "https://intel.arkm.com/explorer/address/0x6247ffEe0Ca3f0e63fe3e160f4503d565FB11F09",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Celo RPC `forno.celo.org`: Registry `0x…ce10` lookups, `balanceOf`, `totalSupply`, Safe owners/thresholds, Community Fund allowance; 15 Nov 2026, block ~82.85M",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Celo Blockscout API v2: CELO token transfers and transactions for the Community Fund, Core Co., Foundation, CICLOPS and onward wallets",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub `celo-org/governance` (CGPs 0200, 0224, 0231–0237, 0246, 0247, 0250, 0256, 0257; PR #848) and GitHub API for repo activity",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Celo forum: [CELOccelerate](https://forum.celo.org/t/celoccelerate-celo-tokenomics-proposal/13147) · [revenue transfers](https://forum.celo.org/t/initiating-ongoing-celo-chain-revenue-transactions/13494) · [25% burn FINAL](https://forum.celo.org/t/final-revenue-based-celo-burn-allocate-25-of-net-l2-sequencer-revenue-to-permanent-burn/13727) · [Core Co. Season 3](https://forum.celo.org/t/celo-core-co-season-3-funding-proposal/13565) · [Foundation Season 2 retro](https://forum.celo.org/t/season-2-celo-foundation-retrospective/13524) · [MiniPay Q3 2026](https://forum.celo.org/t/minipay-update-q3-2026/13926) · [H2 2026 roadmap](https://forum.celo.org/t/h1-2026-engineering-retro-h2-2026-roadmap/13528)",
+      "urls": [
+        "CELOccelerate",
+        "revenue transfers",
+        "25% burn FINAL",
+        "Core Co. Season 3",
+        "Foundation Season 2 retro",
+        "MiniPay Q3 2026",
+        "H2 2026 roadmap"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Mondo buyback page](https://mondo.celo.org/buyback) · [Mento reserve](https://reserve.mento.org)",
+      "urls": [
+        "Mondo buyback page",
+        "Mento reserve"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `celo` fees / revenue / chain TVL API, to 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DexScreener token-pairs API; OKX and Kraken public order books, 15 Nov 2026",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinGecko `celo` market data and 365 daily closes, 15 Nov 2026 6:47 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Consensus 2026 speaker page and Celo Core Co. LinkedIn post (CEO, merger date)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Celo Blockscout token transfers for `0x1b20B200…` (all 192 CELO transfers, 2023–2026) and `0x6247ffEe…`; Celo RPC `eth_getCode` / nonce for `0x1b20…`, `0xf643…`, `0x0E17…`, `0x2d88…`, `0x6247…`; 15 Nov 2026 ~10:50 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham Intelligence, read 15 Nov 2026 ~10:40 AM MST (signed-in account): `0x1b20…` \"Binance Deposit\", `0xf643…` \"Binance\" (Proof of Reserves), no entity for `0x0E17…`, `0x2d88…`, `0x6247…`. Arkham does not support Celo; all its labels and flows come from the same addresses on other EVM chains",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used (Celo Blockscout): Community Fund [`0xD533…`](https://celo.blockscout.com/address/0xD533Ca259b330c7A88f74E000a3FaEa2d63B7972) · Core Co. [`0xB0D0…`](https://celo.blockscout.com/address/0xB0D0780eDDC2FA35906C0b37B9b4Dc7583C3DbB0) · CICLOPS [`0xd71e…`](https://celo.blockscout.com/address/0xd71efa410B6EaAB0bAc3b515B393C886BE70F09E) · [`0x7023…`](https://celo.blockscout.com/address/0x702348eA947e7E4849105AC55c928fC0490F3658) · [`0x2fb7…`](https://celo.blockscout.com/address/0x2fb70f0585E23E16add864fa07E8220135238ce1) · [`0x1b20…`](https://celo.blockscout.com/address/0x1b20B200a78C6068cE5ea96226D1B53E0A119202) · [`0xf643…`](https://celo.blockscout.com/address/0xf6436829Cf96EA0f8BC49d300c536FCC4f84C4ED) · [`0x6247…`](https://celo.blockscout.com/address/0x6247ffEe0Ca3f0e63fe3e160f4503d565FB11F09) · [`0x0E17…`](https://celo.blockscout.com/address/0x0E17c9352CC02A1C9d6aE517153C91c2df587D19) · [`0x2d88…`](https://celo.blockscout.com/address/0x2d880CCC788AAa6DbdEaAd3B585f8C533C6BE54C) · Foundation [`0x0f29…`](https://celo.blockscout.com/address/0x0f293B1548a55a7ba9541d4c27442e1591B068C9)",
+      "urls": [
+        "`0xD533…`",
+        "`0xB0D0…`",
+        "`0xd71e…`",
+        "`0x7023…`",
+        "`0x2fb7…`",
+        "`0x1b20…`",
+        "`0xf643…`",
+        "`0x6247…`",
+        "`0x0E17…`",
+        "`0x2d88…`",
+        "`0x0f29…`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address pages used (EVM data from other chains): [0x1b20…](https://intel.arkm.com/explorer/address/0x1b20B200a78C6068cE5ea96226D1B53E0A119202) · [0xf643…](https://intel.arkm.com/explorer/address/0xf6436829Cf96EA0f8BC49d300c536FCC4f84C4ED) · [0x0E17…](https://intel.arkm.com/explorer/address/0x0E17c9352CC02A1C9d6aE517153C91c2df587D19) · [0x2d88…](https://intel.arkm.com/explorer/address/0x2d880CCC788AAa6DbdEaAd3B585f8C533C6BE54C) · [0x6247…](https://intel.arkm.com/explorer/address/0x6247ffEe0Ca3f0e63fe3e160f4503d565FB11F09)",
+      "urls": [
+        "0x1b20…",
+        "0xf643…",
+        "0x0E17…",
+        "0x2d88…",
+        "0x6247…"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Binance customer behind deposit address `0x1b20B200…` (and the deposit label itself, one source); owners of `0x0E17c935…`, `0x2d880CCC…`, `0x6247ffEe…`; 390M supply gap; Jello/Jovian dates; Celo Core Co. legal entity",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

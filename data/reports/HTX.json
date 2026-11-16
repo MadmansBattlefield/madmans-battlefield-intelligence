@@ -1,0 +1,316 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "HTX",
+  "name": "HTX DAO",
+  "chain": "tron",
+  "contract": "TUPM7K8REVzD2UdV4R5fe5M8XbnR2DdoJ6",
+  "overall_score": 4.0,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 5,
+    "foundation_team": 3,
+    "insider_holdings": 2,
+    "selling_behavior": 5,
+    "tokenomics_supply": 6,
+    "liquidity_market": 2,
+    "product_development": 4,
+    "adoption_customers": 4,
+    "security_audits": 3,
+    "regulatory": 4,
+    "catalysts": 5
+  },
+  "sections_passed": 1,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes, HTX exchange hot wallets and Heco Bridge, 22 Nov 2023 (~$113M)",
+    "mint_path_live": "no (fixed 999.99T; quarterly burns to a dead address)",
+    "team_wallet_to_exchange_during_pump": "none seen on the one pump day (7 Jul 2026), but the reserve is itself labelled an HTX exchange hot wallet and feeds other HTX hot wallets, so sales cannot be seen on-chain",
+    "treasury_in_single_key_wallets": "yes, 221.6T HTX (22% of max supply) in a 1-of-1 TRON account that Arkham labels an HTX exchange hot wallet (HTX Proof of Reserves)"
+  },
+  "price_usd": 1.47e-06,
+  "price_source": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 1.47e-06,
+    "market_cap_text": "$1.31B",
+    "volume_24h_text": "$64.1M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/HTX.md",
+    "sha256": "c997dad4fab51fcaaaebddf313808da8f0e6d258a0fd682ceab55189a98f780b",
+    "bytes": 14691,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~9:45 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Q3 burn 9.39T to the dead address",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn funded by the reserve wallet",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Reserve is an HTX hot wallet (Proof of Reserves)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Reserve holds 221.6T; 1-of-1",
+      "url": "address",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Earlier burns from the reserve",
+      "url": "Q1 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Earlier burns from the reserve",
+      "url": "Q4 2025",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Nov 2023 hack",
+      "url": "CNBC",
+      "kind": "other",
+      "tier": "B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Nov 2023 hack",
+      "url": "CertiK",
+      "kind": "other",
+      "tier": "B ×2",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "tron",
+      "address": "T9yD14Nj9j7xAB4dbGeiX9h8unkKLxmGkn",
+      "url": "https://tronscan.org/#/address/T9yD14Nj9j7xAB4dbGeiX9h8unkKLxmGkn",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "url": "https://tronscan.org/#/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu",
+      "url": "https://intel.arkm.com/explorer/address/TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TK86Qm97uM848dMk8G7xNbJB7zG1uW3h1n",
+      "url": "https://tronscan.org/#/address/TK86Qm97uM848dMk8G7xNbJB7zG1uW3h1n",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TUPM7K8REVzD2UdV4R5fe5M8XbnR2DdoJ6",
+      "url": "https://tronscan.org/#/address/TUPM7K8REVzD2UdV4R5fe5M8XbnR2DdoJ6",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none seen on the one pump day (7 Jul 2026), but the reserve is itself labelled an HTX exchange hot wallet and feeds other HTX hot wallets, so sales cannot be seen on-chain"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The burn is real (~4.9% of market cap a year) but funded from reserve. **5**."
+  },
+  "attributions": [
+    {
+      "address": "TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "url": "https://intel.arkm.com/explorer/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TK86Qm97uM848dMk8G7xNbJB7zG1uW3h1n",
+      "url": "https://intel.arkm.com/explorer/address/TK86Qm97uM848dMk8G7xNbJB7zG1uW3h1n",
+      "label": "reserve",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu",
+      "url": "https://intel.arkm.com/explorer/address/TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "T9yD14Nj9j7xAB4dbGeiX9h8unkKLxmGkn",
+      "url": "https://intel.arkm.com/explorer/address/T9yD14Nj9j7xAB4dbGeiX9h8unkKLxmGkn",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] TronGrid `gettransactioninfobyid`, `getaccount`, `balanceOf` and `/v1/accounts/.../transactions/trc20`, read 16 Nov 2026 ~9:45 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [HTX DAO Q3 2026 burn announcement](https://htxdao-1.gitbook.io/announcement-en/announcement-on-usdhtx-burn-by-htx-dao-for-q3-2026)",
+      "urls": [
+        "HTX DAO Q3 2026 burn announcement"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [HTX Square Q1 2026](https://square.htx.com/htx-dao-completes-q1-2026-htx-burn-two-year-supply-shrinks-over-11-as-deflation-accelerates/) · [TokenPost](https://www.tokenpost.com/news/business/33284) · [CNBC](https://www.cnbc.com/2023/11/23/htx-heco-chain-crypto-hack-115-million-stolen-so-far.html) · [CertiK](https://www.certik.com/blog/heco-bridge-exploit)",
+      "urls": [
+        "HTX Square Q1 2026",
+        "TokenPost",
+        "CNBC",
+        "CertiK"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `htx-dao` (16 Nov 2026 8:34 AM MST); Gate HTX/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): HTX: Hot Wallet (HTX Proof of Reserves) on `TDTo`, `TK86` and `TFTW`; [Black Hole Address](https://intel.arkm.com/explorer/address/T9yD14Nj9j7xAB4dbGeiX9h8unkKLxmGkn) (burn address, 111.14T HTX) on `T9yD`; `TUf6` unlabelled",
+      "urls": [
+        "Black Hole Address"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] TronGrid TRC20 transfers for `TK86`, `TKXe` and the burn address (Q2 2026 burn path)",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

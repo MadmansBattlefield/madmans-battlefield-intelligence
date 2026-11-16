@@ -1,0 +1,244 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "XDC",
+  "name": "XDC Network",
+  "chain": "xdc",
+  "contract": "native (XDC Network, chain id 50)",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 2,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 5,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none at protocol level (a 2024 application-layer exploit hit third-party CIFI and XSWAP pools)",
+    "mint_path_live": "yes, by design (uncapped; masternode rewards exceed the EIP-1559 burn)",
+    "team_wallet_to_exchange_during_pump": "none found (284.7M XDC from the largest reserve wallet reached FalconX in Oct 2022-Feb 2023, all on non-pump days); deeper hops not tested",
+    "treasury_in_single_key_wallets": "yes (the 12.45B XDC largest address and the other genesis reserve wallets are plain EOAs; the issuer says reserves sit in centralized custody with no published multisig policy)"
+  },
+  "price_usd": 0.02921423,
+  "price_source": "CoinGecko, 16 Nov 2026 7:13 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.02921423,
+    "market_cap_text": "$582.7M",
+    "fdv_text": "$1.112B",
+    "volume_24h_text": "$11.09M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/XDC.md",
+    "sha256": "fa216c96fb12e645aaf49b5171b5d3d8ce75aa107e130d8134ebce01081e5f95",
+    "bytes": 17599,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 7:13 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "`0xd778` funded with 14.95B (3 Dec 2020)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1B out of `0xd778` on 29 Oct 2026",
+      "url": "450M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1B out of `0xd778` on 29 Oct 2026",
+      "url": "450M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1B out of `0xd778` on 29 Oct 2026",
+      "url": "100M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xd778` → `0xb804` → FalconX",
+      "url": "in 110M",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xd778` → `0xb804` → FalconX",
+      "url": "out 110M",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xd778` → `0xb804` → FalconX",
+      "url": "out 110M",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xd778` → `0xb804` → FalconX",
+      "url": "out 62.7M",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $494.62 / 30d; TVL $1.93M",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocation, unlock caps, holder rights, DAO status",
+      "url": "Blockworks TTF",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found (284.7M XDC from the largest reserve wallet reached FalconX in Oct 2022-Feb 2023, all on non-pump days); deeper hops not tested"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "A ~$583M chain earning ~$6k a year in fees. **2, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API (chain id 50) `txlist` / `txlistinternal` for `0xf46e…`, `0xd778…`, `0xA488…`, `0x0C98…`, `0xb942…`, `0x74d4…` and their recipients; XDCScan top-accounts name tags [Tier B]; read 16 Nov 2026 ~10:00–10:30 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama XDC](https://defillama.com/chain/xdc) fees and TVL; CoinGecko `xdce-crowd-sale` (16 Nov 2026 7:13 AM MST); Gate XDC/USDT daily candles",
+      "urls": [
+        "DefiLlama XDC"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Blockworks Token Transparency filing](https://blockworks.com/token-transparency/filing/xdc-network) · [XDC Watch supply](https://xdcnetwork.org/supply/) · [XDC Watch rich list](https://xdcnetwork.org/rich-list/)",
+      "urls": [
+        "Blockworks Token Transparency filing",
+        "XDC Watch supply",
+        "XDC Watch rich list"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): **XDC Network is not supported.** Arkham's network list (Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain) has no XDC chain. Every wallet in this report is native XDC and none has an Ethereum row, so no Arkham labels apply",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Who controls `0xd778…` and the other genesis-funded wallets; what the 29 Oct 2026 transfers are for; the distributor network's exchange deposits",
+      "urls": [],
+      "date_read": "29 Oct 2026"
+    }
+  ]
+}

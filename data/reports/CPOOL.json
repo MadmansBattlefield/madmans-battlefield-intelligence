@@ -1,0 +1,724 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "CPOOL",
+  "name": "Clearpool (migrating to CLEAR)",
+  "chain": "ethereum",
+  "contract": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5 (ERC-20 CPOOL on Ethereum)",
+  "overall_score": 3.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 4,
+    "selling_behavior": 2,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "treasury_to_exchange_during_pump": "yes: the 17.17% Reserve allocation (Safe 0x55f6…) was moved to plain EOAs and, from EOA 0x9038…, sent 123.3M CPOOL (~$3.38M) to Bitget, Bybit, Kraken and KuCoin in the last 12 months, 34.6M (~$1.17M) on pump days (26/29/30 Dec 2025, 22/24 Sep 2026)",
+    "treasury_funded_wallet_to_exchange_during_pump": "yes: peel chains 0x9038 → fresh wallet(s) → Bitget 6, amounts passed through unchanged, often within minutes",
+    "unenforced_lockups": "yes: docs say team and treasury tokens sit in 'multi-sig cold storage', but every bucket Safe was emptied into plain EOAs on 24–31 Jan 2022",
+    "mint_path_live": "CPOOL no (fixed 1B). CLEAR yes: 428.6M new tokens at migration plus 1–4% a year, no max supply"
+  },
+  "price_usd": 0.02517,
+  "price_source": "CoinGecko, 16 Nov 2026 6:51 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.02517,
+    "fdv_text": "$25.17M",
+    "volume_24h_text": "$1.31M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/CPOOL.md",
+    "sha256": "6fe192095cc783e63173b9421073c6ce2fde3dd945f6029e742fcc77b69b9ffa",
+    "bytes": 28849,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:51 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Reserve 171.67M to Safe 0x55f6, then to EOA 0x60b0",
+      "url": "in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Reserve 171.67M to Safe 0x55f6, then to EOA 0x60b0",
+      "url": "out",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x60b0 → 0xc0a5 → 0x9038 (154.77M)",
+      "url": "6 Jun 2024",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x60b0 → 0xc0a5 → 0x9038 (154.77M)",
+      "url": "20 Mar 2025",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x9038 pump-day exchange deposits",
+      "url": "26 Dec",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x9038 pump-day exchange deposits",
+      "url": "29 Dec",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x9038 pump-day exchange deposits",
+      "url": "22 Sep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x9038 pump-day exchange deposits",
+      "url": "24 Sep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team Safe 150M in, 149,999,990 out to EOA",
+      "url": "in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team Safe 150M in, 149,999,990 out to EOA",
+      "url": "out",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2024 Reserve-funded pump-day deposits",
+      "url": "0x60b0→0x46cc",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2024 Reserve-funded pump-day deposits",
+      "url": "+112%",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2024 Reserve-funded pump-day deposits",
+      "url": "+90.9%",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocation and \"multi-sig cold storage\" wording; CLEAR supply",
+      "url": "docs tokenomics",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees ~$1.0M/yr; revenue $0",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x046667c768da32ef1e81a5cbbcd49103a207e72c",
+      "url": "https://etherscan.io/address/0x046667c768da32ef1e81a5cbbcd49103a207e72c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1a4812b71e1ccd651b8c8666b74181fd91954eb4",
+      "url": "https://etherscan.io/address/0x1a4812b71e1ccd651b8c8666b74181fd91954eb4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1e8642f1ff4da83dd5e6a8831189d4f8470ef15a",
+      "url": "https://etherscan.io/address/0x1e8642f1ff4da83dd5e6a8831189d4f8470ef15a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2383ee3d0ed91da61ac4b83594820df6c8ee6b41",
+      "url": "https://etherscan.io/address/0x2383ee3d0ed91da61ac4b83594820df6c8ee6b41",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x27ca78b34b8f1b176674f411130f9859da8ed874",
+      "url": "https://intel.arkm.com/explorer/address/0x27ca78b34b8f1b176674f411130f9859da8ed874",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x455011f2704c6e192b09d9cc1430299c70af3454",
+      "url": "https://etherscan.io/address/0x455011f2704c6e192b09d9cc1430299c70af3454",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x46cc29b97e40945f6cd5f79bd1fd9b8a2253f07b",
+      "url": "https://etherscan.io/address/0x46cc29b97e40945f6cd5f79bd1fd9b8a2253f07b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x48628c595b004c1a03ca616878fef010f752fefc",
+      "url": "https://etherscan.io/address/0x48628c595b004c1a03ca616878fef010f752fefc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x512a816d43aa3801d04b3f687895d62d9366c15b",
+      "url": "https://etherscan.io/address/0x512a816d43aa3801d04b3f687895d62d9366c15b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5200f539478f58d9aea962095ba3b16b5e550e00",
+      "url": "https://etherscan.io/address/0x5200f539478f58d9aea962095ba3b16b5e550e00",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x55f638da67e1c911cb9d9b03b16128461b1769d7",
+      "url": "https://etherscan.io/address/0x55f638da67e1c911cb9d9b03b16128461b1769d7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5972bda688fdfc6ed2e09b5f0e34fb04873b22a6",
+      "url": "https://etherscan.io/address/0x5972bda688fdfc6ed2e09b5f0e34fb04873b22a6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x60b07a990ab29e1ef333ea037c1ee0bfd7cc2572",
+      "url": "https://etherscan.io/address/0x60b07a990ab29e1ef333ea037c1ee0bfd7cc2572",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6352c2a2c39e1998dc6481dac74922729e2ca675",
+      "url": "https://etherscan.io/address/0x6352c2a2c39e1998dc6481dac74922729e2ca675",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6358d84906bba6404518eee69c1aec769cf443cf",
+      "url": "https://etherscan.io/address/0x6358d84906bba6404518eee69c1aec769cf443cf",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
+      "url": "https://etherscan.io/token/0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x687cf2c5f938caae0bd95e222ed30ad0db5f7ced",
+      "url": "https://etherscan.io/address/0x687cf2c5f938caae0bd95e222ed30ad0db5f7ced",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x702997fd3448346d21cede91bf40beb804764ac5",
+      "url": "https://etherscan.io/address/0x702997fd3448346d21cede91bf40beb804764ac5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x71ed220d03a505d231540d5b26069dc6d7da8aa3",
+      "url": "https://etherscan.io/address/0x71ed220d03a505d231540d5b26069dc6d7da8aa3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x76ffd8d49468092786cedfb69e5153c802dd99da",
+      "url": "https://etherscan.io/address/0x76ffd8d49468092786cedfb69e5153c802dd99da",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8662790291e1554608b3491b835baa8664ea865c",
+      "url": "https://etherscan.io/address/0x8662790291e1554608b3491b835baa8664ea865c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9038101003c80ef389c8abb9493a2a2cee42636e",
+      "url": "https://etherscan.io/address/0x9038101003c80ef389c8abb9493a2a2cee42636e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9129f9c97d29d4668fb6c440e2e7b9886f1eee8a",
+      "url": "https://etherscan.io/address/0x9129f9c97d29d4668fb6c440e2e7b9886f1eee8a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x97e4f18a84a7504e003c353eac6e913756e820f0",
+      "url": "https://etherscan.io/address/0x97e4f18a84a7504e003c353eac6e913756e820f0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9f2a5909e771c57a2aa49c95f5982fc75a69f7be",
+      "url": "https://etherscan.io/address/0x9f2a5909e771c57a2aa49c95f5982fc75a69f7be",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc7f9bfb34f3f48e72252bf13cbd6abda70704389",
+      "url": "https://etherscan.io/address/0xc7f9bfb34f3f48e72252bf13cbd6abda70704389",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdafba3975d8d55e138763125c0841a494dc9f4c3",
+      "url": "https://etherscan.io/address/0xdafba3975d8d55e138763125c0841a494dc9f4c3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdd6521159a8ea416f7712a7a98222a196a497849",
+      "url": "https://etherscan.io/address/0xdd6521159a8ea416f7712a7a98222a196a497849",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe0308d5681afe01a8ad1cc0b8c937db699e204af",
+      "url": "https://etherscan.io/address/0xe0308d5681afe01a8ad1cc0b8c937db699e204af",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe0d98119b82161e3a57957a5bae318a62e816fa3",
+      "url": "https://intel.arkm.com/explorer/address/0xe0d98119b82161e3a57957a5bae318a62e816fa3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe95a685e67dadb390b53900521723407314c088b",
+      "url": "https://etherscan.io/address/0xe95a685e67dadb390b53900521723407314c088b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf61e622d977c1e572a0ea6c4b28b17fa6b9d65ec",
+      "url": "https://etherscan.io/address/0xf61e622d977c1e572a0ea6c4b28b17fa6b9d65ec",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_to_exchange_during_pump: yes: the 17.17% Reserve allocation (Safe 0x55f6…) was moved to plain EOAs and, from EOA 0x9038…, sent 123.3M CPOOL (~$3.38M) to Bitget, Bybit, Kraken and KuCoin in the last 12 months, 34.6M (~$1.17M) on pump days (26/29/30 Dec 2025, 22/24 Sep 2026)",
+      "treasury_funded_wallet_to_exchange_during_pump: yes: peel chains 0x9038 → fresh wallet(s) → Bitget 6, amounts passed through unchanged, often within minutes"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "buyback"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The origination fee goes to the treasury. Holders got about $0.55M of buybacks in two years, then nothing for two more. Score **2**, which **trips the Revenue gate**."
+  },
+  "attributions": [
+    {
+      "address": "0x9f2a5909e771c57a2aa49c95f5982fc75a69f7be",
+      "url": "https://intel.arkm.com/explorer/address/0x9f2a5909e771c57a2aa49c95f5982fc75a69f7be",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x76ffd8d49468092786cedfb69e5153c802dd99da",
+      "url": "https://intel.arkm.com/explorer/address/0x76ffd8d49468092786cedfb69e5153c802dd99da",
+      "label": "CPOOL Team Wallet",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe0308d5681afe01a8ad1cc0b8c937db699e204af",
+      "url": "https://intel.arkm.com/explorer/address/0xe0308d5681afe01a8ad1cc0b8c937db699e204af",
+      "label": "CPOOL Team Wallet",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x455011f2704c6e192b09d9cc1430299c70af3454",
+      "url": "https://intel.arkm.com/explorer/address/0x455011f2704c6e192b09d9cc1430299c70af3454",
+      "label": "CPOOL Team Wallet",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x55f638da67e1c911cb9d9b03b16128461b1769d7",
+      "url": "https://intel.arkm.com/explorer/address/0x55f638da67e1c911cb9d9b03b16128461b1769d7",
+      "label": "CPOOL Team Wallet",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9129f9c97d29d4668fb6c440e2e7b9886f1eee8a",
+      "url": "https://intel.arkm.com/explorer/address/0x9129f9c97d29d4668fb6c440e2e7b9886f1eee8a",
+      "label": "CPOOL Team Wallet",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x1e8642f1ff4da83dd5e6a8831189d4f8470ef15a",
+      "url": "https://intel.arkm.com/explorer/address/0x1e8642f1ff4da83dd5e6a8831189d4f8470ef15a",
+      "label": "CPOOL Team Wallet",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x2383ee3d0ed91da61ac4b83594820df6c8ee6b41",
+      "url": "https://intel.arkm.com/explorer/address/0x2383ee3d0ed91da61ac4b83594820df6c8ee6b41",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8662790291e1554608b3491b835baa8664ea865c",
+      "url": "https://intel.arkm.com/explorer/address/0x8662790291e1554608b3491b835baa8664ea865c",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc7f9bfb34f3f48e72252bf13cbd6abda70704389",
+      "url": "https://intel.arkm.com/explorer/address/0xc7f9bfb34f3f48e72252bf13cbd6abda70704389",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x97e4f18a84a7504e003c353eac6e913756e820f0",
+      "url": "https://intel.arkm.com/explorer/address/0x97e4f18a84a7504e003c353eac6e913756e820f0",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf61e622d977c1e572a0ea6c4b28b17fa6b9d65ec",
+      "url": "https://intel.arkm.com/explorer/address/0xf61e622d977c1e572a0ea6c4b28b17fa6b9d65ec",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x687cf2c5f938caae0bd95e222ed30ad0db5f7ced",
+      "url": "https://intel.arkm.com/explorer/address/0x687cf2c5f938caae0bd95e222ed30ad0db5f7ced",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x71ed220d03a505d231540d5b26069dc6d7da8aa3",
+      "url": "https://intel.arkm.com/explorer/address/0x71ed220d03a505d231540d5b26069dc6d7da8aa3",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x27ca78b34b8f1b176674f411130f9859da8ed874",
+      "url": "https://intel.arkm.com/explorer/address/0x27ca78b34b8f1b176674f411130f9859da8ed874",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6358d84906bba6404518eee69c1aec769cf443cf",
+      "url": "https://intel.arkm.com/explorer/address/0x6358d84906bba6404518eee69c1aec769cf443cf",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe0d98119b82161e3a57957a5bae318a62e816fa3",
+      "url": "https://intel.arkm.com/explorer/address/0xe0d98119b82161e3a57957a5bae318a62e816fa3",
+      "label": "[`0x46cc…`](https://intel.arkm.com/explorer/address/0x46cc29b97e40945f6cd5f79bd1",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe95a685e67dadb390b53900521723407314c088b",
+      "url": "https://intel.arkm.com/explorer/address/0xe95a685e67dadb390b53900521723407314c088b",
+      "label": "[`0x46cc…`](https://intel.arkm.com/explorer/address/0x46cc29b97e40945f6cd5f79bd1",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x46cc29b97e40945f6cd5f79bd1fd9b8a2253f07b",
+      "url": "https://intel.arkm.com/explorer/address/0x46cc29b97e40945f6cd5f79bd1fd9b8a2253f07b",
+      "label": "[`0x46cc…`](https://intel.arkm.com/explorer/address/0x46cc29b97e40945f6cd5f79bd1",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x48628c595b004c1a03ca616878fef010f752fefc",
+      "url": "https://intel.arkm.com/explorer/address/0x48628c595b004c1a03ca616878fef010f752fefc",
+      "label": "[`0x4862`](https://intel.arkm.com/explorer/address/0x48628c595b004c1a03ca616878f",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": true,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move.",
+      "An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API: `tokentx` for the genesis Safe and ~200 traced wallets (two BFS passes, depth 3 and 2), `getsourcecode` (all genesis wallets are `GnosisSafeProxy`), `eth_getCode` and `balanceOf` via public RPC; Etherscan token-holders page; read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags: \"Bitget 6\", \"KuCoin 20\", \"KuCoin Deposit\", \"ByBit Deposit\", \"Bybit: Wallet 57\", \"Gate Deposit\", \"Uniswap V3: CPOOL-USDC\"",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [docs.clearpool.finance](https://docs.clearpool.finance/clearpool) (tokenomics, CPOOL → CLEAR migration, buybacks, contracts & audits, roadmap) · [Snapshot vote](https://snapshot.org/#/s:clearpoolfinance.eth/proposal/0x392438d143ee5114724940cdc67a44ecf5098c066fc74d56ed860808512d9612) · [GitHub](https://github.com/clearpool-finance)",
+      "urls": [
+        "docs.clearpool.finance",
+        "Snapshot vote",
+        "GitHub"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees/revenue/TVL; CoinGecko `clearpool` (16 Nov 2026 6:51 AM MST); KuCoin CPOOL-USDT daily candles for every pump test",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Clearpool Finance labels on the genesis and bucket Safes, `0xc7f9`, `0x97e4` and the deployer `0xdafb`; Hex Trust on `0x46cc`; Bitget, Bybit, KuCoin and Upbit deposit labels; Upbit hot wallet `0x76ff` (links in Holdings and Selling). Dates come from Etherscan, not Arkham's relative ages",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owners of `0x9038`, `0x6352` and the client behind the Hex Trust wallet `0x46cc`; the Safe signers; whether any relay is a disclosed market maker; which Safe maps to Ecosystem 10.15% and Liquidity 15%",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

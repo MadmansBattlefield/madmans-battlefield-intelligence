@@ -1,0 +1,442 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "POLYX",
+  "name": "Polymesh",
+  "chain": "polymesh",
+  "contract": "native (Polymesh mainnet balances; SS58 prefix 12)",
+  "overall_score": 3.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 4,
+    "insider_holdings": 3,
+    "selling_behavior": 2,
+    "tokenomics_supply": 4,
+    "liquidity_market": 4,
+    "product_development": 6,
+    "adoption_customers": 2,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no max supply; staking issuance up to 140M POLYX/yr (docs); supply grew 1.2187B -> 1.3398B (+9.9%) in the last 12 months",
+    "team_wallet_to_exchange_during_pump": "YES by pattern: Polymesh Association-listed and genesis-identity wallets (plus 2HXnHMiy..., funded by Association wallets) sent 187.3M POLYX in 139 transfers into memo-deposit address 2F8aakk..., 32.9M of it on pump days (34 transfers), 59.3M in the last 12 months; exchange name [Unverified]",
+    "treasury_selling": "not disclosed; Association assets incl. POLYX sold to Polymath (Jun 2025), Polymath acquired by Nasdaq-listed TruGolf (Oct 2026)",
+    "fee_capture": "fees go to block-producing operators, not holders; 4,780 POLYX of fees in 365 days"
+  },
+  "price_usd": 0.02545,
+  "price_source": "CoinGecko, 16 Nov 2026 5:10 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.02545,
+    "market_cap_text": "$34.1M",
+    "fdv_text": "$34.1M",
+    "volume_24h_text": "$472k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/POLYX.md",
+    "sha256": "ebe1f0a2b15a296bd19bf26040fb2d2f67fa566e460ab6691c5075e12424d9f1",
+    "bytes": 27199,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:10 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Association lists 7 wallets + treasury/rewards pots as its own",
+      "url": "supply page source",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Association lists 7 wallets + treasury/rewards pots as its own",
+      "url": "`2FEWmT…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Association lists 7 wallets + treasury/rewards pots as its own",
+      "url": "`2DbjUi…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Identity 1 = Polymesh genesis council seat",
+      "url": "chain spec",
+      "kind": "other",
+      "tier": "A · current owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Identity 1 = Polymesh genesis council seat",
+      "url": "`2FTmkf…`",
+      "kind": "other",
+      "tier": "A · current owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "187.3M POLYX in 139 transfers into `2F8aak…`; 32.9M on pump days; 59.3M in last 12 months",
+      "url": "`2F8aak…`",
+      "kind": "other",
+      "tier": "A chain · exchange [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "187.3M POLYX in 139 transfers into `2F8aak…`; 32.9M on pump days; 59.3M in last 12 months",
+      "url": "24 Oct 2023",
+      "kind": "other",
+      "tier": "A chain · exchange [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "187.3M POLYX in 139 transfers into `2F8aak…`; 32.9M on pump days; 59.3M in last 12 months",
+      "url": "25 Mar 2024",
+      "kind": "other",
+      "tier": "A chain · exchange [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "187.3M POLYX in 139 transfers into `2F8aak…`; 32.9M on pump days; 59.3M in last 12 months",
+      "url": "22 Nov 2024",
+      "kind": "other",
+      "tier": "A chain · exchange [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "187.3M POLYX in 139 transfers into `2F8aak…`; 32.9M on pump days; 59.3M in last 12 months",
+      "url": "12 Sep 2025",
+      "kind": "other",
+      "tier": "A chain · exchange [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "187.3M POLYX in 139 transfers into `2F8aak…`; 32.9M on pump days; 59.3M in last 12 months",
+      "url": "15 Sep 2026",
+      "kind": "other",
+      "tier": "A chain · exchange [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`2F8aak…` is a memo deposit address sweeping to `2CoSRa…`",
+      "url": "`2F8aak…`",
+      "kind": "other",
+      "tier": "A chain · name [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`2F8aak…` is a memo deposit address sweeping to `2CoSRa…`",
+      "url": "`2CoSRa…`",
+      "kind": "other",
+      "tier": "A chain · name [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`2HXnHM…` got 52.5M from Association wallets in 2026 and sent 46.5M to `2F8aak…`",
+      "url": "`2HXnHM…`",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`2HXnHM…` got 52.5M from Association wallets in 2026 and sent 46.5M to `2F8aak…`",
+      "url": "26 Oct 2026",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees 4,779.69 POLYX in 365 days; fees go to operators",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Supply +9.9% in 12 months; no max",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Polymath bought Association assets incl. POLYX (Jun 2025)",
+      "url": "AnalytixInsight release",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TruGolf acquired Polymath; $4.2M revenue 2025; salary paid in POLYX",
+      "url": "8-K Ex. 99.1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TruGolf acquired Polymath; $4.2M revenue 2025; salary paid in POLYX",
+      "url": "8-K Ex. 10.4",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TruGolf acquired Polymath; $4.2M revenue 2025; salary paid in POLYX",
+      "url": "Polymath",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "polymesh",
+      "address": "2CjgV6Mp6HwdhwWYPZFaZYGhDe74EhyYEGrqoaHoR6sBUGVX",
+      "url": "https://polymesh.subscan.io/account/2CjgV6Mp6HwdhwWYPZFaZYGhDe74EhyYEGrqoaHoR6sBUGVX",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2CoSRaWBjmxEWikG1FbzXe63G9DGayCpUnnVPkJu5V14roua",
+      "url": "https://polymesh.subscan.io/account/2CoSRaWBjmxEWikG1FbzXe63G9DGayCpUnnVPkJu5V14roua",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2DbjUiD2vUgPaWyFgmNnbWXGBRS8QxG5yy71Vhd35WJePw6Y",
+      "url": "https://polymesh.subscan.io/account/2DbjUiD2vUgPaWyFgmNnbWXGBRS8QxG5yy71Vhd35WJePw6Y",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2DzB6Lg4WdUWXC6Pt95L3aqisDVS92M6MuCvfAkbVBQLFUkb",
+      "url": "https://polymesh.subscan.io/account/2DzB6Lg4WdUWXC6Pt95L3aqisDVS92M6MuCvfAkbVBQLFUkb",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2EJz9EwEQ31jmKSQwQXH4uudNDbnJU1hK7cYU7jQiaKYaeuy",
+      "url": "https://polymesh.subscan.io/account/2EJz9EwEQ31jmKSQwQXH4uudNDbnJU1hK7cYU7jQiaKYaeuy",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2EcsMGNDthpDiDRcngm3JUFQE2TaitjDSLtX8HV86tfQbsZN",
+      "url": "https://polymesh.subscan.io/account/2EcsMGNDthpDiDRcngm3JUFQE2TaitjDSLtX8HV86tfQbsZN",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2EvQQsqdCSiHGUXeTqp5F1i76GFBheTUG7rLdRXk3qAcLroV",
+      "url": "https://polymesh.subscan.io/account/2EvQQsqdCSiHGUXeTqp5F1i76GFBheTUG7rLdRXk3qAcLroV",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2F5eK4mfXfMRYmfYAsvqnakTDVn7CciBKtmY3b5yA5vJbjkK",
+      "url": "https://polymesh.subscan.io/account/2F5eK4mfXfMRYmfYAsvqnakTDVn7CciBKtmY3b5yA5vJbjkK",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2F8aakkWMbuLqFD1Zc2q3Bss88TTbeazX2MEoCfeUMqk6wo4",
+      "url": "https://polymesh.subscan.io/account/2F8aakkWMbuLqFD1Zc2q3Bss88TTbeazX2MEoCfeUMqk6wo4",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2FEWmTkH9czpKJSnnFxJhMaKHaM6H7k57PDSqJgqifwfBvLh",
+      "url": "https://polymesh.subscan.io/account/2FEWmTkH9czpKJSnnFxJhMaKHaM6H7k57PDSqJgqifwfBvLh",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2FT35TKtSvjrKPhwzSbHE2aqWnEYiMubrjxj9pZUQDM9yHMa",
+      "url": "https://polymesh.subscan.io/account/2FT35TKtSvjrKPhwzSbHE2aqWnEYiMubrjxj9pZUQDM9yHMa",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2FTmkfcG6qxGWZ3MY5L9ctNyeJ6rauRfMEtknKTjXz1yom4q",
+      "url": "https://polymesh.subscan.io/account/2FTmkfcG6qxGWZ3MY5L9ctNyeJ6rauRfMEtknKTjXz1yom4q",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2FoTUsfoAUSw3yVfwuq6NzWegD1ak1nxTsgjFtU5VtR9C5f2",
+      "url": "https://polymesh.subscan.io/account/2FoTUsfoAUSw3yVfwuq6NzWegD1ak1nxTsgjFtU5VtR9C5f2",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2HXnHMiy3nSCd12kJHaWpVirdqNDRnSSAQef8Mm76QrRHCup",
+      "url": "https://polymesh.subscan.io/account/2HXnHMiy3nSCd12kJHaWpVirdqNDRnSSAQef8Mm76QrRHCup",
+      "kind": "address"
+    },
+    {
+      "chain": "polymesh",
+      "address": "2HexZQdNn9KziSkEek6E1Y68gUdP69JFs8szQQyUvYBX7HMq",
+      "url": "https://polymesh.subscan.io/account/2HexZQdNn9KziSkEek6E1Y68gUdP69JFs8szQQyUvYBX7HMq",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: YES by pattern: Polymesh Association-listed and genesis-identity wallets (plus 2HXnHMiy..., funded by Association wallets) sent 187.3M POLYX in 139 transfers into memo-deposit address 2F8aakk..., 32.9M of it on pump days (34 transfers), 59.3M in the last 12 months; exchange name [Unverified]"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "burn",
+      "buyback"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "The chain earns almost nothing, and what it earns goes to block producers. Polymath's $4.2M of SaaS revenue belongs to a company (now inside TruGolf), not to POLYX holders. **1, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Polymesh mainnet RPC (`mainnet-rpc.polymesh.network`): `Balances.TotalIssuance` at blocks 21,184,603 and 26,425,941; full `System.Account` scan (7,602 accounts, sum = issuance), 16 Nov 2026 ~5:40 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Polymesh middleware indexer (`mainnet-graphql.polymesh.network`): identities `0x01…`–`0x05…`, account→identity links, `polyxTransactions` for all genesis-identity accounts, `2HXnHM…`, `2F8aak…`; fee, asset, instruction and extrinsic counts, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Polymesh Association [circulating-supply page source](https://raw.githubusercontent.com/PolymeshAssociation/PolymeshAssociation.github.io/main/circulating-supply/index.html) (address list)",
+      "urls": [
+        "circulating-supply page source"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Polymesh docs: [fees](https://developers.polymesh.network/polyx/fees/) · [tokenomics](https://developers.polymesh.network/polyx/tokenomics/) · [governance](https://developers.polymesh.network/governance/) · [chain spec](https://github.com/PolymeshAssociation/Polymesh/blob/develop/src/chain_spec/mainnet_runtime.rs) · [8.1.3 blog](https://polymesh.network/blog/polymesh-8-1-3-mainnet-upgrade) · [tokenomics blog (2022)](https://polymesh.network/blog/understanding-polyx-tokenomics)",
+      "urls": [
+        "fees",
+        "tokenomics",
+        "governance",
+        "chain spec",
+        "8.1.3 blog",
+        "tokenomics blog (2022"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] SEC: [TruGolf 8-K Ex. 99.1 (18 Aug 2026)](https://www.sec.gov/Archives/edgar/data/1857086/000149315226038904/ex99-1.htm) · [8-K Ex. 10.4 (9 Oct 2026)](https://www.sec.gov/Archives/edgar/data/1857086/000149315226046435/ex10-4.htm); [Polymath closing announcement](https://www.polymath.network/articles/trugolf-completes-acquisition-of-polymath)",
+      "urls": [
+        "TruGolf 8-K Ex. 99.1 (18 Aug 2026",
+        "8-K Ex. 10.4 (9 Oct 2026",
+        "Polymath closing announcement"
+      ],
+      "date_read": "18 Aug 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [AnalytixInsight release on the Polymesh asset purchase (27 Jun 2025)](https://www.newsfilecorp.com/release/257215/AnalytixInsight-Inc.-Provides-Update-to-Reverse-Takeover-Transaction-with-Polymath-Research-Inc.)",
+      "urls": [
+        "AnalytixInsight release on the Polymesh asset purchase (27 Jun 2025"
+      ],
+      "date_read": "27 Jun 2025"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `polymesh` market data and tickers (16 Nov 2026 5:10 AM MST); Binance POLYX/USDT daily closes (from 17 Oct 2022)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] which exchange runs `2F8aak…`/`2CoSRa…`; who owns `2DzB6L…` and `2HXnHM…`; who controls the genesis identity #1 accounts after the 2025 sale; Polymesh Labs' full wallet list. **Not covered by Arkham:** Arkham does not support Polymesh (checked 16 Nov 2026)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

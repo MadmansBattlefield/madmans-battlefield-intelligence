@@ -1,0 +1,220 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SEI",
+  "name": "Sei",
+  "chain": "sei",
+  "contract": "native (denom usei)",
+  "overall_score": 4.0,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 6,
+    "product_development": 7,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "foundation_wallets_unpublished": "tripped",
+    "fees_under_100k_per_year": "tripped"
+  },
+  "price_usd": 0.03923,
+  "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {
+    "chain_read_height": 243333375
+  },
+  "key_numbers": {
+    "price_usd": 0.03923,
+    "market_cap_text": "$264.4M",
+    "fdv_text": "$392.7M",
+    "volume_24h_text": "$31.09M"
+  },
+  "last_updated": "2026-11-14",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SEI.md",
+    "sha256": "b0916326b87d845f7fc473792dce1bf4f88007e6f434d3a3064231259ee8a0fd",
+    "bytes": 12679,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:05 AM MST",
+      "2026-11-14"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:05 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Fees $61,511 in 12 months; $1,640 in 30 days",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Foundation 9% (900M) fully unlocked at launch; team 20% + investors 20% vest monthly",
+      "url": "Sei tokenomics blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Foundation/team wallets not published; Arkham has no Sei Foundation or Sei Labs entity",
+      "url": "Arkham “Sei” entity (2 deployer addresses, $673",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "On-chain supply 9.247B SEI; ~753M still to mint to Aug 2033",
+      "url": "bank supply",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "On-chain supply 9.247B SEI; ~753M still to mint to Aug 2033",
+      "url": "mint params",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Community pool 0.51 SEI",
+      "url": "community pool",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": []
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Effectively no fee income: ~$61k in a year on a $264M market cap. (DefiLlama may undercount some activity, but nothing primary shows a materially higher number.)"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Sei REST (`rest.sei-apis.com`): [bank supply](https://rest.sei-apis.com/cosmos/bank/v1beta1/supply), [staking pool](https://rest.sei-apis.com/cosmos/staking/v1beta1/pool), [community pool](https://rest.sei-apis.com/cosmos/distribution/v1beta1/community_pool), validators, [`seichain/mint` params](https://rest.sei-apis.com/seichain/mint/v1beta1/params); 14 Nov 2026 ~12:27 PM MST",
+      "urls": [
+        "bank supply",
+        "staking pool",
+        "community pool",
+        "`seichain/mint` params"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama fees `sei`](https://defillama.com/chain/sei), 14 Nov 2026",
+      "urls": [
+        "DefiLlama fees `sei`"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [CoinGecko `sei-network`](https://www.coingecko.com/en/coins/sei-network) price and 365-day daily closes, 14 Nov 2026 12:12 PM MST",
+      "urls": [
+        "CoinGecko `sei-network`"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub [`sei-protocol/sei-chain`](https://github.com/sei-protocol/sei-chain) · [Sei tokenomics blog](https://blog.sei.io/seis-future-proofed-tokenomics-setting-the-scene-sei-is-an-open-source-permissionless-layer-1-blockchain-specifically-designed-in-response-to-the-fundamental-use-case-of-blockchains-the/) · [SIP-6 post](https://blog.sei.io/introducing-sip-6-upgrade-sei-to-autobahn-consensus/)",
+      "urls": [
+        "`sei-protocol/sei-chain`",
+        "Sei tokenomics blog",
+        "SIP-6 post"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Blockworks disclosures · Tokenomics.com · TokenPost",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): **no Sei Foundation or Sei Labs entity**. The only \"Sei\" entity ([Arkham entity “Sei”](https://intel.arkm.com/explorer/entity/sei)) is 2 contract-deployer addresses holding $673, not the foundation or team treasury. The unpublished foundation/team wallets (49% allocation) and any exchange deposits around the 20–30 Sep 2026 pumps stay unlabelled. No score change",
+      "urls": [
+        "Arkham entity “Sei”"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Foundation directors; ETF filings; team/investor vesting end date",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

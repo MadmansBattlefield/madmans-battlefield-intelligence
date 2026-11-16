@@ -1,0 +1,204 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "TLOS",
+  "name": "Telos",
+  "chain": "telos",
+  "contract": "native (Telos, an Antelope/EOSIO chain with Telos EVM); ERC20 0x193f4a4a6ea24102f49b931deeeb931f6e32405d",
+  "overall_score": 3.0,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 3,
+    "insider_holdings": 4,
+    "selling_behavior": 3,
+    "tokenomics_supply": 4,
+    "liquidity_market": 3,
+    "product_development": 4,
+    "adoption_customers": 2,
+    "security_audits": 5,
+    "regulatory": 4,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found in the review window",
+    "mint_path_live": "yes: token contract max supply 1B vs 467.6M issued; issuance is controlled by the eosio system account",
+    "team_wallet_to_exchange_during_pump": "yes: the Foundation-funded expenses account telosliquidi sent 500k TLOS to Bitget (13 Jan 2026, +14.4%) and 200k to Bitrue (7 May 2026, +70.7%)",
+    "treasury_in_single_key_wallet": "the Foundation account tf can be moved by any one of three controlling accounts (threshold 1)"
+  },
+  "price_usd": 0.01266,
+  "price_source": "CoinGecko, 16 Nov 2026 7:56 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.01266,
+    "market_cap_text": "$5.73M",
+    "fdv_text": "$5.92M",
+    "volume_24h_text": "$307k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/TLOS.md",
+    "sha256": "fd6df1569120f840f5e666c05410d9efc2a7947cfb22b8bb6aae6876e1af1e07",
+    "bytes": 13422,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 7:56 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~7:35 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Supply 467.6M of 1B max",
+      "url": "currency stats",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $3.5k / 12 months",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`tf` → `telosliquidi` 3.68M",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day exchange deposits",
+      "url": "Bitget 13 Jan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day exchange deposits",
+      "url": "Bitrue 7 May",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Earlier exchange deposits",
+      "url": "HTX 24 Sep 2025",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Earlier exchange deposits",
+      "url": "account history",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation-linked balances",
+      "url": "top holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes: the Foundation-funded expenses account telosliquidi sent 500k TLOS to Bitget (13 Jan 2026, +14.4%) and 200k to Bitrue (7 May 2026, +70.7%)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "**1 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Telos chain API (`get_info`, `get_currency_stats`, `get_currency_balance`, `get_account`) and Hyperion history (`get_actions` for the Foundation, reserve, grant and expense accounts; `get_transaction` for each linked tx, all `executed: true`); `get_top_holders`; read 16 Nov 2026 ~7:58–8:40 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `telos` fees and chain TVL; CoinGecko `telos` (16 Nov 2026 7:56 AM MST) and 365-day closes for pump days",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "Exchange ownership of `bitgetdetlos`, `bitruewallet`, `htxtlosmjuxn`, `kucoin4telos`, `mexcmexctlos`, `gateioiotlos`, `probitandtls` is inferred from the account names and numeric deposit memos [Tier B]",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, network list read 16 Nov 2026 ~7:35 AM MST (signed-in account): **Telos (native or EVM) is not supported.** Arkham's network selector lists only Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain. No Arkham labels were available for this report",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

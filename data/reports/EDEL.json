@@ -1,0 +1,637 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "EDEL",
+  "name": "Edel Finance",
+  "chain": "base",
+  "contract": null,
+  "overall_score": 2.5,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 4,
+    "insider_holdings": 3,
+    "selling_behavior": 3,
+    "tokenomics_supply": 3,
+    "liquidity_market": 4,
+    "product_development": 3,
+    "adoption_customers": 1,
+    "security_audits": 1,
+    "regulatory": 4,
+    "catalysts": 2
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "tripped_twice",
+    "official_liquidity_pulled": "tripped",
+    "founder_or_director_exit": "none_found",
+    "team_cluster_wallet_outflow_to_sales_12_13_Nov_2026": "found_not_pump_days"
+  },
+  "price_usd": 0.01082,
+  "price_source": "CoinGecko, 14 Nov 2026 9:08 AM MST",
+  "front_matter_extras": {
+    "contract_base": "0xFb31f85A8367210B2e4Ed2360D2dA9Dc2D2Ccc95"
+  },
+  "key_numbers": {
+    "price_usd": 0.01082,
+    "market_cap_text": "$7.65M",
+    "fdv_text": "$10.82M",
+    "volume_24h_text": "$708,941"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/EDEL.md",
+    "sha256": "6fd9a891473778483eddb42ddade3064959c1ecd5f6011ea69e964d7453c328d",
+    "bytes": 32066,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 9:08 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:20 AM MST",
+      "15 Nov 2026 ~11:05 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:05 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "**12 Nov 2026 13:15 UTC:** `0x0c3e` sends 11,507,480 EDEL to contract `0xba2b…`",
+      "url": "tx `0x4d2937f6…`",
+      "kind": "other",
+      "tier": "A (+B label)",
+      "date_read": "15 Nov 2026 ~12:10 PM MST"
+    },
+    {
+      "claim": "**12 Nov 2026 13:15 UTC:** `0x0c3e` sends 11,507,480 EDEL to contract `0xba2b…`",
+      "url": "0x0c3e",
+      "kind": "other",
+      "tier": "A (+B label)",
+      "date_read": "15 Nov 2026 ~12:10 PM MST"
+    },
+    {
+      "claim": "**12 Nov 2026 13:15 UTC:** `0x0c3e` sends 11,507,480 EDEL to contract `0xba2b…`",
+      "url": "Arkham (no entity, Whale/Deployer tags",
+      "kind": "other",
+      "tier": "A (+B label)",
+      "date_read": "15 Nov 2026 ~12:10 PM MST"
+    },
+    {
+      "claim": "13:43 UTC: +5,635,377 EDEL from contract `0xe99f…` into `0xba2b…`",
+      "url": "tx `0x595f3166…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13:43 UTC: +5,635,377 EDEL from contract `0xe99f…` into `0xba2b…`",
+      "url": "0xe99f…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13:47 UTC: `0xba2b…` → `0x6008…` **17,142,857 EDEL** (≈ $300k at ~$0.0177)",
+      "url": "tx `0xf9221f66…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13:47 UTC: `0xba2b…` → `0x6008…` **17,142,857 EDEL** (≈ $300k at ~$0.0177)",
+      "url": "0x6008…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "15:15 UTC: `0x9494…` → `0x887d…` 4.3M; 15:21 UTC: `0x6008…` → `0x887d…` 7,002,867 EDEL; `0x887d…` sold 11.30M into the old official pool `0x566b…` in ~1M swaps (15:17–15:27 UTC: the 4.3M first, then the 7.0M)",
+      "url": "tx `4.3M`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "15:15 UTC: `0x9494…` → `0x887d…` 4.3M; 15:21 UTC: `0x6008…` → `0x887d…` 7,002,867 EDEL; `0x887d…` sold 11.30M into the old official pool `0x566b…` in ~1M swaps (15:17–15:27 UTC: the 4.3M first, then the 7.0M)",
+      "url": "tx `7.0M hop`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "15:15 UTC: `0x9494…` → `0x887d…` 4.3M; 15:21 UTC: `0x6008…` → `0x887d…` 7,002,867 EDEL; `0x887d…` sold 11.30M into the old official pool `0x566b…` in ~1M swaps (15:17–15:27 UTC: the 4.3M first, then the 7.0M)",
+      "url": "tx `1`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "15:15 UTC: `0x9494…` → `0x887d…` 4.3M; 15:21 UTC: `0x6008…` → `0x887d…` 7,002,867 EDEL; `0x887d…` sold 11.30M into the old official pool `0x566b…` in ~1M swaps (15:17–15:27 UTC: the 4.3M first, then the 7.0M)",
+      "url": "tx `2`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "15:15 UTC: `0x9494…` → `0x887d…` 4.3M; 15:21 UTC: `0x6008…` → `0x887d…` 7,002,867 EDEL; `0x887d…` sold 11.30M into the old official pool `0x566b…` in ~1M swaps (15:17–15:27 UTC: the 4.3M first, then the 7.0M)",
+      "url": "tx `last`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "15:15 UTC: `0x9494…` → `0x887d…` 4.3M; 15:21 UTC: `0x6008…` → `0x887d…` 7,002,867 EDEL; `0x887d…` sold 11.30M into the old official pool `0x566b…` in ~1M swaps (15:17–15:27 UTC: the 4.3M first, then the 7.0M)",
+      "url": "pool",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13:51–14:40 UTC: 3.0M via `0xf2e5…` to exchange-scale `0x4e3a…` (label Not found)",
+      "url": "tx `1M in`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13:51–14:40 UTC: 3.0M via `0xf2e5…` to exchange-scale `0x4e3a…` (label Not found)",
+      "url": "tx `1M out`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13:51–14:40 UTC: 3.0M via `0xf2e5…` to exchange-scale `0x4e3a…` (label Not found)",
+      "url": "tx `2M in`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13:51–14:40 UTC: 3.0M via `0xf2e5…` to exchange-scale `0x4e3a…` (label Not found)",
+      "url": "tx `2M out`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13:51–14:40 UTC: 3.0M via `0xf2e5…` to exchange-scale `0x4e3a…` (label Not found)",
+      "url": "0x4e3a…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "14:18–15:21 UTC: 1.14M via `0x5f9d…` to exchange-like `0x7ff8…`",
+      "url": "tx `0.5M in`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "14:18–15:21 UTC: 1.14M via `0x5f9d…` to exchange-like `0x7ff8…`",
+      "url": "tx `0.5M out`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "14:18–15:21 UTC: 1.14M via `0x5f9d…` to exchange-like `0x7ff8…`",
+      "url": "0x7ff8…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "14:51 UTC: 6.0M to contract `0x9494…`; 4.3M went to `0x887d…` at 15:15 UTC, the rest in ~100k pieces",
+      "url": "tx `0x06160dab…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "14:51 UTC: 6.0M to contract `0x9494…`; 4.3M went to `0x887d…` at 15:15 UTC, the rest in ~100k pieces",
+      "url": "tx `4.3M`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "14:51 UTC: 6.0M to contract `0x9494…`; 4.3M went to `0x887d…` at 15:15 UTC, the rest in ~100k pieces",
+      "url": "0x9494…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13 Nov 11:58 UTC: `0x0c3e` sends last 3,842,840 EDEL to `0xd365…`; `0xd365…` → `0xd103…` 7.41M, sold into the `0x0c3e`-controlled new pool",
+      "url": "tx `0x0c3e → 0xd365`",
+      "kind": "other",
+      "tier": "A (+B)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13 Nov 11:58 UTC: `0x0c3e` sends last 3,842,840 EDEL to `0xd365…`; `0xd365…` → `0xd103…` 7.41M, sold into the `0x0c3e`-controlled new pool",
+      "url": "tx `0xe99f → 0xd365`",
+      "kind": "other",
+      "tier": "A (+B)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13 Nov 11:58 UTC: `0x0c3e` sends last 3,842,840 EDEL to `0xd365…`; `0xd365…` → `0xd103…` 7.41M, sold into the `0x0c3e`-controlled new pool",
+      "url": "tx `0xd365 → 0xd103`",
+      "kind": "other",
+      "tier": "A (+B)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13 Nov 11:58 UTC: `0x0c3e` sends last 3,842,840 EDEL to `0xd365…`; `0xd365…` → `0xd103…` 7.41M, sold into the `0x0c3e`-controlled new pool",
+      "url": "tx `1M`",
+      "kind": "other",
+      "tier": "A (+B)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13 Nov 11:58 UTC: `0x0c3e` sends last 3,842,840 EDEL to `0xd365…`; `0xd365…` → `0xd103…` 7.41M, sold into the `0x0c3e`-controlled new pool",
+      "url": "tx `0.5M`",
+      "kind": "other",
+      "tier": "A (+B)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "13 Nov 11:58 UTC: `0x0c3e` sends last 3,842,840 EDEL to `0xd365…`; `0xd365…` → `0xd103…` 7.41M, sold into the `0x0c3e`-controlled new pool",
+      "url": "Arkham 0xd365",
+      "kind": "other",
+      "tier": "A (+B)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "12 Nov 22:17–22:26 UTC (3:17–3:26 PM MST): official LP pulled by `0x0c3e` after lock expiry and re-parked in pool `0xb01c…` it controls (~98.6% of LP, unlocked)",
+      "url": "tx `withdraw 1`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "13–15 Nov 2026"
+    },
+    {
+      "claim": "12 Nov 22:17–22:26 UTC (3:17–3:26 PM MST): official LP pulled by `0x0c3e` after lock expiry and re-parked in pool `0xb01c…` it controls (~98.6% of LP, unlocked)",
+      "url": "tx `re-deposit 1`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "13–15 Nov 2026"
+    },
+    {
+      "claim": "12 Nov 22:17–22:26 UTC (3:17–3:26 PM MST): official LP pulled by `0x0c3e` after lock expiry and re-parked in pool `0xb01c…` it controls (~98.6% of LP, unlocked)",
+      "url": "tx `withdraw 2`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "13–15 Nov 2026"
+    },
+    {
+      "claim": "12 Nov 22:17–22:26 UTC (3:17–3:26 PM MST): official LP pulled by `0x0c3e` after lock expiry and re-parked in pool `0xb01c…` it controls (~98.6% of LP, unlocked)",
+      "url": "tx `re-deposit 2`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "13–15 Nov 2026"
+    },
+    {
+      "claim": "12 Nov 22:17–22:26 UTC (3:17–3:26 PM MST): official LP pulled by `0x0c3e` after lock expiry and re-parked in pool `0xb01c…` it controls (~98.6% of LP, unlocked)",
+      "url": "new pool",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "13–15 Nov 2026"
+    },
+    {
+      "claim": "Launch tx took 602.39M EDEL (60.24%) behind a 50% levy",
+      "url": "tx `0x66505d60…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "12 Nov 2026"
+    },
+    {
+      "claim": "Launch tx took 602.39M EDEL (60.24%) behind a 50% levy",
+      "url": "launch pool",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "12 Nov 2026"
+    },
+    {
+      "claim": "30 Jun 2026 lending exploit (~$403k bad debt)",
+      "url": "tx `0xe2320086…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "12 Nov 2026"
+    },
+    {
+      "claim": "Arkham exchange panel for `0x0c3e`: Kraken $12.0k + MEXC $7.48k deposits, Bitunix $19.8k withdrawal (tokens/chains not shown)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "B (one source)",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "Hedgey vesting holds 293.66M EDEL (29.4%)",
+      "url": "Hedgey contract",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "12 Nov 2026"
+    },
+    {
+      "claim": "Hedgey vesting holds 293.66M EDEL (29.4%)",
+      "url": "EDEL holdings",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "12 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "base",
+      "address": "0x0c3ea09ed6798bff724588e07eaca8278ad64e07",
+      "url": "https://intel.arkm.com/explorer/address/0x0c3eA09eD6798BFF724588e07EACA8278AD64E07",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x2cde9919e81b20b4b33dd562a48a84b54c48f00c",
+      "url": "https://basescan.org/address/0x2CDE9919e81b20B4B33DD562a48a84b54C48F00C",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x4e3ae00e8323558fa5cac04b152238924aa31b60",
+      "url": "https://basescan.org/address/0x4e3ae00e8323558fa5cac04b152238924aa31b60",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x566bee7ef7b39f29d150ab3be6b6242c17cc5a31",
+      "url": "https://basescan.org/address/0x566bee7ef7b39f29d150ab3be6b6242c17cc5a31",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x5f9d5a2d855ff9414d2f3671a9400bce50cabf03",
+      "url": "https://basescan.org/address/0x5f9d5a2d855ff9414d2f3671a9400bce50cabf03",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x6008a44fa5160256f4cf36bf17d50d9fac1cf019",
+      "url": "https://basescan.org/address/0x6008a44fa5160256f4cf36bf17d50d9fac1cf019",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x7ff8bbf9c8ab106db589e7863fb100525f61cce5",
+      "url": "https://basescan.org/address/0x7ff8bbf9c8ab106db589e7863fb100525f61cce5",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x859bc5fe903dfe749fe3331512ff7297d2e924f3",
+      "url": "https://basescan.org/address/0x859bc5fe903dfe749fe3331512ff7297d2e924f3",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x887dab59f0b45df625b2fa5becd2141f092865fa",
+      "url": "https://basescan.org/address/0x887dab59f0b45df625b2fa5becd2141f092865fa",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x94942fd66dbf788bb98b6c83727c160fc6d82421",
+      "url": "https://basescan.org/address/0x94942fd66dbf788bb98b6c83727c160fc6d82421",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x97fcf52883266c822538e34af7764773c1323c06",
+      "url": "https://basescan.org/address/0x97fcf52883266c822538e34af7764773c1323c06",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x9a1f4408252d524419c2d8ccb4845e47799c1376",
+      "url": "https://basescan.org/address/0x9a1f4408252d524419c2d8ccb4845e47799c1376",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xb01cc306bc018535aa0425efa0cf735008100a33",
+      "url": "https://basescan.org/address/0xb01cc306bc018535aa0425efa0cf735008100a33",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xba2b4157c594d32c0ea402472ca3cc896e0b3ef2",
+      "url": "https://basescan.org/address/0xba2b4157c594d32c0ea402472ca3cc896e0b3ef2",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xd103b9963b404da18ea6389c56250d4cd0618d4b",
+      "url": "https://basescan.org/address/0xd103b9963b404da18ea6389c56250d4cd0618d4b",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xd3655c7f473358e731c4b11dd884f664b0f7f0a9",
+      "url": "https://basescan.org/address/0xd3655c7f473358e731C4B11DD884F664b0F7f0A9",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xe99f8380a3821f523dee97ec42f94b0fc8040730",
+      "url": "https://basescan.org/address/0xe99f8380a3821f523dee97ec42f94b0fc8040730",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xf2e5a903e7622e7262bf5b533875a234232dabdd",
+      "url": "https://basescan.org/address/0xf2e5a903e7622e7262bf5b533875a234232dabdd",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xfb31f85a8367210b2e4ed2360d2da9dc2d2ccc95",
+      "url": "https://basescan.org/address/0xFb31f85A8367210B2e4Ed2360D2dA9Dc2D2Ccc95",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_cluster_wallet_outflow_to_sales_12_13_Nov_2026: found_not_pump_days"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The business earned about $4.8k of revenue in its whole life, and none of it flows to the token."
+  },
+  "attributions": [
+    {
+      "address": "0x0c3ea09ed6798bff724588e07eaca8278ad64e07",
+      "url": "https://intel.arkm.com/explorer/address/0x0c3eA09eD6798BFF724588e07EACA8278AD64E07",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd3655c7f473358e731c4b11dd884f664b0f7f0a9",
+      "url": "https://intel.arkm.com/explorer/address/0xd3655c7f473358e731C4B11DD884F664b0F7f0A9",
+      "label": "2d ago",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Base RPC reads and receipts (launch, Hedgey, UNCX, LP migration), 12–13 Nov 2026",
+      "urls": [],
+      "date_read": "13 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [MiCAR white paper](https://assets.edel.finance/docs/2026-01-14-White-paper-Edel-FFG-R2MQ3JKN7.xhtml) · [GLEIF](https://search.gleif.org/#/record/529900E9GA8R99VOHV41)",
+      "urls": [
+        "MiCAR white paper",
+        "GLEIF"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [docs.edel.finance](https://docs.edel.finance) · [terms](https://docs.edel.finance/legal/terms)",
+      "urls": [
+        "docs.edel.finance",
+        "terms"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Official X @edeldotfinance (statuses 2072154468058022033, 2074732155201097928, 2087168780669538679, 2120902181104611616, 2120908165168422923, 1989009678702088366)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `edel` fees/revenue/TVL · Merkl campaign API",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Swiss SHAB / Zefix; UK Companies House 11443641",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `edel`, 14 Nov 2026 9:08 AM MST",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] DL News 27 Nov 2025 and Cointelegraph (Bubblemaps sniping claim; on-chain first-60-block count is 19.18%, not 30%)",
+      "urls": [],
+      "date_read": "27 Nov 2025"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Base RPC (`base-rpc.publicnode.com`, `mainnet.base.org`): EDEL Transfer logs to/from [`0x0c3e`](https://basescan.org/address/0x0c3eA09eD6798BFF724588e07EACA8278AD64E07), [`0xba2b…`](https://basescan.org/address/0xba2b4157c594d32c0ea402472ca3cc896e0b3ef2), [`0x6008…`](https://basescan.org/address/0x6008a44fa5160256f4cf36bf17d50d9fac1cf019), [`0xd3655c…`](https://basescan.org/address/0xd3655c7f473358e731C4B11DD884F664b0F7f0A9), [`0xd103…`](https://basescan.org/address/0xd103b9963b404da18ea6389c56250d4cd0618d4b), [`0xe99f…`](https://basescan.org/address/0xe99f8380a3821f523dee97ec42f94b0fc8040730) and the next hop (re-pulled 15 Nov 2026 ~12:10 PM MST for exact tx hashes, all linked inline); `balanceOf`, `eth_getCode`, nonces; 12–15 Nov 2026, read 15 Nov 2026 ~11:20 AM MST",
+      "urls": [
+        "`0x0c3e`",
+        "`0xba2b…`",
+        "`0x6008…`",
+        "`0xd3655c…`",
+        "`0xd103…`",
+        "`0xe99f…`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): [`0x0c3e` address page](https://intel.arkm.com/explorer/address/0x0c3eA09eD6798BFF724588e07EACA8278AD64E07) no entity, tags Whale / Contract Deployer / ERC20 Token Deployer, 10.222M EDEL, exchange panel Kraken $12.0k + MEXC $7.48k deposits, Bitunix $19.8k withdrawal. Limits: relative ages only; ~30-day exchange window, all-time is Enterprise-locked; first page of 2,141 transfers read",
+      "urls": [
+        "`0x0c3e` address page"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Investors; partner claims; whether the 12 Nov route was a theft or a team move; owners of `0x4e3ae00e…` and `0x7ff8bbf9…`; 63 TGE-day recipients",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

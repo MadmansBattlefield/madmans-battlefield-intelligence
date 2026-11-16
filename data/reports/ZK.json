@@ -1,0 +1,337 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ZK",
+  "name": "ZKsync",
+  "chain": "zksync-era",
+  "contract": "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 6,
+    "insider_holdings": 4,
+    "selling_behavior": 2,
+    "tokenomics_supply": 4,
+    "liquidity_market": 6,
+    "product_development": 6,
+    "adoption_customers": 3,
+    "security_audits": 4,
+    "regulatory": 6,
+    "catalysts": 3
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes: 13 Apr 2025 a compromised 1-of-1 admin key minted 111.9M unclaimed airdrop ZK (~$5M); 90% returned 23 Apr 2025",
+    "mint_path_live": "yes: 15.50B of the 21B cap minted; the docs say supply can be raised by a protocol governance upgrade; capped minters keep minting",
+    "team_wallet_to_exchange_during_pump": "yes: a Foundation-linked wallet sent 44.7M ZK to a Binance deposit on a +18.3% day (25 Apr 2025); a wallet funded weekly by Foundation Treasury 2 sent 252.2M ZK (~$14.7M) to a Binance deposit, 53.8M of it on pump days incl. 4-6 Nov 2025 (+117% to +161%)",
+    "treasury_selling": "Foundation has minted its whole 4.18B ecosystem allocation; no wallet-level treasury report published"
+  },
+  "price_usd": 0.00788,
+  "price_source": "CoinGecko, 16 Nov 2026 6:58 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00788,
+    "market_cap_text": "$86.8M",
+    "fdv_text": "$165.4M",
+    "volume_24h_text": "$5.9M",
+    "total_supply_text": "15,503,229,713"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ZK.md",
+    "sha256": "e70131d6864f2f4d1d13b89f5a234ee75ebcc53a1608a1652cabce914259fe8a",
+    "bytes": 20902,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:58 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~7:35 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:35 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Supply cap, allocation, governance-raisable supply",
+      "url": "ZK token docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Supply cap, allocation, governance-raisable supply",
+      "url": "token",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation and Matter Labs minters fully minted",
+      "url": "Foundation minter",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation and Matter Labs minters fully minted",
+      "url": "Matter Labs minter",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation and Matter Labs minters fully minted",
+      "url": "addresses",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation treasuries",
+      "url": "Blockworks",
+      "kind": "other",
+      "tier": "B + A chain",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation treasuries",
+      "url": "T1",
+      "kind": "other",
+      "tier": "B + A chain",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation treasuries",
+      "url": "T2",
+      "kind": "other",
+      "tier": "B + A chain",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury 2 funded `0x1091…` during the Nov 2025 spike",
+      "url": "4 Nov",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury 2 funded `0x1091…` during the Nov 2025 spike",
+      "url": "5 Nov",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x1091…` → Binance on pump days",
+      "url": "2 Nov",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x1091…` → Binance on pump days",
+      "url": "4 Nov",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x1091…` → Binance on pump days",
+      "url": "5 Nov",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x1091…` → Binance on pump days",
+      "url": "6 Nov",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x1091…` → Binance on pump days",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xe640…` → Binance 44.7M on a +18.3% day",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A chain",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xe640…` → Binance 44.7M on a +18.3% day",
+      "url": "sweep to Binance 83",
+      "kind": "other",
+      "tier": "A chain",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "No holder revenue",
+      "url": "DefiLlama revenue",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Apr 2025 key compromise",
+      "url": "incident report",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Apr 2025 key compromise",
+      "url": "mint tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0xbc1653bd3829dfec575afc3816d4899cd103b51c",
+      "url": "https://etherscan.io/address/0xbc1653bd3829dfec575afc3816d4899cd103b51c",
+      "kind": "address"
+    },
+    {
+      "chain": "zksync-era",
+      "address": "0xc8538a03282eae418237264a3957070efa679da4",
+      "url": "https://intel.arkm.com/explorer/address/0xc8538a03282eae418237264a3957070efa679da4",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes: a Foundation-linked wallet sent 44.7M ZK to a Binance deposit on a +18.3% day (25 Apr 2025); a wallet funded weekly by Foundation Treasury 2 sent 252.2M ZK (~$14.7M) to a Binance deposit, 53.8M of it on pump days incl. 4-6 Nov 2025 (+117% to +161%)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Sequencer revenue is tiny against an $87M cap, and none of it goes to ZK. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0xc8538a03282eae418237264a3957070efa679da4",
+      "url": "https://intel.arkm.com/explorer/address/0xc8538a03282eae418237264a3957070efa679da4",
+      "label": "were available for this report",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] ZKsync Era block-explorer API and RPC: ZK `totalSupply()`, `CAP()`/`minted()` on the capped minters, `balanceOf`; full ZK transfers for Treasury 1, Treasury 2, `0x1054…`, `0xe640…`, `0xc3c1…`, `0x1091…`, the Binance deposits and other recipients; receipts (status 1) for every linked tx, 16 Nov 2026 ~7:10–7:40 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] ZK Nation docs: [ZK token](https://docs.zknation.io/zk-token/zk-token) · [contract addresses](https://docs.zknation.io/zk-nation/zksync-governance-contract-addresses) · [governance procedures](https://docs.zknation.io/zksync-governance-procedures/zksync-governance-procedures-overview); [incident report](https://www.zksync.io/blog/incident-report-compromised-admin-key); ZK Nation forum threads linked above",
+      "urls": [
+        "ZK token",
+        "contract addresses",
+        "governance procedures",
+        "incident report"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Blockworks transparency filing](https://blockworks.com/token-transparency/filing/zksync) (Foundation treasury addresses); Etherscan Ethereum labels for exchange addresses reused on Era",
+      "urls": [
+        "Blockworks transparency filing"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:35 AM MST (signed-in account): **ZKsync Era is not supported.** The network selector lists only Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain. The first address looked up, `0xc853…9da4`, showed no assets and no transfers ([Arkham](https://intel.arkm.com/explorer/address/0xc8538a03282eae418237264a3957070efa679da4)). No Arkham labels were available for this report",
+      "urls": [
+        "Arkham"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `zksync` market data (16 Nov 2026 6:58 AM MST); Binance ZKUSDT daily closes; DefiLlama `zksync-era` fees, revenue and TVL",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] identity of `0x1091…`, `0xe640…`, `0xc3c1…` and the other large Foundation-route recipients; investor/team vesting recipients' selling. Arkham does not support ZKsync Era (checked 16 Nov 2026)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

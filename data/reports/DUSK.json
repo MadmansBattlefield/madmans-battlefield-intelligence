@@ -1,0 +1,276 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "DUSK",
+  "name": "Dusk",
+  "chain": "dusk (native) / ethereum (ERC20)",
+  "contract": "0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
+  "overall_score": 4.0,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 6,
+    "insider_holdings": 5,
+    "selling_behavior": 5,
+    "tokenomics_supply": 4,
+    "liquidity_market": 4,
+    "product_development": 6,
+    "adoption_customers": 2,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes, protocol emission (~62.6M DUSK a year, ~10% of supply) to stakers and a 10% development fund",
+    "team_wallet_to_exchange_during_pump": "not testable on the native chain; largest ERC20 EOAs are Binance / Bitvavo withdrawals, not team",
+    "treasury_in_single_key_wallets": "unknown (development-fund wallet not published)"
+  },
+  "price_usd": 0.062035,
+  "price_source": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.062035,
+    "market_cap_text": "$38.1M",
+    "volume_24h_text": "$2.49M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/DUSK.md",
+    "sha256": "a54b51198cf40904ab41aab16a32e6673d5050c4ad67873cef3588a249232bbe",
+    "bytes": 12154,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~10:45 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Live supply 614.75M",
+      "url": "supply.dusk.network",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Emission schedule; 10% dev fund",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day 1.6M Bitvavo cold → Bitvavo (exchange-internal)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Migration contract 115.2M",
+      "url": "contract",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "dusk (native) / ethereum (ERC20)",
+      "address": "0x36b8e0b938c0172c20e14cc32e7f0e51dcf1084f",
+      "url": "https://intel.arkm.com/explorer/address/0x36B8e0B938c0172c20e14cc32E7f0e51dCf1084F",
+      "kind": "address"
+    },
+    {
+      "chain": "dusk (native) / ethereum (ERC20)",
+      "address": "0x8787bbe53920b33411f7c9a91ac321af1ea1aa2d",
+      "url": "https://intel.arkm.com/explorer/address/0x8787BbE53920B33411F7C9A91Ac321AF1ea1aa2d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x26c971a130376299c2b6ef136affb93e46126486",
+      "url": "https://etherscan.io/address/0x26c971A130376299C2B6EF136AFfB93E46126486",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x36b8e0b938c0172c20e14cc32e7f0e51dcf1084f",
+      "url": "https://etherscan.io/address/0x36B8e0B938c0172c20e14cc32E7f0e51dCf1084F",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
+      "url": "https://etherscan.io/address/0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaf3db0b61a3db3ce0badd127499a5b337f7936b8",
+      "url": "https://etherscan.io/address/0xAf3db0b61a3db3Ce0BAdD127499A5B337f7936b8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb0a3a2b60e969afd26561429aa4c1444c57e4411",
+      "url": "https://etherscan.io/address/0xb0A3A2B60E969AFD26561429Aa4c1444C57E4411",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe75df3c68906f6adbe17e87d4e22509fde24c339",
+      "url": "https://etherscan.io/address/0xE75Df3C68906f6AdbE17e87d4e22509Fde24C339",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xed731c285683bedf3b6c640c7714642747a1e10a",
+      "url": "https://etherscan.io/address/0xed731C285683bEDF3B6C640C7714642747a1E10a",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": false,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not testable on the native chain; largest ERC20 EOAs are Binance / Bitvavo withdrawals, not team"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "no revenue to speak of. **1 (hard gate).**"
+  },
+  "attributions": [
+    {
+      "address": "0x36b8e0b938c0172c20e14cc32e7f0e51dcf1084f",
+      "url": "https://intel.arkm.com/explorer/address/0x36B8e0B938c0172c20e14cc32E7f0e51dCf1084F",
+      "label": "DUSK Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8787bbe53920b33411f7c9a91ac321af1ea1aa2d",
+      "url": "https://intel.arkm.com/explorer/address/0x8787BbE53920B33411F7C9A91Ac321AF1ea1aa2d",
+      "label": "DUSK Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Dusk node GraphQL (`nodes.dusk.network`) block sample, read 16 Nov 2026 ~10:45 AM MST; [supply.dusk.network](https://supply.dusk.network)",
+      "urls": [
+        "supply.dusk.network"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Dusk tokenomics](https://docs.dusk.network/learn/tokenomics/) · [developer update 2–9 Nov 2026](https://docs.dusk.network/updates/developer/2026-11-02-to-2026-11-09/)",
+      "urls": [
+        "Dusk tokenomics",
+        "developer update 2–9 Nov 2026"
+      ],
+      "date_read": "9 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout / Etherscan v2 for the ERC20 holders and transfers",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CoinMarketCap DUSK news](https://coinmarketcap.com/cmc-ai/dusk/latest-updates/)",
+      "urls": [
+        "CoinMarketCap DUSK news"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): DUSKMigration and DuskMainnetOnramp contracts; Bitvavo Cold Wallet on 0xb0A3; DUSK Whale tags on the Binance-funded holders. Arkham does not cover the native Dusk chain",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `dusk-network` (16 Nov 2026 8:34 AM MST); Gate DUSK/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

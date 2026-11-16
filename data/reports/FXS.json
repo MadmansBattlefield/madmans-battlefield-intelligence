@@ -1,0 +1,471 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "FXS",
+  "name": "Frax (prev. FXS)",
+  "chain": "ethereum",
+  "contract": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+  "overall_score": 4.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 4,
+    "foundation_team": 6,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 3,
+    "product_development": 7,
+    "adoption_customers": 5,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 3,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes, by governance: FIP-441 (passed 5 Feb 2026) caps supply at 143M and pre-mints 43M FRAX for team-run budgets, FPIS redemptions and the legacy-FRAX wind-down; on-chain execution of the pre-mint not confirmed",
+    "team_wallet_to_exchange_during_pump": "small: the Comptroller Safe swapped 13,794 WFRAX to frxUSD via CoW Protocol on 21 Jan 2026 (+46% over 5 days); its 469k WFRAX of 2026 sales are otherwise steady monthly spends",
+    "treasury_in_single_key_wallets": "no (the Comptroller is a 3-of-5 Safe)"
+  },
+  "price_usd": 0.209061,
+  "price_source": "CoinGecko, 16 Nov 2026 8:20 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.209061,
+    "market_cap_text": "$19.56M",
+    "fdv_text": "$20.84M",
+    "volume_24h_text": "$330k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/FXS.md",
+    "sha256": "3021e18464929ea60aac79dd834410e21170bc9f73f4a8dd863755f2715ee054",
+    "bytes": 19914,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:20 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "143M cap, 43M pre-mint, team budget discretion, up to 10% to veFRAX",
+      "url": "FIP-441",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "FIP-441 passed 5 Feb 2026",
+      "url": "Frax update #32",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Comptroller pump-day WFRAX → frxUSD swap",
+      "url": "tx, 21 Jan 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "FXS → WFRAX conversions are 1:1",
+      "url": "200k, 21 Jan 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "FXS → WFRAX conversions are 1:1",
+      "url": "43k, 18 Jan 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Comptroller is a 3-of-5 Safe",
+      "url": "Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "54.56M FXS in the Fraxtal bridge",
+      "url": "Optimism Portal",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "$476k revenue, $0 holder revenue",
+      "url": "revenue",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "$476k revenue, $0 holder revenue",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x12d7df4910d3dc0867cc7720e3bec6260b4b1100",
+      "url": "https://etherscan.io/address/0x12d7df4910d3dc0867cc7720e3bec6260b4b1100",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+      "url": "https://etherscan.io/token/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x365084b05fa7d5028346bd21d842ed0601bab5b8",
+      "url": "https://intel.arkm.com/explorer/address/0x365084b05fa7d5028346bd21d842ed0601bab5b8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x36cb65c1967a0fb0eee11569c51c2f2aa1ca6f6d",
+      "url": "https://etherscan.io/address/0x36cb65c1967a0fb0eee11569c51c2f2aa1ca6f6d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x602d9abd5671d24026e2ca473903ff2a9a957407",
+      "url": "https://intel.arkm.com/explorer/address/0x602d9abd5671d24026e2ca473903ff2a9a957407",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6fcfee4f14eafa723d90ad4b282757c5fe3d92ee",
+      "url": "https://intel.arkm.com/explorer/address/0x6fcfee4f14eafa723d90ad4b282757c5fe3d92ee",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb1748c79709f4ba2dd82834b8c82d4a505003f27",
+      "url": "https://etherscan.io/address/0xb1748c79709f4ba2dd82834b8c82d4a505003f27",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc8418af6358ffdda74e09ca9cc3fe03ca6adc5b0",
+      "url": "https://etherscan.io/address/0xc8418af6358ffdda74e09ca9cc3fe03ca6adc5b0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd53e50c63b0d549f142a2dcfc454501aaa5b7f3f",
+      "url": "https://intel.arkm.com/explorer/address/0xd53e50c63b0d549f142a2dcfc454501aaa5b7f3f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd8b42cebc82607226f68a5373d99f54b397f886a",
+      "url": "https://intel.arkm.com/explorer/address/0xd8b42cebc82607226f68a5373d99f54b397f886a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdc87397165b4f0f6d586f1bf60fa37494a362a6a",
+      "url": "https://etherscan.io/address/0xdc87397165b4f0f6d586f1bf60fa37494a362a6a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe0dd07b181ca77ed9063821b4d2d28a85f722f5f",
+      "url": "https://etherscan.io/address/0xe0dd07b181ca77ed9063821b4d2d28a85f722f5f",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: small: the Comptroller Safe swapped 13,794 WFRAX to frxUSD via CoW Protocol on 21 Jan 2026 (+46% over 5 days); its 469k WFRAX of 2026 sales are otherwise steady monthly spends"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The revenue is real and checkable, unlike most coins in this list. But it is small against the market cap, and FIP-441 explicitly puts frxUSD growth ahead of \"near-term value extraction\" for holders. **4**: above the gate, below a pass."
+  },
+  "attributions": [
+    {
+      "address": "0xb1748c79709f4ba2dd82834b8c82d4a505003f27",
+      "url": "https://intel.arkm.com/explorer/address/0xb1748c79709f4ba2dd82834b8c82d4a505003f27",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x36cb65c1967a0fb0eee11569c51c2f2aa1ca6f6d",
+      "url": "https://intel.arkm.com/explorer/address/0x36cb65c1967a0fb0eee11569c51c2f2aa1ca6f6d",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc8418af6358ffdda74e09ca9cc3fe03ca6adc5b0",
+      "url": "https://intel.arkm.com/explorer/address/0xc8418af6358ffdda74e09ca9cc3fe03ca6adc5b0",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe0dd07b181ca77ed9063821b4d2d28a85f722f5f",
+      "url": "https://intel.arkm.com/explorer/address/0xe0dd07b181ca77ed9063821b4d2d28a85f722f5f",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x12d7df4910d3dc0867cc7720e3bec6260b4b1100",
+      "url": "https://intel.arkm.com/explorer/address/0x12d7df4910d3dc0867cc7720e3bec6260b4b1100",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xdc87397165b4f0f6d586f1bf60fa37494a362a6a",
+      "url": "https://intel.arkm.com/explorer/address/0xdc87397165b4f0f6d586f1bf60fa37494a362a6a",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6fcfee4f14eafa723d90ad4b282757c5fe3d92ee",
+      "url": "https://intel.arkm.com/explorer/address/0x6fcfee4f14eafa723d90ad4b282757c5fe3d92ee",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd8b42cebc82607226f68a5373d99f54b397f886a",
+      "url": "https://intel.arkm.com/explorer/address/0xd8b42cebc82607226f68a5373d99f54b397f886a",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd53e50c63b0d549f142a2dcfc454501aaa5b7f3f",
+      "url": "https://intel.arkm.com/explorer/address/0xd53e50c63b0d549f142a2dcfc454501aaa5b7f3f",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x602d9abd5671d24026e2ca473903ff2a9a957407",
+      "url": "https://intel.arkm.com/explorer/address/0x602d9abd5671d24026e2ca473903ff2a9a957407",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x365084b05fa7d5028346bd21d842ed0601bab5b8",
+      "url": "https://intel.arkm.com/explorer/address/0x365084b05fa7d5028346bd21d842ed0601bab5b8",
+      "label": "**Odos (DEX aggregator)** ([Tier B] Arkham",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` for the Comptroller (FXS, WFRAX and stablecoins), read 16 Nov 2026 ~8:30–8:45 AM MST; Ethereum RPC `getThreshold()`, `getOwners()`; Fraxtal balance via Etherscan v2 (chain 252)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout FXS holders and counters; WFRAX token page",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags (\"Fraxtal: Optimism Portal Proxy\", \"Frax Finance: veFXS Token\", \"Frax Finance: Comptroller\", \"CoW Protocol: GPv2Settlement\")",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [FIP-441 forum post](https://gov.frax.finance/t/fip-441-frax-1-token-1-mission-1-vision/3826) · [Frax biweekly update #32](https://news.frax.com/p/frax-finance-biweekly-project-update-db3)",
+      "urls": [
+        "FIP-441 forum post",
+        "Frax biweekly update #32"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees / revenue / holders revenue for `frax-finance`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Caper wiki](https://caper.network/wiki/daos/stablecoins/frax-finance) · [TokenPost](https://www.tokenpost.com/news/technology/56133) · [Leviathan News](https://leviathannews.xyz/333694/frax-launches-burn-engine-to-buy-back-and-burn-frax-using-frxeth-protocol-revenue) · [DefiEdge](https://defiedge.com/defi/frax-finance-routes-frxeth-fees-to-programmed-frax-buyba-63c63d44)",
+      "urls": [
+        "Caper wiki",
+        "TokenPost",
+        "Leviathan News",
+        "DefiEdge"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `frax-share` (16 Nov 2026 8:20 AM MST); Gate FRAX/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): entity labels for the Comptroller, Fraxtal portal, veFXS and Odos; no team label on the top unlabelled EOAs (links in Holdings and Selling)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` for the 16 Jan 2026 Odos transactions; Gate FRAX/USDT close for 11 and 16 Jan 2026",
+      "urls": [],
+      "date_read": "16 Jan 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Execution and location of the 43M pre-mint; owners of the large unlabelled EOAs; Fraxtal-native treasury flows",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

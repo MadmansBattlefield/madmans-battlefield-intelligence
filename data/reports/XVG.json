@@ -1,0 +1,172 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "XVG",
+  "name": "Verge",
+  "chain": "verge",
+  "contract": "native coin (no contract)",
+  "overall_score": 4.1,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 3,
+    "insider_holdings": 9,
+    "selling_behavior": 7,
+    "tokenomics_supply": 8,
+    "liquidity_market": 3,
+    "product_development": 3,
+    "adoption_customers": 2,
+    "security_audits": 2,
+    "regulatory": 6,
+    "catalysts": 3
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 7,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes, outside the 1-year window: timewarp attacks Apr and May 2018; 560,000-block reorg (~200 days) on 15 Feb 2021",
+    "mint_path_live": "no beyond PoW issuance; supply ~16.52B, essentially fully mined",
+    "team_wallet_to_exchange_during_pump": "not applicable: no premine or ICO (2014 launch as DogecoinDark)",
+    "entity_concentration": "none known (no team allocation)"
+  },
+  "price_usd": 0.001721,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:35 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.001721,
+    "market_cap_text": "$28.4M",
+    "fdv_text": "$28.5M",
+    "volume_24h_text": "$0.43M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/XVG.md",
+    "sha256": "5c25b03c23969679f24f91ce700f564a6543ad442337e36e8c43a3885b6e188c",
+    "bytes": 8043,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:35 AM MST",
+    "source_read_dates": [
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "No premine, no ICO",
+      "url": "FAQ",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "560,000-block reorg, Feb 2021",
+      "url": "CoinDesk",
+      "kind": "other",
+      "tier": "B+B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "560,000-block reorg, Feb 2021",
+      "url": "write-up",
+      "kind": "other",
+      "tier": "B+B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Binance XVGUSDT daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "unclear",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not applicable: no premine or ICO (2014 launch as DogecoinDark)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 1/10 · ❌ FAIL (hard gate) - Proof-of-work with no protocol treasury. Fees go to miners. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [Verge FAQ](https://vergecurrency.com/faq) (no premine, no ICO)",
+      "urls": [
+        "Verge FAQ"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CoinDesk, 15 Feb 2021](https://www.coindesk.com/markets/2021/02/15/pornhub-payment-option-verge-suffers-massive-blockchain-reorganization), [Coin Metrics researcher write-up](https://1ucas.me/research/verge), [PriFi profile](https://prifi.info/protocols/verge/)",
+      "urls": [
+        "CoinDesk, 15 Feb 2021",
+        "Coin Metrics researcher write-up",
+        "PriFi profile"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `verge`; pump days from Binance XVGUSDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "Arkham was not run for this report (no team wallets)",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

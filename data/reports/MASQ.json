@@ -1,0 +1,275 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "MASQ",
+  "name": "MASQ",
+  "chain": "ethereum",
+  "contract": "0x06f3c323f0238c72bf35011071f2b5b7f43a054c",
+  "overall_score": 2.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 3,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 0,
+    "product_development": 3,
+    "adoption_customers": 1,
+    "security_audits": 4,
+    "regulatory": 4,
+    "catalysts": 3
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no: 40M minted once in the constructor; no mint function; 2.45M burned by the deployer",
+    "team_wallet_to_exchange_during_pump": "not proven in the last 365 days on Ethereum; team-funded wallets made ProBit deposits from 2021 to May 2025; Base and Polygon flows not traced",
+    "treasury_selling": "historical: team-funded wallets sent ~1.3M MASQ to ProBit deposit addresses (2021–2025)"
+  },
+  "price_usd": 0.004996,
+  "price_source": "CoinGecko, 16 Nov 2026 7:33 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.004996,
+    "market_cap_text": "$171.8",
+    "fdv_text": "$187.3",
+    "volume_24h_text": "$26.48"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/MASQ.md",
+    "sha256": "c1cdb95e535a929fccef4bcf1bf8b932c499227919ec9720627c824b452d25c8",
+    "bytes": 12921,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 7:33 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "40M minted once, no mint function",
+      "url": "token",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "40M minted once, no mint function",
+      "url": "creation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "33% in Base bridge, 14% in Polygon bridge",
+      "url": "Base bridge",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "33% in Base bridge, 14% in Polygon bridge",
+      "url": "Polygon",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Deployer → `0xad5e`",
+      "url": "5.5M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team-funded ProBit deposits",
+      "url": "28 Jul 2022",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team-funded ProBit deposits",
+      "url": "21 May 2025",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team wallet → Base bridge",
+      "url": "701k",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Timpi custody / merger",
+      "url": "MASQ blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x06f3c323f0238c72bf35011071f2b5b7f43a054c",
+      "url": "https://etherscan.io/token/0x06f3c323f0238c72bf35011071f2b5b7f43a054c",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x27d9a2ac83b493f88ce9b4532edcf74e95b9788d",
+      "url": "https://etherscan.io/address/0x27d9a2ac83b493f88ce9b4532edcf74e95b9788d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2f8932b7e5a828d17f63aed5f93be26c8bcfe8c7",
+      "url": "https://etherscan.io/address/0x2f8932b7e5a828d17f63aed5f93be26c8bcfe8c7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3154cf16ccdb4c6d922629664174b904d80f2c35",
+      "url": "https://etherscan.io/address/0x3154cf16ccdb4c6d922629664174b904d80f2c35",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x40ec5b33f54e0e8a33a975908c5ba1c14e5bbbdf",
+      "url": "https://etherscan.io/address/0x40ec5b33f54e0e8a33a975908c5ba1c14e5bbbdf",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5a4660d8006bdaff1a32538f53843e654ec54ce9",
+      "url": "https://etherscan.io/address/0x5a4660d8006bdaff1a32538f53843e654ec54ce9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x88d58af211ea329f49a1306f7e55dff009c70189",
+      "url": "https://etherscan.io/address/0x88d58af211ea329f49a1306f7e55dff009c70189",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa868a4cfd702211b68cc0dbc795863c92c609304",
+      "url": "https://etherscan.io/address/0xa868a4cfd702211b68cc0dbc795863c92c609304",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xab8476186c0b8b1d1d8209d7c55893dacfbe1fc7",
+      "url": "https://etherscan.io/address/0xab8476186c0b8b1d1d8209d7c55893dacfbe1fc7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xad5e3fab1e3e2636057ab30923bf6976377f33a6",
+      "url": "https://etherscan.io/address/0xad5e3fab1e3e2636057ab30923bf6976377f33a6",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven in the last 365 days on Ethereum; team-funded wallets made ProBit deposits from 2021 to May 2025; Base and Polygon flows not traced"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "buyback"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Nothing shows money flowing to the token. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` for the deployer and 90 traced wallets, contract creation, receipt status of every linked tx (all succeeded); Etherscan top-holder page and labels; read 16 Nov 2026 ~7:55–8:20 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [MASQ blog, 10 Apr 2026](https://www.masqbrowser.com/blog/masq-joins-forces-with-timpi); [Tier B] [merger release, 25 Mar 2026](https://chainwire.org/2026/03/25/timpi-and-masq-network-merge-product-ecosystems-to-launch-the-first-fully-decentralised-stack-that-is-ethical/)",
+      "urls": [
+        "MASQ blog, 10 Apr 2026",
+        "merger release, 25 Mar 2026"
+      ],
+      "date_read": "10 Apr 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `masq` (16 Nov 2026 7:33 AM MST) and 365-day closes for pump days",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "Not covered: Base and Polygon wallet flows (Base explorer API returned 403; Etherscan free tier excludes Base). **Arkham was not run for MASQ's wallets.** Arkham supports Ethereum, Base and Polygon, so this is an open item (see Open items), not a coverage gap",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

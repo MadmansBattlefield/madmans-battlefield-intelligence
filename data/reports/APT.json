@@ -1,0 +1,279 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "APT",
+  "name": "Aptos",
+  "chain": "aptos",
+  "contract": "0x1::aptos_coin::AptosCoin (native)",
+  "overall_score": 5.0,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 7,
+    "product_development": 8,
+    "adoption_customers": 6,
+    "security_audits": 7,
+    "regulatory": 8,
+    "catalysts": 5
+  },
+  "sections_passed": 6,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "foundation_210m_lock_proof": "open_not_published",
+    "foundation_wallets_published": "open_none",
+    "burn_below_issuance": "tripped"
+  },
+  "price_usd": 0.455249,
+  "price_source": "CoinGecko, 15 Nov 2026 6:45 AM MST",
+  "front_matter_extras": {
+    "chain_read_ledger_version": 8063744811
+  },
+  "key_numbers": {
+    "price_usd": 0.455249,
+    "market_cap_text": "$404.9M",
+    "fdv_text": "$551.8M",
+    "volume_24h_text": "$60.4M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/APT.md",
+    "sha256": "6d1da9bed94bcc5916c841a1f14a55415611286d725274e7300e2d31dc7d919d",
+    "bytes": 26348,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 15 Nov 2026 6:45 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:05 AM MST",
+      "15 Nov 2026",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:05 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Burn ≈ 11% of issuance: ~2.18M APT/yr burned vs ~19.9M APT/yr staking issuance (2.60% × 763.96M staked)",
+      "url": "DefiLlama fees/burn",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Burn ≈ 11% of issuance: ~2.18M APT/yr burned vs ~19.9M APT/yr staking issuance (2.60% × 763.96M staked)",
+      "url": "StakingRewardsConfig",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Burn ≈ 11% of issuance: ~2.18M APT/yr burned vs ~19.9M APT/yr staking issuance (2.60% × 763.96M staked)",
+      "url": "supply",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "210M \"permanent lock\" pledged but no address, contract or tx published",
+      "url": "Foundation blog, 18 Feb 2026",
+      "kind": "other",
+      "tier": "A (pledge) · proof Not found",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "322.6M APT still locked in Foundation + community buckets; 135.7M unlocked to insiders in the last 12 months",
+      "url": "DefiLlama unlocks",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Third-party-tagged \"Foundation Wallet 1\" holds 0.71 APT (not a meaningful holding)",
+      "url": "Aptos Explorer",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Arkham has no Aptos Foundation entity and does not support Aptos",
+      "url": "entity search (not found",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "Arkham has no Aptos Foundation entity and does not support Aptos",
+      "url": "“Aptos” entity",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "2.1B hard cap approved and executed (proposal #183, 9 Mar 2026)",
+      "url": "Governance portal #183",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "14 validators exceed 1/3 of voting power",
+      "url": "ValidatorSet",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": []
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn",
+      "buyback"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The burn design is right, and the gas increase multiplied fee income about 8× from February to April. Still, ~$1.2M a year of fees on a ~$400M token is small, and validators are still paid mostly in new coins. The token does not earn more than it issues."
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Aptos fullnode API ([`api.mainnet.aptoslabs.com/v1`](https://api.mainnet.aptoslabs.com/v1)): ledger info, `0x1::coin::supply`, `CoinInfo<AptosCoin>`, `stake::ValidatorSet`, `staking_config::StakingConfig` + `StakingRewardsConfig`, `block::BlockResource`, `gas_schedule::GasScheduleV2`, blocks by height, account [`0xc739…bdfd`](https://explorer.aptoslabs.com/account/0xc739507214d0e1bf9795485299d709e00024e92f7c0d055a4c2c39717882bdfd?network=mainnet); 15 Nov 2026 ~6:52 AM MST. Direct reads: [supply](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::coin::CoinInfo%3C0x1::aptos_coin::AptosCoin%3E) · [rewards config](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::staking_config::StakingRewardsConfig) · [validator set](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::stake::ValidatorSet) · [gas schedule](https://api.mainnet.aptoslabs.com/v1/accounts/0x1/resource/0x1::gas_schedule::GasScheduleV2)",
+      "urls": [
+        "`api.mainnet.aptoslabs.com/v1`",
+        "`0xc739…bdfd`",
+        "supply",
+        "rewards config",
+        "validator set",
+        "gas schedule"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Aptos Foundation tokenomics update](https://aptosnetwork.com/currents/aptos-tokenomics-update) (18 Feb 2026) · [privacy notice](https://aptosnetwork.com/privacy) · [Aptos Labs terms](https://aptoslabs.com/terms)",
+      "urls": [
+        "Aptos Foundation tokenomics update",
+        "privacy notice",
+        "Aptos Labs terms"
+      ],
+      "date_read": "18 Feb 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Aptos governance proposal #183](https://governance.aptosfoundation.org/proposal/183)",
+      "urls": [
+        "Aptos governance proposal #183"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama: [fees/revenue `aptos`](https://defillama.com/chain/aptos), [unlocks dataset `aptos`](https://defillama.com/unlocks/aptos), chains TVL, stablecoins, DEX volume, fee overview, Decibel protocol; 15 Nov 2026",
+      "urls": [
+        "fees/revenue `aptos`",
+        "unlocks dataset `aptos`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [CoinGecko `aptos`](https://www.coingecko.com/en/coins/aptos): coin data, 365-day daily closes, tickers with depth; 15 Nov 2026 6:45 AM MST",
+      "urls": [
+        "CoinGecko `aptos`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub API [`aptos-labs/aptos-core`](https://github.com/aptos-labs/aptos-core)",
+      "urls": [
+        "`aptos-labs/aptos-core`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] SEC Release 33-11412 · ESMA interim MiCA register `OTHER.csv` (updated 11 Nov 2026)",
+      "urls": [],
+      "date_read": "11 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Blockworks Research \"Aptos Tokenomics: Path to Deflation\" · TrustSwap and AMBCrypto (lock not proven) · CoinDesk (Decibel launch)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): searched \"Aptos Foundation\". **No Aptos Foundation entity** ([`/explorer/entity/aptos-foundation`](https://intel.arkm.com/explorer/entity/aptos-foundation) = not found); the only \"Aptos\" entity ([Arkham entity “Aptos”](https://intel.arkm.com/explorer/entity/aptos)) is 3 unrelated addresses holding $14.85. Aptos is not on Arkham's supported-network list, so the Foundation and investor wallets cannot be labelled there. Open items #2 and #3 stay open",
+      "urls": [
+        "`/explorer/entity/aptos-foundation`",
+        "Arkham entity “Aptos”"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] 210M lock location; Foundation entity and jurisdiction; leadership; investor and contributor wallet destinations; framework audits; halt history",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

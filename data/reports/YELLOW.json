@@ -1,0 +1,377 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "YELLOW",
+  "name": "Yellow Network",
+  "chain": "ethereum",
+  "contract": "0x236eb848c95b231299b4aa9f56c73d6893462720",
+  "overall_score": 3.2,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 2,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 2,
+    "product_development": 4,
+    "adoption_customers": 3,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "not proven: 10B minted once at genesis; no further mints seen",
+    "team_wallet_to_exchange_during_pump": "not proven: no project-tree transfer to a labelled exchange found within 3 hops; trading is 99% on the project's own venue",
+    "entity_concentration": "about 98% of supply sits in 6 project Treasury contracts and 4 wallets they funded"
+  },
+  "price_usd": 0.08626,
+  "price_source": "CoinGecko, 16 Nov 2026 ~8:52 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.08626,
+    "market_cap_text": "$91.7M",
+    "fdv_text": "$863M",
+    "volume_24h_text": "$2.49M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/YELLOW.md",
+    "sha256": "ec871191c896e0c716b0724fcab8b56432cd95899b94910dddfeed3c91d39222",
+    "bytes": 11871,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~8:52 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "10B minted to one Safe",
+      "url": "tx 0x2cdd…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Genesis split to Treasuries",
+      "url": "tx 0x0e87…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "500M Treasury → new wallet, 3 Nov 2026",
+      "url": "tx 0x0b5f…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "125M Treasury → wallet, 30 Sep 2026",
+      "url": "tx 0x20bd…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x236eb848c95b231299b4aa9f56c73d6893462720",
+      "url": "https://etherscan.io/token/0x236eb848c95b231299b4aa9f56c73d6893462720",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3a9624f9bb2dc43e90c0699ddc4a9b6bec147cde",
+      "url": "https://intel.arkm.com/explorer/address/0x3a9624f9bb2dc43e90c0699ddc4a9b6bec147cde",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6865bf9eb5b026688089cf9a9e5a5969503f98cb",
+      "url": "https://etherscan.io/address/0x6865bf9eb5b026688089cf9a9e5a5969503f98cb",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x914abadc0e36e03f29e4f1516951125c774dbac8",
+      "url": "https://etherscan.io/address/0x914abadc0e36e03f29e4f1516951125c774dbac8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa8f52ffe4dee9565505f8e390163a335d6a2f708",
+      "url": "https://intel.arkm.com/explorer/address/0xa8f52ffe4dee9565505f8e390163a335d6a2f708",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaec5157545635a7523efb5abe3a37f52db7de72e",
+      "url": "https://etherscan.io/address/0xaec5157545635a7523efb5abe3a37f52db7de72e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd392039acf5824cac1b53db50ed34aec7946dd0f",
+      "url": "https://etherscan.io/address/0xd392039acf5824cac1b53db50ed34aec7946dd0f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd572f3a0967856a09054578439ace81b2f2ff88b",
+      "url": "https://etherscan.io/address/0xd572f3a0967856a09054578439ace81b2f2ff88b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe277830b3444ea2cfee2b95f780c971222decfa9",
+      "url": "https://etherscan.io/address/0xe277830b3444ea2cfee2b95f780c971222decfa9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xede263567477d6656595d4a6b2ff4dde0a9cdf1b",
+      "url": "https://etherscan.io/address/0xede263567477d6656595d4a6b2ff4dde0a9cdf1b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xfa1662545fdd6e4d1ed05e2300353d2a37959fa8",
+      "url": "https://etherscan.io/address/0xfa1662545fdd6e4d1ed05e2300353d2a37959fa8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xfd8e336757ae9cdc0766264064b51492814fcd47",
+      "url": "https://etherscan.io/address/0xfd8e336757ae9cdc0766264064b51492814fcd47",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: no project-tree transfer to a labelled exchange found within 3 hops; trading is 99% on the project's own venue"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - No fee or revenue data on DefiLlama or in project reporting. Not found. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0xaec5157545635a7523efb5abe3a37f52db7de72e",
+      "url": "https://intel.arkm.com/explorer/address/0xaec5157545635a7523efb5abe3a37f52db7de72e",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe277830b3444ea2cfee2b95f780c971222decfa9",
+      "url": "https://intel.arkm.com/explorer/address/0xe277830b3444ea2cfee2b95f780c971222decfa9",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xfd8e336757ae9cdc0766264064b51492814fcd47",
+      "url": "https://intel.arkm.com/explorer/address/0xfd8e336757ae9cdc0766264064b51492814fcd47",
+      "label": "Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd572f3a0967856a09054578439ace81b2f2ff88b",
+      "url": "https://intel.arkm.com/explorer/address/0xd572f3a0967856a09054578439ace81b2f2ff88b",
+      "label": "Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x914abadc0e36e03f29e4f1516951125c774dbac8",
+      "url": "https://intel.arkm.com/explorer/address/0x914abadc0e36e03f29e4f1516951125c774dbac8",
+      "label": "Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa8f52ffe4dee9565505f8e390163a335d6a2f708",
+      "url": "https://intel.arkm.com/explorer/address/0xa8f52ffe4dee9565505f8e390163a335d6a2f708",
+      "label": "Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xede263567477d6656595d4a6b2ff4dde0a9cdf1b",
+      "url": "https://intel.arkm.com/explorer/address/0xede263567477d6656595d4a6b2ff4dde0a9cdf1b",
+      "label": "Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd392039acf5824cac1b53db50ed34aec7946dd0f",
+      "url": "https://intel.arkm.com/explorer/address/0xd392039acf5824cac1b53db50ed34aec7946dd0f",
+      "label": "Treasury",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x3a9624f9bb2dc43e90c0699ddc4a9b6bec147cde",
+      "url": "https://intel.arkm.com/explorer/address/0x3a9624f9bb2dc43e90c0699ddc4a9b6bec147cde",
+      "label": "ThresholdCustody",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone.",
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan token, contract source, balances and transactions; receipts checked 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `yellow` (market data, venue split, daily prices since 13 Apr 2026)",
+      "urls": [],
+      "date_read": "13 Apr 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Yellow Network site](https://www.yellow.org/), tokenomics page",
+      "urls": [
+        "Yellow Network site"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Treasury contract labels, ThresholdCustody contract, Gnosis Safes 0x56b3 and 0xfb4b (no market-maker label); no exchange counterparties on the treasury side",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

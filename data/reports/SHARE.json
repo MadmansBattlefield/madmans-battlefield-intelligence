@@ -1,0 +1,196 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SHARE",
+  "name": "ShareX",
+  "chain": "bsc",
+  "contract": "0x5fca51aff213bfbeab0b711b93c3374252fd6ac3",
+  "overall_score": 3.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 4,
+    "adoption_customers": 3,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "not proven: 100M cap per docs; contract not read (BscScan wall)",
+    "team_wallet_to_exchange_during_pump": "not proven: BNB Chain transfers could not be read (BscScan API is paid; its pages sit behind a bot check)",
+    "entity_concentration": "82% of supply in project-controlled vesting pools (docs)"
+  },
+  "price_usd": 2.64,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 2.64,
+    "market_cap_text": "$47.4M",
+    "fdv_text": "$263.9M",
+    "volume_24h_text": "$1.06M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SHARE.md",
+    "sha256": "11ccee72b93a57fe869dd46d832ad2b4275304ecf8664797650694a6579769bb",
+    "bytes": 9697,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Allocation, cliffs, vesting",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Price path $0.64 → $2.35 (7–12 Oct 2026)",
+      "url": "CoinGecko",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Listing 8 May 2026",
+      "url": "ChainCatcher",
+      "kind": "other",
+      "tier": "B+B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Listing 8 May 2026",
+      "url": "Tokenomics.com",
+      "kind": "other",
+      "tier": "B+B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: BNB Chain transfers could not be read (BscScan API is paid; its pages sit behind a bot check)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama has no record for ShareX, and the project publishes no fee or revenue data. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [ShareX tokenomics docs](https://docs.sharex.network/docs/share/tokenomics)",
+      "urls": [
+        "ShareX tokenomics docs"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `sharex-2` (market, venues, daily prices since 8 May 2026 for pump days)",
+      "urls": [],
+      "date_read": "8 May 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Tokenomics.com ShareX](https://app.tokenomics.com/tokenomics/sharex), [ChainCatcher listing note](https://www.chaincatcher.com/en/article/2263342), [OrangeX explainer](https://www.orangex.com/blog/articles/what-is-sharex-share-depin-rwa-token)",
+      "urls": [
+        "Tokenomics.com ShareX",
+        "ChainCatcher listing note",
+        "OrangeX explainer"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): token label ShareX Token; top holders from the [Arkham token page](https://intel.arkm.com/explorer/token/sharex-2) (vesting proxy 0x479, PancakeSwap V2 pool, two Safes, unlabelled 0x5437)",
+      "urls": [
+        "Arkham token page"
+      ],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "PUNDIX",
+  "name": "Pundi X",
+  "chain": "ethereum",
+  "contract": "0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38",
+  "overall_score": 3.4,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 5,
+    "liquidity_market": 3,
+    "product_development": 3,
+    "adoption_customers": 2,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "not proven: single 258.5M mint on 8 Mar 2021, no mints since",
+    "team_wallet_to_exchange_during_pump": "not proven: the pump-day deposits came from Upbit hot wallets (exchange-to-exchange flow); no identified team wallet moved PUNDIX in the last year",
+    "entity_concentration": "Upbit (exchange custody) holds 127.3M (49.3%); two unlabelled Safes hold 18.6M (7.2%)"
+  },
+  "price_usd": 0.07492,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.07492,
+    "market_cap_text": "$19.4M",
+    "fdv_text": "$19.4M",
+    "volume_24h_text": "$0.60M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/PUNDIX.md",
+    "sha256": "22e9ad68bfba943eddf236ab78bd1a7ab769e57061535a29c95152aff8e98f6a",
+    "bytes": 11413,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "258.5M minted to one wallet",
+      "url": "tx 0x1471…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "113.6M from Upbit 0xe0e0 to Upbit 0x2bc8",
+      "url": "tx 0x6fa9…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day Upbit hot wallet → Binance deposit example",
+      "url": "tx 0x14f9…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day Upbit hot wallet → Binance deposit example",
+      "url": "tx 0xa185…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38",
+      "url": "https://etherscan.io/token/0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1dca35ea1aedfbbf6a7be6c5ef6b017433aa3b5a",
+      "url": "https://etherscan.io/address/0x1dca35ea1aedfbbf6a7be6c5ef6b017433aa3b5a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x21f7cfa4fc40fb9f1a68e9e7eaa92375dd7e163e",
+      "url": "https://intel.arkm.com/explorer/address/0x21f7cfa4fc40fb9f1a68e9e7eaa92375dd7e163e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2bc8e0130319b206aace6f41e28fd0cb3c2a2960",
+      "url": "https://etherscan.io/address/0x2bc8e0130319b206aace6f41e28fd0cb3c2a2960",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5ae1b41d1598ae6c3ad716ecf14f55cf301c3bd0",
+      "url": "https://intel.arkm.com/explorer/address/0x5ae1b41d1598ae6c3ad716ecf14f55cf301c3bd0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x86e0c334b7a90a0b0927b5da54ef0393303e7c6a",
+      "url": "https://intel.arkm.com/explorer/address/0x86e0c334b7a90a0b0927b5da54ef0393303e7c6a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xce07eb2831c5bd838343f739d6315623c35680c4",
+      "url": "https://etherscan.io/address/0xce07eb2831c5bd838343f739d6315623c35680c4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe0e0fa0202f42c8bd7154a4cc3dd298b37eaca51",
+      "url": "https://intel.arkm.com/explorer/address/0xe0e0fa0202f42c8bd7154a4cc3dd298b37eaca51",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Binance PUNDIXUSDT daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: the pump-day deposits came from Upbit hot wallets (exchange-to-exchange flow); no identified team wallet moved PUNDIX in the last year"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - No fee or revenue data on DefiLlama or from the project. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x2bc8e0130319b206aace6f41e28fd0cb3c2a2960",
+      "url": "https://intel.arkm.com/explorer/address/0x2bc8e0130319b206aace6f41e28fd0cb3c2a2960",
+      "label": "issuer line",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe0e0fa0202f42c8bd7154a4cc3dd298b37eaca51",
+      "url": "https://intel.arkm.com/explorer/address/0xe0e0fa0202f42c8bd7154a4cc3dd298b37eaca51",
+      "label": "issuer line",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5ae1b41d1598ae6c3ad716ecf14f55cf301c3bd0",
+      "url": "https://intel.arkm.com/explorer/address/0x5ae1b41d1598ae6c3ad716ecf14f55cf301c3bd0",
+      "label": "issuer line",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x21f7cfa4fc40fb9f1a68e9e7eaa92375dd7e163e",
+      "url": "https://intel.arkm.com/explorer/address/0x21f7cfa4fc40fb9f1a68e9e7eaa92375dd7e163e",
+      "label": "issuer line",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x86e0c334b7a90a0b0927b5da54ef0393303e7c6a",
+      "url": "https://intel.arkm.com/explorer/address/0x86e0c334b7a90a0b0927b5da54ef0393303e7c6a",
+      "label": "issuer line",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan token, wallet and transaction pages, with exchange deposit labels; receipts checked 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `pundi-x-2`; pump days from Binance PUNDIXUSDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Upbit on 0x2bc8 and 0xe0e0; Upbit: Hot Wallet on 0x1dca and 0xce07; Pundi X: SwapToken on 0x5ae1; no project label on Safes 0x21f7 and 0x86E0",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

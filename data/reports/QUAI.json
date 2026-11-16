@@ -1,0 +1,268 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "QUAI",
+  "name": "Quai Network",
+  "chain": "quai",
+  "contract": "native coin (no contract)",
+  "overall_score": 4.9,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 5,
+    "foundation_team": 6,
+    "insider_holdings": 6,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 2,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 6
+  },
+  "sections_passed": 5,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "ongoing PoW mining emissions (no hard cap), partly offset by SOAP buy-and-burn",
+    "team_wallet_to_exchange_during_pump": "not proven: genesis-funded wallets and the SOAP burn wallet sent QUAI to an unlabelled high-volume wallet (0x004b…1Db93), including on 16 Jul, 9 Sep and 23 Sep 2026 pump days; whose wallet it is is unknown",
+    "future_unlocks_cut": "yes, Singularity fork removed 1.667B future genesis unlocks; Polaris (early Nov 2026) forgoes 236.5M more founder unlocks"
+  },
+  "price_usd": 0.00632515,
+  "price_source": "CoinGecko, 16 Nov 2026 5:55 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00632515,
+    "market_cap_text": "$7.37M",
+    "volume_24h_text": "$70.1K"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/QUAI.md",
+    "sha256": "535abb304b37b0d75926443e90fbb323dea9d9475c8b63365a2cab8dc772998c",
+    "bytes": 18801,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:55 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "246.6M QUAI in the burn address, fed by `0x0053…`",
+      "url": "burn address",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "246.6M QUAI in the burn address, fed by `0x0053…`",
+      "url": "feeder",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Unlock cuts (Singularity, Polaris)",
+      "url": "supply.qu.ai",
+      "kind": "other",
+      "tier": "A (issuer)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Unlock cuts (Singularity, Polaris)",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A (issuer)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "SOAP revenue falling",
+      "url": "DefiLlama Quai",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Genesis wallet → hub on the 16 Jul pump day",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A · owners [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Genesis wallet → hub on the 16 Jul pump day",
+      "url": "wallet",
+      "kind": "other",
+      "tier": "A · owners [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Genesis wallet → hub on the 16 Jul pump day",
+      "url": "hub",
+      "kind": "other",
+      "tier": "A · owners [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn feeder → hub on pump days",
+      "url": "9 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn feeder → hub on pump days",
+      "url": "23 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x0051…` (99M) moved 20.9M to `0x0050…7e89`, then 6M to the hub",
+      "url": "20.9M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x0051…` (99M) moved 20.9M to `0x0050…7e89`, then 6M to the hub",
+      "url": "2M, 8 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: genesis-funded wallets and the SOAP burn wallet sent QUAI to an unlabelled high-volume wallet (0x004b…1Db93), including on 16 Jul, 9 Sep and 23 Sep 2026 pump days; whose wallet it is is unknown"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "burn",
+      "fee_share"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "Holders do get value: 100% of SOAP flow buys and burns QUAI, and on-chain burns match. But the money is a subsidy from other chains' miners, not user fees, and it fell about 86% from January to October. Score **5**."
+  },
+  "attributions": [
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Quaiscan (Blockscout) v2 API: `/stats`, `/addresses` top list, `/addresses/{a}/transactions` for the burn address, `0x0051…`, `0x0050…7e89`, `0x007E…`, `0x0053…`, `0x004b…`; read 16 Nov 2026 ~5:45–6:00 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [supply.qu.ai FAQ](https://supply.qu.ai/dashboard/faq) and [Quai docs: emissions](https://docs.qu.ai/learn/tokenomics/quai-emissions) (issuer)",
+      "urls": [
+        "supply.qu.ai FAQ",
+        "Quai docs: emissions"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees API (`quai`), 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `quai-network` price, tickers and 365-day closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub API, `dominant-strategies` org",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [DefiLlama unlocks](https://defillama.com/unlocks/quai-network) · [Tokenomics.com](https://app.tokenomics.com/tokenomics/quai-network) for the original genesis split",
+      "urls": [
+        "DefiLlama unlocks",
+        "Tokenomics.com"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owners of the genesis wallets and of `0x004b…`; node audits",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "S",
+  "name": "Sonic",
+  "chain": "sonic",
+  "contract": "native (Sonic chain, chain id 146); wrapped wS 0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+  "overall_score": 3.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 2,
+    "tokenomics_supply": 3,
+    "liquidity_market": 4,
+    "product_development": 6,
+    "adoption_customers": 2,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none on Sonic found; Fantom-era incidents (Multichain bridge collapse, Jul 2023) predate S",
+    "mint_path_live": "yes: no hard cap; governance has approved repeated new issuance (airdrop 190.5M, ongoing funding 47.6M a year for 6 years, 472.4M institutional issuance on 4 Sep 2025, plus a possible $50M ETF issuance)",
+    "team_wallet_to_exchange_during_pump": "yes: the Fantom Foundation-labelled wallet sent 40.5M S to a Binance deposit on 21 Aug 2026 (+29.8% day); a Sonic issuance-signer wallet sent 76.6M S on 9-10 May 2025 pump days to a market-maker-like wallet",
+    "treasury_selling": "292.5M S (~$11.7M) from the 150M-S 'Sonic USA'-sized issuance wallet, the Fantom Foundation wallet and the ongoing-funding wallet went to one Binance deposit address (Mar-Aug 2026); not disclosed as sales"
+  },
+  "price_usd": 0.03218,
+  "price_source": "CoinGecko, 16 Nov 2026 6:58 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.03218,
+    "volume_24h_text": "$21.4M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/S.md",
+    "sha256": "9e4809e2c5bc1e0382aba8cdc738b31f400b9ef578fb4ceedf868b5618bb28b4",
+    "bytes": 17529,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:58 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~7:35 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:35 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "150M S issued to `0xbea8…` on 4 Sep 2025",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "150M S issued to `0xbea8…` on 4 Sep 2025",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xbea8…` → `0xfefa…` → Binance 94, 118M",
+      "url": "in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xbea8…` → `0xfefa…` → Binance 94, 118M",
+      "url": "out",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fantom Foundation → Binance on a +29.8% day",
+      "url": "in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fantom Foundation → Binance on a +29.8% day",
+      "url": "out",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "76.6M S on May 2025 pump days",
+      "url": "9 May",
+      "kind": "other",
+      "tier": "A chain · end use [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "76.6M S on May 2025 pump days",
+      "url": "10 May",
+      "kind": "other",
+      "tier": "A chain · end use [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "949.5M S to a Binance deposit, 14 Jan 2025",
+      "url": "largest tx",
+      "kind": "other",
+      "tier": "A chain · purpose [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $75.7k / 12 months",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "sonic",
+      "address": "0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38",
+      "url": "https://sonicscan.org/address/0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+      "kind": "address"
+    },
+    {
+      "chain": "sonic",
+      "address": "0x2889604e75637d3afe919201c27ac9d1221e6210",
+      "url": "https://sonicscan.org/address/0x2889604E75637D3AfE919201C27ac9d1221E6210",
+      "kind": "address"
+    },
+    {
+      "chain": "sonic",
+      "address": "0x431e81e5dfb5a24541b5ff8762bdef3f32f96354",
+      "url": "https://sonicscan.org/address/0x431e81e5dfb5a24541b5ff8762bdef3f32f96354",
+      "kind": "address"
+    },
+    {
+      "chain": "sonic",
+      "address": "0x4c5683a9ede3c8b4fb5ad2e980bbf88652ad6c6c",
+      "url": "https://sonicscan.org/address/0x4c5683a9ede3c8b4fb5ad2e980bbf88652ad6c6c",
+      "kind": "address"
+    },
+    {
+      "chain": "sonic",
+      "address": "0x6e9f215876d210e5c8a197df598db2d8fe09f6c5",
+      "url": "https://sonicscan.org/address/0x6e9f215876d210e5c8a197df598db2d8fe09f6c5",
+      "kind": "address"
+    },
+    {
+      "chain": "sonic",
+      "address": "0xa4e471dbfe8c95d4c44f520b19cee436c01c3267",
+      "url": "https://sonicscan.org/address/0xa4e471dbfe8c95d4c44f520b19cee436c01c3267",
+      "kind": "address"
+    },
+    {
+      "chain": "sonic",
+      "address": "0xbea8fecf6535592eebfc68f227a434f8373792f0",
+      "url": "https://sonicscan.org/address/0xbea8fecf6535592eebfc68f227a434f8373792f0",
+      "kind": "address"
+    },
+    {
+      "chain": "sonic",
+      "address": "0xc9d21b370d7d2a24ee0b08f82323777737a653f6",
+      "url": "https://sonicscan.org/address/0xc9d21b370d7d2a24ee0b08f82323777737a653f6",
+      "kind": "address"
+    },
+    {
+      "chain": "sonic",
+      "address": "0xd9a355e9101d91b1450b8538e57161c3c0deca39",
+      "url": "https://sonicscan.org/address/0xd9a355e9101d91b1450b8538e57161c3c0deca39",
+      "kind": "address"
+    },
+    {
+      "chain": "sonic",
+      "address": "0xfcecc79bc12b7c3bb96d9d062ecb7f830961a2e7",
+      "url": "https://sonicscan.org/address/0xfcecc79bc12b7c3bb96d9d062ecb7f830961a2e7",
+      "kind": "address"
+    },
+    {
+      "chain": "sonic",
+      "address": "0xfefa8f05418e53fa0a1b327704014b101f172ecc",
+      "url": "https://sonicscan.org/address/0xfefa8f05418e53fa0a1b327704014b101f172ecc",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes: the Fantom Foundation-labelled wallet sent 40.5M S to a Binance deposit on 21 Aug 2026 (+29.8% day); a Sonic issuance-signer wallet sent 76.6M S on 9-10 May 2025 pump days to a market-maker-like wallet"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "About $6k a month. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0xbea8fecf6535592eebfc68f227a434f8373792f0",
+      "url": "https://intel.arkm.com/explorer/address/0xbea8fecf6535592eebfc68f227a434f8373792f0",
+      "label": "were available for this report",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Sonic chain via Etherscan API v2 (chain 146): native and internal transfers of the wallets above; receipts (status 1) for every linked tx; read 16 Nov 2026 ~7:10–7:25 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Sonicscan public labels (Fantom Foundation, Binance 94, Binance US 8, Gate, Crypto.com 22, BTC Turk, Kraken 75) and Etherscan labels of the same addresses (Binance and Gate deposits)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Sonic docs: S token](https://docs.soniclabs.com/sonic/s-token) (issuance txs, ongoing-funding wallet); [Sonic Labs blog: airdrop economics update](https://www.soniclabs.com/blog/sonics-airdrop-economics-update/); [Sonic Labs blog: Sonic in 2026 and beyond](https://www.soniclabs.com/blog/sonic-in-2026-and-beyond/)",
+      "urls": [
+        "Sonic docs: S token",
+        "Sonic Labs blog: airdrop economics update",
+        "Sonic Labs blog: Sonic in 2026 and beyond"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Blockworks token transparency filing](https://blockworks.com/token-transparency/filing/sonic)",
+      "urls": [
+        "Blockworks token transparency filing"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:35 AM MST (signed-in account): **Sonic is not supported.** The network selector lists only Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain. Looking up `0xbea8…92f0` returned only the same address's Ethereum-mainnet holdings (a Gnosis Safe holding USDC, USDT and ETH), with no S token or Sonic data ([Arkham](https://intel.arkm.com/explorer/address/0xbea8fecf6535592eebfc68f227a434f8373792f0)). That neither confirms nor rules out Sonic USA. No Arkham labels were available for this report",
+      "urls": [
+        "Arkham"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `sonic` fees, revenue and TVL; CoinGecko `sonic-3` (16 Nov 2026 6:58 AM MST); Binance SUSDT daily closes",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] that `0xbea8…` is Sonic USA (it matches the amount and date only); that `0xfefa…` is a Binance deposit (sweep pattern only); who runs `0xd9a3…`. Arkham does not support Sonic (checked 16 Nov 2026)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

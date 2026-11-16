@@ -1,0 +1,372 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "EWT",
+  "name": "Energy Web Token",
+  "chain": "energy-web-x",
+  "contract": "0xb66a5d30d04f076e78ffb0d045c55846fdcde928",
+  "overall_score": 4.0,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 5,
+    "liquidity_market": 3,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes: 192,307.69 EWT minted on Ethereum about every 4 weeks since Oct 2025 (~2.5M a year); 14.04M of headroom remains under the 100M cap",
+    "team_wallet_to_exchange_during_pump": "none found (an unattributed 3-of-5 Safe sent 165k EWT to a KuCoin deposit in Oct 2026 on non-pump days); Foundation wallets not identified",
+    "treasury_in_single_key_wallets": "unknown (Foundation and EWX treasury wallets not published)"
+  },
+  "price_usd": 0.250898,
+  "price_source": "CoinGecko, 16 Nov 2026 8:20 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.250898,
+    "market_cap_text": "$20.34M",
+    "fdv_text": "$20.34M",
+    "volume_24h_text": "$246k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/EWT.md",
+    "sha256": "ee5aeb0b253d3532d7d78b1579ee3f7bbdcbd3ab47169948e9b0f547f9d97afa",
+    "bytes": 15500,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:20 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~9:10 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Genesis mint of 83.26M ERC20 EWT, 11 Sep 2025",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Monthly 192,307.69 EWT mints",
+      "url": "Oct 2025",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Monthly 192,307.69 EWT mints",
+      "url": "Oct 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Cap 100M, 16.74M headroom, \"no automatic inflation\"",
+      "url": "FAQ",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe → KuCoin deposit, Oct 2026",
+      "url": "65k",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe → KuCoin deposit, Oct 2026",
+      "url": "100k",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "$17 fees, $0 revenue",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "energy-web-x",
+      "address": "0x2dcbc69ca4d13c232f39fc65d1aa568567c1c1c3",
+      "url": "https://intel.arkm.com/explorer/address/0x2dcbc69ca4d13c232f39fc65d1aa568567c1c1c3",
+      "kind": "address"
+    },
+    {
+      "chain": "energy-web-x",
+      "address": "0x2ea55460f499fab0cc851e49716f3f02c599d7f5",
+      "url": "https://intel.arkm.com/explorer/address/0x2ea55460f499fab0cc851e49716f3f02c599d7f5",
+      "kind": "address"
+    },
+    {
+      "chain": "energy-web-x",
+      "address": "0x5dded30f8cd557257ccdc4a530cb77ac45f0259d",
+      "url": "https://intel.arkm.com/explorer/address/0x5dded30f8cd557257ccdc4a530cb77ac45f0259d",
+      "kind": "address"
+    },
+    {
+      "chain": "energy-web-x",
+      "address": "0x6b7afaacb2fa911594de32762e6c7c35b833e66b",
+      "url": "https://intel.arkm.com/explorer/address/0x6b7afaacb2fa911594de32762e6c7c35b833e66b",
+      "kind": "address"
+    },
+    {
+      "chain": "energy-web-x",
+      "address": "0xc3174f2190e5d9c55a295656f694990793f72a4d",
+      "url": "https://intel.arkm.com/explorer/address/0xc3174f2190e5d9c55a295656f694990793f72a4d",
+      "kind": "address"
+    },
+    {
+      "chain": "energy-web-x",
+      "address": "0xf7ff52b4acc7db559b6e7427e19ce47a08e98c27",
+      "url": "https://intel.arkm.com/explorer/address/0xf7ff52b4acc7db559b6e7427e19ce47a08e98c27",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2ea55460f499fab0cc851e49716f3f02c599d7f5",
+      "url": "https://etherscan.io/address/0x2ea55460f499fab0cc851e49716f3f02c599d7f5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5dded30f8cd557257ccdc4a530cb77ac45f0259d",
+      "url": "https://etherscan.io/address/0x5dded30f8cd557257ccdc4a530cb77ac45f0259d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb66a5d30d04f076e78ffb0d045c55846fdcde928",
+      "url": "https://etherscan.io/token/0xb66a5d30d04f076e78ffb0d045c55846fdcde928",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf08ab18b22dbda8c66e8b46c0056c46bb72d5be9",
+      "url": "https://etherscan.io/address/0xf08ab18b22dbda8c66e8b46c0056c46bb72d5be9",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found (an unattributed 3-of-5 Safe sent 165k EWT to a KuCoin deposit in Oct 2026 on non-pump days); Foundation wallets not identified"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "No checkable revenue reaches the token. **2, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "0x2ea55460f499fab0cc851e49716f3f02c599d7f5",
+      "url": "https://intel.arkm.com/explorer/address/0x2ea55460f499fab0cc851e49716f3f02c599d7f5",
+      "label": "transitions into the EWX on-chain treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6b7afaacb2fa911594de32762e6c7c35b833e66b",
+      "url": "https://intel.arkm.com/explorer/address/0x6b7afaacb2fa911594de32762e6c7c35b833e66b",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x2dcbc69ca4d13c232f39fc65d1aa568567c1c1c3",
+      "url": "https://intel.arkm.com/explorer/address/0x2dcbc69ca4d13c232f39fc65d1aa568567c1c1c3",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc3174f2190e5d9c55a295656f694990793f72a4d",
+      "url": "https://intel.arkm.com/explorer/address/0xc3174f2190e5d9c55a295656f694990793f72a4d",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf7ff52b4acc7db559b6e7427e19ce47a08e98c27",
+      "url": "https://intel.arkm.com/explorer/address/0xf7ff52b4acc7db559b6e7427e19ce47a08e98c27",
+      "label": "No transfers match these filters",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5dded30f8cd557257ccdc4a530cb77ac45f0259d",
+      "url": "https://intel.arkm.com/explorer/address/0x5dded30f8cd557257ccdc4a530cb77ac45f0259d",
+      "label": "No transfers match these filters",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API: EWT ERC20 mint logs (Transfer from 0x0) and `tokentx` for the Safe and top EOAs, read 16 Nov 2026 ~9:10 AM MST; Ethereum RPC `getThreshold()`, `getOwners()`",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout (Ethereum and Energy Web Chain explorers): holders, supply, bridge contracts",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Energy Web upgrade FAQ](https://docs.energyweb.org/energy-web-x-upgrade-faq) · [Kraken migration notice](https://support.kraken.com/articles/ewt-migration)",
+      "urls": [
+        "Energy Web upgrade FAQ",
+        "Kraken migration notice"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [EW chain paper (2019 allocation)](https://academy.bit2me.com/wp-content/uploads/2022/03/TheEnergyWebChain-v2-FINAL.pdf) · [Crypto Adventure review](https://cryptoadventure.com/energy-web-review-2026-ewt-ewx-and-blockchain-infrastructure-for-the-energy-transition/)",
+      "urls": [
+        "EW chain paper (2019 allocation",
+        "Crypto Adventure review"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `energyweb` fees/revenue; CoinGecko `energy-web-token` (16 Nov 2026 8:20 AM MST); KuCoin EWT-USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): EnergyBridge proxy (no transfers shown), generic Safe, Bitcoin Suisse Deposit and Hot Wallet labels. Arkham does not cover Energy Web X",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] The referendum behind the monthly mints; Foundation and EWX treasury balances; enterprise revenue",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

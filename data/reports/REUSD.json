@@ -1,0 +1,203 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "REUSD",
+  "name": "Re Protocol reUSD",
+  "chain": "ethereum",
+  "contract": "0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
+  "overall_score": 5.5,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 7,
+    "foundation_team": 5,
+    "insider_holdings": 6,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 4,
+    "product_development": 6,
+    "adoption_customers": 6,
+    "security_audits": 7,
+    "regulatory": 4,
+    "catalysts": 5
+  },
+  "sections_passed": 6,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 7,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes by design: minted against deposits, burned on redemption",
+    "team_wallet_to_exchange_during_pump": "not proven: NAV token with no pump days; issuer mint/redeem flows not traced",
+    "entity_concentration": "largest holders are DeFi protocols (Fluid, Morpho); issuer controls mint and redemption"
+  },
+  "price_usd": 1.11,
+  "price_source": "CoinGecko, 16 Nov 2026 ~8:52 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 1.11,
+    "market_cap_text": "$365.9M",
+    "volume_24h_text": "$1.73M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/REUSD.md",
+    "sha256": "d5d9763cfd0c7fbb42262b67d4b767ddc7bc15dd5c87e22bbed87ee060188b17",
+    "bytes": 9763,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~8:52 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Senior tranche, loss order",
+      "url": "About reUSD",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Daily attestation via Chainlink",
+      "url": "Audits / attestations",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Supply and holders",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
+      "url": "https://etherscan.io/token/0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x52aa899454998be5b000ad077a46bbe360f4e497",
+      "url": "https://intel.arkm.com/explorer/address/0x52aa899454998be5b000ad077a46bbe360f4e497",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: NAV token with no pump days; issuer mint/redeem flows not traced"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": true,
+    "notes": "## 💰 Revenue — Does it make money? · 7/10 · ✅ PASS - Yield comes from reinsurance premiums and collateral return: SOFR + 250 bps off-chain, sUSDe + 250 bps on-chain ([About reUSD](https://docs.re.xyz/products/about-reusd)). NAV is up 11% since launch."
+  },
+  "attributions": [
+    {
+      "address": "0x52aa899454998be5b000ad077a46bbe360f4e497",
+      "url": "https://intel.arkm.com/explorer/address/0x52aa899454998be5b000ad077a46bbe360f4e497",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
+      "url": "https://intel.arkm.com/explorer/address/0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": true,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [Re docs: About reUSD](https://docs.re.xyz/products/about-reusd), [FAQ](https://docs.re.xyz/getting-started-with-re/faq), [Smart contracts](https://docs.re.xyz/products/smart-contracts), [Audits / attestations](https://docs.re.xyz/transparency-and-data-show-me-the-receipts/audits-attestations-custody-structure)",
+      "urls": [
+        "Re docs: About reUSD",
+        "FAQ",
+        "Smart contracts",
+        "Audits / attestations"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan token supply and holders; CoinGecko `re-protocol-reusd`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Re Protocol Deposit Token label on the token contract (no transfers shown); Fluid (Instadapp) FluidLiquidityProxy holding 40.7M",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

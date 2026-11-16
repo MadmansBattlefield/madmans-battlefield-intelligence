@@ -1,0 +1,223 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "KAIA",
+  "name": "Kaia",
+  "chain": "kaia",
+  "contract": "native (Kaia mainnet, chain id 8217); canonical WKAIA 0x19Aac5f612f524B754CA7e7c41cbFa2E981A4432",
+  "overall_score": 3.9,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 6,
+    "insider_holdings": 5,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found on Kaia mainnet",
+    "mint_path_live": "yes: 9.6 KAIA minted per block (~300M a year, ~5.2% inflation), with no cap; half goes to Foundation-run KEF/KIF",
+    "team_wallet_to_exchange_during_pump": "not tested: Kaiascan's API needs a key this pass did not have, so fund-wallet outflows could not be traced",
+    "treasury_selling": "KIF budget explicitly covers 'token swap' and 'providing market liquidity'; ~295M KAIA disbursed from the KIF executor and ~129M from KEF since Aug 2024; destinations only on Kaia Square"
+  },
+  "price_usd": 0.02917,
+  "price_source": "CoinGecko, 16 Nov 2026 6:58 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.02917,
+    "market_cap_text": "$188.5M",
+    "fdv_text": "$188.5M",
+    "volume_24h_text": "$3.6M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/KAIA.md",
+    "sha256": "12e9ccc379c96cef1b527d7ee6064f9fd46f633761d3e6e6df50eb3214ef586e",
+    "bytes": 12239,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:58 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~7:35 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:35 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Issuance 9.6 KAIA a block; KIF uses include market liquidity",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "KIF executor received 319.3M in 10 transfers",
+      "url": "first",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "KIF executor received 319.3M in 10 transfers",
+      "url": "latest",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "KIF executor received 319.3M in 10 transfers",
+      "url": "executor",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "KEF executor received 155M",
+      "url": "first",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "KEF executor received 155M",
+      "url": "executor",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $43.8k / 12 months",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not tested: Kaiascan's API needs a key this pass did not have, so fund-wallet outflows could not be traced"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Revenue is about 0.5% of the value of new issuance. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Kaia public RPC (`public-en.node.kaia.io`): fund balances, 16 Nov 2026 ~7:27 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Kaia docs: token economy](https://docs.kaia.io/learn/token-economics/token-economy/); [Kaia docs: contract addresses](https://docs.kaia.io/references/contract-addresses/)",
+      "urls": [
+        "Kaia docs: token economy",
+        "Kaia docs: contract addresses"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Kaia governance forum: KEF/KIF budget transfer announcements [896](https://govforum.kaia.io/t/896), [1028](https://govforum.kaia.io/t/1028), [1091](https://govforum.kaia.io/t/1091), [1190](https://govforum.kaia.io/t/1190), [1215](https://govforum.kaia.io/t/1215), [1439](https://govforum.kaia.io/t/1439), [1459](https://govforum.kaia.io/t/1459), [1489](https://govforum.kaia.io/t/1489), [1502](https://govforum.kaia.io/t/1502), [1540](https://govforum.kaia.io/t/1540); [GP-21](https://govforum.kaia.io/t/1451)",
+      "urls": [
+        "896",
+        "1028",
+        "1091",
+        "1190",
+        "1215",
+        "1439",
+        "1459",
+        "1489",
+        "1502",
+        "1540",
+        "GP-21"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:35 AM MST (signed-in account): **Kaia is not supported.** The network selector lists only Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain. No Arkham labels were available for this report",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `kaia` fees, revenue and TVL; CoinGecko `kaia` (16 Nov 2026 6:58 AM MST); Binance KAIAUSDT daily closes",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] where the ~424M KAIA disbursed from the KEF/KIF executors went. Arkham does not support Kaia (checked 16 Nov 2026)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "title": "Moved to dead",
+  "timezone_label": "MST",
+  "generated_at": "2026-11-16 11:06 MST",
+  "policy": "A published v3 report that fails is never removed from the ranking in silence. It stays on RANKING.md until a dated entry is added here with a reason. Unscored pipeline names can move here for official shutdowns, unfixed exploits, wind-downs, or a documented dying-market skip. Other scan warnings such as thin volume stay warnings until they are formally moved.",
+  "dying_market_skip_rule": "Market cap under $1M and 24h volume under $10k, as of a dated public market read, and only when an explicit entry is added on this list.",
+  "entries": [
+    {
+      "ticker": "ANC",
+      "name": "Anchor Protocol",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Anchor Protocol collapsed with Terra/UST in May 2022. CoinGecko listing is gone and CoinPaprika no longer serves a ticker."
+    },
+    {
+      "ticker": "ARES",
+      "name": "Ares Protocol",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Ares Protocol has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "CBL",
+      "name": "Credbull",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Credbull has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "CREDIX",
+      "name": "Credix Finance",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Credix Finance has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "DFI",
+      "name": "DeFiChain",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Exploit with no fix: DeFiChain's own [post](https://blog.defichain.com/2026/11/a-final-update-from-marketing-sig.html) says a 3 Nov 2026 overflow bug in account-to-account transfers created ~184.47B DFI (over 140x the ~1.3B intended max supply) and that no corrective node release or rollback will be pursued. Its only listed CEX, Bitrue, [delisted DFI](https://support.bitrue.com/hc/en-001/articles/64117793028121-Bitrue-Will-Delist-DeFiChain-DFI) (deposits and trading closed, withdrawals until 14 Nov 2026). The Marketing SIG [announced](https://t.me/s/defichain_announcements/1840) all channels and sites would close on 14 Nov 2026; on 14 Nov a community group [said](https://t.me/s/defichain_announcements/1841) it is keeping channels open and restoring sites, but no exploit fix has been announced."
+    },
+    {
+      "ticker": "ELK",
+      "name": "Elk Finance",
+      "moved_on": "2026-11-16",
+      "category": "dying_market_skip",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Skipped as dying: market cap under $1M and 24h volume under $10k on 16 Nov 2026 (CoinGecko figures from the public status scan). Recorded here so a thin-market skip is not dropped silently from the pipeline."
+    },
+    {
+      "ticker": "FITFI",
+      "name": "Step App",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Step App officially announced on 5 Aug 2026 that all services would shut down by 21 Aug 2026."
+    },
+    {
+      "ticker": "FRA",
+      "name": "Findora",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Findora has no CoinGecko listing and CoinPaprika’s ticker API returns 404 for ico-findora (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "GFI",
+      "name": "Goldfinch",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Goldfinch token holders passed GIP-87 in June 2026 to wind down Goldfinch Prime and put the protocol into maintenance mode, with no new development."
+    },
+    {
+      "ticker": "GIDDY",
+      "name": "Giddy",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Official site giddy.co is titled “Giddy Shutdown” and states “Giddy has shut down.” The app and platform are no longer operating."
+    },
+    {
+      "ticker": "GLUE",
+      "name": "Glue",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Glue officially said 24 Jun 2026 would be the last day the Glue Blockchain and Hub were operable. The team said it may continue consumer apps on another chain."
+    },
+    {
+      "ticker": "LSK",
+      "name": "Lisk",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Lisk officially shut the Lisk Chain on 2 Nov 2026. Lisk continues as a business finance platform and LSK remains a loyalty token on Ethereum."
+    },
+    {
+      "ticker": "MITX",
+      "name": "Morpheus Labs",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Morpheus Labs has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "MOT",
+      "name": "Mobius Finance",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Mobius Finance has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "NEON",
+      "name": "Neon EVM",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Official neonevm.org notice: active development, maintenance and team support ended 1 Oct 2026; users were told to finish migrations by 31 Dec 2026. The NEON token itself is not cancelled."
+    },
+    {
+      "ticker": "OXEN",
+      "name": "Oxen",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Oxen has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "PCX",
+      "name": "ChainX",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "ChainX (PCX) has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "PRE",
+      "name": "Presearch",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Official Presearch newsletter (24 Jul 2026): the platform would stay live only until 27 Jul 2026, 5pm PST, and users were told to withdraw tokens."
+    },
+    {
+      "ticker": "REG",
+      "name": "RealT",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "RealT stopped most weekly distributions in Feb 2026. On 2 Jul 2026 a co-founder announced a voluntary liquidation and planned sale of the property portfolio. A formal court liquidation filing was not independently confirmed in this scan [Unverified]. DefiLlama still shows large RealT token TVL."
+    },
+    {
+      "ticker": "ROUTE",
+      "name": "Router Protocol",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Router Protocol officially announced it would wind down and fully close by 30 Sep 2026, including a treasury burn of 303,333,198 ROUTE and exchange delistings. Only the CoinGecko [OLD] listing remains."
+    },
+    {
+      "ticker": "SNP",
+      "name": "Synapse Network",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Synapse Network (SNP, not the SYN bridge) has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "SPELL",
+      "name": "Abracadabra.money Spell token",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Official wind-down: Abracadabra's [\"Refined proposal for an orderly wind down of MIM and Abracadabra\"](https://snapshot.box/#/s:abracadabrabymerlinthemagician.eth/proposal/0x917c7a04fc4665028cb2701ab140462096362d22ea91137518f0ab23385776fd) closed on 15 Oct 2026 with 396.16M SPELL for, from two voters. It passed under the proposal's own 30% quorum rule; the Snapshot space's 3B quorum was not met, so the pass is disputed. The proposal says MIM is senior to SPELL and \"SPELL token does not retain any accounting value\" until MIM is repaid in full; recoveries go to MIM holders and borrowers, and SPELL holders get nothing."
+    },
+    {
+      "ticker": "SUTER",
+      "name": "Suterusu",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Suterusu has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "TICS",
+      "name": "Qubetics",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Qubetics L1 ceased in mid-Sep 2026 and $TICS migrated 1:1 to Ethereum. Official 6 Oct 2026 blog: the project is not commissioning further L1, chain-abstraction or dVPN development, and it burned the entire team token allocation."
+    },
+    {
+      "ticker": "TITAN",
+      "name": "Iron Finance TITAN",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Iron Finance TITAN famously collapsed in a June 2021 bank run. The token is still listed on CoinGecko as IRON Titanium, but the protocol is a historical failure, not an operating product."
+    },
+    {
+      "ticker": "TNGBL",
+      "name": "Tangible RWA",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Tangible’s USDR stablecoin depegged in Oct 2023. Official Medium updates describe winding the property portfolio down through auctions and a path to a final USDR redemption."
+    },
+    {
+      "ticker": "USDN",
+      "name": "Neutrino USD",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": false,
+      "had_v3_score": false,
+      "reason": "Neutrino USD (Waves) depegged and is no longer on CoinGecko under USDN. CoinPaprika’s usdn-neutrino-usd ticker returns 404. (The remaining CoinGecko “Neutrino Index Token” is XTN, a different token.)"
+    },
+    {
+      "ticker": "WIT",
+      "name": "Witnet",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Witnet has no CoinGecko listing and CoinPaprika’s ticker API returns 404 for wit-witnet (listed inactive). Official shutdown notice not confirmed this pass [Unverified]."
+    },
+    {
+      "ticker": "YETI",
+      "name": "Yeti Finance",
+      "moved_on": "2026-11-16",
+      "listed_as_of": "2026-11-16",
+      "category": "wound_down_or_collapsed",
+      "unverified": true,
+      "had_v3_score": false,
+      "reason": "Yeti Finance is absent from CoinGecko and CoinPaprika’s ticker API returns 404 for yeti-yeti-finance (listed inactive). Avalanche DEX is widely regarded as defunct. Official shutdown notice not re-read this pass [Unverified date]."
+    }
+  ],
+  "calibration_controls": [
+    {
+      "ticker": "ROUTER",
+      "name": "Solrouter",
+      "score": 2.2,
+      "rank": 113,
+      "why": "Bottom of the published ranking. Failed Revenue and Selling. Almost no paying product usage; insider selling into pumps is documented in the published report."
+    },
+    {
+      "ticker": "H",
+      "name": "Humanity Protocol",
+      "score": 2.4,
+      "rank": 112,
+      "why": "Failed Revenue. Published report documents a June 2026 key-theft exploit, a reissued token with an uncapped admin mint, and highly concentrated holdings."
+    },
+    {
+      "ticker": "COTI",
+      "name": "COTI",
+      "score": 2.4,
+      "rank": 111,
+      "why": "Failed Revenue and Selling. Published report documents consolidation wallets selling into the first pump after they were funded."
+    },
+    {
+      "ticker": "SPA",
+      "name": "Sperax",
+      "score": 2.5,
+      "rank": 109,
+      "why": "Failed Revenue and Selling (0 of 11 sections passed). Published report documents a team Safe sending tokens to exchange deposits on a pump day."
+    },
+    {
+      "ticker": "EDEL",
+      "name": "Edel Finance",
+      "score": 2.5,
+      "rank": 108,
+      "why": "Failed Revenue and Selling (0 of 11 sections passed). Published report documents two security incidents in 2026 and a large insider take at launch."
+    }
+  ]
+}

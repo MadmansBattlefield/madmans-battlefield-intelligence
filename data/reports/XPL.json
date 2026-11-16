@@ -1,0 +1,266 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "XPL",
+  "name": "Plasma",
+  "chain": "plasma",
+  "contract": "native (Plasma chain, chain id 9745)",
+  "overall_score": 3.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 1,
+    "tokenomics_supply": 3,
+    "liquidity_market": 6,
+    "product_development": 6,
+    "adoption_customers": 6,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "planned: 5% validator inflation (falling to 3%) once external validators and delegation go live",
+    "team_wallet_to_exchange_during_pump": "yes: a wallet funded by the Ecosystem Treasury (genesis 50M + 250M on 21 Aug 2026, itself a +35.7% day) sent 284.5M XPL (~$58M) to Binance, Bybit, Bitget, Gate and one unlabeled deposit; 202M of it in 18 transfers on pump days (Aug-Sep 2026); an investor-allocation recipient sent 23.9M XPL to a Bybit deposit on the cliff day (25 Sep 2026, +28.5%)",
+    "treasury_selling": "Ecosystem Treasury has paid out 960M XPL; docs allow use for 'liquidity needs' and 'exchange integrations', but the sales themselves were not disclosed"
+  },
+  "price_usd": 0.04311,
+  "price_source": "CoinGecko, 16 Nov 2026 6:58 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.04311,
+    "market_cap_text": "$205.2M",
+    "fdv_text": "$431.0M",
+    "volume_24h_text": "$31.5M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/XPL.md",
+    "sha256": "5d83e180dd0099e7f75e2dd3dd45579693cc8d775f9b7fa312f4e1de035afe67",
+    "bytes": 16188,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:58 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~7:35 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:35 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Allocation and unlock schedule",
+      "url": "tokenomics docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → `0x9374…` 250M on a +35.7% day; genesis 50M",
+      "url": "250M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → `0x9374…` 250M on a +35.7% day; genesis 50M",
+      "url": "genesis",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x9374…` → exchanges on pump days",
+      "url": "Bybit 23 Aug",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x9374…` → exchanges on pump days",
+      "url": "Binance 23 Aug",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x9374…` → exchanges on pump days",
+      "url": "Binance 3 Sep",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x9374…` → exchanges on pump days",
+      "url": "Binance 26 Sep",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Investor recipient → Bybit on cliff day",
+      "url": "funding",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Investor recipient → Bybit on cliff day",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $103.8k / 12 months",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "plasma",
+      "address": "0xf97ba376d3ecb36c4472b1d3c5aaf2d158c28558",
+      "url": "https://intel.arkm.com/explorer/address/0xF97Ba376d3Ecb36C4472B1D3c5aaF2D158c28558",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes: a wallet funded by the Ecosystem Treasury (genesis 50M + 250M on 21 Aug 2026, itself a +35.7% day) sent 284.5M XPL (~$58M) to Binance, Bybit, Bitget, Gate and one unlabeled deposit; 202M of it in 18 transfers on pump days (Aug-Sep 2026); an investor-allocation recipient sent 23.9M XPL to a Bybit deposit on the cliff day (25 Sep 2026, +28.5%)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn",
+      "fee_share"
+    ],
+    "automatic_onchain": null,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "The main product, USD₮ transfers, is free by design, so $405M of TVL earns about $100k a year. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0xf97ba376d3ecb36c4472b1d3c5aaf2d158c28558",
+      "url": "https://intel.arkm.com/explorer/address/0xF97Ba376d3Ecb36C4472B1D3c5aaF2D158c28558",
+      "label": "were available for this report",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": true,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Plasma chain via Etherscan API v2 (chain 9745): native and internal transfers of the Ecosystem Treasury, Team, Investor, 80 first-hop recipients and 56 second-hop addresses; receipts (status 1) for every linked tx, 16 Nov 2026 ~7:00–7:30 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Plasmascan public labels and top-accounts page (16 Nov 2026); Etherscan Ethereum labels for Binance/Bitget deposits on the same addresses",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:35 AM MST (signed-in account): **Plasma is not supported.** The network selector lists only Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain. The first address looked up, `0xF97B…8558`, showed no assets and no transfers ([Arkham](https://intel.arkm.com/explorer/address/0xF97Ba376d3Ecb36C4472B1D3c5aaF2D158c28558)). No Arkham labels were available for this report",
+      "urls": [
+        "Arkham"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Plasma docs: tokenomics](https://www.plasma.to/docs/get-started/xpl/tokenomics); DefiLlama `plasma` fees, revenue and TVL; CoinGecko `plasma` (16 Nov 2026 6:58 AM MST); Binance XPLUSDT daily closes",
+      "urls": [
+        "Plasma docs: tokenomics"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] who controls `0x9374…`, `0x3729…` and `0x0E7B…`; whether ecosystem sales were market-making under an agreement. Arkham does not support Plasma (checked 16 Nov 2026)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ARB",
+  "name": "Arbitrum",
+  "chain": "arbitrum-one",
+  "contract": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+  "overall_score": 5.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 4,
+    "foundation_team": 7,
+    "insider_holdings": 6,
+    "selling_behavior": 5,
+    "tokenomics_supply": 6,
+    "liquidity_market": 7,
+    "product_development": 8,
+    "adoption_customers": 7,
+    "security_audits": 7,
+    "regulatory": 6,
+    "catalysts": 5
+  },
+  "sections_passed": 8,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found on the ARB token or the Arbitrum One bridge in this pass",
+    "mint_path_live": "yes, by design (owner = DAO UpgradeExecutor may mint up to 2% of supply per year after a governance vote; never used, supply still 9,999,998,978)",
+    "team_wallet_to_exchange_during_pump": "yes, partly disclosed (Coinbase Prime deposit address 0x905a, fed by Foundation and Arbitrum Safes, swept 137.5M ARB to the Coinbase Prime hot wallet on 13 pump days, incl. 27.55M on 4 Sep 2026 at +56.1%; the Foundation's reports say it runs 'ARB conversions' and pays costs in ARB, but give no trade-level detail)",
+    "treasury_in_single_key_wallets": "no for the DAO Treasury (on-chain governor + 3-day timelock) and Foundation Safe (3-of-6); the conversion hop 0x905a is a Coinbase Prime deposit address (Arkham), i.e. custodian-held, not a Foundation single-key wallet",
+    "revenue_to_holders": "none automatic; sequencer revenue (~$7.05M in 1y) goes to a DAO-controlled treasury; no DAO buyback approved"
+  },
+  "price_usd": 0.1322,
+  "price_source": "CoinGecko, 16 Nov 2026 5:25 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.1322,
+    "market_cap_text": "$911.4M",
+    "fdv_text": "$1.32B",
+    "volume_24h_text": "$82.7M",
+    "total_supply_text": "9,999,998,978"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ARB.md",
+    "sha256": "8a70e3850567b2e1044af122f4608860619b97dd0b20eabcb005367e88c7a2ff",
+    "bytes": 28786,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:25 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 5:25 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:07–7:18 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "DAO Treasury and Foundation Vesting Budget Wallet addresses",
+      "url": "DAO docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Vesting releases go to Safe `0xd6c8…` (3-of-6) and on to `0x905a…` in the same tx",
+      "url": "8 Sep 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Vesting releases go to Safe `0xd6c8…` (3-of-6) and on to `0x905a…` in the same tx",
+      "url": "30 Oct 2026 release",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Vesting releases go to Safe `0xd6c8…` (3-of-6) and on to `0x905a…` in the same tx",
+      "url": "30 Oct forward",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x905a…` (Coinbase Prime deposit address) swept all 930M ARB to Coinbase Prime 3",
+      "url": "0x905a",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x905a…` (Coinbase Prime deposit address) swept all 930M ARB to Coinbase Prime 3",
+      "url": "Coinbase Prime 3",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x905a…` (Coinbase Prime deposit address) swept all 930M ARB to Coinbase Prime 3",
+      "url": "deposit label",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x905a…` (Coinbase Prime deposit address) swept all 930M ARB to Coinbase Prime 3",
+      "url": "hot wallet label",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "4 Sep 2026 (+56.1%): 27.55M to Coinbase Prime 3",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "DAO → Foundation Safe 230M (28 Jun 2026)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "DAO → Foundation Safe 230M (28 Jun 2026)",
+      "url": "H1 report, Continued Funding",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x140e…` (250M from DAO) shares a signer with the Foundation Safe and fed `0x905a…`",
+      "url": "DAO tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x140e…` (250M from DAO) shares a signer with the Foundation Safe and fed `0x905a…`",
+      "url": "Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2%/yr mint cap, owner = UpgradeExecutor, never minted",
+      "url": "token code",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2%/yr mint cap, owner = UpgradeExecutor, never minted",
+      "url": "UpgradeExecutor",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Security Council 9-of-12; Core Timelock 8 days; Treasury Timelock 3 days",
+      "url": "SC",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Security Council 9-of-12; Core Timelock 8 days; Treasury Timelock 3 days",
+      "url": "Core Timelock",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Security Council 9-of-12; Core Timelock 8 days; Treasury Timelock 3 days",
+      "url": "Treasury Timelock",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $7.05M (1y) to DAO treasury; no holder accrual",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $7.05M (1y) to DAO treasury; no holder accrual",
+      "url": "setup report",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "7.7% left to vest, final in Mar 2027",
+      "url": "Foundation blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "arbitrum",
+      "address": "0x140e4d8d4229d5437efd6fc1beeb86cb2bcf9d98",
+      "url": "https://arbiscan.io/address/0x140e4d8d4229d5437efd6fc1beeb86cb2bcf9d98",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x15533b77981cda0f85c4f9a485237df4285d6844",
+      "url": "https://arbiscan.io/address/0x15533b77981cDa0F85c4F9a485237DF4285D6844",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x1e7016f7c23859d097668c27b72c170ed7129a10",
+      "url": "https://arbiscan.io/address/0x1e7016f7c23859d097668c27b72c170ed7129a10",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x34d45e99f7d8c45ed05b5ca72d54bbd1fb3f98f0",
+      "url": "https://arbiscan.io/address/0x34d45e99f7D8c45ed05B5cA72D54bbD1fb3F98f0",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x3964128e13e05d4a672b4b45a1a96a2d56c27efb",
+      "url": "https://arbiscan.io/address/0x3964128e13e05d4a672b4b45a1a96a2d56c27efb",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x423552c0f05baccac5bfa91c6dcf1dc53a0a1641",
+      "url": "https://arbiscan.io/address/0x423552c0F05baCCac5Bfa91C6dCF1dc53a0A1641",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x789fc99093b09ad01c34dc7251d0c89ce743e5a4",
+      "url": "https://arbiscan.io/address/0x789fC99093B09aD01C34DC7251D0C89ce743e5a4",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x905ae0e37d838da462f6964ee1f7b249ae767d5d",
+      "url": "https://arbiscan.io/address/0x905ae0e37d838da462f6964ee1f7b249ae767d5d",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+      "url": "https://arbiscan.io/address/0x912CE59144191C1204E64559FE8253a0e49E6548#code",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xadd68bcb0f66878ab9d37a447c7b9067c5dfa941",
+      "url": "https://arbiscan.io/address/0xADd68bCb0f66878aB9D37a447C7b9067C5dfa941",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xae8cbcef7de8664c3ff5bfc58536c183ffa60b51",
+      "url": "https://arbiscan.io/address/0xae8cbcef7de8664c3ff5bfc58536c183ffa60b51",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xbfc1feca8b09a5c5d3effe7429ebe24b9c09ef58",
+      "url": "https://arbiscan.io/address/0xbFc1FECa8B09A5c5D3EFfE7429eBE24b9c09EF58",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xcf57572261c7c2bcf21ffd220ea7d1a27d40a827",
+      "url": "https://arbiscan.io/address/0xCF57572261c7c2BCF21ffD220ea7d1a27D40A827",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xd6c8a4e72584f24bd5517afed6c01d21477c17f6",
+      "url": "https://arbiscan.io/address/0xd6c8a4e72584f24bd5517afed6c01d21477c17f6",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xf07ded9dc292157749b6fd268e37df6ea38395b9",
+      "url": "https://arbiscan.io/address/0xf07DeD9dC292157749B6Fd268E37DF6EA38395B9",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xf3fc178157fb3c87548baa86f9d24ba38e649b58",
+      "url": "https://arbiscan.io/address/0xF3FC178157fb3c87548bAA86F9d24BA38E649B58",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xf5acf47847963bd0ae2b8e080729bf508b2482df",
+      "url": "https://arbiscan.io/address/0xf5acf47847963bd0ae2b8e080729bf508b2482df",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum-one",
+      "address": "0x140e4d8d4229d5437efd6fc1beeb86cb2bcf9d98",
+      "url": "https://intel.arkm.com/explorer/address/0x140e4d8d4229d5437efd6fc1beeb86cb2bcf9d98",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum-one",
+      "address": "0x1e7016f7c23859d097668c27b72c170ed7129a10",
+      "url": "https://intel.arkm.com/explorer/address/0x1e7016f7c23859d097668c27b72c170ed7129a10",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum-one",
+      "address": "0x3964128e13e05d4a672b4b45a1a96a2d56c27efb",
+      "url": "https://intel.arkm.com/explorer/address/0x3964128e13e05d4a672b4b45a1a96a2d56c27efb",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum-one",
+      "address": "0x905ae0e37d838da462f6964ee1f7b249ae767d5d",
+      "url": "https://intel.arkm.com/explorer/address/0x905ae0e37d838da462f6964ee1f7b249ae767d5d",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum-one",
+      "address": "0xae8cbcef7de8664c3ff5bfc58536c183ffa60b51",
+      "url": "https://intel.arkm.com/explorer/address/0xae8cbcef7de8664c3ff5bfc58536c183ffa60b51",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum-one",
+      "address": "0xd6c8a4e72584f24bd5517afed6c01d21477c17f6",
+      "url": "https://intel.arkm.com/explorer/address/0xd6c8a4e72584f24bd5517afed6c01d21477c17f6",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum-one",
+      "address": "0xf5acf47847963bd0ae2b8e080729bf508b2482df",
+      "url": "https://intel.arkm.com/explorer/address/0xf5acf47847963bd0ae2b8e080729bf508b2482df",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb50721bcf8d664c30412cfbc6cf7a15145234ad1",
+      "url": "https://etherscan.io/token/0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1",
+      "kind": "token"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes, partly disclosed (Coinbase Prime deposit address 0x905a, fed by Foundation and Arbitrum Safes, swept 137.5M ARB to the Coinbase Prime hot wallet on 13 pump days, incl. 27.55M on 4 Sep 2026 at +56.1%; the Foundation's reports say it runs 'ARB conversions' and pays costs in ARB, but give no trade-level detail)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "buyback"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": true,
+    "notes": "Revenue is real and goes to a treasury the token holders vote on. That is better than CFG or HUMA, where the token sees nothing. But it is small and shrinking: about $514k a month, or ≈ 130x price-to-sales. **4**, so the gate is not tripped."
+  },
+  "attributions": [
+    {
+      "address": "0x905ae0e37d838da462f6964ee1f7b249ae767d5d",
+      "url": "https://intel.arkm.com/explorer/address/0x905ae0e37d838da462f6964ee1f7b249ae767d5d",
+      "label": "a **Coinbase Prime deposit address** ([Arkham](https://intel.arkm.com/explorer/a",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x1e7016f7c23859d097668c27b72c170ed7129a10",
+      "url": "https://intel.arkm.com/explorer/address/0x1e7016f7c23859d097668c27b72c170ed7129a10",
+      "label": "Coinbase Prime 3",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0xd6c8a4e72584f24bd5517afed6c01d21477c17f6",
+      "url": "https://intel.arkm.com/explorer/address/0xd6c8a4e72584f24bd5517afed6c01d21477c17f6",
+      "label": "Arbitrum: Gnosis Safe Proxy",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x140e4d8d4229d5437efd6fc1beeb86cb2bcf9d98",
+      "url": "https://intel.arkm.com/explorer/address/0x140e4d8d4229d5437efd6fc1beeb86cb2bcf9d98",
+      "label": "Arbitrum: Gnosis Safe Proxy",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x3964128e13e05d4a672b4b45a1a96a2d56c27efb",
+      "url": "https://intel.arkm.com/explorer/address/0x3964128e13e05d4a672b4b45a1a96a2d56c27efb",
+      "label": "Coinbase Prime 3",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf5acf47847963bd0ae2b8e080729bf508b2482df",
+      "url": "https://intel.arkm.com/explorer/address/0xf5acf47847963bd0ae2b8e080729bf508b2482df",
+      "label": "0xf5ac…` another Coinbase Prime deposit address (44.407M ARB",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xae8cbcef7de8664c3ff5bfc58536c183ffa60b51",
+      "url": "https://intel.arkm.com/explorer/address/0xae8cbcef7de8664c3ff5bfc58536c183ffa60b51",
+      "label": "Coinbase Prime 3",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": true,
+    "flag_notes": [
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Arbiscan via the Etherscan v2 API (chainid 42161): `tokentx` ARB history for the Foundation Vesting Budget Wallet, Foundation Safe `0xd6c8…`, DAO Treasury, `0x905a…` (1,330 tx) and Coinbase Prime 3 (latest 5,000); read 16 Nov 2026 ~8:30–8:50 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Arbitrum One RPC (publicnode): `totalSupply()`, `owner()`, `MINT_CAP_NUMERATOR`/`DENOMINATOR`, `nextMint()`, balances, Safe `getThreshold()`/`getOwners()`, timelock `getMinDelay()`, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Arbitrum DAO contract addresses](https://docs.arbitrum.foundation/deployment-addresses) · [Foundation documents](https://docs.arbitrum.foundation/foundation-documents) · [H1 2026 report](https://docs.arbitrum.foundation/assets/ArbitrumFoundationBiannualReport2026H1.pdf) · [2025 report](https://docs.arbitrum.foundation/assets/ArbitrumFoundationTransparencyReport2025.pdf) · [Initial setup report](https://docs.arbitrum.foundation/foundational-documents/transparency-report-initial-foundation-setup) · [H1 2026 blog](https://blog.arbitrum.foundation/arbitrum-foundation-reports-first-half-2026-progress-update/)",
+      "urls": [
+        "Arbitrum DAO contract addresses",
+        "Foundation documents",
+        "H1 2026 report",
+        "2025 report",
+        "Initial setup report",
+        "H1 2026 blog"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:07–7:18 AM MST (signed-in account): Coinbase Prime Deposit [0x905a…](https://intel.arkm.com/explorer/address/0x905ae0e37d838da462f6964ee1f7b249ae767d5d) · Coinbase Prime: Hot Wallet (OTC tag) [0x1e70…](https://intel.arkm.com/explorer/address/0x1e7016f7c23859d097668c27b72c170ed7129a10) · Coinbase Prime Deposit [0xf5ac…](https://intel.arkm.com/explorer/address/0xf5acf47847963bd0ae2b8e080729bf508b2482df) · Arbitrum: Gnosis Safe Proxy [0xd6c8…](https://intel.arkm.com/explorer/address/0xd6c8a4e72584f24bd5517afed6c01d21477c17f6) · Arbitrum Safes tagged Team Wallet [0x140e…](https://intel.arkm.com/explorer/address/0x140e4d8d4229d5437efd6fc1beeb86cb2bcf9d98), [0xae8c…](https://intel.arkm.com/explorer/address/0xae8cbcef7de8664c3ff5bfc58536c183ffa60b51) · Questbook grants-delegator tag [0x3964…](https://intel.arkm.com/explorer/address/0x3964128e13e05d4a672b4b45a1a96a2d56c27efb). Token filter is Enterprise-only; first transfer page only",
+      "urls": [
+        "0x905a…",
+        "0x1e70…",
+        "0xf5ac…",
+        "0xd6c8…",
+        "0x140e…",
+        "0xae8c…",
+        "0x3964…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan label \"Coinbase Prime 3\" (same address on Arbitrum); [The Block](https://www.theblock.co/news/business/2025-03-11-offchain-labs-arbitrum-token-345602) · [Cointelegraph](https://cointelegraph.com/news/offchain-labs-buys-arb-arbitrum-20b-value-secured)",
+      "urls": [
+        "The Block",
+        "Cointelegraph"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama Arbitrum](https://defillama.com/chain/arbitrum) fees, revenue and TVL, 16 Nov 2026 5:25 AM MST; CoinGecko `arbitrum`; Gate ARB/USDT daily candles (UTC)",
+      "urls": [
+        "DefiLlama Arbitrum"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] whether `0x905a…` deposits were sold; whose Coinbase Prime account `0x905a…` credits; who controls `0x3964…`; which DAO programmes `0x140e…` and `0xae8c…` run; rollup-stage rating",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

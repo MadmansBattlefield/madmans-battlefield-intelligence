@@ -1,0 +1,690 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SERV",
+  "name": "OpenServ",
+  "chain": "ethereum",
+  "contract": "0x40e3d1A4B2C47d9AA61261F5606136ef73E28042",
+  "overall_score": 2.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 3,
+    "insider_holdings": 3,
+    "selling_behavior": 1,
+    "tokenomics_supply": 4,
+    "liquidity_market": 4,
+    "product_development": 5,
+    "adoption_customers": 2,
+    "security_audits": 3,
+    "regulatory": 3,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "treasury_sells_into_pumps": "tripped",
+    "treasury_to_exchange": "tripped_10M_into_MEXC_deposit_address_11_Nov_2026",
+    "owner_can_freeze_transfers": "present_unused",
+    "blacklist": "present_unused",
+    "burns_since_10_Oct": "none"
+  },
+  "price_usd": 0.01242,
+  "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {
+    "bridged_copy_base": "0x5576D6ed9181F2225afF5282Ac0ED29f755437Ea",
+    "chain_read_block_eth": 26415266
+  },
+  "key_numbers": {
+    "price_usd": 0.01242,
+    "market_cap_text": "$9.56M",
+    "fdv_text": "$12.42M",
+    "volume_24h_text": "$558k"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SERV.md",
+    "sha256": "32f6728be53b3595e1a33ecc2c1ccdc319b6d4f821dfe7afae17a81008c9426a",
+    "bytes": 33461,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:05 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:05 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "**Red line:** Safe `0x42CA…` → MEXC deposit `0x56F9…`: 10,000 test (15:57 UTC) + 9,990,000 SERV (16:20 UTC), 11 Nov 2026",
+      "url": "tx `test send`",
+      "kind": "other",
+      "tier": "A (chain) + B (label)",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "**Red line:** Safe `0x42CA…` → MEXC deposit `0x56F9…`: 10,000 test (15:57 UTC) + 9,990,000 SERV (16:20 UTC), 11 Nov 2026",
+      "url": "tx `9.99M send`",
+      "kind": "other",
+      "tier": "A (chain) + B (label)",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "**Red line:** Safe `0x42CA…` → MEXC deposit `0x56F9…`: 10,000 test (15:57 UTC) + 9,990,000 SERV (16:20 UTC), 11 Nov 2026",
+      "url": "deposit on Etherscan",
+      "kind": "other",
+      "tier": "A (chain) + B (label)",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "**Red line:** Safe `0x42CA…` → MEXC deposit `0x56F9…`: 10,000 test (15:57 UTC) + 9,990,000 SERV (16:20 UTC), 11 Nov 2026",
+      "url": "Arkham “MEXC Deposit (0x56F)”",
+      "kind": "other",
+      "tier": "A (chain) + B (label)",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "`0x56F9…` swept both deposits to MEXC hot wallet `0x9642…` within 2 min; gassed by MEXC's gas supplier",
+      "url": "tx `sweep 10k`",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x56F9…` swept both deposits to MEXC hot wallet `0x9642…` within 2 min; gassed by MEXC's gas supplier",
+      "url": "tx `sweep 9.99M`",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x56F9…` swept both deposits to MEXC hot wallet `0x9642…` within 2 min; gassed by MEXC's gas supplier",
+      "url": "tx `gas tx`",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x56F9…` swept both deposits to MEXC hot wallet `0x9642…` within 2 min; gassed by MEXC's gas supplier",
+      "url": "Arkham “MEXC: Hot Wallet”",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x56F9…` swept both deposits to MEXC hot wallet `0x9642…` within 2 min; gassed by MEXC's gas supplier",
+      "url": "Blockscout “MEXC 21”",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x56F9…` swept both deposits to MEXC hot wallet `0x9642…` within 2 min; gassed by MEXC's gas supplier",
+      "url": "Arkham “MEXC: Gas Supplier”",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Pump-day funding: Safe → fresh wallet `0x406b…` 1.5M SERV on 5 Nov 2026 (+11.1% 5-day), which then sold ~1.4M into Uniswap",
+      "url": "tx `funding tx`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Pump-day funding: Safe → fresh wallet `0x406b…` 1.5M SERV on 5 Nov 2026 (+11.1% 5-day), which then sold ~1.4M into Uniswap",
+      "url": "tx `example sale`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Pump-day funding: Safe → fresh wallet `0x406b…` 1.5M SERV on 5 Nov 2026 (+11.1% 5-day), which then sold ~1.4M into Uniswap",
+      "url": "tx `14 Nov sale`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Pump-day funding: Safe → fresh wallet `0x406b…` 1.5M SERV on 5 Nov 2026 (+11.1% 5-day), which then sold ~1.4M into Uniswap",
+      "url": "0x406b… on Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Pump-day funding: Safe → fresh wallet `0x406b…` 1.5M SERV on 5 Nov 2026 (+11.1% 5-day), which then sold ~1.4M into Uniswap",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x406b…` pays sale USDC to `0x14f6…` (Arkham “@open_founder”), the same address both docs-listed treasury wallets pay",
+      "url": "tx `8,773 USDC`",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source → Unverified)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x406b…` pays sale USDC to `0x14f6…` (Arkham “@open_founder”), the same address both docs-listed treasury wallets pay",
+      "url": "tx `5,000 USDC`",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source → Unverified)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x406b…` pays sale USDC to `0x14f6…` (Arkham “@open_founder”), the same address both docs-listed treasury wallets pay",
+      "url": "0x14f6… on Etherscan",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source → Unverified)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x406b…` pays sale USDC to `0x14f6…` (Arkham “@open_founder”), the same address both docs-listed treasury wallets pay",
+      "url": "Arkham “@open_founder”",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source → Unverified)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Docs-listed treasury `0x9193…` sold 12.23M SERV into DEX pools since Jan 2026, 3.16M on pump days",
+      "url": "0x9193… on Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14–15 Nov 2026"
+    },
+    {
+      "claim": "Docs-listed treasury `0x9193…` sold 12.23M SERV into DEX pools since Jan 2026, 3.16M on pump days",
+      "url": "tx `21 Sep`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14–15 Nov 2026"
+    },
+    {
+      "claim": "Docs-listed treasury `0x9193…` sold 12.23M SERV into DEX pools since Jan 2026, 3.16M on pump days",
+      "url": "tx `22 Sep`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14–15 Nov 2026"
+    },
+    {
+      "claim": "Docs-listed treasury `0x9193…` sold 12.23M SERV into DEX pools since Jan 2026, 3.16M on pump days",
+      "url": "tx `23 Sep`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14–15 Nov 2026"
+    },
+    {
+      "claim": "Docs-listed treasury `0x9193…` sold 12.23M SERV into DEX pools since Jan 2026, 3.16M on pump days",
+      "url": "tx `4 Nov`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14–15 Nov 2026"
+    },
+    {
+      "claim": "Safe refilled `0x9193…` seven times (16 Jan – 3 Nov 2026)",
+      "url": "16 Jan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Safe refilled `0x9193…` seven times (16 Jan – 3 Nov 2026)",
+      "url": "22 Apr",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Safe refilled `0x9193…` seven times (16 Jan – 3 Nov 2026)",
+      "url": "9 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Safe refilled `0x9193…` seven times (16 Jan – 3 Nov 2026)",
+      "url": "26 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Safe refilled `0x9193…` seven times (16 Jan – 3 Nov 2026)",
+      "url": "26 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Safe refilled `0x9193…` seven times (16 Jan – 3 Nov 2026)",
+      "url": "13 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Safe refilled `0x9193…` seven times (16 Jan – 3 Nov 2026)",
+      "url": "3 Nov",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "4 Nov 2026 pump day (+16.3%): 1,084,000 SERV from `0x9193…` to unlabelled `0x8210…`",
+      "url": "tx `tx`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "4 Nov 2026 pump day (+16.3%): 1,084,000 SERV from `0x9193…` to unlabelled `0x8210…`",
+      "url": "0x8210…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Safe pulled 212M SERV from Sablier vesting (21 and 31 Oct 2026) → Safe now holds 206.2M (20.6%), controlled by 2 of 5 keys",
+      "url": "tx `130M`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Safe pulled 212M SERV from Sablier vesting (21 and 31 Oct 2026) → Safe now holds 206.2M (20.6%), controlled by 2 of 5 keys",
+      "url": "tx `82.1M`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Safe pulled 212M SERV from Sablier vesting (21 and 31 Oct 2026) → Safe now holds 206.2M (20.6%), controlled by 2 of 5 keys",
+      "url": "Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Safe pulled 212M SERV from Sablier vesting (21 and 31 Oct 2026) → Safe now holds 206.2M (20.6%), controlled by 2 of 5 keys",
+      "url": "Safe on Arkham",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "No burns since 10 Oct 2026 (dead-address balance unchanged)",
+      "url": "Etherscan dead address holdings",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0510b1a8b756836e0563358737d445aa8589cfe7",
+      "url": "https://etherscan.io/address/0x0510b1a8b756836e0563358737d445aa8589cfe7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x14f6165dfa03335beadfb42c49b7df063dddfc25",
+      "url": "https://etherscan.io/address/0x14f6165DFA03335bEAdFb42c49B7dF063DDDFC25",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3962f6585946823440d274ad7c719b02b49de51e",
+      "url": "https://etherscan.io/address/0x3962f6585946823440d274aD7C719B02b49DE51E",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x406b510f688d113c0a78d2a7b3af6a438b6b1aeb",
+      "url": "https://etherscan.io/address/0x406b510F688d113c0A78d2a7B3af6a438b6B1aEb",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x40e3d1a4b2c47d9aa61261f5606136ef73e28042",
+      "url": "https://etherscan.io/address/0x40e3d1A4B2C47d9AA61261F5606136ef73E28042",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x42cab3696a60c6fc51381bb533797e4121e1f168",
+      "url": "https://etherscan.io/address/0x42CAb3696a60C6Fc51381Bb533797E4121e1f168",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x56f966721fda11f95ee8c0bd5b031751f682ff47",
+      "url": "https://intel.arkm.com/explorer/address/0x56F966721FdA11F95ee8C0bd5b031751f682fF47",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8210201496876814ceb86b29fcf6f0f3f1ab8e6e",
+      "url": "https://etherscan.io/address/0x8210201496876814ceb86b29fcf6f0f3f1ab8e6e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9193f0b639097e2ad0f22e5692cd10e3a28a3376",
+      "url": "https://etherscan.io/address/0x9193f0B639097e2AD0f22E5692Cd10e3A28a3376",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9642b23ed1e01df1092b92641051881a322f5d4e",
+      "url": "https://etherscan.io/address/0x9642b23Ed1E01Df1092B92641051881a322F5D4E",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9c7ed68b00dc4f45243b07ce71a54a86e8f8fcbb",
+      "url": "https://etherscan.io/address/0x9C7eD68B00DC4f45243b07Ce71a54A86e8f8FcBB",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb771f724c504b329623b0ce9199907137670600e",
+      "url": "https://etherscan.io/address/0xB771f724C504b329623B0ce9199907137670600E",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd54eea1a55cdb7d03c83b7b3e333e728355b1d53",
+      "url": "https://etherscan.io/address/0xd54eea1a55cdb7d03c83b7b3e333e728355b1d53",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe8832a868c091263ed190a9f4be304a03895dd91",
+      "url": "https://etherscan.io/address/0xe8832a868c091263ed190a9f4be304a03895dd91",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xed16d0fecfa95d4a041d16bf15f98c6be49f9479",
+      "url": "https://etherscan.io/address/0xeD16D0FeCFA95d4a041d16Bf15F98c6BE49f9479",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xef6a15b3675390e2896c99a4d12d51f9dfbd779e",
+      "url": "https://etherscan.io/address/0xeF6A15b3675390e2896c99A4D12d51f9dfbd779e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf86b359035208e4529686a1825f2d5bee38c28a8",
+      "url": "https://etherscan.io/address/0xf86B359035208e4529686A1825F2D5BeE38c28A8",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_sells_into_pumps: tripped"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The docs promise buy-and-burn. The chain shows no burns at all in five weeks, and no revenue is disclosed."
+  },
+  "attributions": [
+    {
+      "address": "0x56f966721fda11f95ee8c0bd5b031751f682ff47",
+      "url": "https://intel.arkm.com/explorer/address/0x56F966721FdA11F95ee8C0bd5b031751f682fF47",
+      "label": "MEXC: Gas Supplier",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x42cab3696a60c6fc51381bb533797e4121e1f168",
+      "url": "https://intel.arkm.com/explorer/address/0x42CAb3696a60C6Fc51381Bb533797E4121e1f168",
+      "label": "MEXC: Gas Supplier",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x14f6165dfa03335beadfb42c49b7df063dddfc25",
+      "url": "https://intel.arkm.com/explorer/address/0x14f6165DFA03335bEAdFb42c49B7dF063DDDFC25",
+      "label": "it **",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official",
+        "explorer-link"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9193f0b639097e2ad0f22e5692cd10e3a28a3376",
+      "url": "https://intel.arkm.com/explorer/address/0x9193f0B639097e2AD0f22E5692Cd10e3A28a3376",
+      "label": null,
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official",
+        "explorer-link"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x406b510f688d113c0a78d2a7b3af6a438b6b1aeb",
+      "url": "https://intel.arkm.com/explorer/address/0x406b510F688d113c0A78d2a7B3af6a438b6B1aEb",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official",
+        "explorer-link"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe8832a868c091263ed190a9f4be304a03895dd91",
+      "url": "https://intel.arkm.com/explorer/address/0xe8832a868c091263ed190a9f4be304a03895dd91",
+      "label": "MEXC: Gas Supplier",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9642b23ed1e01df1092b92641051881a322f5d4e",
+      "url": "https://intel.arkm.com/explorer/address/0x9642b23Ed1E01Df1092B92641051881a322F5D4E",
+      "label": "MEXC Deposit (0x56F)",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC (`ethereum-rpc.publicnode.com`, `eth.drpc.org`) and Base RPC: balances, Safe threshold and owners, fee getters; 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout `eth.blockscout.com` token-transfer logs for the Safe, `0x9193…`, `0x406b…`, `0x56F9…`, `0xeF6A…` and holder list, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages (Etherscan) for every wallet named above: token [`0x40e3…`](https://etherscan.io/address/0x40e3d1A4B2C47d9AA61261F5606136ef73E28042) · Safe [`0x42CA…`](https://etherscan.io/address/0x42CAb3696a60C6Fc51381Bb533797E4121e1f168) · [`0x9193…`](https://etherscan.io/address/0x9193f0B639097e2AD0f22E5692Cd10e3A28a3376) · [`0xeF6A…`](https://etherscan.io/address/0xeF6A15b3675390e2896c99A4D12d51f9dfbd779e) · [`0x406b…`](https://etherscan.io/address/0x406b510F688d113c0A78d2a7B3af6a438b6B1aEb) · [`0x56F9…`](https://etherscan.io/address/0x56F966721FdA11F95ee8C0bd5b031751f682fF47) · [`0x9642…`](https://etherscan.io/address/0x9642b23Ed1E01Df1092B92641051881a322F5D4E) · [`0x14f6…`](https://etherscan.io/address/0x14f6165DFA03335bEAdFb42c49B7dF063DDDFC25) · [`0x0510…`](https://etherscan.io/address/0x0510b1a8b756836e0563358737d445aa8589cfe7) · [`0xeD16…`](https://etherscan.io/address/0xeD16D0FeCFA95d4a041d16Bf15F98c6BE49f9479) · [`0x8210…`](https://etherscan.io/address/0x8210201496876814ceb86b29fcf6f0f3f1ab8e6e) · Sablier [`Tranched`](https://etherscan.io/address/0xf86B359035208e4529686A1825F2D5BeE38c28A8) / [`Linear`](https://etherscan.io/address/0x3962f6585946823440d274aD7C719B02b49DE51E); every transaction is linked inline and in the 🔗 Evidence trail",
+      "urls": [
+        "`0x40e3…`",
+        "`0x42CA…`",
+        "`0x9193…`",
+        "`0xeF6A…`",
+        "`0x406b…`",
+        "`0x56F9…`",
+        "`0x9642…`",
+        "`0x14f6…`",
+        "`0x0510…`",
+        "`0xeD16…`",
+        "`0x8210…`",
+        "`Tranched`",
+        "`Linear`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Verified source OpenServ.sol (line references from 10 Oct 2026 review)",
+      "urls": [],
+      "date_read": "10 Oct 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [docs.openserv.ai — SERV token](https://docs.openserv.ai/what-is-serv/the-serv-token), fetched 14 Nov 2026",
+      "urls": [
+        "docs.openserv.ai — SERV token"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinGecko market data, tickers and 365-day closes · DexScreener pools, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout Circle USDC transfers for `0x406b…` and `0x14f6165D…`, and `0x56F9…` transactions; CoinGecko daily closes for the pump test; 15 Nov 2026 ~11:10 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): [`0x56F9…` “MEXC Deposit (0x56F)”](https://intel.arkm.com/explorer/address/0x56F966721FdA11F95ee8C0bd5b031751f682fF47); [`0x9642…` “MEXC: Hot Wallet”](https://intel.arkm.com/explorer/address/0x9642b23Ed1E01Df1092B92641051881a322F5D4E); [`0xE883…` “MEXC: Gas Supplier”](https://intel.arkm.com/explorer/address/0xe8832a868c091263ed190a9f4be304a03895dd91); [`0x14f6…` “@open_founder”](https://intel.arkm.com/explorer/address/0x14f6165DFA03335bEAdFb42c49B7dF063DDDFC25); [no entity on `0x406b…`](https://intel.arkm.com/explorer/address/0x406b510F688d113c0A78d2a7B3af6a438b6B1aEb); Safe [`0x42CA…`](https://intel.arkm.com/explorer/address/0x42CAb3696a60C6Fc51381Bb533797E4121e1f168). Limits: Arkham gives relative ages only (exact times above are from Blockscout); its all-time exchange totals are Enterprise-locked; only the first page of transfers was read",
+      "urls": [
+        "`0x56F9…` “MEXC Deposit (0x56F)”",
+        "`0x9642…` “MEXC: Hot Wallet”",
+        "`0xE883…` “MEXC: Gas Supplier”",
+        "`0x14f6…` “@open_founder”",
+        "no entity on `0x406b…`",
+        "`0x42CA…`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Founder identity (incl. Arkham's \"@open_founder\" label, one source); Panama registry entry; owner of `0xeD16…`, `0x8210…`, `0x406b…`, `0x0510B1a8…`; which MEXC account `0x56F9…` credits and whether MEXC sold the 10M; reasoning-engine benchmarks",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

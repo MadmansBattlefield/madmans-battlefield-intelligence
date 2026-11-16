@@ -1,0 +1,313 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "REQ",
+  "name": "Request Network",
+  "chain": "ethereum",
+  "contract": "0x8f8221afbb33998d8584a2b05749ba73c37a938a",
+  "overall_score": 4.2,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 3,
+    "tokenomics_supply": 6,
+    "liquidity_market": 6,
+    "product_development": 6,
+    "adoption_customers": 5,
+    "security_audits": 5,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found (DefiLlama hacks list empty)",
+    "mint_path_live": "no: fixed 1B supply, burn only (999,416,741 left)",
+    "team_wallet_to_exchange_during_pump": "yes: the Etherscan-labelled Team Wallet sent 600,000 REQ to Bitfinex on 30 Mar 2021, a +37.1% pump day; no disclosure found",
+    "entity_concentration": "Team Wallet holds 184.8M (18.5%); wallets it funded hold another 63.5M (6.3%)"
+  },
+  "price_usd": 0.0451,
+  "price_source": "CoinGecko, 16 Nov 2026 ~8:40 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.0451,
+    "market_cap_text": "$35.9M",
+    "fdv_text": "$45.1M",
+    "volume_24h_text": "$9.0M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/REQ.md",
+    "sha256": "12d79bfb4c513375c965fd4a859fd7970cebae2ec0d4c736da82b5afd123a01a",
+    "bytes": 14518,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~8:40 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Team Wallet → Bitfinex on a pump day",
+      "url": "tx 0x09d8…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team Wallet → Binance, 15M",
+      "url": "tx 0xd892…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team Wallet balance 184.8M",
+      "url": "Team Wallet",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "55.9M to a Kraken deposit from team funds held at Coinbase Prime Custody",
+      "url": "0xda5d…ee25",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Supply 999,416,741 (583,259 burned)",
+      "url": "token page",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn is the token's only value link",
+      "url": "REQ token page",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0632dcc37b1fabf2cad20538a5390d23c830962e",
+      "url": "https://etherscan.io/address/0x0632dcc37b1fabf2cad20538a5390d23c830962e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4919f5da960edaf34b36473c05a543d4c18bfc15",
+      "url": "https://etherscan.io/address/0x4919f5da960edaf34b36473c05a543d4c18bfc15",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x60a73a0629df1d8191e541fcbd3fd321042a37fc",
+      "url": "https://intel.arkm.com/explorer/address/0x60a73a0629df1d8191e541fcbd3fd321042a37fc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8f8221afbb33998d8584a2b05749ba73c37a938a",
+      "url": "https://etherscan.io/token/0x8f8221afbb33998d8584a2b05749ba73c37a938a",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xda5d8915e2d7880eae1a5efa51a8da150871ee25",
+      "url": "https://etherscan.io/address/0xda5d8915e2d7880eae1a5efa51a8da150871ee25",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes: the Etherscan-labelled Team Wallet sent 600,000 REQ to Bitfinex on 30 Mar 2021, a +37.1% pump day; no disclosure found"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - The protocol charges a payment fee (the pricing page says a flat 0.9%, capped at $500). The fee rate \"can change over time\" and is not published in the docs, and no fee totals are published. DefiLlama lists no fees or revenue. - The only on-chain value going to REQ is the buy-and-burn: 583,259 REQ burned in total (0.06% of supply)..."
+  },
+  "attributions": [
+    {
+      "address": "0x0632dcc37b1fabf2cad20538a5390d23c830962e",
+      "url": "https://intel.arkm.com/explorer/address/0x0632dcc37b1fabf2cad20538a5390d23c830962e",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xda5d8915e2d7880eae1a5efa51a8da150871ee25",
+      "url": "https://intel.arkm.com/explorer/address/0xda5d8915e2d7880eae1a5efa51a8da150871ee25",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x60a73a0629df1d8191e541fcbd3fd321042a37fc",
+      "url": "https://intel.arkm.com/explorer/address/0x60a73a0629df1d8191e541fcbd3fd321042a37fc",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4919f5da960edaf34b36473c05a543d4c18bfc15",
+      "url": "https://intel.arkm.com/explorer/address/0x4919f5da960edaf34b36473c05a543d4c18bfc15",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan token, wallet and transaction pages (links above). Transaction receipts were checked through the Etherscan API on 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [REQ token page](https://request.network/req-token/), [pricing](https://request.network/pricing/), [protocol fee docs](https://docs.request.network/api-features/protocol-fees)",
+      "urls": [
+        "REQ token page",
+        "pricing",
+        "protocol fee docs"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `request-network`. Pump days are from Binance REQUSDT daily closes, with REQBTC × BTCUSDT used before the USDT pair was listed",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama protocol record](https://api.llama.fi/protocol/request-network) (no TVL, no fees, no hacks)",
+      "urls": [
+        "DefiLlama protocol record"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Secondary article on January 2026 Request Finance volume ([Unverified], single source)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Request Network: Team label; Coinbase Prime Custody on `0x60a7` and `0xda5d`; Kraken Deposit on `0x26cb`. Arkham's first transfers page does not reach 2021, so the Bitfinex and Binance claims rest on the Etherscan transactions above. Arkham's page showed the 2025 10M/20M/25M transfers as going to `0x4919`; Etherscan shows they went from `0x4919` to the Team Wallet, and the report follows Etherscan",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Gate REQ/USDT daily close for 2 and 7 Nov 2025",
+      "urls": [],
+      "date_read": "7 Nov 2025"
+    }
+  ]
+}

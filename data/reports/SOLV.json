@@ -1,0 +1,848 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SOLV",
+  "name": "Solv Protocol",
+  "chain": "bsc",
+  "contract": "0xabE8E5CabE24Cb36df9540088fD7cE1175b9bc52",
+  "overall_score": 4.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 4,
+    "foundation_team": 6,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 4,
+    "liquidity_market": 4,
+    "product_development": 7,
+    "adoption_customers": 6,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 3,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes, Mar 2026: the BRO vault (a one-off Solv deployment tied to the token listing) lost 38.05 SolvBTC (~$2.7M) to a double-mint bug; Solv says both affected participants were repaid by 9 Mar 2026",
+    "mint_path_live": "no in code (both SOLV contracts are fixed-supply OZ ERC20s with no mint function and no owner); but the docs call max supply 'dynamic' and say it may grow by governance for future BRO tranches, which would need a new deployment",
+    "team_wallet_to_exchange_during_pump": "yes, small (Solv Safe 0xccbc sent 18,666,567 SOLV to a Binance deposit on the 11 Mar 2026 pump day, +18.8%; EOA 0x8353, funded by a Solv vesting Safe, sent the same amount to the same deposit on the 21 Nov 2025 pump day, +14.0%); ~304M more went from Solv-funded wallets to Binance/Bybit deposits on non-pump days, purpose undisclosed. The 2 Apr 2026 31.5M pump-day deposit was by a wallet Arkham labels OKX Blockdream Ventures (investor), not counted",
+    "treasury_in_single_key_wallets": "partly (~3.85B SOLV, 39.9% of max supply, sits in five 4-of-5 Safes with no vesting contract, plus 91.0M in a sixth Safe 0x5e75 with the same signers; ~739M more sits in EOAs that Solv's Safes funded: 0x1478 428.7M, 0x5030 310M across two chains)"
+  },
+  "price_usd": 0.004495,
+  "price_source": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.004495,
+    "market_cap_text": "$26.54M",
+    "fdv_text": "$43.42M",
+    "volume_24h_text": "$3.20M",
+    "total_supply_text": "8,400,000,000"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SOLV.md",
+    "sha256": "365f07731ca2f45b22dbcbf396ba9a97147db3aa1b38ba79258582a936301e80",
+    "bytes": 39253,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:19–7:20 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Fixed supply, no mint, no owner (BSC and ETH)",
+      "url": "BSC code",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fixed supply, no mint, no owner (BSC and ETH)",
+      "url": "ETH code",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fixed supply, no mint, no owner (BSC and ETH)",
+      "url": "ETH 1.26B mint",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Genesis Safe funded vesting Safe A with 2.424B on 13 Feb 2025",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Genesis Safe funded vesting Safe A with 2.424B on 13 Feb 2025",
+      "url": "genesis Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe B releases 210M at a time to `0xccbc…`",
+      "url": "16 Mar",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe B releases 210M at a time to `0xccbc…`",
+      "url": "4 Jun",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe B releases 210M at a time to `0xccbc…`",
+      "url": "18 Aug",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe B releases 210M at a time to `0xccbc…`",
+      "url": "18 Sep 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "428.7M from `0xccbc…` to single-key EOA `0x1478…`",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "11 Mar 2026 pump day: Safe `0xccbc…` 18.67M → Binance deposit",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "11 Mar 2026 pump day: Safe `0xccbc…` 18.67M → Binance deposit",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "21 Nov 2025 pump day: Safe F-funded `0x8353…` 18.67M → same Binance deposit (plus 30 Oct, 30 Dec, 26 Jan)",
+      "url": "21 Nov",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "21 Nov 2025 pump day: Safe F-funded `0x8353…` 18.67M → same Binance deposit (plus 30 Oct, 30 Dec, 26 Jan)",
+      "url": "30 Oct",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "21 Nov 2025 pump day: Safe F-funded `0x8353…` 18.67M → same Binance deposit (plus 30 Oct, 30 Dec, 26 Jan)",
+      "url": "30 Dec",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "21 Nov 2025 pump day: Safe F-funded `0x8353…` 18.67M → same Binance deposit (plus 30 Oct, 30 Dec, 26 Jan)",
+      "url": "26 Jan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "21 Nov 2025 pump day: Safe F-funded `0x8353…` 18.67M → same Binance deposit (plus 30 Oct, 30 Dec, 26 Jan)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x5e75 is a 4-of-5 Safe with the vesting Safes' signers",
+      "url": "`0x5e75…55a6`",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x5e75 is a 4-of-5 Safe with the vesting Safes' signers",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2 Apr 2026 31.5M pump-day deposit = investor fund wallet; funded by Solv operator 28/31 Mar; paid 31.499M again 14 Nov 2026",
+      "url": "28 Mar",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2 Apr 2026 31.5M pump-day deposit = investor fund wallet; funded by Solv operator 28/31 Mar; paid 31.499M again 14 Nov 2026",
+      "url": "31 Mar",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2 Apr 2026 31.5M pump-day deposit = investor fund wallet; funded by Solv operator 28/31 Mar; paid 31.499M again 14 Nov 2026",
+      "url": "2 Apr deposit",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2 Apr 2026 31.5M pump-day deposit = investor fund wallet; funded by Solv operator 28/31 Mar; paid 31.499M again 14 Nov 2026",
+      "url": "sweep to Binance 51",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2 Apr 2026 31.5M pump-day deposit = investor fund wallet; funded by Solv operator 28/31 Mar; paid 31.499M again 14 Nov 2026",
+      "url": "14 Nov",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2 Apr 2026 31.5M pump-day deposit = investor fund wallet; funded by Solv operator 28/31 Mar; paid 31.499M again 14 Nov 2026",
+      "url": "OKX Blockdream Ventures",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x0995 is a Bithumb Hot Wallet",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:20 AM MST"
+    },
+    {
+      "claim": "Megadrop 588M (7%) to Binance at launch",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Solv-funded EOAs → Binance deposits, Sep–Oct 2026",
+      "url": "0x0bd8 → 0x3f84",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Solv-funded EOAs → Binance deposits, Sep–Oct 2026",
+      "url": "0xe4a8 → 0x1b20",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Solv-funded EOAs → Binance deposits, Sep–Oct 2026",
+      "url": "0xe4a8 → 0x7d32",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x0bd8 funded by `0xccbc…`; returned 210M to Safe B",
+      "url": "return tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x0bd8 funded by `0xccbc…`; returned 210M to Safe B",
+      "url": "0x0bd8",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "BRO tranche distribution on Ethereum (840M, 420M) incl. 5 Sep 2026 pump-day disperse",
+      "url": "840M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "BRO tranche distribution on Ethereum (840M, 420M) incl. 5 Sep 2026 pump-day disperse",
+      "url": "420M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "BRO tranche distribution on Ethereum (840M, 420M) incl. 5 Sep 2026 pump-day disperse",
+      "url": "disperse",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ETH 50M → Binance deposit on 6 Jul 2026",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ETH 71.9M `0xccbc…` → `0x0bd8…` → `0x5030…`",
+      "url": "21 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ETH 71.9M `0xccbc…` → `0x0bd8…` → `0x5030…`",
+      "url": "19 Oct 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "BRO exploit ~$2.7M, repaid",
+      "url": "Solv review",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "BRO exploit ~$2.7M, repaid",
+      "url": "DarkNavy",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $12.23M (1y), holders $0, TVL $439.4M",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "vSOLV buyback from 2.5% supply, ended 17 Mar 2026",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "bsc",
+      "address": "0x07ea1e798ddd64dea59ef828f32937d7660b8205",
+      "url": "https://bscscan.com/address/0x07ea1e798ddd64dea59ef828f32937d7660b8205",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x09958d2ace12f464b8ed02b26fc756a55e51a4c5",
+      "url": "https://bscscan.com/address/0x09958d2ace12f464b8ed02b26fc756a55e51a4c5",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x0bd8ab88ec2b8d672d6dcafba571bc79430bf4eb",
+      "url": "https://intel.arkm.com/explorer/address/0x0bd8ab88ec2b8d672d6dcafba571bc79430bf4eb",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x1478f63a183553b77dbc41458443450271c1565c",
+      "url": "https://bscscan.com/address/0x1478f63a183553b77dbc41458443450271c1565c",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x1b20b200a78c6068ce5ea96226d1b53e0a119202",
+      "url": "https://bscscan.com/address/0x1b20b200a78c6068ce5ea96226d1b53e0a119202",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x21f109a0a431c75cfeb4939b7ed8069acfc4f01c",
+      "url": "https://bscscan.com/address/0x21f109a0a431c75cfeb4939b7ed8069acfc4f01c",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x3bb9c00b4f5f9337dedfa59eeb5b68c205cee77e",
+      "url": "https://bscscan.com/address/0x3bb9c00b4f5f9337dedfa59eeb5b68c205cee77e",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x50301ce376e7e66ffc07ee442dbcff5b34d332c1",
+      "url": "https://bscscan.com/address/0x50301ce376e7e66ffc07ee442dbcff5b34d332c1",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x50b47fffc9fdbcaf0c218988bc1424cc9cb8e892",
+      "url": "https://intel.arkm.com/explorer/address/0x50b47fffc9fdbcaf0c218988bc1424cc9cb8e892",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x5e75298a82b758308706cff215c2b99d1af155a6",
+      "url": "https://bscscan.com/address/0x5e75298a82b758308706cff215c2b99d1af155a6",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x78db576873f032a7c4749b214a8af6966b3be239",
+      "url": "https://bscscan.com/address/0x78db576873f032a7c4749b214a8af6966b3be239",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x7d3217feb6f310f7e7b7c8ee130db59dcad1dd45",
+      "url": "https://bscscan.com/address/0x7d3217feb6f310f7e7b7c8ee130db59dcad1dd45",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x82b3cbafb7d0ad59f44a8295e4a57ae759a61c5f",
+      "url": "https://bscscan.com/address/0x82b3cbafb7d0ad59f44a8295e4a57ae759a61c5f",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x83536027de14d96e9d34382c825263be9b305f40",
+      "url": "https://bscscan.com/address/0x83536027de14d96e9d34382c825263be9b305f40",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x8749b13fe36c72b745f948f91fb2ffec3b63bf75",
+      "url": "https://bscscan.com/address/0x8749b13fe36c72b745f948f91fb2ffec3b63bf75",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x8894e0a0c962cb723c1976a4421c95949be2d4e3",
+      "url": "https://bscscan.com/address/0x8894e0a0c962cb723c1976a4421c95949be2d4e3",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xa3544f3055cae99b8ef9aac07570a68404e254ef",
+      "url": "https://bscscan.com/address/0xa3544f3055cae99b8ef9aac07570a68404e254ef",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xabe8e5cabe24cb36df9540088fd7ce1175b9bc52",
+      "url": "https://bscscan.com/address/0xabe8e5cabe24cb36df9540088fd7ce1175b9bc52#code",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xb86bcc45d275459953a5a02d8312bd9eb3b269a2",
+      "url": "https://bscscan.com/address/0xb86bcc45d275459953a5a02d8312bd9eb3b269a2",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xbf1f4347dd6e7a7ccfa3f78acae28b2f01b44ca0",
+      "url": "https://bscscan.com/address/0xbf1f4347dd6e7a7ccfa3f78acae28b2f01b44ca0",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xbfbe670c205dd848cd49a14590aadbe29e8c9601",
+      "url": "https://bscscan.com/address/0xbfbe670c205dd848cd49a14590aadbe29e8c9601",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xcca996f6a29313e264930731f5838adc85d44de8",
+      "url": "https://bscscan.com/address/0xcca996f6a29313e264930731f5838adc85d44de8",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xccbc5f15d91f474a37c171d6de51815946d21fd0",
+      "url": "https://bscscan.com/address/0xccbc5f15d91f474a37c171d6de51815946d21fd0",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xe4a84981da2122e265ed2adf20467c8f63c3ad6e",
+      "url": "https://intel.arkm.com/explorer/address/0xe4a84981da2122e265ed2adf20467c8f63c3ad6e",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xef12417df03f2722a2baed3111c7b6a4347d2fd7",
+      "url": "https://bscscan.com/address/0xef12417df03f2722a2baed3111c7b6a4347d2fd7",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
+      "url": "https://bscscan.com/address/0xf977814e90da44bfa03b6295a0616a897441acec",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x014e6f6ba7a9f4c9a51a0aa3189b5c0a21006869",
+      "url": "https://etherscan.io/address/0x014e6f6ba7a9f4c9a51a0aa3189b5c0a21006869",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x15f7c1ac69f0c102e4f390e45306bd917f21cfcf",
+      "url": "https://etherscan.io/address/0x15f7c1ac69f0c102e4f390e45306bd917f21cfcf",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x169e36f327caa83d004f5c2668ac25a1424c940d",
+      "url": "https://etherscan.io/address/0x169e36f327caa83d004f5c2668ac25a1424c940d#code",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x33119a9812dab4b805c1113bcfa41524f0cd2636",
+      "url": "https://etherscan.io/address/0x33119a9812dab4b805c1113bcfa41524f0cd2636",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3cf63891928b8ceebb81c95426600a18cd59c03f",
+      "url": "https://etherscan.io/address/0x3cf63891928b8ceebb81c95426600a18cd59c03f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x50301ce376e7e66ffc07ee442dbcff5b34d332c1",
+      "url": "https://etherscan.io/address/0x50301ce376e7e66ffc07ee442dbcff5b34d332c1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xfb2dc2428b6c2fb149a3e6d658fdf979cc0afef9",
+      "url": "https://etherscan.io/address/0xfb2dc2428b6c2fb149a3e6d658fdf979cc0afef9",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes, small (Solv Safe 0xccbc sent 18,666,567 SOLV to a Binance deposit on the 11 Mar 2026 pump day, +18.8%; EOA 0x8353, funded by a Solv vesting Safe, sent the same amount to the same deposit on the 21 Nov 2025 pump day, +14.0%); ~304M more went from Solv-funded wallets to Binance/Bybit deposits on non-pump days, purpose undisclosed. The 2 Apr 2026 31.5M pump-day deposit was by a wallet Arkham labels OKX Blockdream Ventures (investor), not counted"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": true,
+    "notes": "The business is real and cheap on a sales multiple, but the token has no claim on revenue and no live buyback. SOLV's uses are governance, staking and fee discounts. **4**: better than a zero-revenue token, but it does not pass."
+  },
+  "attributions": [
+    {
+      "address": "0x1478f63a183553b77dbc41458443450271c1565c",
+      "url": "https://intel.arkm.com/explorer/address/0x1478f63a183553b77dbc41458443450271c1565c",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x50301ce376e7e66ffc07ee442dbcff5b34d332c1",
+      "url": "https://intel.arkm.com/explorer/address/0x50301ce376e7e66ffc07ee442dbcff5b34d332c1",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5e75298a82b758308706cff215c2b99d1af155a6",
+      "url": "https://intel.arkm.com/explorer/address/0x5e75298a82b758308706cff215c2b99d1af155a6",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x78db576873f032a7c4749b214a8af6966b3be239",
+      "url": "https://intel.arkm.com/explorer/address/0x78db576873f032a7c4749b214a8af6966b3be239",
+      "label": "0x78db…` **OKX Blockdream Ventures** (fund",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x83536027de14d96e9d34382c825263be9b305f40",
+      "url": "https://intel.arkm.com/explorer/address/0x83536027de14d96e9d34382c825263be9b305f40",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xef12417df03f2722a2baed3111c7b6a4347d2fd7",
+      "url": "https://intel.arkm.com/explorer/address/0xef12417df03f2722a2baed3111c7b6a4347d2fd7",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0bd8ab88ec2b8d672d6dcafba571bc79430bf4eb",
+      "url": "https://intel.arkm.com/explorer/address/0x0bd8ab88ec2b8d672d6dcafba571bc79430bf4eb",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe4a84981da2122e265ed2adf20467c8f63c3ad6e",
+      "url": "https://intel.arkm.com/explorer/address/0xe4a84981da2122e265ed2adf20467c8f63c3ad6e",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x09958d2ace12f464b8ed02b26fc756a55e51a4c5",
+      "url": "https://intel.arkm.com/explorer/address/0x09958d2ace12f464b8ed02b26fc756a55e51a4c5",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0xccbc5f15d91f474a37c171d6de51815946d21fd0",
+      "url": "https://intel.arkm.com/explorer/address/0xccbc5f15d91f474a37c171d6de51815946d21fd0",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x50b47fffc9fdbcaf0c218988bc1424cc9cb8e892",
+      "url": "https://intel.arkm.com/explorer/address/0x50b47fffc9fdbcaf0c218988bc1424cc9cb8e892",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": true,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] BSC logs: every SOLV `Transfer` to and from the genesis Safe, the five vesting Safes, `0xccbc…`, `0x0bd8…`, `0xe4a8…`, `0x5030…`, `0xef12…`, `0x5e75…` and their second hops (NodeReal public `eth_getLogs`); block timestamps, `balanceOf`, `totalSupply` and Safe `getOwners()`/`getThreshold()` via BSC RPC; read 16 Nov 2026 ~5:30–7:45 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` for Ethereum SOLV (all 398 transfers) and `getsourcecode` for both token contracts, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags for the same addresses (\"Binance 51\", \"Binance Deposit\", \"Binance 14\", \"Bybit: Wallet 16\", \"Binance: Cold Wallet\"), 16 Nov 2026; GoPlus BSC token security (holder count, top holders)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama Solv Protocol](https://defillama.com/protocol/solv-protocol) fees, revenue, holders revenue and TVL, 16 Nov 2026",
+      "urls": [
+        "DefiLlama Solv Protocol"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Solv tokenomics docs](https://docs.solv.finance/solv-token/solv-tokenomics) · [vSOLV docs](https://docs.solv.finance/solv-token/vsolv-campaign) · [BRO post-incident review](https://insights.solv.finance/post-incident-review-bro-vault-incident-and-strengthened-security-commitments/)",
+      "urls": [
+        "Solv tokenomics docs",
+        "vSOLV docs",
+        "BRO post-incident review"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [DarkNavy](https://www.darknavy.org/web3/exploits/solv-bro-double-mint/) · [Halborn](https://www.halborn.com/blog/post/explained-the-solv-hack-march-2026) · [Alea Q4 2025](https://alearesearch.io/reports/benchmark/solv-q4-2025) · AlphaGrowth and Tokenomist unlock calendars",
+      "urls": [
+        "DarkNavy",
+        "Halborn",
+        "Alea Q4 2025"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:19–7:20 AM MST (signed-in account): Bithumb Hot Wallet [0x0995…](https://intel.arkm.com/explorer/address/0x09958d2ace12f464b8ed02b26fc756a55e51a4c5) · OKX Blockdream Ventures (fund) [0x78db…](https://intel.arkm.com/explorer/address/0x78db576873f032a7c4749b214a8af6966b3be239) · unnamed Gnosis Safes [0x5e75…](https://intel.arkm.com/explorer/address/0x5e75298a82b758308706cff215c2b99d1af155a6), [0xccbc…](https://intel.arkm.com/explorer/address/0xccbc5f15d91f474a37c171d6de51815946d21fd0) · unlabelled EOAs [0x1478…](https://intel.arkm.com/explorer/address/0x1478f63a183553b77dbc41458443450271c1565c), [0x0bd8…](https://intel.arkm.com/explorer/address/0x0bd8ab88ec2b8d672d6dcafba571bc79430bf4eb), [0xe4a8…](https://intel.arkm.com/explorer/address/0xe4a84981da2122e265ed2adf20467c8f63c3ad6e), [0x5030…](https://intel.arkm.com/explorer/address/0x50301ce376e7e66ffc07ee442dbcff5b34d332c1), [0xef12…](https://intel.arkm.com/explorer/address/0xef12417df03f2722a2baed3111c7b6a4347d2fd7), [0x8353…](https://intel.arkm.com/explorer/address/0x83536027de14d96e9d34382c825263be9b305f40), [0x50b4…](https://intel.arkm.com/explorer/address/0x50b47fffc9fdbcaf0c218988bc1424cc9cb8e892). Token filter is Enterprise-only; first transfer page only",
+      "urls": [
+        "0x0995…",
+        "0x78db…",
+        "0x5e75…",
+        "0xccbc…",
+        "0x1478…",
+        "0x0bd8…",
+        "0xe4a8…",
+        "0x5030…",
+        "0xef12…",
+        "0x8353…",
+        "0x50b4…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Follow-up BSC logs after the Arkham pass (NodeReal `eth_getLogs`, read 16 Nov 2026 ~8:00–8:30 AM MST): every SOLV transfer out of `0x8353…` (Oct 2025 – Mar 2026), into and out of `0x78db…` (Dec 2025 – Apr 2026, Nov 2026) and out of `0xe4a8…` (10–16 Nov 2026); Safe F `getOwners()`/`getThreshold()`/`balanceOf`",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `solv-protocol` market data (16 Nov 2026 5:26 AM MST); Gate SOLV/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] who controls `0x1478…`, `0x5030…`, `0x0bd8…`, `0xe4a8…`, `0x8353…` (Arkham: unlabelled); whether the repeated 18.67M deposits and the 31.5M fund payments are vesting payouts; which allocation each Safe holds; BRO buyers and their lockups",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

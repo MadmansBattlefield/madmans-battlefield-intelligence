@@ -1,0 +1,240 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "HASH",
+  "name": "Provenance Blockchain",
+  "chain": "provenance",
+  "contract": "native (Provenance Blockchain, denom nhash)",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 5,
+    "insider_holdings": 2,
+    "selling_behavior": 4,
+    "tokenomics_supply": 5,
+    "liquidity_market": 1,
+    "product_development": 7,
+    "adoption_customers": 5,
+    "security_audits": 4,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "user-wallet compromise via a Web3auth/Keplr vulnerability; governance froze 18 affected accounts on 11 Nov 2026 (prop 118)",
+    "mint_path_live": "governance-controlled: nhash is a marker; supply changes need a passed proposal (prop 106 burned 5B in May 2026)",
+    "team_wallet_to_exchange_during_pump": "not proven: the largest group-controlled accounts made no sends on pump days found; most trading is on Figure Markets, which is not traceable on-chain from outside",
+    "account_freeze_power": "yes: the sanction module lets governance freeze any account (used in prop 118)"
+  },
+  "price_usd": 0.006448,
+  "price_source": "CoinGecko, 16 Nov 2026 7:41 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.006448,
+    "market_cap_text": "$388.6M",
+    "fdv_text": "$612.5M",
+    "volume_24h_text": "$2,468"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/HASH.md",
+    "sha256": "145d61d20ee9897bf6c35c0e2878de1e84069c6f5f9f935fb31f079f7303d807",
+    "bytes": 14628,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 7:41 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~7:35 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Supply 94.98B, circulation 60.27B, bonded 15.34B",
+      "url": "stats API",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $3.51M / revenue $0 since Apr",
+      "url": "fees",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $3.51M / revenue $0 since Apr",
+      "url": "revenue",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Figure holds ~25%, runs the Foundation",
+      "url": "Figure release",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Figure holds ~25%, runs the Foundation",
+      "url": "prop 98",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "5B burn",
+      "url": "prop 106",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "5B burn",
+      "url": "LCD",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "18 accounts frozen",
+      "url": "prop 118",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "18 accounts frozen",
+      "url": "LCD",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest holders and vesting terms",
+      "url": "group account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest holders and vesting terms",
+      "url": "vesting account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest holders and vesting terms",
+      "url": "holder list",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: the largest group-controlled accounts made no sends on pump days found; most trading is on Figure Markets, which is not traceable on-chain from outside"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Fees are real but small next to a $389M cap (~110× fees), they are paid to validators and delegators, and the revenue line DefiLlama tracks stopped in April. Figure's Jan 2026 release promised \"a revised tokenomics model that introduces network fees\", which has not shown up in revenue yet. **3 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Provenance LCD `api.provenance.io`: `cosmos/gov/v1/proposals` (106, 110, 115, 118), `cosmos/auth/v1beta1/accounts` (account types and vesting terms); read 16 Nov 2026 ~7:40–7:55 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Provenance explorer API: `utility_token/stats` (supply, circulation, bonded, burned), the full `nhash` holder list (11,959 accounts), and account transaction lists; read 16 Nov 2026 ~7:45–7:55 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Figure release, 21 Jan 2026](https://investors.figure.com/news-releases/news-release-details/figure-technology-solutions-announces-community-approved-update); [prop 98 proposal page](https://docs.provenance.io/2df23393565480c28ba0d2e197059e32)",
+      "urls": [
+        "Figure release, 21 Jan 2026",
+        "prop 98 proposal page"
+      ],
+      "date_read": "21 Jan 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `provenance` fees and revenue; CoinGecko `hash-2` (16 Nov 2026 7:41 AM MST) and 365-day closes for pump days",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, network list read 16 Nov 2026 ~7:35 AM MST (signed-in account): **Provenance is not supported.** Arkham's network selector lists only Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain. No Arkham labels were available for this report",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

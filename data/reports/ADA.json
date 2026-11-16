@@ -1,0 +1,294 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ADA",
+  "name": "Cardano",
+  "chain": "cardano (native layer 1)",
+  "contract": "native coin (no contract)",
+  "overall_score": 5.1,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 7,
+    "insider_holdings": 5,
+    "selling_behavior": 5,
+    "tokenomics_supply": 6,
+    "liquidity_market": 8,
+    "product_development": 8,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 5
+  },
+  "sections_passed": 6,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "no funds stolen; a crafted transaction split mainnet for ~14.5 h on 21 Nov 2025 (Intersect incident report)",
+    "mint_path_live": "no discretionary mint; 6.0B ADA reserve still emits to stakers and the treasury under protocol rules (45B hard cap)",
+    "team_wallet_to_exchange_during_pump": "none found at hop 1–2; on-chain treasury payouts moved on pump days only between payout contracts and unlabelled vendor wallets; founding-entity wallets are not public",
+    "treasury_spend": "804.4M ADA withdrawn from the on-chain treasury through 70 enacted governance actions, incl. 50M to a VC fund, 120M to AlphaGrowth and a 5M listings loan"
+  },
+  "price_usd": 0.151959,
+  "price_source": "CoinGecko, 16 Nov 2026 ~5:08 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.151959,
+    "market_cap_text": "$5.712B",
+    "fdv_text": "$6.84B",
+    "volume_24h_text": "$207.6M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ADA.md",
+    "sha256": "4d259273564043fcdde640b049163663d8697bddefdd4af6c29502852a3a3985",
+    "bytes": 20441,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~5:08 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Genesis split (5.19B to IOHK, EMURGO, CF)",
+      "url": "cardano.org/genesis",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "12-month fees $924,550",
+      "url": "DefiLlama API",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "12-month fees $924,550",
+      "url": "chain page",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury 1.427B, reserve 6.0B",
+      "url": "Koios totals",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "50M Orion Fund withdrawal and onward moves",
+      "url": "proposal",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "50M Orion Fund withdrawal and onward moves",
+      "url": "withdrawal",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "50M Orion Fund withdrawal and onward moves",
+      "url": "40M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "50M Orion Fund withdrawal and onward moves",
+      "url": "10M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "120M AlphaGrowth PRIME",
+      "url": "proposal",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "120M AlphaGrowth PRIME",
+      "url": "119M to contract",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Listings loan and market-making budget",
+      "url": "5M loan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Listings loan and market-making budget",
+      "url": "3.126M batch",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day payouts are contract-to-contract",
+      "url": "2 Aug",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day payouts are contract-to-contract",
+      "url": "3 Aug",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day payouts are contract-to-contract",
+      "url": "24 Aug",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day payouts are contract-to-contract",
+      "url": "5 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Chain split, 21 Nov 2025",
+      "url": "Intersect report",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found at hop 1–2; on-chain treasury payouts moved on pump days only between payout contracts and unlabelled vendor wallets; founding-entity wallets are not public"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Staking \"yield\" is mostly new ADA from the reserve, not users paying fees. Under $1M a year in fees against a $5.7B valuation is **2**, which **trips the Revenue gate**."
+  },
+  "attributions": [
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Koios API (`/tip`, `/totals`, `/proposal_list`, `/account_info`, `/account_txs`, `/tx_info`, `/account_addresses`), 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [cardano.org/genesis](https://cardano.org/genesis/) for the genesis allocation",
+      "urls": [
+        "cardano.org/genesis"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees API and chain TVL (Cardano), 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `cardano` market data and 365-day closes, 16 Nov 2026 ~5:08 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Intersect incident report](https://www.intersectmbo.org/news/incident-report-network-partition-analysis-and-resolution-strategy) · [IOG post](https://www.iog.io/news/ouroboros-self-healing-in-the-wild)",
+      "urls": [
+        "Intersect incident report",
+        "IOG post"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] current IOG and EMURGO holdings; owners of `stake1u9m8…`, `stake1u9el…`, `stake1uykm…`, `stake1u9n8…`, `stake1uxkq…`; the Orion Fund's investments",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

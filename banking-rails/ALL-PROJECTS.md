@@ -16,7 +16,7 @@ Updated 16 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md). Mar
 
 **293 coins** in the research pipeline. **113** have a full v3 report. **8 pass** and **105 fail.** The other **180** are still in progress, grouped by how close each is to a full report.
 
-**113** ✅ done · **0** 🟢 close · **117** 🟡 need wallet work · **35** 🔴 big gaps · **28** ⚫ dead or wound down (12 of them [Unverified])
+**113** ✅ done · **0** 🟢 close · **116** 🟡 need wallet work · **35** 🔴 big gaps · **29** ⚫ dead or wound down (12 of them [Unverified])
 
 - [✅ Done (v3 reports)](#done)
 - [🟢 Close](#close)
@@ -27,7 +27,7 @@ Updated 16 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md). Mar
 - [⚠️ Identity notes](#identity)
 - [📚 Sources](#sources)
 
-Finished reports are ranked on the [ranking page](RANKING.md). A few shorter, unscored stubs live in [other-tokens.md](other-tokens.md).
+Finished reports are ranked on the [ranking page](RANKING.md). Scoring rules are also in the [methodology](../METHODOLOGY.md). Names formally moved out of the live pipeline are listed in [DEAD.md](../DEAD.md), with the date and the reason; a failing scored report is never dropped from the ranking in silence. A few shorter, unscored stubs live in [other-tokens.md](other-tokens.md).
 
 What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod, Adopt, Sec, Reg, Catal. **H** = have, **P** = partial, **M** = missing. A **$0** fees or revenue figure means DefiLlama reported zero, not a missing value. **—** means the API did not return that field. Red flags such as `dying: mcap <$1M` or `dying: 24h vol <$10k` are quick-kill warnings from the scan, not a final verdict.
 
@@ -169,11 +169,10 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 <a id="wallet"></a>
 ## 🟡 Need wallet work
 
-**117 coins.** These still need the team-wallet and pump-day tracing. The [Next up](#next) names are listed first, then the rest by 30-day DefiLlama fees or revenue, then 24h volume.
+**116 coins.** These still need the team-wallet and pump-day tracing. The [Next up](#next) names are listed first, then the rest by 30-day DefiLlama fees or revenue, then 24h volume.
 
 | Ticker | Name | Mcap | 24h vol | 30d fees | 30d rev | Red flag | Links | What's missing |
 |---|---|---:|---:|---:|---:|---|---|---|
-| ELK | Elk Finance | $112.6k | $226.81 | $70.38 | $0 | dying: mcap <$1M; dying: 24h vol <$10k | [Site](https://elk.finance) · [CoinGecko](https://www.coingecko.com/en/coins/elk-finance) · [DefiLlama](https://defillama.com/protocol/elk) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
 | LL | LightLink | $58.02k | $157.61k | $0 | — | dying: mcap <$1M | [Draft](other-tokens.md) · [CoinGecko](https://www.coingecko.com/en/coins/lightlink) · [DefiLlama](https://defillama.com/chain/LightLink) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
 | HOUDINI | Houdini Swap | $29.53k | $0 | $0 | $0 | dying: mcap <$1M; dying: 24h vol <$10k | [Site](https://houdiniswap.com/) · [CoinGecko](https://www.coingecko.com/en/coins/houdini-swap) · [DefiLlama](https://defillama.com/protocol/houdini-swap) | Missing: Rev, Hold, Sell, Liq, Reg · Partial: Team, Token, Prod, Adopt, Sec, Catal |
 | MINA | Mina Protocol | $59.21M | $2.79M | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/mina-protocol) | Missing: Rev, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
@@ -341,7 +340,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 <a id="dead"></a>
 ## ⚫ Dead or wound down
 
-**28 coins**, **12 of them [Unverified]**. The unverified names were delisted or inactive in this pass, but no official shutdown notice was re-read. The others have an official wind-down or a historical collapse. A leftover ticker does not undo a shutdown.
+**29 coins**, **12 of them [Unverified]**. The unverified names were delisted or inactive in this pass, but no official shutdown notice was re-read. The others have an official wind-down or a historical collapse. A leftover ticker does not undo a shutdown.
 
 | Ticker | Name | Tag | Reason | Mcap | 24h vol | Red flag | Links |
 |---|---|---|---|---:|---:|---|---|
@@ -350,6 +349,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | CBL | Credbull | [Unverified] | Credbull has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=CBL) |
 | CREDIX | Credix Finance | [Unverified] | Credix Finance has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=CREDIX) |
 | DFI | DeFiChain | — | Exploit with no fix: DeFiChain's own [post](https://blog.defichain.com/2026/11/a-final-update-from-marketing-sig.html) says a 3 Nov 2026 overflow bug in account-to-account transfers created ~184.47B DFI (over 140x the ~1.3B intended max supply) and that no corrective node release or rollback will be pursued. Its only listed CEX, Bitrue, [delisted DFI](https://support.bitrue.com/hc/en-001/articles/64117793028121-Bitrue-Will-Delist-DeFiChain-DFI) (deposits and trading closed, withdrawals until 14 Nov 2026). The Marketing SIG [announced](https://t.me/s/defichain_announcements/1840) all channels and sites would close on 14 Nov 2026; on 14 Nov a community group [said](https://t.me/s/defichain_announcements/1841) it is keeping channels open and restoring sites, but no exploit fix has been announced. | $1.33M | $153.69 | unfixed supply exploit (official post); dying: 24h vol <$10k | [Site](https://defichain.com/dex) · [CoinGecko](https://www.coingecko.com/en/coins/defichain) · [DefiLlama](https://defillama.com/chain/DefiChain) |
+| ELK | Elk Finance | — | Skipped as dying: market cap under $1M and 24h volume under $10k on 16 Nov 2026 (CoinGecko figures from the public status scan). Recorded here so a thin-market skip is not dropped silently from the pipeline. | $112.6k | $226.81 | dying: mcap <$1M; dying: 24h vol <$10k | [Site](https://elk.finance) · [CoinGecko](https://www.coingecko.com/en/coins/elk-finance) · [DefiLlama](https://defillama.com/protocol/elk) |
 | FITFI | Step App | — | Step App officially announced on 5 Aug 2026 that all services would shut down by 21 Aug 2026. | $5.5k | $40.31 | dying: mcap <$1M; dying: 24h vol <$10k; not listed on CoinGecko; official shutdown | [CoinPaprika](https://coinpaprika.com/coin/fitfi-stepapp-fitfi/) |
 | FRA | Findora | [Unverified] | Findora has no CoinGecko listing and CoinPaprika’s ticker API returns 404 for ico-findora (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=FRA) · [DefiLlama](https://defillama.com/protocol/Findora) |
 | GFI | Goldfinch | — | Goldfinch token holders passed GIP-87 in June 2026 to wind down Goldfinch Prime and put the protocol into maintenance mode, with no new development. | $2.42M | $16.11k | official shutdown | [Site](https://goldfinch.finance) · [CoinGecko](https://www.coingecko.com/en/coins/goldfinch) · [DefiLlama](https://defillama.com/protocol/goldfinch) |

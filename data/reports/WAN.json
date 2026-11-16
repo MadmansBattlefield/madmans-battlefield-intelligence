@@ -1,0 +1,171 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "WAN",
+  "name": "Wanchain",
+  "chain": "wanchain",
+  "contract": "native coin (Wanchain mainnet)",
+  "overall_score": 4.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 5,
+    "foundation_team": 6,
+    "insider_holdings": 5,
+    "selling_behavior": 4,
+    "tokenomics_supply": 7,
+    "liquidity_market": 3,
+    "product_development": 6,
+    "adoption_customers": 3,
+    "security_audits": 3,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 3,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes: Wanchain's Cardano bridge contract was drained of ~515.2M NIGHT (~$500K) on 20 Jul 2026 through a message-encoding flaw",
+    "mint_path_live": "PoS issuance of ~1.04M WAN a year, offset by bridge-fee burns (~1.1M WAN a year projected)",
+    "team_wallet_to_exchange_during_pump": "not proven: native Wanchain explorer has no public API and the foundation wallets are not published",
+    "entity_concentration": "Community Treasury ~5.7M WAN (2.9% of supply); foundation balance not published"
+  },
+  "price_usd": 0.04677,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:40 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.04677,
+    "market_cap_text": "$9.32M",
+    "fdv_text": "$9.82M",
+    "volume_24h_text": "$0.50M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/WAN.md",
+    "sha256": "84a2dbf86b1c70d451ec6fcb2fda3ceb8856996756a1f741f1163f3ad4e334a1",
+    "bytes": 9362,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:40 AM MST",
+    "source_read_dates": [
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Bridge exploit, 515.2M NIGHT",
+      "url": "post-mortem",
+      "kind": "other",
+      "tier": "A+B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Bridge exploit, 515.2M NIGHT",
+      "url": "BlockSec",
+      "kind": "other",
+      "tier": "A+B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "20% burn, ~1.1M WAN a year",
+      "url": "proposal",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "KuCoin WAN-USDT daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: native Wanchain explorer has no public API and the foundation wallets are not published"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 5/10 · ❌ FAIL - Bridge fees are converted to WAN. At current volume, the 20% burn share is projected at ~1.1M WAN a year ([proposal](https://medium.com/wanchain-foundation/governance-proposal-1-increase-the-wan-burn-rate-4669ffc73488), [update](https://wanchain.substack.com/p/wanchain-governance-goes-live-and)). That implies total fees of roughly 5.5M WAN (~..."
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [Governance proposal #1](https://medium.com/wanchain-foundation/governance-proposal-1-increase-the-wan-burn-rate-4669ffc73488), [Sep 2026 update](https://wanchain.substack.com/p/wanchain-governance-goes-live-and), [Bridge post-mortem](https://medium.com/@wanchain_org/cardano-bnb-chain-bridge-incident-post-mortem-353e465276e7)",
+      "urls": [
+        "Governance proposal #1",
+        "Sep 2026 update",
+        "Bridge post-mortem"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [BlockSec weekly, 30 Jul 2026](https://blocksec.com/blog/web3-security-allbridge-wanchain-exploits), [Wanchain Academy, Oct 2026](https://wanchainacademy.com/quema-anual-de-wan-supero-el-millon-propuesta-wcp-002-activa-y-token2049/)",
+      "urls": [
+        "BlockSec weekly, 30 Jul 2026",
+        "Wanchain Academy, Oct 2026"
+      ],
+      "date_read": "30 Jul 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `wanchain` (market, venues); pump days from KuCoin WAN-USDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "Wanchain explorer (wanscan.org): browser-only, no public API",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

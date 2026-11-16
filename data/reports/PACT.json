@@ -1,0 +1,393 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "PACT",
+  "name": "PACT Protocol (Pact Foundation)",
+  "chain": "aptos",
+  "contract": "0xc546cc2dd26d9e9a4516b4514288bedf1085259fcb106b84b6469337f527fb92",
+  "overall_score": 3.1,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 4,
+    "insider_holdings": 2,
+    "selling_behavior": 1,
+    "tokenomics_supply": 2,
+    "liquidity_market": 2,
+    "product_development": 5,
+    "adoption_customers": 5,
+    "security_audits": 4,
+    "regulatory": 4,
+    "catalysts": 5
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes, uncapped: max supply in the Aptos asset is 2^128; Foundation 2-of-3 multisig is the token admin; 25B minted 23 Dec 2025 after a 6-voter Snapshot",
+    "team_wallet_to_exchange_during_pump": "yes: Foundation multisig released 3.44B PACT on 1 Oct 2026 (MST); 1.32B of it reached Gate deposit addresses within ~10 hours, on the 2 Oct 2026 (UTC) pump day (+11.1%)",
+    "undisclosed_reserve_releases": "yes: 3.44B (1 Oct 2026) and 6.25B (4–12 Nov 2026) out of the Foundation multisig; no announcement or vote found",
+    "freeze_blocklist": "enabled (admin can freeze wallets and blocklist addresses)"
+  },
+  "price_usd": 0.00018056,
+  "price_source": "CoinGecko, 16 Nov 2026 5:46 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00018056,
+    "market_cap_text": "$7.70M",
+    "fdv_text": "$22.57M",
+    "volume_24h_text": "$29.0K"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/PACT.md",
+    "sha256": "798dbec433da4c39e646ded50e28453629f36482c9555343f2fbfb57b10dd9b5",
+    "bytes": 26404,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:46 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "25B PACT minted to the Foundation multisig",
+      "url": "mint tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "25B PACT minted to the Foundation multisig",
+      "url": "multisig",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Multisig released 3.44B on 1 Oct 2026 (MST)",
+      "url": "0x7144",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Multisig released 3.44B on 1 Oct 2026 (MST)",
+      "url": "0xe432",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Multisig released 3.44B on 1 Oct 2026 (MST)",
+      "url": "0xa926",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Multisig released 3.44B on 1 Oct 2026 (MST)",
+      "url": "0x124d",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Multisig released 3.44B on 1 Oct 2026 (MST)",
+      "url": "0x6e37",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.32B of it reached Gate on the 2 Oct pump day",
+      "url": "249.9M",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.32B of it reached Gate on the 2 Oct pump day",
+      "url": "341.9M",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.32B of it reached Gate on the 2 Oct pump day",
+      "url": "341.9M",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.32B of it reached Gate on the 2 Oct pump day",
+      "url": "384.7M",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.32B of it reached Gate on the 2 Oct pump day",
+      "url": "sweep 250M → Gate 1",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.32B of it reached Gate on the 2 Oct pump day",
+      "url": "sweep 1,068.6M → Gate 1",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "612M more to Gate on 20 and 27 Oct",
+      "url": "20 Oct",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "612M more to Gate on 20 and 27 Oct",
+      "url": "27 Oct",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6.25B more released 4–12 Nov 2026",
+      "url": "781.2M ×4 (first",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6.25B more released 4–12 Nov 2026",
+      "url": "1,875M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6.25B more released 4–12 Nov 2026",
+      "url": "625M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6.25B more released 4–12 Nov 2026",
+      "url": "1,000M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x795a…` got the bridged 25B and fed exchanges in Feb–Jun 2026",
+      "url": "bridge-in",
+      "kind": "other",
+      "tier": "A + B · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x795a…` got the bridged 25B and fed exchanges in Feb–Jun 2026",
+      "url": "1,562.5M Gate deposit",
+      "kind": "other",
+      "tier": "A + B · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x795a…` got the bridged 25B and fed exchanges in Feb–Jun 2026",
+      "url": "Kraken deposit",
+      "kind": "other",
+      "tier": "A + B · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x795a…` got the bridged 25B and fed exchanges in Feb–Jun 2026",
+      "url": "18 Jun",
+      "kind": "other",
+      "tier": "A + B · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x795a…` got the bridged 25B and fed exchanges in Feb–Jun 2026",
+      "url": "23 Jun",
+      "kind": "other",
+      "tier": "A + B · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x795a…` got the bridged 25B and fed exchanges in Feb–Jun 2026",
+      "url": "Gate withdrawal",
+      "kind": "other",
+      "tier": "A + B · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Admin, freeze, blocklist, mint",
+      "url": "OFT module",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Gate 1 / Kraken 1 / MEXC 1 addresses",
+      "url": "Aptos Labs known addresses",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Dec 2025 tokenomics vote: 6 voters",
+      "url": "Snapshot",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Dec 2025 tokenomics vote: 6 voters",
+      "url": "forum",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes: Foundation multisig released 3.44B PACT on 1 Oct 2026 (MST); 1.32B of it reached Gate deposit addresses within ~10 hours, on the 2 Oct 2026 (UTC) pump day (+11.1%)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn",
+      "buyback"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "A small lending business with self-reported fees, and a buyback rule nobody can audit. The bought tokens are locked, not burned or paid out. Score **3**. Hard-gate FAIL."
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Aptos indexer GraphQL (`fungible_asset_metadata`, `current_fungible_asset_balances`, `fungible_asset_activities`, `user_transactions`) and Aptos REST (OFT module ABI, `OAppStore`, `oft_impl_config::Config`, `MultisigAccount`); read 16 Nov 2026 ~5:10–5:50 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Aptos Labs explorer known-address list ([GitHub](https://github.com/aptos-labs/explorer/blob/main/app/data/mainnet/knownAddresses.ts)) for Gate 1, Kraken 1, MEXC 1",
+      "urls": [
+        "GitHub"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `pact-2` price, tickers and 365-day closes; Kraken PACTUSD daily OHLC",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Snapshot proposal (Dec 2025)](https://snapshot.org/#/s:pactfoundation.eth/proposal/0xe6725b9e9a335a79c02e4cd5b5c8db10a08cebfac34ee00a70e9e441ad8318c3) · [PACT forum](https://forum.pact.foundation/latest) · [PIP-003](https://forum.pact.foundation/t/proposal-pip-003-update-voting-is-live/87)",
+      "urls": [
+        "Snapshot proposal (Dec 2025",
+        "PACT forum",
+        "PIP-003"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Tether press release](https://tether.io/news/tether-leads-7-million-series-a-in-pact-labs-to-expand-usat-across-payroll-and-payments/) · [Aptos blog](https://aptosnetwork.com/currents/pact-enters-its-next-chapter) · [Adevar audits](https://github.com/AdevarLabs/audit-reports)",
+      "urls": [
+        "Tether press release",
+        "Aptos blog",
+        "Adevar audits"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[self-reported] [Foundation post on buybacks (9 Oct 2026)](https://www.linkedin.com/posts/pactfoundationofficial_pact-ecosystem-update-value-accrual-fee-funded-activity-7514368048921837568-OhnF) · [Tokenomics 2.0 (Medium)](https://medium.com/pactfoundation/pact-tokenomics-2-0-review-analysis-7a7f5e116035)",
+      "urls": [
+        "Foundation post on buybacks (9 Oct 2026",
+        "Tokenomics 2.0 (Medium"
+      ],
+      "date_read": "9 Oct 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [RWA.xyz](https://app.rwa.xyz/platforms/pact) loan figure (earlier read)",
+      "urls": [
+        "RWA.xyz"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owners of `0x795a…`, `0x8158…` and the five Oct release wallets; Foundation jurisdiction; buyback vault; OFT audit",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

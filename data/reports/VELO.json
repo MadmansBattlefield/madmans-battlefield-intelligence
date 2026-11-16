@@ -1,0 +1,187 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "VELO",
+  "name": "Velo",
+  "chain": "stellar",
+  "contract": "VELO-GDM4RQUQQUVSKQA7S6EM7XBZP3FCGH4Q7CL6TABQ7B2BEJ5ERARM2M5M (Stellar); BSC 0xf486ad071f3bee968384d2e39e2d8af0fcf6fd46",
+  "overall_score": 3.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 4,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no: Stellar issuer locked (master weight 0, thresholds 0), so no further issuance",
+    "team_wallet_to_exchange_during_pump": "not proven: no Stellar account is publicly attributed to Velo Labs (the labelled directory sits behind a payment wall)",
+    "entity_concentration": "top 10 Stellar accounts hold 49.3%; ~6.4B (27%) not counted as circulating"
+  },
+  "price_usd": 0.003042,
+  "price_source": "CoinGecko, 16 Nov 2026 ~8:40 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.003042,
+    "market_cap_text": "$53.4M",
+    "fdv_text": "$73.0M",
+    "volume_24h_text": "$2.5M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/VELO.md",
+    "sha256": "14e50fe3e82c8b63109d9737bdc8c02c18b30fb0460c5dec9f6b9ffcb0206332",
+    "bytes": 10323,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~8:40 AM MST",
+    "source_read_dates": [
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Issuer locked, no further mint",
+      "url": "issuer account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "23.95B issued, 43,124 holders",
+      "url": "asset record",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest holder 2.49B, 2-of-4 multisig",
+      "url": "GCUAZ…HBTB",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $1,468 a year",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "CoinGecko 365-day closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: no Stellar account is publicly attributed to Velo Labs (the labelled directory sits behind a payment wall)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 1/10 · ❌ FAIL (hard gate) - DefiLlama's `velo-finance` record shows $1,468 of fees over 12 months and $81 over 30 days, with TVL of about $56k. There is no buyback, burn or fee share to VELO. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Stellar Horizon: the asset record, the issuer account and a full crawl of holder accounts (43,124), 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `velo`; pump days from CoinGecko 365-day closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `velo-finance` fees and TVL",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [velo.org](https://www.velo.org/)",
+      "urls": [
+        "velo.org"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Secondary news on the card, the Binance.US listing and the roadmap (single sources, [Unverified])",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "Not reached: stellar.expert account labels (HTTP 402). Arkham does not cover Stellar (16 Nov 2026); the BNB Chain copy of VELO was not looked up",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

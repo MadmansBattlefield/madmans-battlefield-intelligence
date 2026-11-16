@@ -1,0 +1,648 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "JST",
+  "name": "JUST",
+  "chain": "tron",
+  "contract": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+  "overall_score": 5.5,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 5,
+    "foundation_team": 5,
+    "insider_holdings": 5,
+    "selling_behavior": 5,
+    "tokenomics_supply": 7,
+    "liquidity_market": 6,
+    "product_development": 7,
+    "adoption_customers": 7,
+    "security_audits": 5,
+    "regulatory": 4,
+    "catalysts": 6
+  },
+  "sections_passed": 5,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found in this pass",
+    "mint_path_live": "not checked on the contract; docs give a fixed 9.9B max supply",
+    "team_wallet_to_exchange_during_pump": "none found: the burn wallet (TZJV…) sends only to the black hole and JUST proposal contracts; the wallet that funded the burns (TFTW…) is an HTX hot wallet per Arkham, so its HTX transfers are exchange-internal",
+    "buyback_source": "first round (19 Oct 2025): 600M JST from unlabelled whale TPyjyZ… deposited to HTX nine minutes before withdrawal and burn; owner [Unverified]",
+    "revenue_claims_mismatch": "self-reported net income far above DefiLlama protocol revenue; claimed cumulative burn exceeds black-hole balance by ~106.7M",
+    "future_unlocks_cut": "n/a, fully unlocked"
+  },
+  "price_usd": 0.143425,
+  "price_source": "CoinGecko, 16 Nov 2026 6:00 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.143425,
+    "market_cap_text": "$1.150B",
+    "volume_24h_text": "$20.2M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/JST.md",
+    "sha256": "be0f5d7de7e906b954ec12b1577aca3d5766a44d75685077d5e68a4518182359",
+    "bytes": 27908,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:00 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~6:10 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:10 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "1.775B JST in the black hole",
+      "url": "`T9yD14…uWwb`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.775B JST in the black hole",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Five burns from the burn wallet",
+      "url": "19 Oct 2025",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Five burns from the burn wallet",
+      "url": "14 Jan 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Five burns from the burn wallet",
+      "url": "15 Apr 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Five burns from the burn wallet",
+      "url": "17 Jul 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Five burns from the burn wallet",
+      "url": "16 Oct 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn wallet funded by HTX hot wallet TFTW…",
+      "url": "19 Oct 2025",
+      "kind": "other",
+      "tier": "A (transfers) + B (Arkham label)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn wallet funded by HTX hot wallet TFTW…",
+      "url": "14 Jan 2026",
+      "kind": "other",
+      "tier": "A (transfers) + B (Arkham label)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn wallet funded by HTX hot wallet TFTW…",
+      "url": "15 Apr 2026",
+      "kind": "other",
+      "tier": "A (transfers) + B (Arkham label)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn wallet funded by HTX hot wallet TFTW…",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A (transfers) + B (Arkham label)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TFTW ↔ TDToU / TK86 are HTX-internal",
+      "url": "Arkham TDToU",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TFTW ↔ TDToU / TK86 are HTX-internal",
+      "url": "Arkham TK86Q",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TFTW ↔ TDToU / TK86 are HTX-internal",
+      "url": "409.1M back, 14 Jan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Round 1 block came from whale TPyjyZ… via HTX deposit",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Round 1 block came from whale TPyjyZ… via HTX deposit",
+      "url": "sweep",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Round 1 block came from whale TPyjyZ… via HTX deposit",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn wallet's 200M round trips are JUST proposal votes",
+      "url": "ProposalUpdateEthbCf45Rf",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn wallet's 200M round trips are JUST proposal votes",
+      "url": "ProposalUpgradeComptroller",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn wallet's 200M round trips are JUST proposal votes",
+      "url": "ProposalAddUMarket",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Burn wallet's 200M round trips are JUST proposal votes",
+      "url": "ProposalAddHtxMarket",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Q3 2026 net income $9.28M",
+      "url": "announcement",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Protocol revenue $0.79M a year",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocation and vesting",
+      "url": "whitepaper",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocation and vesting",
+      "url": "docs",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "tron",
+      "address": "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb",
+      "url": "https://tronscan.org/#/address/T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TBbdnCLz5x9U9WMj9RvXxUGoPVJ5MFpmrD",
+      "url": "https://intel.arkm.com/explorer/address/TBbdnCLz5x9U9WMj9RvXxUGoPVJ5MFpmrD",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+      "url": "https://tronscan.org/#/address/TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "url": "https://tronscan.org/#/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu",
+      "url": "https://tronscan.org/#/address/TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TK86Qm97uM848dMk8G7xNbJB7zG1uW3h1n",
+      "url": "https://tronscan.org/#/address/TK86Qm97uM848dMk8G7xNbJB7zG1uW3h1n",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TLRp7D7BamAbcwhGLzuBNCshpngyTpiUVW",
+      "url": "https://intel.arkm.com/explorer/address/TLRp7D7BamAbcwhGLzuBNCshpngyTpiUVW",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TMVMeCpcR5hh1WG36Yih68t3GuChABJz4E",
+      "url": "https://tronscan.org/#/address/TMVMeCpcR5hh1WG36Yih68t3GuChABJz4E",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TNRzQV5ZigUD2y5Ko7MfAqjU7dFcWFMiqN",
+      "url": "https://intel.arkm.com/explorer/address/TNRzQV5ZigUD2y5Ko7MfAqjU7dFcWFMiqN",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5",
+      "url": "https://tronscan.org/#/address/TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TSFUtqxZyADSmkgLbpoRwyDinr3BWuT6h9",
+      "url": "https://tronscan.org/#/address/TSFUtqxZyADSmkgLbpoRwyDinr3BWuT6h9",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N",
+      "url": "https://tronscan.org/#/address/TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TUDo1PuMG6j4aDSg6rsCNiz5gR5cnQaNTT",
+      "url": "https://tronscan.org/#/address/TUDo1PuMG6j4aDSg6rsCNiz5gR5cnQaNTT",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TW68dBGdy9gtk16BfzmvaCZ9pEti3KFkk2",
+      "url": "https://tronscan.org/#/address/TW68dBGdy9gtk16BfzmvaCZ9pEti3KFkk2",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TWQhCXaWz4eHK4Kd1ErSDHjMFPoPc9czts",
+      "url": "https://tronscan.org/#/address/TWQhCXaWz4eHK4Kd1ErSDHjMFPoPc9czts",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TWhSr8MnZ3KdMPH9qosLqHTjpgZxHfRHgg",
+      "url": "https://intel.arkm.com/explorer/address/TWhSr8MnZ3KdMPH9qosLqHTjpgZxHfRHgg",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TXk9LnTnLN7oH96H3sKxJayMxLxR9M4ZD6",
+      "url": "https://tronscan.org/#/address/TXk9LnTnLN7oH96H3sKxJayMxLxR9M4ZD6",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TZJVQuU3CJqBScwoxhRtkxQ7JjsNNrpEag",
+      "url": "https://tronscan.org/#/address/TZJVQuU3CJqBScwoxhRtkxQ7JjsNNrpEag",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found: the burn wallet (TZJV…) sends only to the black hole and JUST proposal contracts; the wallet that funded the burns (TFTW…) is an HTX hot wallet per Arkham, so its HTX transfers are exchange-internal"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn",
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": null,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "The burns are real and large, about 17.9% of max supply in one year, and Arkham's HTX label on the funding wallet fits buying on HTX. But the money behind them cannot be matched to independent numbers: DefiLlama shows $0.79M of protocol revenue for the whole year, while JUST reports $9.28M of net income for one quarter. The announcement also claims a cumulative 1,881,973,007 JST burned (19.01%)..."
+  },
+  "attributions": [
+    {
+      "address": "TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu",
+      "url": "https://intel.arkm.com/explorer/address/TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TBbdnCLz5x9U9WMj9RvXxUGoPVJ5MFpmrD",
+      "url": "https://intel.arkm.com/explorer/address/TBbdnCLz5x9U9WMj9RvXxUGoPVJ5MFpmrD",
+      "label": "JUST Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "TLRp7D7BamAbcwhGLzuBNCshpngyTpiUVW",
+      "url": "https://intel.arkm.com/explorer/address/TLRp7D7BamAbcwhGLzuBNCshpngyTpiUVW",
+      "label": "JUST Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "TNRzQV5ZigUD2y5Ko7MfAqjU7dFcWFMiqN",
+      "url": "https://intel.arkm.com/explorer/address/TNRzQV5ZigUD2y5Ko7MfAqjU7dFcWFMiqN",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "TWhSr8MnZ3KdMPH9qosLqHTjpgZxHfRHgg",
+      "url": "https://intel.arkm.com/explorer/address/TWhSr8MnZ3KdMPH9qosLqHTjpgZxHfRHgg",
+      "label": null,
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5",
+      "url": "https://intel.arkm.com/explorer/address/TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TSFUtqxZyADSmkgLbpoRwyDinr3BWuT6h9",
+      "url": "https://intel.arkm.com/explorer/address/TSFUtqxZyADSmkgLbpoRwyDinr3BWuT6h9",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N",
+      "url": "https://intel.arkm.com/explorer/address/TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "url": "https://intel.arkm.com/explorer/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TK86Qm97uM848dMk8G7xNbJB7zG1uW3h1n",
+      "url": "https://intel.arkm.com/explorer/address/TK86Qm97uM848dMk8G7xNbJB7zG1uW3h1n",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TMVMeCpcR5hh1WG36Yih68t3GuChABJz4E",
+      "url": "https://intel.arkm.com/explorer/address/TMVMeCpcR5hh1WG36Yih68t3GuChABJz4E",
+      "label": "no label",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TZJVQuU3CJqBScwoxhRtkxQ7JjsNNrpEag",
+      "url": "https://intel.arkm.com/explorer/address/TZJVQuU3CJqBScwoxhRtkxQ7JjsNNrpEag",
+      "label": "no label",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Tronscan / TronGrid TRC-20 transfers and the [JST holder list](https://tronscan.org/#/token20/TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9/holders), read 16 Nov 2026",
+      "urls": [
+        "JST holder list"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama JustLend](https://defillama.com/protocol/justlend) fees, revenue and TVL APIs, read 16 Nov 2026",
+      "urls": [
+        "DefiLlama JustLend"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:10 AM MST (signed-in account): entity labels for [TFTW… (HTX Hot Wallet)](https://intel.arkm.com/explorer/address/TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu), [TDToU… (HTX Hot Wallet)](https://intel.arkm.com/explorer/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4), [TK86Q… (HTX Hot Wallet)](https://intel.arkm.com/explorer/address/TK86Qm97uM848dMk8G7xNbJB7zG1uW3h1n), [TMVMe… (HTX Deposit)](https://intel.arkm.com/explorer/address/TMVMeCpcR5hh1WG36Yih68t3GuChABJz4E), the four JUST proposal contracts, and \"no label\" for [TZJV…](https://intel.arkm.com/explorer/address/TZJVQuU3CJqBScwoxhRtkxQ7JjsNNrpEag), [TPyjyZ…](https://intel.arkm.com/explorer/address/TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5), [TSFUtq…](https://intel.arkm.com/explorer/address/TSFUtqxZyADSmkgLbpoRwyDinr3BWuT6h9), [TT2T17…](https://intel.arkm.com/explorer/address/TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N). Arkham's token filter is Enterprise-only, so counterparties are from the default first page only.",
+      "urls": [
+        "TFTW… (HTX Hot Wallet",
+        "TDToU… (HTX Hot Wallet",
+        "TK86Q… (HTX Hot Wallet",
+        "TMVMe… (HTX Deposit",
+        "TZJV…",
+        "TPyjyZ…",
+        "TSFUtq…",
+        "TT2T17…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [JustLend docs: tokenomics](https://docs.justlend.org/governance/tokenomics/)",
+      "urls": [
+        "JustLend docs: tokenomics"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [5th buyback-and-burn announcement](https://support.justlend.org/hc/en-us/articles/63334976912025-Announcement-on-Completion-of-the-5th-JST-Buyback-and-Burn)",
+      "urls": [
+        "5th buyback-and-burn announcement"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [JUST whitepaper](https://just.network/docs/white_paper_en.pdf)",
+      "urls": [
+        "JUST whitepaper"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinGecko `/coins/just` market data and 365-day closes, 16 Nov 2026 6:00 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

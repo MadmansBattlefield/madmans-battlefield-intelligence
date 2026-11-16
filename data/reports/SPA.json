@@ -1,0 +1,671 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SPA",
+  "name": "Sperax",
+  "chain": "arbitrum (main) · ethereum · bsc",
+  "contract": "0x5575552988a3a80504bbaeb1311674fcfd40ad4b (Arbitrum)",
+  "overall_score": 2.5,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 4,
+    "insider_holdings": 2,
+    "selling_behavior": 2,
+    "tokenomics_supply": 3,
+    "liquidity_market": 2,
+    "product_development": 4,
+    "adoption_customers": 2,
+    "security_audits": 4,
+    "regulatory": 4,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "USDs rebase bug exploited 3–4 Feb 2023 (~$309K sold); funds returned (Sperax report)",
+    "mint_path_live": "Arbitrum SPA is a bridged token minted by the gateway on deposits; 5B max; not tested for an owner mint this pass [Unverified]",
+    "team_wallet_to_exchange_during_pump": "YES: team Safe 0xe10b… (3-of-5; its funder and co-signer 0xc6e0 is speraxfoundation.eth per Arkham) sent 30M SPA to a Coinbase deposit, 10M to a Gate deposit and 10M to a KuCoin deposit (Arkham) on 2 May 2023, a +51.4% 5-day pump day; also the treasury relay 0x9597 sent 9M to the same KuCoin deposit on the 26 Aug 2026 pump day (+11.2%)",
+    "team_held_share": "four team-signer Safes hold 1.647B SPA (≈33% of total supply)"
+  },
+  "price_usd": 0.00196042,
+  "price_source": "CoinGecko, 16 Nov 2026 ~5:08 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00196042,
+    "market_cap_text": "$3.75M",
+    "fdv_text": "$9.71M",
+    "volume_24h_text": "$107K"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SPA.md",
+    "sha256": "ef061cdfb2b0ef03d8f89c8e22511967d9719e9f084cf5a9ef29ec14d6afcfb6",
+    "bytes": 26388,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~5:08 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:35–6:40 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Four 3-of-5 Safes with overlapping signers hold 1.647B",
+      "url": "`0xba6c…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Four 3-of-5 Safes with overlapping signers hold 1.647B",
+      "url": "`0x3702…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Four 3-of-5 Safes with overlapping signers hold 1.647B",
+      "url": "`0xe10b…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Four 3-of-5 Safes with overlapping signers hold 1.647B",
+      "url": "`0xaf64…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "50M to Coinbase / Gate / KuCoin deposits on a +51.4% day",
+      "url": "multisend",
+      "kind": "other",
+      "tier": "A chain + B labels",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "50M to Coinbase / Gate / KuCoin deposits on a +51.4% day",
+      "url": "Coinbase sweep",
+      "kind": "other",
+      "tier": "A chain + B labels",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "50M to Coinbase / Gate / KuCoin deposits on a +51.4% day",
+      "url": "Gate sweep",
+      "kind": "other",
+      "tier": "A chain + B labels",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "20M to the same Coinbase deposit, 8 May 2024",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "20M to the same Coinbase deposit, 8 May 2024",
+      "url": "onward",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → relay → Gate, 2026",
+      "url": "50M",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → relay → Gate, 2026",
+      "url": "100M",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → relay → Gate, 2026",
+      "url": "30M to Gate",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → relay → Gate, 2026",
+      "url": "sweep",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xc6e0…` (Safe funder and signer) is speraxfoundation.eth",
+      "url": "Arkham 0xc6e0…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:36 AM MST"
+    },
+    {
+      "claim": "`0xc40e…` is a KuCoin deposit; `0xd7f7…` a Coinbase deposit",
+      "url": "Arkham 0xc40e…",
+      "kind": "other",
+      "tier": "B (+ Nansen for 0xd7f7)",
+      "date_read": "16 Nov 2026 ~6:36 AM MST"
+    },
+    {
+      "claim": "`0xc40e…` is a KuCoin deposit; `0xd7f7…` a Coinbase deposit",
+      "url": "Arkham 0xd7f7…",
+      "kind": "other",
+      "tier": "B (+ Nansen for 0xd7f7)",
+      "date_read": "16 Nov 2026 ~6:36 AM MST"
+    },
+    {
+      "claim": "Treasury relay → MEXC / KuCoin deposits, Jul–Aug 2026; 9M on the 26 Aug pump day",
+      "url": "25 Jul",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury relay → MEXC / KuCoin deposits, Jul–Aug 2026; 9M on the 26 Aug pump day",
+      "url": "27 Jul",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury relay → MEXC / KuCoin deposits, Jul–Aug 2026; 9M on the 26 Aug pump day",
+      "url": "26 Aug",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury relay → MEXC / KuCoin deposits, Jul–Aug 2026; 9M on the 26 Aug pump day",
+      "url": "Arkham 0x4636…",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x5c2f…` (398.9M) is Coinbase-held, not team",
+      "url": "Arkham 0x5c2f…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "$12,044 fees in 12 months",
+      "url": "DefiLlama API",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "USDs exploit, Feb 2023",
+      "url": "Sperax report",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "arbitrum",
+      "address": "0x2b00867967680b57508a7429f7683ece690e1fb1",
+      "url": "https://arbiscan.io/address/0x2b00867967680b57508a7429f7683ece690e1fb1",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x36930f85ae314995315ddd99ee10fa2775029555",
+      "url": "https://arbiscan.io/address/0x36930f85ae314995315ddd99ee10fa2775029555",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x3702e3e2db2b5d037c1dbb23ab7a51d0cc90bd0e",
+      "url": "https://arbiscan.io/address/0x3702e3e2db2b5d037c1dbb23ab7a51d0cc90bd0e",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x391d5eca7264515f8efffb82245c9a6a1e7de6ad",
+      "url": "https://arbiscan.io/address/0x391d5eca7264515f8efffb82245c9a6a1e7de6ad",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x46364d608274625f09c5b4643761d742e45f5212",
+      "url": "https://arbiscan.io/address/0x46364d608274625f09c5b4643761d742e45f5212",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x4ed88efc52c79e48dcb248d99d7b36439dcf69d1",
+      "url": "https://arbiscan.io/address/0x4ed88efc52c79e48dcb248d99d7b36439dcf69d1",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x5575552988a3a80504bbaeb1311674fcfd40ad4b",
+      "url": "https://arbiscan.io/token/0x5575552988a3a80504bbaeb1311674fcfd40ad4b",
+      "kind": "token"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0x9597daa6d22143c59c1818ee08df9d255a9bc9a0",
+      "url": "https://arbiscan.io/address/0x9597daa6d22143c59c1818ee08df9d255a9bc9a0",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xaf64e027d42bac1c14277fd295de9ae318eef17e",
+      "url": "https://arbiscan.io/address/0xaf64e027d42bac1c14277fd295de9ae318eef17e",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xba6ca0b9e7333f5e667816b85704c024ab250c9d",
+      "url": "https://arbiscan.io/address/0xba6ca0b9e7333f5e667816b85704c024ab250c9d",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xc40ebbffc42c6c84c82b8c50a350269df212ca1f",
+      "url": "https://arbiscan.io/address/0xc40ebbffc42c6c84c82b8c50a350269df212ca1f",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xd7f721a2bfdc29d38400f2fda17e721670b901d9",
+      "url": "https://arbiscan.io/address/0xd7f721a2bfdc29d38400f2fda17e721670b901d9",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum",
+      "address": "0xe10b88d70b01b956782dc98d7d4f3a931ff59fc7",
+      "url": "https://arbiscan.io/address/0xe10b88d70b01b956782dc98d7d4f3a931ff59fc7",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0x05e3a758fdd29d28435019ac453297ea37b61b62",
+      "url": "https://intel.arkm.com/explorer/address/0x05e3a758fdd29d28435019ac453297ea37b61b62",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "url": "https://intel.arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0x36930f85ae314995315ddd99ee10fa2775029555",
+      "url": "https://intel.arkm.com/explorer/address/0x36930f85ae314995315ddd99ee10fa2775029555",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0x391d5eca7264515f8efffb82245c9a6a1e7de6ad",
+      "url": "https://intel.arkm.com/explorer/address/0x391d5eca7264515f8efffb82245c9a6a1e7de6ad",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0x3dd1d15b3c78d6acfd75a254e857cbe5b9ff0af2",
+      "url": "https://intel.arkm.com/explorer/address/0x3dd1d15b3c78d6acfd75a254e857cbe5b9ff0af2",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0x46364d608274625f09c5b4643761d742e45f5212",
+      "url": "https://intel.arkm.com/explorer/address/0x46364d608274625f09c5b4643761d742e45f5212",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0x4ed88efc52c79e48dcb248d99d7b36439dcf69d1",
+      "url": "https://intel.arkm.com/explorer/address/0x4ed88efc52c79e48dcb248d99d7b36439dcf69d1",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0x5c2f85b7c224cb7ca8fab5b739a5d9134b5f9d56",
+      "url": "https://intel.arkm.com/explorer/address/0x5c2f85b7c224cb7ca8fab5b739a5d9134b5f9d56",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0x9597daa6d22143c59c1818ee08df9d255a9bc9a0",
+      "url": "https://intel.arkm.com/explorer/address/0x9597daa6d22143c59c1818ee08df9d255a9bc9a0",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0xc40ebbffc42c6c84c82b8c50a350269df212ca1f",
+      "url": "https://intel.arkm.com/explorer/address/0xc40ebbffc42c6c84c82b8c50a350269df212ca1f",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0xc6e00e0e3544c93460cdfb53e85c4528ef348265",
+      "url": "https://intel.arkm.com/explorer/address/0xc6e00e0e3544c93460cdfb53e85c4528ef348265",
+      "kind": "address"
+    },
+    {
+      "chain": "arbitrum (main) · ethereum · bsc",
+      "address": "0xd7f721a2bfdc29d38400f2fda17e721670b901d9",
+      "url": "https://intel.arkm.com/explorer/address/0xd7f721a2bfdc29d38400f2fda17e721670b901d9",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: YES: team Safe 0xe10b… (3-of-5; its funder and co-signer 0xc6e0 is speraxfoundation.eth per Arkham) sent 30M SPA to a Coinbase deposit, 10M to a Gate deposit and 10M to a KuCoin deposit (Arkham) on 2 May 2023, a +51.4% 5-day pump day; also the treasury relay 0x9597 sent 9M to the same KuCoin deposit on the 26 Aug 2026 pump day (+11.2%)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "fee_share"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "About $3.7K a year reaches holders of a $3.75M token. That is **1**, which **trips the Revenue gate**."
+  },
+  "attributions": [
+    {
+      "address": "0xc6e00e0e3544c93460cdfb53e85c4528ef348265",
+      "url": "https://intel.arkm.com/explorer/address/0xc6e00e0e3544c93460cdfb53e85c4528ef348265",
+      "label": "project or individual-labelled wallet",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0xd7f721a2bfdc29d38400f2fda17e721670b901d9",
+      "url": "https://intel.arkm.com/explorer/address/0xd7f721a2bfdc29d38400f2fda17e721670b901d9",
+      "label": "a **KuCoin Deposit** ([Arkham](https://intel.arkm.com/explorer/address/0xc40ebbf",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc40ebbffc42c6c84c82b8c50a350269df212ca1f",
+      "url": "https://intel.arkm.com/explorer/address/0xc40ebbffc42c6c84c82b8c50a350269df212ca1f",
+      "label": "a **KuCoin Deposit** ([Arkham](https://intel.arkm.com/explorer/address/0xc40ebbf",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5c2f85b7c224cb7ca8fab5b739a5d9134b5f9d56",
+      "url": "https://intel.arkm.com/explorer/address/0x5c2f85b7c224cb7ca8fab5b739a5d9134b5f9d56",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "url": "https://intel.arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x3dd1d15b3c78d6acfd75a254e857cbe5b9ff0af2",
+      "url": "https://intel.arkm.com/explorer/address/0x3dd1d15b3c78d6acfd75a254e857cbe5b9ff0af2",
+      "label": "Gate: Wallet",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x05e3a758fdd29d28435019ac453297ea37b61b62",
+      "url": "https://intel.arkm.com/explorer/address/0x05e3a758fdd29d28435019ac453297ea37b61b62",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x46364d608274625f09c5b4643761d742e45f5212",
+      "url": "https://intel.arkm.com/explorer/address/0x46364d608274625f09c5b4643761d742e45f5212",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4ed88efc52c79e48dcb248d99d7b36439dcf69d1",
+      "url": "https://intel.arkm.com/explorer/address/0x4ed88efc52c79e48dcb248d99d7b36439dcf69d1",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x391d5eca7264515f8efffb82245c9a6a1e7de6ad",
+      "url": "https://intel.arkm.com/explorer/address/0x391d5eca7264515f8efffb82245c9a6a1e7de6ad",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x36930f85ae314995315ddd99ee10fa2775029555",
+      "url": "https://intel.arkm.com/explorer/address/0x36930f85ae314995315ddd99ee10fa2775029555",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9597daa6d22143c59c1818ee08df9d255a9bc9a0",
+      "url": "https://intel.arkm.com/explorer/address/0x9597daa6d22143c59c1818ee08df9d255a9bc9a0",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API, Arbitrum (chain 42161): `tokentx` for the four Safes, `0xd7f7…`, `0x2b00…`, `0x9597…`; `getsourcecode`, `eth_getCode`, `tokensupply`; `eth_call` `getOwners()` / `getThreshold()`, 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees / revenue / holders-revenue API and protocol TVL (Sperax USD, Demeter)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `sperax` market data and 365-day closes; Gate SPA_USDT daily candles for 2023–2024",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Sperax USDs exploit report](https://medium.com/sperax/usds-feb-3-exploit-report-from-engineering-team-9f0fd3cef00c) · [Tier B] [CertiK write-up](https://www.certik.com/blog/inflated-books-the-usd250k-attack-on-sperax-usd)",
+      "urls": [
+        "Sperax USDs exploit report",
+        "CertiK write-up"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Nansen `tgm/holders` (Arbitrum) and `profiler/address/labels`, read 16 Nov 2026 (MST): `0x20c6…`, `0x0515…`, `0xea4d…`, `0xe68e…`, `0x5300…`, `0xd7f7…` Coinbase; `0x2b00…`, `0x0d07…` Gate; `0x03e6…` KuCoin: Hot Wallet",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:35–6:40 AM MST (signed-in account): **Sperax: speraxfoundation.eth** [0xc6e0…](https://intel.arkm.com/explorer/address/0xc6e00e0e3544c93460cdfb53e85c4528ef348265); Coinbase Deposit [0xd7f7…](https://intel.arkm.com/explorer/address/0xd7f721a2bfdc29d38400f2fda17e721670b901d9); KuCoin Deposit [0xc40e…](https://intel.arkm.com/explorer/address/0xc40ebbffc42c6c84c82b8c50a350269df212ca1f); MEXC Deposit [0x4636…](https://intel.arkm.com/explorer/address/0x46364d608274625f09c5b4643761d742e45f5212); Coinbase: Hot Wallet [0x3dd1…](https://intel.arkm.com/explorer/address/0x3dd1d15b3c78d6acfd75a254e857cbe5b9ff0af2) and [0x05e3…](https://intel.arkm.com/explorer/address/0x05e3a758fdd29d28435019ac453297ea37b61b62); Coinbase-attributed [0x5c2f…](https://intel.arkm.com/explorer/address/0x5c2f85b7c224cb7ca8fab5b739a5d9134b5f9d56); Revolut: Cold Wallet [0x15da…](https://intel.arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7); no label on [0x9597…](https://intel.arkm.com/explorer/address/0x9597daa6d22143c59c1818ee08df9d255a9bc9a0), [0x3693…](https://intel.arkm.com/explorer/address/0x36930f85ae314995315ddd99ee10fa2775029555), [0x391d…](https://intel.arkm.com/explorer/address/0x391d5eca7264515f8efffb82245c9a6a1e7de6ad), [0x4ed8…](https://intel.arkm.com/explorer/address/0x4ed88efc52c79e48dcb248d99d7b36439dcf69d1). Arkham's token filter is Enterprise-only, so counterparties come from the default first page.",
+      "urls": [
+        "0xc6e0…",
+        "0xd7f7…",
+        "0xc40e…",
+        "0x4636…",
+        "0x3dd1…",
+        "0x05e3…",
+        "0x5c2f…",
+        "0x15da…",
+        "0x9597…",
+        "0x3693…",
+        "0x391d…",
+        "0x4ed8…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `sperax` 365-day closes for the 2026 pump test (26 Aug 2026 +11.2%)",
+      "urls": [],
+      "date_read": "26 Aug 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] individual signer identities; owners of `0x9597…`, `0x3693…`, `0x391d…`, `0x4ed8…`; whether the May 2023 deposits were for market making and disclosed",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

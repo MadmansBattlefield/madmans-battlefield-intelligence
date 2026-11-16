@@ -1,0 +1,343 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "PHA",
+  "name": "Phala Network",
+  "chain": "ethereum",
+  "contract": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+  "overall_score": 3.9,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 1,
+    "tokenomics_supply": 6,
+    "liquidity_market": 6,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 5,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no: fixed 1B ERC20 supply",
+    "team_wallet_to_exchange_during_pump": "yes: ~15.9M PHA (~$0.85M) reached Gate deposit addresses on six pump days, 18-25 Sep 2026, from Safes funded by the protocol escrow; no disclosure found",
+    "entity_concentration": "protocol escrow Safe holds 128.8M (12.9%)"
+  },
+  "price_usd": 0.03045,
+  "price_source": "CoinGecko, 16 Nov 2026 ~8:40 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.03045,
+    "market_cap_text": "$26.3M",
+    "fdv_text": "$30.3M",
+    "volume_24h_text": "$15.2M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/PHA.md",
+    "sha256": "b86a7959b42fba0e5c42562a4cc62026d71960c1fa2bd3a21fe26da420d6fb7e",
+    "bytes": 15006,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~8:40 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "332.1M bridged into the escrow Safe",
+      "url": "tx 0x074d…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Escrow funded the labelled PHA Assets Claimer",
+      "url": "tx 0x63c4…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Escrow → Safe 0x35e0 (54.9M)",
+      "url": "tx 0x2744…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe 0x35e0 → Safe 0xf32f (60.7M)",
+      "url": "tx 0x0f1f…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x1771 signs the escrow Safe",
+      "url": "Safe owners",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x1771 signs the escrow Safe",
+      "url": "Arkham signer tag",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0xdce1 is a contract deployer",
+      "url": "Arkham deployer tag",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0d15d5999a67084c78fa8c2fd60a799d3bfe2608",
+      "url": "https://intel.arkm.com/explorer/address/0x0d15d5999a67084c78fa8c2fd60a799d3bfe2608",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1771564a5455523ded62dcd787bc4c1443c8c111",
+      "url": "https://intel.arkm.com/explorer/address/0x1771564a5455523ded62dcd787bc4c1443c8c111",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x35e0316b78a1cafa165521aac961ddd60165b103",
+      "url": "https://etherscan.io/address/0x35e0316b78a1cafa165521aac961ddd60165b103",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4a396b5c9a6fbc1bc0525f24ac0a246766f3ebef",
+      "url": "https://etherscan.io/address/0x4a396b5c9a6fbc1bc0525f24ac0a246766f3ebef",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+      "url": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdce1fc1b7c0c27bab27f571b661aa5350adf835d",
+      "url": "https://intel.arkm.com/explorer/address/0xdce1fc1b7c0c27bab27f571b661aa5350adf835d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf32f0c04ab7496ae6de6b893889327f8c60fecb6",
+      "url": "https://etherscan.io/address/0xf32f0c04ab7496ae6de6b893889327f8c60fecb6",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes: ~15.9M PHA (~$0.85M) reached Gate deposit addresses on six pump days, 18-25 Sep 2026, from Safes funded by the protocol escrow; no disclosure found"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama has no fee or revenue record for Phala. The old model (20% of mining rewards to the treasury) ended when the parachain was shut down. No revenue figures for the TEE cloud business were found, and no mechanism sends cloud revenue to PHA holders. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x1771564a5455523ded62dcd787bc4c1443c8c111",
+      "url": "https://intel.arkm.com/explorer/address/0x1771564a5455523ded62dcd787bc4c1443c8c111",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4a396b5c9a6fbc1bc0525f24ac0a246766f3ebef",
+      "url": "https://intel.arkm.com/explorer/address/0x4a396b5c9a6fbc1bc0525f24ac0a246766f3ebef",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x35e0316b78a1cafa165521aac961ddd60165b103",
+      "url": "https://intel.arkm.com/explorer/address/0x35e0316b78a1cafa165521aac961ddd60165b103",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf32f0c04ab7496ae6de6b893889327f8c60fecb6",
+      "url": "https://intel.arkm.com/explorer/address/0xf32f0c04ab7496ae6de6b893889327f8c60fecb6",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0d15d5999a67084c78fa8c2fd60a799d3bfe2608",
+      "url": "https://intel.arkm.com/explorer/address/0x0d15d5999a67084c78fa8c2fd60a799d3bfe2608",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xdce1fc1b7c0c27bab27f571b661aa5350adf835d",
+      "url": "https://intel.arkm.com/explorer/address/0xdce1fc1b7c0c27bab27f571b661aa5350adf835d",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan token, address and transaction pages (links above). Receipts, balances and Safe owner/threshold reads were made through the Etherscan API on 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `pha`. Pump days are from Binance PHAUSDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees endpoint (no Phala record)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Phala forum post on the claim system (snapshot block #9064613)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): generic Safe labels on 0x4a39, 0x35e0 and 0xf32f; Gate Deposit on 0x053f and 0x809b; MEXC and KuCoin Deposit labels; signer tag on 0x1771 and deployer tag on 0xdce1. No Phala or market-maker label anywhere",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan API `getOwners()` on the three Safes; Gate PHA/USDT closes for the post-window transfers",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

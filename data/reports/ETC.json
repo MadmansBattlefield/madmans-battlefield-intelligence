@@ -1,0 +1,192 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ETC",
+  "name": "Ethereum Classic",
+  "chain": "ethereum-classic",
+  "contract": "native (Ethereum Classic proof-of-work chain, chain id 61)",
+  "overall_score": 4.1,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 3,
+    "insider_holdings": 7,
+    "selling_behavior": 6,
+    "tokenomics_supply": 8,
+    "liquidity_market": 5,
+    "product_development": 3,
+    "adoption_customers": 2,
+    "security_audits": 3,
+    "regulatory": 7,
+    "catalysts": 3
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "no exploit in the review window; history of 51%-attack reorganizations (Jan 2019, three in Aug 2020); hashrate still rentable",
+    "mint_path_live": "no: fixed emission schedule (ECIP-1017, 20% cut every 5M blocks), ~210.7M cap",
+    "team_wallet_to_exchange_during_pump": "not applicable: no live team or treasury allocation; the 2015 Ethereum genesis presale balances are legacy, not traced here",
+    "treasury_selling": "not applicable today; the proposed Olympia upgrade (targeted 2027) would route base fees to a treasury contract"
+  },
+  "price_usd": 5.94,
+  "price_source": "CoinGecko, 16 Nov 2026 7:53 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 5.94,
+    "market_cap_text": "$944.6M",
+    "fdv_text": "$944.6M",
+    "volume_24h_text": "$17.5M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ETC.md",
+    "sha256": "c9e3703a649b44f993dca72acbf530daf4b820087b442947bcd7c3ca003d9972",
+    "bytes": 10888,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 7:53 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~7:35 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "7,137 tx today, 0.23% utilization, height 25.75M",
+      "url": "Blockscout stats",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $6,979 / 12 months",
+      "url": "DefiLlama fees",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TVL $92.8k",
+      "url": "DefiLlama chains",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Olympia not yet active, 2027 target",
+      "url": "ECIP-1111",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Olympia not yet active, 2027 target",
+      "url": "overview",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "unclear",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not applicable: no live team or treasury allocation; the 2015 Ethereum genesis presale balances are legacy, not traced here"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Holders capture nothing, and even miners' fee income is negligible. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [Blockscout ETC stats API](https://etc.blockscout.com/api/v2/stats) (height, transactions today, utilization, block time), 16 Nov 2026 7:55 AM MST",
+      "urls": [
+        "Blockscout ETC stats API"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] 2miners ETC pool API, network hashrate field (172.7 TH/s), 16 Nov 2026 ~7:57 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [ECIP-1111](https://github.com/ethereumclassic/ECIPs/blob/master/_specs/ecip-1111.md); [Olympia overview](https://ethereumclassic.com/news/olympia-upgrade-overview)",
+      "urls": [
+        "ECIP-1111",
+        "Olympia overview"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `ethereum-classic` fees and chain TVL; CoinGecko `ethereum-classic` (16 Nov 2026 7:53 AM MST); Binance ETCUSDT daily closes for pump days",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, network list read 16 Nov 2026 ~7:35 AM MST (signed-in account): **Ethereum Classic is not supported.** Arkham's network selector lists only Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain. No Arkham labels were available for this report. ETC also has no team, foundation or treasury wallets to look up",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

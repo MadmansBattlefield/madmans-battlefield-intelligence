@@ -1,0 +1,841 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ENA",
+  "name": "Ethena",
+  "chain": "ethereum",
+  "contract": "0x57e114B691Db790C35207b2e685D4A43181e6061",
+  "overall_score": 5.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 7,
+    "insider_holdings": 5,
+    "selling_behavior": 5,
+    "tokenomics_supply": 5,
+    "liquidity_market": 9,
+    "product_development": 8,
+    "adoption_customers": 6,
+    "security_audits": 7,
+    "regulatory": 5,
+    "catalysts": 6
+  },
+  "sections_passed": 6,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none on Ethena contracts; 217.5M ENA was stolen from Binance in its 29 Oct 2026 hot-wallet hack (exchange-side)",
+    "mint_path_live": "yes, owner-only mint of up to 10% of supply a year; owner is the EthenaTimelockController; never used (lastMintTimestamp = deployment)",
+    "team_wallet_to_exchange_during_pump": "downgraded after Arkham: the two largest pump-day moves were into custody (35.7M to a Gemini Custody multisig, 19 Jul 2024; 70M to Ethena's own Coinbase Prime deposit, 5 Sep 2025). Remaining pump-day exchange deposits from foundation-funded wallets: 21.8M (unlabelled 0xB2af, 19 Jul 2025), 8M (YZi Labs, Sep 2025), 6.3M (Ethena team vesting proxy, 2026)",
+    "treasury_coins_to_exchange_via_market_maker": "yes, ~1.6B ENA from foundation-funded wallets reached Coinbase Prime, Binance, Bybit, Gemini, FalconX and Galaxy OTC deposit addresses (2024–2026), mostly on non-pump days; Arkham labels ~715M of it as Ethena's own custody (Coinbase Prime) or Gemini Custody",
+    "fee_switch": "approved 8 Sep 2026 but inactive until 14-day average USDe supply reaches $7.5B (now ~$4.85B)"
+  },
+  "price_usd": 0.115481,
+  "price_source": "CoinGecko, 16 Nov 2026 5:39 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.115481,
+    "market_cap_text": "$1.560B",
+    "fdv_text": "$1.734B",
+    "volume_24h_text": "$216.8M",
+    "total_supply_text": "15,000,000,000"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ENA.md",
+    "sha256": "3267bd2cc84ee2497552f8fd59e7693b31f123d734fa6a19516f9e8ae7d33d3a",
+    "bytes": 34863,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:39 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~6:10 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:10 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "11.25B ENA to `_foundation` Safe and 3.75B to `_treasury` Safe at deployment",
+      "url": "creation tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "11.25B ENA to `_foundation` Safe and 3.75B to `_treasury` Safe at deployment",
+      "url": "foundation Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "11.25B ENA to `_foundation` Safe and 3.75B to `_treasury` Safe at deployment",
+      "url": "treasury Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint is owner-only, 10%/yr, never used; owner is a timelock",
+      "url": "token code",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint is owner-only, 10%/yr, never used; owner is a timelock",
+      "url": "timelock",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation Safe → Gemini route on a pump day",
+      "url": "35.7M, 19 Jul 2024",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation Safe → Gemini route on a pump day",
+      "url": "`0x90c7…`",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "300M ENA to Binance for Launchpool",
+      "url": "Safe → `0x61ab`",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "300M ENA to Binance for Launchpool",
+      "url": "→ Binance 14",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xcfc4…` → Coinbase Prime deposit, 680M",
+      "url": "5 Sep 2025, 70M (pump",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xcfc4…` → Coinbase Prime deposit, 680M",
+      "url": "10 Sep",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xcfc4…` → Coinbase Prime deposit, 680M",
+      "url": "14 Oct 2025, 363M",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xcfc4…` → Coinbase Prime deposit, 680M",
+      "url": "funding from Safe",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xB2af…` → Coinbase Prime on pump day, FalconX later",
+      "url": "19 Jul 2025",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xB2af…` → Coinbase Prime on pump day, FalconX later",
+      "url": "18 Aug 2026, 170M",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x877b…` → Binance deposit",
+      "url": "3 Sep 2025",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x877b…` → Binance deposit",
+      "url": "5 Sep 2025",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x877b…` → Binance deposit",
+      "url": "deposit addr",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x3C71…` sold its last 102M via Coinbase",
+      "url": "50M, 9 Nov 2026",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x3C71…` sold its last 102M via Coinbase",
+      "url": "39M, 11 Nov",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "128.6M ENA from Ethena's Coinbase Prime custody to Binance after the hack",
+      "url": "first lot",
+      "kind": "other",
+      "tier": "A chain + B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "128.6M ENA from Ethena's Coinbase Prime custody to Binance after the hack",
+      "url": "last lot",
+      "kind": "other",
+      "tier": "A chain + B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "128.6M ENA from Ethena's Coinbase Prime custody to Binance after the hack",
+      "url": "onward",
+      "kind": "other",
+      "tier": "A chain + B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "128.6M ENA from Ethena's Coinbase Prime custody to Binance after the hack",
+      "url": "→ Binance 28",
+      "kind": "other",
+      "tier": "A chain + B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "128.6M ENA from Ethena's Coinbase Prime custody to Binance after the hack",
+      "url": "Lookonchain",
+      "kind": "other",
+      "tier": "A chain + B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fee switch passed, inactive below $7.5B USDe",
+      "url": "forum",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fee switch passed, inactive below $7.5B USDe",
+      "url": "Q3 update",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fee switch passed, inactive below $7.5B USDe",
+      "url": "USDe supply",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $233.1M, revenue $2.0M, holders $0 (1y)",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xcfc4…` and `0xf2e2…` are Ethena's own Coinbase Prime custody and deposit",
+      "url": "Arkham 0xcfc4…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "`0xcfc4…` and `0xf2e2…` are Ethena's own Coinbase Prime custody and deposit",
+      "url": "Arkham 0xf2e2…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "`0x90c7…` is a Gemini Custody multisig",
+      "url": "Arkham 0x90c7…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "`0x877b…` is YZi Labs (Binance Labs Fund)",
+      "url": "Arkham 0x877b…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "`0xfa84…` and `0xd332…` (2.15B ENA) are StablecoinX",
+      "url": "Arkham 0xfa84…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "`0xfa84…` and `0xd332…` (2.15B ENA) are StablecoinX",
+      "url": "Arkham 0xd332…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "`0x2146…`, `0x54b8…`, `0xc4e5…` are Ethena team / custody wallets; `0xD45e…` is Ethena's Binance deposit",
+      "url": "0x2146…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "`0x2146…`, `0x54b8…`, `0xc4e5…` are Ethena team / custody wallets; `0xD45e…` is Ethena's Binance deposit",
+      "url": "0x54b8…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "`0x2146…`, `0x54b8…`, `0xc4e5…` are Ethena team / custody wallets; `0xD45e…` is Ethena's Binance deposit",
+      "url": "0xc4e5…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    },
+    {
+      "claim": "`0x2146…`, `0x54b8…`, `0xc4e5…` are Ethena team / custody wallets; `0xD45e…` is Ethena's Binance deposit",
+      "url": "0xD45e…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:10 AM MST"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x2146aa5807d96e6b2922a149cee870f17347f1d0",
+      "url": "https://etherscan.io/address/0x2146AA5807D96E6B2922a149CeE870F17347F1d0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "url": "https://intel.arkm.com/explorer/address/0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x54b8c65f0635fd91c8729dd3269c630d9aed54e5",
+      "url": "https://intel.arkm.com/explorer/address/0x54b8c65f0635fd91c8729dd3269c630d9aed54e5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x57e114b691db790c35207b2e685d4a43181e6061",
+      "url": "https://etherscan.io/address/0x57e114B691Db790C35207b2e685D4A43181e6061",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x649a16acc1fddcaf2771bd85ed9b45e887a7f273",
+      "url": "https://etherscan.io/address/0x649a16acc1fddcaf2771bd85ed9b45e887a7f273",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x688ae58ebd684b3c475c81584f976593930ca67f",
+      "url": "https://etherscan.io/address/0x688ae58ebd684b3c475c81584f976593930ca67f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x690c3eebf6ee237f00fc96f9766282f096c191cc",
+      "url": "https://intel.arkm.com/explorer/address/0x690c3eebf6ee237f00fc96f9766282f096c191cc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6a4b4a0fce628750ca200b73c10bb211b3614eb8",
+      "url": "https://etherscan.io/address/0x6a4B4a0FCe628750CA200B73c10Bb211b3614EB8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7462f0d93260909870487f17a27c336349579557",
+      "url": "https://intel.arkm.com/explorer/address/0x7462f0d93260909870487f17a27c336349579557",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x877b3d5c681c8890d19dbf450306caa3c3d4bba6",
+      "url": "https://intel.arkm.com/explorer/address/0x877b3d5c681c8890d19dbf450306caa3c3d4bba6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "url": "https://etherscan.io/token/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x90c74dfe1ff09789cbdaa4514d80b8d8043ccf51",
+      "url": "https://etherscan.io/address/0x90c74dfe1ff09789cbdaa4514d80b8d8043ccf51",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb2af973905f05bc82bf97486b6ab883598d98298",
+      "url": "https://etherscan.io/address/0xb2af973905f05bc82bf97486b6ab883598d98298",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb805ef84dd9c7de96d8fe79c1b6f2ca52e890936",
+      "url": "https://etherscan.io/address/0xB805Ef84dd9c7DE96D8Fe79C1B6F2cA52E890936",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc4e512313dd1ce0795f88ec5229778edf1fdf79b",
+      "url": "https://intel.arkm.com/explorer/address/0xc4e512313dd1ce0795f88ec5229778edf1fdf79b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcfc40d4eca21f60d329f1e6b9b3d6069eaa20bbc",
+      "url": "https://etherscan.io/address/0xcfc40d4eca21f60d329f1e6b9b3d6069eaa20bbc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd332ab00f78884a467f11ba9c7551ec32671aec9",
+      "url": "https://etherscan.io/address/0xd332AB00f78884a467f11ba9c7551EC32671aeC9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd45e232819045d9d34fd107d19b594170515580e",
+      "url": "https://intel.arkm.com/explorer/address/0xD45e232819045d9D34fd107d19b594170515580E",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd4b34207a671b813b5e66d31ea0b0a9849de9bc1",
+      "url": "https://etherscan.io/address/0xd4b34207a671b813b5e66d31ea0b0a9849de9bc1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe69060279c23279b3ff34d7bfb1bf50dbd626e41",
+      "url": "https://etherscan.io/address/0xe69060279c23279b3ff34d7bfb1bf50dbd626e41",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe8dc0fab349ea169283c48ccfd09d797e6db7c94",
+      "url": "https://etherscan.io/address/0xe8dc0fab349ea169283c48ccfd09d797e6db7c94",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf2e2f6827ab893d636eb98f3aac81e850880da83",
+      "url": "https://intel.arkm.com/explorer/address/0xf2e2f6827ab893d636eb98f3aac81e850880da83",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xfa847c23ae9bd5407a64acb2678f584ba350a078",
+      "url": "https://etherscan.io/address/0xfa847C23ae9BD5407A64aCb2678F584bA350a078",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: downgraded after Arkham: the two largest pump-day moves were into custody (35.7M to a Gemini Custody multisig, 19 Jul 2024; 70M to Ethena's own Coinbase Prime deposit, 5 Sep 2025). Remaining pump-day exchange deposits from foundation-funded wallets: 21.8M (unlabelled 0xB2af, 19 Jul 2025), 8M (YZi Labs, Sep 2025), 6.3M (Ethena team vesting proxy, 2026)",
+      "treasury_coins_to_exchange_via_market_maker: yes, ~1.6B ENA from foundation-funded wallets reached Coinbase Prime, Binance, Bybit, Gemini, FalconX and Galaxy OTC deposit addresses (2024–2026), mostly on non-pump days; Arkham labels ~715M of it as Ethena's own custody (Coinbase Prime) or Gemini Custody"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "fee_share"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "A real, fee-producing business, but the fees pay sUSDe stakers and the reserve fund, not ENA. The approved fee switch is conditional on USDe growing by about 55% from here. Until it turns on, ENA is a governance token with a promise attached. Score **3**: real revenue exists, nothing reaches the token. Hard-gate FAIL."
+  },
+  "attributions": [
+    {
+      "address": "0x90c74dfe1ff09789cbdaa4514d80b8d8043ccf51",
+      "url": "https://intel.arkm.com/explorer/address/0x90c74dfe1ff09789cbdaa4514d80b8d8043ccf51",
+      "label": "Ethena: Coinbase Prime Deposit",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf2e2f6827ab893d636eb98f3aac81e850880da83",
+      "url": "https://intel.arkm.com/explorer/address/0xf2e2f6827ab893d636eb98f3aac81e850880da83",
+      "label": "Ethena: Coinbase Prime Deposit",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xcfc40d4eca21f60d329f1e6b9b3d6069eaa20bbc",
+      "url": "https://intel.arkm.com/explorer/address/0xcfc40d4eca21f60d329f1e6b9b3d6069eaa20bbc",
+      "label": "Ethena: Coinbase Prime Deposit",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0xd45e232819045d9d34fd107d19b594170515580e",
+      "url": "https://intel.arkm.com/explorer/address/0xD45e232819045d9D34fd107d19b594170515580E",
+      "label": "Ethena: Binance Deposit",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x877b3d5c681c8890d19dbf450306caa3c3d4bba6",
+      "url": "https://intel.arkm.com/explorer/address/0x877b3d5c681c8890d19dbf450306caa3c3d4bba6",
+      "label": "Ethena: Binance Deposit",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xfa847c23ae9bd5407a64acb2678f584ba350a078",
+      "url": "https://intel.arkm.com/explorer/address/0xfa847C23ae9BD5407A64aCb2678F584bA350a078",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x2146aa5807d96e6b2922a149cee870f17347f1d0",
+      "url": "https://intel.arkm.com/explorer/address/0x2146AA5807D96E6B2922a149CeE870F17347F1d0",
+      "label": "Ethena : Coinbase Prime Custody",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc4e512313dd1ce0795f88ec5229778edf1fdf79b",
+      "url": "https://intel.arkm.com/explorer/address/0xc4e512313dd1ce0795f88ec5229778edf1fdf79b",
+      "label": "Ethena : Coinbase Prime Custody",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd332ab00f78884a467f11ba9c7551ec32671aec9",
+      "url": "https://intel.arkm.com/explorer/address/0xd332AB00f78884a467f11ba9c7551EC32671aeC9",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6a4b4a0fce628750ca200b73c10bb211b3614eb8",
+      "url": "https://intel.arkm.com/explorer/address/0x6a4B4a0FCe628750CA200B73c10Bb211b3614EB8",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb2af973905f05bc82bf97486b6ab883598d98298",
+      "url": "https://intel.arkm.com/explorer/address/0xb2af973905f05bc82bf97486b6ab883598d98298",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x54b8c65f0635fd91c8729dd3269c630d9aed54e5",
+      "url": "https://intel.arkm.com/explorer/address/0x54b8c65f0635fd91c8729dd3269c630d9aed54e5",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x690c3eebf6ee237f00fc96f9766282f096c191cc",
+      "url": "https://intel.arkm.com/explorer/address/0x690c3eebf6ee237f00fc96f9766282f096c191cc",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "url": "https://intel.arkm.com/explorer/address/0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x7462f0d93260909870487f17a27c336349579557",
+      "url": "https://intel.arkm.com/explorer/address/0x7462f0d93260909870487f17a27c336349579557",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx`, `tokenbalance` and token supply for ENA and sENA; the two deployment Safes, 17 funded wallets and the second hops named above; read 16 Nov 2026 ~4:30–5:40 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] ENA contract source and constructor (creation tx); Blockscout contract names (GnosisSafe, EthenaTimelockController)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Ethena docs: tokenomics](https://docs.ethena.fi/ena/tokenomics) · [audits](https://docs.ethena.fi/resources/audits)",
+      "urls": [
+        "Ethena docs: tokenomics",
+        "audits"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Fee switch thread](https://gov.ethenafoundation.com/t/ena-fee-switch-activation/830) · [Jul–Sep 2026 governance update](https://gov.ethenafoundation.com/t/ethena-s-july-september-2026-governance-update/857/1)",
+      "urls": [
+        "Fee switch thread",
+        "Jul–Sep 2026 governance update"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees API (`ethena`) and stablecoins API (USDe), 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `ethena` price and 365-day closes; KuCoin ENA-USDT daily candles from 3 Apr 2024",
+      "urls": [],
+      "date_read": "3 Apr 2024"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [BaFin](https://www.bafin.de/) orders on Ethena GmbH (21 Mar 2025, 25 Jun 2025)",
+      "urls": [
+        "BaFin"
+      ],
+      "date_read": "21 Mar 2025"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Blockscout name tags and top holders (\"Ethena : Coinbase Prime Custody\", exchange hot wallets); the private exchange-address list used for earlier reports",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:10 AM MST (signed-in account): labels for [0xcfc4…](https://intel.arkm.com/explorer/address/0xcfc40d4eca21f60d329f1e6b9b3d6069eaa20bbc), [0xf2e2…](https://intel.arkm.com/explorer/address/0xf2e2f6827ab893d636eb98f3aac81e850880da83), [0x90c7…](https://intel.arkm.com/explorer/address/0x90c74dfe1ff09789cbdaa4514d80b8d8043ccf51), [0x877b…](https://intel.arkm.com/explorer/address/0x877b3d5c681c8890d19dbf450306caa3c3d4bba6), [0xfa84…](https://intel.arkm.com/explorer/address/0xfa847C23ae9BD5407A64aCb2678F584bA350a078), [0xd332…](https://intel.arkm.com/explorer/address/0xd332AB00f78884a467f11ba9c7551EC32671aeC9), [0x2146…](https://intel.arkm.com/explorer/address/0x2146AA5807D96E6B2922a149CeE870F17347F1d0), [0x54b8…](https://intel.arkm.com/explorer/address/0x54b8c65f0635fd91c8729dd3269c630d9aed54e5), [0xc4e5…](https://intel.arkm.com/explorer/address/0xc4e512313dd1ce0795f88ec5229778edf1fdf79b), [0xD45e…](https://intel.arkm.com/explorer/address/0xD45e232819045d9D34fd107d19b594170515580E), [0x690c… (Binance Hot Wallet)](https://intel.arkm.com/explorer/address/0x690c3eebf6ee237f00fc96f9766282f096c191cc); no owner label on [0xB2af…](https://intel.arkm.com/explorer/address/0xb2af973905f05bc82bf97486b6ab883598d98298), [0x3C71…](https://intel.arkm.com/explorer/address/0x3c716d252b53891753de883894ff29a9ebee0f54), [0x6a4B…](https://intel.arkm.com/explorer/address/0x6a4B4a0FCe628750CA200B73c10Bb211b3614EB8), [0x7462…](https://intel.arkm.com/explorer/address/0x7462f0d93260909870487f17a27c336349579557). Arkham's token filter is Enterprise-only, so counterparties come from the default first page.",
+      "urls": [
+        "0xcfc4…",
+        "0xf2e2…",
+        "0x90c7…",
+        "0x877b…",
+        "0xfa84…",
+        "0xd332…",
+        "0x2146…",
+        "0x54b8…",
+        "0xc4e5…",
+        "0xD45e…",
+        "0x690c… (Binance Hot Wallet",
+        "0xB2af…",
+        "0x3C71…",
+        "0x6a4B…",
+        "0x7462…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Lookonchain 79675](https://www.lookonchain.com/feeds/79675) · [Lookonchain 79712](https://lookonchain.com/feeds/79712) · [Bitcoin.com](https://news.bitcoin.com/market-updates/binance-buys-back-stolen-tokens-ethena-ena/) · [CryptoTimes](https://www.cryptotimes.io/2026/10/31/binance-buys-back-stolen-assets-via-otc-deals-after-6-3b-hack-as-ethena-sends-24m/)",
+      "urls": [
+        "Lookonchain 79675",
+        "Lookonchain 79712",
+        "Bitcoin.com",
+        "CryptoTimes"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owners of `0xB2af…`, `0x3C71…`, `0x6a4B…`; whether Coinbase Prime/Anchorage deposits were sales; signers of both Safes",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

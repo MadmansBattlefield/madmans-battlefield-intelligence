@@ -1,0 +1,292 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ZKC",
+  "name": "Boundless",
+  "chain": "ethereum",
+  "contract": "0x000006c2a22ff4a44ff1f5d0f2ed65f781f55555",
+  "overall_score": 3.4,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 3,
+    "adoption_customers": 2,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 3
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes: emissions minted supply from 1.0B to 1.081B; end planned Q4 2026",
+    "team_wallet_to_exchange_during_pump": "not proven: an unlabelled distributor-like wallet funded by an Anchorage Digital custody address deposited 840,000 ZKC to Binance on 30 Aug 2026 (+53.3%); the custody client is not named",
+    "entity_concentration": "four genesis-line wallets hold 424M (39%), two of them Anchorage Digital custody addresses for an unnamed client; no vesting contracts"
+  },
+  "price_usd": 0.02354,
+  "price_source": "CoinGecko, 16 Nov 2026 ~8:52 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.02354,
+    "market_cap_text": "$6.84M",
+    "fdv_text": "$25.5M",
+    "volume_24h_text": "$1.65M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ZKC.md",
+    "sha256": "92fe6c23ff1b73c3cee219567dbb780eef9782419498ac67ba1b8b19e2b55703",
+    "bytes": 13380,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~8:52 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "550M genesis to 0x453a",
+      "url": "tx 0xe850…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day Binance deposit",
+      "url": "tx 0x45c9…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "15M genesis → Binance",
+      "url": "tx 0x4fe9…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "15.8M → Coinbase Prime",
+      "url": "tx 0x6303…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x000006c2a22ff4a44ff1f5d0f2ed65f781f55555",
+      "url": "https://etherscan.io/token/0x000006c2a22ff4a44ff1f5d0f2ed65f781f55555",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0ca704f0ddcae3f7eb81cc3fe9642c968b3100b9",
+      "url": "https://etherscan.io/address/0x0ca704f0ddcae3f7eb81cc3fe9642c968b3100b9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x16cdf88b991deb3c37e35fe25010906af4f1982c",
+      "url": "https://etherscan.io/address/0x16cdf88b991deb3c37e35fe25010906af4f1982c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3b3ae156cfd7958847f109b610a90a2bfcb36f7f",
+      "url": "https://etherscan.io/address/0x3b3ae156cfd7958847f109b610a90a2bfcb36f7f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x453a7657477d84069df19e5236f07c244112d905",
+      "url": "https://etherscan.io/address/0x453a7657477d84069df19e5236f07c244112d905",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7b81cd3a612b41d85225e3e16fa52d2dc01bf738",
+      "url": "https://etherscan.io/address/0x7b81cd3a612b41d85225e3e16fa52d2dc01bf738",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7ee7ffd5a2ec4e8acd87fc6eb51cc99e3aefd4ad",
+      "url": "https://etherscan.io/address/0x7ee7ffd5a2ec4e8acd87fc6eb51cc99e3aefd4ad",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf52f9bdaea64d07b996f0aaf4cc91f1554eea063",
+      "url": "https://etherscan.io/address/0xf52f9bdaea64d07b996f0aaf4cc91f1554eea063",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Binance ZKCUSDT daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: an unlabelled distributor-like wallet funded by an Anchorage Digital custody address deposited 840,000 ZKC to Binance on 30 Aug 2026 (+53.3%); the custody client is not named"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - No fee data found, and the proving protocol has been paused since 5 Nov 2026. No published revenue to token holders. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x453a7657477d84069df19e5236f07c244112d905",
+      "url": "https://intel.arkm.com/explorer/address/0x453a7657477d84069df19e5236f07c244112d905",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf52f9bdaea64d07b996f0aaf4cc91f1554eea063",
+      "url": "https://intel.arkm.com/explorer/address/0xf52f9bdaea64d07b996f0aaf4cc91f1554eea063",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x3b3ae156cfd7958847f109b610a90a2bfcb36f7f",
+      "url": "https://intel.arkm.com/explorer/address/0x3b3ae156cfd7958847f109b610a90a2bfcb36f7f",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7b81cd3a612b41d85225e3e16fa52d2dc01bf738",
+      "url": "https://intel.arkm.com/explorer/address/0x7b81cd3a612b41d85225e3e16fa52d2dc01bf738",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7ee7ffd5a2ec4e8acd87fc6eb51cc99e3aefd4ad",
+      "url": "https://intel.arkm.com/explorer/address/0x7ee7ffd5a2ec4e8acd87fc6eb51cc99e3aefd4ad",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan token, wallet and transaction pages, with exchange deposit labels; receipts checked 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `boundless`; pump days from Binance ZKCUSDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Project announcements on the 5 Nov 2026 pause and pivot, and the tokenomics/unlock schedule",
+      "urls": [],
+      "date_read": "5 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Anchorage Digital Custody on 0x453a and 0x16cd; Anchorage Digital on 0x3b3a; 0x7ee7, 0x7b81, 0xf52f and 0x48a0 unlabelled; MerkleVester contract; Bybit, Bitget, Gate and Coinbase Prime Deposit labels",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

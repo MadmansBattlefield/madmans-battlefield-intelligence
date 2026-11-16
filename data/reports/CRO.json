@@ -1,0 +1,260 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "CRO",
+  "name": "Cronos (Crypto.com)",
+  "chain": "cronos-pos (native) + cronos evm + ethereum (ERC-20)",
+  "contract": "Native denom basecro on Cronos POS; ERC-20 0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b on Ethereum",
+  "overall_score": 3.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 2,
+    "selling_behavior": 4,
+    "tokenomics_supply": 2,
+    "liquidity_market": 4,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found at chain level (the Jan 2022 incident was at the Crypto.com exchange, not the chain)",
+    "treasury_to_exchange_during_pump": "no: 2.5B reserve-vested CRO (~$307M) went to a memo-based exchange hot wallet on 23 Sep 2025, 23 Feb, 30 Apr and 7-8 Oct 2026, none of them pump days",
+    "treasury_funded_wallet_to_exchange_during_pump": "no (same flows, all on down days)",
+    "unenforced_lockups": "no for the reserve itself (native PeriodicVestingAccount); yes after vesting: released CRO sits in plain accounts",
+    "mint_path_live": "yes: 70B burned CRO were re-minted in Mar 2025; validator inflation continues"
+  },
+  "price_usd": 0.04283,
+  "price_source": "CoinGecko, 16 Nov 2026 6:51 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.04283,
+    "market_cap_text": "$2.22B",
+    "fdv_text": "$4.24B",
+    "volume_24h_text": "$5.48M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/CRO.md",
+    "sha256": "f5e0c2eabbf89014463cb64d7c5b5c707186eebf30a5e54ceca3ace55439afe6",
+    "bytes": 19766,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:51 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Reserve = PeriodicVestingAccount, 70B original vesting, 47.83B balance",
+      "url": "account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "First release to unlock account 1 (Jun 2025)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.0B to exchange hot wallet, 23 Sep 2025",
+      "url": "relay",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.0B to exchange hot wallet, 23 Sep 2025",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.5B to exchange hot wallet, 2026",
+      "url": "Feb",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.5B to exchange hot wallet, 2026",
+      "url": "Apr",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1.5B to exchange hot wallet, 2026",
+      "url": "Oct",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Re-mint and 5-year vesting design",
+      "url": "proposal",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees ~$136k/yr; holder revenue $0",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "cronos-pos (native) + cronos evm + ethereum (ERC-20)",
+      "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "url": "https://intel.arkm.com/explorer/address/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "url": "https://etherscan.io/token/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "kind": "token"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_to_exchange_during_pump: no: 2.5B reserve-vested CRO (~$307M) went to a memo-based exchange hot wallet on 23 Sep 2025, 23 Feb, 30 Apr and 7-8 Oct 2026, none of them pump days",
+      "treasury_funded_wallet_to_exchange_during_pump: no (same flows, all on down days)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The chain's fees are a rounding error against a $2.2B market cap, and the perks belong to the company, not the token. Score **2**, which **trips the Revenue gate**."
+  },
+  "attributions": [
+    {
+      "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "url": "https://intel.arkm.com/explorer/address/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+      "label": "tier rewards",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Cronos POS REST (`rest.mainnet.crypto.org`): `cosmos/auth/v1beta1/accounts`, `bank/v1beta1/balances`, `staking/v1beta1/delegations`, `tx/v1beta1/txs` for the reserve and seven downstream accounts; read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Proposal discussion #1124](https://github.com/crypto-org-chain/chain-main/discussions/1124) · [Cronos blog](https://blog.cronos.com/p/the-new-golden-age-for-cronos) · [Crypto.com licences](https://crypto.com/en/licenses) · [MiCA notice](https://crypto.com/en/company-news/mica-change-in-license) · [Canary S-1 notice](https://crypto.com/en/company-news/canary-capital-submits-s1-registration-for-cro-spot-etf) · [GitHub](https://github.com/crypto-org-chain/cronos)",
+      "urls": [
+        "Proposal discussion #1124",
+        "Cronos blog",
+        "Crypto.com licences",
+        "MiCA notice",
+        "Canary S-1 notice",
+        "GitHub"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama chain fees; CoinGecko `crypto-com-chain` (16 Nov 2026 6:51 AM MST); KuCoin CRO-USDT daily candles for every pump test",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Cronos ETF tracker](https://cryptoetf.today/en/cronos-etf) · [Cronos POS explorer](https://cronos-pos.org/explorer/account/cro1w2kvwrzp23aq54n3amwav4yy4a9ahq2kz2wtmj) (exchange-style account, 980k+ txs) · community posts naming the reserve and unlock accounts",
+      "urls": [
+        "Cronos ETF tracker",
+        "Cronos POS explorer"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): ERC-20 contract labelled Crypto.com: Cronos Token (CRO); Cronos POS is not an Arkham-supported network",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owner of `cro1w2kv` (very likely Crypto.com Exchange; not checkable on Arkham); purpose of each 500M–1B transfer; Ethereum and Cronos EVM treasury flows",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

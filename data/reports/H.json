@@ -1,0 +1,317 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "H",
+  "name": "Humanity Protocol",
+  "chain": "ethereum",
+  "contract": "0xe76c5b78f93909d34404e9eb4c1f19e7582a5de1",
+  "overall_score": 2.4,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 2,
+    "insider_holdings": 2,
+    "selling_behavior": 4,
+    "tokenomics_supply": 1,
+    "liquidity_market": 3,
+    "product_development": 4,
+    "adoption_customers": 3,
+    "security_audits": 1,
+    "regulatory": 5,
+    "catalysts": 2
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes, 8 Jun 2026: stolen keys used to mint ~100M H on BSC and move ~141M H on Ethereum; ~$31-36M drained",
+    "mint_path_live": "yes, uncapped owner mint() and owner burn(account) on the reissued token; owner is a 4-of-9 Safe",
+    "team_wallet_to_exchange_during_pump": "no large pump-day sale found; 70M H sent to a Bybit deposit on 2 Oct 2026 (not a pump day)",
+    "treasury_in_single_key_wallets": "yes, six EOAs hold ~7.84B H (78% of supply)"
+  },
+  "price_usd": 0.01626398,
+  "price_source": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.01626398,
+    "market_cap_text": "$35.1M",
+    "fdv_text": "$162.6M",
+    "volume_24h_text": "$3.36M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/H.md",
+    "sha256": "7664d6b411bae71a45551902a53643f727ed432056f4481c2f4ea7d404df9b0d",
+    "bytes": 14496,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~11:25 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Owner mint / burn functions",
+      "url": "implementation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Owner is a 4-of-9 Safe",
+      "url": "Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "70M H to a Bybit deposit",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Reissue distribution to top EOAs",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "June 2026 exploit",
+      "url": "issuer summary",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "June 2026 exploit",
+      "url": "CoinDesk",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x04b1debd1d6f8b10d6d143dd980ff8aa90bad0cc",
+      "url": "https://etherscan.io/address/0x04b1DeBd1d6F8B10D6D143dD980fF8AA90BAD0Cc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x302a72459cc96788def89595807f612ef7265016",
+      "url": "https://etherscan.io/address/0x302A72459cC96788def89595807f612eF7265016",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x430253f6edd32b0569b77c5e6910e57641e6133d",
+      "url": "https://etherscan.io/address/0x430253F6eDd32b0569B77c5E6910E57641E6133D",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4f3be262d1358a82b468cf81bfc5a9cc32cf9875",
+      "url": "https://etherscan.io/address/0x4f3be262d1358a82b468cf81bfc5a9cc32cf9875",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x74c95762517fa53a4e65f57ff0b43c9e9b8232b0",
+      "url": "https://etherscan.io/address/0x74c95762517fA53A4E65F57ff0B43C9E9b8232b0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x85d0b85f290ba575c50a6be38f24f9e99f94e7d3",
+      "url": "https://etherscan.io/address/0x85D0B85f290ba575c50a6be38f24F9e99F94E7D3#code",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x93b37bd5b6b278373217333ac30d7e74c85fbdcb",
+      "url": "https://etherscan.io/address/0x93b37Bd5B6b278373217333Ac30D7E74c85fBDCB",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa7b36650621b413a36cbae0ae0676e41f4519fdc",
+      "url": "https://etherscan.io/address/0xa7b36650621b413a36cbae0ae0676e41f4519fdc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xad0aee2cb3230b06991d7668bd5274c6c68f6476",
+      "url": "https://etherscan.io/address/0xAd0aeE2cB3230B06991d7668bd5274C6c68F6476",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb3b355a9bfc10073055100d36a05269ab888ac90",
+      "url": "https://etherscan.io/address/0xb3b355a9bfc10073055100d36a05269ab888ac90",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb7127a7343609c1d2d922ea24660ab9c87176624",
+      "url": "https://etherscan.io/address/0xB7127a7343609c1d2D922Ea24660aB9c87176624",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc2bc47b9293c3acc90c7c5da2f79c5136e16189e",
+      "url": "https://etherscan.io/address/0xc2bc47b9293c3acc90c7c5da2f79c5136e16189e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe76c5b78f93909d34404e9eb4c1f19e7582a5de1",
+      "url": "https://etherscan.io/address/0xe76c5b78f93909d34404e9eb4c1f19e7582a5de1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xee5b5b923ffce93a870b3104b7ca09c3db80047a",
+      "url": "https://etherscan.io/address/0xee5B5B923fFcE93A870B3104b7CA09c3db80047A",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: no large pump-day sale found; 70M H sent to a Bybit deposit on 2 Oct 2026 (not a pump day)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "no revenue. **1 (hard gate).**"
+  },
+  "attributions": [
+    {
+      "address": "0x302a72459cc96788def89595807f612ef7265016",
+      "url": "https://intel.arkm.com/explorer/address/0x302A72459cC96788def89595807f612eF7265016",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xee5b5b923ffce93a870b3104b7ca09c3db80047a",
+      "url": "https://intel.arkm.com/explorer/address/0xee5B5B923fFcE93A870B3104b7CA09c3db80047A",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout token / holders / verified source; Etherscan v2 transfers; Ethereum RPC (`owner`, ProxyAdmin owner, Safe `getThreshold`), read 16 Nov 2026 ~11:25 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Humanity incident summary (Quantstamp)](https://www.humanity.org/hincidentupdate) · [recovery programme](https://claim.humanity.org/)",
+      "urls": [
+        "Humanity incident summary (Quantstamp",
+        "recovery programme"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CoinDesk](https://www.coindesk.com/tech/2026/06/09/humanity-s-usd36-million-exploit-happened-because-a-multisig-wallet-lived-on-one-laptop) · [crypto.news](https://crypto.news/humanity-protocol-sets-new-h-airdrop-after-36m-exploit/) · [AInvest](https://www.ainvest.com/news/humanity-protocol-slides-24-0-037-monthly-unlock-clock-stacks-supply-post-hack-decline-2611/) · [Kriptosignal](https://kriptosignal.net/en/daily-losers-humanity-sheds-a-quarter-pepe-drops-15-and-bitway-pays-for-the-pump/)",
+      "urls": [
+        "CoinDesk",
+        "crypto.news",
+        "AInvest",
+        "Kriptosignal"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `humanity` (16 Nov 2026 8:34 AM MST); DefiLlama `humanity`; Gate H/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Bybit Hot Wallet on 0xee5B; Bybit Deposit for the 70M; H Whale tags on the six insider EOAs and the distributor; Sablier lockup contracts; owner Safe 0xa7b3 as a Gnosis Safe",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

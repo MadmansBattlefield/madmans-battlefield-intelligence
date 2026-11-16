@@ -1,0 +1,821 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "HUMA",
+  "name": "Huma Finance",
+  "chain": "solana",
+  "contract": "HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
+  "overall_score": 4.4,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 6,
+    "insider_holdings": 3,
+    "selling_behavior": 5,
+    "tokenomics_supply": 3,
+    "liquidity_market": 4,
+    "product_development": 7,
+    "adoption_customers": 7,
+    "security_audits": 7,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found on the protocol; an early LP's own wallet was hacked on 22 Oct 2026 and ~12M airdropped HUMA were sold (Huma's account, Tier B)",
+    "mint_path_live": "no (Solana mint authority is null; supply fixed at 10B; BSC side is a LayerZero OFT backed 1:1 by the Solana escrow)",
+    "team_wallet_to_exchange_during_pump": "not found in the vaults traced; but 671.5M HUMA left the 'Huma Investors' and 'Huma Treasury Unlocked' Squads vaults for six fresh wallets on four pump days (30 Sep to 4 Oct 2026); still unsold as of 16 Nov 2026",
+    "treasury_in_single_key_wallets": "no for the labelled vaults (Squads 3-of-4 and 4-of-5, zero timelock); 671.5M sits in six unlabelled plain wallets that the vaults funded",
+    "unlock_cliff": "first investor and team unlock on 26 Nov 2026 (investors 20.6% and team/advisors 19.3% of supply, 12 quarterly releases); investor tokens sit in a Huma-controlled Squads multisig, not a vesting contract"
+  },
+  "price_usd": 0.006616,
+  "price_source": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.006616,
+    "market_cap_text": "$11.47M",
+    "fdv_text": "$66.2M",
+    "volume_24h_text": "$5.06M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/HUMA.md",
+    "sha256": "635f82d7ec8aaaa03958829413ffa133578d58e0eb3740ad602ea9b712359764",
+    "bytes": 37150,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 5:26 AM MST",
+      "16 Nov 2026",
+      "16 Nov 2026 ~7:25 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:07–7:18 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Supply fixed at 10B; mint authority null",
+      "url": "mint",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2.06B moved \"Huma Internal\" → \"Huma Investors\" (21 May 2025)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "\"Huma Investors\" is a 3-of-4 Squads multisig with timelock 0",
+      "url": "multisig",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "\"Huma Investors\" is a 3-of-4 Squads multisig with timelock 0",
+      "url": "vault",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1 Oct 2026 pump day: Investors 471.5M → `3xfvk…` (still held)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "1 Oct 2026 pump day: Investors 471.5M → `3xfvk…` (still held)",
+      "url": "wallet",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "30 Sep – 6 Oct 2026: Treasury Unlocked 200M → five wallets (still held)",
+      "url": "30 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "30 Sep – 6 Oct 2026: Treasury Unlocked 200M → five wallets (still held)",
+      "url": "1 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "30 Sep – 6 Oct 2026: Treasury Unlocked 200M → five wallets (still held)",
+      "url": "3 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "30 Sep – 6 Oct 2026: Treasury Unlocked 200M → five wallets (still held)",
+      "url": "4 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "30 Sep – 6 Oct 2026: Treasury Unlocked 200M → five wallets (still held)",
+      "url": "6 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team split into per-person vaults, now in Magna vesting accounts",
+      "url": "16 May 2025 tx",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team split into per-person vaults, now in Magna vesting accounts",
+      "url": "`2wt4…`",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`HRsH…` sent 11M to Binance/Bybit/Bitget deposits and 4M to an unlabelled wallet on 17 Apr 2026",
+      "url": "Binance 4.999M",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`HRsH…` sent 11M to Binance/Bybit/Bitget deposits and 4M to an unlabelled wallet on 17 Apr 2026",
+      "url": "Bitget 4M",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`HRsH…` sent 11M to Binance/Bybit/Bitget deposits and 4M to an unlabelled wallet on 17 Apr 2026",
+      "url": "Bybit 2M",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`HRsH…` sent 11M to Binance/Bybit/Bitget deposits and 4M to an unlabelled wallet on 17 Apr 2026",
+      "url": "4M other",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`HRsH…` sent 11M to Binance/Bybit/Bitget deposits and 4M to an unlabelled wallet on 17 Apr 2026",
+      "url": "Arkham deposit labels",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "GSR returned 30M on the 16 Apr 2026 pump day",
+      "url": "GSR → Huma",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "GSR returned 30M on the 16 Apr 2026 pump day",
+      "url": "→ MM vault",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch: 250M Ecosystem/Treasury → `DiPHe4…` → Binance 2 (22 May 2025)",
+      "url": "in",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch: 250M Ecosystem/Treasury → `DiPHe4…` → Binance 2 (22 May 2025)",
+      "url": "out",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "MM vault 5M → Bithumb (4 Jul 2025, not a pump day)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "40M → Binance 2 via `3C4e…` (29 Aug 2025, not a pump day)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Binance 2 sent 300M to Huma wallet `Huma9X…`, bridged 299M to BSC (18 Nov 2025)",
+      "url": "in",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Binance 2 sent 300M to Huma wallet `Huma9X…`, bridged 299M to BSC (18 Nov 2025)",
+      "url": "bridge",
+      "kind": "other",
+      "tier": "A + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "BSC OFT supply 457.0M = Solana OFT escrow; owner 2-of-2 Safe",
+      "url": "BSC token",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "BSC OFT supply 457.0M = Solana OFT escrow; owner 2-of-2 Safe",
+      "url": "Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "BSC OFT supply 457.0M = Solana OFT escrow; owner 2-of-2 Safe",
+      "url": "escrow",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Protocol revenue $0; fees $18.2M (1y) to LPs",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026 5:26 AM MST"
+    },
+    {
+      "claim": "First unlock moved to 26 Nov 2026; governance by 26 Nov",
+      "url": "Built to Last",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation: no HUMA trades in 3 months; LP wallet hack 22 Oct",
+      "url": "Phemex",
+      "kind": "other",
+      "tier": "B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation: no HUMA trades in 3 months; LP wallet hack 22 Oct",
+      "url": "TokenPost",
+      "kind": "other",
+      "tier": "B ×2",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "bsc",
+      "address": "0x3f30376053f29f20fd3a015f96d4800092512896",
+      "url": "https://bscscan.com/address/0x3f30376053f29f20fd3a015f96d4800092512896",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x92516e0ddf1ddbf7fab1b79cac26689fdc5ba8e6",
+      "url": "https://bscscan.com/token/0x92516e0ddf1ddbf7fab1b79cac26689fdc5ba8e6",
+      "kind": "token"
+    },
+    {
+      "chain": "solana",
+      "address": "0x3f30376053f29f20fd3a015f96d4800092512896",
+      "url": "https://intel.arkm.com/explorer/address/0x3f30376053f29f20fd3a015f96d4800092512896",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "2ADnqYntRmDcDDKEcLgk2TyXN9GBMjqr42GuPJ7MJzKj",
+      "url": "https://solscan.io/account/2ADnqYntRmDcDDKEcLgk2TyXN9GBMjqr42GuPJ7MJzKj",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "2uH2dToBgDnKkc9bRfojE9wGwqBUvGVarjF45WxwXwwP",
+      "url": "https://solscan.io/account/2uH2dToBgDnKkc9bRfojE9wGwqBUvGVarjF45WxwXwwP",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "2wt4GcqWfgwamCptZoX2ULyzYuQDUtskG8WHaACjxnDa",
+      "url": "https://solscan.io/account/2wt4GcqWfgwamCptZoX2ULyzYuQDUtskG8WHaACjxnDa",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "3C4etxNWwYBjMtan43qaDzsFePLsZvrDsXsKdKPEpy3L",
+      "url": "https://solscan.io/account/3C4etxNWwYBjMtan43qaDzsFePLsZvrDsXsKdKPEpy3L",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "3xfvkYgkm6XEchUiTdTJicg7spq8jLj45e5oKqpnUqF3",
+      "url": "https://solscan.io/account/3xfvkYgkm6XEchUiTdTJicg7spq8jLj45e5oKqpnUqF3",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "4SDLqA3Z42aisEvWN2uARXAUdZ214U89CUnr9edd6vug",
+      "url": "https://solscan.io/account/4SDLqA3Z42aisEvWN2uARXAUdZ214U89CUnr9edd6vug",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "4YkUGNThbLnTLNs8r5q1348tT6HK2Mf9vUMiHwsj8aiq",
+      "url": "https://solscan.io/account/4YkUGNThbLnTLNs8r5q1348tT6HK2Mf9vUMiHwsj8aiq",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "4iMTnZxZ13k44BV3Y5dzW4JfPY4hXm4j2Ttwt5bzJgJr",
+      "url": "https://solscan.io/account/4iMTnZxZ13k44BV3Y5dzW4JfPY4hXm4j2Ttwt5bzJgJr",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "4s4TpJZ6CDkHA2FqrcWCDy2f9wkv5LqqJH28G8KgJF2c",
+      "url": "https://solscan.io/account/4s4TpJZ6CDkHA2FqrcWCDy2f9wkv5LqqJH28G8KgJF2c",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "57roTmQveiH5rrWxW2FkqoV6FQfJAvu2Vq8dgQFnP1M2",
+      "url": "https://solscan.io/account/57roTmQveiH5rrWxW2FkqoV6FQfJAvu2Vq8dgQFnP1M2",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "5UicVi3dLBCZRsSjftWABgFGPHKYRVqRkdYeXMsYxdUF",
+      "url": "https://solscan.io/account/5UicVi3dLBCZRsSjftWABgFGPHKYRVqRkdYeXMsYxdUF",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "5ekZ81AsgM1Ja8b11tXXNS32G9zQ56wcQJc7j9ZW5W1r",
+      "url": "https://solscan.io/account/5ekZ81AsgM1Ja8b11tXXNS32G9zQ56wcQJc7j9ZW5W1r",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "5tbUhbMkTxsxjivDr4e1K6pSaMGcYsCbaCU4R4PcarYS",
+      "url": "https://solscan.io/account/5tbUhbMkTxsxjivDr4e1K6pSaMGcYsCbaCU4R4PcarYS",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "611J4HQBM1ApG2ew3WJd8QDG8EtnLPymwF7mo16gkRho",
+      "url": "https://solscan.io/account/611J4HQBM1ApG2ew3WJd8QDG8EtnLPymwF7mo16gkRho",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "6Hr5GQh57cQwMYkVs1QfSoT1tv74F2P7YeLrpfEHT2Zu",
+      "url": "https://solscan.io/account/6Hr5GQh57cQwMYkVs1QfSoT1tv74F2P7YeLrpfEHT2Zu",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "7MXfVa5C6cT6t4kE6uPLMzdyY2e3Kvje5k6zBqGJNaZT",
+      "url": "https://solscan.io/account/7MXfVa5C6cT6t4kE6uPLMzdyY2e3Kvje5k6zBqGJNaZT",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "7f4sJXNiDFJSV5kLbtxq4JW4iw1yyBkrFpqRgteE54cE",
+      "url": "https://solscan.io/account/7f4sJXNiDFJSV5kLbtxq4JW4iw1yyBkrFpqRgteE54cE",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "7tsyeZinyiUFQUK1k9pUvyjKuWDw9E1GUjpsRBtLmZV",
+      "url": "https://solscan.io/account/7tsyeZinyiUFQUK1k9pUvyjKuWDw9E1GUjpsRBtLmZV",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "8fcsW3dpTMLbvJ8pypVyJZ5bBLK5LRcWASQRv7vic1z5",
+      "url": "https://solscan.io/account/8fcsW3dpTMLbvJ8pypVyJZ5bBLK5LRcWASQRv7vic1z5",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "AS565JcHANEtzU3uGaiQFvJcUhserfHKZLgHnGyjR3RQ",
+      "url": "https://solscan.io/account/AS565JcHANEtzU3uGaiQFvJcUhserfHKZLgHnGyjR3RQ",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "ApNmbpGbbtuHiEkYL86AAJkQhEjKQ1ja3u3PZfiApedh",
+      "url": "https://solscan.io/account/ApNmbpGbbtuHiEkYL86AAJkQhEjKQ1ja3u3PZfiApedh",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "DZaR8LfPXAQfqFptp34zy5TcePCbZw9piYSqXePRR44U",
+      "url": "https://solscan.io/account/DZaR8LfPXAQfqFptp34zy5TcePCbZw9piYSqXePRR44U",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "DaF3kQW1fGbmjPCd7TEbLrpvac9KMTbmHDaq5eJR4TZx",
+      "url": "https://solscan.io/account/DaF3kQW1fGbmjPCd7TEbLrpvac9KMTbmHDaq5eJR4TZx",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "E9gmN6epA4X3Cgc5NwfjcGqHSHzEqUVr1qmeHU62guyk",
+      "url": "https://solscan.io/account/E9gmN6epA4X3Cgc5NwfjcGqHSHzEqUVr1qmeHU62guyk",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "FCfvg4xjHcZGk9vuh673q9Pae4ghZReFrKtFGVaFCerx",
+      "url": "https://solscan.io/account/FCfvg4xjHcZGk9vuh673q9Pae4ghZReFrKtFGVaFCerx",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "GBv2Vt19CGAmuJMmH4y3xdRz1irvc3dmitfPenYEjmbX",
+      "url": "https://solscan.io/account/GBv2Vt19CGAmuJMmH4y3xdRz1irvc3dmitfPenYEjmbX",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "GZw6S8U8ZCXAkaQL5oTh57aCDWjrEWXHLp57XGJbURwW",
+      "url": "https://solscan.io/account/GZw6S8U8ZCXAkaQL5oTh57aCDWjrEWXHLp57XGJbURwW",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "HRsH5vTBW9wfv2NUfYUN6DJvXsHsndot1s6a1YJ4GtB8",
+      "url": "https://solscan.io/account/HRsH5vTBW9wfv2NUfYUN6DJvXsHsndot1s6a1YJ4GtB8",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
+      "url": "https://solscan.io/token/HUMA1821qVDKta3u2ovmfDQeW2fSQouSKE8fkF44wvGw",
+      "kind": "token"
+    },
+    {
+      "chain": "solana",
+      "address": "HfVUW4widrC95Tu7oXkkwe9npJGYj8qFxL98w75jqZ9C",
+      "url": "https://solscan.io/account/HfVUW4widrC95Tu7oXkkwe9npJGYj8qFxL98w75jqZ9C",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "Huma9XhQaaiHKS22UrNPWtECqMHNLYvqqyDjvkNsDyYE",
+      "url": "https://intel.arkm.com/explorer/address/Huma9XhQaaiHKS22UrNPWtECqMHNLYvqqyDjvkNsDyYE",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "HumaDeazKoZZkTyE9MYcQHKxdQm74Fm6DSFs8nawPNTt",
+      "url": "https://solscan.io/account/HumaDeazKoZZkTyE9MYcQHKxdQm74Fm6DSFs8nawPNTt",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "dSeocUVUmgsnQW2mgK6ywsvR9oDF3TANdohBsrQqGkd",
+      "url": "https://solscan.io/account/dSeocUVUmgsnQW2mgK6ywsvR9oDF3TANdohBsrQqGkd",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not found in the vaults traced; but 671.5M HUMA left the 'Huma Investors' and 'Huma Treasury Unlocked' Squads vaults for six fresh wallets on four pump days (30 Sep to 4 Oct 2026); still unsold as of 16 Nov 2026"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "The business is real, but all of its yield goes to LPs, and the token's value case rests on staking \"Feathers\", governance that is not live yet, and a buyback that is still a plan. **2, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "7MXfVa5C6cT6t4kE6uPLMzdyY2e3Kvje5k6zBqGJNaZT",
+      "url": "https://intel.arkm.com/explorer/address/7MXfVa5C6cT6t4kE6uPLMzdyY2e3Kvje5k6zBqGJNaZT",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "HRsH5vTBW9wfv2NUfYUN6DJvXsHsndot1s6a1YJ4GtB8",
+      "url": "https://intel.arkm.com/explorer/address/HRsH5vTBW9wfv2NUfYUN6DJvXsHsndot1s6a1YJ4GtB8",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "HumaDeazKoZZkTyE9MYcQHKxdQm74Fm6DSFs8nawPNTt",
+      "url": "https://intel.arkm.com/explorer/address/HumaDeazKoZZkTyE9MYcQHKxdQm74Fm6DSFs8nawPNTt",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "3xfvkYgkm6XEchUiTdTJicg7spq8jLj45e5oKqpnUqF3",
+      "url": "https://intel.arkm.com/explorer/address/3xfvkYgkm6XEchUiTdTJicg7spq8jLj45e5oKqpnUqF3",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "E9gmN6epA4X3Cgc5NwfjcGqHSHzEqUVr1qmeHU62guyk",
+      "url": "https://intel.arkm.com/explorer/address/E9gmN6epA4X3Cgc5NwfjcGqHSHzEqUVr1qmeHU62guyk",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "2ADnqYntRmDcDDKEcLgk2TyXN9GBMjqr42GuPJ7MJzKj",
+      "url": "https://intel.arkm.com/explorer/address/2ADnqYntRmDcDDKEcLgk2TyXN9GBMjqr42GuPJ7MJzKj",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "GZw6S8U8ZCXAkaQL5oTh57aCDWjrEWXHLp57XGJbURwW",
+      "url": "https://intel.arkm.com/explorer/address/GZw6S8U8ZCXAkaQL5oTh57aCDWjrEWXHLp57XGJbURwW",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "4s4TpJZ6CDkHA2FqrcWCDy2f9wkv5LqqJH28G8KgJF2c",
+      "url": "https://intel.arkm.com/explorer/address/4s4TpJZ6CDkHA2FqrcWCDy2f9wkv5LqqJH28G8KgJF2c",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "6Hr5GQh57cQwMYkVs1QfSoT1tv74F2P7YeLrpfEHT2Zu",
+      "url": "https://intel.arkm.com/explorer/address/6Hr5GQh57cQwMYkVs1QfSoT1tv74F2P7YeLrpfEHT2Zu",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "Huma9XhQaaiHKS22UrNPWtECqMHNLYvqqyDjvkNsDyYE",
+      "url": "https://intel.arkm.com/explorer/address/Huma9XhQaaiHKS22UrNPWtECqMHNLYvqqyDjvkNsDyYE",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x3f30376053f29f20fd3a015f96d4800092512896",
+      "url": "https://intel.arkm.com/explorer/address/0x3f30376053f29f20fd3a015f96d4800092512896",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Solana RPC (Tatum public gateway): `getTokenSupply`, mint account (`mintAuthority`/`freezeAuthority`), `getTokenLargestAccounts`, `getSignaturesForAddress` and `getTransaction` for the full history of all seven labelled vault token accounts (108 tx) and every recipient over 1M; Squads v4 multisig account data (threshold, timelock, member count); read 16 Nov 2026 ~7:00–8:00 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] BSC RPC (publicnode): OFT `totalSupply()`, `decimals()`, `owner()`; Safe `getThreshold()`/`getOwners()`; Etherscan v2 `getsourcecode` (LayerZero OFT), 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Solscan account labels, 16 Nov 2026: the Squads vault names above, \"Binance 2\", \"Binance 3\", \"Bithumb Hot Wallet 1\", \"Bitget Exchange\", \"OKX: Hot Wallet 5\", \"OKX Hot Wallet (C68a6)\", \"Bybit Hot Wallet (AC5RD)\", \"GSR Markets: Fireblocks Custody\", \"Meteora (HUMA-USDC) Market\", \"Magna Core\", \"Huma Staking\", \"HUMA LayerZero OFT Program\"",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama Huma](https://defillama.com/protocol/huma-finance) fees, revenue and TVL with methodology, 16 Nov 2026 5:26 AM MST",
+      "urls": [
+        "DefiLlama Huma"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Huma blog: [Built to Last (17 Apr 2026)](https://blog.huma.finance/huma-build-to-last) · [Project Flywheel](https://blog.huma.finance/introducing-project-flywheel) · [Staking rewards](https://blog.huma.finance/huma-staking-rewards) · [Next chapter (25 Aug 2026)](https://blog.huma.finance/huma-built-payfi.-now-institutions-build-on-huma); [Huma docs, security & audits](https://docs.huma.finance/ecosystem-resources/security-audits)",
+      "urls": [
+        "Built to Last (17 Apr 2026",
+        "Project Flywheel",
+        "Staking rewards",
+        "Next chapter (25 Aug 2026",
+        "Huma docs, security & audits"
+      ],
+      "date_read": "17 Apr 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Tokenomist](https://tokenomist.ai/huma-finance/tokenomics) · [Tokenomics.com unlocks](https://app.tokenomics.com/tokenomics/huma-finance/unlocks) · [Phemex News](https://phemex.com/news/article/huma-finance-blames-wallet-hack-for-huma-price-crash-denies-foundation-selling-103288) · [TokenPost](https://www.tokenpost.com/news/investing/55411)",
+      "urls": [
+        "Tokenomist",
+        "Tokenomics.com unlocks",
+        "Phemex News",
+        "TokenPost"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `huma-finance` market data (16 Nov 2026 5:26 AM MST); Gate HUMA/USDT daily candles (UTC)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:07–7:18 AM MST (signed-in account): Squads vault labels \"Huma Investors\", \"Huma Treasury Unlocked\", \"Ecosystem-unlocked\", \"Protocol Treasury\" · unlabelled [`3xfvk…`](https://solscan.io/account/3xfvkYgkm6XEchUiTdTJicg7spq8jLj45e5oKqpnUqF3) ([Arkham](https://intel.arkm.com/explorer/address/3xfvkYgkm6XEchUiTdTJicg7spq8jLj45e5oKqpnUqF3)), five recipients (linked in Selling), [HumaDeaz…](https://intel.arkm.com/explorer/address/HumaDeazKoZZkTyE9MYcQHKxdQm74Fm6DSFs8nawPNTt), [Huma9X… (Binance hot wallet activity)](https://intel.arkm.com/explorer/address/Huma9XhQaaiHKS22UrNPWtECqMHNLYvqqyDjvkNsDyYE), [7MXf… (40M to a Binance deposit)](https://intel.arkm.com/explorer/address/7MXfVa5C6cT6t4kE6uPLMzdyY2e3Kvje5k6zBqGJNaZT), [HRsH… (Binance/Bybit/Bitget deposits)](https://intel.arkm.com/explorer/address/HRsH5vTBW9wfv2NUfYUN6DJvXsHsndot1s6a1YJ4GtB8) · BSC owner Safe [0x3f30…](https://intel.arkm.com/explorer/address/0x3f30376053f29f20fd3a015f96d4800092512896) shows no assets. Arkham shows the token as HUMA in portfolios and HOLD in transfer rows. First transfer page only",
+      "urls": [
+        "`3xfvk…`",
+        "Arkham",
+        "HumaDeaz…",
+        "Huma9X… (Binance hot wallet activity",
+        "7MXf… (40M to a Binance deposit",
+        "HRsH… (Binance/Bybit/Bitget deposits",
+        "0x3f30…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Solana RPC `getSignaturesForAddress` / `getTransaction` for `HRsH…` (16–17 Apr 2026 outflows), read 16 Nov 2026 ~7:25 AM MST",
+      "urls": [],
+      "date_read": "17 Apr 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] who controls `3xfvk…` and the five Treasury Unlocked recipients; whether `HumaDeaz…` is the airdrop distributor; what the launch-time sends to Binance/OKX/Bybit were for; Huma's zero-default record",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

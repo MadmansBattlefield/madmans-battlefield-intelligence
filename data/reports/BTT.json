@@ -1,0 +1,419 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "BTT",
+  "name": "BitTorrent",
+  "chain": "tron",
+  "contract": "TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4",
+  "overall_score": 4.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 5,
+    "foundation_team": 4,
+    "insider_holdings": 2,
+    "selling_behavior": 5,
+    "tokenomics_supply": 8,
+    "liquidity_market": 4,
+    "product_development": 5,
+    "adoption_customers": 5,
+    "security_audits": 6,
+    "regulatory": 3,
+    "catalysts": 6
+  },
+  "sections_passed": 3,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no (fixed 990T supply; quarterly revenue buyback-and-burn since Q3 2026)",
+    "team_wallet_to_exchange_during_pump": "none on the 10 pump days in the last 365 days; but the team wallet sent 212B BTT straight to a Poloniex deposit on 19 Aug 2026 (two days before a pump) and 943.9B to an HTX hot wallet on the 29 Feb 2024 pump day",
+    "treasury_in_single_key_wallets": "yes, two unnamed 1-of-1 wallets hold 374.6T BTT (37.8%); team wallet 52.46T, also 1-of-1"
+  },
+  "price_usd": 3.0696e-07,
+  "price_source": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 3.0696e-07,
+    "market_cap_text": "$297.1M",
+    "fdv_text": "$297.1M",
+    "volume_24h_text": "$13.29M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/BTT.md",
+    "sha256": "3fad9dcd2ad9a7e03353ab2cc23983bd0c26c5fab190919bc1d2ecbc9376dda1",
+    "bytes": 19630,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~9:35 AM MST",
+      "16 Nov 2026 ~10:05 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "21.62T BTT burned 16 Oct 2026",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "100% of decentralised-service revenue to buybacks",
+      "url": "announcement",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocation and release schedule",
+      "url": "white paper",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "37.8% in two 1-of-1 wallets; team 52.46T",
+      "url": "TWpM…zQo2",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "37.8% in two 1-of-1 wallets; team 52.46T",
+      "url": "TPyj…gNan5",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "37.8% in two 1-of-1 wallets; team 52.46T",
+      "url": "TT2T…MgU9N",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "60% of Q3 burn supplied by an HTX hot wallet",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "~$7.6M burn value",
+      "url": "KuCoin",
+      "kind": "other",
+      "tier": "B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "~$7.6M burn value",
+      "url": "TokenPost",
+      "kind": "other",
+      "tier": "B ×2",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "tron",
+      "address": "TASUAUKXCqvwYjesEWv22pFjRsCeF4NKot",
+      "url": "https://tronscan.org/#/address/TASUAUKXCqvwYjesEWv22pFjRsCeF4NKot",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "url": "https://tronscan.org/#/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TF1FYTupPzcCvXRX8vEKQi5HBPzV1fNCt5",
+      "url": "https://tronscan.org/#/address/TF1FYTupPzcCvXRX8vEKQi5HBPzV1fNCt5",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TH7L3aCyBhGBDgBJZqzotUxAuk8nt9wjqZ",
+      "url": "https://tronscan.org/#/address/TH7L3aCyBhGBDgBJZqzotUxAuk8nt9wjqZ",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TMwuqc5Wa7YiEzp9FTLwtfdv2bufcVeaFg",
+      "url": "https://tronscan.org/#/address/TMwuqc5Wa7YiEzp9FTLwtfdv2bufcVeaFg",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TNXpb7aBoxow5X9drTskkjSo1mgKpNFnD1",
+      "url": "https://tronscan.org/#/address/TNXpb7aBoxow5X9drTskkjSo1mgKpNFnD1",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5",
+      "url": "https://tronscan.org/#/address/TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N",
+      "url": "https://tronscan.org/#/address/TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TVFBd9TBHkk4L6FEfjQ5Fa1XABTfEdzqkp",
+      "url": "https://intel.arkm.com/explorer/address/TVFBd9TBHkk4L6FEfjQ5Fa1XABTfEdzqkp",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TWhDfwC8QE6pQyiYy248dNor3uphPEw5M2",
+      "url": "https://tronscan.org/#/address/TWhDfwC8QE6pQyiYy248dNor3uphPEw5M2",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TWpMnUh9pZS1Mf8yyw9WPiS82WYevKzQo2",
+      "url": "https://tronscan.org/#/address/TWpMnUh9pZS1Mf8yyw9WPiS82WYevKzQo2",
+      "kind": "address"
+    },
+    {
+      "chain": "tron",
+      "address": "TYRKcXR9ULbvgEvKBSaQ2ANVEw3FiBCdAr",
+      "url": "https://tronscan.org/#/address/TYRKcXR9ULbvgEvKBSaQ2ANVEw3FiBCdAr",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": false,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none on the 10 pump days in the last 365 days; but the team wallet sent 212B BTT straight to a Poloniex deposit on 19 Aug 2026 (two days before a pump) and 943.9B to an HTX hot wallet on the 29 Feb 2024 pump day"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn",
+      "buyback"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The burn is real and the amount checks out. All of the BTT came out of HTX and Poloniex exchange hot wallets, which fits exchange buying, but both venues are affiliated with TRON's founder and no fills are published. Whether it was bought with revenue is unproven. The revenue is not audited, and there is one quarter of history. **5**."
+  },
+  "attributions": [
+    {
+      "address": "TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "url": "https://intel.arkm.com/explorer/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "TWhDfwC8QE6pQyiYy248dNor3uphPEw5M2",
+      "url": "https://intel.arkm.com/explorer/address/TWhDfwC8QE6pQyiYy248dNor3uphPEw5M2",
+      "label": "[Poloniex Hot Wallet](https://intel.arkm.com/explorer/address/TWhDfwC8QE6pQyiYy2",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "TMwuqc5Wa7YiEzp9FTLwtfdv2bufcVeaFg",
+      "url": "https://intel.arkm.com/explorer/address/TMwuqc5Wa7YiEzp9FTLwtfdv2bufcVeaFg",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "TWpMnUh9pZS1Mf8yyw9WPiS82WYevKzQo2",
+      "url": "https://intel.arkm.com/explorer/address/TWpMnUh9pZS1Mf8yyw9WPiS82WYevKzQo2",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5",
+      "url": "https://intel.arkm.com/explorer/address/TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N",
+      "url": "https://intel.arkm.com/explorer/address/TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TH7L3aCyBhGBDgBJZqzotUxAuk8nt9wjqZ",
+      "url": "https://intel.arkm.com/explorer/address/TH7L3aCyBhGBDgBJZqzotUxAuk8nt9wjqZ",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "TVFBd9TBHkk4L6FEfjQ5Fa1XABTfEdzqkp",
+      "url": "https://intel.arkm.com/explorer/address/TVFBd9TBHkk4L6FEfjQ5Fa1XABTfEdzqkp",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] TronGrid `gettransactioninfobyid` for the Q3 burn, read 16 Nov 2026 ~9:35 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [BitTorrent white paper (Oct 2026)](https://www.bittorrent.com/btt/btt-docs/BitTorrent_(BTT)_White_Paper_2026_Oct_EN.pdf) · [Buyback announcement](https://medium.com/@BitTorrent/announcement-on-the-launch-of-btt-buyback-and-burn-8b5a2b6af78d)",
+      "urls": [
+        "BitTorrent white paper (Oct 2026",
+        "Buyback announcement"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [KuCoin News](https://www.kucoin.com/news/flash/bittorrent-completes-q3-btt-buyback-and-burn-worth-7-6m) · [TokenPost](https://www.tokenpost.com/news/business/35123) · [MrNasDog supply research](https://mrnasdog.com/research/btt)",
+      "urls": [
+        "KuCoin News",
+        "TokenPost",
+        "MrNasDog supply research"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `bittorrent` (16 Nov 2026 8:34 AM MST); Gate BTT/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] TronGrid `balanceOf`, `getaccount` and full TRC20 histories for the top holders and the burn path; Tronscan top-holder list (read 16 Nov 2026 ~10:05 AM MST)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): HTX Hot Wallet on TDTo; Poloniex Hot Wallet on TWhD; Poloniex, Binance and Bitget deposit labels; no entity label on the top wallets, the team wallet, the payout address or the burn sender",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] SEC settlement terms; who owns the two untagged top wallets",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

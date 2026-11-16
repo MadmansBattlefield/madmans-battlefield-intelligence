@@ -1,0 +1,371 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "STBL",
+  "name": "STBL",
+  "chain": "bsc",
+  "contract": "0x8dedf84656fa932157e27c060d8613824e7979e3",
+  "overall_score": 3.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 4,
+    "adoption_customers": 2,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes: only 700M of the 10B cap is minted on BNB Chain; the other 9.3B is issued on the project's revised schedule",
+    "team_wallet_to_exchange_during_pump": "not proven: BNB Chain transfers could not be read (BscScan API is paid; its pages sit behind a bot check)",
+    "entity_concentration": "project says vested tokens sit in central treasury wallets; about 95% of the 10B cap is not circulating"
+  },
+  "price_usd": 0.02017,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.02017,
+    "market_cap_text": "$10.1M",
+    "fdv_text": "$201.7M",
+    "volume_24h_text": "$1.22M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/STBL.md",
+    "sha256": "388a3dea263f0cc86161ebd69b46a07d8b45cccf3167b2c7e2a6682d66c90076",
+    "bytes": 11986,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Revised unlocks, treasury custody",
+      "url": "tokenomics",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "700M minted",
+      "url": "BscScan token page",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Market and venues",
+      "url": "CoinGecko",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "bsc",
+      "address": "0x4982085c9e2f89f2ecb8131eca71afad896e89cb",
+      "url": "https://intel.arkm.com/explorer/address/0x4982085c9e2f89f2ecb8131eca71afad896e89cb",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x53f78a071d04224b8e254e243fffc6d9f2f3fa23",
+      "url": "https://intel.arkm.com/explorer/address/0x53f78a071d04224b8e254e243fffc6d9f2f3fa23",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x57fd714755dbe55798501e1b4b2bcc355c06bf6a",
+      "url": "https://intel.arkm.com/explorer/address/0x57fd714755dbe55798501e1b4b2bcc355c06bf6a",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x60b97709d633dd4e0f0f44f6102fd50341c0afa6",
+      "url": "https://intel.arkm.com/explorer/address/0x60b97709d633dd4e0f0f44f6102fd50341c0afa6",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x73d8bd54f7cf5fab43fe4ef40a62d390644946db",
+      "url": "https://intel.arkm.com/explorer/address/0x73d8bd54f7cf5fab43fe4ef40a62d390644946db",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x7654d09b4ead2eb6119a974c74071942cc56866c",
+      "url": "https://intel.arkm.com/explorer/address/0x7654d09b4ead2eb6119a974c74071942cc56866c",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+      "url": "https://intel.arkm.com/explorer/address/0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83",
+      "url": "https://intel.arkm.com/explorer/address/0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x8dedf84656fa932157e27c060d8613824e7979e3",
+      "url": "https://bscscan.com/token/0x8dedf84656fa932157e27c060d8613824e7979e3",
+      "kind": "token"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xafa3b16f6587e5f1938a28ab5ab1560c3c9f3536",
+      "url": "https://intel.arkm.com/explorer/address/0xafa3b16f6587e5f1938a28ab5ab1560c3c9f3536",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: BNB Chain transfers could not be read (BscScan API is paid; its pages sit behind a bot check)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama has no protocol or fee record for STBL. Yield from the collateral goes to minters through YLD, not to STBL holders ([site](https://www.stbl.com/)). **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x7654d09b4ead2eb6119a974c74071942cc56866c",
+      "url": "https://intel.arkm.com/explorer/address/0x7654d09b4ead2eb6119a974c74071942cc56866c",
+      "label": "them [Kraken: Hot Wallet](https://intel.arkm.com/explorer/address/0x7654d09b4ead",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4982085c9e2f89f2ecb8131eca71afad896e89cb",
+      "url": "https://intel.arkm.com/explorer/address/0x4982085c9e2f89f2ecb8131eca71afad896e89cb",
+      "label": "them [Kraken: Hot Wallet](https://intel.arkm.com/explorer/address/0x7654d09b4ead",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x53f78a071d04224b8e254e243fffc6d9f2f3fa23",
+      "url": "https://intel.arkm.com/explorer/address/0x53f78a071d04224b8e254e243fffc6d9f2f3fa23",
+      "label": "them [Kraken: Hot Wallet](https://intel.arkm.com/explorer/address/0x7654d09b4ead",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83",
+      "url": "https://intel.arkm.com/explorer/address/0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x73d8bd54f7cf5fab43fe4ef40a62d390644946db",
+      "url": "https://intel.arkm.com/explorer/address/0x73d8bd54f7cf5fab43fe4ef40a62d390644946db",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+      "url": "https://intel.arkm.com/explorer/address/0x7c4c7ac39f3db79b10400b17a2f67dd6a4e9fec3",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x60b97709d633dd4e0f0f44f6102fd50341c0afa6",
+      "url": "https://intel.arkm.com/explorer/address/0x60b97709d633dd4e0f0f44f6102fd50341c0afa6",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x57fd714755dbe55798501e1b4b2bcc355c06bf6a",
+      "url": "https://intel.arkm.com/explorer/address/0x57fd714755dbe55798501e1b4b2bcc355c06bf6a",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xafa3b16f6587e5f1938a28ab5ab1560c3c9f3536",
+      "url": "https://intel.arkm.com/explorer/address/0xafa3b16f6587e5f1938a28ab5ab1560c3c9f3536",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [STBL tokenomics](https://www.stbl.com/tokenomics), [STBL site](https://www.stbl.com/)",
+      "urls": [
+        "STBL tokenomics",
+        "STBL site"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] BNB Chain public RPC `totalSupply` = 700,000,000 (16 Nov 2026)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `stbl` (market, venues, 365-day daily prices for pump days)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Tokenomics.com STBL unlocks](https://app.tokenomics.com/tokenomics/stbl/unlocks), [Bitrue unlock note](https://www.bitrue.com/blog/stbl-token-unlock)",
+      "urls": [
+        "Tokenomics.com STBL unlocks",
+        "Bitrue unlock note"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): token label STBL_Token; top holders from the [Arkham token page](https://intel.arkm.com/explorer/token/stbl) (Gate: Cold Wallet, STBL_MFS, stblgovernanc.eth, PancakeSwap V3 pool; 0x5437 unlabelled); second pass: Kraken hot and cold, MEXC hot and KuCoin hot wallets, Binance Wallet proxy 0x73d8, three trading-style Safes",
+      "urls": [
+        "Arkham token page"
+      ],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

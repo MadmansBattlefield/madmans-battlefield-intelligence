@@ -1,0 +1,233 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ROSE",
+  "name": "Oasis Network",
+  "chain": "oasis (native consensus layer) · Sapphire / Emerald ParaTimes · bsc (bridged)",
+  "contract": "native coin; BSC 0xf00600ebc7633462bc4f9c61ea2ce99f5aaebd4a",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 6,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 5,
+    "liquidity_market": 3,
+    "product_development": 6,
+    "adoption_customers": 2,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no; 10B cap fixed, staking rewards paid from a pre-funded common pool (497.6M ROSE left)",
+    "team_wallet_to_exchange_during_pump": "none found at 2 hops; suspected foundation wallets sent 108M ROSE on pump day 4 Sep 2026 to a non-exchange holder; attribution is community-sourced [Unverified]",
+    "unlock_overhang": "896M ROSE still scheduled for Foundation, Community and Strategic buckets through Nov 2030 (≈56M per quarter, ≈ $258K at today's price)"
+  },
+  "price_usd": 0.00461242,
+  "price_source": "CoinGecko, 16 Nov 2026 ~5:08 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00461242,
+    "market_cap_text": "$37.51M",
+    "fdv_text": "$46.17M",
+    "volume_24h_text": "$1.39M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ROSE.md",
+    "sha256": "e0071a9f3d9262378a9d78c52ba2f7d3c740628534c44e43d786d16ebac9ab87",
+    "bytes": 16358,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~5:08 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Allocation and 120-month release schedule",
+      "url": "Oasis docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "No tracked fees; $0.39M TVL",
+      "url": "DefiLlama API",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "No tracked fees; $0.39M TVL",
+      "url": "chains",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Suspected foundation stakes 649.8M and 442.7M",
+      "url": "`oasis1qprt…`",
+      "kind": "other",
+      "tier": "A balance · B attribution",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Suspected foundation stakes 649.8M and 442.7M",
+      "url": "`oasis1qqja…`",
+      "kind": "other",
+      "tier": "A balance · B attribution",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "108M moved on pump day 4 Sep 2026",
+      "url": "74M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "108M moved on pump day 4 Sep 2026",
+      "url": "34M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Receiver never paid a tagged exchange wallet",
+      "url": "`oasis1qqxc…`",
+      "kind": "other",
+      "tier": "A chain + B tags",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest holder is exchange custody",
+      "url": "`oasis1qpg2…`",
+      "kind": "other",
+      "tier": "A pattern + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest holder is exchange custody",
+      "url": "1.0B move",
+      "kind": "other",
+      "tier": "A pattern + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest holder is exchange custody",
+      "url": "Binance hot",
+      "kind": "other",
+      "tier": "A pattern + B tag",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found at 2 hops; suspected foundation wallets sent 108M ROSE on pump day 4 Sep 2026 to a non-exchange holder; attribution is community-sourced [Unverified]"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "There is no measurable revenue and no mechanism that returns value to holders. That is **1**, which **trips the Revenue gate**."
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Oasis Nexus API (`/consensus/accounts`, `/consensus/accounts/{addr}`, `/consensus/events?type=staking.transfer`), 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Oasis docs: token metrics and distribution](https://docs.oasis.io/general/oasis-network/token-metrics-and-distribution/), with release-schedule and reward-schedule CSVs",
+      "urls": [
+        "Oasis docs: token metrics and distribution"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees API and chain TVL; CoinGecko `oasis-network` market data, tickers and 365-day closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Community exchange and foundation wallet tags: [Garden Tools wallet map](https://gardentools.jamie-oconnell.com/wallets.html) (single source, self-described as speculative)",
+      "urls": [
+        "Garden Tools wallet map"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Foundation wallet identities; owners of `oasis1qqxc…`, `oasis1qrd3…`, `oasis1qq6p…`, `oasis1qp2w…`",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

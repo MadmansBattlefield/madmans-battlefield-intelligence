@@ -1,0 +1,374 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "XRP",
+  "name": "XRP",
+  "chain": "xrp-ledger",
+  "contract": "native (XRP Ledger)",
+  "overall_score": 5.1,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 6,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 5,
+    "liquidity_market": 10,
+    "product_development": 7,
+    "adoption_customers": 6,
+    "security_audits": 7,
+    "regulatory": 7,
+    "catalysts": 5
+  },
+  "sections_passed": 6,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "ledger_halt": "none_in_series",
+    "ripple_ops_flow_on_pump_day": "tripped_2_of_23",
+    "ripple_sales_undisclosed": "open"
+  },
+  "price_usd": 0.953837,
+  "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {
+    "chain_read_ledger": 108330736
+  },
+  "key_numbers": {
+    "price_usd": 0.953837,
+    "market_cap_text": "$60.63B",
+    "fdv_text": "$95.44B",
+    "volume_24h_text": "$2.31B"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/XRP.md",
+    "sha256": "aa2885dc1c9e15ee5f8cc561e4d48eac362310b758b4bf550dbe8ad44f3d1647",
+    "bytes": 18361,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:00 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:00 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Monthly cycle: 1B XRP released from escrow on 1 Nov 2026",
+      "url": "EscrowFinish 1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Monthly cycle: 1B XRP released from escrow on 1 Nov 2026",
+      "url": "EscrowFinish 2",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Monthly cycle: 1B XRP released from escrow on 1 Nov 2026",
+      "url": "rB3WNZ…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Monthly cycle: 1B XRP released from escrow on 1 Nov 2026",
+      "url": "r9UUEX…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "700M re-escrowed to 2029 the same day",
+      "url": "500M → rNASJd…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "700M re-escrowed to 2029 the same day",
+      "url": "EscrowCreate 500M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "700M re-escrowed to 2029 the same day",
+      "url": "200M → rU9qmG…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**300M to operational wallet `rBg2…`** (1 Nov 2026)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**300M to operational wallet `rBg2…`** (1 Nov 2026)",
+      "url": "rBg2… account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**`rBg2…` sent 3.868B XRP in 23 payments, all to `rJqiMb…`**; 2 on pump days",
+      "url": "5 Jan 2026 300M (pump",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**`rBg2…` sent 3.868B XRP in 23 payments, all to `rJqiMb…`**; 2 on pump days",
+      "url": "6 Jul 2026 150M (pump",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**`rBg2…` sent 3.868B XRP in 23 payments, all to `rJqiMb…`**; 2 on pump days",
+      "url": "rJqiMb… account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Latest sends `rBg2…` → `rJqiMb…`",
+      "url": "2 Nov 100M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Latest sends `rBg2…` → `rJqiMb…`",
+      "url": "13 Nov 200M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`rJqiMb…` paid out 1.014B XRP since 15 Aug 2026, mostly to three unlabeled accounts",
+      "url": "raRVLN…",
+      "kind": "other",
+      "tier": "A (owners [Unverified])",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "`rJqiMb…` paid out 1.014B XRP since 15 Aug 2026, mostly to three unlabeled accounts",
+      "url": "rP4X2h…",
+      "kind": "other",
+      "tier": "A (owners [Unverified])",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "`rJqiMb…` paid out 1.014B XRP since 15 Aug 2026, mostly to three unlabeled accounts",
+      "url": "rnU65s…",
+      "kind": "other",
+      "tier": "A (owners [Unverified])",
+      "date_read": "14 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "xrp",
+      "address": "r9UUEXn3cx2seufBkDa8F86usfjWM6HiYp",
+      "url": "https://xrpscan.com/account/r9UUEXn3cx2seufBkDa8F86usfjWM6HiYp",
+      "kind": "address"
+    },
+    {
+      "chain": "xrp",
+      "address": "rB3WNZc45gxzW31zxfXdkx8HusAhoqscPn",
+      "url": "https://xrpscan.com/account/rB3WNZc45gxzW31zxfXdkx8HusAhoqscPn",
+      "kind": "address"
+    },
+    {
+      "chain": "xrp",
+      "address": "rBg2FuZT91C52Nny68houguJ4vt5x1o91m",
+      "url": "https://xrpscan.com/account/rBg2FuZT91C52Nny68houguJ4vt5x1o91m",
+      "kind": "address"
+    },
+    {
+      "chain": "xrp",
+      "address": "rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE",
+      "url": "https://xrpscan.com/account/rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE",
+      "kind": "address"
+    },
+    {
+      "chain": "xrp",
+      "address": "rNASJdZjY9dToHnNURi3HAUku3duPwbtD1",
+      "url": "https://xrpscan.com/account/rNASJdZjY9dToHnNURi3HAUku3duPwbtD1",
+      "kind": "address"
+    },
+    {
+      "chain": "xrp",
+      "address": "rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3",
+      "url": "https://xrpscan.com/account/rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3",
+      "kind": "address"
+    },
+    {
+      "chain": "xrp",
+      "address": "rU9qmGM4Y6WWDhiNzkwVKBwwatcoE7YL1T",
+      "url": "https://xrpscan.com/account/rU9qmGM4Y6WWDhiNzkwVKBwwatcoE7YL1T",
+      "kind": "address"
+    },
+    {
+      "chain": "xrp",
+      "address": "raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf",
+      "url": "https://xrpscan.com/account/raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf",
+      "kind": "address"
+    },
+    {
+      "chain": "xrp",
+      "address": "rnU65s4J4ffJF5VtTEuHtEdWMKc1m9AR5J",
+      "url": "https://xrpscan.com/account/rnU65s4J4ffJF5VtTEuHtEdWMKc1m9AR5J",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "ripple_ops_flow_on_pump_day: tripped_2_of_23"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "XRP burns every fee, which is good design, but there is almost nothing to burn: ~$282k a year on a $60B asset. Ripple the company earns money from payments and custody; that does not flow to XRP holders."
+  },
+  "attributions": [
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] XRPL public API (`xrplcluster.com`): `ledger`, `server_info`, `account_info`, `account_objects` (escrow), `account_tx` for Ripple escrow owners, `rBg2…` and `rJqiMb…`; 14 Nov 2026 ~12:24 PM MST",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees `xrpl`, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `ripple` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub `XRPLF/rippled`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [xrp-insights escrow tracker](https://xrp-insights.com/xrp-radar/escrow) · Coinpaper · CryptoTicker",
+      "urls": [
+        "xrp-insights escrow tracker"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] XRPScan account pages used: [`rB3WNZ…`](https://xrpscan.com/account/rB3WNZc45gxzW31zxfXdkx8HusAhoqscPn) · [`r9UUEX…`](https://xrpscan.com/account/r9UUEXn3cx2seufBkDa8F86usfjWM6HiYp) · [`rU9qmG…`](https://xrpscan.com/account/rU9qmGM4Y6WWDhiNzkwVKBwwatcoE7YL1T) · [`rNASJd…`](https://xrpscan.com/account/rNASJdZjY9dToHnNURi3HAUku3duPwbtD1) · [`rBg2…`](https://xrpscan.com/account/rBg2FuZT91C52Nny68houguJ4vt5x1o91m) · [`rJqiMb…`](https://xrpscan.com/account/rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE) · [`raRVLN…`](https://xrpscan.com/account/raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf) · [`rP4X2h…`](https://xrpscan.com/account/rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3) · [`rnU65s…`](https://xrpscan.com/account/rnU65s4J4ffJF5VtTEuHtEdWMKc1m9AR5J) (full tx hashes re-read from `xrplcluster.com` `account_tx`, 15 Nov 2026 ~12:00 PM MST)",
+      "urls": [
+        "`rB3WNZ…`",
+        "`r9UUEX…`",
+        "`rU9qmG…`",
+        "`rNASJd…`",
+        "`rBg2…`",
+        "`rJqiMb…`",
+        "`raRVLN…`",
+        "`rP4X2h…`",
+        "`rnU65s…`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): XRPL not supported; \"Ripple\" entity covers Ethereum (RLUSD) only. All-time exchange totals Enterprise-locked",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Ripple total / operational holdings; founders' holdings; MiCA authorization; ETP flows; Evernorth holdings; identities behind `rJqiMb…` downstream wallets",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

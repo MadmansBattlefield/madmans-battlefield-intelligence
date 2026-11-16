@@ -1,0 +1,628 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "API3",
+  "name": "Api3",
+  "chain": "ethereum",
+  "contract": "0x0b38210ea11411557c13457D4dA7dC6ea731B88a",
+  "overall_score": 4.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 4,
+    "foundation_team": 6,
+    "insider_holdings": 6,
+    "selling_behavior": 3,
+    "tokenomics_supply": 7,
+    "liquidity_market": 4,
+    "product_development": 5,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "treasury_to_exchange_during_pump": "yes (Etherscan 'API3: Treasury' / Arkham 'API3: V1 Treasury' 0xe7aF… sent 250,000 API3 into a Binance deposit on the 28 Jan 2024 pump day (+28.8%) and 240,000 on 23 Apr 2024 (+11.1%); no matching proposal found)",
+    "treasury_funded_wallet_to_exchange_during_pump": "yes (DAO Vault multisig 0x8e03… sent 610,000 API3 to 0x9e65… on the 10 Feb 2026 pump day (+13.7%); 609,900 reached a Binance deposit within 71 minutes; 1.83M in total by May 2026; recipient unlabelled on Arkham too)",
+    "mint_path_live": "no (owner is 0x…dEaD, no minters; read 16 Nov 2026)",
+    "market_maker_loans": "disclosed (5.1M API3 across 2 deals; loan #2 wallet spread 2.5M to Binance/Gate/Bitget/KuCoin deposits within 3 days, Nov 2025; market maker unnamed, Arkham shows no label)"
+  },
+  "price_usd": 0.1873,
+  "price_source": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.1873,
+    "market_cap_text": "$30.85M",
+    "fdv_text": "$37.46M",
+    "volume_24h_text": "$1.78M",
+    "total_supply_text": "200,000,000"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/API3.md",
+    "sha256": "3e0873123ebf26aebcb435ca73eb42a2ccefc8023be6fee5d028340b2af370a2",
+    "bytes": 30222,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:44–6:49 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "28 Jan 2024 pump day: \"API3: Treasury\" 250k → Binance deposit → Binance 14",
+      "url": "Treasury",
+      "kind": "other",
+      "tier": "A chain + B tags",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "28 Jan 2024 pump day: \"API3: Treasury\" 250k → Binance deposit → Binance 14",
+      "url": "in",
+      "kind": "other",
+      "tier": "A chain + B tags",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "28 Jan 2024 pump day: \"API3: Treasury\" 250k → Binance deposit → Binance 14",
+      "url": "sweep",
+      "kind": "other",
+      "tier": "A chain + B tags",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "28 Jan 2024 pump day: \"API3: Treasury\" 250k → Binance deposit → Binance 14",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A chain + B tags",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "23 Apr 2024 pump day: 240k, same route",
+      "url": "in",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "23 Apr 2024 pump day: 240k, same route",
+      "url": "sweep",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2 Jul 2024 (not a pump day): 269,059, same route",
+      "url": "in",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2 Jul 2024 (not a pump day): 269,059, same route",
+      "url": "sweep",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10 Feb 2026 pump day: Vault 610k → `0x9e65…` → Binance deposit in 47–71 min",
+      "url": "Vault",
+      "kind": "other",
+      "tier": "A + B tag · recipient [Unverified], unlabelled on Arkham",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10 Feb 2026 pump day: Vault 610k → `0x9e65…` → Binance deposit in 47–71 min",
+      "url": "in",
+      "kind": "other",
+      "tier": "A + B tag · recipient [Unverified], unlabelled on Arkham",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10 Feb 2026 pump day: Vault 610k → `0x9e65…` → Binance deposit in 47–71 min",
+      "url": "349,900",
+      "kind": "other",
+      "tier": "A + B tag · recipient [Unverified], unlabelled on Arkham",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10 Feb 2026 pump day: Vault 610k → `0x9e65…` → Binance deposit in 47–71 min",
+      "url": "260,000",
+      "kind": "other",
+      "tier": "A + B tag · recipient [Unverified], unlabelled on Arkham",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10 Feb 2026 pump day: Vault 610k → `0x9e65…` → Binance deposit in 47–71 min",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B tag · recipient [Unverified], unlabelled on Arkham",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10 Feb 2026 pump day: Vault 610k → `0x9e65…` → Binance deposit in 47–71 min",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B tag · recipient [Unverified], unlabelled on Arkham",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x9e65…` sent 1,826,797 API3 to that Binance deposit by May 2026",
+      "url": "0x9e65",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x9e65…` sent 1,826,797 API3 to that Binance deposit by May 2026",
+      "url": "12 Feb",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x9e65…` sent 1,826,797 API3 to that Binance deposit by May 2026",
+      "url": "18 May",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Arkham: `0xe7aF…` is \"API3: V1 Treasury\" (entity API3); `0x3141…` is a Binance Deposit; Treasury page shows 240k/250k/269k sends to it",
+      "url": "0xe7aF",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:44 AM MST"
+    },
+    {
+      "claim": "Arkham: `0xe7aF…` is \"API3: V1 Treasury\" (entity API3); `0x3141…` is a Binance Deposit; Treasury page shows 240k/250k/269k sends to it",
+      "url": "0x3141",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:44 AM MST"
+    },
+    {
+      "claim": "Arkham: top holders `0xA15b…` = Upbit: Cold Wallet, `0xB0bf…` = Coinbase Prime Custody",
+      "url": "0xA15b",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:49 AM MST"
+    },
+    {
+      "claim": "Arkham: top holders `0xA15b…` = Upbit: Cold Wallet, `0xB0bf…` = Coinbase Prime Custody",
+      "url": "0xB0bf",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:49 AM MST"
+    },
+    {
+      "claim": "Vault Safe is the DAO's published \"Vault Multisig\"",
+      "url": "api3.org treasury page",
+      "kind": "other",
+      "tier": "B (self-published)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "MM loan #2: 2.5M to `0xcb92…` (market maker unnamed; unlabelled on Arkham), then to Binance/Gate/Bitget/KuCoin deposits",
+      "url": "loan tx",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "MM loan #2: 2.5M to `0xcb92…` (market maker unnamed; unlabelled on Arkham), then to Binance/Gate/Bitget/KuCoin deposits",
+      "url": "→ Binance deposit",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Supply fixed: owner dead, no minters, 200,000,000",
+      "url": "token read",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Supply fixed: owner dead, no minters, 200,000,000",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $44,506 / 1y (curator share)",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0b38210ea11411557c13457d4da7dc6ea731b88a",
+      "url": "https://etherscan.io/address/0x0b38210ea11411557c13457D4dA7dC6ea731B88a#code",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0c4030768601a5b564fcd50ec5957d516b0f2ad4",
+      "url": "https://etherscan.io/address/0x0c4030768601a5b564fcd50ec5957d516b0f2ad4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x314187ab1875039ff4f78bf788b81d4e64d112c8",
+      "url": "https://etherscan.io/address/0x314187ab1875039ff4f78bf788b81d4e64d112c8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4437d9efb54f33c6123777337539f358e7bd8a74",
+      "url": "https://etherscan.io/address/0x4437d9efb54f33c6123777337539f358e7bd8a74",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6dd655f10d4b9e242ae186d9050b68f725c76d76",
+      "url": "https://etherscan.io/address/0x6dd655f10d4b9E242aE186D9050B68F725c76d76",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8e03609ed680b237c7b6f8020472ca0687308b24",
+      "url": "https://etherscan.io/address/0x8e03609ed680b237c7b6f8020472ca0687308b24",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9e6538212ca6afccb03e05d929fe415e6621cc28",
+      "url": "https://etherscan.io/address/0x9e6538212ca6afccb03e05d929fe415e6621cc28",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa15b41801fb5cd518b7bb4b59ec31b007ea397b4",
+      "url": "https://etherscan.io/address/0xA15b41801fb5cD518b7Bb4b59EC31b007EA397B4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa742e1d181c59c9c4dd5687172efc119e3868d09",
+      "url": "https://etherscan.io/address/0xa742e1d181c59c9c4dd5687172efc119e3868d09",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb0bfc664b44331a8a9c9f6057df4784e89cd898e",
+      "url": "https://etherscan.io/address/0xB0bfC664b44331a8a9c9F6057dF4784E89cd898E",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb7fa2cb302c5dc127e61f27b92bec411cbf0ae4a",
+      "url": "https://etherscan.io/address/0xb7fa2Cb302C5dC127e61F27b92beC411cbf0AE4A",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbbe0de9757f93e3306adbfebe906ab285edd13da",
+      "url": "https://etherscan.io/address/0xBBE0dE9757F93e3306aDBfeBE906AB285EDD13DA",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcb92bd118362f834110eb6f08477b5a602393a81",
+      "url": "https://etherscan.io/address/0xcb92bd118362f834110eb6f08477b5a602393a81",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe7af7c5982e073ac6525a34821fe1b3e8e432099",
+      "url": "https://intel.arkm.com/explorer/address/0xe7aF7c5982e073aC6525a34821fe1B3e8E432099",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf042392443ccecf67e8672f57bc59b14710db1c2",
+      "url": "https://etherscan.io/address/0xf042392443ccecf67e8672f57bc59b14710db1c2",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "formal_announcement",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_to_exchange_during_pump: yes (Etherscan 'API3: Treasury' / Arkham 'API3: V1 Treasury' 0xe7aF… sent 250,000 API3 into a Binance deposit on the 28 Jan 2024 pump day (+28.8%) and 240,000 on 23 Apr 2024 (+11.1%); no matching proposal found)",
+      "treasury_funded_wallet_to_exchange_during_pump: yes (DAO Vault multisig 0x8e03… sent 610,000 API3 to 0x9e65… on the 10 Feb 2026 pump day (+13.7%); 609,900 reached a Binance deposit within 71 minutes; 1.83M in total by May 2026; recipient unlabelled on Arkham too)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "buyback"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Api3 earns real money (curation fees, private OEV, treasury yield) and does spend some of it buying API3. But what is visible is small: ~$45k a year of curator revenue and $115k of buybacks in total, on a $31M token. The project itself expects to lose up to ~$1M a year net. Score **4**."
+  },
+  "attributions": [
+    {
+      "address": "0xe7af7c5982e073ac6525a34821fe1b3e8e432099",
+      "url": "https://intel.arkm.com/explorer/address/0xe7aF7c5982e073aC6525a34821fe1B3e8E432099",
+      "label": "API3: Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x314187ab1875039ff4f78bf788b81d4e64d112c8",
+      "url": "https://intel.arkm.com/explorer/address/0x314187ab1875039ff4f78bf788b81d4e64d112c8",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9e6538212ca6afccb03e05d929fe415e6621cc28",
+      "url": "https://intel.arkm.com/explorer/address/0x9e6538212ca6afccb03e05d929fe415e6621cc28",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8e03609ed680b237c7b6f8020472ca0687308b24",
+      "url": "https://intel.arkm.com/explorer/address/0x8e03609ed680b237c7b6f8020472ca0687308b24",
+      "label": "API3: V1 Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa15b41801fb5cd518b7bb4b59ec31b007ea397b4",
+      "url": "https://intel.arkm.com/explorer/address/0xA15b41801fb5cD518b7Bb4b59EC31b007EA397B4",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb0bfc664b44331a8a9c9f6057df4784e89cd898e",
+      "url": "https://intel.arkm.com/explorer/address/0xB0bfC664b44331a8a9c9F6057dF4784E89cd898E",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa742e1d181c59c9c4dd5687172efc119e3868d09",
+      "url": "https://intel.arkm.com/explorer/address/0xa742e1d181c59c9c4dd5687172efc119e3868d09",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0c4030768601a5b564fcd50ec5957d516b0f2ad4",
+      "url": "https://intel.arkm.com/explorer/address/0x0c4030768601a5b564fcd50ec5957d516b0f2ad4",
+      "label": "API3: Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xcb92bd118362f834110eb6f08477b5a602393a81",
+      "url": "https://intel.arkm.com/explorer/address/0xcb92bd118362f834110eb6f08477b5a602393a81",
+      "label": "API3 Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf042392443ccecf67e8672f57bc59b14710db1c2",
+      "url": "https://intel.arkm.com/explorer/address/0xf042392443ccecf67e8672f57bc59b14710db1c2",
+      "label": "API3 Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": true,
+    "selling_holdings_single_source_arkham_flag": true,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration.",
+      "An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` (API3 token) for the legacy Treasury, Primary and Secondary Agents, Treasury/Agent/Vault Safes, `0x9e65…`, `0xcb92…`, `0x3141…`, `0xf042…`; read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC (publicnode): `owner()`, `totalSupply()`, `getMinterStatus()`, Safe `getOwners()`/`getThreshold()`, block ~26,427,651",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags read 16 Nov 2026: \"API3: Treasury\", \"API3 DAO: Single Staking Pool\", \"Binance Deposit\" (`0x3141…`, `0x4437…`, `0x77ab…`), \"Binance 14\", \"Gate Deposit\", \"Bitget Deposit\", \"KuCoin Deposit\", \"Wintermute: Multisig\", \"Binance: Cold Wallet 20\", \"OKX 219\", \"Bithumb 394\", \"BtcTurk 13\", \"eToro 4\", \"Uniswap V4: Pool Manager\"",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout v2: top holders, holder count",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Api3 token docs](https://docs.api3.org/dao/api3-token.html) · [Funding proposal Mar–May 2026 (IPFS)](https://moccasin-traditional-bat-376.mypinata.cloud/ipfs/bafkreidq2dqsehj6dyjegyaocgvpvqy2rwjgxjvyp2ibw6r7unzleva4du) · [DAO tech docs](https://dao-docs.api3.org/technical/)",
+      "urls": [
+        "Api3 token docs",
+        "Funding proposal Mar–May 2026 (IPFS",
+        "DAO tech docs"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [api3.org token and treasury page](https://api3.org/api3/) (wallet list, MM loans, buybacks; self-published)",
+      "urls": [
+        "api3.org token and treasury page"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama Api3 fees/revenue; CoinGecko `api3` (16 Nov 2026 5:26 AM MST; its Jan–Mar 2026 daily series alternates between two price levels and was not used); Coinbase Exchange API3-USD daily candles (from 9 Dec 2021) for every pump test",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:44–6:49 AM MST (signed-in account): \"API3: V1 Treasury\" [0xe7aF…](https://intel.arkm.com/explorer/address/0xe7aF7c5982e073aC6525a34821fe1B3e8E432099) · Binance Deposit [0x3141…](https://intel.arkm.com/explorer/address/0x314187ab1875039ff4f78bf788b81d4e64d112c8) · Vault Safe shown only as Gnosis Safe Proxy [0x8e03…](https://intel.arkm.com/explorer/address/0x8e03609ed680b237c7b6f8020472ca0687308b24) · unlabelled [0x9e65…](https://intel.arkm.com/explorer/address/0x9e6538212ca6afccb03e05d929fe415e6621cc28), [0xcb92…](https://intel.arkm.com/explorer/address/0xcb92bd118362f834110eb6f08477b5a602393a81) · \"API3 Whale\" tag only [0xf042…](https://intel.arkm.com/explorer/address/0xf042392443ccecf67e8672f57bc59b14710db1c2) · Safes [0xa742…](https://intel.arkm.com/explorer/address/0xa742e1d181c59c9c4dd5687172efc119e3868d09) and [0x0c40…](https://intel.arkm.com/explorer/address/0x0c4030768601a5b564fcd50ec5957d516b0f2ad4) (signer cheesecakecapital.eth) · Upbit: Cold Wallet [0xA15b…](https://intel.arkm.com/explorer/address/0xA15b41801fb5cD518b7Bb4b59EC31b007EA397B4) · Coinbase Prime Custody [0xB0bf…](https://intel.arkm.com/explorer/address/0xB0bfC664b44331a8a9c9F6057dF4784E89cd898E). Token filter is Enterprise-only, so only the default transfer page was read",
+      "urls": [
+        "0xe7aF…",
+        "0x3141…",
+        "0x8e03…",
+        "0x9e65…",
+        "0xcb92…",
+        "0xf042…",
+        "0xa742…",
+        "0x0c40…",
+        "0xA15b…",
+        "0xB0bf…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] who controls `0x9e65…`; which market maker took loans #1 and #2; whether the 2024 Treasury → Binance sends had a proposal; OEV revenue; audits; Foundation jurisdiction",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

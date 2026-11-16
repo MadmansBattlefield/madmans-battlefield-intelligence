@@ -1,0 +1,483 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ZRO",
+  "name": "LayerZero",
+  "chain": "ethereum",
+  "contract": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+  "overall_score": 5.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 4,
+    "foundation_team": 6,
+    "insider_holdings": 3,
+    "selling_behavior": 5,
+    "tokenomics_supply": 4,
+    "liquidity_market": 9,
+    "product_development": 8,
+    "adoption_customers": 7,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 5,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hidden_mint": "none_found",
+    "foundation_outflow_on_pump_day": "none_found_in_window",
+    "foundation_to_exchange_undisclosed": "1M ZRO, 28 Apr 2026, LayerZero 1 → Binance deposit (not a pump day)",
+    "fee_switch_on": "no (4 votes, all Off)"
+  },
+  "price_usd": 1.52,
+  "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 1.52,
+    "market_cap_text": "$607.0M",
+    "fdv_text": "$1.518B",
+    "volume_24h_text": "$80.2M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ZRO.md",
+    "sha256": "80b5f8fa46ce0ce228bd4147bb355d702def96a4d2561612ed8901b2e7e8977d",
+    "bytes": 26609,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:00 AM MST",
+      "15 Nov 2026 ~11:20 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:00 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "**\"LayerZero 1\" → Binance deposit:** 10 ZRO test, then 999,999 ZRO to `0xCeF2…` on 28 Apr 2026, forwarded 1,000,009 to Binance 14",
+      "url": "test",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**\"LayerZero 1\" → Binance deposit:** 10 ZRO test, then 999,999 ZRO to `0xCeF2…` on 28 Apr 2026, forwarded 1,000,009 to Binance 14",
+      "url": "send",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**\"LayerZero 1\" → Binance deposit:** 10 ZRO test, then 999,999 ZRO to `0xCeF2…` on 28 Apr 2026, forwarded 1,000,009 to Binance 14",
+      "url": "forward",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**\"LayerZero 1\" → Binance deposit:** 10 ZRO test, then 999,999 ZRO to `0xCeF2…` on 28 Apr 2026, forwarded 1,000,009 to Binance 14",
+      "url": "Arkham “Binance Deposit”",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**\"LayerZero 1\" → Binance deposit:** 10 ZRO test, then 999,999 ZRO to `0xCeF2…` on 28 Apr 2026, forwarded 1,000,009 to Binance 14",
+      "url": "Binance 14 tag",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "\"LayerZero 1\" was funded with 29,999,999 ZRO by the Future Initiatives multisig (13 Nov 2025)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "\"LayerZero 1\" was funded with 29,999,999 ZRO by the Future Initiatives multisig (13 Nov 2025)",
+      "url": "LayerZero 1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Future Initiatives multisig `0x8F64…` holds 106.06M (11.15%); no outflow since Nov 2025",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Future Initiatives multisig `0x8F64…` holds 106.06M (11.15%); no outflow since Nov 2025",
+      "url": "13 Nov",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Future Initiatives multisig `0x8F64…` holds 106.06M (11.15%); no outflow since Nov 2025",
+      "url": "11 Nov",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Two 22.5M wallets came from one 4 Jun 2024 allocation batch (218,966,392 ZRO to 23 addresses)",
+      "url": "batch tx",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Two 22.5M wallets came from one 4 Jun 2024 allocation batch (218,966,392 ZRO to 23 addresses)",
+      "url": "0x806f…",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Two 22.5M wallets came from one 4 Jun 2024 allocation batch (218,966,392 ZRO to 23 addresses)",
+      "url": "0x1d4A…",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Two 22.5M wallets came from one 4 Jun 2024 allocation batch (218,966,392 ZRO to 23 addresses)",
+      "url": "Arkham 0x806f…",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x1d4A…` moved its 22.5M into BitGo custody wallet `0x6e0e…` (20 Jan 2026); no outflows since",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x1d4A…` moved its 22.5M into BitGo custody wallet `0x6e0e…` (20 Jan 2026); no outflows since",
+      "url": "0x6e0e… Etherscan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x1d4A…` moved its 22.5M into BitGo custody wallet `0x6e0e…` (20 Jan 2026); no outflows since",
+      "url": "Arkham “WalletSimple (BitGo)”",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Token owner is OneSig 5-of-8 `0xf2c6…8ef8`, deployed 13 Apr 2026",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Token owner is OneSig 5-of-8 `0xf2c6…8ef8`, deployed 13 Apr 2026",
+      "url": "deploy tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x1d4a12a09c293b816bff3625abda3ae07dee19f5",
+      "url": "https://etherscan.io/address/0x1d4a12a09c293b816bff3625abda3ae07dee19f5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1f903473376fbe98cc763f1bc459c8fdb6ac3909",
+      "url": "https://etherscan.io/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "url": "https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3437f6f7bd47d75780981d0b5a0ce9a038f19ed3",
+      "url": "https://etherscan.io/address/0x3437f6f7bd47d75780981d0b5a0ce9a038f19ed3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6985884c4392d348587b19cb9eaaf157f13271cd",
+      "url": "https://etherscan.io/address/0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6e0e32684df6e3ae415ab1146a305bfd03e42427",
+      "url": "https://etherscan.io/address/0x6e0e32684df6e3aE415aB1146A305bFd03E42427",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x744dbc48d11415ec5cb2f78609dea5e1e738da24",
+      "url": "https://etherscan.io/address/0x744Dbc48D11415ec5cB2f78609DeA5E1E738DA24",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7b0ac51037f43754275bd87446d35351f58448fe",
+      "url": "https://etherscan.io/address/0x7b0aC51037f43754275BD87446d35351f58448FE",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x806f68bb6ce8f3100d4745c8b13b36e4f40d8431",
+      "url": "https://etherscan.io/address/0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8f6449530606a9efddac42e05612427ddeba449c",
+      "url": "https://etherscan.io/address/0x8F6449530606A9EFddaC42e05612427dDeBA449C",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcda8e3add00c95e5035617f970096118ca2f4c92",
+      "url": "https://etherscan.io/address/0xcDa8e3ADd00c95E5035617F970096118Ca2F4C92",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe",
+      "url": "https://etherscan.io/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf2c6ebc0aad6e8024a2bd2623f97fea5d0ca8ef8",
+      "url": "https://etherscan.io/address/0xf2c6ebc0aad6e8024a2bd2623f97fea5d0ca8ef8",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "foundation_outflow_on_pump_day: none_found_in_window",
+      "foundation_to_exchange_undisclosed: 1M ZRO, 28 Apr 2026, LayerZero 1 → Binance deposit (not a pump day)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "buyback"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "Real fees exist, but almost nothing reaches holders on a recurring basis. Buybacks of about $0.3M a month are small next to an investor unlock rate in the millions of tokens a month. Most of the $112.7M total was one-off treasury repurchases."
+  },
+  "attributions": [
+    {
+      "address": "0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe",
+      "url": "https://intel.arkm.com/explorer/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x1f903473376fbe98cc763f1bc459c8fdb6ac3909",
+      "url": "https://intel.arkm.com/explorer/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909",
+      "label": "LayerZero 1",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x806f68bb6ce8f3100d4745c8b13b36e4f40d8431",
+      "url": "https://intel.arkm.com/explorer/address/0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431",
+      "label": "LayerZero 1",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6e0e32684df6e3ae415ab1146a305bfd03e42427",
+      "url": "https://intel.arkm.com/explorer/address/0x6e0e32684df6e3aE415aB1146A305bFd03E42427",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "url": "https://intel.arkm.com/explorer/address/0x28C6c06298d514Db089934071355E5743bf21d60",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC `eth_call` (owner, threshold, signers, balances) and eth.blockscout.com transfers / holders, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Verified LayerZeroToken source (Solidity 0.8.22)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] layerzero.foundation: zro-buybacks page, fee-switch page, blog \"The ZRO Token\" (3 Jun 2026), pricing update (11 Aug 2026)",
+      "urls": [],
+      "date_read": "3 Jun 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `layerzero` fees and revenue · DexScreener tokens API",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinGecko markets, tickers and daily closes, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API (ZRO `tokentx`, `getsourcecode`, `getcontractcreation`, tx receipt) for `0x806f…`, `0x6e0e…`, `0x1d4A…`, `0xCeF2…` and the 4 Jun 2024 batch tx; read 15 Nov 2026 ~11:20 AM MST",
+      "urls": [],
+      "date_read": "4 Jun 2024"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): \"LayerZero\" entity (420.8K addresses, ~$274M, 194.8M ZRO; deposits in Arkham's window $1.63M, all Binance; Enterprise-locked all-time view); `0x806f…` \"Gnosis Safe Proxy\" (dormant); `0x6e0e…` \"WalletSimple (BitGo)\"; `0xCeF2…` \"Binance Deposit\"; Binance 14 \"Binance: Hot Wallet\". Relative ages only; dates above come from on-chain reads",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used (Etherscan): [`LayerZero 1`](https://etherscan.io/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909) · [`0xCeF2…`](https://etherscan.io/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe) · [`0x8F64…`](https://etherscan.io/address/0x8F6449530606A9EFddaC42e05612427dDeBA449C) · [`0x744D…`](https://etherscan.io/address/0x744Dbc48D11415ec5cB2f78609DeA5E1E738DA24) · [`0x806f…`](https://etherscan.io/address/0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431) · [`0x6e0e…`](https://etherscan.io/address/0x6e0e32684df6e3aE415aB1146A305bFd03E42427) · [`0x1d4A…`](https://etherscan.io/address/0x1d4a12a09c293b816bff3625abda3ae07dee19f5) · [`genesis Safe`](https://etherscan.io/address/0x3437f6f7bd47d75780981d0b5a0ce9a038f19ed3) · [`OneSig owner`](https://etherscan.io/address/0xf2c6ebc0aad6e8024a2bd2623f97fea5d0ca8ef8) · [`Binance 14`](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60)",
+      "urls": [
+        "`LayerZero 1`",
+        "`0xCeF2…`",
+        "`0x8F64…`",
+        "`0x744D…`",
+        "`0x806f…`",
+        "`0x6e0e…`",
+        "`0x1d4A…`",
+        "`genesis Safe`",
+        "`OneSig owner`",
+        "`Binance 14`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address pages used: [LayerZero 1](https://intel.arkm.com/explorer/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909) · [0xCeF2…](https://intel.arkm.com/explorer/address/0xcef2e3879b5089bcc758a8d3e915ae9e451e5bfe) · [0x806f…](https://intel.arkm.com/explorer/address/0x806f68Bb6ce8f3100D4745C8b13b36e4f40D8431) · [0x6e0e…](https://intel.arkm.com/explorer/address/0x6e0e32684df6e3aE415aB1146A305bFd03E42427) · [Binance 14](https://intel.arkm.com/explorer/address/0x28C6c06298d514Db089934071355E5743bf21d60)",
+      "urls": [
+        "LayerZero 1",
+        "0xCeF2…",
+        "0x806f…",
+        "0x6e0e…",
+        "Binance 14"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Nov unlock amount (Tokenomist); KelpDAO incident; funding rounds; CEO; owners of the two 22.5M wallets (partner / investor allocation is an inference); Zero mainnet date; owner-transfer date",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

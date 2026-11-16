@@ -1,0 +1,187 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "CFX",
+  "name": "Conflux",
+  "chain": "conflux",
+  "contract": "native",
+  "overall_score": 3.9,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 6,
+    "liquidity_market": 4,
+    "product_development": 6,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes, PoW 0.4 CFX a block plus 3.26% PoS interest (~1.8% a year net, Tier B)",
+    "team_wallet_to_exchange_during_pump": "no: published founder lock addresses have had no outflows since Mar 2025",
+    "treasury_in_single_key_wallets": "unknown; launch-era fund contracts reportedly hold ~3.0B CFX [Unverified]"
+  },
+  "price_usd": 0.03432468,
+  "price_source": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.03432468,
+    "market_cap_text": "$180.4M",
+    "volume_24h_text": "$3.35M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/CFX.md",
+    "sha256": "16bd1e7190bb9cca93270d876a7bd00685e74c6de3180ed7cc09e04b07df943a",
+    "bytes": 11444,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "572.96M CFX burned; 971.8M staked",
+      "url": "ConfluxScan supply API",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Founder lock released 65.78M (2022)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Last large founder-lock outflow, Mar 2025",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "PoW reward halved, Apr 2026",
+      "url": "forum",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: no: published founder lock addresses have had no outflows since Mar 2025"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "no revenue at the scale of the token. **1 (hard gate).**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": null,
+      "text": "Arkham does not cover Conflux (Core Space or eSpace), so no Arkham labels were available for the CFX wallets; attribution rests on ConfluxScan and Conflux's own publications",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] ConfluxScan `/statistics/supply` and `/account/cfx/transfers`; Conflux RPC `cfx_getBalance`, read 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Conflux economic model](https://medium.com/conflux-network/conflux-networks-economic-model-pre-mined-token-distribution-and-proportions-f92fe00696ea) · [Ecosystem fund update and founder locks](https://medium.com/conflux-network/ecosystem-funds-update-8bb1cbce80b8) · [Round 20 parameters](https://forum.conflux.fun/t/conflux-network-key-parameters-round-20-voting-results-to-take-effect-soon/23506) · [Oct 2026 report](https://confluxnetwork.medium.com/monthly-progress-report-october-2026-93338db112f3)",
+      "urls": [
+        "Conflux economic model",
+        "Ecosystem fund update and founder locks",
+        "Round 20 parameters",
+        "Oct 2026 report"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [MrNasDog CFX supply](https://mrnasdog.com/research/cfx) · [Blockchain.News](https://blockchain.news/news/cfx-block-rewards-halved-conflux-supply-cut-april-2026)",
+      "urls": [
+        "MrNasDog CFX supply",
+        "Blockchain.News"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `conflux-token` (16 Nov 2026 8:34 AM MST); DefiLlama chains; Gate CFX/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

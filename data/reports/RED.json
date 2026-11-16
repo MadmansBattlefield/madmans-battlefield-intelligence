@@ -1,0 +1,315 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "RED",
+  "name": "RedStone",
+  "chain": "ethereum",
+  "contract": "0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de",
+  "overall_score": 4.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 6,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 4,
+    "product_development": 7,
+    "adoption_customers": 5,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "1B cap; minted in tranches (597M on Ethereum so far), rest on Base/bridged",
+    "team_wallet_to_exchange_during_pump": "not proven for team: a vesting beneficiary sent 1.67M RED to Binance on a +70.9% day (6 Apr 2026); whether it is team or investor is unknown",
+    "entity_concentration": "four vesting contracts 164M, a 3-signature Safe 45M, airdrop contracts 56M"
+  },
+  "price_usd": 0.1081,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.1081,
+    "market_cap_text": "$62.5M",
+    "fdv_text": "$108.1M",
+    "volume_24h_text": "$1.27M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/RED.md",
+    "sha256": "c12070dc466110068a738708da03f4e6857e508ebc81e11cccaab1d02590997d",
+    "bytes": 12293,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Pump-day deposit, 1.67M RED",
+      "url": "tx 0xfac8…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Beneficiary funded by vesting 0xa77e",
+      "url": "0x1955…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Vesting contracts and Safe holdings",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $61.8 / year",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x19555bdfb024076136efbb3b00ed6169fa5c042b",
+      "url": "https://etherscan.io/address/0x19555bdfb024076136efbb3b00ed6169fa5c042b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x70da99aedda98cdd5aac73c136df4fbc3899d69f",
+      "url": "https://intel.arkm.com/explorer/address/0x70da99aedda98cdd5aac73c136df4fbc3899d69f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa77e9c5861892b82e9a360f71aed9f81c6d51b2e",
+      "url": "https://etherscan.io/address/0xa77e9c5861892b82e9a360f71aed9f81c6d51b2e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb286aaa8ff1a4d2075a3ac1dfa9e695fd5d3a654",
+      "url": "https://etherscan.io/address/0xb286aaa8ff1a4d2075a3ac1dfa9e695fd5d3a654",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xba544abd1b34c4a337e3f3cbe2a390e061031ff7",
+      "url": "https://etherscan.io/address/0xba544abd1b34c4a337e3f3cbe2a390e061031ff7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de",
+      "url": "https://etherscan.io/token/0xc43c6bfeda065fe2c4c11765bf838789bd0bb5de",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcc6b3cc29b7047b70c64a243a52f74db618b9087",
+      "url": "https://intel.arkm.com/explorer/address/0xcc6b3cc29b7047b70c64a243a52f74db618b9087",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf0f3445d002e29a230cd444e6273a3abfa0d4c4e",
+      "url": "https://etherscan.io/address/0xf0f3445d002e29a230cd444e6273a3abfa0d4c4e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf39e316c74d7f975a94729395c12b06c91892dec",
+      "url": "https://etherscan.io/address/0xf39e316c74d7f975a94729395c12b06c91892dec",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Binance REDUSDT daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven for team: a vesting beneficiary sent 1.67M RED to Binance on a +70.9% day (6 Apr 2026); whether it is team or investor is unknown"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - DefiLlama lists $61.8 of fees over the last year. Oracle service income goes to the company, not to RED holders, and no figures are published. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x19555bdfb024076136efbb3b00ed6169fa5c042b",
+      "url": "https://intel.arkm.com/explorer/address/0x19555bdfb024076136efbb3b00ed6169fa5c042b",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa77e9c5861892b82e9a360f71aed9f81c6d51b2e",
+      "url": "https://intel.arkm.com/explorer/address/0xa77e9c5861892b82e9a360f71aed9f81c6d51b2e",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x70da99aedda98cdd5aac73c136df4fbc3899d69f",
+      "url": "https://intel.arkm.com/explorer/address/0x70da99aedda98cdd5aac73c136df4fbc3899d69f",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xba544abd1b34c4a337e3f3cbe2a390e061031ff7",
+      "url": "https://intel.arkm.com/explorer/address/0xba544abd1b34c4a337e3f3cbe2a390e061031ff7",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xcc6b3cc29b7047b70c64a243a52f74db618b9087",
+      "url": "https://intel.arkm.com/explorer/address/0xcc6b3cc29b7047b70c64a243a52f74db618b9087",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf39e316c74d7f975a94729395c12b06c91892dec",
+      "url": "https://intel.arkm.com/explorer/address/0xf39e316c74d7f975a94729395c12b06c91892dec",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan token, contract source names, Safe threshold and transactions; receipts checked 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `redstone` fees; CoinGecko `redstone-oracles`; pump days from Binance REDUSDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Binance Launchpool listing coverage (Feb 2025)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): TokenVestingManager labels on 0xa77e, 0xb286, 0xf39e and 0xf0f3; Amber Group as a 0xf39e payee; Bybit and Binance Deposit labels; 0x1955 and the Safes unlabelled",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

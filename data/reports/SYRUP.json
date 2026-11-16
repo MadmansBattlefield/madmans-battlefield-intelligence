@@ -1,0 +1,902 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SYRUP",
+  "name": "Maple Finance",
+  "chain": "ethereum",
+  "contract": "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
+  "overall_score": 6.3,
+  "overall_verdict": "PASS",
+  "section_scores": {
+    "revenue": 7,
+    "foundation_team": 7,
+    "insider_holdings": 6,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 6,
+    "product_development": 8,
+    "adoption_customers": 8,
+    "security_audits": 7,
+    "regulatory": 5,
+    "catalysts": 6
+  },
+  "sections_passed": 9,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 7,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found on the SYRUP token or the syrup pools",
+    "mint_path_live": "governance only (MapleToken mints only through modules the Maple GovernorTimelock schedules; the Recapitalization Module's issuance window went to 0 on 1 Oct 2026)",
+    "team_wallet_to_exchange_during_pump": "yes, treasury-labelled wallets (Etherscan 'Maple: Treasury 2', 'Maple: Treasury 1', 'Maple: DAO') funded wallets that put SYRUP into exchange deposit addresses on pump days: 7.0M into a Maple-used Binance deposit on 29 Oct, 10 Nov and 22 Dec 2025; 6.25M into a Binance deposit on the 6 May 2025 pump day; ~1.1M into Gate on 21 Nov 2024. Sales not provable on-chain; a market-maker loan program (~2% of supply) is disclosed",
+    "treasury_coins_to_otc_desk": "yes (SSF wallet 0x99f0 sent 4.6M SYRUP, including bought-back tokens, to a FalconX deposit in Jul and Sep 2026; purpose [Unverified])"
+  },
+  "price_usd": 0.1016,
+  "price_source": "CoinGecko, 16 Nov 2026 5:27 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.1016,
+    "market_cap_text": "$118.6M",
+    "fdv_text": "$128.8M",
+    "volume_24h_text": "$6.06M",
+    "total_supply_text": "1,267,875,000"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SYRUP.md",
+    "sha256": "139e92f5781450723d3c763a990fedc10ef67390820a0605839e78b742f101e4",
+    "bytes": 41285,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:27 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 5:27 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:07–7:18 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Arkham labels: `0x640e…`, `0x99f0…`, `0xa7cc…`, `0x3fcd…` = Syrup.fi (Maple Finance); `0x4c3b…` = Maple Team Wallet Safe; `0xCA31…` = ParaFi Capital; `0xcf4c…` = Binance deposit",
+      "url": "0x640e",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:07–7:18 AM MST"
+    },
+    {
+      "claim": "Arkham labels: `0x640e…`, `0x99f0…`, `0xa7cc…`, `0x3fcd…` = Syrup.fi (Maple Finance); `0x4c3b…` = Maple Team Wallet Safe; `0xCA31…` = ParaFi Capital; `0xcf4c…` = Binance deposit",
+      "url": "0x99f0",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:07–7:18 AM MST"
+    },
+    {
+      "claim": "Arkham labels: `0x640e…`, `0x99f0…`, `0xa7cc…`, `0x3fcd…` = Syrup.fi (Maple Finance); `0x4c3b…` = Maple Team Wallet Safe; `0xCA31…` = ParaFi Capital; `0xcf4c…` = Binance deposit",
+      "url": "0xa7cc",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:07–7:18 AM MST"
+    },
+    {
+      "claim": "Arkham labels: `0x640e…`, `0x99f0…`, `0xa7cc…`, `0x3fcd…` = Syrup.fi (Maple Finance); `0x4c3b…` = Maple Team Wallet Safe; `0xCA31…` = ParaFi Capital; `0xcf4c…` = Binance deposit",
+      "url": "0x3fcd",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:07–7:18 AM MST"
+    },
+    {
+      "claim": "Arkham labels: `0x640e…`, `0x99f0…`, `0xa7cc…`, `0x3fcd…` = Syrup.fi (Maple Finance); `0x4c3b…` = Maple Team Wallet Safe; `0xCA31…` = ParaFi Capital; `0xcf4c…` = Binance deposit",
+      "url": "0x4c3b",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:07–7:18 AM MST"
+    },
+    {
+      "claim": "Arkham labels: `0x640e…`, `0x99f0…`, `0xa7cc…`, `0x3fcd…` = Syrup.fi (Maple Finance); `0x4c3b…` = Maple Team Wallet Safe; `0xCA31…` = ParaFi Capital; `0xcf4c…` = Binance deposit",
+      "url": "0xCA31",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:07–7:18 AM MST"
+    },
+    {
+      "claim": "Arkham labels: `0x640e…`, `0x99f0…`, `0xa7cc…`, `0x3fcd…` = Syrup.fi (Maple Finance); `0x4c3b…` = Maple Team Wallet Safe; `0xCA31…` = ParaFi Capital; `0xcf4c…` = Binance deposit",
+      "url": "0xcf4c",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:07–7:18 AM MST"
+    },
+    {
+      "claim": "Treasury 1 / Treasury 2 are Maple wallets (Etherscan tags + Maple's filing)",
+      "url": "Treasury 1",
+      "kind": "other",
+      "tier": "2 × B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury 1 / Treasury 2 are Maple wallets (Etherscan tags + Maple's filing)",
+      "url": "Treasury 2",
+      "kind": "other",
+      "tier": "2 × B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury 1 / Treasury 2 are Maple wallets (Etherscan tags + Maple's filing)",
+      "url": "filing",
+      "kind": "other",
+      "tier": "2 × B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x6893…` is Maple's: received the exact Q3 2026 buyback amounts from Binance 14 and passed them to the SSF EOA",
+      "url": "852,841",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x6893…` is Maple's: received the exact Q3 2026 buyback amounts from Binance 14 and passed them to the SSF EOA",
+      "url": "676,290",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x6893…` is Maple's: received the exact Q3 2026 buyback amounts from Binance 14 and passed them to the SSF EOA",
+      "url": "1,371,166",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x6893…` is Maple's: received the exact Q3 2026 buyback amounts from Binance 14 and passed them to the SSF EOA",
+      "url": "→ 0x6400",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x6893…` is Maple's: received the exact Q3 2026 buyback amounts from Binance 14 and passed them to the SSF EOA",
+      "url": "→ 0x99f0",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x6893…` is Maple's: received the exact Q3 2026 buyback amounts from Binance 14 and passed them to the SSF EOA",
+      "url": "Maple: 2.9M bought",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29 Oct / 10 Nov / 22 Dec 2025 pump days: 7.0M into Binance deposit `0xf0c1…`",
+      "url": "29 Oct in",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29 Oct / 10 Nov / 22 Dec 2025 pump days: 7.0M into Binance deposit `0xf0c1…`",
+      "url": "→ Binance",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29 Oct / 10 Nov / 22 Dec 2025 pump days: 7.0M into Binance deposit `0xf0c1…`",
+      "url": "10 Nov in",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29 Oct / 10 Nov / 22 Dec 2025 pump days: 7.0M into Binance deposit `0xf0c1…`",
+      "url": "→ Binance",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29 Oct / 10 Nov / 22 Dec 2025 pump days: 7.0M into Binance deposit `0xf0c1…`",
+      "url": "22 Dec in",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29 Oct / 10 Nov / 22 Dec 2025 pump days: 7.0M into Binance deposit `0xf0c1…`",
+      "url": "→ Binance",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29 Oct / 10 Nov / 22 Dec 2025 pump days: 7.0M into Binance deposit `0xf0c1…`",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6 May 2025 pump day: DAO → Safe 0x4c3b → 0x640e → Binance deposit, 6.25M",
+      "url": "DAO → 0x4c3b",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6 May 2025 pump day: DAO → Safe 0x4c3b → 0x640e → Binance deposit, 6.25M",
+      "url": "→ 0x640e",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6 May 2025 pump day: DAO → Safe 0x4c3b → 0x640e → Binance deposit, 6.25M",
+      "url": "→ Binance 4.25M",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6 May 2025 pump day: DAO → Safe 0x4c3b → 0x640e → Binance deposit, 6.25M",
+      "url": "→ Binance 2.0M",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "21 Nov 2024 pump day: Treasury 1 → 0x4460 → Gate deposit",
+      "url": "T1 → 0x4460",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "21 Nov 2024 pump day: Treasury 1 → 0x4460 → Gate deposit",
+      "url": "→ Gate",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "21 Nov 2024 pump day: Treasury 1 → 0x4460 → Gate deposit",
+      "url": "0x9e65 → Gate",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch transfers: Treasury 1 → Gate 45.55M and Kraken 17.16M",
+      "url": "Gate",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch transfers: Treasury 1 → Gate 45.55M and Kraken 17.16M",
+      "url": "Kraken",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "SSF EOA → FalconX deposit 4.6M (2026)",
+      "url": "9 Jul",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "SSF EOA → FalconX deposit 4.6M (2026)",
+      "url": "29 Sep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "SSF EOA → FalconX deposit 4.6M (2026)",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe 0x58BE shares 3 of 5 signers with the DAO Safe; got 76.12M from the DAO",
+      "url": "0x58BE",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe 0x58BE shares 3 of 5 signers with the DAO Safe; got 76.12M from the DAO",
+      "url": "DAO Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe 0x58BE shares 3 of 5 signers with the DAO Safe; got 76.12M from the DAO",
+      "url": "transfer",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Genesis mint and the 2025 burn-and-remint of 76.12M",
+      "url": "genesis",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Genesis mint and the 2025 burn-and-remint of 76.12M",
+      "url": "burn/remint",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Issuance windows (~4–5%/yr) and rate 0 from 1 Oct 2026",
+      "url": "2024 schedule",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Issuance windows (~4–5%/yr) and rate 0 from 1 Oct 2026",
+      "url": "2025 schedule",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Issuance windows (~4–5%/yr) and rate 0 from 1 Oct 2026",
+      "url": "module code",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint only via timelocked Governor-added modules",
+      "url": "token impl code",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint only via timelocked Governor-added modules",
+      "url": "Governor",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $14.46M (1y), buybacks $2.96M (1y)",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026 5:27 AM MST"
+    },
+    {
+      "claim": "Disclosed MM loans (~2%, GSR/Keyrock/STS)",
+      "url": "filing",
+      "kind": "other",
+      "tier": "B + A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Disclosed MM loans (~2%, GSR/Keyrock/STS)",
+      "url": "0xa161 → GSR",
+      "kind": "other",
+      "tier": "B + A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x2c9f282067c5962c0a96719400b419add9e7293a",
+      "url": "https://etherscan.io/address/0x2c9f282067c5962c0a96719400b419add9e7293a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2efff88747eb5a3ff00d4d8d0f0800e306c0426b",
+      "url": "https://etherscan.io/address/0x2efff88747eb5a3ff00d4d8d0f0800e306c0426b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3fcdcc5bc5178c81738c176613818d9d2c7f7e1a",
+      "url": "https://etherscan.io/address/0x3fcdcc5bc5178c81738c176613818d9d2c7f7e1a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x446063e301d4a3a064b19562b0aacdc6c8f15626",
+      "url": "https://etherscan.io/address/0x446063e301d4a3a064b19562b0aacdc6c8f15626",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4c3b453652cc3dd5d004d594e216f44d7541ea61",
+      "url": "https://etherscan.io/address/0x4c3b453652cc3dd5d004d594e216f44d7541ea61",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x50371ecbbbf0ebf062da49e0cb314d1ef90dc5ae",
+      "url": "https://etherscan.io/address/0x50371EcBBbf0EbF062Da49E0Cb314d1eF90DC5ae",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x58be00490d6a5d298d61f24226d2397983ee39a1",
+      "url": "https://etherscan.io/address/0x58BE00490D6a5D298d61f24226d2397983Ee39A1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5dfe0460f66fa06bfcbb3211e723556be6b3f69d",
+      "url": "https://etherscan.io/address/0x5dfe0460f66fa06bfcbb3211e723556be6b3f69d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6400e01bc27e185fa74091df362c430252f7bb9c",
+      "url": "https://etherscan.io/address/0x6400e01bc27e185fa74091df362c430252f7bb9c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x640e8ccfd0e62e6f7da284c701746eab4cb3fb7d",
+      "url": "https://etherscan.io/address/0x640e8ccfd0e62e6f7da284c701746eab4cb3fb7d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x643c4e15d7d62ad0abec4a9bd4b001aa3ef52d66",
+      "url": "https://etherscan.io/address/0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6893f4df778358e6967ef899dc440ae20f9ba6bf",
+      "url": "https://etherscan.io/address/0x6893f4df778358e6967ef899dc440ae20f9ba6bf",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6a01c16eb312b80535f4799e4bf7522b715aacff",
+      "url": "https://etherscan.io/address/0x6a01c16eb312b80535f4799e4bf7522b715aacff",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6e50d3c6b659db780f21da84fa8194f437239ca6",
+      "url": "https://etherscan.io/address/0x6e50d3c6b659db780f21da84fa8194f437239ca6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6ed767ebcff51533e5181f7bf818f2b9bd767aec",
+      "url": "https://etherscan.io/address/0x6ed767ebcff51533e5181f7bf818f2b9bd767aec#code",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x77ab7d3d34b80f033f494f95683264690fdcd5b9",
+      "url": "https://etherscan.io/address/0x77ab7d3d34b80f033f494f95683264690fdcd5b9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7c982ebe651ee2169aed8fcb121f36a2c6b91e63",
+      "url": "https://etherscan.io/address/0x7c982ebe651ee2169aed8fcb121f36a2c6b91e63",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x99f03ca02b232dc124b62b8cf40b2bfd21eae9ca",
+      "url": "https://etherscan.io/address/0x99f03ca02b232dc124b62b8cf40b2bfd21eae9ca",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9c9499edd0cd2dcbc3c9dd5070baf54777ad8f2c",
+      "url": "https://etherscan.io/address/0x9c9499edd0cd2dcbc3c9dd5070baf54777ad8f2c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9cb93ceff896a3a9d333f3831272e59333a352aa",
+      "url": "https://etherscan.io/address/0x9CB93Ceff896a3A9D333f3831272e59333a352Aa",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9e6538212ca6afccb03e05d929fe415e6621cc28",
+      "url": "https://etherscan.io/address/0x9e6538212ca6afccb03e05d929fe415e6621cc28",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9e786e5e2ffe875cdeb3bdd34f932b9baed69423",
+      "url": "https://etherscan.io/address/0x9e786e5e2ffe875cdeb3bdd34f932b9baed69423",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa1612e876979768d208b8be6cdc2f85f1f5ff9a6",
+      "url": "https://etherscan.io/address/0xa1612e876979768d208b8be6cdc2f85f1f5ff9a6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa7cc8d3e64ea81670181b005a476d0ca46e4c1fc",
+      "url": "https://intel.arkm.com/explorer/address/0xa7cc8d3e64ea81670181b005a476d0ca46e4c1fc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaa58d64f9ca0d6436f903a4d590ad8e5982c8030",
+      "url": "https://etherscan.io/address/0xaa58d64f9ca0d6436f903a4d590ad8e5982c8030",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc7e8b36e0766d9b04c93de68a9d47dd11f260b45",
+      "url": "https://etherscan.io/address/0xc7E8b36E0766D9B04c93De68A9D47dD11f260B45",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xca31c9ef59a6ab45343f60968148c0ed07c39c59",
+      "url": "https://etherscan.io/address/0xCA31C9EF59a6Ab45343f60968148C0Ed07C39C59",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcf4cc9e56e123df65e34c66925914f2815efef96",
+      "url": "https://etherscan.io/address/0xcf4cc9e56e123df65e34c66925914f2815efef96",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd6d4bcde6c816f17889f1dd3000af0261b03a196",
+      "url": "https://etherscan.io/address/0xd6d4bcde6c816f17889f1dd3000af0261b03a196",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf0c1445a72d3f5f9355ef846ad8bb14b2e03db47",
+      "url": "https://etherscan.io/address/0xf0c1445a72d3f5f9355ef846ad8bb14b2e03db47",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes, treasury-labelled wallets (Etherscan 'Maple: Treasury 2', 'Maple: Treasury 1', 'Maple: DAO') funded wallets that put SYRUP into exchange deposit addresses on pump days: 7.0M into a Maple-used Binance deposit on 29 Oct, 10 Nov and 22 Dec 2025; 6.25M into a Binance deposit on the 6 May 2025 pump day; ~1.1M into Gate on 21 Nov 2024. Sales not provable on-chain; a market-maker loan program (~2% of supply) is disclosed"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn",
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": false,
+    "executed": true,
+    "inconsistent_with_score": true,
+    "notes": "Real revenue from institutional lending, cheap relative to the token's market cap, and a written rule that routes part of it into buybacks. It is not a 7+ business for holders yet: buybacks took only 13.6% of Q3 revenue (and 3.4% in H1 2026, per Alea), bought tokens are held in the treasury rather than burned, and Maple says buybacks \"are not a dividend\". Also, October revenue fell back under t..."
+  },
+  "attributions": [
+    {
+      "address": "0x58be00490d6a5d298d61f24226d2397983ee39a1",
+      "url": "https://intel.arkm.com/explorer/address/0x58be00490d6a5d298d61f24226d2397983ee39a1",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x99f03ca02b232dc124b62b8cf40b2bfd21eae9ca",
+      "url": "https://intel.arkm.com/explorer/address/0x99f03ca02b232dc124b62b8cf40b2bfd21eae9ca",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x50371ecbbbf0ebf062da49e0cb314d1ef90dc5ae",
+      "url": "https://intel.arkm.com/explorer/address/0x50371ecbbbf0ebf062da49e0cb314d1ef90dc5ae",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x3fcdcc5bc5178c81738c176613818d9d2c7f7e1a",
+      "url": "https://intel.arkm.com/explorer/address/0x3fcdcc5bc5178c81738c176613818d9d2c7f7e1a",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xca31c9ef59a6ab45343f60968148c0ed07c39c59",
+      "url": "https://intel.arkm.com/explorer/address/0xca31c9ef59a6ab45343f60968148c0ed07c39c59",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x640e8ccfd0e62e6f7da284c701746eab4cb3fb7d",
+      "url": "https://intel.arkm.com/explorer/address/0x640e8ccfd0e62e6f7da284c701746eab4cb3fb7d",
+      "label": "0x640e…` itself **Syrup.fi (Maple Finance)** ([Arkham](https://intel.arkm.com/e",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xcf4cc9e56e123df65e34c66925914f2815efef96",
+      "url": "https://intel.arkm.com/explorer/address/0xcf4cc9e56e123df65e34c66925914f2815efef96",
+      "label": "0x640e…` itself **Syrup.fi (Maple Finance)** ([Arkham](https://intel.arkm.com/e",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4c3b453652cc3dd5d004d594e216f44d7541ea61",
+      "url": "https://intel.arkm.com/explorer/address/0x4c3b453652cc3dd5d004d594e216f44d7541ea61",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa7cc8d3e64ea81670181b005a476d0ca46e4c1fc",
+      "url": "https://intel.arkm.com/explorer/address/0xa7cc8d3e64ea81670181b005a476d0ca46e4c1fc",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6893f4df778358e6967ef899dc440ae20f9ba6bf",
+      "url": "https://intel.arkm.com/explorer/address/0x6893f4df778358e6967ef899dc440ae20f9ba6bf",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x446063e301d4a3a064b19562b0aacdc6c8f15626",
+      "url": "https://intel.arkm.com/explorer/address/0x446063e301d4a3a064b19562b0aacdc6c8f15626",
+      "label": "~2% of SYRUP supply",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9e6538212ca6afccb03e05d929fe415e6621cc28",
+      "url": "https://intel.arkm.com/explorer/address/0x9e6538212ca6afccb03e05d929fe415e6621cc28",
+      "label": "~2% of SYRUP supply",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": true,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` full SYRUP history for Maple: Treasury, Treasury 1, Treasury 2, DAO, `0x58BE…`, `0x99f0…`, `0x4c3b…`, `0x3fcd…`, `0x6893…`, `0x6400…`, `0x640e…`, `0x4460…`, `0xa7cc…`, `0x9e65…`, `0xa161…`, `0x957d…`, the Migrator and every deposit address named; `getLogs` for mints, burns and module events; `getsourcecode` for the token, implementation and modules; read 16 Nov 2026 ~5:30–6:10 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC (publicnode): `globals()`, `governor()`, `mapleTreasury()`, `totalSupply()`, `currentIssuanceRate()`, Safe `getOwners()`/`getThreshold()`, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags read from address pages, 16 Nov 2026: \"Maple: Treasury\", \"Maple: Treasury 1\", \"Maple: Treasury 2\", \"Maple: DAO\", \"Maple: Governor\", \"Maple: Migrator\", \"Maple: Recapitalization Module\", \"Maple: Syrup Drip\", \"Gate Deposit\", \"Binance Deposit\", \"Binance 14\", \"Kraken 146\", \"FalconX Deposit\", \"FalconX 1\", \"GSR\", \"BingX 26\", \"Coinbase Prime 2\", \"Upbit Deposit\"",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout v2: top-50 holders and holder count, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama Maple](https://defillama.com/protocol/maple) fees, revenue, holders revenue, TVL, 16 Nov 2026 5:27 AM MST",
+      "urls": [
+        "DefiLlama Maple"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Maple Q3 2026 update](https://maple.finance/insights/maple-q3-ecosystem-update) · [Maple financials](https://maple.finance/transparency/financials) · [MIP-019](https://community.maple.finance/t/mip-019-activate-the-ssf-and-sunset-staking/1042) · [What SYRUP holders hold](https://maple.finance/insights/what-syrup-holders-actually-hold)",
+      "urls": [
+        "Maple Q3 2026 update",
+        "Maple financials",
+        "MIP-019",
+        "What SYRUP holders hold"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Blockworks Token Transparency filing](https://blockworks.com/token-transparency/filing/maple-finance/dc60bd1d-3554-4c92-9caf-82e8fc10d4c5) · [Alea Q3 2026 report](https://www.alearesearch.io/reports/benchmark/maple-q3-2026) · [TokenPost, 19 Oct 2026](https://www.tokenpost.com/news/business/35072) · [TokenPost, 11 Nov 2026](https://www.tokenpost.com/news/business/53791)",
+      "urls": [
+        "Blockworks Token Transparency filing",
+        "Alea Q3 2026 report",
+        "TokenPost, 19 Oct 2026",
+        "TokenPost, 11 Nov 2026"
+      ],
+      "date_read": "19 Oct 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:07–7:18 AM MST (signed-in account): Syrup.fi (Maple Finance) [0x640e…](https://intel.arkm.com/explorer/address/0x640e8ccfd0e62e6f7da284c701746eab4cb3fb7d), [0x99f0…](https://intel.arkm.com/explorer/address/0x99f03ca02b232dc124b62b8cf40b2bfd21eae9ca), [0xa7cc…](https://intel.arkm.com/explorer/address/0xa7cc8d3e64ea81670181b005a476d0ca46e4c1fc), [0x3fcd…](https://intel.arkm.com/explorer/address/0x3fcdcc5bc5178c81738c176613818d9d2c7f7e1a) · Maple Team Wallet Safe [0x4c3b…](https://intel.arkm.com/explorer/address/0x4c3b453652cc3dd5d004d594e216f44d7541ea61) · predicted-only Maple [0x6893…](https://intel.arkm.com/explorer/address/0x6893f4df778358e6967ef899dc440ae20f9ba6bf) · ParaFi Capital [0xCA31…](https://intel.arkm.com/explorer/address/0xca31c9ef59a6ab45343f60968148c0ed07c39c59) · Binance Deposit [0xcf4c…](https://intel.arkm.com/explorer/address/0xcf4cc9e56e123df65e34c66925914f2815efef96) · unnamed Safes [0x5037…](https://intel.arkm.com/explorer/address/0x50371ecbbbf0ebf062da49e0cb314d1ef90dc5ae), [0x58BE…](https://intel.arkm.com/explorer/address/0x58be00490d6a5d298d61f24226d2397983ee39a1) · unlabelled [0x4460…](https://intel.arkm.com/explorer/address/0x446063e301d4a3a064b19562b0aacdc6c8f15626), [0x9e65…](https://intel.arkm.com/explorer/address/0x9e6538212ca6afccb03e05d929fe415e6621cc28). Token filter is Enterprise-only; first transfer page only",
+      "urls": [
+        "0x640e…",
+        "0x99f0…",
+        "0xa7cc…",
+        "0x3fcd…",
+        "0x4c3b…",
+        "0x6893…",
+        "0xCA31…",
+        "0xcf4c…",
+        "0x5037…",
+        "0x58BE…",
+        "0x4460…",
+        "0x9e65…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `syrup` price and market data (16 Nov 2026 5:27 AM MST); Gate SYRUP/USDT daily candles (14 Nov 2024 – 16 Nov 2026)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owner of `0xCA31…` (109M; one Tier B label: ParaFi Capital), `0x5037…`, the shared Binance deposit `0xcf4c…` cluster; purpose of the Nov 2024 Gate/Kraken transfers and the 2026 FalconX sends; whether any pump-day deposit was sold",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

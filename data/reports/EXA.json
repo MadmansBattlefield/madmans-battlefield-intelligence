@@ -1,0 +1,500 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "EXA",
+  "name": "Exactly Protocol",
+  "chain": "optimism",
+  "contract": "0x1e925de1c68ef83bd98ee3e130ef14a50309c01b",
+  "overall_score": 3.1,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 1,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 3,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes: 18 Aug 2023 exploit; the DAO gave 1,000,000 EXA (10% of supply) to 117 affected users (EXAIP-03)",
+    "mint_path_live": "indirect: EXA is an upgradeable contract whose admin is the TimelockController (24h delay, 3-of-6 Safe executor), so supply rules can be changed by upgrade",
+    "team_wallet_to_exchange_during_pump": "no CEX deposit found (EXA has no CEX market); a team/investor Sablier-stream recipient sold ~200k EXA on DEXs, 8.9k of it on pump days in the last 12 months; Arkham shows a wallet fed by another stream recipient also selling into Velodrome pools",
+    "treasury_selling": "DAO treasury sent 500,000 EXA to a new wallet on 18 Mar 2025, described as the Uphold deal (EXAIP-21); Arkham does not label it Uphold, so that link stays [Unverified]; that wallet staked it; no treasury DEX selling found"
+  },
+  "price_usd": 0.06744,
+  "price_source": "CoinGecko, 16 Nov 2026 5:11 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.06744,
+    "market_cap_text": "$369.7",
+    "fdv_text": "$674",
+    "volume_24h_text": "$734"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/EXA.md",
+    "sha256": "f54f8079fd1a57cf25ba37ff8de002cb0fe7073425abec250e49c81548f5afd0",
+    "bytes": 22037,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:11 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:53–6:54 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "10M EXA from deployer to Safe, then 9.78M to Timelock",
+      "url": "mint/transfer",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10M EXA from deployer to Safe, then 9.78M to Timelock",
+      "url": "to Timelock",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Timelock is admin; EXA upgradeable; 3-of-6 Safe",
+      "url": "access control",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Timelock is admin; EXA upgradeable; 3-of-6 Safe",
+      "url": "Timelock",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "4.5M team/investor allocation in Sablier, 48 months from Jun 2024",
+      "url": "tokenomics",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "4.5M team/investor allocation in Sablier, 48 months from Jun 2024",
+      "url": "funding tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "4.5M team/investor allocation in Sablier, 48 months from Jun 2024",
+      "url": "streams",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Stream recipient sold on DEX on pump days",
+      "url": "26 Nov 2025",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Stream recipient sold on DEX on pump days",
+      "url": "22 Aug 2026",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Stream recipient sold on DEX on pump days",
+      "url": "wallet",
+      "kind": "other",
+      "tier": "A chain · identity [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "500k EXA from Timelock (Uphold deal)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A chain · recipient [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "500k EXA from Timelock (Uphold deal)",
+      "url": "tokenomics: EXAIP-21",
+      "kind": "other",
+      "tier": "A chain · recipient [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "500k EXA from Timelock (Uphold deal)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A chain · recipient [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x7665…` (372k from stream recipient `0xfb1e…`) sold EXA into Velodrome pools",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "B · dates not matched",
+      "date_read": "16 Nov 2026 ~6:54 AM MST"
+    },
+    {
+      "claim": "`0x7665…` (372k from stream recipient `0xfb1e…`) sold EXA into Velodrome pools",
+      "url": "wallet",
+      "kind": "other",
+      "tier": "B · dates not matched",
+      "date_read": "16 Nov 2026 ~6:54 AM MST"
+    },
+    {
+      "claim": "Revenue $37.2k, holders $0",
+      "url": "revenue",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $37.2k, holders $0",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2023 hack; 1M EXA to 117 users",
+      "url": "tokenomics: EXAIP-03",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "optimism",
+      "address": "0x1e925de1c68ef83bd98ee3e130ef14a50309c01b",
+      "url": "https://optimistic.etherscan.io/token/0x1e925de1c68ef83bd98ee3e130ef14a50309c01b",
+      "kind": "token"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x23fd464e0b0ee21cedeb929b19cabf9bd5215019",
+      "url": "https://optimistic.etherscan.io/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x598e7fc64331f80d1fc573ded1b9f2b660c05344",
+      "url": "https://optimistic.etherscan.io/address/0x598e7fc64331f80d1fc573ded1b9f2b660c05344",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x6f68516c21e248cddfaf4898e66b2b0adee0e0d6",
+      "url": "https://optimistic.etherscan.io/address/0x6f68516c21e248cddfaf4898e66b2b0adee0e0d6",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x749ad5e67f52e9885b33f6f6625574dddadb52ee",
+      "url": "https://optimistic.etherscan.io/address/0x749ad5e67f52e9885b33f6f6625574dddadb52ee",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x7665a96cce3049852853dcee382d8a2ad4958da9",
+      "url": "https://optimistic.etherscan.io/address/0x7665a96cce3049852853dcee382d8a2ad4958da9",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x8ed6dfe0e99aee74bb76f0b910691591de5c76e6",
+      "url": "https://optimistic.etherscan.io/address/0x8ed6dfe0e99aee74bb76f0b910691591de5c76e6",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0x92024c4bda9da602b711b9abb610d072018eb58b",
+      "url": "https://optimistic.etherscan.io/address/0x92024c4bda9da602b711b9abb610d072018eb58b",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xb923abdca17aed90eb5ec5e407bd37164f632bfd",
+      "url": "https://optimistic.etherscan.io/address/0xb923abdca17aed90eb5ec5e407bd37164f632bfd",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xbea586a167853adddef12818f264f1f9823fbc18",
+      "url": "https://optimistic.etherscan.io/address/0xbea586a167853adddef12818f264f1f9823fbc18",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xc0d6bc5d052d1e74523ad79dd5a954276c9286d3",
+      "url": "https://optimistic.etherscan.io/address/0xc0d6bc5d052d1e74523ad79dd5a954276c9286d3",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xceed2bfe740f02db6094ebe89ff93b1031be752b",
+      "url": "https://optimistic.etherscan.io/address/0xceed2bfe740f02db6094ebe89ff93b1031be752b",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xe61bdef3fff4c3cf7a07996dcb8802b5c85b665a",
+      "url": "https://optimistic.etherscan.io/address/0xe61bdef3fff4c3cf7a07996dcb8802b5c85b665a",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xf3c45b45223df6071a478851b9c17e0630fdf535",
+      "url": "https://optimistic.etherscan.io/address/0xf3c45b45223df6071a478851b9c17e0630fdf535",
+      "kind": "address"
+    },
+    {
+      "chain": "optimism",
+      "address": "0xfb1e9918fba266797e1191597b64ed6be1ee2728",
+      "url": "https://optimistic.etherscan.io/address/0xfb1e9918fba266797e1191597b64ed6be1ee2728",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: no CEX deposit found (EXA has no CEX market); a team/investor Sablier-stream recipient sold ~200k EXA on DEXs, 8.9k of it on pump days in the last 12 months; Arkham shows a wallet fed by another stream recipient also selling into Velodrome pools"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "fee_share"
+    ],
+    "automatic_onchain": null,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "Almost all interest goes to lenders. $37k a year of protocol revenue does not cover a development team, and none reaches EXA holders. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x6f68516c21e248cddfaf4898e66b2b0adee0e0d6",
+      "url": "https://intel.arkm.com/explorer/address/0x6f68516c21e248cddfaf4898e66b2b0adee0e0d6",
+      "label": "Sablier V2 Lockup Dynamic",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc0d6bc5d052d1e74523ad79dd5a954276c9286d3",
+      "url": "https://intel.arkm.com/explorer/address/0xc0d6bc5d052d1e74523ad79dd5a954276c9286d3",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official",
+        "explorer-link"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x598e7fc64331f80d1fc573ded1b9f2b660c05344",
+      "url": "https://intel.arkm.com/explorer/address/0x598e7fc64331f80d1fc573ded1b9f2b660c05344",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official",
+        "explorer-link"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xfb1e9918fba266797e1191597b64ed6be1ee2728",
+      "url": "https://intel.arkm.com/explorer/address/0xfb1e9918fba266797e1191597b64ed6be1ee2728",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7665a96cce3049852853dcee382d8a2ad4958da9",
+      "url": "https://intel.arkm.com/explorer/address/0x7665a96cce3049852853dcee382d8a2ad4958da9",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x749ad5e67f52e9885b33f6f6625574dddadb52ee",
+      "url": "https://intel.arkm.com/explorer/address/0x749ad5e67f52e9885b33f6f6625574dddadb52ee",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8ed6dfe0e99aee74bb76f0b910691591de5c76e6",
+      "url": "https://intel.arkm.com/explorer/address/0x8ed6dfe0e99aee74bb76f0b910691591de5c76e6",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x23fd464e0b0ee21cedeb929b19cabf9bd5215019",
+      "url": "https://intel.arkm.com/explorer/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] OP Mainnet via Blockscout API (explorer.optimism.io): EXA holders; full EXA transfers of the Timelock, owner Safe, initial Safe `0x23fd…`, Sablier Dynamic (942 rows), Sablier Linear, `0x598e…` and top stream recipients; contract names and creators; tx status for every linked tx; `totalSupply()` via OP RPC, 16 Nov 2026 ~6:00–7:00 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Exactly docs: [tokenomics](https://docs.exact.ly/governance/exactly-token-exa/tokenomics) · [access control](https://docs.exact.ly/security/access-control) · [contract addresses](https://docs.exact.ly/guides/smart-contract-addresses)",
+      "urls": [
+        "tokenomics",
+        "access control",
+        "contract addresses"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees/revenue/holders revenue and TVL (`exactly`); CoinGecko `exactly` market data and 365 daily prices (16 Nov 2026 5:11 AM MST)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:53–6:54 AM MST (signed-in account): Sablier V2 Lockup Dynamic [0x6f68…](https://intel.arkm.com/explorer/address/0x6f68516c21e248cddfaf4898e66b2b0adee0e0d6) (2.668M EXA) · Gnosis Safes with no entity [0x23fd…](https://intel.arkm.com/explorer/address/0x23fd464e0b0ee21cedeb929b19cabf9bd5215019), [0xC0d6…](https://intel.arkm.com/explorer/address/0xc0d6bc5d052d1e74523ad79dd5a954276c9286d3), [0x749a…](https://intel.arkm.com/explorer/address/0x749ad5e67f52e9885b33f6f6625574dddadb52ee) · unlabelled [0x8ed6…](https://intel.arkm.com/explorer/address/0x8ed6dfe0e99aee74bb76f0b910691591de5c76e6), [0xfb1e…](https://intel.arkm.com/explorer/address/0xfb1e9918fba266797e1191597b64ed6be1ee2728), [0x7665…](https://intel.arkm.com/explorer/address/0x7665a96cce3049852853dcee382d8a2ad4958da9) (sells into Velodrome pools) · `0x598e…` not labelled Uphold [0x598e…](https://intel.arkm.com/explorer/address/0x598e7fc64331f80d1fc573ded1b9f2b660c05344). Individual ENS names shown by Arkham are not reproduced. Token filter is Enterprise-only; first transfer page only",
+      "urls": [
+        "0x6f68…",
+        "0x23fd…",
+        "0xC0d6…",
+        "0x749a…",
+        "0x8ed6…",
+        "0xfb1e…",
+        "0x7665…",
+        "0x598e…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owners of stream recipients and of `0x598e…` (Uphold or not); hack dollar amount",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

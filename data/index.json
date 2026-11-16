@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 12:00 MST",
+  "generated_at": "2026-11-16 11:06 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -13,7 +13,21 @@
     "daily": "daily/",
     "banking_rails_cover": "banking-rails/COVER.md",
     "banking_rails_ranking": "banking-rails/RANKING.md",
-    "banking_rails_all_projects": "banking-rails/ALL-PROJECTS.md"
+    "banking_rails_all_projects": "banking-rails/ALL-PROJECTS.md",
+    "methodology": "METHODOLOGY.md",
+    "history": "HISTORY.md",
+    "base_rates": "BASE-RATES.md",
+    "dead": "DEAD.md",
+    "reproduce": "REPRODUCE.md",
+    "reconciliation_template": "RECONCILIATION.md",
+    "review_flags": "REVIEW-FLAGS.md",
+    "report_schema": "data/schema/report.v1.json",
+    "report_json_dir": "data/reports/",
+    "history_json": "data/history.json",
+    "base_rates_json": "data/base-rates.json",
+    "public_addresses": "data/public-addresses.json",
+    "dead_json": "data/dead.json",
+    "review_flags_json": "data/review-flags.json"
   },
   "daily_reports": [
     {
@@ -151,572 +165,686 @@
     {
       "id": "ADA",
       "path": "banking-rails/ADA.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ADA.json"
     },
     {
       "id": "AERO",
       "path": "banking-rails/AERO.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/AERO.json"
     },
     {
       "id": "ALGO",
       "path": "banking-rails/ALGO.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ALGO.json"
     },
     {
       "id": "AMP",
       "path": "banking-rails/AMP.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/AMP.json"
     },
     {
       "id": "API3",
       "path": "banking-rails/API3.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/API3.json"
     },
     {
       "id": "APT",
       "path": "banking-rails/APT.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/APT.json"
     },
     {
       "id": "ARB",
       "path": "banking-rails/ARB.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ARB.json"
     },
     {
       "id": "ASTR",
       "path": "banking-rails/ASTR.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ASTR.json"
     },
     {
       "id": "AVAX",
       "path": "banking-rails/AVAX.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/AVAX.json"
     },
     {
       "id": "AXL",
       "path": "banking-rails/AXL.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/AXL.json"
     },
     {
       "id": "BAND",
       "path": "banking-rails/BAND.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/BAND.json"
     },
     {
       "id": "BCH",
       "path": "banking-rails/BCH.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/BCH.json"
     },
     {
       "id": "BNKR",
       "path": "banking-rails/BNKR.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/BNKR.json"
     },
     {
       "id": "BP",
       "path": "banking-rails/BP.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/BP.json"
     },
     {
       "id": "BTC",
       "path": "banking-rails/BTC.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/BTC.json"
     },
     {
       "id": "BTT",
       "path": "banking-rails/BTT.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/BTT.json"
     },
     {
       "id": "CARDS",
       "path": "banking-rails/CARDS.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/CARDS.json"
     },
     {
       "id": "CC",
       "path": "banking-rails/CC.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/CC.json"
     },
     {
       "id": "CELO",
       "path": "banking-rails/CELO.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/CELO.json"
     },
     {
       "id": "CFG",
       "path": "banking-rails/CFG.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/CFG.json"
     },
     {
       "id": "CFX",
       "path": "banking-rails/CFX.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/CFX.json"
     },
     {
       "id": "COTI",
       "path": "banking-rails/COTI.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/COTI.json"
     },
     {
       "id": "CPOOL",
       "path": "banking-rails/CPOOL.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/CPOOL.json"
     },
     {
       "id": "CRO",
       "path": "banking-rails/CRO.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/CRO.json"
     },
     {
       "id": "CSPR",
       "path": "banking-rails/CSPR.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/CSPR.json"
     },
     {
       "id": "DASH",
       "path": "banking-rails/DASH.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/DASH.json"
     },
     {
       "id": "DOT",
       "path": "banking-rails/DOT.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/DOT.json"
     },
     {
       "id": "DUSK",
       "path": "banking-rails/DUSK.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/DUSK.json"
     },
     {
       "id": "EDEL",
       "path": "banking-rails/EDEL.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/EDEL.json"
     },
     {
       "id": "ENA",
       "path": "banking-rails/ENA.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ENA.json"
     },
     {
       "id": "ETC",
       "path": "banking-rails/ETC.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ETC.json"
     },
     {
       "id": "ETH",
       "path": "banking-rails/ETH.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ETH.json"
     },
     {
       "id": "EWT",
       "path": "banking-rails/EWT.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/EWT.json"
     },
     {
       "id": "EXA",
       "path": "banking-rails/EXA.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/EXA.json"
     },
     {
       "id": "FXS",
       "path": "banking-rails/FXS.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/FXS.json"
     },
     {
       "id": "H",
       "path": "banking-rails/H.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/H.json"
     },
     {
       "id": "HASH",
       "path": "banking-rails/HASH.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/HASH.json"
     },
     {
       "id": "HBAR",
       "path": "banking-rails/HBAR.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/HBAR.json"
     },
     {
       "id": "HONEY",
       "path": "banking-rails/HONEY.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/HONEY.json"
     },
     {
       "id": "HTX",
       "path": "banking-rails/HTX.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/HTX.json"
     },
     {
       "id": "HUMA",
       "path": "banking-rails/HUMA.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/HUMA.json"
     },
     {
       "id": "HYPER",
       "path": "banking-rails/HYPER.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/HYPER.json"
     },
     {
       "id": "ICP",
       "path": "banking-rails/ICP.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ICP.json"
     },
     {
       "id": "INJ",
       "path": "banking-rails/INJ.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/INJ.json"
     },
     {
       "id": "INV",
       "path": "banking-rails/INV.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/INV.json"
     },
     {
       "id": "IOTX",
       "path": "banking-rails/IOTX.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/IOTX.json"
     },
     {
       "id": "JASMY",
       "path": "banking-rails/JASMY.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/JASMY.json"
     },
     {
       "id": "JST",
       "path": "banking-rails/JST.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/JST.json"
     },
     {
       "id": "KAIA",
       "path": "banking-rails/KAIA.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/KAIA.json"
     },
     {
       "id": "KAIO",
       "path": "banking-rails/KAIO.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/KAIO.json"
     },
     {
       "id": "KAVA",
       "path": "banking-rails/KAVA.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/KAVA.json"
     },
     {
       "id": "LINK",
       "path": "banking-rails/LINK.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/LINK.json"
     },
     {
       "id": "MASQ",
       "path": "banking-rails/MASQ.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/MASQ.json"
     },
     {
       "id": "MBG",
       "path": "banking-rails/MBG.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/MBG.json"
     },
     {
       "id": "MNT",
       "path": "banking-rails/MNT.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/MNT.json"
     },
     {
       "id": "MOCA",
       "path": "banking-rails/MOCA.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/MOCA.json"
     },
     {
       "id": "NIGHT",
       "path": "banking-rails/NIGHT.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/NIGHT.json"
     },
     {
       "id": "OM",
       "path": "banking-rails/OM.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/OM.json"
     },
     {
       "id": "ONDO",
       "path": "banking-rails/ONDO.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ONDO.json"
     },
     {
       "id": "PACT",
       "path": "banking-rails/PACT.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/PACT.json"
     },
     {
       "id": "PHA",
       "path": "banking-rails/PHA.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/PHA.json"
     },
     {
       "id": "PLUME",
       "path": "banking-rails/PLUME.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/PLUME.json"
     },
     {
       "id": "POLYX",
       "path": "banking-rails/POLYX.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/POLYX.json"
     },
     {
       "id": "PROPC",
       "path": "banking-rails/PROPC.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/PROPC.json"
     },
     {
       "id": "PUNDIX",
       "path": "banking-rails/PUNDIX.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/PUNDIX.json"
     },
     {
       "id": "QNT",
       "path": "banking-rails/QNT.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/QNT.json"
     },
     {
       "id": "QUAI",
       "path": "banking-rails/QUAI.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/QUAI.json"
     },
     {
       "id": "RED",
       "path": "banking-rails/RED.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/RED.json"
     },
     {
       "id": "REQ",
       "path": "banking-rails/REQ.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/REQ.json"
     },
     {
       "id": "REUSD",
       "path": "banking-rails/REUSD.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/REUSD.json"
     },
     {
       "id": "RLC",
       "path": "banking-rails/RLC.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/RLC.json"
     },
     {
       "id": "ROSE",
       "path": "banking-rails/ROSE.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ROSE.json"
     },
     {
       "id": "ROUTER",
       "path": "banking-rails/ROUTER.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ROUTER.json"
     },
     {
       "id": "RVN",
       "path": "banking-rails/RVN.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/RVN.json"
     },
     {
       "id": "S",
       "path": "banking-rails/S.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/S.json"
     },
     {
       "id": "SEI",
       "path": "banking-rails/SEI.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SEI.json"
     },
     {
       "id": "SERV",
       "path": "banking-rails/SERV.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SERV.json"
     },
     {
       "id": "SHARE",
       "path": "banking-rails/SHARE.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SHARE.json"
     },
     {
       "id": "SHX",
       "path": "banking-rails/SHX.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SHX.json"
     },
     {
       "id": "SKY",
       "path": "banking-rails/SKY.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SKY.json"
     },
     {
       "id": "SOL",
       "path": "banking-rails/SOL.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SOL.json"
     },
     {
       "id": "SOLV",
       "path": "banking-rails/SOLV.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SOLV.json"
     },
     {
       "id": "SPA",
       "path": "banking-rails/SPA.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SPA.json"
     },
     {
       "id": "STBL",
       "path": "banking-rails/STBL.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/STBL.json"
     },
     {
       "id": "SUI",
       "path": "banking-rails/SUI.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SUI.json"
     },
     {
       "id": "SWCH",
       "path": "banking-rails/SWCH.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SWCH.json"
     },
     {
       "id": "SYRUP",
       "path": "banking-rails/SYRUP.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/SYRUP.json"
     },
     {
       "id": "TAO",
       "path": "banking-rails/TAO.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/TAO.json"
     },
     {
       "id": "TFUEL",
       "path": "banking-rails/TFUEL.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/TFUEL.json"
     },
     {
       "id": "TLOS",
       "path": "banking-rails/TLOS.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/TLOS.json"
     },
     {
       "id": "TRAC",
       "path": "banking-rails/TRAC.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/TRAC.json"
     },
     {
       "id": "TRB",
       "path": "banking-rails/TRB.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/TRB.json"
     },
     {
       "id": "VELO",
       "path": "banking-rails/VELO.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/VELO.json"
     },
     {
       "id": "W",
       "path": "banking-rails/W.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/W.json"
     },
     {
       "id": "WAN",
       "path": "banking-rails/WAN.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/WAN.json"
     },
     {
       "id": "XDB",
       "path": "banking-rails/XDB.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/XDB.json"
     },
     {
       "id": "XDC",
       "path": "banking-rails/XDC.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/XDC.json"
     },
     {
       "id": "XLM",
       "path": "banking-rails/XLM.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/XLM.json"
     },
     {
       "id": "XMR",
       "path": "banking-rails/XMR.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/XMR.json"
     },
     {
       "id": "XPL",
       "path": "banking-rails/XPL.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/XPL.json"
     },
     {
       "id": "XRP",
       "path": "banking-rails/XRP.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/XRP.json"
     },
     {
       "id": "XVG",
       "path": "banking-rails/XVG.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/XVG.json"
     },
     {
       "id": "YELLOW",
       "path": "banking-rails/YELLOW.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/YELLOW.json"
     },
     {
       "id": "ZAMA",
       "path": "banking-rails/ZAMA.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ZAMA.json"
     },
     {
       "id": "ZANO",
       "path": "banking-rails/ZANO.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ZANO.json"
     },
     {
       "id": "ZBCN",
       "path": "banking-rails/ZBCN.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ZBCN.json"
     },
     {
       "id": "ZEC",
       "path": "banking-rails/ZEC.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ZEC.json"
     },
     {
       "id": "ZEN",
       "path": "banking-rails/ZEN.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ZEN.json"
     },
     {
       "id": "ZIG",
       "path": "banking-rails/ZIG.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ZIG.json"
     },
     {
       "id": "ZK",
       "path": "banking-rails/ZK.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ZK.json"
     },
     {
       "id": "ZKC",
       "path": "banking-rails/ZKC.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ZKC.json"
     },
     {
       "id": "ZKP",
       "path": "banking-rails/ZKP.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ZKP.json"
     },
     {
       "id": "ZRO",
       "path": "banking-rails/ZRO.md",
-      "layout": "v3"
+      "layout": "v3",
+      "json": "data/reports/ZRO.json"
     },
     {
       "id": "other-tokens",
       "path": "banking-rails/other-tokens.md",
       "layout": "v2-stubs"
     }
-  ]
+  ],
+  "scored_reports": 113
 }

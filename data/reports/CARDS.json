@@ -1,0 +1,724 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "CARDS",
+  "name": "Collector Crypt",
+  "chain": "solana",
+  "contract": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+  "overall_score": 4.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 5,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 5,
+    "product_development": 6,
+    "adoption_customers": 7,
+    "security_audits": 5,
+    "regulatory": 4,
+    "catalysts": 4
+  },
+  "sections_passed": 2,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "mint_path_live": "no (mintAuthority and freezeAuthority are null, read 16 Nov 2026)",
+    "team_wallet_to_exchange_during_pump": "not proven (no treasury CARDS reached a labelled exchange on a pump day in the wallets traced)",
+    "treasury_to_exchange": "yes, not a pump day (treasury multisig -> fresh relay 4JTA… -> Coinbase deposit -> Coinbase hot wallet, 7,000,000 CARDS, 6 Nov 2026; no disclosure found)",
+    "treasury_to_market_maker": "yes, undisclosed: 60M CARDS from treasury-funded cards.sol (redFW…) went 8Qvd… -> 2asR… -> Fireblocks custody 6rQG…, which sends 0.4–2M lots to GSR Markets custody (Arkham, Tier B); pump-day timing not tested",
+    "treasury_pump_day_outflows": "14 Jun 2026 (9.5M via a multisig signer to a reward-claim vault) and 5 Oct 2026 (1.25M to unlabelled DFEstp…, onward owner [Unverified])"
+  },
+  "price_usd": 0.1496,
+  "price_source": "CoinGecko, 16 Nov 2026 5:08 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.1496,
+    "market_cap_text": "$133.3M",
+    "fdv_text": "$295.2M",
+    "volume_24h_text": "$4.66M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/CARDS.md",
+    "sha256": "a3764afbfe5f29260686bd2312d5861bc4a175cbbc5ba37ed3b8fa6327a88aed",
+    "bytes": 32467,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:08 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:35–6:40 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Mint and freeze authority revoked; supply 1,972,174,887",
+      "url": "mint",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury, buyback wallet and allocations are the company's",
+      "url": "tokenomics page",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury, buyback wallet and allocations are the company's",
+      "url": "treasury",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury, buyback wallet and allocations are the company's",
+      "url": "buyback",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → 4JTA → Coinbase deposit → Coinbase hot wallet, 7M, 3–6 Nov 2026",
+      "url": "test",
+      "kind": "other",
+      "tier": "A chain + B label (Nansen)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → 4JTA → Coinbase deposit → Coinbase hot wallet, 7M, 3–6 Nov 2026",
+      "url": "6,999,900",
+      "kind": "other",
+      "tier": "A chain + B label (Nansen)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → 4JTA → Coinbase deposit → Coinbase hot wallet, 7M, 3–6 Nov 2026",
+      "url": "→ E1t8",
+      "kind": "other",
+      "tier": "A chain + B label (Nansen)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → 4JTA → Coinbase deposit → Coinbase hot wallet, 7M, 3–6 Nov 2026",
+      "url": "→ H8sM",
+      "kind": "other",
+      "tier": "A chain + B label (Nansen)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "14 Jun 2026 pump day: 9.5M treasury → HWPR → reward vault",
+      "url": "→ HWPR",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "14 Jun 2026 pump day: 9.5M treasury → HWPR → reward vault",
+      "url": "→ 3CRv",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "28 Sep 2026: Streamflow streams cancelled and re-created by the multisig",
+      "url": "cancel",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "28 Sep 2026: Streamflow streams cancelled and re-created by the multisig",
+      "url": "create",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "5 Oct 2026 pump day: 1.25M treasury → DFEs",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch LP: 40M CARDS sold through the range in a week",
+      "url": "open",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Launch LP: 40M CARDS sold through the range in a week",
+      "url": "close",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Monthly 1.1875M payments from cards.sol to 7AMz (incl. pump days)",
+      "url": "27 May",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Monthly 1.1875M payments from cards.sol to 7AMz (incl. pump days)",
+      "url": "15 Aug",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Relay `4JTA…` and `HX4q…` first-funded by the \"CARDS Treasury\" vault; `E1t8…` is a Coinbase deposit",
+      "url": "Arkham 4JTA…",
+      "kind": "other",
+      "tier": "B (Arkham) + A chain",
+      "date_read": "16 Nov 2026 ~6:35 AM MST"
+    },
+    {
+      "claim": "Relay `4JTA…` and `HX4q…` first-funded by the \"CARDS Treasury\" vault; `E1t8…` is a Coinbase deposit",
+      "url": "Arkham HX4q…",
+      "kind": "other",
+      "tier": "B (Arkham) + A chain",
+      "date_read": "16 Nov 2026 ~6:35 AM MST"
+    },
+    {
+      "claim": "60M `cards.sol` branch ends at Fireblocks custody that sends to GSR Markets",
+      "url": "`8Qvd…`",
+      "kind": "other",
+      "tier": "A chain + B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "60M `cards.sol` branch ends at Fireblocks custody that sends to GSR Markets",
+      "url": "Arkham 2asR…",
+      "kind": "other",
+      "tier": "A chain + B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "60M `cards.sol` branch ends at Fireblocks custody that sends to GSR Markets",
+      "url": "Arkham 6rQG…",
+      "kind": "other",
+      "tier": "A chain + B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "`7AMz…` is Fireblocks custody",
+      "url": "Arkham 7AMz…",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~6:37 AM MST"
+    },
+    {
+      "claim": "Revenue $106.24M 12m; holders $471K",
+      "url": "revenue",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $106.24M 12m; holders $471K",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "solana",
+      "address": "2asR4HQHhZrMHq4vGykzSHhRqhMZq9Q6C6Wb3JKgjg55",
+      "url": "https://solscan.io/account/2asR4HQHhZrMHq4vGykzSHhRqhMZq9Q6C6Wb3JKgjg55",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "3CRvVY8NJcgEFwoFTay4ykiRDwFKwNuMxw8wNt5qDZjP",
+      "url": "https://solscan.io/account/3CRvVY8NJcgEFwoFTay4ykiRDwFKwNuMxw8wNt5qDZjP",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "3PnVBrb4wPLFLW38oaYR7dA6HSfKpawxHGESPj5kF1QB",
+      "url": "https://solscan.io/account/3PnVBrb4wPLFLW38oaYR7dA6HSfKpawxHGESPj5kF1QB",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "3nGNwiz1qevPjhEoQi1dLj16oTkjmbevTnpV9piWY7Kq",
+      "url": "https://solscan.io/account/3nGNwiz1qevPjhEoQi1dLj16oTkjmbevTnpV9piWY7Kq",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "4JTAa4ZbKKQuVef229Y54S26JXNzdb6GknpAYDL7Ajnq",
+      "url": "https://solscan.io/account/4JTAa4ZbKKQuVef229Y54S26JXNzdb6GknpAYDL7Ajnq",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "4ZKiZi8Mh3jkkvjZY918PRSBeAeu6zSU5Q4fdPUJ2GL9",
+      "url": "https://solscan.io/account/4ZKiZi8Mh3jkkvjZY918PRSBeAeu6zSU5Q4fdPUJ2GL9",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "4xkDss3j27G9JNqDnyhrzFkwfsQHFfi5FC31UfnHxog7",
+      "url": "https://solscan.io/account/4xkDss3j27G9JNqDnyhrzFkwfsQHFfi5FC31UfnHxog7",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "6UJ9q432L57njSHPYGaQ7CqW5CTxrcDMpU3z9gpdH4SF",
+      "url": "https://intel.arkm.com/explorer/address/6UJ9q432L57njSHPYGaQ7CqW5CTxrcDMpU3z9gpdH4SF",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "6rQG31K3k9ZSDPV53hApWLoFagBbH6BnjcMk4vQbD37o",
+      "url": "https://solscan.io/account/6rQG31K3k9ZSDPV53hApWLoFagBbH6BnjcMk4vQbD37o",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "7AMzq99oGa6ittsSWueJbu2yUmamxPmNqd8Dm2Ai5i8j",
+      "url": "https://solscan.io/account/7AMzq99oGa6ittsSWueJbu2yUmamxPmNqd8Dm2Ai5i8j",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "8QvdxiBP43edFfXCoRV1saVZAJ6iddzqH2Ys99fdKwyq",
+      "url": "https://solscan.io/account/8QvdxiBP43edFfXCoRV1saVZAJ6iddzqH2Ys99fdKwyq",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "96cJVtxcPYeJ5doebfV3RqJMB1xg1d1tRAAiDAsZ2do4",
+      "url": "https://solscan.io/account/96cJVtxcPYeJ5doebfV3RqJMB1xg1d1tRAAiDAsZ2do4",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "Av47AL9pfDcUN9m4iLfdbeyZWbmhFWHJSPeEse5MzyZz",
+      "url": "https://solscan.io/account/Av47AL9pfDcUN9m4iLfdbeyZWbmhFWHJSPeEse5MzyZz",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "BAxTk97HsaJqbnbFmTiQTaL4KSRvJ8Y65ArZCsP6vA5M",
+      "url": "https://solscan.io/account/BAxTk97HsaJqbnbFmTiQTaL4KSRvJ8Y65ArZCsP6vA5M",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "url": "https://solscan.io/token/CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+      "kind": "token"
+    },
+    {
+      "chain": "solana",
+      "address": "CcM9FGcjo7hS1ZoiCXxM6cUVfiGrDV3qMDYGCbdmmSWj",
+      "url": "https://solscan.io/account/CcM9FGcjo7hS1ZoiCXxM6cUVfiGrDV3qMDYGCbdmmSWj",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "DFEstpYN3fsz93AC9v2ujzPPngPgodqH2xxopuyfSsAE",
+      "url": "https://solscan.io/account/DFEstpYN3fsz93AC9v2ujzPPngPgodqH2xxopuyfSsAE",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "E1t8AdPqfFAkzdaTNivZ9jHBqDUfhZnCMd4o1H6h82U1",
+      "url": "https://solscan.io/account/E1t8AdPqfFAkzdaTNivZ9jHBqDUfhZnCMd4o1H6h82U1",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "EEaezt3okKxvrxVNxyhsZyLcYotYokievV6MA2B572ea",
+      "url": "https://solscan.io/account/EEaezt3okKxvrxVNxyhsZyLcYotYokievV6MA2B572ea",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "H8sMJSCQxfKiFTCfDR3DUMLPwcRbM61LGFJ8N4dK3WjS",
+      "url": "https://solscan.io/account/H8sMJSCQxfKiFTCfDR3DUMLPwcRbM61LGFJ8N4dK3WjS",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "HWPRgtDGpBm8mByTGS57BWCsijMo53qPPSbskWDukfTc",
+      "url": "https://solscan.io/account/HWPRgtDGpBm8mByTGS57BWCsijMo53qPPSbskWDukfTc",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "HX4qRBbEVp7xo6AdKc5mS4y9CoL5Sbku8HtDKmQqZYMg",
+      "url": "https://solscan.io/account/HX4qRBbEVp7xo6AdKc5mS4y9CoL5Sbku8HtDKmQqZYMg",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+      "url": "https://solscan.io/account/HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "redFWCNFJDg86S3CAbuGGjAr9hQCimcr7xz7v3oEpuj",
+      "url": "https://intel.arkm.com/explorer/address/redFWCNFJDg86S3CAbuGGjAr9hQCimcr7xz7v3oEpuj",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "unclear",
+    "selling_not_proven": true,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven (no treasury CARDS reached a labelled exchange on a pump day in the wallets traced)",
+      "treasury_to_exchange: yes, not a pump day (treasury multisig -> fresh relay 4JTA… -> Coinbase deposit -> Coinbase hot wallet, 7,000,000 CARDS, 6 Nov 2026; no disclosure found)",
+      "treasury_to_market_maker: yes, undisclosed: 60M CARDS from treasury-funded cards.sol (redFW…) went 8Qvd… -> 2asR… -> Fireblocks custody 6rQG…, which sends 0.4–2M lots to GSR Markets custody (Arkham, Tier B); pump-day timing not tested",
+      "treasury_pump_day_outflows: 14 Jun 2026 (9.5M via a multisig signer to a reward-claim vault) and 5 Oct 2026 (1.25M to unlabelled DFEstp…, onward owner [Unverified])"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "burn",
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": true,
+    "notes": "The business is real and growing, and it earns more than most tokens on this list. The token gets almost none of it: holders received about **$1 for every $225** the company kept, and nothing obliges the company to keep buying. That is better than a token with no business (QNT scored 4 for an optional, unmeasured sink), so **5**, but well short of a pass."
+  },
+  "attributions": [
+    {
+      "address": "4JTAa4ZbKKQuVef229Y54S26JXNzdb6GknpAYDL7Ajnq",
+      "url": "https://intel.arkm.com/explorer/address/4JTAa4ZbKKQuVef229Y54S26JXNzdb6GknpAYDL7Ajnq",
+      "label": "CARDS Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "DFEstpYN3fsz93AC9v2ujzPPngPgodqH2xxopuyfSsAE",
+      "url": "https://intel.arkm.com/explorer/address/DFEstpYN3fsz93AC9v2ujzPPngPgodqH2xxopuyfSsAE",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "6UJ9q432L57njSHPYGaQ7CqW5CTxrcDMpU3z9gpdH4SF",
+      "url": "https://intel.arkm.com/explorer/address/6UJ9q432L57njSHPYGaQ7CqW5CTxrcDMpU3z9gpdH4SF",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "7AMzq99oGa6ittsSWueJbu2yUmamxPmNqd8Dm2Ai5i8j",
+      "url": "https://intel.arkm.com/explorer/address/7AMzq99oGa6ittsSWueJbu2yUmamxPmNqd8Dm2Ai5i8j",
+      "label": "7AMz…` a **Fireblocks Custody** wallet; it also sent 100K CARDS to a KuCoin dep",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "4ZKiZi8Mh3jkkvjZY918PRSBeAeu6zSU5Q4fdPUJ2GL9",
+      "url": "https://intel.arkm.com/explorer/address/4ZKiZi8Mh3jkkvjZY918PRSBeAeu6zSU5Q4fdPUJ2GL9",
+      "label": "CARDS Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "redFWCNFJDg86S3CAbuGGjAr9hQCimcr7xz7v3oEpuj",
+      "url": "https://intel.arkm.com/explorer/address/redFWCNFJDg86S3CAbuGGjAr9hQCimcr7xz7v3oEpuj",
+      "label": "CARDS Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "2asR4HQHhZrMHq4vGykzSHhRqhMZq9Q6C6Wb3JKgjg55",
+      "url": "https://intel.arkm.com/explorer/address/2asR4HQHhZrMHq4vGykzSHhRqhMZq9Q6C6Wb3JKgjg55",
+      "label": "6rQG…` **Fireblocks Custody** and shows it sending CARDS in 0.4–2M lots to **GS",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "6rQG31K3k9ZSDPV53hApWLoFagBbH6BnjcMk4vQbD37o",
+      "url": "https://intel.arkm.com/explorer/address/6rQG31K3k9ZSDPV53hApWLoFagBbH6BnjcMk4vQbD37o",
+      "label": "6rQG…` **Fireblocks Custody** and shows it sending CARDS in 0.4–2M lots to **GS",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "HX4qRBbEVp7xo6AdKc5mS4y9CoL5Sbku8HtDKmQqZYMg",
+      "url": "https://intel.arkm.com/explorer/address/HX4qRBbEVp7xo6AdKc5mS4y9CoL5Sbku8HtDKmQqZYMg",
+      "label": "CARDS Treasury",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "BAxTk97HsaJqbnbFmTiQTaL4KSRvJ8Y65ArZCsP6vA5M",
+      "url": "https://intel.arkm.com/explorer/address/BAxTk97HsaJqbnbFmTiQTaL4KSRvJ8Y65ArZCsP6vA5M",
+      "label": "CCRaffle",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "HWPRgtDGpBm8mByTGS57BWCsijMo53qPPSbskWDukfTc",
+      "url": "https://intel.arkm.com/explorer/address/HWPRgtDGpBm8mByTGS57BWCsijMo53qPPSbskWDukfTc",
+      "label": "CCRaffle",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "CcM9FGcjo7hS1ZoiCXxM6cUVfiGrDV3qMDYGCbdmmSWj",
+      "url": "https://intel.arkm.com/explorer/address/CcM9FGcjo7hS1ZoiCXxM6cUVfiGrDV3qMDYGCbdmmSWj",
+      "label": "CollectorTrex",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "96cJVtxcPYeJ5doebfV3RqJMB1xg1d1tRAAiDAsZ2do4",
+      "url": "https://intel.arkm.com/explorer/address/96cJVtxcPYeJ5doebfV3RqJMB1xg1d1tRAAiDAsZ2do4",
+      "label": "CARDS Treasury",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "8QvdxiBP43edFfXCoRV1saVZAJ6iddzqH2Ys99fdKwyq",
+      "url": "https://intel.arkm.com/explorer/address/8QvdxiBP43edFfXCoRV1saVZAJ6iddzqH2Ys99fdKwyq",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": true,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone.",
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Solana RPC (mainnet-beta, publicnode): `getAccountInfo` for the mint, `getTokenSupply`, full signature history and parsed transactions for the treasury token account `DgiH…` (349 tx), `5iVa…` (cards.sol, 188 tx), `HWPR…`, `4JTA…`, `E1t8…`, read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [collectorcrypt.com/tokenomics](https://collectorcrypt.com/tokenomics): allocation, unlocks, treasury and buyback addresses, burn list (last updated 3 Nov 2026)",
+      "urls": [
+        "collectorcrypt.com/tokenomics"
+      ],
+      "date_read": "3 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] SNS resolver: `cards.sol` → `3PnV…`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `collector-crypt` fees, revenue and holders revenue, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `collector-crypt` price, market data and 365-day closes, 16 Nov 2026 5:08 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Nansen API, read 16 Nov 2026 ~5:20–5:50 AM MST: labels for `E1t8…` (Coinbase), `H8sM…` (Coinbase: Hot Wallet), `Hnhp…` (Raydium pool), `redFW…` (cards.sol); counterparty totals for 16 wallets; top-30 holders",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:35–6:40 AM MST (signed-in account): \"CARDS Treasury\" vault as first funder of [4JTA…](https://intel.arkm.com/explorer/address/4JTAa4ZbKKQuVef229Y54S26JXNzdb6GknpAYDL7Ajnq), [HX4q…](https://intel.arkm.com/explorer/address/HX4qRBbEVp7xo6AdKc5mS4y9CoL5Sbku8HtDKmQqZYMg) and the escrow [96cJ…](https://intel.arkm.com/explorer/address/96cJVtxcPYeJ5doebfV3RqJMB1xg1d1tRAAiDAsZ2do4); Fireblocks Custody on [7AMz…](https://intel.arkm.com/explorer/address/7AMzq99oGa6ittsSWueJbu2yUmamxPmNqd8Dm2Ai5i8j) and [6rQG…](https://intel.arkm.com/explorer/address/6rQG31K3k9ZSDPV53hApWLoFagBbH6BnjcMk4vQbD37o) (the latter sending to GSR Markets custody); Coinbase Deposit on `E1t8…`; no owner label on [redFW…](https://intel.arkm.com/explorer/address/redFWCNFJDg86S3CAbuGGjAr9hQCimcr7xz7v3oEpuj), [CcM9…](https://intel.arkm.com/explorer/address/CcM9FGcjo7hS1ZoiCXxM6cUVfiGrDV3qMDYGCbdmmSWj), [8Qvd…](https://intel.arkm.com/explorer/address/8QvdxiBP43edFfXCoRV1saVZAJ6iddzqH2Ys99fdKwyq), [2asR…](https://intel.arkm.com/explorer/address/2asR4HQHhZrMHq4vGykzSHhRqhMZq9Q6C6Wb3JKgjg55), [DFEs…](https://intel.arkm.com/explorer/address/DFEstpYN3fsz93AC9v2ujzPPngPgodqH2xxopuyfSsAE), [6UJ9…](https://intel.arkm.com/explorer/address/6UJ9q432L57njSHPYGaQ7CqW5CTxrcDMpU3z9gpdH4SF), [BAxT…](https://intel.arkm.com/explorer/address/BAxTk97HsaJqbnbFmTiQTaL4KSRvJ8Y65ArZCsP6vA5M). Arkham's token filter is Enterprise-only, so counterparties come from the default first page and dates are relative.",
+      "urls": [
+        "4JTA…",
+        "HX4q…",
+        "96cJ…",
+        "7AMz…",
+        "6rQG…",
+        "redFW…",
+        "CcM9…",
+        "8Qvd…",
+        "2asR…",
+        "DFEs…",
+        "6UJ9…",
+        "BAxT…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Vestream](https://www.vestream.io/token/101/CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp) (346.79M locked on Streamflow) · [Streamflow case study](https://streamflow.finance/case-studies/collector-crypt)",
+      "urls": [
+        "Vestream",
+        "Streamflow case study"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] purpose of the 7M Coinbase transfer and the GSR route; multisig threshold; owners of `DFEs…`, `6UJ9…`, `CcM9…`, `7AMz…`/`4ZKi…`, `8Qvd…`/`2asR…`/`6rQG…` (custodian known, owner not); legal entity",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

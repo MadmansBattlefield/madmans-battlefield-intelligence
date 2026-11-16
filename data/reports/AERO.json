@@ -1,0 +1,357 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "AERO",
+  "name": "Aero (Aerodrome + Velodrome merger)",
+  "chain": "base",
+  "contract": "0x3f5bF3EdAc59d650D8fDf9657a71F2f904A3a4Ee",
+  "overall_score": 6.6,
+  "overall_verdict": "PASS",
+  "section_scores": {
+    "revenue": 8,
+    "foundation_team": 5,
+    "insider_holdings": 6,
+    "selling_behavior": 6,
+    "tokenomics_supply": 5,
+    "liquidity_market": 9,
+    "product_development": 8,
+    "adoption_customers": 7,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 7,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 8,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none_found",
+    "team_sale_into_pump": "not_found_12_months_traced",
+    "migration_budget_burn_by_owner": "possible_not_used",
+    "emissions_above_revenue": "borderline (~$1.9M/week minted vs ~$1.7M/week paid to stakers)"
+  },
+  "price_usd": 0.4427,
+  "price_source": "CoinGecko (tracks legacy contract; new-token DEX price $0.4416), 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {
+    "not_to_be_confused_with": "Legacy Aerodrome AERO 0x9401…8631 (pre-upgrade token, still trades)",
+    "legacy_contract": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "chain_read_block": 57475111
+  },
+  "key_numbers": {
+    "price_usd": 0.4427,
+    "market_cap_text": "$121.1M",
+    "fdv_text": "$889.2M",
+    "volume_24h_text": "$27.1M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/AERO.md",
+    "sha256": "8823eb4a433b9ce93a06282676aa01a13c218866472beeaeac1dbe38af2c8031",
+    "bytes": 25799,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko (tracks legacy contract; new-token DEX price $0.4416), 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:00 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:00 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Team Safe `0xbde0…` is Aero's team wallet (legacy Minter `team` + Arkham \"Aerodrome Foundation and Incentives\")",
+      "url": "Basescan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~11:00 AM MST"
+    },
+    {
+      "claim": "Team Safe `0xbde0…` is Aero's team wallet (legacy Minter `team` + Arkham \"Aerodrome Foundation and Incentives\")",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~11:00 AM MST"
+    },
+    {
+      "claim": "22 Oct 2026: team Safe upgraded 3,877,587 legacy AERO 1:1 via AerodromeMigration (not a sale)",
+      "url": "migration tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "22 Oct 2026: team Safe upgraded 3,877,587 legacy AERO 1:1 via AerodromeMigration (not a sale)",
+      "url": "AerodromeMigration",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "22 Oct 2026: 186,512 AERO from the Velodrome entry",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Only outflow of new AERO since migrating: 9 AERO",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "11 Mar / 22 Jun 2026 legacy sends were veAERO locks; 17 Jul 0.4M to two unlabeled wallets",
+      "url": "team Safe token transfers",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Migration owner Safe `0x4225…` (3/7) controls `pause()` / `burnRemaining()` on 314.7M unclaimed AERO",
+      "url": "owner Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Migration owner Safe `0x4225…` (3/7) controls `pause()` / `burnRemaining()` on 314.7M unclaimed AERO",
+      "url": "migration contract",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "New-token supply 2,141,606,727 (+14.61M in 24 days, ~10%/yr pace)",
+      "url": "new AERO token (Basescan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "New-token supply 2,141,606,727 (+14.61M in 24 days, ~10%/yr pace)",
+      "url": "aero.xyz/economics",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "1,076,771,313 AERO staked as sAERO (50.3%)",
+      "url": "VotingEscrow",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "base",
+      "address": "0x22a2f7340a3fb4c7c389d91ee954766b12476721",
+      "url": "https://basescan.org/address/0x22a2f7340a3fb4c7c389d91ee954766b12476721",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
+      "url": "https://basescan.org/address/0x3f5bF3EdAc59d650D8fDf9657a71F2f904A3a4Ee",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x42255e3c2d0b71a0b006243148fdf1a71d054ce0",
+      "url": "https://basescan.org/address/0x42255e3c2d0b71a0b006243148fdf1a71d054ce0",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x6dae95fe833f190640db1176f8c8a2e50c6a66c0",
+      "url": "https://basescan.org/address/0x6dae95fe833f190640db1176f8c8a2e50c6a66c0",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+      "url": "https://basescan.org/address/0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0x9beb95cced809c0667bbb6577ee4066ac5cc1156",
+      "url": "https://basescan.org/address/0x9Beb95ccED809C0667bbb6577EE4066aC5cC1156",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "url": "https://basescan.org/address/0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "kind": "address"
+    },
+    {
+      "chain": "base",
+      "address": "0xbf7977e1521e9a3032bf7243ee4712f311f13915",
+      "url": "https://basescan.org/address/0xBF7977E1521e9a3032bf7243Ee4712f311f13915",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_sale_into_pump: not_found_12_months_traced"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "staking_yield_from_fees",
+      "fee_share"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "Yes. The token earns real fees, and they are paid to stakers in real time. Revenue is down about 80% from the 2024 peak, and Q4 2026 is tracking below Q3."
+  },
+  "attributions": [
+    {
+      "address": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "url": "https://intel.arkm.com/explorer/address/0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+      "label": "Aerodrome Foundation and Incentives",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Base RPC (`base.drpc.org`, `mainnet.base.org`, `base-rpc.publicnode.com`): `totalSupply`, `balanceOf`, Safe `getThreshold`/`getOwners`, VotingEscrow `tokenOfOwnerByIndex` / `balanceOfNFT`, migration `owner()` / `paused()`; blocks 52.3M–57,475,111, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Dromos-Labs/metadex-public](https://github.com/Dromos-Labs/metadex-public) `deployment-addresses/root-base.json`, `migration-base.json`, V3 source",
+      "urls": [
+        "Dromos-Labs/metadex-public"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [aero.xyz/economics](https://aero.xyz/economics) (data pulled 14 Nov 2026 07:22 UTC) · [aero.xyz/aero-upgrade](https://aero.xyz/aero-upgrade/)",
+      "urls": [
+        "aero.xyz/economics",
+        "aero.xyz/aero-upgrade"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `aero-protocol` fees / revenue / holders revenue, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Upbit market API · [Tier B] CoinGecko market data + tickers · DexScreener pools, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Prior forensic read, 10 Oct 2026 (legacy Minter, emissions 4.91M/week)",
+      "urls": [],
+      "date_read": "10 Oct 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Base archive RPC (`base.drpc.org`, `base-rpc.publicnode.com`), 15 Nov 2026 ~11:30 AM MST: daily legacy-AERO `balanceOf` for the team Safe (15 Nov 2025 – 23 Oct 2026), block lookups and receipts for the four outflows, new-token Transfer logs to/from the Safe since 21 Oct, `totalSupply` with block timestamps, recent mint logs",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): team Safe label \"Aerodrome Finance: Aerodrome Foundation and Incentives\", its holdings and exchange flows; \"Aerodrome Finance\" entity (47.7K addresses, ~$891M; all-time exchange view Enterprise-locked)",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used (Basescan): team Safe [`0xbde0…`](https://basescan.org/address/0xbde0c70bdc242577c52dfad53389f82fd149ea5a) · owner Safe [`0x4225…`](https://basescan.org/address/0x42255e3c2d0b71a0b006243148fdf1a71d054ce0) · migration [`0x22a2…`](https://basescan.org/address/0x22a2f7340a3fb4c7c389d91ee954766b12476721) · Velodrome entry [`0x6daE…`](https://basescan.org/address/0x6dae95fe833f190640db1176f8c8a2e50c6a66c0) · VotingEscrow [`0xBF79…`](https://basescan.org/address/0xBF7977E1521e9a3032bf7243Ee4712f311f13915) · new token [`0x3f5b…`](https://basescan.org/address/0x3f5bF3EdAc59d650D8fDf9657a71F2f904A3a4Ee) · legacy token [`0x9401…`](https://basescan.org/address/0x940181a94A35A4569E4529A3CDfB74e38FD98631). Base RPC `eth_getLogs` (drpc) for the 22 Oct transfers. Hashes for the 11 Mar, 22 Jun and 17 Jul 2026 legacy sends were not re-pulled this pass (free Base log APIs refused the range); open the team Safe's token-transfer tab to see them",
+      "urls": [
+        "`0xbde0…`",
+        "`0x4225…`",
+        "`0x22a2…`",
+        "`0x6daE…`",
+        "`0xBF79…`",
+        "`0x3f5b…`",
+        "`0x9401…`"
+      ],
+      "date_read": "17 Jul 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address page used: [team Safe 0xbde0…](https://intel.arkm.com/explorer/address/0xbde0c70bdc242577c52dfad53389f82fd149ea5a)",
+      "urls": [
+        "team Safe 0xbde0…"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Foundation entity and directors; Momentum Fund size and address (not visible on Arkham's entity page); Nov 2025 DNS-hijack figures; owners of `0x3ca55150…` and `0xaf8360d4…` (17 Jul, 0.4M); unredeemed reward liability; deployed bytecode match to repo source",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "RVN",
+  "name": "Ravencoin",
+  "chain": "ravencoin",
+  "contract": "native coin (no contract)",
+  "overall_score": 4.4,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 3,
+    "insider_holdings": 9,
+    "selling_behavior": 7,
+    "tokenomics_supply": 8,
+    "liquidity_market": 4,
+    "product_development": 3,
+    "adoption_customers": 2,
+    "security_audits": 4,
+    "regulatory": 7,
+    "catalysts": 3
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 7,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "May-Jul 2020 asset-reissue bug let attackers mint 301.8M RVN (~1.5% of cap), sold to exchanges; fixed at block 1,304,352 on 4 Jul 2020; coins never burned",
+    "mint_path_live": "no beyond the fixed PoW schedule: 1,250 RVN a block since 15 Jan 2026, 21B cap",
+    "team_wallet_to_exchange_during_pump": "not applicable: fair launch 3 Jan 2018, no premine, ICO or team allocation",
+    "entity_concentration": "none (no team or treasury wallets)"
+  },
+  "price_usd": 0.001076,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.001076,
+    "market_cap_text": "$17.8M",
+    "fdv_text": "$17.8M",
+    "volume_24h_text": "$1.09M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/RVN.md",
+    "sha256": "6ab0cad5cc340e34b836187c4d3fd2e9207421f7d6dddeb263c5360af9f37e76",
+    "bytes": 9172,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:15 AM MST",
+    "source_read_dates": [
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Halving to 1,250 RVN at block 4,200,000",
+      "url": "CoinDesk",
+      "kind": "other",
+      "tier": "B+B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Halving to 1,250 RVN at block 4,200,000",
+      "url": "NiceHash",
+      "kind": "other",
+      "tier": "B+B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2020 exploit, 301.8M RVN",
+      "url": "developer post",
+      "kind": "other",
+      "tier": "A+B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2020 exploit, 301.8M RVN",
+      "url": "write-up",
+      "kind": "other",
+      "tier": "A+B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Supply, price, venues",
+      "url": "CoinGecko",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Binance RVNUSDT daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "unclear",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not applicable: fair launch 3 Jan 2018, no premine, ICO or team allocation"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 1/10 · ❌ FAIL (hard gate) - Proof-of-work with no protocol treasury. Asset-creation fees are burned, and transaction fees go to miners. Nothing accrues to holders. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `ravencoin` (market, venues); pump days from Binance RVNUSDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CoinDesk week-ahead, 8 Jan 2026](https://www.coindesk.com/markets/2026/01/08/u-s-inflation-report-bnb-smart-chain-s-hard-fork-crypto-week-ahead) and [NiceHash countdown](https://www.nicehash.com/countdown/rvn-halving-2026-01-11-12-00) (halving at block 4,200,000, 2,500 → 1,250)",
+      "urls": [
+        "CoinDesk week-ahead, 8 Jan 2026",
+        "NiceHash countdown"
+      ],
+      "date_read": "8 Jan 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Ravencoin emergency update, 30 Jun 2020](https://blog.ravencoin.email/post/ravencoin-emergency-update), [fix PR #794](https://github.com/RavenProject/Ravencoin/pull/794); [Tier B] [CoinDesk, 3 Jul 2020](https://www.coindesk.com/markets/2020/07/03/bad-ravencoin-code-allows-attackers-to-generate-coins-without-mining), [explorer team write-up](https://medium.com/@cryproscope/the-anatomy-of-ravencoin-exploit-finding-8fa4fe7547a9) (301,804,400 RVN)",
+      "urls": [
+        "Ravencoin emergency update, 30 Jun 2020",
+        "fix PR #794",
+        "CoinDesk, 3 Jul 2020",
+        "explorer team write-up"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [ravencoin.org](https://ravencoin.org/)",
+      "urls": [
+        "ravencoin.org"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "Arkham was not run for this report (no team wallets to check)",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

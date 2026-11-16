@@ -1,0 +1,453 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "IOTX",
+  "name": "IoTeX",
+  "chain": "iotex",
+  "contract": "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
+  "overall_score": 3.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 5,
+    "liquidity_market": 4,
+    "product_development": 6,
+    "adoption_customers": 3,
+    "security_audits": 2,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes: ioTube bridge exploit on 21 Feb 2026 (compromised validator-owner key; ~$4.4M of reserves drained, 410M CIOTX minted)",
+    "mint_path_live": "yes, by design (staking rewards mint IOTX; IIP-62 proposes a new 'productive inflation' curve)",
+    "team_wallet_to_exchange_during_pump": "yes, old: a founder-linked legacy ERC20 wallet sent 10M IOTX to a Coinbase deposit on 18 Jan 2022 (+15.4% over 5 days); no ERC20 sends since 2022; native chain not tested",
+    "treasury_in_single_key_wallets": "not found (Foundation treasury wallets are not published); the 2026 bridge hack came from a single compromised owner key"
+  },
+  "price_usd": 0.00241397,
+  "price_source": "CoinGecko, 16 Nov 2026 8:20 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00241397,
+    "market_cap_text": "$22.79M",
+    "fdv_text": "$22.79M",
+    "volume_24h_text": "$814k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/IOTX.md",
+    "sha256": "619bde6a46ec6e447059c175c1016fd4c962740ee4acf295c5e9f32fa206245e",
+    "bytes": 20283,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:20 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "16 Nov 2026 ~8:50 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "ioTube hack, ~$4.4M, 410M CIOTX",
+      "url": "IoTeX report",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ioTube hack, ~$4.4M, 410M CIOTX",
+      "url": "CoinDesk",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "$28k fees, $0 revenue in 12 months",
+      "url": "fees",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "$28k fees, $0 revenue in 12 months",
+      "url": "revenue",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Founder-linked `0x5606` → Coinbase Deposit on a pump day",
+      "url": "10M, 18 Jan 2022",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Founder-linked `0x5606` → Coinbase Deposit on a pump day",
+      "url": "Arkham labels",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ERC20 \"insider\" wallets are Coinbase custody",
+      "url": "`0x4761`",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ERC20 \"insider\" wallets are Coinbase custody",
+      "url": "`0x58bc`",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ERC20 \"insider\" wallets are Coinbase custody",
+      "url": "`0xcbe6`",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ERC20 \"insider\" wallets are Coinbase custody",
+      "url": "`0xc59b`",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ERC20 sent to null addresses in 2020",
+      "url": "148M, 9 Mar 2020",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ERC20 sent to null addresses in 2020",
+      "url": "600M, 9 Mar 2020",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Inflationary staking rewards; Marshall DAO 500M+",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Zanzibar fork and redemption portal",
+      "url": "IoTeX blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x56061a93eabbe3ffa94dc817bd0a30cd736fb937",
+      "url": "https://etherscan.io/address/0x56061a93eabbe3ffa94dc817bd0a30cd736fb937",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
+      "url": "https://etherscan.io/token/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x87c9dbff0016af23f5b1ab9b8e072124ab729193",
+      "url": "https://etherscan.io/address/0x87c9dbff0016af23f5b1ab9b8e072124ab729193",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9631ea18e14b3629caf46b141ab215db51465660",
+      "url": "https://etherscan.io/address/0x9631ea18e14b3629caf46b141ab215db51465660",
+      "kind": "address"
+    },
+    {
+      "chain": "iotex",
+      "address": "0x2444919721b0b1abef3a21adeb504179ee67888f",
+      "url": "https://intel.arkm.com/explorer/address/0x2444919721b0b1abef3a21adeb504179ee67888f",
+      "kind": "address"
+    },
+    {
+      "chain": "iotex",
+      "address": "0x4761571eeec2fee2fb9f8d5c08ef7c7606a9f659",
+      "url": "https://intel.arkm.com/explorer/address/0x4761571eeec2fee2fb9f8d5c08ef7c7606a9f659",
+      "kind": "address"
+    },
+    {
+      "chain": "iotex",
+      "address": "0x56061a93eabbe3ffa94dc817bd0a30cd736fb937",
+      "url": "https://intel.arkm.com/explorer/address/0x56061a93eabbe3ffa94dc817bd0a30cd736fb937",
+      "kind": "address"
+    },
+    {
+      "chain": "iotex",
+      "address": "0x58bc01f516c8d6986bc0fd67944f2718c2a94348",
+      "url": "https://intel.arkm.com/explorer/address/0x58bc01f516c8d6986bc0fd67944f2718c2a94348",
+      "kind": "address"
+    },
+    {
+      "chain": "iotex",
+      "address": "0x74a09fbf55ed0c31ba5fa3dd78f93e9f3403b1e0",
+      "url": "https://intel.arkm.com/explorer/address/0x74a09fbf55ed0c31ba5fa3dd78f93e9f3403b1e0",
+      "kind": "address"
+    },
+    {
+      "chain": "iotex",
+      "address": "0xc59b962be5118a2680cda9d730e5a23a257f4ea0",
+      "url": "https://intel.arkm.com/explorer/address/0xc59b962be5118a2680cda9d730e5a23a257f4ea0",
+      "kind": "address"
+    },
+    {
+      "chain": "iotex",
+      "address": "0xcbe6523edbfa82f376ee842794128dbf9141510a",
+      "url": "https://intel.arkm.com/explorer/address/0xcbe6523edbfa82f376ee842794128dbf9141510a",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes, old: a founder-linked legacy ERC20 wallet sent 10M IOTX to a Coinbase deposit on 18 Jan 2022 (+15.4% over 5 days); no ERC20 sends since 2022; native chain not tested"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "$28k a year of fees against a $22.8M market cap is effectively no business. **2, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "0x4761571eeec2fee2fb9f8d5c08ef7c7606a9f659",
+      "url": "https://intel.arkm.com/explorer/address/0x4761571eeec2fee2fb9f8d5c08ef7c7606a9f659",
+      "label": "[`0x4761…f659`](https://intel.arkm.com/explorer/address/0x4761571eeec2fee2fb9f8d",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x58bc01f516c8d6986bc0fd67944f2718c2a94348",
+      "url": "https://intel.arkm.com/explorer/address/0x58bc01f516c8d6986bc0fd67944f2718c2a94348",
+      "label": "[`0x4761…f659`](https://intel.arkm.com/explorer/address/0x4761571eeec2fee2fb9f8d",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xcbe6523edbfa82f376ee842794128dbf9141510a",
+      "url": "https://intel.arkm.com/explorer/address/0xcbe6523edbfa82f376ee842794128dbf9141510a",
+      "label": "[`0x4761…f659`](https://intel.arkm.com/explorer/address/0x4761571eeec2fee2fb9f8d",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc59b962be5118a2680cda9d730e5a23a257f4ea0",
+      "url": "https://intel.arkm.com/explorer/address/0xc59b962be5118a2680cda9d730e5a23a257f4ea0",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x2444919721b0b1abef3a21adeb504179ee67888f",
+      "url": "https://intel.arkm.com/explorer/address/0x2444919721b0b1abef3a21adeb504179ee67888f",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x74a09fbf55ed0c31ba5fa3dd78f93e9f3403b1e0",
+      "url": "https://intel.arkm.com/explorer/address/0x74a09fbf55ed0c31ba5fa3dd78f93e9f3403b1e0",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x56061a93eabbe3ffa94dc817bd0a30cd736fb937",
+      "url": "https://intel.arkm.com/explorer/address/0x56061a93eabbe3ffa94dc817bd0a30cd736fb937",
+      "label": "insider",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` for the legacy ERC20 wallets, read 16 Nov 2026 ~8:50 AM MST; Blockscout holders and token counters",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `iotex` fees and revenue; DefiLlama chains TVL",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [IoTeX incident report](https://iotex.io/blog/security-incident-update-iotube-bridge-exploit-and-recovery-roadmap/) · [Update 2](https://iotex.io/blog/iotube-bridge-incident-update-no-2-chain-resumed-recovery-underway/) · [Month review](https://iotex.io/blog/how-iotex-responded-to-the-iotube-bridge-incident-a-full-month-in-review/) · [Six months of IoTeX](https://iotex.io/blog/five-doors-six-months-of-iotex/) · [Tokenomics docs](https://iotex.gitbook.io/new-docs/readme/tokenomics/iotx-emission-deflation-and-re-staking)",
+      "urls": [
+        "IoTeX incident report",
+        "Update 2",
+        "Month review",
+        "Six months of IoTeX",
+        "Tokenomics docs"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CoinDesk](https://www.coindesk.com/business/2026/02/23/iotex-bridge-exploit-sparks-debate-over-losses-and-recovery-prospects) · [The Block](https://www.theblock.co/news/ecosystems/2026-02-21-iotex-hit-by-private-key-exploit-draining-up-to-8-8-million-from-bridge-contracts-390698) · [TokenPost (Zanzibar)](https://www.tokenpost.com/news/technology/34627) · [TokenPost (redemption)](https://www.tokenpost.com/news/technology/30766)",
+      "urls": [
+        "CoinDesk",
+        "The Block",
+        "TokenPost (Zanzibar",
+        "TokenPost (redemption"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `iotex` (16 Nov 2026 8:20 AM MST); Gate IOTX/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Coinbase Cold Wallet and Coinbase Prime Custody labels; exchange, market-maker and first-funder labels on `0x5606`, `0x9631`, `0x2444` (links in Holdings and Selling)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` for `0x5606` and `0x2444`; Gate IOTX/USDT daily closes for Nov 2021 – Aug 2022",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Current inflation rate; Foundation native wallets and their exchange flows; owner of `0x74a0`",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

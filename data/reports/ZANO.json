@@ -1,0 +1,182 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ZANO",
+  "name": "Zano",
+  "chain": "zano",
+  "contract": "native coin (no contract)",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 6,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 3,
+    "product_development": 6,
+    "adoption_customers": 3,
+    "security_audits": 2,
+    "regulatory": 4,
+    "catalysts": 5
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes: Gateway Addresses inflation exploit (late Aug to 25 Sep 2026) minted illicit ZANO and fUSD; chain rolled back ~1 month to block 3,833,000 on 27 Sep 2026",
+    "mint_path_live": "PoW/PoS issuance of 1 ZANO per block; the minting exploit is closed and Gateway Addresses are disabled pending audit",
+    "team_wallet_to_exchange_during_pump": "not proven: privacy chain, so the 3.69M team premine cannot be traced",
+    "entity_concentration": "unknown (shielded balances)"
+  },
+  "price_usd": 3.87,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:30 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 3.87,
+    "market_cap_text": "$60.0M",
+    "fdv_text": "$60.0M",
+    "volume_24h_text": "$0.78M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ZANO.md",
+    "sha256": "bcc85b3f993ae129de7039ffa87ce2de731d990baf722e796e99ac0537a83a2d",
+    "bytes": 9868,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:30 AM MST",
+    "source_read_dates": [
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Rollback to block 3,833,000",
+      "url": "release",
+      "kind": "other",
+      "tier": "A+A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Rollback to block 3,833,000",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A+A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "3.69M team premine",
+      "url": "blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "MEXC ZANOUSDT daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: privacy chain, so the 3.69M team premine cannot be traced"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - No treasury income. Fees of 0.01 ZANO are burned, which at roughly 1,200 transactions a day comes to under $50 a day [Unverified: transaction count from one aggregator]. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [Emergency release v2.2.3.600](https://github.com/hyle-team/zano/releases/tag/2.2.3.600), [Pre-rollback docs](https://docs.zano.org/docs/learn/pre-rollback-build/), [Monthly update #24](https://blog.zano.org/zano-monthly-project-update-24-september-october-2026/)",
+      "urls": [
+        "Emergency release v2.2.3.600",
+        "Pre-rollback docs",
+        "Monthly update #24"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Mainnet week one (premine 3.69M)](https://blog.zano.org/a-week-into-mainnet/), [Introduction guide](https://intro.zano.org/zano-introduction-guidebook.pdf)",
+      "urls": [
+        "Mainnet week one (premine 3.69M",
+        "Introduction guide"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Bitcoin.com News, rollback](https://news.bitcoin.com/security/zano-wipes-1-month-of-history-to-fix-massive-crypto-inflation-bug/), [Bitcoin.com News, network stable](https://news.bitcoin.com/crypto-news/zano-network-stabilizes-after-30-day-blockchain-rewind/)",
+      "urls": [
+        "Bitcoin.com News, rollback",
+        "Bitcoin.com News, network stable"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `zano` (market, venues); pump days from MEXC ZANOUSDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "Arkham doesn't cover Zano (shielded chain)",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

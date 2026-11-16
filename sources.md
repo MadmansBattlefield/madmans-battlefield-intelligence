@@ -88,3 +88,7 @@ A fact is treated as **verified** only if it has one Tier A source or is carried
 3. News (B): CoinDesk, The Block, Blockworks, DL News, and Reuters. A story is confirmed only if two Tier B outlets carry it or it has an A source.
 4. Calendar: unlocks from DefiLlama / Tokenomist, plus FOMC.
 5. Hype corner (C), clearly labeled: Altcoin Daily, Bankless, Milk Road.
+
+## Reproducibility
+
+Public API endpoints used for prices, fees, explorers and the pump-day test, plus the address list extracted from published evidence links, are in [REPRODUCE.md](REPRODUCE.md).

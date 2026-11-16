@@ -1,0 +1,479 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "MNT",
+  "name": "Mantle",
+  "chain": "ethereum + mantle",
+  "contract": "343844205940907902388668501588473967325030904660",
+  "overall_score": 4.5,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 4,
+    "selling_behavior": 6,
+    "tokenomics_supply": 5,
+    "liquidity_market": 6,
+    "product_development": 7,
+    "adoption_customers": 5,
+    "security_audits": 4,
+    "regulatory": 4,
+    "catalysts": 5
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none_on_mantle_contracts",
+    "treasury_sells_on_pump_days": "none_found_onchain",
+    "treasury_offchain_positions_unlisted": "open",
+    "mint_cap_enabled": "no (mintCapNumerator = 0)",
+    "l2_instant_upgrades_stage0": "tripped"
+  },
+  "price_usd": 0.379084,
+  "price_source": "CoinGecko mantle, 15 Nov 2026 6:45 AM MST",
+  "front_matter_extras": {
+    "formerly": "BitDAO (BIT), migrated 1 BIT = 1 MNT in 2023",
+    "l2_native": 1271273378134555899171451192324585542618241105920,
+    "chain_read_height": 26420823
+  },
+  "key_numbers": {
+    "price_usd": 0.379084,
+    "market_cap_text": "$1.256B",
+    "fdv_text": "$2.358B",
+    "volume_24h_text": "$43.1M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/MNT.md",
+    "sha256": "9284d2aa3de1ef888379fb5ab6f42bcf6773bb5d6f0842150574965666455dee",
+    "bytes": 32777,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko mantle, 15 Nov 2026 6:45 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~10:40 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Main treasury Safe holds 2,900,022,409 MNT; no outflow since 16 Oct 2024",
+      "url": "MTreasuryL1 on Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Token owner Safe (6 of 14) can enable a 2%/yr mint; proxy upgrades behind a 1-day timelock",
+      "url": "owner Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Token owner Safe (6 of 14) can enable a 2%/yr mint; proxy upgrades behind a 1-day timelock",
+      "url": "timelock",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Token owner Safe (6 of 14) can enable a 2%/yr mint; proxy upgrades behind a 1-day timelock",
+      "url": "token",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Budget spending to outside Safes ~18.0M MNT in a year (MBudgetL1 4.8M + ~11.0M; MBudgetL2 2.25M)",
+      "url": "3 Dec tx 1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Budget spending to outside Safes ~18.0M MNT in a year (MBudgetL1 4.8M + ~11.0M; MBudgetL2 2.25M)",
+      "url": "3 Dec tx 2",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Budget spending to outside Safes ~18.0M MNT in a year (MBudgetL1 4.8M + ~11.0M; MBudgetL2 2.25M)",
+      "url": "24 Mar 3.96M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Budget spending to outside Safes ~18.0M MNT in a year (MBudgetL1 4.8M + ~11.0M; MBudgetL2 2.25M)",
+      "url": "21 Jul",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Budget spending to outside Safes ~18.0M MNT in a year (MBudgetL1 4.8M + ~11.0M; MBudgetL2 2.25M)",
+      "url": "11 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Internal treasury moves (not sales)",
+      "url": "3 Mar L1-FF→MBudgetL1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Internal treasury moves (not sales)",
+      "url": "3 Mar L2→MBudgetL2",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Internal treasury moves (not sales)",
+      "url": "28 Apr → FB-FF",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Internal treasury moves (not sales)",
+      "url": "10 Nov L1-RB → FB-FF",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Correction:** `0xfb1b…` is the shared Safe L2 master contract, not a 21.6M recipient",
+      "url": "Mantlescan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~10:50 AM MST"
+    },
+    {
+      "claim": "**Correction:** `0xfb1b…` is the shared Safe L2 master contract, not a 21.6M recipient",
+      "url": "Arkham “Safe: GnosisSafeL2”",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~10:50 AM MST"
+    },
+    {
+      "claim": "Inflows mistaken for outflows earlier (1 Oct 291k; 26 Oct 6.33M)",
+      "url": "1 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Inflows mistaken for outflows earlier (1 Oct 291k; 26 Oct 6.33M)",
+      "url": "26 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "FB-FF (Fireblocks) holds 34.4M MNT but is missing from Mantle's treasury API",
+      "url": "FB-FF on Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x164cf077d3004bc1f26e7a46ad8fa54df4449e3f",
+      "url": "https://etherscan.io/address/0x164cf077d3004bc1f26e7a46ad8fa54df4449e3f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1b9cef6bdd029f378c511e5e6c20ee556b6781b9",
+      "url": "https://etherscan.io/address/0x1b9cef6bdd029f378c511e5e6c20ee556b6781b9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x34cafa03d9750124102059ee35619a9c5d5af7df",
+      "url": "https://etherscan.io/address/0x34cafa03d9750124102059ee35619a9c5d5af7df",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+      "url": "https://etherscan.io/address/0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4e59e778a0fb77fbb305637435c62faed9aed40f",
+      "url": "https://etherscan.io/address/0x4e59e778a0fb77fbb305637435c62faed9aed40f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x61ca90679ebf73f592115b5d3ca21532059cb3fc",
+      "url": "https://etherscan.io/address/0x61cA90679eBF73F592115b5d3ca21532059CB3fC",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x65331ff6f8b0fc2612f2a0debd9d04fce60a447f",
+      "url": "https://etherscan.io/address/0x65331ff6F8B0fc2612F2a0deBD9d04Fce60a447F",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x705199fe234a7a2f1bc8b95dd7d08284c8f467f1",
+      "url": "https://etherscan.io/address/0x705199fE234a7A2F1Bc8B95Dd7d08284c8F467F1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x78605df79524164911c144801f41e9811b7db73d",
+      "url": "https://etherscan.io/address/0x78605Df79524164911C144801f41e9811B7DB73D",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc2110f2bc454f73cf8f1405ceaa49261b953b0e2",
+      "url": "https://etherscan.io/address/0xc2110F2BC454F73cF8f1405cEaA49261b953b0E2",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum + mantle",
+      "address": "0xfb1bffc9d739b8d520daf37df666da4c687191ea",
+      "url": "https://intel.arkm.com/explorer/address/0xfb1bffc9d739b8d520daf37df666da4c687191ea",
+      "kind": "address"
+    },
+    {
+      "chain": "mantle",
+      "address": "0x4200000000000000000000000000000000000011",
+      "url": "https://mantlescan.xyz/address/0x4200000000000000000000000000000000000011",
+      "kind": "address"
+    },
+    {
+      "chain": "mantle",
+      "address": "0x61af7a48b0eea8481e5a055a35f829d0e8505fe3",
+      "url": "https://mantlescan.xyz/address/0x61af7a48b0eea8481e5a055a35f829d0e8505fe3",
+      "kind": "address"
+    },
+    {
+      "chain": "mantle",
+      "address": "0x94fec56bbeceacc71c9e61623ace9f8e1b1cf473",
+      "url": "https://mantlescan.xyz/address/0x94FEC56BBEcEaCC71c9e61623ACE9F8e1B1cf473",
+      "kind": "address"
+    },
+    {
+      "chain": "mantle",
+      "address": "0xa19ab9905dc9e4bcb8f982b063710a508b612434",
+      "url": "https://mantlescan.xyz/address/0xa19ab9905dc9e4bcb8f982b063710a508b612434",
+      "kind": "address"
+    },
+    {
+      "chain": "mantle",
+      "address": "0xb9d507990c009ed1ee853a07b6a20c0925dd8a08",
+      "url": "https://mantlescan.xyz/address/0xb9d507990c009Ed1Ee853a07B6A20c0925DD8A08",
+      "kind": "address"
+    },
+    {
+      "chain": "mantle",
+      "address": "0xcd9dab9fa5b55ee4569edc402d3206123b1285f4",
+      "url": "https://mantlescan.xyz/address/0xcD9Dab9Fa5B55EE4569EdC402d3206123B1285F4",
+      "kind": "address"
+    },
+    {
+      "chain": "mantle",
+      "address": "0xfb1bffc9d739b8d520daf37df666da4c687191ea",
+      "url": "https://mantlescan.xyz/address/0xfb1bffc9d739b8d520daf37df666da4c687191ea",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_sells_on_pump_days: none_found_onchain"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The chain's own fee income is tiny. Mantle's real economic weight is its treasury and side products (mETH, UR, MI4), and none of them has a published, binding way to pass cash to MNT holders."
+  },
+  "attributions": [
+    {
+      "address": "0xfb1bffc9d739b8d520daf37df666da4c687191ea",
+      "url": "https://intel.arkm.com/explorer/address/0xfb1bffc9d739b8d520daf37df666da4c687191ea",
+      "label": "Safe: GnosisSafeL2",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum mainnet RPC (publicnode) + Blockscout `eth.blockscout.com` (token transfers, balances, verified `L1MantleToken` source), block ~26,420,823; Mantle RPC `rpc.mantle.xyz` and Routescan (chain 5000) normal + internal txlists; 15 Nov 2026 ~6:50–7:10 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Mantle docs: Treasury](https://docs.mantle.xyz/governance/parameters/treasury) · [Tokenomics](https://docs.mantle.xyz/governance/parameters/tokenomics) · `api.mantle.xyz/api/v1/token-data`",
+      "urls": [
+        "Mantle docs: Treasury",
+        "Tokenomics"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Mantle treasury page](https://group.mantle.xyz/treasury) (15 Nov 2026 13:53 UTC) · [Bybit advisors post](https://group.mantle.xyz/blog/announcements/mantle-welcomes-bybit-luminaries-to-advisory-board) · [migratebit.mantle.xyz](https://migratebit.mantle.xyz/) · MIP-27 forum post",
+      "urls": [
+        "Mantle treasury page",
+        "Bybit advisors post",
+        "migratebit.mantle.xyz"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] L2BEAT `layer2s/projects/mantle` (stage, risks, upgrade history)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees (`mantle`, `meth-protocol`), chain TVL, stablecoins; CoinGecko market data, tickers with depth and 365 daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub API `mantle-xyz/mantle-v2`, `mantle-xyz/reth`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] ESMA interim MiCA register; SEC release 33-11412",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinDesk / Bloomberg Law (FTX–Bybit settlement); TokenPost / Tronweekly (Reth fix); Mantle forum + CoinMarketCal (MIP-36)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Mantle RPC `eth_getCode` / `getThreshold` / `VERSION` and Routescan (chain 5000) normal + internal txs for `0xfb1bffc9…`; `eth_getTransactionByHash` for `0xa664c102…`; 15 Nov 2026 ~10:50 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham Intelligence, read 15 Nov 2026 ~10:40 AM MST (signed-in account): `0xfb1bffc9…` = \"Safe: GnosisSafeL2\" (contract), no exchange activity; Arkham did not show a Mantle balance",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used: Etherscan [`MTreasuryL1`](https://etherscan.io/address/0x78605Df79524164911C144801f41e9811B7DB73D) · [`MBudgetL1`](https://etherscan.io/address/0x1b9cef6bdd029f378c511e5e6c20ee556b6781b9) · [`L1-FF`](https://etherscan.io/address/0x34cafa03d9750124102059ee35619a9c5d5af7df) · [`L1-RB`](https://etherscan.io/address/0x164cf077d3004bc1f26e7a46ad8fa54df4449e3f) · [`FB-FF`](https://etherscan.io/address/0x61cA90679eBF73F592115b5d3ca21532059CB3fC) · [`owner Safe`](https://etherscan.io/address/0x4e59e778a0fb77fbb305637435c62faed9aed40f) · [`timelock`](https://etherscan.io/address/0x65331ff6F8B0fc2612F2a0deBD9d04Fce60a447F) · [`token`](https://etherscan.io/address/0x3c3a81e81dc49a522a592e7622a7e711c06bf354); Mantlescan [`MTreasuryL2`](https://mantlescan.xyz/address/0x94FEC56BBEcEaCC71c9e61623ACE9F8e1B1cf473) · [`L2-FF`](https://mantlescan.xyz/address/0xcD9Dab9Fa5B55EE4569EdC402d3206123B1285F4) · [`MBudgetL2`](https://mantlescan.xyz/address/0xb9d507990c009Ed1Ee853a07B6A20c0925DD8A08) · [`Safe L2 master 0xfb1b…`](https://mantlescan.xyz/address/0xfb1bffc9d739b8d520daf37df666da4c687191ea)",
+      "urls": [
+        "`MTreasuryL1`",
+        "`MBudgetL1`",
+        "`L1-FF`",
+        "`L1-RB`",
+        "`FB-FF`",
+        "`owner Safe`",
+        "`timelock`",
+        "`token`",
+        "`MTreasuryL2`",
+        "`L2-FF`",
+        "`MBudgetL2`",
+        "`Safe L2 master 0xfb1b…`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address page used: [0xfb1b… “Safe: GnosisSafeL2”](https://intel.arkm.com/explorer/address/0xfb1bffc9d739b8d520daf37df666da4c687191ea)",
+      "urls": [
+        "0xfb1b… “Safe: GnosisSafeL2”"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Mantle Foundation S.A. registry entry; MIP-23 burn size; link between the 105M MNT inflow and Mirana's BIT; UR usage",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "LINK",
+  "name": "Chainlink",
+  "chain": "ethereum",
+  "contract": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+  "overall_score": 6.9,
+  "overall_verdict": "PASS",
+  "section_scores": {
+    "revenue": 8,
+    "foundation_team": 6,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 6,
+    "liquidity_market": 10,
+    "product_development": 9,
+    "adoption_customers": 8,
+    "security_audits": 8,
+    "regulatory": 5,
+    "catalysts": 6
+  },
+  "sections_passed": 8,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 8,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "treasury_to_exchange_during_pump": "not_found",
+    "undisclosed_treasury_to_exchange_flow": "recurring_quarterly"
+  },
+  "price_usd": 9.19,
+  "price_source": "CoinGecko, 14 Nov 2026 9:08 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 9.19,
+    "market_cap_text": "$7.05B",
+    "fdv_text": "$9.19B",
+    "volume_24h_text": "$246.3M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/LINK.md",
+    "sha256": "8a62beef39eb7ef7dd0ac552b94381923203d439583230b9f6f45713f5f8d1ba",
+    "bytes": 20854,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 9:08 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:00 AM MST",
+      "15 Nov 2026 ~11:20 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:00 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "**Treasury → Binance deposit pattern:** non-circulating Safes → `0x9b1c…cde9` → Binance 14; 58.85M LINK in 12 months, 253.8M since Aug 2022",
+      "url": "Etherscan (full history",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**Treasury → Binance deposit pattern:** non-circulating Safes → `0x9b1c…cde9` → Binance 14; 58.85M LINK in 12 months, 253.8M since Aug 2022",
+      "url": "Arkham “Binance Deposit”",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**Treasury → Binance deposit pattern:** non-circulating Safes → `0x9b1c…cde9` → Binance 14; 58.85M LINK in 12 months, 253.8M since Aug 2022",
+      "url": "Binance 14 tag",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**Treasury → Binance deposit pattern:** non-circulating Safes → `0x9b1c…cde9` → Binance 14; 58.85M LINK in 12 months, 253.8M since Aug 2022",
+      "url": "Arkham “Binance: Hot Wallet”",
+      "kind": "other",
+      "tier": "A pattern + 2× B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "9 Oct 2026 batch: 16.875M to Binance (incl. 3,399,999 from Safe #17)",
+      "url": "3.4M in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "9 Oct 2026 batch: 16.875M to Binance (incl. 3,399,999 from Safe #17)",
+      "url": "3.4M → Binance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "9 Oct 2026 batch: 16.875M to Binance (incl. 3,399,999 from Safe #17)",
+      "url": "4.5M → Binance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "9 Oct 2026 batch: 16.875M to Binance (incl. 3,399,999 from Safe #17)",
+      "url": "2.73M → Binance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "19 Jun 2026 batch: 18.375M to Binance",
+      "url": "8.375M → Binance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "19 Jun 2026 batch: 18.375M to Binance",
+      "url": "4.0M → Binance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "3 Apr 2026 batch: 14.375M to Binance",
+      "url": "9.775M → Binance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "3 Apr 2026 batch: 14.375M to Binance",
+      "url": "2.5M → Binance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "19 Dec 2025 batch: 9.225M to Binance",
+      "url": "5.225M → Binance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "19 Dec 2025 batch: 9.225M to Binance",
+      "url": "4.0M → Binance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Safe #17 `0xa42d…` is Chainlink treasury (\"Chainlink: Non-Circulating Supply\" + Etherscan tag)",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Safe #17 `0xa42d…` is Chainlink treasury (\"Chainlink: Non-Circulating Supply\" + Etherscan tag)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xd50f…` gets a slice of each batch and pays `0x7a28…` (no exchange sends)",
+      "url": "0xd50f… Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xd50f…` gets a slice of each batch and pays `0x7a28…` (no exchange sends)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xd50f…` gets a slice of each batch and pays `0x7a28…` (no exchange sends)",
+      "url": "0x7a28… Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Community staking pool 40,875,544 LINK",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "10 Oct 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "url": "https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+      "url": "https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7a28b8cfeb73b45626f521de928d0dd2d25c14a3",
+      "url": "https://etherscan.io/address/0x7a28b8cfeb73b45626f521de928d0dd2d25c14a3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9b1c1752b6b6eaf62a8c491a8681b32c1f7ecde9",
+      "url": "https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa42d0a18b834f52e41beddeaa2940165db3da9a3",
+      "url": "https://intel.arkm.com/explorer/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbc10f2e862ed4502144c7d632a3459f49dfcdb5e",
+      "url": "https://etherscan.io/address/0xBc10f2E862ED4502144c7d632a3459F49DFCDB5e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd50f074ec5c7997ce1daacb513ec194c480878af",
+      "url": "https://etherscan.io/address/0xd50f074ec5c7997ce1daacb513ec194c480878af",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_to_exchange_during_pump: not_found"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": true,
+    "notes": "Yes, it makes money, and some of it is used to buy LINK. Annualised revenue is ~$65M on a $7B cap."
+  },
+  "attributions": [
+    {
+      "address": "0x9b1c1752b6b6eaf62a8c491a8681b32c1f7ecde9",
+      "url": "https://intel.arkm.com/explorer/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa42d0a18b834f52e41beddeaa2940165db3da9a3",
+      "url": "https://intel.arkm.com/explorer/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0xd50f074ec5c7997ce1daacb513ec194c480878af",
+      "url": "https://intel.arkm.com/explorer/address/0xd50f074ec5c7997ce1daacb513ec194c480878af",
+      "label": null,
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link",
+        "official"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "url": "https://intel.arkm.com/explorer/address/0x28C6c06298d514Db089934071355E5743bf21d60",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official",
+        "explorer-link"
+      ],
+      "label_kind": "official",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": true,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC and Blockscout; `eth_getLogs` Transfer trace, Oct 2026",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` (LINK) for `0x9b1c…`, `0xa42d…` and `0xd50f…`, full history, read 15 Nov 2026 ~11:20 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): \"Chainlink\" entity; `0xa42d…` \"Chainlink: Non-Circulating Supply\"; `0x9b1c…` \"Binance Deposit\"; `0x28c6…` \"Binance: Hot Wallet\"; `0xd50f…` (no entity). Arkham shows relative ages only; dates above come from on-chain reads where amounts match. All-time exchange totals are Enterprise-locked",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags \"Binance 14\" ([`0x28c6…`](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60)) and \"Noncirculating Supply Safe\" ([`0xa42d…`](https://etherscan.io/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3))",
+      "urls": [
+        "`0x28c6…`",
+        "`0xa42d…`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used (Etherscan): [`0x9b1c…`](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [`0xa42d…`](https://etherscan.io/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3) · [`0xd50f…`](https://etherscan.io/address/0xd50f074ec5c7997ce1daacb513ec194c480878af) · [`0x7a28…`](https://etherscan.io/address/0x7a28b8cfeb73b45626f521de928d0dd2d25c14a3) · [`Binance 14`](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60) · token [`0x5149…`](https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA)",
+      "urls": [
+        "`0x9b1c…`",
+        "`0xa42d…`",
+        "`0xd50f…`",
+        "`0x7a28…`",
+        "`Binance 14`",
+        "`0x5149…`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address pages used: [0xa42d…](https://intel.arkm.com/explorer/address/0xa42d0a18b834f52e41beddeaa2940165db3da9a3) · [0x9b1c…](https://intel.arkm.com/explorer/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [0x28c6…](https://intel.arkm.com/explorer/address/0x28C6c06298d514Db089934071355E5743bf21d60) · [0xd50f…](https://intel.arkm.com/explorer/address/0xd50f074ec5c7997ce1daacb513ec194c480878af)",
+      "urls": [
+        "0xa42d…",
+        "0x9b1c…",
+        "0x28c6…",
+        "0xd50f…"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [docs.chain.link](https://docs.chain.link) · [white paper v2](https://research.chain.link/whitepaper-v2.pdf)",
+      "urls": [
+        "docs.chain.link",
+        "white paper v2"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees/revenue, pulled 13 Nov 2026 4:22 AM MST",
+      "urls": [],
+      "date_read": "13 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `chainlink` price and 365-day daily closes, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub `smartcontractkit`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [PR Newswire, CCIP GA](https://www.prnewswire.com/news-releases/chainlink-announces-general-availability-for-ccip-302126061.html)",
+      "urls": [
+        "PR Newswire, CCIP GA"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Reserve balance >6M LINK; Foundation entity and signers; Steve Ellis title; purpose of `0xd50f…` → `0x7a28b8cf…` payments; Arkham's 286.6M entity total",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

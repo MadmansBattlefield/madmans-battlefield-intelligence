@@ -1,0 +1,359 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SHX",
+  "name": "Stronghold",
+  "chain": "stellar",
+  "contract": "SHX-GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH (Stellar); 0x516d31321928700c6b4fb0db0c8c6bc5d6799787 (Ethereum)",
+  "overall_score": 3.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 4,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no new minting (fixed 100B), but 60B company SHX sits in a rolling escrow that releases 1B a month",
+    "team_wallet_to_exchange_during_pump": "not proven: 875M SHX was bridged from Stellar into four Kraken deposit addresses in Jan-Nov 2026, none on a pump day; one 28.1M Kraken deposit on the 28 Sep 2026 pump day came via an unlabelled wallet fed by a 15.3B-SHX Stellar account whose owner is unpublished [Unverified]",
+    "entity_concentration": "yes: ~81% of supply is held by Stronghold (60B escrow plus other company balances)"
+  },
+  "price_usd": 0.003893,
+  "price_source": "CoinGecko, 16 Nov 2026 ~9:30 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.003893,
+    "market_cap_text": "$73.2M",
+    "fdv_text": "$388M",
+    "volume_24h_text": "$0.69M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SHX.md",
+    "sha256": "97a9a19a292ed45ba4b557534b1e813a277f0b43bc174964cc625a4f5aacdf58",
+    "bytes": 15797,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~9:30 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "60B escrow, 1B a month",
+      "url": "Stronghold",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "No ICO, ~5% airdrop",
+      "url": "Stronghold",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0xf213 is a Kraken hot wallet; four Kraken deposits got 875M",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0xf213 is a Kraken hot wallet; four Kraken deposits got 875M",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "28.1M to Kraken on a pump day via 0x28c4",
+      "url": "tx 0x15b8…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x28c4c81d30a98d17fe5657fee17afa694a452166",
+      "url": "https://etherscan.io/address/0x28c4c81d30a98d17fe5657fee17afa694a452166",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf213ac78ca8ff79f54eab193836053eea163f190",
+      "url": "https://etherscan.io/address/0xf213ac78ca8ff79f54eab193836053eea163f190",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "0x1a9d699aee3a56ca49d0cc3b542ae3a37885a3e1",
+      "url": "https://intel.arkm.com/explorer/address/0x1a9d699aee3a56ca49d0cc3b542ae3a37885a3e1",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "0x2a906e2aed080e3e85ef04d2b72765e21039bf67",
+      "url": "https://intel.arkm.com/explorer/address/0x2a906e2aed080e3e85ef04d2b72765e21039bf67",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "0x504ce9e51e508c85a161058c12e970a903d482fc",
+      "url": "https://intel.arkm.com/explorer/address/0x504ce9e51e508c85a161058c12e970a903d482fc",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "0x50861fe4fc61c2137387ff7cf47c41fa8ef87b18",
+      "url": "https://intel.arkm.com/explorer/address/0x50861fe4fc61c2137387ff7cf47c41fa8ef87b18",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "0x63dc28d45ef5536c03a238ae01bda5a4f0b79504",
+      "url": "https://intel.arkm.com/explorer/address/0x63dc28d45ef5536c03a238ae01bda5a4f0b79504",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "0xe84ce212001f7c0eb70ac98278d17c70d4918bae",
+      "url": "https://intel.arkm.com/explorer/address/0xe84ce212001f7c0eb70ac98278d17c70d4918bae",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "0xf213ac78ca8ff79f54eab193836053eea163f190",
+      "url": "https://intel.arkm.com/explorer/address/0xf213ac78ca8ff79f54eab193836053eea163f190",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GAKLLZ4EAFFH7CZBOIFK5NJMYOA7H7EOMCEU5NFK4YWFB4YIXDPIWQFU",
+      "url": "https://stellar.expert/explorer/public/account/GAKLLZ4EAFFH7CZBOIFK5NJMYOA7H7EOMCEU5NFK4YWFB4YIXDPIWQFU",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GB5PZZXRRZYF4KA4OUZUOMOSK6DEXA5A6FZ4OETLUV36ERSZQHTDICQF",
+      "url": "https://stellar.expert/explorer/public/account/GB5PZZXRRZYF4KA4OUZUOMOSK6DEXA5A6FZ4OETLUV36ERSZQHTDICQF",
+      "kind": "address"
+    },
+    {
+      "chain": "stellar",
+      "address": "GCMKEWP6BZ2NUSE3YSVN37HLPD5H2P6XTYWJZY5J2WDHS7WR37JKJQT5",
+      "url": "https://stellar.expert/explorer/public/account/GCMKEWP6BZ2NUSE3YSVN37HLPD5H2P6XTYWJZY5J2WDHS7WR37JKJQT5",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Kraken SHXUSD daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: 875M SHX was bridged from Stellar into four Kraken deposit addresses in Jan-Nov 2026, none on a pump day; one 28.1M Kraken deposit on the 28 Sep 2026 pump day came via an unlabelled wallet fed by a 15.3B-SHX Stellar account whose owner is unpublished [Unverified]"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - Stronghold earns from payments and merchant financing, but no fee goes to SHx holders through a burn, buyback or share. SHx is spent as rewards. **2 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x2a906e2aed080e3e85ef04d2b72765e21039bf67",
+      "url": "https://intel.arkm.com/explorer/address/0x2a906e2aed080e3e85ef04d2b72765e21039bf67",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0xe84ce212001f7c0eb70ac98278d17c70d4918bae",
+      "url": "https://intel.arkm.com/explorer/address/0xe84ce212001f7c0eb70ac98278d17c70d4918bae",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x50861fe4fc61c2137387ff7cf47c41fa8ef87b18",
+      "url": "https://intel.arkm.com/explorer/address/0x50861fe4fc61c2137387ff7cf47c41fa8ef87b18",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x63dc28d45ef5536c03a238ae01bda5a4f0b79504",
+      "url": "https://intel.arkm.com/explorer/address/0x63dc28d45ef5536c03a238ae01bda5a4f0b79504",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0xf213ac78ca8ff79f54eab193836053eea163f190",
+      "url": "https://intel.arkm.com/explorer/address/0xf213ac78ca8ff79f54eab193836053eea163f190",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x504ce9e51e508c85a161058c12e970a903d482fc",
+      "url": "https://intel.arkm.com/explorer/address/0x504ce9e51e508c85a161058c12e970a903d482fc",
+      "label": "[Kraken: Hot Wallet](https://intel.arkm.com/explorer/address/0xf213ac78ca8ff79f5",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x1a9d699aee3a56ca49d0cc3b542ae3a37885a3e1",
+      "url": "https://intel.arkm.com/explorer/address/0x1a9d699aee3a56ca49d0cc3b542ae3a37885a3e1",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [SHx page and FAQ](https://stronghold.co/shx), [Escrow announcement](https://stronghold.co/learn/stronghold-locks-60-billion-shx-escrow)",
+      "urls": [
+        "SHx page and FAQ",
+        "Escrow announcement"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Stellar Horizon (issuer and sender accounts); Etherscan token holders and transfers for `0x516d…9787`; Axelarscan GMP messages for the bridge mints (source chain and account)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Kraken Hot Wallet on 0xf213; Kraken Deposit on 0x2a90, 0xe84c, 0x5086, 0x63dc and 0x504c; 0x1a9d and 0x28c4 unlabelled",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `stronghold-token` (market, venues); pump days from Kraken SHXUSD daily closes (CoinGecko's price series for SHx has bad spikes in Mar 2026, so it wasn't used)",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

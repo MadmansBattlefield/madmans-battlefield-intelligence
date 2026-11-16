@@ -1,0 +1,780 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "HYPER",
+  "name": "Hyperlane",
+  "chain": "ethereum",
+  "contract": "0x93a2db22b7c736b341c32ff666307f4a9ed910f5 (ERC-20 on Ethereum, Hyperlane warp route; also BNB Chain, Base, Arbitrum, Optimism)",
+  "overall_score": 3.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 3,
+    "selling_behavior": 2,
+    "tokenomics_supply": 3,
+    "liquidity_market": 4,
+    "product_development": 7,
+    "adoption_customers": 5,
+    "security_audits": 5,
+    "regulatory": 6,
+    "catalysts": 4
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "no protocol-level exploit found; an app-configured warp route (Autheo THEO, TrustedRelayerIsm) lost ~$1.76M on 12 Oct 2026; a public 'critical' vault-insolvency report (issue #9068) has been open since 18 Jul 2026",
+    "treasury_to_exchange_during_pump": "yes, via foundation-funded wallets (8 wallets funded with 9.5M HYPER by the foundation-allocation Safe 0x87fc… on 21-22 Apr 2025 sent 9.5M to Binance/Bybit deposits on 10-12 Jul 2025, +351% to +472%)",
+    "treasury_funded_wallet_to_exchange_during_pump": "yes (above; plus Safe 0x1686…, paid monthly by foundation-funded 0x0102…, sent 250k to a Binance deposit on the 22 Sep 2026 pump day, +15.1%)",
+    "mint_path_live": "yes by design (Staking Rewards 20% minted quarterly over 25 years)"
+  },
+  "price_usd": 0.03968,
+  "price_source": "CoinGecko, 16 Nov 2026 6:50 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.03968,
+    "market_cap_text": "$13.42M",
+    "fdv_text": "$32.19M",
+    "volume_24h_text": "$1.18M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/HYPER.md",
+    "sha256": "7274b071be39e62941c68949b2c9ef35817e39d2ef30b8cf9e6f6a6342fae112",
+    "bytes": 31284,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:50 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "802.67M minted to \"Hyperlane: Deployer\"; 358.74M to wallet 0xa7ec and 443.93M to Safe 0x87fc",
+      "url": "mint",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "802.67M minted to \"Hyperlane: Deployer\"; 358.74M to wallet 0xa7ec and 443.93M to Safe 0x87fc",
+      "url": "358.74M tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "802.67M minted to \"Hyperlane: Deployer\"; 358.74M to wallet 0xa7ec and 443.93M to Safe 0x87fc",
+      "url": "443.93M tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "802.67M minted to \"Hyperlane: Deployer\"; 358.74M to wallet 0xa7ec and 443.93M to Safe 0x87fc",
+      "url": "0xa7ec",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "802.67M minted to \"Hyperlane: Deployer\"; 358.74M to wallet 0xa7ec and 443.93M to Safe 0x87fc",
+      "url": "0x87fc",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Published allocation (team 25%, backers 10.87%, treasury 7.11%, SLP 11.52%)",
+      "url": "foundation post",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation Safe funded 8 wallets with 9.5M on 21–22 Apr 2025",
+      "url": "tx 1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation Safe funded 8 wallets with 9.5M on 21–22 Apr 2025",
+      "url": "tx 2",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation Safe funded 8 wallets with 9.5M on 21–22 Apr 2025",
+      "url": "tx 3",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "The 8 wallets sent 9.5M to Binance/Bybit deposits on 10–12 Jul 2025",
+      "url": "0x730c",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "The 8 wallets sent 9.5M to Binance/Bybit deposits on 10–12 Jul 2025",
+      "url": "0x33ee",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "The 8 wallets sent 9.5M to Binance/Bybit deposits on 10–12 Jul 2025",
+      "url": "0x5649",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "The 8 wallets sent 9.5M to Binance/Bybit deposits on 10–12 Jul 2025",
+      "url": "0x6855",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe 0x1686 (paid by 0x0102) → Binance deposit on 22 Sep 2026 pump day",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Safe 0x1686 (paid by 0x0102) → Binance deposit on 22 Sep 2026 pump day",
+      "url": "0x1686",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xa6c3` holds 168,437,500 HYPER on BNB Chain",
+      "url": "BscScan",
+      "kind": "other",
+      "tier": "A (RPC) + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xa6c3` holds 168,437,500 HYPER on BNB Chain",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A (RPC) + B",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xbff1`, `0x7462` labelled Hyperlane; `0x9ec1` labelled Manifold Trading; `0xd8da…7290` labelled Bybit Deposit",
+      "url": "0xbff1",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xbff1`, `0x7462` labelled Hyperlane; `0x9ec1` labelled Manifold Trading; `0xd8da…7290` labelled Bybit Deposit",
+      "url": "0x7462",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xbff1`, `0x7462` labelled Hyperlane; `0x9ec1` labelled Manifold Trading; `0xd8da…7290` labelled Bybit Deposit",
+      "url": "0x9ec1",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xbff1`, `0x7462` labelled Hyperlane; `0x9ec1` labelled Manifold Trading; `0xd8da…7290` labelled Bybit Deposit",
+      "url": "0xd8da",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x0102 holds 61.9M; 0xbff1 holds 67.8M",
+      "url": "0x0102",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x0102 holds 61.9M; 0xbff1 holds 67.8M",
+      "url": "0xbff1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $361,773 / 1y; holder revenue $0; TVL $58.2M",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Open critical-vulnerability issue #9068",
+      "url": "GitHub",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "bsc",
+      "address": "0xa6c34f2ebd3051164401968550f4de16894fe89d",
+      "url": "https://bscscan.com/address/0xa6c34f2ebd3051164401968550f4de16894fe89d",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4",
+      "url": "https://bscscan.com/token/0xc9d23ed2adb0f551369946bd377f8644ce1ca5c4",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0102c5805b8f2dbb2717f233285a246418c98f8f",
+      "url": "https://etherscan.io/address/0x0102c5805b8f2dbb2717f233285a246418c98f8f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0450d14321acf6f59e33d748405bf63a9b875a92",
+      "url": "https://etherscan.io/address/0x0450d14321acf6f59e33d748405bf63a9b875a92",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x16864253e0ab1d3e6844c24896899f99e5272e7c",
+      "url": "https://etherscan.io/address/0x16864253e0ab1d3e6844c24896899f99e5272e7c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1b20b200a78c6068ce5ea96226d1b53e0a119202",
+      "url": "https://etherscan.io/address/0x1b20b200a78c6068ce5ea96226d1b53e0a119202",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2999e84ed6271de2b829d9cea16fc42e3d45692c",
+      "url": "https://etherscan.io/address/0x2999e84ed6271de2b829d9cea16fc42e3d45692c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x33ee451bf69a668a0dd146342d3cc189f899a2ff",
+      "url": "https://intel.arkm.com/explorer/address/0x33ee451bf69a668a0dd146342d3cc189f899a2ff",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3fc83bd96b1fe997633ed0959aa3a7b793a2d37f",
+      "url": "https://etherscan.io/address/0x3fc83bd96b1fe997633ed0959aa3a7b793a2d37f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4cc67796b4eeaac5c8c4cf92d09f3081afccb204",
+      "url": "https://intel.arkm.com/explorer/address/0x4cc67796b4eeaac5c8c4cf92d09f3081afccb204",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x56490c6df53dd7016ff748fd38469c9fb0420a55",
+      "url": "https://intel.arkm.com/explorer/address/0x56490c6df53dd7016ff748fd38469c9fb0420a55",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x660ba81fa5e9e4efa3142402f2009e01b0761a62",
+      "url": "https://etherscan.io/address/0x660ba81fa5e9e4efa3142402f2009e01b0761a62",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6855bbf38f9e93c6ba7f90bda3e51383ce974a09",
+      "url": "https://intel.arkm.com/explorer/address/0x6855bbf38f9e93c6ba7f90bda3e51383ce974a09",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x70eb78ce74c9c71bd26b41e7693ebfd3db40cb13",
+      "url": "https://etherscan.io/address/0x70eb78ce74c9c71bd26b41e7693ebfd3db40cb13",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x730c11deddd8243ae4f4541f7cbd324c54f31e75",
+      "url": "https://intel.arkm.com/explorer/address/0x730c11deddd8243ae4f4541f7cbd324c54f31e75",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7462aaeb71510d947447cbb1283461e0153b6ebf",
+      "url": "https://etherscan.io/address/0x7462aaeb71510d947447cbb1283461e0153b6ebf",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x79fa1f70fbba4dd07510b21b32525b602fadf31c",
+      "url": "https://etherscan.io/address/0x79fa1f70fbba4dd07510b21b32525b602fadf31c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7f8fb5dcd6c51d280ae71e2a5db2be10515bef90",
+      "url": "https://intel.arkm.com/explorer/address/0x7f8fb5dcd6c51d280ae71e2a5db2be10515bef90",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x87fcecb180e0275c22cef213ff301816bb24e74b",
+      "url": "https://etherscan.io/address/0x87fcecb180e0275c22cef213ff301816bb24e74b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8c862ba0c51eb2bc0d96af114d42c885b131ec61",
+      "url": "https://etherscan.io/address/0x8c862ba0c51eb2bc0d96af114d42c885b131ec61",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x93a2db22b7c736b341c32ff666307f4a9ed910f5",
+      "url": "https://etherscan.io/token/0x93a2db22b7c736b341c32ff666307f4a9ed910f5",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9ec1f2b052b4534b387c73c69b3e87324c1c7b21",
+      "url": "https://etherscan.io/address/0x9ec1f2b052b4534b387c73c69b3e87324c1c7b21",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9ec88f8cbcacbbad82638349807a9d31568830c7",
+      "url": "https://etherscan.io/address/0x9ec88f8cbcacbbad82638349807a9d31568830c7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa59e59c95313f28ca4d1669356169f1c91f57166",
+      "url": "https://etherscan.io/address/0xa59e59c95313f28ca4d1669356169f1c91f57166",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa6c34f2ebd3051164401968550f4de16894fe89d",
+      "url": "https://intel.arkm.com/explorer/address/0xa6c34f2ebd3051164401968550f4de16894fe89d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa7eccdb9be08178f896c26b7bbd8c3d4e844d9ba",
+      "url": "https://etherscan.io/address/0xa7eccdb9be08178f896c26b7bbd8c3d4e844d9ba",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbff145eeb5112538b7c3a0c143a889fca4dd675d",
+      "url": "https://etherscan.io/address/0xbff145eeb5112538b7c3a0c143a889fca4dd675d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd2b26db232b1b29d4fd3fe8e583e6c98772f8742",
+      "url": "https://etherscan.io/address/0xd2b26db232b1b29d4fd3fe8e583e6c98772f8742",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd8da1644c722930369b6fb77bc8a8c5b40c07290",
+      "url": "https://etherscan.io/address/0xd8da1644c722930369b6fb77bc8a8c5b40c07290",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdc99ff848013c8349ae366acc0f3ab5a4d6ebd6e",
+      "url": "https://etherscan.io/address/0xdc99ff848013c8349ae366acc0f3ab5a4d6ebd6e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe0ac71529c2480d8d60d26bdd4aa0cc65d72e0d5",
+      "url": "https://intel.arkm.com/explorer/address/0xe0ac71529c2480d8d60d26bdd4aa0cc65d72e0d5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe81692033dfad8516899af0ec0b35ae1932f547d",
+      "url": "https://etherscan.io/address/0xe81692033dfad8516899af0ec0b35ae1932f547d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf513e4f8cf8a6baafa189f6c97c7c1314761ac4b",
+      "url": "https://intel.arkm.com/explorer/address/0xf513e4f8cf8a6baafa189f6c97c7c1314761ac4b",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_to_exchange_during_pump: yes, via foundation-funded wallets (8 wallets funded with 9.5M HYPER by the foundation-allocation Safe 0x87fc… on 21-22 Apr 2025 sent 9.5M to Binance/Bybit deposits on 10-12 Jul 2025, +351% to +472%)",
+      "treasury_funded_wallet_to_exchange_during_pump: yes (above; plus Safe 0x1686…, paid monthly by foundation-funded 0x0102…, sent 250k to a Binance deposit on the 22 Sep 2026 pump day, +15.1%)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "$362k a year is 2.7% of market cap and none of it reaches holders; stakers are paid in newly minted HYPER. Score **2**, which **trips the Revenue gate**."
+  },
+  "attributions": [
+    {
+      "address": "0xa6c34f2ebd3051164401968550f4de16894fe89d",
+      "url": "https://intel.arkm.com/explorer/address/0xa6c34f2ebd3051164401968550f4de16894fe89d",
+      "label": "[`0xbff1…`](https://intel.arkm.com/explorer/address/0xbff145eeb511",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xbff145eeb5112538b7c3a0c143a889fca4dd675d",
+      "url": "https://intel.arkm.com/explorer/address/0xbff145eeb5112538b7c3a0c143a889fca4dd675d",
+      "label": "[`0xbff1…`](https://intel.arkm.com/explorer/address/0xbff145eeb5112538b7c3a0c143",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7462aaeb71510d947447cbb1283461e0153b6ebf",
+      "url": "https://intel.arkm.com/explorer/address/0x7462aaeb71510d947447cbb1283461e0153b6ebf",
+      "label": "[`0xbff1…`](https://intel.arkm.com/explorer/address/0xbff145eeb5112538b7c3a0c143",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa7eccdb9be08178f896c26b7bbd8c3d4e844d9ba",
+      "url": "https://intel.arkm.com/explorer/address/0xa7eccdb9be08178f896c26b7bbd8c3d4e844d9ba",
+      "label": "team + backers wallet [`0xa7ec…`](https://intel.arkm.com/explorer/address/0xa7ec",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x87fcecb180e0275c22cef213ff301816bb24e74b",
+      "url": "https://intel.arkm.com/explorer/address/0x87fcecb180e0275c22cef213ff301816bb24e74b",
+      "label": "team + backers wallet [`0xa7ec…`](https://intel.arkm.com/explorer/address/0xa7ec",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0102c5805b8f2dbb2717f233285a246418c98f8f",
+      "url": "https://intel.arkm.com/explorer/address/0x0102c5805b8f2dbb2717f233285a246418c98f8f",
+      "label": "HYPER Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x730c11deddd8243ae4f4541f7cbd324c54f31e75",
+      "url": "https://intel.arkm.com/explorer/address/0x730c11deddd8243ae4f4541f7cbd324c54f31e75",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x33ee451bf69a668a0dd146342d3cc189f899a2ff",
+      "url": "https://intel.arkm.com/explorer/address/0x33ee451bf69a668a0dd146342d3cc189f899a2ff",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4cc67796b4eeaac5c8c4cf92d09f3081afccb204",
+      "url": "https://intel.arkm.com/explorer/address/0x4cc67796b4eeaac5c8c4cf92d09f3081afccb204",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7f8fb5dcd6c51d280ae71e2a5db2be10515bef90",
+      "url": "https://intel.arkm.com/explorer/address/0x7f8fb5dcd6c51d280ae71e2a5db2be10515bef90",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf513e4f8cf8a6baafa189f6c97c7c1314761ac4b",
+      "url": "https://intel.arkm.com/explorer/address/0xf513e4f8cf8a6baafa189f6c97c7c1314761ac4b",
+      "label": "Early HYPER Holder",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x56490c6df53dd7016ff748fd38469c9fb0420a55",
+      "url": "https://intel.arkm.com/explorer/address/0x56490c6df53dd7016ff748fd38469c9fb0420a55",
+      "label": "Early HYPER Holder",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6855bbf38f9e93c6ba7f90bda3e51383ce974a09",
+      "url": "https://intel.arkm.com/explorer/address/0x6855bbf38f9e93c6ba7f90bda3e51383ce974a09",
+      "label": "Early HYPER Holder",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe0ac71529c2480d8d60d26bdd4aa0cc65d72e0d5",
+      "url": "https://intel.arkm.com/explorer/address/0xe0ac71529c2480d8d60d26bdd4aa0cc65d72e0d5",
+      "label": "Early HYPER Holder",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd8da1644c722930369b6fb77bc8a8c5b40c07290",
+      "url": "https://intel.arkm.com/explorer/address/0xd8da1644c722930369b6fb77bc8a8c5b40c07290",
+      "label": "Early HYPER Holder",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x1b20b200a78c6068ce5ea96226d1b53e0a119202",
+      "url": "https://intel.arkm.com/explorer/address/0x1b20b200a78c6068ce5ea96226d1b53e0a119202",
+      "label": "Early HYPER Holder",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9ec1f2b052b4534b387c73c69b3e87324c1c7b21",
+      "url": "https://intel.arkm.com/explorer/address/0x9ec1f2b052b4534b387c73c69b3e87324c1c7b21",
+      "label": "**Manifold Trading**",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": true,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API: `tokentx` for the HYPER contract and ~120 wallets traced from \"Hyperlane: Deployer\"; `tokenbalance`, `tokensupply`, `getsourcecode` (Safe proxies), `getcontractcreation`; read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags: \"Hyperlane: Deployer\", \"Hyperlane: stHYPER Token\", \"Hyperlane: HYPER Airdrop Merkle Distributor\", \"Binance Deposit\" (0x0450, 0x70eb, 0xe816, 0x1b20, 0xdc99, 0x2b60), \"ByBit Deposit\" (0xd8da, 0x660b, 0x17de, 0x66b4), \"FalconX Deposit\", \"Binance 14\"",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Hyperlane Foundation, \"Introducing HYPER\" (3 Apr 2025)](https://medium.com/@hyperlane_fdn/introducing-hyper-f3846883f1f5) · [Hyperlane audits](https://docs.hyperlane.xyz/docs/resources/audits) · [blog](https://www.hyperlane.xyz/blog) · [GitHub monorepo](https://github.com/hyperlane-xyz/hyperlane-monorepo)",
+      "urls": [
+        "Hyperlane Foundation, \"Introducing HYPER\" (3 Apr 2025",
+        "Hyperlane audits",
+        "blog",
+        "GitHub monorepo"
+      ],
+      "date_read": "3 Apr 2025"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account), 'All networks' view: Hyperlane labels on `0xbff1…`, `0x7462…` and `0xa7ec…` (\"Hyperlane: Deployer\"); Manifold Trading on `0x9ec1…`; Bybit and Binance deposit labels; \"Early HYPER Holder\" tags on the eight July sellers; `0x87fc…` and `0x1686…` unlabelled Safes; `0xa6c3…` 168.438M (links in Holdings and Selling)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] BNB Chain RPC `balanceOf(0xa6c3…)` on HYPER BSC contract `0xc9d2…a5c4` = 168,437,500; Ethereum `eth_getCode(0xa7ec…)` = EIP-7702 delegation (EOA); read 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees/revenue/TVL; CoinGecko `hyperlane` (16 Nov 2026 6:50 AM MST); KuCoin HYPER-USDT daily candles for every pump test",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [0xCERT](https://www.0xcert.com/advisory/0xCERT-2026-0237) · [OAK](https://onchainattack.org/document/examples/2026-10-autheo-theo-hyperlane-trusted-relayer-ism-unbacked-mint/) · [CoinLaunch unlocks](https://coinlaunch.space/projects/hyperlane/vesting/)",
+      "urls": [
+        "0xCERT",
+        "OAK",
+        "CoinLaunch unlocks"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] who controls the eight July 2025 wallets, `0x0102` and `0xa6c3`; who the signers of Safes `0x87fc` and `0x1686` are; whether team lockups are enforced on-chain",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

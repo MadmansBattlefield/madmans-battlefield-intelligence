@@ -1,0 +1,346 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ALGO",
+  "name": "Algorand",
+  "chain": "algorand",
+  "contract": "native (no token contract)",
+  "overall_score": 5.0,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 6,
+    "insider_holdings": 6,
+    "selling_behavior": 5,
+    "tokenomics_supply": 7,
+    "liquidity_market": 6,
+    "product_development": 7,
+    "adoption_customers": 4,
+    "security_audits": 7,
+    "regulatory": 8,
+    "catalysts": 5
+  },
+  "sections_passed": 7,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "foundation_sells_on_pump_days": "tripped_disclosed_program",
+    "structured_selling_status": "paused_onchain_since_2026-08-24_not_announced",
+    "foundation_share_of_online_stake_over_15pct": "tripped"
+  },
+  "price_usd": 0.080319,
+  "price_source": "CoinGecko algorand, 15 Nov 2026 6:45 AM MST",
+  "front_matter_extras": {
+    "chain_read_round": 66980074
+  },
+  "key_numbers": {
+    "price_usd": 0.080319,
+    "market_cap_text": "$729.3M",
+    "fdv_text": "$729.3M",
+    "volume_24h_text": "$51.5M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ALGO.md",
+    "sha256": "63c6ff81c182ed604a7fd079fcb55ab485a4a91c5cdbd94a5808c14aab44dd90",
+    "bytes": 28686,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko algorand, 15 Nov 2026 6:45 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:05 AM MST",
+      "15 Nov 2026",
+      "2026-11-15"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "🔴 Pump-day sale 1 Jun 2026: 3M ALGO selling wallet → `45KKMHBB…` (+17.6% 5-day)",
+      "url": "tx MAZ5LSZ2…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "🔴 Pump-day sale 1 Jun 2026: 3M ALGO selling wallet → `45KKMHBB…` (+17.6% 5-day)",
+      "url": "`44GWRTQG…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "🔴 5 Aug 2026: 10M in from Foundation `VAOTJJLJ…`, 5M out an hour later (+13.4%)",
+      "url": "in: tx 6LQLL6ZM…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "🔴 5 Aug 2026: 10M in from Foundation `VAOTJJLJ…`, 5M out an hour later (+13.4%)",
+      "url": "out: tx QBXLVQ6U…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "🔴 5 Aug 2026: 10M in from Foundation `VAOTJJLJ…`, 5M out an hour later (+13.4%)",
+      "url": "`VAOTJJLJ…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "🔴 24 Aug 2026: 3M ALGO (+20.6%), last sale on-chain",
+      "url": "tx AZORFFIX…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "`45KKMHBB…` sent 112.9M ALGO onward (11.5M on pump days)",
+      "url": "Allo",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50–11:05 AM MST"
+    },
+    {
+      "claim": "`45KKMHBB…` sent 112.9M ALGO onward (11.5M on pump days)",
+      "url": "indexer txs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50–11:05 AM MST"
+    },
+    {
+      "claim": "`45KKMHBB…` sent 112.9M ALGO onward (11.5M on pump days)",
+      "url": "Arkham check (Algorand unsupported",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50–11:05 AM MST"
+    },
+    {
+      "claim": "Main destinations: `DI6YXMONC7…` 51.7M · `S6VQ2RAB…` 31.9M · `GSRT2TB2…` 19.6M",
+      "url": "`DI6YXMONC7…`",
+      "kind": "other",
+      "tier": "A flow / owner unverified",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "Main destinations: `DI6YXMONC7…` 51.7M · `S6VQ2RAB…` 31.9M · `GSRT2TB2…` 19.6M",
+      "url": "`S6VQ2RAB…`",
+      "kind": "other",
+      "tier": "A flow / owner unverified",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "Main destinations: `DI6YXMONC7…` 51.7M · `S6VQ2RAB…` 31.9M · `GSRT2TB2…` 19.6M",
+      "url": "`GSRT2TB2…`",
+      "kind": "other",
+      "tier": "A flow / owner unverified",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "`45KKMHBB…` also fed by treasury accounts",
+      "url": "`B223SVF4…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "`45KKMHBB…` also fed by treasury accounts",
+      "url": "`2TZAMEZZ…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "Foundation 19.6% of online stake; 879M ALGO across published accounts",
+      "url": "Foundation transparency + account list",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "Foundation 19.6% of online stake; 879M ALGO across published accounts",
+      "url": "ledger supply",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    },
+    {
+      "claim": "Fee Sink 11.58M ALGO",
+      "url": "`Y76M3M…L226CA`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50 AM MST"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "algorand",
+      "address": "45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E",
+      "url": "https://intel.arkm.com/explorer/address/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "formal_announcement",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "foundation_sells_on_pump_days: tripped_disclosed_program"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Algorand is cheap to use by design, so the network earns almost nothing. Stakers are paid by the Foundation spending down its treasury, not by users. The new CEO's stated plan is to sell paid services and use that revenue to buy ALGO ([Unverified], one Tier B report). Nothing like that exists on-chain yet."
+  },
+  "attributions": [
+    {
+      "address": "45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E",
+      "url": "https://intel.arkm.com/explorer/address/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E",
+      "label": "Algorand Token Holder Report Q3 2026",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] AlgoNode public algod ([`mainnet-api.algonode.cloud`](https://mainnet-api.algonode.cloud/v2/ledger/supply)) and indexer ([`mainnet-idx.algonode.cloud`](https://mainnet-idx.algonode.cloud/v2/accounts/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E/transactions?limit=100)); human-readable views on [Allo](https://allo.info) (every account and tx cited is linked inline and in the Evidence trail): ledger supply, all published Foundation accounts, selling-wallet and [`45KKMHBB…`](https://allo.info/account/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E) transaction histories, block samples; 15 Nov 2026 ~6:50 AM MST",
+      "urls": [
+        "`mainnet-api.algonode.cloud`",
+        "`mainnet-idx.algonode.cloud`",
+        "Allo",
+        "`45KKMHBB…`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Algorand Foundation transparency page and account list](https://algorand.co/algorand-foundation/transparency); Q1 2026 and Q2 2026 transparency reports (PDF)",
+      "urls": [
+        "Algorand Foundation transparency page and account list"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Algorand Community Update, 6 Nov 2026](https://algorand.co/blog/algorand-community-update); CEO announcement (PR Newswire / algorand.co, 9 Sep 2026)",
+      "urls": [
+        "Algorand Community Update, 6 Nov 2026"
+      ],
+      "date_read": "6 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees, chain TVL, stablecoins; CoinGecko market data, tickers with depth and 365 daily closes (15 Nov 2026 6:45 AM MST)",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub API `algorand/go-algorand` (activity, releases incl. v4.7.2-stable)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] SEC release 33-11412; ESMA interim MiCA register",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Blockworks \"Algorand Token Holder Report Q3 2026\" (13 Nov 2026); CoinDesk (CEO change)",
+      "urls": [],
+      "date_read": "13 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Arkham](https://intel.arkm.com/explorer/address/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E), read 15 Nov 2026 ~11:05 AM MST (signed-in account): **Algorand is not supported** ([`45KKMHBB…`](https://allo.info/account/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E) returns \"Something went wrong / Couldn't load portfolio\"; [`DI6YXMONC7…`](https://allo.info/account/DI6YXMONC7PFVCRXHFP4UQCV5UXUFWO3Z2QURBV2K3SQLHILW3CROQ7UOI) and [`GSRT2TB2…`](https://allo.info/account/GSRT2TB2TADJ2YCE4A6O2ZH6TPFN3J2ACN5YOHT42MZKOO6LF4RFGAVSMQ) not opened for the same reason). Open item #3 stays open",
+      "urls": [
+        "Arkham",
+        "`45KKMHBB…`",
+        "`DI6YXMONC7…`",
+        "`GSRT2TB2…`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] HesabPay and x402 figures; Flow Traders; FIFA migration; founder; senior-exit report; the end of structured selling",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

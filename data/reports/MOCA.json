@@ -1,0 +1,362 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "MOCA",
+  "name": "Moca Network",
+  "chain": "ethereum",
+  "contract": "0xf944e35f95e819e752f3ccb5faf40957d311e8c5",
+  "overall_score": 3.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 6,
+    "insider_holdings": 3,
+    "selling_behavior": 6,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 5,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no (fixed 8,888,888,888; token has burn but no mint)",
+    "team_wallet_to_exchange_during_pump": "none found: no exchange outflow from any traced insider wallet in 365 days; the pump-day high-turnover cluster is Upbit exchange inventory",
+    "treasury_in_single_key_wallets": "yes, five dormant EOAs hold ~3.71B MOCA (42%); several 1-of-2 Safes"
+  },
+  "price_usd": 0.00602025,
+  "price_source": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00602025,
+    "market_cap_text": "$28.6M",
+    "fdv_text": "$53.5M",
+    "volume_24h_text": "$3.05M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/MOCA.md",
+    "sha256": "76c31f1656d26f7f8834d8615d318520bf0b7f585ee8316b0ce2f47a0efc2cb9",
+    "bytes": 14221,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Scheduled Safe release on a pump day",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Upbit cold → hot wallet 75M on a pump day (exchange inventory)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Top EOAs dormant",
+      "url": "0x4AB8…E444",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Top EOAs dormant",
+      "url": "0x92A6…3F30",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "~34% of float unlocks a year",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "~34% of float unlocks a year",
+      "url": "Blockworks",
+      "kind": "other",
+      "tier": "B ×2",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0c94ae6baed9a17cdb37da8e291af9740f924fb7",
+      "url": "https://etherscan.io/address/0x0C94Ae6BaeD9a17cdb37DA8E291aF9740f924Fb7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4ab86fe77f1c3971640e8e91af474eb48843e444",
+      "url": "https://etherscan.io/address/0x4AB86fe77f1C3971640E8e91af474eB48843E444",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x64f4861d2a60947146c0e487f965656cf23a81c6",
+      "url": "https://etherscan.io/address/0x64f4861d2a60947146c0e487f965656cf23a81c6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x80f67ab0759df2eb02fff6a51d8ed611083deedb",
+      "url": "https://etherscan.io/address/0x80F67aB0759df2eb02fFF6a51d8Ed611083DeEdb",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8ca3c5990bada51bd41d31c43d4375ba911ee672",
+      "url": "https://etherscan.io/address/0x8Ca3c5990BadA51BD41D31c43d4375bA911eE672",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x92a6623456971161d6fd3dd7f016571578413f30",
+      "url": "https://etherscan.io/address/0x92A6623456971161d6fd3dd7F016571578413F30",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xbfb280fb9663dde8c65c808d009c07c72f4f9b95",
+      "url": "https://etherscan.io/address/0xbfB280fB9663ddE8C65C808d009c07c72F4f9B95",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd965266d814e3db76445e4f5f3ccb488dba881b7",
+      "url": "https://etherscan.io/address/0xD965266D814e3DB76445e4f5f3cCb488Dba881b7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xda01561cd0f9d656a416994747f86bb62bbc4e1f",
+      "url": "https://etherscan.io/address/0xda01561cd0F9d656A416994747f86Bb62Bbc4e1F",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdca7eeff29309fc709851658dfd16aef16dda858",
+      "url": "https://etherscan.io/address/0xdcA7EEFF29309FC709851658dfD16aEF16dda858",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf944e35f95e819e752f3ccb5faf40957d311e8c5",
+      "url": "https://etherscan.io/address/0xf944e35f95e819e752f3ccb5faf40957d311e8c5",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": false,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: none found: no exchange outflow from any traced insider wallet in 365 days; the pump-day high-turnover cluster is Upbit exchange inventory"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "no revenue. **1 (hard gate).**"
+  },
+  "attributions": [
+    {
+      "address": "0x0c94ae6baed9a17cdb37da8e291af9740f924fb7",
+      "url": "https://intel.arkm.com/explorer/address/0x0C94Ae6BaeD9a17cdb37DA8E291aF9740f924Fb7",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd965266d814e3db76445e4f5f3ccb488dba881b7",
+      "url": "https://intel.arkm.com/explorer/address/0xD965266D814e3DB76445e4f5f3cCb488Dba881b7",
+      "label": "[0xD965](https://intel.arkm.com/explorer/address/0xD965266D814e3DB76445e4f5f3cCb",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4ab86fe77f1c3971640e8e91af474eb48843e444",
+      "url": "https://intel.arkm.com/explorer/address/0x4AB86fe77f1C3971640E8e91af474eB48843E444",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x92a6623456971161d6fd3dd7f016571578413f30",
+      "url": "https://intel.arkm.com/explorer/address/0x92A6623456971161d6fd3dd7F016571578413F30",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xdca7eeff29309fc709851658dfd16aef16dda858",
+      "url": "https://intel.arkm.com/explorer/address/0xdcA7EEFF29309FC709851658dfD16aEF16dda858",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xbfb280fb9663dde8c65c808d009c07c72f4f9b95",
+      "url": "https://intel.arkm.com/explorer/address/0xbfB280fB9663ddE8C65C808d009c07c72F4f9B95",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x64f4861d2a60947146c0e487f965656cf23a81c6",
+      "url": "https://intel.arkm.com/explorer/address/0x64f4861d2a60947146c0e487f965656cf23a81c6",
+      "label": "[0xD965](https://intel.arkm.com/explorer/address/0xD965266D814e3DB76445e4f5f3cCb",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout holders / verified source; Etherscan v2 transfers; Ethereum RPC Safe reads, 16 Nov 2026 ~11:45 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `moca-network` (no fees / TVL); [Moca blog](https://moca.network/blog/mocaportfolio-live-2195000-me-allocated-to-moca-stakers/)",
+      "urls": [
+        "Moca blog"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [DefiLlama unlocks](https://defillama.com/unlocks/moca-network) · [Blockworks unlocks](https://app.blockworks.com/projects/mocaverse/token-unlocks) · [Tokenomist buyback](https://tokenomist.ai/mocaverse/buyback)",
+      "urls": [
+        "DefiLlama unlocks",
+        "Blockworks unlocks",
+        "Tokenomist buyback"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `mocaverse` (16 Nov 2026 8:34 AM MST); Gate MOCA/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Upbit Cold and Hot Wallet labels; Mocaverse Team MultiSig; Mocaverse Gnosis Safe, Strategic Partner MultiSig and Network Incentives Fund as funders of the dormant EOAs",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

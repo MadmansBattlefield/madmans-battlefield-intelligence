@@ -1,0 +1,597 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "COTI",
+  "name": "COTI",
+  "chain": "coti",
+  "contract": "0xddb3422497e61e13543bea06989c0789117555c5",
+  "overall_score": 2.4,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 3,
+    "insider_holdings": 2,
+    "selling_behavior": 2,
+    "tokenomics_supply": 2,
+    "liquidity_market": 4,
+    "product_development": 3,
+    "adoption_customers": 2,
+    "security_audits": 4,
+    "regulatory": 3,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "Mar 2023 bridge mis-mint on the ERC20 (huge test mints, burned the same day; COTI says no funds left the bridge)",
+    "mint_path_live": "yes (ERC20 owner can mint without limit; mintingFinished = false; native V2 chain still inflates)",
+    "team_wallet_to_exchange_during_pump": "yes (wallets funded within hours by the Sep 2026 consolidation sent 68.0M COTI to Gate and KuCoin deposits on pump days 18-20 Sep 2026, 157.4M in total by 10 Oct)",
+    "treasury_in_single_key_wallets": "yes (the two largest consolidation wallets, 1.29B and 877.6M COTI, are plain EOAs); the ERC20 owner key moved from an EOA to a 3-of-4 Safe on 6 Nov 2026"
+  },
+  "price_usd": 0.00845036,
+  "price_source": "CoinGecko, 16 Nov 2026 7:13 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00845036,
+    "market_cap_text": "$25.18M",
+    "fdv_text": "$25.18M",
+    "volume_24h_text": "$14.95M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/COTI.md",
+    "sha256": "84e20a6c3f173690ea14c67c34c64fe5e690e0876ee6001221aa6bc3e9bd3a4d",
+    "bytes": 22843,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 7:13 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Owner-key mints to `0x61bf` (1.98B, Sep 2026)",
+      "url": "1.38B",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Owner-key mints to `0x61bf` (1.98B, Sep 2026)",
+      "url": "250M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Owner-key mints to `0x61bf` (1.98B, Sep 2026)",
+      "url": "350.5M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x61bf` → `0xcf26` and `0x1a18` (1.14B each)",
+      "url": "to 0xcf26",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x61bf` → `0xcf26` and `0x1a18` (1.14B each)",
+      "url": "to 0x1a18",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xcf26` → distribution wallets",
+      "url": "0x07d2 50M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xcf26` → distribution wallets",
+      "url": "0xaac8 100M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xcf26` → distribution wallets",
+      "url": "0xab5b 42M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xcf26` → distribution wallets",
+      "url": "0x062e 992.1M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day sends to Gate / KuCoin",
+      "url": "18 Sep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day sends to Gate / KuCoin",
+      "url": "19 Sep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day sends to Gate / KuCoin",
+      "url": "20 Sep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Ownership moves",
+      "url": "deployer → EOA",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Ownership moves",
+      "url": "EOA → Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mar 2023 bridge mis-mint",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Leadership change, paused products, fee split",
+      "url": "Blockworks filing",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "coti",
+      "address": "0x03548e0f5ef69d5b9b6976c570a20b08b0486acd",
+      "url": "https://intel.arkm.com/explorer/address/0x03548e0f5ef69d5b9b6976c570a20b08b0486acd",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0x062e20b531b8e8ce0a17fc1130e27d62d3aeddce",
+      "url": "https://intel.arkm.com/explorer/address/0x062e20b531b8e8ce0a17fc1130e27d62d3aeddce",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0x07d2ef1fac34f52fbd86196b5d9154e0a036e68c",
+      "url": "https://intel.arkm.com/explorer/address/0x07d2ef1fac34f52fbd86196b5d9154e0a036e68c",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0x0b5109873aa17ad3a044c7d5f9ef2ea8d1bc993a",
+      "url": "https://intel.arkm.com/explorer/address/0x0b5109873aa17ad3a044c7d5f9ef2ea8d1bc993a",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0x172075b0f30fe17b1138078844bb3764abe0f3da",
+      "url": "https://intel.arkm.com/explorer/address/0x172075b0f30fe17b1138078844bb3764abe0f3da",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0x1a184244de9d3e726a3aa3d02b585e6ff8e2f9ce",
+      "url": "https://intel.arkm.com/explorer/address/0x1a184244de9d3e726a3aa3d02b585e6ff8e2f9ce",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0x2ba95ffaaab55160af215bc33d036c8cda34fa09",
+      "url": "https://intel.arkm.com/explorer/address/0x2ba95ffaaab55160af215bc33d036c8cda34fa09",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0x4d2a4b7c76ff71ed4d641135123dabde71f7f10b",
+      "url": "https://intel.arkm.com/explorer/address/0x4d2a4b7c76ff71ed4d641135123dabde71f7f10b",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0x655b7ea956d26eebcc6ec22ee9af9f0f871cd753",
+      "url": "https://intel.arkm.com/explorer/address/0x655b7ea956d26eebcc6ec22ee9af9f0f871cd753",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0x94c8dc3c94533716ee64256812825f4d3da5a43e",
+      "url": "https://intel.arkm.com/explorer/address/0x94c8dc3c94533716ee64256812825f4d3da5a43e",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0xaac8ca81a671829d007d7a860a04cf096dc66de8",
+      "url": "https://intel.arkm.com/explorer/address/0xaac8ca81a671829d007d7a860a04cf096dc66de8",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0xab5b62cf058a8fe9a33dc73edb5a38cb53695623",
+      "url": "https://intel.arkm.com/explorer/address/0xab5b62cf058a8fe9a33dc73edb5a38cb53695623",
+      "kind": "address"
+    },
+    {
+      "chain": "coti",
+      "address": "0xe0e42c70880d57230fb843db5eba6800533e91ae",
+      "url": "https://intel.arkm.com/explorer/address/0xe0e42c70880d57230fb843db5eba6800533e91ae",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x03548e0f5ef69d5b9b6976c570a20b08b0486acd",
+      "url": "https://etherscan.io/address/0x03548e0f5ef69d5b9b6976c570a20b08b0486acd",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x07d2ef1fac34f52fbd86196b5d9154e0a036e68c",
+      "url": "https://etherscan.io/address/0x07d2ef1fac34f52fbd86196b5d9154e0a036e68c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0b5109873aa17ad3a044c7d5f9ef2ea8d1bc993a",
+      "url": "https://etherscan.io/address/0x0b5109873aa17ad3a044c7d5f9ef2ea8d1bc993a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x172075b0f30fe17b1138078844bb3764abe0f3da",
+      "url": "https://etherscan.io/address/0x172075b0f30fe17b1138078844bb3764abe0f3da",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1a184244de9d3e726a3aa3d02b585e6ff8e2f9ce",
+      "url": "https://etherscan.io/address/0x1a184244de9d3e726a3aa3d02b585e6ff8e2f9ce",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x61bf10a1a27b2d99de0a59a06200a62ed579d685",
+      "url": "https://etherscan.io/address/0x61bf10a1a27b2d99de0a59a06200a62ed579d685",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x842cbba2e88898a381b493d1e32c707113660e5b",
+      "url": "https://etherscan.io/address/0x842cbba2e88898a381b493d1e32c707113660e5b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaac8ca81a671829d007d7a860a04cf096dc66de8",
+      "url": "https://etherscan.io/address/0xaac8ca81a671829d007d7a860a04cf096dc66de8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcd50cfd2f94841858e7c702e1505994fa498a577",
+      "url": "https://etherscan.io/address/0xcd50cfd2f94841858e7c702e1505994fa498a577",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcf26c9c96aa6267d85e67df5cb85acf4b7e3357f",
+      "url": "https://etherscan.io/address/0xcf26c9c96aa6267d85e67df5cb85acf4b7e3357f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xddb3422497e61e13543bea06989c0789117555c5",
+      "url": "https://etherscan.io/address/0xddb3422497e61e13543bea06989c0789117555c5#code",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe0e42c70880d57230fb843db5eba6800533e91ae",
+      "url": "https://etherscan.io/address/0xe0e42c70880d57230fb843db5eba6800533e91ae",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes (wallets funded within hours by the Sep 2026 consolidation sent 68.0M COTI to Gate and KuCoin deposits on pump days 18-20 Sep 2026, 157.4M in total by 10 Oct)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn",
+      "fee_share"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Fees are close to zero and holders have no claim on them. **1, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "0x1a184244de9d3e726a3aa3d02b585e6ff8e2f9ce",
+      "url": "https://intel.arkm.com/explorer/address/0x1a184244de9d3e726a3aa3d02b585e6ff8e2f9ce",
+      "label": "COTI Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x03548e0f5ef69d5b9b6976c570a20b08b0486acd",
+      "url": "https://intel.arkm.com/explorer/address/0x03548e0f5ef69d5b9b6976c570a20b08b0486acd",
+      "label": "COTI Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x062e20b531b8e8ce0a17fc1130e27d62d3aeddce",
+      "url": "https://intel.arkm.com/explorer/address/0x062e20b531b8e8ce0a17fc1130e27d62d3aeddce",
+      "label": "COTI Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x94c8dc3c94533716ee64256812825f4d3da5a43e",
+      "url": "https://intel.arkm.com/explorer/address/0x94c8dc3c94533716ee64256812825f4d3da5a43e",
+      "label": "COTI Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe0e42c70880d57230fb843db5eba6800533e91ae",
+      "url": "https://intel.arkm.com/explorer/address/0xe0e42c70880d57230fb843db5eba6800533e91ae",
+      "label": "Genesis wallet",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x07d2ef1fac34f52fbd86196b5d9154e0a036e68c",
+      "url": "https://intel.arkm.com/explorer/address/0x07d2ef1fac34f52fbd86196b5d9154e0a036e68c",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x172075b0f30fe17b1138078844bb3764abe0f3da",
+      "url": "https://intel.arkm.com/explorer/address/0x172075b0f30fe17b1138078844bb3764abe0f3da",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0b5109873aa17ad3a044c7d5f9ef2ea8d1bc993a",
+      "url": "https://intel.arkm.com/explorer/address/0x0b5109873aa17ad3a044c7d5f9ef2ea8d1bc993a",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x655b7ea956d26eebcc6ec22ee9af9f0f871cd753",
+      "url": "https://intel.arkm.com/explorer/address/0x655b7ea956d26eebcc6ec22ee9af9f0f871cd753",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x2ba95ffaaab55160af215bc33d036c8cda34fa09",
+      "url": "https://intel.arkm.com/explorer/address/0x2ba95ffaaab55160af215bc33d036c8cda34fa09",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xaac8ca81a671829d007d7a860a04cf096dc66de8",
+      "url": "https://intel.arkm.com/explorer/address/0xaac8ca81a671829d007d7a860a04cf096dc66de8",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x4d2a4b7c76ff71ed4d641135123dabde71f7f10b",
+      "url": "https://intel.arkm.com/explorer/address/0x4d2a4b7c76ff71ed4d641135123dabde71f7f10b",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xab5b62cf058a8fe9a33dc73edb5a38cb53695623",
+      "url": "https://intel.arkm.com/explorer/address/0xab5b62cf058a8fe9a33dc73edb5a38cb53695623",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": true,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` for `0x61bf`, `0xcf26`, `0x1a18`, `0x062e`, `0x94c8`, `0x0354`, `0x07d2`, `0xab5b`, `0xaac8`, `0x4d2a`, the deployer and their hops; Mint and OwnershipTransferred logs; Ethereum RPC `totalSupply()`, `balanceOf()`, `owner()`, Safe `getOwners()` / `getThreshold()`; read 16 Nov 2026 ~8:30–9:15 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags (\"Coti: Deployer\", \"Gate Deposit\", \"KuCoin Deposit\", \"Binance Deposit\", \"Binance 15/16\", \"KuCoin 20\"); Blockscout holder list",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama COTI chain fees](https://defillama.com/chain/coti); CoinGecko `coti` (16 Nov 2026 7:13 AM MST); Gate COTI/USDT daily candles",
+      "urls": [
+        "DefiLlama COTI chain fees"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Blockworks Token Transparency filing](https://blockworks.com/token-transparency/filing/coti) · [COTI Telegram consolidation notice](https://t.me/cotichannel/3245)",
+      "urls": [
+        "Blockworks Token Transparency filing",
+        "COTI Telegram consolidation notice"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): deployer labelled COTI : Deployer; `0x1a18…`, `0x0354…`, `0x062e…`, `0x94c8…`, `0xaac8…`, `0xab5b…`, `0x4d2a…` unlabelled; Gate, KuCoin and Binance deposit labels confirmed (links in Holdings and Selling). Pages for `0x07d2…`, `0xcf26…`, `0x61bf…`, `0xcd50…`, the Safe `0x842c…` and its signers, `0x0f9f…`, `0x8e08…`, `0x9365…`, `0x9f4d…`, `0x1ba5…`, `0x0fd7…` and `0xef38…` loaded only the profile; their balance and transfer tables did not load, so nothing on them is used here [Unverified] (Arkham table did not render, 16 Nov)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Who controls `0x1a18`, `0x0354`, `0x07d2` and `0xaac8`; whether `0x07d2` is a market maker; the leadership change; native-chain Foundation flows",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

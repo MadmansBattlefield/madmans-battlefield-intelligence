@@ -1,0 +1,213 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ZEN",
+  "name": "Horizen",
+  "chain": "base",
+  "contract": "0xf43eb8de897fbc7f2502483b2bef7bb9ea179229",
+  "overall_score": 3.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 5,
+    "insider_holdings": 5,
+    "selling_behavior": 4,
+    "tokenomics_supply": 5,
+    "liquidity_market": 5,
+    "product_development": 3,
+    "adoption_customers": 2,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no: all 21,000,000 ZEN already minted on Base; unvested Foundation/DAO tokens release monthly to mid-2029",
+    "team_wallet_to_exchange_during_pump": "not proven: Base wallet tracing was not available without a paid key; the Foundation discloses that it uses idle ZEN to 'support ZEN capital markets'",
+    "entity_concentration": "Foundation (2M) + DAO (~3M) allocations ≈ 24% of max supply, vesting over 48 months from Jul 2025"
+  },
+  "price_usd": 4.09,
+  "price_source": "CoinGecko, 16 Nov 2026 ~8:40 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 4.09,
+    "market_cap_text": "$75.6M",
+    "fdv_text": "$85.9M",
+    "volume_24h_text": "$4.76M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ZEN.md",
+    "sha256": "a30c5bcb553c7a54bb1fc105da8e2efe9e4fa2736a2e30bff0842a6d9f9abb53",
+    "bytes": 9669,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~8:40 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "L3 decommissioned 5 Nov 2026",
+      "url": "Horizen blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ZEN on Base, 21M supply",
+      "url": "BaseScan token",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ZEN on Base, 21M supply",
+      "url": "migration post",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation supports ZEN capital markets",
+      "url": "Blockworks filing",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "base",
+      "address": "0xf43eb8de897fbc7f2502483b2bef7bb9ea179229",
+      "url": "https://intel.arkm.com/explorer/address/0xf43eb8de897fbc7f2502483b2bef7bb9ea179229",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Binance ZENUSDT daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: Base wallet tracing was not available without a paid key; the Foundation discloses that it uses idle ZEN to 'support ZEN capital markets'"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 1/10 · ❌ FAIL (hard gate) - No fee or revenue record exists on DefiLlama, and the L3, the only chain that could earn fees, is shut down. The DAO earns yield on treasury liquidity positions, but that is treasury income, not protocol revenue. **1 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0xf43eb8de897fbc7f2502483b2bef7bb9ea179229",
+      "url": "https://intel.arkm.com/explorer/address/0xf43eb8de897fbc7f2502483b2bef7bb9ea179229",
+      "label": "to support ZEN capital markets",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [Horizen blog: Changes for Horizen](https://blog.horizen.io/changes-for-horizen) (L3 shutdown and recovery)",
+      "urls": [
+        "Horizen blog: Changes for Horizen"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Horizen blog: ZEN's move to Base](https://blog.horizen.io/get-ready-for-zen-s-big-move-to-base) (contract, supply changes)",
+      "urls": [
+        "Horizen blog: ZEN's move to Base"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Blockworks token transparency filing](https://blockworks.com/token-transparency/filing/horizen/8a6c87ba-3995-4cfb-a3d0-2daef84cd1b4) (vesting, market support)",
+      "urls": [
+        "Blockworks token transparency filing"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Base public RPC `totalSupply` for the ZEN contract (21,000,000)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `zencash`; pump days from Binance ZENUSDT daily closes",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "Not reached: Base wallet histories (paid key required). Arkham (Arkham, read 16 Nov 2026 (signed-in account)) was run only on the Base token contract, which it labels Horizen (ZEN); no Foundation or DAO wallet was identified",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

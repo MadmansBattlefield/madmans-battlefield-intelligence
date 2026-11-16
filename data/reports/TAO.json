@@ -1,0 +1,221 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "TAO",
+  "name": "Bittensor",
+  "chain": "bittensor",
+  "contract": "native (Subtensor / Finney)",
+  "overall_score": 5.5,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 5,
+    "insider_holdings": 6,
+    "selling_behavior": 5,
+    "tokenomics_supply": 8,
+    "liquidity_market": 8,
+    "product_development": 8,
+    "adoption_customers": 6,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 6
+  },
+  "sections_passed": 6,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none_in_series",
+    "central_halt_authority": "present",
+    "foundation_wallets_unpublished": "tripped"
+  },
+  "price_usd": 193.44,
+  "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {
+    "chain_read_block": 9506723
+  },
+  "key_numbers": {
+    "price_usd": 193.44,
+    "market_cap_text": "$2.27B",
+    "volume_24h_text": "$142.3M"
+  },
+  "last_updated": "2026-11-14",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/TAO.md",
+    "sha256": "f47444bed928592ab8a957cc91d5d9450eb8df5b1f155c7fd40bec116c4b1555",
+    "bytes": 12952,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:05 AM MST",
+      "2026-11-14"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:05 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Rewards paid from new issuance; fees are recycled, no fee flow to holders",
+      "url": "Bittensor docs — emissions",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "OTF halted transactions (\"safe mode\") in July 2024",
+      "url": "OTF community update",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Fair launch, 0 team/VC allocation",
+      "url": "TAO token economy",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Foundation wallets unpublished; Arkham has no OTF/Rao entity and no Subtensor coverage",
+      "url": "Arkham “Bittensor” entity",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "15 Nov 2026 ~11:05 AM MST"
+    },
+    {
+      "claim": "Total issuance 11.73M of 21M; 63.6% staked",
+      "url": "Taostats",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Core code maintained by Rao Foundation (release v490, 10 Nov 2026)",
+      "url": "GitHub",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": []
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "TAO holders are paid with newly minted TAO, not with fees. Some subnets sell real AI services, but that money does not flow to TAO by protocol. Score 3 = gate fail."
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Subtensor RPC (`entrypoint-finney.opentensor.ai`): `SubtensorModule.TotalIssuance`, `TotalStake`, `TotalNetworks`, chain head; 14 Nov 2026 ~12:35 PM MST",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Bittensor docs — emissions](https://www.bittensor.com/docs/concepts/emissions) · [TAO token economy](https://blog.bittensor.com/tao-token-economy-explained-17a3a90cd44e) · [OTF update 3 Jul 2024](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d)",
+      "urls": [
+        "Bittensor docs — emissions",
+        "TAO token economy",
+        "OTF update 3 Jul 2024"
+      ],
+      "date_read": "3 Jul 2024"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub [`RaoFoundation/subtensor`](https://github.com/RaoFoundation/subtensor) · [Taostats](https://taostats.io) explorer for issuance/stake cross-checks",
+      "urls": [
+        "`RaoFoundation/subtensor`",
+        "Taostats"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [CoinGecko `bittensor`](https://www.coingecko.com/en/coins/bittensor) price and 365-day daily closes, 14 Nov 2026 12:12 PM MST",
+      "urls": [
+        "CoinGecko `bittensor`"
+      ],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] SEC EDGAR, Grayscale Bittensor Trust (from 10 Oct 2026 pass)",
+      "urls": [],
+      "date_read": "10 Oct 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Blockworks token-transparency filing · The Block",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): **no Opentensor Foundation or Rao Foundation entity**. Search returns only a \"Bittensor\" entity ([Arkham entity “Bittensor”](https://intel.arkm.com/explorer/entity/bittensor); 2 EVM contract-deployer addresses, $23,447), and Arkham does not cover Subtensor accounts. Foundation balances and exchange deposits stay unverified. No score change",
+      "urls": [
+        "Arkham entity “Bittensor”"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Founder names; subnet customer revenue; foundation balances",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

@@ -1,0 +1,665 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "CFG",
+  "name": "Centrifuge",
+  "chain": "ethereum",
+  "contract": "0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94",
+  "overall_score": 4.5,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 6,
+    "insider_holdings": 3,
+    "selling_behavior": 5,
+    "tokenomics_supply": 3,
+    "liquidity_market": 4,
+    "product_development": 7,
+    "adoption_customers": 7,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found on the CFG token",
+    "mint_path_live": "yes, by design (immutable InflationMinter mints ~3%/yr to treasury EOA 0xb3da; Root (48h delay) can add minters)",
+    "team_wallet_to_exchange_during_pump": "yes, small and partly explained (Centrifuge Treasury EOA 0xb3da sent 835k CFG to a Binance deposit on the 18 Mar 2026 pump day; its pump-day FalconX deposits on 26 Feb and 16 Mar 2026 were returned 1:1 within weeks; the CNF Safe's 23.06M to Gate on the 23 May 2025 pump day falls under CP149's disclosed exchange-migration purpose)",
+    "treasury_in_single_key_wallets": "yes (~117M CFG, ≈ 17% of supply, in two EOAs: 0xD052 106.07M and treasury 0xb3da 11.22M; docs call 10.5% of supply 'locked' incentives but no lock contract was found)",
+    "token_to_equity_conversion": "CP172 passed 10 Sep 2026; Centrifuge says it will wind down funding for CFG liquidity (listings, market-maker loans) after the conversion window"
+  },
+  "price_usd": 0.07006,
+  "price_source": "CoinGecko, 16 Nov 2026 5:27 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.07006,
+    "market_cap_text": "$26.65M",
+    "fdv_text": "$47.6M",
+    "volume_24h_text": "$3.32M",
+    "total_supply_text": "705,907,685"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/CFG.md",
+    "sha256": "9e079523ade0070ec73fb7eb5fd56d7e612cbbb851fe037ccaf9c6aab3f54c83",
+    "bytes": 31623,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:27 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 5:27 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:07–7:18 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "`0xb3da…` is the Centrifuge Treasury (immutable InflationMinter target; docs: inflation accrues to the treasury)",
+      "url": "InflationMinter code",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xb3da…` is the Centrifuge Treasury (immutable InflationMinter target; docs: inflation accrues to the treasury)",
+      "url": "mint to 0xb3da",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xb3da…` is the Centrifuge Treasury (immutable InflationMinter target; docs: inflation accrues to the treasury)",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x9938…` = OKX Hot Wallet, `0xa8c8…` = Kraken Hot Wallet, `0x40D3…` = Upbit Deposit",
+      "url": "0x9938",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:07–7:18 AM MST"
+    },
+    {
+      "claim": "`0x9938…` = OKX Hot Wallet, `0xa8c8…` = Kraken Hot Wallet, `0x40D3…` = Upbit Deposit",
+      "url": "0xa8c8",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:07–7:18 AM MST"
+    },
+    {
+      "claim": "`0x9938…` = OKX Hot Wallet, `0xa8c8…` = Kraken Hot Wallet, `0x40D3…` = Upbit Deposit",
+      "url": "0x40D3",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "16 Nov 2026 ~7:07–7:18 AM MST"
+    },
+    {
+      "claim": "115M CP149 mint to the CNF Safe `0x30d3…`, which passed 72M to EOA `0xD052…`",
+      "url": "mint",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "115M CP149 mint to the CNF Safe `0x30d3…`, which passed 72M to EOA `0xD052…`",
+      "url": "0x30d3",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "115M CP149 mint to the CNF Safe `0x30d3…`, which passed 72M to EOA `0xD052…`",
+      "url": "0xD052",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "115M CP149 mint to the CNF Safe `0x30d3…`, which passed 72M to EOA `0xD052…`",
+      "url": "CP149",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "59.8M minted to `0xD052…` in the 4 Jun 2026 governance tx (Root swap)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "18 Mar 2026 pump day: treasury 835k → Binance deposit",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "18 Mar 2026 pump day: treasury 835k → Binance deposit",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "26 Feb / 16 Mar 2026 pump days: treasury → FalconX, returned 1:1",
+      "url": "26 Feb out",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "26 Feb / 16 Mar 2026 pump days: treasury → FalconX, returned 1:1",
+      "url": "5 Mar back",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "26 Feb / 16 Mar 2026 pump days: treasury → FalconX, returned 1:1",
+      "url": "16 Mar out",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "26 Feb / 16 Mar 2026 pump days: treasury → FalconX, returned 1:1",
+      "url": "25 Mar back",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "~20.3M CFG at FalconX not returned (e.g. 6.6M, 20 Oct 2026)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "~20.3M CFG at FalconX not returned (e.g. 6.6M, 20 Oct 2026)",
+      "url": "FalconX deposit",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "23 May 2025 pump day: CNF Safe 23.06M → Gate (migration support)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Wintermute loan returned 5.5M",
+      "url": "return",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Wintermute loan returned 5.5M",
+      "url": "loan hop",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → Grove 33.75M; Grove disclosed 37.8M",
+      "url": "5M tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury → Grove 33.75M; Grove disclosed 37.8M",
+      "url": "Grove blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "3% inflation rate and target are immutable",
+      "url": "code",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Root delay 48h; token wards",
+      "url": "Root",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Root delay 48h; token wards",
+      "url": "token",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "No buyback; liquidity funding to wind down; CP172 passed",
+      "url": "FAQ",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "No buyback; liquidity funding to wind down; CP172 passed",
+      "url": "vote",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue $5.23M (1y), holders $0",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026 5:27 AM MST"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0a367f918340d47d36b21c93e9a2b6853cc9d6f0",
+      "url": "https://etherscan.io/address/0x0a367f918340d47d36b21c93e9a2b6853cc9d6f0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+      "url": "https://etherscan.io/address/0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1136a49f3a1e3a3b6b2b6de30f8244d16f18509a",
+      "url": "https://etherscan.io/address/0x1136a49f3a1e3a3b6b2b6de30f8244d16f18509a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1369f7b2b38c76b6478c0f0e66d94923421891ba",
+      "url": "https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x30d3bbae8623d0e9c0db5c27b82dcda39de40997",
+      "url": "https://etherscan.io/address/0x30d3bbae8623d0e9c0db5c27b82dcda39de40997",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "url": "https://etherscan.io/address/0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x40d31dd5682b4813899a19bfa5d7453048fa2201",
+      "url": "https://intel.arkm.com/explorer/address/0x40d31dd5682b4813899a19bfa5d7453048fa2201",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x50a168cd6957e07b6de6c1a99b2f940475f70def",
+      "url": "https://etherscan.io/address/0x50a168cd6957e07b6de6c1a99b2f940475f70def#code",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x64ac897b8b3cd9ee86d0b64363a290f66a7585f7",
+      "url": "https://etherscan.io/address/0x64ac897b8b3cd9ee86d0b64363a290f66a7585f7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7ed48c31f2fdc40d37407cbabf0870b2b688368f",
+      "url": "https://etherscan.io/address/0x7ed48c31f2fdc40d37407cbabf0870b2b688368f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x845f7623e756370e8d4e7d3ac8fb6ba6574d5467",
+      "url": "https://etherscan.io/address/0x845f7623e756370e8d4e7d3ac8fb6ba6574d5467",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8c4558543804b97221ff37bb903e13b8aeb1a46f",
+      "url": "https://etherscan.io/address/0x8C4558543804b97221Ff37bb903e13B8aEb1A46f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9938ee74ba7a5c1abcd157272a18fcfc9ec9e8d5",
+      "url": "https://etherscan.io/address/0x9938ee74ba7a5c1abcd157272a18fcfc9ec9e8d5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa8c8feff4c02835684c86b01c7ab512bdaadeeaf",
+      "url": "https://etherscan.io/address/0xa8c8feff4c02835684c86b01c7ab512bdaadeeaf",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaa9f8b6c6d1ca0d5abd96357a7871864173edb3c",
+      "url": "https://etherscan.io/address/0xaa9f8b6c6d1ca0d5abd96357a7871864173edb3c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb185814ec5a0823e712f47de957748f6e950df6d",
+      "url": "https://etherscan.io/address/0xb185814ec5a0823e712f47de957748f6e950df6d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb3dacc732509ba6b7f25ad149e56ca44fe901ab9",
+      "url": "https://etherscan.io/address/0xb3dacc732509ba6b7f25ad149e56ca44fe901ab9",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94",
+      "url": "https://etherscan.io/address/0xcccCCCcCCC33D538DBC2EE4fEab0a7A1FF4e8A94#code",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd052a46b8e0c89facb393805e1917afd20f293cb",
+      "url": "https://etherscan.io/address/0xD052A46b8e0C89fAcB393805E1917AfD20f293Cb",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes, small and partly explained (Centrifuge Treasury EOA 0xb3da sent 835k CFG to a Binance deposit on the 18 Mar 2026 pump day; its pump-day FalconX deposits on 26 Feb and 16 Mar 2026 were returned 1:1 within weeks; the CNF Safe's 23.06M to Gate on the 23 May 2025 pump day falls under CP149's disclosed exchange-migration purpose)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "The business earns money (about 5x market cap on a P/S basis, cheap on paper), but none of it reaches CFG, and the team says none will. The value route it offers is to swap CFG for illiquid shares, with KYC, and accredited status for US holders. **3, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "0xd052a46b8e0c89facb393805e1917afd20f293cb",
+      "url": "https://intel.arkm.com/explorer/address/0xd052a46b8e0c89facb393805e1917afd20f293cb",
+      "label": "accrue[s] to the Centrifuge Treasury",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb3dacc732509ba6b7f25ad149e56ca44fe901ab9",
+      "url": "https://intel.arkm.com/explorer/address/0xb3dacc732509ba6b7f25ad149e56ca44fe901ab9",
+      "label": "accrue[s] to the Centrifuge Treasury",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x30d3bbae8623d0e9c0db5c27b82dcda39de40997",
+      "url": "https://intel.arkm.com/explorer/address/0x30d3bbae8623d0e9c0db5c27b82dcda39de40997",
+      "label": "to the Centrifuge Network Foundation",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9938ee74ba7a5c1abcd157272a18fcfc9ec9e8d5",
+      "url": "https://intel.arkm.com/explorer/address/0x9938ee74ba7a5c1abcd157272a18fcfc9ec9e8d5",
+      "label": "Centrifuge: Root",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa8c8feff4c02835684c86b01c7ab512bdaadeeaf",
+      "url": "https://intel.arkm.com/explorer/address/0xa8c8feff4c02835684c86b01c7ab512bdaadeeaf",
+      "label": "FalconX Deposit",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x40d31dd5682b4813899a19bfa5d7453048fa2201",
+      "url": "https://intel.arkm.com/explorer/address/0x40d31dd5682b4813899a19bfa5d7453048fa2201",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x845f7623e756370e8d4e7d3ac8fb6ba6574d5467",
+      "url": "https://intel.arkm.com/explorer/address/0x845f7623e756370e8d4e7d3ac8fb6ba6574d5467",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0xb185814ec5a0823e712f47de957748f6e950df6d",
+      "url": "https://intel.arkm.com/explorer/address/0xb185814ec5a0823e712f47de957748f6e950df6d",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "url": "https://intel.arkm.com/explorer/address/0x3c716d252b53891753de883894ff29a9ebee0f54",
+      "label": "listing agreements, market maker loans, and the infrastructure around them",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` full CFG history for `0xb3da…`, `0xD052…`, `0x30d3…`, `0x1136…`, `0x40D3…`, `0x845f…`, `0x01c7…`, `0x4e34…` and every deposit and hop named; `getLogs` for all 10,822 mint events, burns, Rely/Deny on the token and Rely on Root; `getsourcecode` for the token, InflationMinter and Root; read 16 Nov 2026 ~6:15–6:50 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC (publicnode): `totalSupply()`, `wards()`, InflationMinter `rate()`/`target()`/`period()`, Root `delay()`, Safe `getOwners()`/`getThreshold()`, balances, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan / Blockscout name tags, 16 Nov 2026: \"Centrifuge: Root\", \"Grove: Foundation\" / \"Grove Subproxy\", \"Gate Deposit\", \"KuCoin 20\", \"FalconX Deposit\", \"FalconX 1\", \"Binance Deposit\", \"Wintermute 4\", \"OKX 219\", \"Kraken 245/246\", \"Centrifuge: Protocol Guardian\"",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:07–7:18 AM MST (signed-in account): OKX Hot Wallet [0x9938…](https://intel.arkm.com/explorer/address/0x9938ee74ba7a5c1abcd157272a18fcfc9ec9e8d5) · Kraken Hot Wallet [0xa8c8…](https://intel.arkm.com/explorer/address/0xa8c8feff4c02835684c86b01c7ab512bdaadeeaf) · Upbit Deposit [0x40D3…](https://intel.arkm.com/explorer/address/0x40d31dd5682b4813899a19bfa5d7453048fa2201) · Bitcoin Suisse-funded whale [0x845f…](https://intel.arkm.com/explorer/address/0x845f7623e756370e8d4e7d3ac8fb6ba6574d5467) · treasury-funded whale [0xB185…](https://intel.arkm.com/explorer/address/0xb185814ec5a0823e712f47de957748f6e950df6d) · whale [0x3c71…](https://intel.arkm.com/explorer/address/0x3c716d252b53891753de883894ff29a9ebee0f54) · unlabelled [0xD052…](https://intel.arkm.com/explorer/address/0xd052a46b8e0c89facb393805e1917afd20f293cb), [0xb3da…](https://intel.arkm.com/explorer/address/0xb3dacc732509ba6b7f25ad149e56ca44fe901ab9) · Safe with a tentative signer tag [0x30d3…](https://intel.arkm.com/explorer/address/0x30d3bbae8623d0e9c0db5c27b82dcda39de40997). Token filter is Enterprise-only; first transfer page only",
+      "urls": [
+        "0x9938…",
+        "0xa8c8…",
+        "0x40D3…",
+        "0x845f…",
+        "0xB185…",
+        "0x3c71…",
+        "0xD052…",
+        "0xb3da…",
+        "0x30d3…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama Centrifuge Protocol](https://defillama.com/protocol/centrifuge-protocol) fees and revenue, 16 Nov 2026 5:27 AM MST",
+      "urls": [
+        "DefiLlama Centrifuge Protocol"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Centrifuge token docs](https://docs.centrifuge.io/getting-started/token-summary/) · [CP149](https://github.com/centrifuge/cps/blob/main/cps/CP149/CP149.md) · [CP172 FAQ](https://centrifuge.io/blog/centrifuge-releases-cp172-faqs) · [CP172 vote result](https://gov.centrifuge.io/t/cp172-exploring-token-to-equity-to-maximize-long-term-cfg-value/7525?page=9) · [Q3 2026 recap](https://centrifuge.io/blog/centrifuge-q3-2026-recap) · [Grove announcement](https://grove.finance/blog/grove-announces-strategic-stake-in-centrifuge-ecosystem-deepening-long-term-partnership)",
+      "urls": [
+        "Centrifuge token docs",
+        "CP149",
+        "CP172 FAQ",
+        "CP172 vote result",
+        "Q3 2026 recap",
+        "Grove announcement"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Alea newsletter](https://alearesearch.io/newsletters/centrifuge-derwa-holders) · [Coindaro project page](https://www.coindaro.com/projects/centrifuge/) · [DefiLlama Universal Token Rating](https://defillama.com/universal-token-rating/token/centrifuge-2)",
+      "urls": [
+        "Alea newsletter",
+        "Coindaro project page",
+        "DefiLlama Universal Token Rating"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `centrifuge-2` market data (16 Nov 2026 5:27 AM MST); Gate CFG/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] who holds the keys to `0xD052…` and `0xb3da…`; where the 12% team allocation sits; what ~20.3M CFG still at FalconX is for; whether the 3 Nov 2025 and 6 Oct 2025 transfers to OKX and Kraken hot wallets (Arkham) were customer migrations; who owns `0xB185…` (16.31M from the treasury); Grove's purchase price",
+      "urls": [],
+      "date_read": "3 Nov 2025"
+    }
+  ]
+}

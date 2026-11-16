@@ -1,0 +1,719 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ROUTER",
+  "name": "Solrouter",
+  "chain": "solana",
+  "contract": null,
+  "overall_score": 2.2,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 2,
+    "insider_holdings": 2,
+    "selling_behavior": 1,
+    "tokenomics_supply": 4,
+    "liquidity_market": 1,
+    "product_development": 6,
+    "adoption_customers": 1,
+    "security_audits": 5,
+    "regulatory": 2,
+    "catalysts": 3
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "liquidity_below_75k": "tripped",
+    "founder_exit": "not_confirmed",
+    "paying_customer_by_q1_2027": "open_none_found",
+    "team_wallet_to_exchange": "tripped_coinbase_deposit_16_Oct_and_2_Nov_2026"
+  },
+  "price_usd": 0.000492,
+  "price_source": "DexScreener main Meteora DLMM pool, 14 Nov 2026 9:02 AM MST",
+  "front_matter_extras": {
+    "not_to_be_confused_with": "Router Protocol (ROUTE)",
+    "mint": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
+    "chain_read_slot": 469384534
+  },
+  "key_numbers": {
+    "price_usd": 0.000492,
+    "fdv_text": "$488,975",
+    "volume_24h_text": "$3,296"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ROUTER.md",
+    "sha256": "6da7841733dfd7fd78c894679c3e9086e64c5ec03761bd24912ac29ef434076f",
+    "bytes": 47401,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "DexScreener main Meteora DLMM pool, 14 Nov 2026 9:02 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:05 AM MST",
+      "15 Nov 2026 ~11:40 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:05 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "**Red line:** team multisig vault `DiCPk…` → `7sgL1a…` 5,000,000 ROUTER, 13 Sep 2026 16:06 UTC (needs 2 of 3 keys, one is the team wallet)",
+      "url": "tx `tx`",
+      "kind": "other",
+      "tier": "A (+B)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Red line:** team multisig vault `DiCPk…` → `7sgL1a…` 5,000,000 ROUTER, 13 Sep 2026 16:06 UTC (needs 2 of 3 keys, one is the team wallet)",
+      "url": "vault",
+      "kind": "other",
+      "tier": "A (+B)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Red line:** team multisig vault `DiCPk…` → `7sgL1a…` 5,000,000 ROUTER, 13 Sep 2026 16:06 UTC (needs 2 of 3 keys, one is the team wallet)",
+      "url": "7sgL1a…",
+      "kind": "other",
+      "tier": "A (+B)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Red line:** team multisig vault `DiCPk…` → `7sgL1a…` 5,000,000 ROUTER, 13 Sep 2026 16:06 UTC (needs 2 of 3 keys, one is the team wallet)",
+      "url": "Arkham (no entity; first funder deBridge",
+      "kind": "other",
+      "tier": "A (+B)",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`7sgL1a…` sold ~3.51M for ~73.4 SOL on 20–21 Sep 2026 pump days (+139% to +195% 5-day)",
+      "url": "tx `20 Sep 11:15`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "`7sgL1a…` sold ~3.51M for ~73.4 SOL on 20–21 Sep 2026 pump days (+139% to +195% 5-day)",
+      "url": "tx `20 Sep 14:16`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "`7sgL1a…` sold ~3.51M for ~73.4 SOL on 20–21 Sep 2026 pump days (+139% to +195% 5-day)",
+      "url": "tx `21 Sep 01:37`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "`7sgL1a…` sold ~3.51M for ~73.4 SOL on 20–21 Sep 2026 pump days (+139% to +195% 5-day)",
+      "url": "tx `21 Sep 14:07`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "`7sgL1a…` sold ~3.51M for ~73.4 SOL on 20–21 Sep 2026 pump days (+139% to +195% 5-day)",
+      "url": "tx `21 Sep 20:28`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "~1.63M passed to `4r1ZxG8…` (same cluster; Arkham first funder = `7sgL1a…`), sold on DEXs",
+      "url": "tx `20 Sep`",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "~1.63M passed to `4r1ZxG8…` (same cluster; Arkham first funder = `7sgL1a…`), sold on DEXs",
+      "url": "tx `21 Sep`",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "~1.63M passed to `4r1ZxG8…` (same cluster; Arkham first funder = `7sgL1a…`), sold on DEXs",
+      "url": "tx `21 Sep last`",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "~1.63M passed to `4r1ZxG8…` (same cluster; Arkham first funder = `7sgL1a…`), sold on DEXs",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Team wallet → Coinbase deposit `FyM5ho4q…` 12,420.56 USDC (16 Oct, 2 Nov 2026), swept onward within minutes",
+      "url": "tx `100`",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source)",
+      "date_read": "15 Nov 2026 ~11:40 AM MST"
+    },
+    {
+      "claim": "Team wallet → Coinbase deposit `FyM5ho4q…` 12,420.56 USDC (16 Oct, 2 Nov 2026), swept onward within minutes",
+      "url": "tx `5,000`",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source)",
+      "date_read": "15 Nov 2026 ~11:40 AM MST"
+    },
+    {
+      "claim": "Team wallet → Coinbase deposit `FyM5ho4q…` 12,420.56 USDC (16 Oct, 2 Nov 2026), swept onward within minutes",
+      "url": "tx `sweep 16 Oct`",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source)",
+      "date_read": "15 Nov 2026 ~11:40 AM MST"
+    },
+    {
+      "claim": "Team wallet → Coinbase deposit `FyM5ho4q…` 12,420.56 USDC (16 Oct, 2 Nov 2026), swept onward within minutes",
+      "url": "tx `7,320.56`",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source)",
+      "date_read": "15 Nov 2026 ~11:40 AM MST"
+    },
+    {
+      "claim": "Team wallet → Coinbase deposit `FyM5ho4q…` 12,420.56 USDC (16 Oct, 2 Nov 2026), swept onward within minutes",
+      "url": "tx `sweep 2 Nov`",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source)",
+      "date_read": "15 Nov 2026 ~11:40 AM MST"
+    },
+    {
+      "claim": "Team wallet → Coinbase deposit `FyM5ho4q…` 12,420.56 USDC (16 Oct, 2 Nov 2026), swept onward within minutes",
+      "url": "FyM5ho4q…",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source)",
+      "date_read": "15 Nov 2026 ~11:40 AM MST"
+    },
+    {
+      "claim": "Team wallet → Coinbase deposit `FyM5ho4q…` 12,420.56 USDC (16 Oct, 2 Nov 2026), swept onward within minutes",
+      "url": "Arkham HdcrLZ… exchange panel “Coinbase $17.77K”",
+      "kind": "other",
+      "tier": "A (flows) + B (label, one source)",
+      "date_read": "15 Nov 2026 ~11:40 AM MST"
+    },
+    {
+      "claim": "Team wallet → Fireblocks custody `EvJ6Wr…` 22 sends, 16,161 USDC since 10 Oct 2026",
+      "url": "tx `13 Oct`",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Team wallet → Fireblocks custody `EvJ6Wr…` 22 sends, 16,161 USDC since 10 Oct 2026",
+      "url": "tx `16 Oct 5,213.51`",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Team wallet → Fireblocks custody `EvJ6Wr…` 22 sends, 16,161 USDC since 10 Oct 2026",
+      "url": "tx `17 Oct`",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Team wallet → Fireblocks custody `EvJ6Wr…` 22 sends, 16,161 USDC since 10 Oct 2026",
+      "url": "tx `15 Nov`",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Team wallet → Fireblocks custody `EvJ6Wr…` 22 sends, 16,161 USDC since 10 Oct 2026",
+      "url": "Arkham “Fireblocks Custody (EvJ6W)”",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Team wallet sold 28.36M ROUTER on pump days (e.g. 7–19 Sep 2026)",
+      "url": "tx `7 Sep`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Team wallet sold 28.36M ROUTER on pump days (e.g. 7–19 Sep 2026)",
+      "url": "tx `8 Sep`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Team wallet sold 28.36M ROUTER on pump days (e.g. 7–19 Sep 2026)",
+      "url": "tx `11 Sep`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Team wallet sold 28.36M ROUTER on pump days (e.g. 7–19 Sep 2026)",
+      "url": "tx `19 Sep`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Team wallet sold 28.36M ROUTER on pump days (e.g. 7–19 Sep 2026)",
+      "url": "team wallet",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Team wallet laddered 13–20M ROUTER one-sided liquidity into the pool during the Sep pump",
+      "url": "tx `7 Sep 20M`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Team wallet laddered 13–20M ROUTER one-sided liquidity into the pool during the Sep pump",
+      "url": "tx `11 Sep 17M`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Team wallet laddered 13–20M ROUTER one-sided liquidity into the pool during the Sep pump",
+      "url": "tx `19 Sep 13M`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "7,939.35 USDC into program-owned `H8Vfn9T7…` on 16 Oct (destination Not found)",
+      "url": "tx `tx`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "7,939.35 USDC into program-owned `H8Vfn9T7…` on 16 Oct (destination Not found)",
+      "url": "account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Genesis: 700M → launchpad, 250M → team wallet, 50M → `FQgy7a…`",
+      "url": "tx `genesis tx`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Main pool liquidity $38,706 (red line < $75k)",
+      "url": "DexScreener pool",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Main pool liquidity $38,706 (red line < $75k)",
+      "url": "pool on Solscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "solana",
+      "address": "2AQdpHJ2JpcEgPiATUXjQxA8QmafFegfQwSLWSprPicm",
+      "url": "https://solscan.io/account/2AQdpHJ2JpcEgPiATUXjQxA8QmafFegfQwSLWSprPicm",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "2EfTtofXxj939kWHwJwD1t8HpzrAwa2uoqfsuNd7XzmK",
+      "url": "https://solscan.io/account/2EfTtofXxj939kWHwJwD1t8HpzrAwa2uoqfsuNd7XzmK",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "2df1NHQj1k5vqpsGnLybtxyiNSfSLYeQjYJcrq7vxpCb",
+      "url": "https://solscan.io/account/2df1NHQj1k5vqpsGnLybtxyiNSfSLYeQjYJcrq7vxpCb",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "2fwJ66qu3qsvkMCisV2dV4AF3bhUvZ2tAKTJ9i4pfRyx",
+      "url": "https://solscan.io/account/2fwJ66qu3qsvkMCisV2dV4AF3bhUvZ2tAKTJ9i4pfRyx",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "4r1ZxG8ALLYakoHFk7m3GMJewDJXbL22aML4nkcWvmgx",
+      "url": "https://solscan.io/account/4r1ZxG8ALLYakoHFk7m3GMJewDJXbL22aML4nkcWvmgx",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
+      "url": "https://solscan.io/account/6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "7Da5dpUbNG8nbvCCJMennTssbhkpZNi8NfE6uawcpwPh",
+      "url": "https://solscan.io/account/7Da5dpUbNG8nbvCCJMennTssbhkpZNi8NfE6uawcpwPh",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "7k5ReRiNfrJfmhEdhXd76H6H2DZFz9QskY49rmhMuRvR",
+      "url": "https://solscan.io/account/7k5ReRiNfrJfmhEdhXd76H6H2DZFz9QskY49rmhMuRvR",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "7sgL1aGHpCJzYrydouy1QWmnm4H3eqoWdQWYVCWEs11F",
+      "url": "https://solscan.io/account/7sgL1aGHpCJzYrydouy1QWmnm4H3eqoWdQWYVCWEs11F",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "8iq4s7vD8A6wJKs1672v9kMHyghwQ6LXUqd2K7a2cawC",
+      "url": "https://solscan.io/account/8iq4s7vD8A6wJKs1672v9kMHyghwQ6LXUqd2K7a2cawC",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "8z56bUciNH4pEbn7udwfRBJsNreATBwEJ1UXUUFmxTQ4",
+      "url": "https://solscan.io/account/8z56bUciNH4pEbn7udwfRBJsNreATBwEJ1UXUUFmxTQ4",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "ATMRatMtsKX4bHax7U4FRdhbE4mjU4NKpDZGqZqAhBKb",
+      "url": "https://solscan.io/account/ATMRatMtsKX4bHax7U4FRdhbE4mjU4NKpDZGqZqAhBKb",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "Aq4jqjq4gQuxFoB4cVMZZLVPhBE8Q1yum7y9YKestqM4",
+      "url": "https://solscan.io/account/Aq4jqjq4gQuxFoB4cVMZZLVPhBE8Q1yum7y9YKestqM4",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "DJ8qzBm3ZoRi4YiVmpiLBBuc67cq737vqaTNbMRJGcvZ",
+      "url": "https://solscan.io/account/DJ8qzBm3ZoRi4YiVmpiLBBuc67cq737vqaTNbMRJGcvZ",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "DiCPkTF2P4moPxC1P2uEUbHuoh9zuxnR1fUAdZqcyYAi",
+      "url": "https://solscan.io/account/DiCPkTF2P4moPxC1P2uEUbHuoh9zuxnR1fUAdZqcyYAi",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "EvJ6WrNEvzwSHsd69puw6D5fmMhua5DixFrMHbfvKyRw",
+      "url": "https://solscan.io/account/EvJ6WrNEvzwSHsd69puw6D5fmMhua5DixFrMHbfvKyRw",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "FE3dRU27viJ3qiNXuuMQpyBo8rwSkAKZ468ca39rjp36",
+      "url": "https://solscan.io/account/FE3dRU27viJ3qiNXuuMQpyBo8rwSkAKZ468ca39rjp36",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "FyM5ho4q45YLoy3LZJbwDh3PQebVtiV6iktYN3GV1mEq",
+      "url": "https://solscan.io/account/FyM5ho4q45YLoy3LZJbwDh3PQebVtiV6iktYN3GV1mEq",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+      "url": "https://solscan.io/account/GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "H8Vfn9T759nPU4N9iXcnH83uSV5g6NpSMp9tinEfkkHC",
+      "url": "https://solscan.io/account/H8Vfn9T759nPU4N9iXcnH83uSV5g6NpSMp9tinEfkkHC",
+      "kind": "address"
+    },
+    {
+      "chain": "solana",
+      "address": "HdcrLZ2HcJkoEpMtw7XQKJ9b7YjHYfsNoiAQb1R1dzaK",
+      "url": "https://solscan.io/account/HdcrLZ2HcJkoEpMtw7XQKJ9b7YjHYfsNoiAQb1R1dzaK",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": []
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn",
+      "buyback"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The team gets paid when people trade the token, not when people use the product. Product usage is about 1–2 sealed calls a day this month."
+  },
+  "attributions": [
+    {
+      "address": "7sgL1aGHpCJzYrydouy1QWmnm4H3eqoWdQWYVCWEs11F",
+      "url": "https://intel.arkm.com/explorer/address/7sgL1aGHpCJzYrydouy1QWmnm4H3eqoWdQWYVCWEs11F",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "7k5ReRiNfrJfmhEdhXd76H6H2DZFz9QskY49rmhMuRvR",
+      "url": "https://intel.arkm.com/explorer/address/7k5ReRiNfrJfmhEdhXd76H6H2DZFz9QskY49rmhMuRvR",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "HdcrLZ2HcJkoEpMtw7XQKJ9b7YjHYfsNoiAQb1R1dzaK",
+      "url": "https://intel.arkm.com/explorer/address/HdcrLZ2HcJkoEpMtw7XQKJ9b7YjHYfsNoiAQb1R1dzaK",
+      "label": "Coinbase $17.77K",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "4r1ZxG8ALLYakoHFk7m3GMJewDJXbL22aML4nkcWvmgx",
+      "url": "https://intel.arkm.com/explorer/address/4r1ZxG8ALLYakoHFk7m3GMJewDJXbL22aML4nkcWvmgx",
+      "label": "Coinbase $17.77K",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "EvJ6WrNEvzwSHsd69puw6D5fmMhua5DixFrMHbfvKyRw",
+      "url": "https://intel.arkm.com/explorer/address/EvJ6WrNEvzwSHsd69puw6D5fmMhua5DixFrMHbfvKyRw",
+      "label": "Fireblocks Custody (EvJ6W)",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Solana mainnet RPC (`api.mainnet-beta.solana.com`): mint, token accounts, Squads multisig accounts, Streamflow escrows, `getSignaturesForAddress` + `getTransaction` for the team wallet (3,958 txs), team/treasury multisig vaults, escrows, `FQgy7a…`, `7sgL1a…`, and the attestation program; 14 Nov 2026, slot ~469,384,534",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Prior forensic read, 10 Oct 2026 (slots 455,264,193–455,264,399), and full holder list, 10 Nov 2026",
+      "urls": [],
+      "date_read": "10 Oct 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Solrouter docs](https://docs.solrouter.com/docs) — [token](https://docs.solrouter.com/docs/token), [pricing](https://docs.solrouter.com/docs/use/pricing), [models](https://docs.solrouter.com/docs/how-it-works/models), [llms.txt](https://docs.solrouter.com/llms.txt)",
+      "urls": [
+        "Solrouter docs",
+        "token",
+        "pricing",
+        "models",
+        "llms.txt"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [OpenServ launchpad docs](https://docs.openserv.ai/launch/for-builders.md) · [programmatic fundraising](https://docs.openserv.ai/launch/programmatic-fundraising.md)",
+      "urls": [
+        "OpenServ launchpad docs",
+        "programmatic fundraising"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [routerlabs.ai](https://routerlabs.ai) · [privacy](https://routerlabs.ai/privacy) · [terms](https://routerlabs.ai/terms)",
+      "urls": [
+        "routerlabs.ai",
+        "privacy",
+        "terms"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [GitHub Router-Labs](https://github.com/Router-Labs) · npm `@solrouter/sdk`",
+      "urls": [
+        "GitHub Router-Labs"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DexScreener](https://dexscreener.com/solana/DJ8qzBm3ZoRi4YiVmpiLBBuc67cq737vqaTNbMRJGcvZ) · Meteora DLMM pool API · GeckoTerminal daily OHLCV",
+      "urls": [
+        "DexScreener"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinGecko `solrouter` market data, 14 Nov 2026 9:08 AM MST",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Daily report snapshots in [../daily/](../daily/) (`pools.ROUTER`)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Solana RPC: 1,117 of 1,118 team-wallet (`HdcrLZ…`) transactions 10 Oct – 15 Nov 2026, plus `FyM5ho4q…`, `H8Vfn9T7…` and `EvJ6Wr…` USDC accounts; 15 Nov 2026 ~11:40 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:05 AM MST (signed-in account): no entity on [`7sgL1a…`](https://intel.arkm.com/explorer/address/7sgL1aGHpCJzYrydouy1QWmnm4H3eqoWdQWYVCWEs11F) (first funder deBridge bridge), [`4r1ZxG8…`](https://intel.arkm.com/explorer/address/4r1ZxG8ALLYakoHFk7m3GMJewDJXbL22aML4nkcWvmgx) (first funder `7sgL1a…`) or [`HdcrLZ…`](https://intel.arkm.com/explorer/address/HdcrLZ2HcJkoEpMtw7XQKJ9b7YjHYfsNoiAQb1R1dzaK) (first funder `7k5ReRi…`, the co-signer on both multisigs); `HdcrLZ…` exchange panel \"Coinbase $17.77K\"; [`EvJ6Wr…` “Fireblocks Custody”](https://intel.arkm.com/explorer/address/EvJ6WrNEvzwSHsd69puw6D5fmMhua5DixFrMHbfvKyRw).",
+      "urls": [
+        "`7sgL1a…`",
+        "`4r1ZxG8…`",
+        "`HdcrLZ…`",
+        "`EvJ6Wr…` “Fireblocks Custody”"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages (Solscan) for every wallet named: mint [`6SjV…`](https://solscan.io/account/6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5) · team wallet [`HdcrLZ…`](https://solscan.io/account/HdcrLZ2HcJkoEpMtw7XQKJ9b7YjHYfsNoiAQb1R1dzaK) · team multisig [`2EfTt…`](https://solscan.io/account/2EfTtofXxj939kWHwJwD1t8HpzrAwa2uoqfsuNd7XzmK) / vault [`DiCPk…`](https://solscan.io/account/DiCPkTF2P4moPxC1P2uEUbHuoh9zuxnR1fUAdZqcyYAi) · treasury multisig [`8z56b…`](https://solscan.io/account/8z56bUciNH4pEbn7udwfRBJsNreATBwEJ1UXUUFmxTQ4) / vault [`2fwJ66…`](https://solscan.io/account/2fwJ66qu3qsvkMCisV2dV4AF3bhUvZ2tAKTJ9i4pfRyx) · Streamflow [`FE3dRU…`](https://solscan.io/account/FE3dRU27viJ3qiNXuuMQpyBo8rwSkAKZ468ca39rjp36) / [`8iq4s…`](https://solscan.io/account/8iq4s7vD8A6wJKs1672v9kMHyghwQ6LXUqd2K7a2cawC) · [`7sgL1a…`](https://solscan.io/account/7sgL1aGHpCJzYrydouy1QWmnm4H3eqoWdQWYVCWEs11F) · [`4r1ZxG8…`](https://solscan.io/account/4r1ZxG8ALLYakoHFk7m3GMJewDJXbL22aML4nkcWvmgx) · [`FyM5ho4q…`](https://solscan.io/account/FyM5ho4q45YLoy3LZJbwDh3PQebVtiV6iktYN3GV1mEq) · [`EvJ6Wr…`](https://solscan.io/account/EvJ6WrNEvzwSHsd69puw6D5fmMhua5DixFrMHbfvKyRw) · [`H8Vfn9T7…`](https://solscan.io/account/H8Vfn9T759nPU4N9iXcnH83uSV5g6NpSMp9tinEfkkHC); every transaction signature in the tables above is linked Limits: relative ages only; ~30-day exchange window, all-time is Enterprise-locked; first page of transfers read",
+      "urls": [
+        "`6SjV…`",
+        "`HdcrLZ…`",
+        "`2EfTt…`",
+        "`DiCPk…`",
+        "`8z56b…`",
+        "`2fwJ66…`",
+        "`FE3dRU…`",
+        "`8iq4s…`",
+        "`7sgL1a…`",
+        "`4r1ZxG8…`",
+        "`FyM5ho4q…`",
+        "`EvJ6Wr…`",
+        "`H8Vfn9T7…`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Founder biography; owner of `7sgL1a…`, `4r1ZxG8…`, `4SHkxyUm…` and the ten 2M-ROUTER recipients of 18 May; control of `FQgy7a…`; Coinbase ownership of `FyM5ho4q…` (one label + sweep pattern); whose Fireblocks account `EvJ6Wr…` is",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

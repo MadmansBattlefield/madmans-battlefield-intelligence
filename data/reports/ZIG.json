@@ -1,0 +1,706 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ZIG",
+  "name": "ZIGChain (Zignaly)",
+  "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+  "contract": "0xb2617246d0c6c0087f18703d576831899ca94f01",
+  "overall_score": 3.3,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 3,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 5,
+    "regulatory": 4,
+    "catalysts": 4
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no on the Ethereum token (fixed 2B, no mint function); native ZIGChain has 1–2% staking inflation and a 2.5B mainnet cap",
+    "team_wallet_to_exchange_during_pump": "not on a pump day: a Safe run by the same 3 signers as the founders' Safe (signers funded by or labelled Zignaly: Deployer per Arkham) sent 335.67M ZIG via relay 0x38ae… into a Bybit deposit (Nansen + Arkham), 16–22 Jan 2024 (price fell); earlier Safe-sourced ZIG reached an HTX deposit (400M, 9 Jun 2022) and a Gate deposit (200M, 6 Oct 2022) via 0x6f04 → 0x3367, not pump days; no disclosure found",
+    "reported_volume_concentration": "~94% of CoinGecko-reported 24h volume ($51.4M of $54.4M) is one PancakeSwap V3 BSC venue, on a $48M market cap"
+  },
+  "price_usd": 0.03404,
+  "price_source": "CoinGecko, 16 Nov 2026 ~6:02 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.03404,
+    "market_cap_text": "$47.96M",
+    "fdv_text": "$66.51M",
+    "volume_24h_text": "$54.44M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ZIG.md",
+    "sha256": "f5b2360b8453de768215e0dcbd53848b570e49d51e80c1aa7aaf0cd798e81549",
+    "bytes": 27456,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~6:02 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~6:35–6:40 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Fixed 2B ERC-20, no mint",
+      "url": "token code",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fixed 2B ERC-20, no mint",
+      "url": "creation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Founders' 545M in a 2-of-3 Safe, unmoved since 2022",
+      "url": "Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Founders' 545M in a 2-of-3 Safe, unmoved since 2022",
+      "url": "funding",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Second Safe got 729M from the deployer; same signers",
+      "url": "Safe",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Second Safe got 729M from the deployer; same signers",
+      "url": "funding",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "335.67M Safe → relay → Bybit deposit, 16–22 Jan 2024",
+      "url": "Safe → relay",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "335.67M Safe → relay → Bybit deposit, 16–22 Jan 2024",
+      "url": "17 Jan",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "335.67M Safe → relay → Bybit deposit, 16–22 Jan 2024",
+      "url": "18 Jan",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "335.67M Safe → relay → Bybit deposit, 16–22 Jan 2024",
+      "url": "22 Jan",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "335.67M Safe → relay → Bybit deposit, 16–22 Jan 2024",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Deposit sweeps to Bybit hot wallet",
+      "url": "sweep example",
+      "kind": "other",
+      "tier": "A + B (Nansen)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Deposit sweeps to Bybit hot wallet",
+      "url": "hot wallet",
+      "kind": "other",
+      "tier": "A + B (Nansen)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "350M Safe → 0x6f04 → 0x3367",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "350M Safe → 0x6f04 → 0x3367",
+      "url": "0x3367",
+      "kind": "other",
+      "tier": "A · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x3367 → HTX deposit 400M (2022), Gate deposit 200M (2022), Zignaly wallet 221.8M (2023)",
+      "url": "HTX lot",
+      "kind": "other",
+      "tier": "A chain + B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "0x3367 → HTX deposit 400M (2022), Gate deposit 200M (2022), Zignaly wallet 221.8M (2023)",
+      "url": "Gate lot",
+      "kind": "other",
+      "tier": "A chain + B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "0x3367 → HTX deposit 400M (2022), Gate deposit 200M (2022), Zignaly wallet 221.8M (2023)",
+      "url": "Zignaly lot",
+      "kind": "other",
+      "tier": "A chain + B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "0x3367 → HTX deposit 400M (2022), Gate deposit 200M (2022), Zignaly wallet 221.8M (2023)",
+      "url": "Arkham HTX",
+      "kind": "other",
+      "tier": "A chain + B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "0x3367 → HTX deposit 400M (2022), Gate deposit 200M (2022), Zignaly wallet 221.8M (2023)",
+      "url": "Arkham Gate",
+      "kind": "other",
+      "tier": "A chain + B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "0x3367 → HTX deposit 400M (2022), Gate deposit 200M (2022), Zignaly wallet 221.8M (2023)",
+      "url": "Arkham Zignaly",
+      "kind": "other",
+      "tier": "A chain + B (Arkham)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "Bybit deposit label; Safe signers tied to Zignaly: Deployer",
+      "url": "Arkham 0xb73f…",
+      "kind": "other",
+      "tier": "B (Arkham) + B (Nansen for Bybit)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "Bybit deposit label; Safe signers tied to Zignaly: Deployer",
+      "url": "0x103e…",
+      "kind": "other",
+      "tier": "B (Arkham) + B (Nansen for Bybit)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "Bybit deposit label; Safe signers tied to Zignaly: Deployer",
+      "url": "0x87d7…",
+      "kind": "other",
+      "tier": "B (Arkham) + B (Nansen for Bybit)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "Bybit deposit label; Safe signers tied to Zignaly: Deployer",
+      "url": "0x8386…",
+      "kind": "other",
+      "tier": "B (Arkham) + B (Nansen for Bybit)",
+      "date_read": "16 Nov 2026 ~6:38 AM MST"
+    },
+    {
+      "claim": "Allocations, 2.5B cap, buybacks discretionary, fourth unlock extension",
+      "url": "white paper",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocations, 2.5B cap, buybacks discretionary, fourth unlock extension",
+      "url": "docs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x33677285f6ab88f6af97315a9f85539f6335e039",
+      "url": "https://etherscan.io/address/0x33677285f6ab88f6af97315a9f85539f6335e039",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x378bb8ec3bf4db2a9cc83ab0893857c0ba9899c4",
+      "url": "https://etherscan.io/address/0x378bb8ec3bf4db2a9cc83ab0893857c0ba9899c4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x38ae7f569ece01dd34732506a8a78b2d5877f6bd",
+      "url": "https://etherscan.io/address/0x38ae7f569ece01dd34732506a8a78b2d5877f6bd",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4cc0fae6b4e889396f35ed9d0f6934284fa00d20",
+      "url": "https://etherscan.io/address/0x4cc0fae6b4e889396f35ed9d0f6934284fa00d20",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4f4495243837681061c4743b74b3eedf548d56a5",
+      "url": "https://etherscan.io/address/0x4f4495243837681061c4743b74b3eedf548d56a5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6f04d76d7542551a24849d90212218e91c72af7f",
+      "url": "https://etherscan.io/address/0x6f04d76d7542551a24849d90212218e91c72af7f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x98a808a1f425bc2d11cccd291d5757b623c5a71b",
+      "url": "https://etherscan.io/address/0x98a808a1f425bc2d11cccd291d5757b623c5a71b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb2617246d0c6c0087f18703d576831899ca94f01",
+      "url": "https://etherscan.io/token/0xb2617246d0c6c0087f18703d576831899ca94f01",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb73f44289d3a071e1ad91473be2f54b0b9af441a",
+      "url": "https://etherscan.io/address/0xb73f44289d3a071e1ad91473be2f54b0b9af441a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe2b46e95804dd8a2aaa41f6b667a89f1fec7445a",
+      "url": "https://etherscan.io/address/0xe2b46e95804dd8a2aaa41f6b667a89f1fec7445a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe4a7fcf7c9ea28b1e897e1ac85e9e6abb027466e",
+      "url": "https://etherscan.io/address/0xe4a7fcf7c9ea28b1e897e1ac85e9e6abb027466e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+      "url": "https://etherscan.io/address/0xf89d7b9c864f589bbf53a82105107622b35eaa40",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0x103e1b82af90c86a2fd37ade7aaed2f09da31adf",
+      "url": "https://intel.arkm.com/explorer/address/0x103e1b82af90c86a2fd37ade7aaed2f09da31adf",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0x33677285f6ab88f6af97315a9f85539f6335e039",
+      "url": "https://intel.arkm.com/explorer/address/0x33677285f6ab88f6af97315a9f85539f6335e039",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0x38ae7f569ece01dd34732506a8a78b2d5877f6bd",
+      "url": "https://intel.arkm.com/explorer/address/0x38ae7f569ece01dd34732506a8a78b2d5877f6bd",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0x6f04d76d7542551a24849d90212218e91c72af7f",
+      "url": "https://intel.arkm.com/explorer/address/0x6f04d76d7542551a24849d90212218e91c72af7f",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0x838663068445ee4dd7cded46a50761d1cc4cabcb",
+      "url": "https://intel.arkm.com/explorer/address/0x838663068445ee4dd7cded46a50761d1cc4cabcb",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0x87d7cf0e563025405686bd2719d5505b4d419817",
+      "url": "https://intel.arkm.com/explorer/address/0x87d7cf0e563025405686bd2719d5505b4d419817",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0x98a808a1f425bc2d11cccd291d5757b623c5a71b",
+      "url": "https://intel.arkm.com/explorer/address/0x98a808a1f425bc2d11cccd291d5757b623c5a71b",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0xb0a3a2b60e969afd26561429aa4c1444c57e4411",
+      "url": "https://intel.arkm.com/explorer/address/0xb0a3a2b60e969afd26561429aa4c1444c57e4411",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0xb73f44289d3a071e1ad91473be2f54b0b9af441a",
+      "url": "https://intel.arkm.com/explorer/address/0xb73f44289d3a071e1ad91473be2f54b0b9af441a",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0xccb87581e17ab41e62549dfc0b661ae47beb6291",
+      "url": "https://intel.arkm.com/explorer/address/0xccb87581e17ab41e62549dfc0b661ae47beb6291",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0xe2b46e95804dd8a2aaa41f6b667a89f1fec7445a",
+      "url": "https://intel.arkm.com/explorer/address/0xe2b46e95804dd8a2aaa41f6b667a89f1fec7445a",
+      "kind": "address"
+    },
+    {
+      "chain": "zigchain (native) · ethereum / bsc / polygon / solana (bridged)",
+      "address": "0xe4a7fcf7c9ea28b1e897e1ac85e9e6abb027466e",
+      "url": "https://intel.arkm.com/explorer/address/0xe4a7fcf7c9ea28b1e897e1ac85e9e6abb027466e",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not on a pump day: a Safe run by the same 3 signers as the founders' Safe (signers funded by or labelled Zignaly: Deployer per Arkham) sent 335.67M ZIG via relay 0x38ae… into a Bybit deposit (Nansen + Arkham), 16–22 Jan 2024 (price fell); earlier Safe-sourced ZIG reached an HTX deposit (400M, 9 Jun 2022) and a Gate deposit (200M, 6 Oct 2022) via 0x6f04 → 0x3367, not pump days; no disclosure found"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "buyback"
+    ],
+    "automatic_onchain": false,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "No measured revenue reaches the token. Buybacks are optional by the project's own wording, and Zignaly's business revenue is not published. That is **2**, which **trips the Revenue gate**."
+  },
+  "attributions": [
+    {
+      "address": "0xb73f44289d3a071e1ad91473be2f54b0b9af441a",
+      "url": "https://intel.arkm.com/explorer/address/0xb73f44289d3a071e1ad91473be2f54b0b9af441a",
+      "label": "Bybit: Hot Wallet",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x103e1b82af90c86a2fd37ade7aaed2f09da31adf",
+      "url": "https://intel.arkm.com/explorer/address/0x103e1b82af90c86a2fd37ade7aaed2f09da31adf",
+      "label": "ZIG Markets",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x87d7cf0e563025405686bd2719d5505b4d419817",
+      "url": "https://intel.arkm.com/explorer/address/0x87d7cf0e563025405686bd2719d5505b4d419817",
+      "label": "ZIG Markets",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x838663068445ee4dd7cded46a50761d1cc4cabcb",
+      "url": "https://intel.arkm.com/explorer/address/0x838663068445ee4dd7cded46a50761d1cc4cabcb",
+      "label": null,
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0xb0a3a2b60e969afd26561429aa4c1444c57e4411",
+      "url": "https://intel.arkm.com/explorer/address/0xb0a3a2b60e969afd26561429aa4c1444c57e4411",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xccb87581e17ab41e62549dfc0b661ae47beb6291",
+      "url": "https://intel.arkm.com/explorer/address/0xccb87581e17ab41e62549dfc0b661ae47beb6291",
+      "label": "the fourth consecutive annual extension of the unlock schedule",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x38ae7f569ece01dd34732506a8a78b2d5877f6bd",
+      "url": "https://intel.arkm.com/explorer/address/0x38ae7f569ece01dd34732506a8a78b2d5877f6bd",
+      "label": "**Bybit Deposit**",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6f04d76d7542551a24849d90212218e91c72af7f",
+      "url": "https://intel.arkm.com/explorer/address/0x6f04d76d7542551a24849d90212218e91c72af7f",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x33677285f6ab88f6af97315a9f85539f6335e039",
+      "url": "https://intel.arkm.com/explorer/address/0x33677285f6ab88f6af97315a9f85539f6335e039",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe2b46e95804dd8a2aaa41f6b667a89f1fec7445a",
+      "url": "https://intel.arkm.com/explorer/address/0xe2b46e95804dd8a2aaa41f6b667a89f1fec7445a",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe4a7fcf7c9ea28b1e897e1ac85e9e6abb027466e",
+      "url": "https://intel.arkm.com/explorer/address/0xe4a7fcf7c9ea28b1e897e1ac85e9e6abb027466e",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x98a808a1f425bc2d11cccd291d5757b623c5a71b",
+      "url": "https://intel.arkm.com/explorer/address/0x98a808a1f425bc2d11cccd291d5757b623c5a71b",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API: `tokentx` for the deployer, both Safes, `0xfc3e…`, `0x6f04…`, `0x38ae…`, `0xb73f…`, `0x3367…`; `getsourcecode`, `getcontractcreation`; `eth_call` `getOwners()` / `getThreshold()` on both Safes, 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethplorer top holders and token info, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Tokenomics 2.0 white paper](https://whitepaper.zigchain.com/zig-tokenomics.pdf) · [ZIG token docs](https://docs.zigchain.com/about-zigchain/zig) · [transparency dashboard docs](https://docs.zigchain.com/users/hub/transparency-dashboard)",
+      "urls": [
+        "Tokenomics 2.0 white paper",
+        "ZIG token docs",
+        "transparency dashboard docs"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `zignaly` market data, tickers and 365-day closes (16 Nov 2026); Gate ZIG_USDT daily candles Dec 2023 – Jan 2024",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama chains / protocols (ZIGChain TVL $3.97M) and fees API (no ZIG entry)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Nansen labels, read 16 Nov 2026 ~6:05–6:15 AM MST: `0xb73f…` Bybit, `0xf89d…` Bybit: Hot Wallet, `0x6bb1…` / `0x0d07…` Gate, `0x4b1a…` AscendEx, `0x0211…` MEXC",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~6:35–6:40 AM MST (signed-in account): **Bybit Deposit** [0xb73f…](https://intel.arkm.com/explorer/address/0xb73f44289d3a071e1ad91473be2f54b0b9af441a); **HTX Deposit** [0xe2b4…](https://intel.arkm.com/explorer/address/0xe2b46e95804dd8a2aaa41f6b667a89f1fec7445a); **Gate Deposit** [0xe4a7…](https://intel.arkm.com/explorer/address/0xe4a7fcf7c9ea28b1e897e1ac85e9e6abb027466e); **Zignaly** [0x98a8…](https://intel.arkm.com/explorer/address/0x98a808a1f425bc2d11cccd291d5757b623c5a71b); **Zignaly: Deployer** [0x8386…](https://intel.arkm.com/explorer/address/0x838663068445ee4dd7cded46a50761d1cc4cabcb); Zignaly-deployer-funded signers [0x103e…](https://intel.arkm.com/explorer/address/0x103e1b82af90c86a2fd37ade7aaed2f09da31adf), [0x87d7…](https://intel.arkm.com/explorer/address/0x87d7cf0e563025405686bd2719d5505b4d419817); **Bitvavo: Cold Wallet** [0xb0a3…](https://intel.arkm.com/explorer/address/0xb0a3a2b60e969afd26561429aa4c1444c57e4411); no label on [0x38ae…](https://intel.arkm.com/explorer/address/0x38ae7f569ece01dd34732506a8a78b2d5877f6bd), [0x3367…](https://intel.arkm.com/explorer/address/0x33677285f6ab88f6af97315a9f85539f6335e039), [0x6f04…](https://intel.arkm.com/explorer/address/0x6f04d76d7542551a24849d90212218e91c72af7f), [0xccb8…](https://intel.arkm.com/explorer/address/0xccb87581e17ab41e62549dfc0b661ae47beb6291). Arkham's token filter is Enterprise-only, so counterparties come from the default first page.",
+      "urls": [
+        "0xb73f…",
+        "0xe2b4…",
+        "0xe4a7…",
+        "0x98a8…",
+        "0x8386…",
+        "0x103e…",
+        "0x87d7…",
+        "0xb0a3…",
+        "0x38ae…",
+        "0x3367…",
+        "0x6f04…",
+        "0xccb8…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Gate ZIG_USDT daily candles for 9 Jun 2022, 6 Oct 2022 and 12 Jul 2023",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] individual signer identities; owner of `0x38ae…`, `0x3367…`, `0x6f04…`; whether the Jan 2024 deposit was disclosed or sold; native-chain founder wallets; Zignaly revenue",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ZEC",
+  "name": "Zcash",
+  "chain": "zcash",
+  "contract": "native (transparent t-addresses + Sapling/Orchard shielded pools)",
+  "overall_score": 4.9,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 6,
+    "insider_holdings": 7,
+    "selling_behavior": 5,
+    "tokenomics_supply": 7,
+    "liquidity_market": 7,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 7,
+    "regulatory": 5,
+    "catalysts": 5
+  },
+  "sections_passed": 6,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "treasury_to_exchange_during_pump": "not provable (every dev-fund payout is shielded first; consensus requires transparent coinbase outputs to go to a shielded pool)",
+    "treasury_funded_wallet_to_exchange_during_pump": "not provable (12 of 100 weekly ZCG/FPF shielding days were pump days, e.g. 17 Sep 2026, +30.7%; destinations hidden)",
+    "mint_path_live": "yes by design (PoW issuance ~1,800 ZEC/day; 20% of subsidy to dev funding streams; 21M cap)",
+    "regulatory_delisting_risk": "yes (EU AMLR Art. 79 applies 10 Jul 2027 to anonymity-enhancing coins)"
+  },
+  "price_usd": 872.73,
+  "price_source": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 872.73,
+    "market_cap_text": "$14.875B",
+    "fdv_text": "$14.875B",
+    "volume_24h_text": "$561.0M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ZEC.md",
+    "sha256": "a74d9289e4a409fad26964b263bf5afee463e985dca0eb26df840f672370e28d",
+    "bytes": 23337,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:26 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~7:33 AM MST",
+      "16 Nov 2026",
+      "16 Nov 2026 ~7:45 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~7:33 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "NU7 at block 3,543,405 (6 Nov 2026): subsidy 0.5208 ZEC; ZCG output 0.125 → 0.0417 ZEC",
+      "url": "block 3,543,404",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026 ~7:50 AM MST"
+    },
+    {
+      "claim": "NU7 at block 3,543,405 (6 Nov 2026): subsidy 0.5208 ZEC; ZCG output 0.125 → 0.0417 ZEC",
+      "url": "block 3,543,405",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026 ~7:50 AM MST"
+    },
+    {
+      "claim": "NU7 at block 3,543,405 (6 Nov 2026): subsidy 0.5208 ZEC; ZCG output 0.125 → 0.0417 ZEC",
+      "url": "recent block 3,579,512",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026 ~7:50 AM MST"
+    },
+    {
+      "claim": "NU7 at block 3,543,405 (6 Nov 2026): subsidy 0.5208 ZEC; ZCG output 0.125 → 0.0417 ZEC",
+      "url": "ZIP 218",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026 ~7:50 AM MST"
+    },
+    {
+      "claim": "NU7 at block 3,543,405 (6 Nov 2026): subsidy 0.5208 ZEC; ZCG output 0.125 → 0.0417 ZEC",
+      "url": "Zebra activation heights",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026 ~7:50 AM MST"
+    },
+    {
+      "claim": "ZCG/FPF stream address is `t3cFfPt1…` (8%) and lockbox is 12%",
+      "url": "Zebra constants",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`t3cF…` received 103,624 ZEC and shielded 100,997 over 100 spend days",
+      "url": "address",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "17 Sep 2026 pump day: 125.1 ZEC shielded (1,001 inputs, 0 transparent outputs)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Key-holder multisig is 2-of-3 ZF / ECC / Shielded Labs; 78,750 ZEC disbursement",
+      "url": "ZIP 271",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Key-holder multisig is 2-of-3 ZF / ECC / Shielded Labs; 78,750 ZEC disbursement",
+      "url": "address",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Key-holder multisig shielded ZEC on 3 Feb, 14 Apr, 16 Oct 2026; 70,863 ZEC left",
+      "url": "3 Feb",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Key-holder multisig shielded ZEC on 3 Feb, 14 Apr, 16 Oct 2026; 70,863 ZEC left",
+      "url": "14 Apr",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Key-holder multisig shielded ZEC on 3 Feb, 14 Apr, 16 Oct 2026; 70,863 ZEC left",
+      "url": "16 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Arkham labels for the dev-fund addresses; \"COINBASE\" inflows are block-reward outputs; ZIP 271 disbursement paid in the activation coinbase",
+      "url": "t3cF",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026 ~7:33 AM MST"
+    },
+    {
+      "claim": "Arkham labels for the dev-fund addresses; \"COINBASE\" inflows are block-reward outputs; ZIP 271 disbursement paid in the activation coinbase",
+      "url": "t3ev",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026 ~7:33 AM MST"
+    },
+    {
+      "claim": "Arkham labels for the dev-fund addresses; \"COINBASE\" inflows are block-reward outputs; ZIP 271 disbursement paid in the activation coinbase",
+      "url": "t3Xy",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026 ~7:33 AM MST"
+    },
+    {
+      "claim": "Arkham labels for the dev-fund addresses; \"COINBASE\" inflows are block-reward outputs; ZIP 271 disbursement paid in the activation coinbase",
+      "url": "t3dv",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026 ~7:33 AM MST"
+    },
+    {
+      "claim": "Arkham labels for the dev-fund addresses; \"COINBASE\" inflows are block-reward outputs; ZIP 271 disbursement paid in the activation coinbase",
+      "url": "t3Lm",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026 ~7:33 AM MST"
+    },
+    {
+      "claim": "Arkham labels for the dev-fund addresses; \"COINBASE\" inflows are block-reward outputs; ZIP 271 disbursement paid in the activation coinbase",
+      "url": "ZIP 271",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026 ~7:33 AM MST"
+    },
+    {
+      "claim": "Arkham labels for the dev-fund addresses; \"COINBASE\" inflows are block-reward outputs; ZIP 271 disbursement paid in the activation coinbase",
+      "url": "`t3dv on Blockchair`",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "16 Nov 2026 ~7:33 AM MST"
+    },
+    {
+      "claim": "Old Major Grants address received and spent 420,001 ZEC (2020–2024)",
+      "url": "address",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $624,608 / 1y; revenue $0",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "ZCSH listed 25 Aug 2026; AUM $527.8M",
+      "url": "Grayscale",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "zcash",
+      "address": "t3LmX1cxWPPPqL4TZHx42HU3U5ghbFjRiif",
+      "url": "https://blockchair.com/zcash/address/t3LmX1cxWPPPqL4TZHx42HU3U5ghbFjRiif",
+      "kind": "address"
+    },
+    {
+      "chain": "zcash",
+      "address": "t3XyYW8yBFRuMnfvm5KLGFbEVz25kckZXym",
+      "url": "https://blockchair.com/zcash/address/t3XyYW8yBFRuMnfvm5KLGFbEVz25kckZXym",
+      "kind": "address"
+    },
+    {
+      "chain": "zcash",
+      "address": "t3cFfPt1Bcvgez9ZbMBFWeZsskxTkPzGCow",
+      "url": "https://blockchair.com/zcash/address/t3cFfPt1Bcvgez9ZbMBFWeZsskxTkPzGCow",
+      "kind": "address"
+    },
+    {
+      "chain": "zcash",
+      "address": "t3dvVE3SQEi7kqNzwrfNePxZ1d4hUyztBA1",
+      "url": "https://blockchair.com/zcash/address/t3dvVE3SQEi7kqNzwrfNePxZ1d4hUyztBA1",
+      "kind": "address"
+    },
+    {
+      "chain": "zcash",
+      "address": "t3ev37Q2uL1sfTsiJQJiWJoFzQpDhmnUwYo",
+      "url": "https://blockchair.com/zcash/address/t3ev37Q2uL1sfTsiJQJiWJoFzQpDhmnUwYo",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_to_exchange_during_pump: not provable (every dev-fund payout is shielded first; consensus requires transparent coinbase outputs to go to a shielded pool)",
+      "treasury_funded_wallet_to_exchange_during_pump: not provable (12 of 100 weekly ZCG/FPF shielding days were pump days, e.g. 17 Sep 2026, +30.7%; destinations hidden)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "$0.6M a year of fees on a $14.9B coin, with nothing accruing to holders. Like Bitcoin, the bet is on money demand, not cash flow. Under this framework that scores **1** and **trips the Revenue gate**."
+  },
+  "attributions": [
+    {
+      "address": "t3cFfPt1Bcvgez9ZbMBFWeZsskxTkPzGCow",
+      "url": "https://intel.arkm.com/explorer/address/t3cFfPt1Bcvgez9ZbMBFWeZsskxTkPzGCow",
+      "label": "Community Grants (Gemini Custody)",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "t3XyYW8yBFRuMnfvm5KLGFbEVz25kckZXym",
+      "url": "https://intel.arkm.com/explorer/address/t3XyYW8yBFRuMnfvm5KLGFbEVz25kckZXym",
+      "label": "Community Grants (Gemini Custody)",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "t3dvVE3SQEi7kqNzwrfNePxZ1d4hUyztBA1",
+      "url": "https://intel.arkm.com/explorer/address/t3dvVE3SQEi7kqNzwrfNePxZ1d4hUyztBA1",
+      "label": "Major Grant Review Committee Funds (Gemini Custody)",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "t3ev37Q2uL1sfTsiJQJiWJoFzQpDhmnUwYo",
+      "url": "https://intel.arkm.com/explorer/address/t3ev37Q2uL1sfTsiJQJiWJoFzQpDhmnUwYo",
+      "label": "Foundation (Gemini Custody)",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "t3LmX1cxWPPPqL4TZHx42HU3U5ghbFjRiif",
+      "url": "https://intel.arkm.com/explorer/address/t3LmX1cxWPPPqL4TZHx42HU3U5ghbFjRiif",
+      "label": "ZIP-271 Disbursement Multisig",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockchair Zcash API: address dashboards, outputs aggregated by spending date, transaction dashboards for `t3cF…`, `t3ev…`, `t3Xy…`; chain stats; read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Zebra consensus constants (mainnet funding streams)](https://github.com/ZcashFoundation/zebra/blob/main/zebra-chain/src/parameters/network/subsidy/constants/mainnet.rs) · [ZIP 271](https://zips.z.cash/zip-0271) · [ZIP 1015](https://zips.z.cash/zip-1015) · [protocol spec](https://zips.z.cash/protocol/protocol.pdf)",
+      "urls": [
+        "Zebra consensus constants (mainnet funding streams",
+        "ZIP 271",
+        "ZIP 1015",
+        "protocol spec"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Grayscale ZCSH](https://etfs.grayscale.com/zcsh) · [launch release](https://www.nasdaq.com/press-release/zcash-etf-ticker-zcsh-built-grayscale-begins-trading-nyse-arca-expanding-investor)",
+      "urls": [
+        "Grayscale ZCSH",
+        "launch release"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] EU AMLR analyses: [zecwallet.at](https://zecwallet.at/eu-privacy-coin-ban-2027/) · [cryptocodes.eu](https://www.cryptocodes.eu/news/eu-privacy-coins-ban-monero-zcash-10-july-2027-20-october-2026)",
+      "urls": [
+        "zecwallet.at",
+        "cryptocodes.eu"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama Zcash fees/TVL; CoinGecko `zcash` (16 Nov 2026 5:26 AM MST) and its 365-day closes for every pump test; GitHub commits API",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~7:33 AM MST (signed-in account): Zcash Foundation labels [t3cF…](https://intel.arkm.com/explorer/address/t3cFfPt1Bcvgez9ZbMBFWeZsskxTkPzGCow), [t3Xy…](https://intel.arkm.com/explorer/address/t3XyYW8yBFRuMnfvm5KLGFbEVz25kckZXym), [t3dv…](https://intel.arkm.com/explorer/address/t3dvVE3SQEi7kqNzwrfNePxZ1d4hUyztBA1) · ZIP-271 Disbursement Multisig [t3ev…](https://intel.arkm.com/explorer/address/t3ev37Q2uL1sfTsiJQJiWJoFzQpDhmnUwYo) · Electric Coin Co. Development Fund [t3Lm…](https://intel.arkm.com/explorer/address/t3LmX1cxWPPPqL4TZHx42HU3U5ghbFjRiif). Arkham's \"COINBASE\" counterparty = block-reward coinbase outputs (Blockchair `is_from_coinbase`, read 16 Nov 2026 ~7:45 AM MST). First transfer page only",
+      "urls": [
+        "t3cF…",
+        "t3Xy…",
+        "t3dv…",
+        "t3ev…",
+        "t3Lm…"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] lockbox balance; where the shielded dev-fund payouts went; whether the \"Gemini Custody\" labels mean Gemini holds the keys",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

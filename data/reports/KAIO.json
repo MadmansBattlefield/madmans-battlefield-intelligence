@@ -1,0 +1,554 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "KAIO",
+  "name": "KAIO (formerly Libre Capital)",
+  "chain": "ethereum",
+  "contract": "0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e (ERC-20 KaioToken on Ethereum)",
+  "overall_score": 3.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 3,
+    "tokenomics_supply": 2,
+    "liquidity_market": 3,
+    "product_development": 6,
+    "adoption_customers": 5,
+    "security_audits": 6,
+    "regulatory": 6,
+    "catalysts": 3
+  },
+  "sections_passed": 3,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "treasury_to_exchange_during_pump": "yes, via the project's TGE liquidity wallet: 0xf9fe… funded fresh wallet 0x7875… with 13M KAIO on 1 Oct 2026, which sent 10M to Gate, Coinbase and Bitget deposits on the 1, 2 and 8 Oct 2026 pump days (+43%, +51%, +28%)",
+    "treasury_funded_wallet_to_exchange_during_pump": "yes (same flow)",
+    "unenforced_lockups": "yes: 9.32B of 10B KAIO (93%) sits in five plain EOAs (no vesting contract) that match the published investor, community, foundation, team and pre-sale buckets",
+    "mint_path_live": "no (fixed 10B minted once to the deployer, 16 Apr 2026)"
+  },
+  "price_usd": 0.02039,
+  "price_source": "CoinGecko, 16 Nov 2026 6:51 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.02039,
+    "market_cap_text": "$13.89M",
+    "fdv_text": "$203.9M",
+    "volume_24h_text": "$231k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/KAIO.md",
+    "sha256": "843cebf16384400317d19ebf1961f8f811bce763912b71a1eb05740b4d7f2f80",
+    "bytes": 24541,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 6:51 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "10B minted to the deployer; six allocation transfers on 1 May 2026 match the published table",
+      "url": "mint",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10B minted to the deployer; six allocation transfers on 1 May 2026 match the published table",
+      "url": "investors",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10B minted to the deployer; six allocation transfers on 1 May 2026 match the published table",
+      "url": "community",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "10B minted to the deployer; six allocation transfers on 1 May 2026 match the published table",
+      "url": "team",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocation wallets are EOAs and have never moved",
+      "url": "0xc2ed",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocation wallets are EOAs and have never moved",
+      "url": "0x5eaa",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocation wallets are EOAs and have never moved",
+      "url": "0x1c5e",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Allocation wallets are EOAs and have never moved",
+      "url": "0x588f",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Liquidity wallet → 0x7875 13M on 1 Oct 2026",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x7875 → Gate 3M (1 Oct), Coinbase 3M (2 Oct) and Bitget 4M (8 Oct) on pump days",
+      "url": "Gate",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x7875 → Gate 3M (1 Oct), Coinbase 3M (2 Oct) and Bitget 4M (8 Oct) on pump days",
+      "url": "Coinbase",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x7875 → Gate 3M (1 Oct), Coinbase 3M (2 Oct) and Bitget 4M (8 Oct) on pump days",
+      "url": "Arkham: Coinbase Deposit",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0x7875 → Gate 3M (1 Oct), Coinbase 3M (2 Oct) and Bitget 4M (8 Oct) on pump days",
+      "url": "Bitget",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TGE market-maker transfers (Wintermute 37.5M, Jump 25M)",
+      "url": "Wintermute",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TGE market-maker transfers (Wintermute 37.5M, Jump 25M)",
+      "url": "Jump",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Published allocation and vesting",
+      "url": "KuCoin",
+      "kind": "other",
+      "tier": "B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Published allocation and vesting",
+      "url": "Bitget/Foresight",
+      "kind": "other",
+      "tier": "B ×2",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $235k since tracking; holder revenue $0",
+      "url": "DefiLlama",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Cyfrin audits",
+      "url": "reports",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
+      "url": "https://etherscan.io/token/0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1c5e97a7b4fe01bba50827e3dd78bd9f272bee4b",
+      "url": "https://etherscan.io/address/0x1c5e97a7b4fe01bba50827e3dd78bd9f272bee4b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1feeb6c6b92864b82aed16391eba223becd568d0",
+      "url": "https://etherscan.io/address/0x1feeb6c6b92864b82aed16391eba223becd568d0",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x437f000b58cf0bbfe89ab29b9a6d6511c6f3bd44",
+      "url": "https://etherscan.io/address/0x437f000b58cf0bbfe89ab29b9a6d6511c6f3bd44",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x485ca09ba5bde91ebcad9ff2393ee96401ee0285",
+      "url": "https://etherscan.io/address/0x485ca09ba5bde91ebcad9ff2393ee96401ee0285",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x54206b5386d927db00f7eb5bb57aae43f91e4507",
+      "url": "https://etherscan.io/address/0x54206b5386d927db00f7eb5bb57aae43f91e4507",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x588f42183046d626470e5019e02a2b3ba97e994b",
+      "url": "https://etherscan.io/address/0x588f42183046d626470e5019e02a2b3ba97e994b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5eaa87a6867d29a6288424a238a3d0dba9ec951d",
+      "url": "https://etherscan.io/address/0x5eaa87a6867d29a6288424a238a3d0dba9ec951d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5fac7bbf222a1236f91f2985f8434cf505385369",
+      "url": "https://etherscan.io/address/0x5fac7bbf222a1236f91f2985f8434cf505385369",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x787563c7f4a1f9fdeb84b828a509314bd6acb2e2",
+      "url": "https://etherscan.io/address/0x787563c7f4a1f9fdeb84b828a509314bd6acb2e2",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x97ce88a5dba86c4c0de250394612ba9f1a5c3f27",
+      "url": "https://etherscan.io/address/0x97ce88a5dba86c4c0de250394612ba9f1a5c3f27",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaa9f8b6c6d1ca0d5abd96357a7871864173edb3c",
+      "url": "https://etherscan.io/address/0xaa9f8b6c6d1ca0d5abd96357a7871864173edb3c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc2ed4aa16d749c50fb3be34cdc99b80ef42899e6",
+      "url": "https://etherscan.io/address/0xc2ed4aa16d749c50fb3be34cdc99b80ef42899e6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd31bc138a2438cfb676f50053b10697d990fa8d7",
+      "url": "https://etherscan.io/address/0xd31bc138a2438cfb676f50053b10697d990fa8d7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf9fe4f7279207b6795f8c94b96de86f127fe12cc",
+      "url": "https://etherscan.io/address/0xf9fe4f7279207b6795f8c94b96de86f127fe12cc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xfddf70861a4ffd7cb52a1ee992b42020f3cd1419",
+      "url": "https://etherscan.io/address/0xfddf70861a4ffd7cb52a1ee992b42020f3cd1419",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "formal_announcement",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "treasury_to_exchange_during_pump: yes, via the project's TGE liquidity wallet: 0xf9fe… funded fresh wallet 0x7875… with 13M KAIO on 1 Oct 2026, which sent 10M to Gate, Coinbase and Bitget deposits on the 1, 2 and 8 Oct 2026 pump days (+43%, +51%, +28%)",
+      "treasury_funded_wallet_to_exchange_during_pump: yes (same flow)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Fund fees go to the company, not to KAIO holders: ~$440k a year at the current run rate against a $204M FDV. Score **2**, which **trips the Revenue gate**."
+  },
+  "attributions": [
+    {
+      "address": "0xc2ed4aa16d749c50fb3be34cdc99b80ef42899e6",
+      "url": "https://intel.arkm.com/explorer/address/0xc2ed4aa16d749c50fb3be34cdc99b80ef42899e6",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5eaa87a6867d29a6288424a238a3d0dba9ec951d",
+      "url": "https://intel.arkm.com/explorer/address/0x5eaa87a6867d29a6288424a238a3d0dba9ec951d",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x1c5e97a7b4fe01bba50827e3dd78bd9f272bee4b",
+      "url": "https://intel.arkm.com/explorer/address/0x1c5e97a7b4fe01bba50827e3dd78bd9f272bee4b",
+      "label": "KAIO Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x588f42183046d626470e5019e02a2b3ba97e994b",
+      "url": "https://intel.arkm.com/explorer/address/0x588f42183046d626470e5019e02a2b3ba97e994b",
+      "label": "KAIO Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd31bc138a2438cfb676f50053b10697d990fa8d7",
+      "url": "https://intel.arkm.com/explorer/address/0xd31bc138a2438cfb676f50053b10697d990fa8d7",
+      "label": "KAIO Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x97ce88a5dba86c4c0de250394612ba9f1a5c3f27",
+      "url": "https://intel.arkm.com/explorer/address/0x97ce88a5dba86c4c0de250394612ba9f1a5c3f27",
+      "label": "KAIO Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xfddf70861a4ffd7cb52a1ee992b42020f3cd1419",
+      "url": "https://intel.arkm.com/explorer/address/0xfddf70861a4ffd7cb52a1ee992b42020f3cd1419",
+      "label": "KAIO Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x437f000b58cf0bbfe89ab29b9a6d6511c6f3bd44",
+      "url": "https://intel.arkm.com/explorer/address/0x437f000b58cf0bbfe89ab29b9a6d6511c6f3bd44",
+      "label": "0x437f` itself **Jump Crypto**. It still holds 75M and passed 25M on to another",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xaa9f8b6c6d1ca0d5abd96357a7871864173edb3c",
+      "url": "https://intel.arkm.com/explorer/address/0xaa9f8b6c6d1ca0d5abd96357a7871864173edb3c",
+      "label": "0x437f` itself **Jump Crypto**. It still holds 75M and passed 25M on to another",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x787563c7f4a1f9fdeb84b828a509314bd6acb2e2",
+      "url": "https://intel.arkm.com/explorer/address/0x787563c7f4a1f9fdeb84b828a509314bd6acb2e2",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5fac7bbf222a1236f91f2985f8434cf505385369",
+      "url": "https://intel.arkm.com/explorer/address/0x5fac7bbf222a1236f91f2985f8434cf505385369",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API: `tokentx` (KAIO contract and ~15 traced wallets from the deployer), `tokenbalance`, `tokensupply`, `getsourcecode`, `getcontractcreation`; `eth_getCode` (EOA/contract test); read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags: \"Jump Trading\", \"Wintermute 4\", \"Bitget 6\", \"Gate Deposit\" (0xfb77, 0x74a5, 0x485c), \"KuCoin Deposit\", \"Bitget Deposit\"",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [kaio.xyz](https://www.kaio.xyz/) · [docs.kaio.xyz](https://docs.kaio.xyz/) · [audit reports](https://github.com/KAIO-xyz/audits/tree/main/reports) · [librecapital GitHub](https://github.com/librecapital)",
+      "urls": [
+        "kaio.xyz",
+        "docs.kaio.xyz",
+        "audit reports",
+        "librecapital GitHub"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [KuCoin: TGE notice](https://www.kucoin.com/news/insight/KAIO/69fb095b9514cf00076fe3eb) · [KuCoin/Foresight tokenomics](https://www.kucoin.com/news/flash/kaio-reveals-tokenomics-37-5-allocated-for-community-and-liquidity-incentives) · [Bitget/Foresight](https://www.bitget.com/news/detail/12560605390886) · [Tokenomics.com](https://app.tokenomics.com/tokenomics/kaio) · [IQ.wiki](https://iq.wiki/wiki/kaio)",
+      "urls": [
+        "KuCoin: TGE notice",
+        "KuCoin/Foresight tokenomics",
+        "Bitget/Foresight",
+        "Tokenomics.com",
+        "IQ.wiki"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): Jump Crypto (`0x437f`), Wintermute Deposit (`0xaa9f`), Coinbase Deposit (`0x5fac`); `0x7875`, `0xf9fe` and the allocation wallets unlabelled (links in Holdings and Selling). Etherscan `eth_getCode(0xf9fe…)` = EIP-7702 delegation (EOA)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees/revenue/TVL; CoinGecko `kaio` (16 Nov 2026 6:51 AM MST); KuCoin KAIO-USDT daily candles for every pump test",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owner of `0x7875`; market-maker terms with Jump and Wintermute; any vesting enforcement off-chain (custodian)",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

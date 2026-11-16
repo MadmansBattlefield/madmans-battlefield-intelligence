@@ -1,0 +1,1223 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "QNT",
+  "name": "Quant",
+  "chain": "ethereum",
+  "contract": "0x4a220E6096B25EADb88358cb44068A3248254675",
+  "overall_score": 4.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 4,
+    "foundation_team": 6,
+    "insider_holdings": 3,
+    "selling_behavior": 3,
+    "tokenomics_supply": 2,
+    "liquidity_market": 7,
+    "product_development": 6,
+    "adoption_customers": 8,
+    "security_audits": 3,
+    "regulatory": 5,
+    "catalysts": 6
+  },
+  "sections_passed": 5,
+  "gates_failed": [
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "mint_path_live": "yes (crowdsale owner EOA 0xf5e3… can still mint new QNT; simulated 16 Nov 2026, not executed)",
+    "team_wallet_to_exchange_during_pump": "yes (Etherscan 'Quant: Team Wallet 1' sent 350,000 QNT into exchange deposit addresses on 5 pump days, Jul–Sep 2021; plus 200,000 via wallets it funded on 4 more pump days, Mar–May 2021; no disclosure found)",
+    "unattributed_cluster_pump_day_flow": "30 Sep 2026 (0x7513 'QNT Whale' -> Galaxy Digital OTC -> Kraken hot wallet / B2C2 / Binance; cluster descended from Team Wallet 2 via Bitcoin Suisse; owner [Unverified])",
+    "founder_wallet_pump_day_move": "29 Sep 2026 (Arkham 'Quant Network: Founder' 0x48e9 moved 25,776 QNT to a Quant-labelled wallet; no exchange deposit seen. Quant-funded 0x8266 moved 22,807, of which 1,000 reached Coinbase on 30 Sep)",
+    "team_funds_to_broker_deposit": "yes (1.18M QNT into Arkham 'Quant Network — Bitcoin Suisse Deposit' 0x86c0, 2022; ~1.22M swept to Bitcoin Suisse in Jun 2023; sale not provable on-chain)"
+  },
+  "price_usd": 155.5,
+  "price_source": "CoinGecko, 16 Nov 2026 3:50 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 155.5,
+    "market_cap_text": "$2.263B",
+    "fdv_text": "$2.272B",
+    "volume_24h_text": "$64.1M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/QNT.md",
+    "sha256": "39e3ddbb24939c34b32e944ea2bd7245f8df178476d7c2b816fe4eb30c5d1b03",
+    "bytes": 55333,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 3:50 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 ~4:2x AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Team Wallet 1 is Quant's (Etherscan tag) and was funded from the deployer via Team Wallet 2",
+      "url": "TW1",
+      "kind": "other",
+      "tier": "A chain + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team Wallet 1 is Quant's (Etherscan tag) and was funded from the deployer via Team Wallet 2",
+      "url": "TW2",
+      "kind": "other",
+      "tier": "A chain + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team Wallet 1 is Quant's (Etherscan tag) and was funded from the deployer via Team Wallet 2",
+      "url": "deployer → TW2",
+      "kind": "other",
+      "tier": "A chain + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Team Wallet 1 is Quant's (Etherscan tag) and was funded from the deployer via Team Wallet 2",
+      "url": "TW2 → TW1",
+      "kind": "other",
+      "tier": "A chain + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Arkham files TW1, the three Bittrex sellers and `0xd1ba…` under Quant Network",
+      "url": "TW1",
+      "kind": "other",
+      "tier": "B (Arkham) + A funding",
+      "date_read": "16 Nov 2026 ~4:28 AM MST"
+    },
+    {
+      "claim": "Arkham files TW1, the three Bittrex sellers and `0xd1ba…` under Quant Network",
+      "url": "0x416b",
+      "kind": "other",
+      "tier": "B (Arkham) + A funding",
+      "date_read": "16 Nov 2026 ~4:28 AM MST"
+    },
+    {
+      "claim": "Arkham files TW1, the three Bittrex sellers and `0xd1ba…` under Quant Network",
+      "url": "0xaee5",
+      "kind": "other",
+      "tier": "B (Arkham) + A funding",
+      "date_read": "16 Nov 2026 ~4:28 AM MST"
+    },
+    {
+      "claim": "Arkham files TW1, the three Bittrex sellers and `0xd1ba…` under Quant Network",
+      "url": "0x524e",
+      "kind": "other",
+      "tier": "B (Arkham) + A funding",
+      "date_read": "16 Nov 2026 ~4:28 AM MST"
+    },
+    {
+      "claim": "Arkham files TW1, the three Bittrex sellers and `0xd1ba…` under Quant Network",
+      "url": "0xd1ba",
+      "kind": "other",
+      "tier": "B (Arkham) + A funding",
+      "date_read": "16 Nov 2026 ~4:28 AM MST"
+    },
+    {
+      "claim": "26 Jul 2021 pump day: 50k TW1 → Bittrex deposit",
+      "url": "in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "26 Jul 2021 pump day: 50k TW1 → Bittrex deposit",
+      "url": "sweep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "26 Jul 2021 pump day: 50k TW1 → Bittrex deposit",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "26 Jul 2021 pump day: 50k TW1 → Bittrex deposit",
+      "url": "Bittrex",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "18 Aug 2021 pump day: 100k TW1 → Bittrex + KuCoin",
+      "url": "Bittrex in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "18 Aug 2021 pump day: 100k TW1 → Bittrex + KuCoin",
+      "url": "Bittrex sweep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "18 Aug 2021 pump day: 100k TW1 → Bittrex + KuCoin",
+      "url": "KuCoin leg in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "18 Aug 2021 pump day: 100k TW1 → Bittrex + KuCoin",
+      "url": "→ KuCoin 3",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6 Sep 2021 pump day: 50k TW1 → Coinbase 12",
+      "url": "test 100",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6 Sep 2021 pump day: 50k TW1 → Coinbase 12",
+      "url": "in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6 Sep 2021 pump day: 50k TW1 → Coinbase 12",
+      "url": "→ Coinbase 12",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6 Sep 2021 pump day: 50k TW1 → Coinbase 12",
+      "url": "Coinbase 12",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "7 and 14 Sep 2021 pump days: 100k TW1 → \"Binance Deposit\", swept to Binance 14",
+      "url": "7 Sep in",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "7 and 14 Sep 2021 pump days: 100k TW1 → \"Binance Deposit\", swept to Binance 14",
+      "url": "14 Sep in",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "7 and 14 Sep 2021 pump days: 100k TW1 → \"Binance Deposit\", swept to Binance 14",
+      "url": "sweep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "7 and 14 Sep 2021 pump days: 100k TW1 → \"Binance Deposit\", swept to Binance 14",
+      "url": "deposit",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "14 Sep 2021 pump day: 50k TW1 → Coinbase 12",
+      "url": "in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "14 Sep 2021 pump day: 50k TW1 → Coinbase 12",
+      "url": "→ Coinbase 12",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "18 Jan 2022 (not a pump day): 99,990 TW1 → Binance 14",
+      "url": "in",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "18 Jan 2022 (not a pump day): 99,990 TW1 → Binance 14",
+      "url": "→ Binance 14",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TW1-funded wallets sold 1.07M via Bittrex, 4 lots on pump days",
+      "url": "9 Mar fund",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TW1-funded wallets sold 1.07M via Bittrex, 4 lots on pump days",
+      "url": "9 Mar sell",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TW1-funded wallets sold 1.07M via Bittrex, 4 lots on pump days",
+      "url": "17 Mar",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TW1-funded wallets sold 1.07M via Bittrex, 4 lots on pump days",
+      "url": "30 Apr",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TW1-funded wallets sold 1.07M via Bittrex, 4 lots on pump days",
+      "url": "13 May",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Live mint path; simulated mint of 1,000 QNT",
+      "url": "crowdsale code",
+      "kind": "other",
+      "tier": "A (code + simulation)",
+      "date_read": "16 Nov 2026 3:50 AM MST"
+    },
+    {
+      "claim": "Live mint path; simulated mint of 1,000 QNT",
+      "url": "owner EOA",
+      "kind": "other",
+      "tier": "A (code + simulation)",
+      "date_read": "16 Nov 2026 3:50 AM MST"
+    },
+    {
+      "claim": "Live mint path; simulated mint of 1,000 QNT",
+      "url": "crowdsale creation",
+      "kind": "other",
+      "tier": "A (code + simulation)",
+      "date_read": "16 Nov 2026 3:50 AM MST"
+    },
+    {
+      "claim": "Live mint path; simulated mint of 1,000 QNT",
+      "url": "token code",
+      "kind": "other",
+      "tier": "A (code + simulation)",
+      "date_read": "16 Nov 2026 3:50 AM MST"
+    },
+    {
+      "claim": "Retained 14,467,000 and burned 9,545,765.95 in 2018",
+      "url": "mint to deployer",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Retained 14,467,000 and burned 9,545,765.95 in 2018",
+      "url": "burn",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Retained 14,467,000 and burned 9,545,765.95 in 2018",
+      "url": "token creation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TW2 → `0x86c0…` → Bitcoin Suisse → `0xdf3b…` → `0x7513…` (#3 holder)",
+      "url": "TW2 → 0x86c0",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TW2 → `0x86c0…` → Bitcoin Suisse → `0xdf3b…` → `0x7513…` (#3 holder)",
+      "url": "0x86c0 → BS1",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TW2 → `0x86c0…` → Bitcoin Suisse → `0xdf3b…` → `0x7513…` (#3 holder)",
+      "url": "BS1 → 0xdf3b",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "TW2 → `0x86c0…` → Bitcoin Suisse → `0xdf3b…` → `0x7513…` (#3 holder)",
+      "url": "0x7513",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "30 Sep 2026 pump-day flow from that cluster toward exchanges",
+      "url": "0xdf3b → 0x7513",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "30 Sep 2026 pump-day flow from that cluster toward exchanges",
+      "url": "→ 0x434a",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "30 Sep 2026 pump-day flow from that cluster toward exchanges",
+      "url": "→ B2C2",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "30 Sep 2026 pump-day flow from that cluster toward exchanges",
+      "url": "→ Binance 14",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "\"Quant Network: Founder\" wallet holds 599,999; it and the 600k `0x8266…` were both funded by Quant Network `0x3070…` on 16 Oct 2018",
+      "url": "founder on Arkham",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "\"Quant Network: Founder\" wallet holds 599,999; it and the 600k `0x8266…` were both funded by Quant Network `0x3070…` on 16 Oct 2018",
+      "url": "funding tx",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "\"Quant Network: Founder\" wallet holds 599,999; it and the 600k `0x8266…` were both funded by Quant Network `0x3070…` on 16 Oct 2018",
+      "url": "0x8266 funding tx",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "\"Quant Network: Founder\" wallet holds 599,999; it and the 600k `0x8266…` were both funded by Quant Network `0x3070…` on 16 Oct 2018",
+      "url": "0x3070 on Arkham",
+      "kind": "other",
+      "tier": "A chain + B label",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29–30 Sep 2026 pump days: founder wallet 25,776 → Quant wallet; `0x8266…` branch 1,000 → Coinbase",
+      "url": "founder → 0x2071",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29–30 Sep 2026 pump days: founder wallet 25,776 → Quant wallet; `0x8266…` branch 1,000 → Coinbase",
+      "url": "0x8266 → 0x5802",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29–30 Sep 2026 pump days: founder wallet 25,776 → Quant wallet; `0x8266…` branch 1,000 → Coinbase",
+      "url": "→ 0x823a",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "29–30 Sep 2026 pump days: founder wallet 25,776 → Quant wallet; `0x8266…` branch 1,000 → Coinbase",
+      "url": "→ Coinbase",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x86c0…` is \"Quant Network — Bitcoin Suisse Deposit\" (1.18M in, ~1.22M to Bitcoin Suisse hot wallet)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "B label + A chain",
+      "date_read": "16 Nov 2026 ~4:27 AM MST"
+    },
+    {
+      "claim": "`0x86c0…` is \"Quant Network — Bitcoin Suisse Deposit\" (1.18M in, ~1.22M to Bitcoin Suisse hot wallet)",
+      "url": "TW2 → 0x86c0",
+      "kind": "other",
+      "tier": "B label + A chain",
+      "date_read": "16 Nov 2026 ~4:27 AM MST"
+    },
+    {
+      "claim": "`0x86c0…` is \"Quant Network — Bitcoin Suisse Deposit\" (1.18M in, ~1.22M to Bitcoin Suisse hot wallet)",
+      "url": "0xd1ba → 0x86c0",
+      "kind": "other",
+      "tier": "B label + A chain",
+      "date_read": "16 Nov 2026 ~4:27 AM MST"
+    },
+    {
+      "claim": "30 Sep 2026 route: `0x434a…` = Galaxy Digital, `0x88d5…` = Kraken hot wallet, `0x7e8b…` = Elwood",
+      "url": "0x434a",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~4:27–4:29 AM MST"
+    },
+    {
+      "claim": "30 Sep 2026 route: `0x434a…` = Galaxy Digital, `0x88d5…` = Kraken hot wallet, `0x7e8b…` = Elwood",
+      "url": "0x88d5",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~4:27–4:29 AM MST"
+    },
+    {
+      "claim": "30 Sep 2026 route: `0x434a…` = Galaxy Digital, `0x88d5…` = Kraken hot wallet, `0x7e8b…` = Elwood",
+      "url": "0x7e8b",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026 ~4:27–4:29 AM MST"
+    },
+    {
+      "claim": "`0x9e86…` (unlabelled whale) 19,990 → Gate deposit on the 26 Nov 2025 pump day",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0x9e86…` (unlabelled whale) 19,990 → Gate deposit on the 26 Nov 2025 pump day",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue £11,515,582, profit £1,545,899, no crypto on the balance sheet",
+      "url": "FY25 accounts",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint path \"no evidence … operationally active\"; cap 14,881,364",
+      "url": "MiCA white paper",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x09f7cb22c7d521e76c72cb166ff6efc7ec03effd",
+      "url": "https://etherscan.io/address/0x09f7cb22c7d521e76c72cb166ff6efc7ec03effd",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0ac84b6a4b964b8a59ea40d8ce1be9da75a8183a",
+      "url": "https://etherscan.io/address/0x0ac84b6a4b964b8a59ea40d8ce1be9da75a8183a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0e1e31db1f1a2cba2e865d25d3b378ecb2c7d14b",
+      "url": "https://etherscan.io/address/0x0e1e31db1f1a2cba2e865d25d3b378ecb2c7d14b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x1f1e4f2219ee0b805f67a23f5f4daaf95165a126",
+      "url": "https://etherscan.io/address/0x1f1e4f2219ee0b805f67a23f5f4daaf95165a126",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x2071fd0bcbc6e076aef49bb598946bb37c48b65a",
+      "url": "https://intel.arkm.com/explorer/address/0x2071fd0bcbc6e076aef49bb598946bb37c48b65a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x278fa35721e7d22eaf0b5485fdf86d3a69360cb8",
+      "url": "https://etherscan.io/address/0x278fa35721e7d22eaf0b5485fdf86d3a69360cb8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "url": "https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x30701834bec7f362ff52b22199e6a7469ba8ad9f",
+      "url": "https://intel.arkm.com/explorer/address/0x30701834bec7f362ff52b22199e6a7469ba8ad9f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x398e41ac3d5972b4bac2320cd130c7a25ca446f7",
+      "url": "https://etherscan.io/address/0x398e41ac3d5972b4bac2320cd130c7a25ca446f7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x3df4cbb5f22e736034da170c453c2beec6b618d1",
+      "url": "https://etherscan.io/address/0x3df4cbb5f22e736034da170c453c2beec6b618d1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x416b992c5ced9cb4d9996882af8c847aa2c53488",
+      "url": "https://intel.arkm.com/explorer/address/0x416b992c5ced9cb4d9996882af8c847aa2c53488",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x434aaa7c02874e614149ad572a05cffd007145ac",
+      "url": "https://etherscan.io/address/0x434aaa7c02874e614149ad572a05cffd007145ac",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x48e9af81fb93d144ad4683fcf219974c8304a170",
+      "url": "https://intel.arkm.com/explorer/address/0x48e9af81fb93d144ad4683fcf219974c8304a170",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x49e1a437b7b6ffef9301ad04f0072bc181db0d40",
+      "url": "https://etherscan.io/address/0x49e1a437b7b6ffef9301ad04f0072bc181db0d40",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4a220e6096b25eadb88358cb44068a3248254675",
+      "url": "https://etherscan.io/address/0x4a220E6096B25EADb88358cb44068A3248254675",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4f3a120e72c76c22ae802d129f599bfdbc31cb81",
+      "url": "https://etherscan.io/address/0x4f3a120e72c76c22ae802d129f599bfdbc31cb81",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x503828976d22510aad0201ac7ec88293211d23da",
+      "url": "https://etherscan.io/address/0x503828976d22510aad0201ac7ec88293211d23da",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x524e034609972c7354bc2d3714e9a3bd72f9c93b",
+      "url": "https://etherscan.io/address/0x524e034609972c7354bc2d3714e9a3bd72f9c93b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x580205378c034877b30f495ad550275a0f66247e",
+      "url": "https://etherscan.io/address/0x580205378c034877b30f495ad550275a0f66247e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5c7197e9f132d77647fe3cca2c97a52a4055cd5b",
+      "url": "https://etherscan.io/address/0x5c7197e9f132d77647fe3cca2c97a52a4055cd5b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7513ae7e87290094b17b35e26cdb537170634c57",
+      "url": "https://etherscan.io/address/0x7513ae7e87290094b17b35e26cdb537170634c57",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x755f3318f9ee4b5c0928158088078a14134fafd3",
+      "url": "https://etherscan.io/address/0x755f3318f9ee4b5c0928158088078a14134fafd3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7e8bada55b156a03378ad1bab48039e4f88e594c",
+      "url": "https://intel.arkm.com/explorer/address/0x7e8bada55b156a03378ad1bab48039e4f88e594c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x823a2a29326846c95642eebd2b013abe82f4344c",
+      "url": "https://etherscan.io/address/0x823a2a29326846c95642eebd2b013abe82f4344c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x826678ad6b1aaa5e1f20e079333d9b66ab22d78b",
+      "url": "https://etherscan.io/address/0x826678aD6b1aaa5e1f20E079333D9b66ab22d78b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x86c046866bad93f9890850f52880044d22ce50f6",
+      "url": "https://etherscan.io/address/0x86c046866bad93f9890850f52880044d22ce50f6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x88d5c89f6356c8c9c39ed325165793cb41dd1e72",
+      "url": "https://etherscan.io/address/0x88d5c89f6356c8c9c39ed325165793cb41dd1e72",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8c4558543804b97221ff37bb903e13b8aeb1a46f",
+      "url": "https://intel.arkm.com/explorer/address/0x8c4558543804b97221ff37bb903e13b8aeb1a46f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9e86b2299a73208ab7196be3148f77a88825efdd",
+      "url": "https://intel.arkm.com/explorer/address/0x9e86b2299a73208ab7196be3148f77a88825efdd",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9fc0c58c46316194862435aa34abbf66b1fbc703",
+      "url": "https://etherscan.io/address/0x9fc0c58c46316194862435aa34abbf66b1fbc703",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa1d8d972560c2f8144af871db508f0b0b10a3fbf",
+      "url": "https://etherscan.io/address/0xa1d8d972560c2f8144af871db508f0b0b10a3fbf",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa29e963992597b21bcdcaa969d571984869c4ff5",
+      "url": "https://etherscan.io/address/0xa29e963992597b21bcdcaa969d571984869c4ff5",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xaee54821da31e1ce50d50aa748720f15cbc9d03b",
+      "url": "https://etherscan.io/address/0xaee54821da31e1ce50d50aa748720f15cbc9d03b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb313b7549fc1d671a732003e01bf796d8ba1c4f8",
+      "url": "https://etherscan.io/address/0xb313b7549fc1d671a732003e01bf796d8ba1c4f8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb3f923eabaf178fc1bd8e13902fc5c61d3ddef5b",
+      "url": "https://etherscan.io/address/0xb3f923eabaf178fc1bd8e13902fc5c61d3ddef5b",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc5aef1adf58e895cd7cdc0fa50786f45ac14b420",
+      "url": "https://etherscan.io/address/0xc5aef1adf58e895cd7cdc0fa50786f45ac14b420",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd13d3c5f29579b17a0a9d1c88c6a4ebf6ac61a1d",
+      "url": "https://intel.arkm.com/explorer/address/0xd13d3c5f29579b17a0a9d1c88c6a4ebf6ac61a1d",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xd1baf518c3ffda991ae1ed16ce1f94ec9875ed00",
+      "url": "https://intel.arkm.com/explorer/address/0xd1baf518c3ffda991ae1ed16ce1f94ec9875ed00",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xdf3b5a5b7af53ac8dda95b55fb7822152da98eb6",
+      "url": "https://etherscan.io/address/0xdf3b5a5b7af53ac8dda95b55fb7822152da98eb6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf5e38bbedc78efea055e0c56035adb320e64c4bc",
+      "url": "https://etherscan.io/address/0xf5e38bbedc78efea055e0c56035adb320e64c4bc",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "url": "https://etherscan.io/address/0xfbb1b73c4f0bda4f67dca266ce6ef42f520fbb98",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes (Etherscan 'Quant: Team Wallet 1' sent 350,000 QNT into exchange deposit addresses on 5 pump days, Jul–Sep 2021; plus 200,000 via wallets it funded on 4 more pump days, Mar–May 2021; no disclosure found)",
+      "unattributed_cluster_pump_day_flow: 30 Sep 2026 (0x7513 'QNT Whale' -> Galaxy Digital OTC -> Kraken hot wallet / B2C2 / Binance; cluster descended from Team Wallet 2 via Bitcoin Suisse; owner [Unverified])",
+      "founder_wallet_pump_day_move: 29 Sep 2026 (Arkham 'Quant Network: Founder' 0x48e9 moved 25,776 QNT to a Quant-labelled wallet; no exchange deposit seen. Quant-funded 0x8266 moved 22,807, of which 1,000 reached Coinbase on 30 Sep)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": true,
+    "notes": "The company makes real, audited money and is profitable. The token gets no share of it. Paying in QNT is optional and nothing forces buying, so ~$2.3B of market cap sits on top of a ~£11.5M-a-year software business that can be paid in dollars. Better than a token with no business behind it (4, not 3). Fusion gas is the one direct token sink, and it is unmeasured."
+  },
+  "attributions": [
+    {
+      "address": "0xc5aef1adf58e895cd7cdc0fa50786f45ac14b420",
+      "url": "https://intel.arkm.com/explorer/address/0xc5aef1adf58e895cd7cdc0fa50786f45ac14b420",
+      "label": "KuCoin 3",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x416b992c5ced9cb4d9996882af8c847aa2c53488",
+      "url": "https://intel.arkm.com/explorer/address/0x416b992c5ced9cb4d9996882af8c847aa2c53488",
+      "label": "Quant: Deprecated Deployer",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf5e38bbedc78efea055e0c56035adb320e64c4bc",
+      "url": "https://intel.arkm.com/explorer/address/0xf5e38bbedc78efea055e0c56035adb320e64c4bc",
+      "label": "Quant: Deprecated Deployer",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x48e9af81fb93d144ad4683fcf219974c8304a170",
+      "url": "https://intel.arkm.com/explorer/address/0x48e9af81fb93d144ad4683fcf219974c8304a170",
+      "label": "Quant Network: Founder",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x86c046866bad93f9890850f52880044d22ce50f6",
+      "url": "https://intel.arkm.com/explorer/address/0x86c046866bad93f9890850f52880044d22ce50f6",
+      "label": "0x86c0…` **",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd1baf518c3ffda991ae1ed16ce1f94ec9875ed00",
+      "url": "https://intel.arkm.com/explorer/address/0xd1baf518c3ffda991ae1ed16ce1f94ec9875ed00",
+      "label": "0x86c0…` **",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x30701834bec7f362ff52b22199e6a7469ba8ad9f",
+      "url": "https://intel.arkm.com/explorer/address/0x30701834bec7f362ff52b22199e6a7469ba8ad9f",
+      "label": "Quant Network: Founder",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x826678ad6b1aaa5e1f20e079333d9b66ab22d78b",
+      "url": "https://intel.arkm.com/explorer/address/0x826678ad6b1aaa5e1f20e079333d9b66ab22d78b",
+      "label": "QNT Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd13d3c5f29579b17a0a9d1c88c6a4ebf6ac61a1d",
+      "url": "https://intel.arkm.com/explorer/address/0xd13d3c5f29579b17a0a9d1c88c6a4ebf6ac61a1d",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x2071fd0bcbc6e076aef49bb598946bb37c48b65a",
+      "url": "https://intel.arkm.com/explorer/address/0x2071fd0bcbc6e076aef49bb598946bb37c48b65a",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xaee54821da31e1ce50d50aa748720f15cbc9d03b",
+      "url": "https://intel.arkm.com/explorer/address/0xaee54821da31e1ce50d50aa748720f15cbc9d03b",
+      "label": "make",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x524e034609972c7354bc2d3714e9a3bd72f9c93b",
+      "url": "https://intel.arkm.com/explorer/address/0x524e034609972c7354bc2d3714e9a3bd72f9c93b",
+      "label": "make these **Quant-controlled wallets**. Which person or entity held the keys is",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x434aaa7c02874e614149ad572a05cffd007145ac",
+      "url": "https://intel.arkm.com/explorer/address/0x434aaa7c02874e614149ad572a05cffd007145ac",
+      "label": "**Galaxy Digital** (an OTC desk; it also shows an",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x88d5c89f6356c8c9c39ed325165793cb41dd1e72",
+      "url": "https://intel.arkm.com/explorer/address/0x88d5c89f6356c8c9c39ed325165793cb41dd1e72",
+      "label": "0x88d5…` **",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7513ae7e87290094b17b35e26cdb537170634c57",
+      "url": "https://intel.arkm.com/explorer/address/0x7513ae7e87290094b17b35e26cdb537170634c57",
+      "label": "QNT Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xdf3b5a5b7af53ac8dda95b55fb7822152da98eb6",
+      "url": "https://intel.arkm.com/explorer/address/0xdf3b5a5b7af53ac8dda95b55fb7822152da98eb6",
+      "label": "QNT Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8c4558543804b97221ff37bb903e13b8aeb1a46f",
+      "url": "https://intel.arkm.com/explorer/address/0x8c4558543804b97221ff37bb903e13b8aeb1a46f",
+      "label": "QNT Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x7e8bada55b156a03378ad1bab48039e4f88e594c",
+      "url": "https://intel.arkm.com/explorer/address/0x7e8bada55b156a03378ad1bab48039e4f88e594c",
+      "label": "Quant Network: Founder",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9e86b2299a73208ab7196be3148f77a88825efdd",
+      "url": "https://intel.arkm.com/explorer/address/0x9e86b2299a73208ab7196be3148f77a88825efdd",
+      "label": "QNT Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": true,
+    "flag_notes": [
+      "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API: `tokentx` full history for Team Wallet 1, Team Wallet 2, the deployer, every relay and deposit address named above; `getsourcecode` for the token and the crowdsale; read 16 Nov 2026 MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC (publicnode): crowdsale state reads and `eth_simulateV1`, 16 Nov 2026 3:50 AM MST; `eth_getLogs` for all 608 mint events and the 22 Sep – 4 Oct 2026 window (378,915 logs)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags read from each address page, 16 Nov 2026: \"Quant: Deprecated Deployer\", \"Quant: Team Wallet 1\", \"Quant: Team Wallet 2\", \"Binance Deposit\", \"Binance 14\", \"Binance: Cold Wallet 28\", \"Coinbase 12\", \"Coinbase 10\", \"Bittrex\", \"KuCoin 3\", \"Wintermute: Multisig\", \"B2C2 Group 1\", \"Bitcoin Suisse 1\", \"Copper 4/5/45\", \"Kraken 245/246\"",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 ~4:2x AM MST (signed-in account): entity, labels and first-page counterparties for 15 addresses: [`0xc5ae…` (counterparty label)](https://intel.arkm.com/explorer/address/0xc5aef1adf58e895cd7cdc0fa50786f45ac14b420) · [`0x7513…`](https://intel.arkm.com/explorer/address/0x7513ae7e87290094b17b35e26cdb537170634c57) · [`0xdf3b…`](https://intel.arkm.com/explorer/address/0xdf3b5a5b7af53ac8dda95b55fb7822152da98eb6) · [`0x86c0…`](https://intel.arkm.com/explorer/address/0x86c046866bad93f9890850f52880044d22ce50f6) · [`0x7e8b…`](https://intel.arkm.com/explorer/address/0x7e8bada55b156a03378ad1bab48039e4f88e594c) · [`0x434a…`](https://intel.arkm.com/explorer/address/0x434aaa7c02874e614149ad572a05cffd007145ac) · [`0x88d5…`](https://intel.arkm.com/explorer/address/0x88d5c89f6356c8c9c39ed325165793cb41dd1e72) · [`0x8266…`](https://intel.arkm.com/explorer/address/0x826678ad6b1aaa5e1f20e079333d9b66ab22d78b) · [`0x48e9…`](https://intel.arkm.com/explorer/address/0x48e9af81fb93d144ad4683fcf219974c8304a170) · [`0xd13d…`](https://intel.arkm.com/explorer/address/0xd13d3c5f29579b17a0a9d1c88c6a4ebf6ac61a1d) · [`0x416b…`](https://intel.arkm.com/explorer/address/0x416b992c5ced9cb4d9996882af8c847aa2c53488) · [`0xaee5…`](https://intel.arkm.com/explorer/address/0xaee54821da31e1ce50d50aa748720f15cbc9d03b) · [`0x524e…`](https://intel.arkm.com/explorer/address/0x524e034609972c7354bc2d3714e9a3bd72f9c93b) · [`0x9e86…`](https://intel.arkm.com/explorer/address/0x9e86b2299a73208ab7196be3148f77a88825efdd) · [`0xd1ba…`](https://intel.arkm.com/explorer/address/0xd1baf518c3ffda991ae1ed16ce1f94ec9875ed00) · [`0xf5e3…`](https://intel.arkm.com/explorer/address/0xf5e38bbedc78efea055e0c56035adb320e64c4bc). Counterparty totals come from Arkham's first transfer page only; dates and amounts in this report come from on-chain reads",
+      "urls": [
+        "`0xc5ae…` (counterparty label",
+        "`0x7513…`",
+        "`0xdf3b…`",
+        "`0x86c0…`",
+        "`0x7e8b…`",
+        "`0x434a…`",
+        "`0x88d5…`",
+        "`0x8266…`",
+        "`0x48e9…`",
+        "`0xd13d…`",
+        "`0x416b…`",
+        "`0xaee5…`",
+        "`0x524e…`",
+        "`0x9e86…`",
+        "`0xd1ba…`",
+        "`0xf5e3…`"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout v2: top-50 holders, holder count, circulating figure, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Companies House: [Quant Network Ltd 09798383](https://find-and-update.company-information.service.gov.uk/company/09798383) FY25 full audited accounts; [Quant Group Corporation Ltd 12299977](https://find-and-update.company-information.service.gov.uk/company/12299977) FY25 accounts and PSC register",
+      "urls": [
+        "Quant Network Ltd 09798383",
+        "Quant Group Corporation Ltd 12299977"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [MiCA white paper (Bitstamp Europe notification, 13 May 2026)](https://assets.bitstamp.net/docs/whitepaper/Quant_2026_05_13.xhtml)",
+      "urls": [
+        "MiCA white paper (Bitstamp Europe notification, 13 May 2026"
+      ],
+      "date_read": "13 May 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Quant FAQ](https://quant.network/frequently-asked-questions/) · [Fusion mainnet news](https://quant.network/news/a-new-category-of-infrastructure-the-fusion-rollup-is-live-on-mainnet/) · [TCH press release](https://www.theclearinghouse.org/payment-systems/Articles/2026/09/The-Clearing-House-Partners-with-Quant-to-Advance-the--On-Chain-Money-Initiative) · [UK Finance GBTD](https://www.ukfinance.org.uk/tokenised-sterling-deposits-gbtd-initiative)",
+      "urls": [
+        "Quant FAQ",
+        "Fusion mainnet news",
+        "TCH press release",
+        "UK Finance GBTD"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [EtherAuthority audit, 14 May 2024](https://etherauthority.io/wp-content/uploads/2024/05/Quant-Token.pdf) · [Blockworks Token Transparency filing](https://blockworks.com/token-transparency/filing/quant)",
+      "urls": [
+        "EtherAuthority audit, 14 May 2024",
+        "Blockworks Token Transparency filing"
+      ],
+      "date_read": "14 May 2024"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `quant-network` price and 365-day closes (16 Nov 2026); Binance QNT/USDT daily klines (from 29 Jul 2021); KuCoin QNT-USDT daily candles (from 7 Feb 2021)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub `quantnetwork` org",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owner of the `0x7513…`/`0xdf3b…` cluster (Arkham: unlabelled \"QNT Whale\"); owner of `0x8266…` and `0x9e86…`; who holds the deployer key; whether Bitcoin Suisse sold the 1.18M deposited by Quant; where the rest of the ~4.9M team/reserve QNT is; the ~268k supply gap; Fusion staking terms; whether the 2021 sales were disclosed; any licences",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

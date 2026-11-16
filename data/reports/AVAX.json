@@ -1,0 +1,735 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "AVAX",
+  "name": "Avalanche",
+  "chain": "avalanche",
+  "contract": "native (P-, X- and C-Chain); C-Chain is EVM chain id 43114",
+  "overall_score": 5.5,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 9,
+    "product_development": 8,
+    "adoption_customers": 7,
+    "security_audits": 7,
+    "regulatory": 8,
+    "catalysts": 6
+  },
+  "sections_passed": 7,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "foundation_pump_day_exchange_send": "open_unresolved",
+    "foundation_wallet_roster_published": false,
+    "nyse_settlement_launch": "pending_regulatory_approval"
+  },
+  "price_usd": 7.31,
+  "price_source": "CoinGecko avalanche-2, 15 Nov 2026 6:45 AM MST",
+  "front_matter_extras": {
+    "chain_read_height": 100394651
+  },
+  "key_numbers": {
+    "price_usd": 7.31,
+    "market_cap_text": "$3.266B",
+    "fdv_text": "$3.448B",
+    "volume_24h_text": "$401.5M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/AVAX.md",
+    "sha256": "b7151214089d26f1ed384655d4a883a738d3b59b4ecb9bad70694b755d371a47",
+    "bytes": 44834,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko avalanche-2, 15 Nov 2026 6:45 AM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~10:40 AM MST",
+      "15 Nov 2026",
+      "15 Nov 2026 ~10:45 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~10:40 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "**Pump-day send:** Wallet 1 → Coinbase Prime deposit `0x712b…`, 320,000 AVAX, 21 Sep 2026 14:27 UTC (+55.8%)",
+      "url": "deposit tx",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~10:45 AM MST"
+    },
+    {
+      "claim": "**Pump-day send:** Wallet 1 → Coinbase Prime deposit `0x712b…`, 320,000 AVAX, 21 Sep 2026 14:27 UTC (+55.8%)",
+      "url": "Wallet 1",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~10:45 AM MST"
+    },
+    {
+      "claim": "**Pump-day send:** Wallet 1 → Coinbase Prime deposit `0x712b…`, 320,000 AVAX, 21 Sep 2026 14:27 UTC (+55.8%)",
+      "url": "Arkham “Coinbase Prime Deposit”",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~10:45 AM MST"
+    },
+    {
+      "claim": "Swept to Coinbase Prime hot wallet 95 s later",
+      "url": "sweep tx",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Swept to Coinbase Prime hot wallet 95 s later",
+      "url": "Arkham “Coinbase Prime: Hot Wallet”",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Swept to Coinbase Prime hot wallet 95 s later",
+      "url": "Snowtrace tag",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "21 forwards through the same deposit address since Sep 2024 (1 on a pump day)",
+      "url": "deposit address txs",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "21 forwards through the same deposit address since Sep 2024 (1 on a pump day)",
+      "url": "4 Mar",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "21 forwards through the same deposit address since Sep 2024 (1 on a pump day)",
+      "url": "10 Mar",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "21 forwards through the same deposit address since Sep 2024 (1 on a pump day)",
+      "url": "25 Mar",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "21 forwards through the same deposit address since Sep 2024 (1 on a pump day)",
+      "url": "20 May",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "21 forwards through the same deposit address since Sep 2024 (1 on a pump day)",
+      "url": "26 May",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "21 forwards through the same deposit address since Sep 2024 (1 on a pump day)",
+      "url": "23 Jun",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "21 forwards through the same deposit address since Sep 2024 (1 on a pump day)",
+      "url": "3 Aug",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "21 forwards through the same deposit address since Sep 2024 (1 on a pump day)",
+      "url": "21 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "21 forwards through the same deposit address since Sep 2024 (1 on a pump day)",
+      "url": "21 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Feeder `0x87dd…` put 1.6M AVAX into the same Prime deposit address (May–Aug 2026)",
+      "url": "feeder",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Feeder `0x87dd…` put 1.6M AVAX into the same Prime deposit address (May–Aug 2026)",
+      "url": "3 Aug 649,998",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Feeder `0x87dd…` put 1.6M AVAX into the same Prime deposit address (May–Aug 2026)",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "400k AVAX round trip with Galaxy Digital OTC (4 Aug out, 8 Sep back +987)",
+      "url": "out",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "400k AVAX round trip with Galaxy Digital OTC (4 Aug out, 8 Sep back +987)",
+      "url": "forward",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "400k AVAX round trip with Galaxy Digital OTC (4 Aug out, 8 Sep back +987)",
+      "url": "back",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "400k AVAX round trip with Galaxy Digital OTC (4 Aug out, 8 Sep back +987)",
+      "url": "Arkham Galaxy deposit",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "400k AVAX round trip with Galaxy Digital OTC (4 Aug out, 8 Sep back +987)",
+      "url": "Arkham Galaxy OTC",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "USDC out of Coinbase to Wallet 1 (2.0M + 4.0M), then 4.6M USDC to a Circle deposit",
+      "url": "7 Oct",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "USDC out of Coinbase to Wallet 1 (2.0M + 4.0M), then 4.6M USDC to a Circle deposit",
+      "url": "2 Nov",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "USDC out of Coinbase to Wallet 1 (2.0M + 4.0M), then 4.6M USDC to a Circle deposit",
+      "url": "22 Oct → Circle",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "USDC out of Coinbase to Wallet 1 (2.0M + 4.0M), then 4.6M USDC to a Circle deposit",
+      "url": "Arkham Circle label",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Wallet 3 → Binance deposit (18 Jun 2025)",
+      "url": "USDC tx",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "Wallet 3 → Binance deposit (18 Jun 2025)",
+      "url": "Arkham Binance label",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xc9ad…` → Coinbase deposit 204,613 AVAX (2 Nov 2026)",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xc9ad…` → Coinbase deposit 204,613 AVAX (2 Nov 2026)",
+      "url": "Arkham Coinbase label",
+      "kind": "other",
+      "tier": "A + one B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "C-Chain burn 5,150,034 AVAX",
+      "url": "burn address",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "avalanche",
+      "address": "0x0100000000000000000000000000000000000000",
+      "url": "https://snowtrace.io/address/0x0100000000000000000000000000000000000000",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x15abb66ba754f05cbc0165a64a11cded1543de48",
+      "url": "https://snowtrace.io/address/0x15abb66ba754f05cbc0165a64a11cded1543de48",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x1d67bd4503ad0639beeb843890a6a90bd74e6ed1",
+      "url": "https://intel.arkm.com/explorer/address/0x1D67bd4503AD0639bEeb843890a6A90BD74E6ED1",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x46f34c24a7ba7a2ac6dd76c3f09b32d41c144d08",
+      "url": "https://snowtrace.io/address/0x46f34c24a7ba7a2ac6dd76c3f09b32d41c144d08",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x5e12fc70b97902ac19b9cb87f2ac5a8593769779",
+      "url": "https://snowtrace.io/address/0x5E12fc70B97902AC19B9cB87F2aC5a8593769779",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x663d966f03d66cf3fa3e007f34c8662ec4fda7c3",
+      "url": "https://snowtrace.io/address/0x663d966f03d66cf3fa3e007f34c8662ec4fda7c3",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x712bba035b9775764aba04d1c86b48edef90800f",
+      "url": "https://snowtrace.io/address/0x712bba035b9775764aba04d1c86b48edef90800f",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x76bdb80a6d0bc70912491be97b38625f76de0fc5",
+      "url": "https://snowtrace.io/address/0x76bDB80A6D0bC70912491BE97b38625f76de0fC5",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x7ed53f6e3de6b2b4156fa8e618506e60d8e65843",
+      "url": "https://snowtrace.io/address/0x7ed53f6e3de6b2b4156fa8e618506e60d8e65843",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0x87dda0daba3f7b309a4fe99f406a074811d5a3bf",
+      "url": "https://snowtrace.io/address/0x87dda0daba3f7b309a4fe99f406a074811d5a3bf",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xc1145611702a30ccdaa47ba4286cf317a2757f46",
+      "url": "https://snowtrace.io/address/0xc1145611702a30ccdaa47ba4286cf317a2757f46",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xc9ad9d2ab2d25b4c58eeea36a7e44a7c35d7a825",
+      "url": "https://snowtrace.io/address/0xc9ad9d2ab2d25b4c58eeea36a7e44a7c35d7a825",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xe9ae1b65a48b3a6473eb126b5f5060f172455645",
+      "url": "https://snowtrace.io/address/0xe9ae1b65a48b3a6473eb126b5f5060f172455645",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xff1a817fc120370762497aed61aef67732708a2c",
+      "url": "https://snowtrace.io/address/0xff1a817fc120370762497aed61aef67732708a2c",
+      "kind": "address"
+    },
+    {
+      "chain": "avalanche",
+      "address": "0xff504ac5be886fca7184ab26b0bc6c49145240b0",
+      "url": "https://snowtrace.io/address/0xff504ac5be886fca7184ab26b0bc6c49145240b0",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "foundation_pump_day_exchange_send: open_unresolved"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "The burn is real and reaches every holder, but $2.65M a year is small for a $3.3B asset, and validators are paid with new coins, not fees. The NYSE settlement chain (see 🤝) runs on its own dedicated chain, so it is not C-Chain fee revenue today."
+  },
+  "attributions": [
+    {
+      "address": "0x712bba035b9775764aba04d1c86b48edef90800f",
+      "url": "https://intel.arkm.com/explorer/address/0x712bba035b9775764aba04d1c86b48edef90800f",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x1d67bd4503ad0639beeb843890a6a90bd74e6ed1",
+      "url": "https://intel.arkm.com/explorer/address/0x1D67bd4503AD0639bEeb843890a6A90BD74E6ED1",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x76bdb80a6d0bc70912491be97b38625f76de0fc5",
+      "url": "https://intel.arkm.com/explorer/address/0x76bDB80A6D0bC70912491BE97b38625f76de0fC5",
+      "label": "Avalanche Foundation: Wallet 1",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x5e12fc70b97902ac19b9cb87f2ac5a8593769779",
+      "url": "https://intel.arkm.com/explorer/address/0x5E12fc70B97902AC19B9cB87F2aC5a8593769779",
+      "label": "Avalanche Foundation: Wallet 3",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x663d966f03d66cf3fa3e007f34c8662ec4fda7c3",
+      "url": "https://intel.arkm.com/explorer/address/0x663d966f03d66cf3fa3e007f34c8662ec4fda7c3",
+      "label": "a **Binance deposit** ([Arkham](https://intel.arkm.com/explorer/address/0x663d96",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x87dda0daba3f7b309a4fe99f406a074811d5a3bf",
+      "url": "https://intel.arkm.com/explorer/address/0x87dda0daba3f7b309a4fe99f406a074811d5a3bf",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xff504ac5be886fca7184ab26b0bc6c49145240b0",
+      "url": "https://intel.arkm.com/explorer/address/0xff504ac5be886fca7184ab26b0bc6c49145240b0",
+      "label": "0xff504ac5…` a **Galaxy Digital deposit** address ([Arkham](https://intel.arkm.",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x46f34c24a7ba7a2ac6dd76c3f09b32d41c144d08",
+      "url": "https://intel.arkm.com/explorer/address/0x46f34c24a7ba7a2ac6dd76c3f09b32d41c144d08",
+      "label": "0xff504ac5…` a **Galaxy Digital deposit** address ([Arkham](https://intel.arkm.",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x15abb66ba754f05cbc0165a64a11cded1543de48",
+      "url": "https://intel.arkm.com/explorer/address/0x15abb66ba754f05cbc0165a64a11cded1543de48",
+      "label": "0xff504ac5…` a **Galaxy Digital deposit** address ([Arkham](https://intel.arkm.",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe9ae1b65a48b3a6473eb126b5f5060f172455645",
+      "url": "https://intel.arkm.com/explorer/address/0xe9ae1b65a48b3a6473eb126b5f5060f172455645",
+      "label": "a Circle deposit ([Arkham](https://intel.arkm.com/explorer/address/0xe9ae1b65a48",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xff1a817fc120370762497aed61aef67732708a2c",
+      "url": "https://intel.arkm.com/explorer/address/0xff1a817fc120370762497aed61aef67732708a2c",
+      "label": "**Coinbase deposit** ([Arkham](https://intel.arkm.com/explorer/address/0xff1a817",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc9ad9d2ab2d25b4c58eeea36a7e44a7c35d7a825",
+      "url": "https://intel.arkm.com/explorer/address/0xc9ad9d2ab2d25b4c58eeea36a7e44a7c35d7a825",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone.",
+      "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Avalanche public API `api.avax.network`: C-Chain `eth_getTransactionByHash`, `eth_getBalance`, `eth_getBlockByNumber` (block ~100,394,651); P-Chain `getCurrentSupply`, `getTotalStake`, `getCurrentValidators` (height 25,873,296); 15 Nov 2026 ~6:50 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Routescan Etherscan-compatible API (chain 43114) txlists for Wallet 1, the Coinbase Prime deposit address `0x712bba03…`, `0x87dda0da…`, `0x46f34c24…`; re-read 15 Nov 2026 ~10:45 AM MST for Wallet 1 (AVAX + USDC transfers), Wallet 3 (AVAX + tokens), `0x87dda0da…`, `0xc9ad9d2a…`, `0xff504ac5…`; USDC `balanceOf` for Wallet 1 via C-Chain RPC",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham Intelligence, read 15 Nov 2026 ~10:40 AM MST (signed-in account): entity pages and flows for Wallet 1, Wallet 3, `0x712bba03…` (Coinbase Prime Deposit), `0x1D67bd45…` (Coinbase Prime: Hot Wallet), `0x87dda0da…`, `0xff504ac5…` (Galaxy Digital Deposit), `0x46f34c24…` and `0x15abb66b…` (Galaxy Digital: OTC), `0xc9ad9d2a…`. Arkham shows relative ages only; dates above come from on-chain reads where amounts match",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used (Snowtrace): Wallet 1 [`0x76bD…`](https://snowtrace.io/address/0x76bDB80A6D0bC70912491BE97b38625f76de0fC5) · Wallet 3 [`0x5E12…`](https://snowtrace.io/address/0x5E12fc70B97902AC19B9cB87F2aC5a8593769779) · feeder [`0x87dd…`](https://snowtrace.io/address/0x87dda0daba3f7b309a4fe99f406a074811d5a3bf) · Prime deposit [`0x712b…`](https://snowtrace.io/address/0x712bba035b9775764aba04d1c86b48edef90800f) · Prime hot wallet [`0x1D67…`](https://snowtrace.io/address/0x1D67bd4503AD0639bEeb843890a6A90BD74E6ED1) · Galaxy [`0xff50…`](https://snowtrace.io/address/0xff504ac5be886fca7184ab26b0bc6c49145240b0) / [`0x46f3…`](https://snowtrace.io/address/0x46f34c24a7ba7a2ac6dd76c3f09b32d41c144d08) / [`0x15ab…`](https://snowtrace.io/address/0x15abb66ba754f05cbc0165a64a11cded1543de48) · [`0xc9ad…`](https://snowtrace.io/address/0xc9ad9d2ab2d25b4c58eeea36a7e44a7c35d7a825) · [`0xc114…`](https://snowtrace.io/address/0xc1145611702a30ccdaa47ba4286cf317a2757f46) · Coinbase deposit [`0xff1a…`](https://snowtrace.io/address/0xff1a817fc120370762497aed61aef67732708a2c) · Circle deposit [`0xe9ae…`](https://snowtrace.io/address/0xe9ae1b65a48b3a6473eb126b5f5060f172455645) · Binance deposit [`0x663d…`](https://snowtrace.io/address/0x663d966f03d66cf3fa3e007f34c8662ec4fda7c3)",
+      "urls": [
+        "`0x76bD…`",
+        "`0x5E12…`",
+        "`0x87dd…`",
+        "`0x712b…`",
+        "`0x1D67…`",
+        "`0xff50…`",
+        "`0x46f3…`",
+        "`0x15ab…`",
+        "`0xc9ad…`",
+        "`0xc114…`",
+        "`0xff1a…`",
+        "`0xe9ae…`",
+        "`0x663d…`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address pages used: [Wallet 1](https://intel.arkm.com/explorer/address/0x76bDB80A6D0bC70912491BE97b38625f76de0fC5) · [Wallet 3](https://intel.arkm.com/explorer/address/0x5E12fc70B97902AC19B9cB87F2aC5a8593769779) · [0x712b…](https://intel.arkm.com/explorer/address/0x712bba035b9775764aba04d1c86b48edef90800f) · [0x1D67…](https://intel.arkm.com/explorer/address/0x1D67bd4503AD0639bEeb843890a6A90BD74E6ED1) · [0x87dd…](https://intel.arkm.com/explorer/address/0x87dda0daba3f7b309a4fe99f406a074811d5a3bf) · [0xff50…](https://intel.arkm.com/explorer/address/0xff504ac5be886fca7184ab26b0bc6c49145240b0) · [0x46f3…](https://intel.arkm.com/explorer/address/0x46f34c24a7ba7a2ac6dd76c3f09b32d41c144d08) · [0x15ab…](https://intel.arkm.com/explorer/address/0x15abb66ba754f05cbc0165a64a11cded1543de48) · [0xc9ad…](https://intel.arkm.com/explorer/address/0xc9ad9d2ab2d25b4c58eeea36a7e44a7c35d7a825) · [0xff1a…](https://intel.arkm.com/explorer/address/0xff1a817fc120370762497aed61aef67732708a2c) · [0xe9ae…](https://intel.arkm.com/explorer/address/0xe9ae1b65a48b3a6473eb126b5f5060f172455645) · [0x663d…](https://intel.arkm.com/explorer/address/0x663d966f03d66cf3fa3e007f34c8662ec4fda7c3)",
+      "urls": [
+        "Wallet 1",
+        "Wallet 3",
+        "0x712b…",
+        "0x1D67…",
+        "0x87dd…",
+        "0xff50…",
+        "0x46f3…",
+        "0x15ab…",
+        "0xc9ad…",
+        "0xff1a…",
+        "0xe9ae…",
+        "0x663d…"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees (`avalanche`), chain TVL, stablecoins by chain, 15 Nov 2026",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `avalanche-2` market data, tickers with depth, and 365 daily closes, 15 Nov 2026 6:45 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub API: `ava-labs/avalanchego`, `coreth`, `subnet-evm`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] SEC: AVAT 8-K (accession 0001104659-26-111940); interpretive release 33-11412",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] ESMA interim MiCA register, OTHER.csv",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Avalanche Tokenomics FAQ](https://support.avax.network/en/articles/6912428-tokenomics-faq) · [Avalanche legal notice](https://www.avalanche.com/legal/important-notice)",
+      "urls": [
+        "Avalanche Tokenomics FAQ",
+        "Avalanche legal notice"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinDesk (9 Nov 2026), Decrypt (11 Nov 2026) on NYSE; DefiLlama unlocks page",
+      "urls": [],
+      "date_read": "9 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Prior deep dive, 10 Nov 2026 (`avax_deep_dive_2026-11-10`), principal transactions re-verified this pass",
+      "urls": [],
+      "date_read": "10 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Foundation labels for Wallet 1 / Wallet 3 (Routescan only; Arkham has no entity); Galaxy Digital, Binance, Coinbase and Circle deposit labels (Arkham only); Foundation ↔ AVAT agreement terms; Ava Labs CEO; Zengo, NEC, NYSE terms; unlock date; chain-halt history",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

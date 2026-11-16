@@ -1,0 +1,349 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "CC",
+  "name": "Canton Coin (Canton Network)",
+  "chain": "canton-global-synchronizer",
+  "contract": "native Amulet (Splice) on the Global Synchronizer, no EVM contract",
+  "overall_score": 6.4,
+  "overall_verdict": "PASS",
+  "section_scores": {
+    "revenue": 6,
+    "foundation_team": 7,
+    "insider_holdings": 6,
+    "selling_behavior": 6,
+    "tokenomics_supply": 4,
+    "liquidity_market": 7,
+    "product_development": 8,
+    "adoption_customers": 8,
+    "security_audits": 6,
+    "regulatory": 8,
+    "catalysts": 6
+  },
+  "sections_passed": 10,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "burn_below_50pct_of_gross_mint_30d": "clear",
+    "foundation_or_sv_wallet_to_exchange_on_pump_day": "watch",
+    "hack_exploit": "none"
+  },
+  "price_usd": 0.081743,
+  "price_source": "CoinGecko canton-network, 15 Nov 2026 6:47 AM MST",
+  "front_matter_extras": {
+    "not_to_be_confused_with": "Wrapped Canton Coin (WCC) or any bridged CC",
+    "chain_read_round": 121838
+  },
+  "key_numbers": {
+    "price_usd": 0.081743,
+    "market_cap_text": "$3.27B",
+    "volume_24h_text": "$21.4M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/CC.md",
+    "sha256": "e5f045c1c5206e4ed70203f3a3dae8dd17a8ed501fe46ec16945f1960f6ef2b8",
+    "bytes": 37109,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko canton-network, 15 Nov 2026 6:47 AM MST",
+    "source_read_dates": [
+      "13 Oct 2026",
+      "15 Nov 2026 ~11:05 AM MST",
+      "15 Nov 2026",
+      "2026-11-15"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "🟡 Pump-day send 10 Jun 2026: 8.71M CC `12207029…` → unlabelled `1220bca0…`",
+      "url": "sender transfer list",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    },
+    {
+      "claim": "🟡 Pump-day send 10 Jun 2026: 8.71M CC `12207029…` → unlabelled `1220bca0…`",
+      "url": "receiver party",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    },
+    {
+      "claim": "DA-2 sweep party holds 974,364,833 CC (2.43%)",
+      "url": "party record",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50–11:05 AM MST"
+    },
+    {
+      "claim": "DA-2 sweep party holds 974,364,833 CC (2.43%)",
+      "url": "balance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50–11:05 AM MST"
+    },
+    {
+      "claim": "DA-2 sweep party holds 974,364,833 CC (2.43%)",
+      "url": "Arkham check (Canton unsupported",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:50–11:05 AM MST"
+    },
+    {
+      "claim": "DA-2 sweep → temple-mainnet-1 11.04M on 9 Sep 2026 (not a pump day)",
+      "url": "DA-2 sweep sent list",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    },
+    {
+      "claim": "DA-2 sweep → temple-mainnet-1 11.04M on 9 Sep 2026 (not a pump day)",
+      "url": "temple party",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    },
+    {
+      "claim": "`12207029…` → okx-4 30.0M (10 Feb) and okx-6 43.2M (13 Oct)",
+      "url": "sent list",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    },
+    {
+      "claim": "`12207029…` → okx-4 30.0M (10 Feb) and okx-6 43.2M (13 Oct)",
+      "url": "okx-4",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    },
+    {
+      "claim": "`12207029…` → okx-4 30.0M (10 Feb) and okx-6 43.2M (13 Oct)",
+      "url": "okx-6",
+      "kind": "other",
+      "tier": "A flow / B label",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    },
+    {
+      "claim": "GSF-SVRewards-1 → `12207029…` 1.68B CC; 195M + 95.2M on 2 Feb 2026 (internal)",
+      "url": "GSF-SVRewards-1 sent list",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    },
+    {
+      "claim": "GSF-SVRewards-1 → `12207029…` 1.68B CC; 195M + 95.2M on 2 Feb 2026 (internal)",
+      "url": "`12207029…` party",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    },
+    {
+      "claim": "Burn ~69% of gross mint (30 days); supply stats",
+      "url": "Lighthouse stats",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    },
+    {
+      "claim": "Burn ~69% of gross mint (30 days); supply stats",
+      "url": "CC summary",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~6:48–7:20 AM MST"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "canton-global-synchronizer",
+      "address": "1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3",
+      "url": "https://intel.arkm.com/explorer/address/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "formal_announcement",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "foundation_or_sv_wallet_to_exchange_on_pump_day: watch"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "This is real, measurable fee burn, and all of it reaches holders as reduced supply rather than going to a company. It is large next to the $3.3B market cap (about 20% a year). It still does not cover new issuance: over 12 months supply grew about 14%, and some burns are recycled into rewards."
+  },
+  "attributions": [
+    {
+      "address": "1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a",
+      "url": "https://intel.arkm.com/explorer/address/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a",
+      "label": "Something went wrong",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Lighthouse explorer (Loop) public API [`lighthouse.cantonloop.com/api/web`](https://lighthouse.cantonloop.com/api/web/stats) (party records and transfer lists for every party cited are linked inline and in the Evidence trail; transfers are identified by `update_id`): `stats`, `tokens/cc/summary`, `rewards/burns-per-round` (365 days), `rewards/stats-per-round`, `rewards/values-daily`, `svs`, `svs/rewards`, `svs/escrow`, `sv-locking`, `dev-fund`, `featured-apps`, `parties/{id}/balance`, `parties/{id}/transfers`; 15 Nov 2026 ~6:48–7:20 AM MST",
+      "urls": [
+        "`lighthouse.cantonloop.com/api/web`"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CCView explorer September 2026 burn figure (via the 10 Nov draft), used as a cross-check only",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [SEC no-action letter, 3 Nov 2026](https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/canton-coin-110326) and [incoming letter, 30 Oct 2026](https://www.sec.gov/files/corpfin/no-action/canton-incoming-103026.pdf)",
+      "urls": [
+        "SEC no-action letter, 3 Nov 2026",
+        "incoming letter, 30 Oct 2026"
+      ],
+      "date_read": "3 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Canton docs: CC tokenomics](https://docs.canton.network/overview/reference/canton-coin-tokenomics) · [CF policies](https://docs.canton.network/overview/reference/gsf-policies)",
+      "urls": [
+        "Canton docs: CC tokenomics",
+        "CF policies"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DTCC: DTS goes live, 28 Oct 2026](https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-goes-live)",
+      "urls": [
+        "DTCC: DTS goes live, 28 Oct 2026"
+      ],
+      "date_read": "28 Oct 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Canton Foundation rename](https://canton.foundation/the-gsf-is-now-canton-foundation/) · [about](https://canton.foundation/about-the-foundation/) · [Linux Foundation, 1 Jul 2024](https://www.linuxfoundation.org/press/leading-market-participants-partner-with-the-linux-foundation-to-form-the-global-synchronizer-foundation)",
+      "urls": [
+        "Canton Foundation rename",
+        "about",
+        "Linux Foundation, 1 Jul 2024"
+      ],
+      "date_read": "1 Jul 2024"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub API: `canton-network/splice`, `digital-asset/canton`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Companies House 10143559",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Kraken and OKX public order-book APIs, 15 Nov 2026 6:54 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinGecko `canton-network` market data and 365 daily closes, 15 Nov 2026 6:47 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama API (no `canton` fees adapter; chain TVL; Temple and Cantex fees)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Arkham](https://intel.arkm.com/explorer/address/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3), read 15 Nov 2026 ~11:05 AM MST (signed-in account): **Canton is not supported** (party `1220c770…` returns \"Something went wrong\"; `12207029…` and `1220bca0…` not opened for the same reason). Open items #2–#4 stay open",
+      "urls": [
+        "Arkham"
+      ],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] owners of `1220c770…`, `12207029…`, `1220bca0…`; the white paper minting curve; CIP-0129 timing; 21Shares ETF; the $7.1T repo figure; DA investor list",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

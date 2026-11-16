@@ -32,7 +32,7 @@ This is market research, not a portfolio, not a tip sheet, and not a score of "w
 
 ## 🧭 Methodology
 
-The research questions, source rules, pump test, and treasury questions come from the **Real Rails project plan** (sections 4–6: scoring, treasury badge rules, and what a coin report contains). The grade on these reports is the **v3 scorecard** described below — an 11-section, 0–10 weighted score — not the plan's older 0–100 first-pass triage script.
+The research questions, source rules, pump test, and treasury questions come from the **Real Rails project plan** (sections 4–6: scoring, treasury badge rules, and what a coin report contains). The grade on these reports is the **v3 scorecard** described below — an 11-section, 0–10 weighted score — not the plan's older 0–100 first-pass triage script. The full rulebook, including the 16 Nov 2026 upgrades (companion JSON, Arkham label confidence, pre-registered pump-day rules, the holder-accrual test, dual review, history and base rates, the dead list, and the reproducibility package), is in [METHODOLOGY.md](../METHODOLOGY.md). Those upgrades do not re-score the reports already on this ranking.
 
 ### 🔎 Sources and the verification rule
 
@@ -62,7 +62,7 @@ A fact is **verified** only with **1 Tier A** source or **2 Tier B** outlets (re
 Weights sum to **15**. Overall PASS needs **6.0 or more**.
 
 - **Hard gates:** if Revenue or Selling behavior scores **3 or below**, the overall verdict is ❌ FAIL even if the average is higher. A token that does not make money, or whose insiders sell into pumps, does not pass.
-- **Pump day** = a daily close at least **10% above** the close five days earlier. A team, foundation, or treasury wallet selling (or funding a wallet that sells) on a pump day, without disclosure, fails Selling behavior. This is the plan's treasury pump-dump test, applied as a section score and a hard gate.
+- **Pump day** = a **UTC** daily close at least **10% above** the close five days earlier, on exchange-native price history (see the hierarchy in [METHODOLOGY.md](../METHODOLOGY.md)). A team, foundation, or treasury wallet selling (or funding a wallet that sells) on a pump day, without disclosure, fails Selling behavior. This is the plan's treasury pump-dump test, applied as a section score and a hard gate. From 16 Nov 2026, new or updated reports also record a disclosure-quality sub-score, and an undisclosed pump-day sale carries an extra penalty. Already published reports were not re-scored.
 
 Each report opens with YAML front matter (for search tools and AI agents), then a **quick review card** (overall grade, a one-line summary, and pass/fail for every section), then the full data for every section, red lines, and sources. Nothing material is left in a footnote.
 
@@ -74,7 +74,7 @@ Every scored report uses the same 11 sections. The header of each section shows 
 
 ### 💰 1. Revenue — Does it make money?
 
-The most important section. We check product pricing, on-chain receipts or fee events, DefiLlama fees and revenue (30-day and all-time), TVL where it exists, burns and buybacks, any contractual claim the token has on cash flow, and whether usage is paid in the token or in a stablecoin. A company that makes money while the token earns nothing is scored on the token, not the company.
+The most important section. We check product pricing, on-chain receipts or fee events, DefiLlama fees and revenue (30-day and all-time), TVL where it exists, burns and buybacks, any contractual claim the token has on cash flow, and whether usage is paid in the token or in a stablecoin. A company that makes money while the token earns nothing is scored on the token, not the company. From 16 Nov 2026, new or updated reports apply a binary "reaches holders" test: only an on-chain, automatic burn, buyback, staking yield from fees, or fee share that has already executed counts. Promises do not.
 
 ### 🏛️ 2. Foundation & team — Who is in charge?
 
@@ -117,6 +117,18 @@ Licences and registrations on a regulator's own register, filings, court dockets
 Dated unlocks, releases, court dates, product milestones, and open items, with a note on whether they add supply, legal risk, or genuine product news.
 
 Reports also carry **🚩 red lines** that are token-specific (for example a liquidity floor, a hack, a mint role, or a paying-customer deadline). Those sit under the sections and in the YAML front matter. They can trip even when the overall grade is already a fail.
+
+---
+
+## 📎 Related pages
+
+- [Methodology](../METHODOLOGY.md) — full rulebook and the 16 Nov 2026 upgrades
+- [Ranking](RANKING.md) — all 113 scores
+- [Score history](../HISTORY.md) and [base rates](../BASE-RATES.md)
+- [Moved to dead](../DEAD.md) — dated list; failures are never dropped in silence
+- [Review flags](../REVIEW-FLAGS.md) — published scores to re-check; not new grades
+- [Reproducibility package](../REPRODUCE.md)
+- Companion JSON for each report lives at [`data/reports/<TICKER>.json`](../data/reports/)
 
 ---
 

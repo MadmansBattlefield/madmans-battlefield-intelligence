@@ -23,10 +23,20 @@ Times in this repository are in **MST**.
 | [daily/](daily/) | One report per day, as `YYYY-MM-DD.md` (readable) and `YYYY-MM-DD.json` (machine-readable) |
 | [calendar.md](calendar.md) | Upcoming market events |
 | [sources.md](sources.md) | Vetted source list and the verification rule |
+| [METHODOLOGY.md](METHODOLOGY.md) | Full v3 rulebook, including the 16 Nov 2026 upgrades |
+| [HISTORY.md](HISTORY.md) | Score history for every published report |
+| [BASE-RATES.md](BASE-RATES.md) | Pass rate, gate fails, pump-day sales, and holder-accrual rates |
+| [DEAD.md](DEAD.md) | Dated "moved to dead" list and negative controls |
+| [REPRODUCE.md](REPRODUCE.md) | How to re-run the pump-day test and which public APIs were used |
+| [REVIEW-FLAGS.md](REVIEW-FLAGS.md) | Published scores flagged for review; scores were not changed |
 | [data/index.json](data/index.json) | Machine index of every daily report and token note |
+| [data/schema/report.v1.json](data/schema/report.v1.json) | Schema for the companion JSON next to each scored report |
+| [data/reports/](data/reports/) | Machine-readable extract of every published v3 report |
 | [llms.txt](llms.txt) | Agent index in the [llmstxt.org](https://llmstxt.org/) format |
 
 The daily JSON schema is stable enough for agents: `date`, `timezone`, `majors`, `watchlist`, `pools`, `hacks`, `news` (each item has `source` and a `verified` flag), `calendar`, and optional `market_notes`.
+
+Each published v3 token report also has a companion file at `data/reports/<TICKER>.json`, validated against [data/schema/report.v1.json](data/schema/report.v1.json). For numbers and scores, prefer that JSON over scraping the Markdown. Rebuild it with `python3 scripts/build_data_layer.py`. The scoring rules, including the 16 Nov 2026 upgrades, are in [METHODOLOGY.md](METHODOLOGY.md).
 
 ## How to browse and search
 
@@ -39,9 +49,9 @@ The daily JSON schema is stable enough for agents: `date`, `timezone`, `majors`,
 
 1. Read [llms.txt](llms.txt) first. It is the table of contents.
 2. Use [data/index.json](data/index.json) to list every daily report and token note with its path.
-3. For numbers, prefer the daily `YYYY-MM-DD.json` files over the Markdown prose.
-4. For token facts, read the matching file under [banking-rails/](banking-rails/). Public contract and mint addresses are included. Items marked **unverified** are not confirmed.
-5. Apply the source rule in [sources.md](sources.md): one Tier A source, or two Tier B outlets, before treating a news claim as verified.
+3. For numbers, prefer the daily `YYYY-MM-DD.json` files and the token files under [data/reports/](data/reports/) over scraping Markdown prose.
+4. For token facts, read the matching file under [banking-rails/](banking-rails/) and its companion JSON. Public contract and mint addresses are included. Items marked **unverified** are not confirmed. The public address list extracted from published evidence links is [data/public-addresses.json](data/public-addresses.json).
+5. Apply the source rule in [sources.md](sources.md): one Tier A source, or two Tier B outlets, before treating a news claim as verified. Scoring rules are in [METHODOLOGY.md](METHODOLOGY.md).
 6. After the repository is published, agents can fetch files over raw GitHub URLs. Until then, a local clone is the fastest path. An MCP server can be added later on top of these same files; it is not required to start.
 
 Do not invent holdings, balances, or personal identity for any researcher or reader. This public tree is market intel only.

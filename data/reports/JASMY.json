@@ -1,0 +1,423 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "JASMY",
+  "name": "JasmyCoin",
+  "chain": "ethereum",
+  "contract": "0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC",
+  "overall_score": 2.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 3,
+    "insider_holdings": 3,
+    "selling_behavior": 2,
+    "tokenomics_supply": 7,
+    "liquidity_market": 5,
+    "product_development": 2,
+    "adoption_customers": 1,
+    "security_audits": 5,
+    "regulatory": 3,
+    "catalysts": 2
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue",
+    "selling_behavior"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    }
+  },
+  "red_lines": {
+    "admin_or_mint": "none (plain ERC-20)",
+    "deployer_exchange_deposits": "yes (1,845,000,000 to Gate.io, 2023 – Jan 2025)",
+    "pump_day_exchange_deposit_linked_to_issuer": "unverified (29 Sep 2026)"
+  },
+  "price_usd": 0.003214,
+  "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.003214,
+    "market_cap_text": "$159.0M",
+    "fdv_text": "$160.8M",
+    "volume_24h_text": "$6.79M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/JASMY.md",
+    "sha256": "16973fb40c7afee7ca7e9b95ee948f185229dd93198137155ca34919c25daebc",
+    "bytes": 22638,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:00 AM MST",
+      "15 Nov 2026 ~11:20 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:00 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "**Deployer → Gate deposit `0xa2A3…`: 1,845,000,000 JASMY (2023 – 16 Jan 2025)**; Arkham labels the address \"Jasmy: Gate Deposit\"",
+      "url": "deposit address (all transfers",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**Deployer → Gate deposit `0xa2A3…`: 1,845,000,000 JASMY (2023 – 16 Jan 2025)**; Arkham labels the address \"Jasmy: Gate Deposit\"",
+      "url": "Arkham label",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**Deployer → Gate deposit `0xa2A3…`: 1,845,000,000 JASMY (2023 – 16 Jan 2025)**; Arkham labels the address \"Jasmy: Gate Deposit\"",
+      "url": "26 Jun 2023 700M",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**Deployer → Gate deposit `0xa2A3…`: 1,845,000,000 JASMY (2023 – 16 Jan 2025)**; Arkham labels the address \"Jasmy: Gate Deposit\"",
+      "url": "1 Aug 2023 140M",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**Deployer → Gate deposit `0xa2A3…`: 1,845,000,000 JASMY (2023 – 16 Jan 2025)**; Arkham labels the address \"Jasmy: Gate Deposit\"",
+      "url": "27 Sep 2024 95M",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "**Deployer → Gate deposit `0xa2A3…`: 1,845,000,000 JASMY (2023 – 16 Jan 2025)**; Arkham labels the address \"Jasmy: Gate Deposit\"",
+      "url": "16 Jan 2025 50M",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026 ~11:20 AM MST"
+    },
+    {
+      "claim": "`0xa2A3…` sweeps everything to Gate.io Hot Wallet within ~1 hour (deposit pattern)",
+      "url": "770M sweep",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xa2A3…` sweeps everything to Gate.io Hot Wallet within ~1 hour (deposit pattern)",
+      "url": "50M sweep",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xa2A3…` sweeps everything to Gate.io Hot Wallet within ~1 hour (deposit pattern)",
+      "url": "Gate hot wallet",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Pump-day deposits, 29 Sep 2026 (+21.8%):** `0x722E…` sent 43.5M + 50M into the same Gate deposit address; swept 05:31 / 07:30 UTC",
+      "url": "43.5M",
+      "kind": "other",
+      "tier": "A (issuer link [Unverified])",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Pump-day deposits, 29 Sep 2026 (+21.8%):** `0x722E…` sent 43.5M + 50M into the same Gate deposit address; swept 05:31 / 07:30 UTC",
+      "url": "50M",
+      "kind": "other",
+      "tier": "A (issuer link [Unverified])",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Pump-day deposits, 29 Sep 2026 (+21.8%):** `0x722E…` sent 43.5M + 50M into the same Gate deposit address; swept 05:31 / 07:30 UTC",
+      "url": "sweep 1",
+      "kind": "other",
+      "tier": "A (issuer link [Unverified])",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Pump-day deposits, 29 Sep 2026 (+21.8%):** `0x722E…` sent 43.5M + 50M into the same Gate deposit address; swept 05:31 / 07:30 UTC",
+      "url": "sweep 2",
+      "kind": "other",
+      "tier": "A (issuer link [Unverified])",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x722E…` was funded with 249,999,000 JASMY from Binance 14 on 16 Sep 2026; Arkham shows no entity",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x722E…` was funded with 249,999,000 JASMY from Binance 14 on 16 Sep 2026; Arkham shows no entity",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0x722E…` was funded with 249,999,000 JASMY from Binance 14 on 16 Sep 2026; Arkham shows no entity",
+      "url": "Arkham",
+      "kind": "other",
+      "tier": "A + B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "All 50B JASMY minted to the deployer on 26 Dec 2019; 5B sent to `0x1028…` on 8 Oct 2020",
+      "url": "mint tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "All 50B JASMY minted to the deployer on 26 Dec 2019; 5B sent to `0x1028…` on 8 Oct 2020",
+      "url": "5B tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "All 50B JASMY minted to the deployer on 26 Dec 2019; 5B sent to `0x1028…` on 8 Oct 2020",
+      "url": "0x1028…",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "MultiSigWallet `0xB0D8…` holds 1.296B; not in Arkham's Jasmy entity",
+      "url": "Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+      "url": "https://etherscan.io/address/0x0D0707963952f2fBA59dD06f2b425ace40b492Fe",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x102878839368fee2648c0aa4997a70ef4290e8d8",
+      "url": "https://etherscan.io/address/0x102878839368feE2648C0AA4997A70EF4290E8d8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x28f2e7888bbff2f49e9842e1c6b37fedaff7364c",
+      "url": "https://etherscan.io/address/0x28f2E7888bbff2f49e9842E1c6b37fEdAFf7364c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x722e6c8ef971338bdb46d4e7924e392d6f2a5b50",
+      "url": "https://etherscan.io/address/0x722E6c8ef971338BdB46D4e7924E392D6f2a5b50",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+      "url": "https://etherscan.io/address/0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa2a3d0d99ec9f3dbd73f36b600a05c89ddf3390f",
+      "url": "https://etherscan.io/address/0xa2A3d0d99EC9f3dBd73F36b600A05C89ddF3390f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb0d8cf2436ee7a1303dcda2342611d256efa5c3a",
+      "url": "https://etherscan.io/address/0xB0D8Cf2436Ee7a1303dcDA2342611d256EFA5C3a",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf4a5b232df2de4dd6ad613ba17c3113cef707be9",
+      "url": "https://etherscan.io/address/0xf4a5b232DF2De4dd6ad613ba17C3113CEf707BE9",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "pump_day_exchange_deposit_linked_to_issuer: unverified (29 Sep 2026)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Nothing ties token value to any business income."
+  },
+  "attributions": [
+    {
+      "address": "0xa2a3d0d99ec9f3dbd73f36b600a05c89ddf3390f",
+      "url": "https://intel.arkm.com/explorer/address/0xa2A3d0d99EC9f3dBd73F36b600A05C89ddF3390f",
+      "label": "Jasmy: Gate Deposit",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xf4a5b232df2de4dd6ad613ba17c3113cef707be9",
+      "url": "https://intel.arkm.com/explorer/address/0xf4a5b232DF2De4dd6ad613ba17C3113CEf707BE9",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x722e6c8ef971338bdb46d4e7924e392d6f2a5b50",
+      "url": "https://intel.arkm.com/explorer/address/0x722E6c8ef971338BdB46D4e7924E392D6f2a5b50",
+      "label": "Jasmy: Gate Deposit",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": true,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC and eth.blockscout.com: verified source, holders, labels and transfers for the deployer, `0xa2A3…`, `0x722E…` and the MultiSigWallet, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Upbit public market API (no JASMY market)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DexScreener tokens API · DefiLlama (no listing)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinGecko markets, tickers and daily closes, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API JASMY `tokentx` for `0xa2A3…` (all senders, full history) and `0x722E…`; read 15 Nov 2026 ~11:20 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): \"Jasmy\" entity (deployer + `0xa2A3…` \"Jasmy: Gate Deposit\"); `0x722E…` and the MultiSigWallet have no entity. First page of transfers only; all-time exchange totals Enterprise-locked",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used (Etherscan): deployer [`0xf4a5…`](https://etherscan.io/address/0xf4a5b232DF2De4dd6ad613ba17C3113CEf707BE9) · Gate deposit [`0xa2A3…`](https://etherscan.io/address/0xa2A3d0d99EC9f3dBd73F36b600A05C89ddF3390f) · Gate hot wallet [`0x0D07…`](https://etherscan.io/address/0x0D0707963952f2fBA59dD06f2b425ace40b492Fe) · [`0x722E…`](https://etherscan.io/address/0x722E6c8ef971338BdB46D4e7924E392D6f2a5b50) · MultiSigWallet [`0xB0D8…`](https://etherscan.io/address/0xB0D8Cf2436Ee7a1303dcDA2342611d256EFA5C3a) · [`0x1028…`](https://etherscan.io/address/0x102878839368feE2648C0AA4997A70EF4290E8d8) · token [`0x7420…`](https://etherscan.io/address/0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC)",
+      "urls": [
+        "`0xf4a5…`",
+        "`0xa2A3…`",
+        "`0x0D07…`",
+        "`0x722E…`",
+        "`0xB0D8…`",
+        "`0x1028…`",
+        "`0x7420…`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address pages used: [deployer](https://intel.arkm.com/explorer/address/0xf4a5b232DF2De4dd6ad613ba17C3113CEf707BE9) · [0xa2A3… “Jasmy: Gate Deposit”](https://intel.arkm.com/explorer/address/0xa2A3d0d99EC9f3dBd73F36b600A05C89ddF3390f) · [0x722E…](https://intel.arkm.com/explorer/address/0x722E6c8ef971338BdB46D4e7924E392D6f2a5b50)",
+      "urls": [
+        "deployer",
+        "0xa2A3… “Jasmy: Gate Deposit”",
+        "0x722E…"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Issuer entity; Upbit delisting date; BITPOINT / SBI VC notices; owner of the MultiSigWallet; Jasmy link to `0x722E…`; role of `0x10287883…`",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

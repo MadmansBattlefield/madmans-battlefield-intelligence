@@ -1,0 +1,419 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "DOT",
+  "name": "Polkadot",
+  "chain": "polkadot",
+  "contract": "native (Polkadot Asset Hub balances)",
+  "overall_score": 4.9,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 7,
+    "insider_holdings": 5,
+    "selling_behavior": 4,
+    "tokenomics_supply": 5,
+    "liquidity_market": 7,
+    "product_development": 7,
+    "adoption_customers": 4,
+    "security_audits": 6,
+    "regulatory": 7,
+    "catalysts": 5
+  },
+  "sections_passed": 5,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "mint_path_live": "protocol issuance only (~56M DOT/yr after 14 Mar 2026, hard cap 2.1B set by Ref 1710); no admin mint key",
+    "team_wallet_to_exchange_during_pump": "not proven (W3F-linked multisig-proxied account 13FzGL… and two other W3F-linked wallets sent 33.1M DOT (29.4M from 13FzGL…) into deposit-style account 14mr97…, which forwards to an unidentified high-throughput service; 4.0M of it on 14 pump days, 2023-2026; service and owner [Unverified])",
+    "treasury_selling": "disclosed (OpenGov Refs 457/1104/1501/1729 swap treasury DOT for USDT/USDC through Hydration DCA; Ref 1729 = 2.64M DOT)",
+    "chain_stalls_2026": "4 partial stalls (parachains 23 Mar, People chain 22 Apr, Asset Hub ~30 min 12 Jun, staking election 30 Jun - 3 Jul); no funds lost"
+  },
+  "price_usd": 0.7286,
+  "price_source": "CoinGecko, 16 Nov 2026 5:10 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.7286,
+    "market_cap_text": "$1.248B",
+    "fdv_text": "$1.248B",
+    "volume_24h_text": "$58.8M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/DOT.md",
+    "sha256": "168866b029bbbd5b516a0966088624a53872e86d25185f45210dfb3e3f7d9260",
+    "bytes": 31726,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 5:10 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "`12RYJb…` is a registered sub-identity of W3F's \"W3F / Web 3 Technologies Foundation\" identity",
+      "url": "W3F identity `14JezN…`",
+      "kind": "other",
+      "tier": "A (on-chain identity)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`12RYJb…` is a registered sub-identity of W3F's \"W3F / Web 3 Technologies Foundation\" identity",
+      "url": "`12RYJb…`",
+      "kind": "other",
+      "tier": "A (on-chain identity)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`13FzGL…` ties to W3F: 255k in from `12RYJb…`, 570k back, 100 DOT to \"W3F Governance Team\"",
+      "url": "255k in",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`13FzGL…` ties to W3F: 255k in from `12RYJb…`, 570k back, 100 DOT to \"W3F Governance Team\"",
+      "url": "570k back",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`13FzGL…` ties to W3F: 255k in from `12RYJb…`, 570k back, 100 DOT to \"W3F Governance Team\"",
+      "url": "100 DOT",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`13FzGL…` ties to W3F: 255k in from `12RYJb…`, 570k back, 100 DOT to \"W3F Governance Team\"",
+      "url": "W3F Gov Team identity",
+      "kind": "other",
+      "tier": "A chain · owner [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`13FzGL…` is run through a 2-of-3 multisig proxy",
+      "url": "raw decoded call",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "33.1M DOT into `14mr97…`, 4.02M on pump days; `14mr97…` forwards to `12xKCG…`/`145UYr…` → `15G8FG…`",
+      "url": "`14mr97…`",
+      "kind": "other",
+      "tier": "A chain · service [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "33.1M DOT into `14mr97…`, 4.02M on pump days; `14mr97…` forwards to `12xKCG…`/`145UYr…` → `15G8FG…`",
+      "url": "21 Dec 2023",
+      "kind": "other",
+      "tier": "A chain · service [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "33.1M DOT into `14mr97…`, 4.02M on pump days; `14mr97…` forwards to `12xKCG…`/`145UYr…` → `15G8FG…`",
+      "url": "5 Jan 2026",
+      "kind": "other",
+      "tier": "A chain · service [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "33.1M DOT into `14mr97…`, 4.02M on pump days; `14mr97…` forwards to `12xKCG…`/`145UYr…` → `15G8FG…`",
+      "url": "8 Sep 2026",
+      "kind": "other",
+      "tier": "A chain · service [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "33.1M DOT into `14mr97…`, 4.02M on pump days; `14mr97…` forwards to `12xKCG…`/`145UYr…` → `15G8FG…`",
+      "url": "`12xKCG…`",
+      "kind": "other",
+      "tier": "A chain · service [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "33.1M DOT into `14mr97…`, 4.02M on pump days; `14mr97…` forwards to `12xKCG…`/`145UYr…` → `15G8FG…`",
+      "url": "`15G8FG…`",
+      "kind": "other",
+      "tier": "A chain · service [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "35,967 DOT routed to exchange-pattern hot wallet `1qnJN7…` (Jan 2024, not pump days)",
+      "url": "19 Jan",
+      "kind": "other",
+      "tier": "A chain · exchange name [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "35,967 DOT routed to exchange-pattern hot wallet `1qnJN7…` (Jan 2024, not pump days)",
+      "url": "29 Jan",
+      "kind": "other",
+      "tier": "A chain · exchange name [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "35,967 DOT routed to exchange-pattern hot wallet `1qnJN7…` (Jan 2024, not pump days)",
+      "url": "`1qnJN7…`",
+      "kind": "other",
+      "tier": "A chain · exchange name [Unverified]",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6.83M DOT on the 3 Jan 2025 pump day was internal (re-staked)",
+      "url": "1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6.83M DOT on the 3 Jan 2025 pump day was internal (re-staked)",
+      "url": "2",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6.83M DOT on the 3 Jan 2025 pump day was internal (re-staked)",
+      "url": "3",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6.83M DOT on the 3 Jan 2025 pump day was internal (re-staked)",
+      "url": "`15SBQ3…`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury 21.46M DOT; DAP 7.37M DOT; total issuance 1.712B",
+      "url": "Treasury",
+      "kind": "other",
+      "tier": "A (RPC)",
+      "date_read": "16 Nov 2026 ~5:40 AM MST"
+    },
+    {
+      "claim": "Treasury 21.46M DOT; DAP 7.37M DOT; total issuance 1.712B",
+      "url": "DAP",
+      "kind": "other",
+      "tier": "A (RPC)",
+      "date_read": "16 Nov 2026 ~5:40 AM MST"
+    },
+    {
+      "claim": "Fees $3,868 in 365 days; $0 burned",
+      "url": "DefiLlama fees",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fees $3,868 in 365 days; $0 burned",
+      "url": "revenue",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2.1B cap, ~56M/yr issuance from 14 Mar 2026, DAP replaces burns",
+      "url": "fellows #985",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "2.1B cap, ~56M/yr issuance from 14 Mar 2026, DAP replaces burns",
+      "url": "Parity blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury DCA sales of DOT (disclosed)",
+      "url": "Ref 1729",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury DCA sales of DOT (disclosed)",
+      "url": "Ref 1104",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "US spot ETF live since 6 Mar 2026",
+      "url": "Nasdaq circular",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "polkadot",
+      "address": "145UYrCgKd6u7h8NsSM5Cde3sx26hkPczLLTbuRa5XAqh3bX",
+      "url": "https://polkadot.subscan.io/account/145UYrCgKd6u7h8NsSM5Cde3sx26hkPczLLTbuRa5XAqh3bX",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven (W3F-linked multisig-proxied account 13FzGL… and two other W3F-linked wallets sent 33.1M DOT (29.4M from 13FzGL…) into deposit-style account 14mr97…, which forwards to an unidentified high-throughput service; 4.0M of it on 14 pump days, 2023-2026; service and owner [Unverified])"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "DefiLlama tracks only relay-chain fees, and most activity moved to Asset Hub in late 2025, so the true fee number is somewhat higher than $3,868. But nothing found suggests real usage fees large enough to matter against a $1.25B market cap, and none of it is paid to holders: it sits in a protocol pool that governance spends. Stakers are paid with new DOT. **2, which trips the Revenue gate.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Polkadot Asset Hub RPC (`polkadot-asset-hub-rpc.polkadot.io`): `Balances.TotalIssuance`, `InactiveIssuance`, `System.Account` for the treasury, DAP and the 15 W3F-linked accounts, 16 Nov 2026 ~5:10–6:00 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Polkadot People-chain RPC: full `Identity.IdentityOf` (3,084 entries) and `SuperOf` (919) scan, 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Statescan indexer APIs (relay `polkadot-api.statescan.io`, Asset Hub `ahp-api.statescan.io`): full transfer histories for the W3F-linked accounts, `14mr97…`, `12xKCG…`, `145UYr…`, `15G8FG…`, `15SBQ3…`; extrinsic decode of [18692262-332](https://polkadot-api.statescan.io/extrinsics/18692262-332)",
+      "urls": [
+        "18692262-332"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees API (`polkadot`), 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Official: [Parity blog (2 Mar 2026)](https://www.parity.io/blog/refining-polkadots-economic-architecture-issuance-DOT-DAP-and-network-adjustments) · [Polkadot forum, March 2026 changes](https://forum.polkadot.network/t/changes-on-polkadot-in-march-2026/17101) · [fellows runtimes #985](https://github.com/polkadot-fellows/runtimes/issues/985) · [developers.polkadot.com](https://developers.polkadot.com/platform/) · [2025-Q4 Treasury Report](https://forum.polkadot.network/t/2025-q4-polkadot-treasury-report/16847) · 2026 postmortems linked above",
+      "urls": [
+        "Parity blog (2 Mar 2026",
+        "Polkadot forum, March 2026 changes",
+        "fellows runtimes #985",
+        "developers.polkadot.com",
+        "2025-Q4 Treasury Report"
+      ],
+      "date_read": "2 Mar 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] OpenGov referenda: [1729](https://polkadot.subsquare.io/referenda/1729) · [1104](https://polkadot.subsquare.io/referenda/1104) · [1953](https://polkadot.polkassembly.io/referenda/1953) · [dotUSD Ref 1944 (PCF)](https://pcf.network/news/dotusd-approved/)",
+      "urls": [
+        "1729",
+        "1104",
+        "1953",
+        "dotUSD Ref 1944 (PCF"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Nasdaq TDOT circular](https://www.nasdaqtrader.com/content/newsalerts/2026/InfoCircular/TDOT_Circular_NQ.pdf) · [21shares TDOT page](https://www.21shares.com/en-us/products-us/tdot)",
+      "urls": [
+        "Nasdaq TDOT circular",
+        "21shares TDOT page"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Blockworks Token Transparency](https://blockworks.com/token-transparency/filing/polkadot) · [CryptoSlate](https://cryptoslate.com/web3-foundation-parity-technologies-dismiss-polkadot-treasury-depletion-fears/) · [CoinDesk (Grayscale withdrawal)](https://www.coindesk.com/business/2026/08/10/grayscale-quietly-drops-cardano-polkadot-and-hedera-etf-plans)",
+      "urls": [
+        "Blockworks Token Transparency",
+        "CryptoSlate",
+        "CoinDesk (Grayscale withdrawal"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `polkadot` market data and tickers (16 Nov 2026 5:10 AM MST); Binance DOT/USDT daily closes (from 18 Aug 2020)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub API: `paritytech/polkadot-sdk`, `polkadot-fellows/runtimes`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] who runs `14mr97…`/`12xKCG…`/`15G8FG…`; which exchange runs `1qnJN7…`; W3F ownership of every cluster account except the registered sub-identity `12RYJb…`; W3F's total DOT; Asset Hub fee totals. **Not covered by Arkham:** Arkham does not support Polkadot (checked 16 Nov 2026)",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    }
+  ]
+}

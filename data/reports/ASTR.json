@@ -1,0 +1,258 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ASTR",
+  "name": "Astar",
+  "chain": "astar",
+  "contract": "0xf27441230eadeac85b764610325cc9a0d7859689",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 4,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 6,
+    "liquidity_market": 4,
+    "product_development": 5,
+    "adoption_customers": 2,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes, by design (Tokenomics 3.0: ~3% yearly inflation today, ceiling 5.5%, decaying toward a ~10B maximum)",
+    "team_wallet_to_exchange_during_pump": "not tested (Foundation wallets are not published; the Foundation says it does not sell ASTR to fund operations)",
+    "treasury_in_single_key_wallets": "unknown for the Foundation; the 304.5M ASTR on-chain treasury is a governance-controlled pallet account"
+  },
+  "price_usd": 0.00443889,
+  "price_source": "CoinGecko, 16 Nov 2026 8:20 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.00443889,
+    "market_cap_text": "$39.19M",
+    "fdv_text": "$39.20M",
+    "volume_24h_text": "$908k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ASTR.md",
+    "sha256": "8c125630a8e1f5f66ff3c5f5c98a7b076edfb461eb2bcfb61c046ae8abe448ff",
+    "bytes": 12796,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:20 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~9:00 AM MST",
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "~3% inflation, 5.5% ceiling, ~10B maximum, 80% fee burn",
+      "url": "Astar blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "$1.9k fees, $689 revenue in 12 months",
+      "url": "fees",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "$1.9k fees, $689 revenue in 12 months",
+      "url": "revenue",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury pallet 304.5M ASTR",
+      "url": "Subscan account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Foundation: no ASTR sales for operations; Burndrop sequenced; AstarFi pending",
+      "url": "forum thread",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "astar",
+      "address": "0x747f98a14e5ea2ca9c076f938a6c6f12eb377a95",
+      "url": "https://intel.arkm.com/explorer/address/0x747f98a14e5ea2ca9c076f938a6c6f12eb377a95",
+      "kind": "address"
+    },
+    {
+      "chain": "astar",
+      "address": "0xdc9ea45ad25c7766a369707dcff8202b216cc1d4",
+      "url": "https://intel.arkm.com/explorer/address/0xdc9ea45ad25c7766a369707dcff8202b216cc1d4",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x747f98a14e5ea2ca9c076f938a6c6f12eb377a95",
+      "url": "https://etherscan.io/address/0x747f98a14e5ea2ca9c076f938a6c6f12eb377a95",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf27441230eadeac85b764610325cc9a0d7859689",
+      "url": "https://etherscan.io/token/0xf27441230eadeac85b764610325cc9a0d7859689",
+      "kind": "token"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not tested (Foundation wallets are not published; the Foundation says it does not sell ASTR to fund operations)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "Revenue rounds to zero. **1, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "0x747f98a14e5ea2ca9c076f938a6c6f12eb377a95",
+      "url": "https://intel.arkm.com/explorer/address/0x747f98a14e5ea2ca9c076f938a6c6f12eb377a95",
+      "label": "across stablecoins, other assets, and ASTR",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xdc9ea45ad25c7766a369707dcff8202b216cc1d4",
+      "url": "https://intel.arkm.com/explorer/address/0xdc9ea45ad25c7766a369707dcff8202b216cc1d4",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Astar Substrate RPC `state_getStorage` for `System.Account` of the treasury pallet (`py/trsry`); Subscan token endpoint (total issuance, locked, bonded), read 16 Nov 2026 ~9:00 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `astar` fees and revenue; DefiLlama chains TVL",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Astar Tokenomics 3.0](https://astar.network/blog/tokenomics-3-0-233/) · [Astar forum \"State of burndrop\"](https://forum.astar.network/t/state-of-burndrop/9514)",
+      "urls": [
+        "Astar Tokenomics 3.0",
+        "Astar forum \"State of burndrop"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Blockscout ERC20 holders; CoinGecko `astar` (16 Nov 2026 8:20 AM MST); Gate ASTR/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): no entity label on the two ERC20 holders checked. Arkham does not cover Astar's Substrate or EVM chains, so the treasury pallet could not be looked up",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Foundation holdings and wallets; engineering headcount; AstarFi launch date",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

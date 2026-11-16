@@ -1,0 +1,550 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "PROPC",
+  "name": "Propchain",
+  "chain": "ethereum",
+  "contract": "0x9ff58067bd8d239000010c154c6983a325df138e",
+  "overall_score": 3.6,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 3,
+    "foundation_team": 5,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 5,
+    "liquidity_market": 2,
+    "product_development": 4,
+    "adoption_customers": 3,
+    "security_audits": 5,
+    "regulatory": 4,
+    "catalysts": 3
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 3,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no (fixed 100M minted in the constructor; 36.24M burned; admin can only burn its own balance)",
+    "team_wallet_to_exchange_during_pump": "yes, small (the EOA paid by the Liquidity Vesting contract deposited 178.6k PROPC into Arkham-labelled MEXC deposit addresses on 4 pump days since Dec 2024, including 144.5k on two Sep 2026 pump days)",
+    "treasury_in_single_key_wallets": "yes (~10.6M PROPC, 16.6% of supply, sits in four EOAs that the Treasury, Team, Operations and Liquidity vesting contracts paid out to)",
+    "vesting_mutable": "yes (the deployer has pulled tokens back out of the Team, Treasury and Operations vesting contracts, and the docs record buckets being moved and team vesting being extended)"
+  },
+  "price_usd": 0.065131,
+  "price_source": "CoinGecko, 16 Nov 2026 7:13 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.065131,
+    "market_cap_text": "$2.84M",
+    "fdv_text": "$4.15M",
+    "volume_24h_text": "$53.9k",
+    "total_supply_text": "100,000,000"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/PROPC.md",
+    "sha256": "5ae41b49c49628af04d5252b7f4e8550f5df7a2bf5a34c13bcc73e2d14103b35",
+    "bytes": 25298,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 7:13 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Fixed 100M supply, no mint",
+      "url": "code",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "36.24M burned in two main burns",
+      "url": "10M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "36.24M burned in two main burns",
+      "url": "21.15M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Last buyback 5 Oct 2025; wallet unchanged since",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Last buyback 5 Oct 2025; wallet unchanged since",
+      "url": "wallet",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury / Team / Ops vesting paid to EOAs",
+      "url": "Treasury 3.07M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury / Team / Ops vesting paid to EOAs",
+      "url": "Team 1.34M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Treasury / Team / Ops vesting paid to EOAs",
+      "url": "Ops 1.92M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Deployer pulled tokens back out of vesting contracts",
+      "url": "Team 1.875M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Deployer pulled tokens back out of vesting contracts",
+      "url": "Treasury 2.85M",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Liquidity Vesting → `0x6379…`",
+      "url": "1.14M, 13 May 2025",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Liquidity Vesting → `0x6379…`",
+      "url": "496k, 23 Sep 2025",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day deposits by the Liquidity EOA, Sep 2026",
+      "url": "9 Sep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day deposits by the Liquidity EOA, Sep 2026",
+      "url": "22 Sep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day deposits by the Liquidity EOA, Sep 2026",
+      "url": "9 Sep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day deposits by the Liquidity EOA, Sep 2026",
+      "url": "22 Sep",
+      "kind": "other",
+      "tier": "A + B tag",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xb558…`, `0xb501…`, `0x0487…` are MEXC deposit addresses",
+      "url": "0xb558",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xb558…`, `0xb501…`, `0x0487…` are MEXC deposit addresses",
+      "url": "0xb501",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "`0xb558…`, `0xb501…`, `0x0487…` are MEXC deposit addresses",
+      "url": "0x0487",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "3 Sep 2026 deposit came from a Gate hot wallet, not the team",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A + B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "3 Sep 2026 deposit came from a Gate hot wallet, not the team",
+      "url": "Gate Hot Wallet",
+      "kind": "other",
+      "tier": "A + B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Revenue Conversion Layer promise; \"currently discretionary\"",
+      "url": "Ecosystem V1",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Vesting addresses published",
+      "url": "Addresses page",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x0487a9387644bb33822cb7410739ddb0615dcf12",
+      "url": "https://etherscan.io/address/0x0487a9387644bb33822cb7410739ddb0615dcf12",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+      "url": "https://etherscan.io/address/0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x0e9c02de1608104bfa6de41f99604fbd5c30888f",
+      "url": "https://etherscan.io/address/0x0e9c02de1608104bfa6de41f99604fbd5c30888f",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x31a9aa9ff0e3e3df58452fe9113ce5905a70cc19",
+      "url": "https://etherscan.io/address/0x31a9aa9ff0e3e3df58452fe9113ce5905a70cc19",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x44b9ccadef7ef8003085022c6413dd22fb456b38",
+      "url": "https://etherscan.io/address/0x44b9ccadef7ef8003085022c6413dd22fb456b38",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4f9fc4e0b79c1cbf16e68863ad5e9de6a94a346c",
+      "url": "https://etherscan.io/address/0x4f9fc4e0b79c1cbf16e68863ad5e9de6a94a346c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6379942cc525ead26fb6f6998cb16d60220d2e09",
+      "url": "https://etherscan.io/address/0x6379942cc525ead26fb6f6998cb16d60220d2e09",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6a64f2cef8688205c3990e1c2c8ebb75d1e3f231",
+      "url": "https://etherscan.io/address/0x6a64f2cef8688205c3990e1c2c8ebb75d1e3f231",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x6ce7c64f5fe2cc61dab806975808806c9a9cafe6",
+      "url": "https://etherscan.io/address/0x6ce7c64f5fe2cc61dab806975808806c9a9cafe6",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x96de9a881ef1334bf735084134f73691d37e81b3",
+      "url": "https://etherscan.io/address/0x96de9a881ef1334bf735084134f73691d37e81b3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9af697a1de82d74a423732624c41cd9320882e4e",
+      "url": "https://intel.arkm.com/explorer/address/0x9af697a1de82d74a423732624c41cd9320882e4e",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9ff58067bd8d239000010c154c6983a325df138e",
+      "url": "https://etherscan.io/address/0x9ff58067bd8d239000010c154c6983a325df138e#code",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb50192c2adadf73db15556820322efe25c1ef17c",
+      "url": "https://etherscan.io/address/0xb50192c2adadf73db15556820322efe25c1ef17c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xb558f929b5d84b8015d97d5034879ae474644d30",
+      "url": "https://etherscan.io/address/0xb558f929b5d84b8015d97d5034879ae474644d30",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: yes, small (the EOA paid by the Liquidity Vesting contract deposited 178.6k PROPC into Arkham-labelled MEXC deposit addresses on 4 pump days since Dec 2024, including 144.5k on two Sep 2026 pump days)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "buyback"
+    ],
+    "automatic_onchain": false,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "The team says itself that the token was cut off from the business. The fix it built stopped buying after 5 Oct 2025, and no revenue figure for Propchain itself can be checked. **3, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "0x96de9a881ef1334bf735084134f73691d37e81b3",
+      "url": "https://intel.arkm.com/explorer/address/0x96de9a881ef1334bf735084134f73691d37e81b3",
+      "label": null,
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0e9c02de1608104bfa6de41f99604fbd5c30888f",
+      "url": "https://intel.arkm.com/explorer/address/0x0e9c02de1608104bfa6de41f99604fbd5c30888f",
+      "label": "PROPC Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6a64f2cef8688205c3990e1c2c8ebb75d1e3f231",
+      "url": "https://intel.arkm.com/explorer/address/0x6a64f2cef8688205c3990e1c2c8ebb75d1e3f231",
+      "label": "PROPC Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x6379942cc525ead26fb6f6998cb16d60220d2e09",
+      "url": "https://intel.arkm.com/explorer/address/0x6379942cc525ead26fb6f6998cb16d60220d2e09",
+      "label": "PROPC Whale",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb558f929b5d84b8015d97d5034879ae474644d30",
+      "url": "https://intel.arkm.com/explorer/address/0xb558f929b5d84b8015d97d5034879ae474644d30",
+      "label": "all three middle addresses **MEXC Deposit** ([0xb558](https://intel.arkm.com/exp",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb50192c2adadf73db15556820322efe25c1ef17c",
+      "url": "https://intel.arkm.com/explorer/address/0xb50192c2adadf73db15556820322efe25c1ef17c",
+      "label": "all three middle addresses **MEXC Deposit** ([0xb558](https://intel.arkm.com/exp",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x0487a9387644bb33822cb7410739ddb0615dcf12",
+      "url": "https://intel.arkm.com/explorer/address/0x0487a9387644bb33822cb7410739ddb0615dcf12",
+      "label": "all three middle addresses **MEXC Deposit** ([0xb558](https://intel.arkm.com/exp",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9af697a1de82d74a423732624c41cd9320882e4e",
+      "url": "https://intel.arkm.com/explorer/address/0x9af697a1de82d74a423732624c41cd9320882e4e",
+      "label": "PROPC Whale",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+      "url": "https://intel.arkm.com/explorer/address/0x0d0707963952f2fba59dd06f2b425ace40b492fe",
+      "label": "currently discretionary",
+      "source": "arkham",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "arkham",
+        "official",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan v2 API `tokentx` (PROPC) for the deployer, all 13 vesting contracts, the buyback wallet and every hop named; `getsourcecode` and `getcontractcreation` for the token; Ethereum RPC `balanceOf`, `antisnipeDisable()`, `eth_getCode`; read 16 Nov 2026 ~7:20–8:00 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Etherscan name tags (\"PropChainGlobal: Deployer\", \"MEXC 3\", \"MEXC 16\"); Blockscout holder list",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): [0xb558](https://intel.arkm.com/explorer/address/0xb558f929b5d84b8015d97d5034879ae474644d30), [0xb501](https://intel.arkm.com/explorer/address/0xb50192c2adadf73db15556820322efe25c1ef17c) and [0x0487](https://intel.arkm.com/explorer/address/0x0487a9387644bb33822cb7410739ddb0615dcf12) are labelled MEXC Deposit; the four EOAs are unlabelled \"PROPC Whale\" addresses; [0x9af6](https://intel.arkm.com/explorer/address/0x9af697a1de82d74a423732624c41cd9320882e4e) carries a \"Contract Deployer\" tag with no named controller. No market maker is named on any page",
+      "urls": [
+        "0xb558",
+        "0xb501",
+        "0x0487",
+        "0x9af6"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Propchain docs: tokenomics](https://docs.propchain.com/propchain-foundation/usdpropc-utility-token/tokenomics) · [addresses](https://docs.propchain.com/propchain-foundation/usdpropc-utility-token/addresses) · [Ecosystem V1](https://docs.propchain.com/propchain-foundation/ecosystem-v1) · [changelog / burns](https://docs.propchain.com/propchain-foundation/operational-token-management/changelog-burns) · [Dune dashboard](https://dune.com/propchain/propchain-ecosystem)",
+      "urls": [
+        "Propchain docs: tokenomics",
+        "addresses",
+        "Ecosystem V1",
+        "changelog / burns",
+        "Dune dashboard"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [Propchain news channel](https://tg.me/propchainnews) · [CoinMarketCap updates](https://coinmarketcap.com/cmc-ai/propchain/latest-updates/) · [propchain.com](https://www.propchain.com/)",
+      "urls": [
+        "Propchain news channel",
+        "CoinMarketCap updates",
+        "propchain.com"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `propchain` (16 Nov 2026 7:13 AM MST); Gate PROPC/USDT daily candles",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] who controls the four EOAs; who owns the MEXC account behind deposit addresses `0xb558…`/`0xb501…`/`0x0487…`, and whether it is a market maker; Propchain's own revenue; audits",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

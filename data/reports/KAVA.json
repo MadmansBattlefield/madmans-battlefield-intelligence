@@ -1,0 +1,214 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "KAVA",
+  "name": "Kava",
+  "chain": "kava",
+  "contract": "native (ukava); BEP20 0x9bafc8d4b487cebff201721702507a3e2c67ad79",
+  "overall_score": 3.1,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 4,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 6,
+    "liquidity_market": 4,
+    "product_development": 2,
+    "adoption_customers": 2,
+    "security_audits": 1,
+    "regulatory": 5,
+    "catalysts": 2
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "yes: HARD Lend exploit on 14 Nov 2026, ~53.9M KAVA (~$3.76M) drained and mostly sold on BNB Chain",
+    "mint_path_live": "no (on-chain inflation is 0%; supply 1,082,846,850 KAVA)",
+    "team_wallet_to_exchange_during_pump": "not tested (Kava Labs wallets are not published)",
+    "treasury_in_single_key_wallets": "no for the on-chain treasury (community pool and kavadist are module accounts); Kava Labs wallets unknown"
+  },
+  "price_usd": 0.02976698,
+  "price_source": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.02976698,
+    "market_cap_text": "$31.86M",
+    "fdv_text": "$31.86M",
+    "volume_24h_text": "$9.84M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/KAVA.md",
+    "sha256": "31097f7dba60cfc27917a847a8edc52aae2e5baf105395d2c3183fc93c04c4ec",
+    "bytes": 11710,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 8:34 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026 ~9:00 AM MST",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "HARD Lend drained of ~53.9M KAVA",
+      "url": "incident report",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "HARD Lend drained of ~53.9M KAVA",
+      "url": "hard module balance",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Wind-down of Mint/Lend/Swap",
+      "url": "Proposal 222",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0% inflation; supply 1.0828B; 11.7% bonded",
+      "url": "inflation",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0% inflation; supply 1.0828B; 11.7% bonded",
+      "url": "supply",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "0% inflation; supply 1.0828B; 11.7% bonded",
+      "url": "pool",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Community pool 7.32M KAVA",
+      "url": "community pool",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "unclear",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not tested (Kava Labs wallets are not published)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The chain's own fee-earning apps are being switched off. **1, which trips the Revenue gate.**"
+  },
+  "attributions": [],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Kava LCD (publicnode): supply, inflation, staking pool, community pool, module balances, governance proposals; read 16 Nov 2026 ~9:00 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Kava incident report](https://medium.com/@Kava_Chain/hard-lend-security-incident-579888f8dd73); GitHub API for `Kava-Labs/kava`",
+      "urls": [
+        "Kava incident report"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [The Block](https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350) · [Crypto Briefing](https://cryptobriefing.com/kava-hard-lend-wind-down-exploit/) · [TokenPost](https://www.tokenpost.com/news/technology/57418) · [Block Insider](https://blockinsider.com/article/kava-s-3-7m-exploit-kava-says-chain-s-security-is-uncompromised)",
+      "urls": [
+        "The Block",
+        "Crypto Briefing",
+        "TokenPost",
+        "Block Insider"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `kava` (16 Nov 2026 8:34 AM MST); Gate KAVA/USDT daily candles; DefiLlama chains TVL",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "Arkham does not cover the Kava chain (16 Nov 2026), so none of the Kava wallets could be looked up; the attacker's BNB Chain address was not looked up",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Kava Labs holdings and sales; source of staking rewards at 0% inflation",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

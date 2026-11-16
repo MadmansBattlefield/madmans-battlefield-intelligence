@@ -1,0 +1,403 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "AXL",
+  "name": "Axelar",
+  "chain": "axelar",
+  "contract": "0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 4,
+    "liquidity_market": 3,
+    "product_development": 6,
+    "adoption_customers": 4,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 4
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "yes, by design (no supply cap; net supply growth ~3.0% a year after fee burns; base Cosmos inflation set to 0)",
+    "team_wallet_to_exchange_during_pump": "not proven (Foundation and company wallets on the Axelar chain are not labelled; the largest unlabelled native movers trade two-way with high-volume hot wallets, which looks like exchange custody)",
+    "treasury_in_single_key_wallets": "not found (no published treasury addresses)"
+  },
+  "price_usd": 0.03252332,
+  "price_source": "CoinGecko, 16 Nov 2026 7:13 AM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.03252332,
+    "market_cap_text": "$40.84M",
+    "fdv_text": "$40.99M",
+    "volume_24h_text": "$2.99M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/AXL.md",
+    "sha256": "ac27ae346842175091b2499c9c70fe2570006a2383c939196c1ca3dff6524c34",
+    "bytes": 21194,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 7:13 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Supply 1.26B; bonded 262.2M; unbonding 57.4M",
+      "url": "supply",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Supply 1.26B; bonded 262.2M; unbonding 57.4M",
+      "url": "pool",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint inflation 0; 0.2% per-chain voting reward",
+      "url": "mint params",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Mint inflation 0; 0.2% per-chain voting reward",
+      "url": "reward params",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Interop Labs team and IP to Circle",
+      "url": "Circle",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Interop Labs team and IP to Circle",
+      "url": "Axelar",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Fee burn (98%)",
+      "url": "Cobalt blog",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day native transfers (unattributed)",
+      "url": "35M 16 Apr 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day native transfers (unattributed)",
+      "url": "29.8M 16 Apr 2026",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Pump-day native transfers (unattributed)",
+      "url": "35.8M 10 Jun 2025",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest wAXL holders: Upbit 119.253M, `0x1a9d…` 9.096M, Kraken 8.375M; Paribu none shown",
+      "url": "Upbit",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest wAXL holders: Upbit 119.253M, `0x1a9d…` 9.096M, Kraken 8.375M; Paribu none shown",
+      "url": "0x1a9d",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest wAXL holders: Upbit 119.253M, `0x1a9d…` 9.096M, Kraken 8.375M; Paribu none shown",
+      "url": "Kraken",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Largest wAXL holders: Upbit 119.253M, `0x1a9d…` 9.096M, Kraken 8.375M; Paribu none shown",
+      "url": "Paribu",
+      "kind": "other",
+      "tier": "B (Arkham)",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Bridge escrow 345.06M",
+      "url": "account",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "axelar",
+      "address": "0x1a9d699aee3a56ca49d0cc3b542ae3a37885a3e1",
+      "url": "https://intel.arkm.com/explorer/address/0x1a9d699aee3a56ca49d0cc3b542ae3a37885a3e1",
+      "kind": "address"
+    },
+    {
+      "chain": "axelar",
+      "address": "0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+      "url": "https://intel.arkm.com/explorer/address/0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+      "kind": "address"
+    },
+    {
+      "chain": "axelar",
+      "address": "0xc80afd311c9626528de66d86814770361fe92416",
+      "url": "https://intel.arkm.com/explorer/address/0xc80afd311c9626528de66d86814770361fe92416",
+      "kind": "address"
+    },
+    {
+      "chain": "axelar",
+      "address": "0xd2ff2d432a0078672cf4f9e2e97858a33cbdeebc",
+      "url": "https://intel.arkm.com/explorer/address/0xd2ff2d432a0078672cf4f9e2e97858a33cbdeebc",
+      "kind": "address"
+    },
+    {
+      "chain": "axelar",
+      "address": "0xfcac185644e5c6cd73c309a60d2758ae56cf78b3",
+      "url": "https://intel.arkm.com/explorer/address/0xfcac185644e5c6cd73c309a60d2758ae56cf78b3",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+      "url": "https://etherscan.io/token/0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+      "kind": "token"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven (Foundation and company wallets on the Axelar chain are not labelled; the largest unlabelled native movers trade two-way with high-volume hot wallets, which looks like exchange custody)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "The burn is real but covers about 4% of issuance. **2, which trips the Revenue gate.**"
+  },
+  "attributions": [
+    {
+      "address": "0x1a9d699aee3a56ca49d0cc3b542ae3a37885a3e1",
+      "url": "https://intel.arkm.com/explorer/address/0x1a9d699aee3a56ca49d0cc3b542ae3a37885a3e1",
+      "label": "a named individual",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xd2ff2d432a0078672cf4f9e2e97858a33cbdeebc",
+      "url": "https://intel.arkm.com/explorer/address/0xd2ff2d432a0078672cf4f9e2e97858a33cbdeebc",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xfcac185644e5c6cd73c309a60d2758ae56cf78b3",
+      "url": "https://intel.arkm.com/explorer/address/0xfcac185644e5c6cd73c309a60d2758ae56cf78b3",
+      "label": "- [Tier B] [MoonRunners supply](https://moon-runners.net/axelar/mainnet/supply)",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc80afd311c9626528de66d86814770361fe92416",
+      "url": "https://intel.arkm.com/explorer/address/0xc80afd311c9626528de66d86814770361fe92416",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+      "url": "https://intel.arkm.com/explorer/address/0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+      "label": "unlabelled",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Axelar LCD: supply, mint inflation and params, reward params, staking pool, community pool, distribution params, governance proposals, all 207,874 `denom_owners`, account types; read 16 Nov 2026 ~9:30–9:50 AM MST",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Axelarscan API `searchTransactions` and `getAccountAmounts` for the largest unlabelled native accounts; Ethereum and BSC RPC `totalSupply()` of wAXL; Blockscout wAXL holder list; Etherscan name tags [Tier B]",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama Axelar](https://defillama.com/protocol/axelar) fees and TVL; CoinGecko `axelar` (16 Nov 2026 7:13 AM MST); KuCoin AXL-USDT daily candles",
+      "urls": [
+        "DefiLlama Axelar"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Circle](https://www.circle.com/blog/circle-signs-agreement-to-acquire-interop-labs-team-intellectual-property) · [Axelar blog: Circle](https://www.axelar.network/blog/circle-interop-labs-acquisition-agreement) · [Cobalt](https://www.axelar.network/blog/cobalt-tokenomics-upgrade) · [Discontinuing chains](https://www.axelar.network/blog/discontinuing-flow-berachain-plume) · [Common Prefix roadmap](https://www.commonprefix.com/blog/axelar-roadmap) · [Token economics](https://medium.com/@axelar-foundation/an-overview-of-axl-token-economics-4dc701c9054d)",
+      "urls": [
+        "Circle",
+        "Axelar blog: Circle",
+        "Cobalt",
+        "Discontinuing chains",
+        "Common Prefix roadmap",
+        "Token economics"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): [token contract](https://intel.arkm.com/explorer/address/0x467719ad09025fcc6cf6f8311755809d45a5e5f3) (24.251K AXL) · [Upbit deposit](https://intel.arkm.com/explorer/address/0xd2ff2d432a0078672cf4f9e2e97858a33cbdeebc) (119.253M) · [`0x1a9d…`](https://intel.arkm.com/explorer/address/0x1a9d699aee3a56ca49d0cc3b542ae3a37885a3e1) (9.096M, unlabelled) · [Kraken hot wallet](https://intel.arkm.com/explorer/address/0xfcac185644e5c6cd73c309a60d2758ae56cf78b3) (8.375M) · [Paribu hot wallet](https://intel.arkm.com/explorer/address/0xc80afd311c9626528de66d86814770361fe92416) (no AXL shown). Arkham does not support the Axelar chain itself, so the native `axelar1…` accounts have no Arkham labels",
+      "urls": [
+        "token contract",
+        "Upbit deposit",
+        "`0x1a9d…`",
+        "Kraken hot wallet",
+        "Paribu hot wallet"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [MoonRunners supply](https://moon-runners.net/axelar/mainnet/supply) · [TokenRadar](https://tokenradar.ai/tokens/axelar-network/tokenomics)",
+      "urls": [
+        "MoonRunners supply",
+        "TokenRadar"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Foundation and company wallet balances and flows; who controls `axelar1p3uc…`, `axelar1rhfw…`, `axelar1tgjx…` and `axelar1pdw4…`; whether the Circle deal has closed; real order-book depth",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

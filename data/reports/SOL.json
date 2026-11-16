@@ -1,0 +1,212 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "SOL",
+  "name": "Solana",
+  "chain": "solana",
+  "contract": "native (wrapped SOL mint So11111111111111111111111111111111111111112)",
+  "overall_score": 6.6,
+  "overall_verdict": "PASS",
+  "section_scores": {
+    "revenue": 6,
+    "foundation_team": 6,
+    "insider_holdings": 5,
+    "selling_behavior": 5,
+    "tokenomics_supply": 6,
+    "liquidity_market": 10,
+    "product_development": 8,
+    "adoption_customers": 8,
+    "security_audits": 7,
+    "regulatory": 7,
+    "catalysts": 6
+  },
+  "sections_passed": 9,
+  "gates_failed": [],
+  "hard_gates": {
+    "revenue": {
+      "score": 6,
+      "threshold": 3,
+      "tripped": false
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none",
+    "network_halt": "none_in_series",
+    "foundation_wallets_unpublished": "tripped"
+  },
+  "price_usd": 72.24,
+  "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {
+    "chain_read_slot": 469444012
+  },
+  "key_numbers": {
+    "price_usd": 72.24,
+    "market_cap_text": "$42.76B",
+    "fdv_text": "$46.09B",
+    "volume_24h_text": "$3.70B"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/SOL.md",
+    "sha256": "a8568d9d6cef2c3c84fd4977fa5a1858a44848f78b88f7cac4086ddf10d793b3",
+    "bytes": 13514,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:00 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:00 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Alameda / FTX estate unstakes routed to creditor-distribution addresses",
+      "url": "CoinDesk, 13 Apr 2026",
+      "kind": "other",
+      "tier": "B",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Two client teams ship weekly (Agave, Firedancer)",
+      "url": "Agave releases",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Two client teams ship weekly (Agave, Firedancer)",
+      "url": "Firedancer releases",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    }
+  ],
+  "addresses_examined": [],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "unclear",
+    "selling_not_proven": false,
+    "disclosure_quality": "unclear",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": []
+  },
+  "revenue_accrual": {
+    "reaches_holders": "yes",
+    "mechanisms": [
+      "burn"
+    ],
+    "automatic_onchain": true,
+    "executed": true,
+    "inconsistent_with_score": false,
+    "notes": "Solana users paid ~$230M in fees over 12 months, ~0.54% of market cap — the best ratio of the layer-1s in this set. Most goes to stakers, a little is burned. It does not cover the 3.56% inflation, so holders who don't stake are diluted."
+  },
+  "attributions": [
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Solana mainnet RPC: `getSupply`, `getInflationRate`, `getEpochInfo`, `getVersion`, `getVoteAccounts`, `getRecentPerformanceSamples`; 14 Nov 2026 ~12:25 PM MST",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama fees `solana`, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `solana` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] GitHub [`anza-xyz/agave`](https://github.com/anza-xyz/agave) ([releases](https://github.com/anza-xyz/agave/releases)), [`firedancer-io/firedancer`](https://github.com/firedancer-io/firedancer) ([releases](https://github.com/firedancer-io/firedancer/releases))",
+      "urls": [
+        "`anza-xyz/agave`",
+        "releases",
+        "`firedancer-io/firedancer`",
+        "releases"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [DefiLlama Solana fees](https://defillama.com/chain/solana) · [CoinGecko `solana`](https://www.coingecko.com/en/coins/solana)",
+      "urls": [
+        "DefiLlama Solana fees",
+        "CoinGecko `solana`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CoinDesk (Alameda unstakes, 13 Apr 2026)](https://www.coindesk.com/markets/2026/04/13/alameda-moves-usd16-million-in-solana-s-sol-token-for-possible-creditor-distribution) · CoinAlertNews · Basecamp Markets",
+      "urls": [
+        "CoinDesk (Alameda unstakes, 13 Apr 2026"
+      ],
+      "date_read": "13 Apr 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): only a generic \"Solana\" entity (27.466M SOL); no \"Solana Foundation\" entity or address list. First page only; all-time exchange totals Enterprise-locked",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Foundation stake ~27.38M; board change; original allocation; transparency-report date; Breakpoint dates; Samsung Wallet item",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

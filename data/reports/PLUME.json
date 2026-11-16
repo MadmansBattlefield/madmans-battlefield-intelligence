@@ -1,0 +1,566 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "PLUME",
+  "name": "Plume",
+  "chain": "plume",
+  "contract": "0x4C1746A800D224393fE2470C70A35717eD4eA5F1",
+  "overall_score": 3.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 6,
+    "insider_holdings": 2,
+    "selling_behavior": 4,
+    "tokenomics_supply": 3,
+    "liquidity_market": 6,
+    "product_development": 6,
+    "adoption_customers": 3,
+    "security_audits": 5,
+    "regulatory": 6,
+    "catalysts": 3
+  },
+  "sections_passed": 4,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "upgradeable_mintable_token": "yes (contradicts MiCA paper)",
+    "exchange_inflows_on_pump_days": "explained (bridge → Binance on 23 Sep and 13 Oct 2026 was Binance moving its own inventory from Plume chain; traced 15 Nov)",
+    "issuer_wallets_published": "no"
+  },
+  "price_usd": 0.012343,
+  "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+  "front_matter_extras": {},
+  "key_numbers": {
+    "price_usd": 0.012343,
+    "market_cap_text": "$84.08M",
+    "fdv_text": "$123.3M",
+    "volume_24h_text": "$11.1M"
+  },
+  "last_updated": "2026-11-15",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/PLUME.md",
+    "sha256": "896091e009809c86fbcb197838aecfd44c9e5d9bcbc92688275bce54733298e8",
+    "bytes": 27982,
+    "extracted_at": "2026-11-16 11:05 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
+    "source_read_dates": [
+      "15 Nov 2026 ~11:00 AM MST",
+      "15 Nov 2026 ~11:30 AM MST",
+      "2026-11-15"
+    ],
+    "arkham_read": "15 Nov 2026 ~11:00 AM MST (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Issuer retained 4,666,554,520 PLUME (46.7%), addresses not published",
+      "url": "MiCA white paper §G.5",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Ethereum token is an upgradeable proxy with live MINTER / UPGRADER roles",
+      "url": "token on Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "Bridge holds 4,511,760,175 PLUME (45.12%)",
+      "url": "bridge on Etherscan",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "4 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "15 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "23 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "5 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "8 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "13 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "15 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "20 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "4 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "15 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "23 Sep",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "5 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "8 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "13 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "15 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**210M bridge → `0xE69f…` → Binance 14 (4 Sep – 26 Oct 2026)**, incl. 30M on each of the 23 Sep and 13 Oct pump days",
+      "url": "20 Oct",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "15 Nov 2026 ~11:30 AM MST"
+    },
+    {
+      "claim": "**Sender = Binance:** each withdrawal was started on Plume chain by `0xE69f…` itself (l2Sender), ~7 days earlier",
+      "url": "4 Sep",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Sender = Binance:** each withdrawal was started on Plume chain by `0xE69f…` itself (l2Sender), ~7 days earlier",
+      "url": "15 Sep",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Sender = Binance:** each withdrawal was started on Plume chain by `0xE69f…` itself (l2Sender), ~7 days earlier",
+      "url": "23 Sep",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Sender = Binance:** each withdrawal was started on Plume chain by `0xE69f…` itself (l2Sender), ~7 days earlier",
+      "url": "5 Oct",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Sender = Binance:** each withdrawal was started on Plume chain by `0xE69f…` itself (l2Sender), ~7 days earlier",
+      "url": "8 Oct",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Sender = Binance:** each withdrawal was started on Plume chain by `0xE69f…` itself (l2Sender), ~7 days earlier",
+      "url": "13 Oct",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Sender = Binance:** each withdrawal was started on Plume chain by `0xE69f…` itself (l2Sender), ~7 days earlier",
+      "url": "15 Oct",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Sender = Binance:** each withdrawal was started on Plume chain by `0xE69f…` itself (l2Sender), ~7 days earlier",
+      "url": "20 Oct",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Sender = Binance:** each withdrawal was started on Plume chain by `0xE69f…` itself (l2Sender), ~7 days earlier",
+      "url": "27 Oct",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "**Sender = Binance:** each withdrawal was started on Plume chain by `0xE69f…` itself (l2Sender), ~7 days earlier",
+      "url": "Arkham “Binance: Internal”",
+      "kind": "other",
+      "tier": "A + 2× B",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "`0xE69f…` topped up on Plume chain by `0x9d71…` (52.7K txs; feeds Binance 8)",
+      "url": "0x9d71… on Plume explorer",
+      "kind": "other",
+      "tier": "A (owner [Unverified])",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "9 Oct: ~60.5M from the bridge to four unlabeled wallets; `0xe002…`/`0xcFb8…` look like an exchange-funded trader / market-maker loop",
+      "url": "0xcFb8…",
+      "kind": "other",
+      "tier": "A (roles [Unverified])",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "9 Oct: ~60.5M from the bridge to four unlabeled wallets; `0xe002…`/`0xcFb8…` look like an exchange-funded trader / market-maker loop",
+      "url": "0xADbD…",
+      "kind": "other",
+      "tier": "A (roles [Unverified])",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "9 Oct: ~60.5M from the bridge to four unlabeled wallets; `0xe002…`/`0xcFb8…` look like an exchange-funded trader / market-maker loop",
+      "url": "0xe002…",
+      "kind": "other",
+      "tier": "A (roles [Unverified])",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "9 Oct: ~60.5M from the bridge to four unlabeled wallets; `0xe002…`/`0xcFb8…` look like an exchange-funded trader / market-maker loop",
+      "url": "0xeAA5…",
+      "kind": "other",
+      "tier": "A (roles [Unverified])",
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "claim": "9 Oct: ~60.5M from the bridge to four unlabeled wallets; `0xe002…`/`0xcFb8…` look like an exchange-funded trader / market-maker loop",
+      "url": "0xe92e… (Plume",
+      "kind": "other",
+      "tier": "A (roles [Unverified])",
+      "date_read": "15 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "url": "https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x35381f63091926750f43b2a7401b083263adef83",
+      "url": "https://etherscan.io/address/0x35381f63091926750F43b2A7401B083263aDEF83",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x4c1746a800d224393fe2470c70a35717ed4ea5f1",
+      "url": "https://etherscan.io/address/0x4C1746A800D224393fE2470C70A35717eD4eA5F1",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xadbddda802e4d4cd9887a6e05d7cbe0d93607242",
+      "url": "https://etherscan.io/address/0xADbDDDa802e4D4cd9887a6E05d7CbE0D93607242",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcfb8896a769fb272604af5affae7ae6faa1a86ca",
+      "url": "https://etherscan.io/address/0xcfb8896a769fb272604af5affae7ae6faa1a86ca",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe002b3b5d178a8fd211594114195db02a185ac28",
+      "url": "https://etherscan.io/address/0xe002b3b5d178a8fd211594114195db02a185ac28",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xe69f81b825d7dc31ee9becef4dbeab5cf30e3abb",
+      "url": "https://etherscan.io/address/0xE69f81b825d7Dc31ee9becef4DbEab5cf30e3Abb",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xeaa553f8e1f976c04c3ddfe7bd418bb972265272",
+      "url": "https://etherscan.io/address/0xeAA553F8E1F976C04c3DdfE7bd418Bb972265272",
+      "kind": "address"
+    },
+    {
+      "chain": "plume",
+      "address": "0x35381f63091926750f43b2a7401b083263adef83",
+      "url": "https://intel.arkm.com/explorer/address/0x35381f63091926750F43b2A7401B083263aDEF83",
+      "kind": "address"
+    },
+    {
+      "chain": "plume",
+      "address": "0xe002b3b5d178a8fd211594114195db02a185ac28",
+      "url": "https://intel.arkm.com/explorer/address/0xe002b3b5d178a8fd211594114195db02a185ac28",
+      "kind": "address"
+    },
+    {
+      "chain": "plume",
+      "address": "0xe69f81b825d7dc31ee9becef4dbeab5cf30e3abb",
+      "url": "https://intel.arkm.com/explorer/address/0xE69f81b825d7Dc31ee9becef4DbEab5cf30e3Abb",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": null,
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": false,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "exchange_inflows_on_pump_days: explained (bridge → Binance on 23 Sep and 13 Oct 2026 was Binance moving its own inventory from Plume chain; traced 15 Nov)"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "unclear",
+    "mechanisms": [],
+    "automatic_onchain": null,
+    "executed": null,
+    "inconsistent_with_score": false,
+    "notes": "Chain fees are about $2.3k a month against an $84M market cap. Vault fees go to vault users and curators, not to the token."
+  },
+  "attributions": [
+    {
+      "address": "0xe69f81b825d7dc31ee9becef4dbeab5cf30e3abb",
+      "url": "https://intel.arkm.com/explorer/address/0xE69f81b825d7Dc31ee9becef4DbEab5cf30e3Abb",
+      "label": "Binance: Internal",
+      "source": "arkham",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "arkham",
+        "explorer-link"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x35381f63091926750f43b2a7401b083263adef83",
+      "url": "https://intel.arkm.com/explorer/address/0x35381f63091926750F43b2A7401B083263aDEF83",
+      "label": "GSR Markets",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xe002b3b5d178a8fd211594114195db02a185ac28",
+      "url": "https://intel.arkm.com/explorer/address/0xe002b3b5d178a8fd211594114195db02a185ac28",
+      "label": "GSR Markets",
+      "source": "arkham",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Ethereum RPC and eth.blockscout.com: token proxy, implementation source, balances, bridge transfers, 14 Nov 2026",
+      "urls": [],
+      "date_read": "14 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] explorer.plume.org Blockscout API: native holders, chain stats",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Plume MiCA white paper (plume.org/landing/Plume-MiCA-Modified-White-Paper.pdf)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] SEC EDGAR, Kimber Transfer Agency LLC (CIK 0002083132) · DTCC 4 May 2026 list",
+      "urls": [],
+      "date_read": "4 May 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] DefiLlama `plume-mainnet`, `plume-vaults` · DexScreener tokens API",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] CoinGecko markets, tickers and daily closes · PR Newswire (Shinhan MoU)",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] explorer.plume.org API v2 (`withdrawEth` calls and transfers for `0xE69f…`, `0xe002…`, `0xcFb8…`, `0xe92e…`) and Ethereum bridge `OutBoxTransactionExecuted` logs; read 15 Nov 2026 ~11:30 AM MST",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): `0xE69f…` \"Binance: Internal\"; \"Plume\" entity (28 addresses, $0 deposits); only the first page of transfers was read and all-time exchange totals are Enterprise-locked",
+      "urls": [],
+      "date_read": "15 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Explorer pages used: Etherscan [`bridge 0x3538…`](https://etherscan.io/address/0x35381f63091926750F43b2A7401B083263aDEF83) · [`0xE69f…`](https://etherscan.io/address/0xE69f81b825d7Dc31ee9becef4DbEab5cf30e3Abb) · [`token 0x4C17…`](https://etherscan.io/address/0x4C1746A800D224393fE2470C70A35717eD4eA5F1) · [`Binance 14`](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60) · [`0xe002…`](https://etherscan.io/address/0xe002b3b5d178a8fd211594114195db02a185ac28) · [`0xcFb8…`](https://etherscan.io/address/0xcfb8896a769fb272604af5affae7ae6faa1a86ca); Plume explorer [`0xE69f…`](https://explorer.plume.org/address/0xE69f81b825d7Dc31ee9becef4DbEab5cf30e3Abb) · [`0x9d71…`](https://explorer.plume.org/address/0x9d71d99c65122D8378B25A6E5b82177a1cF426D9) · [`0xcFb8…`](https://explorer.plume.org/address/0xcfb8896a769fb272604af5affae7ae6faa1a86ca) · [`0xe002…`](https://explorer.plume.org/address/0xe002b3b5d178a8fd211594114195db02a185ac28) · [`0xe92e…`](https://explorer.plume.org/address/0xe92e65049b3c2ca12806e9567b08895118c5a03f)",
+      "urls": [
+        "`bridge 0x3538…`",
+        "`0xE69f…`",
+        "`token 0x4C17…`",
+        "`Binance 14`",
+        "`0xe002…`",
+        "`0xcFb8…`",
+        "`0xE69f…`",
+        "`0x9d71…`",
+        "`0xcFb8…`",
+        "`0xe002…`",
+        "`0xe92e…`"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham address pages used: [0xE69f…](https://intel.arkm.com/explorer/address/0xE69f81b825d7Dc31ee9becef4DbEab5cf30e3Abb) · [bridge 0x3538…](https://intel.arkm.com/explorer/address/0x35381f63091926750F43b2A7401B083263aDEF83) · [0xe002…](https://intel.arkm.com/explorer/address/0xe002b3b5d178a8fd211594114195db02a185ac28)",
+      "urls": [
+        "0xE69f…",
+        "bridge 0x3538…",
+        "0xe002…"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": null,
+      "text": "[Unverified] Unlock schedule (Tokenomics.com); launch float; role holders; owner of `0x9d71…` (Binance by behaviour only); \"GSR Markets\" label; who controls `0xe002…`/`0xcFb8…`; identity of unlabeled 45–84M wallets",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}
