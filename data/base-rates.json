@@ -1,12 +1,12 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:26 MST",
-  "universe": 123,
+  "generated_at": "2026-11-16 12:31 MST",
+  "universe": 128,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
     "count": 8,
-    "share": 0.065,
+    "share": 0.0625,
     "tickers": [
       "AERO",
       "BTC",
@@ -19,8 +19,8 @@
     ]
   },
   "fail_revenue_gate": {
-    "count": 98,
-    "share": 0.7967,
+    "count": 103,
+    "share": 0.8047,
     "tickers": [
       "ACH",
       "ADA",
@@ -72,6 +72,7 @@
       "NIGHT",
       "OM",
       "ONDO",
+      "ORAI",
       "PACT",
       "PHA",
       "PLUME",
@@ -81,6 +82,7 @@
       "PUNDIX",
       "RED",
       "REQ",
+      "RIO",
       "RLC",
       "ROSE",
       "ROUTER",
@@ -90,6 +92,7 @@
       "SERV",
       "SHARE",
       "SHX",
+      "SKEY",
       "SPA",
       "STBL",
       "SUI",
@@ -99,6 +102,7 @@
       "TFUEL",
       "TLOS",
       "TRAC",
+      "TRADE",
       "TRB",
       "VELO",
       "W",
@@ -119,12 +123,13 @@
       "ZIG",
       "ZK",
       "ZKC",
+      "ZKJ",
       "ZKP"
     ]
   },
   "fail_selling_gate": {
     "count": 29,
-    "share": 0.2358,
+    "share": 0.2266,
     "tickers": [
       "ACH",
       "API3",
@@ -159,7 +164,7 @@
   },
   "fail_both_gates": {
     "count": 26,
-    "share": 0.2114,
+    "share": 0.2031,
     "tickers": [
       "ACH",
       "COTI",
@@ -191,7 +196,7 @@
   },
   "proven_pump_day_sale": {
     "count": 47,
-    "share": 0.3821,
+    "share": 0.3672,
     "tickers": [
       "ACH",
       "AERO",
@@ -244,7 +249,7 @@
   },
   "pump_day_sale_unclear": {
     "count": 10,
-    "share": 0.0813,
+    "share": 0.0781,
     "tickers": [
       "BCH",
       "BNKR",
@@ -259,8 +264,8 @@
     ]
   },
   "selling_not_proven": {
-    "count": 61,
-    "share": 0.4959,
+    "count": 65,
+    "share": 0.5078,
     "tickers": [
       "ADA",
       "AEON",
@@ -294,6 +299,7 @@
       "NIGHT",
       "OM",
       "ONDO",
+      "ORAI",
       "PLUME",
       "PRO",
       "PROPC",
@@ -301,10 +307,12 @@
       "QUAI",
       "RED",
       "REUSD",
+      "RIO",
       "ROSE",
       "SEI",
       "SHARE",
       "SHX",
+      "SKEY",
       "STBL",
       "SWCH",
       "SWFTC",
@@ -312,6 +320,7 @@
       "TAO",
       "TFUEL",
       "TRAC",
+      "TRADE",
       "VELO",
       "W",
       "WAN",
@@ -326,8 +335,8 @@
     ]
   },
   "selling_score_equals_4": {
-    "count": 48,
-    "share": 0.3902,
+    "count": 52,
+    "share": 0.4062,
     "tickers": [
       "AEON",
       "APT",
@@ -352,6 +361,7 @@
       "NIGHT",
       "OM",
       "ONDO",
+      "ORAI",
       "PLUME",
       "PRO",
       "PROPC",
@@ -359,15 +369,18 @@
       "QUAI",
       "RED",
       "REUSD",
+      "RIO",
       "SEI",
       "SHARE",
       "SHX",
+      "SKEY",
       "STBL",
       "SWCH",
       "SWFTC",
       "SYRUP",
       "TFUEL",
       "TRAC",
+      "TRADE",
       "VELO",
       "WAN",
       "WIREX",
@@ -381,7 +394,7 @@
   },
   "undisclosed_pump_day_sale_silence": {
     "count": 25,
-    "share": 0.2033,
+    "share": 0.1953,
     "tickers": [
       "ACH",
       "CARDS",
@@ -412,7 +425,7 @@
   },
   "revenue_reaches_holders_yes": {
     "count": 14,
-    "share": 0.1138,
+    "share": 0.1094,
     "tickers": [
       "AERO",
       "AVAX",
@@ -431,8 +444,8 @@
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 25,
-    "share": 0.2033,
+    "count": 30,
+    "share": 0.2344,
     "tickers": [
       "ACH",
       "AEON",
@@ -449,21 +462,26 @@
       "IOST",
       "MINA",
       "ONDO",
+      "ORAI",
       "POLYX",
       "PRO",
       "QNT",
+      "RIO",
       "ROSE",
+      "SKEY",
       "SOLV",
       "SWFTC",
+      "TRADE",
       "WIREX",
       "XDB",
       "XNO",
-      "ZEC"
+      "ZEC",
+      "ZKJ"
     ]
   },
   "revenue_reaches_holders_unclear": {
     "count": 84,
-    "share": 0.6829,
+    "share": 0.6562,
     "tickers": [
       "ADA",
       "ALGO",

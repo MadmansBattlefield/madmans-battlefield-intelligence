@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 12:26 MST",
+  "generated_at": "2026-11-16 12:31 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -547,6 +547,12 @@
       "json": "data/reports/ONDO.json"
     },
     {
+      "id": "ORAI",
+      "path": "banking-rails/ORAI.md",
+      "layout": "v3",
+      "json": "data/reports/ORAI.json"
+    },
+    {
       "id": "PACT",
       "path": "banking-rails/PACT.md",
       "layout": "v3",
@@ -619,6 +625,12 @@
       "json": "data/reports/REUSD.json"
     },
     {
+      "id": "RIO",
+      "path": "banking-rails/RIO.md",
+      "layout": "v3",
+      "json": "data/reports/RIO.json"
+    },
+    {
       "id": "RLC",
       "path": "banking-rails/RLC.md",
       "layout": "v3",
@@ -677,6 +689,12 @@
       "path": "banking-rails/SHX.md",
       "layout": "v3",
       "json": "data/reports/SHX.json"
+    },
+    {
+      "id": "SKEY",
+      "path": "banking-rails/SKEY.md",
+      "layout": "v3",
+      "json": "data/reports/SKEY.json"
     },
     {
       "id": "SKY",
@@ -755,6 +773,12 @@
       "path": "banking-rails/TRAC.md",
       "layout": "v3",
       "json": "data/reports/TRAC.json"
+    },
+    {
+      "id": "TRADE",
+      "path": "banking-rails/TRADE.md",
+      "layout": "v3",
+      "json": "data/reports/TRADE.json"
     },
     {
       "id": "TRB",
@@ -889,6 +913,12 @@
       "json": "data/reports/ZKC.json"
     },
     {
+      "id": "ZKJ",
+      "path": "banking-rails/ZKJ.md",
+      "layout": "v3",
+      "json": "data/reports/ZKJ.json"
+    },
+    {
       "id": "ZKP",
       "path": "banking-rails/ZKP.md",
       "layout": "v3",
@@ -906,5 +936,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 123
+  "scored_reports": 128
 }

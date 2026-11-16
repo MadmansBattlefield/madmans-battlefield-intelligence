@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:26 MST",
+  "generated_at": "2026-11-16 12:31 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -1976,6 +1976,11 @@
       ]
     },
     {
+      "ticker": "ORAI",
+      "path": "banking-rails/ORAI.md",
+      "versions": []
+    },
+    {
       "ticker": "PACT",
       "path": "banking-rails/PACT.md",
       "versions": [
@@ -2126,7 +2131,32 @@
     {
       "ticker": "PRO",
       "path": "banking-rails/PRO.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "5420ac20f2bb42236941ddce6527cfdca92f12a1",
+          "committed_at_mst": "2026-11-16 12:27 MST",
+          "subject": "Add SWFTC, RLS, PRO, WIREX, XNO v3 reports with Arkham evidence under the 16 Nov 2026 rules; RLS 90M went to GSR Markets, not Gate; WIREX catalog row points to Wirex WXT, not Nereus; extractor treats a declared not_applicable disclosure as no proven pump-day sale; ranking 123",
+          "overall_score": 4.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "PROPC",
@@ -2336,6 +2366,11 @@
       ]
     },
     {
+      "ticker": "RIO",
+      "path": "banking-rails/RIO.md",
+      "versions": []
+    },
+    {
       "ticker": "RLC",
       "path": "banking-rails/RLC.md",
       "versions": [
@@ -2369,7 +2404,30 @@
     {
       "ticker": "RLS",
       "path": "banking-rails/RLS.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "5420ac20f2bb42236941ddce6527cfdca92f12a1",
+          "committed_at_mst": "2026-11-16 12:27 MST",
+          "subject": "Add SWFTC, RLS, PRO, WIREX, XNO v3 reports with Arkham evidence under the 16 Nov 2026 rules; RLS 90M went to GSR Markets, not Gate; WIREX catalog row points to Wirex WXT, not Nereus; extractor treats a declared not_applicable disclosure as no proven pump-day sale; ranking 123",
+          "overall_score": 4.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 3,
+            "selling_behavior": 5,
+            "tokenomics_supply": 3,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 6,
+            "catalysts": 5
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "ROSE",
@@ -2615,6 +2673,11 @@
       ]
     },
     {
+      "ticker": "SKEY",
+      "path": "banking-rails/SKEY.md",
+      "versions": []
+    },
+    {
       "ticker": "SKY",
       "path": "banking-rails/SKY.md",
       "versions": [
@@ -2823,7 +2886,32 @@
     {
       "ticker": "SWFTC",
       "path": "banking-rails/SWFTC.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "5420ac20f2bb42236941ddce6527cfdca92f12a1",
+          "committed_at_mst": "2026-11-16 12:27 MST",
+          "subject": "Add SWFTC, RLS, PRO, WIREX, XNO v3 reports with Arkham evidence under the 16 Nov 2026 rules; RLS 90M went to GSR Markets, not Gate; WIREX catalog row points to Wirex WXT, not Nereus; extractor treats a declared not_applicable disclosure as no proven pump-day sale; ranking 123",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 7,
+            "liquidity_market": 4,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "SYRUP",
@@ -2975,6 +3063,11 @@
       ]
     },
     {
+      "ticker": "TRADE",
+      "path": "banking-rails/TRADE.md",
+      "versions": []
+    },
+    {
       "ticker": "TRB",
       "path": "banking-rails/TRB.md",
       "versions": [
@@ -3097,7 +3190,32 @@
     {
       "ticker": "WIREX",
       "path": "banking-rails/WIREX.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "5420ac20f2bb42236941ddce6527cfdca92f12a1",
+          "committed_at_mst": "2026-11-16 12:27 MST",
+          "subject": "Add SWFTC, RLS, PRO, WIREX, XNO v3 reports with Arkham evidence under the 16 Nov 2026 rules; RLS 90M went to GSR Markets, not Gate; WIREX catalog row points to Wirex WXT, not Nereus; extractor treats a declared not_applicable disclosure as no proven pump-day sale; ranking 123",
+          "overall_score": 3.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 2,
+            "product_development": 5,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "XDB",
@@ -3223,7 +3341,32 @@
     {
       "ticker": "XNO",
       "path": "banking-rails/XNO.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "5420ac20f2bb42236941ddce6527cfdca92f12a1",
+          "committed_at_mst": "2026-11-16 12:27 MST",
+          "subject": "Add SWFTC, RLS, PRO, WIREX, XNO v3 reports with Arkham evidence under the 16 Nov 2026 rules; RLS 90M went to GSR Markets, not Gate; WIREX catalog row points to Wirex WXT, not Nereus; extractor treats a declared not_applicable disclosure as no proven pump-day sale; ranking 123",
+          "overall_score": 4.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 8,
+            "selling_behavior": 6,
+            "tokenomics_supply": 9,
+            "liquidity_market": 4,
+            "product_development": 6,
+            "adoption_customers": 4,
+            "security_audits": 6,
+            "regulatory": 7,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "XPL",
@@ -3610,6 +3753,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "ZKJ",
+      "path": "banking-rails/ZKJ.md",
+      "versions": []
     },
     {
       "ticker": "ZKP",

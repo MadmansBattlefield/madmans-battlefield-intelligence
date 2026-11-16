@@ -1,0 +1,358 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "TRADE",
+  "name": "Polytrade",
+  "chain": "ethereum",
+  "contract": "0x6e5970dbd6fc7eb1f29c6d2edf2bc4c36124c0c1 (also Polygon, BNB Chain, Base, Arbitrum)",
+  "overall_score": 3.7,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 4,
+    "insider_holdings": 3,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 3,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 2,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found",
+    "mint_path_live": "no: fixed 100M supply, fully unlocked 19 Aug 2026",
+    "team_wallet_to_exchange_during_pump": "not proven: the wallet named poly-trade.eth sent 1.0M and 2.3M TRADE to a KuCoin deposit on 8 and 9 Dec 2025 (+41.5% and +45.1% days), ~$207k; Arkham does not tie it to Polytrade (self-set ENS name, low confidence), and its two funding Safes carry only generic labels",
+    "entity_concentration": "67.7M (68%) sits in the Ethereum-Polygon bridge; the Polygon-side holders aren't traced"
+  },
+  "price_usd": 0.02016,
+  "price_source": "CoinGecko, 16 Nov 2026 ~10:10 AM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Holding TRADE gives no claim on marketplace fees and buybacks are only an intent, so revenue does not reach holders.",
+    "pump_day_price_source": "KuCoin TRADE-USDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x142aafa73c530652882e9a1e649db7e81299858c",
+        "label": "poly-trade.eth (self-set ENS name)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0xcd982a503070ae0cebb404cf23ca8a00dee7ff7e",
+        "label": "Generic Gnosis Safes (funded poly-trade.eth)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x8be0fc5b051a0b110b4d23c9eeb04906b9212cba",
+        "label": "Generic Gnosis Safes (funded poly-trade.eth)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0xc8b4b6785d5aa23f31037003abeba528f103cebd",
+        "label": "Polytrade Finance: Gnosis Safe Proxy",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x520763c1ebda04dac9a6077a41ccc703ff22a9f8",
+        "label": "LockReleaseTokenPool (verified contract)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + Etherscan verified source"
+      },
+      {
+        "address": "0x40ec5b33f54e0e8a33a975908c5ba1c14e5bbbdf",
+        "label": "Polygon: ERC20 Bridge (67.66M TRADE)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + Etherscan"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.02016,
+    "market_cap_text": "$2.02M",
+    "fdv_text": "$2.02M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/TRADE.md",
+    "sha256": "a3d7bf806d7450935be785f3c9c9037f8135ed6542f7aff2ab70f52692eb95df",
+    "bytes": 13518,
+    "extracted_at": "2026-11-16 12:31 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~10:10 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "poly-trade.eth → KuCoin 1.0M, 8 Dec 2025",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "poly-trade.eth → KuCoin 2.3M, 9 Dec 2025",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "poly-trade.eth → KuCoin 0.95M, 17 Nov 2025",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x142aafa73c530652882e9a1e649db7e81299858c",
+      "url": "https://intel.arkm.com/explorer/address/0x142aafa73c530652882e9a1e649db7e81299858c",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x40ec5b33f54e0e8a33a975908c5ba1c14e5bbbdf",
+      "url": "https://intel.arkm.com/explorer/address/0x40ec5b33f54e0e8a33a975908c5ba1c14e5bbbdf",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x520763c1ebda04dac9a6077a41ccc703ff22a9f8",
+      "url": "https://intel.arkm.com/explorer/address/0x520763c1ebda04dac9a6077a41ccc703ff22a9f8",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x8be0fc5b051a0b110b4d23c9eeb04906b9212cba",
+      "url": "https://intel.arkm.com/explorer/address/0x8be0fc5b051a0b110b4d23c9eeb04906b9212cba",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xc8b4b6785d5aa23f31037003abeba528f103cebd",
+      "url": "https://intel.arkm.com/explorer/address/0xc8b4b6785d5aa23f31037003abeba528f103cebd",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xcd982a503070ae0cebb404cf23ca8a00dee7ff7e",
+      "url": "https://intel.arkm.com/explorer/address/0xcd982a503070ae0cebb404cf23ca8a00dee7ff7e",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "KuCoin TRADE-USDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not proven: the wallet named poly-trade.eth sent 1.0M and 2.3M TRADE to a KuCoin deposit on 8 and 9 Dec 2025 (+41.5% and +45.1% days), ~$207k; Arkham does not tie it to Polytrade (self-set ENS name, low confidence), and its two funding Safes carry only generic labels"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - The platform charges fees on its marketplace ([polytrade.finance](https://polytrade.finance/), [Edge docs](https://edge.polytrade.app/docs)). Holding TRADE gives no claim on them, and buybacks are only described as an intent. **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules): No.** Holding TRADE gives no..."
+  },
+  "attributions": [
+    {
+      "address": "0x142aafa73c530652882e9a1e649db7e81299858c",
+      "url": null,
+      "label": "project or individual-labelled wallet",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xcd982a503070ae0cebb404cf23ca8a00dee7ff7e",
+      "url": null,
+      "label": "project or individual-labelled wallet",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8be0fc5b051a0b110b4d23c9eeb04906b9212cba",
+      "url": null,
+      "label": "project or individual-labelled wallet",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xc8b4b6785d5aa23f31037003abeba528f103cebd",
+      "url": null,
+      "label": "Polytrade Finance: Gnosis Safe Proxy",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x520763c1ebda04dac9a6077a41ccc703ff22a9f8",
+      "url": null,
+      "label": "LockReleaseTokenPool (verified contract)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": "0x40ec5b33f54e0e8a33a975908c5ba1c14e5bbbdf",
+      "url": null,
+      "label": "Polygon: ERC20 Bridge (67.66M TRADE)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": false
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): poly-trade.eth, its two funding Safes, the Polytrade-labelled Safe, the token pool and the Polygon bridge",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [polytrade.finance](https://polytrade.finance/), [Polytrade Edge docs](https://edge.polytrade.app/docs)",
+      "urls": [
+        "polytrade.finance",
+        "Polytrade Edge docs"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] tokenomics.com TRADE allocation and unlock schedule",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan transfers, holders and the ENS name for `0x142a…858c`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `polytrade` (market, venues); pump days from KuCoin TRADE-USDT daily closes",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}

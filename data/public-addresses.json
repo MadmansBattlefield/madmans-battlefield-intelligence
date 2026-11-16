@@ -1,9 +1,9 @@
 {
   "title": "Public addresses examined in published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 12:26 MST",
+  "generated_at": "2026-11-16 12:31 MST",
   "note": "Every address here was extracted from a public evidence link or explorer URL already published in banking-rails/<TICKER>.md. No private worksheets were used. Labels that would name a private individual are not included.",
-  "count": 1147,
+  "count": 1171,
   "addresses": [
     {
       "ticker": "ACH",
@@ -5088,6 +5088,27 @@
       "kind": "address"
     },
     {
+      "ticker": "RIO",
+      "chain": "ethereum",
+      "address": "0x94a8b4ee5cd64c79d0ee816f467ea73009f51aa0",
+      "url": "https://intel.arkm.com/explorer/address/0x94a8b4ee5cd64c79d0ee816f467ea73009f51aa0",
+      "kind": "address"
+    },
+    {
+      "ticker": "RIO",
+      "chain": "ethereum",
+      "address": "0xb9a3dbc207de5309ec7be731467ea4d2c5850442",
+      "url": "https://intel.arkm.com/explorer/address/0xb9a3dbc207de5309ec7be731467ea4d2c5850442",
+      "kind": "address"
+    },
+    {
+      "ticker": "RIO",
+      "chain": "ethereum",
+      "address": "0xdd6eeead61df9d320051838a42311ce8b7e98467",
+      "url": "https://intel.arkm.com/explorer/address/0xdd6eeead61df9d320051838a42311ce8b7e98467",
+      "kind": "address"
+    },
+    {
       "ticker": "RLC",
       "chain": "ethereum",
       "address": "0x4035d72223ae3ef849c50ee6e6d56935dd8c71be",
@@ -5603,6 +5624,69 @@
       "chain": "stellar",
       "address": "GCMKEWP6BZ2NUSE3YSVN37HLPD5H2P6XTYWJZY5J2WDHS7WR37JKJQT5",
       "url": "https://stellar.expert/explorer/public/account/GCMKEWP6BZ2NUSE3YSVN37HLPD5H2P6XTYWJZY5J2WDHS7WR37JKJQT5",
+      "kind": "address"
+    },
+    {
+      "ticker": "SKEY",
+      "chain": "ethereum",
+      "address": "0x013ca139cd701ad530aed2b8327966d1ba5221cf",
+      "url": "https://intel.arkm.com/explorer/address/0x013ca139cd701ad530aed2b8327966d1ba5221cf",
+      "kind": "address"
+    },
+    {
+      "ticker": "SKEY",
+      "chain": "ethereum",
+      "address": "0x1c486b2deed7a34b442616ef50e8b6f86b6ce11d",
+      "url": "https://intel.arkm.com/explorer/address/0x1c486b2deed7a34b442616ef50e8b6f86b6ce11d",
+      "kind": "address"
+    },
+    {
+      "ticker": "SKEY",
+      "chain": "ethereum",
+      "address": "0x29c37a3f88dd39a098ecec16e66e785c155e8b00",
+      "url": "https://intel.arkm.com/explorer/address/0x29c37a3f88dd39a098ecec16e66e785c155e8b00",
+      "kind": "address"
+    },
+    {
+      "ticker": "SKEY",
+      "chain": "ethereum",
+      "address": "0x32eef6c0ab7267e474051351e8c82066d93f4948",
+      "url": "https://intel.arkm.com/explorer/address/0x32eef6c0ab7267e474051351e8c82066d93f4948",
+      "kind": "address"
+    },
+    {
+      "ticker": "SKEY",
+      "chain": "ethereum",
+      "address": "0x4718178ebc45994aad24531c59752d84770c0f56",
+      "url": "https://intel.arkm.com/explorer/address/0x4718178ebc45994aad24531c59752d84770c0f56",
+      "kind": "address"
+    },
+    {
+      "ticker": "SKEY",
+      "chain": "ethereum",
+      "address": "0x8dead771da2a454a615cc38e51f7b12b30993753",
+      "url": "https://intel.arkm.com/explorer/address/0x8dead771da2a454a615cc38e51f7b12b30993753",
+      "kind": "address"
+    },
+    {
+      "ticker": "SKEY",
+      "chain": "ethereum",
+      "address": "0xb448c31db943aafc8abf2aa49abdd2fa76fe2981",
+      "url": "https://intel.arkm.com/explorer/address/0xb448c31db943aafc8abf2aa49abdd2fa76fe2981",
+      "kind": "address"
+    },
+    {
+      "ticker": "SKEY",
+      "chain": "ethereum",
+      "address": "0xc74256c178282e7bf6e697177aeb901aa02e20c9",
+      "url": "https://intel.arkm.com/explorer/address/0xc74256c178282e7bf6e697177aeb901aa02e20c9",
+      "kind": "address"
+    },
+    {
+      "ticker": "SKEY",
+      "chain": "ethereum",
+      "address": "0xcdc41c48b4685102c4e6c9de50b6e9367429e7a6",
+      "url": "https://intel.arkm.com/explorer/address/0xcdc41c48b4685102c4e6c9de50b6e9367429e7a6",
       "kind": "address"
     },
     {
@@ -6737,6 +6821,41 @@
       "chain": "ethereum",
       "address": "0xe80d171dbe7898ef93d0b2be621d2978921c471a",
       "url": "https://etherscan.io/address/0xe80d171dbe7898ef93d0b2be621d2978921c471a",
+      "kind": "address"
+    },
+    {
+      "ticker": "TRADE",
+      "chain": "ethereum",
+      "address": "0x142aafa73c530652882e9a1e649db7e81299858c",
+      "url": "https://intel.arkm.com/explorer/address/0x142aafa73c530652882e9a1e649db7e81299858c",
+      "kind": "address"
+    },
+    {
+      "ticker": "TRADE",
+      "chain": "ethereum",
+      "address": "0x520763c1ebda04dac9a6077a41ccc703ff22a9f8",
+      "url": "https://intel.arkm.com/explorer/address/0x520763c1ebda04dac9a6077a41ccc703ff22a9f8",
+      "kind": "address"
+    },
+    {
+      "ticker": "TRADE",
+      "chain": "ethereum",
+      "address": "0x8be0fc5b051a0b110b4d23c9eeb04906b9212cba",
+      "url": "https://intel.arkm.com/explorer/address/0x8be0fc5b051a0b110b4d23c9eeb04906b9212cba",
+      "kind": "address"
+    },
+    {
+      "ticker": "TRADE",
+      "chain": "ethereum",
+      "address": "0xc8b4b6785d5aa23f31037003abeba528f103cebd",
+      "url": "https://intel.arkm.com/explorer/address/0xc8b4b6785d5aa23f31037003abeba528f103cebd",
+      "kind": "address"
+    },
+    {
+      "ticker": "TRADE",
+      "chain": "ethereum",
+      "address": "0xcd982a503070ae0cebb404cf23ca8a00dee7ff7e",
+      "url": "https://intel.arkm.com/explorer/address/0xcd982a503070ae0cebb404cf23ca8a00dee7ff7e",
       "kind": "address"
     },
     {
@@ -7899,6 +8018,55 @@
       "chain": "ethereum",
       "address": "0xf52f9bdaea64d07b996f0aaf4cc91f1554eea063",
       "url": "https://etherscan.io/address/0xf52f9bdaea64d07b996f0aaf4cc91f1554eea063",
+      "kind": "address"
+    },
+    {
+      "ticker": "ZKJ",
+      "chain": "bsc",
+      "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "url": "https://intel.arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "kind": "address"
+    },
+    {
+      "ticker": "ZKJ",
+      "chain": "bsc",
+      "address": "0x36e2d9f03a3a241603ea5da62d0490a01ea43816",
+      "url": "https://intel.arkm.com/explorer/address/0x36e2d9f03a3a241603ea5da62d0490a01ea43816",
+      "kind": "address"
+    },
+    {
+      "ticker": "ZKJ",
+      "chain": "bsc",
+      "address": "0x8caebe5a5895b5101824b1cd0277d905e82dd988",
+      "url": "https://intel.arkm.com/explorer/address/0x8caebe5a5895b5101824b1cd0277d905e82dd988",
+      "kind": "address"
+    },
+    {
+      "ticker": "ZKJ",
+      "chain": "bsc",
+      "address": "0xb8332a9b674b78f014c7b0d821f8085d79194d58",
+      "url": "https://intel.arkm.com/explorer/address/0xb8332a9b674b78f014c7b0d821f8085d79194d58",
+      "kind": "address"
+    },
+    {
+      "ticker": "ZKJ",
+      "chain": "bsc",
+      "address": "0xcea70aeeac112d2c63d789f9330653906c50bcc4",
+      "url": "https://intel.arkm.com/explorer/address/0xcea70aeeac112d2c63d789f9330653906c50bcc4",
+      "kind": "address"
+    },
+    {
+      "ticker": "ZKJ",
+      "chain": "bsc",
+      "address": "0xdb1a99d729c6fc9039b0a7a2ad424305684cee12",
+      "url": "https://intel.arkm.com/explorer/address/0xdb1a99d729c6fc9039b0a7a2ad424305684cee12",
+      "kind": "address"
+    },
+    {
+      "ticker": "ZKJ",
+      "chain": "bsc",
+      "address": "0xe43470280fdceb239972d1c52fea0e483ef1b6d8",
+      "url": "https://intel.arkm.com/explorer/address/0xe43470280fdceb239972d1c52fea0e483ef1b6d8",
       "kind": "address"
     },
     {

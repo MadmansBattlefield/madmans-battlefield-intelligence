@@ -1,0 +1,392 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "ZKJ",
+  "name": "Polyhedra Network",
+  "chain": "bsc",
+  "contract": "0xc71b5f631354be6853efe9c3ab6b9590f8302e81 (Ethereum and BNB Chain)",
+  "overall_score": 3.8,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 2,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 5,
+    "tokenomics_supply": 3,
+    "liquidity_market": 3,
+    "product_development": 5,
+    "adoption_customers": 3,
+    "security_audits": 6,
+    "regulatory": 5,
+    "catalysts": 3
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 2,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 5,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "no protocol exploit found; Jun 2025 price crash (outside window) blamed by the team on a liquidity attack",
+    "mint_path_live": "no new minting; 670M of 1B unlocked, ~30.1M a month still unlocking",
+    "team_wallet_to_exchange_during_pump": "no: a wallet line receiving 2,083,333 ZKJ a month (matches the 100M/48-month core-contributor schedule) sent each tranche to OKX; other large holders sent to OKX, Bitvavo and Gate; none on an OKX pump day",
+    "entity_concentration": "unlocking allocations still 330M (33%)"
+  },
+  "price_usd": 0.00376029,
+  "price_source": "CoinGecko, 16 Nov 2026 ~10:05 AM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No fee, buyback or burn data is published and the 2025 buybacks are not documented as ongoing, so revenue does not reach holders.",
+    "pump_day_price_source": "OKX ZKJ-USDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0xe43470280fdceb239972d1c52fea0e483ef1b6d8",
+        "label": "Polyhedra Network: Core Contributors (Team Wallet)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham + on-chain 100M allocation"
+      },
+      {
+        "address": "0x36e2d9f03a3a241603ea5da62d0490a01ea43816",
+        "label": "OKX Blockdream Ventures",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0xdb1a99d729c6fc9039b0a7a2ad424305684cee12",
+        "label": "Polyhedra reserves (Ecosystem; Foundation; Community)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x8caebe5a5895b5101824b1cd0277d905e82dd988",
+        "label": "Polyhedra reserves (Ecosystem; Foundation; Community)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0xb8332a9b674b78f014c7b0d821f8085d79194d58",
+        "label": "Polyhedra reserves (Ecosystem; Foundation; Community)",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+        "label": "Revolut: Cold Wallet",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      },
+      {
+        "address": "0xcea70aeeac112d2c63d789f9330653906c50bcc4",
+        "label": "Coinbase Prime Custody (Bitvavo deposit tag)",
+        "confidence": "medium",
+        "independent_corroboration": false,
+        "basis": "Arkham"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.00376029,
+    "market_cap_text": "$2.52M",
+    "fdv_text": "$3.76M"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/ZKJ.md",
+    "sha256": "cd788a8dd8e99dfd7b4f4daf939126834b448a6cfa88deb19042287d8d7017bb",
+    "bytes": 15341,
+    "extracted_at": "2026-11-16 12:31 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko, 16 Nov 2026 ~10:05 AM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": "16 Nov 2026 (signed-in account"
+  },
+  "evidence_links": [
+    {
+      "claim": "Monthly 2,083,333 ZKJ → OKX",
+      "url": "21 Mar",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Monthly 2,083,333 ZKJ → OKX",
+      "url": "27 Apr",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Monthly 2,083,333 ZKJ → OKX",
+      "url": "25 May",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Monthly 2,083,333 ZKJ → OKX",
+      "url": "30 Jun",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "6.0M ZKJ → OKX, 14 Jan 2026",
+      "url": "tx",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "bsc",
+      "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "url": "https://intel.arkm.com/explorer/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x36e2d9f03a3a241603ea5da62d0490a01ea43816",
+      "url": "https://intel.arkm.com/explorer/address/0x36e2d9f03a3a241603ea5da62d0490a01ea43816",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0x8caebe5a5895b5101824b1cd0277d905e82dd988",
+      "url": "https://intel.arkm.com/explorer/address/0x8caebe5a5895b5101824b1cd0277d905e82dd988",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xb8332a9b674b78f014c7b0d821f8085d79194d58",
+      "url": "https://intel.arkm.com/explorer/address/0xb8332a9b674b78f014c7b0d821f8085d79194d58",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xcea70aeeac112d2c63d789f9330653906c50bcc4",
+      "url": "https://intel.arkm.com/explorer/address/0xcea70aeeac112d2c63d789f9330653906c50bcc4",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xdb1a99d729c6fc9039b0a7a2ad424305684cee12",
+      "url": "https://intel.arkm.com/explorer/address/0xdb1a99d729c6fc9039b0a7a2ad424305684cee12",
+      "kind": "address"
+    },
+    {
+      "chain": "bsc",
+      "address": "0xe43470280fdceb239972d1c52fea0e483ef1b6d8",
+      "url": "https://intel.arkm.com/explorer/address/0xe43470280fdceb239972d1c52fea0e483ef1b6d8",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "OKX ZKJ-USDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": false,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: no: a wallet line receiving 2,083,333 ZKJ a month (matches the 100M/48-month core-contributor schedule) sent each tranche to OKX; other large holders sent to OKX, Bitvavo and Gate; none on an OKX pump day"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - ZKJ pays for zkBridge, proof services and EXPchain gas ([tokenomics](https://polyhedra.foundation/tokenomics)), but no fee, buyback or burn data is published. The buybacks promised in 2025 aren't documented as ongoing. **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee, buyback or burn data ..."
+  },
+  "attributions": [
+    {
+      "address": "0xe43470280fdceb239972d1c52fea0e483ef1b6d8",
+      "url": null,
+      "label": "Polyhedra Network: Core Contributors (Team Wallet)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x36e2d9f03a3a241603ea5da62d0490a01ea43816",
+      "url": null,
+      "label": "OKX Blockdream Ventures",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xdb1a99d729c6fc9039b0a7a2ad424305684cee12",
+      "url": null,
+      "label": "Polyhedra reserves (Ecosystem; Foundation; Community)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x8caebe5a5895b5101824b1cd0277d905e82dd988",
+      "url": null,
+      "label": "Polyhedra reserves (Ecosystem; Foundation; Community)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xb8332a9b674b78f014c7b0d821f8085d79194d58",
+      "url": null,
+      "label": "Polyhedra reserves (Ecosystem; Foundation; Community)",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "url": null,
+      "label": "Revolut: Cold Wallet",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xcea70aeeac112d2c63d789f9330653906c50bcc4",
+      "url": null,
+      "label": "Coinbase Prime Custody (Bitvavo deposit tag)",
+      "source": "front_matter",
+      "confidence": "medium",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "exchange",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "B",
+      "text": "[Tier B] Arkham, read 16 Nov 2026 (signed-in account): the Core Contributors, Ecosystem, Foundation Reserves and Community wallets, OKX Blockdream Ventures, and two exchange wallets; dates from Etherscan",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] [Polyhedra tokenomics](https://polyhedra.foundation/tokenomics), [Polyhedra: moving into 2026](https://blog.polyhedra.network/polyhedra-moving-into-2026/)",
+      "urls": [
+        "Polyhedra tokenomics",
+        "Polyhedra: moving into 2026"
+      ],
+      "date_read": null
+    },
+    {
+      "tier": "B",
+      "text": "[Tier B] [CoinDesk, 17 Jun 2025](https://www.coindesk.com/tech/2025/06/17/polyhedra-blames-liquidity-attacks-for-sudden-80-price-drop-in-zkj-promises-buyback), [The Block, 16 Jun 2025](https://www.theblock.co/news/markets/2025-06-16-polyhedra-buybacks-coming-after-token-crash-attack-358442), [Blockworks unlocks](https://app.blockworks.com/projects/polyhedra-network/token-unlocks), [Binance futures delisting record](https://cryptolisting.ws/listings/binance-futures-delisting-zkj-2026-04-23/)",
+      "urls": [
+        "CoinDesk, 17 Jun 2025",
+        "The Block, 16 Jun 2025",
+        "Blockworks unlocks",
+        "Binance futures delisting record"
+      ],
+      "date_read": "17 Jun 2025"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Etherscan transfers and holders for `0xc71b…2e81`",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] CoinGecko `polyhedra-network` (market, venues); pump days from OKX ZKJ-USDT daily closes",
+      "urls": [],
+      "date_read": null
+    }
+  ]
+}
