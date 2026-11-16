@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 58
+scored_reports: 63
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -61,30 +61,41 @@ Ties are broken by how many of the 11 sections passed.
 38. 🔴 **ICP** · 4.3 · ❌ FAIL
 39. 🔴 **ZBCN** · 4.3 · ❌ FAIL
 40. 🔴 **TRAC** · 4.2 · ❌ FAIL
-41. 🔴 **SEI** · 4.0 · ❌ FAIL
-42. 🔴 **KAIA** · 3.9 · ❌ FAIL
-43. 🔴 **INJ** · 3.9 · ❌ FAIL
-44. 🔴 **ZK** · 3.8 · ❌ FAIL
-45. 🔴 **ROSE** · 3.8 · ❌ FAIL
-46. 🔴 **PLUME** · 3.7 · ❌ FAIL
-47. 🔴 **XPL** · 3.7 · ❌ FAIL
-48. 🔴 **SUI** · 3.7 · ❌ FAIL
-49. 🔴 **POLYX** · 3.3 · ❌ FAIL
-50. 🔴 **S** · 3.3 · ❌ FAIL
-51. 🔴 **ZIG** · 3.3 · ❌ FAIL
-52. 🔴 **PACT** · 3.1 · ❌ FAIL
-53. 🔴 **EXA** · 3.1 · ❌ FAIL
-54. 🔴 **JASMY** · 2.8 · ❌ FAIL
-55. 🔴 **SERV** · 2.8 · ❌ FAIL
-56. 🔴 **EDEL** · 2.5 · ❌ FAIL
-57. 🔴 **SPA** · 2.5 · ❌ FAIL
-58. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+41. 🔴 **ETC** · 4.1 · ❌ FAIL
+42. 🔴 **SEI** · 4.0 · ❌ FAIL
+43. 🔴 **KAIA** · 3.9 · ❌ FAIL
+44. 🔴 **INJ** · 3.9 · ❌ FAIL
+45. 🔴 **ZK** · 3.8 · ❌ FAIL
+46. 🔴 **ROSE** · 3.8 · ❌ FAIL
+47. 🔴 **HASH** · 3.8 · ❌ FAIL
+48. 🔴 **PLUME** · 3.7 · ❌ FAIL
+49. 🔴 **XPL** · 3.7 · ❌ FAIL
+50. 🔴 **SUI** · 3.7 · ❌ FAIL
+51. 🔴 **POLYX** · 3.3 · ❌ FAIL
+52. 🔴 **S** · 3.3 · ❌ FAIL
+53. 🔴 **ZIG** · 3.3 · ❌ FAIL
+54. 🔴 **PACT** · 3.1 · ❌ FAIL
+55. 🔴 **EXA** · 3.1 · ❌ FAIL
+56. 🔴 **TLOS** · 3.0 · ❌ FAIL
+57. 🔴 **XDB** · 2.9 · ❌ FAIL
+58. 🔴 **JASMY** · 2.8 · ❌ FAIL
+59. 🔴 **SERV** · 2.8 · ❌ FAIL
+60. 🔴 **MASQ** · 2.7 · ❌ FAIL
+61. 🔴 **EDEL** · 2.5 · ❌ FAIL
+62. 🔴 **SPA** · 2.5 · ❌ FAIL
+63. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**8 of 58 pass.**
+**8 of 63 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Five more v3 reports (seventh batch of the day), all ❌ FAIL: [ETC](ETC.md) enters at #41 with 4.1 / 10 (Revenue gate), [HASH](HASH.md) at #47 with 3.8 (Revenue gate), [TLOS](TLOS.md) at #56 with 3.0 (Revenue and Selling gates), [XDB](XDB.md) at #57 with 2.9 (Revenue and Selling gates) and [MASQ](MASQ.md) at #60 with 2.7 (Revenue gate). Arkham does not support XDB CHAIN, Provenance, Telos or Ethereum Classic. MASQ's Ethereum wallets have not been run on Arkham yet; that is listed as an open item.
+
+Pipeline: [DFI and SPELL moved to the dead group](ALL-PROJECTS.md#dead). DeFiChain's own post says a 3 Nov 2026 overflow exploit created ~184.47B DFI, with no fix or rollback planned, and Bitrue delisted DFI. Abracadabra's wind-down Snapshot vote closed on 15 Oct 2026, and the proposal says SPELL keeps no accounting value until MIM is repaid in full.
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Five more v3 reports (sixth batch of the day), all ❌ FAIL: [BCH](BCH.md) enters at #21 with 5.1 / 10 (Revenue gate), [KAIA](KAIA.md) at #42 with 3.9 (Revenue gate), [ZK](ZK.md) at #44 with 3.8 (Revenue and Selling gates), [XPL](XPL.md) at #47 with 3.7 (Revenue and Selling gates) and [S](S.md) at #50 with 3.3 (Revenue and Selling gates). Arkham does not support ZKsync Era, Plasma, Sonic, Kaia or Bitcoin Cash, so those five rest on chain explorers and official sources only. BCH has no insider wallets to check.
 
@@ -590,7 +601,18 @@ Score changes from that research:
 
 ---
 
-## #41 · SEI · Sei
+## #41 · ETC · Ethereum Classic
+
+### 4.1 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** Clean, capped PoW supply with no insiders, but almost no fees, few users and a rentable hashrate. Arkham does not cover Ethereum Classic, and there are no team wallets to look up.
+- 📄 [Full ETC report](ETC.md)
+
+---
+
+## #42 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -601,7 +623,7 @@ Score changes from that research:
 
 ---
 
-## #42 · KAIA · Kaia
+## #43 · KAIA · Kaia
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -612,7 +634,7 @@ Score changes from that research:
 
 ---
 
-## #43 · INJ · Injective
+## #44 · INJ · Injective
 
 ### 3.9 / 10 · ❌ FAIL
 
@@ -623,7 +645,7 @@ Score changes from that research:
 
 ---
 
-## #44 · ZK · ZKsync
+## #45 · ZK · ZKsync
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -634,7 +656,7 @@ Score changes from that research:
 
 ---
 
-## #45 · ROSE · Oasis Network
+## #46 · ROSE · Oasis Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -645,7 +667,18 @@ Score changes from that research:
 
 ---
 
-## #46 · PLUME · Plume
+## #47 · HASH · Provenance Blockchain
+
+### 3.8 / 10 · ❌ FAIL
+
+- **Sections passed:** 1 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A real RWA chain with real fees, but Figure-controlled supply, no protocol revenue since April and almost no market. Arkham does not cover Provenance.
+- 📄 [Full HASH report](HASH.md)
+
+---
+
+## #48 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -656,7 +689,7 @@ Score changes from that research:
 
 ---
 
-## #47 · XPL · Plasma
+## #49 · XPL · Plasma
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -667,7 +700,7 @@ Score changes from that research:
 
 ---
 
-## #48 · SUI · Sui
+## #50 · SUI · Sui
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -678,7 +711,7 @@ Score changes from that research:
 
 ---
 
-## #49 · POLYX · Polymesh
+## #51 · POLYX · Polymesh
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -689,7 +722,7 @@ Score changes from that research:
 
 ---
 
-## #50 · S · Sonic
+## #52 · S · Sonic
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -700,7 +733,7 @@ Score changes from that research:
 
 ---
 
-## #51 · ZIG · ZIGChain (Zignaly)
+## #53 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -711,7 +744,7 @@ Score changes from that research:
 
 ---
 
-## #52 · PACT · PACT
+## #54 · PACT · PACT
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -722,7 +755,7 @@ Score changes from that research:
 
 ---
 
-## #53 · EXA · Exactly Protocol
+## #55 · EXA · Exactly Protocol
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -733,7 +766,29 @@ Score changes from that research:
 
 ---
 
-## #54 · JASMY · JasmyCoin
+## #56 · TLOS · Telos
+
+### 3.0 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A tiny-fee chain whose Foundation expense account feeds exchange deposits, including on pump days. Arkham does not cover Telos.
+- 📄 [Full TLOS report](TLOS.md)
+
+---
+
+## #57 · XDB · XDB CHAIN (formerly DigitalBits)
+
+### 2.9 / 10 · ❌ FAIL
+
+- **Sections passed:** 1 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A near-idle Stellar fork with no fee income, ~$14k of daily volume, and a treasury that fed exchange deposits. Arkham does not cover XDB CHAIN.
+- 📄 [Full XDB report](XDB.md)
+
+---
+
+## #58 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -744,7 +799,7 @@ Score changes from that research:
 
 ---
 
-## #55 · SERV · OpenServ
+## #59 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -755,7 +810,18 @@ Score changes from that research:
 
 ---
 
-## #56 · EDEL · Edel Finance
+## #60 · MASQ · MASQ
+
+### 2.7 / 10 · ❌ FAIL
+
+- **Sections passed:** 1 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** A fixed-supply token with no revenue, almost no volume, and a project now run under another project's custody. MASQ's Ethereum wallets are still to be checked on Arkham.
+- 📄 [Full MASQ report](MASQ.md)
+
+---
+
+## #61 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -766,7 +832,7 @@ Score changes from that research:
 
 ---
 
-## #57 · SPA · Sperax
+## #62 · SPA · Sperax
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -777,7 +843,7 @@ Score changes from that research:
 
 ---
 
-## #58 · ROUTER · Solrouter
+## #63 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 

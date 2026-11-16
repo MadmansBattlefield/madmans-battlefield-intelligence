@@ -244,6 +244,11 @@
       "layout": "v3"
     },
     {
+      "id": "ETC",
+      "path": "banking-rails/ETC.md",
+      "layout": "v3"
+    },
+    {
       "id": "ETH",
       "path": "banking-rails/ETH.md",
       "layout": "v3"
@@ -251,6 +256,11 @@
     {
       "id": "EXA",
       "path": "banking-rails/EXA.md",
+      "layout": "v3"
+    },
+    {
+      "id": "HASH",
+      "path": "banking-rails/HASH.md",
       "layout": "v3"
     },
     {
@@ -296,6 +306,11 @@
     {
       "id": "LINK",
       "path": "banking-rails/LINK.md",
+      "layout": "v3"
+    },
+    {
+      "id": "MASQ",
+      "path": "banking-rails/MASQ.md",
       "layout": "v3"
     },
     {
@@ -394,8 +409,18 @@
       "layout": "v3"
     },
     {
+      "id": "TLOS",
+      "path": "banking-rails/TLOS.md",
+      "layout": "v3"
+    },
+    {
       "id": "TRAC",
       "path": "banking-rails/TRAC.md",
+      "layout": "v3"
+    },
+    {
+      "id": "XDB",
+      "path": "banking-rails/XDB.md",
       "layout": "v3"
     },
     {

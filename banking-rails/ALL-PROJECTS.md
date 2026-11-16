@@ -1,7 +1,7 @@
 ---
 title: All projects
 total: 293
-scored_reports: 58
+scored_reports: 63
 passing: 8
 last_updated: 2026-11-16
 timezone: MST
@@ -14,9 +14,9 @@ disclaimer: Research only. Not financial advice. Not a recommendation to buy or 
 **Research only. Not financial advice. Not a recommendation to buy or sell.**
 Updated 16 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md). Market and status figures in the unfinished groups were read 16 Nov 2026 5:24 AM MST from [CoinGecko](https://www.coingecko.com/), [DefiLlama](https://defillama.com/) and [CoinPaprika](https://coinpaprika.com/).
 
-**293 coins** in the research pipeline. **58** have a full v3 report. **8 pass** and **50 fail.** The other **235** are still in progress, grouped by how close each is to a full report.
+**293 coins** in the research pipeline. **63** have a full v3 report. **8 pass** and **55 fail.** The other **230** are still in progress, grouped by how close each is to a full report.
 
-**58** ✅ done · **6** 🟢 close · **168** 🟡 need wallet work · **35** 🔴 big gaps · **26** ⚫ dead or wound down (12 of them [Unverified])
+**63** ✅ done · **3** 🟢 close · **164** 🟡 need wallet work · **35** 🔴 big gaps · **28** ⚫ dead or wound down (12 of them [Unverified])
 
 - [✅ Done (v3 reports)](#done)
 - [🟢 Close](#close)
@@ -36,7 +36,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 <a id="done"></a>
 ## ✅ Done (v3 reports)
 
-**58 reports. 8 pass, 50 fail.** A score of 6.0 or more is a PASS. If Revenue or Selling scores 3 or less, it's an automatic FAIL.
+**63 reports. 8 pass, 55 fail.** A score of 6.0 or more is a PASS. If Revenue or Selling scores 3 or less, it's an automatic FAIL.
 
 | # | Coin | Name | Score | Status | What sinks it |
 |:---:|---|---|---:|:---:|---|
@@ -80,47 +80,49 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 38 | [ICP](ICP.md) | Internet Computer | 4.3 | ❌ FAIL | Revenue gate |
 | 39 | [ZBCN](ZBCN.md) | Zebec Network | 4.3 | ❌ FAIL | Selling gate |
 | 40 | [TRAC](TRAC.md) | OriginTrail | 4.2 | ❌ FAIL | Revenue gate |
-| 41 | [SEI](SEI.md) | Sei | 4.0 | ❌ FAIL | Revenue gate |
-| 42 | [KAIA](KAIA.md) | Kaia | 3.9 | ❌ FAIL | Revenue gate |
-| 43 | [INJ](INJ.md) | Injective | 3.9 | ❌ FAIL | Revenue gate |
-| 44 | [ZK](ZK.md) | ZKsync | 3.8 | ❌ FAIL | Revenue and Selling gates |
-| 45 | [ROSE](ROSE.md) | Oasis Network | 3.8 | ❌ FAIL | Revenue gate |
-| 46 | [PLUME](PLUME.md) | Plume | 3.7 | ❌ FAIL | Revenue gate |
-| 47 | [XPL](XPL.md) | Plasma | 3.7 | ❌ FAIL | Revenue and Selling gates |
-| 48 | [SUI](SUI.md) | Sui | 3.7 | ❌ FAIL | Revenue and Selling gates |
-| 49 | [POLYX](POLYX.md) | Polymesh | 3.3 | ❌ FAIL | Revenue and Selling gates |
-| 50 | [S](S.md) | Sonic | 3.3 | ❌ FAIL | Revenue and Selling gates |
-| 51 | [ZIG](ZIG.md) | ZIGChain (Zignaly) | 3.3 | ❌ FAIL | Revenue and Selling gates |
-| 52 | [PACT](PACT.md) | PACT | 3.1 | ❌ FAIL | Revenue and Selling gates |
-| 53 | [EXA](EXA.md) | Exactly Protocol | 3.1 | ❌ FAIL | Revenue gate |
-| 54 | [JASMY](JASMY.md) | JasmyCoin | 2.8 | ❌ FAIL | Revenue and Selling gates |
-| 55 | [SERV](SERV.md) | OpenServ | 2.8 | ❌ FAIL | Revenue and Selling gates |
-| 56 | [EDEL](EDEL.md) | Edel Finance | 2.5 | ❌ FAIL | Revenue and Selling gates |
-| 57 | [SPA](SPA.md) | Sperax | 2.5 | ❌ FAIL | Revenue and Selling gates |
-| 58 | [ROUTER](ROUTER.md) | Solrouter | 2.2 | ❌ FAIL | Revenue and Selling gates |
+| 41 | [ETC](ETC.md) | Ethereum Classic | 4.1 | ❌ FAIL | Revenue gate |
+| 42 | [SEI](SEI.md) | Sei | 4.0 | ❌ FAIL | Revenue gate |
+| 43 | [KAIA](KAIA.md) | Kaia | 3.9 | ❌ FAIL | Revenue gate |
+| 44 | [INJ](INJ.md) | Injective | 3.9 | ❌ FAIL | Revenue gate |
+| 45 | [ZK](ZK.md) | ZKsync | 3.8 | ❌ FAIL | Revenue and Selling gates |
+| 46 | [ROSE](ROSE.md) | Oasis Network | 3.8 | ❌ FAIL | Revenue gate |
+| 47 | [HASH](HASH.md) | Provenance Blockchain | 3.8 | ❌ FAIL | Revenue gate |
+| 48 | [PLUME](PLUME.md) | Plume | 3.7 | ❌ FAIL | Revenue gate |
+| 49 | [XPL](XPL.md) | Plasma | 3.7 | ❌ FAIL | Revenue and Selling gates |
+| 50 | [SUI](SUI.md) | Sui | 3.7 | ❌ FAIL | Revenue and Selling gates |
+| 51 | [POLYX](POLYX.md) | Polymesh | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 52 | [S](S.md) | Sonic | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 53 | [ZIG](ZIG.md) | ZIGChain (Zignaly) | 3.3 | ❌ FAIL | Revenue and Selling gates |
+| 54 | [PACT](PACT.md) | PACT | 3.1 | ❌ FAIL | Revenue and Selling gates |
+| 55 | [EXA](EXA.md) | Exactly Protocol | 3.1 | ❌ FAIL | Revenue gate |
+| 56 | [TLOS](TLOS.md) | Telos | 3.0 | ❌ FAIL | Revenue and Selling gates |
+| 57 | [XDB](XDB.md) | XDB CHAIN (formerly DigitalBits) | 2.9 | ❌ FAIL | Revenue and Selling gates |
+| 58 | [JASMY](JASMY.md) | JasmyCoin | 2.8 | ❌ FAIL | Revenue and Selling gates |
+| 59 | [SERV](SERV.md) | OpenServ | 2.8 | ❌ FAIL | Revenue and Selling gates |
+| 60 | [MASQ](MASQ.md) | MASQ | 2.7 | ❌ FAIL | Revenue gate |
+| 61 | [EDEL](EDEL.md) | Edel Finance | 2.5 | ❌ FAIL | Revenue and Selling gates |
+| 62 | [SPA](SPA.md) | Sperax | 2.5 | ❌ FAIL | Revenue and Selling gates |
+| 63 | [ROUTER](ROUTER.md) | Solrouter | 2.2 | ❌ FAIL | Revenue and Selling gates |
 
 ---
 
 <a id="close"></a>
 ## 🟢 Close
 
-**6 coins.** Most of the data is already in hand. The first 15 are next in the [Next up](#next) list.
+**3 coins.** Most of the data is already in hand. The first 15 are next in the [Next up](#next) list.
 
 | Ticker | Name | Mcap | 24h vol | 30d fees | 30d rev | Red flag | Links | What's missing | Queue |
 |---|---|---:|---:|---:|---:|---|---|---|---|
 | COTI | COTI | $25.24M | $15.19M | $3.24 | — | — | [CoinGecko](https://www.coingecko.com/en/coins/coti) · [DefiLlama](https://defillama.com/chain/Coti) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Sec | — |
 | BAND | Band Protocol | $27.02M | $938.95k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/band-protocol) | Missing: Liq, Reg · Partial: Rev, Sell, Sec | — |
 | PROPC | Propchain | $2.83M | $55.9k | — | — | — | [CoinGecko](https://www.coingecko.com/en/coins/propchain) | Missing: Liq, Reg · Partial: Rev, Team, Sell, Prod, Sec | — |
-| XDB | XDB Chain | $891.18k | $17.73k | — | — | dying: mcap <$1M | [CoinGecko](https://www.coingecko.com/en/coins/digitalbits) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Sec | — |
-| DFI | DeFiChain | $1.33M | $153.69 | — | — | dying: 24h vol <$10k | [Site](https://defichain.com/dex) · [CoinGecko](https://www.coingecko.com/en/coins/defichain) · [DefiLlama](https://defillama.com/chain/DefiChain) | Missing: Liq, Adopt, Reg · Partial: Rev, Sell, Prod, Sec | — |
-| MASQ | MASQ Network | $171.75k | $26.48 | — | — | dying: mcap <$1M; dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/masq) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Prod, Sec | — |
 
 ---
 
 <a id="wallet"></a>
 ## 🟡 Need wallet work
 
-**168 coins.** These still need the team-wallet and pump-day tracing. The [Next up](#next) names are listed first, then the rest by 30-day DefiLlama fees or revenue, then 24h volume.
+**164 coins.** These still need the team-wallet and pump-day tracing. The [Next up](#next) names are listed first, then the rest by 30-day DefiLlama fees or revenue, then 24h volume.
 
 | Ticker | Name | Mcap | 24h vol | 30d fees | 30d rev | Red flag | Links | What's missing |
 |---|---|---:|---:|---:|---:|---|---|---|
@@ -129,12 +131,8 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | CPOOL | Clearpool | — | $1.71M | $30.32k | $0 | mcap unreported | [Site](https://vaults.clearpool.finance/) · [CoinGecko](https://www.coingecko.com/en/coins/clearpool) · [DefiLlama](https://defillama.com/protocol/clearpool-tpool) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Prod, Sec |
 | W | Wormhole | $58.64M | $9.91M | $15.39k | $0 | — | [Site](https://portalbridge.com) · [CoinGecko](https://www.coingecko.com/en/coins/wormhole) · [DefiLlama](https://defillama.com/protocol/portal) | Missing: Liq, Reg · Partial: Team, Hold, Sell, Adopt, Sec |
 | CRO | Cronos / Crypto.com | $2.21B | $5.29M | $13.64k | $0 | — | [Site](https://crypto.com/defi/swap) · [CoinGecko](https://www.coingecko.com/en/coins/crypto-com-chain) · [DefiLlama](https://defillama.com/chain/Cronos) | Missing: Liq · Partial: Team, Hold, Sell, Sec |
-| HASH | Provenance Blockchain | $391.19M | $2.28k | $493.18k | $0 | dying: 24h vol <$10k | [CoinGecko](https://www.coingecko.com/en/coins/hash-2) · [DefiLlama](https://defillama.com/chain/Provenance) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Prod, Sec, Catal |
 | AXL | Axelar | $40.82M | $2.97M | $1.78k | $0 | — | [Site](https://axelar.network) · [CoinGecko](https://www.coingecko.com/en/coins/axelar) · [DefiLlama](https://defillama.com/protocol/axelar) | Missing: Liq, Reg · Partial: Hold, Sell, Sec |
 | XDC | XDC Network | $580.27M | $10.87M | $494.62 | $0 | — | [Site](https://xinfin.org/) · [CoinGecko](https://www.coingecko.com/en/coins/xdce-crowd-sale) · [DefiLlama](https://defillama.com/chain/XDC) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Sec |
-| SPELL | Abracadabra.money Spell token | $10.91M | $1.24M | $337.74 | $337.7 | — | [CoinGecko](https://www.coingecko.com/en/coins/spell-token) · [DefiLlama](https://defillama.com/protocol/abracadabra-spell) | Missing: Rev, Liq, Reg · Partial: Team, Sell, Token, Adopt, Sec, Catal |
-| TLOS | Telos | $5.72M | $306.81k | $267.85 | — | — | [CoinGecko](https://www.coingecko.com/en/coins/telos) · [DefiLlama](https://defillama.com/chain/Telos) | Missing: Rev, Liq, Reg · Partial: Team, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
-| ETC | Ethereum Classic | $933.04M | $18.55M | $262.38 | — | — | [CoinGecko](https://www.coingecko.com/en/coins/ethereum-classic) · [DefiLlama](https://defillama.com/chain/EthereumClassic) | Missing: Rev, Team, Liq, Reg · Partial: Hold, Sell, Prod, Adopt, Sec |
 | IOTX | IoTeX | $22.72M | $795.79k | $199.18 | $0 | — | [Site](https://iotex.io/) · [CoinGecko](https://www.coingecko.com/en/coins/iotex) · [DefiLlama](https://defillama.com/chain/IoTeX) | Missing: Liq, Reg · Partial: Hold, Sell, Token, Prod, Adopt, Sec, Catal |
 | FXS | Frax Share | $19.73M | $371.99k | $91.81 | $91.81 | — | [CoinGecko](https://www.coingecko.com/en/coins/frax-share) · [DefiLlama](https://defillama.com/chain/Fraxtal) | Missing: Rev, Hold, Sell, Liq, Adopt, Reg · Partial: Token, Prod, Sec, Catal |
 | ASTR | Astar | $39.23M | $843.7k | $82.76 | $66.24 | — | [Site](https://astar.network) · [CoinGecko](https://www.coingecko.com/en/coins/astar) · [DefiLlama](https://defillama.com/chain/Astar) | Missing: Liq, Reg · Partial: Rev, Hold, Sell, Token, Prod, Adopt, Sec, Catal |
@@ -343,7 +341,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 <a id="dead"></a>
 ## ⚫ Dead or wound down
 
-**26 coins**, **12 of them [Unverified]**. The unverified names were delisted or inactive in this pass, but no official shutdown notice was re-read. The others have an official wind-down or a historical collapse. A leftover ticker does not undo a shutdown.
+**28 coins**, **12 of them [Unverified]**. The unverified names were delisted or inactive in this pass, but no official shutdown notice was re-read. The others have an official wind-down or a historical collapse. A leftover ticker does not undo a shutdown.
 
 | Ticker | Name | Tag | Reason | Mcap | 24h vol | Red flag | Links |
 |---|---|---|---|---:|---:|---|---|
@@ -351,6 +349,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | ARES | Ares Protocol | [Unverified] | Ares Protocol has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=ARES) |
 | CBL | Credbull | [Unverified] | Credbull has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=CBL) |
 | CREDIX | Credix Finance | [Unverified] | Credix Finance has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=CREDIX) |
+| DFI | DeFiChain | — | Exploit with no fix: DeFiChain's own [post](https://blog.defichain.com/2026/11/a-final-update-from-marketing-sig.html) says a 3 Nov 2026 overflow bug in account-to-account transfers created ~184.47B DFI (over 140x the ~1.3B intended max supply) and that no corrective node release or rollback will be pursued. Its only listed CEX, Bitrue, [delisted DFI](https://support.bitrue.com/hc/en-001/articles/64117793028121-Bitrue-Will-Delist-DeFiChain-DFI) (deposits and trading closed, withdrawals until 14 Nov 2026). The Marketing SIG [announced](https://t.me/s/defichain_announcements/1840) all channels and sites would close on 14 Nov 2026; on 14 Nov a community group [said](https://t.me/s/defichain_announcements/1841) it is keeping channels open and restoring sites, but no exploit fix has been announced. | $1.33M | $153.69 | unfixed supply exploit (official post); dying: 24h vol <$10k | [Site](https://defichain.com/dex) · [CoinGecko](https://www.coingecko.com/en/coins/defichain) · [DefiLlama](https://defillama.com/chain/DefiChain) |
 | FITFI | Step App | — | Step App officially announced on 5 Aug 2026 that all services would shut down by 21 Aug 2026. | $5.5k | $40.31 | dying: mcap <$1M; dying: 24h vol <$10k; not listed on CoinGecko; official shutdown | [CoinPaprika](https://coinpaprika.com/coin/fitfi-stepapp-fitfi/) |
 | FRA | Findora | [Unverified] | Findora has no CoinGecko listing and CoinPaprika’s ticker API returns 404 for ico-findora (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=FRA) · [DefiLlama](https://defillama.com/protocol/Findora) |
 | GFI | Goldfinch | — | Goldfinch token holders passed GIP-87 in June 2026 to wind down Goldfinch Prime and put the protocol into maintenance mode, with no new development. | $2.42M | $16.11k | official shutdown | [Site](https://goldfinch.finance) · [CoinGecko](https://www.coingecko.com/en/coins/goldfinch) · [DefiLlama](https://defillama.com/protocol/goldfinch) |
@@ -366,6 +365,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | REG | RealT | — | RealT stopped most weekly distributions in Feb 2026. On 2 Jul 2026 a co-founder announced a voluntary liquidation and planned sale of the property portfolio. A formal court liquidation filing was not independently confirmed in this scan [Unverified]. DefiLlama still shows large RealT token TVL. | $423.2k | $1.54 | dying: mcap <$1M; dying: 24h vol <$10k; official shutdown | [CoinGecko](https://www.coingecko.com/en/coins/realtoken-ecosystem-governance) |
 | ROUTE | Router Protocol | — | Router Protocol officially announced it would wind down and fully close by 30 Sep 2026, including a treasury burn of 303,333,198 ROUTE and exchange delistings. Only the CoinGecko [OLD] listing remains. | — | $29.99 | dying: 24h vol <$10k; official shutdown; mcap unreported | [CoinGecko](https://www.coingecko.com/en/coins/route) |
 | SNP | Synapse Network | [Unverified] | Synapse Network (SNP, not the SYN bridge) has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=SNP) |
+| SPELL | Abracadabra.money Spell token | — | Official wind-down: Abracadabra's ["Refined proposal for an orderly wind down of MIM and Abracadabra"](https://snapshot.box/#/s:abracadabrabymerlinthemagician.eth/proposal/0x917c7a04fc4665028cb2701ab140462096362d22ea91137518f0ab23385776fd) closed on 15 Oct 2026 with 396.16M SPELL for, from two voters. It passed under the proposal's own 30% quorum rule; the Snapshot space's 3B quorum was not met, so the pass is disputed. The proposal says MIM is senior to SPELL and "SPELL token does not retain any accounting value" until MIM is repaid in full; recoveries go to MIM holders and borrowers, and SPELL holders get nothing. | $10.91M | $1.24M | official shutdown | [CoinGecko](https://www.coingecko.com/en/coins/spell-token) · [DefiLlama](https://defillama.com/protocol/abracadabra-spell) |
 | SUTER | Suterusu | [Unverified] | Suterusu has no CoinGecko listing and CoinPaprika’s ticker API returns 404 (listed inactive). Official shutdown notice not confirmed this pass [Unverified]. | — | — | not listed on CoinGecko; [Unverified] delisted / inactive | [CoinGecko](https://www.coingecko.com/en/search?query=SUTER) |
 | TICS | Qubetics | — | Qubetics L1 ceased in mid-Sep 2026 and $TICS migrated 1:1 to Ethereum. Official 6 Oct 2026 blog: the project is not commissioning further L1, chain-abstraction or dVPN development, and it burned the entire team token allocation. | $107.46k | $19.46k | dying: mcap <$1M; official shutdown | [CoinGecko](https://www.coingecko.com/en/coins/qubetics) |
 | TITAN | Iron Finance TITAN | — | Iron Finance TITAN famously collapsed in a June 2021 bank run. The token is still listed on CoinGecko as IRON Titanium, but the protocol is a historical failure, not an operating product. | $43.45k | $1.27 | dying: mcap <$1M; dying: 24h vol <$10k; historical collapse | [CoinGecko](https://www.coingecko.com/en/coins/iron-titanium-token) |
@@ -420,7 +420,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 34. **KAIA** · Kaia · 30d rev $2.15k, fees $2.76k · 24h vol $3.54M · mcap $187.04M
 35. **BCH** · Bitcoin Cash · 30d rev $0, fees $2.34k · 24h vol $63.6M · mcap $4.11B
 
-**Then the rest of Close:** **COTI**, **BAND**, **PROPC**, **XDB**, **DFI**, **MASQ**.
+**Then the rest of Close:** **COTI**, **BAND**, **PROPC**.
 
 ---
 

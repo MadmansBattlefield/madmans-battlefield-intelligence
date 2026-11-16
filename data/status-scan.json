@@ -3,10 +3,10 @@
   "timezone": "MST",
   "scan_universe": 260,
   "status_counts": {
-    "wallet-work": 183,
+    "wallet-work": 182,
     "big-gaps": 35,
-    "close": 16,
-    "dead": 26
+    "close": 15,
+    "dead": 28
   },
   "in_progress": [
     "SKY",
@@ -1589,9 +1589,10 @@
     {
       "ticker": "DFI",
       "name": "DeFiChain",
-      "status": "close",
-      "reason": "Already in the close group, with live market data from this scan; TVL $931.3k; but 24h volume is under $10k.",
+      "status": "dead",
+      "reason": "Exploit with no fix: DeFiChain's own [post](https://blog.defichain.com/2026/11/a-final-update-from-marketing-sig.html) says a 3 Nov 2026 overflow bug in account-to-account transfers created ~184.47B DFI (over 140x the ~1.3B intended max supply) and that no corrective node release or rollback will be pursued. Its only listed CEX, Bitrue, [delisted DFI](https://support.bitrue.com/hc/en-001/articles/64117793028121-Bitrue-Will-Delist-DeFiChain-DFI) (deposits and trading closed, withdrawals until 14 Nov 2026). The Marketing SIG [announced](https://t.me/s/defichain_announcements/1840) all channels and sites would close on 14 Nov 2026; on 14 Nov a community group [said](https://t.me/s/defichain_announcements/1841) it is keeping channels open and restoring sites, but no exploit fix has been announced.",
       "red_flags": [
+        "unfixed supply exploit (official post)",
         "24h volume under $10k"
       ],
       "identity_note": null,
@@ -1611,7 +1612,7 @@
       "cg_confidence": "high",
       "llama_listed": true,
       "already_v3": false,
-      "checked_at": "16 Nov 2026 5:24 AM MST"
+      "checked_at": "16 Nov 2026 8:35 AM MST"
     },
     {
       "ticker": "DIA",
@@ -5236,9 +5237,11 @@
     {
       "ticker": "SPELL",
       "name": "Abracadabra.money Spell token",
-      "status": "wallet-work",
-      "reason": "Listed on CoinGecko with live market data. DefiLlama 30d fees $337.74. last findable GitHub commit 9 Jun 2026 12:25 PM MST (Abracadabra-money/abracadabra-ui). Team-wallet and pump-day tracing is still outstanding.",
-      "red_flags": [],
+      "status": "dead",
+      "reason": "Official wind-down: Abracadabra's [\"Refined proposal for an orderly wind down of MIM and Abracadabra\"](https://snapshot.box/#/s:abracadabrabymerlinthemagician.eth/proposal/0x917c7a04fc4665028cb2701ab140462096362d22ea91137518f0ab23385776fd) closed on 15 Oct 2026 with 396.16M SPELL for, from two voters. It passed under the proposal's own 30% quorum rule; the Snapshot space's 3B quorum was not met, so the pass is disputed. The proposal says MIM is senior to SPELL and \"SPELL token does not retain any accounting value\" until MIM is repaid in full; recoveries go to MIM holders and borrowers, and SPELL holders get nothing.",
+      "red_flags": [
+        "official shutdown"
+      ],
       "identity_note": null,
       "mcap_usd": 10911619.0,
       "vol24_usd": 1242302.0,
@@ -5256,7 +5259,7 @@
       "cg_confidence": "high",
       "llama_listed": true,
       "already_v3": false,
-      "checked_at": "16 Nov 2026 5:24 AM MST"
+      "checked_at": "16 Nov 2026 8:35 AM MST"
     },
     {
       "ticker": "STBL",
