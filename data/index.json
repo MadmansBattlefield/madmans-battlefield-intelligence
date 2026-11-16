@@ -204,6 +204,11 @@
       "layout": "v3"
     },
     {
+      "id": "ENA",
+      "path": "banking-rails/ENA.md",
+      "layout": "v3"
+    },
+    {
       "id": "ETH",
       "path": "banking-rails/ETH.md",
       "layout": "v3"
@@ -216,6 +221,11 @@
     {
       "id": "JASMY",
       "path": "banking-rails/JASMY.md",
+      "layout": "v3"
+    },
+    {
+      "id": "JST",
+      "path": "banking-rails/JST.md",
       "layout": "v3"
     },
     {
@@ -234,6 +244,11 @@
       "layout": "v3"
     },
     {
+      "id": "PACT",
+      "path": "banking-rails/PACT.md",
+      "layout": "v3"
+    },
+    {
       "id": "PLUME",
       "path": "banking-rails/PLUME.md",
       "layout": "v3"
@@ -241,6 +256,11 @@
     {
       "id": "QNT",
       "path": "banking-rails/QNT.md",
+      "layout": "v3"
+    },
+    {
+      "id": "QUAI",
+      "path": "banking-rails/QUAI.md",
       "layout": "v3"
     },
     {
@@ -256,6 +276,11 @@
     {
       "id": "SERV",
       "path": "banking-rails/SERV.md",
+      "layout": "v3"
+    },
+    {
+      "id": "SKY",
+      "path": "banking-rails/SKY.md",
       "layout": "v3"
     },
     {

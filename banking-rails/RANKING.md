@@ -1,7 +1,7 @@
 ---
 title: Banking rails ranking
 layout_version: 3
-scored_reports: 28
+scored_reports: 33
 last_updated: 2026-11-16
 timezone: MST
 sort: overall_score_desc, then sections_passed_desc
@@ -24,39 +24,52 @@ Ties are broken by how many of the 11 sections passed.
 1. 🟢 **BTC** · 7.3 · ✅ PASS
 2. 🟢 **ETH** · 7.2 · ✅ PASS
 3. 🟢 **LINK** · 6.9 · ✅ PASS
-4. 🟢 **SOL** · 6.6 · ✅ PASS
-5. 🟢 **AERO** · 6.6 · ✅ PASS
-6. 🟢 **CC** · 6.4 · ✅ PASS
-7. 🔴 **XLM** · 5.7 · ❌ FAIL
-8. 🔴 **BNKR** · 5.6 · ❌ FAIL
-9. 🔴 **AVAX** · 5.5 · ❌ FAIL
-10. 🔴 **TAO** · 5.5 · ❌ FAIL
-11. 🔴 **HBAR** · 5.3 · ❌ FAIL
-12. 🔴 **ZRO** · 5.3 · ❌ FAIL
-13. 🔴 **BP** · 5.2 · ❌ FAIL
-14. 🔴 **XRP** · 5.1 · ❌ FAIL
-15. 🔴 **ALGO** · 5.0 · ❌ FAIL
-16. 🔴 **APT** · 5.0 · ❌ FAIL
-17. 🔴 **DASH** · 4.7 · ❌ FAIL
-18. 🔴 **ONDO** · 4.7 · ❌ FAIL
-19. 🔴 **CELO** · 4.7 · ❌ FAIL
-20. 🔴 **QNT** · 4.6 · ❌ FAIL
-21. 🔴 **MNT** · 4.5 · ❌ FAIL
-22. 🔴 **ZBCN** · 4.3 · ❌ FAIL
-23. 🔴 **SEI** · 4.0 · ❌ FAIL
-24. 🔴 **PLUME** · 3.7 · ❌ FAIL
-25. 🔴 **JASMY** · 2.8 · ❌ FAIL
-26. 🔴 **SERV** · 2.8 · ❌ FAIL
-27. 🔴 **EDEL** · 2.5 · ❌ FAIL
-28. 🔴 **ROUTER** · 2.2 · ❌ FAIL
+4. 🟢 **SKY** · 6.8 · ✅ PASS
+5. 🟢 **SOL** · 6.6 · ✅ PASS
+6. 🟢 **AERO** · 6.6 · ✅ PASS
+7. 🟢 **CC** · 6.4 · ✅ PASS
+8. 🔴 **XLM** · 5.7 · ❌ FAIL
+9. 🔴 **ENA** · 5.6 · ❌ FAIL
+10. 🔴 **BNKR** · 5.6 · ❌ FAIL
+11. 🔴 **AVAX** · 5.5 · ❌ FAIL
+12. 🔴 **TAO** · 5.5 · ❌ FAIL
+13. 🔴 **JST** · 5.5 · ❌ FAIL
+14. 🔴 **HBAR** · 5.3 · ❌ FAIL
+15. 🔴 **ZRO** · 5.3 · ❌ FAIL
+16. 🔴 **BP** · 5.2 · ❌ FAIL
+17. 🔴 **XRP** · 5.1 · ❌ FAIL
+18. 🔴 **ALGO** · 5.0 · ❌ FAIL
+19. 🔴 **APT** · 5.0 · ❌ FAIL
+20. 🔴 **QUAI** · 4.9 · ❌ FAIL
+21. 🔴 **DASH** · 4.7 · ❌ FAIL
+22. 🔴 **ONDO** · 4.7 · ❌ FAIL
+23. 🔴 **CELO** · 4.7 · ❌ FAIL
+24. 🔴 **QNT** · 4.6 · ❌ FAIL
+25. 🔴 **MNT** · 4.5 · ❌ FAIL
+26. 🔴 **ZBCN** · 4.3 · ❌ FAIL
+27. 🔴 **SEI** · 4.0 · ❌ FAIL
+28. 🔴 **PLUME** · 3.7 · ❌ FAIL
+29. 🔴 **PACT** · 3.1 · ❌ FAIL
+30. 🔴 **JASMY** · 2.8 · ❌ FAIL
+31. 🔴 **SERV** · 2.8 · ❌ FAIL
+32. 🔴 **EDEL** · 2.5 · ❌ FAIL
+33. 🔴 **ROUTER** · 2.2 · ❌ FAIL
 
-**6 of 28 pass.**
+**7 of 33 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
 
-New v3 report: [QNT](QNT.md) enters at #20 with 4.6 / 10 (❌ FAIL, Selling gate). The labelled Quant team wallet sold into 2021 pump days, and a live crowdsale mint path was confirmed by simulation.
+Five new v3 reports: [SKY](SKY.md) enters at #4 with 6.8 / 10 (✅ PASS), [ENA](ENA.md) at #9 with 5.6 (❌ FAIL, Revenue gate), [JST](JST.md) at #13 with 5.5 (❌ FAIL), [QUAI](QUAI.md) at #20 with 4.9 (❌ FAIL) and [PACT](PACT.md) at #29 with 3.1 (❌ FAIL, Revenue and Selling gates). SKY, ENA and JST were checked against Arkham labels before ranking; Arkham does not cover Aptos (PACT) or Quai.
+
+Score changes from that Arkham pass (first drafts were never published):
+
+- [ENA](ENA.md) 5.4 → 5.6. Holdings 4 → 5 and Selling 4 → 5: the two largest pump-day transfers went into custody (Ethena's own Coinbase Prime account; a Gemini Custody multisig), and 2.15B ENA sits with the treasury company StablecoinX. Still fails the Revenue gate.
+- [JST](JST.md) 5.2 → 5.5. Selling 3 → 5, so the Selling gate no longer trips: the wallet that funded the burns is an HTX hot wallet, so its HTX transfers were exchange-internal, not insider deposits.
+- [SKY](SKY.md) unchanged at 6.8. Arkham names Wintermute as the Liquidity Bootstrapping market maker; the pump-day contributor Safe is still unnamed.
+
+Earlier on 16 Nov: [QNT](QNT.md) entered with 4.6 / 10 (❌ FAIL, Selling gate). The labelled Quant team wallet sold into 2021 pump days, and a live crowdsale mint path was confirmed by simulation.
 
 ---
 
@@ -106,7 +119,18 @@ Score changes from that research:
 
 ---
 
-## #4 · SOL · Solana
+## #4 · SKY · Sky (formerly Maker)
+
+### 6.8 / 10 · ✅ PASS
+
+- **Sections passed:** 10 of 11
+- **Hard gates failed:** none
+- **Verdict:** The rebranded MakerDAO earns real interest income ($129M net over the last year) and sends about half of it to SKY holders through buybacks, staking rewards and burns; every treasury grant is an on-chain vote. Yellow flags: a Launch Project-funded contributor Safe sold ~9.8M SKY on two 2026 pump days, and a 320M-SKY loan to Wintermute (per Arkham) put treasury coins on KuCoin on its listing day.
+- 📄 [Full SKY report](SKY.md)
+
+---
+
+## #5 · SOL · Solana
 
 ### 6.6 / 10 · ✅ PASS
 
@@ -117,7 +141,7 @@ Score changes from that research:
 
 ---
 
-## #5 · AERO · Aero (Aerodrome + Velodrome merger)
+## #6 · AERO · Aero (Aerodrome + Velodrome merger)
 
 ### 6.6 / 10 · ✅ PASS
 
@@ -128,7 +152,7 @@ Score changes from that research:
 
 ---
 
-## #6 · CC · Canton Coin (Canton Network)
+## #7 · CC · Canton Coin (Canton Network)
 
 ### 6.4 / 10 · ✅ PASS
 
@@ -139,7 +163,7 @@ Score changes from that research:
 
 ---
 
-## #7 · XLM · Stellar
+## #8 · XLM · Stellar
 
 ### 5.7 / 10 · ❌ FAIL
 
@@ -150,7 +174,18 @@ Score changes from that research:
 
 ---
 
-## #8 · BNKR · Bankr (BankrCoin)
+## #9 · ENA · Ethena
+
+### 5.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 6 of 11
+- **Hard gates failed:** Revenue
+- **Verdict:** USDe earns real fees ($233M a year), but ENA holders get nothing until the approved fee switch triggers at $7.5B USDe (now $4.85B). Arkham shows the two largest pump-day moves were into custody (Ethena's own Coinbase Prime account, Gemini Custody), but team-funded wallets still fed ~1.6B ENA to exchange, custody and OTC addresses without published schedules.
+- 📄 [Full ENA report](ENA.md)
+
+---
+
+## #10 · BNKR · Bankr (BankrCoin)
 
 ### 5.6 / 10 · ❌ FAIL
 
@@ -161,7 +196,7 @@ Score changes from that research:
 
 ---
 
-## #9 · AVAX · Avalanche
+## #11 · AVAX · Avalanche
 
 ### 5.5 / 10 · ❌ FAIL
 
@@ -172,7 +207,7 @@ Score changes from that research:
 
 ---
 
-## #10 · TAO · Bittensor
+## #12 · TAO · Bittensor
 
 ### 5.5 / 10 · ❌ FAIL
 
@@ -183,7 +218,18 @@ Score changes from that research:
 
 ---
 
-## #11 · HBAR · Hedera
+## #13 · JST · JUST
+
+### 5.5 / 10 · ❌ FAIL
+
+- **Sections passed:** 5 of 11
+- **Hard gates failed:** none
+- **Verdict:** JustLend holds about $6B in deposits and a quarterly buyback has burned 1.775B JST (≈ 18% of max supply). Arkham shows the burns were funded from HTX hot wallets, which clears the earlier insider-deposit flag, but the self-reported income behind the burns is far above DefiLlama's revenue figure and the first 600M block came from one unlabelled whale via HTX.
+- 📄 [Full JST report](JST.md)
+
+---
+
+## #14 · HBAR · Hedera
 
 ### 5.3 / 10 · ❌ FAIL
 
@@ -194,7 +240,7 @@ Score changes from that research:
 
 ---
 
-## #12 · ZRO · LayerZero
+## #15 · ZRO · LayerZero
 
 ### 5.3 / 10 · ❌ FAIL
 
@@ -205,7 +251,7 @@ Score changes from that research:
 
 ---
 
-## #13 · BP · Backpack
+## #16 · BP · Backpack
 
 ### 5.2 / 10 · ❌ FAIL
 
@@ -216,7 +262,7 @@ Score changes from that research:
 
 ---
 
-## #14 · XRP · XRP
+## #17 · XRP · XRP
 
 ### 5.1 / 10 · ❌ FAIL
 
@@ -227,7 +273,7 @@ Score changes from that research:
 
 ---
 
-## #15 · ALGO · Algorand
+## #18 · ALGO · Algorand
 
 ### 5.0 / 10 · ❌ FAIL
 
@@ -238,7 +284,7 @@ Score changes from that research:
 
 ---
 
-## #16 · APT · Aptos
+## #19 · APT · Aptos
 
 ### 5.0 / 10 · ❌ FAIL
 
@@ -249,7 +295,18 @@ Score changes from that research:
 
 ---
 
-## #17 · DASH · Dash
+## #20 · QUAI · Quai Network
+
+### 4.9 / 10 · ❌ FAIL
+
+- **Sections passed:** 5 of 11
+- **Hard gates failed:** none
+- **Verdict:** A proof-of-work Layer 1 whose SOAP program uses merge-mining rewards to buy and burn QUAI (246.6M burned), and insiders gave up most future unlocks. But burn revenue fell ~86% this year, volume is ~$70K a day, and unlabelled genesis wallets send coins to an unidentified hub, including on pump days.
+- 📄 [Full QUAI report](QUAI.md)
+
+---
+
+## #21 · DASH · Dash
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -260,7 +317,7 @@ Score changes from that research:
 
 ---
 
-## #18 · ONDO · Ondo
+## #22 · ONDO · Ondo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -271,7 +328,7 @@ Score changes from that research:
 
 ---
 
-## #19 · CELO · Celo
+## #23 · CELO · Celo
 
 ### 4.7 / 10 · ❌ FAIL
 
@@ -282,7 +339,7 @@ Score changes from that research:
 
 ---
 
-## #20 · QNT · Quant
+## #24 · QNT · Quant
 
 ### 4.6 / 10 · ❌ FAIL
 
@@ -293,7 +350,7 @@ Score changes from that research:
 
 ---
 
-## #21 · MNT · Mantle
+## #25 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -304,7 +361,7 @@ Score changes from that research:
 
 ---
 
-## #22 · ZBCN · Zebec Network
+## #26 · ZBCN · Zebec Network
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -315,7 +372,7 @@ Score changes from that research:
 
 ---
 
-## #23 · SEI · Sei
+## #27 · SEI · Sei
 
 ### 4.0 / 10 · ❌ FAIL
 
@@ -326,7 +383,7 @@ Score changes from that research:
 
 ---
 
-## #24 · PLUME · Plume
+## #28 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -337,7 +394,18 @@ Score changes from that research:
 
 ---
 
-## #25 · JASMY · JasmyCoin
+## #29 · PACT · PACT
+
+### 3.1 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** The Foundation multisig released 3.44B PACT and 1.32B of it reached Gate deposit addresses within about ten hours, on a pump day. The mint is effectively uncapped (25B minted after a six-voter Snapshot), freeze and blocklist powers are on, and a further 6.25B was released in November.
+- 📄 [Full PACT report](PACT.md)
+
+---
+
+## #30 · JASMY · JasmyCoin
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -348,7 +416,7 @@ Score changes from that research:
 
 ---
 
-## #26 · SERV · OpenServ
+## #31 · SERV · OpenServ
 
 ### 2.8 / 10 · ❌ FAIL
 
@@ -359,7 +427,7 @@ Score changes from that research:
 
 ---
 
-## #27 · EDEL · Edel Finance
+## #32 · EDEL · Edel Finance
 
 ### 2.5 / 10 · ❌ FAIL
 
@@ -370,7 +438,7 @@ Score changes from that research:
 
 ---
 
-## #28 · ROUTER · Solrouter
+## #33 · ROUTER · Solrouter
 
 ### 2.2 / 10 · ❌ FAIL
 
