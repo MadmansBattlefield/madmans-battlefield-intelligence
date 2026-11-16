@@ -19,7 +19,7 @@ Start with this file, then `data/index.json`, then the JSON daily files for numb
 - [LICENSE](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/LICENSE): CC BY 4.0
 - [banking-rails/README.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/README.md): folder index for token notes
 - [banking-rails/COVER.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/COVER.md): why the reports exist, v3 methodology, what each section checks
-- [banking-rails/RANKING.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/RANKING.md): all 83 v3 scores, ranked
+- [banking-rails/RANKING.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/RANKING.md): all 88 v3 scores, ranked
 - [banking-rails/ALL-PROJECTS.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ALL-PROJECTS.md): every project in the research pipeline, grouped by status
 - [daily/README.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/daily/README.md): how the daily tape is organized
 
@@ -28,6 +28,7 @@ Start with this file, then `data/index.json`, then the JSON daily files for numb
 - [banking-rails/ADA.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ADA.md): research note for ADA
 - [banking-rails/AERO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/AERO.md): research note for AERO
 - [banking-rails/ALGO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ALGO.md): research note for ALGO
+- [banking-rails/AMP.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/AMP.md): research note for AMP
 - [banking-rails/API3.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/API3.md): research note for API3
 - [banking-rails/APT.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/APT.md): research note for APT
 - [banking-rails/ARB.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ARB.md): research note for ARB
@@ -46,6 +47,7 @@ Start with this file, then `data/index.json`, then the JSON daily files for numb
 - [banking-rails/COTI.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/COTI.md): research note for COTI
 - [banking-rails/CPOOL.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/CPOOL.md): research note for CPOOL
 - [banking-rails/CRO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/CRO.md): research note for CRO
+- [banking-rails/CSPR.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/CSPR.md): research note for CSPR
 - [banking-rails/DASH.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/DASH.md): research note for DASH
 - [banking-rails/DOT.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/DOT.md): research note for DOT
 - [banking-rails/EDEL.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/EDEL.md): research note for EDEL
@@ -58,6 +60,7 @@ Start with this file, then `data/index.json`, then the JSON daily files for numb
 - [banking-rails/HASH.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/HASH.md): research note for HASH
 - [banking-rails/HBAR.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/HBAR.md): research note for HBAR
 - [banking-rails/HONEY.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/HONEY.md): research note for HONEY
+- [banking-rails/HTX.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/HTX.md): research note for HTX
 - [banking-rails/HUMA.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/HUMA.md): research note for HUMA
 - [banking-rails/HYPER.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/HYPER.md): research note for HYPER
 - [banking-rails/ICP.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/ICP.md): research note for ICP
@@ -68,6 +71,7 @@ Start with this file, then `data/index.json`, then the JSON daily files for numb
 - [banking-rails/JST.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/JST.md): research note for JST
 - [banking-rails/KAIA.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/KAIA.md): research note for KAIA
 - [banking-rails/KAIO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/KAIO.md): research note for KAIO
+- [banking-rails/KAVA.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/KAVA.md): research note for KAVA
 - [banking-rails/LINK.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/LINK.md): research note for LINK
 - [banking-rails/MASQ.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/MASQ.md): research note for MASQ
 - [banking-rails/MNT.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/MNT.md): research note for MNT
@@ -93,6 +97,7 @@ Start with this file, then `data/index.json`, then the JSON daily files for numb
 - [banking-rails/SUI.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SUI.md): research note for SUI
 - [banking-rails/SYRUP.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/SYRUP.md): research note for SYRUP
 - [banking-rails/TAO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/TAO.md): research note for TAO
+- [banking-rails/TFUEL.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/TFUEL.md): research note for TFUEL
 - [banking-rails/TLOS.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/TLOS.md): research note for TLOS
 - [banking-rails/TRAC.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/TRAC.md): research note for TRAC
 - [banking-rails/VELO.md](https://raw.githubusercontent.com/MadmansBattlefield/madmans-battlefield-intelligence/main/banking-rails/VELO.md): research note for VELO

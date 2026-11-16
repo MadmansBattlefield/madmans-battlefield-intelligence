@@ -164,6 +164,11 @@
       "layout": "v3"
     },
     {
+      "id": "AMP",
+      "path": "banking-rails/AMP.md",
+      "layout": "v3"
+    },
+    {
       "id": "API3",
       "path": "banking-rails/API3.md",
       "layout": "v3"
@@ -254,6 +259,11 @@
       "layout": "v3"
     },
     {
+      "id": "CSPR",
+      "path": "banking-rails/CSPR.md",
+      "layout": "v3"
+    },
+    {
       "id": "DASH",
       "path": "banking-rails/DASH.md",
       "layout": "v3"
@@ -314,6 +324,11 @@
       "layout": "v3"
     },
     {
+      "id": "HTX",
+      "path": "banking-rails/HTX.md",
+      "layout": "v3"
+    },
+    {
       "id": "HUMA",
       "path": "banking-rails/HUMA.md",
       "layout": "v3"
@@ -361,6 +376,11 @@
     {
       "id": "KAIO",
       "path": "banking-rails/KAIO.md",
+      "layout": "v3"
+    },
+    {
+      "id": "KAVA",
+      "path": "banking-rails/KAVA.md",
       "layout": "v3"
     },
     {
@@ -486,6 +506,11 @@
     {
       "id": "TAO",
       "path": "banking-rails/TAO.md",
+      "layout": "v3"
+    },
+    {
+      "id": "TFUEL",
+      "path": "banking-rails/TFUEL.md",
       "layout": "v3"
     },
     {
