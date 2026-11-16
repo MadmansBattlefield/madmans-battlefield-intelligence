@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 14:59 MST",
+  "generated_at": "2026-11-16 15:02 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -205,6 +205,12 @@
       "json": "data/reports/AMP.json"
     },
     {
+      "id": "AON",
+      "path": "banking-rails/AON.md",
+      "layout": "v3",
+      "json": "data/reports/AON.json"
+    },
+    {
       "id": "API3",
       "path": "banking-rails/API3.md",
       "layout": "v3",
@@ -313,6 +319,12 @@
       "json": "data/reports/CARDWALLET.json"
     },
     {
+      "id": "CASHLINK",
+      "path": "banking-rails/CASHLINK.md",
+      "layout": "v3",
+      "json": "data/reports/CASHLINK.json"
+    },
+    {
       "id": "CC",
       "path": "banking-rails/CC.md",
       "layout": "v3",
@@ -379,6 +391,12 @@
       "json": "data/reports/CRO.json"
     },
     {
+      "id": "CRYSTAL",
+      "path": "banking-rails/CRYSTAL.md",
+      "layout": "v3",
+      "json": "data/reports/CRYSTAL.json"
+    },
+    {
       "id": "CSPR",
       "path": "banking-rails/CSPR.md",
       "layout": "v3",
@@ -397,6 +415,12 @@
       "json": "data/reports/CTK.json"
     },
     {
+      "id": "CTRLALT",
+      "path": "banking-rails/CTRLALT.md",
+      "layout": "v3",
+      "json": "data/reports/CTRLALT.json"
+    },
+    {
       "id": "CTX",
       "path": "banking-rails/CTX.md",
       "layout": "v3",
@@ -407,6 +431,12 @@
       "path": "banking-rails/DASH.md",
       "layout": "v3",
       "json": "data/reports/DASH.json"
+    },
+    {
+      "id": "DCJPY",
+      "path": "banking-rails/DCJPY.md",
+      "layout": "v3",
+      "json": "data/reports/DCJPY.json"
     },
     {
       "id": "DIA",
@@ -509,6 +539,12 @@
       "path": "banking-rails/EXA.md",
       "layout": "v3",
       "json": "data/reports/EXA.json"
+    },
+    {
+      "id": "FIGR",
+      "path": "banking-rails/FIGR.md",
+      "layout": "v3",
+      "json": "data/reports/FIGR.json"
     },
     {
       "id": "FXS",
@@ -661,6 +697,12 @@
       "json": "data/reports/KTA.json"
     },
     {
+      "id": "LIBEARA",
+      "path": "banking-rails/LIBEARA.md",
+      "layout": "v3",
+      "json": "data/reports/LIBEARA.json"
+    },
+    {
       "id": "LINGO",
       "path": "banking-rails/LINGO.md",
       "layout": "v3",
@@ -671,6 +713,12 @@
       "path": "banking-rails/LINK.md",
       "layout": "v3",
       "json": "data/reports/LINK.json"
+    },
+    {
+      "id": "LOFTY",
+      "path": "banking-rails/LOFTY.md",
+      "layout": "v3",
+      "json": "data/reports/LOFTY.json"
     },
     {
       "id": "LUMIA",
@@ -731,6 +779,12 @@
       "path": "banking-rails/MOCA.md",
       "layout": "v3",
       "json": "data/reports/MOCA.json"
+    },
+    {
+      "id": "MORPH",
+      "path": "banking-rails/MORPH.md",
+      "layout": "v3",
+      "json": "data/reports/MORPH.json"
     },
     {
       "id": "MTL",
@@ -1003,6 +1057,12 @@
       "json": "data/reports/STBL.json"
     },
     {
+      "id": "STOKR",
+      "path": "banking-rails/STOKR.md",
+      "layout": "v3",
+      "json": "data/reports/STOKR.json"
+    },
+    {
       "id": "SUI",
       "path": "banking-rails/SUI.md",
       "layout": "v3",
@@ -1236,5 +1296,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 178
+  "scored_reports": 188
 }

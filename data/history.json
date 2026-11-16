@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:59 MST",
+  "generated_at": "2026-11-16 15:02 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -92,7 +92,32 @@
     {
       "ticker": "ADEL",
       "path": "banking-rails/ADEL.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1a2440a50c3b0bf9e92ecd630f7cf7abb0c58b7d",
+          "committed_at_mst": "2026-11-16 14:59 MST",
+          "subject": "STEP 4: v3 reports HAI BKN CPH DOVU CTX IXS HECTO BPRO ADEL CARDWALLET",
+          "overall_score": 1.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 2,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 0,
+            "product_development": 1,
+            "adoption_customers": 0,
+            "security_audits": 3,
+            "regulatory": 5,
+            "catalysts": 0
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "AEON",
@@ -233,6 +258,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "AON",
+      "path": "banking-rails/AON.md",
+      "versions": []
     },
     {
       "ticker": "API3",
@@ -551,7 +581,32 @@
     {
       "ticker": "BKN",
       "path": "banking-rails/BKN.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1a2440a50c3b0bf9e92ecd630f7cf7abb0c58b7d",
+          "committed_at_mst": "2026-11-16 14:59 MST",
+          "subject": "STEP 4: v3 reports HAI BKN CPH DOVU CTX IXS HECTO BPRO ADEL CARDWALLET",
+          "overall_score": 3.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 2,
+            "product_development": 5,
+            "adoption_customers": 4,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "BLZ",
@@ -668,7 +723,32 @@
     {
       "ticker": "BPRO",
       "path": "banking-rails/BPRO.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1a2440a50c3b0bf9e92ecd630f7cf7abb0c58b7d",
+          "committed_at_mst": "2026-11-16 14:59 MST",
+          "subject": "STEP 4: v3 reports HAI BKN CPH DOVU CTX IXS HECTO BPRO ADEL CARDWALLET",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 1,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "BTC",
@@ -757,6 +837,36 @@
     {
       "ticker": "CARDWALLET",
       "path": "banking-rails/CARDWALLET.md",
+      "versions": [
+        {
+          "commit": "1a2440a50c3b0bf9e92ecd630f7cf7abb0c58b7d",
+          "committed_at_mst": "2026-11-16 14:59 MST",
+          "subject": "STEP 4: v3 reports HAI BKN CPH DOVU CTX IXS HECTO BPRO ADEL CARDWALLET",
+          "overall_score": 1.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 2,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 2,
+            "liquidity_market": 0,
+            "product_development": 2,
+            "adoption_customers": 1,
+            "security_audits": 4,
+            "regulatory": 5,
+            "catalysts": 0
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "CASHLINK",
+      "path": "banking-rails/CASHLINK.md",
       "versions": []
     },
     {
@@ -1099,7 +1209,32 @@
     {
       "ticker": "CPH",
       "path": "banking-rails/CPH.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1a2440a50c3b0bf9e92ecd630f7cf7abb0c58b7d",
+          "committed_at_mst": "2026-11-16 14:59 MST",
+          "subject": "STEP 4: v3 reports HAI BKN CPH DOVU CTX IXS HECTO BPRO ADEL CARDWALLET",
+          "overall_score": 2.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 3,
+            "selling_behavior": 4,
+            "tokenomics_supply": 1,
+            "liquidity_market": 1,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "CPOOL",
@@ -1186,6 +1321,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "CRYSTAL",
+      "path": "banking-rails/CRYSTAL.md",
+      "versions": []
     },
     {
       "ticker": "CSPR",
@@ -1278,9 +1418,39 @@
       ]
     },
     {
+      "ticker": "CTRLALT",
+      "path": "banking-rails/CTRLALT.md",
+      "versions": []
+    },
+    {
       "ticker": "CTX",
       "path": "banking-rails/CTX.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1a2440a50c3b0bf9e92ecd630f7cf7abb0c58b7d",
+          "committed_at_mst": "2026-11-16 14:59 MST",
+          "subject": "STEP 4: v3 reports HAI BKN CPH DOVU CTX IXS HECTO BPRO ADEL CARDWALLET",
+          "overall_score": 3.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 1,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "DASH",
@@ -1311,6 +1481,11 @@
           "last_updated": "2026-11-15"
         }
       ]
+    },
+    {
+      "ticker": "DCJPY",
+      "path": "banking-rails/DCJPY.md",
+      "versions": []
     },
     {
       "ticker": "DIA",
@@ -1375,7 +1550,32 @@
     {
       "ticker": "DOVU",
       "path": "banking-rails/DOVU.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1a2440a50c3b0bf9e92ecd630f7cf7abb0c58b7d",
+          "committed_at_mst": "2026-11-16 14:59 MST",
+          "subject": "STEP 4: v3 reports HAI BKN CPH DOVU CTX IXS HECTO BPRO ADEL CARDWALLET",
+          "overall_score": 3.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 1,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "DUSK",
@@ -1797,6 +1997,11 @@
       ]
     },
     {
+      "ticker": "FIGR",
+      "path": "banking-rails/FIGR.md",
+      "versions": []
+    },
+    {
       "ticker": "FXS",
       "path": "banking-rails/FXS.md",
       "versions": [
@@ -1957,7 +2162,32 @@
     {
       "ticker": "HAI",
       "path": "banking-rails/HAI.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1a2440a50c3b0bf9e92ecd630f7cf7abb0c58b7d",
+          "committed_at_mst": "2026-11-16 14:59 MST",
+          "subject": "STEP 4: v3 reports HAI BKN CPH DOVU CTX IXS HECTO BPRO ADEL CARDWALLET",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 2,
+            "product_development": 4,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "HASH",
@@ -2022,7 +2252,32 @@
     {
       "ticker": "HECTO",
       "path": "banking-rails/HECTO.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1a2440a50c3b0bf9e92ecd630f7cf7abb0c58b7d",
+          "committed_at_mst": "2026-11-16 14:59 MST",
+          "subject": "STEP 4: v3 reports HAI BKN CPH DOVU CTX IXS HECTO BPRO ADEL CARDWALLET",
+          "overall_score": 2.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 1,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "HIVE",
@@ -2397,7 +2652,32 @@
     {
       "ticker": "IXS",
       "path": "banking-rails/IXS.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "1a2440a50c3b0bf9e92ecd630f7cf7abb0c58b7d",
+          "committed_at_mst": "2026-11-16 14:59 MST",
+          "subject": "STEP 4: v3 reports HAI BKN CPH DOVU CTX IXS HECTO BPRO ADEL CARDWALLET",
+          "overall_score": 3.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 1,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "JASMY",
@@ -2610,6 +2890,11 @@
       ]
     },
     {
+      "ticker": "LIBEARA",
+      "path": "banking-rails/LIBEARA.md",
+      "versions": []
+    },
+    {
       "ticker": "LINGO",
       "path": "banking-rails/LINGO.md",
       "versions": [
@@ -2666,6 +2951,11 @@
           "last_updated": "2026-11-15"
         }
       ]
+    },
+    {
+      "ticker": "LOFTY",
+      "path": "banking-rails/LOFTY.md",
+      "versions": []
     },
     {
       "ticker": "LUMIA",
@@ -2966,6 +3256,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "MORPH",
+      "path": "banking-rails/MORPH.md",
+      "versions": []
     },
     {
       "ticker": "MTL",
@@ -4804,6 +5099,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "STOKR",
+      "path": "banking-rails/STOKR.md",
+      "versions": []
     },
     {
       "ticker": "SUI",
