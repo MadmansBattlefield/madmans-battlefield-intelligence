@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 14:44 MST",
+  "generated_at": "2026-11-16 14:48 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -217,6 +217,12 @@
       "json": "data/reports/ARB.json"
     },
     {
+      "id": "ARRR",
+      "path": "banking-rails/ARRR.md",
+      "layout": "v3",
+      "json": "data/reports/ARRR.json"
+    },
+    {
       "id": "ASTR",
       "path": "banking-rails/ASTR.md",
       "layout": "v3",
@@ -331,6 +337,18 @@
       "json": "data/reports/CSPR.json"
     },
     {
+      "id": "CTC",
+      "path": "banking-rails/CTC.md",
+      "layout": "v3",
+      "json": "data/reports/CTC.json"
+    },
+    {
+      "id": "CTK",
+      "path": "banking-rails/CTK.md",
+      "layout": "v3",
+      "json": "data/reports/CTK.json"
+    },
+    {
       "id": "DASH",
       "path": "banking-rails/DASH.md",
       "layout": "v3",
@@ -367,6 +385,12 @@
       "json": "data/reports/EDEN.json"
     },
     {
+      "id": "EL",
+      "path": "banking-rails/EL.md",
+      "layout": "v3",
+      "json": "data/reports/EL.json"
+    },
+    {
       "id": "ENA",
       "path": "banking-rails/ENA.md",
       "layout": "v3",
@@ -383,6 +407,12 @@
       "path": "banking-rails/ETH.md",
       "layout": "v3",
       "json": "data/reports/ETH.json"
+    },
+    {
+      "id": "ETN",
+      "path": "banking-rails/ETN.md",
+      "layout": "v3",
+      "json": "data/reports/ETN.json"
     },
     {
       "id": "EURE",
@@ -517,6 +547,12 @@
       "json": "data/reports/KAVA.json"
     },
     {
+      "id": "KTA",
+      "path": "banking-rails/KTA.md",
+      "layout": "v3",
+      "json": "data/reports/KTA.json"
+    },
+    {
       "id": "LINK",
       "path": "banking-rails/LINK.md",
       "layout": "v3",
@@ -527,6 +563,12 @@
       "path": "banking-rails/LUMIA.md",
       "layout": "v3",
       "json": "data/reports/LUMIA.json"
+    },
+    {
+      "id": "MAPO",
+      "path": "banking-rails/MAPO.md",
+      "layout": "v3",
+      "json": "data/reports/MAPO.json"
     },
     {
       "id": "MASQ",
@@ -541,10 +583,22 @@
       "json": "data/reports/MBG.json"
     },
     {
+      "id": "METAL",
+      "path": "banking-rails/METAL.md",
+      "layout": "v3",
+      "json": "data/reports/METAL.json"
+    },
+    {
       "id": "MINA",
       "path": "banking-rails/MINA.md",
       "layout": "v3",
       "json": "data/reports/MINA.json"
+    },
+    {
+      "id": "MNSRY",
+      "path": "banking-rails/MNSRY.md",
+      "layout": "v3",
+      "json": "data/reports/MNSRY.json"
     },
     {
       "id": "MNT",
@@ -557,6 +611,12 @@
       "path": "banking-rails/MOCA.md",
       "layout": "v3",
       "json": "data/reports/MOCA.json"
+    },
+    {
+      "id": "MTL",
+      "path": "banking-rails/MTL.md",
+      "layout": "v3",
+      "json": "data/reports/MTL.json"
     },
     {
       "id": "NEXA",
@@ -1056,5 +1116,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 148
+  "scored_reports": 158
 }

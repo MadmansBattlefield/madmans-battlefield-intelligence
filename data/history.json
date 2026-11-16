@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:44 MST",
+  "generated_at": "2026-11-16 14:48 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -34,9 +34,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -64,9 +64,9 @@
       "path": "banking-rails/ADA.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -94,9 +94,9 @@
       "path": "banking-rails/AEON.md",
       "versions": [
         {
-          "commit": "aa945b13420e4d40d5424c2324715e9f291b3dcf",
-          "committed_at_mst": "2026-11-16 12:24 MST",
-          "subject": "extract_reports: read 16 Nov 2026 methodology fields from front matter (flat or nested), explicit 'Reaches holders'/'Holder test' lines take precedence, fix 'Reaches holders: no' parsed as yes, carry the penalty flag and front-matter attributions; MINA/IOST/ACH/AEON/GRND methodology fields moved to the flat front-matter layout (no score change, base rates unchanged)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -146,9 +146,9 @@
           "last_updated": "2026-11-14"
         },
         {
-          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
-          "committed_at_mst": "2026-11-16 14:02 MST",
-          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 6.6,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -174,9 +174,9 @@
       "path": "banking-rails/ALGO.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -204,9 +204,9 @@
       "path": "banking-rails/AMP.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -282,9 +282,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -310,9 +310,9 @@
       "path": "banking-rails/APT.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -340,9 +340,9 @@
       "path": "banking-rails/ARB.md",
       "versions": [
         {
-          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
-          "committed_at_mst": "2026-11-16 14:06 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -364,13 +364,18 @@
       ]
     },
     {
+      "ticker": "ARRR",
+      "path": "banking-rails/ARRR.md",
+      "versions": []
+    },
+    {
       "ticker": "ASTR",
       "path": "banking-rails/ASTR.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -398,9 +403,9 @@
       "path": "banking-rails/AVAX.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -428,9 +433,9 @@
       "path": "banking-rails/AXL.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -458,9 +463,9 @@
       "path": "banking-rails/BAND.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -488,9 +493,9 @@
       "path": "banking-rails/BCH.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -518,9 +523,9 @@
       "path": "banking-rails/BNKR.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -570,9 +575,9 @@
           "last_updated": "2026-11-14"
         },
         {
-          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
-          "committed_at_mst": "2026-11-16 14:06 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -600,9 +605,9 @@
       "path": "banking-rails/BTC.md",
       "versions": [
         {
-          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
-          "committed_at_mst": "2026-11-16 14:02 MST",
-          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 7.3,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -628,9 +633,9 @@
       "path": "banking-rails/BTT.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -656,9 +661,9 @@
       "path": "banking-rails/CARDS.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -684,9 +689,9 @@
       "path": "banking-rails/CC.md",
       "versions": [
         {
-          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
-          "committed_at_mst": "2026-11-16 14:02 MST",
-          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 6.4,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -712,9 +717,9 @@
       "path": "banking-rails/CELO.md",
       "versions": [
         {
-          "commit": "6c1a9e1705466b9ebc02fb5011c853e061147521",
-          "committed_at_mst": "2026-11-16 14:20 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 2 (ADA-CELO, 14 reports); penalty on API3",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -742,9 +747,9 @@
       "path": "banking-rails/CELR.md",
       "versions": [
         {
-          "commit": "91b6ac13a276ba2cda9cb0adc687109cc3eba74a",
-          "committed_at_mst": "2026-11-16 12:34 MST",
-          "subject": "v3: EURE, CELR, LUMIA, EDEN, DIA with Arkham attributions (16 Nov 2026 rules); LUMIA Selling 3->4",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -821,9 +826,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "4dd43075d37d224b475abe6c8b01175e23013408",
-          "committed_at_mst": "2026-11-16 14:40 MST",
-          "subject": "One-hop amendment (16 Nov 2026): METHODOLOGY rule; re-score CFG FXS INV ONDO SOLV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -851,9 +856,9 @@
       "path": "banking-rails/CFX.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -931,9 +936,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -986,9 +991,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1017,9 +1022,9 @@
       "path": "banking-rails/CRO.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1047,9 +1052,9 @@
       "path": "banking-rails/CSPR.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1073,13 +1078,23 @@
       ]
     },
     {
+      "ticker": "CTC",
+      "path": "banking-rails/CTC.md",
+      "versions": []
+    },
+    {
+      "ticker": "CTK",
+      "path": "banking-rails/CTK.md",
+      "versions": []
+    },
+    {
       "ticker": "DASH",
       "path": "banking-rails/DASH.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1107,9 +1122,9 @@
       "path": "banking-rails/DIA.md",
       "versions": [
         {
-          "commit": "91b6ac13a276ba2cda9cb0adc687109cc3eba74a",
-          "committed_at_mst": "2026-11-16 12:34 MST",
-          "subject": "v3: EURE, CELR, LUMIA, EDEN, DIA with Arkham attributions (16 Nov 2026 rules); LUMIA Selling 3->4",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1137,9 +1152,9 @@
       "path": "banking-rails/DOT.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1167,9 +1182,9 @@
       "path": "banking-rails/DUSK.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1197,9 +1212,9 @@
       "path": "banking-rails/EDEL.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1228,9 +1243,9 @@
       "path": "banking-rails/EDEN.md",
       "versions": [
         {
-          "commit": "91b6ac13a276ba2cda9cb0adc687109cc3eba74a",
-          "committed_at_mst": "2026-11-16 12:34 MST",
-          "subject": "v3: EURE, CELR, LUMIA, EDEN, DIA with Arkham attributions (16 Nov 2026 rules); LUMIA Selling 3->4",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1254,13 +1269,18 @@
       ]
     },
     {
+      "ticker": "EL",
+      "path": "banking-rails/EL.md",
+      "versions": []
+    },
+    {
       "ticker": "ENA",
       "path": "banking-rails/ENA.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1288,9 +1308,9 @@
       "path": "banking-rails/ETC.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1318,9 +1338,9 @@
       "path": "banking-rails/ETH.md",
       "versions": [
         {
-          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
-          "committed_at_mst": "2026-11-16 14:02 MST",
-          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 7.2,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -1342,13 +1362,18 @@
       ]
     },
     {
+      "ticker": "ETN",
+      "path": "banking-rails/ETN.md",
+      "versions": []
+    },
+    {
       "ticker": "EURE",
       "path": "banking-rails/EURE.md",
       "versions": [
         {
-          "commit": "73d9a3c5104abac699d4748c5a18c3a35504bbc9",
-          "committed_at_mst": "2026-11-16 13:58 MST",
-          "subject": "RBNT Selling 4->1 (one-hop genesis-funded pump-day sale, silence penalty); ORBITER genesis attribution note; EURE largest holder verified",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1376,9 +1401,9 @@
       "path": "banking-rails/EWT.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1406,9 +1431,9 @@
       "path": "banking-rails/EXA.md",
       "versions": [
         {
-          "commit": "52a7999b23b67c9d9b717db9b816d860b6156d64",
-          "committed_at_mst": "2026-11-16 14:21 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 3 (CFG-EXA, 14 reports); penalty on CFG (adds Selling gate), COTI, CPOOL",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1502,6 +1527,30 @@
           },
           "gates_failed": [],
           "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
+          "overall_score": 4.2,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 4,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 1,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 7,
+            "adoption_customers": 5,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 5
+          },
+          "gates_failed": [
+            "selling_behavior"
+          ],
+          "last_updated": "2026-11-16"
         }
       ]
     },
@@ -1510,9 +1559,9 @@
       "path": "banking-rails/GRND.md",
       "versions": [
         {
-          "commit": "aa945b13420e4d40d5424c2324715e9f291b3dcf",
-          "committed_at_mst": "2026-11-16 12:24 MST",
-          "subject": "extract_reports: read 16 Nov 2026 methodology fields from front matter (flat or nested), explicit 'Reaches holders'/'Holder test' lines take precedence, fix 'Reaches holders: no' parsed as yes, carry the penalty flag and front-matter attributions; MINA/IOST/ACH/AEON/GRND methodology fields moved to the flat front-matter layout (no score change, base rates unchanged)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1540,9 +1589,9 @@
       "path": "banking-rails/H.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1570,9 +1619,9 @@
       "path": "banking-rails/HASH.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1600,9 +1649,9 @@
       "path": "banking-rails/HBAR.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1630,9 +1679,9 @@
       "path": "banking-rails/HONEY.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1660,9 +1709,9 @@
       "path": "banking-rails/HTX.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1688,9 +1737,9 @@
       "path": "banking-rails/HUMA.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1768,9 +1817,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1798,9 +1847,9 @@
       "path": "banking-rails/ICP.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1828,9 +1877,9 @@
       "path": "banking-rails/INJ.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1880,9 +1929,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "4dd43075d37d224b475abe6c8b01175e23013408",
-          "committed_at_mst": "2026-11-16 14:40 MST",
-          "subject": "One-hop amendment (16 Nov 2026): METHODOLOGY rule; re-score CFG FXS INV ONDO SOLV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1910,9 +1959,9 @@
       "path": "banking-rails/IOST.md",
       "versions": [
         {
-          "commit": "aa945b13420e4d40d5424c2324715e9f291b3dcf",
-          "committed_at_mst": "2026-11-16 12:24 MST",
-          "subject": "extract_reports: read 16 Nov 2026 methodology fields from front matter (flat or nested), explicit 'Reaches holders'/'Holder test' lines take precedence, fix 'Reaches holders: no' parsed as yes, carry the penalty flag and front-matter attributions; MINA/IOST/ACH/AEON/GRND methodology fields moved to the flat front-matter layout (no score change, base rates unchanged)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1940,9 +1989,9 @@
       "path": "banking-rails/IOTX.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -1970,9 +2019,9 @@
       "path": "banking-rails/JASMY.md",
       "versions": [
         {
-          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
-          "committed_at_mst": "2026-11-16 14:06 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2001,9 +2050,9 @@
       "path": "banking-rails/JST.md",
       "versions": [
         {
-          "commit": "e75648fb1b7af28c9f76262d4eaa20595c78ccde",
-          "committed_at_mst": "2026-11-16 14:29 MST",
-          "subject": "v3: 16 Nov 2026 rules, JST (last pre-16-Nov report); no score change",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2029,9 +2078,9 @@
       "path": "banking-rails/KAIA.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2059,9 +2108,9 @@
       "path": "banking-rails/KAIO.md",
       "versions": [
         {
-          "commit": "a1cdce3a8c66b6874034fc074b901c3819517762",
-          "committed_at_mst": "2026-11-16 14:23 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 4 (FXS-KAIO, 14 reports); penalty on FXS and INV (add Selling gate), HYPER",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2090,9 +2139,9 @@
       "path": "banking-rails/KAVA.md",
       "versions": [
         {
-          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
-          "committed_at_mst": "2026-11-16 14:24 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2116,13 +2165,18 @@
       ]
     },
     {
+      "ticker": "KTA",
+      "path": "banking-rails/KTA.md",
+      "versions": []
+    },
+    {
       "ticker": "LINK",
       "path": "banking-rails/LINK.md",
       "versions": [
         {
-          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
-          "committed_at_mst": "2026-11-16 14:02 MST",
-          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 6.9,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -2148,9 +2202,9 @@
       "path": "banking-rails/LUMIA.md",
       "versions": [
         {
-          "commit": "91b6ac13a276ba2cda9cb0adc687109cc3eba74a",
-          "committed_at_mst": "2026-11-16 12:34 MST",
-          "subject": "v3: EURE, CELR, LUMIA, EDEN, DIA with Arkham attributions (16 Nov 2026 rules); LUMIA Selling 3->4",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2174,13 +2228,18 @@
       ]
     },
     {
+      "ticker": "MAPO",
+      "path": "banking-rails/MAPO.md",
+      "versions": []
+    },
+    {
       "ticker": "MASQ",
       "path": "banking-rails/MASQ.md",
       "versions": [
         {
-          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
-          "committed_at_mst": "2026-11-16 14:24 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2208,9 +2267,9 @@
       "path": "banking-rails/MBG.md",
       "versions": [
         {
-          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
-          "committed_at_mst": "2026-11-16 14:24 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2234,13 +2293,18 @@
       ]
     },
     {
+      "ticker": "METAL",
+      "path": "banking-rails/METAL.md",
+      "versions": []
+    },
+    {
       "ticker": "MINA",
       "path": "banking-rails/MINA.md",
       "versions": [
         {
-          "commit": "aa945b13420e4d40d5424c2324715e9f291b3dcf",
-          "committed_at_mst": "2026-11-16 12:24 MST",
-          "subject": "extract_reports: read 16 Nov 2026 methodology fields from front matter (flat or nested), explicit 'Reaches holders'/'Holder test' lines take precedence, fix 'Reaches holders: no' parsed as yes, carry the penalty flag and front-matter attributions; MINA/IOST/ACH/AEON/GRND methodology fields moved to the flat front-matter layout (no score change, base rates unchanged)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2264,13 +2328,18 @@
       ]
     },
     {
+      "ticker": "MNSRY",
+      "path": "banking-rails/MNSRY.md",
+      "versions": []
+    },
+    {
       "ticker": "MNT",
       "path": "banking-rails/MNT.md",
       "versions": [
         {
-          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
-          "committed_at_mst": "2026-11-16 14:24 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2298,9 +2367,9 @@
       "path": "banking-rails/MOCA.md",
       "versions": [
         {
-          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
-          "committed_at_mst": "2026-11-16 14:24 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2324,13 +2393,18 @@
       ]
     },
     {
+      "ticker": "MTL",
+      "path": "banking-rails/MTL.md",
+      "versions": []
+    },
+    {
       "ticker": "NEXA",
       "path": "banking-rails/NEXA.md",
       "versions": [
         {
-          "commit": "3539092358e08132fddaf85da70e5ffd60071dee",
-          "committed_at_mst": "2026-11-16 12:36 MST",
-          "subject": "v3: RBNT, SUPRA, SCRT, QANX, NEXA with Arkham attributions (16 Nov 2026 rules)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2358,9 +2432,9 @@
       "path": "banking-rails/NIGHT.md",
       "versions": [
         {
-          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
-          "committed_at_mst": "2026-11-16 14:24 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2388,9 +2462,9 @@
       "path": "banking-rails/NUVA.md",
       "versions": [
         {
-          "commit": "f1614856538c7c95dd2b54d9bd9fb8a3add92838",
-          "committed_at_mst": "2026-11-16 13:54 MST",
-          "subject": "v3: NUVA, PALMUSD, REALIZ, RISE, SIBERIUM (Big gaps; 16 Nov 2026 rules, no Arkham pass); PALMUSD Holdings 1->2",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2418,9 +2492,9 @@
       "path": "banking-rails/OM.md",
       "versions": [
         {
-          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
-          "committed_at_mst": "2026-11-16 14:24 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2521,9 +2595,9 @@
           "last_updated": "2026-11-15"
         },
         {
-          "commit": "4dd43075d37d224b475abe6c8b01175e23013408",
-          "committed_at_mst": "2026-11-16 14:40 MST",
-          "subject": "One-hop amendment (16 Nov 2026): METHODOLOGY rule; re-score CFG FXS INV ONDO SOLV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2551,9 +2625,9 @@
       "path": "banking-rails/ORAI.md",
       "versions": [
         {
-          "commit": "3ea77bb5c78ec358fec796c31e14bad7e7a8aca5",
-          "committed_at_mst": "2026-11-16 12:31 MST",
-          "subject": "v3: ORAI, SKEY, ZKJ, TRADE, RIO with Arkham attributions (16 Nov 2026 rules); TRADE Selling 3->4, SKEY Selling 6->4",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2581,9 +2655,9 @@
       "path": "banking-rails/ORBITER.md",
       "versions": [
         {
-          "commit": "73d9a3c5104abac699d4748c5a18c3a35504bbc9",
-          "committed_at_mst": "2026-11-16 13:58 MST",
-          "subject": "RBNT Selling 4->1 (one-hop genesis-funded pump-day sale, silence penalty); ORBITER genesis attribution note; EURE largest holder verified",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2636,9 +2710,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2667,9 +2741,9 @@
       "path": "banking-rails/PALMUSD.md",
       "versions": [
         {
-          "commit": "f1614856538c7c95dd2b54d9bd9fb8a3add92838",
-          "committed_at_mst": "2026-11-16 13:54 MST",
-          "subject": "v3: NUVA, PALMUSD, REALIZ, RISE, SIBERIUM (Big gaps; 16 Nov 2026 rules, no Arkham pass); PALMUSD Holdings 1->2",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2722,9 +2796,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2778,9 +2852,9 @@
           "last_updated": "2026-11-14"
         },
         {
-          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
-          "committed_at_mst": "2026-11-16 14:06 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2833,9 +2907,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2864,9 +2938,9 @@
       "path": "banking-rails/PRO.md",
       "versions": [
         {
-          "commit": "5420ac20f2bb42236941ddce6527cfdca92f12a1",
-          "committed_at_mst": "2026-11-16 12:27 MST",
-          "subject": "Add SWFTC, RLS, PRO, WIREX, XNO v3 reports with Arkham evidence under the 16 Nov 2026 rules; RLS 90M went to GSR Markets, not Gate; WIREX catalog row points to Wirex WXT, not Nereus; extractor treats a declared not_applicable disclosure as no proven pump-day sale; ranking 123",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2894,9 +2968,9 @@
       "path": "banking-rails/PROPC.md",
       "versions": [
         {
-          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
-          "committed_at_mst": "2026-11-16 14:24 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2924,9 +2998,9 @@
       "path": "banking-rails/PUNDIX.md",
       "versions": [
         {
-          "commit": "03adc39f5ab0c5b68d4fb01df0746f224b9ccf9f",
-          "committed_at_mst": "2026-11-16 14:24 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 5 (KAVA-QNT, 14 reports); penalty on ONDO (adds Selling gate), PACT, PHA, POLYX, QNT",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -2954,9 +3028,9 @@
       "path": "banking-rails/QANX.md",
       "versions": [
         {
-          "commit": "3539092358e08132fddaf85da70e5ffd60071dee",
-          "committed_at_mst": "2026-11-16 12:36 MST",
-          "subject": "v3: RBNT, SUPRA, SCRT, QANX, NEXA with Arkham attributions (16 Nov 2026 rules)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3008,9 +3082,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3038,9 +3112,9 @@
       "path": "banking-rails/QUAI.md",
       "versions": [
         {
-          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
-          "committed_at_mst": "2026-11-16 14:26 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3115,9 +3189,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3145,9 +3219,9 @@
       "path": "banking-rails/REALIZ.md",
       "versions": [
         {
-          "commit": "f1614856538c7c95dd2b54d9bd9fb8a3add92838",
-          "committed_at_mst": "2026-11-16 13:54 MST",
-          "subject": "v3: NUVA, PALMUSD, REALIZ, RISE, SIBERIUM (Big gaps; 16 Nov 2026 rules, no Arkham pass); PALMUSD Holdings 1->2",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3175,9 +3249,9 @@
       "path": "banking-rails/RED.md",
       "versions": [
         {
-          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
-          "committed_at_mst": "2026-11-16 14:26 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3230,9 +3304,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3261,9 +3335,9 @@
       "path": "banking-rails/REUSD.md",
       "versions": [
         {
-          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
-          "committed_at_mst": "2026-11-16 14:26 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3289,9 +3363,9 @@
       "path": "banking-rails/RIO.md",
       "versions": [
         {
-          "commit": "3ea77bb5c78ec358fec796c31e14bad7e7a8aca5",
-          "committed_at_mst": "2026-11-16 12:31 MST",
-          "subject": "v3: ORAI, SKEY, ZKJ, TRADE, RIO with Arkham attributions (16 Nov 2026 rules); TRADE Selling 3->4, SKEY Selling 6->4",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3319,9 +3393,9 @@
       "path": "banking-rails/RISE.md",
       "versions": [
         {
-          "commit": "f1614856538c7c95dd2b54d9bd9fb8a3add92838",
-          "committed_at_mst": "2026-11-16 13:54 MST",
-          "subject": "v3: NUVA, PALMUSD, REALIZ, RISE, SIBERIUM (Big gaps; 16 Nov 2026 rules, no Arkham pass); PALMUSD Holdings 1->2",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3374,9 +3448,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3405,9 +3479,9 @@
       "path": "banking-rails/RLS.md",
       "versions": [
         {
-          "commit": "5420ac20f2bb42236941ddce6527cfdca92f12a1",
-          "committed_at_mst": "2026-11-16 12:27 MST",
-          "subject": "Add SWFTC, RLS, PRO, WIREX, XNO v3 reports with Arkham evidence under the 16 Nov 2026 rules; RLS 90M went to GSR Markets, not Gate; WIREX catalog row points to Wirex WXT, not Nereus; extractor treats a declared not_applicable disclosure as no proven pump-day sale; ranking 123",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3433,9 +3507,9 @@
       "path": "banking-rails/ROSE.md",
       "versions": [
         {
-          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
-          "committed_at_mst": "2026-11-16 14:26 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3488,9 +3562,9 @@
           "last_updated": "2026-11-15"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3519,9 +3593,9 @@
       "path": "banking-rails/RVN.md",
       "versions": [
         {
-          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
-          "committed_at_mst": "2026-11-16 14:26 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3599,9 +3673,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3629,9 +3703,9 @@
       "path": "banking-rails/SCRT.md",
       "versions": [
         {
-          "commit": "3539092358e08132fddaf85da70e5ffd60071dee",
-          "committed_at_mst": "2026-11-16 12:36 MST",
-          "subject": "v3: RBNT, SUPRA, SCRT, QANX, NEXA with Arkham attributions (16 Nov 2026 rules)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3659,9 +3733,9 @@
       "path": "banking-rails/SEI.md",
       "versions": [
         {
-          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
-          "committed_at_mst": "2026-11-16 14:26 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3714,9 +3788,9 @@
           "last_updated": "2026-11-15"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3745,9 +3819,9 @@
       "path": "banking-rails/SHARE.md",
       "versions": [
         {
-          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
-          "committed_at_mst": "2026-11-16 14:26 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3800,9 +3874,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3830,9 +3904,9 @@
       "path": "banking-rails/SHX.md",
       "versions": [
         {
-          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
-          "committed_at_mst": "2026-11-16 14:26 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3860,9 +3934,9 @@
       "path": "banking-rails/SIBERIUM.md",
       "versions": [
         {
-          "commit": "f1614856538c7c95dd2b54d9bd9fb8a3add92838",
-          "committed_at_mst": "2026-11-16 13:54 MST",
-          "subject": "v3: NUVA, PALMUSD, REALIZ, RISE, SIBERIUM (Big gaps; 16 Nov 2026 rules, no Arkham pass); PALMUSD Holdings 1->2",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 1.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3890,9 +3964,9 @@
       "path": "banking-rails/SKEY.md",
       "versions": [
         {
-          "commit": "3ea77bb5c78ec358fec796c31e14bad7e7a8aca5",
-          "committed_at_mst": "2026-11-16 12:31 MST",
-          "subject": "v3: ORAI, SKEY, ZKJ, TRADE, RIO with Arkham attributions (16 Nov 2026 rules); TRADE Selling 3->4, SKEY Selling 6->4",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -3920,9 +3994,9 @@
       "path": "banking-rails/SKY.md",
       "versions": [
         {
-          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
-          "committed_at_mst": "2026-11-16 14:02 MST",
-          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 6.8,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -3948,9 +4022,9 @@
       "path": "banking-rails/SOL.md",
       "versions": [
         {
-          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
-          "committed_at_mst": "2026-11-16 14:02 MST",
-          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 6.6,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -4022,9 +4096,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "4dd43075d37d224b475abe6c8b01175e23013408",
-          "committed_at_mst": "2026-11-16 14:40 MST",
-          "subject": "One-hop amendment (16 Nov 2026): METHODOLOGY rule; re-score CFG FXS INV ONDO SOLV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4075,9 +4149,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4106,9 +4180,9 @@
       "path": "banking-rails/STBL.md",
       "versions": [
         {
-          "commit": "937328510e5cb1cb86485d295e613a1688d5849a",
-          "committed_at_mst": "2026-11-16 14:26 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 6 (QUAI-STBL, 14 reports); penalty on SOLV (adds Selling gate), REQ, RLC, S, SPA",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4136,9 +4210,9 @@
       "path": "banking-rails/SUI.md",
       "versions": [
         {
-          "commit": "3ed04b6aaf02e18e917e7c8f94cfed273a890882",
-          "committed_at_mst": "2026-11-16 14:27 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 7 (SUI-XLM, 12 reports); penalty on TLOS, TRB; W Selling 3->4 (attribution rule, Selling gate removed)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4167,9 +4241,9 @@
       "path": "banking-rails/SUPRA.md",
       "versions": [
         {
-          "commit": "3539092358e08132fddaf85da70e5ffd60071dee",
-          "committed_at_mst": "2026-11-16 12:36 MST",
-          "subject": "v3: RBNT, SUPRA, SCRT, QANX, NEXA with Arkham attributions (16 Nov 2026 rules)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4197,9 +4271,9 @@
       "path": "banking-rails/SWCH.md",
       "versions": [
         {
-          "commit": "3ed04b6aaf02e18e917e7c8f94cfed273a890882",
-          "committed_at_mst": "2026-11-16 14:27 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 7 (SUI-XLM, 12 reports); penalty on TLOS, TRB; W Selling 3->4 (attribution rule, Selling gate removed)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4227,9 +4301,9 @@
       "path": "banking-rails/SWFTC.md",
       "versions": [
         {
-          "commit": "5420ac20f2bb42236941ddce6527cfdca92f12a1",
-          "committed_at_mst": "2026-11-16 12:27 MST",
-          "subject": "Add SWFTC, RLS, PRO, WIREX, XNO v3 reports with Arkham evidence under the 16 Nov 2026 rules; RLS 90M went to GSR Markets, not Gate; WIREX catalog row points to Wirex WXT, not Nereus; extractor treats a declared not_applicable disclosure as no proven pump-day sale; ranking 123",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4279,9 +4353,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4307,9 +4381,9 @@
       "path": "banking-rails/TAO.md",
       "versions": [
         {
-          "commit": "3ed04b6aaf02e18e917e7c8f94cfed273a890882",
-          "committed_at_mst": "2026-11-16 14:27 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 7 (SUI-XLM, 12 reports); penalty on TLOS, TRB; W Selling 3->4 (attribution rule, Selling gate removed)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4337,9 +4411,9 @@
       "path": "banking-rails/TFUEL.md",
       "versions": [
         {
-          "commit": "3ed04b6aaf02e18e917e7c8f94cfed273a890882",
-          "committed_at_mst": "2026-11-16 14:27 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 7 (SUI-XLM, 12 reports); penalty on TLOS, TRB; W Selling 3->4 (attribution rule, Selling gate removed)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4417,9 +4491,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4447,9 +4521,9 @@
       "path": "banking-rails/TRAC.md",
       "versions": [
         {
-          "commit": "3ed04b6aaf02e18e917e7c8f94cfed273a890882",
-          "committed_at_mst": "2026-11-16 14:27 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 7 (SUI-XLM, 12 reports); penalty on TLOS, TRB; W Selling 3->4 (attribution rule, Selling gate removed)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4477,9 +4551,9 @@
       "path": "banking-rails/TRADE.md",
       "versions": [
         {
-          "commit": "3ea77bb5c78ec358fec796c31e14bad7e7a8aca5",
-          "committed_at_mst": "2026-11-16 12:31 MST",
-          "subject": "v3: ORAI, SKEY, ZKJ, TRADE, RIO with Arkham attributions (16 Nov 2026 rules); TRADE Selling 3->4, SKEY Selling 6->4",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4532,9 +4606,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4563,9 +4637,9 @@
       "path": "banking-rails/TRUF.md",
       "versions": [
         {
-          "commit": "e6e14809014363b9c48738493604b44b67d9a9e3",
-          "committed_at_mst": "2026-11-16 13:52 MST",
-          "subject": "v3: XEP, TX, ORBITER, SHPING, TRUF with Arkham corrections (16 Nov 2026 rules)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4593,9 +4667,9 @@
       "path": "banking-rails/TX.md",
       "versions": [
         {
-          "commit": "e6e14809014363b9c48738493604b44b67d9a9e3",
-          "committed_at_mst": "2026-11-16 13:52 MST",
-          "subject": "v3: XEP, TX, ORBITER, SHPING, TRUF with Arkham corrections (16 Nov 2026 rules)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4623,9 +4697,9 @@
       "path": "banking-rails/VELO.md",
       "versions": [
         {
-          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
-          "committed_at_mst": "2026-11-16 14:06 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.6,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4678,9 +4752,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "3ed04b6aaf02e18e917e7c8f94cfed273a890882",
-          "committed_at_mst": "2026-11-16 14:27 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 7 (SUI-XLM, 12 reports); penalty on TLOS, TRB; W Selling 3->4 (attribution rule, Selling gate removed)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4708,9 +4782,9 @@
       "path": "banking-rails/WAN.md",
       "versions": [
         {
-          "commit": "3ed04b6aaf02e18e917e7c8f94cfed273a890882",
-          "committed_at_mst": "2026-11-16 14:27 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 7 (SUI-XLM, 12 reports); penalty on TLOS, TRB; W Selling 3->4 (attribution rule, Selling gate removed)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4736,9 +4810,9 @@
       "path": "banking-rails/WIREX.md",
       "versions": [
         {
-          "commit": "5420ac20f2bb42236941ddce6527cfdca92f12a1",
-          "committed_at_mst": "2026-11-16 12:27 MST",
-          "subject": "Add SWFTC, RLS, PRO, WIREX, XNO v3 reports with Arkham evidence under the 16 Nov 2026 rules; RLS 90M went to GSR Markets, not Gate; WIREX catalog row points to Wirex WXT, not Nereus; extractor treats a declared not_applicable disclosure as no proven pump-day sale; ranking 123",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4766,9 +4840,9 @@
       "path": "banking-rails/XDB.md",
       "versions": [
         {
-          "commit": "3ed04b6aaf02e18e917e7c8f94cfed273a890882",
-          "committed_at_mst": "2026-11-16 14:27 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 7 (SUI-XLM, 12 reports); penalty on TLOS, TRB; W Selling 3->4 (attribution rule, Selling gate removed)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 2.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4797,9 +4871,9 @@
       "path": "banking-rails/XDC.md",
       "versions": [
         {
-          "commit": "3ed04b6aaf02e18e917e7c8f94cfed273a890882",
-          "committed_at_mst": "2026-11-16 14:27 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 7 (SUI-XLM, 12 reports); penalty on TLOS, TRB; W Selling 3->4 (attribution rule, Selling gate removed)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4827,9 +4901,9 @@
       "path": "banking-rails/XEP.md",
       "versions": [
         {
-          "commit": "e6e14809014363b9c48738493604b44b67d9a9e3",
-          "committed_at_mst": "2026-11-16 13:52 MST",
-          "subject": "v3: XEP, TX, ORBITER, SHPING, TRUF with Arkham corrections (16 Nov 2026 rules)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4857,9 +4931,9 @@
       "path": "banking-rails/XLM.md",
       "versions": [
         {
-          "commit": "3ed04b6aaf02e18e917e7c8f94cfed273a890882",
-          "committed_at_mst": "2026-11-16 14:27 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 7 (SUI-XLM, 12 reports); penalty on TLOS, TRB; W Selling 3->4 (attribution rule, Selling gate removed)",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4887,9 +4961,9 @@
       "path": "banking-rails/XMR.md",
       "versions": [
         {
-          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
-          "committed_at_mst": "2026-11-16 14:29 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4917,9 +4991,9 @@
       "path": "banking-rails/XNO.md",
       "versions": [
         {
-          "commit": "5420ac20f2bb42236941ddce6527cfdca92f12a1",
-          "committed_at_mst": "2026-11-16 12:27 MST",
-          "subject": "Add SWFTC, RLS, PRO, WIREX, XNO v3 reports with Arkham evidence under the 16 Nov 2026 rules; RLS 90M went to GSR Markets, not Gate; WIREX catalog row points to Wirex WXT, not Nereus; extractor treats a declared not_applicable disclosure as no proven pump-day sale; ranking 123",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -4997,9 +5071,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5027,9 +5101,9 @@
       "path": "banking-rails/XRP.md",
       "versions": [
         {
-          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
-          "committed_at_mst": "2026-11-16 14:29 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5057,9 +5131,9 @@
       "path": "banking-rails/XVG.md",
       "versions": [
         {
-          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
-          "committed_at_mst": "2026-11-16 14:29 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5087,9 +5161,9 @@
       "path": "banking-rails/YELLOW.md",
       "versions": [
         {
-          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
-          "committed_at_mst": "2026-11-16 14:29 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.2,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5167,9 +5241,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.1,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5197,9 +5271,9 @@
       "path": "banking-rails/ZANO.md",
       "versions": [
         {
-          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
-          "committed_at_mst": "2026-11-16 14:29 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5273,9 +5347,9 @@
           "last_updated": "2026-11-15"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.0,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5303,9 +5377,9 @@
       "path": "banking-rails/ZEC.md",
       "versions": [
         {
-          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
-          "committed_at_mst": "2026-11-16 14:06 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 4.9,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5333,9 +5407,9 @@
       "path": "banking-rails/ZEN.md",
       "versions": [
         {
-          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
-          "committed_at_mst": "2026-11-16 14:29 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.7,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5363,9 +5437,9 @@
       "path": "banking-rails/ZIG.md",
       "versions": [
         {
-          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
-          "committed_at_mst": "2026-11-16 14:29 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.3,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5419,9 +5493,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5450,9 +5524,9 @@
       "path": "banking-rails/ZKC.md",
       "versions": [
         {
-          "commit": "f4f326787256749f867b5c3b753db2c758d4c706",
-          "committed_at_mst": "2026-11-16 14:29 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 8 (XMR-ZKP, 12 reports); penalty on XPL, ZAMA, ZK, ZKP",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.4,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5480,9 +5554,9 @@
       "path": "banking-rails/ZKJ.md",
       "versions": [
         {
-          "commit": "3ea77bb5c78ec358fec796c31e14bad7e7a8aca5",
-          "committed_at_mst": "2026-11-16 12:31 MST",
-          "subject": "v3: ORAI, SKEY, ZKJ, TRADE, RIO with Arkham attributions (16 Nov 2026 rules); TRADE Selling 3->4, SKEY Selling 6->4",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.8,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5560,9 +5634,9 @@
           "last_updated": "2026-11-16"
         },
         {
-          "commit": "69e8287e418400bb4b36eca17cb54d3a5cb54be5",
-          "committed_at_mst": "2026-11-16 14:41 MST",
-          "subject": "One-hop amendment batch 2: re-score 11 not-proven sales; confirm 13 proven",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 3.5,
           "overall_verdict": "FAIL",
           "section_scores": {
@@ -5590,9 +5664,9 @@
       "path": "banking-rails/ZRO.md",
       "versions": [
         {
-          "commit": "a8496aba5d0c90619fc06be566746d600ee6ea69",
-          "committed_at_mst": "2026-11-16 14:06 MST",
-          "subject": "v3: 16 Nov 2026 rules, batch 1 (ZBCN PLUME ROUTER SERV BP JASMY ZRO ARB ZEC VELO); penalty on ZBCN, ROUTER, SERV",
+          "commit": "2f9f8538b986a864df92abf3ad239277d648cc7e",
+          "committed_at_mst": "2026-11-16 14:44 MST",
+          "subject": "Cleanup: FXS penalty restored; stale not-proven wording; one_hop_sale_status field in reports, extractor, schema and base rates",
           "overall_score": 5.3,
           "overall_verdict": "FAIL",
           "section_scores": {

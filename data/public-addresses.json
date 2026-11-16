@@ -1,9 +1,9 @@
 {
   "title": "Public addresses examined in published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:44 MST",
+  "generated_at": "2026-11-16 14:48 MST",
   "note": "Every address here was extracted from a public evidence link or explorer URL already published in banking-rails/<TICKER>.md. No private worksheets were used. Labels that would name a private individual are not included.",
-  "count": 1291,
+  "count": 1308,
   "addresses": [
     {
       "ticker": "ACH",
@@ -1980,6 +1980,27 @@
       "kind": "token"
     },
     {
+      "ticker": "CTC",
+      "chain": "ethereum",
+      "address": "0x43fddf6aa37848e87bb176407dafef2b8ca20a8a",
+      "url": "https://etherscan.io/address/0x43fddf6aa37848e87bb176407dafef2b8ca20a8a",
+      "kind": "address"
+    },
+    {
+      "ticker": "CTC",
+      "chain": "ethereum",
+      "address": "0xa3ee21c306a700e682abcdfe9baa6a08f3820419",
+      "url": "https://etherscan.io/token/0xa3ee21c306a700e682abcdfe9baa6a08f3820419#balances",
+      "kind": "token"
+    },
+    {
+      "ticker": "CTC",
+      "chain": "ethereum",
+      "address": "0xca4d316e78ae09c026fde872b1fa1fece7ee7527",
+      "url": "https://etherscan.io/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527",
+      "kind": "address"
+    },
+    {
       "ticker": "DASH",
       "chain": "dash",
       "address": "7pk3RNRAwCiteq5Bs8RdS4jCqYwMmVT9qd",
@@ -2481,6 +2502,34 @@
       "chain": "ethereum",
       "address": "0xf9900ce9f2072f906f30baf7f280930483ec5949",
       "url": "https://etherscan.io/address/0xf9900ce9f2072f906f30baf7f280930483ec5949",
+      "kind": "address"
+    },
+    {
+      "ticker": "EL",
+      "chain": "ethereum",
+      "address": "0x1b1318c3ec104799de21e4ce2284c3de52a1e452",
+      "url": "https://etherscan.io/address/0x1b1318c3ec104799de21e4ce2284c3de52a1e452",
+      "kind": "address"
+    },
+    {
+      "ticker": "EL",
+      "chain": "ethereum",
+      "address": "0x2781246fe707bb15cee3e5ea354e2154a2877b16",
+      "url": "https://etherscan.io/token/0x2781246fe707bb15cee3e5ea354e2154a2877b16#balances",
+      "kind": "token"
+    },
+    {
+      "ticker": "EL",
+      "chain": "ethereum",
+      "address": "0x796bdc018d9a903acca191e6cae6bb300c662674",
+      "url": "https://etherscan.io/address/0x796bdc018d9a903acca191e6cae6bb300c662674",
+      "kind": "address"
+    },
+    {
+      "ticker": "EL",
+      "chain": "ethereum",
+      "address": "0xed5d35dc902c543b33496f6feae27b7866525b4f",
+      "url": "https://etherscan.io/address/0xed5d35dc902c543b33496f6feae27b7866525b4f",
       "kind": "address"
     },
     {
@@ -4220,6 +4269,13 @@
       "kind": "address"
     },
     {
+      "ticker": "KTA",
+      "chain": "base",
+      "address": "0xc0634090f2fe6c6d75e61be2b949464abb498973",
+      "url": "https://basescan.org/token/0xc0634090f2fe6c6d75e61be2b949464abb498973#balances",
+      "kind": "token"
+    },
+    {
       "ticker": "LINK",
       "chain": "ethereum",
       "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
@@ -4357,6 +4413,34 @@
       "chain": "ethereum + Lumia L2",
       "address": "0xfbaa4e673d0cd1159bed704fdc0e4379a41c2135",
       "url": "https://intel.arkm.com/explorer/address/0xfbaa4e673d0cd1159bed704fdc0e4379a41c2135",
+      "kind": "address"
+    },
+    {
+      "ticker": "MAPO",
+      "chain": "ethereum",
+      "address": "0x4a83b4917a8a4ea4dcb40efb44944a2880447466",
+      "url": "https://etherscan.io/address/0x4a83b4917a8a4ea4dcb40efb44944a2880447466",
+      "kind": "address"
+    },
+    {
+      "ticker": "MAPO",
+      "chain": "ethereum",
+      "address": "0x687c802162e79ad95309df8eedcb8e814c7f459e",
+      "url": "https://etherscan.io/address/0x687c802162e79ad95309df8eedcb8e814c7f459e",
+      "kind": "address"
+    },
+    {
+      "ticker": "MAPO",
+      "chain": "ethereum",
+      "address": "0x7046933234a82af77f14625e8d0fa9bcc5044a7e",
+      "url": "https://etherscan.io/token/0x7046933234a82af77f14625e8d0fa9bcc5044a7e#balances",
+      "kind": "token"
+    },
+    {
+      "ticker": "MAPO",
+      "chain": "ethereum",
+      "address": "0xbddf646c54576be4573636e7fe328168dd107738",
+      "url": "https://etherscan.io/address/0xbddf646c54576be4573636e7fe328168dd107738",
       "kind": "address"
     },
     {
@@ -4504,6 +4588,20 @@
       "chain": "ethereum",
       "address": "0xf97271e1e37308e197679e3aa017c8595a45c241",
       "url": "https://etherscan.io/address/0xf97271e1e37308e197679e3aa017c8595a45c241",
+      "kind": "address"
+    },
+    {
+      "ticker": "METAL",
+      "chain": "ethereum",
+      "address": "0x294559fa758c88d639fd085751e463fee7806eab",
+      "url": "https://etherscan.io/token/0x294559fa758c88d639fd085751e463fee7806eab#balances",
+      "kind": "token"
+    },
+    {
+      "ticker": "METAL",
+      "chain": "ethereum",
+      "address": "0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347",
+      "url": "https://etherscan.io/address/0xda5f0891426d5ddbdd8c5f0b88a604e9062c7347",
       "kind": "address"
     },
     {
@@ -4708,6 +4806,27 @@
       "address": "0xf944e35f95e819e752f3ccb5faf40957d311e8c5",
       "url": "https://etherscan.io/address/0xf944e35f95e819e752f3ccb5faf40957d311e8c5",
       "kind": "address"
+    },
+    {
+      "ticker": "MTL",
+      "chain": "ethereum",
+      "address": "0x1a653e69fd7a4fbbff359026dd3aa1de1d5eee65",
+      "url": "https://etherscan.io/address/0x1a653e69fd7a4fbbff359026dd3aa1de1d5eee65",
+      "kind": "address"
+    },
+    {
+      "ticker": "MTL",
+      "chain": "ethereum",
+      "address": "0xaefd771ebcd045675006f466818f371721746573",
+      "url": "https://etherscan.io/address/0xaefd771ebcd045675006f466818f371721746573",
+      "kind": "address"
+    },
+    {
+      "ticker": "MTL",
+      "chain": "ethereum",
+      "address": "0xf433089366899d83a9f26a773d59ec7ecf30355e",
+      "url": "https://etherscan.io/token/0xf433089366899d83a9f26a773d59ec7ecf30355e#balances",
+      "kind": "token"
     },
     {
       "ticker": "NUVA",
