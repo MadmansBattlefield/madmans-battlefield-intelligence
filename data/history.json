@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:53 MST",
+  "generated_at": "2026-11-16 14:59 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -88,6 +88,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "ADEL",
+      "path": "banking-rails/ADEL.md",
+      "versions": []
     },
     {
       "ticker": "AEON",
@@ -544,9 +549,39 @@
       ]
     },
     {
+      "ticker": "BKN",
+      "path": "banking-rails/BKN.md",
+      "versions": []
+    },
+    {
       "ticker": "BLZ",
       "path": "banking-rails/BLZ.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
+          "committed_at_mst": "2026-11-16 14:53 MST",
+          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 2,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "BNKR",
@@ -629,6 +664,11 @@
           "last_updated": "2026-11-15"
         }
       ]
+    },
+    {
+      "ticker": "BPRO",
+      "path": "banking-rails/BPRO.md",
+      "versions": []
     },
     {
       "ticker": "BTC",
@@ -715,6 +755,11 @@
       ]
     },
     {
+      "ticker": "CARDWALLET",
+      "path": "banking-rails/CARDWALLET.md",
+      "versions": []
+    },
+    {
       "ticker": "CC",
       "path": "banking-rails/CC.md",
       "versions": [
@@ -745,7 +790,32 @@
     {
       "ticker": "CCD",
       "path": "banking-rails/CCD.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
+          "committed_at_mst": "2026-11-16 14:53 MST",
+          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 6,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 6,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "CELO",
@@ -919,7 +989,32 @@
     {
       "ticker": "CHEX",
       "path": "banking-rails/CHEX.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
+          "committed_at_mst": "2026-11-16 14:53 MST",
+          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "overall_score": 3.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "COTI",
@@ -1000,6 +1095,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "CPH",
+      "path": "banking-rails/CPH.md",
+      "versions": []
     },
     {
       "ticker": "CPOOL",
@@ -1178,6 +1278,11 @@
       ]
     },
     {
+      "ticker": "CTX",
+      "path": "banking-rails/CTX.md",
+      "versions": []
+    },
+    {
       "ticker": "DASH",
       "path": "banking-rails/DASH.md",
       "versions": [
@@ -1266,6 +1371,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "DOVU",
+      "path": "banking-rails/DOVU.md",
+      "versions": []
     },
     {
       "ticker": "DUSK",
@@ -1421,17 +1531,92 @@
     {
       "ticker": "EOS",
       "path": "banking-rails/EOS.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
+          "committed_at_mst": "2026-11-16 14:53 MST",
+          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 1,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "EPICCASH",
       "path": "banking-rails/EPICCASH.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
+          "committed_at_mst": "2026-11-16 14:53 MST",
+          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "overall_score": 2.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 3,
+            "insider_holdings": 5,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 1,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 3,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "ERG",
       "path": "banking-rails/ERG.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
+          "committed_at_mst": "2026-11-16 14:53 MST",
+          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 6,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "ETC",
@@ -1770,6 +1955,11 @@
       ]
     },
     {
+      "ticker": "HAI",
+      "path": "banking-rails/HAI.md",
+      "versions": []
+    },
+    {
       "ticker": "HASH",
       "path": "banking-rails/HASH.md",
       "versions": [
@@ -1830,9 +2020,39 @@
       ]
     },
     {
+      "ticker": "HECTO",
+      "path": "banking-rails/HECTO.md",
+      "versions": []
+    },
+    {
       "ticker": "HIVE",
       "path": "banking-rails/HIVE.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
+          "committed_at_mst": "2026-11-16 14:53 MST",
+          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "overall_score": 3.8,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 6,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 6,
+            "adoption_customers": 5,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "HONEY",
@@ -2175,6 +2395,11 @@
       ]
     },
     {
+      "ticker": "IXS",
+      "path": "banking-rails/IXS.md",
+      "versions": []
+    },
+    {
       "ticker": "JASMY",
       "path": "banking-rails/JASMY.md",
       "versions": [
@@ -2327,7 +2552,32 @@
     {
       "ticker": "KLV",
       "path": "banking-rails/KLV.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
+          "committed_at_mst": "2026-11-16 14:53 MST",
+          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "overall_score": 3.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "KTA",
@@ -2362,7 +2612,32 @@
     {
       "ticker": "LINGO",
       "path": "banking-rails/LINGO.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
+          "committed_at_mst": "2026-11-16 14:53 MST",
+          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 3,
+            "adoption_customers": 3,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "LINK",
@@ -2515,7 +2790,32 @@
     {
       "ticker": "MDT",
       "path": "banking-rails/MDT.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "ed9b39c4da4310ada80d362b595e9f1268ab4e3b",
+          "committed_at_mst": "2026-11-16 14:53 MST",
+          "subject": "STEP 4: v3 reports HIVE MDT BLZ CHEX EOS LINGO KLV ERG CCD EPICCASH",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 2,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "METAL",

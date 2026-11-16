@@ -1,9 +1,9 @@
 {
   "title": "Public addresses examined in published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:53 MST",
+  "generated_at": "2026-11-16 14:59 MST",
   "note": "Every address here was extracted from a public evidence link or explorer URL already published in banking-rails/<TICKER>.md. No private worksheets were used. Labels that would name a private individual are not included.",
-  "count": 1318,
+  "count": 1329,
   "addresses": [
     {
       "ticker": "ACH",
@@ -151,6 +151,13 @@
       "address": "0xf977814e90da44bfa03b6295a0616a897441acec",
       "url": "https://etherscan.io/address/0xF977814e90dA44bFA03b6295A0616a897441aceC",
       "kind": "address"
+    },
+    {
+      "ticker": "ADEL",
+      "chain": "ethereum",
+      "address": "0x94d863173ee77439e4292284ff13fad54b3ba182",
+      "url": "https://etherscan.io/token/0x94d863173ee77439e4292284ff13fad54b3ba182",
+      "kind": "token"
     },
     {
       "ticker": "AEON",
@@ -909,6 +916,41 @@
       "kind": "address"
     },
     {
+      "ticker": "BKN",
+      "chain": "ethereum",
+      "address": "0x0e35e6dac22669be00d73072e4cebaa9550dadd3",
+      "url": "https://etherscan.io/address/0x0e35e6dac22669be00d73072e4cebaa9550dadd3",
+      "kind": "address"
+    },
+    {
+      "ticker": "BKN",
+      "chain": "ethereum",
+      "address": "0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd",
+      "url": "https://etherscan.io/address/0x366ea78b24ed81bafae37f2b0b4c63b3f24bf0bd",
+      "kind": "address"
+    },
+    {
+      "ticker": "BKN",
+      "chain": "ethereum",
+      "address": "0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8",
+      "url": "https://etherscan.io/address/0x8f523d7e1acbbc6d0e3ca19b7d8c1981b346ceb8",
+      "kind": "address"
+    },
+    {
+      "ticker": "BKN",
+      "chain": "ethereum",
+      "address": "0x9642b23ed1e01df1092b92641051881a322f5d4e",
+      "url": "https://etherscan.io/address/0x9642b23ed1e01df1092b92641051881a322f5d4e",
+      "kind": "address"
+    },
+    {
+      "ticker": "BKN",
+      "chain": "ethereum",
+      "address": "0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
+      "url": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82#balances",
+      "kind": "token"
+    },
+    {
       "ticker": "BLZ",
       "chain": "ethereum",
       "address": "0x5732046a883704404f284ce41ffadd5b007fd668",
@@ -1334,6 +1376,13 @@
       "address": "redFWCNFJDg86S3CAbuGGjAr9hQCimcr7xz7v3oEpuj",
       "url": "https://intel.arkm.com/explorer/address/redFWCNFJDg86S3CAbuGGjAr9hQCimcr7xz7v3oEpuj",
       "kind": "address"
+    },
+    {
+      "ticker": "CARDWALLET",
+      "chain": "ethereum",
+      "address": "0xd55236d48606c295adebf129dad04fc74bfaa708",
+      "url": "https://etherscan.io/token/0xd55236d48606c295adebf129dad04fc74bfaa708",
+      "kind": "token"
     },
     {
       "ticker": "CC",
@@ -2040,6 +2089,34 @@
       "chain": "ethereum",
       "address": "0xca4d316e78ae09c026fde872b1fa1fece7ee7527",
       "url": "https://etherscan.io/address/0xca4d316e78ae09c026fde872b1fa1fece7ee7527",
+      "kind": "address"
+    },
+    {
+      "ticker": "CTX",
+      "chain": "ethereum",
+      "address": "0x2de5ae18750fbf82821212194d59acc989469cdd",
+      "url": "https://etherscan.io/address/0x2de5ae18750fbf82821212194d59acc989469cdd",
+      "kind": "address"
+    },
+    {
+      "ticker": "CTX",
+      "chain": "ethereum",
+      "address": "0x321c2fe4446c7c963dc41dd58879af648838f98d",
+      "url": "https://etherscan.io/token/0x321c2fe4446c7c963dc41dd58879af648838f98d#balances",
+      "kind": "token"
+    },
+    {
+      "ticker": "CTX",
+      "chain": "ethereum",
+      "address": "0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa",
+      "url": "https://etherscan.io/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa",
+      "kind": "address"
+    },
+    {
+      "ticker": "CTX",
+      "chain": "ethereum",
+      "address": "0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf",
+      "url": "https://etherscan.io/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf",
       "kind": "address"
     },
     {
@@ -3189,6 +3266,13 @@
       "address": "0xee5b5b923ffce93a870b3104b7ca09c3db80047a",
       "url": "https://etherscan.io/address/0xee5B5B923fFcE93A870B3104b7CA09c3db80047A",
       "kind": "address"
+    },
+    {
+      "ticker": "HAI",
+      "chain": "bsc",
+      "address": "0x582a560b9f8eaa5b6c889d7674532bcd61f066ec",
+      "url": "https://bscscan.com/token/0x582a560b9f8eaa5b6c889d7674532bcd61f066ec#balances",
+      "kind": "token"
     },
     {
       "ticker": "HBAR",
@@ -6415,13 +6499,6 @@
       "chain": "ethereum",
       "address": "0x9193f0b639097e2ad0f22e5692cd10e3a28a3376",
       "url": "https://etherscan.io/address/0x9193f0B639097e2AD0f22E5692Cd10e3A28a3376",
-      "kind": "address"
-    },
-    {
-      "ticker": "SERV",
-      "chain": "ethereum",
-      "address": "0x9642b23ed1e01df1092b92641051881a322f5d4e",
-      "url": "https://etherscan.io/address/0x9642b23Ed1E01Df1092B92641051881a322F5D4E",
       "kind": "address"
     },
     {

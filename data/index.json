@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 14:53 MST",
+  "generated_at": "2026-11-16 14:59 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -175,6 +175,12 @@
       "json": "data/reports/ADA.json"
     },
     {
+      "id": "ADEL",
+      "path": "banking-rails/ADEL.md",
+      "layout": "v3",
+      "json": "data/reports/ADEL.json"
+    },
+    {
       "id": "AEON",
       "path": "banking-rails/AEON.md",
       "layout": "v3",
@@ -253,6 +259,12 @@
       "json": "data/reports/BCH.json"
     },
     {
+      "id": "BKN",
+      "path": "banking-rails/BKN.md",
+      "layout": "v3",
+      "json": "data/reports/BKN.json"
+    },
+    {
       "id": "BLZ",
       "path": "banking-rails/BLZ.md",
       "layout": "v3",
@@ -271,6 +283,12 @@
       "json": "data/reports/BP.json"
     },
     {
+      "id": "BPRO",
+      "path": "banking-rails/BPRO.md",
+      "layout": "v3",
+      "json": "data/reports/BPRO.json"
+    },
+    {
       "id": "BTC",
       "path": "banking-rails/BTC.md",
       "layout": "v3",
@@ -287,6 +305,12 @@
       "path": "banking-rails/CARDS.md",
       "layout": "v3",
       "json": "data/reports/CARDS.json"
+    },
+    {
+      "id": "CARDWALLET",
+      "path": "banking-rails/CARDWALLET.md",
+      "layout": "v3",
+      "json": "data/reports/CARDWALLET.json"
     },
     {
       "id": "CC",
@@ -337,6 +361,12 @@
       "json": "data/reports/COTI.json"
     },
     {
+      "id": "CPH",
+      "path": "banking-rails/CPH.md",
+      "layout": "v3",
+      "json": "data/reports/CPH.json"
+    },
+    {
       "id": "CPOOL",
       "path": "banking-rails/CPOOL.md",
       "layout": "v3",
@@ -367,6 +397,12 @@
       "json": "data/reports/CTK.json"
     },
     {
+      "id": "CTX",
+      "path": "banking-rails/CTX.md",
+      "layout": "v3",
+      "json": "data/reports/CTX.json"
+    },
+    {
       "id": "DASH",
       "path": "banking-rails/DASH.md",
       "layout": "v3",
@@ -383,6 +419,12 @@
       "path": "banking-rails/DOT.md",
       "layout": "v3",
       "json": "data/reports/DOT.json"
+    },
+    {
+      "id": "DOVU",
+      "path": "banking-rails/DOVU.md",
+      "layout": "v3",
+      "json": "data/reports/DOVU.json"
     },
     {
       "id": "DUSK",
@@ -487,6 +529,12 @@
       "json": "data/reports/H.json"
     },
     {
+      "id": "HAI",
+      "path": "banking-rails/HAI.md",
+      "layout": "v3",
+      "json": "data/reports/HAI.json"
+    },
+    {
       "id": "HASH",
       "path": "banking-rails/HASH.md",
       "layout": "v3",
@@ -497,6 +545,12 @@
       "path": "banking-rails/HBAR.md",
       "layout": "v3",
       "json": "data/reports/HBAR.json"
+    },
+    {
+      "id": "HECTO",
+      "path": "banking-rails/HECTO.md",
+      "layout": "v3",
+      "json": "data/reports/HECTO.json"
     },
     {
       "id": "HIVE",
@@ -557,6 +611,12 @@
       "path": "banking-rails/IOTX.md",
       "layout": "v3",
       "json": "data/reports/IOTX.json"
+    },
+    {
+      "id": "IXS",
+      "path": "banking-rails/IXS.md",
+      "layout": "v3",
+      "json": "data/reports/IXS.json"
     },
     {
       "id": "JASMY",
@@ -1176,5 +1236,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 168
+  "scored_reports": 178
 }

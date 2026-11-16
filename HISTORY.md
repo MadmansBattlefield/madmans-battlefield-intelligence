@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:53 MST
+generated_at: 2026-11-16 14:59 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -17,6 +17,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 |---|---:|---:|---:|---|---|---|
 | [ACH](banking-rails/ACH.md) | 2 | 3.1 | 3.6 | 2 | 0 → 4 | 3 |
 | [ADA](banking-rails/ADA.md) | 1 | 5.1 | 5.1 | 2 | 5 | 5 |
+| ADEL | 0 | — | — | — | — | — |
 | [AEON](banking-rails/AEON.md) | 1 | 3.3 | 3.3 | 2 | 4 | 3 |
 | [AERO](banking-rails/AERO.md) | 2 | 6.6 | 6.6 | 8 | 5 → 6 | 6 |
 | [ALGO](banking-rails/ALGO.md) | 1 | 5.0 | 5.0 | 1 | 5 | 6 |
@@ -30,36 +31,42 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [AXL](banking-rails/AXL.md) | 1 | 3.8 | 3.8 | 2 | 4 | 4 |
 | [BAND](banking-rails/BAND.md) | 1 | 4.0 | 4.0 | 2 | 5 | 4 |
 | [BCH](banking-rails/BCH.md) | 1 | 5.1 | 5.1 | 1 | 7 | 9 |
-| BLZ | 0 | — | — | — | — | — |
+| BKN | 0 | — | — | — | — | — |
+| [BLZ](banking-rails/BLZ.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
 | [BNKR](banking-rails/BNKR.md) | 1 | 5.6 | 5.6 | 6 | 6 | 7 |
 | [BP](banking-rails/BP.md) | 2 | 5.1 | 5.2 | 3 | 6 → 7 | 2 |
+| BPRO | 0 | — | — | — | — | — |
 | [BTC](banking-rails/BTC.md) | 1 | 7.3 | 7.3 | 4 | 8 | 8 |
 | [BTT](banking-rails/BTT.md) | 1 | 4.7 | 4.7 | 5 | 5 | 2 |
 | [CARDS](banking-rails/CARDS.md) | 1 | 4.7 | 4.7 | 5 | 4 | 3 |
+| CARDWALLET | 0 | — | — | — | — | — |
 | [CC](banking-rails/CC.md) | 1 | 6.4 | 6.4 | 6 | 6 | 6 |
-| CCD | 0 | — | — | — | — | — |
+| [CCD](banking-rails/CCD.md) | 1 | 3.8 | 3.8 | 2 | 4 | 4 |
 | [CELO](banking-rails/CELO.md) | 1 | 4.7 | 4.7 | 3 | 5 | 4 |
 | [CELR](banking-rails/CELR.md) | 1 | 4.0 | 4.0 | 2 | 5 | 4 |
 | [CFG](banking-rails/CFG.md) | 3 | 4.5 | 4.4 | 3 | 5 → 4 | 3 |
 | [CFX](banking-rails/CFX.md) | 1 | 3.9 | 3.9 | 1 | 5 | 4 |
-| CHEX | 0 | — | — | — | — | — |
+| [CHEX](banking-rails/CHEX.md) | 1 | 3.5 | 3.5 | 1 | 4 | 4 |
 | [COTI](banking-rails/COTI.md) | 3 | 2.4 | 2.7 | 1 | 2 → 4 | 2 |
+| CPH | 0 | — | — | — | — | — |
 | [CPOOL](banking-rails/CPOOL.md) | 2 | 3.6 | 3.3 | 2 | 2 → 0 | 4 |
 | [CRO](banking-rails/CRO.md) | 1 | 3.7 | 3.7 | 2 | 4 | 2 |
 | [CSPR](banking-rails/CSPR.md) | 1 | 3.1 | 3.1 | 1 | 4 | 3 |
 | [CTC](banking-rails/CTC.md) | 1 | 3.6 | 3.6 | 1 | 4 | 4 |
 | [CTK](banking-rails/CTK.md) | 1 | 3.7 | 3.7 | 2 | 4 | 4 |
+| CTX | 0 | — | — | — | — | — |
 | [DASH](banking-rails/DASH.md) | 1 | 4.7 | 4.7 | 1 | 6 | 6 |
 | [DIA](banking-rails/DIA.md) | 1 | 4.7 | 4.7 | 2 | 7 | 4 |
 | [DOT](banking-rails/DOT.md) | 1 | 4.9 | 4.9 | 2 | 4 | 5 |
+| DOVU | 0 | — | — | — | — | — |
 | [DUSK](banking-rails/DUSK.md) | 1 | 4.0 | 4.0 | 1 | 5 | 5 |
 | [EDEL](banking-rails/EDEL.md) | 1 | 2.5 | 2.5 | 1 | 3 | 3 |
 | [EDEN](banking-rails/EDEN.md) | 1 | 4.1 | 4.1 | 2 | 4 | 4 |
 | [EL](banking-rails/EL.md) | 1 | 3.0 | 3.0 | 1 | 4 | 4 |
 | [ENA](banking-rails/ENA.md) | 1 | 5.6 | 5.6 | 3 | 5 | 5 |
-| EOS | 0 | — | — | — | — | — |
-| EPICCASH | 0 | — | — | — | — | — |
-| ERG | 0 | — | — | — | — | — |
+| [EOS](banking-rails/EOS.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
+| [EPICCASH](banking-rails/EPICCASH.md) | 1 | 2.9 | 2.9 | 1 | 4 | 5 |
+| [ERG](banking-rails/ERG.md) | 1 | 3.8 | 3.8 | 1 | 4 | 6 |
 | [ETC](banking-rails/ETC.md) | 1 | 4.1 | 4.1 | 1 | 6 | 7 |
 | [ETH](banking-rails/ETH.md) | 1 | 7.2 | 7.2 | 5 | 7 | 8 |
 | [ETN](banking-rails/ETN.md) | 1 | 3.4 | 3.4 | 1 | 4 | 4 |
@@ -69,9 +76,11 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [FXS](banking-rails/FXS.md) | 4 | 4.6 | 4.2 | 4 | 4 → 1 | 4 |
 | [GRND](banking-rails/GRND.md) | 1 | 4.2 | 4.2 | 3 | 5 | 5 |
 | [H](banking-rails/H.md) | 1 | 2.4 | 2.4 | 1 | 4 | 2 |
+| HAI | 0 | — | — | — | — | — |
 | [HASH](banking-rails/HASH.md) | 1 | 3.8 | 3.8 | 3 | 4 | 2 |
 | [HBAR](banking-rails/HBAR.md) | 1 | 5.3 | 5.3 | 2 | 5 | 6 |
-| HIVE | 0 | — | — | — | — | — |
+| HECTO | 0 | — | — | — | — | — |
+| [HIVE](banking-rails/HIVE.md) | 1 | 3.8 | 3.8 | 1 | 4 | 6 |
 | [HONEY](banking-rails/HONEY.md) | 1 | 3.1 | 3.1 | 2 | 5 | 3 |
 | [HTX](banking-rails/HTX.md) | 1 | 4.0 | 4.0 | 5 | 5 | 2 |
 | [HUMA](banking-rails/HUMA.md) | 1 | 4.4 | 4.4 | 2 | 5 | 3 |
@@ -81,20 +90,21 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [INV](banking-rails/INV.md) | 2 | 4.8 | 4.4 | 6 | 4 → 1 | 6 |
 | [IOST](banking-rails/IOST.md) | 1 | 3.1 | 3.1 | 1 | 4 | 3 |
 | [IOTX](banking-rails/IOTX.md) | 1 | 3.7 | 3.7 | 2 | 4 | 4 |
+| IXS | 0 | — | — | — | — | — |
 | [JASMY](banking-rails/JASMY.md) | 1 | 2.8 | 2.8 | 1 | 2 | 3 |
 | [JST](banking-rails/JST.md) | 1 | 5.5 | 5.5 | 5 | 5 | 5 |
 | [KAIA](banking-rails/KAIA.md) | 1 | 3.9 | 3.9 | 1 | 4 | 5 |
 | [KAIO](banking-rails/KAIO.md) | 1 | 3.6 | 3.6 | 2 | 3 | 3 |
 | [KAVA](banking-rails/KAVA.md) | 1 | 3.1 | 3.1 | 1 | 5 | 4 |
-| KLV | 0 | — | — | — | — | — |
+| [KLV](banking-rails/KLV.md) | 1 | 3.4 | 3.4 | 1 | 4 | 4 |
 | [KTA](banking-rails/KTA.md) | 1 | 3.5 | 3.5 | 1 | 4 | 4 |
-| LINGO | 0 | — | — | — | — | — |
+| [LINGO](banking-rails/LINGO.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
 | [LINK](banking-rails/LINK.md) | 1 | 6.9 | 6.9 | 8 | 5 | 4 |
 | [LUMIA](banking-rails/LUMIA.md) | 1 | 3.2 | 3.2 | 1 | 4 | 3 |
 | [MAPO](banking-rails/MAPO.md) | 1 | 3.3 | 3.3 | 1 | 4 | 4 |
 | [MASQ](banking-rails/MASQ.md) | 1 | 2.7 | 2.7 | 1 | 4 | 4 |
 | [MBG](banking-rails/MBG.md) | 1 | 3.9 | 3.9 | 3 | 4 | 3 |
-| MDT | 0 | — | — | — | — | — |
+| [MDT](banking-rails/MDT.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
 | [METAL](banking-rails/METAL.md) | 1 | 3.1 | 3.1 | 1 | 4 | 4 |
 | [MINA](banking-rails/MINA.md) | 1 | 4.0 | 4.0 | 1 | 5 | 5 |
 | [MNSRY](banking-rails/MNSRY.md) | 1 | 2.5 | 2.5 | 0 | 4 | 4 |
@@ -222,6 +232,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **AXL** — 3.8 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **BAND** — 4.0 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **BCH** — 5.1 FAIL in `2f9f853` (2026-11-16 14:44 MST).
+- **BLZ** — 3.1 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 - **BNKR** — 5.6 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 ### BP
 
@@ -234,6 +245,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **BTT** — 4.7 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **CARDS** — 4.7 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **CC** — 6.4 PASS in `2f9f853` (2026-11-16 14:44 MST).
+- **CCD** — 3.8 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 - **CELO** — 4.7 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **CELR** — 4.0 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 ### CFG
@@ -245,6 +257,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `2f9f853` | 2026-11-16 14:44 MST | 4.4 | FAIL | 3 | 4 | 3 | revenue |
 
 - **CFX** — 3.9 FAIL in `2f9f853` (2026-11-16 14:44 MST).
+- **CHEX** — 3.5 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 ### COTI
 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
@@ -272,6 +285,9 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **EDEN** — 4.1 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **EL** — 3.0 FAIL in `9ccdddb` (2026-11-16 14:48 MST).
 - **ENA** — 5.6 FAIL in `2f9f853` (2026-11-16 14:44 MST).
+- **EOS** — 3.1 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
+- **EPICCASH** — 2.9 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
+- **ERG** — 3.8 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 - **ETC** — 4.1 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **ETH** — 7.2 PASS in `2f9f853` (2026-11-16 14:44 MST).
 - **ETN** — 3.4 FAIL in `9ccdddb` (2026-11-16 14:48 MST).
@@ -291,6 +307,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **H** — 2.4 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **HASH** — 3.8 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **HBAR** — 5.3 FAIL in `2f9f853` (2026-11-16 14:44 MST).
+- **HIVE** — 3.8 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 - **HONEY** — 3.1 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **HTX** — 4.0 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **HUMA** — 4.4 FAIL in `2f9f853` (2026-11-16 14:44 MST).
@@ -318,12 +335,15 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **KAIA** — 3.9 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **KAIO** — 3.6 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **KAVA** — 3.1 FAIL in `2f9f853` (2026-11-16 14:44 MST).
+- **KLV** — 3.4 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 - **KTA** — 3.5 FAIL in `9ccdddb` (2026-11-16 14:48 MST).
+- **LINGO** — 3.1 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 - **LINK** — 6.9 PASS in `2f9f853` (2026-11-16 14:44 MST).
 - **LUMIA** — 3.2 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **MAPO** — 3.3 FAIL in `9ccdddb` (2026-11-16 14:48 MST).
 - **MASQ** — 2.7 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **MBG** — 3.9 FAIL in `2f9f853` (2026-11-16 14:44 MST).
+- **MDT** — 3.1 FAIL in `ed9b39c` (2026-11-16 14:53 MST).
 - **METAL** — 3.1 FAIL in `9ccdddb` (2026-11-16 14:48 MST).
 - **MINA** — 4.0 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **MNSRY** — 2.5 FAIL in `9ccdddb` (2026-11-16 14:48 MST).

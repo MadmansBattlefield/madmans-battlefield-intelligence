@@ -1,0 +1,259 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "CTX",
+  "name": "Cryptex Finance",
+  "chain": "ethereum",
+  "contract": "0x321c2fe4446c7c963dc41dd58879af648838f98d",
+  "overall_score": 3.2,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 5,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 6,
+    "liquidity_market": 1,
+    "product_development": 4,
+    "adoption_customers": 2,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 2
+  },
+  "sections_passed": 1,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found in this pass",
+    "team_wallet_to_exchange_during_pump": "not tested: no exchange USDT series; holders unlabelled",
+    "one_hop_sale_status": "none_found",
+    "entity_concentration": "~45% in two unlabelled EOAs (low confidence)"
+  },
+  "price_usd": 0.361322,
+  "price_source": "CoinGecko `cryptex-finance`, 16 Nov 2026 ~3:00 PM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No automatic burn, buyback or fee share to CTX was verified.",
+    "pump_day_price_source": "not run (no Gate, MEXC, KuCoin or Kraken USDT series)",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa",
+        "label": "Unlabelled EOA (32.79%)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Ethplorer + Etherscan"
+      },
+      {
+        "address": "0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf",
+        "label": "Unlabelled EOA (12.22%)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Ethplorer + Etherscan"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.361322,
+    "market_cap_text": "$3.49M",
+    "fdv_text": "$3.61M",
+    "volume_24h_text": "$31.4k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/CTX.md",
+    "sha256": "d0cca00f9e8736fcac141ef857350b654fdb1aa36c87601a45e6d7750d10aa93",
+    "bytes": 9594,
+    "extracted_at": "2026-11-16 14:59 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko `cryptex-finance`, 16 Nov 2026 ~3:00 PM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Market data and venues",
+      "url": "CoinGecko `cryptex-finance`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Token contract and holders",
+      "url": "contract",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Token contract and holders",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x2de5ae18750fbf82821212194d59acc989469cdd",
+      "url": "https://etherscan.io/address/0x2de5ae18750fbf82821212194d59acc989469cdd",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x321c2fe4446c7c963dc41dd58879af648838f98d",
+      "url": "https://etherscan.io/token/0x321c2fe4446c7c963dc41dd58879af648838f98d#balances",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa",
+      "url": "https://etherscan.io/address/0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf",
+      "url": "https://etherscan.io/address/0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "not run (no Gate, MEXC, KuCoin or Kraken USDT series)",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not tested: no exchange USDT series; holders unlabelled"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [
+      "burn",
+      "buyback",
+      "fee_share"
+    ],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "**1 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0x97f70ed4a8e606c6f6ae578ee27c4e3fadbc81aa",
+      "url": null,
+      "label": "Unlabelled EOA (32.79%)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x9c50d0d2053eebd48e6edaf1c2e39bb1d503b9bf",
+      "url": null,
+      "label": "Unlabelled EOA (12.22%)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [CoinGecko `cryptex-finance`](https://www.coingecko.com/en/coins/cryptex-finance): price, supply, venues and description, read 16 Nov 2026",
+      "urls": [
+        "CoinGecko `cryptex-finance`"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] `scripts/pump_day_test.py`: no Gate, MEXC, KuCoin or Kraken USDT series returned on 16 Nov 2026",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Token contract and [holders](https://etherscan.io/token/0x321c2fe4446c7c963dc41dd58879af648838f98d#balances) on the chain explorer; top holders from the Ethplorer API; contract or EOA status from Etherscan v2 `eth_getCode`",
+      "urls": [
+        "holders"
+      ],
+      "date_read": null
+    }
+  ]
+}
