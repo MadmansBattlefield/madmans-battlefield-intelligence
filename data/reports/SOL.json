@@ -41,6 +41,14 @@
   "price_usd": 72.24,
   "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
   "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "Half of every base fee is burned on-chain and priority fees and tips go to validators and their stakers automatically, so revenue reaches holders, though it does not cover inflation.",
+    "pump_day_price_source": "CoinGecko SOL daily closes (as published; named last resort)",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [],
     "chain_read_slot": 469444012
   },
   "key_numbers": {
@@ -53,9 +61,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SOL.md",
-    "sha256": "a8568d9d6cef2c3c84fd4977fa5a1858a44848f78b88f7cac4086ddf10d793b3",
-    "bytes": 13514,
-    "extracted_at": "2026-11-16 13:58 MST",
+    "sha256": "24ddd05d73a7d0c688c5ad8d763cb7cd16d025fc2db920143086dddc5d9762dd",
+    "bytes": 15177,
+    "extracted_at": "2026-11-16 14:02 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -92,15 +100,15 @@
   "addresses_examined": [],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "CoinGecko SOL daily closes (as published; named last resort)",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "unclear",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": false,
-    "disclosure_quality": "unclear",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": []
   },
@@ -150,6 +158,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Solana mainnet RPC: `getSupply`, `getInflationRate`, `getEpochInfo`, `getVersion`, `getVoteAccounts`, `getRecentPerformanceSamples`; 14 Nov 2026 ~12:25 PM MST",

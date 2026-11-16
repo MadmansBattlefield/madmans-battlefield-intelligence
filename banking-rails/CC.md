@@ -23,6 +23,14 @@ red_lines:
   burn_below_50pct_of_gross_mint_30d: clear
   foundation_or_sv_wallet_to_exchange_on_pump_day: watch
   hack_exploit: none
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Every traffic fee is paid in CC and burned on-chain automatically (448.2M CC ≈ $43.8M in 30 days per Lighthouse), so revenue reaches holders through supply reduction, although part of the burn is recycled into minting rewards."
+pump_day_price_source: "CoinGecko CC daily closes (as published; named last resort)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.081743
 price_source: "CoinGecko canton-network, 15 Nov 2026 6:47 AM MST"
 chain_read_round: 121838
@@ -98,6 +106,8 @@ layout_version: 3
 
 **What it means:** This is real, measurable fee burn, and all of it reaches holders as reduced supply rather than going to a company. It is large next to the $3.3B market cap (about 20% a year). It still does not cover new issuance: over 12 months supply grew about 14%, and some burns are recycled into rewards.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Every traffic fee is paid in CC and burned on-chain automatically (448.2M CC ≈ $43.8M in 30 days per Lighthouse), so revenue reaches holders through supply reduction, although part of the burn is recycled into minting rewards.
+
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -166,6 +176,8 @@ layout_version: 3
 | Cumberland operator → `Cumberland-Property-1` | 1.5B on 31 Dec 2025 (a pump day) — internal; Cumberland-Property-1's last 1,000 sends found no pump-day send over 1M |
 
 **What it means:** The creator says openly that it sells what it earns, and the exchange deposits found from DA- and foundation-linked parties did not land on pump days. One 8.7M foundation-chain transfer on a pump day went to an unknown party. Canton has no public exchange-deposit labels beyond a few named parties, so this is a pass with an open check, not a clean bill.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko CC daily closes (as published; named last resort).
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -268,8 +280,18 @@ layout_version: 3
 | Foundation or SV-linked wallet sends to an exchange on a pump day | 🟡 Watch | 8.71M foundation-chain send to an unknown party on 10 Jun 2026: [`12207029…` sent list](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=) → [`1220bca0…`](https://lighthouse.cantonloop.com/api/web/parties/1220bca0b97b8073f386d0b4b2210a937c0bb688d2a4f03d854c2b14c45df0036df3%3A%3A1220a1cf691c566eb8c94145e944f6bef296a672aa3f353d34ce1c2dc4d58f69dbf7), update `12201d3a4538…` |
 | Hack / exploit | 🟢 None | |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| GSF-SVRewards-1 (Canton Foundation rewards party) | Foundation rewards party | Lighthouse explorer | medium | no | Selling: sends traced; none to an exchange on a pump day |
+| DA-2 sweep party `1220c770…` | Digital Asset-linked reward sweep party | Lighthouse explorer (sweep pattern) | medium | no | Holdings: ~2.4% liquid; no pump-day exchange send |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Lighthouse explorer (Loop) public API [`lighthouse.cantonloop.com/api/web`](https://lighthouse.cantonloop.com/api/web/stats) (party records and transfer lists for every party cited are linked inline and in the Evidence trail; transfers are identified by `update_id`): `stats`, `tokens/cc/summary`, `rewards/burns-per-round` (365 days), `rewards/stats-per-round`, `rewards/values-daily`, `svs`, `svs/rewards`, `svs/escrow`, `sv-locking`, `dev-fund`, `featured-apps`, `parties/{id}/balance`, `parties/{id}/transfers`; 15 Nov 2026 ~6:48–7:20 AM MST
 - [Tier A] CCView explorer September 2026 burn figure (via the 10 Nov draft), used as a cross-check only
 - [Tier A] [SEC no-action letter, 3 Nov 2026](https://www.sec.gov/rules-regulations/no-action-interpretive-exemptive-letters/division-corporation-finance-no-action/canton-coin-110326) and [incoming letter, 30 Oct 2026](https://www.sec.gov/files/corpfin/no-action/canton-incoming-103026.pdf)

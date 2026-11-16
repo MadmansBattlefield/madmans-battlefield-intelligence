@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 13:58 MST
+generated_at: 2026-11-16 14:02 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -99,7 +99,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [QANX](banking-rails/QANX.md) | 1 | 3.6 | 3.6 | 1 | 4 | 4 |
 | [QNT](banking-rails/QNT.md) | 1 | 4.6 | 4.6 | 4 | 3 | 3 |
 | [QUAI](banking-rails/QUAI.md) | 1 | 4.9 | 4.9 | 5 | 4 | 6 |
-| [RBNT](banking-rails/RBNT.md) | 1 | 3.5 | 3.5 | 2 | 4 | 2 |
+| [RBNT](banking-rails/RBNT.md) | 2 | 3.5 | 3.1 | 2 | 4 → 1 | 2 |
 | [REALIZ](banking-rails/REALIZ.md) | 1 | 2.1 | 2.1 | 1 | 4 | 1 |
 | [RED](banking-rails/RED.md) | 1 | 4.3 | 4.3 | 2 | 4 | 4 |
 | [REQ](banking-rails/REQ.md) | 1 | 4.2 | 4.2 | 2 | 3 | 3 |
@@ -217,7 +217,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **ENA** — 5.6 FAIL in `78f06b6` (2026-11-16 06:22 MST).
 - **ETC** — 4.1 FAIL in `5c5b66f` (2026-11-16 08:19 MST).
 - **ETH** — 7.2 PASS in `6fa4721` (2026-11-15 18:37 MST).
-- **EURE** — 5.0 FAIL in `91b6ac1` (2026-11-16 12:34 MST).
+- **EURE** — 5.0 FAIL in `73d9a3c` (2026-11-16 13:58 MST).
 - **EWT** — 4.0 FAIL in `16d387f` (2026-11-16 08:50 MST).
 - **EXA** — 3.1 FAIL in `a664692` (2026-11-16 06:58 MST).
 - **FXS** — 4.6 FAIL in `16d387f` (2026-11-16 08:50 MST).
@@ -258,7 +258,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `6fa4721` | 2026-11-15 18:37 MST | 4.7 | FAIL | 3 | 4 | 3 | revenue |
 
 - **ORAI** — 3.0 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
-- **ORBITER** — 3.8 FAIL in `e6e1480` (2026-11-16 13:52 MST).
+- **ORBITER** — 3.8 FAIL in `73d9a3c` (2026-11-16 13:58 MST).
 - **PACT** — 3.1 FAIL in `78f06b6` (2026-11-16 06:22 MST).
 - **PALMUSD** — 2.6 FAIL in `f161485` (2026-11-16 13:54 MST).
 - **PHA** — 3.9 FAIL in `16d387f` (2026-11-16 08:50 MST).
@@ -276,7 +276,13 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **QANX** — 3.6 FAIL in `3539092` (2026-11-16 12:36 MST).
 - **QNT** — 4.6 FAIL in `c1ac11a` (2026-11-16 04:55 MST).
 - **QUAI** — 4.9 FAIL in `78f06b6` (2026-11-16 06:22 MST).
-- **RBNT** — 3.5 FAIL in `3539092` (2026-11-16 12:36 MST).
+### RBNT
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `3539092` | 2026-11-16 12:36 MST | 3.5 | FAIL | 2 | 4 | 2 | revenue |
+| `73d9a3c` | 2026-11-16 13:58 MST | 3.1 | FAIL | 2 | 1 | 2 | revenue, selling_behavior |
+
 - **REALIZ** — 2.1 FAIL in `f161485` (2026-11-16 13:54 MST).
 - **RED** — 4.3 FAIL in `fc426d1` (2026-11-16 09:35 MST).
 - **REQ** — 4.2 FAIL in `16d387f` (2026-11-16 08:50 MST).

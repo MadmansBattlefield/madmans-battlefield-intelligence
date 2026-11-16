@@ -24,6 +24,24 @@ red_lines:
   team_wallet_to_exchange_during_pump: "none found (Pause Proxy, Sky Frontier Foundation, Fortification Foundation and Liquidity Bootstrapping multisig: no direct exchange deposits)"
   treasury_coins_to_exchange_via_market_maker: "yes, disclosed program (320M SKY Liquidity Bootstrapping loan; 32.3M reached KuCoin 32 on its 2 Oct 2024 listing day, not a pump day; market maker is Wintermute per Arkham, Tier B)"
   funded_contributor_wallet_pump_day_sales: "yes, small (Launch Project-funded Safe 0xeaef sold ~9.8M SKY ≈ $0.69M on CoW Swap on pump days, Aug–Oct 2026; owner [Unverified])"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "The Smart Burn Engine buys SKY on-chain from protocol surplus and USDS staking rewards are paid from net revenue under the Stage 2 split (Q3 2026: $5.60M of buybacks and $3.12M of USDS to stakers; burns on-chain), so revenue reaches holders."
+pump_day_price_source: "CoinGecko SKY daily closes (as published; named last resort)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0xca5183fb9997046fbd9ba8113139bf5a5af122a0"
+    label: "Sky Frontier Foundation Safe"
+    confidence: high
+    independent_corroboration: true
+    basis: "Governance votes + on-chain Lock events"
+  - address: "0xeaef8fb615a7d5ab6a356dec0549fd749460e970"
+    label: "Generic Gnosis Safe paid by the Launch Project multisig"
+    confidence: low
+    independent_corroboration: false
+    basis: "Arkham (generic) + Etherscan funding"
 price_usd: 0.05135
 price_source: "CoinGecko, 16 Nov 2026 5:06 AM MST"
 last_updated: 2026-11-16
@@ -90,6 +108,8 @@ layout_version: 3
 
 **What it means:** A real business with hundreds of millions in yearly interest income, and a written rule that sends about half of net revenue to SKY holders through buybacks, USDS staking rewards and burns. The payout today is modest (~$35M a year at the Q3 rate, ≈ 2.9% of market cap), and governance can change the split or set it to zero, which the Foundation itself warns. Not a 9 because reserves get paid first and the holder share is small next to gross revenue.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** The Smart Burn Engine buys SKY on-chain from protocol surplus and USDS staking rewards are paid from net revenue under the Stage 2 split (Q3 2026: $5.60M of buybacks and $3.12M of USDS to stakers; burns on-chain), so revenue reaches holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -141,6 +161,8 @@ layout_version: 3
 - These were contributor payments approved by governance, and the sales went to a DEX, not an exchange deposit address. Whose Safe this is is not public: Arkham shows only a generic "Gnosis Safe Proxy" [Arkham](https://intel.arkm.com/explorer/address/0xeaef8fb615a7d5ab6a356dec0549fd749460e970) [Unverified]. `0x767e…`, which received 36.6M from the LB multisig, is unlabelled; Arkham's first-funder hint is a tentative "Amber Group?" [Arkham](https://intel.arkm.com/explorer/address/0x767e06d0c870fec6c38e101dbe5dbb226c5fd091).
 
 **What it means:** No treasury or foundation wallet sold into a pump, and the treasury has been a net **buyer**. The rule still counts a team-funded wallet selling on pump days, and the market-maker loan put treasury SKY on a centralised exchange without naming the firm. Small amounts and full disclosure of the programs keep it at **6**, a narrow pass. Not tested: MKR-era (pre-Sep 2024) sales by the Maker Foundation and founders.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko SKY daily closes (as published; named last resort).
 
 ## 📊 Tokenomics & supply · 7/10 · ✅ PASS
 
@@ -198,8 +220,18 @@ layout_version: 3
 | Team-funded wallet selling on pump days | 🟡 Launch Project-funded [`0xeaef…`](https://etherscan.io/address/0xeaef8fb615a7d5ab6a356dec0549fd749460e970) ≈ 9.8M SKY on CoW Swap, 20 Aug and 3 Oct 2026 |
 | Live mint path | 🟡 Governance only (Pause Proxy ward); unused since Jul 2025 |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [SFF 0xca51…22A0](https://etherscan.io/address/0xca5183FB9997046fbd9bA8113139bf5a5Af122A0) | Sky Frontier Foundation Safe | Governance votes + on-chain Lock events | high | yes | Holdings: ~11.6% staked |
+| [0xeaef…e970](https://etherscan.io/address/0xeaef8fb615a7d5ab6a356dec0549fd749460e970) | Generic Gnosis Safe paid by the Launch Project multisig | Arkham (generic) + Etherscan funding | low | no | Cannot move Selling on its own (contributor-payment recipient; owner unknown) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx` full SKY history for the Pause Proxy (19,341 transfers), SFF, Fortification Foundation, Liquidity Bootstrapping and Launch Project multisigs, and every second-hop wallet named above; `getLogs` on the SKY token (mints/burns) and LockstakeEngine (`Open`, `Lock`, `Free`, `Draw`); read 16 Nov 2026 ~5:10–5:45 AM MST
 - [Tier A] Ethereum RPC (publicnode): SKY `wards`, `totalSupply`, `balanceOf`, 16 Nov 2026 ~5:30 AM MST
 - [Tier A] Sky governance: [executive vote 21 Aug 2025](https://github.com/sky-ecosystem/executive-votes/blob/master/2025/executive-vote-2025-08-21.md) · [spell 2025-08-21](https://github.com/sky-ecosystem/spells-mainnet/blob/master/archive/2025-08-21-DssSpell/DssSpell.sol) · [executive vote 27 Sep 2024](https://github.com/sky-ecosystem/community/blob/master/governance/votes/Executive%20Vote%20-%20September%2027%2C%202024.md) · [spell 2024-09-05](https://github.com/sky-ecosystem/spells-mainnet/blob/master/archive/2024-09-05-DssSpell/DssSpell.sol)

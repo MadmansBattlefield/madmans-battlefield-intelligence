@@ -1,7 +1,7 @@
 {
   "title": "Moved to dead",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 13:58 MST",
+  "generated_at": "2026-11-16 14:02 MST",
   "policy": "A published v3 report that fails is never removed from the ranking in silence. It stays on RANKING.md until a dated entry is added here with a reason. Unscored pipeline names can move here for official shutdowns, unfixed exploits, wind-downs, or a documented dying-market skip. Other scan warnings such as thin volume stay warnings until they are formally moved.",
   "dying_market_skip_rule": "Market cap under $1M and 24h volume under $10k, as of a dated public market read, and only when an explicit entry is added on this list.",
   "entries": [

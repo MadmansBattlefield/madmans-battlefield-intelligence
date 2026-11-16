@@ -22,6 +22,19 @@ red_lines:
   hack_exploit: none
   treasury_to_exchange_during_pump: not_found
   undisclosed_treasury_to_exchange_flow: recurring_quarterly
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Payment Abstraction converts on-chain and off-chain service revenue into LINK automatically through Chainlink Automation and a DEX, and deposits it in the on-chain Chainlink Reserve (431,900 LINK bought in 30 days) ([Chainlink](https://chain.link/blog/chainlink-reserve-strategic-link-reserve), [Payment Abstraction](https://chain.link/blog/payment-abstraction-svr-fee-conversion)). That is an automatic, executed buyback paid from revenue, so the test is yes. Caveat: the bought LINK is held in a timelocked reserve, not burned or paid out."
+pump_day_price_source: "CoinGecko LINK daily closes (as published; named last resort)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0x9b1c1752b6b6eaf62a8c491a8681b32c1f7ecde9"
+    label: "Binance Deposit (Arkham) forwarding to Binance 14"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + Etherscan tag + forwarding pattern"
 price_usd: 9.19
 price_source: "CoinGecko, 14 Nov 2026 9:08 AM MST"
 last_updated: 2026-11-15
@@ -84,6 +97,8 @@ layout_version: 3
 
 **What it means:** Yes, it makes money, and some of it is used to buy LINK. Annualised revenue is ~$65M on a $7B cap.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Payment Abstraction converts on-chain and off-chain service revenue into LINK automatically through Chainlink Automation and a DEX, and deposits it in the on-chain Chainlink Reserve (431,900 LINK bought in 30 days) ([Chainlink](https://chain.link/blog/chainlink-reserve-strategic-link-reserve), [Payment Abstraction](https://chain.link/blog/payment-abstraction-svr-fee-conversion)). That is an automatic, executed buyback paid from revenue, so the test is yes. Caveat: the bought LINK is held in a timelocked reserve, not burned or paid out.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -123,6 +138,8 @@ layout_version: 3
 - **Correction (15 Nov):** the October batch was **16,875,000** to Binance (plus 1,874,999 to `0xd50f…`, 18.75M in all), not 15.875M as this page said before. The press figure of 16.875M was right. The June and April rows were partial before; full totals are above. Whether Binance sold the LINK cannot be seen on-chain.
 
 **What it means:** Not pump-timed, and the cadence is regular (four batches in 12 months, all on calm or falling days). Arkham now confirms the treasury and the Binance deposit. But it is still undisclosed treasury-to-exchange flow, about 59M LINK a year, so it does not pass (score unchanged at 5).
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko LINK daily closes (as published; named last resort).
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -166,8 +183,18 @@ layout_version: 3
 | Treasury → exchange during a pump | 🟢 Not found (sends were off-pump) |
 | Undisclosed treasury → exchange flow | 🟡 Recurring: 4 batches, 58.85M LINK in 12 months (Binance deposit confirmed by Arkham + Etherscan): [deposit address](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [Arkham label](https://intel.arkm.com/explorer/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) · [9 Oct example](https://etherscan.io/tx/0x595cc8d1b1156210b6ecdf9fe34adc45857091fa6894b3d2c876bd3aee4bdb8e) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [0x9b1c…cde9](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) | Binance Deposit (Arkham) forwarding to Binance 14 | Arkham + Etherscan tag + forwarding pattern | high | yes | Selling: treasury batches to Binance, none on pump days |
+| Chainlink non-circulating treasury Safes | Chainlink treasury | Arkham entity + supply disclosures | high | yes | Holdings: ~25% in liquid Safes |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Ethereum RPC and Blockscout; `eth_getLogs` Transfer trace, Oct 2026
 - [Tier A] Etherscan v2 API `tokentx` (LINK) for `0x9b1c…`, `0xa42d…` and `0xd50f…`, full history, read 15 Nov 2026 ~11:20 AM MST
 - [Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account): "Chainlink" entity; `0xa42d…` "Chainlink: Non-Circulating Supply"; `0x9b1c…` "Binance Deposit"; `0x28c6…` "Binance: Hot Wallet"; `0xd50f…` (no entity). Arkham shows relative ages only; dates above come from on-chain reads where amounts match. All-time exchange totals are Enterprise-locked

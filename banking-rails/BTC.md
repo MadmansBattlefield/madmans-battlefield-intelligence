@@ -22,6 +22,14 @@ red_lines:
   hack_exploit: none
   hashrate_drop_two_retargets: watch
   fee_share_of_miner_revenue_under_2pct: tripped
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "All fees go to miners; there is no burn, buyback, fee share or fee-funded staking yield for holders. The Revenue score of 4 describes real fee demand, but holders have no live claim on it."
+pump_day_price_source: "CoinGecko BTC daily closes (as published; named last resort)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 65569
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_height: 975830
@@ -88,6 +96,8 @@ layout_version: 3
 
 **What it means:** People pay real money to use Bitcoin, but it is small next to a $1.3T asset (~0.006% a year), and none of it reaches holders. Miners rely on new coins for ~99% of their income; that subsidy halves again in 2028. BTC's value case is scarcity, not cash flow, so it scores low on this section by design.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** All fees go to miners; there is no burn, buyback, fee share or fee-funded staking yield for holders. The Revenue score of 4 describes real fee demand, but holders have no live claim on it.
+
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -124,6 +134,8 @@ layout_version: 3
 | Government holders | Not traced this pass | Not found |
 
 **What it means:** There are no insiders who can dump into a pump. Selling pressure comes from the open market (funds, miners, leverage), not a team.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko BTC daily closes (as published; named last resort).
 
 ## 📊 Tokenomics & supply · 9/10 · ✅ PASS
 
@@ -184,8 +196,17 @@ layout_version: 3
 | Hashrate falling two retargets in a row | 🟡 Watch (−9.1% done, −6.6% projected; [mempool.space](https://mempool.space/difficulty-adjustment)) |
 | Fees under 2% of miner revenue | 🔴 Tripped (0.96%, last 144 blocks; [reward stats](https://mempool.space/api/v1/mining/reward-stats/144) · [DefiLlama](https://defillama.com/chain/bitcoin)) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Strategy Inc. (850,364 BTC) | Public company holder | SEC 8-K | high | yes (filing) | None: not an insider |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [mempool.space API](https://mempool.space/docs/api/rest) (tip height, hashrate, difficulty, [reward-stats](https://mempool.space/api/v1/mining/reward-stats/144), [pools](https://mempool.space/graphs/mining/pools)), 14 Nov 2026 ~12:15 PM MST
 - [Tier A] [DefiLlama fees `bitcoin`](https://defillama.com/chain/bitcoin), 14 Nov 2026
 - [Tier A] [CoinGecko `bitcoin`](https://www.coingecko.com/en/coins/bitcoin) price and 365-day daily closes, 14 Nov 2026 12:12 PM MST
@@ -205,6 +226,13 @@ layout_version: 3
 | Mining concentration: top 2 pools 45.6%, top 3 62.2% | [mempool.space pools](https://mempool.space/graphs/mining/pools) | A | 14 Nov 2026 |
 | Strategy holds 850,364 BTC; bought 1,036 BTC 2–8 Nov 2026 | [SEC 8-K, 9 Nov 2026](https://www.sec.gov/Archives/edgar/data/1050446/000119312526452693/mstr-20261109.htm) | A | 15 Nov 2026 |
 | Core v32.1 / v31.2 / v30.4 released 28 Oct 2026 | [GitHub releases](https://github.com/bitcoin/bitcoin/releases) | A | 14 Nov 2026 |
+
+## 🔎 Open items and how to close them
+
+| # | Open item | Exactly how to close it | Cost / access |
+|---|---|---|---|
+| 1 | **Pump-day test price source.** The test used CoinGecko daily closes | Re-run against Binance BTC/USDT UTC daily closes (first in the price-source order) | Free |
+| 2 | **Large-holder sales on pump days** | BTC has no team or foundation; only public-company and ETF holders could be tested, through their filings | Free (SEC EDGAR) |
 
 ---
 

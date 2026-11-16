@@ -40,7 +40,7 @@ Every token in this folder has a full v3 scored report:
 | 5 | [SOL.md](SOL.md) | Solana | **6.6 / 10 · ✅ PASS** |
 | 6 | [AERO.md](AERO.md) | Aero (Aerodrome + Velodrome merger) | **6.6 / 10 · ✅ PASS** |
 | 7 | [CC.md](CC.md) | Canton Coin (Canton Network) | **6.4 / 10 · ✅ PASS** |
-| 8 | [SYRUP.md](SYRUP.md) | Maple Finance | **6.3 / 10 · ✅ PASS** |
+| 8 | [SYRUP.md](SYRUP.md) | Maple Finance | **5.9 / 10 · ❌ FAIL** |
 | 9 | [ARB.md](ARB.md) | Arbitrum | **5.8 / 10 · ❌ FAIL** |
 | 10 | [XLM.md](XLM.md) | Stellar | **5.7 / 10 · ❌ FAIL** |
 | 11 | [ENA.md](ENA.md) | Ethena | **5.6 / 10 · ❌ FAIL** |

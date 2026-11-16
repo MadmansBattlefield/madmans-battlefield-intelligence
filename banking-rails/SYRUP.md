@@ -3,10 +3,10 @@ ticker: SYRUP
 name: Maple Finance
 chain: ethereum
 contract: "0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66"
-overall_score: 6.3
-overall_verdict: PASS
+overall_score: 5.9
+overall_verdict: FAIL
 section_scores:
-  revenue: 7
+  revenue: 5
   foundation_team: 7
   insider_holdings: 6
   selling_behavior: 4
@@ -23,6 +23,34 @@ red_lines:
   mint_path_live: "governance only (MapleToken mints only through modules the Maple GovernorTimelock schedules; the Recapitalization Module's issuance window went to 0 on 1 Oct 2026)"
   team_wallet_to_exchange_during_pump: "yes, treasury-labelled wallets (Etherscan 'Maple: Treasury 2', 'Maple: Treasury 1', 'Maple: DAO') funded wallets that put SYRUP into exchange deposit addresses on pump days: 7.0M into a Maple-used Binance deposit on 29 Oct, 10 Nov and 22 Dec 2025; 6.25M into a Binance deposit on the 6 May 2025 pump day; ~1.1M into Gate on 21 Nov 2024. Sales not provable on-chain; a market-maker loan program (~2% of supply) is disclosed"
   treasury_coins_to_otc_desk: "yes (SSF wallet 0x99f0 sent 4.6M SYRUP, including bought-back tokens, to a FalconX deposit in Jul and Sep 2026; purpose [Unverified])"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "MIP-021 buybacks are a governance rule carried out by the Syrup Strategic Fund through Binance, not an automatic on-chain mechanism, and bought SYRUP is held in the treasury. No fee share or fee-funded staking yield is documented. The binary test is therefore **no**, and Revenue cannot pass: **7 → 5**. A 5 still describes a real lending business, but holders have no live claim on its revenue."
+pump_day_price_source: "Gate SYRUP/USDT UTC daily closes"
+pump_day_disclosure_quality: buried_disclosure
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0x9e786e5e2ffe875cdeb3bdd34f932b9baed69423"
+    label: "Maple: Treasury 2"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan tag + Maple token-transparency filing"
+  - address: "0x6893f4df778358e6967ef899dc440ae20f9ba6bf"
+    label: "Maple-controlled EOA (receives buyback SYRUP from Binance 14)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan flows matching Maple-reported buybacks"
+  - address: "0x640e8ccfd0e62e6f7da284c701746eab4cb3fb7d"
+    label: "Syrup.fi (Maple Finance)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Arkham + Etherscan treasury funding"
+  - address: "0x99f03ca02b232dc124b62b8cf40b2bfd21eae9ca"
+    label: "Syrup Strategic Fund EOA"
+    confidence: medium
+    independent_corroboration: true
+    basis: "Etherscan flows + Maple buyback figures"
 price_usd: 0.1016
 price_source: "CoinGecko, 16 Nov 2026 5:27 AM MST"
 last_updated: 2026-11-16
@@ -31,17 +59,17 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### SYRUP · Overall grade **6.3 / 10 · ✅ PASS**
+### SYRUP · Overall grade **5.9 / 10 · ❌ FAIL**
 
 **Summary:** Maple is a real on-chain credit business: $4.7B AUM, $1.67B of loans and $4.4M of revenue in Q3 2026, and DefiLlama counts $14.5M of protocol revenue over the last year against a ~$119M market cap. A rules-based buyback (MIP-021: 10–30% of monthly revenue) turns part of that into SYRUP purchases. The treasury is in labelled wallets and a 4-of-7 DAO Safe, and Maple publishes them. The weak spot is Selling: treasury-labelled wallets funded wallets that put about **15M SYRUP into exchange deposit addresses on five pump days** (Nov 2024 – Dec 2025), and the buyback fund later sent 4.6M SYRUP to an OTC desk. A market-maker loan program is disclosed, but no disclosure ties these specific deposits to it. Passes on the weighted average, with Selling as a clear ❌.
 
 **🚨 Top warning:** Etherscan's **"Maple: Treasury 2"** [`0x9e78…9423`](https://etherscan.io/address/0x9e786e5e2ffe875cdeb3bdd34f932b9baed69423) (Maple's own filing calls it the wallet for "day to day operations involving SYRUP eg MM contracts") paid SYRUP into wallet [`0x6893…a6bf`](https://etherscan.io/address/0x6893f4df778358e6967ef899dc440ae20f9ba6bf), which put it into its own **Binance deposit address** [`0xf0c1…db47`](https://etherscan.io/address/0xf0c1445a72d3f5f9355ef846ad8bb14b2e03db47) **within minutes, on pump days**: [10 Nov 2025, 1M in](https://etherscan.io/tx/0x8f580b945198a7aae462a5d6ed7f8e0a57b2e854f2f0f2b88eb336763f165997) → [Binance 2 minutes later](https://etherscan.io/tx/0x5e75fcd136dd5c9bb5158fc43db7fa0c4249e5fbda32e199c7a8d22a6d45fed7) (+11.9% in 5 days) · [22 Dec 2025, 2M in](https://etherscan.io/tx/0x6a75486e7efc85e5ab5c1af22a482fafaffcb12db4bfdc083540202997a22375) → [Binance 6 minutes later](https://etherscan.io/tx/0xf57759519928eaf0b8f3b061dffabb0e4921f869dd6d23bc46334f941ee2c2da) (+21.2%) · [29 Oct 2025, 4M from SSF wallet `0x99f0…`](https://etherscan.io/tx/0x5daa8c8344a45e3048298c90263e56ec857fdd5c11bd757976950278cedab9a0) → [Binance 7 minutes later](https://etherscan.io/tx/0x46e35cc4e8356a9462405ca0ac862dd93e91fc71c56ef3aa64f7ff2c36b10d1d) (+12.8%). That is **7.0M SYRUP (≈ $2.8M at those days' closes)**. `0x6893…` is Maple's: the exact Q3 2026 buyback amounts (852,841 + 676,290 + 1,371,166 = 2.90M, matching Maple's "2.9M SYRUP bought back") were withdrawn from Binance into it ([e.g. 1,371,166](https://etherscan.io/tx/0xde481457b2d08ff9a5f71a9325733b74908a975d94a34e235a4b12dfb244cc55)). Whether the deposits were sold is not visible on-chain. Every transfer is linked in the 🔗 Evidence trail below.
 
-**Sections passed: 9 of 11**
+**Sections passed: 8 of 11**
 
 | Section | Score | Result |
 |---|:---:|:---:|
-| 💰 Revenue | 7/10 | ✅ PASS |
+| 💰 Revenue | 5/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 7/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 6/10 | ✅ PASS |
 | 📉 Selling behavior | 4/10 | ❌ FAIL |
@@ -58,7 +86,7 @@ layout_version: 3
 ---
 
 
-# 🪪 SYRUP · Maple Finance · 6.3 / 10 · ✅ PASS
+# 🪪 SYRUP · Maple Finance · 5.9 / 10 · ❌ FAIL
 
 > **One line:** A real, growing on-chain lender ($4.7B AUM, ~$17.6M revenue run-rate) whose token gets a rules-based slice of revenue through buybacks, with labelled treasury wallets and multisig control. But treasury-funded wallets repeatedly put SYRUP into exchange deposit addresses on pump days, and the buyback fund has since sent tokens to an OTC desk, with no line-by-line disclosure.
 
@@ -73,7 +101,7 @@ layout_version: 3
 
 ---
 
-## 💰 Revenue — Does it make money? · 7/10 · ✅ PASS
+## 💰 Revenue — Does it make money? · 5/10 · ❌ FAIL
 
 | Metric | Value | Source |
 |---|---:|---|
@@ -85,6 +113,8 @@ layout_version: 3
 | Market cap ÷ protocol revenue | ~8x (DefiLlama 1y) · ~5.5x (Maple LTM) | derived |
 
 **What it means:** Real revenue from institutional lending, cheap relative to the token's market cap, and a written rule that routes part of it into buybacks. It is not a 7+ business for holders yet: buybacks took only 13.6% of Q3 revenue (and 3.4% in H1 2026, per Alea), bought tokens are held in the treasury rather than burned, and Maple says buybacks "are not a dividend". Also, October revenue fell back under the $1.5M tier [Tier B, Alea Q3 report].
+
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** MIP-021 buybacks are a governance rule carried out by the Syrup Strategic Fund through Binance, not an automatic on-chain mechanism, and bought SYRUP is held in the treasury. No fee share or fee-funded staking yield is documented. The binary test is therefore **no**, and Revenue cannot pass: **7 → 5**. A 5 still describes a real lending business, but holders have no live claim on its revenue.
 
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
@@ -135,6 +165,8 @@ layout_version: 3
 **C. Last 12 months.** The SSF EOA `0x99f0…` sent **4.6M SYRUP to a FalconX deposit** [`0x7c98…1e63`](https://etherscan.io/address/0x7c982ebe651ee2169aed8fcb121f36a2c6b91e63) (swept to FalconX 1): [2.5M on 9 Jul 2026](https://etherscan.io/tx/0xcfc21703e88a5da48cbf36e6499557e538ab0af0b18517c35139a12ffc3266c4) (+1.4%, not a pump) and [2.1M on 29 Sep 2026](https://etherscan.io/tx/0x64ef0aa34561c2984ecfb5c68cc3bee95e4cfbac3caf9d3cadbd304f5a5f0a39), the day after a +15.2% pump close (29 Sep itself +7.5%). The September send came three weeks after August's buyback (676,290) reached `0x99f0…`. Maple's MIP-019 post says bought-back tokens "are held, not sold". FalconX is an OTC/prime broker, so this could be a sale, a loan or custody. [Unverified].
 
 **What it means:** The rule: a treasury wallet selling, or funding a wallet that deposits to an exchange, on a pump day, without disclosure, fails Selling. Maple-labelled wallets did that on five pump days. It discloses a market-making program and names the wallets, which is better than most, and the deposits are a small share of supply (~1.2%). But nothing published ties these specific pump-day deposits to that program, and the 2026 OTC sends cut against the "held, not sold" line. **4**: a clear fail, but not the ≤3 hard gate, since the amounts are modest and a disclosed MM framework exists. **Unchanged after the Arkham pass, and this is the closest call in the report.** Arkham's Maple label on `0x640e…` weakens the market-maker reading for the 6 May 2025 row. But the 4 already counted all five pump days as Maple-funded deposits, so the premise does not change. A 3 would trip the hard gate and turn the PASS into a FAIL. That would need proof of sales, a larger share of supply, or a deposit outside the disclosed MM window; none was found.
+
+- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** Maple's token-transparency filing discloses a market-making loan program and names the treasury wallets, but nothing published ties these specific pump-day deposits to it, so the disclosure is partial. The silence penalty does not apply; Selling stays **4** (proven pump-day deposits, partially disclosed). Pump days from Gate SYRUP/USDT UTC daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -189,8 +221,20 @@ layout_version: 3
 | Live mint path | 🟡 Governance only (timelocked module adds); issuance rate 0 since 1 Oct 2026. [Governor](https://etherscan.io/address/0x2efff88747eb5a3ff00d4d8d0f0800e306c0426b) |
 | Treasury coins to an OTC desk | 🟡 4.6M from the SSF EOA to FalconX, Jul and Sep 2026. [29 Sep tx](https://etherscan.io/tx/0x64ef0aa34561c2984ecfb5c68cc3bee95e4cfbac3caf9d3cadbd304f5a5f0a39) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [Maple: Treasury 2](https://etherscan.io/address/0x9e786e5e2ffe875cdeb3bdd34f932b9baed69423) | Maple: Treasury 2 | Etherscan tag + Maple token-transparency filing | high | yes | Selling: funded pump-day exchange deposits |
+| [0x6893…a6bf](https://etherscan.io/address/0x6893f4df778358e6967ef899dc440ae20f9ba6bf) | Maple-controlled EOA (receives buyback SYRUP from Binance 14) | Etherscan flows matching Maple-reported buybacks | high | yes (on-chain match to disclosed buybacks) | Selling: deposited to Binance minutes after treasury funding on pump days |
+| [0x640e…b7fd](https://etherscan.io/address/0x640e8ccfd0e62e6f7da284c701746eab4cb3fb7d) | Syrup.fi (Maple Finance) | Arkham + Etherscan treasury funding | high | yes | Selling: 6 May 2025 row |
+| [SSF 0x99f0…e9ca](https://etherscan.io/address/0x99f03ca02b232dc124b62b8cf40b2bfd21eae9ca) | Syrup Strategic Fund EOA | Etherscan flows + Maple buyback figures | medium | yes | Selling: FalconX sends [Unverified purpose] |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API `tokentx` full SYRUP history for Maple: Treasury, Treasury 1, Treasury 2, DAO, `0x58BE…`, `0x99f0…`, `0x4c3b…`, `0x3fcd…`, `0x6893…`, `0x6400…`, `0x640e…`, `0x4460…`, `0xa7cc…`, `0x9e65…`, `0xa161…`, `0x957d…`, the Migrator and every deposit address named; `getLogs` for mints, burns and module events; `getsourcecode` for the token, implementation and modules; read 16 Nov 2026 ~5:30–6:10 AM MST
 - [Tier A] Ethereum RPC (publicnode): `globals()`, `governor()`, `mapleTreasury()`, `totalSupply()`, `currentIssuanceRate()`, Safe `getOwners()`/`getThreshold()`, 16 Nov 2026
 - [Tier B] Etherscan name tags read from address pages, 16 Nov 2026: "Maple: Treasury", "Maple: Treasury 1", "Maple: Treasury 2", "Maple: DAO", "Maple: Governor", "Maple: Migrator", "Maple: Recapitalization Module", "Maple: Syrup Drip", "Gate Deposit", "Binance Deposit", "Binance 14", "Kraken 146", "FalconX Deposit", "FalconX 1", "GSR", "BingX 26", "Coinbase Prime 2", "Upbit Deposit"

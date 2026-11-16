@@ -22,6 +22,14 @@ red_lines:
   hack_exploit: none
   network_halt: none_in_series
   foundation_wallets_unpublished: tripped
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Half of every base fee is burned on-chain and priority fees and tips go to validators and their stakers automatically, so revenue reaches holders, though it does not cover inflation."
+pump_day_price_source: "CoinGecko SOL daily closes (as published; named last resort)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 72.24
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_slot: 469444012
@@ -88,6 +96,8 @@ layout_version: 3
 
 **What it means:** Solana users paid ~$230M in fees over 12 months, ~0.54% of market cap — the best ratio of the layer-1s in this set. Most goes to stakers, a little is burned. It does not cover the 3.56% inflation, so holders who don't stake are diluted.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Half of every base fee is burned on-chain and priority fees and tips go to validators and their stakers automatically, so revenue reaches holders, though it does not cover inflation.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -123,6 +133,8 @@ layout_version: 3
 | Alameda / FTX estate | Repeated unstakes routed to creditor-distribution addresses (Mar, Apr, Oct 2026) | [Tier B] CoinDesk + CoinAlertNews |
 
 **What it means:** No Foundation selling into pumps was found, but without published wallets "not found" is not a pass under this method. Large non-Foundation holders (FTX estate, unlabeled whales) are the visible sellers.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko SOL daily closes (as published; named last resort).
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -172,8 +184,17 @@ layout_version: 3
 | Network halt | 🟢 None in this series |
 | Foundation wallets unpublished | 🟡 Tripped — holdings and sales can't be audited (no Foundation address list exists to link; Arkham has no Foundation entity) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Arkham "Solana" entity (27.47M SOL) | Generic entity, not labelled Solana Foundation | Arkham | low | no | None: Foundation stake stays [Unverified] |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Solana mainnet RPC: `getSupply`, `getInflationRate`, `getEpochInfo`, `getVersion`, `getVoteAccounts`, `getRecentPerformanceSamples`; 14 Nov 2026 ~12:25 PM MST
 - [Tier A] DefiLlama fees `solana`, 14 Nov 2026
 - [Tier A] CoinGecko `solana` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST

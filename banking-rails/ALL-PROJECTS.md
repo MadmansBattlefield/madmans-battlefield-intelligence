@@ -2,7 +2,7 @@
 title: All projects
 total: 293
 scored_reports: 148
-passing: 8
+passing: 7
 last_updated: 2026-11-16
 timezone: MST
 scan_checked_at: 16 Nov 2026 5:24 AM MST
@@ -14,7 +14,7 @@ disclaimer: Research only. Not financial advice. Not a recommendation to buy or 
 **Research only. Not financial advice. Not a recommendation to buy or sell.**
 Updated 16 Nov 2026 (MST). Scoring rules are in the [cover sheet](COVER.md). Market and status figures in the unfinished groups were read 16 Nov 2026 5:24 AM MST from [CoinGecko](https://www.coingecko.com/), [DefiLlama](https://defillama.com/) and [CoinPaprika](https://coinpaprika.com/).
 
-**293 coins** in the research pipeline. **148** have a full v3 report. **8 pass** and **140 fail.** The other **145** are still in progress, grouped by how close each is to a full report.
+**293 coins** in the research pipeline. **148** have a full v3 report. **7 pass** and **141 fail.** The other **145** are still in progress, grouped by how close each is to a full report.
 
 **148** ✅ done · **0** 🟢 close · **86** 🟡 need wallet work · **30** 🔴 big gaps · **29** ⚫ dead or wound down (12 of them [Unverified])
 
@@ -24,12 +24,12 @@ Live counts across all **148** published v3 reports. Rebuilt on every push. Full
 
 | Measure | Count | Share |
 |---|---:|---:|
-| ✅ Pass overall | **8** | 5% |
+| ✅ Pass overall | **7** | 5% |
 | 🔴 Fail on revenue (Revenue 3 or below) | **123** | 83% |
 | 🔴 Fail on insider selling (Selling 3 or below) | **31** | 21% |
 | 🔴 Fail both | **28** | 19% |
 | 🟨 Insider selling not proven | **79** | 53% |
-| 🤐 Pump-day sale with no disclosure | **26** | 18% |
+| 🤐 Pump-day sale with no disclosure | **25** | 17% |
 
 - [✅ Done (v3 reports)](#done)
 - [🟢 Close](#close)
@@ -49,7 +49,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 <a id="done"></a>
 ## ✅ Done (v3 reports)
 
-**148 reports. 8 pass, 140 fail.** A score of 6.0 or more is a PASS. If Revenue or Selling scores 3 or less, it's an automatic FAIL.
+**148 reports. 7 pass, 141 fail.** A score of 6.0 or more is a PASS. If Revenue or Selling scores 3 or less, it's an automatic FAIL.
 
 | # | Coin | Name | Score | Status | What sinks it |
 |:---:|---|---|---:|:---:|---|
@@ -60,7 +60,7 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 5 | [SOL](SOL.md) | Solana | 6.6 | ✅ PASS | — |
 | 6 | [AERO](AERO.md) | Aero (Aerodrome + Velodrome merger) | 6.6 | ✅ PASS | — |
 | 7 | [CC](CC.md) | Canton Coin (Canton Network) | 6.4 | ✅ PASS | — |
-| 8 | [SYRUP](SYRUP.md) | Maple Finance | 6.3 | ✅ PASS | — |
+| 8 | [SYRUP](SYRUP.md) | Maple Finance | 5.9 | ❌ FAIL | Low overall |
 | 9 | [ARB](ARB.md) | Arbitrum | 5.8 | ❌ FAIL | Low overall |
 | 10 | [XLM](XLM.md) | Stellar | 5.7 | ❌ FAIL | Revenue gate |
 | 11 | [ENA](ENA.md) | Ethena | 5.6 | ❌ FAIL | Revenue gate |

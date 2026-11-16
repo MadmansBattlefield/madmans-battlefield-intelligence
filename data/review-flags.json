@@ -1,7 +1,7 @@
 {
   "title": "Review flags from the Arkham-confidence and holder-accrual upgrades",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 13:58 MST",
+  "generated_at": "2026-11-16 14:02 MST",
   "note": "Scores were not changed. These are review lists parsed from the published Markdown. A flag means a human (or a later dual review) should look at that section, not that the published score is automatically wrong.",
   "low_confidence_selling_or_holdings": [
     {
@@ -93,13 +93,6 @@
       "notes": "Revenue is real and goes to a treasury the token holders vote on. That is better than CFG or HUMA, where the token sees nothing. But it is small and shrinking: about $514k a month, or ≈ 130x price-to-sales. **4**, so the gate is not tripped."
     },
     {
-      "ticker": "BTC",
-      "revenue_score": 4,
-      "reaches_holders": "no",
-      "mechanisms": [],
-      "notes": "People pay real money to use Bitcoin, but it is small next to a $1.3T asset (~0.006% a year), and none of it reaches holders. Miners rely on new coins for ~99% of their income; that subsidy halves again in 2028. BTC's value case is scarcity, not cash flow, so it scores low on this section by design."
-    },
-    {
       "ticker": "CARDS",
       "revenue_score": 5,
       "reaches_holders": "no",
@@ -109,13 +102,6 @@
         "fee_share"
       ],
       "notes": "The business is real and growing, and it earns more than most tokens on this list. The token gets almost none of it: holders received about **$1 for every $225** the company kept, and nothing obliges the company to keep buying. That is better than a token with no business (QNT scored 4 for an optional, unmeasured sink), so **5**, but well short of a pass."
-    },
-    {
-      "ticker": "LINK",
-      "revenue_score": 8,
-      "reaches_holders": "unclear",
-      "mechanisms": [],
-      "notes": "Yes, it makes money, and some of it is used to buy LINK. Annualised revenue is ~$65M on a $7B cap."
     },
     {
       "ticker": "QNT",
@@ -140,17 +126,6 @@
         "fee_share"
       ],
       "notes": "The business is real and cheap on a sales multiple, but the token has no claim on revenue and no live buyback. SOLV's uses are governance, staking and fee discounts. **4**: better than a zero-revenue token, but it does not pass."
-    },
-    {
-      "ticker": "SYRUP",
-      "revenue_score": 7,
-      "reaches_holders": "unclear",
-      "mechanisms": [
-        "burn",
-        "buyback",
-        "fee_share"
-      ],
-      "notes": "Real revenue from institutional lending, cheap relative to the token's market cap, and a written rule that routes part of it into buybacks. It is not a 7+ business for holders yet: buybacks took only 13.6% of Q3 revenue (and 3.4% in H1 2026, per Alea), bought tokens are held in the treasury rather than burned, and Maple says buybacks \"are not a dividend\". Also, October revenue fell back under t..."
     }
   ]
 }

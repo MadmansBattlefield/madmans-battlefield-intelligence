@@ -40,7 +40,31 @@
   },
   "price_usd": 1831.06,
   "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "The EIP-1559 base fee is burned on-chain automatically (≈$48M in 12 months), and priority fees go to stakers, so revenue reaches holders. The Revenue score of 5 reflects how small this is next to issuance.",
+    "pump_day_price_source": "CoinGecko ETH daily closes (as published; named last resort)",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x9fc3dc011b461664c835f2527fffb1169b3c213e",
+        "label": "Ethereum Foundation Safe",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Etherscan + EF treasury policy + Arkham entity"
+      },
+      {
+        "address": "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae",
+        "label": "Ethereum Foundation",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Etherscan label + Arkham entity"
+      }
+    ]
+  },
   "key_numbers": {
     "price_usd": 1831.06,
     "market_cap_text": "$223.90B",
@@ -50,9 +74,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ETH.md",
-    "sha256": "a108ebfd1e1670957f305e7e09bd965d483fe7d79d96da39e9d548a2fb1d9f22",
-    "bytes": 18443,
-    "extracted_at": "2026-11-16 13:58 MST",
+    "sha256": "46c0afb4d2086f44a4a568d1b77f13c846e749320446925f024490066d075ef3",
+    "bytes": 20826,
+    "extracted_at": "2026-11-16 14:02 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -197,15 +221,15 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "CoinGecko ETH daily closes (as published; named last resort)",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "yes",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": false,
-    "disclosure_quality": "unclear",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "foundation_sale_on_pump_day: not_found"
@@ -215,6 +239,7 @@
     "reaches_holders": "yes",
     "mechanisms": [
       "burn",
+      "staking_yield_from_fees",
       "fee_share"
     ],
     "automatic_onchain": true,
@@ -225,30 +250,30 @@
   "attributions": [
     {
       "address": "0x9fc3dc011b461664c835f2527fffb1169b3c213e",
-      "url": "https://intel.arkm.com/explorer/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e",
-      "label": null,
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
+      "url": null,
+      "label": "a named individual",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
       "corroborating_sources": [
-        "arkham",
-        "explorer-link"
+        "report-front-matter",
+        "corroborated"
       ],
-      "label_kind": "unknown",
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     },
     {
       "address": "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae",
-      "url": "https://intel.arkm.com/explorer/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe",
-      "label": null,
-      "source": "arkham",
-      "confidence": "medium",
-      "independent_corroboration": false,
+      "url": null,
+      "label": "a named individual",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
       "corroborating_sources": [
-        "arkham",
-        "explorer-link"
+        "report-front-matter",
+        "corroborated"
       ],
-      "label_kind": "unknown",
+      "label_kind": "verified_entity",
       "appears_in_selling_or_holdings": true
     },
     {
@@ -291,6 +316,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Blockscout API (EF wallets, internal and token transfers, 15 Nov 2025 – 14 Nov 2026)",

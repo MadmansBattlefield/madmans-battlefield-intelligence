@@ -22,6 +22,24 @@ red_lines:
   hack_exploit: none
   foundation_sale_on_pump_day: not_found
   undisclosed_foundation_to_exchange_flow: not_found
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "The EIP-1559 base fee is burned on-chain automatically (≈$48M in 12 months), and priority fees go to stakers, so revenue reaches holders. The Revenue score of 5 reflects how small this is next to issuance."
+pump_day_price_source: "CoinGecko ETH daily closes (as published; named last resort)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0x9fc3dc011b461664c835f2527fffb1169b3c213e"
+    label: "Ethereum Foundation Safe"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan + EF treasury policy + Arkham entity"
+  - address: "0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae"
+    label: "Ethereum Foundation"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan label + Arkham entity"
 price_usd: 1831.06
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 last_updated: 2026-11-15
@@ -87,6 +105,8 @@ layout_version: 3
 
 **What it means:** Ethereum makes real money and burns part of it for every holder. But $175M of fees a year on a $224B asset is thin (~0.08%), and the burn (~$48M/yr) is far below what is issued to stakers, so supply is growing again.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** The EIP-1559 base fee is burned on-chain automatically (≈$48M in 12 months), and priority fees go to stakers, so revenue reaches holders. The Revenue score of 5 reflects how small this is next to issuance.
+
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -133,6 +153,8 @@ layout_version: 3
 - [Arkham's EF entity](https://intel.arkm.com/explorer/entity/ethereum-foundation) (14 addresses) shows only ~$25K sent to exchanges **all-time** (Binance $14.5K, Fidelity Custody $10.3K, Kraken $300) and no large exchange outflows ([Tier B] Arkham, 15 Nov 2026, one source). That fits the CoW / OTC sale routes above.
 
 **What it means:** EF sells steadily under a published rule and announces OTC deals. None of the sales found fell on a pump day. It loses points because some Oct–Nov sales came from a wallet EF has not formally listed.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko ETH daily closes (as published; named last resort).
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -181,8 +203,18 @@ layout_version: 3
 | EF sale on a pump day | 🟢 Not found (Apr 2026 CoW sales: [8 Apr](https://etherscan.io/tx/0x7d6d01419eb1fb0de7de5163431ba447da9f770bc31061253c362eaa10b245ea), [10 Apr](https://etherscan.io/tx/0x81896da1100aefffb6f2710f9d62a2813e4034d268a26036a9e93f6590e318f1); 18 Mar move was a Morpho deposit, [tx](https://etherscan.io/tx/0xbe73b6cf000acb6957aa9f5b4dc851fe86a3049fdbc729c075290919da25157a)) |
 | Undisclosed EF → exchange flow | 🟢 Not found (sales go via CoW / OTC and are reported; [Arkham's EF entity](https://intel.arkm.com/explorer/entity/ethereum-foundation) shows ~$25K to exchanges all-time) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [EF Safe 0x9fC3…213e](https://etherscan.io/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) | Ethereum Foundation Safe | Etherscan + EF treasury policy + Arkham entity | high | yes | Selling: CoW sales traced, none on pump days |
+| [EF wallet 0xde0B…7BAe](https://etherscan.io/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) | Ethereum Foundation | Etherscan label + Arkham entity | high | yes | Holdings |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Blockscout API (EF wallets, internal and token transfers, 15 Nov 2025 – 14 Nov 2026)
 - [Tier A] Explorer pages used (Etherscan): [`EF Safe`](https://etherscan.io/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) · [`EF wallet`](https://etherscan.io/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) · [`Safe 0xbC9a…`](https://etherscan.io/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3) · [`CoW settlement`](https://etherscan.io/address/0x9008d19f58aabd9ed0d60971565aa8510560ab41) · [`WETH`](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2)
 - [Tier B] Arkham address pages used: [EF Safe](https://intel.arkm.com/explorer/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) · [EF wallet](https://intel.arkm.com/explorer/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) · [Safe 0xbC9a…](https://intel.arkm.com/explorer/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3)

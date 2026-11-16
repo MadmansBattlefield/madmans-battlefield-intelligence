@@ -42,7 +42,31 @@
   },
   "price_usd": 0.05135,
   "price_source": "CoinGecko, 16 Nov 2026 5:06 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "The Smart Burn Engine buys SKY on-chain from protocol surplus and USDS staking rewards are paid from net revenue under the Stage 2 split (Q3 2026: $5.60M of buybacks and $3.12M of USDS to stakers; burns on-chain), so revenue reaches holders.",
+    "pump_day_price_source": "CoinGecko SKY daily closes (as published; named last resort)",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0xca5183fb9997046fbd9ba8113139bf5a5af122a0",
+        "label": "Sky Frontier Foundation Safe",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Governance votes + on-chain Lock events"
+      },
+      {
+        "address": "0xeaef8fb615a7d5ab6a356dec0549fd749460e970",
+        "label": "Generic Gnosis Safe paid by the Launch Project multisig",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Arkham (generic) + Etherscan funding"
+      }
+    ]
+  },
   "key_numbers": {
     "price_usd": 0.05135,
     "market_cap_text": "$1.203B",
@@ -54,9 +78,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SKY.md",
-    "sha256": "db94254a58f6228f9b339fcb07a965d7427b63fffcc8da7bdbebc19f5ce13f64",
-    "bytes": 35529,
-    "extracted_at": "2026-11-16 13:58 MST",
+    "sha256": "74b79420c36834389fb56eba23c96a2c726d0416ccdf4e94a3c82057906253d3",
+    "bytes": 38088,
+    "extracted_at": "2026-11-16 14:02 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -504,15 +528,15 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "CoinGecko SKY daily closes (as published; named last resort)",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "yes",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": false,
-    "disclosure_quality": "formal_announcement",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found (Pause Proxy, Sky Frontier Foundation, Fortification Foundation and Liquidity Bootstrapping multisig: no direct exchange deposits)",
@@ -533,6 +557,33 @@
     "notes": "A real business with hundreds of millions in yearly interest income, and a written rule that sends about half of net revenue to SKY holders through buybacks, USDS staking rewards and burns. The payout today is modest (~$35M a year at the Q3 rate, ≈ 2.9% of market cap), and governance can change the split or set it to zero, which the Foundation itself warns. Not a 9 because reserves get paid fir..."
   },
   "attributions": [
+    {
+      "address": "0xca5183fb9997046fbd9ba8113139bf5a5af122a0",
+      "url": null,
+      "label": "Sky Frontier Foundation Safe",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xeaef8fb615a7d5ab6a356dec0549fd749460e970",
+      "url": null,
+      "label": "Generic Gnosis Safe paid by the Launch Project multisig",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unknown",
+      "appears_in_selling_or_holdings": true
+    },
     {
       "address": "0xb9681a75e296b7caa4ec4fd92aee809a36a4fc7e",
       "url": "https://intel.arkm.com/explorer/address/0xb9681a75e296b7caa4ec4fd92aee809a36a4fc7e",
@@ -672,17 +723,6 @@
       "appears_in_selling_or_holdings": true
     },
     {
-      "address": "0xeaef8fb615a7d5ab6a356dec0549fd749460e970",
-      "url": "https://intel.arkm.com/explorer/address/0xeaef8fb615a7d5ab6a356dec0549fd749460e970",
-      "label": "a named individual",
-      "source": "arkham",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": true
-    },
-    {
       "address": "0x767e06d0c870fec6c38e101dbe5dbb226c5fd091",
       "url": "https://intel.arkm.com/explorer/address/0x767e06d0c870fec6c38e101dbe5dbb226c5fd091",
       "label": "a named individual",
@@ -728,6 +768,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan v2 API `tokentx` full SKY history for the Pause Proxy (19,341 transfers), SFF, Fortification Foundation, Liquidity Bootstrapping and Launch Project multisigs, and every second-hop wallet named above; `getLogs` on the SKY token (mints/burns) and LockstakeEngine (`Open`, `Lock`, `Free`, `Draw`); read 16 Nov 2026 ~5:10–5:45 AM MST",

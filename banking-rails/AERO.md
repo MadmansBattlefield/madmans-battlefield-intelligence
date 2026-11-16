@@ -25,6 +25,24 @@ red_lines:
   team_sale_into_pump: not_found_12_months_traced
   migration_budget_burn_by_owner: possible_not_used
   emissions_above_revenue: borderline (~$1.9M/week minted vs ~$1.7M/week paid to stakers)
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "sAERO stakers receive 100% of the exchange revenue of the pools they vote for, paid on-chain every epoch (DefiLlama holders revenue $7.3M in 30 days), so revenue reaches holders."
+pump_day_price_source: "CoinGecko AERO daily closes (as published; named last resort)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0xbde0c70bdc242577c52dfad53389f82fd149ea5a"
+    label: "Aerodrome team Safe (4/7)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Basescan + team-emission receipts"
+  - address: "0x22a2f7340a3fb4c7c389d91ee954766b12476721"
+    label: "AerodromeMigration (verified contract)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Basescan verified source"
 price_usd: 0.4427
 price_source: "CoinGecko (tracks legacy contract; new-token DEX price $0.4416), 14 Nov 2026 12:12 PM MST"
 chain_read_block: 57475111
@@ -97,6 +115,8 @@ layout_version: 3
 
 **What it means:** Yes. The token earns real fees, and they are paid to stakers in real time. Revenue is down about 80% from the 2024 peak, and Q4 2026 is tracking below Q3.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** sAERO stakers receive 100% of the exchange revenue of the pools they vote for, paid on-chain every epoch (DefiLlama holders revenue $7.3M in 30 days), so revenue reaches holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -145,6 +165,8 @@ layout_version: 3
 - Daily sampling could miss a same-day in-and-out, and the Momentum Fund wallet is still unpublished.
 
 **What it means:** The team Safe sold no AERO in the last 12 months. Its outflows were two locks into the vote-escrow, the 22 Oct migration and ~0.4M (about $0.2M) to two unknown wallets on a falling day. None landed on a pump day or at an exchange. The old ~3.3M mystery is closed, so the section moves from 5 to a pass at 6. It is held at 6 because the 0.4M receivers and the Momentum Fund are unknown.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko AERO daily closes (as published; named last resort).
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -216,8 +238,18 @@ layout_version: 3
 | Emissions above revenue | 🟡 Borderline (corrected 15 Nov) | ~4.3M/week (~$1.9M) minted vs ~$1.7M/week paid to stakers |
 | Migration budget burned | 🟡 Possible, not used | `paused()` = false |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [0xbde0…ea5a](https://basescan.org/address/0xbde0c70bdc242577c52dfad53389f82fd149ea5a) | Aerodrome team Safe (4/7) | Basescan + team-emission receipts | high | yes (on-chain) | Holdings and Selling: traced, no pump-day sale |
+| [0x22a2…6721](https://basescan.org/address/0x22a2f7340a3fb4c7c389d91ee954766b12476721) | AerodromeMigration (verified contract) | Basescan verified source | high | yes | Holdings: unclaimed budget, not team |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Base RPC (`base.drpc.org`, `mainnet.base.org`, `base-rpc.publicnode.com`): `totalSupply`, `balanceOf`, Safe `getThreshold`/`getOwners`, VotingEscrow `tokenOfOwnerByIndex` / `balanceOfNFT`, migration `owner()` / `paused()`; blocks 52.3M–57,475,111, 14 Nov 2026
 - [Tier A] [Dromos-Labs/metadex-public](https://github.com/Dromos-Labs/metadex-public) `deployment-addresses/root-base.json`, `migration-base.json`, V3 source
 - [Tier A] [aero.xyz/economics](https://aero.xyz/economics) (data pulled 14 Nov 2026 07:22 UTC) · [aero.xyz/aero-upgrade](https://aero.xyz/aero-upgrade/)

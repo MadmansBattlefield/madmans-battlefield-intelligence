@@ -28,7 +28,7 @@ Ties are broken by how many of the 11 sections passed.
 5. 🟢 **SOL** · 6.6 · ✅ PASS
 6. 🟢 **AERO** · 6.6 · ✅ PASS
 7. 🟢 **CC** · 6.4 · ✅ PASS
-8. 🟢 **SYRUP** · 6.3 · ✅ PASS
+8. 🔴 **SYRUP** · 5.9 · ❌ FAIL
 9. 🔴 **ARB** · 5.8 · ❌ FAIL
 10. 🔴 **XLM** · 5.7 · ❌ FAIL
 11. 🔴 **ENA** · 5.6 · ❌ FAIL
@@ -170,11 +170,15 @@ Ties are broken by how many of the 11 sections passed.
 147. 🔴 **REALIZ** · 2.1 · ❌ FAIL
 148. 🔴 **SIBERIUM** · 1.9 · ❌ FAIL
 
-**8 of 148 pass.**
+**7 of 148 pass.**
 
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+The eight passing reports were upgraded to the 16 Nov 2026 rules (holder test, price source, disclosure quality, penalty flag, attribution-confidence table). Seven keep their scores: [AERO](AERO.md), [CC](CC.md), [ETH](ETH.md), [LINK](LINK.md), [SKY](SKY.md) and [SOL](SOL.md) pass the holder test through automatic on-chain mechanisms (staker fee share, fee burns, LINK's automated Payment Abstraction buyback into the Reserve, SKY's Smart Burn Engine), and [BTC](BTC.md) keeps Revenue at 4 with holders stated to have no live claim. **[SYRUP](SYRUP.md) loses its pass:** its buyback is executed by the Syrup Strategic Fund through Binance rather than automatically on-chain, so the holder test is no, Revenue falls 7 → 5 and the overall grade falls 6.3 → 5.9 (now #8). Its pump-day deposits are proven one-hop sales from Maple's treasury, and disclosure is rated buried (the market-making program is published, the specific deposits are not), so no penalty applies and Selling stays 4.
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Re-score under the 16 Nov 2026 rules: [RBNT](RBNT.md) Selling 4 → 1 (overall 3.5 → 3.1, now #123). The project's genesis wallet sent 30M RBNT straight to a wallet that put 25.5M on Gate 59 minutes later on a +40.7% pump day. That direct on-chain link counts as a one-hop team sale, the same rule as SHPING. No disclosure was found, so the −2 penalty applies (3 → 1) and the Selling gate now fails too. ORBITER's attribution table now states that the genesis wallet's control rests on the on-chain mint; EURE's largest-holder address is corrected.
 
@@ -449,11 +453,11 @@ Score changes from that research:
 
 ## #8 · SYRUP · Maple Finance
 
-### 6.3 / 10 · ✅ PASS
+### 5.9 / 10 · ❌ FAIL
 
-- **Sections passed:** 9 of 11
+- **Sections passed:** 8 of 11
 - **Hard gates failed:** none
-- **Verdict:** A real on-chain credit business ($14.5M of protocol revenue in a year on a ~$119M cap) with a rules-based buyback and published treasury wallets. Selling fails: Maple-run wallets put ~15.1M SYRUP into exchange deposits on five pump days (Arkham labels the 6 May 2025 funder Syrup.fi (Maple Finance)), but the amounts are ~1.2% of supply and an MM loan program is disclosed. The #2 holder (109M) is ParaFi Capital per Arkham.
+- **Verdict:** A real on-chain credit business ($14.5M of protocol revenue in a year on a ~$119M cap), but under the 16 Nov 2026 holder test its buyback is a governance rule executed by the Syrup Strategic Fund on Binance, not an automatic on-chain mechanism, and bought tokens are held, not burned, so Revenue drops 7 → 5 and the overall grade falls to 5.9. Selling also fails (4): Maple's treasury funded wallets that deposited ~15.1M SYRUP to exchanges on five pump days, with only partial (buried) disclosure through the published market-making program. No hard gate; it fails on the average.
 - 📄 [Full SYRUP report](SYRUP.md)
 
 ---
