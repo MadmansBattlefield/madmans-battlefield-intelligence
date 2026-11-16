@@ -1,0 +1,275 @@
+{
+  "schema_version": "report.v1",
+  "ticker": "BLZ",
+  "name": "Bluzelle",
+  "chain": "ethereum",
+  "contract": "0x5732046a883704404f284ce41ffadd5b007fd668",
+  "overall_score": 3.1,
+  "overall_verdict": "FAIL",
+  "section_scores": {
+    "revenue": 1,
+    "foundation_team": 4,
+    "insider_holdings": 4,
+    "selling_behavior": 4,
+    "tokenomics_supply": 5,
+    "liquidity_market": 2,
+    "product_development": 3,
+    "adoption_customers": 2,
+    "security_audits": 5,
+    "regulatory": 5,
+    "catalysts": 2
+  },
+  "sections_passed": 0,
+  "gates_failed": [
+    "revenue"
+  ],
+  "hard_gates": {
+    "revenue": {
+      "score": 1,
+      "threshold": 3,
+      "tripped": true
+    },
+    "selling_behavior": {
+      "score": 4,
+      "threshold": 3,
+      "tripped": false
+    }
+  },
+  "red_lines": {
+    "hack_exploit": "none found in this pass",
+    "team_wallet_to_exchange_during_pump": "not tested: holders unlabelled",
+    "one_hop_sale_status": "none_found",
+    "entity_concentration": "~52% in three unlabelled EOAs (low confidence)"
+  },
+  "price_usd": 0.00670671,
+  "price_source": "CoinGecko `bluzelle`, 16 Nov 2026 ~3:00 PM MST",
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No burn, buyback, fee share or fee-funded staking yield was found.",
+    "pump_day_price_source": "Gate BLZ_USDT UTC daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0xf98e5cc1635ee69e451f43bfd913249b0da22028",
+        "label": "Unlabelled EOA (20.96%)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Ethplorer + Etherscan"
+      },
+      {
+        "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+        "label": "Unlabelled EOA (19.91%)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Ethplorer + Etherscan"
+      },
+      {
+        "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+        "label": "Unlabelled EOA (11.43%)",
+        "confidence": "low",
+        "independent_corroboration": false,
+        "basis": "Ethplorer + Etherscan"
+      }
+    ]
+  },
+  "key_numbers": {
+    "price_usd": 0.00670671,
+    "market_cap_text": "$3.26M",
+    "fdv_text": "$3.35M",
+    "volume_24h_text": "$51.4k"
+  },
+  "last_updated": "2026-11-16",
+  "layout_version": 3,
+  "source_markdown": {
+    "path": "banking-rails/BLZ.md",
+    "sha256": "93cdc31090fb38dc1c087c997ad95377742bf46f6298704de64a4507b148be43",
+    "bytes": 10018,
+    "extracted_at": "2026-11-16 14:53 MST",
+    "timezone_label": "MST"
+  },
+  "retrieval": {
+    "price_source_read": "CoinGecko `bluzelle`, 16 Nov 2026 ~3:00 PM MST",
+    "source_read_dates": [
+      "16 Nov 2026",
+      "2026-11-16"
+    ],
+    "arkham_read": null
+  },
+  "evidence_links": [
+    {
+      "claim": "Market data and venues",
+      "url": "CoinGecko `bluzelle`",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Token contract and holders",
+      "url": "contract",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "claim": "Token contract and holders",
+      "url": "holders",
+      "kind": "other",
+      "tier": "A",
+      "date_read": "16 Nov 2026"
+    }
+  ],
+  "addresses_examined": [
+    {
+      "chain": "ethereum",
+      "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "url": "https://etherscan.io/address/0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0x5732046a883704404f284ce41ffadd5b007fd668",
+      "url": "https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668#balances",
+      "kind": "token"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": "https://etherscan.io/address/0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "kind": "address"
+    },
+    {
+      "chain": "ethereum",
+      "address": "0xf98e5cc1635ee69e451f43bfd913249b0da22028",
+      "url": "https://etherscan.io/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028",
+      "kind": "address"
+    }
+  ],
+  "pump_day_test": {
+    "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
+    "price_source": "Gate BLZ_USDT UTC daily closes",
+    "timezone": "UTC",
+    "lookback_days": 5,
+    "threshold_pct": 10,
+    "methodology_effective_from": "2026-11-16",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
+    "selling_not_proven": true,
+    "disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
+    "flags_noted_in_report": [
+      "team_wallet_to_exchange_during_pump: not tested: holders unlabelled"
+    ]
+  },
+  "revenue_accrual": {
+    "reaches_holders": "no",
+    "mechanisms": [],
+    "automatic_onchain": false,
+    "executed": false,
+    "inconsistent_with_score": false,
+    "notes": "**1 → hard-gate FAIL.**"
+  },
+  "attributions": [
+    {
+      "address": "0xf98e5cc1635ee69e451f43bfd913249b0da22028",
+      "url": null,
+      "label": "Unlabelled EOA (20.96%)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0x15da7556d5ed888306839bed06f868aeaedcb0d7",
+      "url": null,
+      "label": "Unlabelled EOA (19.91%)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": "0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43",
+      "url": null,
+      "label": "Unlabelled EOA (11.43%)",
+      "source": "front_matter",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [
+        "report-front-matter"
+      ],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    },
+    {
+      "address": null,
+      "url": null,
+      "label": "unlabelled or unattributed wallet mentioned in Selling or Holdings",
+      "source": "report",
+      "confidence": "low",
+      "independent_corroboration": false,
+      "corroborating_sources": [],
+      "label_kind": "unlabelled",
+      "appears_in_selling_or_holdings": true
+    }
+  ],
+  "review": {
+    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_single_source_arkham_flag": false,
+    "revenue_accrual_inconsistent": false,
+    "flag_notes": [
+      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+    ],
+    "dual_review": {
+      "status": "not_run",
+      "threshold_points": 2,
+      "selling_behavior": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      },
+      "insider_holdings": {
+        "scorer_a": null,
+        "scorer_b": null,
+        "delta": null,
+        "reconciliation_note": null
+      }
+    }
+  },
+  "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] [CoinGecko `bluzelle`](https://www.coingecko.com/en/coins/bluzelle): price, supply, venues and description, read 16 Nov 2026",
+      "urls": [
+        "CoinGecko `bluzelle`"
+      ],
+      "date_read": "16 Nov 2026"
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Gate BLZ_USDT UTC daily closes via `scripts/pump_day_test.py` (28 pump days of 360); Binance returned HTTP 451, so the hierarchy fell through to this venue",
+      "urls": [],
+      "date_read": null
+    },
+    {
+      "tier": "A",
+      "text": "[Tier A] Token contract and [holders](https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668#balances) on the chain explorer; top holders from the Ethplorer API; contract or EOA status from Etherscan v2 `eth_getCode`",
+      "urls": [
+        "holders"
+      ],
+      "date_read": null
+    }
+  ]
+}

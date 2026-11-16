@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:48 MST",
+  "generated_at": "2026-11-16 14:53 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -366,7 +366,32 @@
     {
       "ticker": "ARRR",
       "path": "banking-rails/ARRR.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "9ccdddb402721e46c8559be8a2e79b4e9f65fe00",
+          "committed_at_mst": "2026-11-16 14:48 MST",
+          "subject": "STEP 4: v3 reports KTA CTC EL METAL ETN CTK ARRR MAPO MNSRY MTL",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 5,
+            "selling_behavior": 4,
+            "tokenomics_supply": 5,
+            "liquidity_market": 2,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 3,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "ASTR",
@@ -517,6 +542,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "BLZ",
+      "path": "banking-rails/BLZ.md",
+      "versions": []
     },
     {
       "ticker": "BNKR",
@@ -713,6 +743,11 @@
       ]
     },
     {
+      "ticker": "CCD",
+      "path": "banking-rails/CCD.md",
+      "versions": []
+    },
+    {
       "ticker": "CELO",
       "path": "banking-rails/CELO.md",
       "versions": [
@@ -880,6 +915,11 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "CHEX",
+      "path": "banking-rails/CHEX.md",
+      "versions": []
     },
     {
       "ticker": "COTI",
@@ -1080,12 +1120,62 @@
     {
       "ticker": "CTC",
       "path": "banking-rails/CTC.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "9ccdddb402721e46c8559be8a2e79b4e9f65fe00",
+          "committed_at_mst": "2026-11-16 14:48 MST",
+          "subject": "STEP 4: v3 reports KTA CTC EL METAL ETN CTK ARRR MAPO MNSRY MTL",
+          "overall_score": 3.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 5,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "CTK",
       "path": "banking-rails/CTK.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "9ccdddb402721e46c8559be8a2e79b4e9f65fe00",
+          "committed_at_mst": "2026-11-16 14:48 MST",
+          "subject": "STEP 4: v3 reports KTA CTC EL METAL ETN CTK ARRR MAPO MNSRY MTL",
+          "overall_score": 3.7,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 2,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 6,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "DASH",
@@ -1271,7 +1361,32 @@
     {
       "ticker": "EL",
       "path": "banking-rails/EL.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "9ccdddb402721e46c8559be8a2e79b4e9f65fe00",
+          "committed_at_mst": "2026-11-16 14:48 MST",
+          "subject": "STEP 4: v3 reports KTA CTC EL METAL ETN CTK ARRR MAPO MNSRY MTL",
+          "overall_score": 3.0,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 3,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "ENA",
@@ -1302,6 +1417,21 @@
           "last_updated": "2026-11-16"
         }
       ]
+    },
+    {
+      "ticker": "EOS",
+      "path": "banking-rails/EOS.md",
+      "versions": []
+    },
+    {
+      "ticker": "EPICCASH",
+      "path": "banking-rails/EPICCASH.md",
+      "versions": []
+    },
+    {
+      "ticker": "ERG",
+      "path": "banking-rails/ERG.md",
+      "versions": []
     },
     {
       "ticker": "ETC",
@@ -1364,7 +1494,32 @@
     {
       "ticker": "ETN",
       "path": "banking-rails/ETN.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "9ccdddb402721e46c8559be8a2e79b4e9f65fe00",
+          "committed_at_mst": "2026-11-16 14:48 MST",
+          "subject": "STEP 4: v3 reports KTA CTC EL METAL ETN CTK ARRR MAPO MNSRY MTL",
+          "overall_score": 3.4,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "EURE",
@@ -1673,6 +1828,11 @@
           "last_updated": "2026-11-14"
         }
       ]
+    },
+    {
+      "ticker": "HIVE",
+      "path": "banking-rails/HIVE.md",
+      "versions": []
     },
     {
       "ticker": "HONEY",
@@ -2165,8 +2325,43 @@
       ]
     },
     {
+      "ticker": "KLV",
+      "path": "banking-rails/KLV.md",
+      "versions": []
+    },
+    {
       "ticker": "KTA",
       "path": "banking-rails/KTA.md",
+      "versions": [
+        {
+          "commit": "9ccdddb402721e46c8559be8a2e79b4e9f65fe00",
+          "committed_at_mst": "2026-11-16 14:48 MST",
+          "subject": "STEP 4: v3 reports KTA CTC EL METAL ETN CTK ARRR MAPO MNSRY MTL",
+          "overall_score": 3.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 4
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "ticker": "LINGO",
+      "path": "banking-rails/LINGO.md",
       "versions": []
     },
     {
@@ -2230,7 +2425,32 @@
     {
       "ticker": "MAPO",
       "path": "banking-rails/MAPO.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "9ccdddb402721e46c8559be8a2e79b4e9f65fe00",
+          "committed_at_mst": "2026-11-16 14:48 MST",
+          "subject": "STEP 4: v3 reports KTA CTC EL METAL ETN CTK ARRR MAPO MNSRY MTL",
+          "overall_score": 3.3,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 4,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 3,
+            "product_development": 5,
+            "adoption_customers": 3,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "MASQ",
@@ -2293,9 +2513,39 @@
       ]
     },
     {
+      "ticker": "MDT",
+      "path": "banking-rails/MDT.md",
+      "versions": []
+    },
+    {
       "ticker": "METAL",
       "path": "banking-rails/METAL.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "9ccdddb402721e46c8559be8a2e79b4e9f65fe00",
+          "committed_at_mst": "2026-11-16 14:48 MST",
+          "subject": "STEP 4: v3 reports KTA CTC EL METAL ETN CTK ARRR MAPO MNSRY MTL",
+          "overall_score": 3.1,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 1,
+            "product_development": 4,
+            "adoption_customers": 2,
+            "security_audits": 5,
+            "regulatory": 5,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "MINA",
@@ -2330,7 +2580,32 @@
     {
       "ticker": "MNSRY",
       "path": "banking-rails/MNSRY.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "9ccdddb402721e46c8559be8a2e79b4e9f65fe00",
+          "committed_at_mst": "2026-11-16 14:48 MST",
+          "subject": "STEP 4: v3 reports KTA CTC EL METAL ETN CTK ARRR MAPO MNSRY MTL",
+          "overall_score": 2.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 0,
+            "foundation_team": 3,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 3,
+            "liquidity_market": 2,
+            "product_development": 2,
+            "adoption_customers": 2,
+            "security_audits": 4,
+            "regulatory": 4,
+            "catalysts": 2
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "MNT",
@@ -2395,7 +2670,32 @@
     {
       "ticker": "MTL",
       "path": "banking-rails/MTL.md",
-      "versions": []
+      "versions": [
+        {
+          "commit": "9ccdddb402721e46c8559be8a2e79b4e9f65fe00",
+          "committed_at_mst": "2026-11-16 14:48 MST",
+          "subject": "STEP 4: v3 reports KTA CTC EL METAL ETN CTK ARRR MAPO MNSRY MTL",
+          "overall_score": 3.5,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 1,
+            "foundation_team": 5,
+            "insider_holdings": 4,
+            "selling_behavior": 4,
+            "tokenomics_supply": 4,
+            "liquidity_market": 4,
+            "product_development": 5,
+            "adoption_customers": 4,
+            "security_audits": 5,
+            "regulatory": 4,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue"
+          ],
+          "last_updated": "2026-11-16"
+        }
+      ]
     },
     {
       "ticker": "NEXA",

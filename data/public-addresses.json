@@ -1,9 +1,9 @@
 {
   "title": "Public addresses examined in published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:48 MST",
+  "generated_at": "2026-11-16 14:53 MST",
   "note": "Every address here was extracted from a public evidence link or explorer URL already published in banking-rails/<TICKER>.md. No private worksheets were used. Labels that would name a private individual are not included.",
-  "count": 1308,
+  "count": 1318,
   "addresses": [
     {
       "ticker": "ACH",
@@ -909,6 +909,20 @@
       "kind": "address"
     },
     {
+      "ticker": "BLZ",
+      "chain": "ethereum",
+      "address": "0x5732046a883704404f284ce41ffadd5b007fd668",
+      "url": "https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668#balances",
+      "kind": "token"
+    },
+    {
+      "ticker": "BLZ",
+      "chain": "ethereum",
+      "address": "0xf98e5cc1635ee69e451f43bfd913249b0da22028",
+      "url": "https://etherscan.io/address/0xf98e5cc1635ee69e451f43bfd913249b0da22028",
+      "kind": "address"
+    },
+    {
       "ticker": "BNKR",
       "chain": "base",
       "address": "0x000000000000000000000000000000000000dead",
@@ -1564,6 +1578,34 @@
       "chain": "ethereum",
       "address": "0xd052a46b8e0c89facb393805e1917afd20f293cb",
       "url": "https://etherscan.io/address/0xD052A46b8e0C89fAcB393805E1917AfD20f293Cb",
+      "kind": "address"
+    },
+    {
+      "ticker": "CHEX",
+      "chain": "ethereum",
+      "address": "0x6bf83042c941a74cb5902908e892f0114e549e5a",
+      "url": "https://etherscan.io/address/0x6bf83042c941a74cb5902908e892f0114e549e5a",
+      "kind": "address"
+    },
+    {
+      "ticker": "CHEX",
+      "chain": "ethereum",
+      "address": "0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83",
+      "url": "https://etherscan.io/address/0x7dafba1d69f6c01ae7567ffd7b046ca03b706f83",
+      "kind": "address"
+    },
+    {
+      "ticker": "CHEX",
+      "chain": "ethereum",
+      "address": "0x9ce84f6a69986a83d92c324df10bc8e64771030f",
+      "url": "https://etherscan.io/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f#balances",
+      "kind": "token"
+    },
+    {
+      "ticker": "CHEX",
+      "chain": "ethereum",
+      "address": "0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b",
+      "url": "https://etherscan.io/address/0xe4ff3d0a785eb33d2092638982dec9ba4a44a14b",
       "kind": "address"
     },
     {
@@ -4276,6 +4318,13 @@
       "kind": "token"
     },
     {
+      "ticker": "LINGO",
+      "chain": "base",
+      "address": "0xfb42da273158b0f642f59f2ba7cc1d5457481677",
+      "url": "https://basescan.org/token/0xfb42da273158b0f642f59f2ba7cc1d5457481677#balances",
+      "kind": "token"
+    },
+    {
       "ticker": "LINK",
       "chain": "ethereum",
       "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
@@ -4588,6 +4637,27 @@
       "chain": "ethereum",
       "address": "0xf97271e1e37308e197679e3aa017c8595a45c241",
       "url": "https://etherscan.io/address/0xf97271e1e37308e197679e3aa017c8595a45c241",
+      "kind": "address"
+    },
+    {
+      "ticker": "MDT",
+      "chain": "ethereum",
+      "address": "0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4",
+      "url": "https://etherscan.io/address/0x4f4d8f2ea3c7f7ab2dcd3e521cec535fcd8f0ca4",
+      "kind": "address"
+    },
+    {
+      "ticker": "MDT",
+      "chain": "ethereum",
+      "address": "0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26",
+      "url": "https://etherscan.io/token/0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26#balances",
+      "kind": "token"
+    },
+    {
+      "ticker": "MDT",
+      "chain": "ethereum",
+      "address": "0xa14567cbd5090a6b469390e7d33b10cffa70c5b3",
+      "url": "https://etherscan.io/address/0xa14567cbd5090a6b469390e7d33b10cffa70c5b3",
       "kind": "address"
     },
     {

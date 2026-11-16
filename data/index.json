@@ -1,7 +1,7 @@
 {
   "title": "Madman's Battlefield Intelligence",
   "timezone": "MST",
-  "generated_at": "2026-11-16 14:48 MST",
+  "generated_at": "2026-11-16 14:53 MST",
   "verification_rule": "Verified only with one Tier A source or two Tier B outlets. See sources.md.",
   "disclaimer": "Research only. Not financial advice. Not a fiduciary.",
   "paths": {
@@ -253,6 +253,12 @@
       "json": "data/reports/BCH.json"
     },
     {
+      "id": "BLZ",
+      "path": "banking-rails/BLZ.md",
+      "layout": "v3",
+      "json": "data/reports/BLZ.json"
+    },
+    {
       "id": "BNKR",
       "path": "banking-rails/BNKR.md",
       "layout": "v3",
@@ -289,6 +295,12 @@
       "json": "data/reports/CC.json"
     },
     {
+      "id": "CCD",
+      "path": "banking-rails/CCD.md",
+      "layout": "v3",
+      "json": "data/reports/CCD.json"
+    },
+    {
       "id": "CELO",
       "path": "banking-rails/CELO.md",
       "layout": "v3",
@@ -311,6 +323,12 @@
       "path": "banking-rails/CFX.md",
       "layout": "v3",
       "json": "data/reports/CFX.json"
+    },
+    {
+      "id": "CHEX",
+      "path": "banking-rails/CHEX.md",
+      "layout": "v3",
+      "json": "data/reports/CHEX.json"
     },
     {
       "id": "COTI",
@@ -397,6 +415,24 @@
       "json": "data/reports/ENA.json"
     },
     {
+      "id": "EOS",
+      "path": "banking-rails/EOS.md",
+      "layout": "v3",
+      "json": "data/reports/EOS.json"
+    },
+    {
+      "id": "EPICCASH",
+      "path": "banking-rails/EPICCASH.md",
+      "layout": "v3",
+      "json": "data/reports/EPICCASH.json"
+    },
+    {
+      "id": "ERG",
+      "path": "banking-rails/ERG.md",
+      "layout": "v3",
+      "json": "data/reports/ERG.json"
+    },
+    {
       "id": "ETC",
       "path": "banking-rails/ETC.md",
       "layout": "v3",
@@ -461,6 +497,12 @@
       "path": "banking-rails/HBAR.md",
       "layout": "v3",
       "json": "data/reports/HBAR.json"
+    },
+    {
+      "id": "HIVE",
+      "path": "banking-rails/HIVE.md",
+      "layout": "v3",
+      "json": "data/reports/HIVE.json"
     },
     {
       "id": "HONEY",
@@ -547,10 +589,22 @@
       "json": "data/reports/KAVA.json"
     },
     {
+      "id": "KLV",
+      "path": "banking-rails/KLV.md",
+      "layout": "v3",
+      "json": "data/reports/KLV.json"
+    },
+    {
       "id": "KTA",
       "path": "banking-rails/KTA.md",
       "layout": "v3",
       "json": "data/reports/KTA.json"
+    },
+    {
+      "id": "LINGO",
+      "path": "banking-rails/LINGO.md",
+      "layout": "v3",
+      "json": "data/reports/LINGO.json"
     },
     {
       "id": "LINK",
@@ -581,6 +635,12 @@
       "path": "banking-rails/MBG.md",
       "layout": "v3",
       "json": "data/reports/MBG.json"
+    },
+    {
+      "id": "MDT",
+      "path": "banking-rails/MDT.md",
+      "layout": "v3",
+      "json": "data/reports/MDT.json"
     },
     {
       "id": "METAL",
@@ -1116,5 +1176,5 @@
       "layout": "v2-stubs"
     }
   ],
-  "scored_reports": 158
+  "scored_reports": 168
 }
