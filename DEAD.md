@@ -1,6 +1,6 @@
 ---
 title: Moved to dead
-generated_at: 2026-11-16 14:02 MST
+generated_at: 2026-11-16 14:06 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---

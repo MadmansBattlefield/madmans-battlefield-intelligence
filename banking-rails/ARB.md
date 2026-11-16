@@ -24,6 +24,14 @@ red_lines:
   team_wallet_to_exchange_during_pump: "yes, partly disclosed (Coinbase Prime deposit address 0x905a, fed by Foundation and Arbitrum Safes, swept 137.5M ARB to the Coinbase Prime hot wallet on 13 pump days, incl. 27.55M on 4 Sep 2026 at +56.1%; the Foundation's reports say it runs 'ARB conversions' and pays costs in ARB, but give no trade-level detail)"
   treasury_in_single_key_wallets: "no for the DAO Treasury (on-chain governor + 3-day timelock) and Foundation Safe (3-of-6); the conversion hop 0x905a is a Coinbase Prime deposit address (Arkham), i.e. custodian-held, not a Foundation single-key wallet"
   revenue_to_holders: "none automatic; sequencer revenue (~$7.05M in 1y) goes to a DAO-controlled treasury; no DAO buyback approved"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Sequencer revenue goes to the DAO treasury; there is no burn, buyback, fee share or fee-funded staking yield to holders. Holders have no live claim on revenue; the score describes the business, not holder accrual."
+pump_day_price_source: "Gate ARB/USDT daily closes"
+pump_day_disclosure_quality: buried_disclosure
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.1322
 price_source: "CoinGecko, 16 Nov 2026 5:25 AM MST"
 last_updated: 2026-11-16
@@ -85,6 +93,8 @@ layout_version: 3
 
 **What it means:** Revenue is real and goes to a treasury the token holders vote on. That is better than CFG or HUMA, where the token sees nothing. But it is small and shrinking: about $514k a month, or ≈ 130x price-to-sales. **4**, so the gate is not tripped.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Sequencer revenue goes to the DAO treasury; there is no burn, buyback, fee share or fee-funded staking yield to holders. Holders have no live claim on revenue; the score describes the business, not holder accrual.
+
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -132,6 +142,8 @@ layout_version: 3
 - **Disclosure:** the Foundation says it executes "ARB conversions… in a prudent and systematic manner" ([2025 report](https://docs.arbitrum.foundation/assets/ArbitrumFoundationTransparencyReport2025.pdf)) and that it uses tri-party custody with Coinbase Prime ([H1 2026](https://docs.arbitrum.foundation/assets/ArbitrumFoundationBiannualReport2026H1.pdf)). Neither report links transfers to sales.
 
 **What it means:** This is disclosed, programmatic conversion, not covert dumping. But 137.5M ARB reached an exchange venue on pump days, including the biggest rally of the year, with no trade-level disclosure. **5, unchanged after the Arkham pass.** Arkham confirms the venue (Coinbase Prime, whose hot wallet is tagged OTC as well as custody), which matches the Foundation's disclosed tri-party custody and "ARB conversions". It does not show which deposits were sold. Selling is the swing factor: a 6 would lift the overall to 89.5 / 15 = 5.97, rounded to 6.0, a PASS. That would need trade-level proof that pump-day deposits were held, not sold, and the Foundation only discloses conversions in general. Not proven counts as a fail, so it stays 5.
+
+- **Disclosure quality (16 Nov 2026 rules): buried disclosure.** The Foundation discloses its custody arrangement and "ARB conversions" but not the trades, so this is partial disclosure and no penalty applies; Selling stays 5. Pump days from Gate ARB/USDT daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -184,8 +196,17 @@ layout_version: 3
 | Treasury in single-key wallets | 🟢 No: DAO governor and timelock; the Foundation uses a 3-of-6 Safe. The hop `0x905a…` is a Coinbase Prime deposit address ([Arkham](https://intel.arkm.com/explorer/address/0x905ae0e37d838da462f6964ee1f7b249ae767d5d)), custodian-held, not a Foundation key |
 | Revenue to holders | 🔴 None; ≈ 130x price-to-sales |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation vesting wallet → Coinbase Prime | Arbitrum Foundation | Foundation transparency report + Arkham venue label | high | yes (Foundation disclosure) | Selling: 137.5M ARB reached Coinbase Prime on pump days; disclosed as conversions |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Arbiscan via the Etherscan v2 API (chainid 42161): `tokentx` ARB history for the Foundation Vesting Budget Wallet, Foundation Safe `0xd6c8…`, DAO Treasury, `0x905a…` (1,330 tx) and Coinbase Prime 3 (latest 5,000); read 16 Nov 2026 ~8:30–8:50 AM MST
 - [Tier A] Arbitrum One RPC (publicnode): `totalSupply()`, `owner()`, `MINT_CAP_NUMERATOR`/`DENOMINATOR`, `nextMint()`, balances, Safe `getThreshold()`/`getOwners()`, timelock `getMinDelay()`, 16 Nov 2026
 - [Tier A] [Arbitrum DAO contract addresses](https://docs.arbitrum.foundation/deployment-addresses) · [Foundation documents](https://docs.arbitrum.foundation/foundation-documents) · [H1 2026 report](https://docs.arbitrum.foundation/assets/ArbitrumFoundationBiannualReport2026H1.pdf) · [2025 report](https://docs.arbitrum.foundation/assets/ArbitrumFoundationTransparencyReport2025.pdf) · [Initial setup report](https://docs.arbitrum.foundation/foundational-documents/transparency-report-initial-foundation-setup) · [H1 2026 blog](https://blog.arbitrum.foundation/arbitrum-foundation-reports-first-half-2026-progress-update/)

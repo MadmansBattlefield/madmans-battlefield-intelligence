@@ -1,7 +1,7 @@
 {
   "title": "Review flags from the Arkham-confidence and holder-accrual upgrades",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:02 MST",
+  "generated_at": "2026-11-16 14:06 MST",
   "note": "Scores were not changed. These are review lists parsed from the published Markdown. A flag means a human (or a later dual review) should look at that section, not that the published score is automatically wrong.",
   "low_confidence_selling_or_holdings": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "ticker": "ZBCN",
-      "selling_behavior": 3,
+      "selling_behavior": 1,
       "insider_holdings": 4,
       "notes": [
         "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
@@ -78,20 +78,12 @@
       "selling_behavior": 2,
       "insider_holdings": 3,
       "notes": [
+        "Selling failed, and unlabelled wallets appear in the trail. The team or treasury link may rest on funding hops rather than a low-confidence name tag; listed for review, not auto-flagged as a silent score move.",
         "An Arkham team, foundation or entity label in Selling or Holdings has no second independent source parsed from the report, and that section failed or records a score change."
       ]
     }
   ],
   "revenue_accrual_inconsistent": [
-    {
-      "ticker": "ARB",
-      "revenue_score": 4,
-      "reaches_holders": "no",
-      "mechanisms": [
-        "buyback"
-      ],
-      "notes": "Revenue is real and goes to a treasury the token holders vote on. That is better than CFG or HUMA, where the token sees nothing. But it is small and shrinking: about $514k a month, or ≈ 130x price-to-sales. **4**, so the gate is not tripped."
-    },
     {
       "ticker": "CARDS",
       "revenue_score": 5,

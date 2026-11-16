@@ -1,7 +1,7 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:02 MST",
+  "generated_at": "2026-11-16 14:06 MST",
   "universe": 148,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
@@ -218,14 +218,13 @@
     ]
   },
   "proven_pump_day_sale": {
-    "count": 44,
-    "share": 0.2973,
+    "count": 42,
+    "share": 0.2838,
     "tickers": [
       "ACH",
       "ALGO",
       "AMP",
       "API3",
-      "BP",
       "CELO",
       "CFG",
       "CFX",
@@ -263,8 +262,7 @@
       "ZBCN",
       "ZIG",
       "ZK",
-      "ZKP",
-      "ZRO"
+      "ZKP"
     ]
   },
   "pump_day_sale_unclear": {
@@ -456,6 +454,7 @@
       "RLC",
       "ROUTER",
       "S",
+      "SERV",
       "SOLV",
       "SPA",
       "SUI",
@@ -465,13 +464,12 @@
       "ZAMA",
       "ZBCN",
       "ZIG",
-      "ZKP",
-      "ZRO"
+      "ZKP"
     ]
   },
   "revenue_reaches_holders_yes": {
-    "count": 16,
-    "share": 0.1081,
+    "count": 15,
+    "share": 0.1014,
     "tickers": [
       "AERO",
       "AVAX",
@@ -487,17 +485,17 @@
       "SOL",
       "SPA",
       "TX",
-      "W",
-      "ZRO"
+      "W"
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 49,
-    "share": 0.3311,
+    "count": 57,
+    "share": 0.3851,
     "tickers": [
       "ACH",
       "AEON",
       "ARB",
+      "BP",
       "BTC",
       "CARDS",
       "CELR",
@@ -512,6 +510,7 @@
       "HUMA",
       "HYPER",
       "IOST",
+      "JASMY",
       "LUMIA",
       "MINA",
       "NEXA",
@@ -520,6 +519,7 @@
       "ORAI",
       "ORBITER",
       "PALMUSD",
+      "PLUME",
       "POLYX",
       "PRO",
       "QANX",
@@ -529,7 +529,9 @@
       "RIO",
       "RISE",
       "ROSE",
+      "ROUTER",
       "SCRT",
+      "SERV",
       "SHPING",
       "SIBERIUM",
       "SKEY",
@@ -539,16 +541,19 @@
       "SYRUP",
       "TRADE",
       "TRUF",
+      "VELO",
       "WIREX",
       "XDB",
       "XNO",
+      "ZBCN",
       "ZEC",
-      "ZKJ"
+      "ZKJ",
+      "ZRO"
     ]
   },
   "revenue_reaches_holders_unclear": {
-    "count": 83,
-    "share": 0.5608,
+    "count": 76,
+    "share": 0.5135,
     "tickers": [
       "ADA",
       "ALGO",
@@ -559,7 +564,6 @@
       "AXL",
       "BAND",
       "BCH",
-      "BP",
       "BTT",
       "CELO",
       "CFX",
@@ -580,7 +584,6 @@
       "HTX",
       "INJ",
       "IOTX",
-      "JASMY",
       "JST",
       "KAIA",
       "KAIO",
@@ -593,18 +596,15 @@
       "OM",
       "PACT",
       "PHA",
-      "PLUME",
       "PROPC",
       "PUNDIX",
       "RED",
       "REQ",
       "REUSD",
       "RLC",
-      "ROUTER",
       "RVN",
       "S",
       "SEI",
-      "SERV",
       "SHARE",
       "SHX",
       "STBL",
@@ -615,7 +615,6 @@
       "TLOS",
       "TRAC",
       "TRB",
-      "VELO",
       "WAN",
       "XDC",
       "XEP",
@@ -627,7 +626,6 @@
       "YELLOW",
       "ZAMA",
       "ZANO",
-      "ZBCN",
       "ZEN",
       "ZIG",
       "ZK",

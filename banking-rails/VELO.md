@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: Stellar issuer locked (master weight 0, thresholds 0), so no further issuance"
   team_wallet_to_exchange_during_pump: "not proven: no Stellar account is publicly attributed to Velo Labs (the labelled directory sits behind a payment wall)"
   entity_concentration: "top 10 Stellar accounts hold 49.3%; ~6.4B (27%) not counted as circulating"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "About $1.5k of fees in a year and no buyback, burn or fee share."
+pump_day_price_source: "Gate VELO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (50 of 360 days); the body's earlier count used no pump-day test in the body"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.003042
 price_source: "CoinGecko, 16 Nov 2026 ~8:40 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - DefiLlama's `velo-finance` record shows $1,468 of fees over 12 months and $81 over 30 days, with TVL of about $56k. There is no buyback, burn or fee share to VELO. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** About $1.5k of fees in a year and no buyback, burn or fee share.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - Velo Labs is a company founded in 2018. A conglomerate backer is reported by one secondary source only ([Unverified]). The [official site](https://www.velo.org/) describes the payments, card and tokenized-treasury products. No audited accounts were found.
@@ -96,6 +106,8 @@ layout_version: 3
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
 - No Stellar account is publicly attributed to Velo Labs. The labelled account directory (stellar.expert) answered with HTTP 402 (payment required), so it was not used. With no team wallets identified, pump-day flows cannot be checked. **Not proven → 4.**
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate VELO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (50 of 360 days); the body's earlier count used no pump-day test in the body.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -134,8 +146,17 @@ layout_version: 3
 | Live mint path | 🟢 None (issuer locked) |
 | Entity concentration | 🟠 49.3% in the top 10 unlabelled accounts |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| No Stellar account publicly attributed to Velo Labs | — | — | low | no | None: Selling not proven (4) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Stellar Horizon: the asset record, the issuer account and a full crawl of holder accounts (43,124), 16 Nov 2026
 - [Tier A] CoinGecko `velo`; pump days from CoinGecko 365-day closes
 - [Tier A] DefiLlama `velo-finance` fees and TVL

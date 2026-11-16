@@ -23,6 +23,19 @@ red_lines:
   foundation_outflow_on_pump_day: none_found_in_window
   foundation_to_exchange_undisclosed: "1M ZRO, 28 Apr 2026, LayerZero 1 → Binance deposit (not a pump day)"
   fee_switch_on: "no (4 votes, all Off)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "A small Stargate-funded buyback exists, but it is not shown to be automatic on-chain from protocol fees, and the protocol fee switch has been voted down four times. Holders have no live claim on revenue; the score describes the business, not holder accrual."
+pump_day_price_source: "Gate ZRO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (71 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0x1f903473376fbe98cc763f1bc459c8fdb6ac3909"
+    label: "LayerZero 1 (Foundation)"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan + Arkham entity"
 price_usd: 1.52
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 last_updated: 2026-11-15
@@ -88,6 +101,8 @@ layout_version: 3
 
 **What it means:** Real fees exist, but almost nothing reaches holders on a recurring basis. Buybacks of about $0.3M a month are small next to an investor unlock rate in the millions of tokens a month. Most of the $112.7M total was one-off treasury repurchases.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** A small Stargate-funded buyback exists, but it is not shown to be automatic on-chain from protocol fees, and the protocol fee switch has been voted down four times. Holders have no live claim on revenue; the score describes the business, not holder accrual.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -130,6 +145,8 @@ layout_version: 3
 | Investor selling (disclosed) | As of 31 May 2026, 134.7M unlocked to investors and 85.9M (63.8%) still held. Public sales average **4.9M per month**. One entity accounts for 37.9% of sales and unlocks 2.05M a month | [Tier A] blog (company disclosure) |
 
 **What it means:** No Foundation wallet sold into a pump in the last year. The two 22.5M wallets are now traced: neither has ever sent ZRO to an exchange. Arkham confirms that the 1M from "LayerZero 1" in April went to a Binance deposit, an undisclosed exchange send, though on a falling day. Investors sell steadily, and LayerZero discloses that in aggregate. Wider investor wallets are still untraced, so the score stays 5.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate ZRO_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (71 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -214,8 +231,17 @@ layout_version: 3
 | Fee switch turned on | 🔴 No | 4 votes, all Off |
 | Foundation 183M moved before Zero mainnet | 🟢 Not observed | [0x8F64](https://etherscan.io/address/0x8F6449530606A9EFddaC42e05612427dDeBA449C) no outflow since Nov 2025 |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [`0x1f90…3909`](https://etherscan.io/address/0x1f903473376fBe98cc763F1Bc459C8fdB6AC3909) | LayerZero 1 (Foundation) | Etherscan + Arkham entity | high | yes | Selling: 1M to Binance on 28 Apr 2026, not a pump day |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Ethereum RPC `eth_call` (owner, threshold, signers, balances) and eth.blockscout.com transfers / holders, 14 Nov 2026
 - [Tier A] Verified LayerZeroToken source (Solidity 0.8.22)
 - [Tier A] layerzero.foundation: zro-buybacks page, fee-switch page, blog "The ZRO Token" (3 Jun 2026), pricing update (11 Aug 2026)

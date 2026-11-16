@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:02 MST",
+  "generated_at": "2026-11-16 14:06 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -122,9 +122,9 @@
           "last_updated": "2026-11-14"
         },
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
+          "committed_at_mst": "2026-11-16 14:02 MST",
+          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
           "overall_score": 6.6,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -530,9 +530,9 @@
       "path": "banking-rails/BTC.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
+          "committed_at_mst": "2026-11-16 14:02 MST",
+          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
           "overall_score": 7.3,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -614,9 +614,9 @@
       "path": "banking-rails/CC.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
+          "committed_at_mst": "2026-11-16 14:02 MST",
+          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
           "overall_score": 6.4,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -1125,9 +1125,9 @@
       "path": "banking-rails/ETH.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
+          "committed_at_mst": "2026-11-16 14:02 MST",
+          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
           "overall_score": 7.2,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -1808,9 +1808,9 @@
       "path": "banking-rails/LINK.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
+          "committed_at_mst": "2026-11-16 14:02 MST",
+          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
           "overall_score": 6.9,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -3263,9 +3263,9 @@
       "path": "banking-rails/SKY.md",
       "versions": [
         {
-          "commit": "78f06b60984377ebaa982af826c7a9121981898f",
-          "committed_at_mst": "2026-11-16 06:22 MST",
-          "subject": "Add SKY, ENA, PACT, JST, QUAI v3 reports with Arkham evidence; ranking 33 notes",
+          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
+          "committed_at_mst": "2026-11-16 14:02 MST",
+          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
           "overall_score": 6.8,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -3291,9 +3291,9 @@
       "path": "banking-rails/SOL.md",
       "versions": [
         {
-          "commit": "6fa4721772cc8cd4e484801e047e8f6ef4c54205",
-          "committed_at_mst": "2026-11-15 18:37 MST",
-          "subject": "Add 9 new v3 reports, Arkham evidence pass, clickable evidence trails, updated ranking (27 notes)",
+          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
+          "committed_at_mst": "2026-11-16 14:02 MST",
+          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
           "overall_score": 6.6,
           "overall_verdict": "PASS",
           "section_scores": {
@@ -3536,6 +3536,28 @@
           "overall_verdict": "PASS",
           "section_scores": {
             "revenue": 7,
+            "foundation_team": 7,
+            "insider_holdings": 6,
+            "selling_behavior": 4,
+            "tokenomics_supply": 6,
+            "liquidity_market": 6,
+            "product_development": 8,
+            "adoption_customers": 8,
+            "security_audits": 7,
+            "regulatory": 5,
+            "catalysts": 6
+          },
+          "gates_failed": [],
+          "last_updated": "2026-11-16"
+        },
+        {
+          "commit": "6723e4d46c3a660f021f7149481be43234b7a75d",
+          "committed_at_mst": "2026-11-16 14:02 MST",
+          "subject": "v3: 8 passing reports upgraded to 16 Nov 2026 rules; SYRUP Revenue 7->5 (holder test), loses pass",
+          "overall_score": 5.9,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 5,
             "foundation_team": 7,
             "insider_holdings": 6,
             "selling_behavior": 4,

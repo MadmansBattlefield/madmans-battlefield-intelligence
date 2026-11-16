@@ -104,14 +104,14 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 49 | [RLC](RLC.md) | iExec RLC | 4.3 | ❌ FAIL | Revenue and Selling gates |
 | 50 | [RED](RED.md) | RedStone | 4.3 | ❌ FAIL | Revenue gate |
 | 51 | [PRO](PRO.md) | Propy | 4.3 | ❌ FAIL | Revenue gate |
-| 52 | [ZBCN](ZBCN.md) | Zebec Network | 4.3 | ❌ FAIL | Selling gate |
-| 53 | [TRAC](TRAC.md) | OriginTrail | 4.2 | ❌ FAIL | Revenue gate |
-| 54 | [REQ](REQ.md) | Request Network | 4.2 | ❌ FAIL | Revenue and Selling gates |
-| 55 | [AMP](AMP.md) | Amp | 4.2 | ❌ FAIL | Revenue gate |
-| 56 | [GRND](GRND.md) | SuperWalk | 4.2 | ❌ FAIL | Revenue gate |
-| 57 | [ETC](ETC.md) | Ethereum Classic | 4.1 | ❌ FAIL | Revenue gate |
-| 58 | [XVG](XVG.md) | Verge | 4.1 | ❌ FAIL | Revenue gate |
-| 59 | [EDEN](EDEN.md) | OpenEden | 4.1 | ❌ FAIL | Revenue gate |
+| 52 | [TRAC](TRAC.md) | OriginTrail | 4.2 | ❌ FAIL | Revenue gate |
+| 53 | [REQ](REQ.md) | Request Network | 4.2 | ❌ FAIL | Revenue and Selling gates |
+| 54 | [AMP](AMP.md) | Amp | 4.2 | ❌ FAIL | Revenue gate |
+| 55 | [GRND](GRND.md) | SuperWalk | 4.2 | ❌ FAIL | Revenue gate |
+| 56 | [ETC](ETC.md) | Ethereum Classic | 4.1 | ❌ FAIL | Revenue gate |
+| 57 | [XVG](XVG.md) | Verge | 4.1 | ❌ FAIL | Revenue gate |
+| 58 | [EDEN](EDEN.md) | OpenEden | 4.1 | ❌ FAIL | Revenue gate |
+| 59 | [ZBCN](ZBCN.md) | Zebec Network | 4.0 | ❌ FAIL | Selling gate |
 | 60 | [SEI](SEI.md) | Sei | 4.0 | ❌ FAIL | Revenue gate |
 | 61 | [TFUEL](TFUEL.md) | Theta Fuel | 4.0 | ❌ FAIL | Revenue gate |
 | 62 | [DUSK](DUSK.md) | Dusk | 4.0 | ❌ FAIL | Revenue gate |
@@ -188,9 +188,9 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 133 | [ORAI](ORAI.md) | Oraichain | 3.0 | ❌ FAIL | Revenue gate |
 | 134 | [XDB](XDB.md) | XDB CHAIN (formerly DigitalBits) | 2.9 | ❌ FAIL | Revenue and Selling gates |
 | 135 | [JASMY](JASMY.md) | JasmyCoin | 2.8 | ❌ FAIL | Revenue and Selling gates |
-| 136 | [SERV](SERV.md) | OpenServ | 2.8 | ❌ FAIL | Revenue and Selling gates |
-| 137 | [MASQ](MASQ.md) | MASQ | 2.7 | ❌ FAIL | Revenue gate |
-| 138 | [RIO](RIO.md) | Realio Network | 2.7 | ❌ FAIL | Revenue gate |
+| 136 | [MASQ](MASQ.md) | MASQ | 2.7 | ❌ FAIL | Revenue gate |
+| 137 | [RIO](RIO.md) | Realio Network | 2.7 | ❌ FAIL | Revenue gate |
+| 138 | [SERV](SERV.md) | OpenServ | 2.6 | ❌ FAIL | Revenue and Selling gates |
 | 139 | [SCRT](SCRT.md) | Secret Network | 2.6 | ❌ FAIL | Revenue gate |
 | 140 | [PALMUSD](PALMUSD.md) | Palm USD (PUSD) | 2.6 | ❌ FAIL | Revenue gate |
 | 141 | [EDEL](EDEL.md) | Edel Finance | 2.5 | ❌ FAIL | Revenue and Selling gates |
@@ -198,8 +198,8 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 143 | [SWCH](SWCH.md) | SwissCheese | 2.5 | ❌ FAIL | Revenue gate |
 | 144 | [COTI](COTI.md) | COTI | 2.4 | ❌ FAIL | Revenue and Selling gates |
 | 145 | [H](H.md) | Humanity Protocol | 2.4 | ❌ FAIL | Revenue gate |
-| 146 | [ROUTER](ROUTER.md) | Solrouter | 2.2 | ❌ FAIL | Revenue and Selling gates |
-| 147 | [REALIZ](REALIZ.md) | Realiz (TPT30) | 2.1 | ❌ FAIL | Revenue gate |
+| 146 | [REALIZ](REALIZ.md) | Realiz (TPT30) | 2.1 | ❌ FAIL | Revenue gate |
+| 147 | [ROUTER](ROUTER.md) | Solrouter | 2.0 | ❌ FAIL | Revenue and Selling gates |
 | 148 | [SIBERIUM](SIBERIUM.md) | Siberium Network (SIBR) | 1.9 | ❌ FAIL | Revenue gate |
 
 ---

@@ -22,6 +22,14 @@ red_lines:
   upgradeable_mintable_token: "yes (contradicts MiCA paper)"
   exchange_inflows_on_pump_days: "explained (bridge → Binance on 23 Sep and 13 Oct 2026 was Binance moving its own inventory from Plume chain; traced 15 Nov)"
   issuer_wallets_published: "no"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Chain fees are tiny and vault fees go to vault users and curators; there is no burn, buyback, fee share or fee-funded staking yield."
+pump_day_price_source: "Gate PLUME_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (60 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.012343
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 last_updated: 2026-11-15
@@ -83,6 +91,8 @@ layout_version: 3
 
 **What it means:** Chain fees are about $2.3k a month against an $84M market cap. Vault fees go to vault users and curators, not to the token.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Chain fees are tiny and vault fees go to vault users and curators; there is no burn, buyback, fee share or fee-funded staking yield.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -129,6 +139,8 @@ layout_version: 3
 - **Arkham's "Plume" entity** has 28 addresses; its holdings are essentially the Ethereum bridge contract and it shows **$0 of exchange deposits**. Arkham's first page of `0xE69f…` transfers did not show the 210M only because the browser read one page; it is not a contradiction ([Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account)).
 
 **What it means:** The large pump-day inflows that tripped the gate turned out to be Binance moving its own coins, so the selling gate is no longer tripped (3 → 4). The section still fails: the issuer holds 46.7% in wallets it has not published, so insider selling can't be ruled in or out.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate PLUME_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (60 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -212,8 +224,18 @@ layout_version: 3
 | Issuer wallets published | 🔴 No | MiCA §G.5 gives amount only |
 | Token paused | 🟢 No | `paused()` = false |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Plume bridge → Binance flows (23 Sep, 13 Oct 2026) | Binance moving its own inventory | On-chain trace in this report | high | yes (on-chain) | None: removed as an insider sale |
+| Unpublished issuer wallets (46.7%) | Issuer | Supply data only | low | no | Selling stays not proven (4) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Ethereum RPC and eth.blockscout.com: token proxy, implementation source, balances, bridge transfers, 14 Nov 2026
 - [Tier A] explorer.plume.org Blockscout API: native holders, chain stats
 - [Tier A] Plume MiCA white paper (plume.org/landing/Plume-MiCA-Modified-White-Paper.pdf)

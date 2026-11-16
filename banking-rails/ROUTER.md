@@ -4,13 +4,13 @@ name: Solrouter
 not_to_be_confused_with: "Router Protocol (ROUTE)"
 chain: solana
 mint: 6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5
-overall_score: 2.2
+overall_score: 2.0
 overall_verdict: FAIL
 section_scores:
   revenue: 1
   foundation_team: 2
   insider_holdings: 2
-  selling_behavior: 1
+  selling_behavior: 0
   tokenomics_supply: 4
   liquidity_market: 1
   product_development: 6
@@ -24,6 +24,14 @@ red_lines:
   founder_exit: not_confirmed
   paying_customer_by_q1_2027: open_none_found
   team_wallet_to_exchange: tripped_coinbase_deposit_16_Oct_and_2_Nov_2026
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Fees come from trading the token itself and go to the team wallet, not to holders. No burn, buyback, fee share or fee-funded staking yield is executing."
+pump_day_price_source: "GeckoTerminal main-pool daily closes (DEX-only token; no exchange series)"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.000492
 price_source: "DexScreener main Meteora DLMM pool, 14 Nov 2026 9:02 AM MST"
 chain_read_slot: 469384534
@@ -33,7 +41,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### ROUTER · Overall grade **2.2 / 10 · ❌ FAIL**
+### ROUTER · Overall grade **2.0 / 10 · ❌ FAIL**
 
 **Summary:** A real privacy-AI product with honest docs and almost no paying usage. The token's cash flow is trading fees on itself, insiders control ~42% of supply, the founder-linked wallet has sold into pumps, and the main pool holds about $22k of real buy-side money.
 
@@ -46,7 +54,7 @@ layout_version: 3
 | 💰 Revenue | 1/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 2/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 2/10 | ❌ FAIL |
-| 📉 Selling behavior | 1/10 | ❌ FAIL |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 1/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -60,7 +68,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ROUTER · Solrouter · 2.2 / 10 · ❌ FAIL
+# 🪪 ROUTER · Solrouter · 2.0 / 10 · ❌ FAIL
 
 > **One line:** A real privacy-AI product with honest docs and almost no paying usage. The token's cash flow is trading fees on itself, insiders control ~42% of supply, the founder-linked wallet has sold into pumps, and the main pool holds about $22k of real buy-side money.
 
@@ -111,6 +119,8 @@ layout_version: 3
 
 **What it means:** The team gets paid when people trade the token, not when people use the product. Product usage is about 1–2 sealed calls a day this month.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Fees come from trading the token itself and go to the team wallet, not to holders. No burn, buyback, fee share or fee-funded staking yield is executing.
+
 ## 🏛️ Foundation & team — Who is in charge? · 2/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -154,7 +164,7 @@ Live reads, 14 Nov 2026 (slot 469,384,534), compared with the 10 Oct 2026 forens
 
 **What it means:** Insiders hold about 42%. About 13% can be sold today with no contract in the way, and another ~38M is unlocked and waiting to be claimed.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 **Pump test:** a "pump day" is a daily close ≥10% above the close five days earlier (GeckoTerminal daily closes, main pool, 15 May – 14 Nov 2026). **57 of 184 days** qualified — this token pumps a lot.
 
@@ -237,6 +247,8 @@ From a scan of 1,117 of the 1,118 team-wallet transactions since 10 Oct 2026 ([T
 **Since 10 Oct:** no ROUTER left the team multisig, treasury multisig or either vesting escrow. The team wallet's balance grew by 1.74M from fee drips. The 13 Nov +35% day showed **no insider outflow**.
 
 **What it means:** Yes. A team-controlled multisig funded a wallet that sold into the September pump, and the founder-linked team wallet sold tens of millions of tokens on pump days while also buying. Arkham adds that the team wallet cashes out to a Coinbase deposit address and a Fireblocks custody account (~$28.6k since 10 Oct), and finds no market-maker label on the `7sgL1a…` cluster. Score unchanged at 1/10. Under this layout's rule that is a FAIL; it would clear only if the team discloses `7sgL1a…` as an arm's-length buyer and the team wallet's trading as disclosed market-making.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** Nothing published covers these sales. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure takes 2 points off the ordinary Selling score, floored at 0: **1 → 0**. Pump days from GeckoTerminal main-pool daily closes (DEX-only token; no exchange series).
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -365,8 +377,18 @@ What it is ([Tier A] [docs.solrouter.com](https://docs.solrouter.com/docs)): pri
 | Insider selling into pumps | 🔴 **Tripped** (Sep 2026) | Team multisig → `7sgL1a…` [tx `5M funding`](https://solscan.io/tx/2FqcHNs2KM63GsMsY81B6R6pM58kCiZ7HDtU6ZjsDFnJxfrYj76CaYs7LdEfPgDVkWbBSTT87FPcYSyuCm73CHHF), then pump-day sells e.g. [tx `20 Sep`](https://solscan.io/tx/4UKszMeX1LKdrKjrLYgAzTkc2kFN5kdokjTDnyWBe5KT1c9LjzXTb3rtDcmay1gxZK7HQRaNNAixpr1SNUcHekYF) · [tx `21 Sep`](https://solscan.io/tx/3W6peLov7UjoKNpQeQbXfiEn4H9mz6gy42CYqusSavdj19jLrKchEB2w8WP4Hkr35j4G2DL28HuTV7hkw11R2R5S); section 📉 above |
 | Team wallet → exchange | 🔴 **Tripped** (small) | 12,420.56 USDC to Coinbase deposit [`FyM5ho4q…`](https://solscan.io/account/FyM5ho4q45YLoy3LZJbwDh3PQebVtiV6iktYN3GV1mEq), 16 Oct ([tx `tx`](https://solscan.io/tx/3ZEBUTr2Sdins3B2UpprSD2oejWQcS7HP1rNHXWMSFTtFuJvNGkPSTGN7UUMQM32qZRo4mqRERhJaMHDrEcADdbu)) and 2 Nov 2026 ([tx `tx`](https://solscan.io/tx/qNp8V16G6uvgKEyPcCjBkLJkUeoD6s6NuNzB3TCGTZev4Lk9QRjaaxBfJdxm1QLrk4MfLqCeZGn6DuEcRhnt5Q1)) (not pump days) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [`2EfTto…zmK`](https://solscan.io/account/2EfTtofXxj939kWHwJwD1t8HpzrAwa2uoqfsuNd7XzmK) | Team multisig (Squads 2-of-3) | Launchpad fee drips + Squads members on-chain | high | yes (on-chain) | Selling: funded `7sgL1a…`, which sold into the September pump |
+| Founder-linked team wallet | Team wallet | On-chain fee receipts from the launchpad | high | yes (on-chain) | Selling: pump-day sales and Coinbase cash-outs |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Solana mainnet RPC (`api.mainnet-beta.solana.com`): mint, token accounts, Squads multisig accounts, Streamflow escrows, `getSignaturesForAddress` + `getTransaction` for the team wallet (3,958 txs), team/treasury multisig vaults, escrows, `FQgy7a…`, `7sgL1a…`, and the attestation program; 14 Nov 2026, slot ~469,384,534
 - [Tier A] Prior forensic read, 10 Oct 2026 (slots 455,264,193–455,264,399), and full holder list, 10 Nov 2026
 - [Tier A] [Solrouter docs](https://docs.solrouter.com/docs) — [token](https://docs.solrouter.com/docs/token), [pricing](https://docs.solrouter.com/docs/use/pricing), [models](https://docs.solrouter.com/docs/how-it-works/models), [llms.txt](https://docs.solrouter.com/llms.txt)

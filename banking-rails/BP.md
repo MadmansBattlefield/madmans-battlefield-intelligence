@@ -22,6 +22,14 @@ red_lines:
   mint_authority_used: not_used
   treasury_outflow_without_milestone_notice: none_since_tge
   holder_freeze: none_found
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "None of the business income reaches BP; the only path is a conditional equity election that depends on an IPO or sale."
+pump_day_price_source: "MEXC BPUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (48 of 232 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.8097
 price_source: "CoinGecko, 14 Nov 2026 12:13 PM MST"
 chain_read_slot: 469447370
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** The business makes money, but none of it flows to BP today. The only path is a conditional equity election that depends on an IPO or sale that may never happen.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** None of the business income reaches BP; the only path is a conditional equity election that depends on an IPO or sale.
+
 ## 🏛️ Foundation & team — Who is in charge? · 7/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -128,6 +138,8 @@ layout_version: 3
 - The hot wallet's own exchange flows (Arkham, ~30-day window: $122.8M out to Binance, Gate, OKX, Kraken, Gemini) are normal exchange rebalancing across all assets, not BP-specific selling.
 
 **What it means:** The insider treasury has never moved, and the one 10M transfer on a pump day was Backpack moving customer coins between its own exchange wallets. No insider selling into pumps is visible. Score raised from 6 to 7; it is not higher because Backpack can still release 375M treasury tokens whenever it decides, with no notice period.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from MEXC BPUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (48 of 232 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -194,8 +206,18 @@ layout_version: 3
 | Holder account frozen | 🟢 None found | — |
 | Equity program redeemed or terminated | 🟢 Not found | — |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Backpack exchange wallets (10M move on a pump day) | Backpack customer-coin movement | On-chain trace in this report | high | yes | None: not an insider sale |
+| Insider treasury (375M) | Backpack treasury | On-chain, never moved | high | yes | Holdings |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Solana mainnet RPC: mint account, `getTokenAccountsByOwner`, `getSignaturesForAddress` and `getTransaction` for the treasury and `Eyzz…` accounts; slot ~469,447,370, 14 Nov 2026
 - [Tier A] Prior forensic read, 10 Oct 2026 (full holder list; Squads multisig decode; CySEC and ESMA registers)
 - [Tier A] [backpack.exchange/bp](https://backpack.exchange/bp) · BP Program FAQ · learn.backpack.exchange

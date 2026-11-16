@@ -4,13 +4,13 @@ name: OpenServ
 chain: ethereum
 contract: "0x40e3d1A4B2C47d9AA61261F5606136ef73E28042"
 bridged_copy_base: "0x5576D6ed9181F2225afF5282Ac0ED29f755437Ea"
-overall_score: 2.8
+overall_score: 2.6
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 3
   insider_holdings: 3
-  selling_behavior: 1
+  selling_behavior: 0
   tokenomics_supply: 4
   liquidity_market: 4
   product_development: 5
@@ -25,6 +25,14 @@ red_lines:
   owner_can_freeze_transfers: present_unused
   blacklist: present_unused
   burns_since_10_Oct: none
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The promised buy-and-burn has not executed (no burns found in five weeks) and no revenue is disclosed."
+pump_day_price_source: "MEXC SERVUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (87 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.01242
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_block_eth: 26415266
@@ -34,7 +42,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### SERV · Overall grade **2.8 / 10 · ❌ FAIL**
+### SERV · Overall grade **2.6 / 10 · ❌ FAIL**
 
 **Summary:** No revenue can be seen on-chain, and there have been no burns since 10 Oct. Meanwhile a treasury wallet named in the docs has sold about 12.2M SERV into Uniswap since January, including on pump days. On 21 and 31 Oct the main treasury Safe pulled 212M SERV out of vesting, then on 11 Nov sent 10M straight into an address Arkham labels a MEXC deposit address. The wallet the Safe funded on the 5 Nov pump day sells daily and pays its USDC to the same address the docs-listed treasury wallets pay.
 
@@ -47,7 +55,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 3/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 1/10 | ❌ FAIL |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 5/10 | ❌ FAIL |
@@ -61,7 +69,7 @@ layout_version: 3
 ---
 
 
-# 🪪 SERV · OpenServ · 2.8 / 10 · ❌ FAIL
+# 🪪 SERV · OpenServ · 2.6 / 10 · ❌ FAIL
 
 > **One line:** No revenue can be seen on-chain, and there have been no burns since 10 Oct. Meanwhile a treasury wallet named in the docs has sold about 12.2M SERV into Uniswap since January, including on pump days. On 21 and 31 Oct the main treasury Safe pulled 212M SERV out of vesting, then on 11 Nov sent 10M straight into an address Arkham labels a MEXC deposit address. The wallet the Safe funded on the 5 Nov pump day sells daily and pays its USDC to the same address the docs-listed treasury wallets pay.
 
@@ -91,6 +99,8 @@ layout_version: 3
 | Staking ("platform dividend") | "(Coming)" | [Tier A] docs |
 
 **What it means:** The docs promise buy-and-burn. The chain shows no burns at all in five weeks, and no revenue is disclosed.
+
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The promised buy-and-burn has not executed (no burns found in five weeks) and no revenue is disclosed.
 
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
@@ -128,7 +138,7 @@ layout_version: 3
 
 **What it means:** The treasury went from ~0.4% to ~21% of supply liquid in three weeks, all controlled by two keys.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 **Pump test:** 95 of 360 days in the last year had a ≥10% 5-day rise (CoinGecko daily closes). The most recent were 4 Nov (+16.3%) and 5 Nov (+11.1%).
 
@@ -172,6 +182,8 @@ layout_version: 3
 - 11 Nov was not a pump day (5-day move −10.9%, price $0.01289). Whether MEXC sold it cannot be seen on-chain.
 
 **What it means:** Yes. Treasury wallets sell into the open market almost daily, including on pump days, and the Safe paid 10M straight into a MEXC deposit address on 11 Nov. Arkham adds that the pump-day seller sends its dollars to the same address the treasury wallets pay. Score unchanged at 1/10. None of it was announced. The addresses are published, but the sales are not.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** The addresses are published but the sales are not. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure takes 2 points off the ordinary Selling score, floored at 0: **1 → 0**. On MEXC prices 4–5 Nov 2026 are not pump days, but the 21–22 Sep 2026 swaps still are. Pump days from MEXC SERVUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (87 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -240,8 +252,17 @@ layout_version: 3
 | Owner freeze / blacklist / tax | 🟡 Present, unused | Live reads |
 | Promised burns happening | 🔴 No burns since 10 Oct | Dead-address balances |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Published treasury Safe and `0x9193…` seller | OpenServ treasury | Project-published addresses + Etherscan flows | high | yes (project publication) | Selling: 3.16M sold on pump days; 10M to a MEXC deposit |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Ethereum RPC (`ethereum-rpc.publicnode.com`, `eth.drpc.org`) and Base RPC: balances, Safe threshold and owners, fee getters; 14 Nov 2026
 - [Tier A] Blockscout `eth.blockscout.com` token-transfer logs for the Safe, `0x9193…`, `0x406b…`, `0x56F9…`, `0xeF6A…` and holder list, 14 Nov 2026
 - [Tier A] Explorer pages (Etherscan) for every wallet named above: token [`0x40e3…`](https://etherscan.io/address/0x40e3d1A4B2C47d9AA61261F5606136ef73E28042) · Safe [`0x42CA…`](https://etherscan.io/address/0x42CAb3696a60C6Fc51381Bb533797E4121e1f168) · [`0x9193…`](https://etherscan.io/address/0x9193f0B639097e2AD0f22E5692Cd10e3A28a3376) · [`0xeF6A…`](https://etherscan.io/address/0xeF6A15b3675390e2896c99A4D12d51f9dfbd779e) · [`0x406b…`](https://etherscan.io/address/0x406b510F688d113c0A78d2a7B3af6a438b6B1aEb) · [`0x56F9…`](https://etherscan.io/address/0x56F966721FdA11F95ee8C0bd5b031751f682fF47) · [`0x9642…`](https://etherscan.io/address/0x9642b23Ed1E01Df1092B92641051881a322F5D4E) · [`0x14f6…`](https://etherscan.io/address/0x14f6165DFA03335bEAdFb42c49B7dF063DDDFC25) · [`0x0510…`](https://etherscan.io/address/0x0510b1a8b756836e0563358737d445aa8589cfe7) · [`0xeD16…`](https://etherscan.io/address/0xeD16D0FeCFA95d4a041d16Bf15F98c6BE49f9479) · [`0x8210…`](https://etherscan.io/address/0x8210201496876814ceb86b29fcf6f0f3f1ab8e6e) · Sablier [`Tranched`](https://etherscan.io/address/0xf86B359035208e4529686A1825F2D5BeE38c28A8) / [`Linear`](https://etherscan.io/address/0x3962f6585946823440d274aD7C719B02b49DE51E); every transaction is linked inline and in the 🔗 Evidence trail

@@ -72,14 +72,14 @@ Ties are broken by how many of the 11 sections passed.
 49. 🔴 **RLC** · 4.3 · ❌ FAIL
 50. 🔴 **RED** · 4.3 · ❌ FAIL
 51. 🔴 **PRO** · 4.3 · ❌ FAIL
-52. 🔴 **ZBCN** · 4.3 · ❌ FAIL
-53. 🔴 **TRAC** · 4.2 · ❌ FAIL
-54. 🔴 **REQ** · 4.2 · ❌ FAIL
-55. 🔴 **AMP** · 4.2 · ❌ FAIL
-56. 🔴 **GRND** · 4.2 · ❌ FAIL
-57. 🔴 **ETC** · 4.1 · ❌ FAIL
-58. 🔴 **XVG** · 4.1 · ❌ FAIL
-59. 🔴 **EDEN** · 4.1 · ❌ FAIL
+52. 🔴 **TRAC** · 4.2 · ❌ FAIL
+53. 🔴 **REQ** · 4.2 · ❌ FAIL
+54. 🔴 **AMP** · 4.2 · ❌ FAIL
+55. 🔴 **GRND** · 4.2 · ❌ FAIL
+56. 🔴 **ETC** · 4.1 · ❌ FAIL
+57. 🔴 **XVG** · 4.1 · ❌ FAIL
+58. 🔴 **EDEN** · 4.1 · ❌ FAIL
+59. 🔴 **ZBCN** · 4.0 · ❌ FAIL
 60. 🔴 **SEI** · 4.0 · ❌ FAIL
 61. 🔴 **TFUEL** · 4.0 · ❌ FAIL
 62. 🔴 **DUSK** · 4.0 · ❌ FAIL
@@ -156,9 +156,9 @@ Ties are broken by how many of the 11 sections passed.
 133. 🔴 **ORAI** · 3.0 · ❌ FAIL
 134. 🔴 **XDB** · 2.9 · ❌ FAIL
 135. 🔴 **JASMY** · 2.8 · ❌ FAIL
-136. 🔴 **SERV** · 2.8 · ❌ FAIL
-137. 🔴 **MASQ** · 2.7 · ❌ FAIL
-138. 🔴 **RIO** · 2.7 · ❌ FAIL
+136. 🔴 **MASQ** · 2.7 · ❌ FAIL
+137. 🔴 **RIO** · 2.7 · ❌ FAIL
+138. 🔴 **SERV** · 2.6 · ❌ FAIL
 139. 🔴 **SCRT** · 2.6 · ❌ FAIL
 140. 🔴 **PALMUSD** · 2.6 · ❌ FAIL
 141. 🔴 **EDEL** · 2.5 · ❌ FAIL
@@ -166,8 +166,8 @@ Ties are broken by how many of the 11 sections passed.
 143. 🔴 **SWCH** · 2.5 · ❌ FAIL
 144. 🔴 **COTI** · 2.4 · ❌ FAIL
 145. 🔴 **H** · 2.4 · ❌ FAIL
-146. 🔴 **ROUTER** · 2.2 · ❌ FAIL
-147. 🔴 **REALIZ** · 2.1 · ❌ FAIL
+146. 🔴 **REALIZ** · 2.1 · ❌ FAIL
+147. 🔴 **ROUTER** · 2.0 · ❌ FAIL
 148. 🔴 **SIBERIUM** · 1.9 · ❌ FAIL
 
 **7 of 148 pass.**
@@ -175,6 +175,10 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Batch 1 (portfolio-sheet names): 10 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [ZBCN](ZBCN.md) Selling 3 → 1 (4.3 → 4.0, now #59); [ROUTER](ROUTER.md) Selling 1 → 0 (2.2 → 2.0, now #147); [SERV](SERV.md) Selling 1 → 0 (2.8 → 2.6, now #138). Unchanged: [PLUME](PLUME.md), [BP](BP.md), [JASMY](JASMY.md), [ZRO](ZRO.md), [ARB](ARB.md), [ZEC](ZEC.md), [VELO](VELO.md).
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 The eight passing reports were upgraded to the 16 Nov 2026 rules (holder test, price source, disclosure quality, penalty flag, attribution-confidence table). Seven keep their scores: [AERO](AERO.md), [CC](CC.md), [ETH](ETH.md), [LINK](LINK.md), [SKY](SKY.md) and [SOL](SOL.md) pass the holder test through automatic on-chain mechanisms (staker fee share, fee burns, LINK's automated Payment Abstraction buyback into the Reserve, SKY's Smart Burn Engine), and [BTC](BTC.md) keeps Revenue at 4 with holders stated to have no live claim. **[SYRUP](SYRUP.md) loses its pass:** its buyback is executed by the Syrup Strategic Fund through Binance rather than automatically on-chain, so the holder test is no, Revenue falls 7 → 5 and the overall grade falls 6.3 → 5.9 (now #8). Its pump-day deposits are proven one-hop sales from Maple's treasury, and disclosure is rated buried (the market-making program is published, the specific deposits are not), so no penalty applies and Selling stays 4.
 
@@ -935,18 +939,7 @@ Score changes from that research:
 
 ---
 
-## #52 · ZBCN · Zebec Network
-
-### 4.3 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** Selling
-- **Verdict:** Real payment products (cards, stablecoin payroll) with self-reported volume, but payments run in USDC, buybacks are tiny and parked on an exchange, the issuer entity is undisclosed, and one plain key can upgrade the core programs. On-chain tracing shows ZBCN from the published treasury cluster split through fresh wallets and sold into DEX pools and sent to exchange-scale wallets on the 30 Sep – 4 Oct 2026 pump days, which trips the Selling gate.
-- 📄 [Full ZBCN report](ZBCN.md)
-
----
-
-## #53 · TRAC · OriginTrail
+## #52 · TRAC · OriginTrail
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -957,7 +950,7 @@ Score changes from that research:
 
 ---
 
-## #54 · REQ · Request Network
+## #53 · REQ · Request Network
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -968,7 +961,7 @@ Score changes from that research:
 
 ---
 
-## #55 · AMP · Amp
+## #54 · AMP · Amp
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -979,7 +972,7 @@ Score changes from that research:
 
 ---
 
-## #56 · GRND · SuperWalk
+## #55 · GRND · SuperWalk
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -990,7 +983,7 @@ Score changes from that research:
 
 ---
 
-## #57 · ETC · Ethereum Classic
+## #56 · ETC · Ethereum Classic
 
 ### 4.1 / 10 · ❌ FAIL
 
@@ -1001,7 +994,7 @@ Score changes from that research:
 
 ---
 
-## #58 · XVG · Verge
+## #57 · XVG · Verge
 
 ### 4.1 / 10 · ❌ FAIL
 
@@ -1012,7 +1005,7 @@ Score changes from that research:
 
 ---
 
-## #59 · EDEN · OpenEden
+## #58 · EDEN · OpenEden
 
 ### 4.1 / 10 · ❌ FAIL
 
@@ -1020,6 +1013,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** Real T-bill and USDO fees that never reach EDEN; a vesting allocation reached Binance on a pump day via Anchorage custody, owner not labelled as team.
 - 📄 [Full EDEN report](EDEN.md)
+
+---
+
+## #59 · ZBCN · Zebec Network
+
+### 4.0 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Selling
+- **Verdict:** Real payment products (cards, stablecoin payroll) with self-reported volume, but payments run in USDC, buybacks are tiny and parked on an exchange, the issuer entity is undisclosed, and one plain key can upgrade the core programs. On-chain tracing shows ZBCN from the published treasury cluster split through fresh wallets and sold into DEX pools and sent to exchange-scale wallets on the 30 Sep – 4 Oct 2026 pump days, which trips the Selling gate.
+- 📄 [Full ZBCN report](ZBCN.md)
 
 ---
 
@@ -1859,18 +1863,7 @@ Score changes from that research:
 
 ---
 
-## #136 · SERV · OpenServ
-
-### 2.8 / 10 · ❌ FAIL
-
-- **Sections passed:** 0 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** No revenue can be seen on-chain, and there have been no burns since 10 Oct. Meanwhile a treasury wallet named in the docs has sold about 12.2M SERV into Uniswap since January, including on pump days. On 21 and 31 Oct the main treasury Safe pulled 212M SERV out of vesting, then on 11 Nov sent 10M straight into an address Arkham labels a MEXC deposit address.
-- 📄 [Full SERV report](SERV.md)
-
----
-
-## #137 · MASQ · MASQ
+## #136 · MASQ · MASQ
 
 ### 2.7 / 10 · ❌ FAIL
 
@@ -1881,7 +1874,7 @@ Score changes from that research:
 
 ---
 
-## #138 · RIO · Realio Network
+## #137 · RIO · Realio Network
 
 ### 2.7 / 10 · ❌ FAIL
 
@@ -1889,6 +1882,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** An RWA platform that is offline after a 124.4M RIO drain in Aug 2026, with its chain halted.
 - 📄 [Full RIO report](RIO.md)
+
+---
+
+## #138 · SERV · OpenServ
+
+### 2.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 0 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** No revenue can be seen on-chain, and there have been no burns since 10 Oct. Meanwhile a treasury wallet named in the docs has sold about 12.2M SERV into Uniswap since January, including on pump days. On 21 and 31 Oct the main treasury Safe pulled 212M SERV out of vesting, then on 11 Nov sent 10M straight into an address Arkham labels a MEXC deposit address.
+- 📄 [Full SERV report](SERV.md)
 
 ---
 
@@ -1969,18 +1973,7 @@ Score changes from that research:
 
 ---
 
-## #146 · ROUTER · Solrouter
-
-### 2.2 / 10 · ❌ FAIL
-
-- **Sections passed:** 1 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A real privacy-AI product with honest docs and almost no paying usage. The token's cash flow is trading fees on itself, insiders control ~42% of supply, the founder-linked wallet has sold into pumps, and the main pool holds about $22k of real buy-side money.
-- 📄 [Full ROUTER report](ROUTER.md)
-
----
-
-## #147 · REALIZ · Realiz (TPT30)
+## #146 · REALIZ · Realiz (TPT30)
 
 ### 2.1 / 10 · ❌ FAIL
 
@@ -1988,6 +1981,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** A single unsubscribed bond token counted as $500M on dashboards; nothing reaches holders because there are none.
 - 📄 [Full REALIZ report](REALIZ.md)
+
+---
+
+## #147 · ROUTER · Solrouter
+
+### 2.0 / 10 · ❌ FAIL
+
+- **Sections passed:** 1 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A real privacy-AI product with honest docs and almost no paying usage. The token's cash flow is trading fees on itself, insiders control ~42% of supply, the founder-linked wallet has sold into pumps, and the main pool holds about $22k of real buy-side money.
+- 📄 [Full ROUTER report](ROUTER.md)
 
 ---
 

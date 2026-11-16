@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:02 MST
+generated_at: 2026-11-16 14:06 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -129,7 +129,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [SUPRA](banking-rails/SUPRA.md) | 1 | 3.6 | 3.6 | 2 | 4 | 3 |
 | [SWCH](banking-rails/SWCH.md) | 1 | 2.5 | 2.5 | 1 | 4 | 4 |
 | [SWFTC](banking-rails/SWFTC.md) | 1 | 3.8 | 3.8 | 2 | 4 | 4 |
-| [SYRUP](banking-rails/SYRUP.md) | 1 | 6.3 | 6.3 | 7 | 4 | 6 |
+| [SYRUP](banking-rails/SYRUP.md) | 2 | 6.3 | 5.9 | 7 → 5 | 4 | 6 |
 | [TAO](banking-rails/TAO.md) | 1 | 5.5 | 5.5 | 3 | 5 | 6 |
 | [TFUEL](banking-rails/TFUEL.md) | 1 | 4.0 | 4.0 | 2 | 4 | 4 |
 | [TLOS](banking-rails/TLOS.md) | 1 | 3.0 | 3.0 | 1 | 3 | 4 |
@@ -176,7 +176,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
 |---|---|---:|---|---:|---:|---:|---|
 | `c5e10a5` | 2026-11-15 06:07 MST | 6.6 | PASS | 8 | 5 | 6 | — |
-| `6fa4721` | 2026-11-15 18:37 MST | 6.6 | PASS | 8 | 6 | 6 | — |
+| `6723e4d` | 2026-11-16 14:02 MST | 6.6 | PASS | 8 | 6 | 6 | — |
 
 - **ALGO** — 5.0 FAIL in `6fa4721` (2026-11-15 18:37 MST).
 - **AMP** — 4.2 FAIL in `714aff3` (2026-11-16 08:59 MST).
@@ -196,10 +196,10 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `c5e10a5` | 2026-11-15 06:07 MST | 5.1 | FAIL | 3 | 6 | 2 | revenue |
 | `6fa4721` | 2026-11-15 18:37 MST | 5.2 | FAIL | 3 | 7 | 2 | revenue |
 
-- **BTC** — 7.3 PASS in `6fa4721` (2026-11-15 18:37 MST).
+- **BTC** — 7.3 PASS in `6723e4d` (2026-11-16 14:02 MST).
 - **BTT** — 4.7 FAIL in `7524e33` (2026-11-16 09:33 MST).
 - **CARDS** — 4.7 FAIL in `395f117` (2026-11-16 06:46 MST).
-- **CC** — 6.4 PASS in `6fa4721` (2026-11-15 18:37 MST).
+- **CC** — 6.4 PASS in `6723e4d` (2026-11-16 14:02 MST).
 - **CELO** — 4.7 FAIL in `6fa4721` (2026-11-15 18:37 MST).
 - **CELR** — 4.0 FAIL in `91b6ac1` (2026-11-16 12:34 MST).
 - **CFG** — 4.5 FAIL in `0a6d1a7` (2026-11-16 07:39 MST).
@@ -216,7 +216,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **EDEN** — 4.1 FAIL in `91b6ac1` (2026-11-16 12:34 MST).
 - **ENA** — 5.6 FAIL in `78f06b6` (2026-11-16 06:22 MST).
 - **ETC** — 4.1 FAIL in `5c5b66f` (2026-11-16 08:19 MST).
-- **ETH** — 7.2 PASS in `6fa4721` (2026-11-15 18:37 MST).
+- **ETH** — 7.2 PASS in `6723e4d` (2026-11-16 14:02 MST).
 - **EURE** — 5.0 FAIL in `73d9a3c` (2026-11-16 13:58 MST).
 - **EWT** — 4.0 FAIL in `16d387f` (2026-11-16 08:50 MST).
 - **EXA** — 3.1 FAIL in `a664692` (2026-11-16 06:58 MST).
@@ -239,7 +239,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **KAIA** — 3.9 FAIL in `a4bf82b` (2026-11-16 07:42 MST).
 - **KAIO** — 3.6 FAIL in `c108a79` (2026-11-16 08:40 MST).
 - **KAVA** — 3.1 FAIL in `714aff3` (2026-11-16 08:59 MST).
-- **LINK** — 6.9 PASS in `6fa4721` (2026-11-15 18:37 MST).
+- **LINK** — 6.9 PASS in `6723e4d` (2026-11-16 14:02 MST).
 - **LUMIA** — 3.2 FAIL in `91b6ac1` (2026-11-16 12:34 MST).
 - **MASQ** — 2.7 FAIL in `5c5b66f` (2026-11-16 08:19 MST).
 - **MBG** — 3.9 FAIL in `7524e33` (2026-11-16 09:33 MST).
@@ -303,8 +303,8 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **SHX** — 3.6 FAIL in `25340a1` (2026-11-16 09:50 MST).
 - **SIBERIUM** — 1.9 FAIL in `f161485` (2026-11-16 13:54 MST).
 - **SKEY** — 3.4 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
-- **SKY** — 6.8 PASS in `78f06b6` (2026-11-16 06:22 MST).
-- **SOL** — 6.6 PASS in `6fa4721` (2026-11-15 18:37 MST).
+- **SKY** — 6.8 PASS in `6723e4d` (2026-11-16 14:02 MST).
+- **SOL** — 6.6 PASS in `6723e4d` (2026-11-16 14:02 MST).
 - **SOLV** — 4.7 FAIL in `0a6d1a7` (2026-11-16 07:39 MST).
 - **SPA** — 2.5 FAIL in `395f117` (2026-11-16 06:46 MST).
 - **STBL** — 3.3 FAIL in `25340a1` (2026-11-16 09:50 MST).
@@ -312,7 +312,13 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 - **SUPRA** — 3.6 FAIL in `3539092` (2026-11-16 12:36 MST).
 - **SWCH** — 2.5 FAIL in `f7bbe5f` (2026-11-16 09:41 MST).
 - **SWFTC** — 3.8 FAIL in `5420ac2` (2026-11-16 12:27 MST).
-- **SYRUP** — 6.3 PASS in `0a6d1a7` (2026-11-16 07:39 MST).
+### SYRUP
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `0a6d1a7` | 2026-11-16 07:39 MST | 6.3 | PASS | 7 | 4 | 6 | — |
+| `6723e4d` | 2026-11-16 14:02 MST | 5.9 | FAIL | 5 | 4 | 6 | — |
+
 - **TAO** — 5.5 FAIL in `6fa4721` (2026-11-15 18:37 MST).
 - **TFUEL** — 4.0 FAIL in `714aff3` (2026-11-16 08:59 MST).
 - **TLOS** — 3.0 FAIL in `5c5b66f` (2026-11-16 08:19 MST).

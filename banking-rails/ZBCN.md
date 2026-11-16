@@ -3,13 +3,13 @@ ticker: ZBCN
 name: Zebec Network
 chain: solana
 mint: ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU
-overall_score: 4.3
+overall_score: 4.0
 overall_verdict: FAIL
 section_scores:
   revenue: 4
   foundation_team: 3
   insider_holdings: 4
-  selling_behavior: 3
+  selling_behavior: 1
   tokenomics_supply: 6
   liquidity_market: 7
   product_development: 5
@@ -23,6 +23,14 @@ red_lines:
   buybacks_sold_rather_than_held: cannot_be_ruled_out
   treasury_funded_wallets_sell_into_pumps: tripped_30_Sep_4_Oct_2026
   founder_leadership_change: founder_dropped_from_team_page_role_unverified
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "The buyback (~$100k a quarter) is a company decision, is not automatic on-chain, and the bought ZBCN is held, not burned. No fee share or fee-funded staking yield. Holders have no live claim on revenue; the score describes the business, not holder accrual."
+pump_day_price_source: "Gate ZBCN_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (48 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.0017262
 price_source: "CoinGecko, 14 Nov 2026 9:08 AM MST"
 last_updated: 2026-11-15
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### ZBCN · Overall grade **4.3 / 10 · ❌ FAIL**
+### ZBCN · Overall grade **4.0 / 10 · ❌ FAIL**
 
 **Summary:** Real payment products (cards, stablecoin payroll) with self-reported volume, but payments run in USDC, buybacks are tiny and parked on an exchange, the issuer entity is undisclosed, and one plain key can upgrade the core programs. New on-chain tracing shows ZBCN from the published treasury cluster split through fresh wallets and sold into DEX pools and sent to exchange-scale wallets on the 30 Sep – 4 Oct 2026 pump days, which trips the Selling gate.
 
@@ -44,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 4/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 3/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 3/10 | ❌ FAIL |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 6/10 | ✅ PASS |
 | 💧 Liquidity & market | 7/10 | ✅ PASS |
 | 🧑‍💻 Product & development | 5/10 | ❌ FAIL |
@@ -58,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ZBCN · Zebec Network · 4.3 / 10 · ❌ FAIL
+# 🪪 ZBCN · Zebec Network · 4.0 / 10 · ❌ FAIL
 
 > **One line:** Real payment products (cards, stablecoin payroll) with self-reported volume, but payments run in USDC, buybacks are tiny and parked on an exchange, the issuer entity is undisclosed, and one plain key can upgrade the core programs. New on-chain tracing shows ZBCN from the published treasury cluster split through fresh wallets and sold into DEX pools and sent to exchange-scale wallets on the 30 Sep – 4 Oct 2026 pump days, which trips the Selling gate.
 
@@ -87,6 +95,8 @@ layout_version: 3
 - 2023 promise "card revenue funds buyback-and-burn" was **abandoned** by ZIP-4 (20 Jan 2024).
 
 **What it means:** The company may make money; the token gets a ~$100k-a-quarter buyback that is held, not burned. No audited figures.
+
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** The buyback (~$100k a quarter) is a company decision, is not automatic on-chain, and the bought ZBCN is held, not burned. No fee share or fee-funded staking yield. Holders have no live claim on revenue; the score describes the business, not holder accrual.
 
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
@@ -119,7 +129,7 @@ layout_version: 3
 
 **What it means:** At least ~13% is in Zebec-controlled vaults, the team wallets are not disclosed, and buyback tokens sit on an exchange where they can be sold. Arkham's "Zebec Network" entity covers only small wallets ($386k); the big vaults and the hub are unlabelled there. Score unchanged at 4/10.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 3/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 | Test | Result | Source |
 |---|---|---|
@@ -171,6 +181,8 @@ Where the traced pieces landed (1–3 hops after step 4; only part of the tree w
 - Real Rails treasury badge (before this trace): **CAUTION**.
 
 **What it means:** Yes, now. ZBCN from the published treasury cluster was split through fresh wallets and sold into DEX pools and sent to exchange-scale wallets on the 30 Sep – 4 Oct pump days (~156M traced, ~$0.41M), with no disclosure. The hub also pays an exchange deposit address twice a month (small). Score cut from 5 to 3, which trips the hard gate.
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** Zebec published the treasury wallets but not these sales. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure takes 2 points off the ordinary Selling score, floored at 0: **3 → 1**. The sales on 30 Sep – 3 Oct 2026 are still pump days on Gate prices (4 Oct is not). Pump days from Gate ZBCN_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (48 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -249,8 +261,17 @@ Where the traced pieces landed (1–3 hops after step 4; only part of the tree w
 | Treasury hub → exchange deposit | 🔴 **Tripped**, small (9.0M ZBCN to an Arkham-labelled Gate deposit, Aug–Nov 2026; Selling B): [Arkham: Gate Deposit](https://intel.arkm.com/explorer/address/ACjqBWqMhcbDTbnWitdFohrJebHmSA7tmX23Awt7n54e) · pump-day payment [tx: 1 Oct](https://solscan.io/tx/mTGdw8d3HVX46WbdZchqB3KxHPf7ZqQW4nCeKMcaN4s3MKuuSzwKooARg1awuSv1waRdjuT4p1sQRenUvHqZou2) |
 | Founder/leadership change | 🟡 Founder dropped from team page (role unverified) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [`9Sq2…`](https://solscan.io/account/9Sq2nZ481aiEkoDB9gavcfD6v7pr4LEcPnUdky4TEine) | Zebec treasury hub | Zebec's own published wallet list + Solana RPC flows | high | yes (project publication) | Selling: funded the wallets that sold on 30 Sep – 3 Oct pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Solana mainnet RPC: full token-account census 10 Oct 2026; balances 3 Nov 2026
 - [Tier A] [docs.zebec.io](https://docs.zebec.io) · zebec.io/team · [Q1 2026 report](https://zebec.io/blog/q1-2026-report) · [ZIP-4](https://medium.com/zebec-protocol/zip-4-governance-proposal-redesignation-for-protocol-growth-83f62e3614cb)
 - [Tier A] SEC EDGAR Form D, Shima Zebec SPV LLC (CIK 0001941922)

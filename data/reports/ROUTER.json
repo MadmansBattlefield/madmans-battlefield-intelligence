@@ -4,13 +4,13 @@
   "name": "Solrouter",
   "chain": "solana",
   "contract": null,
-  "overall_score": 2.2,
+  "overall_score": 2.0,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 1,
     "foundation_team": 2,
     "insider_holdings": 2,
-    "selling_behavior": 1,
+    "selling_behavior": 0,
     "tokenomics_supply": 4,
     "liquidity_market": 1,
     "product_development": 6,
@@ -31,7 +31,7 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 1,
+      "score": 0,
       "threshold": 3,
       "tripped": true
     }
@@ -47,6 +47,14 @@
   "front_matter_extras": {
     "not_to_be_confused_with": "Router Protocol (ROUTE)",
     "mint": "6SjVTj1VGwFSXn7wEjwFm77LvACeTqB7sQUebYKX8Ds5",
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Fees come from trading the token itself and go to the team wallet, not to holders. No burn, buyback, fee share or fee-funded staking yield is executing.",
+    "pump_day_price_source": "GeckoTerminal main-pool daily closes (DEX-only token; no exchange series)",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": [],
     "chain_read_slot": 469384534
   },
   "key_numbers": {
@@ -58,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ROUTER.md",
-    "sha256": "6da7841733dfd7fd78c894679c3e9086e64c5ec03761bd24912ac29ef434076f",
-    "bytes": 47401,
-    "extracted_at": "2026-11-16 14:02 MST",
+    "sha256": "6c29e72fbc1a7a689285830f6aa7f7b3015c73a57c57a4a57ec9e1ed35460a3f",
+    "bytes": 49409,
+    "extracted_at": "2026-11-16 14:06 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -470,26 +478,28 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "GeckoTerminal main-pool daily closes (DEX-only token; no exchange series)",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
     "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": false,
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": []
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [
       "burn",
-      "buyback"
+      "buyback",
+      "staking_yield_from_fees",
+      "fee_share"
     ],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "The team gets paid when people trade the token, not when people use the product. Product usage is about 1–2 sealed calls a day this month."
   },
@@ -601,6 +611,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Solana mainnet RPC (`api.mainnet-beta.solana.com`): mint, token accounts, Squads multisig accounts, Streamflow escrows, `getSignaturesForAddress` + `getTransaction` for the team wallet (3,958 txs), team/treasury multisig vaults, escrows, `FQgy7a…`, `7sgL1a…`, and the attestation program; 14 Nov 2026, slot ~469,384,534",

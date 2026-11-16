@@ -22,6 +22,19 @@ red_lines:
   admin_or_mint: none (plain ERC-20)
   deployer_exchange_deposits: "yes (1,845,000,000 to Gate.io, 2023 – Jan 2025)"
   pump_day_exchange_deposit_linked_to_issuer: "unverified (29 Sep 2026)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Nothing ties token value to business income: no burn, buyback, fee share or fee-funded staking yield."
+pump_day_price_source: "Gate JASMY_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (32 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions:
+  - address: "0x722e6c8ef971338bdb46d4e7924e392d6f2a5b50"
+    label: "Unlabelled; funded from Binance"
+    confidence: low
+    independent_corroboration: false
+    basis: "Etherscan"
 price_usd: 0.003214
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 last_updated: 2026-11-15
@@ -82,6 +95,8 @@ layout_version: 3
 
 **What it means:** Nothing ties token value to any business income.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Nothing ties token value to business income: no burn, buyback, fee share or fee-funded staking yield.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 | Item | Finding | Source |
@@ -117,6 +132,8 @@ layout_version: 3
 | Other senders into `0xa2A3…` (all time) | Only three non-deployer senders: `0x722E…` 93.5M (above), `0x69ae3e4f…` 53M (Apr 2023), `0x0639556f…` 1.04M (Mar 2025) | [Tier A] Etherscan v2 |
 
 **What it means:** The deployer has a long record of undisclosed exchange deposits (1.845B), and Arkham itself files the deposit address under Jasmy. An exchange deposit address credits one account, so the 93.5M sent on the 29 Sep pump most likely landed in **the same Gate account the deployer used**. That is strong, but `0x722E…` has no label or funding tie to Jasmy (its coins came from Binance), so the issuer link is still not proven. Score unchanged at 2.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate JASMY_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (32 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 7/10 · ✅ PASS
 
@@ -194,8 +211,18 @@ layout_version: 3
 | Pump-day exchange deposit tied to the issuer | 🟠 Likely, not proven | 29 Sep 2026, 93.5M into the deployer's Gate deposit address ([43.5M](https://etherscan.io/tx/0x816c67ec404493b854dc4076ccb586a361de0f8dd4c3a815eb35086ded2ece55) · [50M](https://etherscan.io/tx/0xc20fe5c8ae95660ed6a2618d60c598c6d8bc647d022bf7dfe300fef87c01be06)), so probably the same Gate account; `0x722E…` itself has no tie to Jasmy |
 | Delisted from a major venue | 🔴 Yes (Upbit) | Upbit market API |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Deployer → Gate deposit `0xa2A3…` | Jasmy deployer | Etherscan (deployer) + Arkham files the deposit under Jasmy | high | yes (on-chain) | Selling: 1.845B of undisclosed exchange deposits, 2023 – Jan 2025, keep the score at 2 |
+| [`0x722E…5b50`](https://etherscan.io/address/0x722E6c8ef971338BdB46D4e7924E392D6f2a5b50) | Unlabelled; funded from Binance | Etherscan | low | no | None: the 29 Sep 2026 pump-day deposit is not proven as an issuer sale |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Ethereum RPC and eth.blockscout.com: verified source, holders, labels and transfers for the deployer, `0xa2A3…`, `0x722E…` and the MultiSigWallet, 14 Nov 2026
 - [Tier A] Upbit public market API (no JASMY market)
 - [Tier A] DexScreener tokens API · DefiLlama (no listing)

@@ -42,7 +42,16 @@
   },
   "price_usd": 0.1322,
   "price_source": "CoinGecko, 16 Nov 2026 5:25 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Sequencer revenue goes to the DAO treasury; there is no burn, buyback, fee share or fee-funded staking yield to holders. Holders have no live claim on revenue; the score describes the business, not holder accrual.",
+    "pump_day_price_source": "Gate ARB/USDT daily closes",
+    "pump_day_disclosure_quality": "buried_disclosure",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.1322,
     "market_cap_text": "$911.4M",
@@ -54,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ARB.md",
-    "sha256": "8a70e3850567b2e1044af122f4608860619b97dd0b20eabcb005367e88c7a2ff",
-    "bytes": 28786,
-    "extracted_at": "2026-11-16 14:02 MST",
+    "sha256": "a754c1e67d7a6ba8877890ae5069258f7cca0b0f6317de03e609b41631e34dc1",
+    "bytes": 30631,
+    "extracted_at": "2026-11-16 14:06 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -371,15 +380,15 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate ARB/USDT daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
-    "disclosure_quality": "not_applicable",
+    "disclosure_quality": "buried_disclosure",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes, partly disclosed (Coinbase Prime deposit address 0x905a, fed by Foundation and Arbitrum Safes, swept 137.5M ARB to the Coinbase Prime hot wallet on 13 pump days, incl. 27.55M on 4 Sep 2026 at +56.1%; the Foundation's reports say it runs 'ARB conversions' and pays costs in ARB, but give no trade-level detail)"
@@ -388,11 +397,14 @@
   "revenue_accrual": {
     "reaches_holders": "no",
     "mechanisms": [
-      "buyback"
+      "burn",
+      "buyback",
+      "staking_yield_from_fees",
+      "fee_share"
     ],
     "automatic_onchain": false,
     "executed": false,
-    "inconsistent_with_score": true,
+    "inconsistent_with_score": false,
     "notes": "Revenue is real and goes to a treasury the token holders vote on. That is better than CFG or HUMA, where the token sees nothing. But it is small and shrinking: about $514k a month, or ≈ 130x price-to-sales. **4**, so the gate is not tripped."
   },
   "attributions": [
@@ -493,7 +505,7 @@
   "review": {
     "selling_holdings_low_confidence_flag": false,
     "selling_holdings_single_source_arkham_flag": false,
-    "revenue_accrual_inconsistent": true,
+    "revenue_accrual_inconsistent": false,
     "flag_notes": [
       "Arkham entity labels appear in Selling or Holdings without a second source parsed. They are recorded on the JSON but not auto-flagged, because the published score may not have depended on them alone."
     ],
@@ -515,6 +527,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Arbiscan via the Etherscan v2 API (chainid 42161): `tokentx` ARB history for the Foundation Vesting Budget Wallet, Foundation Safe `0xd6c8…`, DAO Treasury, `0x905a…` (1,330 tx) and Coinbase Prime 3 (latest 5,000); read 16 Nov 2026 ~8:30–8:50 AM MST",

@@ -4,13 +4,13 @@
   "name": "Zebec Network",
   "chain": "solana",
   "contract": null,
-  "overall_score": 4.3,
+  "overall_score": 4.0,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 4,
     "foundation_team": 3,
     "insider_holdings": 4,
-    "selling_behavior": 3,
+    "selling_behavior": 1,
     "tokenomics_supply": 6,
     "liquidity_market": 7,
     "product_development": 5,
@@ -30,7 +30,7 @@
       "tripped": false
     },
     "selling_behavior": {
-      "score": 3,
+      "score": 1,
       "threshold": 3,
       "tripped": true
     }
@@ -44,7 +44,15 @@
   "price_usd": 0.0017262,
   "price_source": "CoinGecko, 14 Nov 2026 9:08 AM MST",
   "front_matter_extras": {
-    "mint": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU"
+    "mint": "ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "The buyback (~$100k a quarter) is a company decision, is not automatic on-chain, and the bought ZBCN is held, not burned. No fee share or fee-funded staking yield. Holders have no live claim on revenue; the score describes the business, not holder accrual.",
+    "pump_day_price_source": "Gate ZBCN_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (48 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": []
   },
   "key_numbers": {
     "price_usd": 0.0017262,
@@ -54,9 +62,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZBCN.md",
-    "sha256": "5ae4c54429a03f2824ce11beabf5d1f75d5658f9a6ce8a931ad685464c7a5603",
-    "bytes": 38417,
-    "extracted_at": "2026-11-16 14:02 MST",
+    "sha256": "b34a34a89bdbd5717a23002d5c98856e16147409063799ba94408f9526cef959",
+    "bytes": 40742,
+    "extracted_at": "2026-11-16 14:06 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -670,28 +678,30 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate ZBCN_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (48 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
     "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": false,
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "treasury_funded_wallets_sell_into_pumps: tripped_30_Sep_4_Oct_2026"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [
       "burn",
-      "buyback"
+      "buyback",
+      "staking_yield_from_fees",
+      "fee_share"
     ],
-    "automatic_onchain": null,
-    "executed": true,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "The company may make money; the token gets a ~$100k-a-quarter buyback that is held, not burned. No audited figures."
   },
@@ -701,12 +711,11 @@
       "url": "https://intel.arkm.com/explorer/address/ACjqBWqMhcbDTbnWitdFohrJebHmSA7tmX23Awt7n54e",
       "label": "Gate deposit](https://intel.arkm.com/explorer/address/ACjqBWqMhcbDTbnWitdFohrJeb",
       "source": "arkham",
-      "confidence": "high",
-      "independent_corroboration": true,
+      "confidence": "medium",
+      "independent_corroboration": false,
       "corroborating_sources": [
         "arkham",
-        "explorer-link",
-        "official"
+        "explorer-link"
       ],
       "label_kind": "exchange",
       "appears_in_selling_or_holdings": true
@@ -804,6 +813,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Solana mainnet RPC: full token-account census 10 Oct 2026; balances 3 Nov 2026",

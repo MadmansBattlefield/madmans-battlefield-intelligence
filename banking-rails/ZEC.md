@@ -24,6 +24,14 @@ red_lines:
   treasury_funded_wallet_to_exchange_during_pump: "not provable (12 of 100 weekly ZCG/FPF shielding days were pump days, e.g. 17 Sep 2026, +30.7%; destinations hidden)"
   mint_path_live: "yes by design (PoW issuance ~1,800 ZEC/day; 20% of subsidy to dev funding streams; 21M cap)"
   regulatory_delisting_risk: "yes (EU AMLR Art. 79 applies 10 Jul 2027 to anonymity-enhancing coins)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "About $0.6M a year of fees with nothing accruing to holders."
+pump_day_price_source: "Gate ZEC_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (91 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 872.73
 price_source: "CoinGecko, 16 Nov 2026 5:26 AM MST"
 last_updated: 2026-11-16
@@ -83,6 +91,8 @@ layout_version: 3
 
 **What it means:** $0.6M a year of fees on a $14.9B coin, with nothing accruing to holders. Like Bitcoin, the bet is on money demand, not cash flow. Under this framework that scores **1** and **trips the Revenue gate**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** About $0.6M a year of fees with nothing accruing to holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -119,6 +129,8 @@ layout_version: 3
 - **Arkham pass ([Tier B] Arkham, read 16 Nov 2026 ~7:33 AM MST (signed-in account)).** Arkham does index Zcash transparent addresses (an earlier note here said it did not). It labels [`t3cF…Cow`](https://blockchair.com/zcash/address/t3cFfPt1Bcvgez9ZbMBFWeZsskxTkPzGCow) "Community Grants (Gemini Custody)" ([Arkham](https://intel.arkm.com/explorer/address/t3cFfPt1Bcvgez9ZbMBFWeZsskxTkPzGCow)), [`t3Xy…Xym`](https://blockchair.com/zcash/address/t3XyYW8yBFRuMnfvm5KLGFbEVz25kckZXym) "Major Grant Review Committee Funds (Gemini Custody)" ([Arkham](https://intel.arkm.com/explorer/address/t3XyYW8yBFRuMnfvm5KLGFbEVz25kckZXym)) and [`t3dv…BA1`](https://blockchair.com/zcash/address/t3dvVE3SQEi7kqNzwrfNePxZ1d4hUyztBA1) "Foundation (Gemini Custody)" ([Arkham](https://intel.arkm.com/explorer/address/t3dvVE3SQEi7kqNzwrfNePxZ1d4hUyztBA1)), all under entity Zcash Foundation. It labels [`t3ev…wYo`](https://blockchair.com/zcash/address/t3ev37Q2uL1sfTsiJQJiWJoFzQpDhmnUwYo) "ZIP-271 Disbursement Multisig" with no entity ([Arkham](https://intel.arkm.com/explorer/address/t3ev37Q2uL1sfTsiJQJiWJoFzQpDhmnUwYo)), and the old ECC Development Fund address [`t3Lm…iif`](https://blockchair.com/zcash/address/t3LmX1cxWPPPqL4TZHx42HU3U5ghbFjRiif) as Electric Coin Co., one of 48 ECC-attributed addresses ([Arkham](https://intel.arkm.com/explorer/address/t3LmX1cxWPPPqL4TZHx42HU3U5ghbFjRiif)). Arkham files `t3cF…` under Zcash Foundation, but ZIP 271 and Zebra assign that stream to ZCG/FPF, so the Tier A designation stands; the "Gemini Custody" wording is a single Tier B hint about custody [Unverified].
 - **The "COINBASE" counterparty is the block reward, not the Coinbase exchange.** Arkham shows repeated inbound "COINBASE" transfers on four of these addresses. Blockchair marks the same outputs `is_from_coinbase = true`, and the sizes are funding-stream shares of the block subsidy: 0.25 ZEC per block to `t3Xy…` and 0.15625 to `t3dv…` (8% and 5% of the 3.125 ZEC pre-halving subsidy, last on 23 Nov 2024), and 0.0417 per block to `t3cF…` today (8% of the post-NU7 subsidy of 0.5208 ZEC; it was 0.125 until [block 3,543,404](https://blockchair.com/zcash/block/3543404)). The 78.75K ZEC "COINBASE" inflow to `t3ev…` is the ZIP 271 one-time disbursement, which the ZIP requires to be paid in the coinbase transaction of the NU6.1 activation block ([ZIP 271](https://zips.z.cash/zip-0271)). On the first transfer pages, every outflow goes to Arkham's opaque SHIELDED endpoint. No exchange-bound outflow appears, and the old ECC Development Fund address's last indexed transfer is 1 Sep 2021.
 - No direct transfer from any dev-fund address to an exchange is possible to see. Verdict: **not proven either way** → **5**. Not gated. **Unchanged after the Arkham pass:** Arkham adds labels and confirms the in-flows are block rewards and the out-flows are shielded. It shows no exchange-bound transfer, so the premise of the 5 (destination hidden by design) still holds.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate ZEC_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (91 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 7/10 · ✅ PASS
 
@@ -168,8 +180,17 @@ layout_version: 3
 | Live mint path | 🟡 By design: PoW issuance, 21M cap |
 | Regulatory delisting | 🟠 EU AMLR from 10 Jul 2027 |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| ZCG/FPF `t3cF…` dev-fund address | Zcash dev fund | Consensus rules (protocol) | high | yes | None: payouts are shielded, so sales cannot be proven |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Blockchair Zcash API: address dashboards, outputs aggregated by spending date, transaction dashboards for `t3cF…`, `t3ev…`, `t3Xy…`; chain stats; read 16 Nov 2026 MST
 - [Tier A] [Zebra consensus constants (mainnet funding streams)](https://github.com/ZcashFoundation/zebra/blob/main/zebra-chain/src/parameters/network/subsidy/constants/mainnet.rs) · [ZIP 271](https://zips.z.cash/zip-0271) · [ZIP 1015](https://zips.z.cash/zip-1015) · [protocol spec](https://zips.z.cash/protocol/protocol.pdf)
 - [Tier A] [Grayscale ZCSH](https://etfs.grayscale.com/zcsh) · [launch release](https://www.nasdaq.com/press-release/zcash-etf-ticker-zcsh-built-grayscale-begins-trading-nyse-arca-expanding-investor)

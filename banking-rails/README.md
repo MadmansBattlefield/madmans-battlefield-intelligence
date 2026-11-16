@@ -84,14 +84,14 @@ Every token in this folder has a full v3 scored report:
 | 49 | [RLC.md](RLC.md) | iExec RLC | **4.3 / 10 · ❌ FAIL** |
 | 50 | [RED.md](RED.md) | RedStone | **4.3 / 10 · ❌ FAIL** |
 | 51 | [PRO.md](PRO.md) | Propy | **4.3 / 10 · ❌ FAIL** |
-| 52 | [ZBCN.md](ZBCN.md) | Zebec Network | **4.3 / 10 · ❌ FAIL** |
-| 53 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
-| 54 | [REQ.md](REQ.md) | Request Network | **4.2 / 10 · ❌ FAIL** |
-| 55 | [AMP.md](AMP.md) | Amp | **4.2 / 10 · ❌ FAIL** |
-| 56 | [GRND.md](GRND.md) | SuperWalk | **4.2 / 10 · ❌ FAIL** |
-| 57 | [ETC.md](ETC.md) | Ethereum Classic | **4.1 / 10 · ❌ FAIL** |
-| 58 | [XVG.md](XVG.md) | Verge | **4.1 / 10 · ❌ FAIL** |
-| 59 | [EDEN.md](EDEN.md) | OpenEden | **4.1 / 10 · ❌ FAIL** |
+| 52 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
+| 53 | [REQ.md](REQ.md) | Request Network | **4.2 / 10 · ❌ FAIL** |
+| 54 | [AMP.md](AMP.md) | Amp | **4.2 / 10 · ❌ FAIL** |
+| 55 | [GRND.md](GRND.md) | SuperWalk | **4.2 / 10 · ❌ FAIL** |
+| 56 | [ETC.md](ETC.md) | Ethereum Classic | **4.1 / 10 · ❌ FAIL** |
+| 57 | [XVG.md](XVG.md) | Verge | **4.1 / 10 · ❌ FAIL** |
+| 58 | [EDEN.md](EDEN.md) | OpenEden | **4.1 / 10 · ❌ FAIL** |
+| 59 | [ZBCN.md](ZBCN.md) | Zebec Network | **4.0 / 10 · ❌ FAIL** |
 | 60 | [SEI.md](SEI.md) | Sei | **4.0 / 10 · ❌ FAIL** |
 | 61 | [TFUEL.md](TFUEL.md) | Theta Fuel | **4.0 / 10 · ❌ FAIL** |
 | 62 | [DUSK.md](DUSK.md) | Dusk | **4.0 / 10 · ❌ FAIL** |
@@ -168,9 +168,9 @@ Every token in this folder has a full v3 scored report:
 | 133 | [ORAI.md](ORAI.md) | Oraichain | **3.0 / 10 · ❌ FAIL** |
 | 134 | [XDB.md](XDB.md) | XDB CHAIN (formerly DigitalBits) | **2.9 / 10 · ❌ FAIL** |
 | 135 | [JASMY.md](JASMY.md) | JasmyCoin | **2.8 / 10 · ❌ FAIL** |
-| 136 | [SERV.md](SERV.md) | OpenServ | **2.8 / 10 · ❌ FAIL** |
-| 137 | [MASQ.md](MASQ.md) | MASQ | **2.7 / 10 · ❌ FAIL** |
-| 138 | [RIO.md](RIO.md) | Realio Network | **2.7 / 10 · ❌ FAIL** |
+| 136 | [MASQ.md](MASQ.md) | MASQ | **2.7 / 10 · ❌ FAIL** |
+| 137 | [RIO.md](RIO.md) | Realio Network | **2.7 / 10 · ❌ FAIL** |
+| 138 | [SERV.md](SERV.md) | OpenServ | **2.6 / 10 · ❌ FAIL** |
 | 139 | [SCRT.md](SCRT.md) | Secret Network | **2.6 / 10 · ❌ FAIL** |
 | 140 | [PALMUSD.md](PALMUSD.md) | Palm USD (PUSD) | **2.6 / 10 · ❌ FAIL** |
 | 141 | [EDEL.md](EDEL.md) | Edel Finance | **2.5 / 10 · ❌ FAIL** |
@@ -178,8 +178,8 @@ Every token in this folder has a full v3 scored report:
 | 143 | [SWCH.md](SWCH.md) | SwissCheese | **2.5 / 10 · ❌ FAIL** |
 | 144 | [COTI.md](COTI.md) | COTI | **2.4 / 10 · ❌ FAIL** |
 | 145 | [H.md](H.md) | Humanity Protocol | **2.4 / 10 · ❌ FAIL** |
-| 146 | [ROUTER.md](ROUTER.md) | Solrouter | **2.2 / 10 · ❌ FAIL** |
-| 147 | [REALIZ.md](REALIZ.md) | Realiz (TPT30) | **2.1 / 10 · ❌ FAIL** |
+| 146 | [REALIZ.md](REALIZ.md) | Realiz (TPT30) | **2.1 / 10 · ❌ FAIL** |
+| 147 | [ROUTER.md](ROUTER.md) | Solrouter | **2.0 / 10 · ❌ FAIL** |
 | 148 | [SIBERIUM.md](SIBERIUM.md) | Siberium Network (SIBR) | **1.9 / 10 · ❌ FAIL** |
 | — | [other-tokens.md](other-tokens.md) | Shorter notes on other researched names | unscored |
 
