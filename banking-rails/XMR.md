@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "18-block reorganization on 14 Sep 2025 during the Qubic mining campaign; only 1-block reorgs since Aug 2026"
   mint_path_live: "no: fixed tail emission of 0.6 XMR a block (about 0.8% a year), set in the protocol"
   team_wallet_to_exchange_during_pump: "not applicable: no premine, no team or treasury allocation (fair launch, 2014)"
+  one_hop_sale_status: none_found
   regulatory_delisting: "yes: delisted from Binance (2024); EU AMLR bars EU crypto-asset service providers from handling anonymity-enhancing coins from 10 Jul 2027"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

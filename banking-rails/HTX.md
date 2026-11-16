@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes, HTX exchange hot wallets and Heco Bridge, 22 Nov 2023 (~$113M)"
   mint_path_live: "no (fixed 999.99T; quarterly burns to a dead address)"
   team_wallet_to_exchange_during_pump: "none seen on the one pump day (7 Jul 2026), but the reserve is itself labelled an HTX exchange hot wallet and feeds other HTX hot wallets, so sales cannot be seen on-chain"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "yes, 221.6T HTX (22% of max supply) in a 1-of-1 TRON account that Arkham labels an HTX exchange hot wallet (HTX Proof of Reserves)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

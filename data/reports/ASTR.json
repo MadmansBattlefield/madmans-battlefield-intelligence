@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes, by design (Tokenomics 3.0: ~3% yearly inflation today, ceiling 5.5%, decaying toward a ~10B maximum)",
     "team_wallet_to_exchange_during_pump": "not tested (Foundation wallets are not published; the Foundation says it does not sell ASTR to fund operations)",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "unknown for the Foundation; the 304.5M ASTR on-chain treasury is a governance-controlled pallet account"
   },
   "price_usd": 0.00443889,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ASTR.md",
-    "sha256": "c66c2a9af4cc0e4c525d1f479176113f20bbc905f97a67a8122c7f228ddd86b9",
-    "bytes": 14399,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "088fed92ff1ab4c0dc219d0cebdc96ed9f8490dadfb570c6455a6018e351bf7a",
+    "bytes": 14433,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -152,6 +153,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not tested (Foundation wallets are not published; the Foundation says it does not sell ASTR to fund operations)"
     ]

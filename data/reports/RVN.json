@@ -39,6 +39,7 @@
     "hack_exploit": "May-Jul 2020 asset-reissue bug let attackers mint 301.8M RVN (~1.5% of cap), sold to exchanges; fixed at block 1,304,352 on 4 Jul 2020; coins never burned",
     "mint_path_live": "no beyond the fixed PoW schedule: 1,250 RVN a block since 15 Jan 2026, 21B cap",
     "team_wallet_to_exchange_during_pump": "not applicable: fair launch 3 Jan 2018, no premine, ICO or team allocation",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "none (no team or treasury wallets)"
   },
   "price_usd": 0.001076,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/RVN.md",
-    "sha256": "26f7cbda133ff82d709dc2b63eec4021fca3bd2c920198425a539c5e3dfc24a6",
-    "bytes": 10614,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "ebbab7686a9e1198b51fb1a025b35529e7398d616596bdb7797c19e04eb44a90",
+    "bytes": 10648,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -125,6 +126,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not applicable: fair launch 3 Jan 2018, no premine, ICO or team allocation"
     ]

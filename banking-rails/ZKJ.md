@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "no protocol exploit found; Jun 2025 price crash (outside window) blamed by the team on a liquidity attack"
   mint_path_live: "no new minting; 670M of 1B unlocked, ~30.1M a month still unlocking"
   team_wallet_to_exchange_during_pump: "no: a wallet line receiving 2,083,333 ZKJ a month (matches the 100M/48-month core-contributor schedule) sent each tranche to OKX; other large holders sent to OKX, Bitvavo and Gate; none on an OKX pump day"
+  one_hop_sale_status: none_found
   entity_concentration: "unlocking allocations still 330M (33%)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

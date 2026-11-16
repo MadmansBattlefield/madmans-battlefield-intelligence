@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no open mint: new AMP only via the one-way Flexacoin (FXC) swap, which caps supply just under 100B",
     "team_wallet_to_exchange_during_pump": "not tested (Flexa treasury wallets are not published); the one large exchange send found (200M, 30 Apr 2026) was a Gemini cold-to-hot wallet move, not a sale",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "unknown (Flexa treasury wallets not published)"
   },
   "price_usd": 0.00053114,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/AMP.md",
-    "sha256": "55649329b3e329438a4e667e3bcc5d980e38fc8866afeeef6e97150096d8a486",
-    "bytes": 14878,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "ed3e5905390d995c88683bc7572f7a5c4c36387a61009aeba1ab7c10af1095e8",
+    "bytes": 14912,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -182,6 +183,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not tested (Flexa treasury wallets are not published); the one large exchange send found (200M, 30 Apr 2026) was a Gemini cold-to-hot wallet move, not a sale"
     ]

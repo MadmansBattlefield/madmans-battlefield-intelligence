@@ -23,6 +23,7 @@ red_lines:
   mint_path_live: "no (fixed 200M; no mint function in verified source)"
   pause_power: "no; owner 0x5737bf56559dd32d8880cfa236fe613e2162e157 (DIA Data: Deployer EOA) can only addAuditHash and transfer ownership"
   team_wallet_to_exchange_during_pump: "none found"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "no: 0x1b2fdbdb1b56a3e09649301a7ac5a9d770aa6ed0 (35.55M, 17.8%) is labelled Coinbase Prime Custody by Arkham; beneficial owner [Unverified]"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

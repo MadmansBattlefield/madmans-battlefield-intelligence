@@ -23,6 +23,7 @@ red_lines:
   owner_burn_any_holder: "yes: burnFrom(account) is onlyOwner; owner 0xb10b260fbf5f33cc5ff81761e090aecdffcb1fd5 (3-of-4 Safe)"
   mint_path_live: "capped at 238,888,888 (already full); mint only after burns"
   team_wallet_to_exchange_during_pump: "not proven [relay wallets carry only generic Arkham tags; exchange endpoint Unverified]: ecosystem-Safe LUMIA relayed via 3 EOAs, the AggLayer bridge and an L2 relay to a high-volume L2 wallet that pays a Binance-labelled address; pump-day legs on 23 Dec 2025, 29 Apr and 23 Jun 2026"
+  one_hop_sale_status: none_found
   migration: "ORN→LUMIA converter enabled but holds 0 LUMIA"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

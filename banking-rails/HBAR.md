@@ -19,6 +19,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none
   council_release_vs_mirror_mismatch: open
   staking_reward_account_runway_under_1y: watch

@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no new minting found; 10B total, ~2.3B circulating",
     "team_wallet_to_exchange_during_pump": "not proven: the mint line last deposited to OKX in Nov 2023 (status 1); none in the last year at 30M+ WXT; Wirex custodial wallets unknown",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "yes: ~77% of supply outside circulation (platform reserve, team, R&D allocations)"
   },
   "price_usd": 0.00028267,
@@ -106,9 +107,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/WIREX.md",
-    "sha256": "05f31576a5cfd59192a7973cfbb3210407fe829414376cc2661aec364b7997f6",
-    "bytes": 13970,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "cb68ba95bfa85006fc562c04247851171489059937074fa224d851c18c9e11bd",
+    "bytes": 14004,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -192,6 +193,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: the mint line last deposited to OKX in Nov 2023 (status 1); none in the last year at 30M+ WXT; Wirex custodial wallets unknown"
     ]

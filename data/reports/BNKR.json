@@ -34,6 +34,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "monthly_revenue_below_250k": "tripped",
     "buyback_safe_sells_bnkr": "none_found_partial_scan",
     "hack_exploit": "none_found"
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BNKR.md",
-    "sha256": "063328d7a64d23a828d302dc4fd475a60f0ab25d21f5f6ddf9beb09afda69611",
-    "bytes": 27387,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "11ee016dc8c30415f2f36fc9d5db0bdbe19547fec2c01579561d87fe131c79ae",
+    "bytes": 27421,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -253,6 +254,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": []
   },
   "revenue_accrual": {

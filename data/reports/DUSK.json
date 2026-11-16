@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes, protocol emission (~62.6M DUSK a year, ~10% of supply) to stakers and a 10% development fund",
     "team_wallet_to_exchange_during_pump": "not testable on the native chain; largest ERC20 EOAs are Binance / Bitvavo withdrawals, not team",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "unknown (development-fund wallet not published)"
   },
   "price_usd": 0.062035,
@@ -62,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/DUSK.md",
-    "sha256": "3238cb97f024014de6601583c668cd8b2323fe6b3b2ccb9f09351b77a257dc1e",
-    "bytes": 13411,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "f8c561ce3761142e6962ab0939c05c36903ea7da51649f6e9d3ad9e1b01009a4",
+    "bytes": 13445,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -174,6 +175,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not testable on the native chain; largest ERC20 EOAs are Binance / Bitvavo withdrawals, not team"
     ]

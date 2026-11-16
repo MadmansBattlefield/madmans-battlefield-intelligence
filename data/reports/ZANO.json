@@ -39,6 +39,7 @@
     "hack_exploit": "yes: Gateway Addresses inflation exploit (late Aug to 25 Sep 2026) minted illicit ZANO and fUSD; chain rolled back ~1 month to block 3,833,000 on 27 Sep 2026",
     "mint_path_live": "PoW/PoS issuance of 1 ZANO per block; the minting exploit is closed and Gateway Addresses are disabled pending audit",
     "team_wallet_to_exchange_during_pump": "not proven: privacy chain, so the 3.69M team premine cannot be traced",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "unknown (shielded balances)"
   },
   "price_usd": 3.87,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZANO.md",
-    "sha256": "1eff431706deb03312741feba9672dfff0d601c733aeff22d01b14330d7d58cb",
-    "bytes": 11437,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "cfabc0dd9cd8d8dc64a42baa82cd6c0a8e441a202244f528c58744bc9ada2c25",
+    "bytes": 11471,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -111,6 +112,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: privacy chain, so the 3.69M team premine cannot be traced"
     ]

@@ -21,6 +21,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none_on_mantle_contracts
   treasury_sells_on_pump_days: none_found_onchain
   treasury_offchain_positions_unlisted: open

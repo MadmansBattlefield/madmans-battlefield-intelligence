@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "not proven: 10B minted once at genesis; no further mints seen"
   team_wallet_to_exchange_during_pump: "not proven: no project-tree transfer to a labelled exchange found within 3 hops; trading is 99% on the project's own venue"
+  one_hop_sale_status: none_found
   entity_concentration: "about 98% of supply sits in 6 project Treasury contracts and 4 wallets they funded"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

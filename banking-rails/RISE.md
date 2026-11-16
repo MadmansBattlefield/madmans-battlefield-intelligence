@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found; the issuer's filing reports no token exploits"
   mint_path_live: "no; 5B fixed supply"
   team_wallet_to_exchange_during_pump: "not proven: the disclosed Operations2 wallet sent 2.6M RIZE to a MEXC deposit, but not on a pump day; 75M moved to unlabelled wallets that weren't traced"
+  one_hop_sale_status: none_found
   entity_concentration: "deployer-created vesting contracts hold ~2.38B (48%); two unlabelled project-funded wallets hold 700M more"
 price_usd: 0.00304956
 price_source: "CoinGecko `rize`, 16 Nov 2026 ~1:30 PM MST"

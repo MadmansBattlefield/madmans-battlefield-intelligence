@@ -23,6 +23,7 @@ red_lines:
   mint_path_live: "yes: uncapped mint(); MINTER_ROLE held by the CCIP pool 0xc8adf2f51a35b0a9d8f74675b64c954ca2dcbc14, and a 3-of-5 Safe 0xf9900ce9f2072f906f30baf7f280930483ec5949 can grant it to anyone"
   pause_power: "ban + seize: the same Safe can ban any address (BANLIST_ROLE) and burn its balance (burnBanned)"
   team_wallet_to_exchange_during_pump: "yes [Unverified insider]: 3.30M EDEN from a MerkleVester allocation reached Binance deposit 0x71b83613743e42c800fc7b7648c53f16847c7cdd on pump day 19 May 2026"
+  one_hop_sale_status: not_proven
   treasury_in_single_key_wallets: "none found; vesting and admin wallets are Safes"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

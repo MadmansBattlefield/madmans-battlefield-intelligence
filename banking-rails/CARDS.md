@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none
   mint_path_live: "no (mintAuthority and freezeAuthority are null, read 16 Nov 2026)"
   team_wallet_to_exchange_during_pump: "not proven (no treasury CARDS reached a labelled exchange on a pump day in the wallets traced)"
+  one_hop_sale_status: none_found
   treasury_to_exchange: "yes, not a pump day (treasury multisig -> fresh relay 4JTA… -> Coinbase deposit -> Coinbase hot wallet, 7,000,000 CARDS, 6 Nov 2026; no disclosure found)"
   treasury_to_market_maker: "yes, undisclosed: 60M CARDS from treasury-funded cards.sol (redFW…) went 8Qvd… -> 2asR… -> Fireblocks custody 6rQG…, which sends 0.4–2M lots to GSR Markets custody (Arkham, Tier B); pump-day timing not tested"
   treasury_pump_day_outflows: "14 Jun 2026 (9.5M via a multisig signer to a reward-claim vault) and 5 Oct 2026 (1.25M to unlabelled DFEstp…, onward owner [Unverified])"

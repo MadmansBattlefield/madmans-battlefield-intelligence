@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "proven",
     "funded_wallet_to_exchange_on_pump_day": "tripped",
     "revenue_burn_not_active": "open",
     "hack_exploit": "none_found"
@@ -65,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CELO.md",
-    "sha256": "e5cd74ba1390b37f1df989755b1726336f120d561cb030060d77e96565a0785f",
-    "bytes": 38670,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "0d9063be86d7838050c06a2979260eecdace1d3464aba328eb474ad11e5be0dc",
+    "bytes": 38700,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -293,6 +294,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "buried_disclosure",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "funded_wallet_to_exchange_on_pump_day: tripped"
     ]

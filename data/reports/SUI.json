@@ -37,6 +37,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "proven",
     "hack_exploit": "no chain exploit; three mainnet halts on 28-29 May 2026 (upgrade bugs, postmortem published); Cetus app hack $223M in May 2025 (validators froze ~$160M)",
     "treasury_to_exchange_during_pump": "no direct foundation-to-exchange send found",
     "treasury_funded_wallet_to_exchange_during_pump": "yes (foundation 0x341f… funded 0x7f3b… with 310.6M SUI in 2023; via 0xbe90…/0x7f66… it fed Binance deposit 0x457f…, which put 166.0M SUI into Binance 1 in the last 12 months, 67.6M (≈ $72M) on pump days, e.g. 12.39M on 21 Aug 2026 +25.8%; foundation said in 2023 these were partner tokens under lock-up)",
@@ -65,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SUI.md",
-    "sha256": "de078204d0a4236e4190c0f2d3654679fc6b4ebd529b61b791166c2dd1d248dc",
-    "bytes": 24623,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "237cae9cdba4ca3b47d10edfd0149439f95aa6e72350fc50f94f9574ad6a48e8",
+    "bytes": 24653,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -277,6 +278,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "buried_disclosure",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: no direct foundation-to-exchange send found",
       "treasury_funded_wallet_to_exchange_during_pump: yes (foundation 0x341f… funded 0x7f3b… with 310.6M SUI in 2023; via 0xbe90…/0x7f66… it fed Binance deposit 0x457f…, which put 166.0M SUI into Binance 1 in the last 12 months, 67.6M (≈ $72M) on pump days, e.g. 12.39M on 21 Aug 2026 +25.8%; foundation said in 2023 these were partner tokens under lock-up)"

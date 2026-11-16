@@ -19,6 +19,7 @@ section_scores:
   catalysts: 4
 gates_failed: []
 red_lines:
+  one_hop_sale_status: none_found
   hidden_mint: none_found
   foundation_outflow_on_pump_day: none_found_in_window
   foundation_to_exchange_undisclosed: "1M ZRO, 28 Apr 2026, LayerZero 1 → Binance deposit (not a pump day)"

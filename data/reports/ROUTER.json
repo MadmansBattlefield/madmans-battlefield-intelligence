@@ -37,6 +37,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "proven",
     "liquidity_below_75k": "tripped",
     "founder_exit": "not_confirmed",
     "paying_customer_by_q1_2027": "open_none_found",
@@ -66,9 +67,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ROUTER.md",
-    "sha256": "a2c3d77549686ec123d003e7a65c2ee8b741d07c34d2c7716449a1875ef54d37",
-    "bytes": 49650,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "c127b847128e0b3e6e28fde0519a95567b76348dc5671fd52f64aa0c3356cdf2",
+    "bytes": 49680,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -488,6 +489,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "silence",
     "pump_day_undisclosed_penalty_applied": true,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": []
   },
   "revenue_accrual": {

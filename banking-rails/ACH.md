@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes, MinterRole with no cap; minter 0x483a0ad7be1381ca431216ca827ad38a96f0496f (3-of-6 Safe)"
   team_wallet_to_exchange_during_pump: "yes: vesting releases forwarded via a Cobo custody hot wallet to a Binance deposit on 3 pump days (23 Aug, 6 Sep, 21 Sep 2026); no disclosure found; undisclosed pump-day penalty applied (Selling 2 -> 0)"
+  one_hop_sale_status: not_proven
   treasury_in_single_key_wallets: "yes: all 5 new vesting contracts are owned and revocable by EOA 0x907acf93336f034df8198c39c6707507b516bc92"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
@@ -166,7 +167,7 @@ layout_version: 3
 - The relay hops are surrounded by zero-value lookalike ("address-poisoning") transfers, which this trace ignores.
 - Who controls the Cobo wallet is [Unverified]; the funds trace directly from Alchemy's own vesting contracts. Arkham labels [0xb800…1ec1](https://intel.arkm.com/explorer/address/0xb8001c3ec9aa1985f6c747e25c28324e4a361ec1) **Cobo.com: Custody Hot Wallet**, a custodian wallet that also serves other clients, and names no beneficial client. It confirms both receiving addresses as **Binance Deposit** ([0x526c…fbf3](https://intel.arkm.com/explorer/address/0x526c7a714d27f523689022f237542664161bfbf3), Cobo inflows in 5M lots swept to Binance hot wallets; [0x872c…cc2c](https://intel.arkm.com/explorer/address/0x872c4832ea55687f7a3c8fe16baf0086a9bacc2c), Cobo inflows of 6.667M, 7.778M and 3 × 4.444M). The vesting pages show recurring releases ([0xeae8…6990](https://intel.arkm.com/explorer/address/0xeae81df204b5beb70f6032ab173faff24c6d6990) holds 1.762B ACH, paying [0x7469…e738](https://intel.arkm.com/explorer/address/0x7469d9a6a86692d9e576cad04233165da338e738); [0x7d56…03d2](https://intel.arkm.com/explorer/address/0x7d56078fa361b85ee7be627b3b3724e3e99203d2) holds 1.507B, paying [0xb158…c834](https://intel.arkm.com/explorer/address/0xb158c911c81f27f06a9cfc2ce689a75a9d32c834)) with no exchange counterparty of their own. Arkham does not contradict the trace [Tier B] Arkham, read 16 Nov 2026 (signed-in account).
 
-**What it means:** newly minted supply is delivered to Binance on pump days. Ordinary score **2**; with the undisclosed pump-day penalty below, **0 (hard gate)**.
+**What it means:** newly minted supply is delivered to Binance on pump days. Published vesting releases and custody are a plausible reason, and no sale is shown, so under the 16 Nov 2026 one-hop amendment Selling is **4 (not proven)**, with no penalty and no hard gate.
 
 - **One-hop amendment (16 Nov 2026):** Alchemy Pay publishes its supply framework and vesting releases ([tokenomics.com unlocks](https://app.tokenomics.com/tokenomics/alchemy-pay/unlocks), [governance vote page](https://vote.alchemypay.org/)), and the flow runs vesting contract → beneficiary → a Cobo-custody wallet. That is a plausible published reason (vesting payouts and custody). Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 

@@ -39,6 +39,7 @@
     "hack_exploit": "no exploit in the review window; history of 51%-attack reorganizations (Jan 2019, three in Aug 2020); hashrate still rentable",
     "mint_path_live": "no: fixed emission schedule (ECIP-1017, 20% cut every 5M blocks), ~210.7M cap",
     "team_wallet_to_exchange_during_pump": "not applicable: no live team or treasury allocation; the 2015 Ethereum genesis presale balances are legacy, not traced here",
+    "one_hop_sale_status": "none_found",
     "treasury_selling": "not applicable today; the proposed Olympia upgrade (targeted 2027) would route base fees to a treasury contract"
   },
   "price_usd": 5.94,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ETC.md",
-    "sha256": "e8414fc1486c1168574a50333a022e44fb814165eb77c108ece4d45e9717669d",
-    "bytes": 12364,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "ec1dad2a2fff566d851217e773c097b0741d1ebcb7afb772e2dfd28820e3616c",
+    "bytes": 12398,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -126,6 +127,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not applicable: no live team or treasury allocation; the 2015 Ethereum genesis presale balances are legacy, not traced here"
     ]

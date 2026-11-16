@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "yes, by design (Tokenomics 3.0: ~3% yearly inflation today, ceiling 5.5%, decaying toward a ~10B maximum)"
   team_wallet_to_exchange_during_pump: "not tested (Foundation wallets are not published; the Foundation says it does not sell ASTR to fund operations)"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "unknown for the Foundation; the 304.5M ASTR on-chain treasury is a governance-controlled pallet account"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

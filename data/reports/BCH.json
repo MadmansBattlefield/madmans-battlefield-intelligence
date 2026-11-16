@@ -39,6 +39,7 @@
     "hack_exploit": "none in the review window; structural 51%-attack risk (hashrate ~0.3% of Bitcoin's)",
     "mint_path_live": "no: fixed 21M cap; block subsidy halves every 210,000 blocks",
     "team_wallet_to_exchange_during_pump": "not applicable: no team, foundation, premine or treasury wallets exist",
+    "one_hop_sale_status": "none_found",
     "treasury_selling": "not applicable: no treasury"
   },
   "price_usd": 205.79,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BCH.md",
-    "sha256": "ed7072e36e8fdc48fc98bf679678f238d8fb2815ea5eb63d93da369f52bfedea",
-    "bytes": 11940,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "56331469776666f3b4334eed9c6b0946370dd6247ce9b96f1da2bb2f4596d7e4",
+    "bytes": 11974,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -140,6 +141,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not applicable: no team, foundation, premine or treasury wallets exist"
     ]

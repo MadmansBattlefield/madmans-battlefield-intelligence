@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "upgradeable_mintable_token": "yes (contradicts MiCA paper)",
     "exchange_inflows_on_pump_days": "explained (bridge → Binance on 23 Sep and 13 Oct 2026 was Binance moving its own inventory from Plume chain; traced 15 Nov)",
     "issuer_wallets_published": "no"
@@ -62,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/PLUME.md",
-    "sha256": "3a3294a0c579d121e0fc984742a866b4691069dcf454ace82123a4e8b88dfa25",
-    "bytes": 29868,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "c7c377c60036a992aed742cc3b3cb3d827110a1e279a41cf1ce37707b8839f2f",
+    "bytes": 29902,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -403,6 +404,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "exchange_inflows_on_pump_days: explained (bridge → Binance on 23 Sep and 13 Oct 2026 was Binance moving its own inventory from Plume chain; traced 15 Nov)"
     ]

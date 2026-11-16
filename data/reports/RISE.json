@@ -39,6 +39,7 @@
     "hack_exploit": "none found; the issuer's filing reports no token exploits",
     "mint_path_live": "no; 5B fixed supply",
     "team_wallet_to_exchange_during_pump": "not proven: the disclosed Operations2 wallet sent 2.6M RIZE to a MEXC deposit, but not on a pump day; 75M moved to unlabelled wallets that weren't traced",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "deployer-created vesting contracts hold ~2.38B (48%); two unlabelled project-funded wallets hold 700M more"
   },
   "price_usd": 0.00304956,
@@ -98,9 +99,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/RISE.md",
-    "sha256": "ce8319c40cda33f302659c37dee89d2d69c9d7ec292832fb3a46e6296e9a05d3",
-    "bytes": 13667,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "c856238aa8d499673096109933eccc70fbb9c150e22a5b38b4ffa7d742d829b4",
+    "bytes": 13701,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -214,6 +215,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: the disclosed Operations2 wallet sent 2.6M RIZE to a MEXC deposit, but not on a pump day; 75M moved to unlabelled wallets that weren't traced"
     ]

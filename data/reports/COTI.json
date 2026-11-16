@@ -39,6 +39,7 @@
     "hack_exploit": "Mar 2023 bridge mis-mint on the ERC20 (huge test mints, burned the same day; COTI says no funds left the bridge)",
     "mint_path_live": "yes (ERC20 owner can mint without limit; mintingFinished = false; native V2 chain still inflates)",
     "team_wallet_to_exchange_during_pump": "yes (wallets funded within hours by the Sep 2026 consolidation sent 68.0M COTI to Gate and KuCoin deposits on pump days 18-20 Sep 2026, 157.4M in total by 10 Oct)",
+    "one_hop_sale_status": "not_proven",
     "treasury_in_single_key_wallets": "yes (the two largest consolidation wallets, 1.29B and 877.6M COTI, are plain EOAs); the ERC20 owner key moved from an EOA to a 3-of-4 Safe on 6 Nov 2026"
   },
   "price_usd": 0.00845036,
@@ -71,9 +72,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/COTI.md",
-    "sha256": "166f1dbfa9cf6b747ce2248e3f4e13f4e69634df1a01de0e8087da4711795c35",
-    "bytes": 25100,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "df06db04124b3b89275de6550945c3e5bcdf80700d500e1fe0a94f77333f7dbc",
+    "bytes": 25323,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -362,6 +363,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes (wallets funded within hours by the Sep 2026 consolidation sent 68.0M COTI to Gate and KuCoin deposits on pump days 18-20 Sep 2026, 157.4M in total by 10 Oct)"
     ]

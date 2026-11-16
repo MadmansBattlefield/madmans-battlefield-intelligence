@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "user-wallet compromise via a Web3auth/Keplr vulnerability; governance froze 18 affected accounts on 11 Nov 2026 (prop 118)"
   mint_path_live: "governance-controlled: nhash is a marker; supply changes need a passed proposal (prop 106 burned 5B in May 2026)"
   team_wallet_to_exchange_during_pump: "not proven: the largest group-controlled accounts made no sends on pump days found; most trading is on Figure Markets, which is not traceable on-chain from outside"
+  one_hop_sale_status: none_found
   account_freeze_power: "yes: the sanction module lets governance freeze any account (used in prop 118)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

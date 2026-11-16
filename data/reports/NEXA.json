@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "proof-of-work issuance only; 11.21T of 21T mined, halving every four years",
     "team_wallet_to_exchange_during_pump": "not proven: no premine or team allocation is disclosed, and the UTXO chain has no exchange labels apart from MEXC",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "MEXC holds 14.0% of supply; the next unlabelled address holds 7.0%; top 100 hold 58%"
   },
   "price_usd": 4.77502e-07,
@@ -62,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/NEXA.md",
-    "sha256": "721a10268316bf30b4c844f8f9ca9f307ae32bca002c3f1437c341cc72bdb965",
-    "bytes": 9116,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "8d98191f55d0501f2c1d10f8a5bd8c3a74585ee575d802c92ebff92d7182998b",
+    "bytes": 9150,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -97,6 +98,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: no premine or team allocation is disclosed, and the UTXO chain has no exchange labels apart from MEXC"
     ]

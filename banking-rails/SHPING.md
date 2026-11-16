@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no; fixed 10B supply minted at creation in 2018"
   team_wallet_to_exchange_during_pump: "yes: a deployer-funded company wallet deposited 152M SHPING (~$149k) to Gate and MEXC on 8 pump days since Nov 2025; the cash-out mechanism is only a buried mention, with no sale reporting"
+  one_hop_sale_status: not_proven
   entity_concentration: "the labelled deployer still holds 5.94B (59.4%)"
 price_usd: 0.00041027
 price_source: "CoinGecko, 16 Nov 2026 ~12:30 PM MST"
@@ -146,7 +147,7 @@ layout_version: 3
 
 - **Attribution confidence:** sender high (deployer-funded, with on-chain proof); Gate and MEXC deposit labels medium (Etherscan tag or forwarding pattern only). A deposit isn't a recorded sale, but repeated deposits to one Gate account over four years point to a seller.
 - **Alternative:** the company may be converting coins to pay members who cash out to Australian dollars. That is still company selling into the market.
-- **Disclosure quality:** buried. A Sep 2024 [company post](https://shping.com/australias-first-rewards-program-to-offer-cryptocurrency-cash-outs/) says members can convert coins to AUD, which implies company conversions, but no sale schedule, amounts or wallet are published. Because it is buried rather than silent, the extra −2 penalty doesn't apply. Repeated pump-day deposits from a company wallet score **2 → hard-gate FAIL.**
+- **Disclosure quality:** buried. A Sep 2024 [company post](https://shping.com/australias-first-rewards-program-to-offer-cryptocurrency-cash-outs/) says members can convert coins to AUD, which implies company conversions, but no sale schedule, amounts or wallet are published. Under the 16 Nov 2026 one-hop amendment this published cash-out program is a plausible reason for the deposits, and no team-attributed exchange account or sale evidence exists, so Selling is **4 (not proven)**, with no penalty and no hard gate.
 
 - **One-hop amendment (16 Nov 2026):** Shping published a plausible reason: its [company post](https://shping.com/australias-first-rewards-program-to-offer-cryptocurrency-cash-outs/) says rewards members can convert coins to AUD, so operating-wallet deposits to exchanges fit funding those cash-outs. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 

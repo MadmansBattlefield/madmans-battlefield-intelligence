@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no further mint seen: 1B minted once at deploy (block 95,356,998)",
     "team_wallet_to_exchange_during_pump": "none found: 0 transfers from 9 traced allocation/reserve wallets on the 30 pump days",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "yes: unreleased move-to-earn (115M) and ecosystem (14.6M) GRND sit in EOAs 0x2890e9710fbf673ee930f7515c3d659ca9fb5751 and 0xd692bee951304510a51bd8a67a2eef49b047bd45"
   },
   "price_usd": 0.00652,
@@ -70,9 +71,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/GRND.md",
-    "sha256": "8bf5cf2208a981fb1c5b0c86e69f79b4196a970c2c4251b3ab9574251d7bd0f4",
-    "bytes": 14055,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "6dc27648e58c0b422f7959f0c23f6b70ff6ec91a8567848214394e22acaa1fd5",
+    "bytes": 14089,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -126,6 +127,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found: 0 transfers from 9 traced allocation/reserve wallets on the 30 pump days"
     ]

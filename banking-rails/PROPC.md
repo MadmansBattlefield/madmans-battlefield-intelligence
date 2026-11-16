@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "no (fixed 100M minted in the constructor; 36.24M burned; admin can only burn its own balance)"
   team_wallet_to_exchange_during_pump: "yes, small (the EOA paid by the Liquidity Vesting contract deposited 178.6k PROPC into Arkham-labelled MEXC deposit addresses on 4 pump days since Dec 2024, including 144.5k on two Sep 2026 pump days)"
+  one_hop_sale_status: not_proven
   treasury_in_single_key_wallets: "yes (~10.6M PROPC, 16.6% of supply, sits in four EOAs that the Treasury, Team, Operations and Liquidity vesting contracts paid out to)"
   vesting_mutable: "yes (the deployer has pulled tokens back out of the Team, Treasury and Operations vesting contracts, and the docs record buckets being moved and team vesting being extended)"
 methodology_effective: 2026-11-16

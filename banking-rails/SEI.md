@@ -19,6 +19,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none
   foundation_wallets_unpublished: tripped
   fees_under_100k_per_year: tripped

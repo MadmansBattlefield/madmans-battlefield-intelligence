@@ -40,6 +40,7 @@
     "hack_exploit": "yes: 13 Apr 2025 a compromised 1-of-1 admin key minted 111.9M unclaimed airdrop ZK (~$5M); 90% returned 23 Apr 2025",
     "mint_path_live": "yes: 15.50B of the 21B cap minted; the docs say supply can be raised by a protocol governance upgrade; capped minters keep minting",
     "team_wallet_to_exchange_during_pump": "yes: a Foundation-linked wallet sent 44.7M ZK to a Binance deposit on a +18.3% day (25 Apr 2025); a wallet funded weekly by Foundation Treasury 2 sent 252.2M ZK (~$14.7M) to a Binance deposit, 53.8M of it on pump days incl. 4-6 Nov 2025 (+117% to +161%)",
+    "one_hop_sale_status": "proven",
     "treasury_selling": "Foundation has minted its whole 4.18B ecosystem allocation; no wallet-level treasury report published"
   },
   "price_usd": 0.00788,
@@ -65,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZK.md",
-    "sha256": "050c16a804fabf53ca3418363bc7154cc6281f1744f5e40db3b1006512aec61b",
-    "bytes": 23022,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "d70b5ca2a3ace1a51917a2a7a515c188d75e7dd6bef15f16cedd3fcc76eb0a30",
+    "bytes": 23052,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -247,6 +248,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "silence",
     "pump_day_undisclosed_penalty_applied": true,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: a Foundation-linked wallet sent 44.7M ZK to a Binance deposit on a +18.3% day (25 Apr 2025); a wallet funded weekly by Foundation Treasury 2 sent 252.2M ZK (~$14.7M) to a Binance deposit, 53.8M of it on pump days incl. 4-6 Nov 2025 (+117% to +161%)"
     ]

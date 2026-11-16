@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found in the review window"
   mint_path_live: "yes: token contract max supply 1B vs 467.6M issued; issuance is controlled by the eosio system account"
   team_wallet_to_exchange_during_pump: "yes: the Foundation-funded expenses account telosliquidi sent 500k TLOS to Bitget (13 Jan 2026, +14.4%) and 200k to Bitrue (7 May 2026, +70.7%)"
+  one_hop_sale_status: not_proven
   treasury_in_single_key_wallet: "the Foundation account tf can be moved by any one of three controlling accounts (threshold 1)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

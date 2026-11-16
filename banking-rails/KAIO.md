@@ -19,6 +19,7 @@ section_scores:
   catalysts: 3
 gates_failed: [revenue, selling_behavior]
 red_lines:
+  one_hop_sale_status: proven
   hack_exploit: none found
   treasury_to_exchange_during_pump: "yes, via the project's TGE liquidity wallet: 0xf9fe… funded fresh wallet 0x7875… with 13M KAIO on 1 Oct 2026, which sent 10M to Gate, Coinbase and Bitget deposits on the 1, 2 and 8 Oct 2026 pump days (+43%, +51%, +28%)"
   treasury_funded_wallet_to_exchange_during_pump: "yes (same flow)"

@@ -39,6 +39,7 @@
     "hack_exploit": "18-block reorganization on 14 Sep 2025 during the Qubic mining campaign; only 1-block reorgs since Aug 2026",
     "mint_path_live": "no: fixed tail emission of 0.6 XMR a block (about 0.8% a year), set in the protocol",
     "team_wallet_to_exchange_during_pump": "not applicable: no premine, no team or treasury allocation (fair launch, 2014)",
+    "one_hop_sale_status": "none_found",
     "regulatory_delisting": "yes: delisted from Binance (2024); EU AMLR bars EU crypto-asset service providers from handling anonymity-enhancing coins from 10 Jul 2027"
   },
   "price_usd": 498.04,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/XMR.md",
-    "sha256": "34ad86bd107fdf074ef282adf7afd4b880be0ac40f112163b3d94d678b3fb14e",
-    "bytes": 12564,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "567e23426e00efb748a9e5298f5cb12489e4209a2e8da88a1b3ba406f9cd6c80",
+    "bytes": 12598,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -146,6 +147,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not applicable: no premine, no team or treasury allocation (fair launch, 2014)"
     ]

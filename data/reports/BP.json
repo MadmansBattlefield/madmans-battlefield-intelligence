@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "mint_authority_used": "not_used",
     "treasury_outflow_without_milestone_notice": "none_since_tge",
     "holder_freeze": "none_found"
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BP.md",
-    "sha256": "d42b4d82e91ca12087606b60c784cebdbe50961ac2e666a3fd454c154ba0dd2b",
-    "bytes": 26840,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "f49885b449aa6c8741b7df3e20cf770515e8343773c21057e2a2fb6feb30dced",
+    "bytes": 26874,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -288,6 +289,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": []
   },
   "revenue_accrual": {

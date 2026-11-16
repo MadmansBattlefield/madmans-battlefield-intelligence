@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes: emissions minted supply from 1.0B to 1.081B; end planned Q4 2026",
     "team_wallet_to_exchange_during_pump": "not proven: an unlabelled distributor-like wallet funded by an Anchorage Digital custody address deposited 840,000 ZKC to Binance on 30 Aug 2026 (+53.3%); the custody client is not named",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "four genesis-line wallets hold 424M (39%), two of them Anchorage Digital custody addresses for an unnamed client; no vesting contracts"
   },
   "price_usd": 0.02354,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZKC.md",
-    "sha256": "9ed58267a797db5bef804cdb95c0a030de5dae80591dce1b7b8db349c6f6feea",
-    "bytes": 14976,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "80fa40f8fe6d253384d3c3d46231fff6759dd10aa78757a5297779f033bf74d8",
+    "bytes": 15010,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -168,6 +169,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: an unlabelled distributor-like wallet funded by an Anchorage Digital custody address deposited 840,000 ZKC to Binance on 30 Aug 2026 (+53.3%); the custody client is not named"
     ]

@@ -19,6 +19,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: "none found (liveness incidents only: subnet x4jtx stall 29 Oct 2026; ckBTC minter attack, no funds lost)"
   treasury_to_exchange_during_pump: "not proven (2021 genesis 'Treasury' 125013e9… deposited ~6.6M ICP into Coinbase deposit accounts on listing day 10 May 2021 and 15 Jun 2021; neither day is pump-testable / a pump day)"
   undisclosed_treasury_to_exchange_flow: "yes, 2021 (Arkham: 8.3M ICP Treasury -> exchanges; on-chain match verified; DFINITY publishes no wallet list)"

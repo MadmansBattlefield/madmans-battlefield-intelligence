@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none_on_mantle_contracts",
     "treasury_sells_on_pump_days": "none_found_onchain",
     "treasury_offchain_positions_unlisted": "open",
@@ -67,9 +68,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/MNT.md",
-    "sha256": "25c0b2704d8e0a1ac1fcc2195497182176255dff63afec1b4614e433884f3f99",
-    "bytes": 34412,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "a8f5f72463fddfea448a378ed7ff265ec255bf984988467dc770f058794640b8",
+    "bytes": 34446,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -330,6 +331,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "treasury_sells_on_pump_days: none_found_onchain"
     ]

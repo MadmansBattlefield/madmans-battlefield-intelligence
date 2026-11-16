@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "no (fixed 990T supply; quarterly revenue buyback-and-burn since Q3 2026)"
   team_wallet_to_exchange_during_pump: "none on the 10 pump days in the last 365 days; but the team wallet sent 212B BTT straight to a Poloniex deposit on 19 Aug 2026 (two days before a pump) and 943.9B to an HTX hot wallet on the 29 Feb 2024 pump day"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "yes, two unnamed 1-of-1 wallets hold 374.6T BTT (37.8%); team wallet 52.46T, also 1-of-1"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes: only 700M of the 10B cap is minted on BNB Chain; the other 9.3B is issued on the project's revised schedule",
     "team_wallet_to_exchange_during_pump": "not proven: BNB Chain transfers could not be read (BscScan API is paid; its pages sit behind a bot check)",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "project says vested tokens sit in central treasury wallets; about 95% of the 10B cap is not circulating"
   },
   "price_usd": 0.02017,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/STBL.md",
-    "sha256": "a3dc66d610de9a31f1553535484a74b76746b9115ae7c0799233b31586db1d35",
-    "bytes": 13299,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "e4be9ee443ddfde1dc4e431aedb05c3446ccb19aca7a62250aaa658714b047ba",
+    "bytes": 13333,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -173,6 +174,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: BNB Chain transfers could not be read (BscScan API is paid; its pages sit behind a bot check)"
     ]

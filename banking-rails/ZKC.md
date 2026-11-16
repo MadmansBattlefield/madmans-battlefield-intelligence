@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes: emissions minted supply from 1.0B to 1.081B; end planned Q4 2026"
   team_wallet_to_exchange_during_pump: "not proven: an unlabelled distributor-like wallet funded by an Anchorage Digital custody address deposited 840,000 ZKC to Binance on 30 Aug 2026 (+53.3%); the custody client is not named"
+  one_hop_sale_status: none_found
   entity_concentration: "four genesis-line wallets hold 424M (39%), two of them Anchorage Digital custody addresses for an unnamed client; no vesting contracts"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

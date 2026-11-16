@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes: ioTube bridge exploit on 21 Feb 2026 (compromised validator-owner key; ~$4.4M of reserves drained, 410M CIOTX minted)"
   mint_path_live: "yes, by design (staking rewards mint IOTX; IIP-62 proposes a new 'productive inflation' curve)"
   team_wallet_to_exchange_during_pump: "yes, old: a founder-linked legacy ERC20 wallet sent 10M IOTX to a Coinbase deposit on 18 Jan 2022 (+15.4% over 5 days); no ERC20 sends since 2022; native chain not tested"
+  one_hop_sale_status: not_proven
   treasury_in_single_key_wallets: "not found (Foundation treasury wallets are not published); the 2026 bridge hack came from a single compromised owner key"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

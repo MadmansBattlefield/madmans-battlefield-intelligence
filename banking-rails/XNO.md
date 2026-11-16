@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none at protocol level found in the last year"
   mint_path_live: "no: fixed 133,248,297 XNO, fully distributed"
   team_wallet_to_exchange_during_pump: "no in the last year: the 2019 developer-fund accounts are empty; their last moves (Oct-Nov 2023) went to a high-traffic account that looks like an exchange hot wallet [Unverified]"
+  one_hop_sale_status: none_found
   entity_concentration: "none known: developer-fund accounts hold ~10 XNO"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

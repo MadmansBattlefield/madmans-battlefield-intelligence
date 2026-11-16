@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: fixed 10B, 58.5M burned"
   team_wallet_to_exchange_during_pump: "no: foundation-Safe wallets sent ~325M RLS to GSR Markets, Gate, MEXC and Coinbase Prime in 2026 and ~105M at TGE, none on a pump day (MEXC closes); selling is disclosed policy"
+  one_hop_sale_status: none_found
   entity_concentration: "yes: ~79% of supply is foundation, investor, team or Parfin allocation"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

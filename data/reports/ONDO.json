@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "not_proven",
     "hack_exploit": "none",
     "mint_role_used": "not_used_still_possible",
     "control_dispute_at_company": "active_litigation",
@@ -71,9 +72,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ONDO.md",
-    "sha256": "563d6e1e34e06fe3fa6b5c2647ae4bd1f4776cdefe4d24ad6385e04c6c9d5026",
-    "bytes": 32547,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "06375ec43dedba5bfb3704394006255f9bf50a9d5047777c2a5e96f5d340d20b",
+    "bytes": 32702,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -437,6 +438,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "admin_safe_funds_to_exchange: yes (100.5M ONDO via Safe 0xEA57 into 5 Coinbase deposit addresses, 27 Aug – 13 Oct 2026; 18.2M on the 21 Sep pump day; undisclosed)"
     ]

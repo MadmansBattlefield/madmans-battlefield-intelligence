@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "yes, uncapped: max supply in the Aptos asset is 2^128; Foundation 2-of-3 multisig is the token admin; 25B minted 23 Dec 2025 after a 6-voter Snapshot"
   team_wallet_to_exchange_during_pump: "yes: Foundation multisig released 3.44B PACT on 1 Oct 2026 (MST); 1.32B of it reached Gate deposit addresses within ~10 hours, on the 2 Oct 2026 (UTC) pump day (+11.1%)"
+  one_hop_sale_status: proven
   undisclosed_reserve_releases: "yes: 3.44B (1 Oct 2026) and 6.25B (4–12 Nov 2026) out of the Foundation multisig; no announcement or vote found"
   freeze_blocklist: "enabled (admin can freeze wallets and blocklist addresses)"
 methodology_effective: 2026-11-16

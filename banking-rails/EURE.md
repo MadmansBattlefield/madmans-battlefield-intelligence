@@ -23,6 +23,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes, issuer mint against euro deposits; Ethereum max mint allowance 21,000,000; owner 0x5591a6495d726c7efafb9a9dad32695d137b4d9f (3-of-6 Safe)"
   team_wallet_to_exchange_during_pump: "not applicable (EUR peg, no CEX market)"
+  one_hop_sale_status: none_found
   reserve_attestation: "none published"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

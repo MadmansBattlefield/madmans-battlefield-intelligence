@@ -19,6 +19,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: proven
   hack_exploit: none
   foundation_sells_on_pump_days: tripped_disclosed_program
   structured_selling_status: paused_onchain_since_2026-08-24_not_announced

@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes: the SPL mint authority is a plain System-owned wallet (single key), and supply grew ~6.8M HONEY from 16 Oct to 16 Nov 2026; the 10B cap is policy (MIPs), not code",
     "team_wallet_to_exchange_during_pump": "not tested (holder list not retrievable from free Solana RPCs)",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "yes for the mint authority (single key); the freeze authority is an SPL multisig"
   },
   "price_usd": 0.00129722,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/HONEY.md",
-    "sha256": "9b5bb2d2fdae58f86c9a47afcf07ed20f75c662ed1ced6c48aaef2baae71d444",
-    "bytes": 13609,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "89e35a3e56b9f3ac179414d4767a05ea820f3248d5fa071b1c6efe19c3eee2f1",
+    "bytes": 13643,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -146,6 +147,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not tested (holder list not retrievable from free Solana RPCs)"
     ]

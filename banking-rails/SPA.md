@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "USDs rebase bug exploited 3–4 Feb 2023 (~$309K sold); funds returned (Sperax report)"
   mint_path_live: "Arbitrum SPA is a bridged token minted by the gateway on deposits; 5B max; not tested for an owner mint this pass [Unverified]"
   team_wallet_to_exchange_during_pump: "YES: team Safe 0xe10b… (3-of-5; its funder and co-signer 0xc6e0 is speraxfoundation.eth per Arkham) sent 30M SPA to a Coinbase deposit, 10M to a Gate deposit and 10M to a KuCoin deposit (Arkham) on 2 May 2023, a +51.4% 5-day pump day; also the treasury relay 0x9597 sent 9M to the same KuCoin deposit on the 26 Aug 2026 pump day (+11.2%)"
+  one_hop_sale_status: proven
   team_held_share: "four team-signer Safes hold 1.647B SPA (≈33% of total supply)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

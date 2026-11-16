@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: fixed 1B ERC20 supply"
   team_wallet_to_exchange_during_pump: "yes: ~15.9M PHA (~$0.85M) reached Gate deposit addresses on six pump days, 18-25 Sep 2026, from Safes funded by the protocol escrow; no disclosure found"
+  one_hop_sale_status: proven
   entity_concentration: "protocol escrow Safe holds 128.8M (12.9%)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

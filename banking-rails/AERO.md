@@ -21,6 +21,7 @@ section_scores:
   catalysts: 5
 gates_failed: []
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none_found
   team_sale_into_pump: not_found_12_months_traced
   migration_budget_burn_by_owner: possible_not_used

@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none",
     "v24_hard_fork_activation": "watch_delayed",
     "treasury_payout_on_pump_day": "tripped_1_of_12_months_calendar_driven",
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/DASH.md",
-    "sha256": "8b3cdb998521ac56a2d0989dee958576d175c117a2c35e50159222def647c656",
-    "bytes": 28727,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "3f4fe32f84d8e7d5d8828070d43d3a1f54eba2b2dd9a66bb646efcf28dd3f70f",
+    "bytes": 28761,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -260,6 +261,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "treasury_payout_on_pump_day: tripped_1_of_12_months_calendar_driven"
     ]

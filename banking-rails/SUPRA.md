@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no new mint; 47.1B of 100B circulating, with ~53% of the allocated supply still to unlock until Sep 2031"
   team_wallet_to_exchange_during_pump: "not proven: SupraScan sits behind a bot wall and the RPC has no holder index, so insider wallets couldn't be traced"
+  one_hop_sale_status: none_found
   entity_concentration: "foundation 27.4%, early contributors 20.6%, insiders 16% of allocations"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

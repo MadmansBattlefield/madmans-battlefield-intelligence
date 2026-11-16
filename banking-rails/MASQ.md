@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: 40M minted once in the constructor; no mint function; 2.45M burned by the deployer"
   team_wallet_to_exchange_during_pump: "not proven in the last 365 days on Ethereum; team-funded wallets made ProBit deposits from 2021 to May 2025; Base and Polygon flows not traced"
+  one_hop_sale_status: none_found
   treasury_selling: "historical: team-funded wallets sent ~1.3M MASQ to ProBit deposit addresses (2021–2025)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

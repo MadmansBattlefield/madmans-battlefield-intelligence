@@ -39,6 +39,7 @@
     "hack_exploit": "none",
     "mint_path_live": "protocol issuance only (~56M DOT/yr after 14 Mar 2026, hard cap 2.1B set by Ref 1710); no admin mint key",
     "team_wallet_to_exchange_during_pump": "not proven (W3F-linked multisig-proxied account 13FzGL… and two other W3F-linked wallets sent 33.1M DOT (29.4M from 13FzGL…) into deposit-style account 14mr97…, which forwards to an unidentified high-throughput service; 4.0M of it on 14 pump days, 2023-2026; service and owner [Unverified])",
+    "one_hop_sale_status": "none_found",
     "treasury_selling": "disclosed (OpenGov Refs 457/1104/1501/1729 swap treasury DOT for USDT/USDC through Hydration DCA; Ref 1729 = 2.64M DOT)",
     "chain_stalls_2026": "4 partial stalls (parachains 23 Mar, People chain 22 Apr, Asset Hub ~30 min 12 Jun, staking election 30 Jun - 3 Jul); no funds lost"
   },
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/DOT.md",
-    "sha256": "2da3025d94c483f6e9421145f80f7dd105304fdd851f45baaa7bf489c13ff122",
-    "bytes": 33398,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "42554aa771490a8939c35bb5c6f4ea476b0c1dc6bbd475ff64e63e5ee9dc480d",
+    "bytes": 33432,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -302,6 +303,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven (W3F-linked multisig-proxied account 13FzGL… and two other W3F-linked wallets sent 33.1M DOT (29.4M from 13FzGL…) into deposit-style account 14mr97…, which forwards to an unidentified high-throughput service; 4.0M of it on 14 pump days, 2023-2026; service and owner [Unverified])"
     ]

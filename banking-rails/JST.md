@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found in this pass
   mint_path_live: "not checked on the contract; docs give a fixed 9.9B max supply"
   team_wallet_to_exchange_during_pump: "none found: the burn wallet (TZJV…) sends only to the black hole and JUST proposal contracts; the wallet that funded the burns (TFTW…) is an HTX hot wallet per Arkham, so its HTX transfers are exchange-internal"
+  one_hop_sale_status: none_found
   buyback_source: "first round (19 Oct 2025): 600M JST from unlabelled whale TPyjyZ… deposited to HTX nine minutes before withdrawal and burn; owner [Unverified]"
   revenue_claims_mismatch: "self-reported net income far above DefiLlama protocol revenue; claimed cumulative burn exceeds black-hole balance by ~106.7M"
   future_unlocks_cut: "n/a, fully unlocked"

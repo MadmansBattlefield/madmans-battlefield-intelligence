@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no: 10B fully issued in 2017",
     "team_wallet_to_exchange_during_pump": "not proven: an unlabelled wallet two hops from a 2017 genesis recipient (which Arkham labels Aeternity, not SWFT) sent 5M SWFTC (~$28k) to an OKX deposit on 30 Nov 2025 (+14.7%); no team label",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "unknown: the 2017 plan allotted 50% to founders, team and development; current team balances not published"
   },
   "price_usd": 0.00223568,
@@ -120,9 +121,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SWFTC.md",
-    "sha256": "b1b78acb811f84e720ac933dcf28308dbb0eb9d048fa2967ba1d7e79004bb7c2",
-    "bytes": 14606,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "c26a925e5e833eaeed3b7762da82bd6b0cf38143c503929de12fd897716daef3",
+    "bytes": 14640,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -217,6 +218,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: an unlabelled wallet two hops from a 2017 genesis recipient (which Arkham labels Aeternity, not SWFT) sent 5M SWFTC (~$28k) to an OKX deposit on 30 Nov 2025 (+14.7%); no team label"
     ]

@@ -19,6 +19,7 @@ section_scores:
   catalysts: 6
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: proven
   hack_exploit: none
   network_halt: none_found_in_series
   sdf_exchange_sends_on_pump_days: watch_disclosed

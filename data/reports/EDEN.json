@@ -40,6 +40,7 @@
     "mint_path_live": "yes: uncapped mint(); MINTER_ROLE held by the CCIP pool 0xc8adf2f51a35b0a9d8f74675b64c954ca2dcbc14, and a 3-of-5 Safe 0xf9900ce9f2072f906f30baf7f280930483ec5949 can grant it to anyone",
     "pause_power": "ban + seize: the same Safe can ban any address (BANLIST_ROLE) and burn its balance (burnBanned)",
     "team_wallet_to_exchange_during_pump": "yes [Unverified insider]: 3.30M EDEN from a MerkleVester allocation reached Binance deposit 0x71b83613743e42c800fc7b7648c53f16847c7cdd on pump day 19 May 2026",
+    "one_hop_sale_status": "not_proven",
     "treasury_in_single_key_wallets": "none found; vesting and admin wallets are Safes"
   },
   "price_usd": 0.04466,
@@ -127,9 +128,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/EDEN.md",
-    "sha256": "048ac8611217ee212206b97124b9e5fc796960ef57da0448a16c17d2e4695bac",
-    "bytes": 23143,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "cb510741998bfc4fe1075fb65f2750c4f22b72c1ab7b20c4918337c99868529f",
+    "bytes": 23177,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -309,6 +310,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes [Unverified insider]: 3.30M EDEN from a MerkleVester allocation reached Binance deposit 0x71b83613743e42c800fc7b7648c53f16847c7cdd on pump day 19 May 2026"
     ]

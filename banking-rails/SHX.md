@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no new minting (fixed 100B), but 60B company SHX sits in a rolling escrow that releases 1B a month"
   team_wallet_to_exchange_during_pump: "not proven: 875M SHX was bridged from Stellar into four Kraken deposit addresses in Jan-Nov 2026, none on a pump day; one 28.1M Kraken deposit on the 28 Sep 2026 pump day came via an unlabelled wallet fed by a 15.3B-SHX Stellar account whose owner is unpublished [Unverified]"
+  one_hop_sale_status: none_found
   entity_concentration: "yes: ~81% of supply is held by Stronghold (60B escrow plus other company balances)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

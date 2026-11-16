@@ -19,6 +19,7 @@ section_scores:
   catalysts: 2
 gates_failed: [revenue, selling_behavior]
 red_lines:
+  one_hop_sale_status: none_found
   admin_or_mint: none (plain ERC-20)
   deployer_exchange_deposits: "yes (1,845,000,000 to Gate.io, 2023 – Jan 2025)"
   pump_day_exchange_deposit_linked_to_issuer: "unverified (29 Sep 2026)"

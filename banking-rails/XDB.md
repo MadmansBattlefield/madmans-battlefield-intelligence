@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found in the review window"
   mint_path_live: "no: native supply fixed; 80B hard-burned at the outset, quarterly burns since"
   team_wallet_to_exchange_during_pump: "yes (pattern): the disclosed treasury funded a wallet that sent all 95.5M XDB to memo-tagged exchange-pattern deposit addresses, 5 deposits (6.5M) on pump days; exchange label [Unverified]"
+  one_hop_sale_status: proven
   treasury_in_single_key_wallet: "yes: the disclosed treasury (1.57B XDB) is controlled by one master key"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

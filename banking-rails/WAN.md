@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes: Wanchain's Cardano bridge contract was drained of ~515.2M NIGHT (~$500K) on 20 Jul 2026 through a message-encoding flaw"
   mint_path_live: "PoS issuance of ~1.04M WAN a year, offset by bridge-fee burns (~1.1M WAN a year projected)"
   team_wallet_to_exchange_during_pump: "not proven: native Wanchain explorer has no public API and the foundation wallets are not published"
+  one_hop_sale_status: none_found
   entity_concentration: "Community Treasury ~5.7M WAN (2.9% of supply); foundation balance not published"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

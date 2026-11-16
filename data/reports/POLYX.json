@@ -40,6 +40,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no max supply; staking issuance up to 140M POLYX/yr (docs); supply grew 1.2187B -> 1.3398B (+9.9%) in the last 12 months",
     "team_wallet_to_exchange_during_pump": "YES by pattern: Polymesh Association-listed and genesis-identity wallets (plus 2HXnHMiy..., funded by Association wallets) sent 187.3M POLYX in 139 transfers into memo-deposit address 2F8aakk..., 32.9M of it on pump days (34 transfers), 59.3M in the last 12 months; exchange name [Unverified]",
+    "one_hop_sale_status": "proven",
     "treasury_selling": "not disclosed; Association assets incl. POLYX sold to Polymath (Jun 2025), Polymath acquired by Nasdaq-listed TruGolf (Oct 2026)",
     "fee_capture": "fees go to block-producing operators, not holders; 4,780 POLYX of fees in 365 days"
   },
@@ -65,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/POLYX.md",
-    "sha256": "364fb78404fc4a62f799d4ebda1f508185503090174a0dcf24d9bd6107667b9d",
-    "bytes": 29648,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "fdd75b3239f83d30a91131b3ff90fba00cde76a655a4b17af8b08a468926f955",
+    "bytes": 29678,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -331,6 +332,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "silence",
     "pump_day_undisclosed_penalty_applied": true,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: YES by pattern: Polymesh Association-listed and genesis-identity wallets (plus 2HXnHMiy..., funded by Association wallets) sent 187.3M POLYX in 139 transfers into memo-deposit address 2F8aakk..., 32.9M of it on pump days (34 transfers), 59.3M in the last 12 months; exchange name [Unverified]"
     ]

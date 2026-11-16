@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no new mint; 3.02B of 10B circulating, ~48M a month unlocking to ecosystem",
     "team_wallet_to_exchange_during_pump": "yes (one hop, on-chain): the genesis distribution wallet sent 29,999,900 RBNT to an intermediate wallet on 15 May 2026 (+40.7% day), which deposited 25,499,000 RBNT (~$121k) to a Gate deposit address an hour later",
+    "one_hop_sale_status": "not_proven",
     "entity_concentration": "two Safes hold 2.29B and 2.0B RBNT (~43% of supply)"
   },
   "price_usd": 0.00214199,
@@ -77,9 +78,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/RBNT.md",
-    "sha256": "c22a445fa90e906825cb1495550cbe5a58b702ac2bde901e92f9dddf290c4c07",
-    "bytes": 12858,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "ef802ea48ae867694f48c8c26fce8f01b6bb25840ba7e65ef49aa1d7af3786ba",
+    "bytes": 13035,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -126,6 +127,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes (one hop, on-chain): the genesis distribution wallet sent 29,999,900 RBNT to an intermediate wallet on 15 May 2026 (+40.7% day), which deposited 25,499,000 RBNT (~$121k) to a Gate deposit address an hour later"
     ]

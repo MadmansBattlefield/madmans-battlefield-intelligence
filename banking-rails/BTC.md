@@ -19,6 +19,7 @@ section_scores:
   catalysts: 6
 gates_failed: []
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none
   hashrate_drop_two_retargets: watch
   fee_share_of_miner_revenue_under_2pct: tripped

@@ -20,6 +20,7 @@ section_scores:
   catalysts: 6
 gates_failed: []
 red_lines:
+  one_hop_sale_status: none_found
   burn_below_50pct_of_gross_mint_30d: clear
   foundation_or_sv_wallet_to_exchange_on_pump_day: watch
   hack_exploit: none

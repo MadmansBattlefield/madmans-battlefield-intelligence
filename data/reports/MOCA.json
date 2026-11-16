@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no (fixed 8,888,888,888; token has burn but no mint)",
     "team_wallet_to_exchange_during_pump": "none found: no exchange outflow from any traced insider wallet in 365 days; the pump-day high-turnover cluster is Upbit exchange inventory",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "yes, five dormant EOAs hold ~3.71B MOCA (42%); several 1-of-2 Safes"
   },
   "price_usd": 0.00602025,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/MOCA.md",
-    "sha256": "3c6a6b1b80689385d7fb9fd0abc3b3040d0f74e400aed38d3a17bee99a06d679",
-    "bytes": 15471,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "04d6dfb262713dd2abf8c1ae395834690ee4cc0fc89b9a3463d8aaca00a45844",
+    "bytes": 15505,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -200,6 +201,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found: no exchange outflow from any traced insider wallet in 365 days; the pump-day high-turnover cluster is Upbit exchange inventory"
     ]

@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes: 8-9 Aug 2026 unauthorized ORAI mint through an EVM cross-chain path; chain halted and restored; ~3.9M attacker ORAI traced to MEXC and KuCoin, return unresolved"
   mint_path_live: "yes: 7% annual inflation; on-chain supply 19.94M is above the 19.78M max in the docs"
   team_wallet_to_exchange_during_pump: "not proven: Cosmos chain with unlabelled top holders; not traced"
+  one_hop_sale_status: none_found
   entity_concentration: "top 4 liquid accounts hold ~2.6M ORAI (13%), owners unlabelled"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

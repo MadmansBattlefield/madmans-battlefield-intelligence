@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes, 2022: Anchor/Frontier oracle manipulations (2 Apr 2022, $15.6M; 16 Jun 2022, $5.83M DOLA net loss); bad debt carried until 2025"
   mint_path_live: "yes: owner() = Anchor Treasury timelock (governance) and mint() is uncapped; 104,000 INV minted 25 Jul 2025, 8,000 on 8 Dec 2025"
   team_wallet_to_exchange_during_pump: "no CEX deposit found; Policy Committee multisig (Arkham: Inverse Finance Gnosis Safe) DCA-sold 13,606 INV through CoW Protocol in Feb-Aug 2024 (10 clips on pump days) and 10,607 INV through Bond Protocol in 2022-2023; disclosure of the 2024 CoW sales not found"
+  one_hop_sale_status: proven
   treasury_selling: "TWG paid ~321k INV (~$12.7M at the day's price) as vote incentives 2022-2025 (bribe platforms); DAO buybacks since Feb 2026 (mill 345)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "not proven: single 258.5M mint on 8 Mar 2021, no mints since"
   team_wallet_to_exchange_during_pump: "not proven: the pump-day deposits came from Upbit hot wallets (exchange-to-exchange flow); no identified team wallet moved PUNDIX in the last year"
+  one_hop_sale_status: none_found
   entity_concentration: "Upbit (exchange custody) holds 127.3M (49.3%); two unlabelled Safes hold 18.6M (7.2%)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

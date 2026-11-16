@@ -39,6 +39,7 @@
     "hack_exploit": "none at protocol level (a 2024 application-layer exploit hit third-party CIFI and XSWAP pools)",
     "mint_path_live": "yes, by design (uncapped; masternode rewards exceed the EIP-1559 burn)",
     "team_wallet_to_exchange_during_pump": "none found (284.7M XDC from the largest reserve wallet reached FalconX in Oct 2022-Feb 2023, all on non-pump days); deeper hops not tested",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "yes (the 12.45B XDC largest address and the other genesis reserve wallets are plain EOAs; the issuer says reserves sit in centralized custody with no published multisig policy)"
   },
   "price_usd": 0.02921423,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/XDC.md",
-    "sha256": "f6c8936bef56701a67b119d9507f04f9affa260b4352c4a16ed4ec3e0bc4d764",
-    "bytes": 19037,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "72ba6218df4b52a23902694c82240d3ed52fa2157f06a3f8bf8218f267ac9efc",
+    "bytes": 19071,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -161,6 +162,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found (284.7M XDC from the largest reserve wallet reached FalconX in Oct 2022-Feb 2023, all on non-pump days); deeper hops not tested"
     ]

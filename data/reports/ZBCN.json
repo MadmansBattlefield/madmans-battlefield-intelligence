@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "proven",
     "hack_exploit": "none_on_file",
     "buybacks_sold_rather_than_held": "cannot_be_ruled_out",
     "treasury_funded_wallets_sell_into_pumps": "tripped_30_Sep_4_Oct_2026",
@@ -62,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZBCN.md",
-    "sha256": "eea5e4e0c2833a92f7d0bc97999c66940419f3b1ddd1b67125336c47d662d831",
-    "bytes": 40956,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "3e77f10f52e885e18fc91576d3d641dcba77932206222dcbf6be35a6dc07056c",
+    "bytes": 40986,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -688,6 +689,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "silence",
     "pump_day_undisclosed_penalty_applied": true,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "treasury_funded_wallets_sell_into_pumps: tripped_30_Sep_4_Oct_2026"
     ]

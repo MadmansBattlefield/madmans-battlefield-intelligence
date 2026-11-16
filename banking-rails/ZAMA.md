@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes by design: 5% yearly emission to operators and stakers (supply 11.39B vs 11B initial)"
   team_wallet_to_exchange_during_pump: "yes: the Etherscan-labelled 'Zama 1' wallet sent 15,000,000 ZAMA to a Binance deposit address on 14 Apr 2026 (+39.1% pump day); no disclosure found"
+  one_hop_sale_status: not_proven
   entity_concentration: "one plain EOA (single key) holds 7.665B ZAMA, 67.3% of supply"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"
@@ -111,7 +112,7 @@ layout_version: 3
 
 - **Correction:** 6.35M ZAMA that `0xa798…` sent to an Upbit deposit on 14 Apr 2026 is not a team sale. Arkham labels `0xa798` **ZamaOFTAdapter**, and the transaction ([tx](https://etherscan.io/tx/0xd4ac48eaba8eb67fefee47a7f12297a3070765c297a86f6979c2dcfd2fc42111)) is a LayerZero `lzReceive` delivery: someone bridged ZAMA from another chain to an Upbit deposit. The sender is unknown, so it is no longer counted.
 - **Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) on "Zama 1":** it sent 27.5M ZAMA to a **Wintermute deposit** on 31 Jul 2026 ([tx](https://etherscan.io/tx/0xc82e1fa5cf998270c2b9ee25c44815efb3894ff87e914d0735a790a9edfb58b5); −10.3% on Gate, not a pump day), market-maker flow rather than a sale. It also sent 25M ZAMA on 9 Nov 2026 ([tx](https://etherscan.io/tx/0x57bcbecb954cd156b1221a0fabfeaf0f18cc43951a826733262fa4bf68b4b8d2)) to a Safe that Arkham labels as belonging to a named Zama co-founder: an internal team transfer.
-- These could be liquidity or market-making transfers (2% of supply was allocated to liquidity), but no disclosure was found. Exchange deposits from a team-labelled wallet on a pump day score 2 (unchanged after the Upbit correction: the 15M Binance deposit on 14 Apr still stands). Transfers at the 2 Feb 2026 launch (auction claims and exchange campaign funding) are treated as documented distribution. All linked transactions returned status 1 (success).
+- These could be liquidity or market-making transfers (2% of supply was allocated to liquidity), but no disclosure was found. The 15M Binance deposit on 14 Apr still stands after the Upbit correction. Under the 16 Nov 2026 one-hop amendment the published 2% liquidity allocation is a plausible reason and no sale is shown, so Selling is **4 (not proven)**, with no penalty and no hard gate. Transfers at the 2 Feb 2026 launch (auction claims and exchange campaign funding) are treated as documented distribution. All linked transactions returned status 1 (success).
 
 - **One-hop amendment (16 Nov 2026):** Zama published a plausible reason: the [Zama token launch post](https://www.zama.org/post/zama-token-launch) allocates 2% of supply to liquidity, which fits the 'Zama 1' wallet's Binance deposit. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 

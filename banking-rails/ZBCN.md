@@ -19,6 +19,7 @@ section_scores:
   catalysts: 4
 gates_failed: [selling_behavior]
 red_lines:
+  one_hop_sale_status: proven
   hack_exploit: none_on_file
   buybacks_sold_rather_than_held: cannot_be_ruled_out
   treasury_funded_wallets_sell_into_pumps: tripped_30_Sep_4_Oct_2026

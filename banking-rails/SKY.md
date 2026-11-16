@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none
   mint_path_live: "governance only (Pause Proxy is the only SKY ward; no SKY minted since Jul 2025)"
   team_wallet_to_exchange_during_pump: "none found (Pause Proxy, Sky Frontier Foundation, Fortification Foundation and Liquidity Bootstrapping multisig: no direct exchange deposits)"
+  one_hop_sale_status: none_found
   treasury_coins_to_exchange_via_market_maker: "yes, disclosed program (320M SKY Liquidity Bootstrapping loan; 32.3M reached KuCoin 32 on its 2 Oct 2024 listing day, not a pump day; market maker is Wintermute per Arkham, Tier B)"
   funded_contributor_wallet_pump_day_sales: "yes, small (Launch Project-funded Safe 0xeaef sold ~9.8M SKY ≈ $0.69M on CoW Swap on pump days, Aug–Oct 2026; owner [Unverified])"
 methodology_effective: 2026-11-16

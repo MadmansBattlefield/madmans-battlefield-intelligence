@@ -39,6 +39,7 @@
     "hack_exploit": "none found on the CFG token",
     "mint_path_live": "yes, by design (immutable InflationMinter mints ~3%/yr to treasury EOA 0xb3da; Root (48h delay) can add minters)",
     "team_wallet_to_exchange_during_pump": "yes, small and partly explained (Centrifuge Treasury EOA 0xb3da sent 835k CFG to a Binance deposit on the 18 Mar 2026 pump day; its pump-day FalconX deposits on 26 Feb and 16 Mar 2026 were returned 1:1 within weeks; the CNF Safe's 23.06M to Gate on the 23 May 2025 pump day falls under CP149's disclosed exchange-migration purpose)",
+    "one_hop_sale_status": "not_proven",
     "treasury_in_single_key_wallets": "yes (~117M CFG, ≈ 17% of supply, in two EOAs: 0xD052 106.07M and treasury 0xb3da 11.22M; docs call 10.5% of supply 'locked' incentives but no lock contract was found)",
     "token_to_equity_conversion": "CP172 passed 10 Sep 2026; Centrifuge says it will wind down funding for CFG liquidity (listings, market-maker loans) after the conversion window"
   },
@@ -65,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CFG.md",
-    "sha256": "2caf3cbb9f8d636cee53312eb1112d2d1e647b0a5659a3e8b3012b93b3867822",
-    "bytes": 34189,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "0174d8545d687c857f18702ecd11f79e13aba099294b0ff452f99e8d5a556415",
+    "bytes": 34363,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -419,6 +420,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes, small and partly explained (Centrifuge Treasury EOA 0xb3da sent 835k CFG to a Binance deposit on the 18 Mar 2026 pump day; its pump-day FalconX deposits on 26 Feb and 16 Mar 2026 were returned 1:1 within weeks; the CNF Safe's 23.06M to Gate on the 23 May 2025 pump day falls under CP149's disclosed exchange-migration purpose)"
     ]

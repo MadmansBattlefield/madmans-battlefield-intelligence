@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "n/a; no NUVA token; vault tokens mint 1:1 against deposits",
     "team_wallet_to_exchange_during_pump": "not proven: there is no NUVA token to sell",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "HOME vault: the top 8 holders each hold almost exactly 1.0M"
   },
   "price_usd": null,
@@ -60,9 +61,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/NUVA.md",
-    "sha256": "68fb72883e0088fa37597c575b5c2516ab394cf607d4e6dabd2f00ed18414430",
-    "bytes": 8569,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "79222db1ca8b101a7ec2105d4faaf36df4c8ca9aa362f50df1454e3013d2d70d",
+    "bytes": 8603,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -114,6 +115,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: there is no NUVA token to sell"
     ]

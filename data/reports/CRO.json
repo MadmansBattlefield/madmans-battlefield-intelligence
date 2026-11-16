@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none found at chain level (the Jan 2022 incident was at the Crypto.com exchange, not the chain)",
     "treasury_to_exchange_during_pump": "no: 2.5B reserve-vested CRO (~$307M) went to a memo-based exchange hot wallet on 23 Sep 2025, 23 Feb, 30 Apr and 7-8 Oct 2026, none of them pump days",
     "treasury_funded_wallet_to_exchange_during_pump": "no (same flows, all on down days)",
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CRO.md",
-    "sha256": "1c3858fe4464f214d092bf92fcd57416251766cb82205bb689bf42f55a30125d",
-    "bytes": 21215,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "0f376d98e050ae2188a5d43cb7c168a3116680bcc85e80b7f1a3536265d5342a",
+    "bytes": 21249,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -168,6 +169,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: no: 2.5B reserve-vested CRO (~$307M) went to a memo-based exchange hot wallet on 23 Sep 2025, 23 Feb, 30 Apr and 7-8 Oct 2026, none of them pump days",
       "treasury_funded_wallet_to_exchange_during_pump: no (same flows, all on down days)"

@@ -19,6 +19,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none
   foundation_210m_lock_proof: open_not_published
   foundation_wallets_published: open_none

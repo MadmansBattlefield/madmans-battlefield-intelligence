@@ -19,6 +19,7 @@ section_scores:
   catalysts: 6
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none_in_series
   central_halt_authority: present
   foundation_wallets_unpublished: tripped

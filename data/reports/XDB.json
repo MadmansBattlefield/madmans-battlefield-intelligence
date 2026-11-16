@@ -40,6 +40,7 @@
     "hack_exploit": "none found in the review window",
     "mint_path_live": "no: native supply fixed; 80B hard-burned at the outset, quarterly burns since",
     "team_wallet_to_exchange_during_pump": "yes (pattern): the disclosed treasury funded a wallet that sent all 95.5M XDB to memo-tagged exchange-pattern deposit addresses, 5 deposits (6.5M) on pump days; exchange label [Unverified]",
+    "one_hop_sale_status": "proven",
     "treasury_in_single_key_wallet": "yes: the disclosed treasury (1.57B XDB) is controlled by one master key"
   },
   "price_usd": 5.306e-05,
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/XDB.md",
-    "sha256": "99fa063610e273907cb14fc802d6ec1900a30608a4ada65c6f402b885e6a166b",
-    "bytes": 18711,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "7adbb54c3f0b3904904836062179e95531ab0fa6cfff484b58f8981b0f1f23e3",
+    "bytes": 18741,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -198,6 +199,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "buried_disclosure",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes (pattern): the disclosed treasury funded a wallet that sent all 95.5M XDB to memo-tagged exchange-pattern deposit addresses, 5 deposits (6.5M) on pump days; exchange label [Unverified]"
     ]

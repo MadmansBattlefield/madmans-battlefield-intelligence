@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "unknown; the chain couldn't be read",
     "team_wallet_to_exchange_during_pump": "not proven: no market and no readable chain",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "unknown"
   },
   "price_usd": null,
@@ -58,9 +59,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SIBERIUM.md",
-    "sha256": "425475bd5c46ae972a5a08747b1ad4f461d063893bdf6216b2d6f15331ea1e0f",
-    "bytes": 7213,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "328b12185b5080652fa268c60407267ac16000afb4d5b5f481bbe82bd501f7c4",
+    "bytes": 7247,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -92,6 +93,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: no market and no readable chain"
     ]

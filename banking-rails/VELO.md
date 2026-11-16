@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: Stellar issuer locked (master weight 0, thresholds 0), so no further issuance"
   team_wallet_to_exchange_during_pump: "not proven: no Stellar account is publicly attributed to Velo Labs (the labelled directory sits behind a payment wall)"
+  one_hop_sale_status: none_found
   entity_concentration: "top 10 Stellar accounts hold 49.3%; ~6.4B (27%) not counted as circulating"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

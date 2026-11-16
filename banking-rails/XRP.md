@@ -19,6 +19,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none
   ledger_halt: none_in_series
   ripple_ops_flow_on_pump_day: tripped_2_of_23

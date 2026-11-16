@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes, protocol coinbase (no cap; ~3% a year observed, 7% long-run target)"
   team_wallet_to_exchange_during_pump: "not testable (foundation holds via custodians; no published wallets)"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "unknown (custodied)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

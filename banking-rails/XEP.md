@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes; proof-of-stake rewards of up to 3% a year"
   team_wallet_to_exchange_during_pump: "not proven: no team wallets are disclosed, and the native explorer couldn't be read"
+  one_hop_sale_status: none_found
   entity_concentration: "not found; native rich list unreachable"
 price_usd: 9.133e-05
 price_source: "CoinGecko, 16 Nov 2026 ~12:30 PM MST"

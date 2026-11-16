@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: 24B minted once on 25 Nov 2025 (one mint, no burns); 6B Reserve released only as block rewards"
   team_wallet_to_exchange_during_pump: "not proven: the Foundation's bucket-to-address mapping site blocked automated reads, so its wallets were not traced"
+  one_hop_sale_status: none_found
   entity_concentration: "yes: Midnight Foundation 35% + Midnight TGE Ltd. 15.25% = 50.25% of supply, fully unlocked since 10 Dec 2025"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

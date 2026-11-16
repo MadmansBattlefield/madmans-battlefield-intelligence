@@ -22,6 +22,7 @@ section_scores:
   catalysts: 5
 gates_failed: []
 red_lines:
+  one_hop_sale_status: none_found
   monthly_revenue_below_250k: tripped
   buyback_safe_sells_bnkr: none_found_partial_scan
   hack_exploit: none_found

@@ -34,6 +34,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none",
     "treasury_to_exchange_during_pump": "not_found",
     "undisclosed_treasury_to_exchange_flow": "recurring_quarterly"
@@ -68,9 +69,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/LINK.md",
-    "sha256": "74dab184ee94921b6b977f9d8b967c1084d6b6dc2fd2ad771d5a4cd9fdc3069c",
-    "bytes": 23727,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "a713f4120f30a8db226a0b972d5800bbb2b43d7d9ad2e2c7b4a1180fa7abe508",
+    "bytes": 23761,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -280,6 +281,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: not_found"
     ]

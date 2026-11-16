@@ -37,6 +37,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no: fixed 10B, 58.5M burned",
     "team_wallet_to_exchange_during_pump": "no: foundation-Safe wallets sent ~325M RLS to GSR Markets, Gate, MEXC and Coinbase Prime in 2026 and ~105M at TGE, none on a pump day (MEXC closes); selling is disclosed policy",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "yes: ~79% of supply is foundation, investor, team or Parfin allocation"
   },
   "price_usd": 0.00159392,
@@ -118,9 +119,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/RLS.md",
-    "sha256": "ba5e971ac32685fb773d26df5e1818e73b30c8a89cb40222e888cc180a48bf98",
-    "bytes": 15951,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "1b79c0f82cdc8b00ef907d16d305abf66f07fd875eb4031d27db15de06180120",
+    "bytes": 15985,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -223,6 +224,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: no: foundation-Safe wallets sent ~325M RLS to GSR Markets, Gate, MEXC and Coinbase Prime in 2026 and ~105M at TGE, none on a pump day (MEXC closes); selling is disclosed policy"
     ]

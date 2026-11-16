@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes by design: 4,000 TRB/month dev share to the team plus ~4,000 TRB/month to reporters and validators (hard-coded); no max supply"
   team_wallet_to_exchange_during_pump: "yes: two pass-through wallets funded only by the Tellor MultiSig (directly or via its payout wallet 0x1b8e) sent 24,035 TRB (~$2.93M) to the Etherscan-labelled Coinbase 10 address on seven pump days, Jun 2023 to May 2025, including 7,000 TRB at $243 on 29 Dec 2023; the payout Safe 0x1b8e itself sent 11,000 TRB to Arkham-labelled Coinbase deposits on three pump days in Aug–Oct 2026; no disclosure found"
+  one_hop_sale_status: proven
   entity_concentration: "Tellor MultiSig holds 76,302 TRB (2.6%)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

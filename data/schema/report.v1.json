@@ -181,6 +181,7 @@
         "selling_not_proven",
         "disclosure_quality",
         "pump_day_undisclosed_penalty_applied",
+        "one_hop_sale_status",
         "flags_noted_in_report"
       ],
       "properties": {
@@ -207,6 +208,11 @@
           ]
         },
         "pump_day_undisclosed_penalty_applied": { "type": "boolean" },
+        "one_hop_sale_status": {
+          "type": "string",
+          "enum": ["proven", "not_proven", "none_found"],
+          "description": "Whether a team or treasury transfer to an exchange counts as a proven sale under the 16 Nov 2026 one-hop amendment. team_wallet_to_exchange_during_pump only records that a transfer happened."
+        },
         "flags_noted_in_report": {
           "type": "array",
           "items": { "type": "string" }

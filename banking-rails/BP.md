@@ -19,6 +19,7 @@ section_scores:
   catalysts: 4
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   mint_authority_used: not_used
   treasury_outflow_without_milestone_notice: none_since_tge
   holder_freeze: none_found

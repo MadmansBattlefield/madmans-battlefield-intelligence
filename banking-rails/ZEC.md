@@ -19,6 +19,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none found
   treasury_to_exchange_during_pump: "not provable (every dev-fund payout is shielded first; consensus requires transparent coinbase outputs to go to a shielded pool)"
   treasury_funded_wallet_to_exchange_during_pump: "not provable (12 of 100 weekly ZCG/FPF shielding days were pump days, e.g. 17 Sep 2026, +30.7%; destinations hidden)"

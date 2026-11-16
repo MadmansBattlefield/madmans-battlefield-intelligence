@@ -19,6 +19,7 @@ section_scores:
   catalysts: 6
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none
   v24_hard_fork_activation: watch_delayed
   treasury_payout_on_pump_day: tripped_1_of_12_months_calendar_driven

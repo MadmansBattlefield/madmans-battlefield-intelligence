@@ -34,6 +34,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none",
     "network_halt": "none_in_series",
     "foundation_wallets_unpublished": "tripped"
@@ -61,9 +62,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SOL.md",
-    "sha256": "24ddd05d73a7d0c688c5ad8d763cb7cd16d025fc2db920143086dddc5d9762dd",
-    "bytes": 15177,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "99048d270c052ed7a950174748e71fb9673ff7bbd873b389ba9f864e4fe816b3",
+    "bytes": 15211,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -110,6 +111,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": []
   },
   "revenue_accrual": {

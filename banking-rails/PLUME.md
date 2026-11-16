@@ -19,6 +19,7 @@ section_scores:
   catalysts: 3
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   upgradeable_mintable_token: "yes (contradicts MiCA paper)"
   exchange_inflows_on_pump_days: "explained (bridge → Binance on 23 Sep and 13 Oct 2026 was Binance moving its own inventory from Plume chain; traced 15 Nov)"
   issuer_wallets_published: "no"

@@ -19,6 +19,7 @@ section_scores:
   catalysts: 3
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: not_proven
   hack_exploit: none
   mint_role_used: not_used_still_possible
   control_dispute_at_company: active_litigation
@@ -155,7 +156,7 @@ layout_version: 3
 - Exchange deposits are credited to one account. Whether that ONDO was sold happens inside Coinbase and is not visible on-chain.
 - Real Rails treasury badge: **CAUTION**.
 
-**What it means:** Tokens released from Ondo's admin Safe reached Coinbase directly: 100.5M ONDO (~$44M) in seven weeks, including 18.2M on a +32% pump day. Nothing was disclosed. One of five exchange sends on a pump day is in line with chance, and the coins may have gone to payees, not to Ondo, so this is not proof that Ondo dumped. Still, undisclosed releases from the issuer's Safe reached an exchange on a pump day, so the score drops from 5 to 4 (fail, but not the hard gate).
+**What it means:** Tokens released from Ondo's admin Safe reached Coinbase directly: 100.5M ONDO (~$44M) in seven weeks, including 18.2M on a +32% pump day. Nothing was disclosed. One of five exchange sends on a pump day is in line with chance, and the coins may have gone to payees, not to Ondo, so this is not proof that Ondo dumped. Still, undisclosed releases from the issuer's Safe reached an exchange on a pump day, but the FIP-08 unlock schedule is a published reason and no sale is shown, so under the 16 Nov 2026 one-hop amendment Selling is **4 (not proven)**, with no penalty and no hard gate.
 
 - **One-hop amendment (16 Nov 2026):** Ondo published a plausible reason: [FIP-08](https://forum.fluxfinance.com/t/fip-08-release-of-the-ondo-token-lock-up/563) sets anniversary unlocks for investors, contributors and partners each January, and `0xEA57…` paid many parties at once, which fits that schedule. Arkham labels one receiver Coinbase Prime Custody (custody, not a sale). (a) No: no deposit account is attributed to the team. (b) No: no sale is shown. Under the amended rule the one-hop link is no longer enough on its own, so Selling scores **4 (not proven)** with no silence penalty. This replaces the earlier penalty described above.
 

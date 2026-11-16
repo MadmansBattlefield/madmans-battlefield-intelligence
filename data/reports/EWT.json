@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes: 192,307.69 EWT minted on Ethereum about every 4 weeks since Oct 2025 (~2.5M a year); 14.04M of headroom remains under the 100M cap",
     "team_wallet_to_exchange_during_pump": "none found (an unattributed 3-of-5 Safe sent 165k EWT to a KuCoin deposit in Oct 2026 on non-pump days); Foundation wallets not identified",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "unknown (Foundation and EWX treasury wallets not published)"
   },
   "price_usd": 0.250898,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/EWT.md",
-    "sha256": "710127c824478a191b3e5008053c37d78b7e2d9fbbbaca8d3bfe5f735d451197",
-    "bytes": 16738,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "6a75582b98a0ad8b777a3117d0f2180f8e1aab29ab6fd5e586ff373688d2fc2f",
+    "bytes": 16772,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -202,6 +203,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found (an unattributed 3-of-5 Safe sent 165k EWT to a KuCoin deposit in Oct 2026 on non-pump days); Foundation wallets not identified"
     ]

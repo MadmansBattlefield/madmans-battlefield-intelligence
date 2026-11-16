@@ -19,6 +19,7 @@ section_scores:
   catalysts: 6
 gates_failed: []
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none
   treasury_to_exchange_during_pump: not_found
   undisclosed_treasury_to_exchange_flow: recurring_quarterly

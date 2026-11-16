@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "no hack found; 2018 sale-contract bug minted ~9,606 excess TRACE (no loss of funds, token re-issued as TRAC)"
   mint_path_live: "no: mintingFinished() = true, totalSupply() = 500,000,000"
   team_wallet_to_exchange_during_pump: "yes, small and indirect: a treasury-loop wallet sent 5M TRAC to Wintermute's multisig on a pump day (9 Nov 2021, +16.4%; disclosed market-maker partnership, amount undisclosed); two wallets funded by Trace Labs' main wallet sent 587k TRAC to KuCoin deposit addresses, 550k of it on pump days (Oct 2023 - Feb 2024); attribution of those two wallets [Unverified]"
+  one_hop_sale_status: not_proven
   treasury_selling: "development treasury (100M+ TRAC) has no published address, balance or spending rule; 1.5M TRAC to Wintermute (Dec 2023) and 103k to a Gate deposit (Apr 2024) from the main Trace Labs wallet"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

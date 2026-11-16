@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no new mint; 47.1B of 100B circulating, with ~53% of the allocated supply still to unlock until Sep 2031",
     "team_wallet_to_exchange_during_pump": "not proven: SupraScan sits behind a bot wall and the RPC has no holder index, so insider wallets couldn't be traced",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "foundation 27.4%, early contributors 20.6%, insiders 16% of allocations"
   },
   "price_usd": 0.00013002,
@@ -62,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SUPRA.md",
-    "sha256": "83426bbc9340e9cb1f3bcb35ee0af63267a42254addf1619ef79770006f1e00e",
-    "bytes": 9523,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "33a5ff1e6dc5d7f7617b35e59d316504dd155f9cc352863311eaf9d7f425fb9c",
+    "bytes": 9557,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -97,6 +98,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: SupraScan sits behind a bot wall and the RPC has no holder index, so insider wallets couldn't be traced"
     ]

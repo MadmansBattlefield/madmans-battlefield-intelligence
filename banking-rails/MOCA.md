@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no (fixed 8,888,888,888; token has burn but no mint)"
   team_wallet_to_exchange_during_pump: "none found: no exchange outflow from any traced insider wallet in 365 days; the pump-day high-turnover cluster is Upbit exchange inventory"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "yes, five dormant EOAs hold ~3.71B MOCA (42%); several 1-of-2 Safes"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

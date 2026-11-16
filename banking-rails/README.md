@@ -72,18 +72,18 @@ Every token in this folder has a full v3 scored report:
 | 37 | [WAN.md](WAN.md) | Wanchain | **4.7 / 10 · ❌ FAIL** |
 | 38 | [CARDS.md](CARDS.md) | Collector Crypt | **4.7 / 10 · ❌ FAIL** |
 | 39 | [SOLV.md](SOLV.md) | Solv Protocol | **4.6 / 10 · ❌ FAIL** |
-| 40 | [FXS.md](FXS.md) | Frax (prev. FXS) | **4.6 / 10 · ❌ FAIL** |
-| 41 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
-| 42 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |
-| 43 | [INV.md](INV.md) | Inverse Finance | **4.4 / 10 · ❌ FAIL** |
-| 44 | [HUMA.md](HUMA.md) | Huma Finance | **4.4 / 10 · ❌ FAIL** |
-| 45 | [RVN.md](RVN.md) | Ravencoin | **4.4 / 10 · ❌ FAIL** |
-| 46 | [CFG.md](CFG.md) | Centrifuge | **4.4 / 10 · ❌ FAIL** |
-| 47 | [QNT.md](QNT.md) | Quant | **4.3 / 10 · ❌ FAIL** |
-| 48 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
-| 49 | [RED.md](RED.md) | RedStone | **4.3 / 10 · ❌ FAIL** |
-| 50 | [PRO.md](PRO.md) | Propy | **4.3 / 10 · ❌ FAIL** |
-| 51 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
+| 40 | [MNT.md](MNT.md) | Mantle | **4.5 / 10 · ❌ FAIL** |
+| 41 | [RLS.md](RLS.md) | Rayls | **4.5 / 10 · ❌ FAIL** |
+| 42 | [INV.md](INV.md) | Inverse Finance | **4.4 / 10 · ❌ FAIL** |
+| 43 | [HUMA.md](HUMA.md) | Huma Finance | **4.4 / 10 · ❌ FAIL** |
+| 44 | [RVN.md](RVN.md) | Ravencoin | **4.4 / 10 · ❌ FAIL** |
+| 45 | [CFG.md](CFG.md) | Centrifuge | **4.4 / 10 · ❌ FAIL** |
+| 46 | [QNT.md](QNT.md) | Quant | **4.3 / 10 · ❌ FAIL** |
+| 47 | [ICP.md](ICP.md) | Internet Computer | **4.3 / 10 · ❌ FAIL** |
+| 48 | [RED.md](RED.md) | RedStone | **4.3 / 10 · ❌ FAIL** |
+| 49 | [PRO.md](PRO.md) | Propy | **4.3 / 10 · ❌ FAIL** |
+| 50 | [TRAC.md](TRAC.md) | OriginTrail | **4.2 / 10 · ❌ FAIL** |
+| 51 | [FXS.md](FXS.md) | Frax (prev. FXS) | **4.2 / 10 · ❌ FAIL** |
 | 52 | [AMP.md](AMP.md) | Amp | **4.2 / 10 · ❌ FAIL** |
 | 53 | [GRND.md](GRND.md) | SuperWalk | **4.2 / 10 · ❌ FAIL** |
 | 54 | [ETC.md](ETC.md) | Ethereum Classic | **4.1 / 10 · ❌ FAIL** |

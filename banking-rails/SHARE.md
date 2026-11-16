@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "not proven: 100M cap per docs; contract not read (BscScan wall)"
   team_wallet_to_exchange_during_pump: "not proven: BNB Chain transfers could not be read (BscScan API is paid; its pages sit behind a bot check)"
+  one_hop_sale_status: none_found
   entity_concentration: "82% of supply in project-controlled vesting pools (docs)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

@@ -39,6 +39,7 @@
     "hack_exploit": "yes: HARD Lend exploit on 14 Nov 2026, ~53.9M KAVA (~$3.76M) drained and mostly sold on BNB Chain",
     "mint_path_live": "no (on-chain inflation is 0%; supply 1,082,846,850 KAVA)",
     "team_wallet_to_exchange_during_pump": "not tested (Kava Labs wallets are not published)",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "no for the on-chain treasury (community pool and kavadist are module accounts); Kava Labs wallets unknown"
   },
   "price_usd": 0.02976698,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/KAVA.md",
-    "sha256": "1a3ded50bc9ae2ae6e81d3d9b5074d725e4d582c20495ca01b32b1d810baa412",
-    "bytes": 13028,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "edc9b4e39bcfec29834e61a68177dc59c3cbf8f7cad4526d8f1eb5dbc2befce8",
+    "bytes": 13062,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -140,6 +141,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not tested (Kava Labs wallets are not published)"
     ]

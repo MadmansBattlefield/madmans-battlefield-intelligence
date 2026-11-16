@@ -20,6 +20,7 @@ section_scores:
   catalysts: 3
 gates_failed: [revenue, selling_behavior]
 red_lines:
+  one_hop_sale_status: proven
   liquidity_below_75k: tripped
   founder_exit: not_confirmed
   paying_customer_by_q1_2027: open_none_found

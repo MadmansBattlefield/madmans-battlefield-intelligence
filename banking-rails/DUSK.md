@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes, protocol emission (~62.6M DUSK a year, ~10% of supply) to stakers and a 10% development fund"
   team_wallet_to_exchange_during_pump: "not testable on the native chain; largest ERC20 EOAs are Binance / Bitvavo withdrawals, not team"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "unknown (development-fund wallet not published)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

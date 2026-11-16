@@ -37,6 +37,7 @@
     "hack_exploit": "none found in this pass",
     "mint_path_live": "not checked on the contract; docs give a fixed 9.9B max supply",
     "team_wallet_to_exchange_during_pump": "none found: the burn wallet (TZJV…) sends only to the black hole and JUST proposal contracts; the wallet that funded the burns (TFTW…) is an HTX hot wallet per Arkham, so its HTX transfers are exchange-internal",
+    "one_hop_sale_status": "none_found",
     "buyback_source": "first round (19 Oct 2025): 600M JST from unlabelled whale TPyjyZ… deposited to HTX nine minutes before withdrawal and burn; owner [Unverified]",
     "revenue_claims_mismatch": "self-reported net income far above DefiLlama protocol revenue; claimed cumulative burn exceeds black-hole balance by ~106.7M",
     "future_unlocks_cut": "n/a, fully unlocked"
@@ -62,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/JST.md",
-    "sha256": "ad2bef88f3a4c92ec36b13ed0a885a7bdda7bf2d0afe4eb87f6712438b32d700",
-    "bytes": 30077,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "dd562bf4f86ea4e2b1ffab895696f7b2b0ef9f2e139e21606c139da784ff9c27",
+    "bytes": 30111,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -375,6 +376,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found: the burn wallet (TZJV…) sends only to the black hole and JUST proposal contracts; the wallet that funded the burns (TFTW…) is an HTX hot wallet per Arkham, so its HTX transfers are exchange-internal"
     ]

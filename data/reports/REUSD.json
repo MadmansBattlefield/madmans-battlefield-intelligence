@@ -37,6 +37,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes by design: minted against deposits, burned on redemption",
     "team_wallet_to_exchange_during_pump": "not proven: NAV token with no pump days; issuer mint/redeem flows not traced",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "largest holders are DeFi protocols (Fluid, Morpho); issuer controls mint and redemption"
   },
   "price_usd": 1.11,
@@ -68,9 +69,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/REUSD.md",
-    "sha256": "b362d1a297f0adc2311e0b3320e72751c850e8d37a144f654d9f6d0cb81d705d",
-    "bytes": 11691,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "f60ed2554192c37a9190e3e80dbb6bbf740c1128ab73ddf90e5eac4089da65cf",
+    "bytes": 11725,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -130,6 +131,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: NAV token with no pump days; issuer mint/redeem flows not traced"
     ]

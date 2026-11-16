@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes by design: minted against deposits, burned on redemption"
   team_wallet_to_exchange_during_pump: "not proven: NAV token with no pump days; issuer mint/redeem flows not traced"
+  one_hop_sale_status: none_found
   entity_concentration: "largest holders are DeFi protocols (Fluid, Morpho); issuer controls mint and redemption"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none in the review window; structural 51%-attack risk (hashrate ~0.3% of Bitcoin's)"
   mint_path_live: "no: fixed 21M cap; block subsidy halves every 210,000 blocks"
   team_wallet_to_exchange_during_pump: "not applicable: no team, foundation, premine or treasury wallets exist"
+  one_hop_sale_status: none_found
   treasury_selling: "not applicable: no treasury"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

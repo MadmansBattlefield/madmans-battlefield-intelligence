@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no (no mint function; 1B minted once on 13 Jul 2025)"
   team_wallet_to_exchange_during_pump: "small: allocation distributors sent <0.5M MBG on pump days; ~49M MBG flowed through an unlabelled trading hub (OKX and Wintermute deposit counterparties) in 365d"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "yes, 7 EOAs hold ~452M MBG (46%); vesting vault 338.5M has a salvage role"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

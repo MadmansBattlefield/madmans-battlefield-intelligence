@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes; OPERATOR_ROLE can mint, and ADMIN_ROLE can upgrade the contract (UUPS)"
   team_wallet_to_exchange_during_pump: "none found: a $1 stablecoin has no pump days, and the Treasury has made no exchange deposits"
+  one_hop_sale_status: none_found
   entity_concentration: "the Treasury and one wallet it funded hold 2.72B of 2.83B PUSD (96%) on Ethereum; 46 holders"
 price_usd: null
 price_source: "No exchange market found; not listed on CoinGecko (16 Nov 2026 ~1:30 PM MST)"

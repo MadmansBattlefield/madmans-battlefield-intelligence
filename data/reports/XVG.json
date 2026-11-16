@@ -39,6 +39,7 @@
     "hack_exploit": "yes, outside the 1-year window: timewarp attacks Apr and May 2018; 560,000-block reorg (~200 days) on 15 Feb 2021",
     "mint_path_live": "no beyond PoW issuance; supply ~16.52B, essentially fully mined",
     "team_wallet_to_exchange_during_pump": "not applicable: no premine or ICO (2014 launch as DogecoinDark)",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "none known (no team allocation)"
   },
   "price_usd": 0.001721,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/XVG.md",
-    "sha256": "17bada068d51aa5532a720e21abc0e396be6edc1c4f83bf4fbebb2d07447bc46",
-    "bytes": 9590,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "d459439f5538579cd36a7e05e30bfbaf6fd86ca405863c21dfacc74ff737e450",
+    "bytes": 9624,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -111,6 +112,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not applicable: no premine or ICO (2014 launch as DogecoinDark)"
     ]

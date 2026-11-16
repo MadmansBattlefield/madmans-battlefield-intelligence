@@ -34,6 +34,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none",
     "hashrate_drop_two_retargets": "watch",
     "fee_share_of_miner_revenue_under_2pct": "tripped"
@@ -60,9 +61,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BTC.md",
-    "sha256": "d099809d3c355b0b0e4640b9a295c9e20fac679dd54b6dfe7471b5abf265bb0c",
-    "bytes": 15657,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "4c5d4172deb7e5117755f99c76b9800b098ef4b73c8d8652d1a9fcb73c1ff070",
+    "bytes": 15691,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -129,6 +130,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": []
   },
   "revenue_accrual": {

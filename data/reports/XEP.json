@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes; proof-of-stake rewards of up to 3% a year",
     "team_wallet_to_exchange_during_pump": "not proven: no team wallets are disclosed, and the native explorer couldn't be read",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "not found; native rich list unreachable"
   },
   "price_usd": 9.133e-05,
@@ -70,9 +71,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/XEP.md",
-    "sha256": "9663711d75c92a9ad6c36f4dd3334df33f09798bd05bb6f0d3e2f7cdd995c562",
-    "bytes": 8842,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "4e908d7b39efdde779cc54cb39b0820a8c376216e428b63e4d27be1e6ae9b9b4",
+    "bytes": 8876,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -118,6 +119,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: no team wallets are disclosed, and the native explorer couldn't be read"
     ]

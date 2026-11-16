@@ -40,6 +40,7 @@
     "mint_path_live": "no (no mint function; fixed 10B)",
     "pause_power": "yes: token owner 0xb22dc759f194f5d00f1981bf47ab5c3572562c96 (deployer EOA) can pause all transfers",
     "team_wallet_to_exchange_during_pump": "none found; pump-day flows traced to exchange-cycling wallets",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "yes: mining-rewards reserve 0xa6045362e295db86da338da6b2a9f439add951b2 (1.63B CELR, 16.3%) is a plain EOA, labelled Celer Network: Treasury by Arkham"
   },
   "price_usd": 0.0019601,
@@ -106,9 +107,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CELR.md",
-    "sha256": "badaa4f8abdab7a84f09fb70dc5ad00cd79f44490248e890ad6b538320c5603d",
-    "bytes": 16843,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "cc7f6c0a2c6d88829cedfc0af6303300316e02b244f351ab3af9626a3e215f24",
+    "bytes": 16877,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -222,6 +223,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found; pump-day flows traced to exchange-cycling wallets"
     ]

@@ -19,6 +19,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: "yes (31 Aug 2026 binary-options settlement exploit, ~$4.9M reported; chain stopped ~3h42m for emergency release v1.20.3-safeharbor.1; second block-production stop 9 Nov 2026; no full postmortem published)"
   treasury_to_exchange_during_pump: "yes, not on a pump day (Arkham 'Injective: Treasury' 0x7e23… sent 5,999,999 INJ to a Binance deposit on 22 Aug 2022); the 650,000 INJ sent to a Binance deposit on 1-8 Dec 2020 pump days came from 0x7ee1…, which Arkham files under GSR Markets: treasury-funded market-maker flow, not a direct treasury sale"
   treasury_funded_wallet_to_exchange_during_pump: "yes, 2020-2024 (e.g. 200k from unlabelled 0x0e64…, funded by an Arkham-labelled Injective wallet, to a Binance deposit on 11-12 Feb 2022, +55%/+41%; 650k via market maker GSR Markets in Dec 2020; 379k from team-chain wallet inj1derhu… to a memo hot wallet on 2023-24 pump days); nothing traced on 2025-26 pump days"

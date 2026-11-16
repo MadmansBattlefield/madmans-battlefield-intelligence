@@ -1,6 +1,6 @@
 ---
 title: Review flags
-generated_at: 2026-11-16 14:41 MST
+generated_at: 2026-11-16 14:44 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Scores on this page were not changed.
 ---
@@ -17,10 +17,11 @@ The rules these flags apply are in [METHODOLOGY.md](METHODOLOGY.md). Machine-rea
 
 Rule: only a verified entity label with on-chain proof, or a second independent source, can move a Selling or Holdings score. Prediction labels and unlabelled attributions cannot move those scores by themselves.
 
-**1 report(s) flagged.**
+**2 report(s) flagged.**
 
 | Ticker | Selling | Holdings | Why |
 |---|---:|---:|---|
+| [FXS](banking-rails/FXS.md) | 1 | 4 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [ZBCN](banking-rails/ZBCN.md) | 1 | 4 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 
 ## 2. Selling or Holdings cites an Arkham label with no second source parsed

@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none
   mint_path_live: "protocol issuance only (~56M DOT/yr after 14 Mar 2026, hard cap 2.1B set by Ref 1710); no admin mint key"
   team_wallet_to_exchange_during_pump: "not proven (W3F-linked multisig-proxied account 13FzGL… and two other W3F-linked wallets sent 33.1M DOT (29.4M from 13FzGL…) into deposit-style account 14mr97…, which forwards to an unidentified high-throughput service; 4.0M of it on 14 pump days, 2023-2026; service and owner [Unverified])"
+  one_hop_sale_status: none_found
   treasury_selling: "disclosed (OpenGov Refs 457/1104/1501/1729 swap treasury DOT for USDT/USDC through Hydration DCA; Ref 1729 = 2.64M DOT)"
   chain_stalls_2026: "4 partial stalls (parachains 23 Mar, People chain 22 Apr, Asset Hub ~30 min 12 Jun, staking election 30 Jun - 3 Jul); no funds lost"
 methodology_effective: 2026-11-16

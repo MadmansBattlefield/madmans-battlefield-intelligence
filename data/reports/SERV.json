@@ -37,6 +37,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "proven",
     "treasury_sells_into_pumps": "tripped",
     "treasury_to_exchange": "tripped_10M_into_MEXC_deposit_address_11_Nov_2026",
     "owner_can_freeze_transfers": "present_unused",
@@ -67,9 +68,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SERV.md",
-    "sha256": "3ce79121a4f841273de4d0fbb98f387153609fb0a36cbd891f089c171267dd56",
-    "bytes": 35691,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "ea3765a199bd6fa44d0018372a8d0ce960161630db05ca5a65dee7b305b9f598",
+    "bytes": 35721,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -464,6 +465,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "silence",
     "pump_day_undisclosed_penalty_applied": true,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "treasury_sells_into_pumps: tripped"
     ]

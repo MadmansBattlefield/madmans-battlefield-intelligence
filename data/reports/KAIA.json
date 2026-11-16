@@ -39,6 +39,7 @@
     "hack_exploit": "none found on Kaia mainnet",
     "mint_path_live": "yes: 9.6 KAIA minted per block (~300M a year, ~5.2% inflation), with no cap; half goes to Foundation-run KEF/KIF",
     "team_wallet_to_exchange_during_pump": "not tested: Kaiascan's API needs a key this pass did not have, so fund-wallet outflows could not be traced",
+    "one_hop_sale_status": "none_found",
     "treasury_selling": "KIF budget explicitly covers 'token swap' and 'providing market liquidity'; ~295M KAIA disbursed from the KIF executor and ~129M from KEF since Aug 2024; destinations only on Kaia Square"
   },
   "price_usd": 0.02917,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/KAIA.md",
-    "sha256": "5d588c2ed70afe8a9ce875f8ff864d725d09af28171fdde00eb1f57123afcb0e",
-    "bytes": 13834,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "9f870813f8ad681dc67ce47eeec2f7ff18953d1f573aa7fe8e7e1320b7d009d9",
+    "bytes": 13868,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -141,6 +142,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not tested: Kaiascan's API needs a key this pass did not have, so fund-wallet outflows could not be traced"
     ]

@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no: 24B minted once on 25 Nov 2025 (one mint, no burns); 6B Reserve released only as block rewards",
     "team_wallet_to_exchange_during_pump": "not proven: the Foundation's bucket-to-address mapping site blocked automated reads, so its wallets were not traced",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "yes: Midnight Foundation 35% + Midnight TGE Ltd. 15.25% = 50.25% of supply, fully unlocked since 10 Dec 2025"
   },
   "price_usd": 0.04543,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/NIGHT.md",
-    "sha256": "69cbcd87b0d9c3519eebe807da62a8c25147dff6ba4388279ef8e1fcecf2e0f2",
-    "bytes": 12539,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "64ed252c49e245e30664da860deaef32770a90f05f90f7d250acd3494f0d40bf",
+    "bytes": 12573,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -111,6 +112,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: the Foundation's bucket-to-address mapping site blocked automated reads, so its wallets were not traced"
     ]

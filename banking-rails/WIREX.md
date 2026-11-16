@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no new minting found; 10B total, ~2.3B circulating"
   team_wallet_to_exchange_during_pump: "not proven: the mint line last deposited to OKX in Nov 2023 (status 1); none in the last year at 30M+ WXT; Wirex custodial wallets unknown"
+  one_hop_sale_status: none_found
   entity_concentration: "yes: ~77% of supply outside circulation (platform reserve, team, R&D allocations)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

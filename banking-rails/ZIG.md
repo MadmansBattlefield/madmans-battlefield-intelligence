@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "no on the Ethereum token (fixed 2B, no mint function); native ZIGChain has 1–2% staking inflation and a 2.5B mainnet cap"
   team_wallet_to_exchange_during_pump: "not on a pump day: a Safe run by the same 3 signers as the founders' Safe (signers funded by or labelled Zignaly: Deployer per Arkham) sent 335.67M ZIG via relay 0x38ae… into a Bybit deposit (Nansen + Arkham), 16–22 Jan 2024 (price fell); earlier Safe-sourced ZIG reached an HTX deposit (400M, 9 Jun 2022) and a Gate deposit (200M, 6 Oct 2022) via 0x6f04 → 0x3367, not pump days; no disclosure found"
+  one_hop_sale_status: none_found
   reported_volume_concentration: "~94% of CoinGecko-reported 24h volume ($51.4M of $54.4M) is one PancakeSwap V3 BSC venue, on a $48M market cap"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

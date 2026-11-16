@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "yes: the SPL mint authority is a plain System-owned wallet (single key), and supply grew ~6.8M HONEY from 16 Oct to 16 Nov 2026; the 10B cap is policy (MIPs), not code"
   team_wallet_to_exchange_during_pump: "not tested (holder list not retrievable from free Solana RPCs)"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "yes for the mint authority (single key); the freeze authority is an SPL multisig"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

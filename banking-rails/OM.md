@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes: 3% yearly staking inflation up to a 10B MANTRA cap"
   team_wallet_to_exchange_during_pump: "not proven: native-chain treasury wallets not traced"
+  one_hop_sale_status: none_found
   entity_concentration: "Association 12.8% plus core contributors 16.9% of genesis (vesting)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

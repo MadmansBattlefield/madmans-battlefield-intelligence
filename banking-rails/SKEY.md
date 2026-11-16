@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: 1B minted 2020, ~74M burned"
   team_wallet_to_exchange_during_pump: "not proven: a Skey-labelled split wallet sent 5.5M SKEY to a KuCoin deposit on 8 Dec 2025 and 11 Jan 2026 (not pump days); an unlabelled distributor it funds sent 4.5M (28 Nov 2025) and 1.5M (6 Jan 2026) to the same deposit on pump days"
+  one_hop_sale_status: none_found
   entity_concentration: "yes: ~506M SKEY (~55% of supply) still sits in wallets split from the 700M company wallet"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

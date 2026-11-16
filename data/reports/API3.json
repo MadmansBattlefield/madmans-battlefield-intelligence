@@ -34,6 +34,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "not_proven",
     "hack_exploit": "none found",
     "treasury_to_exchange_during_pump": "yes (Etherscan 'API3: Treasury' / Arkham 'API3: V1 Treasury' 0xe7aF… sent 250,000 API3 into a Binance deposit on the 28 Jan 2024 pump day (+28.8%) and 240,000 on 23 Apr 2024 (+11.1%); no matching proposal found)",
     "treasury_funded_wallet_to_exchange_during_pump": "yes (DAO Vault multisig 0x8e03… sent 610,000 API3 to 0x9e65… on the 10 Feb 2026 pump day (+13.7%); 609,900 reached a Binance deposit within 71 minutes; 1.83M in total by May 2026; recipient unlabelled on Arkham too)",
@@ -71,9 +72,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/API3.md",
-    "sha256": "3a863b1ec9846f43cee57b82722925c439ca64bd371efdc0f5112f2c17e1820a",
-    "bytes": 32940,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "5547c0c61017721c4b915caa431daa1e4b2a7c34d7a52a412ade5700115b08fa",
+    "bytes": 33057,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -379,6 +380,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: yes (Etherscan 'API3: Treasury' / Arkham 'API3: V1 Treasury' 0xe7aF… sent 250,000 API3 into a Binance deposit on the 28 Jan 2024 pump day (+28.8%) and 240,000 on 23 Apr 2024 (+11.1%); no matching proposal found)",
       "treasury_funded_wallet_to_exchange_during_pump: yes (DAO Vault multisig 0x8e03… sent 610,000 API3 to 0x9e65… on the 10 Feb 2026 pump day (+13.7%); 609,900 reached a Binance deposit within 71 minutes; 1.83M in total by May 2026; recipient unlabelled on Arkham too)"

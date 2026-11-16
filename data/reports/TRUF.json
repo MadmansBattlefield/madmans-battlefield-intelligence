@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no; 1B fixed supply",
     "team_wallet_to_exchange_during_pump": "not proven: the only pump-day exchange deposit found came from an unlabelled holder (low confidence)",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "labelled TRUF Vesting contract 341.6M (34%); an unlabelled holder 154.4M (15%)"
   },
   "price_usd": 0.00218364,
@@ -98,9 +99,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/TRUF.md",
-    "sha256": "7c482917d49c42e1b59e1b49548be620a6655ced05970f55ea50e06f48b1447c",
-    "bytes": 13183,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "604aab4983f4fbe0391a478cb1d7d3734dc02b3d2136b530bece3ec543856956",
+    "bytes": 13217,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -184,6 +185,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: the only pump-day exchange deposit found came from an unlabelled holder (low confidence)"
     ]

@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes, outside the 1-year window: timewarp attacks Apr and May 2018; 560,000-block reorg (~200 days) on 15 Feb 2021"
   mint_path_live: "no beyond PoW issuance; supply ~16.52B, essentially fully mined"
   team_wallet_to_exchange_during_pump: "not applicable: no premine or ICO (2014 launch as DogecoinDark)"
+  one_hop_sale_status: none_found
   entity_concentration: "none known (no team allocation)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

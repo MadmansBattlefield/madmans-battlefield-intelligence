@@ -1,7 +1,7 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:41 MST",
+  "generated_at": "2026-11-16 14:44 MST",
   "universe": 148,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
@@ -147,11 +147,12 @@
     ]
   },
   "fail_selling_gate": {
-    "count": 20,
-    "share": 0.1351,
+    "count": 21,
+    "share": 0.1419,
     "tickers": [
       "CPOOL",
       "EDEL",
+      "FXS",
       "INV",
       "JASMY",
       "KAIO",
@@ -196,12 +197,13 @@
     ]
   },
   "proven_pump_day_sale": {
-    "count": 20,
-    "share": 0.1351,
+    "count": 21,
+    "share": 0.1419,
     "tickers": [
       "ALGO",
       "CELO",
       "CPOOL",
+      "FXS",
       "INV",
       "KAIO",
       "PACT",
@@ -227,8 +229,8 @@
     "tickers": []
   },
   "selling_not_proven": {
-    "count": 91,
-    "share": 0.6149,
+    "count": 90,
+    "share": 0.6081,
     "tickers": [
       "ACH",
       "ADA",
@@ -248,7 +250,6 @@
       "DOT",
       "EDEN",
       "EXA",
-      "FXS",
       "H",
       "HASH",
       "HBAR",
@@ -324,8 +325,8 @@
     ]
   },
   "selling_score_equals_4": {
-    "count": 79,
-    "share": 0.5338,
+    "count": 78,
+    "share": 0.527,
     "tickers": [
       "ACH",
       "AEON",
@@ -341,7 +342,6 @@
       "DOT",
       "EDEN",
       "EXA",
-      "FXS",
       "H",
       "HASH",
       "HYPER",
@@ -409,10 +409,11 @@
     ]
   },
   "undisclosed_pump_day_sale_silence": {
-    "count": 14,
-    "share": 0.0946,
+    "count": 15,
+    "share": 0.1014,
     "tickers": [
       "CPOOL",
+      "FXS",
       "INV",
       "PACT",
       "PHA",
@@ -426,6 +427,59 @@
       "TRB",
       "ZBCN",
       "ZK"
+    ]
+  },
+  "one_hop_sale_proven": {
+    "count": 21,
+    "share": 0.1419,
+    "tickers": [
+      "ALGO",
+      "CELO",
+      "CPOOL",
+      "FXS",
+      "INV",
+      "KAIO",
+      "PACT",
+      "PHA",
+      "POLYX",
+      "QNT",
+      "REQ",
+      "RLC",
+      "ROUTER",
+      "SERV",
+      "SPA",
+      "SUI",
+      "TRB",
+      "XDB",
+      "XLM",
+      "ZBCN",
+      "ZK"
+    ]
+  },
+  "one_hop_transfer_not_proven_sale": {
+    "count": 20,
+    "share": 0.1351,
+    "tickers": [
+      "ACH",
+      "API3",
+      "ARB",
+      "CFG",
+      "COTI",
+      "EDEN",
+      "HYPER",
+      "IOTX",
+      "ONDO",
+      "PROPC",
+      "RBNT",
+      "S",
+      "SHPING",
+      "SOLV",
+      "SYRUP",
+      "TLOS",
+      "TRAC",
+      "XPL",
+      "ZAMA",
+      "ZKP"
     ]
   },
   "revenue_reaches_holders_yes": {

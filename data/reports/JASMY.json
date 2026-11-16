@@ -37,6 +37,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "admin_or_mint": "none (plain ERC-20)",
     "deployer_exchange_deposits": "yes (1,845,000,000 to Gate.io, 2023 – Jan 2025)",
     "pump_day_exchange_deposit_linked_to_issuer": "unverified (29 Sep 2026)"
@@ -71,9 +72,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/JASMY.md",
-    "sha256": "4261e344e7e4583781628356559fdcc58e7762d79305c7fa0f7a28bcc659d1cf",
-    "bytes": 24811,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "02c4244f863efb2c9fe1565141ede77b66ead0faeace281e96460e17088c9814",
+    "bytes": 24845,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -289,6 +290,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "pump_day_exchange_deposit_linked_to_issuer: unverified (29 Sep 2026)"
     ]

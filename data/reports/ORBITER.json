@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no; 10B minted once",
     "team_wallet_to_exchange_during_pump": "not proven: the genesis wallet only bridged to Arbitrum; the one pump-day Bybit deposit found came from a wallet Arkham labels as Bithumb's hot wallet (exchange-to-exchange)",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "genesis wallet 3.7B (37%) on Ethereum; the 4.14B Arbitrum holder is Bithumb's hot wallet (exchange custody)"
   },
   "price_usd": 0.00021095,
@@ -105,9 +106,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ORBITER.md",
-    "sha256": "49652d32d4ca6b3804fdd8c66ac17e43a137ba0bef43a28791633025c6e9343c",
-    "bytes": 14220,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "0ed4fd676f733b62bdbe80e82924364c6da4694e993e6b4af85bb7656a5e2b5d",
+    "bytes": 14254,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -204,6 +205,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: the genesis wallet only bridged to Arbitrum; the one pump-day Bybit deposit found came from a wallet Arkham labels as Bithumb's hot wallet (exchange-to-exchange)"
     ]

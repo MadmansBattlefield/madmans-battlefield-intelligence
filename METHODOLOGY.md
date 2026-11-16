@@ -140,6 +140,8 @@ A one-hop transfer (project wallet → exchange deposit, or project wallet → f
 
 If a plausible published reason exists and neither (a) nor (b) holds, the sale is **not proven**: Selling scores **4**, with no silence penalty, and the report cites the reason. The silence penalty applies only to proven sales. This amendment was applied to every report whose proven sale rested on a one-hop link.
 
+Each report records the outcome in the front-matter field `one_hop_sale_status` (`proven`, `not_proven` or `none_found`), next to `team_wallet_to_exchange_during_pump`. That transfer flag only says a transfer happened; read `one_hop_sale_status` to see whether it counts as a sale. A later budget or program post that does not cover the specific sale is not disclosure of it; the sale stays `silence`.
+
 ---
 
 ## 4. Revenue is locked to token-holder accrual

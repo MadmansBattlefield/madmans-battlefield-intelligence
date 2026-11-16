@@ -60,18 +60,18 @@ Ties are broken by how many of the 11 sections passed.
 37. 🔴 **WAN** · 4.7 · ❌ FAIL
 38. 🔴 **CARDS** · 4.7 · ❌ FAIL
 39. 🔴 **SOLV** · 4.6 · ❌ FAIL
-40. 🔴 **FXS** · 4.6 · ❌ FAIL
-41. 🔴 **MNT** · 4.5 · ❌ FAIL
-42. 🔴 **RLS** · 4.5 · ❌ FAIL
-43. 🔴 **INV** · 4.4 · ❌ FAIL
-44. 🔴 **HUMA** · 4.4 · ❌ FAIL
-45. 🔴 **RVN** · 4.4 · ❌ FAIL
-46. 🔴 **CFG** · 4.4 · ❌ FAIL
-47. 🔴 **QNT** · 4.3 · ❌ FAIL
-48. 🔴 **ICP** · 4.3 · ❌ FAIL
-49. 🔴 **RED** · 4.3 · ❌ FAIL
-50. 🔴 **PRO** · 4.3 · ❌ FAIL
-51. 🔴 **TRAC** · 4.2 · ❌ FAIL
+40. 🔴 **MNT** · 4.5 · ❌ FAIL
+41. 🔴 **RLS** · 4.5 · ❌ FAIL
+42. 🔴 **INV** · 4.4 · ❌ FAIL
+43. 🔴 **HUMA** · 4.4 · ❌ FAIL
+44. 🔴 **RVN** · 4.4 · ❌ FAIL
+45. 🔴 **CFG** · 4.4 · ❌ FAIL
+46. 🔴 **QNT** · 4.3 · ❌ FAIL
+47. 🔴 **ICP** · 4.3 · ❌ FAIL
+48. 🔴 **RED** · 4.3 · ❌ FAIL
+49. 🔴 **PRO** · 4.3 · ❌ FAIL
+50. 🔴 **TRAC** · 4.2 · ❌ FAIL
+51. 🔴 **FXS** · 4.2 · ❌ FAIL
 52. 🔴 **AMP** · 4.2 · ❌ FAIL
 53. 🔴 **GRND** · 4.2 · ❌ FAIL
 54. 🔴 **ETC** · 4.1 · ❌ FAIL
@@ -175,6 +175,11 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+- **Cleanup (16 Nov 2026):** FXS Selling 4 → 1 (Selling gate restored). The CoW swap is a proven sale, and FIP-441 came later and does not cover that specific sale, so disclosure stays silence and the penalty applies, the same treatment as the other proven sales. Stale penalty wording was removed from the not-proven reports. Reports now carry `one_hop_sale_status` (proven / not_proven / none_found) next to the team-wallet transfer flag.
+
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 - **One-hop amendment (16 Nov 2026), batch 2:** Selling → 4 (not proven: plausible published reason, with neither a team-attributed exchange account nor evidence of a sale): SHPING 2→4 (cash-out program), RBNT 1→4 (node-operator rewards), API3 1→4 (disclosed market-maker loans), TLOS 1→4 (Ops and Expenses account), ZKP 1→4 (exchange-marketing and liquidity pools), COTI 0→4 (market-maker and custodian balances in its filing), HYPER 0→4 (initial-liquidity purpose), S 0→4 (governance-approved funding uses), ZAMA 0→4 (2% liquidity allocation), XPL 0→4 (liquidity and exchange-integration uses), ACH 0→4 (vesting releases and custody). SYRUP stays 4, now recorded as not proven. Still proven, so unchanged: ZBCN, ROUTER, SERV (DEX sales), TRB (team-attributed pass-through), QNT, REQ, RLC, CPOOL, POLYX, SPA, ZK, PACT, PHA (no published reason). The Selling gate is removed for all 11 re-scored coins; there are no pass/fail changes.
 
@@ -849,18 +854,7 @@ Score changes from that research:
 
 ---
 
-## #40 · FXS · Frax (prev. FXS)
-
-### 4.6 / 10 · ❌ FAIL
-
-- **Sections passed:** 3 of 11
-- **Hard gates failed:** none
-- **Verdict:** Real DeFi fees that the token barely captures, with 43M new tokens pre-approved for team budgets. Arkham shows the Comptroller's 1M FXS to Odos was a WFRAX conversion, not a budget wallet.
-- 📄 [Full FXS report](FXS.md)
-
----
-
-## #41 · MNT · Mantle
+## #40 · MNT · Mantle
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -871,7 +865,7 @@ Score changes from that research:
 
 ---
 
-## #42 · RLS · Rayls
+## #41 · RLS · Rayls
 
 ### 4.5 / 10 · ❌ FAIL
 
@@ -882,7 +876,7 @@ Score changes from that research:
 
 ---
 
-## #43 · INV · Inverse Finance
+## #42 · INV · Inverse Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -893,7 +887,7 @@ Score changes from that research:
 
 ---
 
-## #44 · HUMA · Huma Finance
+## #43 · HUMA · Huma Finance
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -904,7 +898,7 @@ Score changes from that research:
 
 ---
 
-## #45 · RVN · Ravencoin
+## #44 · RVN · Ravencoin
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -915,7 +909,7 @@ Score changes from that research:
 
 ---
 
-## #46 · CFG · Centrifuge
+## #45 · CFG · Centrifuge
 
 ### 4.4 / 10 · ❌ FAIL
 
@@ -926,7 +920,7 @@ Score changes from that research:
 
 ---
 
-## #47 · QNT · Quant
+## #46 · QNT · Quant
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -937,7 +931,7 @@ Score changes from that research:
 
 ---
 
-## #48 · ICP · Internet Computer
+## #47 · ICP · Internet Computer
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -948,7 +942,7 @@ Score changes from that research:
 
 ---
 
-## #49 · RED · RedStone
+## #48 · RED · RedStone
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -959,7 +953,7 @@ Score changes from that research:
 
 ---
 
-## #50 · PRO · Propy
+## #49 · PRO · Propy
 
 ### 4.3 / 10 · ❌ FAIL
 
@@ -970,7 +964,7 @@ Score changes from that research:
 
 ---
 
-## #51 · TRAC · OriginTrail
+## #50 · TRAC · OriginTrail
 
 ### 4.2 / 10 · ❌ FAIL
 
@@ -978,6 +972,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** A real knowledge-graph network with a fixed 500M supply but no protocol revenue, and a founder-controlled treasury of 100M+ TRAC that moves through unlabelled wallets and bridges with no published accounting. Arkham labels none of those wallets; it confirms the Wintermute route.
 - 📄 [Full TRAC report](TRAC.md)
+
+---
+
+## #51 · FXS · Frax (prev. FXS)
+
+### 4.2 / 10 · ❌ FAIL
+
+- **Sections passed:** 3 of 11
+- **Hard gates failed:** Selling
+- **Verdict:** Real DeFi fees that the token barely captures, with 43M new tokens pre-approved for team budgets. Arkham shows the Comptroller's 1M FXS to Odos was a WFRAX conversion, not a budget wallet.
+- 📄 [Full FXS report](FXS.md)
 
 ---
 

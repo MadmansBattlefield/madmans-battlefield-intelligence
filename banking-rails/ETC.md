@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "no exploit in the review window; history of 51%-attack reorganizations (Jan 2019, three in Aug 2020); hashrate still rentable"
   mint_path_live: "no: fixed emission schedule (ECIP-1017, 20% cut every 5M blocks), ~210.7M cap"
   team_wallet_to_exchange_during_pump: "not applicable: no live team or treasury allocation; the 2015 Ethereum genesis presale balances are legacy, not traced here"
+  one_hop_sale_status: none_found
   treasury_selling: "not applicable today; the proposed Olympia upgrade (targeted 2027) would route base fees to a treasury contract"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

@@ -34,6 +34,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none_found",
     "team_sale_into_pump": "not_found_12_months_traced",
     "migration_budget_burn_by_owner": "possible_not_used",
@@ -79,9 +80,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/AERO.md",
-    "sha256": "471df5e2553cb28ebe1360cc62074ee30679cf91ec2dea912fbaa5317ca27930",
-    "bytes": 28149,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "4a8253932e59fc67e4e506d50619e1757d24ec5fbccee3af88961130ceef817d",
+    "bytes": 28183,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -240,6 +241,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_sale_into_pump: not_found_12_months_traced"
     ]

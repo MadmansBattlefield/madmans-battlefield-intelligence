@@ -34,6 +34,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none",
     "foundation_sale_on_pump_day": "not_found",
     "undisclosed_foundation_to_exchange_flow": "not_found"
@@ -74,9 +75,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ETH.md",
-    "sha256": "46c0afb4d2086f44a4a568d1b77f13c846e749320446925f024490066d075ef3",
-    "bytes": 20826,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "ec702c3f628a03f75b9807d03adb7bfa04d30aba0c9b90a4a6424271c1d73b7b",
+    "bytes": 20860,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -231,6 +232,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "foundation_sale_on_pump_day: not_found"
     ]

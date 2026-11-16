@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes; inflation targets ~24% staking APY while PSE is paused, and PSE resumes Dec 2027",
     "team_wallet_to_exchange_during_pump": "not proven: foundation recipient accounts hold less than they likely received, but public nodes return no outgoing transfers to trace",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "PSE clearing accounts still hold 90.5B of 102.2B supply (89%); 54.3B of it is earmarked for the foundation, founding partners, partnerships, investors and team"
   },
   "price_usd": 0.00126666,
@@ -84,9 +85,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/TX.md",
-    "sha256": "86ed3e820b21b52d593ac00790f1bf656db14716cd2677ca90dae3aae4fdd9a2",
-    "bytes": 11429,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "28d8c68f31138f4b35609526efedab8358392b34f5ef628adc662d780087ba14",
+    "bytes": 11463,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -132,6 +133,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: foundation recipient accounts hold less than they likely received, but public nodes return no outgoing transfers to trace"
     ]

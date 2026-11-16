@@ -19,6 +19,7 @@ section_scores:
   catalysts: 2
 gates_failed: [revenue, selling_behavior]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: tripped_twice
   official_liquidity_pulled: tripped
   founder_or_director_exit: none_found

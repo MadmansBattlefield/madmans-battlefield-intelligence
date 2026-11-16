@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes: Jul 2024 security breach; validators halted the chain from 27 to 31 Jul 2024 to stop unauthorized transfers"
   mint_path_live: "yes: 8% yearly inflation (6% stakers, 2% to the Casper Association) plus a one-time 4.76B CSPR (33%) issuance minted 23 Mar 2026"
   team_wallet_to_exchange_during_pump: "not tested (Association wallets not retrievable without a CSPR.cloud key); the Association disclosed ~250M CSPR for market liquidity plus OTC placements"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "unknown"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

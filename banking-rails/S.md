@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none on Sonic found; Fantom-era incidents (Multichain bridge collapse, Jul 2023) predate S"
   mint_path_live: "yes: no hard cap; governance has approved repeated new issuance (airdrop 190.5M, ongoing funding 47.6M a year for 6 years, 472.4M institutional issuance on 4 Sep 2025, plus a possible $50M ETF issuance)"
   team_wallet_to_exchange_during_pump: "yes: the Fantom Foundation-labelled wallet sent 40.5M S to a Binance deposit on 21 Aug 2026 (+29.8% day); a Sonic issuance-signer wallet sent 76.6M S on 9-10 May 2025 pump days to a market-maker-like wallet"
+  one_hop_sale_status: not_proven
   treasury_selling: "292.5M S (~$11.7M) from the 150M-S 'Sonic USA'-sized issuance wallet, the Fantom Foundation wallet and the ongoing-funding wallet went to one Binance deposit address (Mar-Aug 2026); not disclosed as sales"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
@@ -131,7 +132,7 @@ layout_version: 3
 - The Jan–Apr 2025 transfers from `0x6e9f…` to Crypto.com, Gate, BTC Turk and Binance US fall in the FTM→S exchange migration window. They are treated as likely migration swaps [Unverified], not sales.
 - Whether Binance sold the 292.5M S or holds it in custody is [Unverified]. No disclosure of these transfers was found.
 
-**What it means:** Issuance and Foundation wallets keep feeding one exchange account, one deposit landed on a pump day, and none of it is disclosed. **2 → hard-gate FAIL.**
+**What it means:** Issuance and Foundation wallets keep feeding one exchange account, one deposit landed on a pump day, and none of it is specifically disclosed. The published funding uses are a plausible reason, and no sale is shown, so under the 16 Nov 2026 one-hop amendment Selling is **4 (not proven)**, with no penalty and no hard gate.
 
 - **One-hop amendment (16 Nov 2026):** Sonic publishes governance-approved issuance and funding uses for Foundation tokens ([S token docs](https://docs.soniclabs.com/sonic/s-token), [Sonic in 2026 and beyond](https://www.soniclabs.com/blog/sonic-in-2026-and-beyond/)), and whether Binance sold or holds the tokens in custody is [Unverified]. That is a plausible published reason. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 

@@ -34,6 +34,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "burn_below_50pct_of_gross_mint_30d": "clear",
     "foundation_or_sv_wallet_to_exchange_on_pump_day": "watch",
     "hack_exploit": "none"
@@ -61,9 +62,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CC.md",
-    "sha256": "3295686e343080c70c732aedab5ade7c44f955646827b02741e323d4ec8d3ddd",
-    "bytes": 39066,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "abea0dba47ff86dce411e4b7adffaea769a21343b2d655e0af1bdf22eb72101e",
+    "bytes": 39100,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -196,6 +197,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "foundation_or_sv_wallet_to_exchange_on_pump_day: watch"
     ]

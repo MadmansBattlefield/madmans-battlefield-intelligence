@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found on Kaia mainnet"
   mint_path_live: "yes: 9.6 KAIA minted per block (~300M a year, ~5.2% inflation), with no cap; half goes to Foundation-run KEF/KIF"
   team_wallet_to_exchange_during_pump: "not tested: Kaiascan's API needs a key this pass did not have, so fund-wallet outflows could not be traced"
+  one_hop_sale_status: none_found
   treasury_selling: "KIF budget explicitly covers 'token swap' and 'providing market liquidity'; ~295M KAIA disbursed from the KIF executor and ~129M from KEF since Aug 2024; destinations only on Kaia Square"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

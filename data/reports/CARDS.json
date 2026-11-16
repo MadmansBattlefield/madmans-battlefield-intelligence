@@ -37,6 +37,7 @@
     "hack_exploit": "none",
     "mint_path_live": "no (mintAuthority and freezeAuthority are null, read 16 Nov 2026)",
     "team_wallet_to_exchange_during_pump": "not proven (no treasury CARDS reached a labelled exchange on a pump day in the wallets traced)",
+    "one_hop_sale_status": "none_found",
     "treasury_to_exchange": "yes, not a pump day (treasury multisig -> fresh relay 4JTA… -> Coinbase deposit -> Coinbase hot wallet, 7,000,000 CARDS, 6 Nov 2026; no disclosure found)",
     "treasury_to_market_maker": "yes, undisclosed: 60M CARDS from treasury-funded cards.sol (redFW…) went 8Qvd… -> 2asR… -> Fireblocks custody 6rQG…, which sends 0.4–2M lots to GSR Markets custody (Arkham, Tier B); pump-day timing not tested",
     "treasury_pump_day_outflows": "14 Jun 2026 (9.5M via a multisig signer to a reward-claim vault) and 5 Oct 2026 (1.25M to unlabelled DFEstp…, onward owner [Unverified])"
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CARDS.md",
-    "sha256": "bf9f9cd2426434185aa77aa6b9c7449cde3789d74a10ca3882f6e3ae60e13834",
-    "bytes": 34711,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "fd9427f44b7fc0e506f3dc81cd9276380ceb5767eba401132622d2fa677e9251",
+    "bytes": 34745,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -411,6 +412,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven (no treasury CARDS reached a labelled exchange on a pump day in the wallets traced)",
       "treasury_to_exchange: yes, not a pump day (treasury multisig -> fresh relay 4JTA… -> Coinbase deposit -> Coinbase hot wallet, 7,000,000 CARDS, 6 Nov 2026; no disclosure found)",

@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes; OPERATOR_ROLE can mint, and ADMIN_ROLE can upgrade the contract (UUPS)",
     "team_wallet_to_exchange_during_pump": "none found: a $1 stablecoin has no pump days, and the Treasury has made no exchange deposits",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "the Treasury and one wallet it funded hold 2.72B of 2.83B PUSD (96%) on Ethereum; 46 holders"
   },
   "price_usd": null,
@@ -80,9 +81,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/PALMUSD.md",
-    "sha256": "4113983b5c16bedf2395e85697bc9cecd2d869affb87ab1309abea7515344613",
-    "bytes": 11496,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "acccb353d986c446c5e335e18b6f17918599448261a1ac4c4aa80f4f1aa89842",
+    "bytes": 11530,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -159,6 +160,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found: a $1 stablecoin has no pump days, and the Treasury has made no exchange deposits"
     ]

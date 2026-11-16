@@ -4,13 +4,13 @@
   "name": "Frax (prev. FXS)",
   "chain": "ethereum",
   "contract": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
-  "overall_score": 4.6,
+  "overall_score": 4.2,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 4,
     "foundation_team": 6,
     "insider_holdings": 4,
-    "selling_behavior": 4,
+    "selling_behavior": 1,
     "tokenomics_supply": 4,
     "liquidity_market": 3,
     "product_development": 7,
@@ -20,7 +20,9 @@
     "catalysts": 5
   },
   "sections_passed": 3,
-  "gates_failed": [],
+  "gates_failed": [
+    "selling_behavior"
+  ],
   "hard_gates": {
     "revenue": {
       "score": 4,
@@ -28,15 +30,16 @@
       "tripped": false
     },
     "selling_behavior": {
-      "score": 4,
+      "score": 1,
       "threshold": 3,
-      "tripped": false
+      "tripped": true
     }
   },
   "red_lines": {
     "hack_exploit": "none found",
     "mint_path_live": "yes, by governance: FIP-441 (passed 5 Feb 2026) caps supply at 143M and pre-mints 43M FRAX for team-run budgets, FPIS redemptions and the legacy-FRAX wind-down; on-chain execution of the pre-mint not confirmed",
     "team_wallet_to_exchange_during_pump": "small: the Comptroller Safe swapped 13,794 WFRAX to frxUSD via CoW Protocol on 21 Jan 2026 (+46% over 5 days); its 469k WFRAX of 2026 sales are otherwise steady monthly spends",
+    "one_hop_sale_status": "proven",
     "treasury_in_single_key_wallets": "no (the Comptroller is a 3-of-5 Safe)"
   },
   "price_usd": 0.209061,
@@ -46,8 +49,8 @@
     "revenue_reaches_holders": "no",
     "revenue_mechanism": "DefiLlama tracks $0 to holders; FIP-441 only allows up to 10% of eligible net revenue to veFRAX, and that has not executed. Holders have no live claim on revenue; the score describes the business, not holder accrual.",
     "pump_day_price_source": "Gate FRAX/USDT daily closes",
-    "pump_day_disclosure_quality": "buried_disclosure",
-    "pump_day_undisclosed_penalty_applied": false,
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
     "dual_review": "not_run",
     "attributions": [
       {
@@ -69,9 +72,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/FXS.md",
-    "sha256": "f46ee29198aca1f3f93863be56b373eb1d69685ef0cf7c856e262e622e32df09",
-    "bytes": 22384,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "ffc5b33961a8882a8e4b6b2bd20948a31e7d620a2fa9e2707a2d2269a9c72edd",
+    "bytes": 22279,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -229,10 +232,11 @@
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
     "rescored_under_effective_rules": true,
-    "proven_pump_day_sale": "no",
-    "selling_not_proven": true,
-    "disclosure_quality": "buried_disclosure",
-    "pump_day_undisclosed_penalty_applied": false,
+    "proven_pump_day_sale": "yes",
+    "selling_not_proven": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: small: the Comptroller Safe swapped 13,794 WFRAX to frxUSD via CoW Protocol on 21 Jan 2026 (+46% over 5 days); its 469k WFRAX of 2026 sales are otherwise steady monthly spends"
     ]
@@ -392,11 +396,11 @@
     }
   ],
   "review": {
-    "selling_holdings_low_confidence_flag": false,
+    "selling_holdings_low_confidence_flag": true,
     "selling_holdings_single_source_arkham_flag": false,
     "revenue_accrual_inconsistent": false,
     "flag_notes": [
-      "Low-confidence or unlabelled attribution appears in Selling or Holdings; Selling is 4 (not proven), which matches the rule that such a label cannot move the score alone."
+      "Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration."
     ],
     "dual_review": {
       "status": "not_run",

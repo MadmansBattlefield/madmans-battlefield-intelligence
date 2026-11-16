@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "n/a; no NUVA token; vault tokens mint 1:1 against deposits"
   team_wallet_to_exchange_during_pump: "not proven: there is no NUVA token to sell"
+  one_hop_sale_status: none_found
   entity_concentration: "HOME vault: the top 8 holders each hold almost exactly 1.0M"
 price_usd: null
 price_source: "No NUVA token exists (checked CoinGecko and nuva.finance, 16 Nov 2026 ~1:30 PM MST)"

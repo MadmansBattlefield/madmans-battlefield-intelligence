@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: 100M fully issued in 2017"
   team_wallet_to_exchange_during_pump: "not proven: wallets funded from the 2017 sale contract moved ~17.0M PRO (~$5.1M) to Coinbase Prime on 1 Jan 2026, three days before a +52.9% run; not a pump day, and Coinbase Prime can be custody"
+  one_hop_sale_status: none_found
   entity_concentration: "yes: issuer held ~29M PRO (29%) per its Aug 2025 MiCA white paper"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

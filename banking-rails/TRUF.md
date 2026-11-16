@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no; 1B fixed supply"
   team_wallet_to_exchange_during_pump: "not proven: the only pump-day exchange deposit found came from an unlabelled holder (low confidence)"
+  one_hop_sale_status: none_found
   entity_concentration: "labelled TRUF Vesting contract 341.6M (34%); an unlabelled holder 154.4M (15%)"
 price_usd: 0.00218364
 price_source: "CoinGecko, 16 Nov 2026 ~12:30 PM MST"

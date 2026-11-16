@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none",
     "foundation_wallets_unpublished": "tripped",
     "fees_under_100k_per_year": "tripped"
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SEI.md",
-    "sha256": "2fa8887c9123bdb642e295d9337c7949df5c4e00a1e9d4558bf5de75e710d08d",
-    "bytes": 14572,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "687b1467a3d308f96312ef619c4eea6dd248d2b180590cf922b05678baff117f",
+    "bytes": 14606,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -133,6 +134,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": []
   },
   "revenue_accrual": {

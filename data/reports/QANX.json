@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no: 3.333B minted once in Feb 2023; 1.233B burned Dec 2023",
     "team_wallet_to_exchange_during_pump": "not proven: no exchange deposits of 1M QANX or more from the top Ethereum holders in the window; team wallets aren't identified, and the BNB Chain side isn't traced",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "1.1B (52% of the 2.1B live supply) sits in the Etherscan-labelled QANX Bridge Allocation wallet, untouched since Dec 2023"
   },
   "price_usd": 0.00786508,
@@ -105,9 +106,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/QANX.md",
-    "sha256": "6524d6140d9cbabb311a8ba85fe8e97e2964d7b0a3abc3df66c748c3aaf4f525",
-    "bytes": 14269,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "5c9d9bb51308d1d6a9fc833acb2acd7fab19a1add0d6c3a530506e23fbd3e48a",
+    "bytes": 14303,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -191,6 +192,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: no exchange deposits of 1M QANX or more from the top Ethereum holders in the window; team wallets aren't identified, and the BNB Chain side isn't traced"
     ]

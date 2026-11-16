@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "not_proven",
     "hack_exploit": "no protocol-level exploit found; an app-configured warp route (Autheo THEO, TrustedRelayerIsm) lost ~$1.76M on 12 Oct 2026; a public 'critical' vault-insolvency report (issue #9068) has been open since 18 Jul 2026",
     "treasury_to_exchange_during_pump": "yes, via foundation-funded wallets (8 wallets funded with 9.5M HYPER by the foundation-allocation Safe 0x87fc… on 21-22 Apr 2025 sent 9.5M to Binance/Bybit deposits on 10-12 Jul 2025, +351% to +472%)",
     "treasury_funded_wallet_to_exchange_during_pump": "yes (above; plus Safe 0x1686…, paid monthly by foundation-funded 0x0102…, sent 250k to a Binance deposit on the 22 Sep 2026 pump day, +15.1%)",
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/HYPER.md",
-    "sha256": "788453ad3cc0967333d59a5e6446cec8aeb6f0e395e0364ede67ceedea416892",
-    "bytes": 33136,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "fb7c18fbee57cefac004c0337782cd1c71a93c4a7b6d7824e2adcf2113252f3d",
+    "bytes": 33353,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -465,6 +466,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: yes, via foundation-funded wallets (8 wallets funded with 9.5M HYPER by the foundation-allocation Safe 0x87fc… on 21-22 Apr 2025 sent 9.5M to Binance/Bybit deposits on 10-12 Jul 2025, +351% to +472%)",
       "treasury_funded_wallet_to_exchange_during_pump: yes (above; plus Safe 0x1686…, paid monthly by foundation-funded 0x0102…, sent 250k to a Binance deposit on the 22 Sep 2026 pump day, +15.1%)"

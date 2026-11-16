@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: 3.333B minted once in Feb 2023; 1.233B burned Dec 2023"
   team_wallet_to_exchange_during_pump: "not proven: no exchange deposits of 1M QANX or more from the top Ethereum holders in the window; team wallets aren't identified, and the BNB Chain side isn't traced"
+  one_hop_sale_status: none_found
   entity_concentration: "1.1B (52% of the 2.1B live supply) sits in the Etherscan-labelled QANX Bridge Allocation wallet, untouched since Dec 2023"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

@@ -20,6 +20,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: proven
   funded_wallet_to_exchange_on_pump_day: tripped
   revenue_burn_not_active: open
   hack_exploit: none_found

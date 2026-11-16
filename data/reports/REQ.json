@@ -40,6 +40,7 @@
     "hack_exploit": "none found (DefiLlama hacks list empty)",
     "mint_path_live": "no: fixed 1B supply, burn only (999,416,741 left)",
     "team_wallet_to_exchange_during_pump": "yes: the Etherscan-labelled Team Wallet sent 600,000 REQ to Bitfinex on 30 Mar 2021, a +37.1% pump day; no disclosure found",
+    "one_hop_sale_status": "proven",
     "entity_concentration": "Team Wallet holds 184.8M (18.5%); wallets it funded hold another 63.5M (6.3%)"
   },
   "price_usd": 0.0451,
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/REQ.md",
-    "sha256": "3a25dd1ea9cd2f4a9b428a2f212233c0f4e1112c114026a1d1e0f0572a89b0a6",
-    "bytes": 16351,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "b1c17566532cda9c291a0e6a2c709144f2680849e0796e06b40dd739bb29c49f",
+    "bytes": 16381,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -165,6 +166,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "silence",
     "pump_day_undisclosed_penalty_applied": true,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: the Etherscan-labelled Team Wallet sent 600,000 REQ to Bitfinex on 30 Mar 2021, a +37.1% pump day; no disclosure found"
     ]

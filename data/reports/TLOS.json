@@ -39,6 +39,7 @@
     "hack_exploit": "none found in the review window",
     "mint_path_live": "yes: token contract max supply 1B vs 467.6M issued; issuance is controlled by the eosio system account",
     "team_wallet_to_exchange_during_pump": "yes: the Foundation-funded expenses account telosliquidi sent 500k TLOS to Bitget (13 Jan 2026, +14.4%) and 200k to Bitrue (7 May 2026, +70.7%)",
+    "one_hop_sale_status": "not_proven",
     "treasury_in_single_key_wallet": "the Foundation account tf can be moved by any one of three controlling accounts (threshold 1)"
   },
   "price_usd": 0.01266,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/TLOS.md",
-    "sha256": "581c19f7ee81eb4e3898287d25dfee1bfb6d3900b85f42ded5a7786af9053ff1",
-    "bytes": 15283,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "7329b13c4b4b487d61d3b0f57d15d1ffed0a2a273e9cd26c4d804c8b525f54a0",
+    "bytes": 15317,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -148,6 +149,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: the Foundation-funded expenses account telosliquidi sent 500k TLOS to Bitget (13 Jan 2026, +14.4%) and 200k to Bitrue (7 May 2026, +70.7%)"
     ]

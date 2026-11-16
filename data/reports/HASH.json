@@ -39,6 +39,7 @@
     "hack_exploit": "user-wallet compromise via a Web3auth/Keplr vulnerability; governance froze 18 affected accounts on 11 Nov 2026 (prop 118)",
     "mint_path_live": "governance-controlled: nhash is a marker; supply changes need a passed proposal (prop 106 burned 5B in May 2026)",
     "team_wallet_to_exchange_during_pump": "not proven: the largest group-controlled accounts made no sends on pump days found; most trading is on Figure Markets, which is not traceable on-chain from outside",
+    "one_hop_sale_status": "none_found",
     "account_freeze_power": "yes: the sanction module lets governance freeze any account (used in prop 118)"
   },
   "price_usd": 0.006448,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/HASH.md",
-    "sha256": "5dd05ca36c8793e8b8495d12c5cf9fe200c488d1d598d0b802f5dc991578db4c",
-    "bytes": 16392,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "e2b85efe7a1fea9926140e5aa2dfb05bb8dc7b04fdbbfa91b274279fe3766d7c",
+    "bytes": 16426,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -176,6 +177,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: the largest group-controlled accounts made no sends on pump days found; most trading is on Figure Markets, which is not traceable on-chain from outside"
     ]

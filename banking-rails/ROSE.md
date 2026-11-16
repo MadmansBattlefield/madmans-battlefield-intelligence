@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "no; 10B cap fixed, staking rewards paid from a pre-funded common pool (497.6M ROSE left)"
   team_wallet_to_exchange_during_pump: "none found at 2 hops; suspected foundation wallets sent 108M ROSE on pump day 4 Sep 2026 to a non-exchange holder; attribution is community-sourced [Unverified]"
+  one_hop_sale_status: none_found
   unlock_overhang: "896M ROSE still scheduled for Foundation, Community and Strategic buckets through Nov 2030 (≈56M per quarter, ≈ $258K at today's price)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

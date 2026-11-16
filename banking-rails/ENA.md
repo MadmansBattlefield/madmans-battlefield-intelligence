@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none on Ethena contracts; 217.5M ENA was stolen from Binance in its 29 Oct 2026 hot-wallet hack (exchange-side)"
   mint_path_live: "yes, owner-only mint of up to 10% of supply a year; owner is the EthenaTimelockController; never used (lastMintTimestamp = deployment)"
   team_wallet_to_exchange_during_pump: "downgraded after Arkham: the two largest pump-day moves were into custody (35.7M to a Gemini Custody multisig, 19 Jul 2024; 70M to Ethena's own Coinbase Prime deposit, 5 Sep 2025). Remaining pump-day exchange deposits from foundation-funded wallets: 21.8M (unlabelled 0xB2af, 19 Jul 2025), 8M (YZi Labs, Sep 2025), 6.3M (Ethena team vesting proxy, 2026)"
+  one_hop_sale_status: none_found
   treasury_coins_to_exchange_via_market_maker: "yes, ~1.6B ENA from foundation-funded wallets reached Coinbase Prime, Binance, Bybit, Gemini, FalconX and Galaxy OTC deposit addresses (2024–2026), mostly on non-pump days; Arkham labels ~715M of it as Ethena's own custody (Coinbase Prime) or Gemini Custody"
   fee_switch: "approved 8 Sep 2026 but inactive until 14-day average USDe supply reaches $7.5B (now ~$4.85B)"
 methodology_effective: 2026-11-16

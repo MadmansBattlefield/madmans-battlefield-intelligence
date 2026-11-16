@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "planned: 5% validator inflation (falling to 3%) once external validators and delegation go live"
   team_wallet_to_exchange_during_pump: "yes: a wallet funded by the Ecosystem Treasury (genesis 50M + 250M on 21 Aug 2026, itself a +35.7% day) sent 284.5M XPL (~$58M) to Binance, Bybit, Bitget, Gate and one unlabeled deposit; 202M of it in 18 transfers on pump days (Aug-Sep 2026); an investor-allocation recipient sent 23.9M XPL to a Bybit deposit on the cliff day (25 Sep 2026, +28.5%)"
+  one_hop_sale_status: not_proven
   treasury_selling: "Ecosystem Treasury has paid out 960M XPL; docs allow use for 'liquidity needs' and 'exchange integrations', but the sales themselves were not disclosed"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
@@ -119,10 +120,10 @@ Exchange identification: Plasmascan labels the hot wallets (Binance, Bybit Walle
 | [`0x9374…970f`](https://plasmascan.to/address/0x9374437baf4550929a5967d77d4ff979b88c970f) | Ecosystem Treasury (250M) + genesis ecosystem allocation (50M) | **284.5M XPL** (~$58.4M): Binance 133.9M, Bybit 68.4M, unlabeled 45.3M, Bitget 34.5M, Gate 2.5M | **202.0M in 18 tx** (21 Aug, 23 Aug, 3 Sep, 26 Sep 2026) | [Binance 11.3M, 23 Aug (+33.9%)](https://plasmascan.to/tx/0xa025f5ba47d414507444c9f8a0d67ee93c2fdc1faa14aec2f0706b22d1e8b8d9) · [Binance 17.0M, 3 Sep (+11.1%)](https://plasmascan.to/tx/0x020d90da5e17eac75b9232ec556d49d4d51786561b2aa2134408be028a653da7) |
 | [`0x3729…6dcd`](https://plasmascan.to/address/0x37295d829e9a8c562343d2e9377530732eb46dcd) | [71.6M from the Investor wallet](https://plasmascan.to/tx/0x668298f06974047a832d30175f8744b678b13dc737a25ccc876d7213031de95c) (5 Mar 2026) | 25.8M to a Bybit deposit | **23.9M on 25 Sep 2026 (+28.5%)**, the cliff day | [tx](https://plasmascan.to/tx/0xde089fb10759be934343b260ac4789ec36a683f3d37c6174c64affddb3453bf1) |
 
-- The docs allow ecosystem XPL for "liquidity needs" and "exchange integrations", so some exchange flow is expected. But the size and timing (selling into four separate spikes right after a 250M top-up), and the lack of any sale disclosure, meet the hard-gate rule.
+- The docs allow ecosystem XPL for "liquidity needs" and "exchange integrations", so some exchange flow is expected. But the size and timing (selling into four separate spikes right after a 250M top-up), and the lack of any sale disclosure, are why this was a fail before the 16 Nov 2026 one-hop amendment.
 - Team-cliff recipients (24–25 Sep 2026): none of the wallets that got 5M+ XPL sent it to a labeled exchange (directly or via a deposit address) up to 16 Nov 2026. They are still unlocking monthly.
 
-**What it means:** A treasury-funded wallet sold ~$58M into exchanges, most of it on pump days. **1.**
+**What it means:** A treasury-funded wallet sold ~$58M into exchanges, most of it on pump days. The docs' published liquidity and exchange-integration uses are a plausible reason, and no sale is shown, so under the 16 Nov 2026 one-hop amendment Selling is **4 (not proven)**, with no penalty and no hard gate.
 
 - **One-hop amendment (16 Nov 2026):** Plasma's [tokenomics docs](https://www.plasma.to/docs/get-started/xpl/tokenomics) allow ecosystem XPL for "liquidity needs" and "exchange integrations", a plausible published reason for treasury-funded exchange deposits. Neither (a) nor (b) holds: no exchange account is attributed to the team, and no swap, proceeds return or statement shows a sale. Under the amended rule Selling scores **4 (not proven)** with no silence penalty; this replaces the earlier score and penalty described above.
 

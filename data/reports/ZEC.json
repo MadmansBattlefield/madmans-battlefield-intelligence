@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none found",
     "treasury_to_exchange_during_pump": "not provable (every dev-fund payout is shielded first; consensus requires transparent coinbase outputs to go to a shielded pool)",
     "treasury_funded_wallet_to_exchange_during_pump": "not provable (12 of 100 weekly ZCG/FPF shielding days were pump days, e.g. 17 Sep 2026, +30.7%; destinations hidden)",
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZEC.md",
-    "sha256": "35f4ccbb52f88b0271bd6903823fe6ac765d111d5ee92fb7a2afe7016e0f92a4",
-    "bytes": 24937,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "1a8892af0928dd1bebbfb29a687a2c36d16bdaa81479d03143a40a06fa782dc6",
+    "bytes": 24971,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -286,6 +287,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: not provable (every dev-fund payout is shielded first; consensus requires transparent coinbase outputs to go to a shielded pool)",
       "treasury_funded_wallet_to_exchange_during_pump: not provable (12 of 100 weekly ZCG/FPF shielding days were pump days, e.g. 17 Sep 2026, +30.7%; destinations hidden)"

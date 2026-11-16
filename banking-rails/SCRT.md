@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes: the CW20-ICS20 contract on the Axelar route was drained of ~$4.67M through an infinite-mint flaw (10 Jun 2026), unnoticed for seven days"
   mint_path_live: "yes: governance minted 1,079M SCRT on 21 Aug 2026 (v1.26 upgrade); inflation is now pinned at 5%"
   team_wallet_to_exchange_during_pump: "not proven: Foundation and core-development lines sent ~10.2M SCRT (~$92k) to one busy unlabelled hot wallet between 28 Aug and 6 Nov 2026, none on a Gate pump day"
+  one_hop_sale_status: none_found
   entity_concentration: "the ten mint buckets hold ~81% of bonded stake (690.9M of 856.3M SCRT)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no further mint seen: 1B minted once at deploy (block 95,356,998)"
   team_wallet_to_exchange_during_pump: "none found: 0 transfers from 9 traced allocation/reserve wallets on the 30 pump days"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "yes: unreleased move-to-earn (115M) and ecosystem (14.6M) GRND sit in EOAs 0x2890e9710fbf673ee930f7515c3d659ca9fb5751 and 0xd692bee951304510a51bd8a67a2eef49b047bd45"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

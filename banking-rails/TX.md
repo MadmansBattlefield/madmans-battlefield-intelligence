@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes; inflation targets ~24% staking APY while PSE is paused, and PSE resumes Dec 2027"
   team_wallet_to_exchange_during_pump: "not proven: foundation recipient accounts hold less than they likely received, but public nodes return no outgoing transfers to trace"
+  one_hop_sale_status: none_found
   entity_concentration: "PSE clearing accounts still hold 90.5B of 102.2B supply (89%); 54.3B of it is earmarked for the foundation, founding partners, partnerships, investors and team"
 price_usd: 0.00126666
 price_source: "CoinGecko, 16 Nov 2026 ~12:30 PM MST"

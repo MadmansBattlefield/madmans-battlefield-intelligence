@@ -40,6 +40,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes by design: 4,000 TRB/month dev share to the team plus ~4,000 TRB/month to reporters and validators (hard-coded); no max supply",
     "team_wallet_to_exchange_during_pump": "yes: two pass-through wallets funded only by the Tellor MultiSig (directly or via its payout wallet 0x1b8e) sent 24,035 TRB (~$2.93M) to the Etherscan-labelled Coinbase 10 address on seven pump days, Jun 2023 to May 2025, including 7,000 TRB at $243 on 29 Dec 2023; the payout Safe 0x1b8e itself sent 11,000 TRB to Arkham-labelled Coinbase deposits on three pump days in Aug–Oct 2026; no disclosure found",
+    "one_hop_sale_status": "proven",
     "entity_concentration": "Tellor MultiSig holds 76,302 TRB (2.6%)"
   },
   "price_usd": 12.97,
@@ -72,9 +73,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/TRB.md",
-    "sha256": "353db2f93854e85cc3222e949edfe6c7d9294681a32e813210c364676d87ef24",
-    "bytes": 17207,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "f45dab6e81001203605ff1a6e1dd1e9d552cc7b831bf7e0ad6f867603bebeda4",
+    "bytes": 17237,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -185,6 +186,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "silence",
     "pump_day_undisclosed_penalty_applied": true,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: two pass-through wallets funded only by the Tellor MultiSig (directly or via its payout wallet 0x1b8e) sent 24,035 TRB (~$2.93M) to the Etherscan-labelled Coinbase 10 address on seven pump days, Jun 2023 to May 2025, including 7,000 TRB at $243 on 29 Dec 2023; the payout Safe 0x1b8e itself sent 11,000 TRB to Arkham-labelled Coinbase deposits on three pump days in Aug–Oct 2026; no disclosure found"
     ]

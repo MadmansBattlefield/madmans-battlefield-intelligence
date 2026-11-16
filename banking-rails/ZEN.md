@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: all 21,000,000 ZEN already minted on Base; unvested Foundation/DAO tokens release monthly to mid-2029"
   team_wallet_to_exchange_during_pump: "not proven: Base wallet tracing was not available without a paid key; the Foundation discloses that it uses idle ZEN to 'support ZEN capital markets'"
+  one_hop_sale_status: none_found
   entity_concentration: "Foundation (2M) + DAO (~3M) allocations ≈ 24% of max supply, vesting over 48 months from Jul 2025"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

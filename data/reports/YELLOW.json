@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "not proven: 10B minted once at genesis; no further mints seen",
     "team_wallet_to_exchange_during_pump": "not proven: no project-tree transfer to a labelled exchange found within 3 hops; trading is 99% on the project's own venue",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "about 98% of supply sits in 6 project Treasury contracts and 4 wallets they funded"
   },
   "price_usd": 0.08626,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/YELLOW.md",
-    "sha256": "9a9cce4b9c5e9b1cd9cfb9169a99d7122bcef59d127986f86b5eae3256991599",
-    "bytes": 13420,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "5b1a2b90327068e7261dc10d588c6fd28e64c9345ff150194212e04eb98ba80d",
+    "bytes": 13454,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -192,6 +193,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: no project-tree transfer to a labelled exchange found within 3 hops; trading is 99% on the project's own venue"
     ]

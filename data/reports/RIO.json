@@ -39,6 +39,7 @@
     "hack_exploit": "yes: on 25 Aug 2026 ~124.4M RIO was drained from platform wallets (113.7M treasury and reserve, 10.7M user funds); the chain was halted",
     "mint_path_live": "unclear: the native chain is halted; Ethereum supply was minted in Oct 2024 as a migration",
     "team_wallet_to_exchange_during_pump": "not proven: no exchange deposits in the window from the Ethereum holders I could trace; the native chain can't be traced",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "the drained 124.4M (~38% of supply) is with the attacker"
   },
   "price_usd": 0.03328,
@@ -91,9 +92,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/RIO.md",
-    "sha256": "9d58dbeef13b8f30ff0b18fd007fc0e7ec9e3a367d30bc23fa0b5651b304a6d6",
-    "bytes": 11484,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "779546f2fd39870f1f22d9eefe0771ee3f6664a0bc8803949809302966ca7765",
+    "bytes": 11518,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -151,6 +152,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: no exchange deposits in the window from the Ethereum holders I could trace; the native chain can't be traced"
     ]

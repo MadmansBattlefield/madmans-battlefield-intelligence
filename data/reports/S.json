@@ -39,6 +39,7 @@
     "hack_exploit": "none on Sonic found; Fantom-era incidents (Multichain bridge collapse, Jul 2023) predate S",
     "mint_path_live": "yes: no hard cap; governance has approved repeated new issuance (airdrop 190.5M, ongoing funding 47.6M a year for 6 years, 472.4M institutional issuance on 4 Sep 2025, plus a possible $50M ETF issuance)",
     "team_wallet_to_exchange_during_pump": "yes: the Fantom Foundation-labelled wallet sent 40.5M S to a Binance deposit on 21 Aug 2026 (+29.8% day); a Sonic issuance-signer wallet sent 76.6M S on 9-10 May 2025 pump days to a market-maker-like wallet",
+    "one_hop_sale_status": "not_proven",
     "treasury_selling": "292.5M S (~$11.7M) from the 150M-S 'Sonic USA'-sized issuance wallet, the Fantom Foundation wallet and the ongoing-funding wallet went to one Binance deposit address (Mar-Aug 2026); not disclosed as sales"
   },
   "price_usd": 0.03218,
@@ -69,9 +70,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/S.md",
-    "sha256": "8c92913f9cce3b37e9b69b5aed398b54baa30fb38f2e8c0d72ccbc7be3f03e95",
-    "bytes": 19939,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "3ab8b836462d8c12c631431e5035a7f58478cb8d03915832efdbc72d12da72f2",
+    "bytes": 20141,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -235,6 +236,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: the Fantom Foundation-labelled wallet sent 40.5M S to a Binance deposit on 21 Aug 2026 (+29.8% day); a Sonic issuance-signer wallet sent 76.6M S on 9-10 May 2025 pump days to a market-maker-like wallet"
     ]

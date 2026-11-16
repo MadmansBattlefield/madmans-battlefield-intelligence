@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none",
     "council_release_vs_mirror_mismatch": "open",
     "staking_reward_account_runway_under_1y": "watch"
@@ -62,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/HBAR.md",
-    "sha256": "3cb5ecfe9574ab74c4709f82989f477a9ce92d122247fbb3de8632d8aecfb1c1",
-    "bytes": 17617,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "22df45369a7c7a16cd45028b7bb303e6a232849782531b4a3b53b5db19d8cf83",
+    "bytes": 17651,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -185,6 +186,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": []
   },
   "revenue_accrual": {

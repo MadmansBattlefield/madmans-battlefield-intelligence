@@ -873,6 +873,10 @@ def classify_pump(fm: dict, selling: str, text: str) -> dict:
     if penalty:
         proven = "yes"
     rescored = bool(meth.get("effective"))
+    one_hop = str(red.get("one_hop_sale_status") or "").strip().lower()
+    if one_hop not in ("proven", "not_proven", "none_found"):
+        flag = str(red.get("team_wallet_to_exchange_during_pump") or "").strip().lower()
+        one_hop = "proven" if proven == "yes" else ("not_proven" if flag.startswith("yes") else "none_found")
     return {
         "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
         "price_source": pump_source,
@@ -885,6 +889,7 @@ def classify_pump(fm: dict, selling: str, text: str) -> dict:
         "selling_not_proven": bool(sell_score == 4 or (not_proven and proven != "yes")),
         "disclosure_quality": disclosure,
         "pump_day_undisclosed_penalty_applied": penalty,
+        "one_hop_sale_status": one_hop,
         "flags_noted_in_report": flags[:12],
     }
 

@@ -20,6 +20,7 @@ section_scores:
   catalysts: 3
 gates_failed: [revenue, selling_behavior]
 red_lines:
+  one_hop_sale_status: proven
   treasury_sells_into_pumps: tripped
   treasury_to_exchange: tripped_10M_into_MEXC_deposit_address_11_Nov_2026
   owner_can_freeze_transfers: present_unused

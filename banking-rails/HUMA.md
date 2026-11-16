@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found on the protocol; an early LP's own wallet was hacked on 22 Oct 2026 and ~12M airdropped HUMA were sold (Huma's account, Tier B)"
   mint_path_live: "no (Solana mint authority is null; supply fixed at 10B; BSC side is a LayerZero OFT backed 1:1 by the Solana escrow)"
   team_wallet_to_exchange_during_pump: "not found in the vaults traced; but 671.5M HUMA left the 'Huma Investors' and 'Huma Treasury Unlocked' Squads vaults for six fresh wallets on four pump days (30 Sep to 4 Oct 2026); still unsold as of 16 Nov 2026"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "no for the labelled vaults (Squads 3-of-4 and 4-of-5, zero timelock); 671.5M sits in six unlabelled plain wallets that the vaults funded"
   unlock_cliff: "first investor and team unlock on 26 Nov 2026 (investors 20.6% and team/advisors 19.3% of supply, 12 quarterly releases); investor tokens sit in a Huma-controlled Squads multisig, not a vesting contract"
 methodology_effective: 2026-11-16

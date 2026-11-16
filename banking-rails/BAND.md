@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "yes, by design (BandChain mints 7-20%/yr to stakers; 13.0% today); the Ethereum ERC20 is fixed at 100M"
   team_wallet_to_exchange_during_pump: "none found on Ethereum (Band's Locked Swap sent 12M ERC20 BAND to a Binance deposit in 2023-2025 and the Main MultiSig funded 1.64M of exchange deposits in Aug 2025, all on non-pump days); BandChain-native wallets not tested"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "no (the 60.75M BAND Main MultiSig is a 1-of-1 wallet whose only owner is a 2-of-4 Safe)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

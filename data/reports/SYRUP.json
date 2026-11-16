@@ -37,6 +37,7 @@
     "hack_exploit": "none found on the SYRUP token or the syrup pools",
     "mint_path_live": "governance only (MapleToken mints only through modules the Maple GovernorTimelock schedules; the Recapitalization Module's issuance window went to 0 on 1 Oct 2026)",
     "team_wallet_to_exchange_during_pump": "yes, treasury-labelled wallets (Etherscan 'Maple: Treasury 2', 'Maple: Treasury 1', 'Maple: DAO') funded wallets that put SYRUP into exchange deposit addresses on pump days: 7.0M into a Maple-used Binance deposit on 29 Oct, 10 Nov and 22 Dec 2025; 6.25M into a Binance deposit on the 6 May 2025 pump day; ~1.1M into Gate on 21 Nov 2024. Sales not provable on-chain; a market-maker loan program (~2% of supply) is disclosed",
+    "one_hop_sale_status": "not_proven",
     "treasury_coins_to_otc_desk": "yes (SSF wallet 0x99f0 sent 4.6M SYRUP, including bought-back tokens, to a FalconX deposit in Jul and Sep 2026; purpose [Unverified])"
   },
   "price_usd": 0.1016,
@@ -91,9 +92,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SYRUP.md",
-    "sha256": "197e345ae5aaba2e67120388a8585b64e4dbeef6cdc4497c6c351e4bc91cb81e",
-    "bytes": 45251,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "3adf204c5d5f59fb60ef8f867f63f9426357addbec77039deac8d5654ac3c9ce",
+    "bytes": 44925,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -637,6 +638,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes, treasury-labelled wallets (Etherscan 'Maple: Treasury 2', 'Maple: Treasury 1', 'Maple: DAO') funded wallets that put SYRUP into exchange deposit addresses on pump days: 7.0M into a Maple-used Binance deposit on 29 Oct, 10 Nov and 22 Dec 2025; 6.25M into a Binance deposit on the 6 May 2025 pump day; ~1.1M into Gate on 21 Nov 2024. Sales not provable on-chain; a market-maker loan program (~2% of supply) is disclosed"
     ]

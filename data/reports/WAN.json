@@ -37,6 +37,7 @@
     "hack_exploit": "yes: Wanchain's Cardano bridge contract was drained of ~515.2M NIGHT (~$500K) on 20 Jul 2026 through a message-encoding flaw",
     "mint_path_live": "PoS issuance of ~1.04M WAN a year, offset by bridge-fee burns (~1.1M WAN a year projected)",
     "team_wallet_to_exchange_during_pump": "not proven: native Wanchain explorer has no public API and the foundation wallets are not published",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "Community Treasury ~5.7M WAN (2.9% of supply); foundation balance not published"
   },
   "price_usd": 0.04677,
@@ -61,9 +62,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/WAN.md",
-    "sha256": "b70a95fd711fb37f6825d1800e371e1b19768957fb3a41c008e1beffd760e745",
-    "bytes": 11062,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "995d80ef0d023a0c18b53b25fe12a31a7e82cdc0504edad92ee0c5bf20f4d261",
+    "bytes": 11096,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -109,6 +110,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: native Wanchain explorer has no public API and the foundation wallets are not published"
     ]

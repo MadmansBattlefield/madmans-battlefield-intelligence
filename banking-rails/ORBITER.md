@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no; 10B minted once"
   team_wallet_to_exchange_during_pump: "not proven: the genesis wallet only bridged to Arbitrum; the one pump-day Bybit deposit found came from a wallet Arkham labels as Bithumb's hot wallet (exchange-to-exchange)"
+  one_hop_sale_status: none_found
   entity_concentration: "genesis wallet 3.7B (37%) on Ethereum; the 4.14B Arbitrum holder is Bithumb's hot wallet (exchange custody)"
 price_usd: 0.00021095
 price_source: "CoinGecko, 16 Nov 2026 ~12:30 PM MST"

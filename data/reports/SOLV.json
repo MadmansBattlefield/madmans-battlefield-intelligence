@@ -37,6 +37,7 @@
     "hack_exploit": "yes, Mar 2026: the BRO vault (a one-off Solv deployment tied to the token listing) lost 38.05 SolvBTC (~$2.7M) to a double-mint bug; Solv says both affected participants were repaid by 9 Mar 2026",
     "mint_path_live": "no in code (both SOLV contracts are fixed-supply OZ ERC20s with no mint function and no owner); but the docs call max supply 'dynamic' and say it may grow by governance for future BRO tranches, which would need a new deployment",
     "team_wallet_to_exchange_during_pump": "yes, small (Solv Safe 0xccbc sent 18,666,567 SOLV to a Binance deposit on the 11 Mar 2026 pump day, +18.8%; EOA 0x8353, funded by a Solv vesting Safe, sent the same amount to the same deposit on the 21 Nov 2025 pump day, +14.0%); ~304M more went from Solv-funded wallets to Binance/Bybit deposits on non-pump days, purpose undisclosed. The 2 Apr 2026 31.5M pump-day deposit was by a wallet Arkham labels OKX Blockdream Ventures (investor), not counted",
+    "one_hop_sale_status": "not_proven",
     "treasury_in_single_key_wallets": "partly (~3.85B SOLV, 39.9% of max supply, sits in five 4-of-5 Safes with no vesting contract, plus 91.0M in a sixth Safe 0x5e75 with the same signers; ~739M more sits in EOAs that Solv's Safes funded: 0x1478 428.7M, 0x5030 310M across two chains)"
   },
   "price_usd": 0.004495,
@@ -62,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SOLV.md",
-    "sha256": "52473dcb3f6d953914a344315e1a74676fc435a86c08c06634459f0b9fb4efe7",
-    "bytes": 41228,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "4423f2dc5bfa522a14739c5b309de041abe4dfb361a819c7f65105e492116921",
+    "bytes": 41193,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -583,6 +584,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes, small (Solv Safe 0xccbc sent 18,666,567 SOLV to a Binance deposit on the 11 Mar 2026 pump day, +18.8%; EOA 0x8353, funded by a Solv vesting Safe, sent the same amount to the same deposit on the 21 Nov 2025 pump day, +14.0%); ~304M more went from Solv-funded wallets to Binance/Bybit deposits on non-pump days, purpose undisclosed. The 2 Apr 2026 31.5M pump-day deposit was by a wallet Arkham labels OKX Blockdream Ventures (investor), not counted"
     ]

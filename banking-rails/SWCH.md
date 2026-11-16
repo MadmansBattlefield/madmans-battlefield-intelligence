@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: 120M minted once on 14 Jul 2023"
   team_wallet_to_exchange_during_pump: "not proven: mint-line wallets sent ~5.1M SWCH to Gate, Bitget and MEXC in Jan-Jun 2026, none on a pump day (MEXC closes)"
+  one_hop_sale_status: none_found
   entity_concentration: "not proven: the mint wallet spread all 120M to 11 wallets in 2023-2024; current holders mostly exchanges"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

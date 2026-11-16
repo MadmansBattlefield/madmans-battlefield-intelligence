@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "proven",
     "hack_exploit": "none",
     "network_halt": "none_found_in_series",
     "sdf_exchange_sends_on_pump_days": "watch_disclosed",
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/XLM.md",
-    "sha256": "57f71599115aa9a6efda27ea4fb7ea85407764c86f4e30c68fe336528bf8613d",
-    "bytes": 37113,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "d0ba6b43715c664d0f184c381c21eee143b8fa34ab031192715689b5eb72c724",
+    "bytes": 37143,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -416,6 +417,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "formal_announcement",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "sdf_exchange_sends_on_pump_days: watch_disclosed"
     ]

@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes, 8 Jun 2026: stolen keys used to mint ~100M H on BSC and move ~141M H on Ethereum; ~$31-36M drained"
   mint_path_live: "yes, uncapped owner mint() and owner burn(account) on the reissued token; owner is a 4-of-9 Safe"
   team_wallet_to_exchange_during_pump: "no large pump-day sale found; 70M H sent to a Bybit deposit on 2 Oct 2026 (not a pump day)"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "yes, six EOAs hold ~7.84B H (78% of supply)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

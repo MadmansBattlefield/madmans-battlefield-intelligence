@@ -19,6 +19,7 @@ section_scores:
   catalysts: 6
 gates_failed: []
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none
   foundation_sale_on_pump_day: not_found
   undisclosed_foundation_to_exchange_flow: not_found

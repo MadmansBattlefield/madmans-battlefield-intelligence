@@ -23,6 +23,7 @@ red_lines:
   mint_path_live: "yes, BSC owner mint up to a 90B cap, separate from the L1 90B cap"
   mint_owner: "0x6ab479c813daa50914fc96c837e2f08a8203ab70 (3-of-4 Safe)"
   team_wallet_to_exchange_during_pump: "not tested (BSC transfer history not reachable with free tools)"
+  one_hop_sale_status: none_found
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "L2 gas is paid in BNB, and no fee burn, automatic buyback or fee share is live, so revenue does not reach holders."

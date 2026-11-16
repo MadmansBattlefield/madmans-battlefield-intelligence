@@ -39,6 +39,7 @@
     "hack_exploit": "yes: Jul 2024 security breach; validators halted the chain from 27 to 31 Jul 2024 to stop unauthorized transfers",
     "mint_path_live": "yes: 8% yearly inflation (6% stakers, 2% to the Casper Association) plus a one-time 4.76B CSPR (33%) issuance minted 23 Mar 2026",
     "team_wallet_to_exchange_during_pump": "not tested (Association wallets not retrievable without a CSPR.cloud key); the Association disclosed ~250M CSPR for market liquidity plus OTC placements",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "unknown"
   },
   "price_usd": 0.0018761,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CSPR.md",
-    "sha256": "f2efb15d1aadcbb458007b5143de203ea29e22eae7347f4e66d9edea1b42001a",
-    "bytes": 12675,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "a2a48978ddbf62f2701ce422fb3f3608c2507e506075d85a2bd8fe45b4edf7d8",
+    "bytes": 12709,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -126,6 +127,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not tested (Association wallets not retrievable without a CSPR.cloud key); the Association disclosed ~250M CSPR for market liquidity plus OTC placements"
     ]

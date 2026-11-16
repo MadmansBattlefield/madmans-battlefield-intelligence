@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "May-Jul 2020 asset-reissue bug let attackers mint 301.8M RVN (~1.5% of cap), sold to exchanges; fixed at block 1,304,352 on 4 Jul 2020; coins never burned"
   mint_path_live: "no beyond the fixed PoW schedule: 1,250 RVN a block since 15 Jan 2026, 21B cap"
   team_wallet_to_exchange_during_pump: "not applicable: fair launch 3 Jan 2018, no premine, ICO or team allocation"
+  one_hop_sale_status: none_found
   entity_concentration: "none (no team or treasury wallets)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

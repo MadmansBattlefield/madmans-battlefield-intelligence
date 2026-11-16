@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes, PoW 0.4 CFX a block plus 3.26% PoS interest (~1.8% a year net, Tier B)"
   team_wallet_to_exchange_during_pump: "no: published founder lock addresses have had no outflows since Mar 2025"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "unknown; launch-era fund contracts reportedly hold ~3.0B CFX [Unverified]"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

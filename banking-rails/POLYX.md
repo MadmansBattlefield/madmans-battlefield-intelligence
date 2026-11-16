@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "no max supply; staking issuance up to 140M POLYX/yr (docs); supply grew 1.2187B -> 1.3398B (+9.9%) in the last 12 months"
   team_wallet_to_exchange_during_pump: "YES by pattern: Polymesh Association-listed and genesis-identity wallets (plus 2HXnHMiy..., funded by Association wallets) sent 187.3M POLYX in 139 transfers into memo-deposit address 2F8aakk..., 32.9M of it on pump days (34 transfers), 59.3M in the last 12 months; exchange name [Unverified]"
+  one_hop_sale_status: proven
   treasury_selling: "not disclosed; Association assets incl. POLYX sold to Polymath (Jun 2025), Polymath acquired by Nasdaq-listed TruGolf (Oct 2026)"
   fee_capture: "fees go to block-producing operators, not holders; 4,780 POLYX of fees in 365 days"
 methodology_effective: 2026-11-16

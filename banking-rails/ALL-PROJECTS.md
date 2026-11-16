@@ -26,10 +26,10 @@ Live counts across all **148** published v3 reports. Rebuilt on every push. Full
 |---|---:|---:|
 | ✅ Pass overall | **7** | 5% |
 | 🔴 Fail on revenue (Revenue 3 or below) | **123** | 83% |
-| 🔴 Fail on insider selling (Selling 3 or below) | **20** | 14% |
+| 🔴 Fail on insider selling (Selling 3 or below) | **21** | 14% |
 | 🔴 Fail both | **17** | 11% |
-| 🟨 Insider selling not proven | **91** | 61% |
-| 🤐 Pump-day sale with no disclosure | **14** | 9% |
+| 🟨 Insider selling not proven | **90** | 61% |
+| 🤐 Pump-day sale with no disclosure | **15** | 10% |
 
 - [✅ Done (v3 reports)](#done)
 - [🟢 Close](#close)
@@ -92,18 +92,18 @@ What's missing uses the 11 v3 sections: Rev, Team, Hold, Sell, Token, Liq, Prod,
 | 37 | [WAN](WAN.md) | Wanchain | 4.7 | ❌ FAIL | Low overall |
 | 38 | [CARDS](CARDS.md) | Collector Crypt | 4.7 | ❌ FAIL | Low overall |
 | 39 | [SOLV](SOLV.md) | Solv Protocol | 4.6 | ❌ FAIL | Low overall |
-| 40 | [FXS](FXS.md) | Frax (prev. FXS) | 4.6 | ❌ FAIL | Low overall |
-| 41 | [MNT](MNT.md) | Mantle | 4.5 | ❌ FAIL | Revenue gate |
-| 42 | [RLS](RLS.md) | Rayls | 4.5 | ❌ FAIL | Low overall |
-| 43 | [INV](INV.md) | Inverse Finance | 4.4 | ❌ FAIL | Selling gate |
-| 44 | [HUMA](HUMA.md) | Huma Finance | 4.4 | ❌ FAIL | Revenue gate |
-| 45 | [RVN](RVN.md) | Ravencoin | 4.4 | ❌ FAIL | Revenue gate |
-| 46 | [CFG](CFG.md) | Centrifuge | 4.4 | ❌ FAIL | Revenue gate |
-| 47 | [QNT](QNT.md) | Quant | 4.3 | ❌ FAIL | Selling gate |
-| 48 | [ICP](ICP.md) | Internet Computer | 4.3 | ❌ FAIL | Revenue gate |
-| 49 | [RED](RED.md) | RedStone | 4.3 | ❌ FAIL | Revenue gate |
-| 50 | [PRO](PRO.md) | Propy | 4.3 | ❌ FAIL | Revenue gate |
-| 51 | [TRAC](TRAC.md) | OriginTrail | 4.2 | ❌ FAIL | Revenue gate |
+| 40 | [MNT](MNT.md) | Mantle | 4.5 | ❌ FAIL | Revenue gate |
+| 41 | [RLS](RLS.md) | Rayls | 4.5 | ❌ FAIL | Low overall |
+| 42 | [INV](INV.md) | Inverse Finance | 4.4 | ❌ FAIL | Selling gate |
+| 43 | [HUMA](HUMA.md) | Huma Finance | 4.4 | ❌ FAIL | Revenue gate |
+| 44 | [RVN](RVN.md) | Ravencoin | 4.4 | ❌ FAIL | Revenue gate |
+| 45 | [CFG](CFG.md) | Centrifuge | 4.4 | ❌ FAIL | Revenue gate |
+| 46 | [QNT](QNT.md) | Quant | 4.3 | ❌ FAIL | Selling gate |
+| 47 | [ICP](ICP.md) | Internet Computer | 4.3 | ❌ FAIL | Revenue gate |
+| 48 | [RED](RED.md) | RedStone | 4.3 | ❌ FAIL | Revenue gate |
+| 49 | [PRO](PRO.md) | Propy | 4.3 | ❌ FAIL | Revenue gate |
+| 50 | [TRAC](TRAC.md) | OriginTrail | 4.2 | ❌ FAIL | Revenue gate |
+| 51 | [FXS](FXS.md) | Frax (prev. FXS) | 4.2 | ❌ FAIL | Selling gate |
 | 52 | [AMP](AMP.md) | Amp | 4.2 | ❌ FAIL | Revenue gate |
 | 53 | [GRND](GRND.md) | SuperWalk | 4.2 | ❌ FAIL | Revenue gate |
 | 54 | [ETC](ETC.md) | Ethereum Classic | 4.1 | ❌ FAIL | Revenue gate |

@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes; the admin minted 460M to itself on 2 Apr 2026"
   team_wallet_to_exchange_during_pump: "not proven: no market; supply hasn't moved since 2 Apr 2026"
+  one_hop_sale_status: none_found
   entity_concentration: "100% of the 500M TPT30 sits in the issuer's wallet; 1 holder"
 price_usd: null
 price_source: "No market; dashboards apply a nominal $1.00 (16 Nov 2026 ~1:30 PM MST)"

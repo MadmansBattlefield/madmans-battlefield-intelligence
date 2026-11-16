@@ -19,6 +19,7 @@ section_scores:
   catalysts: 4
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: "none found at chain level (the Jan 2022 incident was at the Crypto.com exchange, not the chain)"
   treasury_to_exchange_during_pump: "no: 2.5B reserve-vested CRO (~$307M) went to a memo-based exchange hot wallet on 23 Sep 2025, 23 Feb, 30 Apr and 7-8 Oct 2026, none of them pump days"
   treasury_funded_wallet_to_exchange_during_pump: "no (same flows, all on down days)"

@@ -39,6 +39,7 @@
     "hack_exploit": "no funds stolen; a crafted transaction split mainnet for ~14.5 h on 21 Nov 2025 (Intersect incident report)",
     "mint_path_live": "no discretionary mint; 6.0B ADA reserve still emits to stakers and the treasury under protocol rules (45B hard cap)",
     "team_wallet_to_exchange_during_pump": "none found at hop 1–2; on-chain treasury payouts moved on pump days only between payout contracts and unlabelled vendor wallets; founding-entity wallets are not public",
+    "one_hop_sale_status": "none_found",
     "treasury_spend": "804.4M ADA withdrawn from the on-chain treasury through 70 enacted governance actions, incl. 50M to a VC fund, 120M to AlphaGrowth and a 5M listings loan"
   },
   "price_usd": 0.151959,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ADA.md",
-    "sha256": "21c494859f11a4299e22aadf4799ccdb0db939cc42c34d77628cb3e874d95ef1",
-    "bytes": 22274,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "58d45605520b442991c366c36c5a179a1a06c0d911fc55aa7d5dd3acef8759d5",
+    "bytes": 22308,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -210,6 +211,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found at hop 1–2; on-chain treasury payouts moved on pump days only between payout contracts and unlabelled vendor wallets; founding-entity wallets are not public"
     ]

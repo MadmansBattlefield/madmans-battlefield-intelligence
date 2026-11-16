@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "yes (historic): Feb 2022 Solana bridge exploit, 120,000 wETH (~$320M), losses replaced by a backer",
     "treasury_to_exchange_during_pump": "yes: wallets paid out of the Hedgey lockup contract sent 25.3M W (~$2.06M) to Binance and OKX on 10 pump days",
     "treasury_funded_wallet_to_exchange_during_pump": "yes: e.g. distributor 0x712e → 0xcef7 → Binance deposit, 5.80M W on 21 Sep 2026 (+29.1%)",
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/W.md",
-    "sha256": "78c3da776272976eb38eeabb1001f6a5053a2639b7de71223175279af77b63a4",
-    "bytes": 27405,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "be7078d2ba1099cdd61471b3109f7039b37e706099e7079f031fb82fef8a7326",
+    "bytes": 27439,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -397,6 +398,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: yes: wallets paid out of the Hedgey lockup contract sent 25.3M W (~$2.06M) to Binance and OKX on 10 pump days",
       "treasury_funded_wallet_to_exchange_during_pump: yes: e.g. distributor 0x712e → 0xcef7 → Binance deposit, 5.80M W on 21 Sep 2026 (+29.1%)"

@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes: on 25 Aug 2026 ~124.4M RIO was drained from platform wallets (113.7M treasury and reserve, 10.7M user funds); the chain was halted"
   mint_path_live: "unclear: the native chain is halted; Ethereum supply was minted in Oct 2024 as a migration"
   team_wallet_to_exchange_during_pump: "not proven: no exchange deposits in the window from the Ethereum holders I could trace; the native chain can't be traced"
+  one_hop_sale_status: none_found
   entity_concentration: "the drained 124.4M (~38% of supply) is with the attacker"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

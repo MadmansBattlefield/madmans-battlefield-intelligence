@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none
   mint_path_live: "yes (crowdsale owner EOA 0xf5e3… can still mint new QNT; simulated 16 Nov 2026, not executed)"
   team_wallet_to_exchange_during_pump: "yes (Etherscan 'Quant: Team Wallet 1' sent 350,000 QNT into exchange deposit addresses on 5 pump days, Jul–Sep 2021; plus 200,000 via wallets it funded on 4 more pump days, Mar–May 2021; no disclosure found)"
+  one_hop_sale_status: proven
   unattributed_cluster_pump_day_flow: "30 Sep 2026 (0x7513 'QNT Whale' -> Galaxy Digital OTC -> Kraken hot wallet / B2C2 / Binance; cluster descended from Team Wallet 2 via Bitcoin Suisse; owner [Unverified])"
   founder_wallet_pump_day_move: "29 Sep 2026 (Arkham 'Quant Network: Founder' 0x48e9 moved 25,776 QNT to a Quant-labelled wallet; no exchange deposit seen. Quant-funded 0x8266 moved 22,807, of which 1,000 reached Coinbase on 30 Sep)"
   team_funds_to_broker_deposit: "yes (1.18M QNT into Arkham 'Quant Network — Bitcoin Suisse Deposit' 0x86c0, 2022; ~1.22M swept to Bitcoin Suisse in Jun 2023; sale not provable on-chain)"

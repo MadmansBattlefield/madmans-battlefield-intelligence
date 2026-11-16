@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "yes: 192,307.69 EWT minted on Ethereum about every 4 weeks since Oct 2025 (~2.5M a year); 14.04M of headroom remains under the 100M cap"
   team_wallet_to_exchange_during_pump: "none found (an unattributed 3-of-5 Safe sent 165k EWT to a KuCoin deposit in Oct 2026 on non-pump days); Foundation wallets not identified"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "unknown (Foundation and EWX treasury wallets not published)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

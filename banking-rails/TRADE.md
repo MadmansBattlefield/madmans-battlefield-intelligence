@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: fixed 100M supply, fully unlocked 19 Aug 2026"
   team_wallet_to_exchange_during_pump: "not proven: the wallet named poly-trade.eth sent 1.0M and 2.3M TRADE to a KuCoin deposit on 8 and 9 Dec 2025 (+41.5% and +45.1% days), ~$207k; Arkham does not tie it to Polytrade (self-set ENS name, low confidence), and its two funding Safes carry only generic labels"
+  one_hop_sale_status: none_found
   entity_concentration: "67.7M (68%) sits in the Ethereum-Polygon bridge; the Polygon-side holders aren't traced"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

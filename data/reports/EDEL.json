@@ -37,6 +37,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "tripped_twice",
     "official_liquidity_pulled": "tripped",
     "founder_or_director_exit": "none_found",
@@ -65,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/EDEL.md",
-    "sha256": "620ed6296365075b57810cf0388e4054967c0d8cd28172df8dcf65d56b3e63de",
-    "bytes": 33746,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "ac9f6f2e9f2982ad654cbcd5a985daac1e66efc1ffd306a612896f4faacc84c0",
+    "bytes": 33780,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -496,6 +497,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_cluster_wallet_outflow_to_sales_12_13_Nov_2026: found_not_pump_days"
     ]

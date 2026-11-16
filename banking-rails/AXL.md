@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found
   mint_path_live: "yes, by design (no supply cap; net supply growth ~3.0% a year after fee burns; base Cosmos inflation set to 0)"
   team_wallet_to_exchange_during_pump: "not proven (Foundation and company wallets on the Axelar chain are not labelled; the largest unlabelled native movers trade two-way with high-volume hot wallets, which looks like exchange custody)"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "not found (no published treasury addresses)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

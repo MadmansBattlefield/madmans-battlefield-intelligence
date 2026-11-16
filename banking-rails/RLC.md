@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: fixed 87M supply, no mint function"
   team_wallet_to_exchange_during_pump: "yes: a 2-signature Safe funded by the Arkham-labelled iExec Team wallet sent 651,000 RLC to a Binance deposit address on 9-10 Oct 2026, during a +183.9% pump; no disclosure found"
+  one_hop_sale_status: proven
   entity_concentration: "two Safes hold 18.25M RLC (21.0%); not on the project's published address list"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

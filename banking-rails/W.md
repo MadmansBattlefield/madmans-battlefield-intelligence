@@ -19,6 +19,7 @@ section_scores:
   catalysts: 4
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: "yes (historic): Feb 2022 Solana bridge exploit, 120,000 wETH (~$320M), losses replaced by a backer"
   treasury_to_exchange_during_pump: "yes: wallets paid out of the Hedgey lockup contract sent 25.3M W (~$2.06M) to Binance and OKX on 10 pump days"
   treasury_funded_wallet_to_exchange_during_pump: "yes: e.g. distributor 0x712e → 0xcef7 → Binance deposit, 5.80M W on 21 Sep 2026 (+29.1%)"

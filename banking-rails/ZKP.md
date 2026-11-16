@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: fixed 1B supply minted at genesis"
   team_wallet_to_exchange_during_pump: "yes: the Safe that receives monthly community and DAO unlocks sent 1,125,414 ZKP to a Binance deposit address on 3 Jul 2026, a +30.6% pump day; no disclosure found"
+  one_hop_sale_status: not_proven
   entity_concentration: "four project Safes hold 692.5M ZKP (69% of supply); investor and team cliffs sit in plain Safes, not vesting contracts"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

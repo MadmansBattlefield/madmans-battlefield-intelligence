@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes by design: 5% yearly emission to operators and stakers (supply 11.39B vs 11B initial)",
     "team_wallet_to_exchange_during_pump": "yes: the Etherscan-labelled 'Zama 1' wallet sent 15,000,000 ZAMA to a Binance deposit address on 14 Apr 2026 (+39.1% pump day); no disclosure found",
+    "one_hop_sale_status": "not_proven",
     "entity_concentration": "one plain EOA (single key) holds 7.665B ZAMA, 67.3% of supply"
   },
   "price_usd": 0.05429,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZAMA.md",
-    "sha256": "b603c44339321071fcd5a5c6661d6e1dd793b1f4b4a4f1b8a8a665f833acaf94",
-    "bytes": 14753,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "7c9da5635d91dbe96a197f8584afdf2bbcc6cc55b8a94e73483681929e4c1f1e",
+    "bytes": 14896,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -157,6 +158,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "not_proven",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: the Etherscan-labelled 'Zama 1' wallet sent 15,000,000 ZAMA to a Binance deposit address on 14 Apr 2026 (+39.1% pump day); no disclosure found"
     ]

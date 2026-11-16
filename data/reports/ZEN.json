@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "no: all 21,000,000 ZEN already minted on Base; unvested Foundation/DAO tokens release monthly to mid-2029",
     "team_wallet_to_exchange_during_pump": "not proven: Base wallet tracing was not available without a paid key; the Foundation discloses that it uses idle ZEN to 'support ZEN capital markets'",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "Foundation (2M) + DAO (~3M) allocations ≈ 24% of max supply, vesting over 48 months from Jul 2025"
   },
   "price_usd": 4.09,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZEN.md",
-    "sha256": "cc63610ca3d8a45c20ae236af8f10012b9ea7206e1f22f62a41925d4fb631460",
-    "bytes": 11305,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "87c05f8d21272642a107c11fef0da405f1232ddcf9ca7989299ea63d4e592839",
+    "bytes": 11339,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -126,6 +127,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: Base wallet tracing was not available without a paid key; the Foundation discloses that it uses idle ZEN to 'support ZEN capital markets'"
     ]

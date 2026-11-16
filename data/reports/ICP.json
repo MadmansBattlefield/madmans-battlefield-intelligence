@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none found (liveness incidents only: subnet x4jtx stall 29 Oct 2026; ckBTC minter attack, no funds lost)",
     "treasury_to_exchange_during_pump": "not proven (2021 genesis 'Treasury' 125013e9… deposited ~6.6M ICP into Coinbase deposit accounts on listing day 10 May 2021 and 15 Jun 2021; neither day is pump-testable / a pump day)",
     "undisclosed_treasury_to_exchange_flow": "yes, 2021 (Arkham: 8.3M ICP Treasury -> exchanges; on-chain match verified; DFINITY publishes no wallet list)",
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ICP.md",
-    "sha256": "85492281f0174740c4ed8c062950954836002f6303009d1e8c3a54eb8c8d5ee5",
-    "bytes": 34427,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "48acccc27645b1aec164143d964e625e6450cf881472d3680db2c8977d4ed226",
+    "bytes": 34461,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -260,6 +261,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "treasury_to_exchange_during_pump: not proven (2021 genesis 'Treasury' 125013e9… deposited ~6.6M ICP into Coinbase deposit accounts on listing day 10 May 2021 and 15 Jun 2021; neither day is pump-testable / a pump day)",
       "treasury_descendant_pump_day_flow: yes, to a distribution hub (11 Jun 2025 +22.6%: 1.4M ICP from Treasury-funded ecedd9b3… into hub 62dd3978…; 19 Nov 2024 +14.7%: 400k from 317aa76c…; hub owner [Unverified])"

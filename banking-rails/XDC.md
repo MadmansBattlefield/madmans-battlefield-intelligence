@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none at protocol level (a 2024 application-layer exploit hit third-party CIFI and XSWAP pools)"
   mint_path_live: "yes, by design (uncapped; masternode rewards exceed the EIP-1559 burn)"
   team_wallet_to_exchange_during_pump: "none found (284.7M XDC from the largest reserve wallet reached FalconX in Oct 2022-Feb 2023, all on non-pump days); deeper hops not tested"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "yes (the 12.45B XDC largest address and the other genesis reserve wallets are plain EOAs; the issuer says reserves sit in centralized custody with no published multisig policy)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

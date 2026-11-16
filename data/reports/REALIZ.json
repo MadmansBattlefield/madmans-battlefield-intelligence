@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes; the admin minted 460M to itself on 2 Apr 2026",
     "team_wallet_to_exchange_during_pump": "not proven: no market; supply hasn't moved since 2 Apr 2026",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "100% of the 500M TPT30 sits in the issuer's wallet; 1 holder"
   },
   "price_usd": null,
@@ -66,9 +67,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/REALIZ.md",
-    "sha256": "7e370fe8ed01a728dbf5c48ac4df787866a7d01819c0e2664f8615813f44432f",
-    "bytes": 9220,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "0ed843e7d2a1d3a5a93030c20e9f2493c14344a70d2b93290ddd24960ebb895f",
+    "bytes": 9254,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -114,6 +115,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: no market; supply hasn't moved since 2 Apr 2026"
     ]

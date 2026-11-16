@@ -19,6 +19,7 @@ section_scores:
   catalysts: 5
 gates_failed: [revenue, selling_behavior]
 red_lines:
+  one_hop_sale_status: proven
   hack_exploit: "no chain exploit; three mainnet halts on 28-29 May 2026 (upgrade bugs, postmortem published); Cetus app hack $223M in May 2025 (validators froze ~$160M)"
   treasury_to_exchange_during_pump: "no direct foundation-to-exchange send found"
   treasury_funded_wallet_to_exchange_during_pump: "yes (foundation 0x341f… funded 0x7f3b… with 310.6M SUI in 2023; via 0xbe90…/0x7f66… it fed Binance deposit 0x457f…, which put 166.0M SUI into Binance 1 in the last 12 months, 67.6M (≈ $72M) on pump days, e.g. 12.39M on 21 Aug 2026 +25.8%; foundation said in 2023 these were partner tokens under lock-up)"

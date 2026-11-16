@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "yes: 3% yearly staking inflation up to a 10B MANTRA cap",
     "team_wallet_to_exchange_during_pump": "not proven: native-chain treasury wallets not traced",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "Association 12.8% plus core contributors 16.9% of genesis (vesting)"
   },
   "price_usd": 0.002296,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/OM.md",
-    "sha256": "4f222f484b2aeb73227244594e898bae08ccea09347c7753bddf8b64374e8854",
-    "bytes": 9852,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "434ed3da3253635dd60e9a16089f23effea2813756f4a50af2f6ecdbdbe1c02c",
+    "bytes": 9886,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -112,6 +113,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: native-chain treasury wallets not traced"
     ]

@@ -39,6 +39,7 @@
     "hack_exploit": "yes: 8-9 Aug 2026 unauthorized ORAI mint through an EVM cross-chain path; chain halted and restored; ~3.9M attacker ORAI traced to MEXC and KuCoin, return unresolved",
     "mint_path_live": "yes: 7% annual inflation; on-chain supply 19.94M is above the 19.78M max in the docs",
     "team_wallet_to_exchange_during_pump": "not proven: Cosmos chain with unlabelled top holders; not traced",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "top 4 liquid accounts hold ~2.6M ORAI (13%), owners unlabelled"
   },
   "price_usd": 0.318253,
@@ -63,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ORAI.md",
-    "sha256": "c132d9ea101c091f0e39ac8fd21bb41700d714053c993550d4686c615b78f528",
-    "bytes": 10271,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "bdb91add63a7229aca05667f42009d80088028a2d902b050c5eb4ed20fb57ae2",
+    "bytes": 10305,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -105,6 +106,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: Cosmos chain with unlabelled top holders; not traced"
     ]

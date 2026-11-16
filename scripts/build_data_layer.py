@@ -290,6 +290,8 @@ def compute_base_rates(recs: list[dict]) -> dict:
     reaches_no = [r for r in recs if r["revenue_accrual"]["reaches_holders"] == "no"]
     reaches_unclear = [r for r in recs if r["revenue_accrual"]["reaches_holders"] == "unclear"]
     sell4 = [r for r in recs if r["section_scores"]["selling_behavior"] == 4]
+    oh_proven = [r for r in recs if r["pump_day_test"].get("one_hop_sale_status") == "proven"]
+    oh_not = [r for r in recs if r["pump_day_test"].get("one_hop_sale_status") == "not_proven"]
 
     def tickers(rows):
         return [r["ticker"] for r in rows]
@@ -312,6 +314,8 @@ def compute_base_rates(recs: list[dict]) -> dict:
         "selling_not_proven": rate(not_proven),
         "selling_score_equals_4": rate(sell4),
         "undisclosed_pump_day_sale_silence": rate(silence),
+        "one_hop_sale_proven": rate(oh_proven),
+        "one_hop_transfer_not_proven_sale": rate(oh_not),
         "revenue_reaches_holders_yes": rate(reaches_yes),
         "revenue_reaches_holders_no": rate(reaches_no),
         "revenue_reaches_holders_unclear": rate(reaches_unclear),
@@ -361,6 +365,8 @@ def render_base_rates_md(rates: dict) -> str:
         row("Selling marked not proven (score 4, or the report says so)", "selling_not_proven"),
         row("Selling score exactly 4", "selling_score_equals_4"),
         row("Proven or claimed pump-day sale with disclosure quality = silence", "undisclosed_pump_day_sale_silence"),
+        row("One-hop sale status = proven (16 Nov 2026 amendment)", "one_hop_sale_proven"),
+        row("Team transfer to an exchange, not a proven sale (one_hop_sale_status = not_proven)", "one_hop_transfer_not_proven_sale"),
         row("Holder-accrual test = yes", "revenue_reaches_holders_yes"),
         row("Holder-accrual test = no", "revenue_reaches_holders_no"),
         row("Holder-accrual test = unclear", "revenue_reaches_holders_unclear"),
@@ -377,6 +383,7 @@ def render_base_rates_md(rates: dict) -> str:
         ("Both hard gates tripped", "fail_both_gates"),
         ("Proven pump-day sale", "proven_pump_day_sale"),
         ("Selling not proven", "selling_not_proven"),
+        ("One-hop transfer, sale not proven", "one_hop_transfer_not_proven_sale"),
         ("Holder-accrual test = yes", "revenue_reaches_holders_yes"),
         ("Holder-accrual test = no", "revenue_reaches_holders_no"),
     ]

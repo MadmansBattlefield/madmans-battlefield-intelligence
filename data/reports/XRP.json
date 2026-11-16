@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "none_found",
     "hack_exploit": "none",
     "ledger_halt": "none_in_series",
     "ripple_ops_flow_on_pump_day": "tripped_2_of_23",
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/XRP.md",
-    "sha256": "4b581ed838ada1fe932646bbaf62354b1acb7e471bd7813ac6d70128857b82b2",
-    "bytes": 20095,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "efc88b0b58de3e968ba86b1e0b2b63659b771ff53fc8e2e96e64f0fba5563cab",
+    "bytes": 20129,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -266,6 +267,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "ripple_ops_flow_on_pump_day: tripped_2_of_23"
     ]

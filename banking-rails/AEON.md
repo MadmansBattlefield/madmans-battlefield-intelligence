@@ -23,6 +23,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes, MinterRole with no cap; current minter not identified"
   team_wallet_to_exchange_during_pump: "not proven: the Safe emptied 45.6M AEON to EOA 0xfd6a on 3 Sep 2026 (not a pump day); 0xfd6a then sent 15M to a Bitget deposit and ~31M to Cobo deposits on 14, 15 and 29 Oct 2026, none pump days; its one pump-day transfer (3M, 21 Sep) was a self-bridge through the AEON LayerZero OFT adapter to the same address on Base (1M) and Ethereum (2M), where it is still held"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "no: vesting owner is a 6-of-10 Safe 0xd8a63d36f9474f361d77c31e6d53d5c78c92add4; it can revoke ~76.6% of supply"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

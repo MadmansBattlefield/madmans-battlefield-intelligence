@@ -19,6 +19,7 @@ section_scores:
   catalysts: 6
 gates_failed: [revenue]
 red_lines:
+  one_hop_sale_status: none_found
   hack_exploit: none
   foundation_pump_day_exchange_send: open_unresolved
   foundation_wallet_roster_published: no

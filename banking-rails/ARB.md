@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: none found on the ARB token or the Arbitrum One bridge in this pass
   mint_path_live: "yes, by design (owner = DAO UpgradeExecutor may mint up to 2% of supply per year after a governance vote; never used, supply still 9,999,998,978)"
   team_wallet_to_exchange_during_pump: "yes, partly disclosed (Coinbase Prime deposit address 0x905a, fed by Foundation and Arbitrum Safes, swept 137.5M ARB to the Coinbase Prime hot wallet on 13 pump days, incl. 27.55M on 4 Sep 2026 at +56.1%; the Foundation's reports say it runs 'ARB conversions' and pays costs in ARB, but give no trade-level detail)"
+  one_hop_sale_status: not_proven
   treasury_in_single_key_wallets: "no for the DAO Treasury (on-chain governor + 3-day timelock) and Foundation Safe (3-of-6); the conversion hop 0x905a is a Coinbase Prime deposit address (Arkham), i.e. custodian-held, not a Foundation single-key wallet"
   revenue_to_holders: "none automatic; sequencer revenue (~$7.05M in 1y) goes to a DAO-controlled treasury; no DAO buyback approved"
 methodology_effective: 2026-11-16

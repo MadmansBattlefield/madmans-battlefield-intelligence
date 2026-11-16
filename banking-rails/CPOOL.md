@@ -19,6 +19,7 @@ section_scores:
   catalysts: 4
 gates_failed: [revenue, selling_behavior]
 red_lines:
+  one_hop_sale_status: proven
   hack_exploit: none found
   treasury_to_exchange_during_pump: "yes: the 17.17% Reserve allocation (Safe 0x55f6…) was moved to plain EOAs and, from EOA 0x9038…, sent 123.3M CPOOL (~$3.38M) to Bitget, Bybit, Kraken and KuCoin in the last 12 months, 34.6M (~$1.17M) on pump days (26/29/30 Dec 2025, 22/24 Sep 2026)"
   treasury_funded_wallet_to_exchange_during_pump: "yes: peel chains 0x9038 → fresh wallet(s) → Bitget 6, amounts passed through unchanged, often within minutes"

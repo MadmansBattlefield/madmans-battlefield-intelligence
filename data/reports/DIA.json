@@ -40,6 +40,7 @@
     "mint_path_live": "no (fixed 200M; no mint function in verified source)",
     "pause_power": "no; owner 0x5737bf56559dd32d8880cfa236fe613e2162e157 (DIA Data: Deployer EOA) can only addAuditHash and transfer ownership",
     "team_wallet_to_exchange_during_pump": "none found",
+    "one_hop_sale_status": "none_found",
     "treasury_in_single_key_wallets": "no: 0x1b2fdbdb1b56a3e09649301a7ac5a9d770aa6ed0 (35.55M, 17.8%) is labelled Coinbase Prime Custody by Arkham; beneficial owner [Unverified]"
   },
   "price_usd": 0.1214,
@@ -113,9 +114,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/DIA.md",
-    "sha256": "3b970e6969d11ea2cd45cbe5111180ca9367572c45cf3e536d1304eb75614469",
-    "bytes": 21059,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "b5fee989ad845af10a555b7c667d08cd8f4bbf517eefd9b4dfaf7795db7d78ba",
+    "bytes": 21093,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -295,6 +296,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: none found"
     ]

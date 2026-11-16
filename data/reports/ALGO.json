@@ -36,6 +36,7 @@
     }
   },
   "red_lines": {
+    "one_hop_sale_status": "proven",
     "hack_exploit": "none",
     "foundation_sells_on_pump_days": "tripped_disclosed_program",
     "structured_selling_status": "paused_onchain_since_2026-08-24_not_announced",
@@ -64,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ALGO.md",
-    "sha256": "b0f4006c942982b638edd9a7a1710a2e47d7811733940d79a88d45cf48379afc",
-    "bytes": 30557,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "044e12dcdb76b4eb31cc37b845c526b98acdab287f65b6a188338b2d4866a4a3",
+    "bytes": 30587,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -219,6 +220,7 @@
     "selling_not_proven": false,
     "disclosure_quality": "formal_announcement",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "proven",
     "flags_noted_in_report": [
       "foundation_sells_on_pump_days: tripped_disclosed_program"
     ]

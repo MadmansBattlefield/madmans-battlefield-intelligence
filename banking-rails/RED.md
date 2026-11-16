@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "1B cap; minted in tranches (597M on Ethereum so far), rest on Base/bridged"
   team_wallet_to_exchange_during_pump: "not proven for team: a vesting beneficiary sent 1.67M RED to Binance on a +70.9% day (6 Apr 2026); whether it is team or investor is unknown"
+  one_hop_sale_status: none_found
   entity_concentration: "four vesting contracts 164M, a 3-signature Safe 45M, airdrop contracts 56M"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

@@ -23,6 +23,7 @@ red_lines:
   mint_path_live: "no (no mint function; fixed 10B)"
   pause_power: "yes: token owner 0xb22dc759f194f5d00f1981bf47ab5c3572562c96 (deployer EOA) can pause all transfers"
   team_wallet_to_exchange_during_pump: "none found; pump-day flows traced to exchange-cycling wallets"
+  one_hop_sale_status: none_found
   treasury_in_single_key_wallets: "yes: mining-rewards reserve 0xa6045362e295db86da338da6b2a9f439add951b2 (1.63B CELR, 16.3%) is a plain EOA, labelled Celer Network: Treasury by Arkham"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

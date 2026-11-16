@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "no: 10B fully issued in 2017"
   team_wallet_to_exchange_during_pump: "not proven: an unlabelled wallet two hops from a 2017 genesis recipient (which Arkham labels Aeternity, not SWFT) sent 5M SWFTC (~$28k) to an OKX deposit on 30 Nov 2025 (+14.7%); no team label"
+  one_hop_sale_status: none_found
   entity_concentration: "unknown: the 2017 plan allotted 50% to founders, team and development; current team balances not published"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

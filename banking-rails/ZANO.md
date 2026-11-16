@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes: Gateway Addresses inflation exploit (late Aug to 25 Sep 2026) minted illicit ZANO and fUSD; chain rolled back ~1 month to block 3,833,000 on 27 Sep 2026"
   mint_path_live: "PoW/PoS issuance of 1 ZANO per block; the minting exploit is closed and Gateway Addresses are disabled pending audit"
   team_wallet_to_exchange_during_pump: "not proven: privacy chain, so the 3.69M team premine cannot be traced"
+  one_hop_sale_status: none_found
   entity_concentration: "unknown (shielded balances)"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"

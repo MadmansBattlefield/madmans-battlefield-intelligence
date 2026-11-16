@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "no funds stolen; a crafted transaction split mainnet for ~14.5 h on 21 Nov 2025 (Intersect incident report)"
   mint_path_live: "no discretionary mint; 6.0B ADA reserve still emits to stakers and the treasury under protocol rules (45B hard cap)"
   team_wallet_to_exchange_during_pump: "none found at hop 1–2; on-chain treasury payouts moved on pump days only between payout contracts and unlabelled vendor wallets; founding-entity wallets are not public"
+  one_hop_sale_status: none_found
   treasury_spend: "804.4M ADA withdrawn from the on-chain treasury through 70 enacted governance actions, incl. 50M to a VC fund, 120M to AlphaGrowth and a 5M listings loan"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

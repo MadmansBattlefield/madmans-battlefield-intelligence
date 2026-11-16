@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "none found"
   mint_path_live: "yes by design: protocol-set annual TFUEL issuance to stakers and edge nodes (supply 5.0B at genesis, 7.53B now)"
   team_wallet_to_exchange_during_pump: "not proven: no TFUEL account is publicly attributed to the developer company"
+  one_hop_sale_status: none_found
   entity_concentration: "largest account holds 935.9M (12.4%), unlabelled"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"

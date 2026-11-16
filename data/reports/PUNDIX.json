@@ -39,6 +39,7 @@
     "hack_exploit": "none found",
     "mint_path_live": "not proven: single 258.5M mint on 8 Mar 2021, no mints since",
     "team_wallet_to_exchange_during_pump": "not proven: the pump-day deposits came from Upbit hot wallets (exchange-to-exchange flow); no identified team wallet moved PUNDIX in the last year",
+    "one_hop_sale_status": "none_found",
     "entity_concentration": "Upbit (exchange custody) holds 127.3M (49.3%); two unlabelled Safes hold 18.6M (7.2%)"
   },
   "price_usd": 0.07492,
@@ -71,9 +72,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/PUNDIX.md",
-    "sha256": "0a64ac9809dd133b8a0a94f9154df68c7a46a3b4874e37aa6740dcbe395cf679",
-    "bytes": 13197,
-    "extracted_at": "2026-11-16 14:41 MST",
+    "sha256": "f030e9e966a8f0517b4a4f97d933fd160a24df033c6a8b12da74f0d5ffe699fe",
+    "bytes": 13231,
+    "extracted_at": "2026-11-16 14:44 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -176,6 +177,7 @@
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
+    "one_hop_sale_status": "none_found",
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not proven: the pump-day deposits came from Upbit hot wallets (exchange-to-exchange flow); no identified team wallet moved PUNDIX in the last year"
     ]

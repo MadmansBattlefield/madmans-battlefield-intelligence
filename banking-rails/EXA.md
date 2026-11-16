@@ -22,6 +22,7 @@ red_lines:
   hack_exploit: "yes: 18 Aug 2023 exploit; the DAO gave 1,000,000 EXA (10% of supply) to 117 affected users (EXAIP-03)"
   mint_path_live: "indirect: EXA is an upgradeable contract whose admin is the TimelockController (24h delay, 3-of-6 Safe executor), so supply rules can be changed by upgrade"
   team_wallet_to_exchange_during_pump: "no CEX deposit found (EXA has no CEX market); a team/investor Sablier-stream recipient sold ~200k EXA on DEXs, 8.9k of it on pump days in the last 12 months; Arkham shows a wallet fed by another stream recipient also selling into Velodrome pools"
+  one_hop_sale_status: none_found
   treasury_selling: "DAO treasury sent 500,000 EXA to a new wallet on 18 Mar 2025, described as the Uphold deal (EXAIP-21); Arkham does not label it Uphold, so that link stays [Unverified]; that wallet staked it; no treasury DEX selling found"
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
