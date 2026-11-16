@@ -94,54 +94,54 @@ Ties are broken by how many of the 11 sections passed.
 71. 🔴 **W** · 3.9 · ❌ FAIL
 72. 🔴 **MBG** · 3.9 · ❌ FAIL
 73. 🔴 **PHA** · 3.8 · ❌ FAIL
-74. 🔴 **ZK** · 3.8 · ❌ FAIL
-75. 🔴 **ZAMA** · 3.8 · ❌ FAIL
-76. 🔴 **ROSE** · 3.8 · ❌ FAIL
-77. 🔴 **XDC** · 3.8 · ❌ FAIL
-78. 🔴 **NIGHT** · 3.8 · ❌ FAIL
-79. 🔴 **ZANO** · 3.8 · ❌ FAIL
-80. 🔴 **NEXA** · 3.8 · ❌ FAIL
-81. 🔴 **ASTR** · 3.8 · ❌ FAIL
-82. 🔴 **ORBITER** · 3.8 · ❌ FAIL
-83. 🔴 **RISE** · 3.8 · ❌ FAIL
-84. 🔴 **HASH** · 3.8 · ❌ FAIL
-85. 🔴 **AXL** · 3.8 · ❌ FAIL
-86. 🔴 **SWFTC** · 3.8 · ❌ FAIL
-87. 🔴 **ZKJ** · 3.8 · ❌ FAIL
-88. 🔴 **TRB** · 3.7 · ❌ FAIL
-89. 🔴 **PLUME** · 3.7 · ❌ FAIL
-90. 🔴 **XPL** · 3.7 · ❌ FAIL
-91. 🔴 **SUI** · 3.7 · ❌ FAIL
-92. 🔴 **CRO** · 3.7 · ❌ FAIL
-93. 🔴 **MOCA** · 3.7 · ❌ FAIL
-94. 🔴 **TRADE** · 3.7 · ❌ FAIL
-95. 🔴 **IOTX** · 3.7 · ❌ FAIL
-96. 🔴 **TRUF** · 3.7 · ❌ FAIL
-97. 🔴 **ZEN** · 3.7 · ❌ FAIL
-98. 🔴 **KAIO** · 3.6 · ❌ FAIL
-99. 🔴 **SHX** · 3.6 · ❌ FAIL
-100. 🔴 **SUPRA** · 3.6 · ❌ FAIL
-101. 🔴 **VELO** · 3.6 · ❌ FAIL
-102. 🔴 **QANX** · 3.6 · ❌ FAIL
-103. 🔴 **PROPC** · 3.6 · ❌ FAIL
+74. 🔴 **ROSE** · 3.8 · ❌ FAIL
+75. 🔴 **XDC** · 3.8 · ❌ FAIL
+76. 🔴 **NIGHT** · 3.8 · ❌ FAIL
+77. 🔴 **ZANO** · 3.8 · ❌ FAIL
+78. 🔴 **NEXA** · 3.8 · ❌ FAIL
+79. 🔴 **ASTR** · 3.8 · ❌ FAIL
+80. 🔴 **ORBITER** · 3.8 · ❌ FAIL
+81. 🔴 **RISE** · 3.8 · ❌ FAIL
+82. 🔴 **HASH** · 3.8 · ❌ FAIL
+83. 🔴 **AXL** · 3.8 · ❌ FAIL
+84. 🔴 **SWFTC** · 3.8 · ❌ FAIL
+85. 🔴 **ZKJ** · 3.8 · ❌ FAIL
+86. 🔴 **TRB** · 3.7 · ❌ FAIL
+87. 🔴 **PLUME** · 3.7 · ❌ FAIL
+88. 🔴 **SUI** · 3.7 · ❌ FAIL
+89. 🔴 **CRO** · 3.7 · ❌ FAIL
+90. 🔴 **MOCA** · 3.7 · ❌ FAIL
+91. 🔴 **TRADE** · 3.7 · ❌ FAIL
+92. 🔴 **IOTX** · 3.7 · ❌ FAIL
+93. 🔴 **TRUF** · 3.7 · ❌ FAIL
+94. 🔴 **ZEN** · 3.7 · ❌ FAIL
+95. 🔴 **XPL** · 3.6 · ❌ FAIL
+96. 🔴 **KAIO** · 3.6 · ❌ FAIL
+97. 🔴 **SHX** · 3.6 · ❌ FAIL
+98. 🔴 **SUPRA** · 3.6 · ❌ FAIL
+99. 🔴 **VELO** · 3.6 · ❌ FAIL
+100. 🔴 **QANX** · 3.6 · ❌ FAIL
+101. 🔴 **PROPC** · 3.6 · ❌ FAIL
+102. 🔴 **ZK** · 3.5 · ❌ FAIL
+103. 🔴 **ZAMA** · 3.5 · ❌ FAIL
 104. 🔴 **NUVA** · 3.5 · ❌ FAIL
 105. 🔴 **WIREX** · 3.5 · ❌ FAIL
 106. 🔴 **TX** · 3.5 · ❌ FAIL
 107. 🔴 **HYPER** · 3.4 · ❌ FAIL
 108. 🔴 **ZKC** · 3.4 · ❌ FAIL
 109. 🔴 **SKEY** · 3.4 · ❌ FAIL
-110. 🔴 **ZKP** · 3.4 · ❌ FAIL
-111. 🔴 **OM** · 3.4 · ❌ FAIL
-112. 🔴 **PUNDIX** · 3.4 · ❌ FAIL
-113. 🔴 **SHPING** · 3.3 · ❌ FAIL
-114. 🔴 **CPOOL** · 3.3 · ❌ FAIL
-115. 🔴 **ZIG** · 3.3 · ❌ FAIL
-116. 🔴 **STBL** · 3.3 · ❌ FAIL
-117. 🔴 **SHARE** · 3.3 · ❌ FAIL
-118. 🔴 **AEON** · 3.3 · ❌ FAIL
-119. 🔴 **YELLOW** · 3.2 · ❌ FAIL
-120. 🔴 **LUMIA** · 3.2 · ❌ FAIL
-121. 🔴 **RBNT** · 3.1 · ❌ FAIL
+110. 🔴 **OM** · 3.4 · ❌ FAIL
+111. 🔴 **PUNDIX** · 3.4 · ❌ FAIL
+112. 🔴 **SHPING** · 3.3 · ❌ FAIL
+113. 🔴 **CPOOL** · 3.3 · ❌ FAIL
+114. 🔴 **ZIG** · 3.3 · ❌ FAIL
+115. 🔴 **STBL** · 3.3 · ❌ FAIL
+116. 🔴 **SHARE** · 3.3 · ❌ FAIL
+117. 🔴 **AEON** · 3.3 · ❌ FAIL
+118. 🔴 **YELLOW** · 3.2 · ❌ FAIL
+119. 🔴 **LUMIA** · 3.2 · ❌ FAIL
+120. 🔴 **RBNT** · 3.1 · ❌ FAIL
+121. 🔴 **ZKP** · 3.1 · ❌ FAIL
 122. 🔴 **KAVA** · 3.1 · ❌ FAIL
 123. 🔴 **ACH** · 3.1 · ❌ FAIL
 124. 🔴 **XEP** · 3.1 · ❌ FAIL
@@ -175,6 +175,10 @@ Ties are broken by how many of the 11 sections passed.
 ---
 
 ## 📝 What changed 16 Nov 2026
+
+Batch 8 (last of the pre-16-Nov reports): 12 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes, all from the undisclosed pump-day sale penalty unless stated: [XPL](XPL.md) Selling 1 → 0 (3.7 → 3.6, now #95); [ZAMA](ZAMA.md) Selling 2 → 0 (3.8 → 3.5, now #103); [ZK](ZK.md) Selling 2 → 0 (3.8 → 3.5, now #102); [ZKP](ZKP.md) Selling 3 → 1 (3.4 → 3.1, now #121). Unchanged: [XMR](XMR.md), [XRP](XRP.md), [XVG](XVG.md), [YELLOW](YELLOW.md), [ZANO](ZANO.md), [ZEN](ZEN.md), [ZIG](ZIG.md), [ZKC](ZKC.md).
+
+Earlier on 16 Nov (ranks below are as of that update):
 
 Batch 7: 12 older reports upgraded to the 16 Nov 2026 rules (holder test, exchange-price pump re-run where available, disclosure quality, penalty flag, attribution-confidence table). Score changes (TLOS and TRB from the undisclosed pump-day sale penalty; W from the attribution rule, because its pump-day sellers are not proven team wallets): [TLOS](TLOS.md) Selling 3 → 1 (3.0 → 2.7, now #136); [TRB](TRB.md) Selling 1 → 0 (3.8 → 3.7, now #88); [W](W.md) Selling 3 → 4 (3.8 → 3.9, now #71). Unchanged: [SUI](SUI.md), [SWCH](SWCH.md), [TAO](TAO.md), [TFUEL](TFUEL.md), [TRAC](TRAC.md), [WAN](WAN.md), [XDB](XDB.md), [XDC](XDC.md), [XLM](XLM.md).
 
@@ -1205,29 +1209,7 @@ Score changes from that research:
 
 ---
 
-## #74 · ZK · ZKsync
-
-### 3.8 / 10 · ❌ FAIL
-
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A well-built L2 governance system around a token with no revenue and heavy ongoing unlocks; a Foundation treasury paid ~20M ZK a week to a wallet that forwarded 252.2M ZK to a Binance deposit, including on spike days. Arkham does not cover ZKsync Era.
-- 📄 [Full ZK report](ZK.md)
-
----
-
-## #75 · ZAMA · Zama
-
-### 3.8 / 10 · ❌ FAIL
-
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** Real FHE technology, but two-thirds of the token sits in one unlabelled EOA and fees are switched off. The team wallet sent 15M to Binance on a pump day; the Upbit transfer once counted as a sale was a bridge delivery.
-- 📄 [Full ZAMA report](ZAMA.md)
-
----
-
-## #76 · ROSE · Oasis Network
+## #74 · ROSE · Oasis Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1238,7 +1220,7 @@ Score changes from that research:
 
 ---
 
-## #77 · XDC · XDC Network
+## #75 · XDC · XDC Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1249,7 +1231,7 @@ Score changes from that research:
 
 ---
 
-## #78 · NIGHT · Midnight
+## #76 · NIGHT · Midnight
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1260,7 +1242,7 @@ Score changes from that research:
 
 ---
 
-## #79 · ZANO · Zano
+## #77 · ZANO · Zano
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1271,7 +1253,7 @@ Score changes from that research:
 
 ---
 
-## #80 · NEXA · Nexa
+## #78 · NEXA · Nexa
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1282,7 +1264,7 @@ Score changes from that research:
 
 ---
 
-## #81 · ASTR · Astar
+## #79 · ASTR · Astar
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1293,7 +1275,7 @@ Score changes from that research:
 
 ---
 
-## #82 · ORBITER · Orbiter Finance (OBT)
+## #80 · ORBITER · Orbiter Finance (OBT)
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1304,7 +1286,7 @@ Score changes from that research:
 
 ---
 
-## #83 · RISE · T-RIZE (RIZE)
+## #81 · RISE · T-RIZE (RIZE)
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1315,7 +1297,7 @@ Score changes from that research:
 
 ---
 
-## #84 · HASH · Provenance Blockchain
+## #82 · HASH · Provenance Blockchain
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1326,7 +1308,7 @@ Score changes from that research:
 
 ---
 
-## #85 · AXL · Axelar
+## #83 · AXL · Axelar
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1337,7 +1319,7 @@ Score changes from that research:
 
 ---
 
-## #86 · SWFTC · SWFT Blockchain
+## #84 · SWFTC · SWFT Blockchain
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1348,7 +1330,7 @@ Score changes from that research:
 
 ---
 
-## #87 · ZKJ · Polyhedra Network
+## #85 · ZKJ · Polyhedra Network
 
 ### 3.8 / 10 · ❌ FAIL
 
@@ -1359,7 +1341,7 @@ Score changes from that research:
 
 ---
 
-## #88 · TRB · Tellor
+## #86 · TRB · Tellor
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1370,7 +1352,7 @@ Score changes from that research:
 
 ---
 
-## #89 · PLUME · Plume
+## #87 · PLUME · Plume
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1381,18 +1363,7 @@ Score changes from that research:
 
 ---
 
-## #90 · XPL · Plasma
-
-### 3.7 / 10 · ❌ FAIL
-
-- **Sections passed:** 4 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A stablecoin chain with real TVL but almost no token revenue, half of supply with insiders, and an ecosystem-treasury-funded wallet that sold about $58M into exchanges, much of it on spike days. Arkham does not cover Plasma.
-- 📄 [Full XPL report](XPL.md)
-
----
-
-## #91 · SUI · Sui
+## #88 · SUI · Sui
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1403,7 +1374,7 @@ Score changes from that research:
 
 ---
 
-## #92 · CRO · Cronos (Crypto.com)
+## #89 · CRO · Cronos (Crypto.com)
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1414,7 +1385,7 @@ Score changes from that research:
 
 ---
 
-## #93 · MOCA · Moca Network
+## #90 · MOCA · Moca Network
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1425,7 +1396,7 @@ Score changes from that research:
 
 ---
 
-## #94 · TRADE · Polytrade
+## #91 · TRADE · Polytrade
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1436,7 +1407,7 @@ Score changes from that research:
 
 ---
 
-## #95 · IOTX · IoTeX
+## #92 · IOTX · IoTeX
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1447,7 +1418,7 @@ Score changes from that research:
 
 ---
 
-## #96 · TRUF · TRUF.Network (Truflation)
+## #93 · TRUF · TRUF.Network (Truflation)
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1458,7 +1429,7 @@ Score changes from that research:
 
 ---
 
-## #97 · ZEN · Horizen
+## #94 · ZEN · Horizen
 
 ### 3.7 / 10 · ❌ FAIL
 
@@ -1469,7 +1440,18 @@ Score changes from that research:
 
 ---
 
-## #98 · KAIO · KAIO (formerly Libre Capital)
+## #95 · XPL · Plasma
+
+### 3.6 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A stablecoin chain with real TVL but almost no token revenue, half of supply with insiders, and an ecosystem-treasury-funded wallet that sold about $58M into exchanges, much of it on spike days. Arkham does not cover Plasma.
+- 📄 [Full XPL report](XPL.md)
+
+---
+
+## #96 · KAIO · KAIO (formerly Libre Capital)
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1480,7 +1462,7 @@ Score changes from that research:
 
 ---
 
-## #99 · SHX · Stronghold
+## #97 · SHX · Stronghold
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1491,7 +1473,7 @@ Score changes from that research:
 
 ---
 
-## #100 · SUPRA · Supra
+## #98 · SUPRA · Supra
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1502,7 +1484,7 @@ Score changes from that research:
 
 ---
 
-## #101 · VELO · Velo
+## #99 · VELO · Velo
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1513,7 +1495,7 @@ Score changes from that research:
 
 ---
 
-## #102 · QANX · QANplatform
+## #100 · QANX · QANplatform
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1524,7 +1506,7 @@ Score changes from that research:
 
 ---
 
-## #103 · PROPC · Propchain
+## #101 · PROPC · Propchain
 
 ### 3.6 / 10 · ❌ FAIL
 
@@ -1532,6 +1514,28 @@ Score changes from that research:
 - **Hard gates failed:** Revenue
 - **Verdict:** A real-estate data company whose buyback went quiet in Oct 2025 while its Liquidity-bucket EOA kept depositing into MEXC, on two Sep 2026 pump days too. Totals corrected after Arkham labelled the hop wallets as MEXC deposit addresses.
 - 📄 [Full PROPC report](PROPC.md)
+
+---
+
+## #102 · ZK · ZKsync
+
+### 3.5 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A well-built L2 governance system around a token with no revenue and heavy ongoing unlocks; a Foundation treasury paid ~20M ZK a week to a wallet that forwarded 252.2M ZK to a Binance deposit, including on spike days. Arkham does not cover ZKsync Era.
+- 📄 [Full ZK report](ZK.md)
+
+---
+
+## #103 · ZAMA · Zama
+
+### 3.5 / 10 · ❌ FAIL
+
+- **Sections passed:** 4 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** Real FHE technology, but two-thirds of the token sits in one unlabelled EOA and fees are switched off. The team wallet sent 15M to Binance on a pump day; the Upbit transfer once counted as a sale was a bridge delivery.
+- 📄 [Full ZAMA report](ZAMA.md)
 
 ---
 
@@ -1601,18 +1605,7 @@ Score changes from that research:
 
 ---
 
-## #110 · ZKP · zkPass
-
-### 3.4 / 10 · ❌ FAIL
-
-- **Sections passed:** 1 of 11
-- **Hard gates failed:** Revenue, Selling
-- **Verdict:** A $6M float with 69% of supply in unlabelled project Safes and vesting that is not locked in code. The 123.3M holder is an Upbit deposit, not an insider.
-- 📄 [Full ZKP report](ZKP.md)
-
----
-
-## #111 · OM · MANTRA
+## #110 · OM · MANTRA
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1623,7 +1616,7 @@ Score changes from that research:
 
 ---
 
-## #112 · PUNDIX · Pundi X
+## #111 · PUNDIX · Pundi X
 
 ### 3.4 / 10 · ❌ FAIL
 
@@ -1634,7 +1627,7 @@ Score changes from that research:
 
 ---
 
-## #113 · SHPING · Shping
+## #112 · SHPING · Shping
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1645,7 +1638,7 @@ Score changes from that research:
 
 ---
 
-## #114 · CPOOL · Clearpool
+## #113 · CPOOL · Clearpool
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1656,7 +1649,7 @@ Score changes from that research:
 
 ---
 
-## #115 · ZIG · ZIGChain (Zignaly)
+## #114 · ZIG · ZIGChain (Zignaly)
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1667,7 +1660,7 @@ Score changes from that research:
 
 ---
 
-## #116 · STBL · STBL
+## #115 · STBL · STBL
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1678,7 +1671,7 @@ Score changes from that research:
 
 ---
 
-## #117 · SHARE · ShareX
+## #116 · SHARE · ShareX
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1689,7 +1682,7 @@ Score changes from that research:
 
 ---
 
-## #118 · AEON · AEON
+## #117 · AEON · AEON
 
 ### 3.3 / 10 · ❌ FAIL
 
@@ -1700,7 +1693,7 @@ Score changes from that research:
 
 ---
 
-## #119 · YELLOW · Yellow Network
+## #118 · YELLOW · Yellow Network
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -1711,7 +1704,7 @@ Score changes from that research:
 
 ---
 
-## #120 · LUMIA · Lumia
+## #119 · LUMIA · Lumia
 
 ### 3.2 / 10 · ❌ FAIL
 
@@ -1722,7 +1715,7 @@ Score changes from that research:
 
 ---
 
-## #121 · RBNT · Redbelly Network
+## #120 · RBNT · Redbelly Network
 
 ### 3.1 / 10 · ❌ FAIL
 
@@ -1730,6 +1723,17 @@ Score changes from that research:
 - **Hard gates failed:** Revenue, Selling
 - **Verdict:** A compliance L1 whose genesis wallet sent 30M RBNT one hop to a wallet that deposited 25.5M on Gate within the hour on a +40.7% pump day, with no disclosure found.
 - 📄 [Full RBNT report](RBNT.md)
+
+---
+
+## #121 · ZKP · zkPass
+
+### 3.1 / 10 · ❌ FAIL
+
+- **Sections passed:** 1 of 11
+- **Hard gates failed:** Revenue, Selling
+- **Verdict:** A $6M float with 69% of supply in unlabelled project Safes and vesting that is not locked in code. The 123.3M holder is an Upbit deposit, not an insider.
+- 📄 [Full ZKP report](ZKP.md)
 
 ---
 

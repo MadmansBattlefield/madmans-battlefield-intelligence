@@ -4,13 +4,13 @@
   "name": "zkPass",
   "chain": "ethereum",
   "contract": "0xe1be424f442d0687129128c6c38aace44f8c8dbc (BSC 0xd89b7dd376e671c124352267516bef1c2cc231a3)",
-  "overall_score": 3.4,
+  "overall_score": 3.1,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 2,
     "foundation_team": 5,
     "insider_holdings": 2,
-    "selling_behavior": 3,
+    "selling_behavior": 1,
     "tokenomics_supply": 3,
     "liquidity_market": 3,
     "product_development": 5,
@@ -31,7 +31,7 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 3,
+      "score": 1,
       "threshold": 3,
       "tripped": true
     }
@@ -44,7 +44,24 @@
   },
   "price_usd": 0.02973,
   "price_source": "CoinGecko, 16 Nov 2026 ~8:40 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "No fee or revenue record.",
+    "pump_day_price_source": "Gate ZKP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 319 days); the body's earlier count used the daily closes cited in the body",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": [
+      {
+        "address": "0x491a6acfeab80b4bd80dc25d949d7c45c310f5be",
+        "label": "Receives monthly community and DAO unlocks",
+        "confidence": "high",
+        "independent_corroboration": true,
+        "basis": "Etherscan (unlock contract payouts)"
+      }
+    ]
+  },
   "key_numbers": {
     "price_usd": 0.02973,
     "market_cap_text": "$6.0M",
@@ -55,9 +72,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZKP.md",
-    "sha256": "4b7735c209d2a8762b64fd7e8eadb37e3bf0bae926b24177186a4713c387df00",
-    "bytes": 12160,
-    "extracted_at": "2026-11-16 14:27 MST",
+    "sha256": "3bcaeb9fcfceff17a13d3a56ba9b083a36f2a6244f3d02e29133859645c5a30e",
+    "bytes": 14276,
+    "extracted_at": "2026-11-16 14:28 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -144,29 +161,43 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": "Binance ZKPUSDT daily closes",
+    "price_source": "Gate ZKP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 319 days); the body's earlier count used the daily closes cited in the body",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
     "disclosure_quality": "silence",
-    "pump_day_undisclosed_penalty_applied": false,
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: the Safe that receives monthly community and DAO unlocks sent 1,125,414 ZKP to a Binance deposit address on 3 Jul 2026, a +30.6% pump day; no disclosure found"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
-    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - No DefiLlama fee or revenue record, and no published protocol revenue. **2 → hard-gate FAIL.**"
+    "notes": "## 💰 Revenue — Does it make money? · 2/10 · ❌ FAIL (hard gate) - No DefiLlama fee or revenue record, and no published protocol revenue. **2 → hard-gate FAIL.** - **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee or revenue record."
   },
   "attributions": [
+    {
+      "address": "0x491a6acfeab80b4bd80dc25d949d7c45c310f5be",
+      "url": null,
+      "label": "Receives monthly community and DAO unlocks",
+      "source": "front_matter",
+      "confidence": "high",
+      "independent_corroboration": true,
+      "corroborating_sources": [
+        "report-front-matter",
+        "corroborated"
+      ],
+      "label_kind": "verified_entity",
+      "appears_in_selling_or_holdings": true
+    },
     {
       "address": "0x7f8410796549a621cd4dc8ff631dbdc477007baf",
       "url": "https://intel.arkm.com/explorer/address/0x7f8410796549a621cd4dc8ff631dbdc477007baf",
@@ -181,17 +212,6 @@
     {
       "address": "0xfc128c6b4049b1a45dfc0a2d02a9e6edf51ba66e",
       "url": "https://intel.arkm.com/explorer/address/0xfc128c6b4049b1a45dfc0a2d02a9e6edf51ba66e",
-      "label": "unlabelled",
-      "source": "arkham",
-      "confidence": "low",
-      "independent_corroboration": false,
-      "corroborating_sources": [],
-      "label_kind": "unlabelled",
-      "appears_in_selling_or_holdings": true
-    },
-    {
-      "address": "0x491a6acfeab80b4bd80dc25d949d7c45c310f5be",
-      "url": "https://intel.arkm.com/explorer/address/0x491a6acfeab80b4bd80dc25d949d7c45c310f5be",
       "label": "unlabelled",
       "source": "arkham",
       "confidence": "low",
@@ -270,6 +290,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan token, Safe and transaction pages. Receipts and Safe thresholds were checked through the Etherscan API on 16 Nov 2026",

@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "PoW/PoS issuance of 1 ZANO per block; the minting exploit is closed and Gateway Addresses are disabled pending audit"
   team_wallet_to_exchange_during_pump: "not proven: privacy chain, so the 3.69M team premine cannot be traced"
   entity_concentration: "unknown (shielded balances)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Fees are burned automatically, but they come to under $50 a day; Revenue stays 2."
+pump_day_price_source: "MEXC ZANOUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (39 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 3.87
 price_source: "CoinGecko, 16 Nov 2026 ~9:30 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - No treasury income. Fees of 0.01 ZANO are burned, which at roughly 1,200 transactions a day comes to under $50 a day [Unverified: transaction count from one aggregator]. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Fees are burned automatically, but they come to under $50 a day; Revenue stays 2.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 - A full-time core team (hyle-team) ships regular releases ([GitHub](https://github.com/hyle-team/zano/releases)). It responded to the exploit within two days and publishes monthly updates ([blog](https://blog.zano.org/zano-monthly-project-update-24-september-october-2026/)). Its funding comes from a premine the project says is mostly spent ([guide](https://intro.zano.org/zano-introduction-guidebook.pdf)).
@@ -88,6 +98,8 @@ layout_version: 3
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
 - Zano hides amounts and owners, so the premine can't be followed to exchanges. With 39 pump days in the year, this can't be checked → **not proven, 4.**
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from MEXC ZANOUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (39 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -126,8 +138,17 @@ layout_version: 3
 | Live mint path | 🟡 Block rewards only; the exploit path is disabled pending audit |
 | Entity concentration | ⚪ Unknown |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Premine wallets | Untraceable by design | — | low | no | Selling stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [Emergency release v2.2.3.600](https://github.com/hyle-team/zano/releases/tag/2.2.3.600), [Pre-rollback docs](https://docs.zano.org/docs/learn/pre-rollback-build/), [Monthly update #24](https://blog.zano.org/zano-monthly-project-update-24-september-october-2026/)
 - [Tier A] [Mainnet week one (premine 3.69M)](https://blog.zano.org/a-week-into-mainnet/), [Introduction guide](https://intro.zano.org/zano-introduction-guidebook.pdf)
 - [Tier B] [Bitcoin.com News, rollback](https://news.bitcoin.com/security/zano-wipes-1-month-of-history-to-fix-massive-crypto-inflation-bug/), [Bitcoin.com News, network stable](https://news.bitcoin.com/crypto-news/zano-network-stabilizes-after-30-day-blockchain-rewind/)

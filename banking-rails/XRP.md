@@ -23,6 +23,14 @@ red_lines:
   ledger_halt: none_in_series
   ripple_ops_flow_on_pump_day: tripped_2_of_23
   ripple_sales_undisclosed: open
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Every transaction fee is burned automatically, but the amount is tiny (~$282k a year); Revenue stays 2."
+pump_day_price_source: "Gate XRP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (21 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.953837
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_ledger: 108330736
@@ -88,6 +96,8 @@ layout_version: 3
 
 **What it means:** XRP burns every fee, which is good design, but there is almost nothing to burn: ~$282k a year on a $60B asset. Ripple the company earns money from payments and custody; that does not flow to XRP holders.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Every transaction fee is burned automatically, but the amount is tiny (~$282k a year); Revenue stays 2.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 | Item | Finding | Source |
@@ -142,6 +152,8 @@ layout_version: 3
 
 **What it means:** The release-and-distribute cycle is regular and mostly off-pump, but two large transfers landed on pump days and Ripple does not publish who the end buyers are. That is undisclosed insider distribution, so it fails — though not at the gate level.
 
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate XRP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (21 of 360 days); the body's earlier count used CoinGecko daily closes.
+
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
 | Item | Value | Source |
@@ -188,8 +200,17 @@ layout_version: 3
 | Ripple ops flow on a pump day | 🔴 Tripped 2 of 23 times ([5 Jan](https://xrpscan.com/tx/F2948835DAFF627ED8BFEC468BF705EC0D373806C2B6A0BC3BC96D02514804F8), [6 Jul 2026](https://xrpscan.com/tx/F00C7180F72FB6A10D34F43E2D82363955DD0B4F08B7C73D7D3DA92A3900D80B)) |
 | Ripple end-buyer disclosure | 🟡 Open |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Ripple operational accounts | Ripple | XRPL explorer + Ripple escrow reports | high | yes | Selling: two large transfers on pump days to undisclosed recipients, not proven exchange sales; stays 4 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] XRPL public API (`xrplcluster.com`): `ledger`, `server_info`, `account_info`, `account_objects` (escrow), `account_tx` for Ripple escrow owners, `rBg2…` and `rJqiMb…`; 14 Nov 2026 ~12:24 PM MST
 - [Tier A] DefiLlama fees `xrpl`, 14 Nov 2026
 - [Tier A] CoinGecko `ripple` price and 365-day daily closes, 14 Nov 2026 12:12 PM MST

@@ -44,7 +44,16 @@
   },
   "price_usd": 0.03404,
   "price_source": "CoinGecko, 16 Nov 2026 ~6:02 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Buybacks are optional by the project's own wording and revenue is not published.",
+    "pump_day_price_source": "Gate ZIG_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.03404,
     "market_cap_text": "$47.96M",
@@ -55,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZIG.md",
-    "sha256": "f5b2360b8453de768215e0dcbd53848b570e49d51e80c1aa7aaf0cd798e81549",
-    "bytes": 27456,
-    "extracted_at": "2026-11-16 14:27 MST",
+    "sha256": "6349aaca3aad3a8ba3fe5fa2e115e54f810f3e9eaefb2b3cf8af179a73997122",
+    "bytes": 29161,
+    "extracted_at": "2026-11-16 14:28 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -407,27 +416,27 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate ZIG_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
-    "proven_pump_day_sale": "yes",
+    "rescored_under_effective_rules": true,
+    "proven_pump_day_sale": "no",
     "selling_not_proven": false,
-    "disclosure_quality": "silence",
+    "disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: not on a pump day: a Safe run by the same 3 signers as the founders' Safe (signers funded by or labelled Zignaly: Deployer per Arkham) sent 335.67M ZIG via relay 0x38ae… into a Bybit deposit (Nansen + Arkham), 16–22 Jan 2024 (price fell); earlier Safe-sourced ZIG reached an HTX deposit (400M, 9 Jun 2022) and a Gate deposit (200M, 6 Oct 2022) via 0x6f04 → 0x3367, not pump days; no disclosure found"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [
       "buyback"
     ],
     "automatic_onchain": false,
-    "executed": true,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "No measured revenue reaches the token. Buybacks are optional by the project's own wording, and Zignaly's business revenue is not published. That is **2**, which **trips the Revenue gate**."
   },
@@ -631,6 +640,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] Etherscan v2 API: `tokentx` for the deployer, both Safes, `0xfc3e…`, `0x6f04…`, `0x38ae…`, `0xb73f…`, `0x3367…`; `getsourcecode`, `getcontractcreation`; `eth_call` `getOwners()` / `getThreshold()` on both Safes, 16 Nov 2026 MST",

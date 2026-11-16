@@ -3,13 +3,13 @@ ticker: XPL
 name: Plasma
 chain: plasma
 contract: "native (Plasma chain, chain id 9745)"
-overall_score: 3.7
+overall_score: 3.6
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 5
   insider_holdings: 3
-  selling_behavior: 1
+  selling_behavior: 0
   tokenomics_supply: 3
   liquidity_market: 6
   product_development: 6
@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "planned: 5% validator inflation (falling to 3%) once external validators and delegation go live"
   team_wallet_to_exchange_during_pump: "yes: a wallet funded by the Ecosystem Treasury (genesis 50M + 250M on 21 Aug 2026, itself a +35.7% day) sent 284.5M XPL (~$58M) to Binance, Bybit, Bitget, Gate and one unlabeled deposit; 202M of it in 18 transfers on pump days (Aug-Sep 2026); an investor-allocation recipient sent 23.9M XPL to a Bybit deposit on the cliff day (25 Sep 2026, +28.5%)"
   treasury_selling: "Ecosystem Treasury has paid out 960M XPL; docs allow use for 'liquidity needs' and 'exchange integrations', but the sales themselves were not disclosed"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "USD₮ transfers are free by design and the small fee income does not reach holders."
+pump_day_price_source: "Gate XPL_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (76 of 360 days); the body's earlier count used the daily closes cited in the body"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.04311
 price_source: "CoinGecko, 16 Nov 2026 6:58 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### XPL · Overall grade **3.7 / 10 · ❌ FAIL**
+### XPL · Overall grade **3.6 / 10 · ❌ FAIL**
 
 **Summary:** Plasma is a stablecoin-focused layer-1 with zero-fee USD₮ transfers. It holds **$405M of TVL**, real usage, and XPL trades $31.5M a day. But the chain earns almost nothing (**$104k of revenue in 12 months**, which is burned base fees), and XPL is −97% from its September 2025 high and −82% in a year. Insiders own 50% of supply. The team/investor one-year cliff opened on **25 Sep 2026** (1.67B XPL), and monthly unlocks follow until 2028. On-chain, an Ecosystem-allocation wallet has been **dumping into centralized exchanges on pump days**. Both hard gates fail.
 
@@ -44,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 1/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 6/10 | ✅ PASS |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -58,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 XPL · Plasma · 3.7 / 10 · ❌ FAIL
+# 🪪 XPL · Plasma · 3.6 / 10 · ❌ FAIL
 
 > **One line:** A stablecoin chain with real TVL and a token with almost no revenue, half of supply with insiders, and an ecosystem wallet that sold $58M into exchanges, much of it on spike days.
 
@@ -84,6 +92,8 @@ layout_version: 3
 
 **What it means:** The main product, USD₮ transfers, is free by design, so $405M of TVL earns about $100k a year. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** USD₮ transfers are free by design and the small fee income does not reach holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - Plasma is a company-run chain with a 25% investor allocation ([docs](https://www.plasma.to/docs/get-started/xpl/tokenomics)). Validators are still run by the team; external validators and delegation are "planned".
@@ -100,7 +110,7 @@ layout_version: 3
 
 **What it means:** Insiders hold or recently received most of the supply. Investor-wallet tokens moved before the cliff to unlabeled wallets, and those wallets' lock status is unknown. **3.**
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 Exchange identification: Plasmascan labels the hot wallets (Binance, Bybit Wallet 129, Bybit Hot Wallet 1, Gate, Bitget 6 via Etherscan). Each deposit below swept to one of them.
 
@@ -113,6 +123,8 @@ Exchange identification: Plasmascan labels the hot wallets (Binance, Bybit Walle
 - Team-cliff recipients (24–25 Sep 2026): none of the wallets that got 5M+ XPL sent it to a labeled exchange (directly or via a deposit address) up to 16 Nov 2026. They are still unlocking monthly.
 
 **What it means:** A treasury-funded wallet sold ~$58M into exchanges, most of it on pump days. **1.**
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** Treasury "operations" are mentioned, but the sales themselves were not disclosed. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **1 → 0**. Pump days from Gate XPL_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (76 of 360 days); the body's earlier count used the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -156,8 +168,17 @@ Exchange identification: Plasmascan labels the hot wallets (Binance, Bybit Walle
 | Live mint path | 🟡 5% validator inflation planned |
 | Treasury selling | 🔴 ~284.5M XPL from an ecosystem wallet to exchanges |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Ecosystem Treasury-funded wallet | Plasma Ecosystem Treasury (genesis 50M + 250M top-up) | Etherscan funding | high | yes (on-chain) | Selling: 284.5M XPL to Binance, Bybit, Bitget and Gate, 202M on Aug–Sep 2026 pump days |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Plasma chain via Etherscan API v2 (chain 9745): native and internal transfers of the Ecosystem Treasury, Team, Investor, 80 first-hop recipients and 56 second-hop addresses; receipts (status 1) for every linked tx, 16 Nov 2026 ~7:00–7:30 AM MST
 - [Tier A] Plasmascan public labels and top-accounts page (16 Nov 2026); Etherscan Ethereum labels for Binance/Bitget deposits on the same addresses
 - [Tier B] Arkham, read 16 Nov 2026 ~7:35 AM MST (signed-in account): **Plasma is not supported.** The network selector lists only Ethereum, Polygon, BNB Chain, Optimism, Avalanche, Arbitrum, Base, Bitcoin, Tron, Flare, Solana, Dogecoin, Zcash, HyperEVM, Hypercore, Robinhood Chain. The first address looked up, `0xF97B…8558`, showed no assets and no transfers ([Arkham](https://intel.arkm.com/explorer/address/0xF97Ba376d3Ecb36C4472B1D3c5aaF2D158c28558)). No Arkham labels were available for this report

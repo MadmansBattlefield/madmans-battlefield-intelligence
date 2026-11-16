@@ -44,6 +44,14 @@
   "price_usd": 0.953837,
   "price_source": "CoinGecko, 14 Nov 2026 12:12 PM MST",
   "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "yes",
+    "revenue_mechanism": "Every transaction fee is burned automatically, but the amount is tiny (~$282k a year); Revenue stays 2.",
+    "pump_day_price_source": "Gate XRP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (21 of 360 days); the body's earlier count used CoinGecko daily closes",
+    "pump_day_disclosure_quality": "not_applicable",
+    "pump_day_undisclosed_penalty_applied": false,
+    "dual_review": "not_run",
+    "attributions": [],
     "chain_read_ledger": 108330736
   },
   "key_numbers": {
@@ -56,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/XRP.md",
-    "sha256": "aa2885dc1c9e15ee5f8cc561e4d48eac362310b758b4bf550dbe8ad44f3d1647",
-    "bytes": 18361,
-    "extracted_at": "2026-11-16 14:27 MST",
+    "sha256": "4b581ed838ada1fe932646bbaf62354b1acb7e471bd7813ac6d70128857b82b2",
+    "bytes": 20095,
+    "extracted_at": "2026-11-16 14:28 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -248,12 +256,12 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate XRP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (21 of 360 days); the body's earlier count used CoinGecko daily closes",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "no",
     "selling_not_proven": true,
     "disclosure_quality": "not_applicable",
@@ -263,12 +271,12 @@
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "yes",
     "mechanisms": [
       "burn"
     ],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": true,
+    "executed": true,
     "inconsistent_with_score": false,
     "notes": "XRP burns every fee, which is good design, but there is almost nothing to burn: ~$282k a year on a $60B asset. Ripple the company earns money from payments and custody; that does not flow to XRP holders."
   },
@@ -310,6 +318,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] XRPL public API (`xrplcluster.com`): `ledger`, `server_info`, `account_info`, `account_objects` (escrow), `account_tx` for Ripple escrow owners, `rBg2…` and `rJqiMb…`; 14 Nov 2026 ~12:24 PM MST",

@@ -1,6 +1,6 @@
 ---
 title: Review flags
-generated_at: 2026-11-16 14:27 MST
+generated_at: 2026-11-16 14:29 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Scores on this page were not changed.
 ---
@@ -26,7 +26,7 @@ Rule: only a verified entity label with on-chain proof, or a second independent 
 | [COTI](banking-rails/COTI.md) | 0 | 2 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [FXS](banking-rails/FXS.md) | 1 | 4 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [HYPER](banking-rails/HYPER.md) | 0 | 3 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
-| [XPL](banking-rails/XPL.md) | 1 | 3 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
+| [XPL](banking-rails/XPL.md) | 0 | 3 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 | [ZBCN](banking-rails/ZBCN.md) | 1 | 4 | Selling failed, and the report links the flow to the team or treasury through an unlabelled or prediction attribution with no independent corroboration. |
 
 ## 2. Selling or Holdings cites an Arkham label with no second source parsed

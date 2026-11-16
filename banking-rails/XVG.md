@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no beyond PoW issuance; supply ~16.52B, essentially fully mined"
   team_wallet_to_exchange_during_pump: "not applicable: no premine or ICO (2014 launch as DogecoinDark)"
   entity_concentration: "none known (no team allocation)"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Fees go to miners; nothing accrues to holders."
+pump_day_price_source: "MEXC XVGUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (39 of 360 days); the body's earlier count used not applicable (no insider wallets)"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.001721
 price_source: "CoinGecko, 16 Nov 2026 ~9:35 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - Proof-of-work with no protocol treasury. Fees go to miners. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Fees go to miners; nothing accrues to holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 3/10 · ❌ FAIL
 
 - Volunteer developers with no company. Funding comes from donations ([FAQ](https://vergecurrency.com/faq)).
@@ -89,6 +99,8 @@ layout_version: 3
 
 - With no team, foundation or treasury wallets, the insider pump-day test doesn't apply. This follows the BCH, XMR and ETC reports.
 - One past exception: Fortune reported in 2018 that 18M XVG left a community crowdfunding wallet without explanation [Unverified: one secondary source], outside the window.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from MEXC XVGUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (39 of 360 days); the body's earlier count used not applicable (no insider wallets).
 
 ## 📊 Tokenomics & supply · 8/10 · ✅ PASS
 
@@ -127,8 +139,17 @@ layout_version: 3
 | Live mint path | 🟢 Essentially fully mined |
 | Entity concentration | 🟢 None known |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| No team, foundation or treasury wallets | — | — | high | n/a | None: insider test does not apply |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [Verge FAQ](https://vergecurrency.com/faq) (no premine, no ICO)
 - [Tier B] [CoinDesk, 15 Feb 2021](https://www.coindesk.com/markets/2021/02/15/pornhub-payment-option-verge-suffers-massive-blockchain-reorganization), [Coin Metrics researcher write-up](https://1ucas.me/research/verge), [PriFi profile](https://prifi.info/protocols/verge/)
 - [Tier A] CoinGecko `verge`; pump days from Binance XVGUSDT daily closes

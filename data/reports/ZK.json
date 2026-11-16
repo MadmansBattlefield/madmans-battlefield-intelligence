@@ -4,13 +4,13 @@
   "name": "ZKsync",
   "chain": "zksync-era",
   "contract": "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e",
-  "overall_score": 3.8,
+  "overall_score": 3.5,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 2,
     "foundation_team": 6,
     "insider_holdings": 4,
-    "selling_behavior": 2,
+    "selling_behavior": 0,
     "tokenomics_supply": 4,
     "liquidity_market": 6,
     "product_development": 6,
@@ -31,7 +31,7 @@
       "tripped": true
     },
     "selling_behavior": {
-      "score": 2,
+      "score": 0,
       "threshold": 3,
       "tripped": true
     }
@@ -44,7 +44,16 @@
   },
   "price_usd": 0.00788,
   "price_source": "CoinGecko, 16 Nov 2026 6:58 AM MST",
-  "front_matter_extras": {},
+  "front_matter_extras": {
+    "methodology_effective": "2026-11-16",
+    "revenue_reaches_holders": "no",
+    "revenue_mechanism": "Sequencer revenue is tiny and none goes to ZK.",
+    "pump_day_price_source": "Gate ZK_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (40 of 360 days); the body's earlier count used the daily closes cited in the body",
+    "pump_day_disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
+    "dual_review": "not_run",
+    "attributions": []
+  },
   "key_numbers": {
     "price_usd": 0.00788,
     "market_cap_text": "$86.8M",
@@ -56,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZK.md",
-    "sha256": "e70131d6864f2f4d1d13b89f5a234ee75ebcc53a1608a1652cabce914259fe8a",
-    "bytes": 20902,
-    "extracted_at": "2026-11-16 14:27 MST",
+    "sha256": "a559ebdc39b6afdd1bc17e3e7740c1bc9ceb8446c96c7bd99b1c080a200b03ee",
+    "bytes": 22750,
+    "extracted_at": "2026-11-16 14:28 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -228,25 +237,25 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": null,
+    "price_source": "Gate ZK_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (40 of 360 days); the body's earlier count used the daily closes cited in the body",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,
     "methodology_effective_from": "2026-11-16",
-    "rescored_under_effective_rules": false,
+    "rescored_under_effective_rules": true,
     "proven_pump_day_sale": "yes",
     "selling_not_proven": false,
-    "disclosure_quality": "unclear",
-    "pump_day_undisclosed_penalty_applied": false,
+    "disclosure_quality": "silence",
+    "pump_day_undisclosed_penalty_applied": true,
     "flags_noted_in_report": [
       "team_wallet_to_exchange_during_pump: yes: a Foundation-linked wallet sent 44.7M ZK to a Binance deposit on a +18.3% day (25 Apr 2025); a wallet funded weekly by Foundation Treasury 2 sent 252.2M ZK (~$14.7M) to a Binance deposit, 53.8M of it on pump days incl. 4-6 Nov 2025 (+117% to +161%)"
     ]
   },
   "revenue_accrual": {
-    "reaches_holders": "unclear",
+    "reaches_holders": "no",
     "mechanisms": [],
-    "automatic_onchain": null,
-    "executed": null,
+    "automatic_onchain": false,
+    "executed": false,
     "inconsistent_with_score": false,
     "notes": "Sequencer revenue is tiny against an $87M cap, and none of it goes to ZK. **2 → hard-gate FAIL.**"
   },
@@ -288,6 +297,12 @@
     }
   },
   "sources": [
+    {
+      "tier": "A",
+      "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
+      "urls": [],
+      "date_read": "16 Nov 2026"
+    },
     {
       "tier": "A",
       "text": "[Tier A] ZKsync Era block-explorer API and RPC: ZK `totalSupply()`, `CAP()`/`minted()` on the capped minters, `balanceOf`; full ZK transfers for Treasury 1, Treasury 2, `0x1054…`, `0xe640…`, `0xc3c1…`, `0x1091…`, the Binance deposits and other recipients; receipts (status 1) for every linked tx, 16 Nov 2026 ~7:10–7:40 AM MST",

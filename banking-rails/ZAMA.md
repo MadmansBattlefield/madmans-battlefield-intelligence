@@ -3,13 +3,13 @@ ticker: ZAMA
 name: Zama
 chain: ethereum
 contract: "0xa12cc123ba206d4031d1c7f6223d1c2ec249f4f3"
-overall_score: 3.8
+overall_score: 3.5
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 6
   insider_holdings: 2
-  selling_behavior: 2
+  selling_behavior: 0
   tokenomics_supply: 3
   liquidity_market: 4
   product_development: 7
@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes by design: 5% yearly emission to operators and stakers (supply 11.39B vs 11B initial)"
   team_wallet_to_exchange_during_pump: "yes: the Etherscan-labelled 'Zama 1' wallet sent 15,000,000 ZAMA to a Binance deposit address on 14 Apr 2026 (+39.1% pump day); no disclosure found"
   entity_concentration: "one plain EOA (single key) holds 7.665B ZAMA, 67.3% of supply"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "yes"
+revenue_mechanism: "Fees for proof verification, decryption and bridging are paid in ZAMA and 100% burned by protocol rule, but no fee total is recorded; Revenue stays 2."
+pump_day_price_source: "the daily closes cited in the body"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.05429
 price_source: "CoinGecko, 16 Nov 2026 ~8:40 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### ZAMA · Overall grade **3.8 / 10 · ❌ FAIL**
+### ZAMA · Overall grade **3.5 / 10 · ❌ FAIL**
 
 **Summary:** Zama builds fully homomorphic encryption (FHE) for confidential smart contracts. The protocol is live, with staking, 18 operators and about $85M of TVL. The token launched on 2 Feb 2026. Fees are burned, but Zama deliberately keeps them near zero, so the revenue gate fails. The selling gate also fails: a Zama-labelled wallet deposited to Binance on a pump day. The custody setup is the biggest problem: **a single plain address (an EOA, not a vesting contract) holds 67.3% of all ZAMA**.
 
@@ -44,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 2/10 | ❌ FAIL |
-| 📉 Selling behavior | 2/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 4/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -58,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ZAMA · Zama · 3.8 / 10 · ❌ FAIL
+# 🪪 ZAMA · Zama · 3.5 / 10 · ❌ FAIL
 
 > **One line:** Real FHE technology, but two-thirds of the token sits behind a single key and fees are switched off.
 
@@ -77,6 +85,8 @@ layout_version: 3
 
 - Fees for proof verification, decryption and bridging are paid in ZAMA and 100% burned ([staking post](https://www.zama.org/post/staking-is-now-live-on-mainnet)). DefiLlama has no fee record, and a research report says Zama keeps fees near zero on purpose (Tier B). **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): Yes.** Fees for proof verification, decryption and bridging are paid in ZAMA and 100% burned by protocol rule, but no fee total is recorded; Revenue stays 2.
+
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
 - An established FHE company with a long research record. Governance runs through an Aragon DAO of the 18 elected operators, each with an equal vote. Leaders are described by role only.
@@ -92,7 +102,7 @@ layout_version: 3
 
 - Published allocation: Team 20%, VCs 20%, Treasury 20%, Angels 10%, Growth 10%. The still-locked pools (about 7.8B by that table) match the EOA's balance, but nothing on-chain enforces the locks.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 2/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 | Date | From | To | ZAMA | ≈ USD | Pump? | Tx |
 |---|---|---|---:|---:|---|---|
@@ -102,6 +112,8 @@ layout_version: 3
 - **Correction:** 6.35M ZAMA that `0xa798…` sent to an Upbit deposit on 14 Apr 2026 is not a team sale. Arkham labels `0xa798` **ZamaOFTAdapter**, and the transaction ([tx](https://etherscan.io/tx/0xd4ac48eaba8eb67fefee47a7f12297a3070765c297a86f6979c2dcfd2fc42111)) is a LayerZero `lzReceive` delivery: someone bridged ZAMA from another chain to an Upbit deposit. The sender is unknown, so it is no longer counted.
 - **Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) on "Zama 1":** it sent 27.5M ZAMA to a **Wintermute deposit** on 31 Jul 2026 ([tx](https://etherscan.io/tx/0xc82e1fa5cf998270c2b9ee25c44815efb3894ff87e914d0735a790a9edfb58b5); −10.3% on Gate, not a pump day), market-maker flow rather than a sale. It also sent 25M ZAMA on 9 Nov 2026 ([tx](https://etherscan.io/tx/0x57bcbecb954cd156b1221a0fabfeaf0f18cc43951a826733262fa4bf68b4b8d2)) to a Safe that Arkham labels as belonging to a named Zama co-founder: an internal team transfer.
 - These could be liquidity or market-making transfers (2% of supply was allocated to liquidity), but no disclosure was found. Exchange deposits from a team-labelled wallet on a pump day score 2 (unchanged after the Upbit correction: the 15M Binance deposit on 14 Apr still stands). Transfers at the 2 Feb 2026 launch (auction claims and exchange campaign funding) are treated as documented distribution. All linked transactions returned status 1 (success).
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure was found; these could be liquidity transfers, but none was announced. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. Pump days from the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -143,8 +155,17 @@ layout_version: 3
 | Live mint path | 🟠 Yes, by design (5% emission) |
 | Entity concentration | 🔴 67.3% in one EOA |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| "Zama 1" | Zama (Etherscan name tag) | Etherscan | high | yes | Selling: 15,000,000 ZAMA into a Binance deposit on the 14 Apr 2026 pump day (+39.1%) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan token, address and transaction pages, with labels. Receipts were checked through the Etherscan API on 16 Nov 2026
 - [Tier A] [Zama token launch post](https://www.zama.org/post/zama-token-launch) and [staking post](https://www.zama.org/post/staking-is-now-live-on-mainnet)
 - [Tier B] Allocation and vesting tables (tokenomics.com, tokenradar), and a research report on fee policy
@@ -171,6 +192,7 @@ layout_version: 3
 |---|---|---|---|
 | 1 | **How the locked allocations are custodied** | Arkham (16 Nov 2026) leaves 0x6aed…2b28 unlabelled. Ask Zama whether it is an MPC or custodian address [Unverified] | Free |
 | 2 | **Was the 14 Apr deposit market making?** | Look for a liquidity-provider disclosure | Free |
+| 3 | **Pump-day test on exchange prices.** No Gate, MEXC, KuCoin or Kraken USDT series with a full year was returned on 16 Nov 2026 (Binance blocks this region) | Re-run scripts/pump_day_test.py on the first exchange in the price-source order that lists the token | Free |
 
 ---
 

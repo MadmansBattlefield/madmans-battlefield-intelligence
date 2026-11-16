@@ -1,7 +1,7 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-16 14:27 MST",
+  "generated_at": "2026-11-16 14:29 MST",
   "universe": 148,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
@@ -223,8 +223,8 @@
     ]
   },
   "proven_pump_day_sale": {
-    "count": 37,
-    "share": 0.25,
+    "count": 36,
+    "share": 0.2432,
     "tickers": [
       "ACH",
       "ALGO",
@@ -260,18 +260,14 @@
       "XPL",
       "ZAMA",
       "ZBCN",
-      "ZIG",
       "ZK",
       "ZKP"
     ]
   },
   "pump_day_sale_unclear": {
-    "count": 2,
-    "share": 0.0135,
-    "tickers": [
-      "XMR",
-      "XVG"
-    ]
+    "count": 0,
+    "share": 0.0,
+    "tickers": []
   },
   "selling_not_proven": {
     "count": 76,
@@ -455,13 +451,13 @@
       "XPL",
       "ZAMA",
       "ZBCN",
-      "ZIG",
+      "ZK",
       "ZKP"
     ]
   },
   "revenue_reaches_holders_yes": {
-    "count": 24,
-    "share": 0.1622,
+    "count": 27,
+    "share": 0.1824,
     "tickers": [
       "AERO",
       "APT",
@@ -486,12 +482,15 @@
       "TX",
       "WAN",
       "XDC",
-      "XLM"
+      "XLM",
+      "XRP",
+      "ZAMA",
+      "ZANO"
     ]
   },
   "revenue_reaches_holders_no": {
-    "count": 110,
-    "share": 0.7432,
+    "count": 119,
+    "share": 0.8041,
     "tickers": [
       "ACH",
       "ADA",
@@ -598,31 +597,28 @@
       "W",
       "WIREX",
       "XDB",
-      "XNO",
-      "ZBCN",
-      "ZEC",
-      "ZKJ",
-      "ZRO"
-    ]
-  },
-  "revenue_reaches_holders_unclear": {
-    "count": 14,
-    "share": 0.0946,
-    "tickers": [
-      "JST",
-      "XEP",
       "XMR",
+      "XNO",
       "XPL",
-      "XRP",
       "XVG",
       "YELLOW",
-      "ZAMA",
-      "ZANO",
+      "ZBCN",
+      "ZEC",
       "ZEN",
       "ZIG",
       "ZK",
       "ZKC",
-      "ZKP"
+      "ZKJ",
+      "ZKP",
+      "ZRO"
+    ]
+  },
+  "revenue_reaches_holders_unclear": {
+    "count": 2,
+    "share": 0.0135,
+    "tickers": [
+      "JST",
+      "XEP"
     ]
   }
 }

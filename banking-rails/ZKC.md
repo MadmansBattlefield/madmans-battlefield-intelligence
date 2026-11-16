@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes: emissions minted supply from 1.0B to 1.081B; end planned Q4 2026"
   team_wallet_to_exchange_during_pump: "not proven: an unlabelled distributor-like wallet funded by an Anchorage Digital custody address deposited 840,000 ZKC to Binance on 30 Aug 2026 (+53.3%); the custody client is not named"
   entity_concentration: "four genesis-line wallets hold 424M (39%), two of them Anchorage Digital custody addresses for an unnamed client; no vesting contracts"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No fee data and no published revenue to holders."
+pump_day_price_source: "Gate ZKC_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.02354
 price_source: "CoinGecko, 16 Nov 2026 ~8:52 AM MST"
 last_updated: 2026-11-16
@@ -78,6 +86,8 @@ layout_version: 3
 
 - No fee data found, and the proving protocol has been paused since 5 Nov 2026. No published revenue to token holders. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee data and no published revenue to holders.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - Incubated by the zkVM company that built it, with a foundation as token issuer. Leaders are described by role only. Wallet ownership is not published.
@@ -105,6 +115,8 @@ layout_version: 3
 - Before listing (12–16 Sep 2025), 0x16cd and 0xf52f funded ~52M ZKC of deposits to Binance, Bybit, Gate and others. That looks like listing and airdrop supply, not a sale.
 - **Re-score after Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)):** 0x453a and 0x16cd are Anchorage Digital custody addresses, so the genesis → 0x16cd → 0x7ee7 chain is a custodian moving tokens on behalf of an unnamed client, not proven team flow. [0x7ee7](https://intel.arkm.com/explorer/address/0x7ee7ffd5a2ec4e8acd87fc6eb51cc99e3aefd4ad) is unlabelled and acts like a market maker or distributor: it currently sends small lots to Bybit, Bitget and Gate deposits. The only pump-day deposit (840k, ~$51k) therefore cannot be pinned on the team. The 15M Binance deposit from 0x453a (24 Oct 2025) came from the custodian for its client and was not on a pump day.
 - Large genesis-line supply still reaches exchanges on ordinary days (15M to Binance, 15.8M to Coinbase Prime, MerkleVester claims to Binance), with no disclosure. Not proven clean, and heavy exchange flow → **4** (was 3). **The Selling gate no longer fails.** All linked transactions returned status 1.
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate ZKC_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -143,8 +155,17 @@ layout_version: 3
 | Live mint path | 🟠 Emissions until Q4 2026 |
 | Entity concentration | 🔴 39% in four genesis-line wallets (two at Anchorage custody), no vesting contracts |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Anchorage custody `0x453a…` (genesis wallet) | Anchorage Digital, for an unnamed client | Etherscan + Arkham | medium | no | None: custody flow, not a proven team sale |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan token, wallet and transaction pages, with exchange deposit labels; receipts checked 16 Nov 2026
 - [Tier A] CoinGecko `boundless`; pump days from Binance ZKCUSDT daily closes
 - [Tier B] Project announcements on the 5 Nov 2026 pause and pivot, and the tokenomics/unlock schedule

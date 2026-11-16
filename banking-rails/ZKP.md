@@ -3,13 +3,13 @@ ticker: ZKP
 name: zkPass
 chain: ethereum
 contract: "0xe1be424f442d0687129128c6c38aace44f8c8dbc (BSC 0xd89b7dd376e671c124352267516bef1c2cc231a3)"
-overall_score: 3.4
+overall_score: 3.1
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 5
   insider_holdings: 2
-  selling_behavior: 3
+  selling_behavior: 1
   tokenomics_supply: 3
   liquidity_market: 3
   product_development: 5
@@ -23,6 +23,19 @@ red_lines:
   mint_path_live: "no: fixed 1B supply minted at genesis"
   team_wallet_to_exchange_during_pump: "yes: the Safe that receives monthly community and DAO unlocks sent 1,125,414 ZKP to a Binance deposit address on 3 Jul 2026, a +30.6% pump day; no disclosure found"
   entity_concentration: "four project Safes hold 692.5M ZKP (69% of supply); investor and team cliffs sit in plain Safes, not vesting contracts"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No fee or revenue record."
+pump_day_price_source: "Gate ZKP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 319 days); the body's earlier count used the daily closes cited in the body"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions:
+  - address: "0x491a6acfeab80b4bd80dc25d949d7c45c310f5be"
+    label: "Receives monthly community and DAO unlocks"
+    confidence: high
+    independent_corroboration: true
+    basis: "Etherscan (unlock contract payouts)"
 price_usd: 0.02973
 price_source: "CoinGecko, 16 Nov 2026 ~8:40 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +44,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### ZKP · Overall grade **3.4 / 10 · ❌ FAIL**
+### ZKP · Overall grade **3.1 / 10 · ❌ FAIL**
 
 **Summary:** zkPass is a zkTLS protocol for proving web data privately. Its token launched on 19 Dec 2025 and is down 87% from its launch-week high. **69% of supply sits in four project Safes** created at genesis. The investor (225M) and core-contributor (140M) allocations are held in plain multisig Safes, not time-locked vesting contracts, so the published cliffs are a promise, not code. No fees exist, the Safe that pays out monthly unlocks sent ZKP to Binance on a pump day, and 87% of volume is on one exchange. Both hard gates fail.
 
@@ -44,7 +57,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 5/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 2/10 | ❌ FAIL |
-| 📉 Selling behavior | 3/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 1/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 3/10 | ❌ FAIL |
 | 💧 Liquidity & market | 3/10 | ❌ FAIL |
 | 🧑‍💻 Product & development | 5/10 | ❌ FAIL |
@@ -58,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ZKP · zkPass · 3.4 / 10 · ❌ FAIL
+# 🪪 ZKP · zkPass · 3.1 / 10 · ❌ FAIL
 
 > **One line:** A $6M float with 69% of supply in project multisigs and vesting that is not locked in code.
 
@@ -77,6 +90,8 @@ layout_version: 3
 
 - No DefiLlama fee or revenue record, and no published protocol revenue. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee or revenue record.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - A DAO structure with a foundation share. Allocations are published in the [docs](https://docs.zkpass.org/zkpass-dao/zkp). Leaders are described by role only; Safe signers are not disclosed.
@@ -94,7 +109,7 @@ layout_version: 3
 - The 123.3M ZKP at [`0x3C0c…8b04`](https://intel.arkm.com/explorer/address/0x3c0c57713342aa593e5dac69efa8fa06a05e8b04) is an **Upbit deposit address** (exchange custody), not an insider.
 - The genesis Safe received all 1B ZKP and split it on 26 Nov 2025. The investor and contributor Safes match the documented allocations exactly, which is why the mapping is inferred. None of these Safes has an Etherscan label.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 3/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 1/10 · ❌ FAIL
 
 | Date | From | To | ZKP | ≈ USD | Pump? | Tx |
 |---|---|---|---:|---:|---|---|
@@ -102,6 +117,8 @@ layout_version: 3
 | 16 Dec 2025 | Community Safe | ByBit Deposit | 2,169,258 | — | Pre-listing | [0x35c5…](https://etherscan.io/tx/0x35c5555797e2e8a660c50b6915cff15670d5b7518585578618cc2a686ddfd1fa) |
 
 - 0x491a…f5be is a Safe. It receives the monthly community unlocks (49.6M) and DAO unlocks (15.0M). The community pool covers "exchange-related marketing", so the Binance deposit may be a campaign, but no disclosure was found. Around launch, the 50M liquidity allocation was spread across exchanges as documented. Arkham shows a 30M ZKP transfer from the community Safe to a Binance-labelled address about 10 months ago; on Etherscan the only 30M outflow went to the contract `0xdaa9…97ce` on 18 Dec 2025 ([tx](https://etherscan.io/tx/0x5b1a02e827fac9c695be521726907801c4b8f00870c1637dc020cc5b16226841)), the day before trading opened, and that contract then paid out many small lots. That is a pre-listing launch distribution, not a pump-day sale [Unverified as to the campaign]. Both linked transactions returned status 1 (success).
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** The community pool may fund "exchange-related marketing", but no disclosure was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **3 → 1**. 3 Jul 2026 is a pump day on Gate prices. Pump days from Gate ZKP_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (30 of 319 days); the body's earlier count used the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -144,8 +161,17 @@ layout_version: 3
 | Live mint path | 🟢 None |
 | Entity concentration | 🔴 69% in project Safes; vesting not enforced in code |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| [Unlock-payout Safe `0x491a…f5be`](https://etherscan.io/address/0x491a6acfeab80b4bd80dc25d949d7c45c310f5be) | Receives monthly community and DAO unlocks | Etherscan (unlock contract payouts) | high | yes (on-chain) | Selling: 1,125,414 ZKP into a Binance deposit on the 3 Jul 2026 pump day (+30.6%) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan token, Safe and transaction pages. Receipts and Safe thresholds were checked through the Etherscan API on 16 Nov 2026
 - [Tier A] [zkPass token docs](https://docs.zkpass.org/zkpass-dao/zkp) and [whitepaper](https://paper.zkpass.org/zkPass_WP2025.pdf) (allocation and vesting)
 - [Tier B] Unlock calendars (tokenomics.com, coinlaunch) for monthly unlock sizes

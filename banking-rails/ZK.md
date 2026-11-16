@@ -3,13 +3,13 @@ ticker: ZK
 name: ZKsync
 chain: zksync-era
 contract: "0x5a7d6b2f92c77fad6ccabd7ee0624e64907eaf3e"
-overall_score: 3.8
+overall_score: 3.5
 overall_verdict: FAIL
 section_scores:
   revenue: 2
   foundation_team: 6
   insider_holdings: 4
-  selling_behavior: 2
+  selling_behavior: 0
   tokenomics_supply: 4
   liquidity_market: 6
   product_development: 6
@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "yes: 15.50B of the 21B cap minted; the docs say supply can be raised by a protocol governance upgrade; capped minters keep minting"
   team_wallet_to_exchange_during_pump: "yes: a Foundation-linked wallet sent 44.7M ZK to a Binance deposit on a +18.3% day (25 Apr 2025); a wallet funded weekly by Foundation Treasury 2 sent 252.2M ZK (~$14.7M) to a Binance deposit, 53.8M of it on pump days incl. 4-6 Nov 2025 (+117% to +161%)"
   treasury_selling: "Foundation has minted its whole 4.18B ecosystem allocation; no wallet-level treasury report published"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Sequencer revenue is tiny and none goes to ZK."
+pump_day_price_source: "Gate ZK_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (40 of 360 days); the body's earlier count used the daily closes cited in the body"
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
+dual_review: not_run
+attributions: []
 price_usd: 0.00788
 price_source: "CoinGecko, 16 Nov 2026 6:58 AM MST"
 last_updated: 2026-11-16
@@ -31,7 +39,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### ZK · Overall grade **3.8 / 10 · ❌ FAIL**
+### ZK · Overall grade **3.5 / 10 · ❌ FAIL**
 
 **Summary:** ZKsync is an Ethereum layer-2 (ZKsync Era plus other ZK Stack chains). ZK is a governance token with **no claim on revenue**: DefiLlama counts $322k of chain revenue in 12 months and none for holders. The token is −85% in a year and −97.5% from its high. **15.5B of 21B ZK is already minted**, and investor and team tokens (7.0B) unlock monthly until mid-2028. On-chain, wallets funded by the **ZKsync Foundation's own treasury multisigs** put about **297M ZK into Binance deposit addresses**, much of it on pump days. Both hard gates fail.
 
@@ -44,7 +52,7 @@ layout_version: 3
 | 💰 Revenue | 2/10 | ❌ FAIL (hard gate) |
 | 🏛️ Foundation & team | 6/10 | ✅ PASS |
 | 🪙 Foundation / team holdings | 4/10 | ❌ FAIL |
-| 📉 Selling behavior | 2/10 | ❌ FAIL (hard gate) |
+| 📉 Selling behavior | 0/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 4/10 | ❌ FAIL |
 | 💧 Liquidity & market | 6/10 | ✅ PASS |
 | 🧑‍💻 Product & development | 6/10 | ✅ PASS |
@@ -58,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ZK · ZKsync · 3.8 / 10 · ❌ FAIL
+# 🪪 ZK · ZKsync · 3.5 / 10 · ❌ FAIL
 
 > **One line:** A well-built L2 governance system around a token with no revenue, heavy ongoing unlocks, and a Foundation treasury whose ZK keeps reaching Binance through funded wallets, including on spike days.
 
@@ -82,6 +90,8 @@ layout_version: 3
 | To ZK holders | **None** (no holders-revenue series) | [Tier A] [ZK token docs](https://docs.zknation.io/zk-token/zk-token): ZK is a governance token |
 
 **What it means:** Sequencer revenue is tiny against an $87M cap, and none of it goes to ZK. **2 → hard-gate FAIL.**
+
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Sequencer revenue is tiny and none goes to ZK.
 
 ## 🏛️ Foundation & team — Who is in charge? · 6/10 · ✅ PASS
 
@@ -109,7 +119,7 @@ layout_version: 3
 
 **What it means:** The Foundation has already minted and moved its whole allocation through a web of wallets. Its current holdings and spending are not reported. **4.**
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 2/10 · ❌ FAIL (hard gate)
+## 📉 Selling behavior — Do insiders sell into pumps? · 0/10 · ❌ FAIL
 
 Pump days come from Binance ZKUSDT closes. Exchange tags are Etherscan's Ethereum labels for the same addresses (exchange deposit addresses are the same across EVM chains), confirmed here by each deposit sweeping to the tagged hot wallet "Binance 83" [`0x7aed…7d76`](https://explorer.zksync.io/address/0x7aed074ca56f5050d5a2e512ecc5bf7103937d76).
 
@@ -126,6 +136,8 @@ Pump days come from Binance ZKUSDT closes. Exchange tags are Etherscan's Ethereu
 - Wallet `0xc3c1…`, funded with 352M by the Foundation route, also **received** ZK from Wintermute (8.7M, Sep 2024) and Bybit's hot wallet (3.5M). That points to market-making or OTC activity [Unverified].
 
 **What it means:** A Foundation-funded pipeline into Binance sold on the biggest pump days of the past year. Per the rules this is a hard-gate fail. **2.**
+
+- **Disclosure quality (16 Nov 2026 rules): silence.** No disclosure of these sales was found. **Penalty applied (16 Nov 2026 rules):** a proven pump-day sale with no disclosure fails Selling (ordinary score at most 3) and then loses 2 points, floored at 0: **2 → 0**. 4–6 Nov 2025 are pump days on Gate prices (+34% to +161%). Pump days from Gate ZK_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (40 of 360 days); the body's earlier count used the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -169,8 +181,17 @@ Pump days come from Binance ZKUSDT closes. Exchange tags are Etherscan's Ethereu
 | Live mint path | 🟡 Capped minters plus supply raisable by governance upgrade |
 | Treasury selling | 🔴 ~297M ZK from Foundation-funded wallets to Binance deposits (2025) |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Wallet funded weekly by Foundation Treasury 2 | ZKsync Foundation-funded (end owner [Unverified]) | Explorer funding (on-chain) | high | yes (on-chain) | Selling: 252.2M ZK into a Binance deposit, 53.8M on pump days incl. 4–6 Nov 2025 |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] ZKsync Era block-explorer API and RPC: ZK `totalSupply()`, `CAP()`/`minted()` on the capped minters, `balanceOf`; full ZK transfers for Treasury 1, Treasury 2, `0x1054…`, `0xe640…`, `0xc3c1…`, `0x1091…`, the Binance deposits and other recipients; receipts (status 1) for every linked tx, 16 Nov 2026 ~7:10–7:40 AM MST
 - [Tier A] ZK Nation docs: [ZK token](https://docs.zknation.io/zk-token/zk-token) · [contract addresses](https://docs.zknation.io/zk-nation/zksync-governance-contract-addresses) · [governance procedures](https://docs.zknation.io/zksync-governance-procedures/zksync-governance-procedures-overview); [incident report](https://www.zksync.io/blog/incident-report-compromised-admin-key); ZK Nation forum threads linked above
 - [Tier B] [Blockworks transparency filing](https://blockworks.com/token-transparency/filing/zksync) (Foundation treasury addresses); Etherscan Ethereum labels for exchange addresses reused on Era

@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-16 14:27 MST
+generated_at: 2026-11-16 14:28 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -132,14 +132,14 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [SYRUP](banking-rails/SYRUP.md) | 2 | 6.3 | 5.9 | 7 → 5 | 4 | 6 |
 | [TAO](banking-rails/TAO.md) | 1 | 5.5 | 5.5 | 3 | 5 | 6 |
 | [TFUEL](banking-rails/TFUEL.md) | 1 | 4.0 | 4.0 | 2 | 4 | 4 |
-| [TLOS](banking-rails/TLOS.md) | 1 | 3.0 | 3.0 | 1 | 3 | 4 |
+| [TLOS](banking-rails/TLOS.md) | 2 | 3.0 | 2.7 | 1 | 3 → 1 | 4 |
 | [TRAC](banking-rails/TRAC.md) | 1 | 4.2 | 4.2 | 2 | 4 | 3 |
 | [TRADE](banking-rails/TRADE.md) | 1 | 3.7 | 3.7 | 2 | 4 | 3 |
-| [TRB](banking-rails/TRB.md) | 1 | 3.8 | 3.8 | 2 | 1 | 6 |
+| [TRB](banking-rails/TRB.md) | 2 | 3.8 | 3.7 | 2 | 1 → 0 | 6 |
 | [TRUF](banking-rails/TRUF.md) | 1 | 3.7 | 3.7 | 2 | 4 | 4 |
 | [TX](banking-rails/TX.md) | 1 | 3.5 | 3.5 | 2 | 4 | 3 |
 | [VELO](banking-rails/VELO.md) | 1 | 3.6 | 3.6 | 1 | 4 | 3 |
-| [W](banking-rails/W.md) | 1 | 3.8 | 3.8 | 2 | 3 | 3 |
+| [W](banking-rails/W.md) | 2 | 3.8 | 3.9 | 2 | 3 → 4 | 3 |
 | [WAN](banking-rails/WAN.md) | 1 | 4.7 | 4.7 | 5 | 4 | 5 |
 | [WIREX](banking-rails/WIREX.md) | 1 | 3.5 | 3.5 | 2 | 4 | 3 |
 | [XDB](banking-rails/XDB.md) | 1 | 2.9 | 2.9 | 1 | 3 | 5 |
@@ -417,9 +417,9 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `9373285` | 2026-11-16 14:26 MST | 2.2 | FAIL | 1 | 0 | 2 | revenue, selling_behavior |
 
 - **STBL** — 3.3 FAIL in `9373285` (2026-11-16 14:26 MST).
-- **SUI** — 3.7 FAIL in `132f0fd` (2026-11-16 06:50 MST).
+- **SUI** — 3.7 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
 - **SUPRA** — 3.6 FAIL in `3539092` (2026-11-16 12:36 MST).
-- **SWCH** — 2.5 FAIL in `f7bbe5f` (2026-11-16 09:41 MST).
+- **SWCH** — 2.5 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
 - **SWFTC** — 3.8 FAIL in `5420ac2` (2026-11-16 12:27 MST).
 ### SYRUP
 
@@ -428,22 +428,40 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `0a6d1a7` | 2026-11-16 07:39 MST | 6.3 | PASS | 7 | 4 | 6 | — |
 | `6723e4d` | 2026-11-16 14:02 MST | 5.9 | FAIL | 5 | 4 | 6 | — |
 
-- **TAO** — 5.5 FAIL in `6fa4721` (2026-11-15 18:37 MST).
-- **TFUEL** — 4.0 FAIL in `714aff3` (2026-11-16 08:59 MST).
-- **TLOS** — 3.0 FAIL in `5c5b66f` (2026-11-16 08:19 MST).
-- **TRAC** — 4.2 FAIL in `a664692` (2026-11-16 06:58 MST).
+- **TAO** — 5.5 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
+- **TFUEL** — 4.0 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
+### TLOS
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `5c5b66f` | 2026-11-16 08:19 MST | 3.0 | FAIL | 1 | 3 | 4 | revenue, selling_behavior |
+| `3ed04b6` | 2026-11-16 14:27 MST | 2.7 | FAIL | 1 | 1 | 4 | revenue, selling_behavior |
+
+- **TRAC** — 4.2 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
 - **TRADE** — 3.7 FAIL in `3ea77bb` (2026-11-16 12:31 MST).
-- **TRB** — 3.8 FAIL in `74c2106` (2026-11-16 09:03 MST).
+### TRB
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `74c2106` | 2026-11-16 09:03 MST | 3.8 | FAIL | 2 | 1 | 6 | revenue, selling_behavior |
+| `3ed04b6` | 2026-11-16 14:27 MST | 3.7 | FAIL | 2 | 0 | 6 | revenue, selling_behavior |
+
 - **TRUF** — 3.7 FAIL in `e6e1480` (2026-11-16 13:52 MST).
 - **TX** — 3.5 FAIL in `e6e1480` (2026-11-16 13:52 MST).
 - **VELO** — 3.6 FAIL in `a8496ab` (2026-11-16 14:06 MST).
-- **W** — 3.8 FAIL in `c108a79` (2026-11-16 08:40 MST).
-- **WAN** — 4.7 FAIL in `f7bbe5f` (2026-11-16 09:41 MST).
+### W
+
+| Commit | When (MST) | Overall | Verdict | Rev | Sell | Hold | Gates |
+|---|---|---:|---|---:|---:|---:|---|
+| `c108a79` | 2026-11-16 08:40 MST | 3.8 | FAIL | 2 | 3 | 3 | revenue, selling_behavior |
+| `3ed04b6` | 2026-11-16 14:27 MST | 3.9 | FAIL | 2 | 4 | 3 | revenue |
+
+- **WAN** — 4.7 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
 - **WIREX** — 3.5 FAIL in `5420ac2` (2026-11-16 12:27 MST).
-- **XDB** — 2.9 FAIL in `5c5b66f` (2026-11-16 08:19 MST).
-- **XDC** — 3.8 FAIL in `8e903fc` (2026-11-16 08:31 MST).
+- **XDB** — 2.9 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
+- **XDC** — 3.8 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
 - **XEP** — 3.1 FAIL in `e6e1480` (2026-11-16 13:52 MST).
-- **XLM** — 5.7 FAIL in `6fa4721` (2026-11-15 18:37 MST).
+- **XLM** — 5.7 FAIL in `3ed04b6` (2026-11-16 14:27 MST).
 - **XMR** — 5.2 FAIL in `16d387f` (2026-11-16 08:50 MST).
 - **XNO** — 4.9 FAIL in `5420ac2` (2026-11-16 12:27 MST).
 - **XPL** — 3.7 FAIL in `a4bf82b` (2026-11-16 07:42 MST).

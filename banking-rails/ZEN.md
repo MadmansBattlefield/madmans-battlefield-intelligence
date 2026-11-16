@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no: all 21,000,000 ZEN already minted on Base; unvested Foundation/DAO tokens release monthly to mid-2029"
   team_wallet_to_exchange_during_pump: "not proven: Base wallet tracing was not available without a paid key; the Foundation discloses that it uses idle ZEN to 'support ZEN capital markets'"
   entity_concentration: "Foundation (2M) + DAO (~3M) allocations ≈ 24% of max supply, vesting over 48 months from Jul 2025"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No fee record; DAO yield on treasury liquidity is treasury income, not a holder mechanism."
+pump_day_price_source: "MEXC ZENUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (45 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 4.09
 price_source: "CoinGecko, 16 Nov 2026 ~8:40 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - No fee or revenue record exists on DefiLlama, and the L3, the only chain that could earn fees, is shut down. The DAO earns yield on treasury liquidity positions, but that is treasury income, not protocol revenue. **1 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee record; DAO yield on treasury liquidity is treasury income, not a holder mechanism.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - Horizen Foundation plus a DAO with a Special Council. Disclosure is good (a token transparency filing), but the team's main product has just been shut down.
@@ -88,6 +98,8 @@ layout_version: 3
 ## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL (not proven)
 
 - The Foundation and DAO wallets are on Base. I couldn't trace them: Base explorer APIs need a paid key or blocked automated reads. The Foundation openly says it deploys idle ZEN "to support ZEN capital markets", and the DAO runs automated LP strategies. Both would sell into rallies by design. Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)) shows [`0xf43e…9229`](https://intel.arkm.com/explorer/address/0xf43eb8de897fbc7f2502483b2bef7bb9ea179229) is the **ZenToken contract itself** (692 ZEN of stray deposits), not a Foundation or DAO wallet, so those wallets are still not identified. **Not proven → 4.**
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from MEXC ZENUSDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (45 of 360 days); the body's earlier count used CoinGecko daily closes.
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 
@@ -129,8 +141,17 @@ layout_version: 3
 | Live mint path | 🟢 None (fully minted) |
 | Entity concentration | 🟡 ~24% of max supply, vesting |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Foundation and DAO wallets on Base | Horizen Foundation / DAO | Project statements | medium | no | Selling stays 4 (not traced) |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] [Horizen blog: Changes for Horizen](https://blog.horizen.io/changes-for-horizen) (L3 shutdown and recovery)
 - [Tier A] [Horizen blog: ZEN's move to Base](https://blog.horizen.io/get-ready-for-zen-s-big-move-to-base) (contract, supply changes)
 - [Tier B] [Blockworks token transparency filing](https://blockworks.com/token-transparency/filing/horizen/8a6c87ba-3995-4cfb-a3d0-2daef84cd1b4) (vesting, market support)

@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "no on the Ethereum token (fixed 2B, no mint function); native ZIGChain has 1–2% staking inflation and a 2.5B mainnet cap"
   team_wallet_to_exchange_during_pump: "not on a pump day: a Safe run by the same 3 signers as the founders' Safe (signers funded by or labelled Zignaly: Deployer per Arkham) sent 335.67M ZIG via relay 0x38ae… into a Bybit deposit (Nansen + Arkham), 16–22 Jan 2024 (price fell); earlier Safe-sourced ZIG reached an HTX deposit (400M, 9 Jun 2022) and a Gate deposit (200M, 6 Oct 2022) via 0x6f04 → 0x3367, not pump days; no disclosure found"
   reported_volume_concentration: "~94% of CoinGecko-reported 24h volume ($51.4M of $54.4M) is one PancakeSwap V3 BSC venue, on a $48M market cap"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "Buybacks are optional by the project's own wording and revenue is not published."
+pump_day_price_source: "Gate ZIG_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.03404
 price_source: "CoinGecko, 16 Nov 2026 ~6:02 AM MST"
 last_updated: 2026-11-16
@@ -86,6 +94,8 @@ layout_version: 3
 
 **What it means:** No measured revenue reaches the token. Buybacks are optional by the project's own wording, and Zignaly's business revenue is not published. That is **2**, which **trips the Revenue gate**.
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** Buybacks are optional by the project's own wording and revenue is not published.
+
 ## 🏛️ Foundation & team — Who is in charge? · 5/10 · ❌ FAIL
 
 - **Zignaly** (copy-trading platform) created the token, and the **ZIGChain Foundation** now runs the chain. "ZIG Markets" handles buybacks [Tier A, white paper].
@@ -135,6 +145,8 @@ Because `0x6f04…` also took 200M from a Gate hot wallet, not every coin in the
 
 **What it means:** A team-controlled Safe put about 17% of the then-total supply into a Bybit deposit within a week, with no disclosure found, while the price fell, and earlier Safe-sourced ZIG reached HTX and Gate deposits. None of it was on pump days, so the strict pump rule is not met. But the size and the lack of disclosure put it at **3** (unchanged after Arkham), which **trips the Selling gate**.
 
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from Gate ZIG_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (43 of 360 days); the body's earlier count used CoinGecko daily closes.
+
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
 - The **ERC-20** has a fixed 2B with no mint (bytecode has only standard ERC-20 functions) [Tier A].
@@ -181,8 +193,17 @@ Because `0x6f04…` also took 200M from a Gate hot wallet, not every coin in the
 | Team wallet → exchange (any day) | 🔴 **Yes:** 335.67M via `0x38ae…` into a Bybit deposit, 16–22 Jan 2024; earlier 400M (HTX deposit, 9 Jun 2022) and 200M (Gate deposit, 6 Oct 2022) via `0x6f04…` → `0x3367…`. [Safe → relay](https://etherscan.io/tx/0x95336999b6e3804f4d1ec624cf5b29a80ebc9eae9a59b35448f5eb93a0e102b8) · [last lot](https://etherscan.io/tx/0x8b084869dff095158c3fa5a2a8ec383175781856d0c68677f8b120c2dbc1b9cc) |
 | Reported-volume concentration | 🟡 94% on one BSC pool |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Team-controlled Safe → Bybit deposit | Zignaly team Safe (3 signers) | Etherscan | high | yes | Selling: ~17% of supply to Bybit, not on pump days; the score of 3 rests on size and silence, not on a pump-day sale |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan v2 API: `tokentx` for the deployer, both Safes, `0xfc3e…`, `0x6f04…`, `0x38ae…`, `0xb73f…`, `0x3367…`; `getsourcecode`, `getcontractcreation`; `eth_call` `getOwners()` / `getThreshold()` on both Safes, 16 Nov 2026 MST
 - [Tier A] Ethplorer top holders and token info, 16 Nov 2026
 - [Tier A] [Tokenomics 2.0 white paper](https://whitepaper.zigchain.com/zig-tokenomics.pdf) · [ZIG token docs](https://docs.zigchain.com/about-zigchain/zig) · [transparency dashboard docs](https://docs.zigchain.com/users/hub/transparency-dashboard)

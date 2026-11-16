@@ -23,6 +23,14 @@ red_lines:
   mint_path_live: "not proven: 10B minted once at genesis; no further mints seen"
   team_wallet_to_exchange_during_pump: "not proven: no project-tree transfer to a labelled exchange found within 3 hops; trading is 99% on the project's own venue"
   entity_concentration: "about 98% of supply sits in 6 project Treasury contracts and 4 wallets they funded"
+methodology_effective: 2026-11-16
+revenue_reaches_holders: "no"
+revenue_mechanism: "No fee or revenue data."
+pump_day_price_source: "the daily closes cited in the body"
+pump_day_disclosure_quality: not_applicable
+pump_day_undisclosed_penalty_applied: false
+dual_review: not_run
+attributions: []
 price_usd: 0.08626
 price_source: "CoinGecko, 16 Nov 2026 ~8:52 AM MST"
 last_updated: 2026-11-16
@@ -77,6 +85,8 @@ layout_version: 3
 
 - No fee or revenue data on DefiLlama or in project reporting. Not found. **2 → hard-gate FAIL.**
 
+- **Reaches holders (binary test, 16 Nov 2026 rules): No.** No fee or revenue data.
+
 ## 🏛️ Foundation & team — Who is in charge? · 4/10 · ❌ FAIL
 
 - Published allocation: Community Treasury 30%, Growth 25%, Foundation 20%, Sales 12.5%, Founders 10% (6-month cliff, then 60 months), Reserve 2.5% (project tokenomics page, Tier B). Which Treasury contract holds which bucket is not published [Unverified].
@@ -103,6 +113,8 @@ layout_version: 3
 - **Arkham ([Tier B] Arkham, read 16 Nov 2026 (signed-in account)):** the six Treasury contracts ([0xaec5](https://intel.arkm.com/explorer/address/0xaec5157545635a7523efb5abe3a37f52db7de72e), [0xe277](https://intel.arkm.com/explorer/address/0xe277830b3444ea2cfee2b95f780c971222decfa9), [0xfd8e](https://intel.arkm.com/explorer/address/0xfd8e336757ae9cdc0766264064b51492814fcd47), [0xd572](https://intel.arkm.com/explorer/address/0xd572f3a0967856a09054578439ace81b2f2ff88b), [0x914a](https://intel.arkm.com/explorer/address/0x914abadc0e36e03f29e4f1516951125c774dbac8), [0xa8f5](https://intel.arkm.com/explorer/address/0xa8f52ffe4dee9565505f8e390163a335d6a2f708)) are labelled only "Treasury", with no allocation name, and none sends to an exchange. [0xede2](https://intel.arkm.com/explorer/address/0xede263567477d6656595d4a6b2ff4dde0a9cdf1b) still holds the full 500M, with no outflows. [0xd392](https://intel.arkm.com/explorer/address/0xd392039acf5824cac1b53db50ed34aec7946dd0f) (124.4M, from Treasury 0xa8f5) has made only small transfers to Safes. [0x3a96](https://intel.arkm.com/explorer/address/0x3a9624f9bb2dc43e90c0699ddc4a9b6bec147cde) is a verified **ThresholdCustody** contract with no entity label; its many small in/out flows look like deposit custody.
 - About 40.3M YELLOW reached the "ThresholdCustody" contract [0x3a96…7cde](https://etherscan.io/address/0x3a9624f9bb2dc43e90c0699ddc4a9b6bec147cde) and a linked wallet. 38.7M of that went in Mar 2026, before any pump data. Only ~123k went on pump days.
 - The custody contract's owner is not identified. Because Yellow PRO isn't labelled, sales on the project's own venue can't be seen on-chain. **Not proven → 4.**
+
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from the daily closes cited in the body.
 
 ## 📊 Tokenomics & supply · 3/10 · ❌ FAIL
 
@@ -141,8 +153,17 @@ layout_version: 3
 | Live mint path | ⚪ Not proven |
 | Entity concentration | 🔴 ~98% in project contracts and the wallets they funded |
 
+## 🏷️ Attribution confidence (16 Nov 2026 rules)
+
+*Only a verified entity label with on-chain proof, or a second independent source, can move Selling or Holdings. Unlabelled or low-confidence attributions are described but do not move a score on their own. Dual review of Selling and Holdings: not run (single scorer).*
+
+| Address | Label | Source | Confidence | Independent corroboration | Effect on score |
+|---|---|---|---|---|---|
+| Genesis Safe tree (60 wallets, 3 hops) | Yellow project | Etherscan + Arkham | high | yes | None: no transfer to a labelled exchange |
+
 ## 📚 Sources
 
+- [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Etherscan token, contract source, balances and transactions; receipts checked 16 Nov 2026
 - [Tier A] CoinGecko `yellow` (market data, venue split, daily prices since 13 Apr 2026)
 - [Tier B] [Yellow Network site](https://www.yellow.org/), tokenomics page
@@ -168,6 +189,7 @@ layout_version: 3
 | 1 | **Owner of ThresholdCustody and of the funded wallets** | Arkham (16 Nov 2026) labels neither. Ask Yellow which bucket each Treasury contract holds and who runs ThresholdCustody [Unverified] | Free |
 | 2 | **Which Treasury holds which allocation** | Ask the project for an address map | Free |
 | 3 | **Yellow PRO order-book depth and its market makers** | Read the venue's public order book | Free |
+| 4 | **Pump-day test on exchange prices.** No Gate, MEXC, KuCoin or Kraken USDT series with a full year was returned on 16 Nov 2026 (Binance blocks this region) | Re-run scripts/pump_day_test.py on the first exchange in the price-source order that lists the token | Free |
 
 ---
 
