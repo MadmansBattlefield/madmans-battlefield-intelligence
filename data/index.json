@@ -224,6 +224,11 @@
       "layout": "v3"
     },
     {
+      "id": "BTT",
+      "path": "banking-rails/BTT.md",
+      "layout": "v3"
+    },
+    {
       "id": "CARDS",
       "path": "banking-rails/CARDS.md",
       "layout": "v3"
@@ -279,6 +284,11 @@
       "layout": "v3"
     },
     {
+      "id": "DUSK",
+      "path": "banking-rails/DUSK.md",
+      "layout": "v3"
+    },
+    {
       "id": "EDEL",
       "path": "banking-rails/EDEL.md",
       "layout": "v3"
@@ -311,6 +321,11 @@
     {
       "id": "FXS",
       "path": "banking-rails/FXS.md",
+      "layout": "v3"
+    },
+    {
+      "id": "H",
+      "path": "banking-rails/H.md",
       "layout": "v3"
     },
     {
@@ -399,8 +414,18 @@
       "layout": "v3"
     },
     {
+      "id": "MBG",
+      "path": "banking-rails/MBG.md",
+      "layout": "v3"
+    },
+    {
       "id": "MNT",
       "path": "banking-rails/MNT.md",
+      "layout": "v3"
+    },
+    {
+      "id": "MOCA",
+      "path": "banking-rails/MOCA.md",
       "layout": "v3"
     },
     {
