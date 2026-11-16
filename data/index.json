@@ -179,6 +179,11 @@
       "layout": "v3"
     },
     {
+      "id": "ASTR",
+      "path": "banking-rails/ASTR.md",
+      "layout": "v3"
+    },
+    {
       "id": "AVAX",
       "path": "banking-rails/AVAX.md",
       "layout": "v3"
@@ -279,8 +284,18 @@
       "layout": "v3"
     },
     {
+      "id": "EWT",
+      "path": "banking-rails/EWT.md",
+      "layout": "v3"
+    },
+    {
       "id": "EXA",
       "path": "banking-rails/EXA.md",
+      "layout": "v3"
+    },
+    {
+      "id": "FXS",
+      "path": "banking-rails/FXS.md",
       "layout": "v3"
     },
     {
@@ -291,6 +306,11 @@
     {
       "id": "HBAR",
       "path": "banking-rails/HBAR.md",
+      "layout": "v3"
+    },
+    {
+      "id": "HONEY",
+      "path": "banking-rails/HONEY.md",
       "layout": "v3"
     },
     {
@@ -316,6 +336,11 @@
     {
       "id": "INV",
       "path": "banking-rails/INV.md",
+      "layout": "v3"
+    },
+    {
+      "id": "IOTX",
+      "path": "banking-rails/IOTX.md",
       "layout": "v3"
     },
     {
@@ -354,6 +379,11 @@
       "layout": "v3"
     },
     {
+      "id": "NIGHT",
+      "path": "banking-rails/NIGHT.md",
+      "layout": "v3"
+    },
+    {
       "id": "ONDO",
       "path": "banking-rails/ONDO.md",
       "layout": "v3"
@@ -361,6 +391,11 @@
     {
       "id": "PACT",
       "path": "banking-rails/PACT.md",
+      "layout": "v3"
+    },
+    {
+      "id": "PHA",
+      "path": "banking-rails/PHA.md",
       "layout": "v3"
     },
     {
@@ -386,6 +421,11 @@
     {
       "id": "QUAI",
       "path": "banking-rails/QUAI.md",
+      "layout": "v3"
+    },
+    {
+      "id": "REQ",
+      "path": "banking-rails/REQ.md",
       "layout": "v3"
     },
     {
@@ -459,6 +499,11 @@
       "layout": "v3"
     },
     {
+      "id": "VELO",
+      "path": "banking-rails/VELO.md",
+      "layout": "v3"
+    },
+    {
       "id": "W",
       "path": "banking-rails/W.md",
       "layout": "v3"
@@ -476,6 +521,11 @@
     {
       "id": "XLM",
       "path": "banking-rails/XLM.md",
+      "layout": "v3"
+    },
+    {
+      "id": "XMR",
+      "path": "banking-rails/XMR.md",
       "layout": "v3"
     },
     {
