@@ -12,7 +12,9 @@ Price-source hierarchy (use the first that returns a usable series):
   3. MEXC
   4. KuCoin
   5. Kraken
-  6. CoinGecko daily closes, last resort, and only when named
+  6. CoinGecko daily closes, last resort, and only when named.
+     CoinGecko daily points stamped 00:00 UTC on day D are the close of D-1.
+     Prefer exchange klines (Gate, then MEXC, then KuCoin) when Binance is unreachable.
 
 Usage (from the repository root):
 
@@ -206,22 +208,45 @@ def fetch_kraken(pair: str, start: date, end: date) -> list[tuple[date, float]]:
 
 def fetch_coingecko(coin_id: str, start: date, end: date) -> list[tuple[date, float]]:
     # CoinGecko market_chart from-to uses unix seconds.
+    # A daily point stamped 00:00 UTC on day D is the price at the start of
+    # day D, which is the UTC close of day D-1. Label it as D-1.
+    # Intra-day samples (hourly or a live tick) stay on their calendar date.
+    # Request through 00:00 UTC of end+1 so the midnight stamp that is end's
+    # close is included, then drop any partial current-day point.
+    today = datetime.now(UTC).date()
     params = {
         "vs_currency": "usd",
         "from": int(datetime(start.year, start.month, start.day, tzinfo=UTC).timestamp()),
-        "to": int(datetime(end.year, end.month, end.day, 23, 59, tzinfo=UTC).timestamp()),
+        "to": int(datetime(end.year, end.month, end.day, tzinfo=UTC).timestamp()) + 86400,
     }
     url = f"https://api.coingecko.com/api/v3/coins/{coin_id}/market_chart/range?" + urlencode(params)
-    payload = _get_json(url)
-    rows = []
+    try:
+        payload = _get_json(url)
+    except HTTPError as exc:
+        # The public range endpoint often returns 401/429 on long windows.
+        # Fall back to daily market_chart, which uses the same midnight stamps.
+        if exc.code not in (401, 403, 429):
+            raise
+        days = min(max((end - start).days + 2, 1), 365)
+        fallback = (
+            f"https://api.coingecko.com/api/v3/coins/{coin_id}/market_chart?"
+            + urlencode({"vs_currency": "usd", "days": days, "interval": "daily"})
+        )
+        payload = _get_json(fallback)
+    # Keep the latest sample for each mapped close date.
+    by_date: dict[date, tuple[datetime, float]] = {}
     for ts_ms, price in payload.get("prices") or []:
-        d = datetime.fromtimestamp(ts_ms / 1000, tz=UTC).date()
-        rows.append((d, float(price)))
-    # If several samples fall on one UTC date, keep the last (closest to close).
-    by_date: dict[date, float] = {}
-    for d, price in rows:
-        by_date[d] = price
-    return sorted(by_date.items())
+        dt = datetime.fromtimestamp(ts_ms / 1000, tz=UTC)
+        if dt.hour == 0 and dt.minute == 0 and dt.second == 0 and dt.microsecond == 0:
+            d = dt.date() - timedelta(days=1)
+        else:
+            d = dt.date()
+        if d < start or d > end or d >= today:
+            continue
+        prev = by_date.get(d)
+        if prev is None or dt >= prev[0]:
+            by_date[d] = (dt, float(price))
+    return [(d, rec[1]) for d, rec in sorted(by_date.items())]
 
 
 FETCHERS = {

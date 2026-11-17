@@ -1,6 +1,6 @@
 ---
 title: Methodology
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 timezone: MST
 layout_version: 3
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell. Not the work of a licensed fiduciary.
@@ -109,7 +109,13 @@ Use the first source that returns a usable UTC daily-close series for the token'
 5. Kraken
 6. CoinGecko daily closes, **last resort**, and only when named. If CoinGecko's series is known to be wrong for that token (spikes, missing days), it is not used.
 
-A desk in a region where Binance returns HTTP 451 should skip to the next source rather than invent a close. The public re-runner is [scripts/pump_day_test.py](scripts/pump_day_test.py); see [REPRODUCE.md](REPRODUCE.md).
+A desk in a region where Binance returns HTTP 451 should skip to the next source rather than invent a close. Prefer exchange klines in the order above: **Gate, then MEXC, then KuCoin**. The public re-runner is [scripts/pump_day_test.py](scripts/pump_day_test.py); see [REPRODUCE.md](REPRODUCE.md).
+
+**CoinGecko date convention:** CoinGecko `market_chart` daily points are stamped 00:00 UTC on day D with the price at the start of day D, which is the UTC close of day **D-1**. Any CoinGecko path must label that point as the close of D-1 and must drop a partial current-day tick. Exchange klines are already stamped as that UTC day's candle, and do not need this shift. `scripts/pump_day_test.py` applies the convention when `--exchange coingecko` is used.
+
+### ATH after a rename, split or migration
+
+When a token is renamed, split, or migrated and a market-data vendor opens a new listing (so its ATH field starts over), carry the predecessor's ATH at the conversion ratio and show **both** figures: the new listing's ATH, and the predecessor ATH expressed in today's units, with the drawdown from the predecessor. Do not quote only the new listing's ATH.
 
 ### Disclosure-quality sub-score
 
