@@ -26,10 +26,10 @@ Live counts across all **184** published v3 reports. Rebuilt on every push. Full
 |---|---:|---:|
 | ✅ Pass overall | **7** | 4% |
 | 🔴 Fail on revenue (Revenue 3 or below) | **159** | 86% |
-| 🔴 Fail on insider selling (Selling 3 or below) | **21** | 11% |
-| 🔴 Fail both | **17** | 9% |
-| 🟨 Insider selling not proven | **126** | 68% |
-| 🤐 Pump-day sale with no disclosure | **15** | 8% |
+| 🔴 Fail on insider selling (Selling 3 or below) | **22** | 12% |
+| 🔴 Fail both | **18** | 10% |
+| 🟨 Insider selling not proven | **125** | 68% |
+| 🤐 Pump-day sale with no disclosure | **16** | 9% |
 | 🚫 Not a token (excluded) | **15** | — |
 | ⚫ Dead, short report kept (excluded) | **4** | — |
 

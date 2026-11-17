@@ -3,13 +3,13 @@ ticker: ONDO
 name: Ondo
 chain: ethereum
 contract: "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3"
-overall_score: 4.7
+overall_score: 4.6
 overall_verdict: FAIL
 section_scores:
   revenue: 3
   foundation_team: 4
   insider_holdings: 3
-  selling_behavior: 4
+  selling_behavior: 3
   tokenomics_supply: 2
   liquidity_market: 9
   product_development: 7
@@ -17,9 +17,9 @@ section_scores:
   security_audits: 6
   regulatory: 7
   catalysts: 3
-gates_failed: [revenue]
+gates_failed: [revenue, selling]
 red_lines:
-  one_hop_sale_status: not_proven
+  one_hop_sale_status: proven
   hack_exploit: none
   mint_role_used: not_used_still_possible
   control_dispute_at_company: active_litigation
@@ -28,8 +28,8 @@ methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "The token is a governance coupon with no cash flow from Ondo's products."
 pump_day_price_source: "Gate ONDO_USDT UTC daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (51 of 361 days)"
-pump_day_disclosure_quality: not_applicable
-pump_day_undisclosed_penalty_applied: false
+pump_day_disclosure_quality: silence
+pump_day_undisclosed_penalty_applied: true
 dual_review: not_run
 attributions:
   - address: "0xea5785e1727de2ba2cefd102cb2dd91e018675e1"
@@ -45,7 +45,7 @@ layout_version: 3
 
 ## 🧾 QUICK REVIEW CARD
 
-### ONDO · Overall grade **4.7 / 10 · ❌ FAIL**
+### ONDO · Overall grade **4.6 / 10 · ❌ FAIL**
 
 **Summary:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. New: a Safe funded only by that admin Safe sent 100.5M ONDO into Coinbase deposit addresses in Aug–Oct 2026, one batch on a pump day, with no disclosure.
 
@@ -58,7 +58,7 @@ layout_version: 3
 | 💰 Revenue | 3/10 | ❌ FAIL |
 | 🏛️ Foundation & team | 4/10 | ❌ FAIL |
 | 🪙 Foundation / team holdings | 3/10 | ❌ FAIL |
-| 📉 Selling behavior | 4/10 | ❌ FAIL |
+| 📉 Selling behavior | 3/10 | ❌ FAIL |
 | 📊 Tokenomics & supply | 2/10 | ❌ FAIL |
 | 💧 Liquidity & market | 9/10 | ✅ PASS |
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
@@ -72,7 +72,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ONDO · Ondo · 4.7 / 10 · ❌ FAIL
+# 🪪 ONDO · Ondo · 4.6 / 10 · ❌ FAIL
 
 > **One line:** Ondo the company runs billions in real tokenized products. ONDO the token earns none of it, has a live mint role, and half the supply sits in one 4-of-7 Safe with no on-chain lock. New: a Safe funded only by that admin Safe sent 100.5M ONDO into Coinbase deposit addresses in Aug–Oct 2026, one batch on a pump day, with no disclosure.
 
@@ -128,7 +128,7 @@ layout_version: 3
 
 **What it means:** Over half the supply can be moved by four signatures today, despite the "January 2027 unlock" story.
 
-## 📉 Selling behavior — Do insiders sell into pumps? · 4/10 · ❌ FAIL
+## 📉 Selling behavior — Do insiders sell into pumps? · 3/10 · ❌ FAIL
 
 | Test | Result | Source |
 |---|---|---|
@@ -156,9 +156,11 @@ layout_version: 3
 - Exchange deposits are credited to one account. Whether that ONDO was sold happens inside Coinbase and is not visible on-chain.
 - Real Rails treasury badge: **CAUTION**.
 
-**What it means:** Tokens released from Ondo's admin Safe reached Coinbase directly: 100.5M ONDO (~$44M) in seven weeks, including 18.2M on a +31.7% pump day. Nothing was disclosed. One of five exchange sends on a pump day is in line with chance, and the coins may have gone to payees, not to Ondo, so this is not proof that Ondo dumped. Still, undisclosed releases from the issuer's Safe reached an exchange on a pump day, but the FIP-08 unlock schedule is a published reason and no sale is shown, so under the 16 Nov 2026 one-hop amendment Selling is **4 (not proven)**, with no penalty and no hard gate.
+**What it means:** Tokens released from Ondo's admin Safe reached Coinbase directly: 100.5M ONDO (~$44M) in seven weeks, including 18.2M on a +31.7% pump day. Nothing was disclosed. One of five exchange sends on a pump day is in line with chance, and the coins may have gone to payees, not to Ondo, so this is not on-chain proof that Ondo itself dumped. Under the 16 Nov 2026 one-hop amendment, a one-hop transfer is still a **proven sale** when the project published no plausible reason covering these specific sends (condition (c)). That is the case here.
 
-- **One-hop amendment (16 Nov 2026):** Ondo published a plausible reason: [FIP-08](https://forum.fluxfinance.com/t/fip-08-release-of-the-ondo-token-lock-up/563) sets anniversary unlocks for investors, contributors and partners each January, and `0xEA57…` paid many parties at once, which fits that schedule. Arkham labels one receiver Coinbase Prime Custody (custody, not a sale). (a) No: no deposit account is attributed to the team. (b) No: no sale is shown. Under the amended rule the one-hop link is no longer enough on its own, so Selling scores **4 (not proven)** with no silence penalty. This replaces the earlier penalty described above.
+- **One-hop check (17 Nov 2026, Madman's Option 3):** Official sources were searched for a published reason covering the `0xEA57…` → Coinbase payouts (funding from 22 Apr 2026; Coinbase deposits 27 Aug – 13 Oct 2026), including market-making, payroll, grants, custody, OTC, a vesting/unlock schedule, treasury ops, or ecosystem programs. [FIP-08](https://forum.fluxfinance.com/t/fip-08-release-of-the-ondo-token-lock-up/563) and the [Foundation docs](https://docs.ondo.foundation/ondo-token) only set anniversary unlocks 12/24/36/48/60 months after the 18 Jan 2024 public launch — January cliffs, not this April–October window. The 18 Jun 2026 MiCA white paper repeats that schedule and states the 12- and 24-month tranches had already unlocked. The [Foundation wallet disclosure](https://blog.ondo.foundation/ondo-foundation-group-wallet-address-disclosure/) (last updated 26 Aug 2026) lists locked tokens in admin Safe `0x677F…` only; it does not mention `0xEA57…`, Coinbase, or any payout program. Ondo's blog, [@Ondo](https://x.com/Ondo) and [@OndoFoundation](https://x.com/OndoFoundation) posts, and the Ondo DAO [Tally](https://www.tally.xyz/gov/ondo-dao/proposals) list (no proposal after FIP-08 in Jan 2024) contain no covering disclosure. A later community [treasury-transparency roadmap](https://forum.fluxfinance.com/t/proposal-ondo-dao-activation-roadmap-treasury-transparency-sustainability-fund-and-market-operations-framework/1032) is not an official post and does not cover these sends. (a) No: no Coinbase account is attributed to the team. (b) No: no on-chain sale is shown. (c) Yes: no plausible published reason covers these specific sends, so the one-hop transfer is a **proven sale**. Disclosure quality is `silence`. The silence penalty applies: Selling is capped at 3 and cannot be scored higher.
+- **Correction, 17 Nov 2026:** `one_hop_sale_status` **not_proven → proven**. Selling **4 → 3**. Overall **4.7 → 4.6**. Still FAIL. Selling now also trips the hard gate. `pump_day_undisclosed_penalty_applied`: true.
+- **Penalty check (16 Nov 2026 rules):** applied. **Disclosure quality:** silence. Pump days from Gate ONDO_USDT UTC daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (51 of 361 days).
 
 ## 📊 Tokenomics & supply · 2/10 · ❌ FAIL
 
@@ -233,6 +235,7 @@ layout_version: 3
 - [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] Ethereum verified source, RPC and Blockscout holder/log reads, 10 Oct 2026
 - [Tier A] [docs.ondo.foundation/ondo-token](https://docs.ondo.foundation/ondo-token) · [FIP-08](https://forum.fluxfinance.com/t/fip-08-release-of-the-ondo-token-lock-up/563)
+- [Tier A] One-hop check, 17 Nov 2026: [FIP-08](https://forum.fluxfinance.com/t/fip-08-release-of-the-ondo-token-lock-up/563); [Foundation docs](https://docs.ondo.foundation/ondo-token); [Foundation wallet disclosure](https://blog.ondo.foundation/ondo-foundation-group-wallet-address-disclosure/) (updated 26 Aug 2026); [Ondo DAO proposals on Tally](https://www.tally.xyz/gov/ondo-dao/proposals) (none after FIP-08); Ondo blog index; official X accounts [@Ondo](https://x.com/Ondo) and [@OndoFoundation](https://x.com/OndoFoundation). No published reason covering the `0xEA57…` → Coinbase payouts was found.
 - [Tier A] [Delaware CourtConnect 2026-0978](https://courtconnect.courts.delaware.gov/cc/cconnect/ck_public_qry_doct.cp_dktrpt_docket_report?case_id=2026-0978)
 - [Tier A] [SEC EDGAR CIK 1949480](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1949480)
 - [Tier A] DefiLlama fees/revenue, 13 Nov 2026 · ondo.finance product figures, 3 Nov 2026
@@ -272,7 +275,7 @@ layout_version: 3
 | 4 | **Where `0x1d1daecc…` took the 8.32M on 16 Jul (pump day)** | Etherscan `tokentx` for `0x1d1daecc…` and its next hop | Free |
 | 5 | **Jan 2027 tranche size (1.71B vs 1.94B)** | Ondo Foundation governance post or a signed FIP-08 schedule | Free |
 | 6 | **Who signs the 4-of-7 admin Safe** | Safe `getOwners()` plus Ondo disclosure; Arkham signer tags | Free |
-| 7 | **FIP-08 timing vs the `0xEA57…` payout window.** FIP-08 unlocks at 12/24/36/48/60 months after public launch (January, if launch was January 2024), but the `0xEA57…` payouts ran 22 Apr – 13 Oct 2026. This is a timing question only — `one_hop_sale_status` is unchanged pending Madman's judgment call | Re-read FIP-08 and any later schedule; match payout dates to anniversary windows | Free |
+| 7 | ~~FIP-08 timing vs the `0xEA57…` payout window~~ **Done 17 Nov 2026:** FIP-08 is a January anniversary schedule and does not cover the Apr–Oct 2026 Coinbase payouts. No other official reason was found, so `one_hop_sale_status` is **proven** and Selling is **3** after the silence penalty | — | — |
 | 8 | **Admin Safe 5,179,207,574 + CoinGecko circulating 4.87B ≈ 10.05B, above the 10B cap** | Reconcile CoinGecko circulating with the Safe balance and any already-circulating unlocks | Free |
 | 9 | **Re-count the 11-of-33 `0xEA57…` pump-day sends against Gate pump days** (those counts may still use the earlier day set) | Re-run the send list against the 17 Nov 2026 Gate pump-day list | Free |
 

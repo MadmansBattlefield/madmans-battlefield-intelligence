@@ -1,7 +1,7 @@
 {
   "title": "Base rates across published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-17 04:53 MST",
+  "generated_at": "2026-11-17 05:39 MST",
   "universe": 184,
   "note": "Computed from the published reports only. Pump-day and holder-accrual flags are parsed from the Markdown; they are not a new investigation. The undisclosed-sale penalty that takes effect on 16 Nov 2026 is not applied retroactively.",
   "pass_rate": {
@@ -183,8 +183,8 @@
     ]
   },
   "fail_selling_gate": {
-    "count": 21,
-    "share": 0.1141,
+    "count": 22,
+    "share": 0.1196,
     "tickers": [
       "CPOOL",
       "EDEL",
@@ -192,6 +192,7 @@
       "INV",
       "JASMY",
       "KAIO",
+      "ONDO",
       "PACT",
       "PHA",
       "POLYX",
@@ -210,13 +211,14 @@
     ]
   },
   "fail_both_gates": {
-    "count": 17,
-    "share": 0.0924,
+    "count": 18,
+    "share": 0.0978,
     "tickers": [
       "CPOOL",
       "EDEL",
       "JASMY",
       "KAIO",
+      "ONDO",
       "PACT",
       "PHA",
       "POLYX",
@@ -233,8 +235,8 @@
     ]
   },
   "proven_pump_day_sale": {
-    "count": 21,
-    "share": 0.1141,
+    "count": 22,
+    "share": 0.1196,
     "tickers": [
       "ALGO",
       "CELO",
@@ -242,6 +244,7 @@
       "FXS",
       "INV",
       "KAIO",
+      "ONDO",
       "PACT",
       "PHA",
       "POLYX",
@@ -265,8 +268,8 @@
     "tickers": []
   },
   "selling_not_proven": {
-    "count": 126,
-    "share": 0.6848,
+    "count": 125,
+    "share": 0.6793,
     "tickers": [
       "ACH",
       "ADA",
@@ -339,7 +342,6 @@
       "NEXA",
       "NIGHT",
       "OM",
-      "ONDO",
       "ORAI",
       "ORBITER",
       "PANTHER",
@@ -397,8 +399,8 @@
     ]
   },
   "selling_score_equals_4": {
-    "count": 114,
-    "share": 0.6196,
+    "count": 113,
+    "share": 0.6141,
     "tickers": [
       "ACH",
       "AEON",
@@ -462,7 +464,6 @@
       "NEXA",
       "NIGHT",
       "OM",
-      "ONDO",
       "ORAI",
       "ORBITER",
       "PANTHER",
@@ -517,12 +518,13 @@
     ]
   },
   "undisclosed_pump_day_sale_silence": {
-    "count": 15,
-    "share": 0.0815,
+    "count": 16,
+    "share": 0.087,
     "tickers": [
       "CPOOL",
       "FXS",
       "INV",
+      "ONDO",
       "PACT",
       "PHA",
       "POLYX",
@@ -538,8 +540,8 @@
     ]
   },
   "one_hop_sale_proven": {
-    "count": 21,
-    "share": 0.1141,
+    "count": 22,
+    "share": 0.1196,
     "tickers": [
       "ALGO",
       "CELO",
@@ -547,6 +549,7 @@
       "FXS",
       "INV",
       "KAIO",
+      "ONDO",
       "PACT",
       "PHA",
       "POLYX",
@@ -565,8 +568,8 @@
     ]
   },
   "one_hop_transfer_not_proven_sale": {
-    "count": 20,
-    "share": 0.1087,
+    "count": 19,
+    "share": 0.1033,
     "tickers": [
       "ACH",
       "API3",
@@ -576,7 +579,6 @@
       "EDEN",
       "HYPER",
       "IOTX",
-      "ONDO",
       "PROPC",
       "RBNT",
       "S",

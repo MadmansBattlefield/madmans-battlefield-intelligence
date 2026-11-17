@@ -1,6 +1,6 @@
 ---
 title: Review flags
-generated_at: 2026-11-17 04:53 MST
+generated_at: 2026-11-17 05:39 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Scores on this page were not changed.
 ---
@@ -28,13 +28,14 @@ Rule: only a verified entity label with on-chain proof, or a second independent 
 
 These are not automatically wrong. Exchange and entity labels from Arkham are Tier B. The new rule asks for on-chain proof of the label, or a second independent source, before that label can move Selling or Holdings. They are listed so a later review can confirm or downgrade them. Scores were left as published.
 
-**4 report(s) flagged.**
+**5 report(s) flagged.**
 
 | Ticker | Selling | Holdings |
 |---|---:|---:|
 | [CPOOL](banking-rails/CPOOL.md) | 0 | 4 |
 | [INV](banking-rails/INV.md) | 1 | 6 |
 | [JASMY](banking-rails/JASMY.md) | 2 | 3 |
+| [ONDO](banking-rails/ONDO.md) | 3 | 3 |
 | [RLC](banking-rails/RLC.md) | 1 | 5 |
 
 ## 3. Revenue score looks inconsistent with the holder-accrual test
