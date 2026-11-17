@@ -60,13 +60,13 @@
     "fdv_text": "$188.5M",
     "volume_24h_text": "$3.6M"
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/KAIA.md",
-    "sha256": "9f870813f8ad681dc67ce47eeec2f7ff18953d1f573aa7fe8e7e1320b7d009d9",
-    "bytes": 13868,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "0936d7461b1de8c3e7954358bb83b53625212f2b0f6a12db7f477128c0a0f0a1",
+    "bytes": 14106,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -74,7 +74,7 @@
     "source_read_dates": [
       "16 Nov 2026 ~7:35 AM MST",
       "16 Nov 2026",
-      "2026-11-16"
+      "2026-11-17"
     ],
     "arkham_read": "16 Nov 2026 ~7:35 AM MST (signed-in account"
   },

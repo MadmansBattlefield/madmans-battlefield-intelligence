@@ -4,7 +4,7 @@
   "name": "XRP",
   "chain": "xrp-ledger",
   "contract": "native (XRP Ledger)",
-  "overall_score": 5.1,
+  "overall_score": 5.2,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 2,
@@ -16,7 +16,7 @@
     "product_development": 7,
     "adoption_customers": 6,
     "security_audits": 7,
-    "regulatory": 7,
+    "regulatory": 8,
     "catalysts": 5
   },
   "sections_passed": 6,
@@ -61,20 +61,20 @@
     "fdv_text": "$95.44B",
     "volume_24h_text": "$2.31B"
   },
-  "last_updated": "2026-11-15",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/XRP.md",
-    "sha256": "efc88b0b58de3e968ba86b1e0b2b63659b771ff53fc8e2e96e64f0fba5563cab",
-    "bytes": 20129,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "4d32d0abf0bf80fcd204a67125d9c0278bb603e2fe145316a8a536b67bf3b769",
+    "bytes": 20548,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
     "price_source_read": "CoinGecko, 14 Nov 2026 12:12 PM MST",
     "source_read_dates": [
       "15 Nov 2026 ~11:00 AM MST",
-      "2026-11-15"
+      "2026-11-17"
     ],
     "arkham_read": "15 Nov 2026 ~11:00 AM MST (signed-in account"
   },

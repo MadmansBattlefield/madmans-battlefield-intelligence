@@ -3,7 +3,7 @@ ticker: BCH
 name: Bitcoin Cash
 chain: bitcoin-cash
 contract: "native (Bitcoin Cash proof-of-work chain)"
-overall_score: 5.1
+overall_score: 5.2
 overall_verdict: FAIL
 section_scores:
   revenue: 1
@@ -15,7 +15,7 @@ section_scores:
   product_development: 5
   adoption_customers: 3
   security_audits: 5
-  regulatory: 7
+  regulatory: 8
   catalysts: 4
 gates_failed: [revenue]
 red_lines:
@@ -34,13 +34,13 @@ dual_review: not_run
 attributions: []
 price_usd: 205.79
 price_source: "CoinGecko, 16 Nov 2026 6:58 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
 ## 🧾 QUICK REVIEW CARD
 
-### BCH · Overall grade **5.1 / 10 · ❌ FAIL**
+### BCH · Overall grade **5.2 / 10 · ❌ FAIL**
 
 **Summary:** Bitcoin Cash is a 2017 proof-of-work fork of Bitcoin. It has a fixed 21M cap, no premine, no team allocation and no foundation, so there are **no insider wallets to sell into pumps**, and it scores well on holdings, tokenomics and selling. But the protocol itself earns nothing: **fees ($44.4k in 12 months) all go to miners**, and DefiLlama counts $0 of protocol revenue, so the revenue gate fails. Usage is thin (about 14k transactions a day). Its hashrate is ~0.3% of Bitcoin's, which leaves it exposed to a 51% attack.
 
@@ -59,7 +59,7 @@ layout_version: 3
 | 🧑‍💻 Product & development | 5/10 | ❌ FAIL |
 | 🤝 Adoption & customers | 3/10 | ❌ FAIL |
 | 🛡️ Security & audits | 5/10 | ❌ FAIL |
-| ⚖️ Regulatory | 7/10 | ✅ PASS |
+| ⚖️ Regulatory | 8/10 | ✅ PASS |
 | 📅 Catalysts & calendar | 4/10 | ❌ FAIL |
 
 *Pass = 6 or more out of 10. Full details for every section follow below.*
@@ -67,7 +67,7 @@ layout_version: 3
 ---
 
 
-# 🪪 BCH · Bitcoin Cash · 5.1 / 10 · ❌ FAIL
+# 🪪 BCH · Bitcoin Cash · 5.2 / 10 · ❌ FAIL
 
 > **One line:** Clean supply and no insiders, but no protocol revenue, little usage and a small, rentable hashrate.
 
@@ -128,9 +128,10 @@ layout_version: 3
 
 - No consensus failure in the window. But the hashrate is ~0.3% of Bitcoin's on the same SHA-256 hardware, so a deep reorganization is economically feasible for a large miner or pool.
 
-## ⚖️ Regulatory · 7/10 · ✅ PASS
+## ⚖️ Regulatory · 8/10 · ✅ PASS
 
-- A decentralized PoW commodity-style asset, available on US-regulated venues. No enforcement against the asset found.
+- **US:** SEC Release 33-11412 (issued 17 Mar 2026, effective 23 Mar 2026, joined by the CFTC) names **Bitcoin Cash (BCH)** as an example of a **digital commodity**, which is not a security ([Tier A] [govinfo](https://www.govinfo.gov/content/pkg/FR-2026-03-23/html/2026-05635.htm)). It is a decentralized PoW asset available on US-regulated venues. No enforcement against the asset found.
+- **Correction, 17 Nov 2026:** Regulatory **7 → 8** after Release 33-11412 was applied. Overall **5.1 → 5.2**. Still FAIL on the revenue gate.
 
 ## 📅 Catalysts & calendar · 4/10 · ❌ FAIL
 

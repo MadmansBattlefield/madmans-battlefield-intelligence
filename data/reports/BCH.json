@@ -4,7 +4,7 @@
   "name": "Bitcoin Cash",
   "chain": "bitcoin-cash",
   "contract": "native (Bitcoin Cash proof-of-work chain)",
-  "overall_score": 5.1,
+  "overall_score": 5.2,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 1,
@@ -16,7 +16,7 @@
     "product_development": 5,
     "adoption_customers": 3,
     "security_audits": 5,
-    "regulatory": 7,
+    "regulatory": 8,
     "catalysts": 4
   },
   "sections_passed": 5,
@@ -60,20 +60,20 @@
     "fdv_text": "$4.14B",
     "volume_24h_text": "$62.7M"
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BCH.md",
-    "sha256": "56331469776666f3b4334eed9c6b0946370dd6247ce9b96f1da2bb2f4596d7e4",
-    "bytes": 11974,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "a071f8cec05360ac67998053e49d39faf2ecb45ec7d5136aa3efc811b971c2c3",
+    "bytes": 12391,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
     "price_source_read": "CoinGecko, 16 Nov 2026 6:58 AM MST",
     "source_read_dates": [
       "16 Nov 2026 ~7:35 AM MST",
-      "2026-11-16"
+      "2026-11-17"
     ],
     "arkham_read": "16 Nov 2026 ~7:35 AM MST (signed-in account"
   },

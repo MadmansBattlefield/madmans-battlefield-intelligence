@@ -3,7 +3,7 @@ ticker: ADA
 name: Cardano
 chain: cardano (native layer 1)
 contract: "native coin (no contract)"
-overall_score: 5.1
+overall_score: 5.2
 overall_verdict: FAIL
 section_scores:
   revenue: 2
@@ -15,7 +15,7 @@ section_scores:
   product_development: 8
   adoption_customers: 3
   security_audits: 6
-  regulatory: 6
+  regulatory: 8
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
@@ -34,13 +34,13 @@ dual_review: not_run
 attributions: []
 price_usd: 0.151959
 price_source: "CoinGecko, 16 Nov 2026 ~5:08 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
 ## 🧾 QUICK REVIEW CARD
 
-### ADA · Overall grade **5.1 / 10 · ❌ FAIL**
+### ADA · Overall grade **5.2 / 10 · ❌ FAIL**
 
 **Summary:** Cardano is a large, long-running proof-of-stake chain with deep exchange liquidity and serious engineering. But it **earns almost nothing**: DefiLlama counts **$924,550 in chain fees over the last 12 months** on a **$5.71B market cap**, and only **$46.2M is locked in its apps**. On-chain governance has paid out **804.4M ADA (≈ $122M today) from the treasury** through 70 enacted proposals. These include **50M ADA to a VC fund** that left its receiving wallet within three days, a **120M ADA** ecosystem grant and **8.1M ADA for exchange listings and market making**. The price is down **69.4% in a year**. The Revenue gate fails.
 
@@ -59,14 +59,14 @@ layout_version: 3
 | 🧑‍💻 Product & development | 8/10 | ✅ PASS |
 | 🤝 Adoption & customers | 3/10 | ❌ FAIL |
 | 🛡️ Security & audits | 6/10 | ✅ PASS |
-| ⚖️ Regulatory | 6/10 | ✅ PASS |
+| ⚖️ Regulatory | 8/10 | ✅ PASS |
 | 📅 Catalysts & calendar | 5/10 | ❌ FAIL |
 
 *Pass = 6 or more out of 10. Full details for every section follow below.*
 
 ---
 
-# 🪪 ADA · Cardano · 5.1 / 10 · ❌ FAIL
+# 🪪 ADA · Cardano · 5.2 / 10 · ❌ FAIL
 
 > **One line:** A big, liquid, well-engineered chain whose usage hardly pays for itself (≈ $0.92M fees a year on a $5.7B cap), funded by an on-chain treasury that has paid out 804M ADA, some of it to listings, market making and a VC fund.
 
@@ -171,10 +171,11 @@ layout_version: 3
 - ⚠️ On **21 Nov 2025** a deliberately malformed delegation transaction exploited a deserialization bug in node 10.3.1–10.5.1. It **split mainnet for ~14.5 hours**, and exchanges paused deposits [Tier A [Intersect incident report](https://www.intersectmbo.org/news/incident-report-network-partition-analysis-and-resolution-strategy)].
 - Treasury payout contracts hold large balances (71.8M and 143.1M). Their audits were not read this pass.
 
-## ⚖️ Regulatory · 6/10 · ✅ PASS
+## ⚖️ Regulatory · 8/10 · ✅ PASS
 
-- The SEC named ADA as a security in its 2023 exchange cases. Those cases were later dropped [Tier B].
+- **US:** SEC Release 33-11412 (issued 17 Mar 2026, effective 23 Mar 2026, joined by the CFTC) names **Cardano (ADA)** as an example of a **digital commodity**, which is not a security ([Tier A] [govinfo](https://www.govinfo.gov/content/pkg/FR-2026-03-23/html/2026-05635.htm)). The 2023 exchange-case "security" label was later dropped [Tier B].
 - The founding entities are regulated companies and foundations in several countries. No MiCA white paper check was done this pass.
+- **Correction, 17 Nov 2026:** Regulatory **6 → 8** after Release 33-11412 was applied. Overall **5.1 → 5.2**. Still FAIL on the revenue gate.
 
 ## 📅 Catalysts & calendar · 5/10 · ❌ FAIL
 

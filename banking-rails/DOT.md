@@ -15,7 +15,7 @@ section_scores:
   product_development: 7
   adoption_customers: 4
   security_audits: 6
-  regulatory: 7
+  regulatory: 8
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
@@ -35,7 +35,7 @@ dual_review: not_run
 attributions: []
 price_usd: 0.7286
 price_source: "CoinGecko, 16 Nov 2026 5:10 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -60,7 +60,7 @@ layout_version: 3
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
 | 🤝 Adoption & customers | 4/10 | ❌ FAIL |
 | 🛡️ Security & audits | 6/10 | ✅ PASS |
-| ⚖️ Regulatory | 7/10 | ✅ PASS |
+| ⚖️ Regulatory | 8/10 | ✅ PASS |
 | 📅 Catalysts & calendar | 5/10 | ❌ FAIL |
 
 *Pass = 6 or more out of 10. Full details for every section follow below.*
@@ -192,10 +192,12 @@ From Feb 2023 to Nov 2026, **33,114,401 DOT arrived in 346 transfers** at [`14mr
   - 30 Jun – 3 Jul: the staking election froze after Refs 1890/1909; fixed by Ref 1914 ([postmortem](https://forum.polkadot.network/t/2026-06-30-staking-election-stall-postmortem/18077)).
 - Four stalls in one year is a real cost to reliability, but each was disclosed and fixed quickly.
 
-## ⚖️ Regulatory · 7/10 · ✅ PASS
+## ⚖️ Regulatory · 8/10 · ✅ PASS
 
+- **US:** SEC Release 33-11412 (issued 17 Mar 2026, effective 23 Mar 2026, joined by the CFTC) names **Polkadot (DOT)** as an example of a **digital commodity**, which is not a security ([Tier A] [govinfo](https://www.govinfo.gov/content/pkg/FR-2026-03-23/html/2026-05635.htm)).
 - **21Shares Polkadot Staking ETF (TDOT)**: SEC registration effective 4 Mar 2026, trading on Nasdaq since 6 Mar 2026 ([Nasdaq circular](https://www.nasdaqtrader.com/content/newsalerts/2026/InfoCircular/TDOT_Circular_NQ.pdf) · [21shares](https://www.21shares.com/en-us/products-us/tdot)).
 - No enforcement action against DOT, W3F or Parity was found this pass.
+- **Correction, 17 Nov 2026:** Regulatory **7 → 8** after Release 33-11412 was applied. Overall stays **4.9**. Still FAIL on the revenue gate.
 
 ## 📅 Catalysts & calendar · 5/10 · ❌ FAIL
 

@@ -16,7 +16,7 @@
     "product_development": 7,
     "adoption_customers": 4,
     "security_audits": 6,
-    "regulatory": 7,
+    "regulatory": 8,
     "catalysts": 5
   },
   "sections_passed": 5,
@@ -61,20 +61,20 @@
     "fdv_text": "$1.248B",
     "volume_24h_text": "$58.8M"
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/DOT.md",
-    "sha256": "42554aa771490a8939c35bb5c6f4ea476b0c1dc6bbd475ff64e63e5ee9dc480d",
-    "bytes": 33432,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "4caec32aaffc17b53020b26e4897be476ee50d14e999a7940bfc80b4c4e07acf",
+    "bytes": 33856,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
     "price_source_read": "CoinGecko, 16 Nov 2026 5:10 AM MST",
     "source_read_dates": [
       "16 Nov 2026",
-      "2026-11-16"
+      "2026-11-17"
     ],
     "arkham_read": null
   },

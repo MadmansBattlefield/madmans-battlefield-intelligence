@@ -26,7 +26,7 @@ red_lines:
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "All fees go to miners; there is no burn, buyback, fee share or fee-funded staking yield for holders. The Revenue score of 4 describes real fee demand, but holders have no live claim on it."
-pump_day_price_source: "CoinGecko BTC daily closes (as published; named last resort)"
+pump_day_price_source: "CoinGecko BTC daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (9 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped"
 pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
@@ -34,7 +34,7 @@ attributions: []
 price_usd: 65569
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_height: 975830
-last_updated: 2026-11-14
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -125,7 +125,7 @@ layout_version: 3
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 8/10 · ✅ PASS
 
-**Pump test:** CoinGecko daily closes, 15 Nov 2025 – 14 Nov 2026: **9 of 361 days** were pump days (5 Mar 2026; 20–25 Aug 2026; 22–23 Sep 2026). Last pump day 23 Sep 2026 (+12.8%).
+**Pump test:** CoinGecko daily closes, 16 Nov 2025 – 16 Nov 2026, re-run 17 Nov 2026 with the midnight-stamp convention: **9 of 360 days** were pump days (4 Mar 2026; 19–24 Aug 2026; 21–22 Sep 2026). Last pump day 22 Sep 2026 (+12.9%).
 
 | Check | Finding | Source |
 |---|---|---|
@@ -136,7 +136,7 @@ layout_version: 3
 
 **What it means:** There are no insiders who can dump into a pump. Selling pressure comes from the open market (funds, miners, leverage), not a team.
 
-- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko BTC daily closes (as published; named last resort).
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko BTC daily closes, re-run 17 Nov 2026 with the midnight-stamp convention (9 of 360 days).
 
 ## 📊 Tokenomics & supply · 9/10 · ✅ PASS
 
@@ -179,7 +179,9 @@ layout_version: 3
 ## ⚖️ Regulatory · 8/10 · ✅ PASS
 
 - US spot bitcoin ETFs approved by the SEC (Jan 2024) [Tier A]; treated as a commodity by the CFTC [Tier A].
+- SEC Release 33-11412 (issued 17 Mar 2026, effective 23 Mar 2026, joined by the CFTC) also names **Bitcoin (BTC)** as an example of a **digital commodity** ([Tier A] [govinfo](https://www.govinfo.gov/content/pkg/FR-2026-03-23/html/2026-05635.htm)).
 - No issuer to sue. Remaining risk is tax, custody and mining rules by country.
+- **Update, 17 Nov 2026:** Release 33-11412 added. Regulatory stays **8**; overall stays **7.3**.
 
 ## 📅 Catalysts & calendar · 6/10 · ✅ PASS
 

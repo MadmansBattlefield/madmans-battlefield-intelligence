@@ -34,7 +34,7 @@ dual_review: not_run
 attributions: []
 price_usd: 0.002296
 price_source: "CoinGecko, 16 Nov 2026 ~8:52 AM MST (per MANTRA; 1 OM = 4 MANTRA)"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -42,7 +42,7 @@ layout_version: 3
 
 ### OM · Overall grade **3.4 / 10 · ❌ FAIL**
 
-**Summary:** MANTRA is a Cosmos-based layer 1 pitched for real-world assets. At block 13,000,000 (around 2 Mar 2026), each OM was split into 4 MANTRA, and the ticker changed. The chain holds **$0.49M** of DeFi TVL. I found no fee or revenue data, so the revenue gate fails. MANTRA is down 91% from the listing-day high it set right after the split. Most volume is on a single Korean exchange.
+**Summary:** MANTRA is a Cosmos-based layer 1 pitched for real-world assets. At block 13,000,000 (around 2 Mar 2026), each OM was split into 4 MANTRA, and the ticker changed. The chain holds **$0.49M** of DeFi TVL. I found no fee or revenue data, so the revenue gate fails. MANTRA is down 91% from the listing-day high it set right after the split, and **99.9%** from the pre-split OM ATH ($8.99 on 23 Feb 2025, at 1 OM = 4 MANTRA). Most volume is on a single Korean exchange.
 
 **🚨 Top warning:** almost nothing is built on a $15.6M chain. DefiLlama shows **$494k** of TVL on MANTRA Chain. With no published fees, there is nothing on-chain that supports the token's value. I could not trace treasury and contributor wallets on the native chain, so the selling check is not proven. Every link is in the 🔗 Evidence trail below.
 
@@ -77,7 +77,7 @@ layout_version: 3
 | **24h / 7d / 30d** ⚪ +0.6% / 🔴 −22.0% / 🔴 −41.2% | **Total** 8.38B · **Max** 10B MANTRA |
 | **Market cap** $15.6M · **FDV** $19.2M | **Circulating** 6.80B (68%) |
 | **24h volume** $2.08M (Upbit $1.50M, Hotcoin, CoinW, Bithumb, Binance $0.22M) | **DeFi TVL** $494k (DefiLlama, 15 Nov 2026) |
-| **ATH** $0.02627 (4 Mar 2026) · now −91.3% | **Inflation** 3% per year (docs) |
+| **ATH** post-split listing $0.02627 (4 Mar 2026, −91.3% from that high); predecessor $2.25 (old OM $8.99 on 23 Feb 2025 at 1 OM = 4 MANTRA) · now **−99.9%** from the predecessor | **Inflation** 3% per year (docs) |
 | **Pump days** 24 in the last year (largest +43.5% on 16 Feb 2026; split week 3–9 Mar excluded) | |
 
 ---

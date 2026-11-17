@@ -48,7 +48,7 @@
     "methodology_effective": "2026-11-16",
     "revenue_reaches_holders": "yes",
     "revenue_mechanism": "sAERO stakers receive 100% of the exchange revenue of the pools they vote for, paid on-chain every epoch (DefiLlama holders revenue $7.3M in 30 days), so revenue reaches holders.",
-    "pump_day_price_source": "CoinGecko AERO daily closes (as published; named last resort)",
+    "pump_day_price_source": "CoinGecko AERO daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (67 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped",
     "pump_day_disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
@@ -76,20 +76,20 @@
     "fdv_text": "$889.2M",
     "volume_24h_text": "$27.1M"
   },
-  "last_updated": "2026-11-15",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/AERO.md",
-    "sha256": "4a8253932e59fc67e4e506d50619e1757d24ec5fbccee3af88961130ceef817d",
-    "bytes": 28183,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "0ddbd2fa707cedf475bb38c8040140994c72d32f67eda9b39edc389281f28797",
+    "bytes": 28456,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
     "price_source_read": "CoinGecko (tracks legacy contract; new-token DEX price $0.4416), 14 Nov 2026 12:12 PM MST",
     "source_read_dates": [
       "15 Nov 2026 ~11:00 AM MST",
-      "2026-11-15"
+      "2026-11-17"
     ],
     "arkham_read": "15 Nov 2026 ~11:00 AM MST (signed-in account"
   },
@@ -231,7 +231,7 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": "CoinGecko AERO daily closes (as published; named last resort)",
+    "price_source": "CoinGecko AERO daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (67 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,

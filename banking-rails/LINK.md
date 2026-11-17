@@ -3,7 +3,7 @@ ticker: LINK
 name: Chainlink
 chain: ethereum
 contract: "0x514910771AF9Ca656af840dff83E8264EcF986CA"
-overall_score: 6.9
+overall_score: 7.1
 overall_verdict: PASS
 section_scores:
   revenue: 8
@@ -15,7 +15,7 @@ section_scores:
   product_development: 9
   adoption_customers: 8
   security_audits: 8
-  regulatory: 5
+  regulatory: 8
   catalysts: 6
 gates_failed: []
 red_lines:
@@ -26,7 +26,7 @@ red_lines:
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"
 revenue_mechanism: "Payment Abstraction converts on-chain and off-chain service revenue into LINK automatically through Chainlink Automation and a DEX, and deposits it in the on-chain Chainlink Reserve (431,900 LINK bought in 30 days) ([Chainlink](https://chain.link/blog/chainlink-reserve-strategic-link-reserve), [Payment Abstraction](https://chain.link/blog/payment-abstraction-svr-fee-conversion)). That is an automatic, executed buyback paid from revenue, so the test is yes. Caveat: the bought LINK is held in a timelocked reserve, not burned or paid out."
-pump_day_price_source: "CoinGecko LINK daily closes (as published; named last resort)"
+pump_day_price_source: "CoinGecko LINK daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped"
 pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
@@ -38,13 +38,13 @@ attributions:
     basis: "Arkham + Etherscan tag + forwarding pattern"
 price_usd: 9.19
 price_source: "CoinGecko, 14 Nov 2026 9:08 AM MST"
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
 ## 🧾 QUICK REVIEW CARD
 
-### LINK · Overall grade **6.9 / 10 · ✅ PASS**
+### LINK · Overall grade **7.1 / 10 · ✅ PASS**
 
 **Summary:** A real, fee-earning oracle network with clean token code, but its non-circulating treasury sends roughly 9–19M LINK to Binance a few times a year (58.85M in the last 12 months) without a formal announcement. None of those sends fell on a pump day.
 
@@ -63,7 +63,7 @@ layout_version: 3
 | 🧑‍💻 Product & development | 9/10 | ✅ PASS |
 | 🤝 Adoption & customers | 8/10 | ✅ PASS |
 | 🛡️ Security & audits | 8/10 | ✅ PASS |
-| ⚖️ Regulatory | 5/10 | ❌ FAIL |
+| ⚖️ Regulatory | 8/10 | ✅ PASS |
 | 📅 Catalysts & calendar | 6/10 | ✅ PASS |
 
 *Pass = 6 or more out of 10. Full details for every section follow below.*
@@ -71,7 +71,7 @@ layout_version: 3
 ---
 
 
-# 🪪 LINK · Chainlink · 6.9 / 10 · ✅ PASS
+# 🪪 LINK · Chainlink · 7.1 / 10 · ✅ PASS
 
 > **One line:** A real, fee-earning oracle network with clean token code, but its non-circulating treasury sends roughly 9–19M LINK to Binance a few times a year (58.85M in the last 12 months) without a formal announcement. None of those sends fell on a pump day.
 
@@ -126,21 +126,21 @@ layout_version: 3
 
 | Window (UTC) | Route | Amount to Binance 14 | LINK 5-day change before send | Pump? |
 |---|---|---:|---:|---|
-| 9 Oct 2026 19:43–21:13 | Noncirculating Safes → [`0x9b1c1752…cde9`](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) ([Arkham](https://intel.arkm.com/explorer/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9); forwards in minutes) → Binance 14 [`0x28c6c062…1d60`](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60). Txs: [3.4M in](https://etherscan.io/tx/0x2f03bf93b7c50c740a6a9ebdcb2182ae112ea3c14474559e189afa8aaed40836) · [3.4M → Binance](https://etherscan.io/tx/0x595cc8d1b1156210b6ecdf9fe34adc45857091fa6894b3d2c876bd3aee4bdb8e) · [4.5M → Binance](https://etherscan.io/tx/0x1d0f1263c828d4ff2a147c05ef27b96f6527a2a7f032e8cf1e02a4e82e459c4e) · [2.73M → Binance](https://etherscan.io/tx/0x3a38babee890d50904ad004c9b8dbe2002aa73b6bc791006f6358f276207a812) | **16,875,000** (+1,874,999 to Safe `0xd50f074e`) | −10.0% | ❌ No |
-| 19 Jun 2026 19:17–21:13 | same route (5 Safes). Txs: [8.375M → Binance](https://etherscan.io/tx/0xef13c7c8b91afbed0995167813e98646cc99995eb3506215dd1420850550399e) · [4.0M → Binance](https://etherscan.io/tx/0x5fd73e5a2ef1303670ed15f91ca9bdc774470892f1eced9059901c938f9c04d5) | **18,375,000** (+2,624,999 to `0xd50f…`) | +0.3% | ❌ No |
-| 3 Apr 2026 19:35–22:52 | same route (3 Safes). Txs: [9.775M → Binance](https://etherscan.io/tx/0x4dc3376c4d43e39db54ec36e2d34e18e522b0783e1231173b62f5302151fd89d) · [2.5M → Binance](https://etherscan.io/tx/0xd2b4c2c4a9e2208fda54e57fef07de1c59cf92b12d389439a0088951dd9e31e3) | **14,375,000** (+4,624,999 to `0xd50f…`) | +2.4% | ❌ No |
-| 19 Dec 2025 20:11–20:30 | same route (2 Safes). Txs: [5.225M → Binance](https://etherscan.io/tx/0xd3916e84214f649df558feaeaf5a919eb974f0083e8d5645fd93b5a2c3729771) · [4.0M → Binance](https://etherscan.io/tx/0x3bd07fec96f7092c3c0b27a88e57e12c5f8fe0f39d7e2be933955adee8bb9972) | **9,225,000** (+2,024,999 to `0xd50f…`) | −13.1% | ❌ No |
+| 9 Oct 2026 19:43–21:13 | Noncirculating Safes → [`0x9b1c1752…cde9`](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9) ([Arkham](https://intel.arkm.com/explorer/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9); forwards in minutes) → Binance 14 [`0x28c6c062…1d60`](https://etherscan.io/address/0x28C6c06298d514Db089934071355E5743bf21d60). Txs: [3.4M in](https://etherscan.io/tx/0x2f03bf93b7c50c740a6a9ebdcb2182ae112ea3c14474559e189afa8aaed40836) · [3.4M → Binance](https://etherscan.io/tx/0x595cc8d1b1156210b6ecdf9fe34adc45857091fa6894b3d2c876bd3aee4bdb8e) · [4.5M → Binance](https://etherscan.io/tx/0x1d0f1263c828d4ff2a147c05ef27b96f6527a2a7f032e8cf1e02a4e82e459c4e) · [2.73M → Binance](https://etherscan.io/tx/0x3a38babee890d50904ad004c9b8dbe2002aa73b6bc791006f6358f276207a812) | **16,875,000** (+1,874,999 to Safe `0xd50f074e`) | −10.3% | ❌ No |
+| 19 Jun 2026 19:17–21:13 | same route (5 Safes). Txs: [8.375M → Binance](https://etherscan.io/tx/0xef13c7c8b91afbed0995167813e98646cc99995eb3506215dd1420850550399e) · [4.0M → Binance](https://etherscan.io/tx/0x5fd73e5a2ef1303670ed15f91ca9bdc774470892f1eced9059901c938f9c04d5) | **18,375,000** (+2,624,999 to `0xd50f…`) | −2.9% | ❌ No |
+| 3 Apr 2026 19:35–22:52 | same route (3 Safes). Txs: [9.775M → Binance](https://etherscan.io/tx/0x4dc3376c4d43e39db54ec36e2d34e18e522b0783e1231173b62f5302151fd89d) · [2.5M → Binance](https://etherscan.io/tx/0xd2b4c2c4a9e2208fda54e57fef07de1c59cf92b12d389439a0088951dd9e31e3) | **14,375,000** (+4,624,999 to `0xd50f…`) | +2.9% | ❌ No |
+| 19 Dec 2025 20:11–20:30 | same route (2 Safes). Txs: [5.225M → Binance](https://etherscan.io/tx/0xd3916e84214f649df558feaeaf5a919eb974f0083e8d5645fd93b5a2c3729771) · [4.0M → Binance](https://etherscan.io/tx/0x3bd07fec96f7092c3c0b27a88e57e12c5f8fe0f39d7e2be933955adee8bb9972) | **9,225,000** (+2,024,999 to `0xd50f…`) | −5.7% | ❌ No |
 
 - Example tx: [tx `0x2f03bf93b7c50c740a6a9ebdcb2182ae112ea3c14474559e189afa8aaed40836`](https://etherscan.io/tx/0x2f03bf93b7c50c740a6a9ebdcb2182ae112ea3c14474559e189afa8aaed40836) (3,399,999 from Safe #17 on 9 Oct, forwarded as [tx `0x595cc8d1b115…`](https://etherscan.io/tx/0x595cc8d1b1156210b6ecdf9fe34adc45857091fa6894b3d2c876bd3aee4bdb8e) seven minutes later).
 - **Full history, now read in full (15 Nov):** `0x9b1c…` has forwarded **253.8M LINK to Binance 14 in 62 transfers since 26 Aug 2022** (first: [tx `0x540c7288…`](https://etherscan.io/tx/0x540c72883f4cb0e14042c450e6e9297108893655493f4e10120625311aa40a2c); full list on [Etherscan](https://etherscan.io/address/0x9B1c1752B6B6eAF62a8c491A8681B32C1F7ecDE9)), usually within minutes of arriving (at most a few hours), and has never sent LINK anywhere else. The last 12 months are the four rows above: **58.85M**.
 - **Labels, now verified:** Arkham labels `0x9b1c…` "Binance Deposit" and `0x28c6…` "Binance: Hot Wallet"; Etherscan tags `0x28c6…` "Binance 14". Two independent Tier B labels plus the [Tier A] forwarding pattern confirm a **Binance deposit address** credited to one Binance account ([Tier B] Arkham, read 15 Nov 2026 ~11:00 AM MST (signed-in account)).
 - **[`0xd50f074e…`](https://etherscan.io/address/0xd50f074ec5c7997ce1daacb513ec194c480878af) (the Safe that gets a slice of each batch; [Arkham](https://intel.arkm.com/explorer/address/0xd50f074ec5c7997ce1daacb513ec194c480878af)):** Arkham shows no entity. On-chain it receives only from the non-circulating Safes and pays 499,999 or 607,499 LINK every few weeks to Safe [`0x7a28b8cf…`](https://etherscan.io/address/0x7a28b8cfeb73b45626f521de928d0dd2d25c14a3) (since Nov 2022). No exchange sends. That looks like an operating budget; purpose [Unverified].
-- Pump test: 25 of 360 days in the last year had a ≥10% 5-day rise; **none** of the four batches fell in one (also none on the following day).
+- Pump test (re-run 17 Nov 2026, CoinGecko daily closes with the midnight-stamp convention): **25 of 360 days** were pump days, 16 Nov 2025 – 16 Nov 2026. Last pump day 29 Sep 2026 (+10.5%); peak 21 Aug 2026 (+27.8%). **None** of the four batches fell on a pump day (also none on the following day). Corrected 5-day moves: 19 Dec 2025 −5.7%, 3 Apr 2026 +2.9%, 19 Jun 2026 −2.9%, 9 Oct 2026 −10.3%.
 - **Correction (15 Nov):** the October batch was **16,875,000** to Binance (plus 1,874,999 to `0xd50f…`, 18.75M in all), not 15.875M as this page said before. The press figure of 16.875M was right. The June and April rows were partial before; full totals are above. Whether Binance sold the LINK cannot be seen on-chain.
 
 **What it means:** Not pump-timed, and the cadence is regular (four batches in 12 months, all on calm or falling days). Arkham now confirms the treasury and the Binance deposit. But it is still undisclosed treasury-to-exchange flow, about 59M LINK a year, so it does not pass (score unchanged at 5).
 
-- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko LINK daily closes (as published; named last resort).
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko LINK daily closes, re-run 17 Nov 2026 with the midnight-stamp convention (25 of 360 days).
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -165,9 +165,10 @@ layout_version: 3
 
 - No LINK-token or Chainlink protocol hack on file (2025–2026). Remaining risk lives in oracle configs, CCIP lanes, staking and Reserve contracts.
 
-## ⚖️ Regulatory · 5/10 · ❌ FAIL
+## ⚖️ Regulatory · 8/10 · ✅ PASS
 
-- No licence or enforcement record checked this pass. Not proven either way.
+- **US:** SEC Release 33-11412 (issued 17 Mar 2026, effective 23 Mar 2026, joined by the CFTC) names **Chainlink (LINK)** as an example of a **digital commodity**, which is not a security ([Tier A] [govinfo](https://www.govinfo.gov/content/pkg/FR-2026-03-23/html/2026-05635.htm)). Peers named in the same list are scored 8 on this section.
+- **Correction, 17 Nov 2026:** Regulatory **5 → 8** after this release was applied. Overall **6.9 → 7.1**. Still PASS.
 
 ## 📅 Catalysts & calendar · 6/10 · ✅ PASS
 

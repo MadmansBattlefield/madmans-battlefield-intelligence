@@ -39,7 +39,7 @@ attributions:
     basis: "Sonicscan + governance vote"
 price_usd: 0.03218
 price_source: "CoinGecko, 16 Nov 2026 6:58 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -47,7 +47,7 @@ layout_version: 3
 
 ### S · Overall grade **3.5 / 10 · ❌ FAIL**
 
-**Summary:** Sonic (formerly Fantom) is a fast EVM layer-1. Usage has collapsed: **TVL is $12.6M** and the chain earned **$75.7k of revenue in 12 months**. S is −97% from its January 2025 high and −75% in a year. There is no supply cap, and governance keeps approving new issuance (supply is up from 3.175B to 3.885B). Wallets tied to the Foundation and Sonic's issuance have moved **hundreds of millions of S into Binance**, some of it on pump days. Both hard gates fail.
+**Summary:** Sonic (formerly Fantom) is a fast EVM layer-1. Usage has collapsed: **TVL is $12.6M** and the chain earned **$75.7k of revenue in 12 months**. S is −97% from its January 2025 listing high, **−99.1%** from the predecessor FTM ATH ($3.46 on 27 Oct 2021, 1:1), and −75% in a year. There is no supply cap, and governance keeps approving new issuance (supply is up from 3.175B to 3.885B). Wallets tied to the Foundation and Sonic's issuance have moved **hundreds of millions of S into Binance**, some of it on pump days. Both hard gates fail.
 
 **🚨 Top warning:** The wallet [`0xbea8…92f0`](https://sonicscan.org/address/0xbea8fecf6535592eebfc68f227a434f8373792f0) received [**exactly 150M S on 4 Sep 2025**](https://sonicscan.org/tx/0x6642e7fdc2b4203a9d0ffd013e85a5050e50041bbdf8254087c0d3f05e014c1f). That is the day and the size of the governance issuance for "Sonic USA" per the docs. It sent [**118M S on 11 Mar 2026**](https://sonicscan.org/tx/0x4e6a06d3d55978d295963c85c3531ef2047cb638de97da9e7f295998e93c875d) to [`0xfefa…2ecc`](https://sonicscan.org/address/0xfefa8f05418e53fa0a1b327704014b101f172ecc), which [forwarded it the same day](https://sonicscan.org/tx/0x47558bd4c456aceec0c968959c43d7e406e262af9232e8e0cd1c0a018b437c99) to **Binance 94** (~$4.9M). In all, `0xfefa` passed **292.5M S (~$11.7M) into Binance** from Sonic-linked wallets. That includes [40.5M S from the Fantom Foundation wallet on 21 Aug 2026](https://sonicscan.org/tx/0xb9a1cd08344c1925726bf9271d8769c4a881bd34603bc9e5b2d3beee61d81d9d), a **+29.8% pump day**. Every link is in the 🔗 Evidence trail below.
 
@@ -82,7 +82,7 @@ layout_version: 3
 | **24h / 7d / 30d** 🔴 −4.6% / −11.7% / −40.2% · 1y −75.2% | **Supply** 3.885B (CoinGecko), no cap; 3.175B at the FTM→S launch |
 | **Market cap = FDV** $125.0M | **Fantom Foundation** (Sonicscan label) [`0x431e…6354`](https://sonicscan.org/address/0x431e81e5dfb5a24541b5ff8762bdef3f32f96354) |
 | **24h volume** $21.4M; **66% on BitDelta** ($14.1M), Binance only $0.96M | **Airdrop / incentives treasury** [`0x2889…6210`](https://sonicscan.org/address/0x2889604E75637D3AfE919201C27ac9d1221E6210) 91.7M S (named in the Sonic Labs blog) |
-| **ATH** $1.03 (4 Jan 2025) · now −96.9% | **SonicStrategy DAT multisig** [`0xc9d2…53f6`](https://sonicscan.org/address/0xc9d21b370d7d2a24ee0b08f82323777737a653f6) 126.6M S staked, sale-restricted (Sonic Labs blog) |
+| **ATH** new-listing $1.03 (4 Jan 2025, −96.9% from that high); predecessor $3.46 (FTM, 27 Oct 2021, 1 FTM = 1 S per Sonic Labs) · now **−99.1%** from the predecessor | **SonicStrategy DAT multisig** [`0xc9d2…53f6`](https://sonicscan.org/address/0xc9d21b370d7d2a24ee0b08f82323777737a653f6) 126.6M S staked, sale-restricted (Sonic Labs blog) |
 | **Pump days, last 365 days** 51 (Binance SUSDT closes) | **TVL** $12.6M (DefiLlama) |
 
 ---

@@ -39,7 +39,7 @@ attributions:
     basis: "Tronscan"
 price_usd: 0.00000030696
 price_source: "CoinGecko, 16 Nov 2026 8:34 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -49,7 +49,7 @@ layout_version: 3
 
 **Summary:** BTT is the token of BitTorrent (owned by TRON since 2018) and its BTTC chain. Supply is fixed at 990T, with no inflation and all vesting finished except a small release wallet. Since Q3 2026, BitTorrent says 100% of its decentralised-service revenue buys back and burns BTT every quarter. The first burn, [21.62T BTT (~2.2% of supply, ~$7.6M) on 16 Oct 2026](https://tronscan.org/#/transaction/4d9596617780e329bbd4e644ee0dffd780ec4cf3749f324d03eb98157eb04ae5), is verified on-chain. All of the burned BTT came out of exchange wallets: **60% from an HTX hot wallet and the rest via wallets fed the same day by a Poloniex hot wallet and another HTX hot wallet** (Arkham labels). That fits buying on exchanges, but both exchanges are linked to TRON's founder and no fills are published. Ownership is extremely concentrated: two unnamed single-key wallets hold 37.8% and Upbit 27.2%. No insider wallet moved BTT on a pump day in the last year, but the team wallet does deposit straight to exchanges. No hard gate trips, but the average fails.
 
-**🚨 Top warning:** Tronscan's top-holder list, checked balance by balance and key by key on TronGrid (16 Nov 2026), shows [`TWpM…zQo2`](https://tronscan.org/#/address/TWpMnUh9pZS1Mf8yyw9WPiS82WYevKzQo2) with **261.99T (26.5%)** and [`TPyj…Nan5`](https://tronscan.org/#/address/TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5) with **112.60T (11.4%)**. Both are untagged 1-of-1 accounts, and both were filled by the 2022–23 redenomination contract. The team wallet [`TT2T…kU9N`](https://tronscan.org/#/address/TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N) holds 52.46T on one key. The Q3 burn was assembled the same day from [`TDTo…ivA4`](https://tronscan.org/#/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4) ([12.87T](https://tronscan.org/#/transaction/49768eabffb05554935685a3191e63d303c8fd7debe30060dc4e9d8a2ce4eb6d)), which Arkham labels an **HTX Hot Wallet** (HTX Proof of Reserves), plus two wallets fed by Poloniex and HTX hot wallets. The top two trading venues are HTX and Poloniex, both linked to TRON's founder. A 2026 SEC settlement is reported [Unverified].
+**🚨 Top warning:** Tronscan's top-holder list, checked balance by balance and key by key on TronGrid (16 Nov 2026), shows [`TWpM…zQo2`](https://tronscan.org/#/address/TWpMnUh9pZS1Mf8yyw9WPiS82WYevKzQo2) with **261.99T (26.5%)** and [`TPyj…Nan5`](https://tronscan.org/#/address/TPyjyZfsYaXStgz2NmAraF1uZcMtkgNan5) with **112.60T (11.4%)**. Both are untagged 1-of-1 accounts, and both were filled by the 2022–23 redenomination contract. The team wallet [`TT2T…kU9N`](https://tronscan.org/#/address/TT2T17KZhoDu47i2E4FWxfG79zdkEWkU9N) holds 52.46T on one key. The Q3 burn was assembled the same day from [`TDTo…ivA4`](https://tronscan.org/#/address/TDToUxX8sH4z6moQpK3ZLAN24eupu2ivA4) ([12.87T](https://tronscan.org/#/transaction/49768eabffb05554935685a3191e63d303c8fd7debe30060dc4e9d8a2ce4eb6d)), which Arkham labels an **HTX Hot Wallet** (HTX Proof of Reserves), plus two wallets fed by Poloniex and HTX hot wallets. The top two trading venues are HTX and Poloniex, both linked to TRON's founder. A 5 Mar 2026 SEC proposed settlement (LR-26496) is on file; court approval of the judgment was not re-checked this pass.
 
 **Sections passed: 3 of 11**
 
@@ -82,7 +82,7 @@ layout_version: 3
 | **24h / 7d / 30d** 🔴 −1.5% / −14.3% / −13.5% · 1y −30.8% | **Circulating** 968.37T (CoinGecko) |
 | **Market cap** $297.1M · **FDV** $297.1M | **Q3 2026 burn** 21,621,611,510,729.6 BTT to the zero address ([tx](https://tronscan.org/#/transaction/4d9596617780e329bbd4e644ee0dffd780ec4cf3749f324d03eb98157eb04ae5)) |
 | **24h volume** $13.29M (HTX, Poloniex, Paribu) | **Burn sender** [`TMwu…VeaFg`](https://tronscan.org/#/address/TMwuqc5Wa7YiEzp9FTLwtfdv2bufcVeaFg) |
-| **ATH** $0.00000343 (20 Jan 2022) · now −91.1% | **Rank** #126 |
+| **ATH** new-listing $0.00000343 (20 Jan 2022, −91.1% from that high); predecessor $0.00001357 (old BTT $0.013566 on 4 Apr 2021, redenominated 1:1,000) · now **−97.7%** from the predecessor | **Rank** #126 |
 
 ---
 
@@ -155,7 +155,7 @@ layout_version: 3
 ## 💧 Liquidity & market · 4/10 · ❌ FAIL
 
 - $13.3M of 24h volume on a $297M cap (4.5%). Top venues are HTX and Poloniex (founder-affiliated), then Paribu. Korean exchanges hold about a third of supply [Tier B].
-- −91% from ATH, −31% in a year: much less damage than its peers.
+- −91% from the post-redenomination ATH, **−97.7%** from the predecessor old-BTT ATH at the 1:1,000 ratio, and −31% in a year.
 
 ## 🧑‍💻 Product & development · 5/10 · ❌ FAIL
 
@@ -171,7 +171,7 @@ layout_version: 3
 
 ## ⚖️ Regulatory · 3/10 · ❌ FAIL
 
-- The SEC sued TRON's founder and affiliated entities in Mar 2023, alleging BTT and TRX were unregistered securities. A $10M settlement in Mar 2026 is reported [Tier B, single source → Unverified].
+- The SEC sued TRON's founder and affiliated entities in Mar 2023, alleging BTT and TRX were unregistered securities. **Tier A:** [SEC Litigation Release 26496](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26496), 5 Mar 2026 — a proposed final judgment would have Rainberry pay a $10M civil penalty and would dismiss, with prejudice, the remaining claims against Rainberry and all claims against Sun, Tron Foundation and BitTorrent Foundation, **subject to court approval**. This pass did not confirm that the judgment has been entered.
 - The affiliated exchange HTX faced UK action in 2026 [Unverified].
 
 ## 📅 Catalysts & calendar · 6/10 · ✅ PASS
@@ -200,6 +200,8 @@ layout_version: 3
 
 ## 📚 Sources
 
+- [Tier A] [SEC Litigation Release 26496](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26496), 5 Mar 2026 (proposed settlement; court approval not confirmed)
+
 - [Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.
 - [Tier A] TronGrid `gettransactioninfobyid` for the Q3 burn, read 16 Nov 2026 ~9:35 AM MST
 - [Tier A] [BitTorrent white paper (Oct 2026)](https://www.bittorrent.com/btt/btt-docs/BitTorrent_(BTT)_White_Paper_2026_Oct_EN.pdf) · [Buyback announcement](https://medium.com/@BitTorrent/announcement-on-the-launch-of-btt-buyback-and-burn-8b5a2b6af78d)
@@ -207,7 +209,7 @@ layout_version: 3
 - [Tier A] CoinGecko `bittorrent` (16 Nov 2026 8:34 AM MST); Gate BTT/USDT daily candles
 - [Tier A] TronGrid `balanceOf`, `getaccount` and full TRC20 histories for the top holders and the burn path; Tronscan top-holder list (read 16 Nov 2026 ~10:05 AM MST)
 - [Tier B] Arkham, read 16 Nov 2026 (signed-in account): HTX Hot Wallet on TDTo; Poloniex Hot Wallet on TWhD; Poloniex, Binance and Bitget deposit labels; no entity label on the top wallets, the team wallet, the payout address or the burn sender
-- [Unverified] SEC settlement terms; who owns the two untagged top wallets
+- [Unverified] whether the LR-26496 proposed judgment has been entered; who owns the two untagged top wallets
 
 ## 🔗 Evidence trail
 
@@ -231,7 +233,7 @@ layout_version: 3
 | 1 | **Who owns the two untagged 1-of-1 wallets (26.5% and 11.4%)** | Arkham (16 Nov 2026) gives them whale tags only. Ask BitTorrent / TRON DAO to publish allocation wallets | Free |
 | 2 | **Where the team payouts end up** | `TVFB…zqkp` is unlabelled; trace its BTT recipients (`TSLL…`, `TGTz…`, `TFMA…`, `TUMP…`) to exchanges | Free |
 | 3 | **Was the burn bought with revenue?** | Ask BitTorrent for buyback fills on HTX and Poloniex | Free |
-| 4 | **SEC settlement terms** | Pull the SEC litigation release or court docket | Free |
+| 4 | **Has the LR-26496 proposed judgment been entered?** | SDNY docket 1:23-cv-02433, or a later SEC litigation release confirming court approval | Free |
 
 ---
 

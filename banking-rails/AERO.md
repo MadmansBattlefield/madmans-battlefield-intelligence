@@ -29,7 +29,7 @@ red_lines:
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"
 revenue_mechanism: "sAERO stakers receive 100% of the exchange revenue of the pools they vote for, paid on-chain every epoch (DefiLlama holders revenue $7.3M in 30 days), so revenue reaches holders."
-pump_day_price_source: "CoinGecko AERO daily closes (as published; named last resort)"
+pump_day_price_source: "CoinGecko AERO daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (67 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped"
 pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
@@ -47,7 +47,7 @@ attributions:
 price_usd: 0.4427
 price_source: "CoinGecko (tracks legacy contract; new-token DEX price $0.4416), 14 Nov 2026 12:12 PM MST"
 chain_read_block: 57475111
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -148,7 +148,7 @@ layout_version: 3
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 6/10 · ✅ PASS
 
-**Pump test:** 75 of 360 days in the last year had a ≥10% 5-day rise (CoinGecko daily closes). The last one was 15 Oct 2026.
+**Pump test:** CoinGecko daily closes, 16 Nov 2025 – 16 Nov 2026, re-run 17 Nov 2026 with the midnight-stamp convention: **67 of 360 days** were pump days. Last pump day 14 Oct 2026 (+12.9%). 15 Oct 2026 is not a pump day (−0.4%).
 
 | Window | Wallet | What the chain shows | Pump? |
 |---|---|---|---|
@@ -167,7 +167,7 @@ layout_version: 3
 
 **What it means:** The team Safe sold no AERO in the last 12 months. Its outflows were two locks into the vote-escrow, the 22 Oct migration and ~0.4M (about $0.2M) to two unknown wallets on a falling day. None landed on a pump day or at an exchange. The old ~3.3M mystery is closed, so the section moves from 5 to a pass at 6. It is held at 6 because the 0.4M receivers and the Momentum Fund are unknown.
 
-- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko AERO daily closes (as published; named last resort).
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko AERO daily closes, re-run 17 Nov 2026 with the midnight-stamp convention (67 of 360 days).
 
 ## 📊 Tokenomics & supply · 5/10 · ❌ FAIL
 

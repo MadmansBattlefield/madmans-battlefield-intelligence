@@ -3,7 +3,7 @@ ticker: ETH
 name: Ethereum
 chain: ethereum
 contract: "native (WETH 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is the wrapper)"
-overall_score: 7.2
+overall_score: 7.3
 overall_verdict: PASS
 section_scores:
   revenue: 5
@@ -15,7 +15,7 @@ section_scores:
   product_development: 9
   adoption_customers: 9
   security_audits: 8
-  regulatory: 7
+  regulatory: 8
   catalysts: 6
 gates_failed: []
 red_lines:
@@ -26,7 +26,7 @@ red_lines:
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"
 revenue_mechanism: "The EIP-1559 base fee is burned on-chain automatically (≈$48M in 12 months), and priority fees go to stakers, so revenue reaches holders. The Revenue score of 5 reflects how small this is next to issuance."
-pump_day_price_source: "CoinGecko ETH daily closes (as published; named last resort)"
+pump_day_price_source: "CoinGecko ETH daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (20 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped"
 pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
@@ -43,13 +43,13 @@ attributions:
     basis: "Etherscan label + Arkham entity"
 price_usd: 1831.06
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
 ## 🧾 QUICK REVIEW CARD
 
-### ETH · Overall grade **7.2 / 10 · ✅ PASS**
+### ETH · Overall grade **7.3 / 10 · ✅ PASS**
 
 **Summary:** The busiest smart-contract chain, with a foundation that sells ETH under a published policy and has not sold on a pump day, but fees have shrunk to ~$175M a year and the burn no longer offsets new issuance.
 
@@ -68,7 +68,7 @@ layout_version: 3
 | 🧑‍💻 Product & development | 9/10 | ✅ PASS |
 | 🤝 Adoption & customers | 9/10 | ✅ PASS |
 | 🛡️ Security & audits | 8/10 | ✅ PASS |
-| ⚖️ Regulatory | 7/10 | ✅ PASS |
+| ⚖️ Regulatory | 8/10 | ✅ PASS |
 | 📅 Catalysts & calendar | 6/10 | ✅ PASS |
 
 *Pass = 6 or more out of 10. Full details for every section follow below.*
@@ -76,7 +76,7 @@ layout_version: 3
 ---
 
 
-# 🪪 ETH · Ethereum · 7.2 / 10 · ✅ PASS
+# 🪪 ETH · Ethereum · 7.3 / 10 · ✅ PASS
 
 > **One line:** The busiest smart-contract chain, with a foundation that sells ETH under a published policy and has not sold on a pump day, but fees have shrunk to ~$175M a year and the burn no longer offsets new issuance.
 
@@ -137,7 +137,7 @@ layout_version: 3
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 7/10 · ✅ PASS
 
-**Pump test:** CoinGecko daily closes, 15 Nov 2025 – 14 Nov 2026: **20 of 361 days** were pump days. Last one 23 Sep 2026 (+12.5%).
+**Pump test:** CoinGecko daily closes, 16 Nov 2025 – 16 Nov 2026, re-run 17 Nov 2026 with the midnight-stamp convention: **20 of 360 days** were pump days. Last one 22 Sep 2026 (+12.5%).
 
 | Date (UTC) | EF sale | Route | 5-day move | Pump? | Source |
 |---|---|---|---:|---|---|
@@ -145,17 +145,17 @@ layout_version: 3
 | 8 Apr 2026 13:49–21:49 | 9 × 416.667 WETH = 3,750 | EF Safe → CoW [`0x9008…ab41`](https://etherscan.io/address/0x9008d19f58aabd9ed0d60971565aa8510560ab41) (e.g. [tx `0x7d6d0141…45ea`](https://etherscan.io/tx/0x7d6d01419eb1fb0de7de5163431ba447da9f770bc31061253c362eaa10b245ea)) | +8.9% | ❌ No | [Tier A] Blockscout |
 | 10 Apr 2026 18:12–22:42 | 4 × 312.5 WETH = 1,250 | EF Safe → CoW (e.g. [tx `0x81896da1…18f1`](https://etherscan.io/tx/0x81896da1100aefffb6f2710f9d62a2813e4034d268a26036a9e93f6590e318f1)) | +6.1% | ❌ No | [Tier A] |
 | 24 Apr 2026 | 10,000 ETH OTC to BitMine at $2,387 | OTC, announced by EF | −0.9% | ❌ No | [Tier B] Decrypt + Cointelegraph |
-| 1 May 2026 | 10,000 ETH OTC to BitMine at $2,292 | OTC, announced by EF on X | −2.7% | ❌ No | [Tier B] Cointelegraph quoting EF's X post |
-| 26 Oct 2026 | 2,785 ETH | CoW → USDS | −4.9% | ❌ No | [Tier B] Crypto Briefing + Crypto-Economy |
+| 1 May 2026 | 10,000 ETH OTC to BitMine at $2,292 | OTC, announced by EF on X | −3.1% | ❌ No | [Tier B] Cointelegraph quoting EF's X post |
+| 26 Oct 2026 | 2,785 ETH | CoW → USDS | −6.1% | ❌ No | [Tier B] Crypto Briefing + Crypto-Economy |
 | 10–13 Nov 2026 | ~4,000 ETH in 1,000-ETH lots | CoW → USDS | −12.0% / −8.3% | ❌ No | [Tier B] Crypto Briefing + Crypto-Economy |
 
-- 18 Mar 2026 (a pump day, +12.0%): the EF Safe moved 3,400 WETH to a Morpho adapter — a lending deposit, **not a sale** ([Tier A] [tx `0xbe73b6cf…`](https://etherscan.io/tx/0xbe73b6cf000acb6957aa9f5b4dc851fe86a3049fdbc729c075290919da25157a), [tx `0x0fa49432…`](https://etherscan.io/tx/0x0fa4943251ddc0b941adc49229b759c7d79ec37a192d1666d82280cfe7aa42a1), [tx `0x3295400a…`](https://etherscan.io/tx/0x3295400ac862bd071ead728859fac746bc4bba945c853b2b5760512195663769)).
+- 18 Mar 2026 (**not** a pump day, +5.4%; 16–17 Mar were pump days, +14.2% and +12.0%): the EF Safe moved 3,400 WETH to a Morpho adapter — a lending deposit, **not a sale** ([Tier A] [tx `0xbe73b6cf…`](https://etherscan.io/tx/0xbe73b6cf000acb6957aa9f5b4dc851fe86a3049fdbc729c075290919da25157a), [tx `0x0fa49432…`](https://etherscan.io/tx/0x0fa4943251ddc0b941adc49229b759c7d79ec37a192d1666d82280cfe7aa42a1), [tx `0x3295400a…`](https://etherscan.io/tx/0x3295400ac862bd071ead728859fac746bc4bba945c853b2b5760512195663769)).
 - 2026 sales total about 20,000+ ETH (~$45M) per reports [Tier B].
 - [Arkham's EF entity](https://intel.arkm.com/explorer/entity/ethereum-foundation) (14 addresses) shows only ~$25K sent to exchanges **all-time** (Binance $14.5K, Fidelity Custody $10.3K, Kraken $300) and no large exchange outflows ([Tier B] Arkham, 15 Nov 2026, one source). That fits the CoW / OTC sale routes above.
 
 **What it means:** EF sells steadily under a published rule and announces OTC deals. None of the sales found fell on a pump day. It loses points because some Oct–Nov sales came from a wallet EF has not formally listed.
 
-- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko ETH daily closes (as published; named last resort).
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko ETH daily closes, re-run 17 Nov 2026 with the midnight-stamp convention (20 of 360 days).
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -184,9 +184,10 @@ layout_version: 3
 
 - No protocol-level hack; client diversity reduces single-bug risk. App, bridge and liquid-staking hacks hit tokens built on Ethereum, not ETH itself.
 
-## ⚖️ Regulatory · 7/10 · ✅ PASS
+## ⚖️ Regulatory · 8/10 · ✅ PASS
 
-- US spot ETH ETFs trading (SEC-approved 2024) [Tier A]. EF is a Swiss foundation. No enforcement against ETH as an asset found.
+- **US:** SEC Release 33-11412 (issued 17 Mar 2026, effective 23 Mar 2026, joined by the CFTC) names **Ether (ETH)** as an example of a **digital commodity**, which is not a security ([Tier A] [govinfo](https://www.govinfo.gov/content/pkg/FR-2026-03-23/html/2026-05635.htm)). US spot ETH ETFs have been trading since the SEC approval in 2024 [Tier A]. EF is a Swiss foundation. No enforcement against ETH as an asset found.
+- **Correction, 17 Nov 2026:** Regulatory **7 → 8** after Release 33-11412 was applied. Overall **7.2 → 7.3**. Still PASS.
 
 ## 📅 Catalysts & calendar · 6/10 · ✅ PASS
 
@@ -236,7 +237,7 @@ layout_version: 3
 | EF Safe holds 20,176.05 ETH; EF wallet 4,774.55 ETH | [EF Safe](https://etherscan.io/address/0x9fC3dc011b461664c835F2527fffb1169b3C213e) · [EF wallet](https://etherscan.io/address/0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe) | A | 14 Nov 2026 |
 | EF entity total 93.7K ETH + 22.96M USDC + 5.42M DAI ($202.8M); ~$25K to exchanges all-time | [Arkham EF entity](https://intel.arkm.com/explorer/entity/ethereum-foundation) | B (one source) | 15 Nov 2026 ~10:40 AM MST |
 | EF Safe sold 5,000 WETH via CoW on 8–10 Apr 2026, matching EF's announced sale; not pump days | [8 Apr tx](https://etherscan.io/tx/0x7d6d01419eb1fb0de7de5163431ba447da9f770bc31061253c362eaa10b245ea) · [10 Apr tx](https://etherscan.io/tx/0x81896da1100aefffb6f2710f9d62a2813e4034d268a26036a9e93f6590e318f1) · [CoW settlement](https://etherscan.io/address/0x9008d19f58aabd9ed0d60971565aa8510560ab41) | A | 15 Nov 2026 |
-| 18 Mar 2026 (pump day) 3,400 WETH move was a Morpho deposit, not a sale | [tx 1](https://etherscan.io/tx/0xbe73b6cf000acb6957aa9f5b4dc851fe86a3049fdbc729c075290919da25157a) · [tx 2](https://etherscan.io/tx/0x0fa4943251ddc0b941adc49229b759c7d79ec37a192d1666d82280cfe7aa42a1) · [tx 3](https://etherscan.io/tx/0x3295400ac862bd071ead728859fac746bc4bba945c853b2b5760512195663769) | A | 15 Nov 2026 |
+| 18 Mar 2026 (not a pump day, +5.4%) 3,400 WETH move was a Morpho deposit, not a sale | [tx 1](https://etherscan.io/tx/0xbe73b6cf000acb6957aa9f5b4dc851fe86a3049fdbc729c075290919da25157a) · [tx 2](https://etherscan.io/tx/0x0fa4943251ddc0b941adc49229b759c7d79ec37a192d1666d82280cfe7aa42a1) · [tx 3](https://etherscan.io/tx/0x3295400ac862bd071ead728859fac746bc4bba945c853b2b5760512195663769) | A | 15 Nov 2026 |
 | Safe `0xbC9a…` receives 1,000-ETH lots from EF (EF control unverified) | [Etherscan](https://etherscan.io/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3) · [Arkham](https://intel.arkm.com/explorer/address/0xbC9a9Ac7Dc36b1706732374bF632eF39FB6EfbC3) | A · [Unverified] control | 14 Nov 2026 |
 | Published treasury policy (15% opex, 2.5-yr buffer) | [EF Treasury Policy](https://blog.ethereum.org/2025/06/04/ef-treasury-policy) | A | 14 Nov 2026 |
 

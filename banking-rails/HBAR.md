@@ -3,7 +3,7 @@ ticker: HBAR
 name: Hedera
 chain: hedera
 contract: "native (Hedera, token id 0.0.0 / HBAR)"
-overall_score: 5.3
+overall_score: 5.5
 overall_verdict: FAIL
 section_scores:
   revenue: 2
@@ -15,7 +15,7 @@ section_scores:
   product_development: 7
   adoption_customers: 5
   security_audits: 7
-  regulatory: 6
+  regulatory: 8
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
@@ -33,13 +33,13 @@ dual_review: not_run
 attributions: []
 price_usd: 0.058034
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
-last_updated: 2026-11-14
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
 ## 🧾 QUICK REVIEW CARD
 
-### HBAR · Overall grade **5.3 / 10 · ❌ FAIL**
+### HBAR · Overall grade **5.5 / 10 · ❌ FAIL**
 
 **Summary:** Well-governed and unusually transparent about its treasury, with 25 named council node operators, but the network takes in only ~$268k a year in fees, none of which is burned, and the council still controls ~5.7B HBAR with a large ecosystem release forecast for Q4 2026.
 
@@ -58,7 +58,7 @@ layout_version: 3
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
 | 🤝 Adoption & customers | 5/10 | ❌ FAIL |
 | 🛡️ Security & audits | 7/10 | ✅ PASS |
-| ⚖️ Regulatory | 6/10 | ✅ PASS |
+| ⚖️ Regulatory | 8/10 | ✅ PASS |
 | 📅 Catalysts & calendar | 5/10 | ❌ FAIL |
 
 *Pass = 6 or more out of 10. Full details for every section follow below. Overall fails the **Revenue gate** (2 ≤ 3).*
@@ -66,7 +66,7 @@ layout_version: 3
 ---
 
 
-# 🪪 HBAR · Hedera · 5.3 / 10 · ❌ FAIL
+# 🪪 HBAR · Hedera · 5.5 / 10 · ❌ FAIL
 
 > **One line:** Well-governed and unusually transparent about its treasury, with 25 named council node operators, but the network takes in only ~$268k a year in fees, none of which is burned, and the council still controls ~5.7B HBAR with a large ecosystem release forecast for Q4 2026.
 
@@ -172,9 +172,10 @@ layout_version: 3
 
 - No HBAR-protocol hack in this series. Coinbase delayed HBAR sends on 5 Nov 2026 (exchange issue, resolved) [Tier A Coinbase Status]. A smart-contract-service exploit in March 2023 is past history with an official post-mortem.
 
-## ⚖️ Regulatory · 6/10 · ✅ PASS
+## ⚖️ Regulatory · 8/10 · ✅ PASS
 
-- HBAR originally sold under SAFTs / regulated swap contracts (per Council report). US ETF listed with SEC filings. No current enforcement found.
+- **US:** SEC Release 33-11412 (issued 17 Mar 2026, effective 23 Mar 2026, joined by the CFTC) names **Hedera (HBAR)** as an example of a **digital commodity**, which is not a security ([Tier A] [govinfo](https://www.govinfo.gov/content/pkg/FR-2026-03-23/html/2026-05635.htm)). HBAR originally sold under SAFTs / regulated swap contracts (per Council report). US ETF listed with SEC filings. No current enforcement found.
+- **Correction, 17 Nov 2026:** Regulatory **6 → 8** after Release 33-11412 was applied. Overall **5.3 → 5.5**. Still FAIL on the revenue gate.
 
 ## 📅 Catalysts & calendar · 5/10 · ❌ FAIL
 

@@ -60,20 +60,20 @@
     "fdv_text": "$19.2M",
     "volume_24h_text": "$2.08M"
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/OM.md",
-    "sha256": "434ed3da3253635dd60e9a16089f23effea2813756f4a50af2f6ecdbdbe1c02c",
-    "bytes": 9886,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "60a692b9871b066b925970d57ccfd65842aee594939f9d0ff23a5751be340a7b",
+    "bytes": 10107,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
     "price_source_read": "CoinGecko, 16 Nov 2026 ~8:52 AM MST (per MANTRA; 1 OM = 4 MANTRA)",
     "source_read_dates": [
       "16 Nov 2026",
-      "2026-11-16"
+      "2026-11-17"
     ],
     "arkham_read": "16 Nov 2026 (signed-in account"
   },

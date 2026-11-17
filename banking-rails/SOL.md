@@ -15,7 +15,7 @@ section_scores:
   product_development: 8
   adoption_customers: 8
   security_audits: 7
-  regulatory: 7
+  regulatory: 8
   catalysts: 6
 gates_failed: []
 red_lines:
@@ -26,7 +26,7 @@ red_lines:
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"
 revenue_mechanism: "Half of every base fee is burned on-chain and priority fees and tips go to validators and their stakers automatically, so revenue reaches holders, though it does not cover inflation."
-pump_day_price_source: "CoinGecko SOL daily closes (as published; named last resort)"
+pump_day_price_source: "CoinGecko SOL daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (25 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped"
 pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
@@ -34,7 +34,7 @@ attributions: []
 price_usd: 72.24
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_slot: 469444012
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -59,7 +59,7 @@ layout_version: 3
 | 🧑‍💻 Product & development | 8/10 | ✅ PASS |
 | 🤝 Adoption & customers | 8/10 | ✅ PASS |
 | 🛡️ Security & audits | 7/10 | ✅ PASS |
-| ⚖️ Regulatory | 7/10 | ✅ PASS |
+| ⚖️ Regulatory | 8/10 | ✅ PASS |
 | 📅 Catalysts & calendar | 6/10 | ✅ PASS |
 
 *Pass = 6 or more out of 10. Full details for every section follow below.*
@@ -125,7 +125,7 @@ layout_version: 3
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 5/10 · ❌ FAIL
 
-**Pump test:** CoinGecko daily closes, 15 Nov 2025 – 14 Nov 2026: **25 of 361 days** were pump days (most recent cluster 19–23 Sep 2026; last +16.7% on 23 Sep).
+**Pump test:** CoinGecko daily closes, 16 Nov 2025 – 16 Nov 2026, re-run 17 Nov 2026 with the midnight-stamp convention: **25 of 360 days** were pump days. Last pump day 22 Sep 2026 (+16.7%).
 
 | Check | Finding | Source |
 |---|---|---|
@@ -135,7 +135,7 @@ layout_version: 3
 
 **What it means:** No Foundation selling into pumps was found, but without published wallets "not found" is not a pass under this method. Large non-Foundation holders (FTX estate, unlabeled whales) are the visible sellers.
 
-- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko SOL daily closes (as published; named last resort).
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko SOL daily closes, re-run 17 Nov 2026 with the midnight-stamp convention (25 of 360 days).
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 
@@ -165,9 +165,10 @@ layout_version: 3
 - No protocol hack. Past full-network halts (most recently Feb 2024) are a known weakness; no halt in this report series.
 - Stake is spread across 663 validators; 18 of them together hold over one-third of stake.
 
-## ⚖️ Regulatory · 7/10 · ✅ PASS
+## ⚖️ Regulatory · 8/10 · ✅ PASS
 
-- Spot SOL ETFs trading in the US [Tier B]. No current enforcement against SOL found.
+- **US:** SEC Release 33-11412 (issued 17 Mar 2026, effective 23 Mar 2026, joined by the CFTC) names **Solana (SOL)** as an example of a **digital commodity**, which is not a security ([Tier A] [govinfo](https://www.govinfo.gov/content/pkg/FR-2026-03-23/html/2026-05635.htm)). Spot SOL ETFs are trading in the US [Tier B]. No current enforcement against SOL found.
+- **Correction, 17 Nov 2026:** Regulatory **7 → 8** after Release 33-11412 was applied. Overall stays **6.6** (the weighted average rounds to the same tenth). Still PASS.
 
 ## 📅 Catalysts & calendar · 6/10 · ✅ PASS
 

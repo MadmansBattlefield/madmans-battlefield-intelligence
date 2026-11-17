@@ -66,13 +66,13 @@
     "fdv_text": "$297.1M",
     "volume_24h_text": "$13.29M"
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BTT.md",
-    "sha256": "f41711e5e0adff93d7cdee0c8bc88bb6c2a7ab381bc60688194132cdbd75e1e7",
-    "bytes": 21766,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "2b1e0828989f72592a792f9f038013759e0c4316f16ba17a5207a4a993e581f6",
+    "bytes": 22688,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -81,7 +81,7 @@
       "16 Nov 2026",
       "16 Nov 2026 ~9:35 AM MST",
       "16 Nov 2026 ~10:05 AM MST",
-      "2026-11-16"
+      "2026-11-17"
     ],
     "arkham_read": "16 Nov 2026 (signed-in account"
   },
@@ -389,6 +389,14 @@
   "sources": [
     {
       "tier": "A",
+      "text": "[Tier A] [SEC Litigation Release 26496](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26496), 5 Mar 2026 (proposed settlement; court approval not confirmed)",
+      "urls": [
+        "SEC Litigation Release 26496"
+      ],
+      "date_read": "5 Mar 2026"
+    },
+    {
+      "tier": "A",
       "text": "[Tier A] Methodology update 16 Nov 2026: no new Arkham lookups; the attribution table uses evidence already cited in this report.",
       "urls": [],
       "date_read": "16 Nov 2026"
@@ -438,7 +446,7 @@
     },
     {
       "tier": null,
-      "text": "[Unverified] SEC settlement terms; who owns the two untagged top wallets",
+      "text": "[Unverified] whether the LR-26496 proposed judgment has been entered; who owns the two untagged top wallets",
       "urls": [],
       "date_read": null
     }

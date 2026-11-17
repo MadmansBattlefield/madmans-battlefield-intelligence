@@ -27,7 +27,7 @@ red_lines:
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "A SkeyDPP-funded buyback is on the 2026 roadmap only, so revenue does not reach holders."
-pump_day_price_source: "CoinGecko SKEY daily closes (last resort; BingX from Jul 2026)"
+pump_day_price_source: "CoinGecko SKEY daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (42 of 360 days); midnight stamps labelled as the close of the prior UTC day; last resort (BingX history from Jul 2026)"
 pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
@@ -79,7 +79,7 @@ attributions:
     basis: "Arkham"
 price_usd: 0.00082538
 price_source: "CoinGecko, 16 Nov 2026 ~10:05 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -145,10 +145,10 @@ layout_version: 3
 
 - I traced the deployer, the company wallet and the top ten holders two hops out, for transfers of 10M SKEY or more. The only exchange deposits were 50M to ProBit in Nov–Dec 2020. None of 10M+ in the last year. BingX prices only go back to Jul 2026, so earlier pump days in the window can't be checked.
 - **Arkham (16 Nov 2026)** labels the company wallet [0xcdc4…e7a6](https://intel.arkm.com/explorer/address/0xcdc41c48b4685102c4e6c9de50b6e9367429e7a6) and its split wallets [0x29c3…8b00](https://intel.arkm.com/explorer/address/0x29c37a3f88dd39a098ecec16e66e785c155e8b00), [0xc742…20c9](https://intel.arkm.com/explorer/address/0xc74256c178282e7bf6e697177aeb901aa02e20c9), [0xb448…2981](https://intel.arkm.com/explorer/address/0xb448c31db943aafc8abf2aa49abdd2fa76fe2981) and [0x4718…0f56](https://intel.arkm.com/explorer/address/0x4718178ebc45994aad24531c59752d84770c0f56) **Skey Network**. Below the 10M threshold, 0x4718 sent **2.5M SKEY on 8 Dec 2025** ([tx](https://etherscan.io/tx/0x1924d01568418b7276ac0f34f72e42ef19e88254e34c46f5b4cee6b81dd1214d)) and **3M on 11 Jan 2026** ([tx](https://etherscan.io/tx/0x2b3c8b6469db79679e291e09ec6603cdbb3ae7519236e7ea9ad876b064d45092)) to KuCoin Deposit [0x1c48…e11d](https://intel.arkm.com/explorer/address/0x1c486b2deed7a34b442616ef50e8b6f86b6ce11d) (−16.4% and −1.2% on CoinGecko closes, not pump days).
-- 0x4718 and the unlabelled split wallet [0x013c…21cf](https://intel.arkm.com/explorer/address/0x013ca139cd701ad530aed2b8327966d1ba5221cf) (first funded by the company wallet) sent ~167M SKEY to the unlabelled wallet [0x8dea…3753](https://intel.arkm.com/explorer/address/0x8dead771da2a454a615cc38e51f7b12b30993753), which sent 74.8M to the same KuCoin deposit over time, including 34.0M in the window. Of that, **4.5M on 28 Nov 2025** (+43.9%; e.g. [tx](https://etherscan.io/tx/0x74b06d515af7e38f885ed35b9c6732780349592d9ce326cb973fdba4efad54fd)) and **1.5M on 6 Jan 2026** (+19.2%, [tx](https://etherscan.io/tx/0x9c3a410c3fd12754e6a71ed320fe5ef9283c5df4c186327e28dfdf1587534eba)) fell on pump days. The pump days use CoinGecko daily closes, the last resort, because BingX history starts in Jul 2026 and KuCoin, Gate and MEXC no longer list SKEY.
+- 0x4718 and the unlabelled split wallet [0x013c…21cf](https://intel.arkm.com/explorer/address/0x013ca139cd701ad530aed2b8327966d1ba5221cf) (first funded by the company wallet) sent ~167M SKEY to the unlabelled wallet [0x8dea…3753](https://intel.arkm.com/explorer/address/0x8dead771da2a454a615cc38e51f7b12b30993753), which sent 74.8M to the same KuCoin deposit over time, including 34.0M in the window. Of that, **4.5M on 28 Nov 2025** (+43.9%; e.g. [tx](https://etherscan.io/tx/0x74b06d515af7e38f885ed35b9c6732780349592d9ce326cb973fdba4efad54fd)) and **1.5M on 6 Jan 2026** (+19.2%, [tx](https://etherscan.io/tx/0x9c3a410c3fd12754e6a71ed320fe5ef9283c5df4c186327e28dfdf1587534eba)) fell on pump days. The pump days use CoinGecko daily closes (re-run 17 Nov 2026, midnight-stamp convention: **42 of 360 days**), the last resort, because BingX history starts in Jul 2026 and KuCoin, Gate and MEXC no longer list SKEY. 28 Nov 2025 (+43.9%) and 6 Jan 2026 (+19.2%) remain pump days.
 - 0x8dea is unlabelled, so under the 16 Nov 2026 rule it cannot carry a pump-day sale on its own. The labelled wallet's own deposits missed pump days, so Selling is **not proven: 6 → 4**. Arkham labels [0x32ee…4948](https://intel.arkm.com/explorer/address/0x32eef6c0ab7267e474051351e8c82066d93f4948) (53.3M SKEY) **KuCoin**, an exchange wallet, not an insider. [Tier B] Arkham, read 16 Nov 2026 (signed-in account).
 
-- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko SKEY daily closes (last resort; BingX from Jul 2026).
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko SKEY daily closes, re-run 17 Nov 2026 with the midnight-stamp convention (42 of 360 days; last resort; BingX from Jul 2026).
 
 ## 📊 Tokenomics & supply · 6/10 · ✅ PASS
 

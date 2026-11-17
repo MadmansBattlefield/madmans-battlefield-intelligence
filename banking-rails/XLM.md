@@ -27,7 +27,7 @@ red_lines:
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"
 revenue_mechanism: "Fees are taken out of circulation automatically on every transaction, but they are tiny (~$0.5M a year); Revenue stays 2."
-pump_day_price_source: "Gate XLM_USDT UTC daily closes, re-run 16 Nov 2026 with scripts/pump_day_test.py (38 of 360 days); the body's earlier count used CoinGecko daily closes"
+pump_day_price_source: "Gate XLM_USDT UTC daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (38 of 361 days)"
 pump_day_disclosure_quality: formal_announcement
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
@@ -35,7 +35,7 @@ attributions: []
 price_usd: 0.140304
 price_source: "CoinGecko, 15 Nov 2026 6:45 AM MST"
 chain_read_ledger: 65492889
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -43,7 +43,7 @@ layout_version: 3
 
 ### XLM · Overall grade **5.7 / 10 · ❌ FAIL**
 
-**Summary:** A busy, well-run payments and RWA network with a transparent non-profit foundation, but users pay only ~$492k a year in fees, the SDF still holds ~28.6% of the real 50.0B supply, and it releases roughly 2.7B XLM a year into the market to fund operations.
+**Summary:** A busy, well-run payments and RWA network with a transparent non-profit foundation, but users pay only ~$492k a year in fees, the SDF still holds ~28.6% of the real 50.0B supply, and it releases roughly 2.7B XLM a year into the market to fund operations on a Q3-annualised basis (the 12-month Horizon trace measured 3.48B gross / 3.02B net).
 
 > ⚠️ **Top warning:** SDF "Product & Innovation Hot 2" holds **554,096,554 XLM on a single key with zero thresholds** — one signature can move it ([Stellar.expert](https://stellar.expert/explorer/public/account/GDWXQOTIIDO2EUK4DIGIBLEHLME2IAJRNU6JDFS5B2ZTND65P7J36WQZ) · [Horizon signers](https://horizon.stellar.org/accounts/GDWXQOTIIDO2EUK4DIGIBLEHLME2IAJRNU6JDFS5B2ZTND65P7J36WQZ)). Separately, SDF sent **347.9M XLM straight to exchange-labelled accounts** in 12 months (Bitstamp [`GDBK3AHP…`](https://stellar.expert/explorer/public/account/GDBK3AHPQ7AO2U7JYEBFGJ2PBDVVFANHH4NQANDX6Q4GZ266WZ3IOIXN), Kraken [`GA5XIGA5…`](https://stellar.expert/explorer/public/account/GA5XIGA5C7QTPTWXQHY6MCJRMTRZDOSHR6EFIBNDQTCQHG262N4GGKTM)) — disclosed, and not pump-weighted.
 
@@ -70,7 +70,7 @@ layout_version: 3
 
 # 🪪 XLM · Stellar · 5.7 / 10 · ❌ FAIL
 
-> **One line:** A busy, well-run payments and RWA network with a transparent non-profit foundation, but users pay only ~$492k a year in fees, the SDF still holds ~28.6% of the real 50.0B supply, and it releases roughly 2.7B XLM a year into the market to fund operations.
+> **One line:** A busy, well-run payments and RWA network with a transparent non-profit foundation, but users pay only ~$492k a year in fees, the SDF still holds ~28.6% of the real 50.0B supply, and it releases roughly 2.7B XLM a year into the market to fund operations on a Q3-annualised basis (the 12-month Horizon trace measured 3.48B gross / 3.02B net).
 
 ℹ️ **Adapted for a layer-1 with a foundation.** "Revenue" = network fees and where they go. "Foundation" = the Stellar Development Foundation (SDF). "Holdings / Selling" = the SDF's published mandate accounts and what leaves them.
 
@@ -101,7 +101,7 @@ layout_version: 3
 | Where fees go | Into the ledger's **fee pool**. Inflation payouts were switched off in 2019, so the pool is never paid out — fees are effectively taken out of circulation | [Tier A] DefiLlama methodology ("All the fee goes to fee pool") · ledger header |
 | Fee pool today | **11,040,090 XLM** (~$1.55M at spot) — the lifetime stock of collected fees | [Tier A] Horizon `/ledgers`, ledger 65,492,889 |
 | Validator rewards | **None.** "Stellar validators do not earn rewards" | [Tier A] SDF Q3 2026 report |
-| Fees vs SDF release | ~$492k of fees a year vs ~2.7B XLM (~$375M at spot) of SDF deployment a year (see Selling) | Calculated |
+| Fees vs SDF release | ~$492k of fees a year vs ~2.7B XLM a year on a Q3-annualised basis, or **3.48B gross / 3.02B net** on the 12-month Horizon trace (see Selling) | Calculated |
 
 **What it means:** Fees are tiny by design (~$0.0001 a transaction). They are effectively burned, which is good, but at ~$0.5M a year on a ~$5B asset (~0.01%) they do not support the token's value. Stellar's case is utility (account reserves, anti-spam, a bridge asset), not cash flow.
 
@@ -156,7 +156,7 @@ Live balances, Horizon, 15 Nov 2026 ~6:50 AM MST. Addresses come from the SDF ma
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 6/10 · ✅ PASS
 
-**Pump test:** CoinGecko daily closes, 16 Nov 2025 – 15 Nov 2026: **38 of 360 testable days (10.6%)** were pump days. Clusters: 27–28 Nov; 5–7 Jan; 14–17 Mar; 17–21 Apr; **28 May – 2 Jun (peak +76.3%)**; 16–20 Jun; 2–5 Jul; 21–25 Aug; 8 Sep; 21–29 Sep. Last pump day was 29 Sep 2026 (+14.9%).
+**Pump test:** Gate XLM_USDT UTC daily closes, re-run 17 Nov 2026: **38 of 361 days (10.5%)** were pump days (replacing the stale CoinGecko dating). Clusters: 26–27 Nov; 4–6 Jan; 13–14 Mar; 16–17 Apr; **27 May – 1 Jun (peak 31 May +76.0%; 29 May +75.9%)**; 15–19 Jun; 1–4 Jul; 20–24 Aug; 20–22 Sep; 24–25 Sep. Last pump day was 28 Sep 2026 (+15.0%).
 
 **Disclosure:** the SDF says it "sells XLM from this account on public exchanges like Kraken, Coinbase, and Bitstamp and through direct sales, in order to pay for the operational expenses" ([Tier A] mandate page).
 
@@ -165,7 +165,7 @@ Live balances, Horizon, 15 Nov 2026 ~6:50 AM MST. Addresses come from the SDF ma
 | Flow | XLM | Note |
 |---|---:|---|
 | Moved between SDF accounts | 8,429,718,885 | Internal |
-| **Sent to non-SDF accounts** | **3,483,964,224** | 954 recipients (~7% of real supply) |
+| **Sent to non-SDF accounts (gross)** | **3,483,964,224** | 954 recipients (~7% of real supply; **~9.8% of 35.41B circulating**) |
 | … of which on pump days | 440,822,596 (**12.7%** of outflow) | Pump days are 10.6% of days, so roughly in line |
 | **Sent straight to exchange-labelled accounts** | **347,925,878** | Bitstamp 159.1M · Kraken 108.5M · Coinbase deposit accounts 80.3M |
 | … of which on pump days | 17,038,572 (**4.9%**) | **Below** the pump-day base rate |
@@ -189,7 +189,7 @@ Live balances, Horizon, 15 Nov 2026 ~6:50 AM MST. Addresses come from the SDF ma
 
 Labels are [Tier B] Stellar Expert directory tags; balances and flows are [Tier A] Horizon.
 
-**SDF's own spend accounting, Q3 2026** ([Tier A] Q3 report, "Lumens Utilized July – September 2026"): SDF Development 140,229,306 · Assets & Liquidity 50,930,231 · Growth 371,421,081 · Product & Innovation 106,063,328 → **668.6M XLM in one quarter** (~2.7B a year at that pace). Named uses include Kaiko, Nium, Ramp Network, Fireblocks, Securitize, MoneyGram, Paxos Trust, Spiko, Ondo Finance and Taurus. The SDF notes that "related XLM sales can exceed or trail spend".
+**SDF's own spend accounting, Q3 2026** ([Tier A] Q3 report, "Lumens Utilized July – September 2026"): SDF Development 140,229,306 · Assets & Liquidity 50,930,231 · Growth 371,421,081 · Product & Innovation 106,063,328 → **668.6M XLM in one quarter** (~2.7B a year at that pace). Alongside that Q3-annualised headline, the 12-month Horizon trace above measured **3,483,964,224 XLM gross** and about **3.02B net** (~9.8% / ~8.5% of 35.41B circulating), not 7.5%. Named uses include Kaiko, Nium, Ramp Network, Fireblocks, Securitize, MoneyGram, Paxos Trust, Spiko, Ondo Finance and Taurus. The SDF notes that "related XLM sales can exceed or trail spend".
 
 **What it means:** The SDF sells steadily and says so. Its direct exchange deposits were *less* likely than average to land on a pump day (4.9% vs 10.6%), so the trace shows no sign of timing sales to pumps. It passes because the selling is disclosed and not pump-weighted. It is only a 6 because ~3.1B XLM went to unlabelled accounts whose final buyers are not published.
 
@@ -203,11 +203,11 @@ Labels are [Tier B] Stellar Expert directory tags; balances and flows are [Tier 
 | Inflation | Off since 2019; no protocol minting | [Tier A] DefiLlama methodology · ledger (fee pool not paid out) |
 | Max supply | None hard-coded (CoinGecko shows "no max"); in practice no new XLM is created | [Tier B] CoinGecko |
 | Circulating | 35.41B (70.8%) | [Tier B] CoinGecko |
-| New float | SDF deployment ~668.6M a quarter ≈ **2.7B a year ≈ 7.5% of circulating** | [Tier A] SDF Q3 report · calculated |
+| New float | SDF deployment ~668.6M a quarter ≈ **2.7B a year ≈ 7.5% of circulating** on a Q3-annualised basis; the 12-month Horizon trace is **3.48B gross / 3.02B net ≈ 9.8% / 8.5% of circulating** | [Tier A] SDF Q3 report · Horizon trace · calculated |
 | Fee "burn" | 11.04M XLM in the fee pool (0.02% of supply) | [Tier A] ledger |
 | Asset-level controls | Issued assets can carry freeze and clawback flags (used in the U.S. Bank USBDC pilot); this does not apply to XLM itself | [Tier A] SDF Q3 report |
 
-**What it means:** No inflation and no mint key. The real dilution is the SDF's float, which adds about 7.5% of circulating supply a year. XRP, with a similar company or foundation float of ~5.7% a year, scored 5.
+**What it means:** No inflation and no mint key. The real dilution is the SDF's float, which adds about 7.5% of circulating supply a year on a Q3-annualised basis, or about 8.5–9.8% on the 12-month Horizon trace (3.02B net / 3.48B gross). XRP, with a similar company or foundation float of ~5.7% a year, scored 5.
 
 ## 💧 Liquidity & market · 9/10 · ✅ PASS
 
@@ -338,7 +338,9 @@ Labels are [Tier B] Stellar Expert directory tags; balances and flows are [Tier 
 | 7 | Per-issuer RWA figures (Realiz, Tradable, Franklin, Ondo ~$535–559M each) | rwa.xyz Stellar network page, or each issuer's Stellar asset on Horizon `/assets?asset_code=…&asset_issuer=…` (supply × NAV) | rwa.xyz free tier; Horizon free |
 | 8 | DTCC Tokenization Service connection to Stellar: scope and live date | DTCC press room (dtcc.com/news) for a matching release; SDF case study page | Free |
 | 9 | May 2019 network halt details | SDF blog post-mortem (stellar.org/blog) for 15 May 2019 | Free |
-| 10 | Whether any US spot XLM ETF S-1 or 19b-4 is on file | SEC EDGAR full-text search for "Stellar" + "S-1"; Federal Register for 19b-4 notices | Free |
+| 10 | Whether any US spot XLM ETF S-1 or 19b-4 is on file (including any GXLM filing) | SEC EDGAR full-text search for "Stellar" or "GXLM" + "S-1"; Federal Register for 19b-4 notices. This pass got HTTP 403 from EDGAR | Free |
+| 11 | **Re-trace the 12.7% / 4.9% pump-day outflow shares against Gate pump days.** Those shares were computed on the earlier CoinGecko day set | Re-run the Horizon 12-month payments against the 17 Nov 2026 Gate pump-day list | Free |
+| 12 | **X3 from the 17 Nov review** was not confirmed as a fact this pass | Re-check the outstanding XLM review item against a Tier A source | Free |
 
 **Unverified items: 10**
 

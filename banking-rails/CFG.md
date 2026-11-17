@@ -35,7 +35,7 @@ dual_review: not_run
 attributions: []
 price_usd: 0.07006
 price_source: "CoinGecko, 16 Nov 2026 5:27 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -78,7 +78,7 @@ layout_version: 3
 | **24h / 7d / 30d** 🔴 −2.4% / −20.8% / −44.8% · 1y −55.6% | **`totalSupply()`** 705,907,685 |
 | **Market cap** $26.65M · **FDV** $47.6M (CoinGecko, on 680M) | **Circulating (CoinGecko)** 380,384,016 (54%) |
 | **24h volume** $3.32M | **Wards** [Root](https://etherscan.io/address/0x7ed48c31f2fdc40d37407cbabf0870b2b688368f) (48h delay) · [InflationMinter](https://etherscan.io/address/0x50a168cd6957e07b6de6c1a99b2f940475f70def) |
-| **ATH** $0.4004 (24 Aug 2025) · now −82.5% | **Treasury EOA** [`0xb3da…1ab9`](https://etherscan.io/address/0xb3dacc732509ba6b7f25ad149e56ca44fe901ab9) 11.22M · **EOA** [`0xD052…93Cb`](https://etherscan.io/address/0xD052A46b8e0C89fAcB393805E1917AfD20f293Cb) 106.07M |
+| **ATH** new-listing $0.4004 (24 Aug 2025, −82.5% from that high); predecessor $2.19 (legacy CFG, 14 Oct 2021, 1:1 migration) · now **−96.8%** from the predecessor | **Treasury EOA** [`0xb3da…1ab9`](https://etherscan.io/address/0xb3dacc732509ba6b7f25ad149e56ca44fe901ab9) 11.22M · **EOA** [`0xD052…93Cb`](https://etherscan.io/address/0xD052A46b8e0C89fAcB393805E1917AfD20f293Cb) 106.07M |
 | **Holders** 11,795 (Blockscout) | **Grove** [Foundation SubProxy](https://etherscan.io/address/0x1369f7b2b38c76B6478c0f0E66D94923421891Ba) 33.75M |
 
 ---

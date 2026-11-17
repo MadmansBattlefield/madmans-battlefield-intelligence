@@ -4,7 +4,7 @@
   "name": "Cardano",
   "chain": "cardano (native layer 1)",
   "contract": "native coin (no contract)",
-  "overall_score": 5.1,
+  "overall_score": 5.2,
   "overall_verdict": "FAIL",
   "section_scores": {
     "revenue": 2,
@@ -16,7 +16,7 @@
     "product_development": 8,
     "adoption_customers": 3,
     "security_audits": 6,
-    "regulatory": 6,
+    "regulatory": 8,
     "catalysts": 5
   },
   "sections_passed": 6,
@@ -60,20 +60,20 @@
     "fdv_text": "$6.84B",
     "volume_24h_text": "$207.6M"
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ADA.md",
-    "sha256": "711dfb6950fb98c554bcda2c34862b158eb0de8cb7de3b490ac596bf9921fdaa",
-    "bytes": 22275,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "36f3fd2d4fae112005f959248039bb4edcd702ce717ede4da8dc3e98bb9b2c90",
+    "bytes": 22665,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
     "price_source_read": "CoinGecko, 16 Nov 2026 ~5:08 AM MST",
     "source_read_dates": [
       "16 Nov 2026",
-      "2026-11-16"
+      "2026-11-17"
     ],
     "arkham_read": null
   },

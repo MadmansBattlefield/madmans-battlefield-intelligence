@@ -47,7 +47,7 @@
     "methodology_effective": "2026-11-16",
     "revenue_reaches_holders": "yes",
     "revenue_mechanism": "The Smart Burn Engine buys SKY on-chain from protocol surplus and USDS staking rewards are paid from net revenue under the Stage 2 split (Q3 2026: $5.60M of buybacks and $3.12M of USDS to stakers; burns on-chain), so revenue reaches holders.",
-    "pump_day_price_source": "CoinGecko SKY daily closes (as published; named last resort)",
+    "pump_day_price_source": "CoinGecko SKY daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (45 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped",
     "pump_day_disclosure_quality": "not_applicable",
     "pump_day_undisclosed_penalty_applied": false,
     "dual_review": "not_run",
@@ -75,13 +75,13 @@
     "volume_24h_text": "$10.2M",
     "total_supply_text": "23,452,431,915.6"
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SKY.md",
-    "sha256": "fe9f3128c07ffb7874a9839ab08d6cb696410b508b37d3461c28c6d3e087b5e8",
-    "bytes": 38089,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "c4d074522f74703046ac7e5ffb1d4759492cf132eebf0d63c5597ebeabc037f1",
+    "bytes": 38600,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -90,7 +90,7 @@
       "16 Nov 2026 ~6:10 AM MST",
       "16 Nov 2026 ~5:10 AM MST",
       "16 Nov 2026",
-      "2026-11-16"
+      "2026-11-17"
     ],
     "arkham_read": "16 Nov 2026 ~6:10 AM MST (signed-in account"
   },
@@ -529,7 +529,7 @@
   ],
   "pump_day_test": {
     "definition": "utc_daily_close_at_least_10pct_above_close_5_days_earlier",
-    "price_source": "CoinGecko SKY daily closes (as published; named last resort)",
+    "price_source": "CoinGecko SKY daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (45 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped",
     "timezone": "UTC",
     "lookback_days": 5,
     "threshold_pct": 10,

@@ -36,7 +36,7 @@ dual_review: not_run
 attributions: []
 price_usd: 0.143425
 price_source: "CoinGecko, 16 Nov 2026 6:00 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -173,7 +173,7 @@ layout_version: 3
 ## ⚖️ Regulatory · 4/10 · ❌ FAIL
 
 - JST trades on large regulated venues (Binance, Upbit, Bithumb).
-- The TRON founder has faced US regulatory action; the current status of that matter was **not re-checked** here [Unverified]. Concentrated control by one ecosystem is a regulatory and governance risk.
+- The TRON founder has faced US regulatory action. **Tier A:** [SEC Litigation Release 26496](https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26496), 5 Mar 2026 — a proposed final judgment would have Rainberry pay a $10M civil penalty and would dismiss, with prejudice, the remaining claims against Rainberry and all claims against Sun, Tron Foundation and BitTorrent Foundation, **subject to court approval**. This pass did not confirm that the judgment has been entered. Concentrated control by one ecosystem remains a regulatory and governance risk.
 
 ## 📅 Catalysts & calendar · 6/10 · ✅ PASS
 
@@ -240,6 +240,7 @@ layout_version: 3
 | 5 | **Mint function** | Read the JST contract on Tronscan for a mint or owner role | Free |
 | 6 | **Audits** | Find JustLend audit reports in the docs or GitHub | Free |
 | 7 | **Who funded rounds 4–5?** | Trace the inflows to the burn wallet on 17 Jul and 16 Oct 2026 (TQVScc…, TMwuqc…) and look them up on Arkham | Free |
+| 8 | **Has the LR-26496 proposed judgment been entered?** | SDNY docket 1:23-cv-02433, or a later SEC litigation release confirming court approval | Free |
 
 ---
 

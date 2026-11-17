@@ -34,7 +34,7 @@ dual_review: not_run
 attributions: []
 price_usd: 0.02917
 price_source: "CoinGecko, 16 Nov 2026 6:58 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -42,7 +42,7 @@ layout_version: 3
 
 ### KAIA · Overall grade **3.9 / 10 · ❌ FAIL**
 
-**Summary:** Kaia is the merged Klaytn (Kakao) and Finschia (LINE) chain. The Foundation is visible and publishes every fund transfer, but the chain earns almost nothing: **$43.8k of revenue in 12 months** against about **300M KAIA (~$8.8M) of new issuance a year**. Half of that issuance goes to two Foundation-run funds, and one of them is budgeted for "providing market liquidity". TVL is $5.3M and daily volume $3.6M. The price is −93% from its high. The revenue gate fails. Selling could not be tested on-chain this pass.
+**Summary:** Kaia is the merged Klaytn (Kakao) and Finschia (LINE) chain. The Foundation is visible and publishes every fund transfer, but the chain earns almost nothing: **$43.8k of revenue in 12 months** against about **300M KAIA (~$8.8M) of new issuance a year**. Half of that issuance goes to two Foundation-run funds, and one of them is budgeted for "providing market liquidity". TVL is $5.3M and daily volume $3.6M. The price is −93% from the post-merger listing high and **−99.3%** from the predecessor KLAY ATH ($4.34 on 29 Mar 2021, 1:1). The revenue gate fails. Selling could not be tested on-chain this pass.
 
 **🚨 Top warning:** Every block mints new KAIA, and **25% goes to the KIF**. The Foundation spends the KIF on operations, "token swap" and "providing market liquidity" ([token economy docs](https://docs.kaia.io/learn/token-economics/token-economy/)). The KIF executor [`0x587e…fcde`](https://kaiascan.io/address/0x587e624a5e8d8b6064643eab18734245a9defcde) has received **319.3M KAIA in 10 announced transfers** ([Aug 2024](https://govforum.kaia.io/t/896) to [Nov 2026](https://govforum.kaia.io/t/1540)). It holds **23.8M** now, so **~295M KAIA (~$8.6M at today's price) has gone out**, and that cannot be traced here. Every link is in the 🔗 Evidence trail below.
 
@@ -77,7 +77,7 @@ layout_version: 3
 | **24h / 7d / 30d** 🔴 −1.1% / −7.6% / −33.6% · 1y −66.7% | **Supply** 6.469B, no cap; +9.6 KAIA a block |
 | **Market cap** $188.5M · **FDV** $188.5M | **KEF mint** [`0x2D49…0926`](https://kaiascan.io/address/0x2D493DC06B73CF8Dede958FABBC9d62C31fA0926) 149.0M · **executor** [`0xdd41…ead8`](https://kaiascan.io/address/0xdd413c62b3882c4ea8398cb23714743d88fcead8) 25.9M |
 | **24h volume** $3.6M (Bithumb, Binance, Upbit, BloFin, Bybit) | **KIF mint** [`0x4403…67D5`](https://kaiascan.io/address/0x440372e3cE41a85b7B5A6091c232470d186367D5) 48.1M · **executor** [`0x587e…fcde`](https://kaiascan.io/address/0x587e624a5e8d8b6064643eab18734245a9defcde) 23.8M |
-| **ATH** $0.407 (2 Dec 2024) · now −92.8% | **KPF (GP-21)** [`0xAb6f…A6e0`](https://kaiascan.io/address/0xAb6ff701E1EF80253fdCa472D41160411077A6e0) 7.0M |
+| **ATH** new-listing $0.407 (2 Dec 2024, −92.8% from that high); predecessor $4.34 (KLAY, 29 Mar 2021, KLAY:KAIA = 1:1 per the Kaia white paper) · now **−99.3%** from the predecessor | **KPF (GP-21)** [`0xAb6f…A6e0`](https://kaiascan.io/address/0xAb6ff701E1EF80253fdCa472D41160411077A6e0) 7.0M |
 | **Pump days, last 365 days** 33 (Binance KAIAUSDT closes) | **TVL** $5.3M (DefiLlama) |
 
 *Fund addresses come from the [Kaia contract-address docs](https://docs.kaia.io/references/contract-addresses/) and Foundation forum posts. Balances are from the public Kaia RPC.*

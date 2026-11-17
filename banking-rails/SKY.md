@@ -28,7 +28,7 @@ red_lines:
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"
 revenue_mechanism: "The Smart Burn Engine buys SKY on-chain from protocol surplus and USDS staking rewards are paid from net revenue under the Stage 2 split (Q3 2026: $5.60M of buybacks and $3.12M of USDS to stakers; burns on-chain), so revenue reaches holders."
-pump_day_price_source: "CoinGecko SKY daily closes (as published; named last resort)"
+pump_day_price_source: "CoinGecko SKY daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (45 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped"
 pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
@@ -45,7 +45,7 @@ attributions:
     basis: "Arkham (generic) + Etherscan funding"
 price_usd: 0.05135
 price_source: "CoinGecko, 16 Nov 2026 5:06 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -90,7 +90,7 @@ layout_version: 3
 | **24h / 7d / 30d** 🔴 −4.6% / −16.9% / −27.5% · 1y +1.9% | **`totalSupply()`** 23,452,431,915.6 SKY |
 | **Market cap** $1.203B · **FDV** $1.205B | **Staked in LockstakeEngine** [10.29B (43.9%)](https://etherscan.io/address/0xCe01C90dE7FD1bcFa39e237FE6D8D9F569e8A6a3) · **in Chief (voting)** [7.14B (30.4%)](https://etherscan.io/address/0x929d9A1435662357F54AdcF64DcEE4d6b867a6f9) |
 | **24h volume** $10.2M | **MKR→SKY converter** [`0xA1Ea…f03a`](https://etherscan.io/address/0xA1Ea1bA18E88C381C724a75F23a130420c403f9a) holds 2.02B SKY (8.6%) for remaining MKR |
-| **ATH** $0.1009 (5 Oct 2026) · now −49.1% | **Burns by the Pause Proxy** 426.3M (30 Jun 2025), 2.86M (13 Sep 2026), 7.37M (12 Oct 2026) |
+| **ATH** new-listing $0.1009 (5 Oct 2026, −49.1% from that high); predecessor $0.2622 (MKR $6,292.31 on 3 May 2021, 1 MKR = 24,000 SKY) · now **−80.4%** from the predecessor | **Burns by the Pause Proxy** 426.3M (30 Jun 2025), 2.86M (13 Sep 2026), 7.37M (12 Oct 2026) |
 | **Holders** 17,453 (Blockscout) | **Treasury-controlled SKY** ≈ 3.0B (≈ 12.8%), see Holdings |
 
 ---
@@ -163,7 +163,7 @@ layout_version: 3
 
 **What it means:** No treasury or foundation wallet sold into a pump, and the treasury has been a net **buyer**. The rule still counts a team-funded wallet selling on pump days, and the market-maker loan put treasury SKY on a centralised exchange without naming the firm. Small amounts and full disclosure of the programs keep it at **6**, a narrow pass. Not tested: MKR-era (pre-Sep 2024) sales by the Maker Foundation and founders.
 
-- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko SKY daily closes (as published; named last resort).
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko SKY daily closes, re-run 17 Nov 2026 with the midnight-stamp convention (45 of 360 days).
 
 ## 📊 Tokenomics & supply · 7/10 · ✅ PASS
 
@@ -176,7 +176,7 @@ layout_version: 3
 ## 💧 Liquidity & market · 6/10 · ✅ PASS
 
 - $10.2M of volume in 24h on a $1.2B cap (≈ 0.85% turnover), thin for its size. Binance, Kraken, OKX, Bybit, Gemini, Crypto.com, Robinhood and eToro wallets all hold SKY (Blockscout tags). Uniswap V4 and V2 pools hold 142M and 76.5M SKY.
-- 45 pump days in the last 365 (CoinGecko daily closes), clustered in late Nov 2025, Aug 2026 and 18 Sep – 5 Oct 2026. Price is −49% from the 5 Oct 2026 ATH.
+- **45 of 360 days** were pump days in 16 Nov 2025 – 16 Nov 2026 (CoinGecko daily closes, midnight-stamp convention), clustered in late Nov 2025, Aug 2026 and 18 Sep – 5 Oct 2026. Last pump day 5 Oct 2026 (+12.9%); peak 21 Aug 2026 (+28.6%). Price is −49% from the 5 Oct 2026 new-listing ATH and **−80.4%** from the predecessor MKR ATH at the 24,000-to-1 conversion.
 
 ## 🧑‍💻 Product & development · 8/10 · ✅ PASS
 

@@ -22,12 +22,12 @@ gates_failed: []
 red_lines:
   one_hop_sale_status: none_found
   burn_below_50pct_of_gross_mint_30d: clear
-  foundation_or_sv_wallet_to_exchange_on_pump_day: watch
+  foundation_or_sv_wallet_to_exchange_on_pump_day: clear
   hack_exploit: none
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "yes"
 revenue_mechanism: "Every traffic fee is paid in CC and burned on-chain automatically (448.2M CC ≈ $43.8M in 30 days per Lighthouse), so revenue reaches holders through supply reduction, although part of the burn is recycled into minting rewards."
-pump_day_price_source: "CoinGecko CC daily closes (as published; named last resort)"
+pump_day_price_source: "CoinGecko CC daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (45 of 360 days); midnight stamps labelled as the close of the prior UTC day"
 pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
@@ -35,7 +35,7 @@ attributions: []
 price_usd: 0.081743
 price_source: "CoinGecko canton-network, 15 Nov 2026 6:47 AM MST"
 chain_read_round: 121838
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -45,7 +45,7 @@ layout_version: 3
 
 **Summary:** Real usage is burning about $44M of CC a month (about $650M over 12 months), DTCC's tokenization service is live on Canton, and the SEC staff called CC a digital commodity. But supply still grew about 14% in a year, there is no supply cap, and a few founding validators earned most of the early rewards.
 
-> ⚠️ **Top warning:** One DA-linked party [`1220c770…`](https://lighthouse.cantonloop.com/api/web/parties/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3) holds **974M CC (~2.4% of supply), liquid**, owner unverified; and a foundation-funded party [`12207029…`](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=) sent **8.71M CC on the 10 Jun 2026 pump day** to unlabelled [`1220bca0…`](https://lighthouse.cantonloop.com/api/web/parties/1220bca0b97b8073f386d0b4b2210a937c0bb688d2a4f03d854c2b14c45df0036df3%3A%3A1220a1cf691c566eb8c94145e944f6bef296a672aa3f353d34ce1c2dc4d58f69dbf7). Exchange deposits found ([okx-4](https://lighthouse.cantonloop.com/api/web/parties/okx-4%3A%3A12209317e6fa76d42c00be6086c088845d30913a6f0c05a9e7a736f00ff405e4acd6) 30M, [okx-6](https://lighthouse.cantonloop.com/api/web/parties/okx-6%3A%3A1220882d0f735c777be0d399110a8c406c949ec743cc1f43a482d95398e04fd32c32) 43.2M, [temple](https://lighthouse.cantonloop.com/api/web/parties/temple-mainnet-1%3A%3A1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f) 11.04M) were not on pump days.
+> ⚠️ **Top warning:** One DA-linked party [`1220c770…`](https://lighthouse.cantonloop.com/api/web/parties/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3) holds **974M CC (~2.4% of supply), liquid**, owner unverified; and a foundation-funded party [`12207029…`](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=) sent **8.71M CC on 10 Jun 2026**, which is **not** a pump day under corrected CoinGecko UTC closes (+8.7%) to unlabelled [`1220bca0…`](https://lighthouse.cantonloop.com/api/web/parties/1220bca0b97b8073f386d0b4b2210a937c0bb688d2a4f03d854c2b14c45df0036df3%3A%3A1220a1cf691c566eb8c94145e944f6bef296a672aa3f353d34ce1c2dc4d58f69dbf7). Exchange deposits found ([okx-4](https://lighthouse.cantonloop.com/api/web/parties/okx-4%3A%3A12209317e6fa76d42c00be6086c088845d30913a6f0c05a9e7a736f00ff405e4acd6) 30M, [okx-6](https://lighthouse.cantonloop.com/api/web/parties/okx-6%3A%3A1220882d0f735c777be0d399110a8c406c949ec743cc1f43a482d95398e04fd32c32) 43.2M, [temple](https://lighthouse.cantonloop.com/api/web/parties/temple-mainnet-1%3A%3A1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f) 11.04M) were not on pump days.
 
 **Sections passed: 10 of 11**
 
@@ -123,7 +123,7 @@ layout_version: 3
 | SVs | ~60 as of 30 Sep 2026 per DA; the explorer lists 91 SV entries incl. escrow and "ghost" slots | [Tier A] SEC letter · [Tier A] Lighthouse `svs` |
 | Foundation funding | Membership fees + CC it mints as an SV node operator | [Tier A] DA letter to SEC |
 | Named DA leaders | Yuval Rooz (CEO), Eric Saraniecki, Shaul Kfir (co-founders) | [Unverified] not re-checked against a filing this pass |
-| Investors in DA | $135M round incl. Goldman, DTCC, BNP, Citadel Securities (old draft) | [Unverified] not re-checked this pass |
+| Investors in DA | $135M (Jun 2025, co-led by DRW Venture Capital and Tradeweb); $50M (Dec 2025; BNY, Nasdaq, S&P Global, iCapital); **$355M led by a16z crypto, announced 11 Jun 2026** ([Tier A] [Digital Asset press release](https://blog.digitalasset.com/press-release/digital-asset-355m-funding-canton-capital-markets)) | [Tier A] issuer PR for the 11 Jun 2026 round; earlier rounds [Tier B] unless a matching DA release is filed |
 
 **What it means:** Control is spread across 13 node operators with a two-thirds rule, and the creator holds 2 votes. The foundation has a named, institutional board. It is not a one-company chain, but a handful of founding firms still sit at the center.
 
@@ -164,7 +164,7 @@ layout_version: 3
 
 ## 📉 Selling behavior — Do insiders sell into pumps? · 6/10 · ✅ PASS
 
-**Pump test:** CoinGecko daily closes, 16 Nov 2025 – 15 Nov 2026: **45 of 360 days** were pump days (clusters 11 Dec – 4 Jan, 22 Jan – 3 Feb, 22–26 Aug, 19–29 Sep 2026).
+**Pump test:** CoinGecko daily closes, 16 Nov 2025 – 16 Nov 2026, re-run 17 Nov 2026 with the midnight-stamp convention (a point stamped 00:00 UTC on day D is the close of D-1): **45 of 360 days** were pump days (clusters include 10–12 Dec, 19–24 Dec, 27 Dec – 1 Jan, 21–25 Jan, 29 Jan – 2 Feb, 9 Jun, 21–25 Aug, 18–22 Sep and 25–28 Sep). Last pump day was 28 Sep 2026 (+19.1%).
 
 **Disclosure:** DA told the SEC it has "from time to time since launch, purchased and sold Canton Coin on the secondary market for ordinary operational and treasury purposes—including converting Canton Coin it earns into fiat currency" and that SVs, validators and app providers are "the natural sellers" ([Tier A] DA letter, 30 Oct 2026). Selling is disclosed in general terms; wallets and amounts are not.
 
@@ -172,13 +172,13 @@ layout_version: 3
 |---|---|
 | DA-2 sweep party [`1220c770…`](https://lighthouse.cantonloop.com/api/web/parties/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3) ([sent list](https://lighthouse.cantonloop.com/api/web/parties/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3/transfers?limit=100&sender=1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3&receiver=); 11 sends since Jun 2026) | 4 × 25M to unlabeled parties (16 Jun, 20 Jun, 15 Sep, 3 Nov) · **11.04M to [`temple-mainnet-1`](https://lighthouse.cantonloop.com/api/web/parties/temple-mainnet-1%3A%3A1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f) (Temple Digital Group, a CC exchange) on 9 Sep 2026** (update `1220049b8a9f…`). **None on a pump day** |
 | Foundation operator party | 5 sends; 100 CC test to `mexc-wallet-01`; **none on a pump day** |
-| [GSF-SVRewards-1](https://lighthouse.cantonloop.com/api/web/parties/GSF-SVRewards-1%3A%3A12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79/transfers?limit=100&sender=GSF-SVRewards-1%3A%3A12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79&receiver=) → [`12207029…`](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8) | 16 sends, 1.68B CC. Two on a pump day (2 Feb 2026: 195M + 95.2M) — **internal** (into its own downstream party) |
-| [`12207029…` onward](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=) | 30.0M → [`okx-4`](https://lighthouse.cantonloop.com/api/web/parties/okx-4%3A%3A12209317e6fa76d42c00be6086c088845d30913a6f0c05a9e7a736f00ff405e4acd6) (10 Feb 2026, update `12200ea7ed3f…`) · 1.0M → [`Gate`](https://lighthouse.cantonloop.com/api/web/parties/Gate%3A%3A1220660fcee9042e5d36a50eccee8b6ff3e79cc3612ad41b7ec056c5c6cddacf864b) (22 May) · 43.2M → [`okx-6`](https://lighthouse.cantonloop.com/api/web/parties/okx-6%3A%3A1220882d0f735c777be0d399110a8c406c949ec743cc1f43a482d95398e04fd32c32) (13 Oct, update `12208757930f…`) — **not pump days**. **One pump-day send: 8.71M CC on 10 Jun 2026 to unlabeled [`1220bca0b97b…`](https://lighthouse.cantonloop.com/api/web/parties/1220bca0b97b8073f386d0b4b2210a937c0bb688d2a4f03d854c2b14c45df0036df3%3A%3A1220a1cf691c566eb8c94145e944f6bef296a672aa3f353d34ce1c2dc4d58f69dbf7)** (update `12201d3a4538…`, in the [sender's transfer list](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=)) (≈$1.4M at that day's ~$0.16) |
-| Cumberland operator → `Cumberland-Property-1` | 1.5B on 31 Dec 2025 (a pump day) — internal; Cumberland-Property-1's last 1,000 sends found no pump-day send over 1M |
+| [GSF-SVRewards-1](https://lighthouse.cantonloop.com/api/web/parties/GSF-SVRewards-1%3A%3A12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79/transfers?limit=100&sender=GSF-SVRewards-1%3A%3A12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79&receiver=) → [`12207029…`](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8) | 16 sends, 1.68B CC. Two on a pump day (2 Feb 2026, +17.4%: 195M + 95.2M) — **internal** (into its own downstream party) |
+| [`12207029…` onward](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=) | 30.0M → [`okx-4`](https://lighthouse.cantonloop.com/api/web/parties/okx-4%3A%3A12209317e6fa76d42c00be6086c088845d30913a6f0c05a9e7a736f00ff405e4acd6) (10 Feb 2026, update `12200ea7ed3f…`) · 1.0M → [`Gate`](https://lighthouse.cantonloop.com/api/web/parties/Gate%3A%3A1220660fcee9042e5d36a50eccee8b6ff3e79cc3612ad41b7ec056c5c6cddacf864b) (22 May) · 43.2M → [`okx-6`](https://lighthouse.cantonloop.com/api/web/parties/okx-6%3A%3A1220882d0f735c777be0d399110a8c406c949ec743cc1f43a482d95398e04fd32c32) (13 Oct, update `12208757930f…`) — **not pump days**. **8.71M CC on 10 Jun 2026 (**not a pump day**, +8.7%) to unlabeled [`1220bca0b97b…`](https://lighthouse.cantonloop.com/api/web/parties/1220bca0b97b8073f386d0b4b2210a937c0bb688d2a4f03d854c2b14c45df0036df3%3A%3A1220a1cf691c566eb8c94145e944f6bef296a672aa3f353d34ce1c2dc4d58f69dbf7)** (update `12201d3a4538…`, in the [sender's transfer list](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=)) (≈$1.4M at that day's ~$0.16) |
+| Cumberland operator → `Cumberland-Property-1` | 1.5B on 31 Dec 2025 (a pump day, +52.6%) — internal; Cumberland-Property-1's last 1,000 sends found no pump-day send over 1M |
 
 **What it means:** The creator says openly that it sells what it earns, and the exchange deposits found from DA- and foundation-linked parties did not land on pump days. One 8.7M foundation-chain transfer on a pump day went to an unknown party. Canton has no public exchange-deposit labels beyond a few named parties, so this is a pass with an open check, not a clean bill.
 
-- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko CC daily closes (as published; named last resort).
+- **Penalty check (16 Nov 2026 rules):** not applied. **Disclosure quality:** not applicable; no team selling into a pump is proven. Pump days from CoinGecko CC daily closes, re-run 17 Nov 2026 with the midnight-stamp convention (45 of 360 days).
 
 ## 📊 Tokenomics & supply · 4/10 · ❌ FAIL
 
@@ -241,8 +241,8 @@ layout_version: 3
 | SVs on the explorer incl. DTCC, LSEG, Nasdaq, Visa, Société Générale, Tradeweb, Broadridge, Chainlink, Circle, a16z, YZi Labs, USDT0 | ✅ Confirmed as SV entries | [Tier A] Lighthouse `svs` |
 | "Over $7.1 trillion" monthly average of US Treasury repo settled atomically | Representation by DA's counsel, not independently measured | [Tier A] as a filing; figure [Unverified] |
 | Daily activity | 604.0M transactions all-time; 948,648 parties; Nov 2026: 662k–888k tx/day, trending down ~25% from 4 Nov | [Tier A] Lighthouse `stats` |
-| Does DTS activity burn CC? | Only if it runs on the Global Synchronizer; private synchronizers do not pay CC today | [Unverified] |
-| 21Shares US Canton Coin ETF | Old draft cited an X post | [Unverified] |
+| Does DTS activity burn CC? | Only if it runs on the Global Synchronizer. [CIP-0129](https://github.com/canton-foundation/cips/blob/main/cip-0129/cip-0129.md) (approved 23 Oct 2026) states dedicated synchronizers burn nothing today; Phase 1 (universal burn) is estimated Q1 2027, Phase 2 Q3 2027, and those dates are estimates, not deadlines | [Tier A] CIP-0129 |
+| 21Shares Canton Network ETF (TCAN) | Nasdaq, inception 7 May 2026, 0.50% fee | [Tier A] [21shares.com/en-us/products-us/tcan](https://www.21shares.com/en-us/products-us/tcan) |
 
 **What it means:** This is the strongest institutional adoption list of any token in this folder, backed by DTCC's own release. The open question is how much of that activity pays CC.
 
@@ -269,7 +269,7 @@ layout_version: 3
 |---|---|---|
 | Every 10 minutes | New minting round | Supply ↑ |
 | In progress | CIP-0104 traffic-based app rewards | Changes who mints |
-| Q1 2027 | CIP-0129: dedicated synchronizers pay CC fees (old draft, Alea Research) | Burn ↑ if true · [Unverified] |
+| Q1 2027 (estimate, not a deadline) | CIP-0129 Phase 1: universal burn on dedicated synchronizers; Phase 2 volume pricing estimated Q3 2027 | Burn ↑ if implemented · [Tier A] [CIP-0129](https://github.com/canton-foundation/cips/blob/main/cip-0129/cip-0129.md), approved 23 Oct 2026 |
 | 2027 | DTCC adds more chains to DTS | Competition for Canton |
 | Ongoing | DTCC participant onboarding "on a rolling basis" | Usage ↑ |
 
@@ -278,7 +278,7 @@ layout_version: 3
 | Red line | Status | Evidence |
 |---|---|---|
 | 30-day burn under 50% of gross mint | 🟢 Clear (~69%) | 448M burned vs ~650M minted |
-| Foundation or SV-linked wallet sends to an exchange on a pump day | 🟡 Watch | 8.71M foundation-chain send to an unknown party on 10 Jun 2026: [`12207029…` sent list](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=) → [`1220bca0…`](https://lighthouse.cantonloop.com/api/web/parties/1220bca0b97b8073f386d0b4b2210a937c0bb688d2a4f03d854c2b14c45df0036df3%3A%3A1220a1cf691c566eb8c94145e944f6bef296a672aa3f353d34ce1c2dc4d58f69dbf7), update `12201d3a4538…` |
+| Foundation or SV-linked wallet sends to an exchange on a pump day | 🟢 Clear | 8.71M foundation-chain send to an unknown party on 10 Jun 2026, which is **not** a pump day (+8.7%): [`12207029…` sent list](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=) → [`1220bca0…`](https://lighthouse.cantonloop.com/api/web/parties/1220bca0b97b8073f386d0b4b2210a937c0bb688d2a4f03d854c2b14c45df0036df3%3A%3A1220a1cf691c566eb8c94145e944f6bef296a672aa3f353d34ce1c2dc4d58f69dbf7), update `12201d3a4538…` |
 | Hack / exploit | 🟢 None | |
 
 ## 🏷️ Attribution confidence (16 Nov 2026 rules)
@@ -305,7 +305,7 @@ layout_version: 3
 - [Tier B] CoinGecko `canton-network` market data and 365 daily closes, 15 Nov 2026 6:47 AM MST
 - [Tier A] DefiLlama API (no `canton` fees adapter; chain TVL; Temple and Cantex fees)
 - [Tier B] [Arkham](https://intel.arkm.com/explorer/address/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3), read 15 Nov 2026 ~11:05 AM MST (signed-in account): **Canton is not supported** (party `1220c770…` returns "Something went wrong"; `12207029…` and `1220bca0…` not opened for the same reason). Open items #2–#4 stay open
-- [Unverified] owners of `1220c770…`, `12207029…`, `1220bca0…`; the white paper minting curve; CIP-0129 timing; 21Shares ETF; the $7.1T repo figure; DA investor list
+- [Unverified] owners of `1220c770…`, `12207029…`, `1220bca0…`; the white paper minting curve; the $7.1T repo figure; earlier (pre-2026) DA investor-round details beyond the 11 Jun 2026 PR
 
 ## 🔗 Evidence trail
 
@@ -313,7 +313,7 @@ layout_version: 3
 
 | Claim | Evidence link(s) | Tier | Date read |
 |---|---|---|---|
-| 🟡 Pump-day send 10 Jun 2026: 8.71M CC `12207029…` → unlabelled `1220bca0…` | [sender transfer list](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=) (update `12201d3a4538e5d0d2bee53670844c6228438185a30369adf5f4e925b8052f2025d6`) · [receiver party](https://lighthouse.cantonloop.com/api/web/parties/1220bca0b97b8073f386d0b4b2210a937c0bb688d2a4f03d854c2b14c45df0036df3%3A%3A1220a1cf691c566eb8c94145e944f6bef296a672aa3f353d34ce1c2dc4d58f69dbf7) | A | 15 Nov 2026 ~6:48–7:20 AM MST |
+| 8.71M CC send on 10 Jun 2026 (not a pump day, +8.7%): `12207029…` → unlabelled `1220bca0…` | [sender transfer list](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=) (update `12201d3a4538e5d0d2bee53670844c6228438185a30369adf5f4e925b8052f2025d6`) · [receiver party](https://lighthouse.cantonloop.com/api/web/parties/1220bca0b97b8073f386d0b4b2210a937c0bb688d2a4f03d854c2b14c45df0036df3%3A%3A1220a1cf691c566eb8c94145e944f6bef296a672aa3f353d34ce1c2dc4d58f69dbf7) | A | 15 Nov 2026 ~6:48–7:20 AM MST |
 | DA-2 sweep party holds 974,364,833 CC (2.43%) | [party record](https://lighthouse.cantonloop.com/api/web/parties/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3) · [balance](https://lighthouse.cantonloop.com/api/web/parties/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3/balance) · [Arkham check (Canton unsupported)](https://intel.arkm.com/explorer/address/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3) | A | 15 Nov 2026 ~6:50–11:05 AM MST |
 | DA-2 sweep → temple-mainnet-1 11.04M on 9 Sep 2026 (not a pump day) | [DA-2 sweep sent list](https://lighthouse.cantonloop.com/api/web/parties/1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3/transfers?limit=100&sender=1220c770bd242a26c6436de9a0c6b8e3a363b73994df1a06b7d5d059f93cb6a1a76a%3A%3A12201d22c0dcaee16d85103d44fbb03c518a790d2f5fc03694382b30fa1ba69ba4c3&receiver=) (update `1220049b8a9f22d4e192388fca7fe495a7d305ec098ca151e934d6162f1f4741f3bd`) · [temple party](https://lighthouse.cantonloop.com/api/web/parties/temple-mainnet-1%3A%3A1220f238bb79df3efbbac2ea964c3cd501003971a2cb59043e2dac50b06e85b8620f) | A flow / B label | 15 Nov 2026 ~6:48–7:20 AM MST |
 | `12207029…` → okx-4 30.0M (10 Feb) and okx-6 43.2M (13 Oct) | [sent list](https://lighthouse.cantonloop.com/api/web/parties/12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8/transfers?limit=100&sender=12207029731b746ee2e24356e85571f2d4c4c6091cb2e4ccf59442ae9e1998695ef2%3A%3A12200277b851162652ceb96302c4db6cbf9d254bf947a29765aca3330e5722d825c8&receiver=) (updates `12200ea7ed3f04ef…`, `12208757930f64f6…`) · [okx-4](https://lighthouse.cantonloop.com/api/web/parties/okx-4%3A%3A12209317e6fa76d42c00be6086c088845d30913a6f0c05a9e7a736f00ff405e4acd6) · [okx-6](https://lighthouse.cantonloop.com/api/web/parties/okx-6%3A%3A1220882d0f735c777be0d399110a8c406c949ec743cc1f43a482d95398e04fd32c32) | A flow / B label | 15 Nov 2026 ~6:48–7:20 AM MST |
@@ -337,10 +337,12 @@ layout_version: 3
 | 9 | Linux Foundation affiliation today | Ask the Canton Foundation, or check the LF Decentralized Trust project list | Free |
 | 10 | MiCA white paper for CC | ESMA interim MiCA register (crypto-asset white papers, CSV download) | Free |
 | 11 | Whether DTCC's DTS activity on Canton pays CC fees | DTCC DTS documentation / Important Notice DAS-001; ask DTCC Digital Assets which synchronizer DTS uses | Request to DTCC |
-| 12 | CIP-0129 date (dedicated synchronizers pay CC from Q1 2027) | Read CIP-0129 in the Canton CIP repo (`canton-foundation/cips` on GitHub) and its vote record on Lighthouse `governance` | Free |
+| 12 | ~~CIP-0129 date~~ **Done 17 Nov 2026:** [CIP-0129](https://github.com/canton-foundation/cips/blob/main/cip-0129/cip-0129.md) created 7 Oct 2026, approved 23 Oct 2026; Phase 1 Q1 2027 and Phase 2 Q3 2027 are estimates, not deadlines | — | — |
 | 13 | DA leaders and investor list | SEC Form D filings for Digital Asset Holdings, LLC on EDGAR; Delaware entity search | Free (Delaware details may cost a fee) |
 | 14 | Bybit and Upbit order-book depth | Bybit `v5/market/orderbook` (403 from this network — retry from another IP); Upbit `v1/orderbook?markets=KRW-CC` | Free, IP-dependent |
-| 15 | 21Shares Canton Coin ETF | SEC EDGAR full-text search for "Canton" in 21Shares S-1/485 filings | Free |
+| 15 | ~~21Shares Canton Coin ETF~~ **Done 17 Nov 2026:** 21shares Canton Network ETF (TCAN), Nasdaq, inception 7 May 2026, 0.50% fee ([21shares product page](https://www.21shares.com/en-us/products-us/tcan)) | — | — |
+| 16 | **Board chair vs co-chairs.** The about page is cited for Dr. Johnna Powell (DTCC) as board chair, but another row already says the board is co-chaired by DTCC and Euroclear | Re-read canton.foundation/about and name both chairs if both are current | Free |
+| 17 | **Development Fund start date** (the tokenomics line says 5% since Feb 2026) | CIP-0082 implementation note or the SEC incoming letter / Lighthouse `dev-fund` | Free |
 
 ---
 

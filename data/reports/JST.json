@@ -59,13 +59,13 @@
     "market_cap_text": "$1.150B",
     "volume_24h_text": "$20.2M"
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/JST.md",
-    "sha256": "7b04ca2d4ab8aa1dfb9efbbb6929215eba246297d29bd405e1d3d7f44ebda0ff",
-    "bytes": 30078,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "eaa09de557fe01fb5c965c59acb15820f637d88d09c9d98f97757c6d560befab",
+    "bytes": 30606,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -73,7 +73,7 @@
     "source_read_dates": [
       "16 Nov 2026 ~6:10 AM MST",
       "16 Nov 2026",
-      "2026-11-16"
+      "2026-11-17"
     ],
     "arkham_read": "16 Nov 2026 ~6:10 AM MST (signed-in account"
   },

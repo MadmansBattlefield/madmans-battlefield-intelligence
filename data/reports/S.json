@@ -66,13 +66,13 @@
     "price_usd": 0.03218,
     "volume_24h_text": "$21.4M"
   },
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-17",
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/S.md",
-    "sha256": "3ab8b836462d8c12c631431e5035a7f58478cb8d03915832efdbc72d12da72f2",
-    "bytes": 20141,
-    "extracted_at": "2026-11-16 15:44 MST",
+    "sha256": "4c06e4ffc26f038339e510844ae2769f0871c743b0862b4079d4c4d7184cfdcc",
+    "bytes": 20349,
+    "extracted_at": "2026-11-17 04:53 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
@@ -80,7 +80,7 @@
     "source_read_dates": [
       "16 Nov 2026",
       "16 Nov 2026 ~7:35 AM MST",
-      "2026-11-16"
+      "2026-11-17"
     ],
     "arkham_read": "16 Nov 2026 ~7:35 AM MST (signed-in account"
   },

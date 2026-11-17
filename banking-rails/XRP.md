@@ -3,7 +3,7 @@ ticker: XRP
 name: XRP
 chain: xrp-ledger
 contract: "native (XRP Ledger)"
-overall_score: 5.1
+overall_score: 5.2
 overall_verdict: FAIL
 section_scores:
   revenue: 2
@@ -15,7 +15,7 @@ section_scores:
   product_development: 7
   adoption_customers: 6
   security_audits: 7
-  regulatory: 7
+  regulatory: 8
   catalysts: 5
 gates_failed: [revenue]
 red_lines:
@@ -35,13 +35,13 @@ attributions: []
 price_usd: 0.953837
 price_source: "CoinGecko, 14 Nov 2026 12:12 PM MST"
 chain_read_ledger: 108330736
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
 ## 🧾 QUICK REVIEW CARD
 
-### XRP · Overall grade **5.1 / 10 · ❌ FAIL**
+### XRP · Overall grade **5.2 / 10 · ❌ FAIL**
 
 **Summary:** A fast, cheap, long-running ledger, but the network collects only ~$282k a year in fees, Ripple still controls about a third of supply, and ~300M XRP a month leaves escrow into a Ripple chain of wallets whose final buyers are not disclosed.
 
@@ -60,7 +60,7 @@ layout_version: 3
 | 🧑‍💻 Product & development | 7/10 | ✅ PASS |
 | 🤝 Adoption & customers | 6/10 | ✅ PASS |
 | 🛡️ Security & audits | 7/10 | ✅ PASS |
-| ⚖️ Regulatory | 7/10 | ✅ PASS |
+| ⚖️ Regulatory | 8/10 | ✅ PASS |
 | 📅 Catalysts & calendar | 5/10 | ❌ FAIL |
 
 *Pass = 6 or more out of 10. Full details for every section follow below. Overall fails the **Revenue gate** (2 ≤ 3).*
@@ -68,7 +68,7 @@ layout_version: 3
 ---
 
 
-# 🪪 XRP · XRP · 5.1 / 10 · ❌ FAIL
+# 🪪 XRP · XRP · 5.2 / 10 · ❌ FAIL
 
 > **One line:** A fast, cheap, long-running ledger, but the network collects only ~$282k a year in fees, Ripple still controls about a third of supply, and ~300M XRP a month leaves escrow into a Ripple chain of wallets whose final buyers are not disclosed.
 
@@ -180,9 +180,10 @@ layout_version: 3
 
 - No ledger hack; no halt in this series. Brief past consensus stalls are known history. Kraken / Coinbase operational pauses are exchange issues, not ledger issues.
 
-## ⚖️ Regulatory · 7/10 · ✅ PASS
+## ⚖️ Regulatory · 8/10 · ✅ PASS
 
-- SEC v. Ripple litigation concluded in 2025 after both sides dropped appeals [Tier B]. Exchange and ETP listings in the US followed. Residual: Ripple's ongoing distribution is the main policy question.
+- **US:** SEC Release 33-11412 (issued 17 Mar 2026, effective 23 Mar 2026, joined by the CFTC) names **XRP (XRP)** as an example of a **digital commodity**, which is not a security ([Tier A] [govinfo](https://www.govinfo.gov/content/pkg/FR-2026-03-23/html/2026-05635.htm)). SEC v. Ripple litigation concluded in 2025 after both sides dropped appeals [Tier B]. Exchange and ETP listings in the US followed. Residual: Ripple's ongoing distribution is the main policy question.
+- **Correction, 17 Nov 2026:** Regulatory **7 → 8** after Release 33-11412 was applied. Overall **5.1 → 5.2**. Still FAIL on the revenue gate.
 
 ## 📅 Catalysts & calendar · 5/10 · ❌ FAIL
 

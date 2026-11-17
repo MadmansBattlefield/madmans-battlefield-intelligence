@@ -35,7 +35,7 @@ attributions: []
 price_usd: 0.080319
 price_source: "CoinGecko algorand, 15 Nov 2026 6:45 AM MST"
 chain_read_round: 66980074
-last_updated: 2026-11-15
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -109,7 +109,7 @@ layout_version: 3
 | Entity | Algorand Foundation. In Jan 2026 it **moved back to the US, with headquarters in Delaware**. It took over protocol development from Algorand Technologies in Q1 2026 and now publishes as "Algorand" | [Tier A] Q1 2026 transparency report |
 | CEO | **William Herkelrath**, effective 31 Aug 2026, succeeding Staci Warden (announced 9 Sep 2026) | [Tier A] Algorand press release (PR Newswire) and algorand.co blog |
 | CFO | Harpal Singh (signs the transparency reports) | [Tier A] Q2 2026 report |
-| CTO | Bruno Martins (named Q1 2026) | [Tier A] Q1 2026 report |
+| CTO | Bruno Martins was appointed in Mar 2026 (named in the Q1 2026 report) and **resigned around 9 Oct 2026**. No successor was named. Marketing and strategy chief Marc Vanlerberghe left around 14 Oct 2026 | [Tier A] Q1 2026 report (appointment); [Tier A] Martins' own X post, 9 Oct 2026 (resignation); [Tier B] contemporaneous news (Vanlerberghe) |
 | Founder | Silvio Micali | [Unverified] not re-checked against a primary page this pass |
 | Staff | **25% reduction in force** at the end of Q1 2026 | [Tier A] Q1 2026 report |
 | Community bodies | 6 Nov 2026: **xGov grants paused** (effective 6 Dec), **forum closed**, Ecosystem Advisory Council ended, Technical Council sponsorship ended | [Tier A] Community Update |
@@ -276,12 +276,13 @@ layout_version: 3
 - [Tier A] AlgoNode public algod ([`mainnet-api.algonode.cloud`](https://mainnet-api.algonode.cloud/v2/ledger/supply)) and indexer ([`mainnet-idx.algonode.cloud`](https://mainnet-idx.algonode.cloud/v2/accounts/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E/transactions?limit=100)); human-readable views on [Allo](https://allo.info) (every account and tx cited is linked inline and in the Evidence trail): ledger supply, all published Foundation accounts, selling-wallet and [`45KKMHBB…`](https://allo.info/account/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E) transaction histories, block samples; 15 Nov 2026 ~6:50 AM MST
 - [Tier A] [Algorand Foundation transparency page and account list](https://algorand.co/algorand-foundation/transparency); Q1 2026 and Q2 2026 transparency reports (PDF)
 - [Tier A] [Algorand Community Update, 6 Nov 2026](https://algorand.co/blog/algorand-community-update); CEO announcement (PR Newswire / algorand.co, 9 Sep 2026)
+- [Tier A] Bruno Martins' X post, 9 Oct 2026, announcing his resignation as CTO; [Tier B] news coverage of that post and of Marc Vanlerberghe's departure around 14 Oct 2026
 - [Tier A] DefiLlama fees, chain TVL, stablecoins; CoinGecko market data, tickers with depth and 365 daily closes (15 Nov 2026 6:45 AM MST)
 - [Tier A] GitHub API `algorand/go-algorand` (activity, releases incl. v4.7.2-stable)
 - [Tier A] SEC release 33-11412; ESMA interim MiCA register
 - [Tier B] Blockworks "Algorand Token Holder Report Q3 2026" (13 Nov 2026); CoinDesk (CEO change)
 - [Tier B] [Arkham](https://intel.arkm.com/explorer/address/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E), read 15 Nov 2026 ~11:05 AM MST (signed-in account): **Algorand is not supported** ([`45KKMHBB…`](https://allo.info/account/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E) returns "Something went wrong / Couldn't load portfolio"; [`DI6YXMONC7…`](https://allo.info/account/DI6YXMONC7PFVCRXHFP4UQCV5UXUFWO3Z2QURBV2K3SQLHILW3CROQ7UOI) and [`GSRT2TB2…`](https://allo.info/account/GSRT2TB2TADJ2YCE4A6O2ZH6TPFN3J2ACN5YOHT42MZKOO6LF4RFGAVSMQ) not opened for the same reason). Open item #3 stays open
-- [Unverified] HesabPay and x402 figures; Flow Traders; FIFA migration; founder; senior-exit report; the end of structured selling
+- [Unverified] HesabPay and x402 figures; Flow Traders; FIFA migration; founder; the end of structured selling
 
 ## 🔗 Evidence trail
 
@@ -308,6 +309,7 @@ layout_version: 3
 | 2 | **~157M ALGO gap** between the 30 Jun report (1,036M) and today's published-account total (878.9M) | Compare the Q3 report's "Foundation holdings" line and reconciliation table with a live sum. Also sum the **legacy Foundation accounts** list linked on the transparency page, which this pass did not include | Free |
 | 3 | **Who is [`45KKMHBB…`](https://allo.info/account/45KKMHBBE5DDNPQNFAFNCOYLDIFKCKFLN4GZOOAEHLF6OR3CQSTELRCL6E), and who are [`DI6YXMONC7…`](https://allo.info/account/DI6YXMONC7PFVCRXHFP4UQCV5UXUFWO3Z2QURBV2K3SQLHILW3CROQ7UOI), [`S6VQ2RAB…`](https://allo.info/account/S6VQ2RABLUOAXZ2MUFQXKDYLPVIYDO4C72ZBY763CL534MCN5RLZASSEEI), [`GSRT2TB2…`](https://allo.info/account/GSRT2TB2TADJ2YCE4A6O2ZH6TPFN3J2ACN5YOHT42MZKOO6LF4RFGAVSMQ)?** (where the sold ALGO goes) | **Arkham checked 15 Nov 2026: Algorand not supported, so Arkham cannot label these; stays open.** Ask the Foundation which custodian or OTC desk receives structured-selling transfers. Check Pera Explorer / Allo.info name tags. Nansen may label some Algorand exchange wallets (paid) | Free ask · Nansen paid |
 | 4 | **Did Q1 sales match transfers?** (27M moved Jan–Feb vs 24M reported sold) | Q1 report reconciliation vs indexer. Ask the CFO whether the 3M difference was held over or sold in Q2 | Free |
+| 5 | **CTO successor after Martins' 9 Oct 2026 resignation** | Foundation announcement or the next transparency report | Free |
 | 5 | **Real fee revenue** (DefiLlama $6.5k/yr vs our ≤$23k/yr estimate) | Sum the `fee` field over all transactions for 30 days from the indexer (`/v2/transactions?min-round=…&max-round=…`, paginated), or run a Conduit / indexer export | Free but slow (~25M txs a month); a self-hosted indexer is faster |
 | 6 | **Falcon-1024 / Algorand 5.0 dates and usage** | `go-algorand` v5.0.x release notes on GitHub, plus Algorand's own blog post on Algorand 5.0 | Free |
 | 7 | **HesabPay volume, x402 settlements, Flow Traders** | HesabPay's own disclosures; GoPlausible x402 facilitator stats; Flow Traders press release on PR Newswire; on-chain, the USDC (ASA 31566704) transfer volume to known HesabPay accounts if published | Free; HesabPay volume may need a request |

@@ -29,14 +29,14 @@ red_lines:
 methodology_effective: 2026-11-16
 revenue_reaches_holders: "no"
 revenue_mechanism: "Company-run buybacks are discretionary and tiny relative to its revenue (~$1 to holders per $225 kept); nothing is automatic or obligated. Holders have no live claim on revenue; the score describes the business, not holder accrual."
-pump_day_price_source: "CoinGecko daily closes"
+pump_day_price_source: "CoinGecko CARDS daily closes, re-run 17 Nov 2026 with scripts/pump_day_test.py (122 of 360 days); midnight stamps labelled as the close of the prior UTC day; partial current-day tick dropped"
 pump_day_disclosure_quality: not_applicable
 pump_day_undisclosed_penalty_applied: false
 dual_review: not_run
 attributions: []
 price_usd: 0.1496
 price_source: "CoinGecko, 16 Nov 2026 5:08 AM MST"
-last_updated: 2026-11-16
+last_updated: 2026-11-17
 layout_version: 3
 ---
 
@@ -164,7 +164,7 @@ Labels: Nansen tags `E1t8…` "Coinbase / CEX" and `H8sM…` "Coinbase: Hot Wall
 ## 💧 Liquidity & market · 5/10 · ❌ FAIL
 
 - $4.66M of volume in 24h on a $133M cap (≈ 3.5% turnover). The main venue is the treasury-seeded Raydium CLMM pool; Coinbase hot-wallet flows exist.
-- Very volatile: **122 of the last 365 days were pump days**. The price is down 61% from the 21 Oct 2026 ATH and −48.7% in 30 days.
+- Very volatile: **122 of 360 days** in 16 Nov 2025 – 16 Nov 2026 were pump days (CoinGecko daily closes, midnight-stamp convention, re-run 17 Nov 2026). 6 Nov 2026 remains not a pump day (+5.8%). 14 Jun, 27 May, 15 Aug and 5 Oct remain pump days. The price is down 61% from the 21 Oct 2026 ATH and −48.7% in 30 days.
 
 ## 🧑‍💻 Product & development · 6/10 · ✅ PASS
 
