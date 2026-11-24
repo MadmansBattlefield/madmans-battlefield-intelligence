@@ -21,6 +21,8 @@ Times are in **MST**.
 - [banking-rails/](banking-rails/) — token and protocol research notes
 - [Cover sheet](banking-rails/COVER.md) — why the reports exist and how they are scored
 - [METHODOLOGY.md](METHODOLOGY.md) — full v3 rulebook, including the 16 Nov 2026 upgrades
+- [CHANGELOG.md](CHANGELOG.md) — dated methodology, scoring-version, process-rule and report changes
+- [TIMELINE.md](TIMELINE.md) — chronological growth of the project, with sourced counts
 - [Ranking](banking-rails/RANKING.md) — all 184 v3 scores, ranked
 - [All projects](banking-rails/ALL-PROJECTS.md) — every project in the pipeline, grouped by status
 - [HISTORY.md](HISTORY.md) — score history for every published report

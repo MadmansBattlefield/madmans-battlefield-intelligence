@@ -24,6 +24,8 @@ Times in this repository are in **MST**.
 | [calendar.md](calendar.md) | Upcoming market events |
 | [sources.md](sources.md) | Vetted source list and the verification rule |
 | [METHODOLOGY.md](METHODOLOGY.md) | Full v3 rulebook, including the 16 Nov 2026 upgrades |
+| [CHANGELOG.md](CHANGELOG.md) | Dated methodology, scoring-version, process-rule and report changes |
+| [TIMELINE.md](TIMELINE.md) | Chronological growth of the project, with sourced counts |
 | [HISTORY.md](HISTORY.md) | Score history for every published report |
 | [BASE-RATES.md](BASE-RATES.md) | Pass rate, gate fails, pump-day sales, and holder-accrual rates |
 | [DEAD.md](DEAD.md) | Dated "moved to dead" list and negative controls |
