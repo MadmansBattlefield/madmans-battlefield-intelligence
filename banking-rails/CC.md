@@ -354,3 +354,50 @@ layout_version: 3
 - **Pump day** = a daily close at least 10% above the close five days earlier. A team, foundation or treasury wallet selling (or funding a wallet that sells) on a pump day, without disclosure, fails Selling behavior.
 - Sources: [Tier A] = primary (chain reads, official docs, filings, the DEX's own API). A fact needs 1 Tier A or 2 Tier B, or it is marked [Unverified]. Unknowns say "Not found" and what would answer them.
 - Research only. Not investment advice.
+
+---
+
+## Research update 24 Nov 2026 (MST): HSBC–Uber Canton treasury pilot — reported only, unscored
+
+This section adds primary-source findings from the official 30 Oct 2026 joint release on the HSBC–Uber Canton Network pilot, plus press and livestream context labelled where it is not official. It does not change the score, badge, formula, or the `revenue_reaches_holders` result (still yes, via Canton’s documented automatic traffic-fee burn; this pilot is a separate fact pattern).
+
+### Official facts (30 Oct 2026 joint release)
+
+The official release, [“Uber Completes Pilot of a First-Ever On-Chain Liquidity and Settlement Solution on a Public Network”](https://www.about.us.hsbc.com/newsroom/press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network) (30 Oct 2026; also reprinted by Tradeweb and Canton Network), states that Uber completed a pilot of an on-chain liquidity and settlement solution on Canton Network. Officially named parties and mechanics:
+
+- HSBC tokenized deposits
+- Franklin Templeton tokenized money-market fund via Benji
+- Tradeweb
+- Fireblocks
+- Delivery-versus-payment (DvP) settlement on Canton
+- A weekend partial redemption
+
+**Size is not disclosed** in the official release.
+
+### Press-reported duration — Unverified
+
+[PYMNTS, 2 Nov 2026](https://www.pymnts.com/news/b2b-payments/2026/uber-helped-scale-embedded-finance-now-its-turning-to-24-7-enterprise-treasury/) reports that the size and return were “not disclosed,” and describes the weekend window as about **1.5 days**. The 1.5-day figure is press-reported and is **Unverified** as an official HSBC or Uber number. The official release describes a weekend partial redemption and does not itself state “1.5 days.”
+
+### Livestream $1B / $110k figure — an estimate, not a disclosed fact
+
+On a 24 Nov 2026 public livestream ([YouTube, Crypto Millie, “Zebec a NEW distribution channel,” id QMyED-T_Wfc](https://www.youtube.com/watch?v=QMyED-T_Wfc); released about 11:12 AM MST), the hosts estimated that Uber would have earned about $110k if it had parked $1B for 1.5 days at around 2.6%. Official releases do not disclose a notional size or a return. The $1B / $110k pair is an **estimate by the livestream hosts**, not a disclosed official figure, and is **Unverified**.
+
+### Canton Coin (CC) — no fee or payout stated for this pilot
+
+The official HSBC–Uber release does not mention Canton Coin, a CC fee, a CC payout, or a burn tied to this pilot. Whether any CC was burned as a result of the pilot is **Unverified**.
+
+Separate from this pilot, Canton’s official tokenomics still describe an automatic traffic-fee burn ([Canton Coin tokenomics](https://docs.canton.network/overview/reference/canton-coin-tokenomics)). That general mechanism is already the basis for this report’s holder-accrual result and is **not changed** by this update. A general fee-burn rule is not evidence that this specific pilot incurred a fee or a burn.
+
+### Rails vs tokens — value-accrual context (opinion flagged)
+
+A 24 Nov 2026 desk comparison of payments and TradFi rails with a public-token value-accrual path. **Opinion, clearly labelled:** large firms can use a settlement rail without issuing or sharing cash flow with a public token. When a project does have a public token, holder accrual is a documented mechanism, not a partnership headline. Evidence (not a score change):
+
+| Rail or project | Official facts | Public-token value accrual |
+|---|---|---|
+| Tempo (Stripe + Paradigm) | Official docs: no native gas token; USD stablecoin fees ([network fees](https://tempo.xyz/developers/docs/network/fees); [Stripe Tempo overview](https://docs.stripe.com/stablecoins/ecosystem/tempo)). Design partners named on [Paradigm’s 4 Sep 2025 post](https://www.paradigm.xyz/writing/tempo-payments-first-blockchain). A reported $500M raise at a $5B valuation (Fortune, 17 Oct 2025, anonymous sources) is **Unverified** at the official Tempo / Stripe level. | No public Tempo token is documented in official docs. |
+| HSBC–Uber on Canton | Official 30 Oct 2026 joint release, as above. Size not disclosed. The 1.5-day duration is press-reported and Unverified. | The official release does not state a CC fee or payout. Whether CC was burned is **Unverified**. |
+| Zebec Super App / ZBCN (see the ZBCN 24 Nov 2026 update) | Official Super App launch dates and self-reported volume (Unverified throughput, not revenue). | The only official revenue-linked dollar figure is the about $100k Q3 buyback, held not burned. `revenue_reaches_holders` remains no. |
+| ONDO (context only) | This desk’s ONDO report already records product fees and a token with no cash-flow claim. | Token earns nothing; no change in this update. |
+| PLUME (context only) | This desk’s PLUME report already records small chain fees and vault fees to users and curators. | No burn; no change in this update. |
+
+**Opinion (flagged):** a working treasury rail on Canton is not, by itself, proof that CC holders captured value from this pilot. The official write-up names the settlement rail and the counterparties; it does not name a CC fee, a payout, or a burn.

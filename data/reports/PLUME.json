@@ -63,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/PLUME.md",
-    "sha256": "31972a46c087a766eee703601095e6b47b1501cc0d05dac2f4c65ccbab007b44",
-    "bytes": 30809,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "42fa3eb185731db946a9f52f68aa3ec8aa70aaccc51332a6021fca0ff4ec1ce2",
+    "bytes": 31459,
+    "extracted_at": "2026-11-24 15:08 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

@@ -329,3 +329,65 @@ Where the traced pieces landed (1–3 hops after step 4; only part of the tree w
 - **Pump day** = a daily close at least 10% above the close five days earlier. A team, foundation or treasury wallet selling (or funding a wallet that sells) on a pump day, without disclosure, fails Selling behavior.
 - Sources: [Tier A] = primary (chain reads, official docs, filings, the DEX's own API). A fact needs 1 Tier A or 2 Tier B, or it is marked [Unverified]. Unknowns say "Not found" and what would answer them.
 - Research only. Not investment advice.
+
+---
+
+## Research update 24 Nov 2026 (MST): Super App launch dates, self-reported volume, and Q3 buyback — reported only, unscored
+
+This section adds primary-source findings from a 24 Nov 2026 desk review of official Zebec docs and posts, plus Unverified leads from a same-day public livestream ([YouTube, Crypto Millie, “Zebec a NEW distribution channel,” id QMyED-T_Wfc](https://www.youtube.com/watch?v=QMyED-T_Wfc)). It does not change the score, badge, formula, or the `revenue_reaches_holders` result (still no). Company volume figures below are **Unverified**, unaudited throughput, not revenue.
+
+### Super App launch dates (official)
+
+- Desktop Super App: Zebec’s [Q1 2026 report](https://zebec.io/blog/q1-2026-report) says the desktop Super App launched in late February 2026.
+- Mobile Super App: official blog [“Meet the Zebec SuperApp (Mobile),” 17 Jul 2026](https://zebec.io/blog/meet-the-zebec-superapp-mobile). This report already records App Store version 0.1.1 dated 11 Jul 2026.
+- Product docs: [Web SuperApp](https://docs.zebec.io/zebec-application-suite/web-superapp); [cards](https://docs.zebec.io/zebec-product-information/cards).
+
+### Self-reported volume — Unverified, unaudited throughput, not revenue
+
+None of the figures in this table is a published revenue number. They are company usage or volume claims. They have not been audited in a filing reviewed for this update, and they are labelled **Unverified**.
+
+| Claim | Source | Status |
+|---|---|---|
+| $49M monthly payroll; $65.1M card volume described as “rolling 4-week annualized” (the label is ambiguous and is not treated as revenue) | [Q1 2026 report](https://zebec.io/blog/q1-2026-report) | Unverified throughput, not revenue |
+| $72.3M card volume / $55M monthly payroll / 271 clients (September recap) | Already recorded in this report | Unverified throughput, not revenue |
+| $500M annual payroll network and more than 50,000 monthly active users; USX to roll out on payroll infrastructure and the Super App | Official blog [“Zebec Introduces ‘Earn on Pay’ Capability with Solstice’s USX,” 13 Aug 2026](https://zebec.io/blog/zebec-introduces-earn-on-pay-capability-with-solstices-usx). Product docs still described the USX / Solstice integration as coming soon as of this pass ([USX / Solstice](https://docs.zebec.io/zebec-product-information/yield/usx-solstice)). | Company claim; Unverified as current audited usage or revenue |
+| PayBridge “more than $300 million in annual payroll volume”; PayBridge and School Payroll Services together said to have added 12,000 users | Official blogs [Fintech Fusion](https://zebec.io/blog/fintech-fusion-the-role-of-m-a-in-zebecs-vision) and [Transformative Acquisitions](https://zebec.io/blog/zebecs-transformative-acquisitions-building-the-one-stop-payments-infrastructure-for-global-finance) | Historical acquisition/volume claims, not Super App revenue; Unverified as current figures |
+
+### The only revenue-linked dollar figure on file
+
+The only dollar figure in official Zebec materials that is tied to a token-holder mechanism remains the Q3 2026 buyback: **40,536,539 ZBCN, about $100,000**, announced on Zebec’s official X account on 21 Oct 2026. This report already records that those tokens are held in the buyback wallet [`EkXEg6de172aoLvr7w86YzQ2rf5oEFD3iUt8uQsLQuQW`](https://solscan.io/account/EkXEg6de172aoLvr7w86YzQ2rf5oEFD3iUt8uQsLQuQW) (108.26M as of 3 Nov 2026), held at Uphold, and that burns remain about 1.23M all-time, with **0 burned from the buyback wallet**. See [Inside the ZBCN buyback program](https://zebec.io/blog/inside-the-zbcn-buyback-program) (ZIP-4 paused burns).
+
+No published company, Super App, or protocol revenue figure was found on 24 Nov 2026. DefiLlama had no Zebec fees or revenue adapter when checked on 24 Nov 2026.
+
+### Marketing claims vs what is on file
+
+Official marketing and docs include “fully deflationary” language and claims that Super App fees automatically convert into ZBCN ([tokenomics](https://docs.zebec.io/zebec-protocol/tokenomics); [How ZBCN powers the Zebec SuperApp](https://zebec.io/blog/how-zbcn-powers-the-zebec-superapp)). Those claims conflict with the current on-file facts: ZIP-4 paused burns, and buyback inventory is held, not burned. This is a documentation conflict, not a score change.
+
+### Official payroll-chain wording — discrepancy to reconcile, list not changed
+
+This report’s Product section still lists Enterprise Payroll as live on Solana, Stellar, Canton, Aleo, Algorand, and Base, and separately marks Ripple / XRPL payroll as Confirmed. Official docs as of 24 Nov 2026, [Supported chains and assets](https://docs.zebec.io/zebec-application-suite/enterprise-payroll/supported-chains-and-assets), also say: “Solana, Stellar, XRP Ledger, and Canton are supported for both payroll and card products. All other chains are currently supported for card products only; payroll support is coming soon.” The same docs page lists additional chains in a table. **This is a discrepancy to reconcile. The listed chains in this report were not silently changed.**
+
+### Livestream leads — Unverified
+
+A 24 Nov 2026 public livestream (YouTube id `QMyED-T_Wfc`, Crypto Millie; released about 11:12 AM MST; duration 1:03:11) discussed Zebec distribution and showed on-screen posts attributed to CEO Simon Babakhani. YouTube is a lead source, not a primary official publication. The following remain **Unverified leads** until Zebec publishes them:
+
+- Meetings with WisdomTree “this week” (on-screen post; no official Zebec blog confirmation found on 24 Nov 2026).
+- A Midnight (NIGHT) partnership or hookup (livestream discussion; no official Zebec or Midnight confirmation found on 24 Nov 2026).
+- “Payro Finance” as a named lending partner (the name appears in secondary coverage; no confirmed product page on zebec.io was found in this pass).
+- Automatic conversion of Super App fees into ZBCN (repeated on the stream; conflicts with paused burns and held buyback inventory, as above).
+
+A Stripe Tempo “chain deal” remains Unverified as a Zebec partnership, as already noted in this report. Official Tempo docs themselves state there is no native or separate gas token and that fees are paid in USD TIP-20 stablecoins ([Tempo network fees](https://tempo.xyz/developers/docs/network/fees); [pay fees in any stablecoin](https://developers.tempo.xyz/docs/guide/payments/pay-fees-in-any-stablecoin); [Stripe Tempo overview](https://docs.stripe.com/stablecoins/ecosystem/tempo)). That is a fact about Tempo, not a confirmation of a Zebec deal.
+
+### Rails vs tokens — value-accrual context (opinion flagged)
+
+A 24 Nov 2026 desk comparison of payments and TradFi rails with a public-token value-accrual path. **Opinion, clearly labelled:** large firms can use a settlement rail without issuing or sharing cash flow with a public token. When a project does have a public token, holder accrual is a documented mechanism, not a partnership headline. Evidence (not a score change):
+
+| Rail or project | Official facts | Public-token value accrual |
+|---|---|---|
+| Tempo (Stripe + Paradigm) | Official docs: no native gas token; USD stablecoin fees. Design partners named on [Paradigm’s 4 Sep 2025 post](https://www.paradigm.xyz/writing/tempo-payments-first-blockchain). A reported $500M raise at a $5B valuation (Fortune, 17 Oct 2025, anonymous sources) is **Unverified** at the official Tempo / Stripe level. | No public Tempo token is documented in official docs. |
+| HSBC–Uber on Canton (see the CC 24 Nov 2026 update) | Official 30 Oct 2026 joint release: tokenized deposits, Franklin Templeton Benji money-market fund, Tradeweb, Fireblocks, delivery-versus-payment, and a weekend partial redemption. Size not disclosed. | The official release does not state a CC fee or payout. Whether CC was burned is **Unverified**. |
+| Zebec Super App / ZBCN | Official launch dates and self-reported volume as above. | The only official revenue-linked dollar figure is the about $100k Q3 buyback, held not burned. `revenue_reaches_holders` remains no. |
+| ONDO (context only) | This desk’s ONDO report already records product fees and a token with no cash-flow claim. | Token earns nothing; no change in this update. |
+| PLUME (context only) | This desk’s PLUME report already records small chain fees and vault fees to users and curators. | No burn; no change in this update. |
+
+**Opinion (flagged):** a working payments or treasury rail is not the same thing as a token-holder claim on its fees. The HSBC–Uber pilot and Tempo’s official no-token fee design are examples of rails that can run without a documented payout to a public token. Zebec has a public token and a documented buyback, but the buyback is small, held rather than burned, and company volume claims are not published revenue.

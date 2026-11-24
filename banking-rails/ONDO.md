@@ -289,3 +289,9 @@ layout_version: 3
 - **Pump day** = a daily close at least 10% above the close five days earlier. A team, foundation or treasury wallet selling (or funding a wallet that sells) on a pump day, without disclosure, fails Selling behavior.
 - Sources: [Tier A] = primary (chain reads, official docs, filings, the DEX's own API). A fact needs 1 Tier A or 2 Tier B, or it is marked [Unverified]. Unknowns say "Not found" and what would answer them.
 - Research only. Not investment advice.
+
+---
+
+## Research update 24 Nov 2026 (MST): rails-vs-tokens context — reported only, unscored
+
+A 24 Nov 2026 desk review of payments and TradFi rails (Tempo’s official no-native-token fee design, the HSBC–Uber Canton treasury pilot, and Zebec Super App volume claims) compared how value accrues when a project has a public token and when it does not. This ONDO report is unchanged: the products generate fees and the token has no cash-flow claim (see Revenue; `revenue_reaches_holders` remains no). The comparison table is in the ZBCN and CC 24 Nov 2026 research updates. No score, badge, formula, or holder-accrual change.

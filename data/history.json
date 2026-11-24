@@ -1,7 +1,7 @@
 {
   "title": "Score history for published v3 reports",
   "timezone_label": "MST",
-  "generated_at": "2026-11-17 05:38 MST",
+  "generated_at": "2026-11-24 15:09 MST",
   "note": "Backfilled from git history of banking-rails/<TICKER>.md. Adjacent commits with identical scores are collapsed to the latest commit of that run. Scores are not recalculated.",
   "reports": [
     {
@@ -4181,6 +4181,31 @@
           },
           "gates_failed": [
             "revenue"
+          ],
+          "last_updated": "2026-11-17"
+        },
+        {
+          "commit": "1f0c7d5f9d16aea62a3f04f6d462720ae57008be",
+          "committed_at_mst": "2026-11-17 05:39 MST",
+          "subject": "ONDO: treat the 0xEA57 Coinbase payouts as a proven one-hop sale",
+          "overall_score": 4.6,
+          "overall_verdict": "FAIL",
+          "section_scores": {
+            "revenue": 3,
+            "foundation_team": 4,
+            "insider_holdings": 3,
+            "selling_behavior": 3,
+            "tokenomics_supply": 2,
+            "liquidity_market": 9,
+            "product_development": 7,
+            "adoption_customers": 7,
+            "security_audits": 6,
+            "regulatory": 7,
+            "catalysts": 3
+          },
+          "gates_failed": [
+            "revenue",
+            "selling"
           ],
           "last_updated": "2026-11-17"
         }

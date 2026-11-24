@@ -93,7 +93,10 @@ The same day brought approved supply, fee-routing and fact-check corrections (HB
 
 A v69 triage rerun after the morning batch moved a few mid-list ranks (SOL, already #1, 62.6 → 62.9; DOT and TRAC entered the top 50; RED and ACH left it). The top 10 did not change, and the formula did not change. Two later reruns the same afternoon produced no further score or rank changes. The live ranking file at 4:48 PM MST still reads **155** ranked, **70** Watch, **812** disqualified, methodology **v69**.
 
-Work after 22 November, including any later wallet-label research, is not in this timeline until it is approved and logged.
+On 24 November 2026, about 3:15 PM MST, Madman approved a reported-only research update (no score, badge, formula, or holder-accrual change) adding 24 Nov 2026 (MST) sections to the published [ZBCN](banking-rails/ZBCN.md), [CC](banking-rails/CC.md), [ONDO](banking-rails/ONDO.md) and [PLUME](banking-rails/PLUME.md) reports: official Zebec Super App launch dates and Unverified volume claims, the about $100k Q3 ZBCN buyback as the only official revenue-linked dollar figure, official HSBC–Uber Canton pilot facts from the 30 Oct 2026 joint release (size not disclosed; the 1.5-day duration and a $1B / $110k estimate labelled Unverified), and a rails-vs-tokens value-accrual comparison with opinion flagged. ONDO and PLUME received only a short context line. Earlier 24 November wallet-label research remains in the internal methodology log and was not added to these public v3 pages in this publish.
+
+---
+
 
 ---
 

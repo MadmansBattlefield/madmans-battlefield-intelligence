@@ -20,6 +20,20 @@ A project-growth narrative, with counts, is in [TIMELINE.md](TIMELINE.md).
 
 ---
 
+## 2026-11-24 — Reported-only research updates: ZBCN Super App, the HSBC–Uber Canton pilot, and rails vs tokens
+
+Approved by Madman. No v3 score, badge, formula, or `revenue_reaches_holders` change. Front matter `last_updated` dates on the four reports were left as they were.
+
+New dated 24 Nov 2026 (MST) research sections were added to the published reports as reported-only appendices (after “How scores work”), from a desk review of official primary sources and clearly labelled Unverified leads:
+
+- **[ZBCN](banking-rails/ZBCN.md):** official Super App launch dates (desktop late February 2026; mobile 17 Jul 2026); self-reported volume figures labelled Unverified, unaudited throughput, not revenue; the about $100k Q3 buyback as the only official revenue-linked dollar figure, held not burned; no published company or Super App revenue and no DefiLlama fees adapter found on 24 Nov 2026; marketing claims such as automatic fee conversion and “fully deflationary” noted as conflicting with paused burns and held inventory; official payroll-chain docs wording vs the report’s listed chains recorded as a discrepancy to reconcile (the listed chains were not silently changed); livestream claims including WisdomTree meetings and a Midnight partnership listed as Unverified leads. A rails-vs-tokens evidence table is included, with opinion flagged.
+- **[CC](banking-rails/CC.md):** official 30 Oct 2026 HSBC–Uber Canton Network pilot facts (HSBC tokenized deposits, Franklin Templeton Benji money-market fund, Tradeweb, Fireblocks, delivery-versus-payment, a weekend partial redemption). Size is not disclosed. The 1.5-day duration is press-reported and Unverified as an official figure. The livestream hosts’ $1B / $110k pair is labelled an estimate, not a disclosed official figure. The official release does not state a CC fee or payout, so whether CC was burned in this pilot is Unverified. The report’s existing holder-accrual result was not changed.
+- **[ONDO](banking-rails/ONDO.md) and [PLUME](banking-rails/PLUME.md):** short context lines only, pointing to the rails-vs-tokens comparison. Their revenue and holder-accrual findings are unchanged.
+
+Primary sources are cited in the sections themselves (Zebec official blogs and docs, the HSBC joint release, Canton tokenomics, Tempo official fee docs, and PYMNTS where a figure is press-reported). YouTube is treated as a lead source, not a primary official publication.
+
+---
+
 ## 2026-11-22 — Element #32, report updates, and a v69 triage rerun
 
 Approved by Madman. The v69 score formula and component weights were not changed.

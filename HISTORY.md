@@ -1,6 +1,6 @@
 ---
 title: Score history
-generated_at: 2026-11-17 05:38 MST
+generated_at: 2026-11-24 15:09 MST
 timezone: MST
 disclaimer: Research only. Not financial advice. Not a recommendation to buy or sell.
 ---
@@ -131,7 +131,7 @@ Machine-readable copy: [data/history.json](data/history.json).
 | [NIGHT](banking-rails/NIGHT.md) | 1 | 3.8 | 3.8 | 1 | 4 | 1 |
 | [NUVA](banking-rails/NUVA.md) | 1 | 3.5 | 3.5 | 1 | 4 | 4 |
 | [OM](banking-rails/OM.md) | 1 | 3.4 | 3.4 | 2 | 4 | 4 |
-| [ONDO](banking-rails/ONDO.md) | 4 | 4.9 | 4.7 | 3 | 5 → 4 | 3 |
+| [ONDO](banking-rails/ONDO.md) | 5 | 4.9 | 4.6 | 3 | 5 → 3 | 3 |
 | [ORAI](banking-rails/ORAI.md) | 1 | 3.0 | 3.0 | 1 | 4 | 4 |
 | [ORBITER](banking-rails/ORBITER.md) | 1 | 3.8 | 3.8 | 3 | 4 | 3 |
 | [PACT](banking-rails/PACT.md) | 2 | 3.1 | 2.9 | 3 | 1 → 0 | 2 |
@@ -473,6 +473,7 @@ Each row is a commit in which that report's scores (or gates) changed, plus the 
 | `6fa4721` | 2026-11-15 18:37 MST | 4.7 | FAIL | 3 | 4 | 3 | revenue |
 | `03adc39` | 2026-11-16 14:24 MST | 4.3 | FAIL | 3 | 1 | 3 | revenue, selling_behavior |
 | `c43d84f` | 2026-11-17 04:54 MST | 4.7 | FAIL | 3 | 4 | 3 | revenue |
+| `1f0c7d5` | 2026-11-17 05:39 MST | 4.6 | FAIL | 3 | 3 | 3 | revenue, selling |
 
 - **ORAI** — 3.0 FAIL in `2f9f853` (2026-11-16 14:44 MST).
 - **ORBITER** — 3.8 FAIL in `2f9f853` (2026-11-16 14:44 MST).
