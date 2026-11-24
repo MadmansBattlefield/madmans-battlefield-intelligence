@@ -95,6 +95,8 @@ A v69 triage rerun after the morning batch moved a few mid-list ranks (SOL, alre
 
 On 24 November 2026, about 3:15 PM MST, Madman approved a reported-only research update (no score, badge, formula, or holder-accrual change) adding 24 Nov 2026 (MST) sections to the published [ZBCN](banking-rails/ZBCN.md), [CC](banking-rails/CC.md), [ONDO](banking-rails/ONDO.md) and [PLUME](banking-rails/PLUME.md) reports: official Zebec Super App launch dates and Unverified volume claims, the about $100k Q3 ZBCN buyback as the only official revenue-linked dollar figure, official HSBC–Uber Canton pilot facts from the 30 Oct 2026 joint release (size not disclosed; the 1.5-day duration and a $1B / $110k estimate labelled Unverified), and a rails-vs-tokens value-accrual comparison with opinion flagged. ONDO and PLUME received only a short context line. Earlier 24 November wallet-label research remains in the internal methodology log and was not added to these public v3 pages in this publish.
 
+Later on 24 November 2026, about 4:45 PM MST, Madman approved publishing the ZBCN treasury advisory to the [ZBCN](banking-rails/ZBCN.md) report as a reported-only appendix. The advisory gives the evidence trail from the published treasury hub and its hop wallets to exchange and DEX-pool endpoints. It also covers a free on-chain trace of about 1.02B ZBCN that `71LxiE4P…` sent to `EsDV3m3x…` between June and November 2026; all 19 recipient wallets were emptied into Nansen-labeled Bitget, OKX and Gate wallets and the Orca and Meteora pools. The assumed purpose is labelled as an Unverified hypothesis, and the advisory says more investigation is needed. No score, badge, formula, or holder-accrual change was made; the Real Rails treasury badge stays CAUTION.
+
 ---
 
 

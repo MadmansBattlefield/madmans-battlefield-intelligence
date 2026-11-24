@@ -20,6 +20,22 @@ A project-growth narrative, with counts, is in [TIMELINE.md](TIMELINE.md).
 
 ---
 
+## 2026-11-24 — ZBCN treasury advisory published (reported only; badge stays CAUTION)
+
+Approved by Madman. No v3 score, badge, formula, gate, or `revenue_reaches_holders` change. The Real Rails treasury badge for ZBCN stays **CAUTION**, and the front-matter `last_updated` date was left as it was.
+
+- **[ZBCN](banking-rails/ZBCN.md):** appended a dated 24 Nov 2026 (MST) "Treasury advisory" section after the research update. It contains:
+  - the full evidence trail (wallets and transaction links) from the published treasury hub and its hop wallets to Nansen-labeled exchange deposit and hot wallets and to the Orca and Meteora pools;
+  - the stablecoin feeder wallets;
+  - the upstream reserve wallets;
+  - a new free on-chain trace (H-22) of about 1.02B ZBCN sent from `71LxiE4P…` to `EsDV3m3x…` from June to November 2026, which followed all 19 recipients to their endpoints.
+- **Vesting check:** the `71LxiE4P…` stream from a Zebec streaming-program account ended on 16 Mar 2026. That matches the report's last scheduled unlock, so the 2026 releases are already-unlocked inventory, not a new unlock.
+- **Hypothesis:** the assumed purpose (a Zebec-side distribution or selling programme, possibly through a market maker or OTC desk) is labelled Unverified. Alternatives are listed, and the section says more investigation is needed.
+- **Labels (rule P12):** Nansen labels are treated as leads from a single third-party labeler. Every balance and transfer figure was checked against direct Solana RPC reads, and all 28 linked transaction signatures were confirmed on-chain on 24 Nov 2026 (MST).
+- **JSON:** `data/reports/ZBCN.json` was updated only in its `source_markdown` hash, byte count and extraction time.
+
+---
+
 ## 2026-11-24 — Reported-only research updates: ZBCN Super App, the HSBC–Uber Canton pilot, and rails vs tokens
 
 Approved by Madman. No v3 score, badge, formula, or `revenue_reaches_holders` change. Front matter `last_updated` dates on the four reports were left as they were.
