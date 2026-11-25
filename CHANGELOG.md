@@ -20,6 +20,26 @@ A project-growth narrative, with counts, is in [TIMELINE.md](TIMELINE.md).
 
 ---
 
+## 2026-11-25 — ZBCN: two corrections and where the sale proceeds went (reported only; badge stays CAUTION)
+
+Approved by Madman. No v3 score, badge, formula, gate, or `revenue_reaches_holders` change. The Real Rails treasury badge for ZBCN stays **CAUTION**, and the front-matter `last_updated` date was left as it was.
+
+- **[ZBCN](banking-rails/ZBCN.md), corrections dated 25 Nov 2026 (MST):**
+  - (a) The 40.25M ZBCN sent to `4GQeEya6…` were Jupiter Z RFQ fills to a market maker that paid the sellers 889.29 SOL. They were not transfers to a "Trading Bot".
+  - (b) Not every hop wallet was single-use: `8ECrFpay…` and `ABvL8Ado…` were reused.
+  - The 24 Nov advisory text was corrected in place, with correction marks, and its open item on `4GQeEya6…` was marked done.
+- **New section, "Where the cash went, 25 Nov 2026 (MST)":**
+  - **Proceeds:** 36 sales of 325.75M ZBCN for 7,141.87 SOL plus 19,088 USDC (about $694k at daily SOL prices).
+  - **Bridge:** 97.2% of the SOL was bridged to Hyperliquid through Hyperunit (confirmed by Hyperunit's public API).
+  - **Hyperliquid:** spot trades only; no perpetual-futures trades.
+  - **Return legs:** 3,718.13 SOL came back to Solana and converged on one wallet, which sent 31.6% to a Nansen-labeled Binance wallet and 68.4% to an unlabeled high-balance wallet. 169.31 ETH went to Ethereum (one hop checked; 21.2 ETH reached an Etherscan-tagged Binance wallet).
+  - **No link back to Zebec:** no proceeds returned to any known Zebec-linked wallet. The section states this does not clear Zebec.
+  - The section also lists what can't be traced and the open items, with full transaction links.
+- **Sources and labels:** free public data only (Solana RPC, Hyperunit and Hyperliquid public APIs, Blockscout, CoinGecko daily prices). Nansen and Etherscan labels are treated as third-party leads (P12), and hypotheses are labelled Unverified. All 11 Solana transaction signatures linked in the new section were confirmed finalized on 25 Nov 2026 (MST).
+- **JSON:** `data/reports/ZBCN.json` was updated only in its `source_markdown` hash, byte count and extraction time.
+
+---
+
 ## 2026-11-24 — Nansen-month findings logged in 30 published reports (reported only)
 
 Approved by Madman ("log all in the reports"). No v3 score, badge, gate, formula, or `revenue_reaches_holders` change. ZBCN's Real Rails treasury badge stays CAUTION. Front-matter `last_updated` dates were left unchanged.

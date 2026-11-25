@@ -99,6 +99,8 @@ Later on 24 November 2026, about 4:45 PM MST, Madman approved publishing the ZBC
 
 At about 5:30 PM MST the same day, Madman approved logging every 24 November finding in the published reports. Thirty reports in the holder pass each gained a dated "Nansen-month findings" appendix with the unscored holder-mix line. ONDO, ENA, ZAMA, JST, KTA, TRAC and ZBCN also gained tracking updates with on-chain links. The topics are: the Upbit #2 ONDO holder; the 3.03B ENA from Ethena-labeled wallets; ZAMA's 67% genesis wallet; JST's on-chain-confirmed burns; KTA's Sablier vesting streams, with 192M still unexplained; TRAC's Snowbridge escrow; and the ZBCN P12 recheck. IXS and SPA holder lines identify bridge contracts, and LINK's Nansen figures were discarded under P12. No score, badge, formula, or holder-accrual change was made.
 
+On 25 November 2026, about 4:50 AM MST, Madman approved two corrections to the ZBCN treasury advisory and a new reported-only section on where the ZBCN sale proceeds went. The 40.25M ZBCN once described as sent to a "Trading Bot" were RFQ sales to a market maker for 889.29 SOL, and two hop wallets turned out to be reused. Following the cash: about 97% of the 7,141.87 SOL raised was bridged to Hyperliquid, swapped there, and returned to Solana and Ethereum, ending mainly at Binance-tagged and other exchange-scale wallets. No proceeds returned to known Zebec wallets, which the report says does not clear Zebec. No score, badge, formula, or holder-accrual change was made; the Real Rails treasury badge stays CAUTION.
+
 ---
 
 
