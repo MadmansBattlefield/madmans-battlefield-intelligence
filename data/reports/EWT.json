@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/EWT.md",
-    "sha256": "6a75582b98a0ad8b777a3117d0f2180f8e1aab29ab6fd5e586ff373688d2fc2f",
-    "bytes": 16772,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "fe65cd01aa8dcf6cfb3fd6eb874af8e02b5e0241f0197db5fad1b8a8d9a29341",
+    "bytes": 18074,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

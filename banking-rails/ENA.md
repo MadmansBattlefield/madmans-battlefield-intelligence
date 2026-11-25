@@ -282,3 +282,25 @@ Supply is well below the $7.5B fee-switch trigger, which is the adoption number 
 - **Pump day** = a daily close at least 10% above the close five days earlier. A team, foundation or treasury wallet selling (or funding a wallet that sells) on a pump day, without disclosure, fails Selling behavior.
 - Sources: [Tier A] = primary (chain reads, official docs, filings, the DEX's own API). A fact needs 1 Tier A or 2 Tier B, or it is marked [Unverified]. Unknowns say "Not found" and what would answer them.
 - Research only. Not investment advice.
+
+## Nansen-month findings, 24 Nov 2026 (MST) — reported only, unscored
+
+This appendix publishes findings from the desk's 24 Nov 2026 holder and treasury research. It does not change the v3 score, badge, gates, formula or `revenue_reaches_holders`. Labels marked **Nansen-labeled** come from one third-party labeler and are treated as leads. Under process rule P12, every Nansen balance or holder figure used here was checked against a direct on-chain read before use, and mismatches were discarded. Hypotheses are labelled **Unverified**. Times are MST.
+
+### Tracking update: who sent the ~3.03B ENA
+- **On-chain** (Ethereum receipts and `balanceOf` through a public RPC, read 24 Nov 2026, 4:00 AM MST):
+  - [`0xfa84…a078`](https://etherscan.io/address/0xfa847c23ae9bd5407a64acb2678f584ba350a078) received 1,231,886,937.76 ENA from [`0x1dc5…0901`](https://etherscan.io/address/0x1dc55d87c4143cc1829989d7ff8d580549ac0901) on 9 Jul 2026, 4:35 AM MST ([tx `0xdd43ddde…`](https://etherscan.io/tx/0xdd43ddde0c92fb68fe0149ec9a2f57b014600a72a9478f58d11b44f374ca98ca)).
+  - [`0xd332…aec9`](https://etherscan.io/address/0xd332ab00f78884a467f11ba9c7551ec32671aec9) received 914,341,725.83 ENA from [`0xa527…d666`](https://etherscan.io/address/0xa5274a5a4b4bb3b3646475886b41bf6c50edd666) on 8 Jul 2026, 3:59 PM MST ([tx `0x6eef68a1…`](https://etherscan.io/tx/0x6eef68a18314a0a8f7e40da576825b5b45bf5ce61785f8e82dbd8a7ba6046370)).
+  - [`0x6a4b…4eb8`](https://etherscan.io/address/0x6a4b4a0fce628750ca200b73c10bb211b3614eb8) received 882,795,014.87 ENA from [`0x7462…9557`](https://etherscan.io/address/0x7462f0d93260909870487f17a27c336349579557) on 8 Jul 2026, 3:53 PM MST ([tx `0x846421cc…`](https://etherscan.io/tx/0x846421cc881b1486fe884034f7a7f708fb11ff1367db75cf09947cea2b3ed3a8)).
+  - Each wallet got a 100 ENA test transfer from the same sender on 7 Jul. The total is 3,029,024,078 ENA, and nothing has left any of the three wallets.
+- **Nansen-labeled** (leads only):
+  - The senders are labelled "ENA Distributor", "Ethena" and "Ethena Labs".
+  - Recipient `0x6a4b…4eb8` is itself labelled "Ethena Labs". The other two recipients carry only the behavioural label "Token Millionaire".
+  - None of these wallets has a StablecoinX label.
+- **Reading (Unverified):** the tokens came out of Ethena-labeled wallets in July, which fits the reported StablecoinX ENA purchase. Nansen's "Ethena Labs" tag on one recipient points the other way. The owner stays **Unverified** until a primary source confirms it, such as a StablecoinX SEC filing that names custody addresses. The desk's watch label now reads "3.03B from Ethena-labeled wallets; owner Unverified".
+
+### Holder mix (top 100 holders)
+- Exchange share of the top 100 holders: **33.48%** of supply in Nansen-labeled exchange and DEX-pool wallets (Nansen holders pass, 24 Nov 2026).
+- Issuer and other named holders: Nansen-labeled "Ethena Labs: Proxy" 7.79% and two wallets Nansen labels "Ethena Labs" (5.88% and 5.59%). One of those (0x6a4b4a…4eb8) is on our watch list with owner Unverified. Nansen-labeled "Ethena Labs: sENA Token" (6.39%) is users' staked ENA.
+- Checked on-chain: `balanceOf` / `totalSupply` read on each wallet named above (public Ethereum RPC), 24 Nov 2026, about 4:35 AM MST; every figure matched. The exchange share itself is Nansen's top-100 sum and was checked on-chain only through its largest wallets.
+- Unscored: this line has no effect on the score, badge or ranking. Labels are Nansen's (a third-party labeler) and are leads, not confirmed ownership.

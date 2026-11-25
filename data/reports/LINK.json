@@ -69,9 +69,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/LINK.md",
-    "sha256": "f6a0d4d191bdfb4f470caf04f6afb07093df255e2c23aa4d5e74d20c85692345",
-    "bytes": 24574,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "5f5393aacb99e59e30daa7e9704f90d0e6f05504c2ee9a9432144e8d9d594d96",
+    "bytes": 25641,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

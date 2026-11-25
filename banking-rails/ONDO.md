@@ -295,3 +295,25 @@ layout_version: 3
 ## Research update 24 Nov 2026 (MST): rails-vs-tokens context — reported only, unscored
 
 A 24 Nov 2026 desk review of payments and TradFi rails (Tempo’s official no-native-token fee design, the HSBC–Uber Canton treasury pilot, and Zebec Super App volume claims) compared how value accrues when a project has a public token and when it does not. This ONDO report is unchanged: the products generate fees and the token has no cash-flow claim (see Revenue; `revenue_reaches_holders` remains no). The comparison table is in the ZBCN and CC 24 Nov 2026 research updates. No score, badge, formula, or holder-accrual change.
+
+## Nansen-month findings, 24 Nov 2026 (MST) — reported only, unscored
+
+This appendix publishes findings from the desk's 24 Nov 2026 holder and treasury research. It does not change the v3 score, badge, gates, formula or `revenue_reaches_holders`. Labels marked **Nansen-labeled** come from one third-party labeler and are treated as leads. Under process rule P12, every Nansen balance or holder figure used here was checked against a direct on-chain read before use, and mismatches were discarded. Hypotheses are labelled **Unverified**. Times are MST.
+
+### Tracking update: the #2 ONDO holder is an exchange wallet
+- [`0x460a…6537`](https://etherscan.io/address/0x460ae5a6666fcb9635ba99b541b31279e5966537) holds 723.87M ONDO (7.24%), making it the second-largest holder after the **Nansen-labeled** "Ondo Finance: Treasury" [`0x677f…a1a1`](https://etherscan.io/address/0x677fd4ed8ae623f2f625deb2d64f2070e46ca1a1) (5.18B, 51.8%). It is an **Upbit exchange wallet**, not an insider or team wallet:
+  - It is **Nansen-labeled** "Upbit: Hot Wallet". It was first funded by the **Nansen-labeled** "Upbit: Main Wallet" [`0x7013…8094`](https://etherscan.io/address/0x7013841424b78d17848c31d64c02fa26b01b8094) on 3 Jun 2024, 7:02 AM MST ([tx `0x7163a04b…`](https://etherscan.io/tx/0x7163a04b0eaa84b38c20d08e7b692eb69e8eb8f48863c70b4963fe64b1ff2f8d), 0.01776 ETH, confirmed on-chain).
+  - From May to Nov 2026, almost all its counterparties were five Nansen-labeled "Upbit: Main Wallet" addresses: about $190M in and $168M out. These are **Nansen USD estimates**, not on-chain figures.
+  - Etherscan separately labels it "Upbit: Cold Wallet 2" (page read 24 Nov 2026, 4:00 AM MST).
+- So ONDO's concentration figures should treat this 7.24% as exchange custody belonging to Upbit's customers. The wallet was removed from the desk's unlock-distribution watch; the Ondo Finance treasury wallet stays on it.
+- **P12 recheck (on-chain, 24 Nov 2026):**
+  - `balanceOf` read 723,893,791 ONDO (7.24%) at 5:40 AM MST. The extra +0.02M is new inflow since the 4:00 AM read, not a mismatch.
+  - The treasury share read 51.79%.
+  - The first-funding transaction matches.
+  - The USD flow figures are Nansen display values and can't be read from the chain, so they are marked as estimates.
+
+### Holder mix (top 100 holders)
+- Exchange share of the top 100 holders: **27.00%** of supply in Nansen-labeled exchange and DEX-pool wallets (Nansen holders pass, 24 Nov 2026).
+- Issuer and other named holders: Issuer-held: Nansen-labeled "Ondo Finance: Treasury" 51.79%, plus Nansen-labeled "Flux Finance: Team Multisig" 1.00%. The #2 holder (7.24%) is an Upbit exchange wallet (see the 24 Nov tracking update).
+- Checked on-chain: `balanceOf` / `totalSupply` read on each wallet named above (public Ethereum RPC), 24 Nov 2026, about 4:35 AM MST; every figure matched. The exchange share itself is Nansen's top-100 sum and was checked on-chain only through its largest wallets.
+- Unscored: this line has no effect on the score, badge or ranking. Labels are Nansen's (a third-party labeler) and are leads, not confirmed ownership.

@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/AMP.md",
-    "sha256": "ed3e5905390d995c88683bc7572f7a5c4c36387a61009aeba1ab7c10af1095e8",
-    "bytes": 14912,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "a2e80be2d462d8106a3ec00d7aba818d459baa7d58a1255aec7e18946abe431b",
+    "bytes": 16238,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

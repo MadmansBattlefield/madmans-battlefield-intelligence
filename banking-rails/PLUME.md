@@ -293,3 +293,13 @@ layout_version: 3
 ## Research update 24 Nov 2026 (MST): rails-vs-tokens context — reported only, unscored
 
 A 24 Nov 2026 desk review of payments and TradFi rails (Tempo’s official no-native-token fee design, the HSBC–Uber Canton treasury pilot, and Zebec Super App volume claims) compared how value accrues when a project has a public token and when it does not. This PLUME report is unchanged: chain fees remain small, vault fees go to users and curators, and there is no burn (see Revenue; `revenue_reaches_holders` remains no). The comparison table is in the ZBCN and CC 24 Nov 2026 research updates. No score, badge, formula, or holder-accrual change.
+
+## Nansen-month findings, 24 Nov 2026 (MST) — reported only, unscored
+
+This appendix publishes findings from the desk's 24 Nov 2026 holder and treasury research. It does not change the v3 score, badge, gates, formula or `revenue_reaches_holders`. Labels marked **Nansen-labeled** come from one third-party labeler and are treated as leads. Under process rule P12, every Nansen balance or holder figure used here was checked against a direct on-chain read before use, and mismatches were discarded. Hypotheses are labelled **Unverified**. Times are MST.
+
+### Holder mix (top 100 holders)
+- Exchange share of the top 100 holders: **26.96%** of supply in Nansen-labeled exchange and DEX-pool wallets (Nansen holders pass, 24 Nov 2026).
+- Issuer and other named holders: 45.11% sits in the Nansen-labeled "PLUME Bridge" contract (tokens locked for the bridge), not a treasury wallet. No issuer treasury identified in the top 10.
+- Checked on-chain: `balanceOf` / `totalSupply` read on each wallet named above (public Ethereum RPC), 24 Nov 2026, about 4:35 AM MST; every figure matched. The exchange share itself is Nansen's top-100 sum and was checked on-chain only through its largest wallets.
+- Unscored: this line has no effect on the score, badge or ranking. Labels are Nansen's (a third-party labeler) and are leads, not confirmed ownership.

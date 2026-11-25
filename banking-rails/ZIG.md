@@ -253,3 +253,13 @@ Because `0x6f04…` also took 200M from a Gate hot wallet, not every coin in the
 - **Pump day** = a daily close at least 10% above the close five days earlier. A team, foundation or treasury wallet selling (or funding a wallet that sells) on a pump day, without disclosure, fails Selling behavior.
 - Sources: [Tier A] = primary (chain reads, official docs, filings, the DEX's own API). A fact needs 1 Tier A or 2 Tier B, or it is marked [Unverified]. Unknowns say "Not found" and what would answer them.
 - Research only. Not investment advice.
+
+## Nansen-month findings, 24 Nov 2026 (MST) — reported only, unscored
+
+This appendix publishes findings from the desk's 24 Nov 2026 holder and treasury research. It does not change the v3 score, badge, gates, formula or `revenue_reaches_holders`. Labels marked **Nansen-labeled** come from one third-party labeler and are treated as leads. Under process rule P12, every Nansen balance or holder figure used here was checked against a direct on-chain read before use, and mismatches were discarded. Hypotheses are labelled **Unverified**. Times are MST.
+
+### Holder mix (top 100 holders)
+- Exchange share of the top 100 holders: **10.76%** of supply in Nansen-labeled exchange and DEX-pool wallets (Nansen holders pass, 24 Nov 2026).
+- Issuer and other named holders: Issuer-held: Nansen-labeled "Zignaly: Team Locked Tokens" 27.25%, plus "Zignaly: ZIG Bridge" 3.71%. The Nansen-labeled Axelar Network Gateway (bridge) holds 27.03%.
+- Checked on-chain: `balanceOf` / `totalSupply` read on each wallet named above (public Ethereum RPC), 24 Nov 2026, about 4:35 AM MST; every figure matched. The exchange share itself is Nansen's top-100 sum and was checked on-chain only through its largest wallets.
+- Unscored: this line has no effect on the score, badge or ranking. Labels are Nansen's (a third-party labeler) and are leads, not confirmed ownership.

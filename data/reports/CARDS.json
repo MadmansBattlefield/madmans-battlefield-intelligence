@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CARDS.md",
-    "sha256": "4e4e2485f96b1e2418437401d3d421ff3f0f06aacc747a8ec0a455feff486b07",
-    "bytes": 35066,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "34c336513c9f929682104771003447aeb9e07c121ea38eafea293dee57e57945",
+    "bytes": 36480,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

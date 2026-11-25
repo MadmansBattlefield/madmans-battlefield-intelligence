@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/BNKR.md",
-    "sha256": "11ee016dc8c30415f2f36fc9d5db0bdbe19547fec2c01579561d87fe131c79ae",
-    "bytes": 27421,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "89a89d4c53be9dc31d6159aaf9ce7e4bce518c88302929230de3103fed6c881f",
+    "bytes": 28828,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

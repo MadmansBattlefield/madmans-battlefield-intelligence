@@ -206,3 +206,22 @@ layout_version: 3
 - Sources: [Tier A] = primary (chain reads, official docs, filings, the DEX's own API). A fact needs 1 Tier A or 2 Tier B, or it is marked [Unverified]. Unknowns say "Not found" and what would answer them.
 
 - Research only. Not investment advice.
+
+## Nansen-month findings, 24 Nov 2026 (MST) — reported only, unscored
+
+This appendix publishes findings from the desk's 24 Nov 2026 holder and treasury research. It does not change the v3 score, badge, gates, formula or `revenue_reaches_holders`. Labels marked **Nansen-labeled** come from one third-party labeler and are treated as leads. Under process rule P12, every Nansen balance or holder figure used here was checked against a direct on-chain read before use, and mismatches were discarded. Hypotheses are labelled **Unverified**. Times are MST.
+
+### Tracking update: the 67% holder is a likely project-controlled genesis wallet
+- [`0x6aed…2b28`](https://etherscan.io/address/0x6aed4db2305b22cff494a15433975b7cc2732b28) holds **7,664,999,001 ZAMA, 67.29% of the 11,391,483,308 supply**. This was read on-chain with `balanceOf` on 24 Nov 2026, about 4:34 AM MST. It is an ordinary wallet (EOA), not a multisig or vesting contract.
+- **On-chain evidence:**
+  - It received the **entire 9,680,000,000 ZAMA genesis mint** in the token's creation transaction on 13 Nov 2025, 5:51 AM MST ([tx `0x16b15c36…`](https://etherscan.io/tx/0x16b15c36f82747a19cd44b4ac64e79a651ea67f4ac479cd85dd81b8d081c0ffa), block 23,790,400; deployer [`0x9cf3…4598`](https://etherscan.io/address/0x9cf3c00bd77d710a148133815ff0684d3b624598)).
+  - Since then it has sent 1,570,001,000 ZAMA to [`0x5c17…67d4`](https://etherscan.io/address/0x5c178c08363928c6296ed420eaeef73e21b667d4), the project-tagged "Zama 1" wallet; 440,000,000 to the **Nansen-labeled** "AuctionToken" contract (the public auction); and 5,000,000 to the deployer.
+  - Nothing else has come in except a 1-ZAMA test send. 9.68B − 2.015B = the current balance.
+- Nansen gives it only a behavioural label ("Token Millionaire").
+- **Labelled hypothesis (likely; Unverified):** this is Zama's project-controlled genesis or treasury holding wallet, i.e. the undistributed supply. Whether it is a team, foundation, ecosystem or investor-escrow allocation is **Unverified**: no official wallet disclosure was found. About two-thirds of supply in one EOA is a single-key concentration risk. The wallet is on the desk's monthly treasury watch.
+
+### Holder mix (top 100 holders)
+- Exchange share of the top 100 holders: **3.84%** of supply in Nansen-labeled exchange and DEX-pool wallets (Nansen holders pass, 24 Nov 2026).
+- Issuer and other named holders: One EOA, 0x6aed4d…2b28, holds 67.29%: the likely project-controlled genesis wallet described above (Unverified). Project-labeled contracts: Nansen-labeled Staked ZAMA (KMS) 14.16% and Staked ZAMA (Coprocessor) 8.03% (staked tokens), ZAMA Bridge 2.33%, and the ZAMA Token contract 1.06%.
+- Checked on-chain: `balanceOf` / `totalSupply` read on each wallet named above (public Ethereum RPC), 24 Nov 2026, about 4:35 AM MST; every figure matched. The exchange share itself is Nansen's top-100 sum and was checked on-chain only through its largest wallets.
+- Unscored: this line has no effect on the score, badge or ranking. Labels are Nansen's (a third-party labeler) and are leads, not confirmed ownership.

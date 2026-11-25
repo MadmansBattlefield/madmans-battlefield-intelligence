@@ -62,9 +62,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/DOVU.md",
-    "sha256": "fb158674ce09d5579b0690b2c899662ea3003f7985b24175379e8781ab58b2d2",
-    "bytes": 7384,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "997e65c0c4e68871fede37457098fe66aa49b2727e2c09b81202837baf86f838",
+    "bytes": 8206,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

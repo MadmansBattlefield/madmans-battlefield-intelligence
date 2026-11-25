@@ -260,3 +260,25 @@ Pump days come from Coinbase TRAC-USD daily closes (available from 2 Nov 2021); 
 - Sources: [Tier A] = primary (chain reads, official docs, filings, the DEX's own API). A fact needs 1 Tier A or 2 Tier B, or it is marked [Unverified]. Unknowns say "Not found" and what would answer them.
 
 - Research only. Not investment advice.
+
+## Nansen-month findings, 24 Nov 2026 (MST) — reported only, unscored
+
+This appendix publishes findings from the desk's 24 Nov 2026 holder and treasury research. It does not change the v3 score, badge, gates, formula or `revenue_reaches_holders`. Labels marked **Nansen-labeled** come from one third-party labeler and are treated as leads. Under process rule P12, every Nansen balance or holder figure used here was checked against a direct on-chain read before use, and mismatches were discarded. Hypotheses are labelled **Unverified**. Times are MST.
+
+### Tracking update: the 0xd803 contract is a Snowbridge escrow, and its fall from 126.3M to 19.1M TRAC reads as TRAC bridged back
+- **Background:** Blockworks' Token Transparency filing names Trace Labs' original treasury as [`0x20e2…4d5e`](https://etherscan.io/address/0x20e2ab81e11d4d02fe71b8cf9e8e3c9e2f714d5e). It sent 235.8M TRAC to [`0x599c…3ee1`](https://etherscan.io/address/0x599c59081d9b673bbddafbc933b669aa84ea3ee1), which sent 120.5M to the contract [`0xd803…46a8`](https://etherscan.io/address/0xd803472c47a87d7b63e888de53f03b4191b846a8) and 100M to a MultiSigWallet.
+- **What 0xd803 is (on-chain):** it is not an Aragon treasury app.
+  - Its `GATEWAY()` returns Snowbridge's Ethereum Gateway [`0x27ca…68e7`](https://etherscan.io/address/0x27ca963c279c93801941e1eb8799c23f407d68e7), which is listed in Snowbridge's docs.
+  - Aragon's `kernel()` and `appId()` revert.
+  - The Blockworks filing says TRAC is bridged to NeuroWeb through Snowbridge. So 0xd803 is most likely the Snowbridge Agent that escrows TRAC sent to NeuroWeb (**Nansen-labeled** "Snowfork: TBTC Bridge"). Which Polkadot origin controls it is **Unverified**.
+- **The 126.3M → 19.1M drop:** over the past 12 months the escrow fell from 126.3M to 19.1M TRAC. That reads as TRAC most likely bridged back to Ethereum, not a treasury spend.
+  - The largest releases were 2 × 30M to [`0x786b…a0c5`](https://etherscan.io/address/0x786b09025a77d32d3f454fc41ae34e90437fa0c5), a wallet that has never sent a transaction and still holds the 60M (**Nansen-labeled** "TRAC Custody Vaults"; custodian not named).
+  - Three unlabelled wallets received 2.5M to 2.9M each.
+- **Open question:** no exchange deposit was found, but where the roughly 107M ended up isn't disclosed, and ownership of the intermediate wallets is unverified.
+- **The filing (re-read 24 Nov 2026):** it names only the team multisig `0x20e2…4d5e`, which moved its TRAC to externally owned addresses and held under 1 TRAC on 6 Oct 2026.
+
+### Holder mix (top 100 holders)
+- Exchange share of the top 100 holders: **22.36%** of supply in Nansen-labeled exchange and DEX-pool wallets (Nansen holders pass, 24 Nov 2026).
+- Issuer and other named holders: Nansen-labeled "TRAC Custody Vaults" holds 12.00% (60M TRAC; custodian not named). The Nansen-labeled Gnosis Omni Bridge holds 13.62%.
+- Checked on-chain: `balanceOf` / `totalSupply` read on each wallet named above (public Ethereum RPC), 24 Nov 2026, about 4:35 AM MST; every figure matched. The exchange share itself is Nansen's top-100 sum and was checked on-chain only through its largest wallets.
+- Unscored: this line has no effect on the score, badge or ranking. Labels are Nansen's (a third-party labeler) and are leads, not confirmed ownership.

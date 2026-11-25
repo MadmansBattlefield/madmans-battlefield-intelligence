@@ -63,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZBCN.md",
-    "sha256": "b96c8f8e7b638339b4ceb57bc2f6fd9e3e647f3b8769143715972ca5f9c5f2c3",
-    "bytes": 70091,
-    "extracted_at": "2026-11-24 16:45 MST",
+    "sha256": "13a2c2428ee7f788a7de86b5a3ba46e7d8915d5f348254b78f488e1dff500d3e",
+    "bytes": 72439,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

@@ -64,9 +64,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZAMA.md",
-    "sha256": "7c9da5635d91dbe96a197f8584afdf2bbcc6cc55b8a94e73483681929e4c1f1e",
-    "bytes": 14896,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "cc2d7d43b6dca485f966fdf2510e1ad41a3911c66dc989482e58c0338eea81c8",
+    "bytes": 18008,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

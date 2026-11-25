@@ -65,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/AVAX.md",
-    "sha256": "02368c9ea40555336cc6fa8af118c7e964ec38b037a3216b1f6c01a8c0bd5d1d",
-    "bytes": 46658,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "246e7a0c40bb745ddbe364a93e9909ecb445f614498669693ced77902d1272ea",
+    "bytes": 47524,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

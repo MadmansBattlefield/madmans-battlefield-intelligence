@@ -97,6 +97,8 @@ On 24 November 2026, about 3:15 PM MST, Madman approved a reported-only research
 
 Later on 24 November 2026, about 4:45 PM MST, Madman approved publishing the ZBCN treasury advisory to the [ZBCN](banking-rails/ZBCN.md) report as a reported-only appendix. The advisory gives the evidence trail from the published treasury hub and its hop wallets to exchange and DEX-pool endpoints. It also covers a free on-chain trace of about 1.02B ZBCN that `71LxiE4P…` sent to `EsDV3m3x…` between June and November 2026; all 19 recipient wallets were emptied into Nansen-labeled Bitget, OKX and Gate wallets and the Orca and Meteora pools. The assumed purpose is labelled as an Unverified hypothesis, and the advisory says more investigation is needed. No score, badge, formula, or holder-accrual change was made; the Real Rails treasury badge stays CAUTION.
 
+At about 5:30 PM MST the same day, Madman approved logging every 24 November finding in the published reports. Thirty reports in the holder pass each gained a dated "Nansen-month findings" appendix with the unscored holder-mix line. ONDO, ENA, ZAMA, JST, KTA, TRAC and ZBCN also gained tracking updates with on-chain links. The topics are: the Upbit #2 ONDO holder; the 3.03B ENA from Ethena-labeled wallets; ZAMA's 67% genesis wallet; JST's on-chain-confirmed burns; KTA's Sablier vesting streams, with 192M still unexplained; TRAC's Snowbridge escrow; and the ZBCN P12 recheck. IXS and SPA holder lines identify bridge contracts, and LINK's Nansen figures were discarded under P12. No score, badge, formula, or holder-accrual change was made.
+
 ---
 
 

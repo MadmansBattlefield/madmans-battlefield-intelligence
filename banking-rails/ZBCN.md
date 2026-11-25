@@ -471,3 +471,24 @@ A 24 Nov 2026 desk comparison of payments and TradFi rails with a public-token v
   - Read the creator and terms of the stream account [`GXD2FnXi…`](https://solscan.io/account/GXD2FnXi718y9tPUd6CW1CW6khZ14DGtQc5cBpYkjm5J).
   - Trace the onward flow of the "Trading Bot" wallet [`4GQeEya6…`](https://solscan.io/account/4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS) (40.3M).
 - **Monitoring:** these wallets are on the desk's monthly treasury watch: the hub hop and feeder wallets, [`3J7n5Usm…`](https://solscan.io/account/3J7n5Usmei8BqgUHan5xuBiJkAx6M1AQQhGwbKiVdQ17), [`EsDV3m3x…`](https://solscan.io/account/EsDV3m3xUZ7g8QKa1kFdbZT18nNz8ddGJRcTK84WDQ7k) and [`H8Hr964A…`](https://solscan.io/account/H8Hr964ApEP3ie1rwRTT7wkSrgvUqJQb8oNAKspkDDfR). [`71LxiE4P…`](https://solscan.io/account/71LxiE4PvxdZxLmtGcoKAJEWKofPqYw5Wdn6PSpXHodV) (243.3M ZBCN still held) is proposed for the watch.
+
+## Nansen-month findings, 24 Nov 2026 (MST) — reported only, unscored
+
+This appendix publishes findings from the desk's 24 Nov 2026 holder and treasury research. It does not change the v3 score, badge, gates, formula or `revenue_reaches_holders`. Labels marked **Nansen-labeled** come from one third-party labeler and are treated as leads. Under process rule P12, every Nansen balance or holder figure used here was checked against a direct on-chain read before use, and mismatches were discarded. Hypotheses are labelled **Unverified**. Times are MST.
+
+### P12 recheck of earlier Nansen figures (24 Nov 2026)
+- Every Nansen number in the treasury advisory above was re-read on-chain with free Solana RPC (token-balance deltas, 24 May to 24 Nov 2026), and all of them matched:
+  - `ACjqBWqM…` → Gate: 14,475,374 ZBCN.
+  - `AqUuUe11…`: 4,773,751 ZBCN, plus 41,163 USDC and 2,211 USDT to a Binance-labeled deposit and 10,000 USDC to a Bybit-labeled deposit.
+  - `3uWEqNcN…` and `4h9huCdn…` → KuCoin deposit: 3,523,512 and 15,380,168 ZBCN.
+  - `9acGHN…` holds 5,586,647.50 ZBCN.
+  - `D9sdqZtS…`: 25,140,906 ZBCN in; about 11.02M out to Orca and Meteora.
+  - `2RBTh513…`: 23,916,149 ZBCN in.
+  - `EsDV3m3x…` → `27ems4HF…`: 642,135.63 USDC and 26,757.04 USDT.
+- One wording fix: Nansen names aggregator routers (OKX DEX, Jupiter) for `2RBTh513…`'s sales, but the chain shows the tokens ending in the Meteora and Orca pools (and 5.86M to Meteora pool account `7U8DUKAd…`). No data fix was needed.
+
+### Holder mix (top 100 holders)
+- Exchange share of the top 100 holders: **21.53%** of supply in Nansen-labeled exchange and DEX-pool wallets (Nansen holders pass, 24 Nov 2026).
+- Issuer and other named holders: No issuer-labeled wallet in the top 10 (Nansen project-labeled share 0.22%). The two unlabeled holders with 7.00% and 5.50% (H8Hr964A and 3J7n5Usm) are covered in the advisory above.
+- Checked on-chain: Solana token-account reads (`getTokenAccountsByOwner`, `getTokenSupply`, public mainnet RPC), 24 Nov 2026, about 4:35 AM MST; every figure matched. The exchange share itself is Nansen's top-100 sum and was checked on-chain only through its largest wallets.
+- Unscored: this line has no effect on the score, badge or ranking. Labels are Nansen's (a third-party labeler) and are leads, not confirmed ownership.

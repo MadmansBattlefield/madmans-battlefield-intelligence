@@ -71,9 +71,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/KTA.md",
-    "sha256": "36beea00e19c4aa953f9d65c04f4a8fecf2e5bc8f0637e09038f03706a7dcd41",
-    "bytes": 9832,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "4698760ba932dee1c63b8f8d1836ea2eb7543d523a4dca121a86dc19f39169a9",
+    "bytes": 14081,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

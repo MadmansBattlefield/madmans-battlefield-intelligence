@@ -65,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZIG.md",
-    "sha256": "3c5b583536f67bf1cc7ce6344be9089200d92f1e76fdeba10864e4b012bee876",
-    "bytes": 29162,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "56d05d01665f5513c19028290272362b3c72cd354ed08c8e9f65079db06c25f5",
+    "bytes": 30515,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

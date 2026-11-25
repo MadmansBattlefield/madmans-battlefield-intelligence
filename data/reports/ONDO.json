@@ -73,9 +73,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ONDO.md",
-    "sha256": "4ece5a4498a7292005c1bc99bac53f6638c45ce4464e3e026342eeea06447659",
-    "bytes": 37052,
-    "extracted_at": "2026-11-24 15:08 MST",
+    "sha256": "f100fa98990f63f1b834b1b1abef7b4b3dfed9f6275845736e8ccfb907bf305d",
+    "bytes": 40166,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

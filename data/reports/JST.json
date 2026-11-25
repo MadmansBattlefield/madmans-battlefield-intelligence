@@ -63,9 +63,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/JST.md",
-    "sha256": "eaa09de557fe01fb5c965c59acb15820f637d88d09c9d98f97757c6d560befab",
-    "bytes": 30606,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "baf7df4a4886f5b954a744781aa823f637a8095f0de4a364a16ad449da6131fe",
+    "bytes": 34410,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

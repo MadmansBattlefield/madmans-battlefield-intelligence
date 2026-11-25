@@ -73,9 +73,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/INJ.md",
-    "sha256": "096c6a627f344d8be1770f042de7a15d9a9aaab07a3dccffc8216d66deb1822c",
-    "bytes": 34301,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "ec4b1f893482c8400bd7b2c7cefe0cea939bf6c8a13861d0e8bebb0726e4f07e",
+    "bytes": 35166,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

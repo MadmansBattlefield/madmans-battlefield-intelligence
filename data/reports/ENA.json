@@ -66,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ENA.md",
-    "sha256": "165887b094f5009435d5bd61d11ea429bf428dbe534a424df41ac63604cf5bce",
-    "bytes": 36464,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "887bde0182d35a8ed2441307281f1830972975469572226e093dc948fa3eb988",
+    "bytes": 40017,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

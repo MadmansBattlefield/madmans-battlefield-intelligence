@@ -65,9 +65,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/CRO.md",
-    "sha256": "0f376d98e050ae2188a5d43cb7c168a3116680bcc85e80b7f1a3536265d5342a",
-    "bytes": 21249,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "11b278c492fb978f5b60d872f008d35fd617d2e0b8dfc066e6e5ae99659951f9",
+    "bytes": 22714,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

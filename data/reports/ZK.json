@@ -66,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/ZK.md",
-    "sha256": "d70b5ca2a3ace1a51917a2a7a515c188d75e7dd6bef15f16cedd3fcc76eb0a30",
-    "bytes": 23052,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "3ee2b906970333ab9f7106a5ca30de868976d34f6da7f3290a1cb2d4d64faa5d",
+    "bytes": 24409,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

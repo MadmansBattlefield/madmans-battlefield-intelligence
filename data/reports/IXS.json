@@ -62,9 +62,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/IXS.md",
-    "sha256": "0eb90f6e18c8ff93db337b0c8484358ec8c13e1bc5123763b2f68ed1167f28fe",
-    "bytes": 7704,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "7a425951c4837072d6260a4b283692768e07c07ab673d54a8b8b049e9b7687fd",
+    "bytes": 9217,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

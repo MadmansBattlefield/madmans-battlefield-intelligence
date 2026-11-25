@@ -68,9 +68,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/MNT.md",
-    "sha256": "a8f5f72463fddfea448a378ed7ff265ec255bf984988467dc770f058794640b8",
-    "bytes": 34446,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "798996a18e83be0423051151e8d11faaeab43b7ffd6c67a324b37693be07ea47",
+    "bytes": 35722,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {

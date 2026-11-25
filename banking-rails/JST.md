@@ -252,3 +252,29 @@ layout_version: 3
 - **Pump day** = a daily close at least 10% above the close five days earlier. A team, foundation or treasury wallet selling (or funding a wallet that sells) on a pump day, without disclosure, fails Selling behavior.
 - Sources: [Tier A] = primary (chain reads, official docs, filings, the DEX's own API). A fact needs 1 Tier A or 2 Tier B, or it is marked [Unverified]. Unknowns say "Not found" and what would answer them.
 - Research only. Not investment advice.
+
+## Nansen-month findings, 24 Nov 2026 (MST) — reported only, unscored
+
+This appendix publishes findings from the desk's 24 Nov 2026 holder and treasury research. It does not change the v3 score, badge, gates, formula or `revenue_reaches_holders`. Labels marked **Nansen-labeled** come from one third-party labeler and are treated as leads. Under process rule P12, every Nansen balance or holder figure used here was checked against a direct on-chain read before use, and mismatches were discarded. Hypotheses are labelled **Unverified**. Times are MST.
+
+### Tracking update: buyback-and-burn confirmed on-chain
+- **94% of the reported burns trace to one wallet.** [`TZJVQu…pEag`](https://tronscan.org/#/address/TZJVQuU3CJqBScwoxhRtkxQ7JjsNNrpEag) made five quarterly burns to the TRON black-hole address [`T9yD14…uWwb`](https://tronscan.org/#/address/T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb). Together they total **1,775,309,275 JST, 94% of the 1,881,973,007 JST the project reports as burned** as of 17 Oct 2026. Source: TronGrid TRC-20 history, read 24 Nov 2026, about 4:45 AM MST.
+
+| Date | Time (MST) | JST burned | Burn tx | Funded from |
+|---|---|---:|---|---|
+| 19 Oct 2025 | 6:08 AM | 559,890,753 | [tx `471bef34…`](https://tronscan.org/#/transaction/471bef34bb013dad46f9f132cd1fbca6bd3de584c54b7190718acd5949d4453d) | **Nansen-labeled** HTX hot wallet |
+| 14 Jan 2026 | 5:57 AM | 525,000,000 | [tx `5c7cd684…`](https://tronscan.org/#/transaction/5c7cd68483f1d32aebe1084b3dc9a6b742092bde1153db72b79a866617c14314) | **Nansen-labeled** HTX hot wallet |
+| 15 Apr 2026 | 5:03 AM | 271,337,579 | [tx `1e9f55e8…`](https://tronscan.org/#/transaction/1e9f55e8ffa8033c238f34f5ebe57f544d424f7016810dd0f1ba792392eeb1e5) | **Nansen-labeled** HTX hot wallet |
+| 17 Jul 2026 | 1:49 AM | 248,357,799 | [tx `59c47582…`](https://tronscan.org/#/transaction/59c47582de15ed1028ca29fe860a09a8149d463ce553432506b95d924256341f) | unlabelled wallet |
+| 16 Oct 2026 | 6:27 AM | 170,723,144 | [tx `0cb7d79b…`](https://tronscan.org/#/transaction/0cb7d79bd0511ed98b061edb586bf36a868cb510158071ca6fbe3dc56ff86f93) | unlabelled wallet |
+
+- Each burn was funded minutes earlier with the same amount.
+- **Not burned:** the wallet also received 300,000,000 JST from the same HTX hot wallet on 15 Apr 2026 and still holds it (299,999,995 on-chain). It also moves 200,000,001-JST lots out and back; the latest left on 22 Nov 2026, 5:28 AM MST.
+- **Labelled hypothesis (likely; Unverified for the 300M):** this is the buyback-and-burn execution wallet. What the unburned 300M is for is not known. The wallet is on the desk's monthly treasury watch.
+- **Re-based percentages:** Nansen's holder percentages use a smaller supply base (about 8.13B). The holder-mix lines below are re-based on on-chain `totalSupply()` (9,793,336,268 JST).
+
+### Holder mix (top 100 holders)
+- Exchange share of the top 100 holders: **about 10.7%** of on-chain supply in Nansen-labeled exchange and DEX-pool wallets (Nansen shows 12.92% on its smaller supply base; holders pass, 24 Nov 2026).
+- Issuer and other named holders: No issuer treasury is labeled in the top 10. Nansen-labeled JustLend DAO contracts (WJST and jJST) hold 9.19% and 0.84% of on-chain supply (users' lending deposits). Two unlabeled wallets hold 4.08% and 3.06%. The 3.06% one is the burn wallet described above; the 4.08% one has no confirmed attribution.
+- Checked on-chain: TronGrid account reads and on-chain `totalSupply()`, 24 Nov 2026, about 4:34 AM MST; amounts matched, but Nansen's percentages use a smaller supply base (about 8.13B), so they are re-based here on on-chain total supply (9,793,336,268 JST).
+- Unscored: this line has no effect on the score, badge or ranking. Labels are Nansen's (a third-party labeler) and are leads, not confirmed ownership.

@@ -20,6 +20,26 @@ A project-growth narrative, with counts, is in [TIMELINE.md](TIMELINE.md).
 
 ---
 
+## 2026-11-24 — Nansen-month findings logged in 30 published reports (reported only)
+
+Approved by Madman ("log all in the reports"). No v3 score, badge, gate, formula, or `revenue_reaches_holders` change. ZBCN's Real Rails treasury badge stays CAUTION. Front-matter `last_updated` dates were left unchanged.
+
+Each of the 30 reports in the 24 Nov holder pass gets a dated appendix, "Nansen-month findings, 24 Nov 2026 (MST)". The reports are AMP, AVAX, AXL, BNKR, BP, CARDS, CFG, CRO, DOVU, ENA, EWT, INJ, IXS, JST, KTA, LINK, MNT, ONDO, PLUME, SHX, SKY, SOL, SPA, SUI, SYRUP, TRAC, ZAMA, ZBCN, ZIG and ZK. Every appendix includes the unscored holder-mix line for the top 100 holders. Some also carry a tracking update with on-chain transaction and address links:
+
+- **[ONDO](banking-rails/ONDO.md):** the #2 holder (7.24%) is an Upbit exchange wallet. The USD flows are marked as Nansen estimates, and the P12 recheck results are included.
+- **[ENA](banking-rails/ENA.md):** the ~3.03B ENA in three wallets came from Ethena-labeled senders in July 2026. The owner is Unverified (StablecoinX is not confirmed).
+- **[ZAMA](banking-rails/ZAMA.md):** the 67.29% genesis-mint wallet is labelled as a likely project-controlled treasury (Unverified).
+- **[JST](banking-rails/JST.md):** five quarterly black-hole burns (1,775,309,275 JST, 94% of reported burns) are confirmed on-chain from one wallet. 300M is still unburned, and Nansen percentages are re-based on on-chain supply.
+- **[KTA](banking-rails/KTA.md):** the monthly releases are withdrawals from four non-cancelable Sablier vesting streams (600M KTA). About 192M that moved on through fresh wallets is still unexplained.
+- **[TRAC](banking-rails/TRAC.md):** `0xd803…46a8` is a Snowbridge escrow. Its fall from 126.3M to 19.1M TRAC reads as TRAC bridged back; where about 107M ended up is still open.
+- **[IXS](banking-rails/IXS.md) and [SPA](banking-rails/SPA.md):** the largest holders, about 40% each, are bridge contracts (`L1ERC20Gateway` and Hyperlane `HypERC20Collateral`), not treasuries.
+- **[LINK](banking-rails/LINK.md):** the Nansen holder figures failed the on-chain check (deployer 3.0B on Nansen vs about 13 LINK on-chain) and were discarded under P12.
+- **[ZBCN](banking-rails/ZBCN.md):** the P12 recheck of every Nansen figure in the treasury advisory (all matched) and the holder-mix line. The H-22 trace was published earlier the same day.
+
+Nansen labels are treated as leads from one third-party labeler, and every Nansen balance or holder figure was checked on-chain before use (rule P12). All linked Ethereum, Base and TRON transactions were confirmed on-chain on 24 Nov 2026 (MST). In each `data/reports/*.json`, only the `source_markdown` hash, byte count and extraction time changed.
+
+---
+
 ## 2026-11-24 — ZBCN treasury advisory published (reported only; badge stays CAUTION)
 
 Approved by Madman. No v3 score, badge, formula, gate, or `revenue_reaches_holders` change. The Real Rails treasury badge for ZBCN stays **CAUTION**, and the front-matter `last_updated` date was left as it was.

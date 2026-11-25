@@ -66,9 +66,9 @@
   "layout_version": 3,
   "source_markdown": {
     "path": "banking-rails/SUI.md",
-    "sha256": "227d47e70252d55614b45eb8f5780526a7470fba2df89fa60abb9f18e66de275",
-    "bytes": 24620,
-    "extracted_at": "2026-11-17 05:38 MST",
+    "sha256": "8ef79866a334e450e9b9cb96c270b4aa4f15034a88c142c588bbe6aabf3d85e9",
+    "bytes": 25485,
+    "extracted_at": "2026-11-24 17:30 MST",
     "timezone_label": "MST"
   },
   "retrieval": {
